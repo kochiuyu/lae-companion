@@ -4,7 +4,7 @@ as_of: "2026-09-07"
 ---
 
 **The Chinese University of Hong Kong**  
-Department of Operations and Technology  
+Department of Decisions, Operations and Technology  
 Master of Aviation Management  
 
 **Course:** DOTE5891 Business Analysis of Low-Altitude Economy  
