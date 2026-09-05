@@ -1,6 +1,7 @@
 ---
 title: "Tracker"
 as_of: "2026-09-05"
+toc-title: "Sections"
 ---
 
 Start with the plain-language section. Use the source tables at the bottom only when you need a link or a date.
@@ -41,9 +42,9 @@ Guangdong has a published policy target. Shenzhen has run **domestic** medical-s
 
 Do not write that the government estimates HK$350 billion. Do not invent a Hong Kong vertiport statute, a published Action Plan, or a completed cross-boundary corridor.
 
-## Source tables (use these when you cite)
+## Source tables
 
-## Who runs low-altitude policy in Hong Kong
+## Who runs policy
 
 These are the government bodies and the main Hong Kong statute.
 
@@ -54,7 +55,7 @@ These are the government bodies and the main Hong Kong statute.
 | [CAD](https://www.cad.gov.hk/english/sua.html) | Cap.448G regulator; sandbox ACs (AC-013 / AC-017) | Ongoing | CAD | T1/T2 |
 | [Action Plan on Developing Low-Altitude Economy](https://www.policyaddress.gov.hk/2025/en/p153.html) | PA 2025 ¶154 *will formulate*; STL drafting target **end-2026**; **text OPEN** | 2025 | CE / Government | T1/T2 |
 
-## Two trial programmes (do not merge)
+## Two trial programmes
 
 The first Sandbox selected 38 of 72 proposals (20 March 2025). Sandbox X is a later, harder programme. Cross-boundary results are not yet published.
 
@@ -65,7 +66,7 @@ The first Sandbox selected 38 of 72 proposals (20 March 2025). Sandbox X is a la
 
 > Regulatory Sandbox ≠ Sandbox X. Counts are **38** + module batches — not a blended “32.”
 
-## Radio spectrum for sandbox flights
+## Spectrum
 
 The 1.4 GHz band is licensed for Regulatory Sandbox projects, not for general commercial use.
 
@@ -73,7 +74,7 @@ The 1.4 GHz band is licensed for Regulatory Sandbox projects, not for general co
 |-------|---------|------|--------|------|
 | [1430–1444 MHz UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) | Confined to LAE Regulatory Sandbox projects; GN-1/2025 | **2025-10-27** | CA / OFCA | T1/T2 |
 
-## Figures you may cite, and how
+## The HK$350 billion figure
 
 OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, not a government forecast.
 
@@ -87,7 +88,7 @@ OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, n
 
 **Banned:** “Government estimates HK$350bn…” / classroom tickets, HHI, CASK, flights / vendor “GBA trillion.”
 
-## Mainland rules and when they take effect
+## Mainland rules
 
 For operations today, cite 国令761 and CCAR-92. The 2025 Civil Aviation Law is in force from 1 July 2026; the ATM Chapter 12 text is still a draft.
 
@@ -103,7 +104,7 @@ Ops today: cite **761 + CCAR-92**. Law Art. 258 defers UAS rules to State Counci
 
 CAAC ATM Rules draft is under consultation through **2026-09-11**. Do not treat as effective law.
 
-## Greater Bay Area: what is documented
+## Greater Bay Area
 
 A domestic Shenzhen blood-delivery trial is documented. An operating Shenzhen–Hong Kong medical corridor is not.
 
@@ -113,7 +114,7 @@ A domestic Shenzhen blood-delivery trial is documented. An operating Shenzhen–
 | [Shenzhen domestic blood UAS](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html) | Evidenced; **not** cross-border | 2024-01-19 | T1/T2 |
 | SZ–HK medical corridor **operational** | **NOT evidenced** ([TLB 2026-06-24](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html): planned/trial under Sandbox X) | 2026-06-24 | T1/T3 |
 
-## Still unknown (do not invent)
+## What not to write
 
 No official text yet for the Action Plan, a Hong Kong vertiport statute, or Sandbox X cross-boundary results.
 
