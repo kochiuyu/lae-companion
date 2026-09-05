@@ -3,13 +3,43 @@ title: "Tracker"
 as_of: "2026-09-05"
 ---
 
-This page is the course scoreboard for official facts. Use it before you cite a number or a programme name in a memo.
+## In plain language
 
-Read the short note above each table, then the table.
+Hong Kong is trying to build a **low-altitude economy**: flying tasks such as inspection, delivery and, later, other services, generally below 1,000 metres. This page records what the government has actually decided. It is not a market forecast.
 
-Sandbox (first cohort) and Sandbox X are different programmes. Do not add their counts together.
+### Who is in charge?
 
-T1 = statute or gazette. T2 = government paper or press release that cites a decision. T3 = research with named assumptions (including OHKF). T4–T5 do not belong here.
+A **Working Group**, led by the Deputy Financial Secretary, coordinates policy. The **Civil Aviation Department** enforces the Small Unmanned Aircraft Order (Cap. 448G), the main Hong Kong law for drones. A full **Action Plan** has been promised; the text is not published yet.
+
+### Two different trial schemes
+
+**Regulatory Sandbox** (first cohort). Industry and public bodies proposed 72 projects. The government selected **38** on 20 March 2025. These are supervised trials, not an open market. Beyond-visual-line-of-sight flying in this scheme follows Civil Aviation Department circular AC-013.
+
+**Regulatory Sandbox X** is a later, harder scheme (announced November 2025). It covers more complex tests, including traffic-management demonstrations and possible cross-boundary flights. Circular AC-017 covers cross-boundary trials inside Sandbox X. Results of those cross-boundary trials have **not** been published.
+
+Do not add 38 to the Sandbox X module counts. They are not the same programme.
+
+### Radio spectrum
+
+From 27 October 2025, a dedicated band (**1430–1444 MHz**) can be licensed for Sandbox projects. It is not a general public mobile band.
+
+### The HK$350 billion figure
+
+Our Hong Kong Foundation, a think tank, projected about **HK$350 billion** of **industry value-added in Hong Kong by 2050**. That is not a government forecast and not this year’s output. If you use the number, name the Foundation, the metric, the place, and the year 2050.
+
+### Mainland rules, in one paragraph
+
+Unmanned-aircraft operations on the Mainland still rest on the 2024 State Council rules and CCAR-92. A revised Civil Aviation Law took effect on **1 July 2026**. A 2026 draft on air-traffic rules (Chapter 12) is only a consultation text.
+
+### Greater Bay Area
+
+Guangdong has a published policy target. Shenzhen has run **domestic** medical-sample flights. An **operating** Shenzhen–Hong Kong medical drone corridor is **not** documented. Officials have described it as planned or on trial under Sandbox X.
+
+### What you still must not write
+
+Do not write that the government estimates HK$350 billion. Do not invent a Hong Kong vertiport statute, a published Action Plan, or a completed cross-boundary corridor.
+
+## Source tables (use these when you cite)
 
 ## Who runs low-altitude policy in Hong Kong
 
