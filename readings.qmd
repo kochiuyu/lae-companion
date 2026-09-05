@@ -1,0 +1,25 @@
+---
+title: "Readings"
+as_of: "2026-09-07"
+---
+
+Primary documents only. Read the official text, not a press summary.
+
+## Week 1 — Foundations
+
+- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (below 1,000 m) and the Working Group.
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/media/reports/taking-flight-forging-a-future-for-hong-kongs-low-altitude-economy) — September 2025. Source of the ~HK$350 billion value-added projection for 2050.
+
+## Week 7 — Regulation and sandbox
+
+- [CAD, Small Unmanned Aircraft Order (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — full effect 1 December 2022; Category C to 150 kg from July 2025.
+- [CAD AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) — 31 December 2025. BVLOS permission inside the first Regulatory Sandbox.
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Sandbox X.
+- [CAD list of SUA publications](https://www.cad.gov.hk/english/sua_new.html) — current Advisory Circulars.
+- [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. 38 of 72 projects.
+- [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz from 27 October 2025.
+- [GIA, launch of the UAS (Private) Licence](https://www.info.gov.hk/gia/general/202510/27/P2025102700178.htm) — 27 October 2025.
+
+## National comparator
+
+- [CAAC, ATM Rules draft (consultation)](http://www.caac.gov.cn/PHONE/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.

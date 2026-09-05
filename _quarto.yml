@@ -11,6 +11,8 @@ website:
         text: Tracker
       - href: glossary.qmd
         text: Glossary
+      - href: readings.qmd
+        text: Readings
       - href: briefings.qmd
         text: Briefings
 
