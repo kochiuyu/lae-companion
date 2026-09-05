@@ -1,5 +1,5 @@
 ---
-title: "DOTE5891 Low-Altitude Economy Companion"
+title: "Low-Altitude Economy Companion"
 as_of: "2026-09-07"
 ---
 
@@ -17,6 +17,7 @@ This site is the evidence companion for the course. Lectures, numerical examples
 
 - **Tracker** — institutions, Sandbox versus Sandbox X, and audited figures.  
 - **Glossary** — short bilingual definitions tied to course weeks.  
+- **Readings** — primary documents by week.  
 - **Briefings** — dated packets. Read the newest block first.
 
 **Rules of use**
