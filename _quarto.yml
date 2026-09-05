@@ -19,7 +19,7 @@ website:
         text: News
   page-footer:
     left: "Evidence companion. Lectures stay in class."
-    right: "CUHK · Operations and Technology"
+    right: "CUHK · Decisions, Operations and Technology"
 
 format:
   html:
