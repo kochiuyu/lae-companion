@@ -32,3 +32,9 @@ Passed 27 December 2025; Order No. 65; effective 1 July 2026. Unmanned-aircraft 
 
 **Industry value-added (产业增加值)**  
 Accounting concept used by Our Hong Kong Foundation for the ~HK$350 billion figure: Hong Kong only, horizon 2050, September 2025 report. Not government output and not a Mainland 规模 total. Week 1 / Week 9.
+
+**CAAC ATM Rules (draft) / 《民用航空空中交通管理规则（征求意见稿）》**  
+NEW watch term. Published **2026-08-11**; comments to **2026-09-11**; Chapter 12 无人驾驶航空器. Not yet law. (WEEKLY-2026-09-05)
+
+**HKCA 1072**  
+Do **not** map to the 1.4 GHz UAS (Private) Licence (GN-1/2025). HKCA 1072 Iss.2 (Aug 2026) is E-UTRA base station — different instrument. (WEEKLY-2026-09-05)

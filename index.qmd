@@ -9,4 +9,4 @@ Numbers on this site are dated. A figure without a date, issuer, and source tier
 
 Regulatory Sandbox (first cohort) is not the same programme as Sandbox X. The tracker keeps those counts separate.
 
-Last updated: 5 September 2026 (INIT packet).
+Last updated: 5 September 2026 (WEEKLY-2026-09-05).

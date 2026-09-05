@@ -49,8 +49,11 @@ Packet: `INIT-baseline-dossier-2026-09-05` · as of **2026-09-05**
 | Interim UAS Ordinance 国令761 | **2024-01-01** | T1 |
 | CCAR-92 | **2024-01-01** | T1 |
 | National Airspace Basic Classification (G / W) | Released **2023-12-21** | T1 |
+| CAAC ATM Rules (征求意见稿) — Ch.12 UAS | **Draft** **2026-08-11** (comments to **2026-09-11**); CAAC; **not** promulgated; not Art.34/225 decree; [source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) | T1 |
 
 Ops today: cite **761 + CCAR-92**. Law Art. 258 defers UAS rules to State Council/CMC.
+
+**Watchnote (WEEKLY-2026-09-05):** CAAC ATM Rules draft under consultation through **2026-09-11** (WL-06a). Do not treat as effective law.
 
 ## GBA — evidenced only
 

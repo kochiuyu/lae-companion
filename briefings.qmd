@@ -3,7 +3,7 @@ title: "Briefings"
 as_of: "2026-09-05"
 ---
 
-## 2026-09-07
+## 2026-09-05 — WEEKLY-2026-09-05
 
 First WEEKLY after today’s INIT. **HK side: no in-window primary changes** on Action Plan, Sandbox X cross-boundary, ACs, spectrum, WG/LegCo, Cap.448G s.12(2)(c), or HK$350bn attribution.
 
@@ -28,7 +28,7 @@ First WEEKLY after today’s INIT. **HK side: no in-window primary changes** on 
 | New GBA corridor approvals | UNCHANGED | None NEW T1 in-window |
 
 
-## 2026-09-05
+## 2026-09-05 — INIT
 
 Baseline dossier for the DOTE5891 companion site, built from **primary and official sources**. Lecture slides were **not** summarised; they only supplied claim IDs to chase.
 
