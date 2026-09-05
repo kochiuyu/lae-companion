@@ -1,0 +1,65 @@
+---
+title: "Tracker"
+as_of: "2026-09-05"
+---
+
+Packet: `INIT-baseline-dossier-2026-09-05` · as of **2026-09-05**
+
+## Policy / institutions (HK)
+
+| Element | Finding | Date(s) | Issuer | Tier |
+|---------|---------|---------|--------|------|
+| Working Group on Developing Low-altitude Economy | Head = DFS; Deputy = STL; Secretariat = TLB; first meeting **2024-11-12** | 2024 PA ¶82; 2024-11-12 | CE / WG | T1/T2 |
+| Cap. 448G (SUA Order) | Full effect **2022-12-01**; Cat C ≤150 kg from **2025-07-18** | 2021–2025 | CE in Council | T1 |
+| CAD | Cap.448G regulator; sandbox ACs (AC-013 / AC-017) | Ongoing | CAD | T1/T2 |
+| Action Plan on Developing Low-Altitude Economy | PA 2025 ¶154 *will formulate*; STL drafting target **end-2026**; **text OPEN** | 2025 | CE / Government | T1/T2 |
+
+## Sandbox tracker
+
+| Programme | Counts / dates | Issuer | Tier | Note |
+|-----------|----------------|--------|------|------|
+| **Regulatory Sandbox** | Apps from 2024-11-13; **38** of **72** selected (PR **2025-03-20**) | WG / TLB | T2 | AC-013 = BVLOS in Sandbox (PDF 2025-12-31, T1) |
+| **Regulatory Sandbox X** | Launch **2025-11-24**; batches UTM **15** / UCA **4** / shared **5** / others **9**; cross-boundary **OPEN** | CE / WG / TLB | T1/T2 | AC-017 = cross-boundary in Sandbox X (PDF 2026-04-24, T1) |
+
+> Regulatory Sandbox ≠ Sandbox X. Counts are **38** + module batches — not a blended “32.”
+
+## Spectrum
+
+| Field | Finding | Date | Issuer | Tier |
+|-------|---------|------|--------|------|
+| 1430–1444 MHz UAS (Private) Licence | Confined to LAE Regulatory Sandbox projects; GN-1/2025 | **2025-10-27** | CA / OFCA | T1/T2 |
+
+## Number audits
+
+| Number | Issuer | Date | Metric | Geography | Tier | Public site |
+|--------|--------|------|--------|-----------|------|-------------|
+| ~HK$350bn by 2050 | **OHKF** | Sep 2025 (launch 2025-09-04) | Industry **VA** | HK only | T3 | Allowed **only** with OHKF attribution |
+| Sandbox 38 / 72 | TLB / GIA | 2025-03-20 | Selected projects | HK | T2 | Allowed |
+| Sandbox X 15+4+5+9 | TLB | 2025–2026 | Selected modules | HK | T2 | Allowed; cross-boundary OPEN |
+| CCID RMB 505.95bn (2023) / 1064.46bn (2026) | CCID via 2024 PA briefing | 2024 | Mainland **规模** | Mainland | T2 citing T3 | Not an HK VA forecast |
+| Guangdong >3000亿元 by 2026 | 粤府办〔2024〕6号 | 2024-05-21 | **Policy target** | Guangdong | T1 as target | Target ≠ outturn |
+
+**Banned:** “Government estimates HK$350bn…” / classroom tickets, HHI, CASK, flights / vendor “GBA trillion.”
+
+## National legal spine (effective dates)
+
+| Instrument | Effective | Tier |
+|------------|-----------|------|
+| Civil Aviation Law (2025 revision), Order No. 65 | **2026-07-01** | T1 |
+| Interim UAS Ordinance 国令761 | **2024-01-01** | T1 |
+| CCAR-92 | **2024-01-01** | T1 |
+| National Airspace Basic Classification (G / W) | Released **2023-12-21** | T1 |
+
+Ops today: cite **761 + CCAR-92**. Law Art. 258 defers UAS rules to State Council/CMC.
+
+## GBA — evidenced only
+
+| Item | Status | Date | Tier |
+|------|--------|------|------|
+| 粤府办〔2024〕6号 | Evidenced (incl. 3000亿元 **target**) | 2024-05-21 | T1 |
+| Shenzhen domestic blood UAS | Evidenced; **not** cross-border | 2024-01-19 | T1/T2 |
+| SZ–HK medical corridor **operational** | **NOT evidenced** (TLB 2026-06-24: planned/trial under Sandbox X) | 2026-06-24 | T1/T3 |
+
+## OPEN / do not invent
+
+WG gazetted instrument beyond PA + first meeting; Cap.448G s.12(2)(c) appointment; Sandbox X cross-boundary results; Action Plan text; Pigovian drone taxes; Vertiport HK statutory definition.

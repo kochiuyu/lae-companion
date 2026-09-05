@@ -1,0 +1,34 @@
+---
+title: "Glossary"
+as_of: "2026-09-05"
+---
+
+**Low Altitude Economy, LAE (低空经济)**  
+Hong Kong working definition: economic activity generally below 1,000 metres (LegCo CB(3)933/2024). Mainland statistical definition: NDRC 发改低空〔2025〕1676号 (22 December 2025). Week 1.
+
+**Regulatory Sandbox (监管沙盒)**  
+First-cohort Hong Kong trial programme. Applications from 13 November 2024; 38 of 72 proposals selected (TLB/GIA, 20 March 2025). BVLOS in this programme is covered by CAD AC-013. Week 1 / Week 7.
+
+**Regulatory Sandbox X (监管沙盒X)**  
+Advanced programme launched 24 November 2025. Separate from the first Sandbox. Module batches reported as UTM 15, unconventional aircraft 4, shared platform 5, others 9; cross-boundary results still open. CAD AC-017 covers cross-boundary operations in Sandbox X. Week 1 / Week 7.
+
+**Small Unmanned Aircraft Order, Cap. 448G (小型无人驾驶飞机令)**  
+Hong Kong statute for small unmanned aircraft. Full effect 1 December 2022; Category C up to 150 kg from 18 July 2025. Week 7.
+
+**Civil Aviation Department, CAD (民航处)**  
+Hong Kong regulator under Cap. 448G and issuer of the sandbox Advisory Circulars. Week 1 / Week 7.
+
+**Working Group on Developing Low-altitude Economy (发展低空经济工作组)**  
+Cross-government group headed by the Deputy Financial Secretary; first meeting 12 November 2024. Week 1.
+
+**UAS (Private) Licence, 1430–1444 MHz**  
+Dedicated unmanned-aircraft spectrum, confined to LAE Regulatory Sandbox projects, from 27 October 2025 (CA/OFCA). Week 7.
+
+**Beyond Visual Line of Sight, BVLOS**  
+Operation beyond the remote pilot’s sight. In the first Sandbox, the relevant circular is CAD AC-013. Week 7.
+
+**Civil Aviation Law of the PRC, 2025 revision (中华人民共和国民用航空法)**  
+Passed 27 December 2025; Order No. 65; effective 1 July 2026. Unmanned-aircraft operating rules remain under State Council instruments (国令761 and CCAR-92, both effective 1 January 2024) until further rules are made. Week 7.
+
+**Industry value-added (产业增加值)**  
+Accounting concept used by Our Hong Kong Foundation for the ~HK$350 billion figure: Hong Kong only, horizon 2050, September 2025 report. Not government output and not a Mainland 规模 total. Week 1 / Week 9.

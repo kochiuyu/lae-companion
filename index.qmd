@@ -1,0 +1,12 @@
+---
+title: "Low Altitude Economy Companion"
+as_of: "2026-09-05"
+---
+
+This site is an evidence companion for DOTE5891 Business Analysis of Low-Altitude Economy. Lectures remain in class.
+
+Numbers on this site are dated. A figure without a date, issuer, and source tier should not be used in a memo.
+
+Regulatory Sandbox (first cohort) is not the same programme as Sandbox X. The tracker keeps those counts separate.
+
+Last updated: 5 September 2026 (INIT packet).

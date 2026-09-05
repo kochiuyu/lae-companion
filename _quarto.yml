@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "DOTE5891 LAE Companion"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: tracker.qmd
+        text: Tracker
+      - href: glossary.qmd
+        text: Glossary
+      - href: briefings.qmd
+        text: Briefings
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    page-layout: article
