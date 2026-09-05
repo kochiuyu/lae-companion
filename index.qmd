@@ -21,6 +21,17 @@ This site is the evidence companion for the course. Lectures, numerical examples
 - **Briefings** — dated packets. Read the newest block first.
 - **News** — press items, at most five a week. For orientation only. Do not cite News for official counts.
 
+## Hong Kong dates at a glance
+
+- 2024 — Policy Address sets the Working Group and the “below 1,000 m” working definition.
+- Dec 2022 / Jul 2025 — Small Unmanned Aircraft Order in force; Category C to 150 kg.
+- Mar 2025 — First Regulatory Sandbox: 38 of 72 projects.
+- Oct 2025 — 1.4 GHz licence for Sandbox flights.
+- Nov 2025 — Sandbox X announced.
+- Apr 2026 — CAD AC-017 (cross-boundary trials inside Sandbox X).
+- Jul 2026 — Mainland Civil Aviation Law revision in effect.
+- End-2026 — Action Plan promised; text not yet published.
+
 **Rules of use**
 
 A number without a date, an issuer, and a source tier does not belong in a memo.  
