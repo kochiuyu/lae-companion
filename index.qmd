@@ -19,11 +19,13 @@ This site is the evidence companion for the course. Lectures, numerical examples
 - **Glossary** — short bilingual definitions tied to course weeks.  
 - **Readings** — primary documents by week.  
 - **Briefings** — dated packets. Read the newest block first.
+- **News** — press items, at most five a week. For orientation only. Do not cite News for official counts.
 
 **Rules of use**
 
 A number without a date, an issuer, and a source tier does not belong in a memo.  
 Regulatory Sandbox (first cohort) is not Regulatory Sandbox X.  
 The figure of about HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection for Hong Kong, not a government outturn.
+Press stories on the News page are not a substitute for Tracker.
 
 Last updated: 7 September 2026.
