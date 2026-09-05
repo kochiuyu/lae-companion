@@ -3,7 +3,7 @@ title: "Briefings"
 as_of: "2026-09-05"
 ---
 
-Dated research notes for the course. Read the newest date first. These notes record official sources. They are not lecture slides.
+Dated instructor notes. Read the newest date first. Not lecture slides.
 
 ## 2026-09-05 — WEEKLY-2026-09-05
 

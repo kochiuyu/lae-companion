@@ -3,6 +3,8 @@ title: "Tracker"
 as_of: "2026-09-05"
 ---
 
+Start with the plain-language section. Use the source tables at the bottom only when you need a link or a date.
+
 ## In plain language
 
 Hong Kong is trying to build a **low-altitude economy**: flying tasks such as inspection, delivery and, later, other services, generally below 1,000 metres. This page records what the government has actually decided. It is not a market forecast.

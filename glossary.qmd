@@ -3,6 +3,8 @@ title: "Glossary"
 as_of: "2026-09-07"
 ---
 
+Course and official meanings, in week order. Legal terms cite a statute or circular. CASK and HHI are course terms; do not treat lecture numbers as data.
+
 ## Week 1
 
 **Low Altitude Economy, LAE (低空经济)**  
