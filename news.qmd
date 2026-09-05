@@ -7,6 +7,18 @@ Press items about the low-altitude economy, for orientation only.
 
 Do not use this page as a source for official project counts or for the HK$350 billion figure. Cite Tracker instead.
 
+## Update schedule
+
+Every Sunday, 18:00 Hong Kong Time.
+
+LAE-Intel drafts at most five Hong Kong or Greater Bay Area items from the previous seven days.
+
+Items that lack a date or an outlet are dropped.
+
+This page is updated only after the course instructor approves the draft.
+
+Official counts and the HK$350 billion figure stay on Tracker.
+
 ## How items appear
 
 Each item: date, outlet, one sentence, official document to read instead (if any).
