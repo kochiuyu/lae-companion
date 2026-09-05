@@ -1,6 +1,6 @@
 ---
 title: "Glossary"
-as_of: "2026-09-05"
+as_of: "2026-09-07"
 ---
 
 **Low Altitude Economy, LAE (低空经济)**  
@@ -38,3 +38,69 @@ NEW watch term. Published **2026-08-11**; comments to **2026-09-11**; Chapter 12
 
 **HKCA 1072**  
 Do **not** map to the 1.4 GHz UAS (Private) Licence (GN-1/2025). HKCA 1072 Iss.2 (Aug 2026) is E-UTRA base station — different instrument. (WEEKLY-2026-09-05)
+
+**Value chain (价值链)**  
+Stages from vehicle and infrastructure to operations and supporting services. Course. Week 1.
+
+**Supporting services**  
+The segment that accounts for most of the 2050 value-added projection. OHKF. Week 1.
+
+**Economies of density**  
+Average cost falls as flights share the same corridor or vertiport. Course. Week 2.
+
+**HHI**  
+Sum of squared shares; classroom calculations stay off this site. Course. Week 2.
+
+**CASK / CPMK**  
+Cost per available seat-km or per available payload-km. Lecture numbers are not data. Course. Week 3.
+
+**CAPEX / OPEX**  
+Upfront assets versus recurring operating cost. Course. Week 3.
+
+**Generalised cost**  
+Money plus time valued at the passenger’s value of time. Course. Week 4.
+
+**NASA UAM market study constraints**  
+Legal, weather, infrastructure and acceptance shrink the unconstrained market. NASA 2018. Week 4.
+
+**Vertiport**  
+2025 Policy Address names planning of take-off and landing sites. Hong Kong has no dedicated statutory definition yet (OPEN). 2025 PA. Week 5.
+
+**Throughput**  
+Movements a site can handle per hour after safety separation. Course. Week 5.
+
+**FaaS / platform model**  
+Fly-as-a-service or matching, as distinct from owning the fleet. Course. Week 6.
+
+**LAE insurance task force**  
+Industry group using Sandbox data. 2025 PA ¶157. Week 6.
+
+**Advanced operations**  
+Operations that need prior CAD permission. Cap. 448G / CAD. Week 7.
+
+**Unconventional aircraft**  
+Intended dedicated rules for craft over 150 kg; legislation OPEN. 2025 PA ¶154. Week 7.
+
+**UTM**  
+Smart low-altitude traffic-management system, planned infrastructure, not yet a Hong Kong statute. 2025 PA ¶154. Week 8.
+
+**Airspace classification G / W**  
+Mainland national classification (2023); do not treat as Hong Kong law. Mainland national classification. Week 8.
+
+**Unconstrained versus constrained market**  
+Theoretical demand versus demand after barriers. NASA study. Week 9.
+
+**规模 versus value-added**  
+Mainland scale totals are not the same metric as OHKF industry value-added. Course / OHKF contrast. Week 9.
+
+**Externality**  
+Noise, risk, or carbon not priced in the ticket. Course. Week 10.
+
+**Pigovian instrument**  
+Tax, charge or subsidy aimed at that externality; Hong Kong has no drone congestion tax in force. Course. Week 10.
+
+**Action Plan on Developing Low-Altitude Economy**  
+2025 PA ¶154; text OPEN. 2025 PA ¶154. Week 11–12.
+
+**Interoperability / standards**  
+Ability of vehicles, UTM and sites to work to a common rule set; cite PA infrastructure language only. Course / 2025 PA. Week 11–12.
