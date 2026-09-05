@@ -1,12 +1,28 @@
 ---
-title: "Low Altitude Economy Companion"
-as_of: "2026-09-05"
+title: "DOTE5891 Low-Altitude Economy Companion"
+as_of: "2026-09-07"
 ---
 
-This site is an evidence companion for DOTE5891 Business Analysis of Low-Altitude Economy. Lectures remain in class.
+**The Chinese University of Hong Kong**  
+Department of Operations and Technology  
+Master of Aviation Management  
 
-Numbers on this site are dated. A figure without a date, issuer, and source tier should not be used in a memo.
+**Course:** DOTE5891 Business Analysis of Low-Altitude Economy  
+**Instructor:** Chiu Yu Ko  
+**First offering:** December 2026  
 
-Regulatory Sandbox (first cohort) is not the same programme as Sandbox X. The tracker keeps those counts separate.
+This site is the evidence companion for the course. Lectures, numerical examples, and assignments stay in class. Use these pages when you need a dated official source, a checked number, or a term.
 
-Last updated: 5 September 2026 (WEEKLY-2026-09-05).
+**How to use the site**
+
+- **Tracker** — institutions, Sandbox versus Sandbox X, and audited figures.  
+- **Glossary** — short bilingual definitions tied to course weeks.  
+- **Briefings** — dated packets. Read the newest block first.
+
+**Rules of use**
+
+A number without a date, an issuer, and a source tier does not belong in a memo.  
+Regulatory Sandbox (first cohort) is not Regulatory Sandbox X.  
+The figure of about HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection for Hong Kong, not a government outturn.
+
+Last updated: 7 September 2026.
