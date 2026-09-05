@@ -29,4 +29,5 @@ format:
     link-external-new: true
     css: styles.css
     toc: true
-    toc-location: left
+    toc-location: right
+    toc-title: "Sections"
