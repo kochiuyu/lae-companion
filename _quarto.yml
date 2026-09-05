@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "DOTE5891 LAE Companion"
+  title: "DOTE5891"
   navbar:
     left:
       - href: index.qmd
@@ -15,9 +15,12 @@ website:
         text: Readings
       - href: briefings.qmd
         text: Briefings
+  page-footer:
+    left: "Evidence companion. Lectures stay in class."
+    right: "CUHK Department of Operations and Technology"
 
 format:
   html:
-    theme: cosmo
+    theme: litera
     toc: true
-    page-layout: article
+    link-external-new: true
