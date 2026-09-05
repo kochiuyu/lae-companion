@@ -3,6 +3,8 @@ title: "Briefings"
 as_of: "2026-09-05"
 ---
 
+Dated research notes for the course. Read the newest date first. These notes record official sources. They are not lecture slides.
+
 ## 2026-09-05 — WEEKLY-2026-09-05
 
 First WEEKLY after today’s INIT. **HK side: no in-window primary changes** on Action Plan, Sandbox X cross-boundary, ACs, spectrum, WG/LegCo, Cap.448G s.12(2)(c), or HK$350bn attribution.
@@ -30,7 +32,7 @@ First WEEKLY after today’s INIT. **HK side: no in-window primary changes** on 
 
 ## 2026-09-05 — INIT
 
-Baseline dossier for the DOTE5891 companion site, built from **primary and official sources**. Lecture slides were **not** summarised; they only supplied claim IDs to chase.
+Baseline dossier for the DOTE5891 companion site, built from **primary and official sources**.
 
 ### Locked findings
 
@@ -46,12 +48,11 @@ Baseline dossier for the DOTE5891 companion site, built from **primary and offic
 
 ## What changed
 
-- First primary-source INIT dossier (replaces slide-only claim lists as the evidence baseline).
 - Sandbox vs Sandbox X **resolved** as two official programmes (AC-013 / AC-017).
 - HK$350bn **issuer locked** (OHKF T3); misattribution to HKSAR gov blocked.
 - Civil Aviation Law **1 Jul 2026** effective date **confirmed** (T1).
 - Cross-border medical corridor demoted from “open” pedagogy claim to **planned/trial**.
 
-## Hygiene
+## Terms that must not be mixed
 
 “LAE / 低空经济” = industrial-policy / statistical construct. UAM / AAM / IAM / UAS / SUA = aviation system / vehicle terms — do not equate. HK **1,000 m** working definition ≠ Mainland airspace **120 m / 300 m** class labels.
