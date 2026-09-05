@@ -19,10 +19,14 @@ website:
         text: News
   page-footer:
     left: "Evidence companion. Lectures stay in class."
-    right: "CUHK Department of Operations and Technology"
+    right: "CUHK · Operations and Technology"
 
 format:
   html:
     theme: litera
-    toc: true
+    fontsize: 1.05em
+    linestretch: 1.45
     link-external-new: true
+    css: styles.css
+    toc: true
+    toc-location: left
