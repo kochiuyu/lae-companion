@@ -1,6 +1,10 @@
 ---
 title: "Briefings"
 as_of: "2026-09-05"
+toc: true
+toc-location: body
+toc-title: "Sections"
+page-layout: article
 ---
 
 Dated instructor notes. Read the newest date first. Not lecture slides.

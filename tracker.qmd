@@ -1,7 +1,11 @@
 ---
 title: "Tracker"
+subtitle: "Official facts you may cite"
 as_of: "2026-09-05"
+toc: true
+toc-location: body
 toc-title: "Sections"
+page-layout: article
 ---
 
 Start with the plain-language section. Use the source tables at the bottom only when you need a link or a date.
