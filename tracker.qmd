@@ -3,9 +3,17 @@ title: "Tracker"
 as_of: "2026-09-05"
 ---
 
-Packet: `INIT-baseline-dossier-2026-09-05` · as of **2026-09-05**
+This page is the course scoreboard for official facts. Use it before you cite a number or a programme name in a memo.
 
-## Policy / institutions (HK)
+Read the short note above each table, then the table.
+
+Sandbox (first cohort) and Sandbox X are different programmes. Do not add their counts together.
+
+T1 = statute or gazette. T2 = government paper or press release that cites a decision. T3 = research with named assumptions (including OHKF). T4–T5 do not belong here.
+
+## Who runs low-altitude policy in Hong Kong
+
+These are the government bodies and the main Hong Kong statute.
 
 | Element | Finding | Date(s) | Issuer | Tier |
 |---------|---------|---------|--------|------|
@@ -14,7 +22,9 @@ Packet: `INIT-baseline-dossier-2026-09-05` · as of **2026-09-05**
 | [CAD](https://www.cad.gov.hk/english/sua.html) | Cap.448G regulator; sandbox ACs (AC-013 / AC-017) | Ongoing | CAD | T1/T2 |
 | [Action Plan on Developing Low-Altitude Economy](https://www.policyaddress.gov.hk/2025/en/p153.html) | PA 2025 ¶154 *will formulate*; STL drafting target **end-2026**; **text OPEN** | 2025 | CE / Government | T1/T2 |
 
-## Sandbox tracker
+## Two trial programmes (do not merge)
+
+The first Sandbox selected 38 of 72 proposals (20 March 2025). Sandbox X is a later, harder programme. Cross-boundary results are not yet published.
 
 | Programme | Counts / dates | Issuer | Tier | Note |
 |-----------|----------------|--------|------|------|
@@ -23,13 +33,17 @@ Packet: `INIT-baseline-dossier-2026-09-05` · as of **2026-09-05**
 
 > Regulatory Sandbox ≠ Sandbox X. Counts are **38** + module batches — not a blended “32.”
 
-## Spectrum
+## Radio spectrum for sandbox flights
+
+The 1.4 GHz band is licensed for Regulatory Sandbox projects, not for general commercial use.
 
 | Field | Finding | Date | Issuer | Tier |
 |-------|---------|------|--------|------|
 | [1430–1444 MHz UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) | Confined to LAE Regulatory Sandbox projects; GN-1/2025 | **2025-10-27** | CA / OFCA | T1/T2 |
 
-## Number audits
+## Figures you may cite, and how
+
+OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, not a government forecast.
 
 | Number | Issuer | Date | Metric | Geography | Tier | Public site |
 |--------|--------|------|--------|-----------|------|-------------|
@@ -41,7 +55,9 @@ Packet: `INIT-baseline-dossier-2026-09-05` · as of **2026-09-05**
 
 **Banned:** “Government estimates HK$350bn…” / classroom tickets, HHI, CASK, flights / vendor “GBA trillion.”
 
-## National legal spine (effective dates)
+## Mainland rules and when they take effect
+
+For operations today, cite 国令761 and CCAR-92. The 2025 Civil Aviation Law is in force from 1 July 2026; the ATM Chapter 12 text is still a draft.
 
 | Instrument | Effective | Tier |
 |------------|-----------|------|
@@ -53,9 +69,11 @@ Packet: `INIT-baseline-dossier-2026-09-05` · as of **2026-09-05**
 
 Ops today: cite **761 + CCAR-92**. Law Art. 258 defers UAS rules to State Council/CMC.
 
-**Watchnote (WEEKLY-2026-09-05):** CAAC ATM Rules draft under consultation through **2026-09-11** (WL-06a). Do not treat as effective law.
+CAAC ATM Rules draft is under consultation through **2026-09-11**. Do not treat as effective law.
 
-## GBA — evidenced only
+## Greater Bay Area: what is documented
+
+A domestic Shenzhen blood-delivery trial is documented. An operating Shenzhen–Hong Kong medical corridor is not.
 
 | Item | Status | Date | Tier |
 |------|--------|------|------|
@@ -63,6 +81,8 @@ Ops today: cite **761 + CCAR-92**. Law Art. 258 defers UAS rules to State Counci
 | [Shenzhen domestic blood UAS](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html) | Evidenced; **not** cross-border | 2024-01-19 | T1/T2 |
 | SZ–HK medical corridor **operational** | **NOT evidenced** ([TLB 2026-06-24](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html): planned/trial under Sandbox X) | 2026-06-24 | T1/T3 |
 
-## OPEN / do not invent
+## Still unknown (do not invent)
+
+No official text yet for the Action Plan, a Hong Kong vertiport statute, or Sandbox X cross-boundary results.
 
 WG gazetted instrument beyond PA + first meeting; Cap.448G s.12(2)(c) appointment; Sandbox X cross-boundary results; Action Plan text; Pigovian drone taxes; Vertiport HK statutory definition.
