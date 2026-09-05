@@ -31,3 +31,4 @@ format:
     toc: true
     toc-location: right
     toc-title: "Sections"
+    page-layout: full
