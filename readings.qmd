@@ -3,23 +3,72 @@ title: "Readings"
 as_of: "2026-09-07"
 ---
 
-Primary documents only. Read the official text, not a press summary.
+Primary documents only. Read the official text, not a press summary. One or two links per week; the same document may appear in more than one week.
 
-## Week 1 — Foundations
+## Week 1
 
-- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (below 1,000 m) and the Working Group.
-- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/media/reports/taking-flight-forging-a-future-for-hong-kongs-low-altitude-economy) — September 2025. Source of the ~HK$350 billion value-added projection for 2050.
+- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (generally below 1,000 m) and the Working Group.
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. ~HK$350 billion industry value-added projection for Hong Kong by 2050.
 
-## Week 7 — Regulation and sandbox
+## Week 2
 
-- [CAD, Small Unmanned Aircraft Order (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — full effect 1 December 2022; Category C to 150 kg from July 2025.
-- [CAD AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) — 31 December 2025. BVLOS permission inside the first Regulatory Sandbox.
-- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Sandbox X.
-- [CAD list of SUA publications](https://www.cad.gov.hk/english/sua_new.html) — current Advisory Circulars.
-- [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. 38 of 72 projects.
-- [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz from 27 October 2025.
-- [GIA, launch of the UAS (Private) Licence](https://www.info.gov.hk/gia/general/202510/27/P2025102700178.htm) — 27 October 2025.
+- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Institutional map for Hong Kong LAE.
 
-## National comparator
+The week’s model is taught in lecture; this document is the official fact constraint.
 
-- [CAAC, ATM Rules draft (consultation)](http://www.caac.gov.cn/PHONE/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.
+## Week 3
+
+- [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. Official UAM market framing (not an HK government figure).
+
+The week’s model is taught in lecture; this document is the official fact constraint.
+
+## Week 4
+
+- [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. UAM / AAM market language for cross-checks with lecture models.
+
+The week’s model is taught in lecture; this document is the official fact constraint.
+
+## Week 5
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Segment structure (infra; education & research; application scenarios; supporting services).
+
+## Week 6
+
+- [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. Regulatory Sandbox: **38** of **72** selected.
+
+The week’s model is taught in lecture; this document is the official fact constraint.
+
+## Week 7
+
+- [CAD, Small Unmanned Aircraft (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — Cap. 448G regulator page; full effect 1 December 2022; Category C ≤150 kg from July 2025.
+- [CAD AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) — 31 December 2025. BVLOS inside the first Regulatory Sandbox.
+
+## Week 8
+
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Regulatory Sandbox X.
+- [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz; confined to LAE Regulatory Sandbox projects.
+
+The week’s model is taught in lecture; this document is the official fact constraint.
+
+## Week 9
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only); not a government outturn.
+
+## Week 10
+
+- [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Sandbox X and the commitment to formulate an Action Plan.
+
+The week’s model is taught in lecture; this document is the official fact constraint.
+
+## Week 11
+
+- [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Action Plan commitment (text still OPEN) and Sandbox X framing.
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — Cross-boundary guidance under Sandbox X (not an operational corridor approval).
+
+The week’s model is taught in lecture; this document is the official fact constraint.
+
+## Week 12
+
+- [CAAC, ATM Rules draft (consultation)](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.
+
+The week’s model is taught in lecture; this document is the official fact constraint.
