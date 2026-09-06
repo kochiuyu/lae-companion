@@ -54,9 +54,9 @@ These are the government bodies and the main Hong Kong statute.
 
 | Element | Finding | Date(s) | Issuer | Tier |
 |---------|---------|---------|--------|------|
-| [Working Group on Developing Low-altitude Economy](https://www.policyaddress.gov.hk/2024/en/p81.html) | Head = DFS; Deputy = STL; Secretariat = TLB; first meeting **[2024-11-12](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)** | 2024 PA ¶82; 2024-11-12 | CE / WG | T1/T2 |
+| [Working Group on Developing Low-altitude Economy](https://www.policyaddress.gov.hk/2024/en/p81.html) | Head = Deputy Financial Secretary (DFS); Deputy = Secretary for Transport and Logistics (STL); Secretariat = Transport and Logistics Bureau (TLB); first meeting **[2024-11-12](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)** | 2024 Policy Address (PA) ¶82; 2024-11-12 | Chief Executive (CE) / WG | T1/T2 |
 | [Cap. 448G (SUA Order)](https://www.elegislation.gov.hk/hk/cap448G) | Full effect **2022-12-01**; Cat C ≤150 kg from **2025-07-18** | 2021–2025 | CE in Council | T1 |
-| [CAD](https://www.cad.gov.hk/english/sua.html) | Cap.448G regulator; sandbox ACs (AC-013 / AC-017) | Ongoing | CAD | T1/T2 |
+| [Civil Aviation Department (CAD)](https://www.cad.gov.hk/english/sua.html) | Cap.448G regulator; sandbox Advisory Circulars (ACs) (AC-013 / AC-017) | Ongoing | CAD | T1/T2 |
 | [Action Plan on Developing Low-Altitude Economy](https://www.policyaddress.gov.hk/2025/en/p153.html) | PA 2025 ¶154 *will formulate*; STL drafting target **end-2026**; **text OPEN** | 2025 | CE / Government | T1/T2 |
 
 ## Two trial programmes
@@ -66,7 +66,7 @@ The first Sandbox selected 38 of 72 proposals (20 March 2025). Sandbox X is a la
 | Programme | Counts / dates | Issuer | Tier | Note |
 |-----------|----------------|--------|------|------|
 | **[Regulatory Sandbox](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)** | Apps from 2024-11-13; **38** of **72** selected (PR **2025-03-20**) | WG / TLB | T2 | [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) = BVLOS in Sandbox (PDF 2025-12-31, T1) |
-| **[Regulatory Sandbox X](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)** | Launch **2025-11-24**; batches UTM **15** / UCA **4** / shared **5** / others **9**; cross-boundary **OPEN** | CE / WG / TLB | T1/T2 | [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) = cross-boundary in Sandbox X (PDF 2026-04-24, T1) |
+| **[Regulatory Sandbox X](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)** | Launch **2025-11-24**; batches UTM **15** / unconventional aircraft **4** / shared **5** / others **9**; cross-boundary **OPEN** | CE / WG / TLB | T1/T2 | [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) = cross-boundary in Sandbox X (PDF 2026-04-24, T1) |
 
 > Regulatory Sandbox ≠ Sandbox X. Counts are **38** + module batches — not a blended “32.”
 
@@ -84,7 +84,7 @@ OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, n
 
 | Number | Issuer | Date | Metric | Geography | Tier | Public site |
 |--------|--------|------|--------|-----------|------|-------------|
-| ~HK$350bn by 2050 | **[OHKF](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83)** | Sep 2025 (launch 2025-09-04) | Industry **VA** | HK only | T3 | Allowed **only** with OHKF attribution |
+| ~HK$350bn by 2050 | **[Our Hong Kong Foundation (OHKF)](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83)** | Sep 2025 (launch 2025-09-04) | Industry **value-added (VA)** | HK only | T3 | Allowed **only** with OHKF attribution |
 | Sandbox 38 / 72 | [TLB / GIA](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm) | 2025-03-20 | Selected projects | HK | T2 | Allowed |
 | Sandbox X 15+4+5+9 | [TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) | 2025–2026 | Selected modules | HK | T2 | Allowed; cross-boundary OPEN |
 | CCID RMB 505.95bn (2023) / 1064.46bn (2026) | CCID via 2024 PA briefing | 2024 | Mainland **规模** | Mainland | T2 citing T3 | Not an HK VA forecast |
