@@ -11,7 +11,7 @@ Dated notes for the course. Read the newest date first. These are source notes, 
 
 ## 2026-09-05 — WEEKLY-2026-09-05
 
-First WEEKLY after today’s INIT. **HK side: no in-window primary changes** on Action Plan, Sandbox X cross-boundary, ACs, spectrum, WG/LegCo, Cap.448G s.12(2)(c), or HK$350bn attribution.
+First weekly note after today’s baseline. **HK side: no in-window primary changes** on Action Plan, Sandbox X cross-boundary, ACs, spectrum, WG/LegCo, Cap.448G s.12(2)(c), or HK$350bn attribution.
 
 **One Mainland NEW (T1 draft only):** CAAC 《民用航空空中交通管理规则（征求意见稿）》 published **2026-08-11** (comments to **2026-09-11**) adds **Chapter 12 无人驾驶航空器**. Not yet promulgated; not a dedicated Art.34 airworthiness or Art.225 implementing decree.
 
@@ -34,7 +34,7 @@ First WEEKLY after today’s INIT. **HK side: no in-window primary changes** on 
 | New GBA corridor approvals | No change this week | None NEW T1 in-window |
 
 
-## 2026-09-05 — INIT
+## 2026-09-05 — Baseline
 
 Baseline dossier for the DOTE5891 companion site, built from **primary and official sources**.
 
