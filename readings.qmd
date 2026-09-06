@@ -3,7 +3,9 @@ title: "Readings"
 as_of: "2026-09-07"
 ---
 
-Primary documents for each week. Some weeks reuse the same official text. Models are taught in class.
+Read the official document linked for that week. The models (costs, demand, concentration) are taught in lecture and are not on this page.
+
+One or two links per week is enough.
 
 ## Week 1
 
