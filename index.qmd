@@ -1,5 +1,5 @@
 ---
-title: "Low-Altitude Economy Companion"
+title: "Low Altitude Economics Companion"
 as_of: "2026-09-07"
 ---
 
@@ -7,7 +7,7 @@ as_of: "2026-09-07"
 Department of Decisions, Operations and Technology  
 Master of Aviation Management  
 
-**Course:** DOTE5891 Business Analysis of Low-Altitude Economy  
+**Course:** DOTE5891 Low Altitude Economics  
 **Instructor:** Chiu Yu Ko  
 **First offering:** December 2026  
 
