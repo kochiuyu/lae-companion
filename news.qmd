@@ -3,9 +3,7 @@ title: "News"
 as_of: "2026-09-06"
 ---
 
-Press items about the low-altitude economy, for orientation only.
-
-Do not use this page as a source for official project counts or for the HK$350 billion figure. Cite Tracker instead.
+Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
 
 ## Update schedule
 
