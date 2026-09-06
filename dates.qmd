@@ -6,9 +6,17 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Official milestones only. Drafts are labelled draft. Press items belong on News.
+This page is a list of official turning points, not a news feed.
+
+Read the one-line note under each heading, then the dates.
+
+“In force” means the instrument applies now. “Draft” or “guidance” means it does not yet bind operators by itself.
+
+Hong Kong rules apply to this course. Mainland, United States, and EU rows are comparators.
 
 ## Hong Kong
+
+These dates created Hong Kong’s working definition, the drone statute, two trial programmes, and the 1.4 GHz licence. The Action Plan text is still unpublished.
 
 - 2022-12-01 — Cap. 448G full effect. Small Unmanned Aircraft Order took full effect as Hong Kong’s main SUA statute. [source](https://www.elegislation.gov.hk/hk/cap448G)
 - 2024 (PA ¶82) — 2024 Policy Address — LAE / Working Group. Chief Executive announced establishment of the Working Group on Developing Low-altitude Economy and the LAE policy track (¶82). [source](https://www.policyaddress.gov.hk/2024/en/p81.html)
@@ -18,10 +26,12 @@ Official milestones only. Drafts are labelled draft. Press items belong on News.
 - 2025-10-27 — 1.4 GHz UAS (Private) Licence. Communications Authority / OFCA UAS (Private) Licence for **1430–1444 MHz**, confined to LAE Regulatory Sandbox projects, became available. [source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)
 - 2025-11-24 — Regulatory Sandbox X launch. Advanced Regulatory Sandbox X launched (separate programme from the first Sandbox). [source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)
 - 2025 (PA ¶153–157) — 2025 Policy Address — LAE / Action Agenda. PA committed to formulate the LAE planning Action Agenda, Sandbox X, spectrum, and related infrastructure language (¶153–157). [source](https://www.policyaddress.gov.hk/2025/en/p153.html)
-- 2025-12-31 — CAD AC-013 (current PDF). Current CAD Advisory Circular on BVLOS permissions **within Regulatory Sandbox** (supersedes 2025-07-18 version). [source](https://www.cad.gov.hk/documents/AC-013_E.pdf)
+- 2025-12-31 — Civil Aviation Department (CAD) Advisory Circular (AC)-013 (current PDF). Current CAD Advisory Circular on BVLOS permissions **within Regulatory Sandbox** (supersedes 2025-07-18 version). [source](https://www.cad.gov.hk/documents/AC-013_E.pdf)
 - 2026-04-24 — CAD AC-017 (current PDF). Current CAD Advisory Circular on cross-boundary SUA permissions **within Regulatory Sandbox X**. [source](https://www.cad.gov.hk/documents/AC-017.pdf)
 
 ## Mainland
+
+These dates are Mainland law or drafts. They do not replace Cap. 448G in Hong Kong.
 
 - 2023-12-21 — National Airspace Basic Classification. CAAC released the national airspace basic classification (incl. G / W labels) — **not Hong Kong law**. [source](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html)
 - 2024-01-01 — 国令761. Interim UAS Flight Management Ordinance took effect. [source](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)
@@ -33,8 +43,10 @@ Official milestones only. Drafts are labelled draft. Press items belong on News.
 
 ## United States
 
+Early rows are studies and concepts. 2024–2025 rows are FAA rules for powered-lift pilots and operations. “Powered-lift” is the FAA category closest to many eVTOL designs.
+
 - 2018-11-21 — NASA UAM Market Study (BAH final). NASA-sponsored Urban Air Mobility Market Study final report submitted / published on NTRS (course constraint framing; **no market-size figures copied here**). [source](https://ntrs.nasa.gov/api/citations/20190001472/downloads/20190001472.pdf)
-- 2021-01-15 — FAA Remote ID final rule (FR publication). FAA Remote Identification of Unmanned Aircraft final rule published in the Federal Register (86 FR 4390). [source](https://www.federalregister.gov/documents/2021/01/15/2020-28948/remote-identification-of-unmanned-aircraft)
+- 2021-01-15 — Federal Aviation Administration (FAA) Remote ID final rule (Federal Register (FR) publication). FAA Remote Identification of Unmanned Aircraft final rule published in the Federal Register (86 FR 4390). [source](https://www.federalregister.gov/documents/2021/01/15/2020-28948/remote-identification-of-unmanned-aircraft)
 - 2023-04-26 — FAA UAM Concept of Operations v2.0. FAA published Urban Air Mobility Concept of Operations Version 2.0. [source](https://www.faa.gov/sites/faa.gov/files/Urban-Air-Mobility-Concept-of-Operations-2.0.pdf)
 - 2024-11-21 — Integration of Powered-Lift final rule (89 FR 92296; Doc. 2024-24886). FAA published the Powered-Lift pilot certification and operations final rule (new 14 CFR part 194 / SFAR No. 120 and related amendments). [source](https://www.federalregister.gov/documents/2024/11/21/2024-24886/integration-of-powered-lift-pilot-certification-and-operations-miscellaneous-amendments-related-to)
 - 2025-01-21 — Powered-Lift final rule — general effective date. Final rule becomes effective (except amendatory instruction 52, effective 2025-07-21 per FR DATES text). [source](https://www.federalregister.gov/documents/2024/11/21/2024-24886/integration-of-powered-lift-pilot-certification-and-operations-miscellaneous-amendments-related-to)
@@ -44,7 +56,9 @@ Official milestones only. Drafts are labelled draft. Press items belong on News.
 
 ## European Union
 
+2021–2023 created U-space (the EU traffic-management framework for drones). Later rows are EASA technical conditions for VTOL aircraft and crew, not a new U-space regulation.
+
 - 2021-04-22 (adopted) / 2021-04-23 (OJ) — Implementing Regulation (EU) 2021/664 — U-space. Commission adopted the U-space regulatory framework; published in the Official Journal (L 139). [source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0664)
 - 2023-01-26 — (EU) 2021/664 application date. U-space Implementing Regulation **applies** from this date across the Union (per Art. 19). [source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0664)
-- 2019-07-02 — EASA SC-VTOL-01 (Issue 1). EASA issued Special Condition SC-VTOL-01 airworthiness standards for small-category person-carrying VTOL aircraft. [source](https://www.easa.europa.eu/sites/default/files/dfu/SC-VTOL-01.pdf)
+- 2019-07-02 — European Union Aviation Safety Agency (EASA) SC-VTOL-01 (Issue 1). EASA issued Special Condition SC-VTOL-01 airworthiness standards for small-category person-carrying VTOL aircraft. [source](https://www.easa.europa.eu/sites/default/files/dfu/SC-VTOL-01.pdf)
 - 2025-07-07 — EASA ED Decision 2025/011/R. EASA Executive Director Decision issuing AMC & GM to Regulation (EU) No 1178/2011 for innovative air mobility with **manned VTOL-capable aircraft**. [source](https://www.easa.europa.eu/en/document-library/agency-decisions/ed-decision-2025011r)
