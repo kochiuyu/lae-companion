@@ -3,7 +3,7 @@ title: "Glossary"
 as_of: "2026-09-07"
 ---
 
-Official terms may be cited. Course terms are for models in class. Industry usage is vocabulary only.
+Official = you may cite. Course = lecture model. Industry usage = vocabulary, not Hong Kong law.
 
 ## Hong Kong institutions and law
 
@@ -51,6 +51,10 @@ Hong Kong statute for small unmanned aircraft. Full effect 1 December 2022; Cate
 Kind: Official  
 Transport and Logistics Bureau; policy bureau supporting the Working Group secretariat and LAE sandbox communications. TLB / WG materials. Week 1.
 
+**Unconventional aircraft**  
+Kind: Official  
+Intended dedicated rules for craft over 150 kg; legislation OPEN. 2025 PA ¶154. Week 7.
+
 **Working Group (发展低空经济工作组)**  
 Kind: Official  
 Cross-government group headed by the Deputy Financial Secretary; first meeting 2024-11-12. 2024 PA ¶82; GIA 2024-11-12. Week 1.
@@ -69,6 +73,10 @@ CAAC civil aviation regulation on UAS operational safety; effective **2024-01-01
 Kind: Official  
 Revised PRC Civil Aviation Law (Order No. 65); passed 2025-12-27; effective **2026-07-01**; detailed UAS operating rules still rest on State Council / CAAC instruments until further rules are made. Order No. 65; CAAC. Week 7.
 
+**Class G / W (G类 / W类空域)**  
+Kind: Official  
+Mainland national airspace classification labels (2023 release); **not Hong Kong law**. CAAC National Airspace Basic Classification (2023-12-21). Week 8.
+
 **低空经济 (NDRC statistical / industrial-policy term) (低空经济)**  
 Kind: Official  
 Mainland statistical and industrial-policy scope per NDRC 发改低空〔2025〕1676号 (2025-12-22) — **not** the same metric as OHKF Hong Kong industry value-added. NDRC 发改低空〔2025〕1676号. Week 1 / Week 9.
@@ -86,6 +94,10 @@ Operation beyond the remote pilot’s visual line of sight; in the first Regulat
 **Category A / B / C (Cap. 448G) (甲类 / 乙类 / 丙类)**  
 Kind: Official  
 Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G (Cat C expansion 2025-07-18). Week 7.
+
+**docking station (机库 / 起降柜)**  
+Kind: Industry usage  
+Ground unit for automated launch, recovery, charging or swapping of small unmanned aircraft; CAD AC-016 addresses hangar/dock-style SUA operations — **not** a vertiport statute. CAD AC-016; industry usage. Week 5 / Week 7.
 
 **EVLOS (扩展视距)**  
 Kind: Official  
@@ -111,10 +123,6 @@ Mass or cargo carried for the mission, distinct from empty weight or MTOW. Cours
 Kind: Official  
 Hong Kong Cap. 448G term for small unmanned aircraft in the Order’s weight classes — not a global synonym for every drone. Cap. 448G. Week 7.
 
-**Throughput**  
-Kind: Course  
-Movements a site can handle per hour after safety separation. Course. Week 5.
-
 **UAS (无人驾驶航空器系统)**  
 Kind: Official  
 Unmanned aircraft system (aircraft + control station + links); used in OFCA licence titles and Mainland instruments; broader than Cap. 448G “SUA.”. OFCA UAS (Private) Licence; Mainland 国令761 / CCAR-92 usage. Week 7.
@@ -122,10 +130,6 @@ Unmanned aircraft system (aircraft + control station + links); used in OFCA lice
 **UAV (无人驾驶航空器 / 无人机)**  
 Kind: Industry usage  
 Common label for the aircraft alone; prefer **SUA** when citing Cap. 448G and **UAS** when citing system or spectrum rules. Course / industry usage. Week 7.
-
-**Unconventional aircraft**  
-Kind: Official  
-Intended dedicated rules for craft over 150 kg; legislation OPEN. 2025 PA ¶154. Week 7.
 
 **VLOS (视距内)**  
 Kind: Official  
@@ -136,10 +140,6 @@ Kind: Industry usage
 Vertical take-off and landing as a flight capability, whether electric or not; broader than eVTOL. Course / industry usage. Week 7.
 
 ## Airspace and traffic
-
-**Class G / W (G类 / W类空域)**  
-Kind: Official  
-Mainland national airspace classification labels (2023 release); **not Hong Kong law**. CAAC National Airspace Basic Classification (2023-12-21). Week 8.
 
 **corridor (航廊 / 低空走廊)**  
 Kind: Industry usage  
@@ -171,9 +171,9 @@ Dedicated UAS spectrum band 1430–1444 MHz, licensable for LAE Regulatory Sandb
 Kind: Course  
 Energy logistics for electric SUA or eVTOL at sites or docks; course infrastructure concept, not a licence by itself. Course. Week 5.
 
-**docking station (机库 / 起降柜)**  
-Kind: Industry usage  
-Ground unit for automated launch, recovery, charging or swapping of small unmanned aircraft; CAD AC-016 addresses hangar/dock-style SUA operations — **not** a vertiport statute. CAD AC-016; industry usage. Week 5 / Week 7.
+**Throughput**  
+Kind: Course  
+Movements a site can handle per hour after safety separation. Course. Week 5.
 
 **Vertiport (垂直起降场 / 起降点（政策用语）)**  
 Kind: Industry usage  
@@ -256,3 +256,7 @@ OHKF-style industry **value-added** is not the same metric as Mainland **规模*
 **yield (收益（客公里／吨公里）)**  
 Kind: Course  
 Revenue per traffic unit (e.g. per passenger-km or payload-km) — no classroom ticket prices on the public site. Course. Week 3.
+
+## Unplaced
+
+- Interoperability / standards
