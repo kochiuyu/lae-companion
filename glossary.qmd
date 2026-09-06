@@ -3,286 +3,371 @@ title: "Glossary"
 as_of: "2026-09-07"
 ---
 
-Course and official meanings, in week order. Legal terms cite a statute or circular. CASK and HHI are course terms; do not treat lecture numbers as data.
+Official terms may be cited. Course terms are for models in class. Industry usage is vocabulary only; it is not Hong Kong law.
 
-## Week 1
-
-**Low Altitude Economy, LAE (低空经济)**  
-Hong Kong working definition: economic activity generally below 1,000 metres (LegCo CB(3)933/2024). Mainland statistical definition: NDRC 发改低空〔2025〕1676号 (22 December 2025). Week 1.
-
-**Regulatory Sandbox (监管沙盒)**  
-First-cohort Hong Kong trial programme. Applications from 13 November 2024; 38 of 72 proposals selected (TLB/GIA, 20 March 2025). BVLOS in this programme is covered by CAD AC-013. Week 1 / Week 7.
-
-**Regulatory Sandbox X (监管沙盒X)**  
-Advanced programme launched 24 November 2025. Separate from the first Sandbox. Module batches reported as UTM 15, unconventional aircraft 4, shared platform 5, others 9; cross-boundary results still open. CAD AC-017 covers cross-boundary operations in Sandbox X. Week 1 / Week 7.
-
-**Civil Aviation Department, CAD (民航处)**  
-Hong Kong regulator under Cap. 448G and issuer of the sandbox Advisory Circulars. Week 1 / Week 7.
+## Hong Kong institutions and law
 
 **Working Group on Developing Low-altitude Economy (发展低空经济工作组)**  
+Kind: Official  
 Cross-government group headed by the Deputy Financial Secretary; first meeting 12 November 2024. Week 1.
 
-**Industry value-added (产业增加值)**  
-Accounting concept used by Our Hong Kong Foundation for the ~HK$350 billion figure: Hong Kong only, horizon 2050, September 2025 report. Not government output and not a Mainland 规模 total. Week 1 / Week 9.
-
-**Value chain (价值链)**  
-Stages from vehicle and infrastructure to operations and supporting services. Course. Week 1.
-
-**Supporting services**  
-The segment that accounts for most of the 2050 value-added projection. OHKF. Week 1.
-
-## Week 2
-
-**Economies of density**  
-Average cost falls as flights share the same corridor or vertiport. Course. Week 2.
-
-**HHI**  
-Sum of squared shares; classroom calculations stay off this site. Course. Week 2.
-
-## Week 3
-
-**CASK / CPMK**  
-Cost per available seat-km or per available payload-km. Lecture numbers are not data. Course. Week 3.
-
-**CAPEX / OPEX**  
-Upfront assets versus recurring operating cost. Course. Week 3.
-
-## Week 4
-
-**Generalised cost**  
-Money plus time valued at the passenger’s value of time. Course. Week 4.
-
-**NASA UAM market study constraints**  
-Legal, weather, infrastructure and acceptance shrink the unconstrained market. NASA 2018. Week 4.
-
-## Week 5
-
-**Vertiport**  
-2025 Policy Address names planning of take-off and landing sites. Hong Kong has no dedicated statutory definition yet (OPEN). 2025 PA. Week 5.
-
-**Throughput**  
-Movements a site can handle per hour after safety separation. Course. Week 5.
-
-## Week 6
-
-**FaaS / platform model**  
-Fly-as-a-service or matching, as distinct from owning the fleet. Course. Week 6.
-
-**LAE insurance task force**  
-Industry group using Sandbox data. 2025 PA ¶157. Week 6.
-
-## Week 7
-
-**Small Unmanned Aircraft Order, Cap. 448G (小型无人驾驶飞机令)**  
-Hong Kong statute for small unmanned aircraft. Full effect 1 December 2022; Category C up to 150 kg from 18 July 2025. Week 7.
-
-**UAS (Private) Licence, 1430–1444 MHz**  
-Dedicated unmanned-aircraft spectrum, confined to LAE Regulatory Sandbox projects, from 27 October 2025 (CA/OFCA). Week 7.
-
-**Beyond Visual Line of Sight, BVLOS**  
-Operation beyond the remote pilot’s sight. In the first Sandbox, the relevant circular is CAD AC-013. Week 7.
-
-**Civil Aviation Law of the PRC, 2025 revision (中华人民共和国民用航空法)**  
-Passed 27 December 2025; Order No. 65; effective 1 July 2026. Unmanned-aircraft operating rules remain under State Council instruments (国令761 and CCAR-92, both effective 1 January 2024) until further rules are made. Week 7.
-
-**Advanced operations**  
-Operations that need prior CAD permission. Cap. 448G / CAD. Week 7.
-
-**Unconventional aircraft**  
-Intended dedicated rules for craft over 150 kg; legislation OPEN. 2025 PA ¶154. Week 7.
-
-## Week 8
-
-**UTM**  
-Smart low-altitude traffic-management system, planned infrastructure, not yet a Hong Kong statute. 2025 PA ¶154. Week 8.
-
-**Airspace classification G / W**  
-Mainland national classification (2023); do not treat as Hong Kong law. Mainland national classification. Week 8.
-
-**HKCA 1072**  
-Do **not** map to the 1.4 GHz UAS (Private) Licence (GN-1/2025). HKCA 1072 Iss.2 (Aug 2026) is E-UTRA base station — different instrument. (WEEKLY-2026-09-05)
-
-## Week 9
-
-**Unconstrained versus constrained market**  
-Theoretical demand versus demand after barriers. NASA study. Week 9.
-
-**规模 versus value-added**  
-Mainland scale totals are not the same metric as OHKF industry value-added. Course / OHKF contrast. Week 9.
-
-## Week 10
-
-**Externality**  
-Noise, risk, or carbon not priced in the ticket. Course. Week 10.
-
-**Pigovian instrument**  
-Tax, charge or subsidy aimed at that externality; Hong Kong has no drone congestion tax in force. Course. Week 10.
-
-## Week 11
-
-**Action Plan on Developing Low-Altitude Economy**  
-2025 PA ¶154; text OPEN. 2025 PA ¶154. Week 11–12.
-
-**Interoperability / standards**  
-Ability of vehicles, UTM and sites to work to a common rule set; cite PA infrastructure language only. Course / 2025 PA. Week 11–12.
-
-## Week 12
-
-**CAAC ATM Rules (draft) / 《民用航空空中交通管理规则（征求意见稿）》**  
-NEW watch term. Published **2026-08-11**; comments to **2026-09-11**; Chapter 12 无人驾驶航空器. Not yet law. (WEEKLY-2026-09-05)
-
-## Vehicles and operations
-
-**eVTOL (电动垂直起降飞行器)** — Industry usage / Official (context).
-Electric vertical take-off and landing aircraft; in Hong Kong, passenger-carrying / heavy types sit above the Cap. 448G 150 kg SUA ceiling and are treated as unconventional aircraft pending dedicated rules — **no dedicated HK eVTOL statute yet**. Cap. 448G ceiling; 2025 PA ¶154 unconventional-aircraft pathway (OPEN). Week 7 / Week 5.
-
-**VTOL (垂直起降)** — Industry usage / Course.
-Vertical take-off and landing as a flight capability, whether electric or not; broader than eVTOL. Course / industry usage. Week 7.
-
-**SUA (小型无人驾驶飞机)** — Official.
-Hong Kong Cap. 448G term for small unmanned aircraft in the Order’s weight classes — not a global synonym for every drone. Cap. 448G. Week 7.
-
-**UAS (无人驾驶航空器系统)** — Official / Industry usage.
-Unmanned aircraft system (aircraft + control station + links); used in OFCA licence titles and Mainland instruments; broader than Cap. 448G “SUA.”. OFCA UAS (Private) Licence; Mainland 国令761 / CCAR-92 usage. Week 7.
-
-**UAV (无人驾驶航空器 / 无人机)** — Industry usage / Course.
-Common label for the aircraft alone; prefer **SUA** when citing Cap. 448G and **UAS** when citing system or spectrum rules. Course / industry usage. Week 7.
-
-**VLOS (视距内)** — Official.
-Operation in which the remote pilot (or observer) keeps the aircraft in unaided visual sight. Cap. 448G / CAD. Week 7.
-
-**EVLOS (扩展视距)** — Official / Industry usage.
-Operation beyond simple VLOS but still using visual observers or procedures — not BVLOS. CAD / Cap. 448G practice. Week 7.
-
-**BVLOS (超视距)** — Official.
-Operation beyond the remote pilot’s visual line of sight; in the first Regulatory Sandbox, the relevant circular is CAD AC-013. CAD AC-013; Cap. 448G. Week 7.
-
-**docking station (机库 / 起降柜)** — Official / Industry usage.
-Ground unit for automated launch, recovery, charging or swapping of small unmanned aircraft; CAD AC-016 addresses hangar/dock-style SUA operations — **not** a vertiport statute. CAD AC-016; industry usage. Week 5 / Week 7.
-
-**Category A / B / C (Cap. 448G) (甲类 / 乙类 / 丙类)** — Official.
-Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G (Cat C expansion 2025-07-18). Week 7.
-
-**advanced operations (进阶操作)** — Official.
-SUA operations that require prior CAD permission under Cap. 448G (as distinct from ordinary permitted flying). Cap. 448G / CAD. Week 7.
-
-**payload (有效载荷)** — Course / Industry usage.
-Mass or cargo carried for the mission, distinct from empty weight or MTOW. Course. Week 3 / Week 7.
-
-**MTOW (最大起飞重量)** — Official / Industry usage.
-Maximum certified take-off weight; Cap. 448G categories and Mainland UAS rules key off weight thresholds. Cap. 448G; Mainland UAS instruments. Week 7.
-
-## Airspace and traffic
-
-**UTM (无人驾驶航空器交通管理)** — Official (planned) / Industry usage.
-Unmanned aircraft system traffic management; Hong Kong’s smart low-altitude traffic-management system is **planned** infrastructure (2025 PA) — **not yet a Hong Kong statute**. 2025 PA ¶154; Sandbox X UTM demos. Week 8.
-
-**U-space (（欧盟用语，无标准港译）)** — Industry usage (EU).
-EU / industry label for a set of UAS traffic services; **not Hong Kong law** — do not write that Hong Kong has U-space. EU U-space framework (industry comparator). Week 8.
-
-**corridor (航廊 / 低空走廊)** — Official / Industry usage.
-A defined low-altitude route volume used in policy and sandbox language (including cross-boundary concepts); a planned or trial corridor is not proof of an operating SZ–HK medical corridor. Sandbox X / TLB cross-boundary language; Tracker: corridor **operational** NOT evidenced. Week 8 / Week 4.
-
-**visual line of sight (视线可见 / 视距)** — Official / Course.
-Plain-language pair to VLOS: keeping the aircraft in unaided sight; use the VLOS entry for Cap. 448G citations. Cap. 448G / CAD. Week 7.
-
-**restricted flying zone (CAD) (限制飞行区)** — Official.
-CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD. Week 7 / Week 8.
-
-**Class G / W (G类 / W类空域)** — Official (Mainland only).
-Mainland national airspace classification labels (2023 release); **not Hong Kong law**. CAAC National Airspace Basic Classification (2023-12-21). Week 8.
-
-## Infrastructure
-
-**Vertiport (垂直起降场 / 起降点（政策用语）)** — Official (planned).
-Take-off and landing site for advanced low-altitude craft; 2025 Policy Address names planning of such sites — **Hong Kong has no dedicated vertiport statute yet** (do not invent one). 2025 PA ¶154; text of Action Plan OPEN. Week 5.
-
-**vertistop (小型起降点)** — Industry usage.
-Industry term for a lighter pad than a full vertiport; **not a Hong Kong statutory category**. Industry usage. Week 5.
-
-**charging / swapping (充电 / 换电)** — Course / Industry usage.
-Energy logistics for electric SUA or eVTOL at sites or docks; course infrastructure concept, not a licence by itself. Course. Week 5.
-
-**1.4 GHz / UAS (Private) Licence (无人驾驶飞机（专用）牌照（1430–1444 MHz）)** — Official.
-Dedicated UAS spectrum band 1430–1444 MHz, licensable for LAE Regulatory Sandbox projects from 2025-10-27 — not a general public mobile band. CA / OFCA; GN-1/2025. Week 7.
-
-## Hong Kong institutions
-
-**Working Group (发展低空经济工作组)** — Official.
+**Working Group (发展低空经济工作组)**  
+Kind: Official  
 Cross-government group headed by the Deputy Financial Secretary; first meeting 2024-11-12. 2024 PA ¶82; GIA 2024-11-12. Week 1.
 
-**CAD (民航处)** — Official.
+**Civil Aviation Department, CAD (民航处)**  
+Kind: Official  
+Hong Kong regulator under Cap. 448G and issuer of the sandbox Advisory Circulars. Week 1 / Week 7.
+
+**CAD (民航处)**  
+Kind: Official  
 Hong Kong Civil Aviation Department — Cap. 448G regulator and issuer of sandbox Advisory Circulars. Cap. 448G; CAD. Week 1 / Week 7.
 
-**TLB (运输及物流局)** — Official.
-Transport and Logistics Bureau; policy bureau supporting the Working Group secretariat and LAE sandbox communications. TLB / WG materials. Week 1.
+**Small Unmanned Aircraft Order, Cap. 448G (小型无人驾驶飞机令)**  
+Kind: Official  
+Hong Kong statute for small unmanned aircraft. Full effect 1 December 2022; Category C up to 150 kg from 18 July 2025. Week 7.
 
-**OFCA / Communications Authority (通讯办 / 通讯事务管理局)** — Official.
-Spectrum licensing authority for the UAS (Private) Licence (with the Communications Authority). OFCA / CA. Week 7.
+**Regulatory Sandbox (监管沙盒)**  
+Kind: Official  
+First-cohort Hong Kong trial programme. Applications from 13 November 2024; 38 of 72 proposals selected (TLB/GIA, 20 March 2025). BVLOS in this programme is covered by CAD AC-013. Week 1 / Week 7.
 
-**Advisory Circular (顾问通告)** — Official.
-CAD guidance document (e.g. AC-013 Sandbox BVLOS; AC-017 Sandbox X cross-boundary) — guidance, not Cap. 448G itself. CAD ACs. Week 7.
-
-**Regulatory Sandbox (监管沙盒)** — Official.
+**Regulatory Sandbox (监管沙盒)**  
+Kind: Official  
 First-cohort Hong Kong LAE trial programme; 38 of 72 proposals selected (GIA/TLB 2025-03-20); BVLOS in this programme → AC-013. GIA 2025-03-20; CAD AC-013. Week 1 / Week 7.
 
-**Sandbox X (监管沙盒X)** — Official.
+**Regulatory Sandbox X (监管沙盒X)**  
+Kind: Official  
+Advanced programme launched 24 November 2025. Separate from the first Sandbox. Module batches reported as UTM 15, unconventional aircraft 4, shared platform 5, others 9; cross-boundary results still open. CAD AC-017 covers cross-boundary operations in Sandbox X. Week 1 / Week 7.
+
+**Sandbox X (监管沙盒X)**  
+Kind: Official  
 Advanced LAE trial programme launched 2025-11-24; separate from the first Sandbox; module batches UTM 15 / UCA 4 / shared 5 / others 9; cross-boundary results OPEN; AC-017 for cross-boundary in Sandbox X. GIA 2025-11-24; CAD AC-017; TLB module counts. Week 1 / Week 7.
+
+**UAS (Private) Licence, 1430–1444 MHz**  
+Kind: Official  
+Dedicated unmanned-aircraft spectrum, confined to LAE Regulatory Sandbox projects, from 27 October 2025 (CA/OFCA). Week 7.
+
+**1.4 GHz / UAS (Private) Licence (无人驾驶飞机（专用）牌照（1430–1444 MHz）)**  
+Kind: Official  
+Dedicated UAS spectrum band 1430–1444 MHz, licensable for LAE Regulatory Sandbox projects from 2025-10-27 — not a general public mobile band. CA / OFCA; GN-1/2025. Week 7.
+
+**Advanced operations**  
+Kind: Official  
+Operations that need prior CAD permission. Cap. 448G / CAD. Week 7.
+
+**advanced operations (进阶操作)**  
+Kind: Official  
+SUA operations that require prior CAD permission under Cap. 448G (as distinct from ordinary permitted flying). Cap. 448G / CAD. Week 7.
+
+**Unconventional aircraft**  
+Kind: Official  
+Intended dedicated rules for craft over 150 kg; legislation OPEN. 2025 PA ¶154. Week 7.
+
+**Action Plan on Developing Low-Altitude Economy**  
+Kind: Official  
+2025 PA ¶154; text OPEN. 2025 PA ¶154. Week 11–12.
+
+**LAE insurance task force**  
+Kind: Official  
+Industry group using Sandbox data. 2025 PA ¶157. Week 6.
+
+**HKCA 1072**  
+Kind: Official  
+Do **not** map to the 1.4 GHz UAS (Private) Licence (GN-1/2025). HKCA 1072 Iss.2 (Aug 2026) is E-UTRA base station — different instrument. (WEEKLY-2026-09-05)
+
+**eVTOL (电动垂直起降飞行器)**  
+Kind: Industry usage  
+Electric vertical take-off and landing aircraft; in Hong Kong, passenger-carrying / heavy types sit above the Cap. 448G 150 kg SUA ceiling and are treated as unconventional aircraft pending dedicated rules — **no dedicated HK eVTOL statute yet**. Cap. 448G ceiling; 2025 PA ¶154 unconventional-aircraft pathway (OPEN). Week 7 / Week 5.
+
+**VTOL (垂直起降)**  
+Kind: Industry usage  
+Vertical take-off and landing as a flight capability, whether electric or not; broader than eVTOL. Course / industry usage. Week 7.
+
+**SUA (小型无人驾驶飞机)**  
+Kind: Official  
+Hong Kong Cap. 448G term for small unmanned aircraft in the Order’s weight classes — not a global synonym for every drone. Cap. 448G. Week 7.
+
+**UAS (无人驾驶航空器系统)**  
+Kind: Official  
+Unmanned aircraft system (aircraft + control station + links); used in OFCA licence titles and Mainland instruments; broader than Cap. 448G “SUA.”. OFCA UAS (Private) Licence; Mainland 国令761 / CCAR-92 usage. Week 7.
+
+**UAV (无人驾驶航空器 / 无人机)**  
+Kind: Industry usage  
+Common label for the aircraft alone; prefer **SUA** when citing Cap. 448G and **UAS** when citing system or spectrum rules. Course / industry usage. Week 7.
+
+**VLOS (视距内)**  
+Kind: Official  
+Operation in which the remote pilot (or observer) keeps the aircraft in unaided visual sight. Cap. 448G / CAD. Week 7.
+
+**EVLOS (扩展视距)**  
+Kind: Official  
+Operation beyond simple VLOS but still using visual observers or procedures — not BVLOS. CAD / Cap. 448G practice. Week 7.
+
+**docking station (机库 / 起降柜)**  
+Kind: Industry usage  
+Ground unit for automated launch, recovery, charging or swapping of small unmanned aircraft; CAD AC-016 addresses hangar/dock-style SUA operations — **not** a vertiport statute. CAD AC-016; industry usage. Week 5 / Week 7.
+
+**Category A / B / C (Cap. 448G) (甲类 / 乙类 / 丙类)**  
+Kind: Official  
+Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G (Cat C expansion 2025-07-18). Week 7.
+
+**payload (有效载荷)**  
+Kind: Course  
+Mass or cargo carried for the mission, distinct from empty weight or MTOW. Course. Week 3 / Week 7.
+
+**MTOW (最大起飞重量)**  
+Kind: Official  
+Maximum certified take-off weight; Cap. 448G categories and Mainland UAS rules key off weight thresholds. Cap. 448G; Mainland UAS instruments. Week 7.
+
+**U-space (（欧盟用语，无标准港译）)**  
+Kind: Industry usage  
+EU / industry label for a set of UAS traffic services; **not Hong Kong law** — do not write that Hong Kong has U-space. EU U-space framework (industry comparator). Week 8.
+
+**corridor (航廊 / 低空走廊)**  
+Kind: Industry usage  
+A defined low-altitude route volume used in policy and sandbox language (including cross-boundary concepts); a planned or trial corridor is not proof of an operating SZ–HK medical corridor. Sandbox X / TLB cross-boundary language; Tracker: corridor **operational** NOT evidenced. Week 8 / Week 4.
+
+**visual line of sight (视线可见 / 视距)**  
+Kind: Official  
+Plain-language pair to VLOS: keeping the aircraft in unaided sight; use the VLOS entry for Cap. 448G citations. Cap. 448G / CAD. Week 7.
+
+**restricted flying zone (CAD) (限制飞行区)**  
+Kind: Official  
+CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD. Week 7 / Week 8.
+
+**vertistop (小型起降点)**  
+Kind: Industry usage  
+Industry term for a lighter pad than a full vertiport; **not a Hong Kong statutory category**. Industry usage. Week 5.
+
+**charging / swapping (充电 / 换电)**  
+Kind: Course  
+Energy logistics for electric SUA or eVTOL at sites or docks; course infrastructure concept, not a licence by itself. Course. Week 5.
+
+**TLB (运输及物流局)**  
+Kind: Official  
+Transport and Logistics Bureau; policy bureau supporting the Working Group secretariat and LAE sandbox communications. TLB / WG materials. Week 1.
+
+**OFCA / Communications Authority (通讯办 / 通讯事务管理局)**  
+Kind: Official  
+Spectrum licensing authority for the UAS (Private) Licence (with the Communications Authority). OFCA / CA. Week 7.
+
+**Advisory Circular (顾问通告)**  
+Kind: Official  
+CAD guidance document (e.g. AC-013 Sandbox BVLOS; AC-017 Sandbox X cross-boundary) — guidance, not Cap. 448G itself. CAD ACs. Week 7.
+
+**国令761 (无人驾驶航空器飞行管理暂行条例)**  
+Kind: Official  
+State Council Interim UAS Flight Management Ordinance; effective **2024-01-01** — Mainland ops baseline with CCAR-92. 国令761. Week 7.
+
+**CCAR-92 (《民用无人驾驶航空器运行安全管理规则》)**  
+Kind: Official  
+CAAC civil aviation regulation on UAS operational safety; effective **2024-01-01**. CCAR-92 / MOT publication. Week 7.
+
+**Value of time (时间价值)**  
+Kind: Course  
+Shadow price of passenger or shipper time used inside generalised cost — lecture numbers stay off the public site. Course. Week 4.
+
+**yield (收益（客公里／吨公里）)**  
+Kind: Course  
+Revenue per traffic unit (e.g. per passenger-km or payload-km) — no classroom ticket prices on the public site. Course. Week 3.
+
+**load factor (载运率)**  
+Kind: Course  
+Traffic carried divided by capacity offered (seats or payload). Course. Week 3.
+
+**PPP (公私营合作)**  
+Kind: Course  
+Public–private partnership for infrastructure or services — **not** a substitute for a vertiport statute. Course. Week 5 / Week 11.
 
 ## Mainland comparators
 
-**国令761 (无人驾驶航空器飞行管理暂行条例)** — Official.
-State Council Interim UAS Flight Management Ordinance; effective **2024-01-01** — Mainland ops baseline with CCAR-92. 国令761. Week 7.
+**Low Altitude Economy, LAE (低空经济)**  
+Kind: Official  
+Hong Kong working definition: economic activity generally below 1,000 metres (LegCo CB(3)933/2024). Mainland statistical definition: NDRC 发改低空〔2025〕1676号 (22 December 2025). Week 1.
 
-**CCAR-92 (《民用无人驾驶航空器运行安全管理规则》)** — Official.
-CAAC civil aviation regulation on UAS operational safety; effective **2024-01-01**. CCAR-92 / MOT publication. Week 7.
+**Civil Aviation Law of the PRC, 2025 revision (中华人民共和国民用航空法)**  
+Kind: Official  
+Passed 27 December 2025; Order No. 65; effective 1 July 2026. Unmanned-aircraft operating rules remain under State Council instruments (国令761 and CCAR-92, both effective 1 January 2024) until further rules are made. Week 7.
 
-**Civil Aviation Law (2025 revision) (中华人民共和国民用航空法（2025年修订）)** — Official.
+**Airspace classification G / W**  
+Kind: Official  
+Mainland national classification (2023); do not treat as Hong Kong law. Mainland national classification. Week 8.
+
+**CAAC ATM Rules (draft) / 《民用航空空中交通管理规则（征求意见稿）》**  
+Kind: Official  
+NEW watch term. Published **2026-08-11**; comments to **2026-09-11**; Chapter 12 无人驾驶航空器. Not yet law. (WEEKLY-2026-09-05)
+
+**Class G / W (G类 / W类空域)**  
+Kind: Official  
+Mainland national airspace classification labels (2023 release); **not Hong Kong law**. CAAC National Airspace Basic Classification (2023-12-21). Week 8.
+
+**Civil Aviation Law (2025 revision) (中华人民共和国民用航空法（2025年修订）)**  
+Kind: Official  
 Revised PRC Civil Aviation Law (Order No. 65); passed 2025-12-27; effective **2026-07-01**; detailed UAS operating rules still rest on State Council / CAAC instruments until further rules are made. Order No. 65; CAAC. Week 7.
 
-**低空经济 (NDRC statistical / industrial-policy term) (低空经济)** — Official.
+**低空经济 (NDRC statistical / industrial-policy term) (低空经济)**  
+Kind: Official  
 Mainland statistical and industrial-policy scope per NDRC 发改低空〔2025〕1676号 (2025-12-22) — **not** the same metric as OHKF Hong Kong industry value-added. NDRC 发改低空〔2025〕1676号. Week 1 / Week 9.
+
+## Vehicles and operations
+
+**Vertiport**  
+Kind: Industry usage  
+2025 Policy Address names planning of take-off and landing sites. Hong Kong has no dedicated statutory definition yet (OPEN). 2025 PA. Week 5.
+
+**Throughput**  
+Kind: Course  
+Movements a site can handle per hour after safety separation. Course. Week 5.
+
+**Beyond Visual Line of Sight, BVLOS**  
+Kind: Official  
+Operation beyond the remote pilot’s sight. In the first Sandbox, the relevant circular is CAD AC-013. Week 7.
+
+**UTM**  
+Kind: Industry usage  
+Smart low-altitude traffic-management system, planned infrastructure, not yet a Hong Kong statute. 2025 PA ¶154. Week 8.
+
+**Interoperability / standards**  
+Kind: Course  
+Ability of vehicles, UTM and sites to work to a common rule set; cite PA infrastructure language only. Course / 2025 PA. Week 11–12.
+
+**BVLOS (超视距)**  
+Kind: Official  
+Operation beyond the remote pilot’s visual line of sight; in the first Regulatory Sandbox, the relevant circular is CAD AC-013. CAD AC-013; Cap. 448G. Week 7.
+
+**UTM (无人驾驶航空器交通管理)**  
+Kind: Industry usage  
+Unmanned aircraft system traffic management; Hong Kong’s smart low-altitude traffic-management system is **planned** infrastructure (2025 PA) — **not yet a Hong Kong statute**. 2025 PA ¶154; Sandbox X UTM demos. Week 8.
+
+**Vertiport (垂直起降场 / 起降点（政策用语）)**  
+Kind: Industry usage  
+Take-off and landing site for advanced low-altitude craft; 2025 Policy Address names planning of such sites — **Hong Kong has no dedicated vertiport statute yet** (do not invent one). 2025 PA ¶154; text of Action Plan OPEN. Week 5.
 
 ## Business and economics
 
-**Value of time (时间价值)** — Course.
-Shadow price of passenger or shipper time used inside generalised cost — lecture numbers stay off the public site. Course. Week 4.
+**Industry value-added (产业增加值)**  
+Kind: Course  
+Accounting concept used by Our Hong Kong Foundation for the ~HK$350 billion figure: Hong Kong only, horizon 2050, September 2025 report. Not government output and not a Mainland 规模 total. Week 1 / Week 9.
 
-**generalised cost (广义成本)** — Course.
+**Value chain (价值链)**  
+Kind: Course  
+Stages from vehicle and infrastructure to operations and supporting services. Course. Week 1.
+
+**Supporting services**  
+Kind: Industry usage  
+The segment that accounts for most of the 2050 value-added projection. OHKF. Week 1.
+
+**Economies of density**  
+Kind: Course  
+Average cost falls as flights share the same corridor or vertiport. Course. Week 2.
+
+**HHI**  
+Kind: Course  
+Sum of squared shares; classroom calculations stay off this site. Course. Week 2.
+
+**CASK / CPMK**  
+Kind: Course  
+Cost per available seat-km or per available payload-km. Lecture numbers are not data. Course. Week 3.
+
+**CAPEX / OPEX**  
+Kind: Course  
+Upfront assets versus recurring operating cost. Course. Week 3.
+
+**Generalised cost**  
+Kind: Course  
+Money plus time valued at the passenger’s value of time. Course. Week 4.
+
+**NASA UAM market study constraints**  
+Kind: Course  
+Legal, weather, infrastructure and acceptance shrink the unconstrained market. NASA 2018. Week 4.
+
+**FaaS / platform model**  
+Kind: Course  
+Fly-as-a-service or matching, as distinct from owning the fleet. Course. Week 6.
+
+**Unconstrained versus constrained market**  
+Kind: Course  
+Theoretical demand versus demand after barriers. NASA study. Week 9.
+
+**规模 versus value-added**  
+Kind: Course  
+Mainland scale totals are not the same metric as OHKF industry value-added. Course / OHKF contrast. Week 9.
+
+**Externality**  
+Kind: Course  
+Noise, risk, or carbon not priced in the ticket. Course. Week 10.
+
+**Pigovian instrument**  
+Kind: Course  
+Tax, charge or subsidy aimed at that externality; Hong Kong has no drone congestion tax in force. Course. Week 10.
+
+**generalised cost (广义成本)**  
+Kind: Course  
 Money cost plus time valued at the traveller’s value of time. Course. Week 4.
 
-**yield (收益（客公里／吨公里）)** — Course.
-Revenue per traffic unit (e.g. per passenger-km or payload-km) — no classroom ticket prices on the public site. Course. Week 3.
-
-**load factor (载运率)** — Course.
-Traffic carried divided by capacity offered (seats or payload). Course. Week 3.
-
-**CASK / CPMK (可用座位公里成本 / 可用载荷公里成本)** — Course.
+**CASK / CPMK (可用座位公里成本 / 可用载荷公里成本)**  
+Kind: Course  
 Cost per available seat-kilometre or per available payload-kilometre — lecture worked examples are not data. Course. Week 3.
 
-**CAPEX / OPEX (资本开支 / 营运开支)** — Course.
+**CAPEX / OPEX (资本开支 / 营运开支)**  
+Kind: Course  
 Upfront capital expenditure versus recurring operating expenditure. Course. Week 3.
 
-**economies of density (密度经济)** — Course.
+**economies of density (密度经济)**  
+Kind: Course  
 Average cost falls as more flights share the same corridor or vertiport. Course. Week 2.
 
-**HHI (赫芬达尔—赫希曼指数)** — Course.
+**HHI (赫芬达尔—赫希曼指数)**  
+Kind: Course  
 Sum of squared market shares; classroom calculations stay off the public site. Course. Week 2.
 
-**platform / FaaS (平台 / 飞行即服务)** — Course / Industry usage.
+**platform / FaaS (平台 / 飞行即服务)**  
+Kind: Course  
 Matching or fly-as-a-service model, as distinct from owning the fleet. Course. Week 6.
 
-**PPP (公私营合作)** — Course.
-Public–private partnership for infrastructure or services — **not** a substitute for a vertiport statute. Course. Week 5 / Week 11.
-
-**externality (外部性)** — Course.
+**externality (外部性)**  
+Kind: Course  
 Noise, risk, privacy or carbon cost not priced into the ticket or fee. Course. Week 10.
 
-**Pigovian charge (庇古税／收费)** — Course.
+**Pigovian charge (庇古税／收费)**  
+Kind: Course  
 Tax or charge aimed at an externality; Hong Kong has **no** drone congestion tax in force. Course. Week 10.
 
-**value-added versus 规模 (增加值 对比 规模)** — Course / Official contrast.
+**value-added versus 规模 (增加值 对比 规模)**  
+Kind: Course  
 OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals. OHKF (T3); NDRC / CCID scale figures. Week 9.
 
-**unconstrained versus constrained market (无约束市场 对比 受约束市场)** — Course.
+**unconstrained versus constrained market (无约束市场 对比 受约束市场)**  
+Kind: Course  
 Theoretical demand versus demand after legal, weather, infrastructure and acceptance barriers (NASA UAM framing). NASA UAM market study (2018). Week 4 / Week 9.
+
+## Unplaced
+
+Also listed under Hong Kong institutions and law:
+
+- eVTOL (电动垂直起降飞行器)
+- VTOL (垂直起降)
+- SUA (小型无人驾驶飞机)
+- UAS (无人驾驶航空器系统)
+- UAV (无人驾驶航空器 / 无人机)
+- VLOS (视距内)
+- EVLOS (扩展视距)
+- docking station (机库 / 起降柜)
+- Category A / B / C (Cap. 448G) (甲类 / 乙类 / 丙类)
+- payload (有效载荷)
+- MTOW (最大起飞重量)
+- U-space (（欧盟用语，无标准港译）)
+- corridor (航廊 / 低空走廊)
+- visual line of sight (视线可见 / 视距)
+- restricted flying zone (CAD) (限制飞行区)
+- vertistop (小型起降点)
+- charging / swapping (充电 / 换电)
+- TLB (运输及物流局)
+- OFCA / Communications Authority (通讯办 / 通讯事务管理局)
+- Advisory Circular (顾问通告)
+- 国令761 (无人驾驶航空器飞行管理暂行条例)
+- CCAR-92 (《民用无人驾驶航空器运行安全管理规则》)
+- Value of time (时间价值)
+- yield (收益（客公里／吨公里）)
+- load factor (载运率)
+- PPP (公私营合作)
