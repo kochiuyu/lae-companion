@@ -9,6 +9,8 @@ website:
         text: Home
       - href: tracker.qmd
         text: Tracker
+      - href: dates.qmd
+        text: Dates
       - href: glossary.qmd
         text: Glossary
       - href: readings.qmd

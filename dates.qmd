@@ -1,0 +1,43 @@
+---
+title: "Dates"
+as_of: "2026-09-06"
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+Official milestones only. Drafts are labelled draft. Press items belong on News.
+
+## Hong Kong
+
+- 2022-12-01 — Cap. 448G full effect. Small Unmanned Aircraft Order took full effect as Hong Kong’s main SUA statute. [source](https://www.elegislation.gov.hk/hk/cap448G)
+- 2024 (PA ¶82) — 2024 Policy Address — LAE / Working Group. Chief Executive announced establishment of the Working Group on Developing Low-altitude Economy and the LAE policy track (¶82). [source](https://www.policyaddress.gov.hk/2024/en/p81.html)
+- 2024-11-12 — Working Group first meeting. Working Group on Developing Low-altitude Economy held its first meeting. [source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)
+- 2025-03-20 — Regulatory Sandbox selection. Government announced selection of **38** of **72** first-cohort Regulatory Sandbox projects (do **not** blend with Sandbox X). [source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)
+- 2025-07-18 — Cap. 448G Category C. Category C SUA (above 25 kg up to 150 kg) amendments took effect. [source](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm)
+- 2025-10-27 — 1.4 GHz UAS (Private) Licence. Communications Authority / OFCA UAS (Private) Licence for **1430–1444 MHz**, confined to LAE Regulatory Sandbox projects, became available. [source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)
+- 2025-11-24 — Regulatory Sandbox X launch. Advanced Regulatory Sandbox X launched (separate programme from the first Sandbox). [source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)
+- 2025 (PA ¶153–157) — 2025 Policy Address — LAE / Action Agenda. PA committed to formulate the LAE planning Action Agenda, Sandbox X, spectrum, and related infrastructure language (¶153–157). [source](https://www.policyaddress.gov.hk/2025/en/p153.html)
+- 2025-12-31 — CAD AC-013 (current PDF). Current CAD Advisory Circular on BVLOS permissions **within Regulatory Sandbox** (supersedes 2025-07-18 version). [source](https://www.cad.gov.hk/documents/AC-013_E.pdf)
+- 2026-04-24 — CAD AC-017 (current PDF). Current CAD Advisory Circular on cross-boundary SUA permissions **within Regulatory Sandbox X**. [source](https://www.cad.gov.hk/documents/AC-017.pdf)
+
+## Mainland
+
+- 2023-12-21 — National Airspace Basic Classification. CAAC released the national airspace basic classification (incl. G / W labels) — **not Hong Kong law**. [source](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html)
+- 2024-01-01 — 国令761. Interim UAS Flight Management Ordinance took effect. [source](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)
+- 2024-01-01 — CCAR-92. Civil UAS Operation Safety Rules took effect. [source](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html)
+- 2025-12-22 — NDRC LAE statistical classification. NDRC issued 发改低空〔2025〕1676号,《低空经济及其核心产业统计分类（试行）》. [source](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm)
+- 2025-12-27 — Civil Aviation Law (2025 revision) — passage / promulgation. NPC Standing Committee revised Civil Aviation Law (Order No. 65 path); CAAC publishes the revised text. [source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html)
+- 2026-07-01 — Civil Aviation Law (2025 revision) — effective. Revised Civil Aviation Law took effect. [source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html)
+- 2026-08-11 — CAAC ATM Rules (征求意见稿) Ch.12 (draft). CAAC published draft ATM rules consultation text including unmanned-aircraft chapter — **not promulgated law** (comments to 2026-09-11). [source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)
+
+## United States
+
+- 2018-11-21 — NASA UAM Market Study (BAH final). NASA-sponsored Urban Air Mobility Market Study final report submitted / published on NTRS (course constraint framing; **no market-size figures copied here**). [source](https://ntrs.nasa.gov/api/citations/20190001472/downloads/20190001472.pdf)
+- 2021-01-15 — FAA Remote ID final rule (FR publication). FAA Remote Identification of Unmanned Aircraft final rule published in the Federal Register (86 FR 4390). [source](https://www.federalregister.gov/documents/2021/01/15/2020-28948/remote-identification-of-unmanned-aircraft)
+- 2023-04-26 — FAA UAM Concept of Operations v2.0. FAA published Urban Air Mobility Concept of Operations Version 2.0. [source](https://www.faa.gov/sites/faa.gov/files/Urban-Air-Mobility-Concept-of-Operations-2.0.pdf)
+
+## European Union
+
+- 2021-04-22 (adopted) / 2021-04-23 (OJ) — Implementing Regulation (EU) 2021/664 — U-space. Commission adopted the U-space regulatory framework; published in the Official Journal (L 139). [source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0664)
+- 2023-01-26 — (EU) 2021/664 application date. U-space Implementing Regulation **applies** from this date across the Union (per Art. 19). [source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0664)
