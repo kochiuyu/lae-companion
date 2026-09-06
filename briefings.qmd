@@ -1,13 +1,13 @@
 ---
 title: "Briefings"
-as_of: "2026-09-05"
+as_of: "2026-09-07"
 toc: true
 toc-location: body
 toc-title: "Sections"
 page-layout: article
 ---
 
-Dated instructor notes. Read the newest date first. Not lecture slides.
+Dated notes for the course. Read the newest date first. These are source notes, not lecture slides.
 
 ## 2026-09-05 — WEEKLY-2026-09-05
 
@@ -17,28 +17,28 @@ First WEEKLY after today’s INIT. **HK side: no in-window primary changes** on 
 
 **Still not fact:** operational Shenzhen–HK UAS corridor; NBS national LAE 规模 under 1676号; Guangdong 3000亿元 outturn; published Action Plan.
 
-## What changed
+## What this note added
 
 | Area | Status | Detail |
 |------|--------|--------|
-| HK Action Plan | UNCHANGED | Not published; end-2026 drafting target stands |
-| Sandbox X cross-boundary results | UNCHANGED | Still OPEN on TLB |
-| CAD AC-013 / AC-017 | UNCHANGED | No supersession in-window |
-| 1.4 GHz / UAS Private Licence | UNCHANGED | GN-1/2025; HKCA 1072 Iss.2 Aug 2026 is E-UTRA BS — **not** UAS |
-| Cap.448G s.12(2)(c) | UNCHANGED | Commencement not gazetted |
-| HK$350bn | UNCHANGED | No gov restatement; remains OHKF-only (T3) |
-| Civil Aviation Law Art.34/225 follow-ons | **UPDATED (partial)** | NEW CAAC ATM Rules **draft** with UAS Ch.12 (2026-08-11) |
-| NBS/NDRC 规模 under 1676号 | UNCHANGED | Classification only |
-| SZ–HK joint route doc | UNCHANGED | None; corridor not operational |
-| Guangdong 3000亿元 | UNCHANGED | Target only |
-| New GBA corridor approvals | UNCHANGED | None NEW T1 in-window |
+| HK Action Plan | No change this week | Not published; end-2026 drafting target stands |
+| Sandbox X cross-boundary results | No change this week | Still OPEN on TLB |
+| CAD AC-013 / AC-017 | No change this week | No supersession in-window |
+| 1.4 GHz / UAS Private Licence | No change this week | GN-1/2025; HKCA 1072 Iss.2 Aug 2026 is E-UTRA BS — **not** UAS |
+| Cap.448G s.12(2)(c) | No change this week | Commencement not gazetted |
+| HK$350bn | No change this week | No gov restatement; remains OHKF-only (T3) |
+| Civil Aviation Law Art.34/225 follow-ons | **Updated (not yet law)** | NEW CAAC ATM Rules **draft** with UAS Ch.12 (2026-08-11) |
+| NBS/NDRC 规模 under 1676号 | No change this week | Classification only |
+| SZ–HK joint route doc | No change this week | None; corridor not operational |
+| Guangdong 3000亿元 | No change this week | Target only |
+| New GBA corridor approvals | No change this week | None NEW T1 in-window |
 
 
 ## 2026-09-05 — INIT
 
 Baseline dossier for the DOTE5891 companion site, built from **primary and official sources**.
 
-### Locked findings
+### What we treat as settled
 
 1. **Definitions / scale.** HK LAE working definition = economic activities generally **below 1,000 m** (LegCo CB(3)933/2024, T2). Mainland statistical definition = NDRC **发改低空〔2025〕1676号** (2025-12-22, T2). HK has **no** official LAE value-added series yet.
 2. **HK map.** Working Group (DFS head; first meeting **12 Nov 2024**); CAD / **Cap. 448G**; **Regulatory Sandbox** ≠ **Regulatory Sandbox X** (AC-013 vs AC-017); **1430–1444 MHz** UAS (Private) Licence from **27 Oct 2025**.
@@ -50,7 +50,7 @@ Baseline dossier for the DOTE5891 companion site, built from **primary and offic
 
 > OHKF (Sep 2025) projects ~HK$350 billion **industry value-added** in Hong Kong by 2050 (majority from supporting services).
 
-## What changed
+## What this note added
 
 - Sandbox vs Sandbox X **resolved** as two official programmes (AC-013 / AC-017).
 - HK$350bn **issuer locked** (OHKF T3); misattribution to HKSAR gov blocked.
