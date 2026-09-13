@@ -1,6 +1,6 @@
 ---
 title: "Briefings"
-as_of: "2026-09-07"
+as_of: "2026-09-13"
 toc: true
 toc-location: body
 toc-title: "Sections"
@@ -8,6 +8,28 @@ page-layout: article
 ---
 
 Dated notes for the course. Read the newest date first. These are source notes, not lecture slides.
+
+## 2026-09-13 — WEEKLY-2026-09-13
+
+Sunday WEEKLY (2026-09-07→2026-09-13): one new T1 primary item — STL speech issued via GIA on **2026-09-10** (regularisation narrative; more than 140 CAD approvals since June 2025; Sandbox X emphasis; HK–Kazakhstan LAE MoU attested; Policy Address / First Five-Year Plan flagged for the following week). No new CAD AC, Cap.448G instrument, OFCA spectrum change, TLB Sandbox X cross-boundary results list, Action Plan published text, or CAAC final ATM / background-review rule. CAAC ATM Rules (征求意见稿) comment window closed **2026-09-11**; page still shows draft only.
+
+**Still not fact:** operational Shenzhen–HK UAS corridor; NBS national LAE 规模 under 1676号; published Action Plan; Sandbox X cross-boundary selection results; full HK–Kazakhstan MoU PDF beyond speech attestation.
+
+## What this note added
+
+| Area | Status | Detail |
+|------|--------|--------|
+| STL GIA speech (HKUST forum) | **NEW (T1 speech)** | Regularisation under existing CAD guidelines; >140 CAD approvals since June 2025; Sandbox X for cross-boundary / unconventional / passenger-carrying; HK–Kazakhstan MoU attested (exchange **2026-09-09**); PA / First Five-Year Plan previewed for week after 2026-09-10 — **not** published in this window |
+| HK Action Plan | No change this week | Text still OPEN; end-2026 drafting target stands |
+| Sandbox X cross-boundary results | No change this week | Still OPEN on TLB; speech does **not** announce a results list |
+| CAD AC-013 / AC-017 | No change this week | No supersession in-window |
+| 1.4 GHz / UAS Private Licence | No change this week | Still Sandbox-confined |
+| Cap.448G follow-ons | No change this week | No new Cap.448G instrument |
+| HK$350bn | No change this week | Remains OHKF Sep 2025 industry VA (HK, 2050) T3 — not HKSAR government |
+| CAAC ATM Rules Ch.12 UAS | **Updated (clock; still draft)** | Comments closed **2026-09-11**; still 征求意见稿; **not** promulgated |
+| CAAC 民用航空安全背景审查管理规定 | No change this week | Comment deadline 2026-09-04 passed; still draft; not final |
+| NBS/NDRC 规模 under 1676号 | No change this week | No new official scale release |
+| SZ–HK corridor **operational** | No change this week | Still NOT evidenced |
 
 ## 2026-09-05 — WEEKLY-2026-09-05
 

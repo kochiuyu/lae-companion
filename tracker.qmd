@@ -1,7 +1,7 @@
 ---
 title: "Tracker"
 subtitle: "Official facts you may cite"
-as_of: "2026-09-05"
+as_of: "2026-09-13"
 toc: true
 toc-location: body
 toc-title: "Sections"
@@ -87,6 +87,7 @@ OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, n
 | ~HK$350bn by 2050 | **[Our Hong Kong Foundation (OHKF)](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83)** | Sep 2025 (launch 2025-09-04) | Industry **value-added (VA)** | HK only | T3 | Allowed **only** with OHKF attribution |
 | Sandbox 38 / 72 | [TLB / GIA](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm) | 2025-03-20 | Selected projects | HK | T2 | Allowed |
 | Sandbox X 15+4+5+9 | [TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) | 2025–2026 | Selected modules | HK | T2 | Allowed; cross-boundary OPEN |
+| more than 140 CAD approvals since June 2025 | [STL / GIA speech](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm) | 2026-09-10 | Ops / permissions under CAD guidelines (speech-attributed) | HK | T1 | Do **not** equate to Sandbox **38**; not market-size or VA |
 | CCID RMB 505.95bn (2023) / 1064.46bn (2026) | CCID via 2024 PA briefing | 2024 | Mainland **规模** | Mainland | T2 citing T3 | Not an HK VA forecast |
 | Guangdong >3000亿元 by 2026 | [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html) | 2024-05-21 | **Policy target** | Guangdong | T1 as target | Target ≠ outturn |
 
@@ -102,11 +103,11 @@ For operations today, cite 国令761 and CCAR-92. The 2025 Civil Aviation Law is
 | [Interim UAS Ordinance 国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm) | **2024-01-01** | T1 |
 | [CCAR-92](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html) | **2024-01-01** | T1 |
 | [National Airspace Basic Classification (G / W)](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html) | Released **2023-12-21** | T1 |
-| [CAAC ATM Rules (征求意见稿) — Ch.12 UAS](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) | **Draft** **2026-08-11** (comments to **2026-09-11**); CAAC; **not** promulgated; not Art.34/225 decree | T1 |
+| [CAAC ATM Rules (征求意见稿) — Ch.12 UAS](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) | **Draft** **2026-08-11**; comments **closed 2026-09-11**; CAAC; **not** promulgated; not Art.34/225 decree | T1 |
 
 Ops today: cite **761 + CCAR-92**. Law Art. 258 defers UAS rules to State Council/CMC.
 
-CAAC ATM Rules draft is under consultation through **2026-09-11**. Do not treat as effective law.
+CAAC ATM Rules draft: comments closed **2026-09-11**; still 征求意见稿 only. Do not treat as effective law.
 
 ## Greater Bay Area
 

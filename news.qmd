@@ -1,6 +1,6 @@
 ---
 title: "News"
-as_of: "2026-09-06"
+as_of: "2026-09-13"
 ---
 
 Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
@@ -22,6 +22,14 @@ Official counts and the HK$350 billion figure stay on Tracker.
 Each item: date, outlet, one sentence, official document to read instead (if any).
 
 ## 2026-09
+
+- **2026-09-10** — RTHK. STL Mable Chan said Hong Kong LAE applications have entered a regularisation stage (CAD more than 140 project applications approved since June 2025), that Sandbox X is being pushed for cross-boundary logistics and passenger-capable unconventional aircraft, and that an HK–Kazakhstan cooperation MoU was signed at the Belt and Road Summit covering standards, talent, and regulatory exchange, with Hong Kong’s first five-year plan due the following week. [Link](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm). Official document to read instead: Regulatory Sandbox / Sandbox X; Working Group on Developing Low-altitude Economy; Action Plan on Developing Low-Altitude Economy (text OPEN); CAD / Cap. 448G.
+
+- **2026-09-10** — China Daily Hong Kong. Coverage of Belt and Road Summit LAE standards session quotes DFS Michael Wong on sandbox approvals and Sandbox X’s further 33 selected projects, and notes a Hong Kong–Nansha (Guangzhou) MoU exchange aimed at cross-boundary testing, regulatory coordination, and technical-standards alignment. [Link](https://www.chinadailyhk.com/hk/article/639379). Official document to read instead: Regulatory Sandbox X (module counts 15+4+5+9 = 33 on TLB page); SZ–HK / GBA cross-boundary operational status remains NOT evidenced on Tracker.
+
+- **2026-09-10** — HKUST. HKUST reported hosting the “Future of Low Altitude Economy” forum with the Working Group and GBA Low Altitude Economy Alliance, including STL remarks on Sandbox X and a witnessed Joint Statement of Intent on Low-Altitude Aviation Standards and Interoperability. [Link](https://hkust.edu.hk/news/hkust-hosts-future-low-altitude-economy-forum). Official document to read instead: Working Group on Developing Low-altitude Economy; Regulatory Sandbox / Sandbox X.
+
+- **2026-09-09** — South China Morning Post. Kazakhstan’s vice-minister of AI and digital development said he signed an MoU with Hong Kong’s Transport and Logistics Bureau at the Belt and Road Summit to launch a transport laboratory and discussed low-altitude economy / traffic-management cooperation. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3366910/hong-kong-kazakhstan-sign-mou-transport-lab-discuss-low-altitude-economy). Official document to read instead: none (international MoU watch — speech-attested in WEEKLY; MoU PDF not locked).
 
 - **2026-09-04** — 电商派. Meituan said its Shenzhen drone delivery network in Longhua upgraded hub-and-spoke points into mesh nodes (to 15 points), extending typical merchant delivery reach from about 3 km to 5 km, with Nanshan expansion underway. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt). Official document to read instead: none (no Tracker counterpart).
 
