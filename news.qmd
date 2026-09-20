@@ -1,6 +1,6 @@
 ---
 title: "News"
-as_of: "2026-09-13"
+as_of: "2026-09-20"
 ---
 
 Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
@@ -22,6 +22,14 @@ Official counts and the HK$350 billion figure stay on Tracker.
 Each item: date, outlet, one sentence, official document to read instead (if any).
 
 ## 2026-09
+
+- **2026-09-16** — news.gov.hk (English). Government press summary of the 2026 Policy Address states that to drive growth of the low-altitude economy, an Action Plan will launch cross-boundary logistics trial flights and initiate drafting legislation for heavy unconventional aircraft. [Link](https://www.news.gov.hk/eng/2026/09/20260916/20260916_095230_867.html). Official document to read instead: Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); Regulatory Sandbox X / cross-boundary trial pathway; Cap. 448G / unconventional >150 kg drafting watch.
+
+- **2026-09-16** — 香港政府新聞網 (news.gov.hk Chinese). Chinese government news states the Policy Address will formulate the Action Plan on Developing Low-Altitude Economy (發展低空經濟規劃行動綱領), including ASAP cross-boundary low-altitude logistics trial flights and progressive GBA network expansion, Smart Low-altitude Traffic Management System targeting progressive rollout from 2028, and beginning legislation for unconventional aircraft over 150 kg. [Link](https://www.news.gov.hk/chi/2026/09/20260916/20260916_095230_867.html). Official document to read instead: Action Plan (text OPEN); Smart TMS from 2028; >150 kg drafting within 2027 (PA Annex indicators 34–35).
+
+- **2026-09-16** — 香港文匯報 (Wen Wei Po). Wen Wei Po republished the full 2026 Policy Address text, including the low-altitude economy ecosystem section (Sandbox regularisation / Sandbox X testing narrative; ≥15 insurers; Action Plan trio on cross-boundary trials, Smart TMS from 2028, and drafting >150 kg unconventional-aircraft legislation). [Link](https://www.wenweipo.com/a/202609/16/AP6aaa464ae4b01d54a2836d6a.html). Official document to read instead: 2026 Policy Address ¶137–139 (GIA / policyaddress.gov.hk); Regulatory Sandbox / Sandbox X; Working Group / TLB.
+
+- **2026-09-16** — RTHK. RTHK’s Five-Year Plan highlight digest covered the inaugural HKSAR 2026–2030 plan’s seven parts (Northern Metropolis, four centres, GBA, governance) released the same day as the Policy Address, without listing LAE bullets in that digest. [Link](https://news.rthk.hk/rthk/ch/component/k2/1870283-20260916.htm). Official document to read instead: First Five-Year Plan GIA (WEEKLY; Asia-Pacific low-altitude applications hub language is in the GIA summary, not this RTHK digest).
 
 - **2026-09-10** — RTHK. STL Mable Chan said Hong Kong LAE applications have entered a regularisation stage (CAD more than 140 project applications approved since June 2025), that Sandbox X is being pushed for cross-boundary logistics and passenger-capable unconventional aircraft, and that an HK–Kazakhstan cooperation MoU was signed at the Belt and Road Summit covering standards, talent, and regulatory exchange, with Hong Kong’s first five-year plan due the following week. [Link](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm). Official document to read instead: Regulatory Sandbox / Sandbox X; Working Group on Developing Low-altitude Economy; Action Plan on Developing Low-Altitude Economy (text OPEN); CAD / Cap. 448G.
 

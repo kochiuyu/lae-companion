@@ -1,6 +1,6 @@
 ---
 title: "Briefings"
-as_of: "2026-09-13"
+as_of: "2026-09-20"
 toc: true
 toc-location: body
 toc-title: "Sections"
@@ -8,6 +8,31 @@ page-layout: article
 ---
 
 Dated notes for the course. Read the newest date first. These are source notes, not lecture slides.
+
+## 2026-09-20 — WEEKLY-2026-09-20
+
+Sunday WEEKLY (2026-09-13→2026-09-20): major T1 cluster on **2026-09-16** — Chief Executive’s **2026 Policy Address** (GIA part 4; policyaddress.gov.hk Ch.III ¶137–139) and the **First Five-Year Plan for Economic and Social Development of the HKSAR (2026–2030)**. PA commits to formulate the **Action Plan on Developing Low-Altitude Economy** (中文：「發展低空經濟規劃行動綱領」) with three named actions (cross-boundary logistics trial flights ASAP; Smart Low-altitude Traffic Management System progressive from **2028**; begin drafting legislation for unconventional aircraft **>150 kg**). PA Annex indicators lock TLB timelines: indicator **34** (Smart TMS from 2028) and **35** (complete drafting of >150 kg legislation **within 2027**). Five-Year Plan GIA restates Asia-Pacific hub for innovative low-altitude applications. **Action Plan full published text remains OPEN** (PA says “will formulate”; not a gazette statute). No new CAD AC, Cap.448G amending instrument, OFCA spectrum change, TLB Sandbox X cross-boundary results list, or CAAC final ATM / background-review rule. CAAC ATM Rules (征求意见稿) page still draft after 2026-09-11 comment close.
+
+**Still not fact:** operational Shenzhen–HK UAS corridor; NBS national LAE 规模 under 1676号; published Action Plan full text; Sandbox X cross-boundary selection results; full HK–Kazakhstan MoU PDF beyond speech attestation.
+
+## What this note added
+
+| Area | Status | Detail |
+|------|--------|--------|
+| 2026 Policy Address ¶137–139 | **NEW (T1)** | Asia-Pacific hub for innovative low-altitude applications; Sandbox regularisation narrative (over 140 regularised projects; about 10 Sandbox X testing); ≥15 insurers; Action Plan *will formulate* with three actions — [GIA](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm) / [Ch.III](https://www.policyaddress.gov.hk/2026/en/chapter3.html) |
+| PA Annex indicators 34–35 | **NEW (T1)** | TLB: Smart Low-altitude TMS progressive from **2028**; complete drafting of >150 kg unconventional-aircraft legislation **within 2027** — [Annex PDF](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf) |
+| First Five-Year Plan (2026–2030) | **NEW (T1)** | GIA announces inaugural HKSAR plan; aviation-hub framing includes Asia-Pacific low-altitude applications hub — [GIA](https://www.info.gov.hk/gia/general/202609/16/P2026091600338.htm) |
+| HK Action Plan | **Updated (PA-framed; text OPEN)** | PA 2026 ¶139 *will formulate*; three actions locked; **full plan text not published** |
+| Smart Low-altitude Traffic Management System | **NEW dated watch** | Progressive implementation from **2028** (PA ¶139 + indicator 34) |
+| Unconventional aircraft >150 kg legislation | **NEW dated watch** | Drafting complete **within 2027** (PA ¶139 + indicator 35); no Cap.448G amending instrument yet |
+| Sandbox X cross-boundary results | No change this week | Still OPEN on TLB; PA “trial flights ASAP” is **not** a results list |
+| CAD AC-013 / AC-017 | No change this week | No supersession in-window |
+| 1.4 GHz / UAS Private Licence | No change this week | Still Sandbox-confined |
+| Cap.448G follow-ons | **WATCH advanced** | No amending instrument; PA / indicator 35 = drafting >150 kg within 2027 |
+| HK$350bn | No change this week | Remains OHKF Sep 2025 industry VA (HK, 2050) T3 — not HKSAR government |
+| CAAC ATM Rules Ch.12 UAS | No change this week | Still 征求意见稿 after 2026-09-11 comment close; **not** promulgated |
+| NBS/NDRC 规模 under 1676号 | No change this week | No new official scale release |
+| SZ–HK corridor **operational** | No change this week | Still NOT evidenced |
 
 ## 2026-09-13 — WEEKLY-2026-09-13
 

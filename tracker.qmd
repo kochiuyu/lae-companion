@@ -1,7 +1,7 @@
 ---
 title: "Tracker"
 subtitle: "Official facts you may cite"
-as_of: "2026-09-13"
+as_of: "2026-09-20"
 toc: true
 toc-location: body
 toc-title: "Sections"
@@ -16,7 +16,7 @@ Hong Kong is trying to build a **low-altitude economy**: flying tasks such as in
 
 ### Who is in charge?
 
-A **Working Group**, led by the Deputy Financial Secretary, coordinates policy. The **Civil Aviation Department** enforces the Small Unmanned Aircraft Order (Cap. 448G), the main Hong Kong law for drones. A full **Action Plan** has been promised; the text is not published yet.
+A **Working Group**, led by the Deputy Financial Secretary, coordinates policy. The **Civil Aviation Department** enforces the Small Unmanned Aircraft Order (Cap. 448G), the main Hong Kong law for drones. A full **Action Plan** has been promised again in the **2026 Policy Address** (¶139); the published text is still not available.
 
 ### Two different trial schemes
 
@@ -57,7 +57,9 @@ These are the government bodies and the main Hong Kong statute.
 | [Working Group on Developing Low-altitude Economy](https://www.policyaddress.gov.hk/2024/en/p81.html) | Head = Deputy Financial Secretary (DFS); Deputy = Secretary for Transport and Logistics (STL); Secretariat = Transport and Logistics Bureau (TLB); first meeting **[2024-11-12](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)** | 2024 Policy Address (PA) ¶82; 2024-11-12 | Chief Executive (CE) / WG | T1/T2 |
 | [Cap. 448G (SUA Order)](https://www.elegislation.gov.hk/hk/cap448G) | Full effect **2022-12-01**; Cat C ≤150 kg from **2025-07-18** | 2021–2025 | CE in Council | T1 |
 | [Civil Aviation Department (CAD)](https://www.cad.gov.hk/english/sua.html) | Cap.448G regulator; sandbox Advisory Circulars (ACs) (AC-013 / AC-017) | Ongoing | CAD | T1/T2 |
-| [Action Plan on Developing Low-Altitude Economy](https://www.policyaddress.gov.hk/2025/en/p153.html) | PA 2025 ¶154 *will formulate*; STL drafting target **end-2026**; **text OPEN** | 2025 | CE / Government | T1/T2 |
+| [Action Plan on Developing Low-Altitude Economy](https://www.policyaddress.gov.hk/2026/en/chapter3.html) | PA 2026 ¶139 *will formulate* (cross-boundary logistics trial flights ASAP; Smart Low-altitude TMS from **2028**; begin drafting >150 kg unconventional-aircraft legislation); **text OPEN** — not a gazette statute | 2026-09-16 | CE / Government | T1/T2 |
+| Smart Low-altitude Traffic Management System | PA ¶139 + Annex indicator **34**: progressive implementation **from 2028** (TLB); not yet in force | 2026-09-16 | CE / TLB | T1 |
+| Unconventional aircraft >150 kg legislation | PA ¶139 + Annex indicator **35**: complete drafting **within 2027** (TLB); no Cap.448G amending instrument yet | 2026-09-16 | CE / TLB | T1 |
 
 ## Two trial programmes
 
@@ -87,7 +89,8 @@ OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, n
 | ~HK$350bn by 2050 | **[Our Hong Kong Foundation (OHKF)](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83)** | Sep 2025 (launch 2025-09-04) | Industry **value-added (VA)** | HK only | T3 | Allowed **only** with OHKF attribution |
 | Sandbox 38 / 72 | [TLB / GIA](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm) | 2025-03-20 | Selected projects | HK | T2 | Allowed |
 | Sandbox X 15+4+5+9 | [TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) | 2025–2026 | Selected modules | HK | T2 | Allowed; cross-boundary OPEN |
-| more than 140 CAD approvals since June 2025 | [STL / GIA speech](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm) | 2026-09-10 | Ops / permissions under CAD guidelines (speech-attributed) | HK | T1 | Do **not** equate to Sandbox **38**; not market-size or VA |
+| more than 140 CAD approvals / over 140 regularised projects | [STL / GIA speech](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm); [PA 2026 ¶137](https://www.policyaddress.gov.hk/2026/en/chapter3.html) | 2026-09-10 / 2026-09-16 | Ops / permissions (STL); PA-attributed regularised projects | HK | T1 | Do **not** equate to Sandbox **38**; not market-size or VA |
+| about 10 Sandbox X projects begun testing | [PA 2026 ¶137](https://www.policyaddress.gov.hk/2026/en/chapter3.html) | 2026-09-16 | Testing-start snapshot (UTM / unconventional) | HK | T1 | Do **not** blend with Sandbox X module totals **15+4+5+9** or first-batch **38** |
 | CCID RMB 505.95bn (2023) / 1064.46bn (2026) | CCID via 2024 PA briefing | 2024 | Mainland **规模** | Mainland | T2 citing T3 | Not an HK VA forecast |
 | Guangdong >3000亿元 by 2026 | [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html) | 2024-05-21 | **Policy target** | Guangdong | T1 as target | Target ≠ outturn |
 
@@ -121,6 +124,6 @@ A domestic Shenzhen blood-delivery trial is documented. An operating Shenzhen–
 
 ## What not to write
 
-No official text yet for the Action Plan, a Hong Kong vertiport statute, or Sandbox X cross-boundary results.
+No official text yet for the Action Plan, a Hong Kong vertiport statute, or Sandbox X cross-boundary results. Smart TMS from **2028** and >150 kg drafting **within 2027** are PA Annex work indicators, not effective law dates.
 
-WG gazetted instrument beyond PA + first meeting; Cap.448G s.12(2)(c) appointment; Sandbox X cross-boundary results; Action Plan text; Pigovian drone taxes; Vertiport HK statutory definition.
+WG gazetted instrument beyond PA + first meeting; Cap.448G s.12(2)(c) appointment; Sandbox X cross-boundary results; Action Plan **published** text; Pigovian drone taxes; Vertiport HK statutory definition.

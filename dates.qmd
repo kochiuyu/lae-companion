@@ -1,6 +1,6 @@
 ---
 title: "Dates"
-as_of: "2026-09-06"
+as_of: "2026-09-20"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -16,7 +16,7 @@ Hong Kong rules apply to this course. Mainland, United States, and EU rows are c
 
 ## Hong Kong
 
-These dates created Hong Kong’s working definition, the drone statute, two trial programmes, and the 1.4 GHz licence. The Action Plan text is still unpublished.
+These dates created Hong Kong’s working definition, the drone statute, two trial programmes, and the 1.4 GHz licence. The 2026 Policy Address frames an Action Plan and dated TLB work indicators; the Action Plan text itself is still unpublished.
 
 - 2022-12-01 — Cap. 448G. Hong Kong’s main drone statute took full effect. Students should treat later sandbox circulars as permissions under this Order, not as a replacement statute. [source](https://www.elegislation.gov.hk/hk/cap448G)
 - 2024 (PA ¶82) — 2024 Policy Address ¶82. The government named low-altitude activity (generally below 1,000 m) as a policy field and created the Working Group. This is a policy announcement, not a new ordinance. [source](https://www.policyaddress.gov.hk/2024/en/p81.html)
@@ -28,6 +28,9 @@ These dates created Hong Kong’s working definition, the drone statute, two tri
 - 2025 (PA ¶153–157) — 2025 Policy Address ¶153–157. The government promised an Action Plan, Sandbox X, spectrum, and infrastructure language. The Action Plan document itself is still unpublished. [source](https://www.policyaddress.gov.hk/2025/en/p153.html)
 - 2025-12-31 — Civil Aviation Department (CAD) Advisory Circular (AC)-013. Sets how to seek beyond-visual-line-of-sight permission inside the first Sandbox. It does not authorise BVLOS outside that sandbox. [source](https://www.cad.gov.hk/documents/AC-013_E.pdf)
 - 2026-04-24 — CAD AC-017. Sets how to seek cross-boundary small unmanned aircraft permission inside Sandbox X. It does not mean a Shenzhen–Hong Kong route is already in commercial service. [source](https://www.cad.gov.hk/documents/AC-017.pdf)
+- 2026-09-16 — Chief Executive’s 2026 Policy Address (LAE ¶137–139). Commits to formulate the Action Plan; Smart TMS from 2028; begin drafting >150 kg unconventional-aircraft legislation; restates Sandbox / Sandbox X narrative. The Action Plan full text remains unpublished. [source](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm)
+- 2026-09-16 — PA Annex indicators 34–35. TLB work indicators: Smart Low-altitude Traffic Management System progressive from 2028; complete drafting of >150 kg legislation within 2027. These are dated work indicators, not effective law dates. [source](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)
+- 2026-09-16 — First Five-Year Plan for Economic and Social Development of the HKSAR (2026–2030). GIA announces the inaugural HKSAR Five-Year Plan; aviation-hub framing includes building Hong Kong into the Asia-Pacific hub for innovative low-altitude applications. [source](https://www.info.gov.hk/gia/general/202609/16/P2026091600338.htm)
 
 ## Mainland
 
