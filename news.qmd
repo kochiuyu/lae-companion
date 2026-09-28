@@ -1,6 +1,6 @@
 ---
 title: "News"
-as_of: "2026-09-20"
+as_of: "2026-09-27"
 ---
 
 Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
@@ -22,6 +22,12 @@ Official counts and the HK$350 billion figure stay on Tracker.
 Each item: date, outlet, one sentence, official document to read instead (if any).
 
 ## 2026-09
+
+- **2026-09-23** — info.gov.hk (English GIA). STL Chan, with TLB Permanent Secretary and CAD Director-General, met CAAC Deputy Administrator Liang Nan in Beijing and discussed First Five-Year Plan / 2026 Policy Address aviation measures including the low-altitude economy (alongside trunk-branch connectivity, air cargo, and SAF). [Link](https://www.info.gov.hk/gia/general/202609/23/P2026092300422.htm). Official document to read instead: Working Group / TLB / CAD; Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); SZ–HK corridor remains NOT evidenced on Tracker.
+
+- **2026-09-23** — 政府新聞公報 (info.gov.hk Chinese GIA). Same Beijing CAAC call recorded in Chinese; 低空經濟 listed among discussion topics; no new Action Plan text or corridor announcement. [Link](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm). Official document to read instead: Working Group / TLB / CAD; Action Plan (text OPEN).
+
+- **2026-09-21** — HK01. STL Mable Chan and Housing Secretary Winnie Ho attended the launch of a Regulatory Sandbox drone meal-delivery route into Ma On Shan’s Chung On Estate (頌安邨)—the first public-housing landing—with Chan calling it a Regulatory Sandbox milestone and foreshadowing more Northern Metropolis estate routes. [Link](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8). Official document to read instead: Regulatory Sandbox (ops expansion; not Sandbox X cross-boundary results).
 
 - **2026-09-16** — news.gov.hk (English). Government press summary of the 2026 Policy Address states that to drive growth of the low-altitude economy, an Action Plan will launch cross-boundary logistics trial flights and initiate drafting legislation for heavy unconventional aircraft. [Link](https://www.news.gov.hk/eng/2026/09/20260916/20260916_095230_867.html). Official document to read instead: Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); Regulatory Sandbox X / cross-boundary trial pathway; Cap. 448G / unconventional >150 kg drafting watch.
 
