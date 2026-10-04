@@ -1,6 +1,6 @@
 ---
 title: "News"
-as_of: "2026-09-27"
+as_of: "2026-10-04"
 ---
 
 Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
@@ -20,6 +20,12 @@ Official counts and the HK$350 billion figure stay on Tracker.
 ## How items appear
 
 Each item: date, outlet, one sentence, official document to read instead (if any).
+
+## 2026-10
+
+- **2026-10-02** — 政府新聞公報 (info.gov.hk Chinese GIA). STL Chan briefed LegCo’s Economic Development Panel on First Five-Year Plan / 2026 Policy Address transport–logistics measures, stating that >140 Regulatory Sandbox projects have been regularised, the Working Group continues drafting the《發展低空經濟規劃行動綱領》, dedicated unconventional-aircraft legislation will be drafted and submitted next year, and Smart Low-Altitude Traffic Management System rollout is targeted from 2028. [Link](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm). Official document to read instead: Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); Cap. 448G / >150 kg drafting; Smart TMS from 2028; Working Group / TLB / CAD; Regulatory Sandbox ops regularisation count (not Sandbox X cross-boundary results).
+
+- **2026-09-30** — 紫荊 / Bau.com.hk. CAD Director-General Clara Wong’s bylined feature on Hong Kong civil aviation includes a dedicated LAE section noting Cap.448G expansion to Category C (25–150 kg) effective mid-2025, Cap.448C trial provisions for unconventional aircraft, research toward Smart Low-Altitude Traffic Management and supporting infrastructure, and a push to complete dedicated >150 kg subsidiary legislation drafting by 2027. [Link](https://bau.com.hk/web/article/1554875572736425984/web/content_1554875572736425984.html). Official document to read instead: Cap. 448G / >150 kg drafting; CAD / SUA; Smart TMS; Working Group (no new instrument).
 
 ## 2026-09
 

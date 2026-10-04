@@ -1,6 +1,6 @@
 ---
 title: "Briefings"
-as_of: "2026-09-27"
+as_of: "2026-10-04"
 toc: true
 toc-location: body
 toc-title: "Sections"
@@ -8,6 +8,27 @@ page-layout: article
 ---
 
 Dated notes for the course. Read the newest date first. These are source notes, not lecture slides.
+
+## 2026-10-04 — WEEKLY-2026-10-04
+
+Sunday WEEKLY (2026-09-27→2026-10-04): one new T1 LegCo briefing transcript — on **2026-10-02** the Secretary for Transport and Logistics (STL) briefed the LegCo Panel on Economic Development on the First Five-Year Plan and 2026 Policy Address. The Chinese-only GIA restates PA LAE commitments: **>140** Sandbox projects regularised; Working Group **continues to formulate** 《發展低空經濟規劃行動綱領》 this year; commit to **complete drafting** dedicated unconventional-aircraft legislation **next year** and submit to LegCo; Smart Low-altitude Traffic Management System progressive from **2028**. This is **policy restatement / LegCo briefing only**, not a new legal instrument, Sandbox X results list, or market figure. **Action Plan full published text remains OPEN** (PA ¶139 / highlight still “will formulate” / “Formulate”; STL still “繼續全力制訂”). No new CAD AC, Cap.448G amending instrument, OFCA spectrum change, TLB Sandbox X cross-boundary results list, CAAC ATM final rule, NBS/NDRC scale under 1676号, or evidenced SZ–HK UAS corridor operations.
+
+**Still not fact:** operational Shenzhen–HK UAS corridor; NBS national LAE 规模 under 1676号; published Action Plan full text; Sandbox X cross-boundary selection results.
+
+## What this note added
+
+| Area | Status | Detail |
+|------|--------|--------|
+| STL LegCo EDev Panel briefing | **NEW (T1 LegCo briefing)** | Chinese GIA restates PA ¶137–139 / indicators: >140 Sandbox regularised; WG still formulating Action Plan this year; complete drafting dedicated unconventional-aircraft legislation next year + submit LegCo; Smart TMS from 2028; Hung Shui Kiu/Ha Tsuen ~32 ha LAE logistics land language — [GIA ZH](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm) |
+| HK Action Plan | **Updated (still OPEN)** | STL 10-02 “繼續全力制訂”; PA ¶139 still “will formulate”; **full plan text not published** |
+| Sandbox X cross-boundary results | No change this week | Still OPEN on TLB (“in due course”); PA / STL “trial flights ASAP” is **not** a results list |
+| CAD AC-013 / AC-017 | No change this week | No supersession in-window |
+| 1.4 GHz / UAS Private Licence | No change this week | Still Sandbox-confined |
+| Cap.448G follow-ons | **WATCH advanced** | No Cap.448G amending instrument; PA / indicator 35 + STL 10-02 = complete drafting of >150 kg / unconventional legislation next year and submit to LegCo — **not enacted** |
+| HK$350bn | No change this week | Remains OHKF Sep 2025 industry VA (HK, 2050) T3 — not HKSAR government |
+| CAAC ATM Rules Ch.12 UAS | No change this week | Still 征求意见稿 after 2026-09-11 comment close; **not** promulgated |
+| NBS/NDRC 规模 under 1676号 | No change this week | No new official scale release |
+| SZ–HK corridor **operational** | No change this week | Still NOT evidenced; STL 10-02 does not announce corridor |
 
 ## 2026-09-27 — WEEKLY-2026-09-27
 
