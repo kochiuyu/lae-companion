@@ -35,11 +35,21 @@ Tuesday WEEKLY (2026-09-29→2026-10-06): one new T1 LegCo briefing transcript �
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 **SCED LegCo ITB Panel briefing** — [「低空經濟發展方面，通訊事務管理局（通訊局）已於二○二五年十月推出使用無人機系統專用頻譜的發牌制度。有關安排與內地的頻譜規劃一致，有助日後無人機跨境運作。」…「政府會積極鼓勵業界拓展跨境6G技術試驗及應用場景驗證，包括低軌衞星、低空經濟等，以達到粵港澳大灣區、香港及業界三贏局面。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm))
 
+**G.N. 5936 Sandbox RFZs** — [「本人憑藉《小型無人機令》(第448G章)第19(1)條授予的權力，現就該命令第18(1)條，指定下列香港範圍(包括該範圍的空域)為限制飛行區：」…「上列為配合推行低空經濟監管沙盒試點項目所指定的限制飛行區」…「本公告作出的指定將於2026年9月26日開始實施，全日生效，並同時取代2026年第4328號政府公告內作出的指定。」…「2026年9月21日」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/G.N.5936_C.pdf))
+
 **MPS UAS penalty discretion benchmark (Mainland)** — [「为规范公安机关行政处罚裁量权的行使，公安部近日对外披露《公安机关依法处置涉无人驾驶航空器违法行为行政处罚裁量基准》，裁量基准具体包括“总则”“一般适用规则”“具体行为的裁量基准”“相关规定”4个部分。」…「在“具体行为的裁量基准”部分，此次披露的文件规定了“未经实名登记实施飞行活动”“未经批准操控微型、轻型、小型民用无人驾驶航空器在管制空域内飞行”“操控模型航空器在空中交通管理机构划定的空域外飞行”等5类违法行为的具体裁量基准。」…「裁量基准自印发之日起施行。」]{lang="zh-Hans"} ([source](https://www.news.cn/20260930/741950d104b44f28a48cb8e134fc66d6/c.html))
 
 **HK Action Plan** — [「今年，發展低空經濟工作組會繼續全力制訂《發展低空經濟規劃行動綱領》。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm))
 
+**Sandbox X cross-boundary results** — [「發展低空經濟工作組正審閱其他申請，並會適時公布有關結果。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
+
+**1.4 GHz / UAS Private Licence** — [「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+
 **Cap.448G follow-ons** — [「我們承諾於明年完成為非傳統航空器制訂專屬法例的草擬工作，並提交立法會。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm))
+
+**HK$350bn** — [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+**CAAC ATM Rules Ch.12 UAS** — [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
 
 **SZ–HK corridor operational** — [「有關安排與內地的頻譜規劃一致，有助日後無人機跨境運作。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm))
 :::
@@ -70,7 +80,15 @@ Sunday WEEKLY (2026-09-27→2026-10-04): one new T1 LegCo briefing transcript �
 
 **HK Action Plan** — [「今年，發展低空經濟工作組會繼續全力制訂《發展低空經濟規劃行動綱領》。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm))
 
+**Sandbox X cross-boundary results** — [「發展低空經濟工作組正審閱其他申請，並會適時公布有關結果。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html)); [「與內地緊密合作，盡快實現跨境低空物流試飛，並逐步拓展大灣區低空跨境物流網絡。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html))
+
+**1.4 GHz / UAS Private Licence** — [「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+
 **Cap.448G follow-ons** — [「我們承諾於明年完成為非傳統航空器制訂專屬法例的草擬工作，並提交立法會。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm))
+
+**HK$350bn** — [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+**CAAC ATM Rules Ch.12 UAS** — [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
 :::
 
 ## 2026-09-27 — WEEKLY-2026-09-27
@@ -96,6 +114,18 @@ Sunday WEEKLY (2026-09-20→2026-09-27): one new T1 meeting PR — on **2026-09-
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 **STL–CAAC bilateral (Beijing)** — [「她今日上午聯同運輸及物流局常任秘書長丘卓恒和民航處處長黃嘉華拜訪中國民用航空局（國家民航局），與國家民航局副局長梁楠會面，闡述香港在航空方面的最新發展，包括在《香港第一個五年規劃》和二○二六年《施政報告》中與航空發展相關的目標與政策，並就香港積極融入國家「幹支通、全網聯」、提升內地城市與全球目的地高效連接、鞏固香港航空貨運業世界領先地位、推動可持續航空燃料生產及使用、低空經濟等各項措施商討。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm))
+
+**HK Action Plan** — [「政府會制訂「發展低空經濟規劃行動綱領」，行動包括：」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html))
+
+**Sandbox X cross-boundary results** — [「發展低空經濟工作組正審閱其他申請，並會適時公布有關結果。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html)); [「與內地緊密合作，盡快實現跨境低空物流試飛，並逐步拓展大灣區低空跨境物流網絡。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html))
+
+**1.4 GHz / UAS Private Licence** — [「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+
+**Cap.448G follow-ons** — [「在2027年完成為重量超過150公斤的非傳統航空器制訂相關法例的草擬工作。（運輸及物流局）」]{lang="zh-Hant"} ([source](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf))
+
+**HK$350bn** — [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+**CAAC ATM Rules Ch.12 UAS** — [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
 :::
 
 ## 2026-09-20 — WEEKLY-2026-09-20
@@ -123,6 +153,26 @@ Sunday WEEKLY (2026-09-13→2026-09-20): major T1 cluster on **2026-09-16** — 
 | NBS/NDRC 规模 under 1676号 | No change this week | No new official scale release |
 | SZ–HK corridor **operational** | No change this week | Still NOT evidenced |
 
+::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+**2026 Policy Address ¶137–139** — [「政府致力打造香港為低空創新應用亞太區樞紐。」…「低空經濟「監管沙盒」已促成多項應用恆常化，至今批准恆常化項目超過140個」…「現已有約十個項目開展測試，涵蓋無人機交通管理系統演示及非傳統航空器等。」…「現時市場已至少有15間保險公司為各類無人機提供低空經濟產品。」…「政府會制訂「發展低空經濟規劃行動綱領」，行動包括：」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html))
+
+**PA Annex indicators 34–35** — [「在2028年開始逐步落實推行智能低空交通管理系統。（運輸及物流局）」…「在2027年完成為重量超過150公斤的非傳統航空器制訂相關法例的草擬工作。（運輸及物流局）」]{lang="zh-Hant"} ([source](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf))
+
+**First Five-Year Plan (2026–2030)** — [「香港特別行政區（特區）政府今日（九月十六日）公布《香港特別行政區經濟和社會發展第一個五年規劃（2026—2030年）》（《香港第一個五年規劃》）。」…「為提升國際航空樞紐地位，香港會深度參與國家航空網絡發展，持續開拓新航線，並打造具國際競爭力的航空產業生態圈及低空創新應用亞太區樞紐。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/16/P2026091600306.htm))
+
+**Smart Low-altitude Traffic Management System** — [「推展低空基礎設施技術研究，開展智能低空交通管理系統建設，目標在2028年逐步落實」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html)); [「在2028年開始逐步落實推行智能低空交通管理系統。（運輸及物流局）」]{lang="zh-Hant"} ([source](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf))
+
+**Unconventional aircraft >150 kg legislation** — [「為重量超過150公斤的非傳統航空器，開展法例草擬工作。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html)); [「在2027年完成為重量超過150公斤的非傳統航空器制訂相關法例的草擬工作。（運輸及物流局）」]{lang="zh-Hant"} ([source](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf))
+
+**Sandbox X cross-boundary results** — [「發展低空經濟工作組正審閱其他申請，並會適時公布有關結果。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html)); [「與內地緊密合作，盡快實現跨境低空物流試飛，並逐步拓展大灣區低空跨境物流網絡。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html))
+
+**1.4 GHz / UAS Private Licence** — [「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+
+**HK$350bn** — [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+**CAAC ATM Rules Ch.12 UAS** — [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
+:::
+
 ## 2026-09-13 — WEEKLY-2026-09-13
 
 Sunday WEEKLY (2026-09-07→2026-09-13): one new T1 primary item — STL speech issued via GIA on **2026-09-10** (regularisation narrative; more than 140 CAD approvals since June 2025; Sandbox X emphasis; HK–Kazakhstan LAE MoU attested; Policy Address / First Five-Year Plan flagged for the following week). No new CAD AC, Cap.448G instrument, OFCA spectrum change, TLB Sandbox X cross-boundary results list, Action Plan published text, or CAAC final ATM / background-review rule. CAAC ATM Rules (征求意见稿) comment window closed **2026-09-11**; page still shows draft only.
@@ -144,6 +194,20 @@ Sunday WEEKLY (2026-09-07→2026-09-13): one new T1 primary item — STL speech 
 | CAAC 民用航空安全背景审查管理规定 | No change this week | Comment deadline 2026-09-04 passed; still draft; not final |
 | NBS/NDRC 规模 under 1676号 | No change this week | No new official scale release |
 | SZ–HK corridor **operational** | No change this week | Still NOT evidenced |
+
+::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+**HK Action Plan** — [「我們期望繼續和業界諮詢並蒐集不同意見，在明年年底前可草擬發展低空經濟規劃行動綱領，建構整個低空經濟頂層設計的基建設施，給業界清晰和具前瞻性的方向。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+
+**Sandbox X cross-boundary results** — [「發展低空經濟工作組正審閱其他申請，並會適時公布有關結果。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
+
+**1.4 GHz / UAS Private Licence** — [「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+
+**HK$350bn** — [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+**CAAC ATM Rules Ch.12 UAS** — [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
+
+**CAAC 民用航空安全背景审查管理规定** — [「形成《民用航空安全背景审查管理规定（征求意见稿）》，现向社会公开征求意见。」…「任何单位和个人如有意见或建议，请填写意见反馈表，于2026年9月4日前发送至mhjgaj@caac.gov.cn。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html))
+:::
 
 ## 2026-09-05 — WEEKLY-2026-09-05
 
@@ -169,6 +233,20 @@ First weekly note after today’s baseline. **HK side: no in-window primary chan
 | Guangdong 3000亿元 | No change this week | Target only |
 | New GBA corridor approvals | No change this week | None NEW T1 in-window |
 
+::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+**HK Action Plan** — [「我們期望繼續和業界諮詢並蒐集不同意見，在明年年底前可草擬發展低空經濟規劃行動綱領，建構整個低空經濟頂層設計的基建設施，給業界清晰和具前瞻性的方向。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+
+**Sandbox X cross-boundary results** — [「發展低空經濟工作組正審閱其他申請，並會適時公布有關結果。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
+
+**HK$350bn** — [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+**Civil Aviation Law Art.34/225 follow-ons** — [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)); [「第十二章 无人驾驶航空器」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/P020260811348470718631.docx))
+
+**NBS/NDRC 规模 under 1676号** — [「为明确低空经济概念和范畴，明晰产业边界，根据低空经济阶段性特征和重点领域、重点环节，按照统计工作相关规定，编制形成《低空经济及其核心产业统计分类（试行）》。现印发你们，请按此执行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm))
+
+**Guangdong 3000亿元** — [「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「低空经济规模超过3000亿元，基本形成广州、深圳、珠海三核联动、多点支撑、成片发展的低空经济产业格局」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
+:::
+
 
 ## 2026-09-05 — Baseline
 
@@ -177,10 +255,46 @@ Baseline dossier for the DOTE5891 companion site, built from **primary and offic
 ### What we treat as settled
 
 1. **Definitions / scale.** HK LAE working definition = economic activities generally **below 1,000 m** (LegCo CB(3)933/2024, T2). Mainland statistical definition = NDRC **发改低空〔2025〕1676号** (2025-12-22, T2). HK has **no** official LAE value-added series yet.
+
+   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+   **LegCo CB(3)933/2024** — [「低空經濟是指在一般低於1,000米以下空域進行的經濟活動」]{lang="zh-Hant"} ([source](https://www.legco.gov.hk/yr2024/chinese/panels/edev/papers/edev20241203cb3-933-3-c.pdf))
+
+   **NDRC 发改低空〔2025〕1676号** — [「为明确低空经济概念和范畴，明晰产业边界，根据低空经济阶段性特征和重点领域、重点环节，按照统计工作相关规定，编制形成《低空经济及其核心产业统计分类（试行）》。现印发你们，请按此执行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm))
+   :::
+
 2. **HK map.** Working Group (DFS head; first meeting **12 Nov 2024**); CAD / **Cap. 448G**; **Regulatory Sandbox** ≠ **Regulatory Sandbox X** (AC-013 vs AC-017); **1430–1444 MHz** UAS (Private) Licence from **27 Oct 2025**.
+
+   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+   **Working Group first meeting** — [「行政長官在二○二四年《施政報告》宣布成立「發展低空經濟工作組」（工作組），財政司副司長黃偉綸今日（十一月十二日）以組長身分召開工作組的首次會議。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
+
+   **AC-013** — [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
+
+   **1430–1444 MHz UAS licence** — [「通訊事務管理局（通訊局） 已規劃1430 – 1444 兆赫頻帶（1.4 吉赫頻帶）供無人機系統使用，並設立新的牌照以促進該專用頻譜的使用。」…「無人駕駛飛機系統（專用）牌照於2025年10月27日設立」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+   :::
+
 3. **National spine.** Civil Aviation Law revision — passed **2025-12-27**, Order No. 65, effective **2026-07-01** (T1). UAS ops still **国令761 + CCAR-92** (both eff. **2024-01-01**).
+
+   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+   **Civil Aviation Law (2025 revision)** — [「2025年12月27日第十四届全国人民代表大会常务委员会第十九次会议修订」…「中华人民共和国主席令第六十五号」…「第二百六十二条　本法自2026年7月1日起施行。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
+
+   **国令761** — [「现公布《无人驾驶航空器飞行管理暂行条例》，自2024年1月1日起施行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm))
+
+   **CCAR-92** — [「已于2023年12月15日经第29次部务会议通过，现予公布，自公布之日起施行。」…「2024年1月1日」]{lang="zh-Hans"} ([source](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html))
+   :::
+
 4. **GBA evidenced.** Guangdong 粤府办〔2024〕6号; Shenzhen **domestic** blood UAS (Jan 2024). **Not** evidenced: operational Shenzhen–HK medical drone corridor.
+
+   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+   **粤府办〔2024〕6号** — [「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「2024年5月21日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
+
+   **Shenzhen domestic blood UAS** — [「1月19日，“深圳5G+无人机血液运输智能空港平台”启用仪式在市血液中心举行，这也是全国首个5G+空中“送血”智能平台。」]{lang="zh-Hans"} ([source](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html))
+   :::
+
 5. **AUDIT HK$350bn.** Issuer = **Our Hong Kong Foundation**, *Taking Flight…*, **Sep 2025**. Metric = **industry value-added**, **Hong Kong only**, horizon **2050**. **Not** a government figure.
+
+   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+   **OHKF, Sep 2025** — [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+   :::
 
 ### Allowed 350bn wording
 
