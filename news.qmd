@@ -49,6 +49,10 @@ Each item: date, outlet, one sentence, official document to read instead (if any
 
 - **2026-09-23** — info.gov.hk (English GIA). STL Chan, with TLB Permanent Secretary and CAD Director-General, met CAAC Deputy Administrator Liang Nan in Beijing and discussed First Five-Year Plan / 2026 Policy Address aviation measures including the low-altitude economy (alongside trunk-branch connectivity, air cargo, and SAF). [Link](https://www.info.gov.hk/gia/general/202609/23/P2026092300422.htm). Official document to read instead: Working Group / TLB / CAD; Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); SZ–HK corridor remains NOT evidenced on Tracker.
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「她今日上午聯同運輸及物流局常任秘書長丘卓恒和民航處處長黃嘉華拜訪中國民用航空局（國家民航局），與國家民航局副局長梁楠會面，闡述香港在航空方面的最新發展，包括在《香港第一個五年規劃》和二○二六年《施政報告》中與航空發展相關的目標與政策，並就香港積極融入國家「幹支通、全網聯」、提升內地城市與全球目的地高效連接、鞏固香港航空貨運業世界領先地位、推動可持續航空燃料生產及使用、低空經濟等各項措施商討。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm))
+  :::
+
 - **2026-09-23** — 政府新聞公報 (info.gov.hk Chinese GIA). Same Beijing CAAC call recorded in Chinese; 低空經濟 listed among discussion topics; no new Action Plan text or corridor announcement. [Link](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm). Official document to read instead: Working Group / TLB / CAD; Action Plan (text OPEN).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -62,6 +66,10 @@ Each item: date, outlet, one sentence, official document to read instead (if any
   :::
 
 - **2026-09-16** — news.gov.hk (English). Government press summary of the 2026 Policy Address states that to drive growth of the low-altitude economy, an Action Plan will launch cross-boundary logistics trial flights and initiate drafting legislation for heavy unconventional aircraft. [Link](https://www.news.gov.hk/eng/2026/09/20260916/20260916_095230_867.html). Official document to read instead: Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); Regulatory Sandbox X / cross-boundary trial pathway; Cap. 448G / unconventional >150 kg drafting watch.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「政府也會推進低空經濟生態圈發展，制訂發展低空經濟規劃行動綱領，包括盡快實現跨境低空物流試飛，並逐步拓展粵港澳大灣區低空跨境物流網絡；開展智能低空交通管理系統建設，以期在2028年逐步落實；以及為重量超過150公斤的非傳統航空器開展法例草擬工作。」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2026/09/20260916/20260916_095230_867.html))
+  :::
 
 - **2026-09-16** — 香港政府新聞網 (news.gov.hk Chinese). Chinese government news states the Policy Address will formulate the Action Plan on Developing Low-Altitude Economy (發展低空經濟規劃行動綱領), including ASAP cross-boundary low-altitude logistics trial flights and progressive GBA network expansion, Smart Low-altitude Traffic Management System targeting progressive rollout from 2028, and beginning legislation for unconventional aircraft over 150 kg. [Link](https://www.news.gov.hk/chi/2026/09/20260916/20260916_095230_867.html). Official document to read instead: Action Plan (text OPEN); Smart TMS from 2028; >150 kg drafting within 2027 (PA Annex indicators 34–35).
 
@@ -89,9 +97,21 @@ Each item: date, outlet, one sentence, official document to read instead (if any
 
 - **2026-09-10** — China Daily Hong Kong. Coverage of Belt and Road Summit LAE standards session quotes DFS Michael Wong on sandbox approvals and Sandbox X’s further 33 selected projects, and notes a Hong Kong–Nansha (Guangzhou) MoU exchange aimed at cross-boundary testing, regulatory coordination, and technical-standards alignment. [Link](https://www.chinadailyhk.com/hk/article/639379). Official document to read instead: Regulatory Sandbox X (module counts 15+4+5+9 = 33 on TLB page); SZ–HK / GBA cross-boundary operational status remains NOT evidenced on Tracker.
 
+  ::: {.callout-note collapse="true" appearance="simple" title="中文官方來源 · Chinese official source"}
+  [「由發展低空經濟工作組主辦、財政司副司長黃偉綸發表演講的新設專題分組論壇，探討了如何將香港低空經濟與國家戰略及「一帶一路」倡議對接。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/11/P2026091100798.htm))
+  :::
+
 - **2026-09-10** — HKUST. HKUST reported hosting the “Future of Low Altitude Economy” forum with the Working Group and GBA Low Altitude Economy Alliance, including STL remarks on Sandbox X and a witnessed Joint Statement of Intent on Low-Altitude Aviation Standards and Interoperability. [Link](https://hkust.edu.hk/news/hkust-hosts-future-low-altitude-economy-forum). Official document to read instead: Working Group on Developing Low-altitude Economy; Regulatory Sandbox / Sandbox X.
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「科大聯同香港特區政府發展低空經濟工作組及大灣區低空經濟聯盟舉辦「佈局低空經濟未來機遇：城際協同（產業落地與標準建立）」專題論壇。」…「我們正全力推進『監管沙盒 X』計劃，探索更具前瞻性的應用場景，包括跨境運作及非傳統航空器等。」…「會上，來自香港、大灣區及海外的政、產、學、研界代表，在陳美寶局長、葉玉如校長、葛珮帆議員及鄭光廷教授見證下，共同簽署《低空航空標準與互聯互通聯合意向書》」]{lang="zh-Hant"} ([source](https://hkust.edu.hk/zh-hant/news/hkust-hosts-future-low-altitude-economy-forum))
+  :::
+
 - **2026-09-09** — South China Morning Post. Kazakhstan’s vice-minister of AI and digital development said he signed an MoU with Hong Kong’s Transport and Logistics Bureau at the Belt and Road Summit to launch a transport laboratory and discussed low-altitude economy / traffic-management cooperation. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3366910/hong-kong-kazakhstan-sign-mou-transport-lab-discuss-low-altitude-economy). Official document to read instead: none (international MoU watch — speech-attested in WEEKLY; MoU PDF not locked).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="中文官方來源 · Chinese official source"}
+  [「論壇上見證七份特區政府與海外政府和機構的合作備忘錄，涵蓋商務及經濟發展局、發展低空經濟工作組、廉政公署、「一帶一路」辦公室、投資推廣署和財經事務及庫務局，以及孟加拉國、哈薩克斯坦、摩洛哥、泰國、土耳其、津巴布韋和烏茲別克斯坦，推動雙邊合作和交流。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/09/P2026090900660.htm))
+  :::
 
 - **2026-09-04** — 电商派. Meituan said its Shenzhen drone delivery network in Longhua upgraded hub-and-spoke points into mesh nodes (to 15 points), extending typical merchant delivery reach from about 3 km to 5 km, with Nanshan expansion underway. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt). Official document to read instead: none (no Tracker counterpart).
 
