@@ -18,3 +18,15 @@ table { font-size: 0.92em; }
 .callout-warning {
   border-left-color: #C5A572;
 }
+
+/* Chinese original passages shown with English translations */
+[lang|="zh"], .zh-original {
+  font-family: "Noto Sans TC", "Noto Sans SC", "PingFang TC", "PingFang SC",
+    "Microsoft JhengHei", "Microsoft YaHei", "Source Han Sans", sans-serif;
+  line-height: 1.7;
+}
+
+.zh-original {
+  border-left: 3px solid #C5A572;
+  padding-left: 0.75rem;
+}
