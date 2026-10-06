@@ -1,6 +1,6 @@
 ---
 title: "Briefings"
-as_of: "2026-10-04"
+as_of: "2026-10-06"
 toc: true
 toc-location: body
 toc-title: "Sections"
@@ -8,6 +8,29 @@ page-layout: article
 ---
 
 Dated notes for the course. Read the newest date first. These are source notes, not lecture slides.
+
+## 2026-10-06 — WEEKLY-2026-10-06
+
+Tuesday WEEKLY (2026-09-29→2026-10-06): one new T1 LegCo briefing transcript — on **2026-10-06** the Secretary for Commerce and Economic Development (SCED) briefed the LegCo Panel on Information Technology and Broadcasting on the First Five-Year Plan and 2026 Policy Address. The Chinese-only GIA restates that the Communications Authority **launched the UAS dedicated-spectrum licensing regime in October 2025**, that it is **aligned with Mainland spectrum planning**, and that it will help **future cross-boundary drone operations**; the government will also encourage cross-border 6G technical trials and scenario validation including low-altitude economy. This is a **restatement**, not a new OFCA spectrum instrument; the 1430–1444 MHz licence remains Sandbox-confined. Mainland comparator: Xinhua (**2026-09-30**) reports the Ministry of Public Security disclosed a UAS administrative-penalty discretion benchmark (《公安机关依法处置涉无人驾驶航空器违法行为行政处罚裁量基准》), effective on issuance; the MPS primary text was **not** read. **Late catch (outside window):** CAD lists Gazette **G.N. 5936** (Director-General of Civil Aviation, dated 2026-09-21, effective **2026-09-26**) designating restricted flying zones to facilitate LAE Regulatory Sandbox pilot projects. **Action Plan full published text remains OPEN**; Sandbox X cross-boundary results remain OPEN; CAAC ATM Rules still draft. No new CAD AC, Cap.448G amending instrument, NBS/NDRC scale under 1676号, or evidenced SZ–HK UAS corridor operations.
+
+**Still not fact:** operational Shenzhen–HK UAS corridor; NBS national LAE 规模 under 1676号; published Action Plan full text; Sandbox X cross-boundary selection results.
+
+## What this note added
+
+| Area | Status | Detail |
+|------|--------|--------|
+| SCED LegCo ITB Panel briefing | **NEW (T1 LegCo briefing)** | Chinese GIA restates CA UAS dedicated-spectrum licensing (Oct 2025) aligned with Mainland spectrum planning; 「有助日後無人機跨境運作」 is forward-looking, not an operating route; cross-border 6G trials including LAE to be encouraged — [GIA ZH](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm) |
+| G.N. 5936 Sandbox RFZs | **NEW (T1 Gazette; late catch)** | DG Civil Aviation under Cap.448G s.19(1); dated 2026-09-21, effective 2026-09-26; ~30 named areas (not a count of projects or routes); supersedes G.N. 4328 of 2026 per PDF text (CAD listing says G.N. 927 of 2026 — unresolved); RFZ designation, not a Cap.448G amendment — [PDF](https://www.cad.gov.hk/documents/G.N.5936_E.pdf) |
+| MPS UAS penalty discretion benchmark (Mainland) | **NEW (T2 comparator)** | Xinhua 2026-09-30: MPS disclosed benchmark covering five violation types, effective on issuance; MPS primary not read; document number and issuance date unverified — [Xinhua](https://www.news.cn/20260930/741950d104b44f28a48cb8e134fc66d6/c.html) |
+| HK Action Plan | No change this week | Still OPEN; latest official wording remains STL 10-02 「繼續全力制訂」; **full plan text not published** |
+| Sandbox X cross-boundary results | No change this week | Still OPEN on TLB (“in due course”); China Daily HK 10-05 “Sandbox Connect” (Nansha gateway) is press framing, **not** a results list |
+| CAD AC-013 / AC-017 | No change this week | Still AC-001…AC-017; no new AC |
+| 1.4 GHz / UAS Private Licence | No change this week | Still Sandbox-confined; SCED 10-06 restates only |
+| Cap.448G follow-ons | No change this week | No Cap.448G amending instrument; >150 kg drafting still “complete next year” (STL 10-02) — **not enacted** |
+| HK$350bn | No change this week | Remains OHKF Sep 2025 industry VA (HK, 2050) T3 — not HKSAR government |
+| CAAC ATM Rules Ch.12 UAS | No change this week | Still 征求意见稿 after 2026-09-11 comment close; **not** promulgated |
+| NBS/NDRC 规模 under 1676号 | No change this week | No new official scale release |
+| SZ–HK corridor **operational** | No change this week | Still NOT evidenced; SCED 「日後跨境運作」 and China Daily HK “Sandbox Connect” are forward-looking |
 
 ## 2026-10-04 — WEEKLY-2026-10-04
 

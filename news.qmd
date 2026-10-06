@@ -1,6 +1,6 @@
 ---
 title: "News"
-as_of: "2026-10-04"
+as_of: "2026-10-06"
 ---
 
 Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
@@ -22,6 +22,12 @@ Official counts and the HK$350 billion figure stay on Tracker.
 Each item: date, outlet, one sentence, official document to read instead (if any).
 
 ## 2026-10
+
+- **2026-10-06** — 政府新聞公報 (info.gov.hk Chinese GIA). SCED told LegCo’s Panel on Information Technology and Broadcasting that the Communications Authority’s UAS dedicated-spectrum licensing regime, launched in October 2025, is aligned with Mainland spectrum planning and will help future cross-boundary drone operations, and that cross-border 6G trials covering LAE will be encouraged. [Link](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm). Official document to read instead: 1430–1444 MHz UAS (Private) Licence (unchanged; restatement); SZ–HK corridor remains NOT evidenced on Tracker.
+
+- **2026-10-06** — The Standard. CAD is following up a case in which a Mainland blogger allegedly flew a drone from The Peak over the Victoria Harbour restricted flying zone without permission to film the 1 October National Day fireworks, with CAD restating that offences under the Small Unmanned Aircraft Order carry a maximum HK$100,000 fine and two years’ imprisonment. [Link](https://www.thestandard.com.hk/news/article/344668/Mainland-blogger-flies-drone-over-Victoria-Harbour-to-film-National-Day-fireworks-CAD-following-up). Official document to read instead: Cap. 448G / restricted flying zones (enforcement; no new instrument).
+
+- **2026-10-05** — China Daily Hong Kong. TLB Deputy Secretary Joan Hung and CAD Deputy Director-General Dominic Chow describe “Sandbox Connect” as Hong Kong’s first cross-jurisdictional LAE trial under Sandbox X, using Nansha as a gateway, with a joint regulatory testing framework under design and a longer-term goal of a Hong Kong–Guangdong “LAE regulatory green channel”. [Link](https://www.chinadailyhk.com/hk/article/640531). Official document to read instead: Regulatory Sandbox X (cross-boundary results still OPEN on TLB; press framing only); SZ–HK corridor remains NOT evidenced on Tracker.
 
 - **2026-10-02** — 政府新聞公報 (info.gov.hk Chinese GIA). STL Chan briefed LegCo’s Economic Development Panel on First Five-Year Plan / 2026 Policy Address transport–logistics measures, stating that >140 Regulatory Sandbox projects have been regularised, the Working Group continues drafting the《發展低空經濟規劃行動綱領》, dedicated unconventional-aircraft legislation will be drafted and submitted next year, and Smart Low-Altitude Traffic Management System rollout is targeted from 2028. [Link](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm). Official document to read instead: Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); Cap. 448G / >150 kg drafting; Smart TMS from 2028; Working Group / TLB / CAD; Regulatory Sandbox ops regularisation count (not Sandbox X cross-boundary results).
 

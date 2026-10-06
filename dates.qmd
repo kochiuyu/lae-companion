@@ -1,6 +1,6 @@
 ---
 title: "Dates"
-as_of: "2026-09-20"
+as_of: "2026-10-06"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -31,6 +31,7 @@ These dates created Hong Kong’s working definition, the drone statute, two tri
 - 2026-09-16 — Chief Executive’s 2026 Policy Address (LAE ¶137–139). Commits to formulate the Action Plan; Smart TMS from 2028; begin drafting >150 kg unconventional-aircraft legislation; restates Sandbox / Sandbox X narrative. The Action Plan full text remains unpublished. [source](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm)
 - 2026-09-16 — PA Annex indicators 34–35. TLB work indicators: Smart Low-altitude Traffic Management System progressive from 2028; complete drafting of >150 kg legislation within 2027. These are dated work indicators, not effective law dates. [source](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)
 - 2026-09-16 — First Five-Year Plan for Economic and Social Development of the HKSAR (2026–2030). GIA announces the inaugural HKSAR Five-Year Plan; aviation-hub framing includes building Hong Kong into the Asia-Pacific hub for innovative low-altitude applications. [source](https://www.info.gov.hk/gia/general/202609/16/P2026091600338.htm)
+- 2026-09-26 — G.N. 5936, restricted flying zones for Regulatory Sandbox pilot projects (effective). The Director-General of Civil Aviation designated restricted flying zones under Cap. 448G s.19(1) to facilitate Low-Altitude Economy Regulatory Sandbox pilot projects; the notice is dated 2026-09-21 and, per its text, supersedes G.N. 4328 of 2026. It is an airspace designation, not an amendment to Cap. 448G and not a count of Sandbox projects or routes. [source](https://www.cad.gov.hk/documents/G.N.5936_E.pdf)
 
 ## Mainland
 
