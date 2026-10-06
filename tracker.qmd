@@ -67,6 +67,9 @@ These are the government bodies and the main Hong Kong statute.
 English: “The Chief Executive announced in the 2024 Policy Address to establish the Working Group on Developing Low-altitude Economy (the Working Group). The Deputy Financial Secretary, Mr Michael Wong, convened the first meeting as the Head of the Working Group today (November 12).” ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm))\
 [「行政長官在二○二四年《施政報告》宣布成立「發展低空經濟工作組」（工作組），財政司副司長黃偉綸今日（十一月十二日）以組長身分召開工作組的首次會議。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
 
+**Cap. 448G (SUA Order)** — English: “For the purposes of this Order, an unmanned aircraft is a”…“small unmanned aircraft in respect of a flight if its weight does not exceed 150 kg at all times during the flight.”…“a small unmanned aircraft is a category C aircraft in respect of a flight if its weight exceeds 25 kg at any time during the flight. (L.N. 82 of 2025)” ([source](https://www.elegislation.gov.hk/hk/cap448G!en.pdf))\
+[「就本命令而言，如某無人機在某次飛行期間的所有時間，」…「其重量均不超過150公斤，則就該次飛行而言，該無人機屬小型無人機。」…「如某小型無人機在某次飛行期間的任何時間，其重量超過25公斤，則就該次飛行而言，該無人機屬丙類無人機。(2025年第82號法律公告)」]{lang="zh-Hant"} ([source](https://www.elegislation.gov.hk/hk/cap448G!zh-Hant-HK.pdf))
+
 **Civil Aviation Department (CAD)** — English: “Under the SUA Order that took full effect on 1 December 2022, SUA operations are regulated under a risk-based approach.”…“In July 2025, the scope of the SUA Order was expanded to cover SUA weighing not more than 150kg.” ([source](https://www.cad.gov.hk/english/sua.html))\
 [「法例已於2022年12月1日全面實施，以風險為本的模式規管小型無人機的操作」…「於2025年7月， 《小型無人機令》的規管制度擴闊至重量不超過150公斤的小型無人機。」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/chinese/sua.html))
 
@@ -166,8 +169,9 @@ For operations today, cite 国令761 and CCAR-92. The 2025 Civil Aviation Law is
 | [National Airspace Basic Classification (G / W)](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html) | Released **2023-12-21** | T1 |
 | [CAAC ATM Rules (征求意见稿) — Ch.12 UAS](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) | **Draft** **2026-08-11**; comments **closed 2026-09-11**; CAAC; **not** promulgated; not Art.34/225 decree | T1 |
 
-::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
-**Civil Aviation Law (2025 revision), Order No. 65** — [「中华人民共和国主席令第六十五号」…「第二百六十二条　本法自2026年7月1日起施行。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
+**Civil Aviation Law (2025 revision), Order No. 65** — English: “Order of the President of the People\'s Republic of China (No. 65)”…“The Civil Aviation Law of the People\'s Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People\'s Congress of the People\'s Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))\
+[「中华人民共和国主席令第六十五号」…「第二百六十二条　本法自2026年7月1日起施行。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
 
 **Interim UAS Ordinance 国令761** — [「现公布《无人驾驶航空器飞行管理暂行条例》，自2024年1月1日起施行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm))
 

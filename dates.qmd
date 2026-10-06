@@ -19,6 +19,13 @@ Hong Kong rules apply to this course. Mainland, United States, and EU rows are c
 These dates created Hong Kong’s working definition, the drone statute, two trial programmes, and the 1.4 GHz licence. The 2026 Policy Address frames an Action Plan and dated TLB work indicators; the Action Plan text itself is still unpublished.
 
 - 2022-12-01 — Cap. 448G. Hong Kong’s main drone statute took full effect. Students should treat later sandbox circulars as permissions under this Order, not as a replacement statute. [source](https://www.elegislation.gov.hk/hk/cap448G)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Subject to subsection (2), this Order comes into operation on 1 June 2022.”…“transitional period”…“means the period beginning on 1 June 2022 and ending on 30 November 2022.” ([source](https://www.elegislation.gov.hk/hk/cap448G!en.pdf))
+
+  [「除第(2)款另有規定外，本命令自2022年6月1日起實施。」…「過渡期間」…「指自2022年6月1日起至2022年11月30日為止的期間。」]{lang="zh-Hant"} ([source](https://www.elegislation.gov.hk/hk/cap448G!zh-Hant-HK.pdf))
+  :::
+
 - 2024 (PA ¶82) — 2024 Policy Address ¶82. The government named low-altitude activity (generally below 1,000 m) as a policy field and created the Working Group. This is a policy announcement, not a new ordinance. [source](https://www.policyaddress.gov.hk/2024/en/p81.html)
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -150,13 +157,17 @@ These dates are Mainland law or drafts. They do not replace Cap. 448G in Hong Ko
 
 - 2025-12-27 — Civil Aviation Law (2025 revision) — passage / promulgation. The revised law was passed, then took effect on 1 July 2026. Detailed unmanned-aircraft operating rules still sit in the 2024 instruments unless a new decree says otherwise. [source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html)
 
-  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Civil Aviation Law of the People\'s Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People\'s Congress of the People\'s Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
+
   [「2025年12月27日第十四届全国人民代表大会常务委员会第十九次会议修订」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
   :::
 
 - 2026-07-01 — Civil Aviation Law (2025 revision) — effective. The revised law was passed, then took effect on 1 July 2026. Detailed unmanned-aircraft operating rules still sit in the 2024 instruments unless a new decree says otherwise. [source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html)
 
-  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Civil Aviation Law of the People\'s Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People\'s Congress of the People\'s Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
+
   [「第二百六十二条　本法自2026年7月1日起施行。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
   :::
 

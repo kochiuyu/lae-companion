@@ -184,7 +184,9 @@ CAAC civil aviation regulation on UAS operational safety; effective **2024-01-01
 Kind: Official  
 Revised PRC Civil Aviation Law (Order No. 65); passed 2025-12-27; effective **2026-07-01**; detailed UAS operating rules still rest on State Council / CAAC instruments until further rules are made. Order No. 65; CAAC. Week 7.
 
-::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+English: “Order of the President of the People\'s Republic of China (No. 65)”…“The Civil Aviation Law of the People\'s Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People\'s Congress of the People\'s Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
+
 [「中华人民共和国主席令第六十五号」…「2025年12月27日第十四届全国人民代表大会常务委员会第十九次会议修订」…「第二百六十二条　本法自2026年7月1日起施行。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
 :::
 
@@ -272,6 +274,12 @@ Capability to see, sense or detect conflicting traffic or other hazards and take
 **docking station (無人機機庫)**  
 Kind: Industry usage  
 Ground unit for automated launch, recovery, charging or swapping of small unmanned aircraft; CAD AC-016 addresses hangar/dock-style SUA operations — **not** a vertiport statute. CAD AC-016; industry usage. Week 5 / Week 7.
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+English: “Guidelines and Permission for Small Unmanned Aircraft Operations Using Unmanned Aircraft Docking Station” ([source](https://www.cad.gov.hk/documents/AC-016.pdf))
+
+[「使用無人機機庫進行小型無人機操作的指引及許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-016_C.pdf))
+:::
 
 **EVLOS (延伸視線操作)**  
 Kind: Official  
