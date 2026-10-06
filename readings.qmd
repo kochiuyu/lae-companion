@@ -10,11 +10,30 @@ One or two links per week is enough.
 ## Week 1
 
 - [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (generally below 1,000 m) and the Working Group.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Low-altitude economy, which refers to economic activities in airspace below 1 000 metres, presents a wide array of application scenarios including rescues, surveys and delivery of goods and passengers.”…“The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))
+
+  [「低空經濟是指一般於1 000米以下空域進行的低空經濟活動，可用於救援、測量、送貨載客等範疇。」…「政府將成立「發展低空經濟工作組」，由財政司副司長任組長，制訂發展策略和跨部門行動計劃」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2024/tc/p81.html))
+  :::
+
 - [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. ~HK$350 billion industry value-added projection for Hong Kong by 2050.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+  [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+  :::
 
 ## Week 2
 
 - [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Institutional map for Hong Kong LAE.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))
+
+  [「政府將成立「發展低空經濟工作組」，由財政司副司長任組長，制訂發展策略和跨部門行動計劃」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2024/tc/p81.html))
+  :::
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
@@ -38,17 +57,42 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 - [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. Regulatory Sandbox: **38** of **72** selected.
 
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Working Group on Developing LAE approved the 38 projects after reviewing 72 project proposals.” ([source](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html))
+
+  [「政府共接獲72個申請者提交監管沙盒試點項目申請，經發展低空經濟工作組審閱，其中38項成為首批推展的試點項目」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2025/03/20250320/20250320_141320_260.html))
+  :::
+
 The week’s model is taught in lecture; this document is the official fact constraint.
 
 ## Week 7
 
 - [CAD, Small Unmanned Aircraft (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — Cap. 448G regulator page; full effect 1 December 2022; Category C ≤150 kg from July 2025.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Under the SUA Order that took full effect on 1 December 2022, SUA operations are regulated under a risk-based approach.”…“In July 2025, the scope of the SUA Order was expanded to cover SUA weighing not more than 150kg.” ([source](https://www.cad.gov.hk/english/sua.html))
+
+  [「法例已於2022年12月1日全面實施，以風險為本的模式規管小型無人機的操作」…「於2025年7月， 《小型無人機令》的規管制度擴闊至重量不超過150公斤的小型無人機。」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/chinese/sua.html))
+  :::
+
 - [CAD AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) — 31 December 2025. BVLOS inside the first Regulatory Sandbox.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight Operations within the Context of Regulatory Sandbox” ([source](https://www.cad.gov.hk/documents/AC-013_E.pdf))
+
+  [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
+  :::
 
 ## Week 8
 
 - [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Regulatory Sandbox X.
 - [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz; confined to LAE Regulatory Sandbox projects.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Communications Authority has made available the 1430 – 1444 MHz band (1.4 GHz band) for use by UAS and created a new licence to facilitate the use of the dedicated spectrum.”…“At present, the 1.4 GHz band is confined to be used by projects under the LAE Regulatory Sandbox launched by the Government.” ([source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html))
+
+  [「通訊事務管理局（通訊局） 已規劃1430 – 1444 兆赫頻帶（1.4 吉赫頻帶）供無人機系統使用，並設立新的牌照以促進該專用頻譜的使用。」…「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+  :::
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
@@ -56,15 +100,42 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 - [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only); not a government outturn.
 
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+  [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+  :::
+
 ## Week 10
 
 - [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Sandbox X and the commitment to formulate an Action Plan.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “We will formulate the Action Plan on Developing Low-Altitude Economy to advance Hong Kong as a major hub for low-altitude applications through institutional innovations and technological breakthroughs.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
+
+  [「我們會制訂「發展低空經濟規劃行動綱領」，透過制度創新與技術突破，令香港成為低空創新應用的核心樞紐」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
+
+  English: “We will regularise the operation of more mature application scenarios, and roll out the advanced low-altitude economy \"Regulatory Sandbox X \" pilot projects to cover application scenarios that are technically more complex, such as cross-boundary routes and passenger-carrying, low-altitude aircraft.” ([source](https://www.policyaddress.gov.hk/2025/en/p156.html))
+
+  [「較成熟的應用場景將恆常化運行，並推出進階版低空經濟「監管沙盒X」試點項目，涵蓋跨境路線、低空載人飛行器等技術複雜度較高的應用場景。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p156.html))
+  :::
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
 ## Week 11
 
 - [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Action Plan commitment (text still OPEN) and Sandbox X framing.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “We will formulate the Action Plan on Developing Low-Altitude Economy to advance Hong Kong as a major hub for low-altitude applications through institutional innovations and technological breakthroughs.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
+
+  [「我們會制訂「發展低空經濟規劃行動綱領」，透過制度創新與技術突破，令香港成為低空創新應用的核心樞紐」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
+
+  English: “We will regularise the operation of more mature application scenarios, and roll out the advanced low-altitude economy \"Regulatory Sandbox X \" pilot projects to cover application scenarios that are technically more complex, such as cross-boundary routes and passenger-carrying, low-altitude aircraft.” ([source](https://www.policyaddress.gov.hk/2025/en/p156.html))
+
+  [「較成熟的應用場景將恆常化運行，並推出進階版低空經濟「監管沙盒X」試點項目，涵蓋跨境路線、低空載人飛行器等技術複雜度較高的應用場景。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p156.html))
+  :::
+
 - [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — Cross-boundary guidance under Sandbox X (not an operational corridor approval).
 
 The week’s model is taught in lecture; this document is the official fact constraint.
@@ -72,5 +143,9 @@ The week’s model is taught in lecture; this document is the official fact cons
 ## Week 12
 
 - [CAAC, ATM Rules draft (consultation)](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
+  :::
 
 The week’s model is taught in lecture; this document is the official fact constraint.

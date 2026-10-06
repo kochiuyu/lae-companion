@@ -20,18 +20,105 @@ These dates created Hong Kong’s working definition, the drone statute, two tri
 
 - 2022-12-01 — Cap. 448G. Hong Kong’s main drone statute took full effect. Students should treat later sandbox circulars as permissions under this Order, not as a replacement statute. [source](https://www.elegislation.gov.hk/hk/cap448G)
 - 2024 (PA ¶82) — 2024 Policy Address ¶82. The government named low-altitude activity (generally below 1,000 m) as a policy field and created the Working Group. This is a policy announcement, not a new ordinance. [source](https://www.policyaddress.gov.hk/2024/en/p81.html)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Low-altitude economy, which refers to economic activities in airspace below 1 000 metres, presents a wide array of application scenarios including rescues, surveys and delivery of goods and passengers.”…“The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))
+
+  [「低空經濟是指一般於1 000米以下空域進行的低空經濟活動，可用於救援、測量、送貨載客等範疇。」…「政府將成立「發展低空經濟工作組」，由財政司副司長任組長，制訂發展策略和跨部門行動計劃」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2024/tc/p81.html))
+  :::
+
 - 2024-11-12 — Working Group first meeting. The cross-bureaux group began work. A first meeting is not the same thing as published implementing rules. [source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Chief Executive announced in the 2024 Policy Address to establish the Working Group on Developing Low-altitude Economy (the Working Group). The Deputy Financial Secretary, Mr Michael Wong, convened the first meeting as the Head of the Working Group today (November 12).” ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm))
+
+  [「行政長官在二○二四年《施政報告》宣布成立「發展低空經濟工作組」（工作組），財政司副司長黃偉綸今日（十一月十二日）以組長身分召開工作組的首次會議。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
+  :::
+
 - 2025-03-20 — Regulatory Sandbox 38 of 72. The first trial cohort was selected. These 38 projects are supervised tests, not an open commercial market, and must not be added to Sandbox X counts. [source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Government received Regulatory Sandbox pilot project proposals from 72 applicants, and after review by the Working Group on Developing LAE, 38 of them are among the first batch of pilot projects to be rolled out” ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm))
+
+  [「政府共接獲由72個申請者提交的「監管沙盒」試點項目申請，經發展低空經濟工作組審閱後，其中38項成為首批推展的試點項目」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000178.htm))
+  :::
+
 - 2025-07-18 — Cap. 448G Category C to 150 kg. Heavier small unmanned aircraft (above 25 kg up to 150 kg) came under the Order. Passenger-carrying or still-heavier craft remain outside this ceiling. [source](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Small Unmanned Aircraft (Amendment) Order 2025 and the Air Navigation (Hong Kong) Order 1995 (Amendment) Order 2025 will come into effect tomorrow (July 18) to facilitate the development of the low-altitude economy.”…“The amendments to the Small Unmanned Aircraft (SUA) Order (Cap. 448G) serve to extend the existing regulatory regime to cover SUA weighing over 25 kilograms but not exceeding 150kg.” ([source](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm))
+
+  [「《2025年小型無人機（修訂）令》和《2025年〈1995年飛航（香港）令〉（修訂）令》，將於明日（七月十八日）生效，以推動低空經濟的發展。」…「修訂《小型無人機令》（第448G章）旨在擴闊現行規管制度，以涵蓋重量超過25公斤但不超過150公斤的小型無人機。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202507/17/P2025071700589.htm))
+  :::
+
 - 2025-10-27 — 1.4 GHz UAS (Private) Licence. A dedicated command-and-control band became available for Regulatory Sandbox projects. It is not a public mobile licence for anyone flying in Hong Kong. [source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “the Unmanned Aircraft System (Private) Licence has been created since 27 October 2025”…“At present, the 1.4 GHz band is confined to be used by projects under the LAE Regulatory Sandbox launched by the Government.” ([source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html))
+
+  [「無人駕駛飛機系統（專用）牌照於2025年10月27日設立」…「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+  :::
+
 - 2025-11-24 — Regulatory Sandbox X. A second, harder trial programme started (traffic management, unconventional aircraft, possible cross-boundary tests). It is not “Sandbox phase 2 of the same 38 projects.” [source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The launch event of the low-altitude economy \"Regulatory Sandbox X\" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.”…“The goal of \"Regulatory Sandbox X\" is to handle more complex scenarios, such as cross-boundary low altitude drones, unconventional aircraft designed for passenger-carrying, and integrated operation platforms.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
+
+  [「低空經濟「監管沙盒X」啟動禮今日（十一月二十四日）舉行，旨在進一步推動香港的低空經濟發展，並探索創新應用場景。」…「是升級版的監管沙盒，旨在處理更複雜的場景，例如跨境低空無人機、可載人航空器和綜合運營平台等。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+  :::
+
 - 2025 (PA ¶153–157) — 2025 Policy Address ¶153–157. The government promised an Action Plan, Sandbox X, spectrum, and infrastructure language. The Action Plan document itself is still unpublished. [source](https://www.policyaddress.gov.hk/2025/en/p153.html)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “We will formulate the Action Plan on Developing Low-Altitude Economy to advance Hong Kong as a major hub for low-altitude applications through institutional innovations and technological breakthroughs.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
+
+  [「我們會制訂「發展低空經濟規劃行動綱領」，透過制度創新與技術突破，令香港成為低空創新應用的核心樞紐」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
+
+  English: “We will regularise the operation of more mature application scenarios, and roll out the advanced low-altitude economy \"Regulatory Sandbox X \" pilot projects to cover application scenarios that are technically more complex, such as cross-boundary routes and passenger-carrying, low-altitude aircraft.” ([source](https://www.policyaddress.gov.hk/2025/en/p156.html))
+
+  [「較成熟的應用場景將恆常化運行，並推出進階版低空經濟「監管沙盒X」試點項目，涵蓋跨境路線、低空載人飛行器等技術複雜度較高的應用場景。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p156.html))
+  :::
+
 - 2025-12-31 — Civil Aviation Department (CAD) Advisory Circular (AC)-013. Sets how to seek beyond-visual-line-of-sight permission inside the first Sandbox. It does not authorise BVLOS outside that sandbox. [source](https://www.cad.gov.hk/documents/AC-013_E.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight Operations within the Context of Regulatory Sandbox” ([source](https://www.cad.gov.hk/documents/AC-013_E.pdf))
+
+  [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
+  :::
+
 - 2026-04-24 — CAD AC-017. Sets how to seek cross-boundary small unmanned aircraft permission inside Sandbox X. It does not mean a Shenzhen–Hong Kong route is already in commercial service. [source](https://www.cad.gov.hk/documents/AC-017.pdf)
 - 2026-09-16 — Chief Executive’s 2026 Policy Address (LAE ¶137–139). Commits to formulate the Action Plan; Smart TMS from 2028; begin drafting >150 kg unconventional-aircraft legislation; restates Sandbox / Sandbox X narrative. The Action Plan full text remains unpublished. [source](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Government will formulate the Action Plan on Developing Low-Altitude Economy, including the following actions:”…“Take forward the technical study on low-altitude infrastructure facilities and begin the development of the Smart Low-altitude Traffic Management System, with a target for progressive implementation from 2028”…“Begin drafting legislation for unconventional aircraft weighing over 150 kilograms.” ([source](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm))
+
+  [「政府會制訂「發展低空經濟規劃行動綱領」，行動包括：」…「推展低空基礎設施技術研究，開展智能低空交通管理系統建設，目標在2028年逐步落實」…「為重量超過150公斤的非傳統航空器，開展法例草擬工作。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/16/P2026091600242.htm))
+  :::
+
 - 2026-09-16 — PA Annex indicators 34–35. TLB work indicators: Smart Low-altitude Traffic Management System progressive from 2028; complete drafting of >150 kg legislation within 2027. These are dated work indicators, not effective law dates. [source](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Progressively implement the Smart Low-altitude Traffic Management System from 2028. (TLB)”…“Complete the drafting of the relevant legislation for unconventional aircraft weighing over 150 kg within 2027. (TLB)” ([source](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf))
+
+  [「在2028年開始逐步落實推行智能低空交通管理系統。（運輸及物流局）」…「在2027年完成為重量超過150公斤的非傳統航空器制訂相關法例的草擬工作。（運輸及物流局）」]{lang="zh-Hant"} ([source](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf))
+  :::
+
 - 2026-09-16 — First Five-Year Plan for Economic and Social Development of the HKSAR (2026–2030). GIA announces the inaugural HKSAR Five-Year Plan; aviation-hub framing includes building Hong Kong into the Asia-Pacific hub for innovative low-altitude applications. [source](https://www.info.gov.hk/gia/general/202609/16/P2026091600338.htm)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Government of the Hong Kong Special Administrative Region (HKSAR) today (September 16) announced the First Five-Year Plan for Economic and Social Development of the Hong Kong Special Administrative Region (2026-2030) (Hong Kong\'s First Five-Year Plan).”…“To enhance Hong Kong\'s status as an international aviation hub, it will deeply engage in the development of the national aviation network and continue to launch new routes. Hong Kong will also develop an aviation industry ecosystem with a global edge and build Hong Kong into the Asia-Pacific hub for innovative low-altitude applications.” ([source](https://www.info.gov.hk/gia/general/202609/16/P2026091600338.htm))
+
+  [「香港特別行政區（特區）政府今日（九月十六日）公布《香港特別行政區經濟和社會發展第一個五年規劃（2026—2030年）》（《香港第一個五年規劃》）。」…「為提升國際航空樞紐地位，香港會深度參與國家航空網絡發展，持續開拓新航線，並打造具國際競爭力的航空產業生態圈及低空創新應用亞太區樞紐。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/16/P2026091600306.htm))
+  :::
+
 - 2026-09-26 — G.N. 5936, restricted flying zones for Regulatory Sandbox pilot projects (effective). The Director-General of Civil Aviation designated restricted flying zones under Cap. 448G s.19(1) to facilitate Low-Altitude Economy Regulatory Sandbox pilot projects; the notice is dated 2026-09-21 and, per its text, supersedes G.N. 4328 of 2026. It is an airspace designation, not an amendment to Cap. 448G and not a count of Sandbox projects or routes. [source](https://www.cad.gov.hk/documents/G.N.5936_E.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “By virtue of the authority under section 19(1) of the Small Unmanned Aircraft Order, Chapter 448G, I hereby designate the areas in Hong Kong (including the airspace above the areas) described below as restricted flying zones for the purposes of section 18(1) of the said Order:—”…“restricted flying zones designated to facilitate the implementation of Low-altitude Economy Regulatory Sandbox pilot projects”…“The designation made in this notice, which shall have effect at all times during a day, shall come into effect and supersede the designation made in G.N. 4328 of 2026 on 26 September 2026.”…“21 September 2026” ([source](https://www.cad.gov.hk/documents/G.N.5936_E.pdf))
+
+  [「本人憑藉《小型無人機令》(第448G章)第19(1)條授予的權力，現就該命令第18(1)條，指定下列香港範圍(包括該範圍的空域)為限制飛行區：」…「上列為配合推行低空經濟監管沙盒試點項目所指定的限制飛行區」…「本公告作出的指定將於2026年9月26日開始實施，全日生效，並同時取代2026年第4328號政府公告內作出的指定。」…「2026年9月21日」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/G.N.5936_C.pdf))
+  :::
 
 ## Mainland
 
