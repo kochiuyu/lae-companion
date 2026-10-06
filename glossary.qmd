@@ -254,6 +254,10 @@ Sources (as of 6 Oct 2026): LAE ([2024 Policy Address ¶81](https://www.policyad
 
 No arrow joins the two groups: LAE and 低空经济 measure economic activity and are not aircraft categories. Dashed, OPEN or PLANNED items are not established: the dedicated unconventional-aircraft legislation is PLANNED.
 
+### Terms that must not be mixed
+
+“LAE / 低空经济” = industrial-policy / statistical construct. UAM / AAM / IAM / UAS / SUA = aviation system / vehicle terms — do not equate. HK **1,000 m** working definition ≠ Mainland airspace **120 m / 300 m** class labels.
+
 ## Hong Kong institutions and law
 
 **Action Plan on Developing Low-Altitude Economy (發展低空經濟規劃行動綱領)**  

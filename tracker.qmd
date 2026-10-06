@@ -155,6 +155,10 @@ OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, n
 **Guangdong >3000亿元 by 2026** — [「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「低空经济规模超过3000亿元，基本形成广州、深圳、珠海三核联动、多点支撑、成片发展的低空经济产业格局」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
 :::
 
+**Allowed wording** (OHKF, *Taking Flight…*, Sep 2025; an OHKF projection, not a government figure):
+
+> OHKF (Sep 2025) projects ~HK$350 billion **industry value-added** in Hong Kong by 2050 (majority from supporting services).
+
 **Banned:** “Government estimates HK$350bn…” / classroom tickets, HHI, CASK, flights / vendor “GBA trillion.”
 
 ## Mainland rules

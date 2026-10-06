@@ -18,7 +18,7 @@ Dated notes for the course. Read the newest date first. These are source notes, 
 
 ## Where things stand
 
-Status as of the 6 Oct 2026 note. Each line takes the latest dated statement already recorded in the notes below.
+Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on record.
 
 | Item | Status | Latest official word | Still not fact |
 |------|--------|----------------------|----------------|
@@ -30,6 +30,7 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement alr
 | Cap. 448G s.12(2)(c) commencement | OPEN | No commencement notice gazetted (5 Sep note; no document to link). | Commencement. |
 | Advisory circulars: AC-013 (Regulatory Sandbox) and AC-017 (Sandbox X) | settled | Civil Aviation Department list still runs AC-001 to AC-017; no new circular (6 Oct note) ([AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf)). | — |
 | Drone spectrum: 1430–1444 MHz UAS (Private) Licence | settled | OFCA: the 1.4 GHz band “is confined to be used by projects under the LAE Regulatory Sandbox” ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)). The 6 Oct LegCo briefing restates the October 2025 launch only ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm)). | Any new spectrum instrument. HKCA 1072 Iss.2 (Aug 2026) is an E-UTRA base-station specification, not a drone rule. |
+| Hong Kong LAE working definition | settled | LegCo paper CB(3)933/2024: LAE “refers to economic activities in airspace generally below 1 000 metres” ([LegCo](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf)). | An official Hong Kong LAE value-added series; none exists yet. |
 | HK\$350bn | settled | Our Hong Kong Foundation (OHKF), Sep 2025: about HK\$350 billion of industry value added in Hong Kong by 2050 ([OHKF](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83)). | That it is a government figure. It is an OHKF projection (T3), not an HKSAR government number. |
 | Mainland air traffic management rules, Chapter 12 (drones) | WATCH (draft) | Civil Aviation Administration of China: draft published 11 Aug 2026; comments closed 11 Sep 2026; still a 征求意见稿 (consultation draft) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)). | That it is promulgated. It is not the Art. 34 / Art. 225 implementing regulation. |
 | Mainland civil aviation security background review rules (民用航空安全背景审查管理规定) | WATCH (draft) | Comment deadline 4 Sep 2026 passed; still a draft (13 Sep note) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html)). | That the rules are final. |
@@ -52,6 +53,18 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement alr
 [「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
 :::
 
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
+**LegCo CB(3)933/2024** — English: “LAE, which refers to economic activities in airspace generally below 1 000 metres” ([source](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf))\
+[「低空經濟是指在一般低於1,000米以下空域進行的經濟活動」]{lang="zh-Hant"} ([source](https://www.legco.gov.hk/yr2024/chinese/panels/edev/papers/edev20241203cb3-933-3-c.pdf))
+
+**NDRC 发改低空〔2025〕1676号** — [「为明确低空经济概念和范畴，明晰产业边界，根据低空经济阶段性特征和重点领域、重点环节，按照统计工作相关规定，编制形成《低空经济及其核心产业统计分类（试行）》。现印发你们，请按此执行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm))
+:::
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+**OHKF, Sep 2025** — English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))\
+[「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+:::
+
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 **Mainland civil aviation security background review rules** — [「形成《民用航空安全背景审查管理规定（征求意见稿）》，现向社会公开征求意见。」…「任何单位和个人如有意见或建议，请填写意见反馈表，于2026年9月4日前发送至mhjgaj@caac.gov.cn。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html))
 :::
@@ -59,75 +72,6 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement alr
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 **Guangdong 3000亿元** — [「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「低空经济规模超过3000亿元，基本形成广州、深圳、珠海三核联动、多点支撑、成片发展的低空经济产业格局」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
 :::
-
-## Baseline (5 Sep 2026)
-
-Baseline dossier for the DOTE5891 companion site, built from **primary and official sources**.
-
-### What we treat as settled
-
-1. **Definitions / scale.** HK LAE working definition = economic activities generally **below 1,000 m** (LegCo CB(3)933/2024, T2). Mainland statistical definition = NDRC **发改低空〔2025〕1676号** (2025-12-22, T2). HK has **no** official LAE value-added series yet.
-
-   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
-   **LegCo CB(3)933/2024** — English: “LAE, which refers to economic activities in airspace generally below 1 000 metres” ([source](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf))\
-   [「低空經濟是指在一般低於1,000米以下空域進行的經濟活動」]{lang="zh-Hant"} ([source](https://www.legco.gov.hk/yr2024/chinese/panels/edev/papers/edev20241203cb3-933-3-c.pdf))
-
-   **NDRC 发改低空〔2025〕1676号** — [「为明确低空经济概念和范畴，明晰产业边界，根据低空经济阶段性特征和重点领域、重点环节，按照统计工作相关规定，编制形成《低空经济及其核心产业统计分类（试行）》。现印发你们，请按此执行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm))
-   :::
-
-2. **HK map.** Working Group (DFS head; first meeting **12 Nov 2024**); CAD / **Cap. 448G**; **Regulatory Sandbox** ≠ **Regulatory Sandbox X** (AC-013 vs AC-017); **1430–1444 MHz** UAS (Private) Licence from **27 Oct 2025**.
-
-   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-   **Working Group first meeting** — English: “The Chief Executive announced in the 2024 Policy Address to establish the Working Group on Developing Low-altitude Economy (the Working Group). The Deputy Financial Secretary, Mr Michael Wong, convened the first meeting as the Head of the Working Group today (November 12).” ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm))\
-   [「行政長官在二○二四年《施政報告》宣布成立「發展低空經濟工作組」（工作組），財政司副司長黃偉綸今日（十一月十二日）以組長身分召開工作組的首次會議。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
-
-   **AC-013** — English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight Operations within the Context of Regulatory Sandbox” ([source](https://www.cad.gov.hk/documents/AC-013_E.pdf))\
-   [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
-
-   **1430–1444 MHz UAS licence** — English: “The Communications Authority has made available the 1430 – 1444 MHz band (1.4 GHz band) for use by UAS and created a new licence to facilitate the use of the dedicated spectrum.”…“the Unmanned Aircraft System (Private) Licence has been created since 27 October 2025” ([source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html))\
-   [「通訊事務管理局（通訊局） 已規劃1430 – 1444 兆赫頻帶（1.4 吉赫頻帶）供無人機系統使用，並設立新的牌照以促進該專用頻譜的使用。」…「無人駕駛飛機系統（專用）牌照於2025年10月27日設立」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
-   :::
-
-3. **National spine.** Civil Aviation Law revision — passed **2025-12-27**, Order No. 65, effective **2026-07-01** (T1). UAS ops still **国令761 + CCAR-92** (both eff. **2024-01-01**).
-
-   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
-   **Civil Aviation Law (2025 revision)** — English: “Order of the President of the People\'s Republic of China (No. 65)”…“The Civil Aviation Law of the People\'s Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People\'s Congress of the People\'s Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))\
-   [「2025年12月27日第十四届全国人民代表大会常务委员会第十九次会议修订」…「中华人民共和国主席令第六十五号」…「第二百六十二条　本法自2026年7月1日起施行。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
-
-   **国令761** — [「现公布《无人驾驶航空器飞行管理暂行条例》，自2024年1月1日起施行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm))
-
-   **CCAR-92** — [「已于2023年12月15日经第29次部务会议通过，现予公布，自公布之日起施行。」…「2024年1月1日」]{lang="zh-Hans"} ([source](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html))
-   :::
-
-4. **GBA evidenced.** Guangdong 粤府办〔2024〕6号; Shenzhen **domestic** blood UAS (Jan 2024). **Not** evidenced: operational Shenzhen–HK medical drone corridor.
-
-   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
-   **粤府办〔2024〕6号** — [「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「2024年5月21日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
-
-   **Shenzhen domestic blood UAS** — [「1月19日，“深圳5G+无人机血液运输智能空港平台”启用仪式在市血液中心举行，这也是全国首个5G+空中“送血”智能平台。」]{lang="zh-Hans"} ([source](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html))
-   :::
-
-5. **AUDIT HK$350bn.** Issuer = **Our Hong Kong Foundation**, *Taking Flight…*, **Sep 2025**. Metric = **industry value-added**, **Hong Kong only**, horizon **2050**. **Not** a government figure.
-
-   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-   **OHKF, Sep 2025** — English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))\
-   [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
-   :::
-
-### Allowed 350bn wording
-
-> OHKF (Sep 2025) projects ~HK$350 billion **industry value-added** in Hong Kong by 2050 (majority from supporting services).
-
-### What this note added
-
-- Sandbox vs Sandbox X **resolved** as two official programmes (AC-013 / AC-017).
-- HK$350bn **issuer locked** (OHKF T3); misattribution to HKSAR gov blocked.
-- Civil Aviation Law **1 Jul 2026** effective date **confirmed** (T1).
-- Cross-border medical corridor demoted from “open” pedagogy claim to **planned/trial**.
-
-## Terms that must not be mixed
-
-“LAE / 低空经济” = industrial-policy / statistical construct. UAM / AAM / IAM / UAS / SUA = aviation system / vehicle terms — do not equate. HK **1,000 m** working definition ≠ Mainland airspace **120 m / 300 m** class labels.
 
 ## 6 Oct 2026: LegCo spectrum restatement, new Sandbox restricted flying zones {#week-2026-10-06}
 
@@ -278,7 +222,7 @@ English: “The Government is committed to developing Hong Kong into the Asia-Pa
 
 :::: {.callout-note collapse="true" title="Show the 5 Sep 2026 note"}
 
-- First weekly note after the baseline. Hong Kong had no new primary changes on the Action Plan, Sandbox X cross-boundary results, advisory circulars, spectrum, the Working Group or LegCo, Cap. 448G s.12(2)(c), or who issued the HK\$350bn figure.
+- First weekly note. Hong Kong had no new primary changes on the Action Plan, Sandbox X cross-boundary results, advisory circulars, spectrum, the Working Group or LegCo, Cap. 448G s.12(2)(c), or who issued the HK\$350bn figure.
 - Mainland: on 11 August 2026 the Civil Aviation Administration of China published a consultation draft of its air traffic management rules (comments to 11 September), adding Chapter 12 on unmanned aircraft.
 - The draft is not yet in force. It is not the dedicated airworthiness (Art. 34) or implementing (Art. 225) regulation under the Civil Aviation Law.
 
