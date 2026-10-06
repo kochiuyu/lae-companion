@@ -5,6 +5,175 @@ as_of: "2026-09-07"
 
 Use the browser find function (Ctrl+F or ⌘F). Official = you may cite. Course = lecture model. Industry usage = vocabulary, not Hong Kong law.
 
+## At a glance
+
+Four diagrams that summarise entries below. Each caption lists its sources; the entries themselves start at [Hong Kong institutions and law](#hong-kong-institutions-and-law).
+
+### Altitude scale
+
+```{mermaid}
+%%{init: {"flowchart": {"nodeSpacing": 30, "rankSpacing": 26, "padding": 10, "wrappingWidth": 520}}}%%
+flowchart BT
+    G0["Ground level (真高 0)"]
+    A1["<b>Hong Kong</b> · 100 ft above ground level (≈ 30 m)<br/>maximum flying altitude, Category A1"]
+    A2["<b>Hong Kong</b> · 300 ft above ground level (≈ 91 m)<br/>maximum flying altitude, Category A2<br/>and exempted Category A1 models<br/>higher only with CAD permission (Cap. 448G s.37)"]
+    M120["<b>Mainland</b> · 真高120米<br/>国令761 Art. 19: above 真高120米 = UAS 管制空域<br/>W类空域 = part of G类空域 below 真高120米<br/>(微型 / 轻型 / 小型 UAS)"]
+    M300["<b>Mainland</b> · 真高300米<br/>G类空域 includes airspace below 真高300米<br/>outside B / C classes (W excluded)<br/>国令761 Art. 22: 小型 UAS 融合飞行<br/>up to 真高300米 needs ATM approval"]
+    K1000["<b>Hong Kong</b> · about 1,000 m<br/>LAE = economic activities in airspace<br/>“generally below 1 000 metres”<br/>policy description, not a flying limit"]
+    G0 --- A1 --- A2 --- M120 --- M300 --- K1000
+    classDef hk fill:#f4f7fb,stroke:#003366,color:#1a1a1a
+    classDef cn fill:#f8f6f1,stroke:#7a6a4f,color:#1a1a1a
+    classDef pol fill:#ffffff,stroke:#003366,color:#1a1a1a
+    classDef gnd fill:#e6e6e6,stroke:#555555,color:#1a1a1a
+    class A1,A2 hk
+    class M120,M300 cn
+    class K1000 pol
+    class G0 gnd
+```
+
+Sources (as of 6 Oct 2026): Category A1 100 ft and Category A2 300 ft above ground level, specified under Cap. 448G s.17(2) for s.16(1)(c) ([G.N. 1276 of 2022](https://www.cad.gov.hk/documents/G.N.1276_E.pdf); [Chinese](https://www.cad.gov.hk/documents/G.N.1276_C.pdf); [SRD §7.4.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf); [AC-013 §6.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); exempted Category A1 models flown to the Category A2 operating requirements ([G.N. 2303 of 2022](https://www.cad.gov.hk/documents/G.N.2303_E.pdf)); permission under s.37 ([Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); LAE as economic activities in airspace “generally below 1 000 metres” ([LegCo CB(3)933/2024](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf); [2024 Policy Address ¶81](https://www.policyaddress.gov.hk/2024/en/p81.html)); 真高120米 管制空域 (Art. 19) and 真高300米 融合飞行 (Art. 22) ([国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)); G类 and W类空域 ([国家空域基础分类方法, CAAC](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html)).
+
+Boxes are in height order but not to scale; Hong Kong metre figures are conversions (1 ft = 0.3048 m). The Mainland classification excludes the Hong Kong flight information region, so its labels are not Hong Kong law. Dashed, OPEN or PLANNED items are not established; this diagram has none.
+
+### Weight ladder (Cap. 448G)
+
+```{mermaid}
+%%| column: page
+%%{init: {"flowchart": {"nodeSpacing": 14, "rankSpacing": 30, "padding": 8, "wrappingWidth": 400}}}%%
+flowchart LR
+    subgraph SA1[" "]
+        direction TB
+        A1["<b>Category A1</b> 甲一類<br/>not more than 250 g"]
+        RA1["s.10: basic requirements do not<br/>apply if the flight stays within<br/>operating requirements, outside<br/>restricted flying zones (unless in<br/>an enclosed area), with no<br/>dangerous goods"]
+        A1 --- RA1
+    end
+    subgraph SA2[" "]
+        direction TB
+        A2["<b>Category A2</b> 甲二類<br/>more than 250 g,<br/>not more than 7 kg"]
+        RA2["s.11(1)(a)–(f): registered SUA,<br/>label, safety system, registered<br/>remote pilot with a rating for<br/>the operation; Standard Rating<br/>covers standard operations"]
+        A2 --- RA2
+    end
+    subgraph SB[" "]
+        direction TB
+        B["<b>Category B</b> 乙類<br/>more than 7 kg,<br/>not more than 25 kg"]
+        RB["adds s.11(1)(g): every flight<br/>under a CAD permission (s.37);<br/>remote pilot needs<br/>Advanced Rating (A/B)"]
+        B --- RB
+    end
+    subgraph SC[" "]
+        direction TB
+        C["<b>Category C</b> 丙類<br/>more than 25 kg,<br/>not more than 150 kg<br/>(from 18 Jul 2025)"]
+        RC["s.11(1)(g): every flight<br/>under a CAD permission (s.37);<br/>remote pilot needs Advanced<br/>Rating (C), minimum age 18"]
+        C --- RC
+    end
+    subgraph SX[" "]
+        direction TB
+        X["<b>Over 150 kg</b><br/>outside Cap. 448G (SUA ≤ 150 kg)<br/>unconventional aircraft"]
+        RX1["Trial operations under<br/>Cap. 448C provisions<br/>“under specified conditions”"]
+        RX2["Dedicated legislation<br/>PLANNED: drafting to be<br/>completed within 2027"]
+        X --- RX1
+        RX1 -.- RX2
+    end
+    SA1 --> SA2 --> SB --> SC --> SX
+    classDef cat fill:#e8eef6,stroke:#003366,color:#1a1a1a
+    classDef rule fill:#ffffff,stroke:#555555,color:#1a1a1a
+    classDef open fill:#fffaf0,stroke:#b35900,stroke-width:2px,stroke-dasharray:6 4,color:#1a1a1a
+    class A1,A2,B,C,X cat
+    class RA1,RA2,RB,RC,RX1 rule
+    class RX2 open
+    linkStyle 5 stroke:#b35900,stroke-width:2px
+    style SA1 fill:#f4f7fb,stroke:#003366
+    style SA2 fill:#f4f7fb,stroke:#003366
+    style SB fill:#f4f7fb,stroke:#003366
+    style SC fill:#f4f7fb,stroke:#003366
+    style SX fill:#f7f7f7,stroke:#555555
+```
+
+Sources (as of 6 Oct 2026): weight thresholds (s.3(2)), the 150 kg SUA ceiling (s.3(1)), s.10, s.11(1)(a)–(g) and s.37 ([Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G); [Chinese](https://www.elegislation.gov.hk/hk/cap448G!zh-Hant-HK.pdf)); Category C from 18 July 2025 ([GIA, 17 Jul 2025](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm)); rating types and the minimum age of 18 for Advanced Rating (C) ([SRD §5.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)); Cap. 448C provisions for trial operations of unconventional aircraft “under specified conditions” ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); drafting to be completed within 2027 ([2026 Policy Address Annex, indicator 35](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf); [2026 Policy Address ¶139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)).
+
+Each step adds to the ones on its left. A Category A1 flight that does not meet the s.10 conditions falls under the s.11 basic requirements. Any flight beyond the operating requirements, within a restricted flying zone or carrying dangerous goods needs a s.37 permission ([SRD §8.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)). Insurance (s.11(1)(c), s.12) is left out: CAD lists its effective date for standard operations as “to be determined” ([CAD](https://www.cad.gov.hk/english/sua_overview_regulatoryreq.html)). Dashed, OPEN or PLANNED items are not established: the over-150 kg legislation is PLANNED.
+
+### Line of sight and permissions
+
+```{mermaid}
+%%| column: page
+%%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 60, "padding": 10, "wrappingWidth": 400}}}%%
+flowchart LR
+    V["<b>VLOS</b> 視線內操作<br/>direct, unaided sight kept by the<br/>remote pilot and/or a visual observer<br/><b>at the same location</b>"]
+    E["<b>EVLOS</b> 延伸視線操作<br/>sight kept by the remote pilot and/or<br/>a visual observer <b>at a different location</b><br/>not routinely permitted"]
+    B["<b>BVLOS</b> 超視距操作<br/>remote pilot or visual observer<br/><b>unable to maintain</b> visual line of sight"]
+    SO["<b>Standard operation</b><br/>within the operating requirements<br/>(s.16(1)(b) VLOS in the specified way)<br/>no prior CAD permission"]
+    AO["<b>Advanced operation</b><br/>prior CAD permission<br/>under Cap. 448G s.37"]
+    SR["<b>Standard Rating</b> 標準等級<br/>remote pilot: standard operations"]
+    AR["<b>Advanced Rating</b> 進階等級<br/>remote pilot: (A/B) or (C)"]
+    AOP["<b>Advanced Operations Permission</b><br/>進階操作許可<br/>operator; one of two ways to show<br/>BVLOS experience under AC-013"]
+    PE["or: prior relevant experience<br/>approved by major civil<br/>aviation authorities"]
+    V -->|"within all limits"| SO
+    V -->|"Cat. B / C, or other<br/>limits exceeded"| AO
+    E -->|"AC-004"| AO
+    B -->|"Regulatory Sandbox<br/>(AC-013)"| AO
+    SO -->|"SRD §5.1.1(a)"| SR
+    AO -->|"SRD §5.1.1(b)–(c);<br/>AC-004 §5.1; AC-013 §8.1"| AR
+    B -->|"operator experience,<br/>AC-013 §4.2(a)(i)"| AOP
+    B -->|"AC-013 §4.2(a)(ii)"| PE
+    classDef mode fill:#e8eef6,stroke:#003366,color:#1a1a1a
+    classDef perm fill:#ffffff,stroke:#003366,color:#1a1a1a
+    classDef rate fill:#f8f6f1,stroke:#7a6a4f,color:#1a1a1a
+    class V,E,B mode
+    class SO,AO perm
+    class SR,AR rate
+    class AOP,PE perm
+```
+
+Sources (as of 6 Oct 2026): VLOS with a visual observer at the same location ([G.N. 1276 of 2022 ¶(2)](https://www.cad.gov.hk/documents/G.N.1276_E.pdf); [AC-013 §2.6.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); EVLOS with a visual observer at a different location, not routinely permitted, s.37 permission and Advanced Rating ([AC-004 §1.2–1.3, §2.3–2.4, §5.1](https://www.cad.gov.hk/documents/AC-004_E.pdf); [SRD §7.3](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)); BVLOS definition, Regulatory Sandbox applications, operator experience options and Advanced Rating ([AC-013 §2.6.2, §3.2, §4.2(a), §8.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); standard and advanced operations, rating types and the Advanced Operations Permission ([SRD §5.1.1, §8.1–8.3](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)); Chinese terms ([AC-013 Chinese §2.6](https://www.cad.gov.hk/documents/AC-013_C.pdf); [AC-004 Chinese](https://www.cad.gov.hk/documents/AC-004_C.pdf)).
+
+The mapping is not one-to-one: a VLOS flight still needs permission and an Advanced Rating when it is an advanced operation, and the Advanced Operations Permission is one of two experience routes for a BVLOS operator, not a required step (AC-013 also says an operator without BVLOS experience may still be considered). This diagram covers BVLOS in the Regulatory Sandbox only; Sandbox X cross-boundary flights are under AC-017. Dashed, OPEN or PLANNED items are not established; this diagram has none.
+
+### Term families
+
+```{mermaid}
+%%| column: page
+%%{init: {"flowchart": {"nodeSpacing": 22, "rankSpacing": 40, "padding": 10, "wrappingWidth": 400}}}%%
+flowchart TB
+    subgraph AV["Aviation terms"]
+        direction TB
+        UAS["<b>UAS</b><br/>aircraft + control station + links<br/>(OFCA licence titles; 国令761 无人驾驶航空器系统)"]
+        UAV["<b>UAV</b><br/>industry usage: the aircraft alone"]
+        SUA["<b>SUA</b> 小型無人機<br/>Cap. 448G legal term:<br/>unmanned aircraft not more than 150 kg"]
+        CAT["Category A1 / A2 / B / C<br/>甲一類 / 甲二類 / 乙類 / 丙類"]
+        UCA["<b>Unconventional aircraft</b> 非傳統飛行器<br/>e.g. unmanned aircraft over 150 kg, eVTOL,<br/>passenger-carrying designs<br/>trials under Cap. 448C provisions"]
+        UCAL["Dedicated legislation for<br/>unconventional aircraft over 150 kg<br/>PLANNED: drafting within 2027"]
+        VTOL["<b>VTOL</b><br/>industry usage: vertical take-off<br/>and landing capability"]
+        EVTOL["<b>eVTOL</b><br/>industry usage: electric VTOL aircraft<br/>no dedicated Hong Kong eVTOL statute"]
+        UAS -->|"aircraft element"| UAV
+        UAV -->|"not more than 150 kg"| SUA
+        SUA -->|"weight classes"| CAT
+        UAV -->|"over 150 kg"| UCA
+        VTOL -->|"electric subset"| EVTOL
+        EVTOL -->|"named as an example"| UCA
+        UCA -.- UCAL
+    end
+    subgraph ECON["Economy and statistics"]
+        direction LR
+        LAE["<b>LAE</b> (Hong Kong)<br/>economic activities in airspace<br/>generally below 1 000 m<br/>policy description"]
+        DKJ["<b>低空经济</b> (Mainland)<br/>statistical classification scope<br/>《低空经济及其核心产业统计分类（试行）》<br/>NDRC 发改低空〔2025〕1676号"]
+    end
+    classDef econ fill:#f8f6f1,stroke:#7a6a4f,color:#1a1a1a
+    classDef av fill:#e8eef6,stroke:#003366,color:#1a1a1a
+    classDef ind fill:#ffffff,stroke:#555555,color:#1a1a1a
+    classDef open fill:#fffaf0,stroke:#b35900,stroke-width:2px,stroke-dasharray:6 4,color:#1a1a1a
+    class UCAL open
+    linkStyle 6 stroke:#b35900,stroke-width:2px
+    class LAE,DKJ econ
+    class UAS,SUA,CAT,UCA av
+    class UAV,VTOL,EVTOL ind
+    style ECON fill:#fbfaf6,stroke:#7a6a4f,color:#5a4a2f
+    style AV fill:#f4f7fb,stroke:#003366,color:#003366
+```
+
+Sources (as of 6 Oct 2026): LAE ([2024 Policy Address ¶81](https://www.policyaddress.gov.hk/2024/en/p81.html); [LegCo CB(3)933/2024](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf)); 低空经济 statistical classification ([NDRC 发改低空〔2025〕1676号](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm)); UAS ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html); [国令761 Art. 62](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)); SUA and categories ([Cap. 448G s.3](https://www.elegislation.gov.hk/hk/cap448G)); unconventional aircraft, with unmanned aircraft over 150 kg, eVTOL and passenger-carrying designs as examples ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html); [2025 Policy Address](https://www.policyaddress.gov.hk/2025/en/p153.html)); drafting within 2027 ([2026 Policy Address Annex, indicator 35](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). UAV, VTOL and eVTOL are industry usage, as in their entries below.
+
+No arrow joins the two groups: LAE and 低空经济 measure economic activity and are not aircraft categories. Dashed, OPEN or PLANNED items are not established: the dedicated unconventional-aircraft legislation is PLANNED.
+
 ## Hong Kong institutions and law
 
 **Action Plan on Developing Low-Altitude Economy (發展低空經濟規劃行動綱領)**  
@@ -46,7 +215,6 @@ Kind: Official
 Air Navigation (Hong Kong) Order 1995 — used with Cap. 448G when heavier / unconventional trial flying needs provisions outside the SUA Order alone. Cap. 448C; 2024–2025 PA LAE legislative track. Week 7 / Week 11.
 
 **Dangerous goods (SUA) (危險品)**  
-Mainland: 无人驾驶航空器
 Kind: Official  
 Goods or substances within Cap. 295 as applied by Cap. 448G; SUA must not carry them in flight unless permission is obtained. Cap. 448G; Cap. 295; CAD AC-013 §6.6. Week 7.
 
@@ -148,7 +316,7 @@ English: “Improve civil aviation legislation and regulatory framework, includi
 Kind: Official  
 Official Chinese form 無人駕駛飛機組. CAD AC-013_C §18.3. Week 7.
 
-**低空经济**  
+**Working Group on Developing Low-altitude Economy (發展低空經濟工作組)**  
 Kind: Official  
 Cross-government group headed by the Deputy Financial Secretary; first meeting 2024-11-12. 2024 PA ¶82; GIA 2024-11-12. Week 1.
 
@@ -219,7 +387,7 @@ State Council Interim UAS Flight Management Ordinance; effective **2024-01-01** 
 
 **300 ft AGL operating limit (飛行高度不高於地面以上 300 呎)**  
 Kind: Official  
-Default Cap. 448G / SRD operating requirement that SUA stay at or below 300 ft above ground level unless permission allows otherwise. Cap. 448G / SRD; CAD AC-013 §6.1. Week 7.
+Maximum flying altitude for Category A2 SUA (and exempted Category A1 models flown to Category A2 requirements): 300 ft above ground level; Category A1's limit is 100 ft. Higher only with CAD permission under Cap. 448G s.37. G.N. 1276 of 2022; SRD §7.4.1; CAD AC-013 §6.1. Week 7.
 
 **Air risk (空中風險)**  
 Kind: Official  
@@ -241,9 +409,9 @@ Operation beyond the remote pilot’s visual line of sight; in the first Regulat
 Kind: Official  
 Command-and-control communications link between the remote pilot / ground systems and the SUA. CAD AC-013 §5.5; AC-017 §5. Week 7 / Week 8.
 
-**Category A / B / C (甲類 / 乙類 / 丙類)**  
+**Category A1 / A2 / B / C (甲一類 / 甲二類 / 乙類 / 丙類)**  
 Kind: Official  
-Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G (Cat C expansion 2025-07-18). Week 7.
+Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G s.2, s.3(2) (Cat C expansion 2025-07-18). Week 7.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The amendments to the Small Unmanned Aircraft (SUA) Order (Cap. 448G) serve to extend the existing regulatory regime to cover SUA weighing over 25 kilograms but not exceeding 150kg.”…“The Small Unmanned Aircraft (Amendment) Order 2025 and the Air Navigation (Hong Kong) Order 1995 (Amendment) Order 2025 will come into effect tomorrow (July 18) to facilitate the development of the low-altitude economy.” ([source](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm))
@@ -384,10 +552,9 @@ Common label for the aircraft alone; prefer **SUA** when citing Cap. 448G and **
 Kind: Official  
 Any person other than an involved person; drives ground-risk planning for BVLOS. CAD AC-013 §2.5.2. Week 7.
 
-**Visual observer (小型無人機)**  
-Mainland: 无人驾驶航空器
+**Visual observer (視像觀察員)**  
 Kind: Official  
-Person at the same location as the remote pilot who keeps unaided visual contact with the SUA and communicates to help avoid collision. CAD AC-013 §2.6.1. Week 7.
+Person at the same location as the remote pilot who keeps unaided visual contact with the SUA and communicates to help avoid collision. CAD AC-013 §2.6.1; official Chinese form 視像觀察員 in [G.N. 1276 ¶(2)](https://www.cad.gov.hk/documents/G.N.1276_C.pdf) and CAD AC-013_C §2.6.1. Week 7.
 
 **VLOS (視線內操作)**  
 Kind: Official  
@@ -423,9 +590,9 @@ Prohibited, Restricted or Danger Areas published in the Hong Kong Aeronautical I
 Kind: Official  
 Official Chinese form 禁區／限制區／危險區. CAD AC-013_C §5.1(b). Week 8.
 
-**restricted flying zone (民航處)**  
+**restricted flying zone (限制飛行區)**  
 Kind: Official  
-CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD. Week 7 / Week 8.
+CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2. Week 7 / Week 8.
 
 **Smart low-altitude traffic management (智能低空交通管理系統)**  
 Kind: Official  
@@ -480,7 +647,6 @@ Kind: Official
 Official Chinese form 全球導航衞星系統. CAD AC-013_C §5.5. Week 7 / Week 8.
 
 **Low-altitude infrastructure (低空基礎建設 / 低空基礎設施)**  
-Hong Kong: 低空經濟
 Kind: Official  
 PA package covering GNSS, mobile radio, high-speed data, take-off/landing and charging facilities, plus traffic management — planning language, not a built network inventory. 2024 PA LAE; 2025 PA ¶154–155. Week 5 / Week 8.
 
