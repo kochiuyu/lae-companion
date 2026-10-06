@@ -25,13 +25,25 @@ Each item: date, outlet, one sentence, official document to read instead (if any
 
 - **2026-10-06** — 政府新聞公報 (info.gov.hk Chinese GIA). SCED told LegCo’s Panel on Information Technology and Broadcasting that the Communications Authority’s UAS dedicated-spectrum licensing regime, launched in October 2025, is aligned with Mainland spectrum planning and will help future cross-boundary drone operations, and that cross-border 6G trials covering LAE will be encouraged. [Link](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm). Official document to read instead: 1430–1444 MHz UAS (Private) Licence (unchanged; restatement); SZ–HK corridor remains NOT evidenced on Tracker.
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「低空經濟發展方面，通訊事務管理局（通訊局）已於二○二五年十月推出使用無人機系統專用頻譜的發牌制度。有關安排與內地的頻譜規劃一致，有助日後無人機跨境運作。」…「政府會積極鼓勵業界拓展跨境6G技術試驗及應用場景驗證，包括低軌衞星、低空經濟等，以達到粵港澳大灣區、香港及業界三贏局面。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm))
+  :::
+
 - **2026-10-06** — The Standard. CAD is following up a case in which a Mainland blogger allegedly flew a drone from The Peak over the Victoria Harbour restricted flying zone without permission to film the 1 October National Day fireworks, with CAD restating that offences under the Small Unmanned Aircraft Order carry a maximum HK$100,000 fine and two years’ imprisonment. [Link](https://www.thestandard.com.hk/news/article/344668/Mainland-blogger-flies-drone-over-Victoria-Harbour-to-film-National-Day-fireworks-CAD-following-up). Official document to read instead: Cap. 448G / restricted flying zones (enforcement; no new instrument).
 
 - **2026-10-05** — China Daily Hong Kong. TLB Deputy Secretary Joan Hung and CAD Deputy Director-General Dominic Chow describe “Sandbox Connect” as Hong Kong’s first cross-jurisdictional LAE trial under Sandbox X, using Nansha as a gateway, with a joint regulatory testing framework under design and a longer-term goal of a Hong Kong–Guangdong “LAE regulatory green channel”. [Link](https://www.chinadailyhk.com/hk/article/640531). Official document to read instead: Regulatory Sandbox X (cross-boundary results still OPEN on TLB; press framing only); SZ–HK corridor remains NOT evidenced on Tracker.
 
 - **2026-10-02** — 政府新聞公報 (info.gov.hk Chinese GIA). STL Chan briefed LegCo’s Economic Development Panel on First Five-Year Plan / 2026 Policy Address transport–logistics measures, stating that >140 Regulatory Sandbox projects have been regularised, the Working Group continues drafting the《發展低空經濟規劃行動綱領》, dedicated unconventional-aircraft legislation will be drafted and submitted next year, and Smart Low-Altitude Traffic Management System rollout is targeted from 2028. [Link](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm). Official document to read instead: Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); Cap. 448G / >150 kg drafting; Smart TMS from 2028; Working Group / TLB / CAD; Regulatory Sandbox ops regularisation count (not Sandbox X cross-boundary results).
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「現時，我們已透過「監管沙盒」將超過140個項目恆常化。今年，發展低空經濟工作組會繼續全力制訂《發展低空經濟規劃行動綱領》。我們承諾於明年完成為非傳統航空器制訂專屬法例的草擬工作，並提交立法會。此外，我們會同步積極構建智能低空交通管理系統，目標是二○二八年起逐步落實並推展。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm))
+  :::
+
 - **2026-09-30** — 紫荊 / Bau.com.hk. CAD Director-General Clara Wong’s bylined feature on Hong Kong civil aviation includes a dedicated LAE section noting Cap.448G expansion to Category C (25–150 kg) effective mid-2025, Cap.448C trial provisions for unconventional aircraft, research toward Smart Low-Altitude Traffic Management and supporting infrastructure, and a push to complete dedicated >150 kg subsidiary legislation drafting by 2027. [Link](https://bau.com.hk/web/article/1554875572736425984/web/content_1554875572736425984.html). Official document to read instead: Cap. 448G / >150 kg drafting; CAD / SUA; Smart TMS; Working Group (no new instrument).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「首階段法例修訂工作已於2025年7月生效，包括擴大《小型無人機令》（第448G章）的規管範圍，以涵蓋重量超過25公斤至150公斤的丙類小型無人機，並於《1995 年飛航（香港）令》（第 448C 章）新增條文，為非傳統航空器在特定條件下的試飛提供法律依據。」…「民航處借鑑“監管沙盒”的實踐經驗及不同地區的良好做法，積極研究智能低空交通管理系統。」…「民航處已著手研究在《民航條例》（第448章）下，為重量超過150公斤的非傳統航空器訂立專門的附屬法例」…「全力爭取在2027年完成相關法例的草擬工作。」]{lang="zh-Hant"} ([source](https://bau.com.hk/web/article/1554875572736425984/web/content_1554875572736425984.html))
+  :::
 
 ## 2026-09
 
@@ -39,17 +51,41 @@ Each item: date, outlet, one sentence, official document to read instead (if any
 
 - **2026-09-23** — 政府新聞公報 (info.gov.hk Chinese GIA). Same Beijing CAAC call recorded in Chinese; 低空經濟 listed among discussion topics; no new Action Plan text or corridor announcement. [Link](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm). Official document to read instead: Working Group / TLB / CAD; Action Plan (text OPEN).
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「她今日上午聯同運輸及物流局常任秘書長丘卓恒和民航處處長黃嘉華拜訪中國民用航空局（國家民航局），與國家民航局副局長梁楠會面，闡述香港在航空方面的最新發展，包括在《香港第一個五年規劃》和二○二六年《施政報告》中與航空發展相關的目標與政策，並就香港積極融入國家「幹支通、全網聯」、提升內地城市與全球目的地高效連接、鞏固香港航空貨運業世界領先地位、推動可持續航空燃料生產及使用、低空經濟等各項措施商討。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm))
+  :::
+
 - **2026-09-21** — HK01. STL Mable Chan and Housing Secretary Winnie Ho attended the launch of a Regulatory Sandbox drone meal-delivery route into Ma On Shan’s Chung On Estate (頌安邨)—the first public-housing landing—with Chan calling it a Regulatory Sandbox milestone and foreshadowing more Northern Metropolis estate routes. [Link](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8). Official document to read instead: Regulatory Sandbox (ops expansion; not Sandbox X cross-boundary results).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「無人機外送航線首次飛到馬鞍山頌安邨，房屋局局長何永賢和運輸及物流局局長陳美寶出席啟動禮。」…「陳美寶表示美團無人機團隊再下一城將無人機外送服務帶到馬鞍山頌安邨 ，標誌「監管沙盒」項目邁向新里程」…「預告低空經濟外送航線未來會飛進更多北部都會區的公共屋邨。」]{lang="zh-Hant"} ([source](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8))
+  :::
 
 - **2026-09-16** — news.gov.hk (English). Government press summary of the 2026 Policy Address states that to drive growth of the low-altitude economy, an Action Plan will launch cross-boundary logistics trial flights and initiate drafting legislation for heavy unconventional aircraft. [Link](https://www.news.gov.hk/eng/2026/09/20260916/20260916_095230_867.html). Official document to read instead: Action Plan on Developing Low-Altitude Economy (text OPEN; PA-framed); Regulatory Sandbox X / cross-boundary trial pathway; Cap. 448G / unconventional >150 kg drafting watch.
 
 - **2026-09-16** — 香港政府新聞網 (news.gov.hk Chinese). Chinese government news states the Policy Address will formulate the Action Plan on Developing Low-Altitude Economy (發展低空經濟規劃行動綱領), including ASAP cross-boundary low-altitude logistics trial flights and progressive GBA network expansion, Smart Low-altitude Traffic Management System targeting progressive rollout from 2028, and beginning legislation for unconventional aircraft over 150 kg. [Link](https://www.news.gov.hk/chi/2026/09/20260916/20260916_095230_867.html). Official document to read instead: Action Plan (text OPEN); Smart TMS from 2028; >150 kg drafting within 2027 (PA Annex indicators 34–35).
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「政府也會推進低空經濟生態圈發展，制訂發展低空經濟規劃行動綱領，包括盡快實現跨境低空物流試飛，並逐步拓展粵港澳大灣區低空跨境物流網絡；開展智能低空交通管理系統建設，以期在2028年逐步落實；以及為重量超過150公斤的非傳統航空器開展法例草擬工作。」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2026/09/20260916/20260916_095230_867.html))
+  :::
+
 - **2026-09-16** — 香港文匯報 (Wen Wei Po). Wen Wei Po republished the full 2026 Policy Address text, including the low-altitude economy ecosystem section (Sandbox regularisation / Sandbox X testing narrative; ≥15 insurers; Action Plan trio on cross-boundary trials, Smart TMS from 2028, and drafting >150 kg unconventional-aircraft legislation). [Link](https://www.wenweipo.com/a/202609/16/AP6aaa464ae4b01d54a2836d6a.html). Official document to read instead: 2026 Policy Address ¶137–139 (GIA / policyaddress.gov.hk); Regulatory Sandbox / Sandbox X; Working Group / TLB.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「低空經濟「監管沙盒」已促成多項應用恆常化，至今批准恆常化項目超過140個」…「現已有約十個項目開展測試，涵蓋無人機交通管理系統演示及非傳統航空器等。」…「現時市場已至少有15間保險公司為各類無人機提供低空經濟產品。」…「政府會制訂「發展低空經濟規劃行動綱領」，行動包括：」]{lang="zh-Hant"} ([source](https://www.wenweipo.com/a/202609/16/AP6aaa464ae4b01d54a2836d6a.html))
+  :::
 
 - **2026-09-16** — RTHK. RTHK’s Five-Year Plan highlight digest covered the inaugural HKSAR 2026–2030 plan’s seven parts (Northern Metropolis, four centres, GBA, governance) released the same day as the Policy Address, without listing LAE bullets in that digest. [Link](https://news.rthk.hk/rthk/ch/component/k2/1870283-20260916.htm). Official document to read instead: First Five-Year Plan GIA (WEEKLY; Asia-Pacific low-altitude applications hub language is in the GIA summary, not this RTHK digest).
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「行政長官李家超公布《香港第一個五年規劃》，分為七篇二十八章，共約六萬字，一文看清文件重點：」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1870283-20260916.htm))
+  :::
+
 - **2026-09-10** — RTHK. STL Mable Chan said Hong Kong LAE applications have entered a regularisation stage (CAD more than 140 project applications approved since June 2025), that Sandbox X is being pushed for cross-boundary logistics and passenger-capable unconventional aircraft, and that an HK–Kazakhstan cooperation MoU was signed at the Belt and Road Summit covering standards, talent, and regulatory exchange, with Hong Kong’s first five-year plan due the following week. [Link](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm). Official document to read instead: Regulatory Sandbox / Sandbox X; Working Group on Developing Low-altitude Economy; Action Plan on Developing Low-Altitude Economy (text OPEN); CAD / Cap. 448G.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「運輸及物流局局長陳美寶表示，低空經濟監管沙盒提供安全的測試環境，推動技術創新，自去年6月起，民航處已批准超過140個項目申請，相信下星期發表的香港首份五年規劃，對本港低空經濟發展亦非常重要。」…「特區政府正加倍努力推動「監管沙盒X」，以應對低空經濟中更先進和複雜的應用場景，包括跨境物流操作和非傳統航空器，甚至包括搭載乘客的非傳統航空器。」…「當局昨日與哈薩克政府代表在一帶一路高峰論壇期間簽署合作備忘錄，就深化兩地在發展低空經濟方面的合作奠定基礎，涵蓋標準協調、人才培養和分享監管經驗三方面」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm))
+  :::
 
 - **2026-09-10** — China Daily Hong Kong. Coverage of Belt and Road Summit LAE standards session quotes DFS Michael Wong on sandbox approvals and Sandbox X’s further 33 selected projects, and notes a Hong Kong–Nansha (Guangzhou) MoU exchange aimed at cross-boundary testing, regulatory coordination, and technical-standards alignment. [Link](https://www.chinadailyhk.com/hk/article/639379). Official document to read instead: Regulatory Sandbox X (module counts 15+4+5+9 = 33 on TLB page); SZ–HK / GBA cross-boundary operational status remains NOT evidenced on Tracker.
 
@@ -59,6 +95,18 @@ Each item: date, outlet, one sentence, official document to read instead (if any
 
 - **2026-09-04** — 电商派. Meituan said its Shenzhen drone delivery network in Longhua upgraded hub-and-spoke points into mesh nodes (to 15 points), extending typical merchant delivery reach from about 3 km to 5 km, with Nanshan expansion underway. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt). Official document to read instead: none (no Tracker counterpart).
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「9月4日消息，美团无人机在深圳首次将单线程配送的轴辐式航线点位升级为航网节点，并入已运营半年的龙华区航网，将龙华区航网快速加密至15个点位，多数商家通过无人机能配送外卖的距离，已从原来的3公里延伸至5公里，无人机服务半径扩大约67%。」…「这种“既有点位升级+新点部署”的方式，也将在南山区航网继续推进。」]{lang="zh-Hans"} ([source](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt))
+  :::
+
 - **2026-09-02** — 南方日报 (via 福建省商务厅 reprint). Shenzhen issued 《深圳市2026年优化口岸营商环境若干措施》 (“19条”), covering stronger SZ–HK cross-border low-altitude logistics coordination, drone customs-clearance models, orderly SZ–HK drone transport trial flights, and study of eVTOL clearance supervision. [Link](https://swt.fujian.gov.cn/xxgk/jgzn/jgcs/dtgxdc/wszx/202609/t20260902_7208045.htm). Official document to read instead: 粤府办〔2024〕6号 (SZ–HK corridor remains planned-trial under Sandbox X; not evidenced as operational on Tracker).
 
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「深圳日前正式印发《深圳市2026年优化口岸营商环境若干措施》（以下简称《措施》），围绕通关便利化、跨境低空物流、跨境电商监管改革等领域，一次性推出19条具体举措。」…「深港跨境低空物流协作和规则衔接将持续加强，探索跨境无人机物流的口岸通关查验新模式，安全有序推进深港跨境无人机运输试飞，并对eVTOL等低空交通工具的通关监管模式开展研究。」]{lang="zh-Hans"} ([source](https://swt.fujian.gov.cn/xxgk/jgzn/jgcs/dtgxdc/wszx/202609/t20260902_7208045.htm))
+  :::
+
 - **2026-09-02** — 见道网 / chinaevtol.org follow-ups (coverage; flight day 2026-08-28; public sessions through ~2026-08-30). Follow-up coverage of Hong Kong’s first public unmanned passenger eVTOL (EH216-S) trial at Cyberport under Regulatory Sandbox X unconventional-aircraft pilots, noting the government’s stated intent to study dedicated unconventional-aircraft legislation toward 2027. [Link](https://www.seetao.com/details/276927.html). Official document to read instead: Regulatory Sandbox X; Working Group on Developing Low-altitude Economy; Cap. 448G / CAD; Action Plan on Developing Low-Altitude Economy (legislation watch — text OPEN).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「由数码港、冠忠智慧出行、亿航智能联合推进的EH216-S项目，入选香港低空经济监管沙盒X首批试点。」…「特区政府明确将研究非传统航空器专属法例，相关附属法例拟于2027年送交立法会审议，为低空出行筑牢安全与前瞻并重的监管底座。」]{lang="zh-Hans"} ([source](https://www.seetao.com/details/276927.html))
+  :::
