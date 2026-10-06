@@ -14,6 +14,55 @@ Read the one-line note under each heading, then the dates.
 
 Hong Kong rules apply to this course. Mainland, United States, and EU rows are comparators.
 
+## Timeline at a glance
+
+```{mermaid}
+%%{init: {"gantt": {"leftPadding": 175, "rightPadding": 30, "barHeight": 22, "barGap": 6, "fontSize": 12, "sectionFontSize": 13, "topPadding": 50}}}%%
+gantt
+    title Official LAE milestones, Hong Kong first (as of 6 Oct 2026)
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+    tickInterval 12month
+    todayMarker off
+
+    section HK · Cap. 448G
+    1 Dec 2022 · Cap. 448G takes full effect                                   :milestone, 2022-12-01, 0d
+    18 Jul 2025 · Category C (over 25 kg up to 150 kg) in force                :milestone, 2025-07-18, 0d
+    26 Sep 2026 · G.N. 5936 Sandbox restricted flying zones effective          :milestone, 2026-09-26, 0d
+
+    section HK · Governance
+    12 Nov 2024 · Working Group first meeting                                  :milestone, 2024-11-12, 0d
+    16 Sep 2026 · Policy Address - Action Plan to be formulated (text OPEN)    :milestone, 2026-09-16, 0d
+    PLANNED · drafting of over-150 kg law complete within 2027                 :active, 2027-01-01, 2027-12-31
+    PLANNED · Smart Low-altitude Traffic Management System from 2028           :active, milestone, 2028-01-01, 0d
+
+    section HK · Regulatory Sandbox
+    13 Nov 2024 · first-batch applications open                                :milestone, 2024-11-13, 0d
+    20 Mar 2025 · 38 of 72 proposals selected                                  :milestone, 2025-03-20, 0d
+    31 Dec 2025 · CAD AC-013 (BVLOS within the Sandbox)                        :milestone, 2025-12-31, 0d
+
+    section HK · Sandbox X
+    24 Nov 2025 · Regulatory Sandbox X launched                                :milestone, 2025-11-24, 0d
+    24 Apr 2026 · CAD AC-017 (cross-boundary SUA within Sandbox X)             :milestone, 2026-04-24, 0d
+    16 Sep 2026 · about 10 projects have begun testing                         :milestone, 2026-09-16, 0d
+    OPEN at 6 Oct 2026 · cross-boundary results, no operating SZ–HK corridor   :active, milestone, 2026-10-06, 0d
+
+    section HK · Spectrum
+    27 Oct 2025 · 1.4 GHz (1430–1444 MHz) UAS (Private) Licence                :milestone, 2025-10-27, 0d
+
+    section Mainland (comparator)
+    21 Dec 2023 · National Airspace Basic Classification released              :milestone, 2023-12-21, 0d
+    1 Jan 2024 · 国令761 and CCAR-92 in force                                  :milestone, 2024-01-01, 0d
+    21 May 2024 · Guangdong 粤府办〔2024〕6号 issued                            :milestone, 2024-05-21, 0d
+    27 Dec 2025 · Civil Aviation Law (2025 revision) adopted                   :milestone, 2025-12-27, 0d
+    1 Jul 2026 · Civil Aviation Law in force                                   :milestone, 2026-07-01, 0d
+    DRAFT 11 Aug 2026 · CAAC ATM Rules Ch. 12 consultation text                :active, milestone, 2026-08-11, 0d
+```
+
+Sources (as of 6 Oct 2026): Cap. 448G ([e-Legislation](https://www.elegislation.gov.hk/hk/cap448G); [CAD](https://www.cad.gov.hk/english/sua.html)); Category C ([GIA, 17 Jul 2025](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm)); G.N. 5936 ([CAD](https://www.cad.gov.hk/documents/G.N.5936_E.pdf)); Working Group first meeting and first-batch applications from 13 Nov 2024 ([GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)); 2026 Policy Address ([GIA, 16 Sep 2026](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm); [Ch. III ¶137–139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)); planned dates, indicators 34–35 ([PA Annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)); Regulatory Sandbox 38 of 72 ([GIA, 20 Mar 2025](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)); [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); Sandbox X launch ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf); cross-boundary results and corridor status ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html); [TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); 1.4 GHz licence ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)); airspace classification ([CAAC](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html)); [国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm); [CCAR-92](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html); [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html); Civil Aviation Law ([CAAC](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html); [CAAC English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html)); ATM Rules draft ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)).
+
+Items labelled PLANNED, OPEN or DRAFT are not yet established: they are targets, unpublished results or consultation texts, not law in force. Regulatory Sandbox and Sandbox X are separate programmes; do not add their counts together.
+
 ## Hong Kong
 
 These dates created Hong Kong’s working definition, the drone statute, two trial programmes, and the 1.4 GHz licence. The 2026 Policy Address frames an Action Plan and dated TLB work indicators; the Action Plan text itself is still unpublished.
