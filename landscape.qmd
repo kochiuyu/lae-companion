@@ -1,0 +1,50 @@
+---
+title: "Landscape"
+as_of: "2026-10-07"
+---
+
+Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Industry holds dated news of the same firms; News holds government and regulatory items; Tracker holds official status.
+
+Sources (as of 7 Oct 2026): entries are added only from LAE-Intel's landscape packet and are checked against the cited page. Empty sectors are waiting for that packet. Company claims are not treated as fact.
+
+## How to read the tags
+
+Each firm or project carries one source-type tag:
+
+- **Company-announced:** the description comes from the company itself. It is the company's claim, not an established fact.
+- **Independently reported:** a news outlet described it from its own sources or checks, beyond the company's statement.
+- **Officially confirmed:** a government body or regulator has confirmed the activity in an official release or document, which is linked.
+
+Order values, fleet sizes, delivery counts and launch dates are shown as claimed, with who claimed them. Do not cite this page for official figures; use Tracker.
+
+## How entries appear
+
+Each entry under a sector: firm or project · place, a one-line activity note, then Tag / Status / Source, with a collapsed Chinese or official bilingual box where the source needs one.
+
+## Delivery and logistics
+
+_No entries yet._
+
+## Inspection and surveying
+
+_No entries yet._
+
+## Emergency and medical
+
+_No entries yet._
+
+## Tourism and entertainment
+
+_No entries yet._
+
+## eVTOL and passenger trials
+
+_No entries yet._
+
+## Infrastructure and vertiports
+
+_No entries yet._
+
+## Insurance and finance
+
+_No entries yet._
