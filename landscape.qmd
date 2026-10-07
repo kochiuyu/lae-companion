@@ -21,6 +21,114 @@ Order values, fleet sizes, delivery counts and launch dates are shown as claimed
 
 Each entry under a sector: firm or project · place, a one-line activity note, then Tag / Status / Source, with a collapsed Chinese or official bilingual box where the source needs one.
 
+## Landscape at a glance
+
+**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks remain in the sector lists below but are **omitted from the map by design**. Marker colour = Hong Kong vs GBA — see legend under the map. Click a pin for firm name, sector(s) and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). The Shenzhen–Hong Kong / GBA cross-boundary corridor is **not** drawn and is **not** operational.
+
+```{=html}
+<!-- Landscape at-a-glance map: Leaflet CDN, self-contained (no _quarto.yml change). GBA-focused (HK + Shenzhen/Guangzhou/Zhuhai); Global benchmarks omitted from map. -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="" />
+<style>
+  #landscape-glance-map {
+    height: 560px;
+    min-height: 480px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #e8eef2;
+    z-index: 0;
+    position: relative;
+  }
+  #landscape-glance-legend { margin: 0.5rem 0 0; font-size: 0.92rem; }
+  #landscape-glance-legend span.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: middle; border: 1px solid #333; }
+  .landscape-pin-popup { font-size: 0.92rem; line-height: 1.35; max-width: 280px; }
+  .landscape-pin-popup a { word-break: break-all; }
+</style>
+<div id="landscape-glance-map" role="img" aria-label="Interactive GBA-focused map of unique Hong Kong and Greater Bay Area Landscape firms by cited place"></div>
+<p id="landscape-glance-legend">
+  <strong>Colour = geography:</strong>
+  <span class="swatch" style="background:#003366"></span> Hong Kong &nbsp;
+  <span class="swatch" style="background:#7a6a4f"></span> GBA (Shenzhen / Guangzhou / Zhuhai)
+  &nbsp;·&nbsp; Same-city pins cluster (city centroid of cited place; not street addresses). Global benchmarks omitted from map.
+</p>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+<script>
+(function () {
+  var pins = [{"firm": "ARCGine Technologies","place": "Zhuhai (GBA)","sectors": ["Enabling technology","Intangible services"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf","lat": 22.2707,"lon": 113.5767,"bucket": "GBA","city": "Zhuhai"},{"firm": "DJI (Shenzhen)","place": "Shenzhen (GBA)","sectors": ["Aircraft and airframe makers"],"tag": "Company-announced","link": "https://www.dji.com/company","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "EHang Holdings / 亿航智能设备（广州）","place": "Guangzhou (GBA)","sectors": ["Aircraft and airframe makers"],"tag": "Officially confirmed","link": "http://www.caac.gov.cn/local/ZNGLJ/ZN_DQYW/202404/t20240416_223537.html","lat": 23.1291,"lon": 113.2644,"bucket": "GBA","city": "Guangzhou"},{"firm": "Meituan Drone","place": "Shenzhen (Longhua)","sectors": ["Delivery and logistics"],"tag": "Independently reported","link": "https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "SF Fengyi / 江西丰羽顺途 (SF Express UAS logistics)","place": "GBA (Shenzhen-centred)","sectors": ["Delivery and logistics"],"tag": "Officially confirmed","link": "http://www.caac.gov.cn/XXGK/XXGK/JYTNDF/202211/t20221104_216304.html","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "Shenzhen Blood Center (5G+ UAS blood transport platform)","place": "Shenzhen","sectors": ["Emergency and medical"],"tag": "Officially confirmed","link": "https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "Shenzhen DAMODA Intelligent Control","place": "Shenzhen (GBA)","sectors": ["Aircraft and airframe makers"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "Shenzhen HighGreat Innovation Technology","place": "Shenzhen (GBA)","sectors": ["Aircraft and airframe makers"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "深圳市中德保安服务有限公司 (Nanshan construction-site UAS inspection service)","place": "Shenzhen (Nanshan / GBA)","sectors": ["Tangible services"],"tag": "Officially confirmed","link": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_11512981.html","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "深圳高度创新技术有限公司 (city-environment UAS aerial patrol service)","place": "Shenzhen (GBA)","sectors": ["Tangible services"],"tag": "Officially confirmed","link": "https://cgj.sz.gov.cn/zwgk/ztzl/ztzl1/wgkzl/fwgk/zbgg/content/post_12152998.html","lat": 22.5431,"lon": 114.0579,"bucket": "GBA","city": "Shenzhen"},{"firm": "AECOM Asia / Shanghai AutoFlight","place": "Hong Kong","sectors": ["eVTOL and passenger trials"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "CAD AC-016 (SUA docking-station pathway)","place": "Hong Kong","sectors": ["Infrastructure and vertiports"],"tag": "Officially confirmed","link": "https://www.cad.gov.hk/documents/AC-016.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "CLP Power Hong Kong","place": "Hong Kong","sectors": ["Inspection and surveying"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "China Mobile Hong Kong","place": "Hong Kong","sectors": ["Emergency and medical","Enabling technology"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "China Taiping Insurance (HK) (Sandbox X collaborator with DAMODA)","place": "Hong Kong","sectors": ["Insurance and finance"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "China Telecom Global","place": "Hong Kong","sectors": ["Enabling technology"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "China Travel Tours Transportation Services H.K. / Shanghai AutoFlight","place": "Hong Kong","sectors": ["eVTOL and passenger trials"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "China Unicom (Hong Kong) Innovation Research Institute","place": "Hong Kong","sectors": ["Enabling technology"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Civil Engineering and Development Department","place": "Hong Kong","sectors": ["Inspection and surveying"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "DAMODA UAV (HK)","place": "Hong Kong","sectors": ["Tourism and entertainment"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Droneology Company Limited (Ocean Park visitor-attraction LAE hops)","place": "Hong Kong","sectors": ["Tangible services"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Esri China (Hong Kong)","place": "Hong Kong","sectors": ["Emergency and medical","Enabling technology"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "FLYCAMHK.com (Sandbox surveillance / survey flight service)","place": "Hong Kong","sectors": ["Tangible services"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Fame Faith Limited (S.F. Express (Hong Kong) / Hospital Authority St. John Hospital)","place": "Hong Kong","sectors": ["Delivery and logistics"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Fire Services Department","place": "Hong Kong","sectors": ["Emergency and medical"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Flightpro Drone Solutions Limited — SUA Advanced Rating training","place": "Hong Kong","sectors": ["Intangible services"],"tag": "Officially confirmed","link": "https://www.cad.gov.hk/documents/SUA_Training_Organisations_en.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Future Yixin Aviation Technology Limited","place": "Hong Kong","sectors": ["Delivery and logistics"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Geosys Hong Kong Limited","place": "Hong Kong","sectors": ["Inspection and surveying","eVTOL and passenger trials"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Highways Department","place": "Hong Kong","sectors": ["Inspection and surveying"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Hong Kong Cyberport (Sandbox / UCA trial venue)","place": "Hong Kong","sectors": ["Infrastructure and vertiports"],"tag": "Company-announced","link": "https://www.cyberport.hk/wp-content/uploads/Press-Release-Cyberport-KC-Smart-Mobility-and-EHang-eVTOL-Inaugural-Test-Flight-Successfully-Completed.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Hong Kong LAE insurance market (≥15 insurers — Policy Address)","place": "Hong Kong","sectors": ["Insurance and finance"],"tag": "Officially confirmed","link": "https://www.policyaddress.gov.hk/2026/en/chapter3.html","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Hong Kong Productivity Council (HKPC) — SUA Advanced Rating training","place": "Hong Kong","sectors": ["Intangible services"],"tag": "Officially confirmed","link": "https://www.cad.gov.hk/documents/SUA_Training_Organisations_en.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Hong Kong Professional Unmanned Aerial Vehicles Association Ltd","place": "Hong Kong","sectors": ["Tourism and entertainment"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Hung Shui Kiu / Ha Tsuen NDA modern logistics cluster (Zone C)","place": "Hong Kong","sectors": ["Infrastructure and vertiports"],"tag": "Officially confirmed","link": "https://www.info.gov.hk/gia/general/202608/13/P2026081300409.htm","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Insurance Authority (LAE product / SUA liability framing)","place": "Hong Kong","sectors": ["Insurance and finance"],"tag": "Officially confirmed","link": "https://www.ia.org.hk/en/infocenter/speeches_articles/20260213.html","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "KC Smart Mobility / Cyberport / EHang","place": "Hong Kong","sectors": ["eVTOL and passenger trials"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Kangaroo Limited (Meituan / Keeta Drone)","place": "Hong Kong","sectors": ["Delivery and logistics"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Lands Department","place": "Hong Kong","sectors": ["Inspection and surveying"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "OWOWWW Creative (Hong Kong) / HighGreat","place": "Hong Kong","sectors": ["Tourism and entertainment"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Ocean Park Corporation","place": "Hong Kong","sectors": ["Tourism and entertainment"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "POI Corporation Limited","place": "Hong Kong","sectors": ["Inspection and surveying","Intangible services"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "S.F. Express (Hong Kong) — Cyberport–Cheung Chau delivery flights","place": "Hong Kong","sectors": ["Tangible services"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "SUTPC Digital Technology (Hong Kong)","place": "Hong Kong","sectors": ["Enabling technology"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Thales Solution & Services Hong Kong","place": "Hong Kong","sectors": ["Enabling technology","Intangible services"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "The University of Hong Kong & Harmony Tech Innovation","place": "Hong Kong","sectors": ["Enabling technology"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Traffic Control Technology (Hong Kong) / MTR","place": "Hong Kong","sectors": ["Inspection and surveying"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "UAS Limited / TIRAIN (HK) Limited (aerial land surveying)","place": "Hong Kong","sectors": ["Inspection and surveying"],"tag": "Officially confirmed","link": "https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Vocational Training Council (VTC) — SUA Advanced Rating training","place": "Hong Kong","sectors": ["Intangible services"],"tag": "Officially confirmed","link": "https://www.cad.gov.hk/documents/SUA_Training_Organisations_en.pdf","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"},{"firm": "Zurich Insurance (Hong Kong) — UAS (Drone) Protection Insurance Plan","place": "Hong Kong","sectors": ["Insurance and finance"],"tag": "Company-announced","link": "https://www.zurich.com.hk/en/products/home/drone-protection","lat": 22.3193,"lon": 114.1694,"bucket": "HK","city": "Hong Kong"}];
+  var colours = { HK: '#003366', GBA: '#7a6a4f' };
+  // Explicit GBA frame: Hong Kong – Shenzhen – Guangzhou – Zhuhai city centroids
+  var gbaFrame = [
+    [22.3193, 114.1694], // Hong Kong
+    [22.5431, 114.0579], // Shenzhen
+    [23.1291, 113.2644], // Guangzhou
+    [22.2707, 113.5767]  // Zhuhai
+  ];
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function init() {
+    // Quarto may finish layout after first paint; wait for Leaflet + MarkerCluster.
+    if (typeof L === 'undefined' || typeof L.markerClusterGroup !== 'function') {
+      setTimeout(init, 50);
+      return;
+    }
+    var el = document.getElementById('landscape-glance-map');
+    if (!el || el.getAttribute('data-ready')) return;
+    // Require non-zero box so Leaflet does not initialise into a collapsed container.
+    if (el.clientWidth < 40 || el.clientHeight < 40) {
+      setTimeout(init, 50);
+      return;
+    }
+    el.setAttribute('data-ready', '1');
+    var map = L.map(el, { scrollWheelZoom: false });
+    // Esri World Street Map: reliable basemap (official OSM tile endpoint often 403s automated/datacenter clients).
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18,
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, OpenStreetMap'
+    }).addTo(map);
+    var cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 40 });
+    pins.forEach(function (p) {
+      var colour = colours[p.bucket] || '#7a6a4f';
+      var marker = L.circleMarker([p.lat, p.lon], {
+        radius: 8,
+        color: '#1a1a1a',
+        weight: 1,
+        fillColor: colour,
+        fillOpacity: 0.9
+      });
+      var sectors = p.sectors.map(esc).join('; ');
+      marker.bindPopup(
+        '<div class="landscape-pin-popup"><strong>' + esc(p.firm) + '</strong><br/>' +
+        'Sector(s): ' + sectors + '<br/>' +
+        'Tag: ' + esc(p.tag) + '</div>'
+      );
+      cluster.addLayer(marker);
+    });
+    map.addLayer(cluster);
+    map.fitBounds(gbaFrame, { padding: [36, 36], maxZoom: 10 });
+    function refreshSize() {
+      try { map.invalidateSize(true); } catch (e) {}
+    }
+    refreshSize();
+    map.whenReady(refreshSize);
+    setTimeout(refreshSize, 100);
+    setTimeout(refreshSize, 400);
+    setTimeout(refreshSize, 1000);
+    window.addEventListener('load', refreshSize);
+    window.addEventListener('resize', refreshSize);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+```
+
+Sources (as of 7 Oct 2026): **GBA focus** — unique-firm pins for Hong Kong and GBA (Shenzhen / Guangzhou / Zhuhai) only, traced from Landscape entry rows / packet LANDSCAPE-2026-10-07. US/EU and other Global benchmarks stay in the sector lists and are **omitted from the map by design**. **Counting rule:** one pin per unique HK/GBA firm at its cited place label; dual-sector rows among these (Thales, ARCGine, Geosys, Esri, POI, China Mobile Hong Kong) collapsed to a single pin with combined sector list — **49 pins** (39 Hong Kong + 10 GBA) from the HK/GBA subset of 68 entry rows. Colour = Hong Kong vs GBA (not sector). Lat/lon = well-known city centroid of the cited place (Hong Kong, Shenzhen, Guangzhou, Zhuhai). Initial view fitBounds to the GBA frame (HK–Guangzhou–Zhuhai–Shenzhen). Corridor status OPEN — not operational (no corridor line on the map).
+
+
 ## Delivery and logistics
 
 - **Kangaroo Limited (Meituan / Keeta Drone) · Hong Kong:** Regulatory Sandbox drone meal-delivery between HKSTP and Tai Po Waterfront Park / Ting Kok Village (company brands as Keeta Drone). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
