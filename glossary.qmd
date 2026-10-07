@@ -862,7 +862,7 @@ Shadow price of passenger or shipper time used inside generalised cost — lectu
 
 **value-added versus 规模 (规模 (Mainland side only))**  
 Kind: Course  
-OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals. OHKF (T3); NDRC / CCID scale figures.
+OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals. OHKF (T3).
 
 **yield**  
 Kind: Course  
