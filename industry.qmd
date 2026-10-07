@@ -27,4 +27,331 @@ Each item: date · outlet, a one-line headline, then Tag / What's new / Status /
 
 ## Items
 
-The first items will appear with the next scheduled update.
+Backfill for 1 Oct 2025 – 7 Oct 2026, newest month first. Items already covered on News appear here only as one-line cross-references.
+
+### October 2026
+
+- **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on News, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
+  - Tag: Independently reported
+  - Status: Sandbox X cross-boundary results still OPEN; Shenzhen–HK corridor not evidenced as operational.
+  - Read instead: [News, 5 Oct 2026](news.qmd)
+
+### September 2026
+
+- **21 Sep 2026 · HK01; TastyMoney:** Cross-reference: Keeta Drone flies from HKSTP to a smart locker at Chung On Estate, Ma On Shan — covered on News. [Link](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630)
+  - Tag: Independently reported
+  - What's new: TastyMoney reports it is the first drone delivery into a Hong Kong public housing estate.
+  - Status: Regulatory Sandbox operations (not Sandbox X).
+  - Read instead: [News, 21 Sep 2026](news.qmd)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「這是無人機配送服務首次進入香港公共屋邨」]{lang="zh-Hant"} ([source](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630))
+
+  English (LAE-Intel translation): This is the first time a drone delivery service has entered a Hong Kong public housing estate
+  :::
+
+- **10 Sep 2026 · AutoFlight newsroom:** AutoFlight says 零界航空 will buy 30 V2000CG through a 皖江金租 finance lease. [Link](https://www.autoflight.com/zh/news/30evtol/)
+  - Tag: Company-announced
+  - What's new: AutoFlight says 5 aircraft are due this year, 2 of them delivered in September; its “first finance-lease eVTOL deal” framing is a company claim.
+  - Status: Purchase agreement as announced by the company; counts not independently confirmed.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「9月10日，峰飞航空与安徽天泽零界航空有限公司（简称“零界航空”）、皖江金融租赁股份有限公司（简称“皖江金租”）正式落实三方深度战略合作协议，其中包括零界航空与峰飞航空达成30架V2000CG凯瑞鸥的采购协议」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/30evtol/))
+
+  English (LAE-Intel translation): On 10 September, AutoFlight, Anhui Tianze Lingjie Aviation Co. ("Lingjie Aviation") and Wanjiang Financial Leasing Co. ("Wanjiang Leasing") formally implemented a three-party in-depth strategic co-operation agreement, including a purchase agreement between Lingjie Aviation and AutoFlight for 30 V2000CG CarryAll aircraft
+  :::
+
+- **10 Sep 2026 · SCMP; GIA (9 Sep):** Cross-reference: LAE MoUs exchanged at the Belt and Road Summit — covered on News. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367033/hong-kong-signs-2-mous-greater-bay-area-partners-commercialise-aerial-technology)
+  - Tag: Independently reported
+  - What's new: SCMP reports 2 MoUs with GBA partners; the GIA release lists the Working Group among signatories of seven MoUs with overseas counterparts and does not confirm the two GBA MoUs.
+  - Status: MoUs, not binding agreements.
+  - Read instead: [News, Sep 2026](news.qmd); [GIA](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm)
+
+- **4 Sep 2026 · 电商派:** Cross-reference: Meituan densifies its Shenzhen Longhua air network to 15 points — covered on News and Landscape. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
+  - Tag: Independently reported
+  - Status: Point counts are company figures via press.
+  - Read instead: [News, 4 Sep 2026](news.qmd); [Landscape: Meituan Drone](landscape.qmd#firm-meituan-drone)
+
+### August 2026
+
+- **28 Aug 2026 · EHang newsroom; SCMP:** EHang EH216-S completes its first public flight in Hong Kong, at Cyberport, under Sandbox X. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3365647/unmanned-electric-aircraft-makes-maiden-flight-hong-kong)
+  - Tag: Independently reported
+  - What's new: EHang says it is the first public flight demonstration since Sandbox X pilot projects started in mid-August (company statement).
+  - Status: A Sandbox X unconventional-aircraft project demonstration (KC Smart Mobility / Cyberport / EHang); not a passenger service.
+  - Read instead: [EHang (Chinese)](https://www.ehang.com/cn/news/1386.html); Tracker: Sandbox X
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「其自主研发的EH216-S无人驾驶载人电动垂直起降（eVTOL）航空器在香港数码港成功完成公开首飞。」]{lang="zh-Hans"} ([source](https://www.ehang.com/cn/news/1386.html))
+
+  English (LAE-Intel translation): Its self-developed EH216-S pilotless passenger-carrying electric vertical take-off and landing (eVTOL) aircraft successfully completed its first public flight at Cyberport, Hong Kong.
+  :::
+
+- **3 Aug 2026 · Eve Air Mobility newsroom:** Eve says its engineering prototype completed a first partial transition flight. [Link](https://www.eveairmobility.com/eve-air-mobility-achieves-first-transition-flight-milestone-advancing-evtol-program-toward-wing-borne-flight/)
+  - Tag: Company-announced
+  - Status: Partial transition, not a full transition; not a type certificate.
+
+### July 2026
+
+- **22 Jul 2026 · AutoFlight newsroom:** AutoFlight and SF Express sign a low-altitude transport framework agreement on the opening day of the 2026 International Low-altitude Economy Expo. [Link](https://www.autoflight.com/zh/news/sf-group/)
+  - Tag: Company-announced
+  - Status: Framework agreement; the page gives no volumes or routes.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「7月22日，2026国际低空经济博览会开幕首日，峰飞航空科技与顺丰正式签署低空运输合作框架协议。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/sf-group/))
+
+  English (LAE-Intel translation): On 22 July, the opening day of the 2026 International Low-altitude Economy Expo, AutoFlight and SF Express formally signed a low-altitude transport co-operation framework agreement.
+  :::
+
+- **13 Jul 2026 · 飞行汽车官网 (reprint of AutoFlight release):** AutoFlight, Satar Aviasi and Hong Kong’s Inno One Group sign an Indonesia strategic co-operation with 150-aircraft intent orders. [Link](https://www.feiauto.com/tt/1823.html)
+  - Tag: Company-announced
+  - What's new: Inno One Group (HK) Limited joins as leasing and asset partner, per the release.
+  - Status: Intent (意向) orders, not firm orders.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「三方就峰飞航空的2吨级无人驾驶货运机型V2000CG凯瑞鸥、V5000CGH天际龙等机型达成共计150架意向采购订单。」]{lang="zh-Hans"} ([source](https://www.feiauto.com/tt/1823.html))
+
+  English (LAE-Intel translation): The three parties reached intent purchase orders totalling 150 aircraft for AutoFlight models including the 2-tonne uncrewed cargo V2000CG CarryAll and the V5000CGH Tianjilong.
+  :::
+
+- **6 Jul 2026 · Aviation Week:** Aviation Week reports the GCAA and Skyports announced certification of the DXB vertiport (“VDX”) in Dubai. [Link](https://aviationweek.com/business-aviation/airports-fbos-suppliers/worlds-first-commercial-vertiport-certified-joby-ops)
+  - Tag: Independently reported
+  - Status: GCAA primary not retrieved; Hong Kong has no vertiport statute.
+
+### June 2026
+
+- **22 Jun 2026 · 人民财讯 via 证券时报网:** AutoFlight says its large eVTOLs feature in two of the four first-batch Sandbox X unconventional-aircraft projects. [Link](https://stcn.com/article/detail/3971515.html)
+  - Tag: Company-announced
+  - What's new: The TLB list (15 Apr 2026) shows AutoFlight as collaborator in projects 1 (AECOM) and 2 (China Travel Tours).
+  - Status: Selection officially listed by TLB; the company statement is its own.
+  - Read instead: [TLB list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「据峰飞航空消息，近期，峰飞航空入选香港低空经济“监管沙盒X”首批试点项目。」…「本次首批合计四个入选项目，其中有两个项目引入峰飞航空大型eVTOL。」]{lang="zh-Hans"} ([source](https://stcn.com/article/detail/3971515.html))
+
+  English (LAE-Intel translation): According to AutoFlight, it was recently selected for the first batch of Hong Kong's low-altitude economy "Regulatory Sandbox X" pilot projects. / Of the four projects selected in this first batch, two bring in AutoFlight's large eVTOLs.
+  :::
+
+- **11 Jun 2026 · AutoFlight newsroom:** AutoFlight says Indonesia’s DGCA issued a Validated Type Certificate for the V2000CG cargo eVTOL. [Link](https://www.autoflight.com/zh/news/sanji/)
+  - Tag: Company-announced
+  - Status: DGCA primary not retrieved; the “first overseas eVTOL VTC” framing is a company claim.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日峰飞航空科技V2000CG凯瑞鸥正式获得印度尼西亚民航局（DGCA）颁发的型号认可证（Validated Type Certificate，VTC），成为全球首款获得海外型号认可的eVTOL机型。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/sanji/))
+
+  English (LAE-Intel translation): Recently, AutoFlight's V2000CG CarryAll officially received a Validated Type Certificate (VTC) issued by the Directorate General of Civil Aviation (DGCA) of Indonesia, becoming the world's first eVTOL model to obtain an overseas type validation.
+  :::
+
+### May 2026
+
+- **21 May 2026 · AutoFlight newsroom:** AutoFlight says one V5000 and two V2000-series aircraft flew a mixed three-aircraft formation. [Link](https://www.autoflight.com/zh/news/mixed/)
+  - Tag: Company-announced
+  - Status: The V5000 “certification stage” claim is the company’s own; no CAAC primary retrieved.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「5月21日，峰飞航空科技成功完成由1架V5000天际龙与2架V2000系列机型组成的“混合三机编队”演示飞行。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/mixed/))
+
+  English (LAE-Intel translation): On 21 May, AutoFlight successfully completed a "mixed three-aircraft formation" demonstration flight made up of one V5000 Tianjilong and two V2000-series aircraft.
+  :::
+
+- **19 May 2026 · AutoFlight newsroom:** AutoFlight says it flew a 2-tonne eVTOL demo in Almaty and signed an MoU under which AAAG would buy 50 more aircraft. [Link](https://www.autoflight.com/zh/news/evtolaaag/)
+  - Tag: Company-announced
+  - Status: MoU, not a firm order.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「AAAG将再向峰飞航空采购50架V2000/V5000系列大型eVTOL机型，用于哈萨克斯坦及中亚其他地区的低空交通网络建设」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/evtolaaag/))
+
+  English (LAE-Intel translation): AAAG will purchase a further 50 large V2000/V5000-series eVTOL aircraft from AutoFlight for building low-altitude transport networks in Kazakhstan and other parts of Central Asia
+  :::
+
+- **7 May 2026 · Archer IR; Khaleej Times:** Archer says the UAE GCAA moved Midnight into a Restricted Type Certificate programme for initial UAE operations with Abu Dhabi Aviation. [Link](https://investors.archer.com/news/news-details/2026/UAE-Regulator-And-Archer-Move-To-Streamlined-Approach-for-Certifying-Midnight-in-the-UAE/default.aspx)
+  - Tag: Company-announced
+  - What's new: Khaleej Times reports the same.
+  - Status: An RTC programme entry is not an issued certificate; no GCAA primary retrieved.
+  - Read instead: [Landscape: Archer](landscape.qmd)
+
+- **6 May 2026 · AutoFlight newsroom:** AutoFlight says Jining Hi-tech Changkong signed a strategic and bulk-purchase framework agreement; first V2000CGF firefighting variant delivered. [Link](https://www.autoflight.com/zh/news/jining/)
+  - Tag: Company-announced
+  - Status: Framework agreement; no unit count given.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「5月6日，峰飞航空科技宣布已与济宁高新长空智航发展有限公司（简称“高新长空”）正式签署战略合作及批量采购框架协议。」…「其中首架V2000CGF凯瑞鸥消防型已完成交付。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/jining/))
+
+  English (LAE-Intel translation): On 6 May, AutoFlight announced it had formally signed a strategic co-operation and bulk-purchase framework agreement with Jining Hi-tech Changkong Zhihang Development Co. ("Gaoxin Changkong"). / Of these, the first V2000CGF CarryAll firefighting variant has been delivered.
+  :::
+
+### April 2026
+
+- **20 Apr 2026 · AutoFlight newsroom:** AutoFlight says it is among 22 firms in the latest OASES strategic-enterprise batch, signed in the presence of Financial Secretary Paul Chan. [Link](https://www.autoflight.com/zh/news/hong-kong/)
+  - Tag: Company-announced
+  - Status: OASES/GIA release for the batch not retrieved; official English OPEN.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「4月20日，峰飞航空科技亮相香港特区政府引进重点企业办公室（OASES，简称“引进办”）举办的签约仪式，在特区政府财政司司长陈茂波的见证下，峰飞航空科技成为引进办最新一批重点引进的22家企业之一。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/hong-kong/))
+
+  English (LAE-Intel translation): On 20 April, AutoFlight appeared at a signing ceremony held by the HKSAR Government's Office for Attracting Strategic Enterprises (OASES), and, witnessed by Financial Secretary Paul Chan, became one of the 22 enterprises in OASES's latest batch of strategic enterprises.
+  :::
+
+- **15 Apr 2026 · Transport and Logistics Bureau:** TLB lists the first batch of four Sandbox X unconventional-aircraft pilot projects. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - Tag: Officially confirmed
+  - What's new: AECOM/AutoFlight/Chun Wo; China Travel Tours/AutoFlight/GBA LAE Alliance/CMHK/Esri; Geosys/FLYCAMHK/DEVB; KC Smart Mobility/Cyberport/EHang. Implementation depends on applicants accepting approved conditions.
+  - Status: Sandbox X (not the Regulatory Sandbox).
+  - Read instead: Tracker: Sandbox X
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “After review by the Working Group on Developing Low-altitude Economy (“WG”), a first batch of four UCA pilot projects will be included for implementation in Sandbox X.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf))
+
+  [「經發展低空經濟工作組（「工作組」）審核後，首批四個非傳統航空器試點項目將納入「監管沙盒 X」推展。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Sandbox_X_UCA_Applications_TC_15.4.2026_rev2.pdf))
+  :::
+
+- **14 Apr 2026 · AeroTime:** AeroTime reports Vertical Aerospace’s VX4 flew a piloted two-way transition (vertical → wingborne → vertical) at Cotswold Airport. [Link](https://www.aerotime.aero/articles/vertical-aerospace-first-non-us-evtol-developer-two-way-transition-flight)
+  - Tag: Independently reported
+  - Status: Flight-test milestone; not a type certificate.
+
+- **11 Apr 2026 · 珠海传媒 (hizh.cn):** Zhuhai firm Guangdong Feiyida Aviation launches the “飞易达Air” low-altitude travel platform, with cross-border helicopter services, at the Macao tourism expo. [Link](https://pub-static.hizh.cn/a/202604/12/AP69db9b4de4b09f2cace3801e.html)
+  - Tag: Independently reported
+  - Status: The “first platform” and “commercial operation” framing is the report’s, not verified.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「4月11日，在第十四届澳门国际旅游（产业）博览会期间，国内首个整合跨境直升机服务的低空出行平台——“飞易达Air”矩阵正式发布，标志着大湾区低空文旅从“概念验证”迈入“商业运营”新阶段。」]{lang="zh-Hans"} ([source](https://pub-static.hizh.cn/a/202604/12/AP69db9b4de4b09f2cace3801e.html))
+
+  English (LAE-Intel translation): On 11 April, during the 14th Macao International Travel (Industry) Expo, the "Feiyida Air" matrix, the first domestic low-altitude mobility platform integrating cross-border helicopter services, was officially launched, marking the move of GBA low-altitude cultural tourism from "proof of concept" to a new stage of "commercial operation".
+  :::
+
+### March 2026
+
+- **26 Mar 2026 · 香港文匯報 (Wen Wei Po):** LSCM and CEPREI release a “Shenzhen–HK low-altitude cross-border logistics solution”; three priority cross-border drone routes named. [Link](https://www.wenweipo.com/a/202603/27/AP69c5cb01e4b0b49ad1b41cb6.html)
+  - Tag: Independently reported
+  - What's new: Reported plans: a SZ–HK cross-border logistics sandbox pilot and three routes to be tested first (Shekou–Tuen Mun, Man Kam To–Sheung Shui, inside the Loop).
+  - Status: Plans only; no cross-border flight evidenced. Shenzhen–HK corridor not evidenced as operational.
+  - Read instead: [21经济网](https://www.21jingji.com/article/20260328/herald/973b0ec1559dfb075e3c3f6bef7b5a1c.html); Tracker: SZ–HK corridor
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「「深港低空跨境物流解決方案」正式發布，香港物流及供應鏈多元技術研發中心（LSCM）、工信部電子五所賽寶低空通航實驗室聯合披露關鍵進展：雙方已完成跨境數據互通、飛控平台對接等核心突破，計劃於2026年6月推出深港低空跨境物流監管沙盒試點」…「深圳將優先測試三條跨境無人機配送航線，包括蛇口—屯門航線、文錦渡—上水航線、河套合作區內部航線，預計將於年內啟航。」]{lang="zh-Hant"} ([source](https://www.wenweipo.com/a/202603/27/AP69c5cb01e4b0b49ad1b41cb6.html))
+
+  English (LAE-Intel translation): The "Shenzhen–Hong Kong Low-altitude Cross-border Logistics Solution" was officially released. LSCM and the CEPREI low-altitude aviation laboratory of MIIT's No. 5 Electronics Research Institute jointly disclosed key progress: the two sides have achieved core breakthroughs such as cross-border data interoperability and flight-control platform integration, and plan to launch a Shenzhen–Hong Kong low-altitude cross-border logistics regulatory sandbox pilot in June 2026. / Shenzhen will first test three cross-border drone delivery routes (Shekou–Tuen Mun, Man Kam To–Sheung Shui, and a route inside the Loop co-operation zone), expected to start within the year.
+  :::
+
+- **11 Mar 2026 · Joby Aviation newsroom:** Joby says N547JX, the first of its FAA-conforming TIA fleet, has begun flight testing. [Link](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
+  - Tag: Company-announced
+  - Status: Not a type certificate.
+  - Read instead: [Landscape: Joby](landscape.qmd)
+
+- **9 Mar 2026 · FAA newsroom:** USDOT/FAA select eight eVTOL Integration Pilot Program (eIPP) projects. [Link](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight)
+  - Tag: Officially confirmed
+  - Status: A programme pathway, not type certification of any aircraft.
+
+- **Mar 2026 · SEC EDGAR Form 6-K Exhibit 99.1 (EHang):** EHang says it delivered 221 eVTOL units in 2025 (215 EH216 series, 6 VT35). [Link](https://www.sec.gov/Archives/edgar/data/1759783/000119312526103021/d67855dex991.htm)
+  - Tag: Company-announced
+  - Status: Company figures; an SEC furnishing is not regulator confirmation. Exact day not shown in the retrieved text.
+
+### February 2026
+
+- **27 Feb 2026 · Keeta Drone blog; 香港商報; SCMP:** Keeta Drone opens a Science Park–Ting Kok Village elderly meal-delivery route with Hong Kong Children & Youth Services. [Link](https://www.keetadrone.com/blogs/news/meituan-drone-service-launches-science-park-tai-po-route-delivering-meals-to-elderly-living-alone-six-days-a-week)
+  - Tag: Independently reported
+  - What's new: SCMP reports service officially began on 2 Mar 2026; Hong Kong Commercial Daily reports about 15 elderly people served initially. Trip-time claims are the company’s.
+  - Status: Regulatory Sandbox route (not Sandbox X); official English OPEN.
+  - Read instead: [SCMP](https://www.scmp.com/video/hong-kong/3345836/keeta-launches-first-drone-meal-delivery-route-elderly-people-remote-rural-areas); [香港商報](https://www.hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html); [Landscape: Kangaroo Limited](landscape.qmd#firm-kangaroo-limited-meituan-keeta-drone)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「Keeta Drone（美团无人机）与香港青少年服务处携手合作的“大埔汀角村无人机航线”今日（27日）正式启动，解决偏远乡郊长者送餐服务的三大困难，即路途远、人手缺及轮候长。」]{lang="zh-Hans"} ([source](https://www.keetadrone.com/blogs/news/meituan-drone-service-launches-science-park-tai-po-route-delivering-meals-to-elderly-living-alone-six-days-a-week))
+
+  English (LAE-Intel translation): The "Tai Po Ting Kok Village drone route", run jointly by Keeta Drone (Meituan Drone) and Hong Kong Children & Youth Services, was officially launched today (27th), addressing three difficulties of meal delivery to elderly people in remote rural areas: long distances, staff shortages and long waiting lists.
+  :::
+
+- **25 Feb 2026 · Joby IR (issued by Uber):** Uber and Joby show in-app booking for Joby air taxis in Dubai. [Link](https://ir.jobyaviation.com/news-events/press-releases/detail/173/get-ready-for-takeoff-with-uber-and-joby)
+  - Tag: Company-announced
+  - Status: Preview only; no passenger launch evidenced as of 7 Oct 2026.
+
+- **11 Feb 2026 · 中证网 (via 投资观察界 reprint):** AutoFlight says Hanyang Investment & Development Group ordered 12 large eVTOLs, with a deposit paid. [Link](https://tzgcj.daiweicd.com/post/5618.html)
+  - Tag: Independently reported
+  - What's new: The report gives a contract total of RMB157m (company-announced).
+  - Status: Order count and value are company-announced.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「2月11日，峰飞航空宣布获得汉阳投资发展集团的12架大型eVTOL航空器采购订单并已收到预付款，订单合同总金额1.57亿元。」]{lang="zh-Hans"} ([source](https://tzgcj.daiweicd.com/post/5618.html))
+
+  English (LAE-Intel translation): On 11 February, AutoFlight announced it had received a purchase order for 12 large eVTOL aircraft from Hanyang Investment & Development Group and had received an advance payment; the total contract value is RMB157 million.
+  :::
+
+### January 2026
+
+- **21 Jan 2026 · Zipline newsroom:** Zipline says it passed 2 million deliveries and raised more than US$600m, and is expanding to Houston and Phoenix. [Link](https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix)
+  - Tag: Company-announced
+  - Status: Funding and delivery counts are company-announced.
+
+- **19 Jan 2026 · 香港文匯報 (Wen Wei Po):** HKU’s Versitech signs a joint low-altitude technology lab agreement with a tech firm, witnessed by STL, at the 2nd Low-Altitude Summit. [Link](https://www.wenweipo.com/a/202601/20/AP696e98a7e4b04d7d56cf55a5.html)
+  - Tag: Independently reported
+  - Status: Agreement signing; partner firm not named in the report. Official English OPEN.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「港大科橋有限公司與一間科創公司昨日在特區政府運輸及物流局局長陳美寶見證下，簽署建立聯合實驗室協議，研究及應用民用低空技術。」]{lang="zh-Hant"} ([source](https://www.wenweipo.com/a/202601/20/AP696e98a7e4b04d7d56cf55a5.html))
+
+  English (LAE-Intel translation): Versitech Limited (HKU) and a tech-innovation company yesterday, witnessed by Secretary for Transport and Logistics Mable Chan, signed an agreement to establish a joint laboratory to research and apply civil low-altitude technology.
+  :::
+
+- **11 Jan 2026 · Wing newsroom; TechCrunch:** Wing says it will add drone delivery at 150 more Walmart stores. [Link](https://wing.com/news/wing-walmart-expand-drone-delivery-coast-to-coast)
+  - Tag: Company-announced
+  - Status: Expansion as announced; store counts are company figures.
+  - Read instead: [TechCrunch](https://techcrunch.com/2026/01/11/wing-to-expand-drone-delivery-to-another-150-walmart-stores/)
+
+- **5 Jan 2026 · Meituan newsroom:** Meituan says it demonstrated its “低空航网” air-network model and products during the Premier’s Guangdong inspection (3–5 Jan). [Link](https://www.meituan.com/news/NN260106200001758)
+  - Tag: Company-announced
+  - What's new: Meituan says its first regularised Hong Kong route started operating in June 2025.
+  - Status: Route and order counts are company figures.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为适应市场需求，美团无人机于2025年12月推出了全新的“低空航网”运营模式，同步发布配套的第四代无人机长程版、智能接驳机场及第三代智能调度系统等多款核心自研产品，并在此次调研中进行了演示。」]{lang="zh-Hans"} ([source](https://www.meituan.com/news/NN260106200001758))
+
+  English (LAE-Intel translation): To meet market demand, Meituan Drone launched a new "low-altitude air network" operating model in December 2025, together with several core self-developed products including a long-range version of its fourth-generation drone, an intelligent docking airport and a third-generation intelligent dispatch system, and demonstrated them during this inspection visit.
+  :::
+
+### December 2025
+
+- **19 Dec 2025 · 证券时报 / stcn.com:** Meituan Drone unveils its “低空航网” air-network model, a docking airport and a new-generation drone. [Link](https://www.stcn.com/article/detail/3552556.html)
+  - Tag: Independently reported
+  - What's new: Meituan VP Mao Yinian says the unit operates 65 routes across Shenzhen, Shanghai, Beijing, Hong Kong and Dubai and has completed 740,000 commercial orders.
+  - Status: Route and order counts are company-announced.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「12月19日，美团无人机发布多款产品，包括无人机低空航网、无人机智能接驳机场和最新一代无人机产品。美团副总裁、无人机业务部负责人毛一年透露，截至目前，美团无人机已在深圳、上海、北京以及中国香港和迪拜等城市运营65条航线，已经完成74万单商业订单」]{lang="zh-Hans"} ([source](https://www.stcn.com/article/detail/3552556.html))
+
+  English (LAE-Intel translation): On 19 December, Meituan Drone released several products, including a drone low-altitude air network, an intelligent drone docking airport and its latest-generation drone. Meituan Vice President and head of the drone business, Mao Yinian, disclosed that to date Meituan Drone operates 65 routes in cities including Shenzhen, Shanghai, Beijing, Hong Kong (China) and Dubai, and has completed 740,000 commercial orders
+  :::
+
+- **9 Dec 2025 · Archer Aviation IR:** Archer says it completed phase one of its deal to control Hawthorne Airport, its planned Los Angeles air-taxi hub. [Link](https://investors.archer.com/news/news-details/2025/Archer-Completes-First-Phase-of-Transactions-to-Acquire-Control-of-Hawthorne-Airport/default.aspx)
+  - Tag: Company-announced
+  - What's new: Phase one covers the master lease and subleases.
+  - Status: Company transaction; not an operating air-taxi service.
+
+### November 2025
+
+- **24 Nov 2025 · 政府新聞公報 / GIA:** TLB launches Regulatory Sandbox X for more complex scenarios; UTM-demonstration applications open to 9 Jan 2026. [Link](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)
+  - Tag: Officially confirmed
+  - What's new: STL Mable Chan: Sandbox X handles more complex scenarios such as cross-boundary drones, passenger-carrying aircraft and integrated platforms. The Chinese release says 29 of the 38 first-batch Regulatory Sandbox projects had started.
+  - Status: Sandbox X is separate from the Regulatory Sandbox; cross-boundary results OPEN.
+  - Read instead: Tracker: Regulatory Sandbox X
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The launch event of the low-altitude economy "Regulatory Sandbox X" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
+
+  [「首批「監管沙盒」共有38個項目獲選，已啟動的29個項目內容涵蓋緊急救援、物流配送、維修和安全檢查、監測、低空基建設施等多個領域及不同應用場景，為城市注入全新智慧動能。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+  :::
+
+- **22 Nov 2025 · AutoFlight newsroom:** AutoFlight launches “SUNSHIP”, a floating eVTOL take-off platform with solar-storage charging and dispatch. [Link](https://www.autoflight.com/zh/news/sea/)
+  - Tag: Company-announced
+  - Status: Product launch; efficiency claims not repeated. Hong Kong has no vertiport statute.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「峰飞航空自主研发的全球首个eVTOL零碳水上机场，作为水上移动空港与智慧指挥中枢，集成eVTOL起降平台、光储充能源保障、智能调度系统及通信配套等功能，可快速部署于江、河、湖、海等各类水域。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/sea/))
+
+  English (LAE-Intel translation): AutoFlight's self-developed, world-first eVTOL zero-carbon water airport, serving as a floating mobile airport and smart command hub, integrates an eVTOL take-off/landing platform, solar-storage-charging energy supply, an intelligent dispatch system and communications, and can be rapidly deployed on rivers, lakes, seas and other waters.
+  :::
+
+- **16 Nov 2025 · Roads and Transport Authority (RTA) Dubai:** RTA says Joby flew a crewed eVTOL 17 minutes from Margham to Al Maktoum International (DWC). [Link](https://www.rta.ae/wps/portal/rta/ae/home/news-and-media/all-news/NewsDetails/successful-first-crewed-electric-aerial-taxi-flight)
+  - Tag: Officially confirmed
+  - What's new: RTA says it was the first crewed eVTOL flight between two distinct UAE locations and that Skyports had completed 60% of the DXB vertiport.
+  - Status: Test flight; no passenger service evidenced.
+
+- **3 Nov 2025 · BETA Technologies IR:** BETA says it priced its upsized IPO: 29,852,941 Class A shares at US$34.00. [Link](https://investors.beta.team/news-events/press-releases/detail/89/beta-technologies-inc-prices-upsized-initial-public-offering)
+  - Tag: Company-announced
+  - Status: IPO pricing as announced by the company.
