@@ -5,7 +5,7 @@ as_of: "2026-10-07"
 
 Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Industry holds dated news of the same firms; News holds government and regulatory items; Tracker holds official status.
 
-Sources (as of 7 Oct 2026): entries are added only from LAE-Intel's landscape packet and are checked against the cited page. Empty sectors are waiting for that packet. Company claims are not treated as fact.
+Sources (as of 7 Oct 2026): baseline seed from the landscape packet (LANDSCAPE-2026-10-07, status baseline-seed). Entries are checked against the cited page. Company claims are not treated as fact.
 
 ## How to read the tags
 
@@ -23,28 +23,214 @@ Each entry under a sector: firm or project · place, a one-line activity note, t
 
 ## Delivery and logistics
 
-_No entries yet._
+- **Kangaroo Limited (Meituan / Keeta Drone) · Hong Kong:** Regulatory Sandbox drone meal-delivery between HKSTP and Tai Po Waterfront Park / Ting Kok Village (company brands as Keeta Drone). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Fame Faith Limited (S.F. Express (Hong Kong) / Hospital Authority St. John Hospital) · Hong Kong:** Regulatory Sandbox drone delivery Cyberport to Cheung Chau (express logistics with hospital use-case). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Future Yixin Aviation Technology Limited · Hong Kong:** Regulatory Sandbox drone delivery Pak Shek Kok Promenade to Tai Po Waterfront Pier. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Meituan Drone · Shenzhen (Longhua):** Company via trade press says it densified Shenzhen Longhua drone-delivery points into a mesh network (to 15 points) and is expanding in Nanshan — densification counts are company-via-press. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
+  - Tag: Independently reported
+  - Status: Operating (company/press claim)
+  - Source: [电商派 trade press, 2026-09-04](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「9月4日，美团无人机首次在深圳将单航线的轴辐式配送点升级为网络式节点，并入已运营半年的龙华区网络，快速加密龙华网络至15个点位。」]{lang="zh-Hans"} ([source](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt))
+  :::
+
+- **SF Fengyi / 江西丰羽顺途 (SF Express UAS logistics) · GBA (Shenzhen-centred):** CAAC NPC reply confirms SF among firms approved for GBA UAS logistics pilots; company page restates GBA expansion — traffic volumes stay company-announced. [Link](http://www.caac.gov.cn/XXGK/XXGK/JYTNDF/202211/t20221104_216304.html)
+  - Tag: Officially confirmed
+  - Status: Operating (CAAC pilot approval; volumes company-announced)
+  - Source: [CAAC reply](http://www.caac.gov.cn/XXGK/XXGK/JYTNDF/202211/t20221104_216304.html) · [SF Express company page](https://www.sf-express.com/chn/sc/news/324)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「2017年以来，我局先后批复顺丰、京东等旗下公司在江西赣州、陕西全省、四川雅江、粤港澳大湾区等地开展无人机物流配送试点。」]{lang="zh-Hans"} ([source](http://www.caac.gov.cn/XXGK/XXGK/JYTNDF/202211/t20221104_216304.html))
+  :::
+
+- **Wing Aviation (Alphabet) · United States:** FAA Part 135 drone package-delivery air carrier; FAA publishes environmental decisions for Wing delivery operations in US metro areas. [Link](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Tag: Officially confirmed
+  - Status: Operating
+  - Source: [FAA Part 135 package-delivery-by-drone page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
 
 ## Inspection and surveying
 
-_No entries yet._
+- **CLP Power Hong Kong · Hong Kong:** Regulatory Sandbox infrastructure surveillance over overhead powerlines (Sai Kung, Shing Mun and other CLP corridors). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Geosys Hong Kong Limited (Development Bureau / FLYCAMHK.com) · Hong Kong:** Regulatory Sandbox infrastructure surveillance and survey flights at reservoirs, slopes, river monitoring and works sites. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Highways Department · Hong Kong:** Regulatory Sandbox infrastructure surveillance on selected highway / tunnel-approach corridors (Tseung Kwan O Tunnel Road, Cross Bay Link, Tate’s Cairn Highway). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Traffic Control Technology (Hong Kong) / MTR · Hong Kong:** Regulatory Sandbox infrastructure surveillance inside selected MTR tunnel / station environments (Exhibition Centre–Admiralty; Sheung Shui Station). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Civil Engineering and Development Department · Hong Kong:** Regulatory Sandbox infrastructure surveillance at Tai Mong Tsai, Sai Kung. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Lands Department · Hong Kong:** Regulatory Sandbox surveillance / survey flights at selected New Territories sites (Tso Wo Hang, Shap Sze Heung, Cheung Shue Tan). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **POI Corporation Limited (building cleaning at HKSTP) · Hong Kong:** Regulatory Sandbox building-cleaning SUA operations at Hong Kong Science Park (façade/building-care pathway; CAD AC-015 is a permission pathway, not a named operator roster). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [CAD AC-015](https://www.cad.gov.hk/documents/AC-015.pdf)
+
+- **UAS Limited / TIRAIN (HK) Limited (aerial land surveying) · Hong Kong:** Regulatory Sandbox aerial land-surveying projects (Yiu Lian Dockyard, Tsing Yi; Po Toi Island). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
 
 ## Emergency and medical
 
-_No entries yet._
+- **Fire Services Department · Hong Kong:** Regulatory Sandbox emergency / search-and-rescue SUA trials at the Fire and Ambulance Services Academy and pre-defined rural areas. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Esri China (Hong Kong) / Civil Aid Service · Hong Kong:** Regulatory Sandbox emergency / search-and-rescue and facilities-surveillance trials at Civil Aid Service Tai Tan Camp. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **Shenzhen Blood Center (5G+ UAS blood transport platform) · Shenzhen:** Shenzhen municipal health authorities enabled a domestic 5G+ UAS blood-transport platform (intra-city hospital pilots); not a Shenzhen–Hong Kong cross-boundary corridor. [Link](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html)
+  - Tag: Officially confirmed
+  - Status: Operating (intra-city Shenzhen; SZ–HK corridor not evidenced)
+  - Source: [Shenzhen Municipal Health Commission / Blood Center news](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「1月19日，“深圳5G+无人机血液运输智能空港平台”启用仪式在市血液中心举行，这也是全国首个5G+空中“送血”智能平台。该平台前期以深圳市中医院和罗湖区人民医院为试点，开展无人机血液运输203架次，运输血液总量434千克。」]{lang="zh-Hans"} ([source](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html))
+  :::
+
+- **China Mobile Hong Kong / Hospital Authority (Princess Margaret Hospital) · Hong Kong:** Regulatory Sandbox project listed as signal testing at Princess Margaret Hospital (hospital-site LAE trial; not an operational medical corridor). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox (signal testing; not operational medical corridor)
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
 
 ## Tourism and entertainment
 
-_No entries yet._
+- **OWOWWW Creative (Hong Kong) / HighGreat · Hong Kong:** Regulatory Sandbox drone-show system trials at Cyberport. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+- **DAMODA UAV (HK) · Hong Kong:** Regulatory Sandbox drone-show system trials at China Merchants Wharf Pier; also listed under Sandbox X “Others” with China Taiping Insurance (HK) among collaborators. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox (also Sandbox X Others collaborator)
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [Sandbox X Others first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+
+- **Ocean Park Corporation · Hong Kong:** Selected for Sandbox X “Others” first batch (theme-park / visitor-attraction LAE trial; not labelled operating). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (Others first batch)
+  - Source: [TLB Sandbox X Others first-batch list (29 Jun 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+
+- **Hong Kong Professional Unmanned Aerial Vehicles Association Ltd · Hong Kong:** Regulatory Sandbox aerial-photography project at Fanling Hok Tau. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
 
 ## eVTOL and passenger trials
 
-_No entries yet._
+- **KC Smart Mobility / Cyberport / EHang · Hong Kong:** Sandbox X unconventional-aircraft pilot; Cyberport and partners say inaugural public trial flight at Cyberport waterfront completed 28 Aug 2026 (robot payload on company aircraft — not scheduled passenger service). EHang product claims stay company-announced. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UCA; not scheduled passenger service)
+  - Source: [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf) · [Cyberport press release 2026-08-28](https://www.cyberport.hk/wp-content/uploads/Press-Release-Cyberport-KC-Smart-Mobility-and-EHang-eVTOL-Inaugural-Test-Flight-Successfully-Completed.pdf) · [EHang company news](https://www.ehang.com/news/1387.html)
+
+- **AECOM Asia / Shanghai AutoFlight · Hong Kong:** Selected for Sandbox X unconventional-aircraft first batch (eVTOL / UCA trial pathway). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UCA first batch)
+  - Source: [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+
+- **China Travel Tours Transportation Services H.K. / Shanghai AutoFlight · Hong Kong:** Selected for Sandbox X unconventional-aircraft first batch. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UCA first batch)
+  - Source: [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+
+- **Geosys Hong Kong Limited (Sandbox X UCA) · Hong Kong:** Selected for Sandbox X unconventional-aircraft first batch (separate from Geosys Regulatory Sandbox infrastructure-surveillance listing). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UCA first batch)
+  - Source: [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+
+- **Joby Aviation · United States:** US eVTOL developer; company announces FAA-conforming aircraft flight milestones on its IR/news channel (certification progress — not HK ops). Do not upgrade to FAA confirmation without an FAA release for the same claim. [Link](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
+  - Tag: Company-announced
+  - Status: Trial (company-announced FAA milestones; not HK ops)
+  - Source: [Joby IR/news](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
 
 ## Infrastructure and vertiports
 
-_No entries yet._
+- **Hung Shui Kiu / Ha Tsuen NDA modern logistics cluster (Zone C) · Hong Kong:** Government reserved ~32 ha in HSK/HT NDA for a modern logistics cluster; Zone C focuses on freight forwarding and the low-altitude economy. Planned land / EOI stage — no Hong Kong vertiport statute. [Link](https://www.info.gov.hk/gia/general/202608/13/P2026081300409.htm)
+  - Tag: Officially confirmed
+  - Status: Announced (planned land / EOI; no HK vertiport statute)
+  - Source: [GIA English 2026-08-13](https://www.info.gov.hk/gia/general/202608/13/P2026081300409.htm) · [GIA Chinese](https://www.info.gov.hk/gia/general/202608/13/P2026081300402.htm)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “To address the logistics industry's long-term demand for logistics sites, the Government has reserved about 32 hectares of land in the HSK/HT NDA for the development of a modern logistics cluster. … Zone C: focuses on freight forwarding and the low-altitude economy;” ([source](https://www.info.gov.hk/gia/general/202608/13/P2026081300409.htm))
+
+  [「為應付物流業界對物流用地的長遠需要，政府在洪水橋／厦村新發展區內預留約32公頃土地作現代物流圈發展。…區域C：涵蓋貨運代理及低空經濟；」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202608/13/P2026081300402.htm))
+  :::
+
+- **Hong Kong Cyberport (Sandbox / UCA trial venue) · Hong Kong:** Venue partner hosting Sandbox / Sandbox X unconventional-aircraft waterfront trials; publishes venue pages and joint press on trial flights. Planned / trial facilities — no Hong Kong vertiport statute. [Link](https://www.cyberport.hk/wp-content/uploads/Press-Release-Cyberport-KC-Smart-Mobility-and-EHang-eVTOL-Inaugural-Test-Flight-Successfully-Completed.pdf)
+  - Tag: Company-announced
+  - Status: Trial / Sandbox / Sandbox X venue (no HK vertiport statute)
+  - Source: [Cyberport press release 2026-08-28](https://www.cyberport.hk/wp-content/uploads/Press-Release-Cyberport-KC-Smart-Mobility-and-EHang-eVTOL-Inaugural-Test-Flight-Successfully-Completed.pdf) · [Cyberport LAE venue page](https://www.cyberport.hk/en/venue-for-the-low-altitude-economy-lae-regulatory-sandbox/)
+
+- **CAD AC-016 (SUA docking-station pathway) · Hong Kong:** CAD Advisory Circular on SUA operations using unmanned aircraft docking stations — guidance for advanced ops permissions. Not a vertiport statute; Hong Kong has no dedicated vertiport ordinance. [Link](https://www.cad.gov.hk/documents/AC-016.pdf)
+  - Tag: Officially confirmed
+  - Status: Announced (AC pathway; no HK vertiport statute)
+  - Source: [CAD AC-016](https://www.cad.gov.hk/documents/AC-016.pdf)
 
 ## Insurance and finance
 
-_No entries yet._
+- **Hong Kong LAE insurance market (≥15 insurers — Policy Address) · Hong Kong:** 2026 Policy Address states at least 15 insurers currently offer LAE products for various unmanned aircraft; IA and industry to support unconventional-aircraft regulatory framework. Named insurer roster behind the “≥15” count not published in the Address. [Link](https://www.policyaddress.gov.hk/2026/en/chapter3.html)
+  - Tag: Officially confirmed
+  - Status: Operating (Policy Address aggregate)
+  - Source: [Policy Address 2026 ¶138](https://www.policyaddress.gov.hk/2026/en/chapter3.html) · [Chinese](https://www.policyaddress.gov.hk/2026/tc/chapter3.html)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “At least 15 insurers are currently offering LAE products for various types of unmanned aircraft in the market. The IA and the industry will fully support the regulatory framework for unconventional aircraft (e.g. manned aircraft weighing over 150 kilograms) to be established by the Government.” ([source](https://www.policyaddress.gov.hk/2026/en/chapter3.html))
+
+  [「現時市場已至少有15間保險公司為各類無人機提供低空經濟產品。保監局與業界將全力支援政府擬為非傳統航空器（例如重量超過150公斤的載人飛行器）制訂的規管框架。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html))
+  :::
+
+- **Zurich Insurance (Hong Kong) — UAS (Drone) Protection Insurance Plan · Hong Kong:** Company offers a consumer/commercial UAS (drone) protection plan with third-party liability (and optional physical-damage) cover in Hong Kong — company product claim, not an IA endorsement of this brand. [Link](https://www.zurich.com.hk/en/products/home/drone-protection)
+  - Tag: Company-announced
+  - Status: Operating (company product claim)
+  - Source: [Zurich HK product page](https://www.zurich.com.hk/en/products/home/drone-protection) · [Chinese](https://www.zurich.com.hk/zh-hk/products/home/drone-protection)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Unmanned Aircraft System (Drone) Protection Insurance Plan — Our Plan applies to both pleasure or/and commercial use(s), offering two different plans: Basic plan: third-party liability protection; Extended plan: third-party liability and physical damage protection.” ([source](https://www.zurich.com.hk/en/products/home/drone-protection))
+
+  [「無人駕駛飛機系統（無人機）保障計劃 — 我們的計劃保障無人機的娛樂及／或商業用途，並提供兩個不同級別的計劃：基本計劃：第三者的法律責任保障；延伸計劃：第三者的法律責任及無人機的實質損毀保障。」]{lang="zh-Hant"} ([source](https://www.zurich.com.hk/zh-hk/products/home/drone-protection))
+  :::
+
+- **China Taiping Insurance (HK) (Sandbox X collaborator with DAMODA) · Hong Kong:** Named collaborator on DAMODA’s Sandbox X “Others” first-batch project (insurer appearing on an official TLB selection list). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X collaborator (Others first batch)
+  - Source: [TLB Sandbox X Others first-batch list](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+
+- **Insurance Authority (LAE product / SUA liability framing) · Hong Kong:** IA public article states Cap.448G-linked third-party liability minimums for SUA and that more than 13 insurers offered such products (Feb 2026 article; later PA raised the market count to ≥15). IA page was Cloudflare-blocked in the packet run — rely on PA for the live count. [Link](https://www.ia.org.hk/en/infocenter/speeches_articles/20260213.html)
+  - Tag: Officially confirmed
+  - Status: Operating (SUA liability framing; PA ≥15 is stronger live count)
+  - Source: [IA article 2026-02-13](https://www.ia.org.hk/en/infocenter/speeches_articles/20260213.html) · [Policy Address ¶138](https://www.policyaddress.gov.hk/2026/en/chapter3.html)
