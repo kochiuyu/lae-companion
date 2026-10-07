@@ -7,7 +7,7 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 One or two links per week is enough.
 
-## Week 1
+## Week 1: Introduction to LAE {#week-1}
 
 - [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (generally below 1,000 m) and the Working Group.
 
@@ -25,7 +25,7 @@ One or two links per week is enough.
   [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
   :::
 
-## Week 2
+## Week 2: LAE Market Structure and Competition {#week-2}
 
 - [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Institutional map for Hong Kong LAE.
 
@@ -37,23 +37,23 @@ One or two links per week is enough.
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
-## Week 3
+## Week 3: Cost Structures and Revenue Management {#week-3}
 
 - [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. Official UAM market framing (not an HK government figure).
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
-## Week 4
+## Week 4: Demand Modeling in Urban Air Mobility {#week-4}
 
 - [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. UAM / AAM market language for cross-checks with lecture models.
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
-## Week 5
+## Week 5: Infrastructure Economics and Management {#week-5}
 
 - [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Segment structure (infra; education & research; application scenarios; supporting services).
 
-## Week 6
+## Week 6: LAE Strategic Partnerships and Business Models {#week-6}
 
 - [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. Regulatory Sandbox: **38** of **72** selected.
 
@@ -65,7 +65,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
-## Week 7
+## Week 7: LAE Policy and Regulation {#week-7}
 
 - [CAD, Small Unmanned Aircraft (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — Cap. 448G regulator page; full effect 1 December 2022; Category C ≤150 kg from July 2025.
 
@@ -83,7 +83,7 @@ The week’s model is taught in lecture; this document is the official fact cons
   [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
   :::
 
-## Week 8
+## Week 8: Airspace Access and Integration {#week-8}
 
 - [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Regulatory Sandbox X.
 - [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz; confined to LAE Regulatory Sandbox projects.
@@ -96,7 +96,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
-## Week 9
+## Week 9: Market Sizing, Barriers, Uncertainty and Social Impact {#week-9}
 
 - [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only); not a government outturn.
 
@@ -106,7 +106,7 @@ The week’s model is taught in lecture; this document is the official fact cons
   [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
   :::
 
-## Week 10
+## Week 10: Sustainability Challenges in Urban Air Operations {#week-10}
 
 - [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Sandbox X and the commitment to formulate an Action Plan.
 
@@ -122,7 +122,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
-## Week 11
+## Week 11: Synthesis and Capstone Group Presentations {#week-11}
 
 - [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Action Plan commitment (text still OPEN) and Sandbox X framing.
 
@@ -140,7 +140,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 The week’s model is taught in lecture; this document is the official fact constraint.
 
-## Week 12
+## Week 12: LAE Future Frontiers and Final Review {#week-12}
 
 - [CAAC, ATM Rules draft (consultation)](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.
 
