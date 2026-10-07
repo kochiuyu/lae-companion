@@ -35,11 +35,10 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on 
 | Mainland air traffic management rules, Chapter 12 (drones) | WATCH (draft) | Civil Aviation Administration of China: draft published 11 Aug 2026; comments closed 11 Sep 2026; still a 征求意见稿 (consultation draft) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)). | That it is promulgated. It is not the Art. 34 / Art. 225 implementing regulation. |
 | Mainland civil aviation security background review rules (民用航空安全背景审查管理规定) | WATCH (draft) | Comment deadline 4 Sep 2026 passed; still a draft (13 Sep note) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html)). | That the rules are final. |
 | Mainland national low-altitude economy scale under 1676号 | OPEN | NDRC 发改低空〔2025〕1676号 (22 Dec 2025) is a statistical classification only ([gov.cn](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm)). | Any official national scale (规模) figure from the National Bureau of Statistics or NDRC. |
-| Guangdong 3000亿元 | settled (target only) | 粤府办〔2024〕6号 (21 May 2024) sets a scale target of more than 3000亿元 ([Guangdong](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html)). | An outturn (5 Sep note). |
 | Hong Kong–Kazakhstan low-altitude MoU | OPEN | Secretary for Transport and Logistics speech, 10 Sep 2026, attests the exchange on 9 Sep ([GIA](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm)). | The full MoU document (20 Sep note). |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-**Action Plan on Developing Low-Altitude Economy** — English: “We will continue to engage with the industry and gather diverse perspectives to enable the drafting of the Action Plan on Developing Low-Altitude Economy by the end of next year. This will establish the foundational infrastructure for the top-level design of the entire low-latitude economy, providing the industry with a clear and forward-looking trajectory.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))\
+**Action Plan on Developing Low-Altitude Economy** — *Superseded timing (Nov 2025 framing). Latest: WG still formulating, no new date (STL 2026-10-02; LegCo [CB(2)927/2026(03)](https://www.legco.gov.hk/yr2026/cn/panels/edev/papers/edev20260707cb2-927-3-c.pdf), 2026-07-07). Status OPEN.* English: “We will continue to engage with the industry and gather diverse perspectives to enable the drafting of the Action Plan on Developing Low-Altitude Economy by the end of next year. This will establish the foundational infrastructure for the top-level design of the entire low-latitude economy, providing the industry with a clear and forward-looking trajectory.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))\
 [「我們期望繼續和業界諮詢並蒐集不同意見，在明年年底前可草擬發展低空經濟規劃行動綱領，建構整個低空經濟頂層設計的基建設施，給業界清晰和具前瞻性的方向。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
 :::
 
@@ -69,9 +68,6 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on 
 **Mainland civil aviation security background review rules** — [「形成《民用航空安全背景审查管理规定（征求意见稿）》，现向社会公开征求意见。」…「任何单位和个人如有意见或建议，请填写意见反馈表，于2026年9月4日前发送至mhjgaj@caac.gov.cn。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html))
 :::
 
-::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
-**Guangdong 3000亿元** — [「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「低空经济规模超过3000亿元，基本形成广州、深圳、珠海三核联动、多点支撑、成片发展的低空经济产业格局」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
-:::
 
 ## 6 Oct 2026: LegCo spectrum restatement, new Sandbox restricted flying zones {#week-2026-10-06}
 
@@ -84,7 +80,7 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on 
 | Area | Status | Detail |
 |------|--------|--------|
 | SCED LegCo ITB Panel briefing | **NEW (T1 LegCo briefing)** | Chinese GIA restates CA UAS dedicated-spectrum licensing (Oct 2025) aligned with Mainland spectrum planning; 「有助日後無人機跨境運作」 is forward-looking, not an operating route; cross-border 6G trials including LAE to be encouraged — [GIA ZH](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm) |
-| G.N. 5936 Sandbox RFZs | **NEW (T1 Gazette; late catch)** | DG Civil Aviation under Cap.448G s.19(1); dated 2026-09-21, effective 2026-09-26; ~30 named areas (not a count of projects or routes); supersedes G.N. 4328 of 2026 per PDF text (CAD listing says G.N. 927 of 2026 — unresolved); RFZ designation, not a Cap.448G amendment — [PDF](https://www.cad.gov.hk/documents/G.N.5936_E.pdf) |
+| G.N. 5936 Sandbox RFZs | **NEW (T1 Gazette; late catch)** | DG Civil Aviation under Cap.448G s.19(1); dated 2026-09-21, effective 2026-09-26; ~30 named areas (not a count of projects or routes); supersedes G.N. 4328 of 2026 (per notice PDF text)[^gn927]; RFZ designation, not a Cap.448G amendment — [PDF](https://www.cad.gov.hk/documents/G.N.5936_E.pdf) |
 | MPS UAS penalty discretion benchmark (Mainland) | **NEW (T2 comparator)** | Xinhua 2026-09-30: MPS disclosed benchmark covering five violation types, effective on issuance; MPS primary not read; document number and issuance date unverified — [Xinhua](https://www.news.cn/20260930/741950d104b44f28a48cb8e134fc66d6/c.html) |
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -104,7 +100,7 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on 
 
 - On 2 October the Secretary for Transport and Logistics briefed a Legislative Council (LegCo) panel on the First Five-Year Plan and the 2026 Policy Address. The Chinese-only press release restates earlier commitments; it is a briefing, not a new legal instrument.
 - The Working Group will keep working on the Action Plan this year. Its full text is still not published.
-- The briefing restated three points: more than 140 Regulatory Sandbox projects regularised; drafting of a dedicated law for unconventional aircraft to be completed next year and sent to LegCo; and a smart low-altitude traffic management system from 2028.
+- The briefing restated three points: >140 regularised projects (PA 2026 ¶137); drafting of a dedicated law for unconventional aircraft to be completed next year and sent to LegCo; and a smart low-altitude traffic management system from 2028.
 
 ### What this note added
 
@@ -155,12 +151,12 @@ Older notes are collapsed. Open a week to see its changes and source boxes.
 
 | Area | Status | Detail |
 |------|--------|--------|
-| 2026 Policy Address ¶137–139 | **NEW (T1)** | Asia-Pacific hub for innovative low-altitude applications; Sandbox regularisation narrative (over 140 regularised projects; about 10 Sandbox X testing); ≥15 insurers; Action Plan *will formulate* with three actions — [GIA](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm) / [Ch.III](https://www.policyaddress.gov.hk/2026/en/chapter3.html) |
+| 2026 Policy Address ¶137–139 | **NEW (T1)** | Asia-Pacific hub for innovative low-altitude applications; Sandbox regularisation narrative (>140 regularised projects (PA 2026 ¶137); about 10 Sandbox X testing); ≥15 insurers; Action Plan *will formulate* with three actions — [GIA](https://www.info.gov.hk/gia/general/202609/16/P2026091600264.htm) / [Ch.III](https://www.policyaddress.gov.hk/2026/en/chapter3.html) |
 | PA Annex indicators 34–35 | **NEW (T1)** | TLB: Smart Low-altitude TMS progressive from **2028**; complete drafting of >150 kg unconventional-aircraft legislation **within 2027** — [Annex PDF](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf) |
 | First Five-Year Plan (2026–2030) | **NEW (T1)** | GIA announces inaugural HKSAR plan; aviation-hub framing includes Asia-Pacific low-altitude applications hub — [GIA](https://www.info.gov.hk/gia/general/202609/16/P2026091600338.htm) |
 | HK Action Plan | **Updated (PA-framed; text OPEN)** | PA 2026 ¶139 *will formulate*; three actions locked; **full plan text not published** |
 | Smart Low-altitude Traffic Management System | **NEW dated watch** | Progressive implementation from **2028** (PA ¶139 + indicator 34) — [Annex PDF EN](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf) / [Annex PDF ZH](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf) |
-| Unconventional aircraft >150 kg legislation | **NEW dated watch** | Drafting complete **within 2027** (PA ¶139 + indicator 35); no Cap.448G amending instrument yet — [Annex PDF EN](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf) / [Annex PDF ZH](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf) |
+| Unconventional aircraft >150 kg legislation | **NEW dated watch** | Dedicated legislation: drafting to begin (PA ¶139) and be completed within 2027, then submitted to LegCo (indicator 35; STL 2026-10-02); no Cap.448G amending instrument yet — [Annex PDF EN](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf) / [Annex PDF ZH](https://gia.info.gov.hk/general/202609/16/P2026091600311_557057_1_1789541462617.pdf) |
 | Cap.448G follow-ons | **WATCH advanced** | No amending instrument; PA / indicator 35 = drafting >150 kg within 2027 |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -201,7 +197,7 @@ English: “The Government is committed to developing Hong Kong into the Asia-Pa
 
 :::: {.callout-note collapse="true" title="Show the 13 Sep 2026 note"}
 
-- On 10 September the Secretary for Transport and Logistics gave a speech, issued as a government press release: more than 140 Civil Aviation Department approvals since June 2025, a focus on Sandbox X, and a Hong Kong–Kazakhstan memorandum of understanding (MoU) on the low-altitude economy, exchanged on 9 September.
+- On 10 September the Secretary for Transport and Logistics gave a speech, issued as a government press release: >140 CAD application approvals since Jun 2025 (STL speech), a focus on Sandbox X, and a Hong Kong–Kazakhstan memorandum of understanding (MoU) on the low-altitude economy, exchanged on 9 September.
 - The speech previewed the Policy Address and First Five-Year Plan for the following week; neither was published in this window.
 - Mainland: comments on the Civil Aviation Administration of China’s draft air traffic management rules closed on 11 September. The page still shows a draft only.
 
@@ -209,7 +205,7 @@ English: “The Government is committed to developing Hong Kong into the Asia-Pa
 
 | Area | Status | Detail |
 |------|--------|--------|
-| STL GIA speech (HKUST forum) | **NEW (T1 speech)** | Regularisation under existing CAD guidelines; >140 CAD approvals since June 2025; Sandbox X for cross-boundary / unconventional / passenger-carrying; HK–Kazakhstan MoU attested (exchange **2026-09-09**); PA / First Five-Year Plan previewed for week after 2026-09-10 — **not** published in this window |
+| STL GIA speech (HKUST forum) | **NEW (T1 speech)** | Regularisation under existing CAD guidelines; >140 CAD application approvals since Jun 2025 (STL speech); Sandbox X for cross-boundary / unconventional / passenger-carrying; HK–Kazakhstan MoU attested (exchange **2026-09-09**); PA / First Five-Year Plan previewed for week after 2026-09-10 — **not** published in this window |
 | CAAC ATM Rules Ch.12 UAS | **Updated (clock; still draft)** | Comments closed **2026-09-11**; still 征求意见稿; **not** promulgated |
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -237,3 +233,5 @@ English: “The Government is committed to developing Hong Kong into the Asia-Pa
 :::
 
 ::::
+
+[^gn927]: The CAD listing page names G.N. 927 of 2026 as the superseded notice; the notice PDF text names G.N. 4328 of 2026, which this site follows.

@@ -89,7 +89,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 **Official**
 
-- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — CAAC delivery-trial requirements (C2 link, record keeping, insurance, buffers) that turn directly into operating-cost lines. English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery.
+- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — CAAC delivery-trial requirements (C2 link, record keeping, insurance, buffers) that turn directly into operating-cost lines. English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery.
 
 ## Week 4: Demand Modeling in Urban Air Mobility {#week-4}
 
@@ -185,7 +185,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 - [[国务院、中央军委 (2023-06-28 公布). 《无人驾驶航空器飞行管理暂行条例》（国令第761号）. 中国政府网.]{lang="zh-Hans"}](https://www.gov.cn/zhengce/content/202306/content_6888799.htm) — The Mainland's top-level UAS flight-management regulation; the national baseline next to HK's Cap. 448G. English gloss: Interim Regulations on the Flight Management of Unmanned Aircraft.
 - [EASA. *Special Condition for VTOL and Means of Compliance* (SC-VTOL; original issue 2 Jul 2019, page updated 18 Jul 2025).](https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-vtol) — EASA's certification basis for VTOL aircraft; the EU benchmark.
-- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — A CAAC example of risk-based Specific-category approval (BVLOS delivery in populated areas). English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery. *Also listed in [Week 3](#week-3).*
+- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — A CAAC example of risk-based Specific-category approval (BVLOS delivery in populated areas). English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery. *Also listed in [Week 3](#week-3).*
 - [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Side-by-side HK, Shenzhen and US regulatory comparison table. **Caution:** do not reuse its market-forecast figures. *Also listed in [Week 6](#week-6).*
 
 ## Week 8: Airspace Access and Integration {#week-8}

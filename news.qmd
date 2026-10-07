@@ -40,7 +40,7 @@ Each item: date · outlet, a one-line headline, then What's new / Status / Read 
 
 - **2 Oct 2026 · 政府新聞公報 (Chinese GIA):** STL Chan briefs LegCo’s Economic Development Panel on Five-Year Plan / Policy Address transport measures.
   - What's new: Unconventional-aircraft bill to be drafted and submitted next year; Smart TMS rollout from 2028.
-  - Status: >140 is the Regulatory Sandbox regularisation count, not Sandbox X results; Action Plan still being drafted.
+  - Status: >140 regularised projects (PA 2026 ¶137) is the Regulatory Sandbox regularisation count, not Sandbox X results; Action Plan still being drafted.
   - Read instead: [this GIA release](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm); Action Plan on Developing Low-Altitude Economy (text open); Cap. 448G / >150 kg drafting.
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -48,7 +48,7 @@ Each item: date · outlet, a one-line headline, then What's new / Status / Read 
   :::
 
 - **30 Sep 2026 · 紫荊 / Bau.com.hk:** CAD Director-General Clara Wong’s bylined civil-aviation feature includes a dedicated LAE section. [Link](https://bau.com.hk/web/article/1554875572736425984/web/content_1554875572736425984.html)
-  - What's new: Push to complete dedicated >150 kg subsidiary legislation drafting by 2027.
+  - What's new: Dedicated >150 kg legislation: drafting to begin (PA ¶139) and be completed within 2027, then submitted to LegCo (indicator 35; STL 2026-10-02).
   - Status: Recap, no new instrument (Cap. 448G Category C since mid-2025; Cap. 448C trial provisions; Smart TMS research).
   - Read instead: Cap. 448G / >150 kg drafting; CAD SUA; Working Group.
 
@@ -109,7 +109,7 @@ Each item: date · outlet, a one-line headline, then What's new / Status / Read 
 
 - **10 Sep 2026 · RTHK:** STL Mable Chan says Hong Kong LAE applications have entered a regularisation stage. [Link](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm)
   - What's new: Sandbox X pushed for cross-boundary logistics and passenger-capable unconventional aircraft; HK–Kazakhstan LAE MoU signed.
-  - Status: >140 is CAD’s Regulatory Sandbox approval count since June 2025, separate from Sandbox X.
+  - Status: >140 CAD application approvals since Jun 2025 (STL speech), separate from Sandbox X.
   - Read instead: Regulatory Sandbox / Sandbox X; Working Group; Action Plan (text open); CAD / Cap. 448G.
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}

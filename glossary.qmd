@@ -111,7 +111,7 @@ flowchart BT
     class G0 gnd
 ```
 
-Sources (as of 6 Oct 2026): Category A1 100 ft and Category A2 300 ft above ground level, specified under Cap. 448G s.17(2) for s.16(1)(c) ([G.N. 1276 of 2022](https://www.cad.gov.hk/documents/G.N.1276_E.pdf); [Chinese](https://www.cad.gov.hk/documents/G.N.1276_C.pdf); [SRD §7.4.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf); [AC-013 §6.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); exempted Category A1 models flown to the Category A2 operating requirements ([G.N. 2303 of 2022](https://www.cad.gov.hk/documents/G.N.2303_E.pdf)); permission under s.37 ([Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); LAE as economic activities in airspace “generally below 1 000 metres” ([LegCo CB(3)933/2024](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf); [2024 Policy Address ¶81](https://www.policyaddress.gov.hk/2024/en/p81.html)); 真高120米 管制空域 (Art. 19) and 真高300米 融合飞行 (Art. 22) ([国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)); G类 and W类空域 ([国家空域基础分类方法, CAAC](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html)).
+Sources (as of 6 Oct 2026): Category A1 100 ft and Category A2 300 ft above ground level, specified under Cap. 448G s.17(2) for s.16(1)(c) ([G.N. 1276 of 2022](https://www.cad.gov.hk/documents/G.N.1276_E.pdf); [Chinese](https://www.cad.gov.hk/documents/G.N.1276_C.pdf); [SRD §7.4.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf); [AC-013 §6.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); exempted Category A1 models flown to the Category A2 operating requirements ([G.N. 2303 of 2022](https://www.cad.gov.hk/documents/G.N.2303_E.pdf)); permission under s.37 ([Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); LAE as economic activities in airspace “generally below 1 000 metres” ([LegCo CB(3)933/2024](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf); [2024 Policy Address ¶81](https://www.policyaddress.gov.hk/2024/en/p81.html)); 真高120米 管制空域 (Art. 19) and 真高300米 融合飞行 (Art. 22) ([国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)); G类 and W类空域 ([国家空域基础分类方法, CAAC](https://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html)).
 
 Boxes are in height order but not to scale; Hong Kong metre figures are conversions (1 ft = 0.3048 m). The Mainland classification excludes the Hong Kong flight information region, so its labels are not Hong Kong law. Dashed, OPEN or PLANNED items are not established; this diagram has none.
 
@@ -447,7 +447,7 @@ Kind: Official
 Mainland national airspace classification labels (2023 release); **not Hong Kong law**. CAAC National Airspace Basic Classification (2023-12-21).
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
-[「为充分利用国家空域资源，规范空域划设和管理使用，国家空管委组织制定了《国家空域基础分类方法》，现予以发布。」]{lang="zh-Hans"} ([source](http://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html))
+[「为充分利用国家空域资源，规范空域划设和管理使用，国家空管委组织制定了《国家空域基础分类方法》，现予以发布。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html))
 :::
 
 **低空经济**  
