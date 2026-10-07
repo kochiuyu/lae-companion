@@ -5,7 +5,7 @@ as_of: "2026-10-07"
 
 Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Industry holds dated news of the same firms; News holds government and regulatory items; Tracker holds official status.
 
-Sources (as of 7 Oct 2026): baseline seed from the landscape packet (LANDSCAPE-2026-10-07, status baseline-seed). Entries are checked against the cited page. Company claims are not treated as fact.
+Sources (as of 7 Oct 2026): landscape packet LANDSCAPE-2026-10-07 (status baseline-seed + supply-chain expansion; 48 entries across nine sectors). Entries are checked against the cited page. Company claims are not treated as fact.
 
 ## How to read the tags
 
@@ -234,3 +234,133 @@ Each entry under a sector: firm or project · place, a one-line activity note, t
   - Tag: Officially confirmed
   - Status: Operating (SUA liability framing; PA ≥15 is stronger live count)
   - Source: [IA article 2026-02-13](https://www.ia.org.hk/en/infocenter/speeches_articles/20260213.html) · [Policy Address ¶138](https://www.policyaddress.gov.hk/2026/en/chapter3.html)
+
+## Aircraft and airframe makers
+
+- **EHang Holdings / 亿航智能设备（广州） · Guangzhou (GBA):** Guangzhou-based eVTOL / passenger-carrying UAV system airframe maker; CAAC Central-South Regional Administration notice states it issued the nation’s first manned-UAV Production Certificate to 亿航智能设备（广州）有限公司 and that CAAC issued the EH216-S Type Certificate on 2023-10-12. Also named as Sandbox X UCA collaborator in Hong Kong. Product-model catalogue omitted beyond the certified type named in the CAAC notice. [Link](http://www.caac.gov.cn/local/ZNGLJ/ZN_DQYW/202404/t20240416_223537.html)
+  - Tag: Officially confirmed
+  - Status: Operating
+  - Source: [CAAC Central-South PC notice 2024-04-16](http://www.caac.gov.cn/local/ZNGLJ/ZN_DQYW/202404/t20240416_223537.html) · [EHang company IR (TC restatement)](https://www.ehang.com/news/990.html) · [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日,中南局向亿航智能设备（广州）有限公司（下称亿航智能）颁发了全国首个载人无人驾驶航空器系统（简称载人无人机）的生产许可证（PC），这表明亿航智能EH216-S载人无人机已经具备量产能力。……10月12日，民航局为EH216-S载人无人机颁发了TC……」]{lang="zh-Hans"} ([source](http://www.caac.gov.cn/local/ZNGLJ/ZN_DQYW/202404/t20240416_223537.html))
+  :::
+
+- **DJI (Shenzhen) · Shenzhen (GBA):** Shenzhen-headquartered civil drone airframe / platform maker with global commercial and consumer fleets; company About page says it maintains a Hong Kong office. No CAAC type-certificate page retrieved for a passenger eVTOL line in the packet — company-announced corporate fact, not a regulator endorsement of any SKU. [Link](https://www.dji.com/company)
+  - Tag: Company-announced
+  - Status: Operating (company About-page claim)
+  - Source: [DJI About page](https://www.dji.com/company)
+
+- **Shenzhen HighGreat Innovation Technology · Shenzhen (GBA):** Shenzhen drone manufacturer and formation / light-show airframe provider; named Sandbox collaborator on Cyberport drone-show system trials (OWOWWW Creative). Company capacity / fleet-size claims on highgreatdrone.com stay company-announced. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox (collaborator)
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [HighGreat About (company capacity claims)](https://www.highgreatdrone.com/about_us)
+
+- **Shenzhen DAMODA Intelligent Control · Shenzhen (GBA):** Shenzhen drone-show / formation airframe and control-technology firm; HK subsidiary DAMODA UAV (HK) leads Sandbox and Sandbox X “Others” drone-show system projects. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Regulatory Sandbox (also Sandbox X Others)
+  - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [Sandbox X Others first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+
+- **Shanghai AutoFlight (峰飞航空) · Shanghai / Mainland China:** Shanghai-based cargo / passenger eVTOL airframe maker; company says CAAC East China issued a Type Certificate for its ton-class cargo eVTOL (V2000CG) — CAAC primary page not retrieved in the packet, so not upgraded to officially confirmed. Named collaborator on two Hong Kong Sandbox X UCA first-batch projects. Product-SKU catalogue omitted. [Link](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/)
+  - Tag: Company-announced
+  - Status: Operating (TC claim company-announced; Sandbox X UCA collaborator)
+  - Source: [AutoFlight Chinese IR 2024-03-22](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/) · [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「2024年3月22日，峰飞航空科技自主研发的V2000CG无人驾驶航空器系统获得由中国民用航空华东地区管理局（以下简称，民航华东局）颁发的型号合格证（Type Certificate，下文简称“TC”），这是全球首个通过型号合格认证的吨级以上eVTOL（电动垂直起降）航空器。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/))
+  :::
+
+- **Joby Aviation · United States:** US eVTOL airframe developer; company IR reports FAA-conforming aircraft flight milestones (certification progress — not an issued FAA type certificate; not HK ops). Do not upgrade company certification narrative to FAA confirmation without an FAA release for the same claim. [Link](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
+  - Tag: Company-announced
+  - Status: Trial (company-announced FAA milestones; not HK ops)
+  - Source: [Joby IR/news](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
+
+## Enabling technology
+
+- **Thales Solution & Services Hong Kong · Hong Kong:** Selected Sandbox X UTM system-demonstration applicant (avionics / UTM software pathway; no DAA product names). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “11. Thales Solution & Services Hong Kong Limited —” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「11. 泰雷茲解決方案與服務香港有限公司 —」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
+
+- **China Mobile Hong Kong (Sandbox X UTM) · Hong Kong:** Sandbox X UTM system-demonstration applicant (C2 / connectivity + UTM software trial pathway); also appears on Sandbox signal-testing and emergency collaborator listings. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “3. China Mobile Hong Kong Co.Ltd. — Collaborating with (i) Sichuan Shuanglong Airport Construction Co. Ltd; (ii) Fame Faith Limited; and (iii) The Hong Kong Polytechnic University” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「3. 中國移動香港有限公司 — 合作機構為 (i) 四川雙龍機場建設有限公司； (ii) 譽信有限公司；及 (iii) 香港理工大學」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
+
+- **China Telecom Global · Hong Kong:** Sandbox X UTM system-demonstration applicant (C2 / telecom + UTM pathway); collaborating with HKT Limited. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “4. China Telecom Global Limited — Collaborating with HKT Limited” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「4. 中國電信國際有限公司 — 合作機構為香港電訊有限公司」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
+
+- **China Unicom (Hong Kong) Innovation Research Institute · Hong Kong:** Sandbox X UTM system-demonstration applicant (UTM / software-platform pathway with GIS and Zhuhai tech collaborators). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “5. China Unicom (Hong Kong) Innovation Research Institute — Collaborating with (i) HKT Limited; (ii) Esri China (Hong Kong) Limited; (iii) Aero-Sino Technology Innovation Limited; and (iv) Zhuhai Anqing Technology Co., Ltd.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「5. 中國聯通（香港）創新研究院有限公司 — 合作機構為 (i) 香港電訊有限公司； (ii) Esri 中國（香港）有限公司； (iii) 空航科技創新有限公司；及 (iv) 珠海安擎科技有限公司」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
+
+- **ARCGine Technologies (珠海安擎) · Zhuhai (GBA):** Zhuhai UTM / low-altitude software-technology firm selected as a Sandbox X UTM system-demonstration applicant (also named collaborator on China Unicom’s UTM project). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “1. ARCGine Technologies Co., Ltd. — Collaborating with ITG – Fundación Instituto Tecnológico de Galicia” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「1. 珠海安擎科技有限公司 — 合作機構為 ITG – Fundación Instituto Tecnológico de Galicia」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
+
+- **Esri China (Hong Kong) — UTM / GIS software · Hong Kong:** GIS / software-platform firm appearing as named collaborator on Sandbox X UTM (China Unicom project) and on multiple Sandbox emergency / shared-platform listings. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM collaborator; also Sandbox emergency)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf) · [TLB implemented list item 14](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “China Unicom (Hong Kong) Innovation Research Institute — Collaborating with … (ii) Esri China (Hong Kong) Limited …” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「中國聯通（香港）創新研究院有限公司 — 合作機構為 … (ii) Esri 中國（香港）有限公司 …」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
+
+- **The University of Hong Kong & Harmony Tech Innovation · Hong Kong:** Joint Sandbox X UTM system-demonstration applicant (UTM / software-platform research pathway). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “13. The University of Hong Kong (HKU) & Harmony Tech Innovation Limited —” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「13. 香港大學及香港上和科技有限公司 —」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
+
+- **SUTPC Digital Technology (Hong Kong) · Hong Kong:** Sandbox X UTM system-demonstration applicant linking Hong Kong telecom/observatory partners with Shenzhen National Climate Observatory (UTM / software + environmental-data pathway). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - Tag: Officially confirmed
+  - Status: Trial / Sandbox X (UTM)
+  - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “10. SUTPC Digital Technology (Hong Kong) Limited — Collaborating with (i) Hong Kong Telecommunications (HKT) Limited; (ii) China Unicom (Hong Kong) Innovation Research Institute; (iii) Hong Kong Observatory; and (iv) Shenzhen National Climate Observatory” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  [「10. 深城交數字科技（香港）有限公司 — 合作機構為 (i) 香港電訊有限公司； (ii) 中國聯通（香港）創新研究院； (iii) 香港天文台；及 (iv) 深圳市國家氣候觀象台」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
+  :::
