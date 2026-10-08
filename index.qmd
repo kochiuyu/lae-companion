@@ -1,6 +1,6 @@
 ---
 title: "Low Altitude Economics Companion"
-as_of: "2026-10-04"
+as_of: "2026-10-08"
 ---
 
 **The Chinese University of Hong Kong**  
@@ -34,4 +34,4 @@ Regulatory Sandbox (first cohort) is not Regulatory Sandbox X.
 The figure of about HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection for Hong Kong, not a government outturn.
 Press stories on the News page are not a substitute for Tracker.
 
-Last updated: 6 October 2026.
+Last updated: 8 October 2026.

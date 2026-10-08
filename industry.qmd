@@ -1,6 +1,6 @@
 ---
 title: "Industry"
-as_of: "2026-10-07"
+as_of: "2026-10-08"
 ---
 
 Business and industry items on low-altitude economy use and development: delivery routes, eVTOL orders and test flights, funding, partnerships and launches, in Hong Kong, the Greater Bay Area and among key global players. Government and regulatory items stay on News; official status stays on Tracker.
@@ -30,6 +30,38 @@ Each item: date · outlet, a one-line headline, then Tag / What's new / Status /
 Backfill for 1 Oct 2025 – 7 Oct 2026, newest month first. Items already covered on News appear here only as one-line cross-references.
 
 ### October 2026
+
+- **7 Oct 2026 · BETA Technologies IR:** BETA says it concluded five days of Utah eIPP flights with Alpine Air using ALIA CTOL for time-sensitive medical cargo. [Link](https://investors.beta.team/news-events/press-releases/detail/119/beta-completes-utah-eipp-operations-to-support-the-future-of-radiopharmaceutical-delivery-and-treatment)
+  - Tag: Company-announced
+  - What's new: BETA says the USDOT/FAA eIPP flights with UDOT, 47G and Alpine Air Express tested electric aircraft for radiopharmaceutical transport; FAA quote appears only in the company release.
+  - Status: eIPP operational demo as announced by the company; not a type certificate.
+  - Read instead: None.
+
+- **6 Oct 2026 · FlightGlobal via Defense Presswire:** Eve holds a Florida eVTOL ecosystem summit at SunTrax and says US demo flights are expected in 2028 before FAA certification. [Link](https://defensepresswire.com/2026/10/07/eve-plots-us-air-taxi-demos-despite-exclusion-from-pilot-programme/)
+  - Tag: Independently reported
+  - What's new: Independent coverage of the 6 Oct Florida Ecosystem Summit; Eve says it is excluded from eIPP as foreign-controlled and aims for Brazilian certification then FAA/EASA, with US demos in 2028 (company expectations).
+  - Status: Summit independently reported; 2028 demo/certification timing and LOI figures remain company-announced.
+  - Read instead: None.
+
+- **5 Oct 2026 · Wing newsroom:** Wing and Walmart say Denver and Seattle will join their drone-delivery network in 2027. [Link](https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network)
+  - Tag: Company-announced
+  - What's new: Wing says the partners will expand to Denver and Seattle metros in 2027, advancing a plan Wing claims toward more than 270 Walmart locations and over 40 million customers (company figures).
+  - Status: Planned 2027 expansion as announced by Wing; service not live in these metros.
+  - Read instead: None.
+
+- **5 Oct 2026 · 珠海特区报 / 观海融媒:** Lianzhou Airport’s first aviation theme open day draws holiday crowds; airport says it already hosts low-altitude test clients. [Link](https://pub-zhtb.hizh.cn/s/202610/05/AP6ac36f4de4b0858d47780f11.html) · [7 Oct follow-up](https://pub-zhtb.hizh.cn/a/202610/07/AP6ac63451e4b0858d47781f98.html)
+  - Tag: Independently reported
+  - What's new: Local press reports ~21,000 visitors by 7 Oct (including ~3,000 from Hong Kong/Macau) and quotes the airport that its low-altitude test base has served nine LAE firms; cross-province logistics routes described as plans.
+  - Status: Open-day and visitor counts independently reported via local press; logistics expansion remains a plan.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「中秋、国庆假期，珠海莲洲机场首次推出“逐梦蓝天·邂逅通航”航空专场开放日，3万平方米机坪变身“航空乐园”」]{lang="zh-Hans"}
+
+  [「截至10月7日，为期十天的活动共接待游客2.1万余人次，其中港澳游客3000余人次。」]{lang="zh-Hans"}
+
+  [「过去三年，该机场低空飞行测试验证基地一期投入使用，已为广东省航空航天装备研究院、小鹏汇天、珠海天晴等9家低空经济企业提供无人机测试业务。」]{lang="zh-Hans"} ([source](https://pub-zhtb.hizh.cn/a/202610/07/AP6ac63451e4b0858d47781f98.html))
+  :::
 
 - **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on News, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
   - Tag: Independently reported

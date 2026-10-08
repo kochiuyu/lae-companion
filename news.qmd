@@ -1,6 +1,6 @@
 ---
 title: "News"
-as_of: "2026-10-06"
+as_of: "2026-10-08"
 ---
 
 Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
@@ -18,6 +18,15 @@ Official counts and the HK$350 billion figure stay on Tracker.
 Each item: date · outlet, a one-line headline, then What's new / Status / Read instead, with the quoted source text in a collapsed box.
 
 ## 2026-10
+
+- **7 Oct 2026 · 星島頭條 / 香港商報:** CAD Deputy DG Dominic Chow (許文豪) outlines the Smart Low-altitude Traffic Management System (SLATMS) at the police Smart Policing Advisory Group’s 7th meeting. [Link](https://www.stheadline.com/breaking-news/3623364/%E6%B7%B1%E7%A0%94%E6%99%BA%E8%83%BD%E7%84%A1%E4%BA%BA%E9%9B%86%E7%BE%A4-%E5%BC%95%E9%A0%98%E6%9C%AA%E4%BE%86%E8%AD%A6%E6%94%BF%E5%89%8D%E6%B2%BF%E6%8A%80%E8%A1%93-%E7%B6%AD%E8%AD%B7%E5%9F%8E%E5%B8%82%E5%AE%89%E5%85%A8%E9%9F%8C%E6%80%A7) · [香港商報](https://www.hkcd.com.hk/hkcdweb/content/2026/10/07/content_8778765.html)
+  - What's new: CAD outlined SLATMS as an automated pre-/in-/post-flight digital stack with data interfaces for future cross-boundary and meteorological exchange (press report of official remarks; no GIA found).
+  - Status: Smart TMS / SLATMS still research stage; Policy Address / STL still point to 2028 initial service. Not a new legal instrument.
+  - Read instead: [STL LegCo EDev Panel GIA 2026-10-02](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm) (Smart TMS from 2028); Policy Address Smart TMS framing.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「民航處副處長許文豪介紹了香港『智能低空交通管理系統』（Smart Low-altitude Traffic Management System (SLATMS）) 的相關技術，設計概念及配套服務。……隨着無人機數量與密度上升……必須以自動化、高度數碼化的方式管理低空空域，實現『機器對機器』的資訊交換……SLATMS 的核心技術在於建立高度數碼化的流程，涵蓋飛行前、飛行中與飛行後三個階段：包括飛行計劃申報與審批、實時監測與衝突預警，以及數據記錄與分析。……系統亦需建立數據交換介面，支援跨境運作及氣象與地理資訊交換」]{lang="zh-Hant"} ([source](https://www.stheadline.com/breaking-news/3623364/%E6%B7%B1%E7%A0%94%E6%99%BA%E8%83%BD%E7%84%A1%E4%BA%BA%E9%9B%86%E7%BE%A4-%E5%BC%95%E9%A0%98%E6%9C%AA%E4%BE%86%E8%AD%A6%E6%94%BF%E5%89%8D%E6%B2%BF%E6%8A%80%E8%A1%93-%E7%B6%AD%E8%AD%B7%E5%9F%8E%E5%B8%82%E5%AE%89%E5%85%A8%E9%9F%8C%E6%80%A7))
+  :::
 
 - **6 Oct 2026 · 政府新聞公報 (Chinese GIA):** SCED tells LegCo the UAS spectrum licensing regime aligns with Mainland planning, aiding future cross-boundary drone operations.
   - What's new: Cross-border 6G trials covering LAE will be encouraged.
