@@ -1,10 +1,10 @@
 ---
-title: "Industry"
+title: "Business news"
 as_of: "2026-10-08"
 page-layout: article
 ---
 
-Business and industry items on low-altitude economy use and development: delivery routes, eVTOL orders and test flights, funding, partnerships and launches, in Hong Kong, the Greater Bay Area and among key global players. Government and regulatory items stay on News; official status stays on Tracker.
+Business and industry items on low-altitude economy use and development: delivery routes, eVTOL orders and test flights, funding, partnerships and launches, in Hong Kong, the Greater Bay Area and among key global players. Government and regulatory items stay on Press; official status stays on Tracker.
 
 ## How to read the tags
 
@@ -50,18 +50,18 @@ Each item carries one source-type tag:
   [「过去三年，该机场低空飞行测试验证基地一期投入使用，已为广东省航空航天装备研究院、小鹏汇天、珠海天晴等9家低空经济企业提供无人机测试业务。」]{lang="zh-Hans"} ([source](https://pub-zhtb.hizh.cn/a/202610/07/AP6ac63451e4b0858d47781f98.html))
   :::
 
-- **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on News, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
+- **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on Press, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
   - Tag: Independently reported
   - Status: Sandbox X cross-boundary results still OPEN; Shenzhen–HK corridor not evidenced as operational.
-  - Read instead: [News, 5 Oct 2026](news.qmd)
+  - Read instead: [Press, 5 Oct 2026](news.qmd)
 
 ### September 2026
 
-- **21 Sep 2026 · HK01; TastyMoney:** Cross-reference: Keeta Drone flies from HKSTP to a smart locker at Chung On Estate, Ma On Shan — covered on News. [Link](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630)
+- **21 Sep 2026 · HK01; TastyMoney:** Cross-reference: Keeta Drone flies from HKSTP to a smart locker at Chung On Estate, Ma On Shan — covered on Press. [Link](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630)
   - Tag: Independently reported
   - What's new: TastyMoney reports it is the first drone delivery into a Hong Kong public housing estate.
   - Status: Regulatory Sandbox operations (not Sandbox X).
-  - Read instead: [News, 21 Sep 2026](news.qmd)
+  - Read instead: [Press, 21 Sep 2026](news.qmd)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「這是無人機配送服務首次進入香港公共屋邨」]{lang="zh-Hant"} ([source](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630))
@@ -80,16 +80,16 @@ Each item carries one source-type tag:
   English (LAE-Intel translation): On 10 September, AutoFlight, Anhui Tianze Lingjie Aviation Co. ("Lingjie Aviation") and Wanjiang Financial Leasing Co. ("Wanjiang Leasing") formally implemented a three-party in-depth strategic co-operation agreement, including a purchase agreement between Lingjie Aviation and AutoFlight for 30 V2000CG CarryAll aircraft
   :::
 
-- **10 Sep 2026 · SCMP; GIA (9 Sep):** Cross-reference: LAE MoUs exchanged at the Belt and Road Summit — covered on News. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367033/hong-kong-signs-2-mous-greater-bay-area-partners-commercialise-aerial-technology)
+- **10 Sep 2026 · SCMP; GIA (9 Sep):** Cross-reference: LAE MoUs exchanged at the Belt and Road Summit — covered on Press. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367033/hong-kong-signs-2-mous-greater-bay-area-partners-commercialise-aerial-technology)
   - Tag: Independently reported
   - What's new: SCMP reports 2 MoUs with GBA partners; the GIA release lists the Working Group among signatories of seven MoUs with overseas counterparts and does not confirm the two GBA MoUs.
   - Status: MoUs, not binding agreements.
-  - Read instead: [News, Sep 2026](news.qmd); [GIA](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm)
+  - Read instead: [Press, Sep 2026](news.qmd); [GIA](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm)
 
-- **4 Sep 2026 · 电商派:** Cross-reference: Meituan densifies its Shenzhen Longhua air network to 15 points — covered on News and Landscape. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
+- **4 Sep 2026 · 电商派:** Cross-reference: Meituan densifies its Shenzhen Longhua air network to 15 points — covered on Press and Who does what. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
   - Tag: Independently reported
   - Status: Point counts are company figures via press.
-  - Read instead: [News, 4 Sep 2026](news.qmd); [Landscape: Meituan Drone](landscape.qmd#firm-meituan-drone)
+  - Read instead: [Press, 4 Sep 2026](news.qmd); [Who does what: Meituan Drone](landscape.qmd#firm-meituan-drone)
 
 ### August 2026
 
@@ -186,7 +186,7 @@ Each item carries one source-type tag:
   - Tag: Company-announced
   - What's new: Khaleej Times reports the same.
   - Status: An RTC programme entry is not an issued certificate; no GCAA primary retrieved.
-  - Read instead: [Landscape: Archer](landscape.qmd)
+  - Read instead: [Who does what: Archer](landscape.qmd)
 
 - **6 May 2026 · AutoFlight newsroom:** AutoFlight says Jining Hi-tech Changkong signed a strategic and bulk-purchase framework agreement; first V2000CGF firefighting variant delivered. [Link](https://www.autoflight.com/zh/news/jining/)
   - Tag: Company-announced
@@ -253,7 +253,7 @@ Each item carries one source-type tag:
 - **11 Mar 2026 · Joby Aviation newsroom:** Joby says N547JX, the first of its FAA-conforming TIA fleet, has begun flight testing. [Link](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
   - Tag: Company-announced
   - Status: Not a type certificate.
-  - Read instead: [Landscape: Joby](landscape.qmd)
+  - Read instead: [Who does what: Joby](landscape.qmd)
 
 - **9 Mar 2026 · FAA newsroom:** USDOT/FAA select eight eVTOL Integration Pilot Program (eIPP) projects. [Link](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight)
   - Tag: Officially confirmed
@@ -269,7 +269,7 @@ Each item carries one source-type tag:
   - Tag: Independently reported
   - What's new: SCMP reports service officially began on 2 Mar 2026; Hong Kong Commercial Daily reports about 15 elderly people served initially. Trip-time claims are the company’s.
   - Status: Regulatory Sandbox route (not Sandbox X); official English OPEN.
-  - Read instead: [SCMP](https://www.scmp.com/video/hong-kong/3345836/keeta-launches-first-drone-meal-delivery-route-elderly-people-remote-rural-areas); [香港商報](https://www.hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html); [Landscape: Kangaroo Limited](landscape.qmd#firm-kangaroo-limited-meituan-keeta-drone)
+  - Read instead: [SCMP](https://www.scmp.com/video/hong-kong/3345836/keeta-launches-first-drone-meal-delivery-route-elderly-people-remote-rural-areas); [香港商報](https://www.hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html); [Who does what: Kangaroo Limited](landscape.qmd#firm-kangaroo-limited-meituan-keeta-drone)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「Keeta Drone（美团无人机）与香港青少年服务处携手合作的“大埔汀角村无人机航线”今日（27日）正式启动，解决偏远乡郊长者送餐服务的三大困难，即路途远、人手缺及轮候长。」]{lang="zh-Hans"} ([source](https://www.keetadrone.com/blogs/news/meituan-drone-service-launches-science-park-tai-po-route-delivering-meals-to-elderly-living-alone-six-days-a-week))

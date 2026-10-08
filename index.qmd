@@ -13,22 +13,22 @@ Master of Aviation Management
 
 This site is the evidence companion for the course. Lectures, numerical examples, and assignments stay in class. Use these pages when you need a dated official source, a checked number, or a term.
 
-**Reference**
+**Facts**
 
 - [Glossary](glossary.qmd)
 - [Tracker](tracker.qmd)
 - [Dates](dates.qmd)
 
-**Course**
+**This week**
 
 - [Readings](readings.qmd)
-- [Briefings](briefings.qmd)
+- [Weekly notes](briefings.qmd)
 
-**Desk**
+**What's new**
 
-- [News](news.qmd)
-- [Industry](industry.qmd)
-- [Landscape](landscape.qmd)
+- [Press](news.qmd)
+- [Business news](industry.qmd)
+- [Who does what](landscape.qmd)
 
 Start here: Glossary, then Tracker, then this week’s Readings.
 

@@ -7,7 +7,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Reference
+      - text: Facts
         menu:
           - href: glossary.qmd
             text: Glossary
@@ -15,20 +15,20 @@ website:
             text: Tracker
           - href: dates.qmd
             text: Dates
-      - text: Course
+      - text: This week
         menu:
           - href: readings.qmd
             text: Readings
           - href: briefings.qmd
-            text: Briefings
-      - text: Desk
+            text: Weekly notes
+      - text: "What's new"
         menu:
           - href: news.qmd
-            text: News
+            text: Press
           - href: industry.qmd
-            text: Industry
+            text: Business news
           - href: landscape.qmd
-            text: Landscape
+            text: Who does what
   page-footer:
     left: "Evidence companion. Lectures stay in class."
     right: "CUHK · Decisions, Operations and Technology"

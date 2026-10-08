@@ -4,13 +4,13 @@ as_of: "2026-10-08"
 page-layout: full
 ---
 
-Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Industry holds dated news of the same firms; News holds government and regulatory items; Tracker holds official status.
+Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Business news holds dated news of the same firms; Press holds government and regulatory items; Tracker holds official status.
 
 Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 
-Tags mean the same as on Industry. Official counts stay on Tracker.
+Tags mean the same as on Business news. Official counts stay on Tracker.
 
-## Landscape at a glance
+## Who does what at a glance
 
 **GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks remain in the sector lists below but are **omitted from the map by design**. Marker colour = Hong Kong vs GBA — see legend under the map. Click a pin for firm name, sector(s) and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). The Shenzhen–Hong Kong / GBA cross-boundary corridor is **not** drawn and is **not** operational. **Counting rule:** one pin per unique HK/GBA firm at its cited place label; dual-sector rows among these (Thales, ARCGine, Geosys, Esri, POI, China Mobile Hong Kong) collapsed to a single pin with combined sector list — **54 pins** (44 Hong Kong + 10 GBA) from the HK/GBA subset of 73 entry rows.
 

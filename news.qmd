@@ -1,5 +1,5 @@
 ---
-title: "News"
+title: "Press"
 as_of: "2026-10-08"
 page-layout: article
 ---
