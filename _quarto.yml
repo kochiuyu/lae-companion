@@ -7,22 +7,28 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: tracker.qmd
-        text: Tracker
-      - href: dates.qmd
-        text: Dates
-      - href: glossary.qmd
-        text: Glossary
-      - href: readings.qmd
-        text: Readings
-      - href: briefings.qmd
-        text: Briefings
-      - href: news.qmd
-        text: News
-      - href: industry.qmd
-        text: Industry
-      - href: landscape.qmd
-        text: Landscape
+      - text: Reference
+        menu:
+          - href: glossary.qmd
+            text: Glossary
+          - href: tracker.qmd
+            text: Tracker
+          - href: dates.qmd
+            text: Dates
+      - text: Course
+        menu:
+          - href: readings.qmd
+            text: Readings
+          - href: briefings.qmd
+            text: Briefings
+      - text: Desk
+        menu:
+          - href: news.qmd
+            text: News
+          - href: industry.qmd
+            text: Industry
+          - href: landscape.qmd
+            text: Landscape
   page-footer:
     left: "Evidence companion. Lectures stay in class."
     right: "CUHK · Decisions, Operations and Technology"

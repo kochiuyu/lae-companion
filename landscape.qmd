@@ -1,6 +1,7 @@
 ---
 title: "Landscape"
 as_of: "2026-10-08"
+page-layout: full
 ---
 
 Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Industry holds dated news of the same firms; News holds government and regulatory items; Tracker holds official status.

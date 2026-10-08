@@ -1,6 +1,7 @@
 ---
 title: "Industry"
 as_of: "2026-10-08"
+page-layout: article
 ---
 
 Business and industry items on low-altitude economy use and development: delivery routes, eVTOL orders and test flights, funding, partnerships and launches, in Hong Kong, the Greater Bay Area and among key global players. Government and regulatory items stay on News; official status stays on Tracker.

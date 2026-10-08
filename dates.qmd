@@ -4,6 +4,7 @@ as_of: "2026-10-06"
 toc: true
 toc-location: right
 toc-title: "Sections"
+page-layout: full
 ---
 
 Read the one-line note under each heading, then the dates.

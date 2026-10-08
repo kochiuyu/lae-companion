@@ -5,7 +5,7 @@ as_of: "2026-10-04"
 toc: true
 toc-location: body
 toc-title: "Sections"
-page-layout: article
+page-layout: full
 ---
 
 Do not add 38 to the Sandbox X module counts. They are not the same programme.
