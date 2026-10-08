@@ -5,25 +5,13 @@ as_of: "2026-10-08"
 
 Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Industry holds dated news of the same firms; News holds government and regulatory items; Tracker holds official status.
 
-Sources (as of 8 Oct 2026): landscape packet LANDSCAPE-2026-10-08 (status baseline-seed + supply-chain expansion + US/EU eVTOL benchmarks + Tangible/Intangible services + AC-017 pathway + Sandbox X Others/Shared fills; 73 entries across eleven sectors). Entries are checked against the cited page. Company claims are not treated as fact.
+Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 
-## How to read the tags
-
-Each firm or project carries one source-type tag:
-
-- **Company-announced:** the description comes from the company itself. It is the company's claim, not an established fact.
-- **Independently reported:** a news outlet described it from its own sources or checks, beyond the company's statement.
-- **Officially confirmed:** a government body or regulator has confirmed the activity in an official release or document, which is linked.
-
-Order values, fleet sizes, delivery counts and launch dates are shown as claimed, with who claimed them. Do not cite this page for official figures; use Tracker.
-
-## How entries appear
-
-Each entry under a sector: firm or project · place, a one-line activity note, then Tag / Status / Source, with a collapsed Chinese or official bilingual box where the source needs one.
+Tags mean the same as on Industry. Official counts stay on Tracker.
 
 ## Landscape at a glance
 
-**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks remain in the sector lists below but are **omitted from the map by design**. Marker colour = Hong Kong vs GBA — see legend under the map. Click a pin for firm name, sector(s) and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). The Shenzhen–Hong Kong / GBA cross-boundary corridor is **not** drawn and is **not** operational.
+**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks remain in the sector lists below but are **omitted from the map by design**. Marker colour = Hong Kong vs GBA — see legend under the map. Click a pin for firm name, sector(s) and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). The Shenzhen–Hong Kong / GBA cross-boundary corridor is **not** drawn and is **not** operational. **Counting rule:** one pin per unique HK/GBA firm at its cited place label; dual-sector rows among these (Thales, ARCGine, Geosys, Esri, POI, China Mobile Hong Kong) collapsed to a single pin with combined sector list — **54 pins** (44 Hong Kong + 10 GBA) from the HK/GBA subset of 73 entry rows.
 
 ```{=html}
 <!-- Landscape at-a-glance map: Leaflet CDN, self-contained (no _quarto.yml change). GBA-focused (HK + Shenzhen/Guangzhou/Zhuhai); Global benchmarks omitted from map. -->
@@ -171,9 +159,6 @@ Each entry under a sector: firm or project · place, a one-line activity note, t
 })();
 </script>
 ```
-
-Sources (as of 8 Oct 2026): **GBA focus** — unique-firm pins for Hong Kong and GBA (Shenzhen / Guangzhou / Zhuhai) only, traced from Landscape entry rows / packet LANDSCAPE-2026-10-08. US/EU and other Global benchmarks stay in the sector lists and are **omitted from the map by design**. **Counting rule:** one pin per unique HK/GBA firm at its cited place label; dual-sector rows among these (Thales, ARCGine, Geosys, Esri, POI, China Mobile Hong Kong) collapsed to a single pin with combined sector list — **54 pins** (44 Hong Kong + 10 GBA) from the HK/GBA subset of 73 entry rows. Colour = Hong Kong vs GBA (not sector). Pins are placed at the cited address, venue, or district where one is available (trial or route site for Sandbox entries, noted in each popup), otherwise the city centre (Hong Kong, Shenzhen, Guangzhou, Zhuhai); venues geocoded via OpenStreetMap Nominatim. Shared-venue pins (Cyberport, Science Park) stay clustered. Initial view fitBounds to the GBA frame (HK–Guangzhou–Zhuhai–Shenzhen). Sources as of 8 Oct 2026. Shenzhen–Hong Kong corridor not drawn and not operational.
-
 
 ## Delivery and logistics
 
@@ -618,7 +603,7 @@ Sources (as of 8 Oct 2026): **GBA focus** — unique-firm pins for Hong Kong and
 
 ## Tangible services
 
-- []{#firm-flycamhk-com-sandbox-surveillance-survey-flight .landscape-entry}**FLYCAMHK.com (Sandbox surveillance / survey flight service) · Hong Kong:** Delivered infrastructure-surveillance and survey flight jobs as Sandbox collaborating operator (reservoirs, slopes, river monitoring). Distinct service-offering angle from Geosys’s applicant listing under Inspection and surveying and eVTOL and passenger trials — cross-ref those entries for the same TLB rows. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-flycamhk-com-sandbox-surveillance-survey-flight"}
+- []{#firm-flycamhk-com-sandbox-surveillance-survey-flight .landscape-entry}**FLYCAMHK.com (Sandbox surveillance / survey flight service) · Hong Kong:** Delivered infrastructure-surveillance and survey flight jobs as Sandbox collaborating operator (reservoirs, slopes, river monitoring). Cross-ref Inspection and surveying and eVTOL and passenger trials (Geosys) for the same TLB rows. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-flycamhk-com-sandbox-surveillance-survey-flight"}
   - Tag: Officially confirmed
   - Status: Trial / Regulatory Sandbox (collaborator / flight service)
   - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
@@ -628,7 +613,7 @@ Sources (as of 8 Oct 2026): **GBA focus** — unique-firm pins for Hong Kong and
   - Status: Trial / Sandbox X (Others first batch collaborator)
   - Source: [TLB Sandbox X Others first-batch list (29 Jun 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
 
-- []{#firm-s-f-express-hong-kong-cyberport .landscape-entry}**S.F. Express (Hong Kong) — Cyberport–Cheung Chau delivery flights · Hong Kong:** Delivered express-logistics drone delivery flights on the Cyberport–Cheung Chau Sandbox route (hospital-linked use-case). Distinct service-offering angle from Fame Faith’s applicant listing under Delivery and logistics and from Mainland SF Fengyi GBA logistics entry — cross-ref those entries. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-s-f-express-hong-kong-cyberport"}
+- []{#firm-s-f-express-hong-kong-cyberport .landscape-entry}**S.F. Express (Hong Kong) — Cyberport–Cheung Chau delivery flights · Hong Kong:** Delivered express-logistics drone delivery flights on the Cyberport–Cheung Chau Sandbox route (hospital-linked use-case). Cross-ref Delivery and logistics (Fame Faith) and the Mainland SF Fengyi entry. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-s-f-express-hong-kong-cyberport"}
   - Tag: Officially confirmed
   - Status: Trial / Regulatory Sandbox (collaborator / delivery flights)
   - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
@@ -673,7 +658,7 @@ Sources (as of 8 Oct 2026): **GBA focus** — unique-firm pins for Hong Kong and
   - Status: Operating (CAD-recognised training organisation)
   - Source: [CAD SUA Training Organisations list](https://www.cad.gov.hk/documents/SUA_Training_Organisations_en.pdf)
 
-- []{#firm-poi-corporation-limited-intangible-services .landscape-entry}**POI Corporation Limited — SUA pilot training (Advanced Rating) · Hong Kong:** CAD-recognised provider of SUA Pilot Training for Advanced Rating (training / certification service). Distinct from POI’s Sandbox building-cleaning ops under Inspection and surveying — cross-ref that entry for the HKSTP cleaning trial. [Link](https://www.cad.gov.hk/documents/SUA_Training_Organisations_en.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-poi-corporation-limited"}
+- []{#firm-poi-corporation-limited-intangible-services .landscape-entry}**POI Corporation Limited — SUA pilot training (Advanced Rating) · Hong Kong:** CAD-recognised provider of SUA Pilot Training for Advanced Rating (training / certification service). Cross-ref Inspection and surveying for the HKSTP cleaning trial. [Link](https://www.cad.gov.hk/documents/SUA_Training_Organisations_en.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-poi-corporation-limited"}
   - Tag: Officially confirmed
   - Status: Operating (CAD-recognised training organisation)
   - Source: [CAD SUA Training Organisations list](https://www.cad.gov.hk/documents/SUA_Training_Organisations_en.pdf) · [TLB implemented list item 6 (cleaning cross-ref)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
@@ -683,7 +668,7 @@ Sources (as of 8 Oct 2026): **GBA focus** — unique-firm pins for Hong Kong and
   - Status: Trial / Sandbox X Others research
   - Source: [TLB Sandbox X Others first-batch list (29 Jun 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
 
-- []{#firm-thales-solution-services-hong-kong-intangible-services .landscape-entry}**Thales Solution & Services Hong Kong — UTM software / traffic-management service · Hong Kong:** Traffic-management / UTM software system-demonstration service under Sandbox X UTM (software / data-platform service angle). Cross-ref Enabling technology (same TLB UTM list item) — not a second tech-supplier catalogue entry. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-thales-solution-services-hong-kong"}
+- []{#firm-thales-solution-services-hong-kong-intangible-services .landscape-entry}**Thales Solution & Services Hong Kong — UTM software / traffic-management service · Hong Kong:** Traffic-management / UTM software system-demonstration service under Sandbox X UTM. Cross-ref Enabling technology (same TLB UTM list item). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-thales-solution-services-hong-kong"}
   - Tag: Officially confirmed
   - Status: Trial / Sandbox X (UTM software-service angle)
   - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)
@@ -694,7 +679,7 @@ Sources (as of 8 Oct 2026): **GBA focus** — unique-firm pins for Hong Kong and
   [「11. 泰雷茲解決方案與服務香港有限公司 —」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf))
   :::
 
-- []{#firm-arcgine-technologies-intangible-services .landscape-entry}**ARCGine Technologies (珠海安擎) — UTM / low-altitude software platform service · Zhuhai (GBA):** UTM / low-altitude software-platform service offered into Hong Kong Sandbox X UTM demonstrations (data / traffic-management software angle). Cross-ref Enabling technology (same UTM list item 1). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-arcgine-technologies"}
+- []{#firm-arcgine-technologies-intangible-services .landscape-entry}**ARCGine Technologies (珠海安擎) — UTM / low-altitude software platform service · Zhuhai (GBA):** UTM / low-altitude software-platform service offered into Hong Kong Sandbox X UTM demonstrations. Cross-ref Enabling technology (same UTM list item 1). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-arcgine-technologies"}
   - Tag: Officially confirmed
   - Status: Trial / Sandbox X (UTM software-service angle)
   - Source: [TLB Sandbox X UTM list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf) · [Chinese](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_TC_20.4.2026.pdf)

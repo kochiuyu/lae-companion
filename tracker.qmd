@@ -8,49 +8,11 @@ toc-title: "Sections"
 page-layout: article
 ---
 
-Start with the plain-language section. Use the source tables at the bottom only when you need a link or a date.
-
-## In plain language
-
-Hong Kong is trying to build a **low-altitude economy**: flying tasks such as inspection, delivery and, later, other services, generally below 1,000 metres. This page records what the government has actually decided. It is not a market forecast.
-
-### Who is in charge?
-
-A **Working Group**, led by the Deputy Financial Secretary, coordinates policy. The **Civil Aviation Department** enforces the Small Unmanned Aircraft Order (Cap. 448G), the main Hong Kong law for drones. A full **Action Plan** has been promised again in the **2026 Policy Address** (¶139); the published text is still not available.
-
-### Two different trial schemes
-
-**Regulatory Sandbox** (first cohort). Industry and public bodies proposed 72 projects. The government selected **38** on 20 March 2025. These are supervised trials, not an open market. Beyond-visual-line-of-sight flying in this scheme follows Civil Aviation Department circular AC-013.
-
-**Regulatory Sandbox X** is a later, harder scheme (announced November 2025). It covers more complex tests, including traffic-management demonstrations and possible cross-boundary flights. Circular AC-017 covers cross-boundary trials inside Sandbox X. Results of those cross-boundary trials have **not** been published.
-
 Do not add 38 to the Sandbox X module counts. They are not the same programme.
-
-### Radio spectrum
-
-From 27 October 2025, a dedicated band (**1430–1444 MHz**) can be licensed for Sandbox projects. It is not a general public mobile band.
-
-### The HK$350 billion figure
-
-Our Hong Kong Foundation, a think tank, projected about **HK$350 billion** of **industry value-added in Hong Kong by 2050**. That is not a government forecast and not this year’s output. If you use the number, name the Foundation, the metric, the place, and the year 2050.
-
-### Mainland rules, in one paragraph
-
-Unmanned-aircraft operations on the Mainland still rest on the 2024 State Council rules and CCAR-92. A revised Civil Aviation Law took effect on **1 July 2026**. A 2026 draft on air-traffic rules (Chapter 12) is only a consultation text.
-
-### Greater Bay Area
-
-Guangdong has a published policy target. Shenzhen has run **domestic** medical-sample flights. An **operating** Shenzhen–Hong Kong medical drone corridor is **not** documented. Officials have described it as planned or on trial under Sandbox X.
-
-### What you still must not write
-
-Do not write that the government estimates HK$350 billion. Do not invent a Hong Kong vertiport statute, a published Action Plan, or a completed cross-boundary corridor.
 
 ## Source tables
 
 ## Who runs policy
-
-These are the government bodies and the main Hong Kong statute.
 
 | Element | Finding | Date(s) | Issuer | Tier |
 |---------|---------|---------|--------|------|
@@ -90,8 +52,6 @@ English: “Complete the drafting of the relevant legislation for unconventional
 
 ## Two trial programmes
 
-The first Sandbox selected 38 of 72 proposals (20 March 2025). Sandbox X is a later, harder programme. Cross-boundary results are not yet published.
-
 | Programme | Counts / dates | Issuer | Tier | Note |
 |-----------|----------------|--------|------|------|
 | **[Regulatory Sandbox](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)** | Apps from 2024-11-13; **38** of **72** selected (PR **2025-03-20**) | WG / TLB | T2 | [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) = BVLOS in Sandbox (PDF 2025-12-31, T1) |
@@ -111,8 +71,6 @@ English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight O
 
 ## Spectrum
 
-The 1.4 GHz band is licensed for Regulatory Sandbox projects, not for general commercial use.
-
 | Field | Finding | Date | Issuer | Tier |
 |-------|---------|------|--------|------|
 | [1430–1444 MHz UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) | Confined to LAE Regulatory Sandbox projects; GN-1/2025 | **2025-10-27** | CA / OFCA | T1/T2 |
@@ -123,8 +81,6 @@ The 1.4 GHz band is licensed for Regulatory Sandbox projects, not for general co
 :::
 
 ## The HK$350 billion figure
-
-OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, not a government forecast.
 
 | Number | Issuer | Date | Metric | Geography | Tier | Public site |
 |--------|--------|------|--------|-----------|------|-------------|
@@ -161,8 +117,6 @@ OHKF’s HK$350 billion figure is a 2050 value-added projection for Hong Kong, n
 
 ## Mainland rules
 
-For operations today, cite 国令761 and CCAR-92. The 2025 Civil Aviation Law is in force from 1 July 2026; the ATM Chapter 12 text is still a draft.
-
 | Instrument | Effective | Tier |
 |------------|-----------|------|
 | [Civil Aviation Law (2025 revision), Order No. 65](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html) | **2026-07-01** | T1 |
@@ -184,17 +138,13 @@ For operations today, cite 国令761 and CCAR-92. The 2025 Civil Aviation Law is
 **CAAC ATM Rules (征求意见稿) — Ch.12 UAS** — [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
 :::
 
-Ops today: cite **761 + CCAR-92**. Law Art. 258 defers UAS rules to State Council/CMC.
+Law Art. 258 defers UAS rules to State Council/CMC.
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「第二百五十八条　国务院、中央军事委员会对无人驾驶航空器的管理另有规定的，从其规定。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
 :::
 
-CAAC ATM Rules draft: comments closed **2026-09-11**; still 征求意见稿 only. Do not treat as effective law.
-
 ## Greater Bay Area
-
-A domestic Shenzhen blood-delivery trial is documented. An operating Shenzhen–Hong Kong medical corridor is not.
 
 | Item | Status | Date | Tier |
 |------|--------|------|------|
@@ -213,6 +163,7 @@ A domestic Shenzhen blood-delivery trial is documented. An operating Shenzhen–
 
 ## What not to write
 
-No official text yet for the Action Plan, a Hong Kong vertiport statute, or Sandbox X cross-boundary results. Smart TMS from **2028** and >150 kg drafting **within 2027** are PA Annex work indicators, not effective law dates.
-
-WG gazetted instrument beyond PA + first meeting; Cap.448G s.12(2)(c) appointment; Sandbox X cross-boundary results; Action Plan **published** text; Pigovian drone taxes; Vertiport HK statutory definition.
+- Do not write that the government estimates HK$350 billion.
+- No published Action Plan text, no Hong Kong vertiport statute, and no completed cross-boundary corridor.
+- Smart TMS from **2028** and >150 kg drafting **within 2027** are PA Annex work indicators, not effective law dates.
+- Still open: a Working Group instrument beyond the Policy Address and the first meeting; Cap. 448G s.12(2)(c) commencement; Pigovian drone taxes.

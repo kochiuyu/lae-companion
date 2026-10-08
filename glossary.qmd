@@ -3,8 +3,6 @@ title: "Glossary"
 as_of: "2026-09-07"
 ---
 
-Use the browser find function (Ctrl+F or ⌘F). Official = you may cite. Course = lecture model. Industry usage = vocabulary, not Hong Kong law.
-
 ## At a glance
 
 Five diagrams that summarise entries below. Each caption lists its sources; the entries themselves start at [Hong Kong institutions and law](#hong-kong-institutions-and-law).
@@ -113,7 +111,7 @@ flowchart BT
 
 Sources (as of 6 Oct 2026): Category A1 100 ft and Category A2 300 ft above ground level, specified under Cap. 448G s.17(2) for s.16(1)(c) ([G.N. 1276 of 2022](https://www.cad.gov.hk/documents/G.N.1276_E.pdf); [Chinese](https://www.cad.gov.hk/documents/G.N.1276_C.pdf); [SRD §7.4.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf); [AC-013 §6.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); exempted Category A1 models flown to the Category A2 operating requirements ([G.N. 2303 of 2022](https://www.cad.gov.hk/documents/G.N.2303_E.pdf)); permission under s.37 ([Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); LAE as economic activities in airspace “generally below 1 000 metres” ([LegCo CB(3)933/2024](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf); [2024 Policy Address ¶81](https://www.policyaddress.gov.hk/2024/en/p81.html)); 真高120米 管制空域 (Art. 19) and 真高300米 融合飞行 (Art. 22) ([国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)); G类 and W类空域 ([国家空域基础分类方法, CAAC](https://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html)).
 
-Boxes are in height order but not to scale; Hong Kong metre figures are conversions (1 ft = 0.3048 m). The Mainland classification excludes the Hong Kong flight information region, so its labels are not Hong Kong law. Dashed, OPEN or PLANNED items are not established; this diagram has none.
+Boxes are in height order but not to scale; Hong Kong metre figures are conversions (1 ft = 0.3048 m). The Mainland classification excludes the Hong Kong flight information region, so its labels are not Hong Kong law.
 
 ### Weight ladder (Cap. 448G)
 
@@ -170,7 +168,7 @@ flowchart LR
 
 Sources (as of 6 Oct 2026): weight thresholds (s.3(2)), the 150 kg SUA ceiling (s.3(1)), s.10, s.11(1)(a)–(g) and s.37 ([Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G); [Chinese](https://www.elegislation.gov.hk/hk/cap448G!zh-Hant-HK.pdf)); Category C from 18 July 2025 ([GIA, 17 Jul 2025](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm)); rating types and the minimum age of 18 for Advanced Rating (C) ([SRD §5.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)); Cap. 448C provisions for trial operations of unconventional aircraft “under specified conditions” ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); drafting to be completed within 2027 ([2026 Policy Address Annex, indicator 35](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf); [2026 Policy Address ¶139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)).
 
-Each step adds to the ones on its left. A Category A1 flight that does not meet the s.10 conditions falls under the s.11 basic requirements. Any flight beyond the operating requirements, within a restricted flying zone or carrying dangerous goods needs a s.37 permission ([SRD §8.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)). Insurance (s.11(1)(c), s.12) is left out: CAD lists its effective date for standard operations as “to be determined” ([CAD](https://www.cad.gov.hk/english/sua_overview_regulatoryreq.html)). Dashed, OPEN or PLANNED items are not established: the over-150 kg legislation is PLANNED.
+Each step adds to the ones on its left. A Category A1 flight that does not meet the s.10 conditions falls under the s.11 basic requirements. Any flight beyond the operating requirements, within a restricted flying zone or carrying dangerous goods needs a s.37 permission ([SRD §8.1](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)). Insurance (s.11(1)(c), s.12) is left out: CAD lists its effective date for standard operations as “to be determined” ([CAD](https://www.cad.gov.hk/english/sua_overview_regulatoryreq.html)). The over-150 kg legislation is PLANNED.
 
 ### Line of sight and permissions
 
@@ -206,7 +204,7 @@ flowchart LR
 
 Sources (as of 6 Oct 2026): VLOS with a visual observer at the same location ([G.N. 1276 of 2022 ¶(2)](https://www.cad.gov.hk/documents/G.N.1276_E.pdf); [AC-013 §2.6.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); EVLOS with a visual observer at a different location, not routinely permitted, s.37 permission and Advanced Rating ([AC-004 §1.2–1.3, §2.3–2.4, §5.1](https://www.cad.gov.hk/documents/AC-004_E.pdf); [SRD §7.3](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)); BVLOS definition, Regulatory Sandbox applications, operator experience options and Advanced Rating ([AC-013 §2.6.2, §3.2, §4.2(a), §8.1](https://www.cad.gov.hk/documents/AC-013_E.pdf)); standard and advanced operations, rating types and the Advanced Operations Permission ([SRD §5.1.1, §8.1–8.3](https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf)); Chinese terms ([AC-013 Chinese §2.6](https://www.cad.gov.hk/documents/AC-013_C.pdf); [AC-004 Chinese](https://www.cad.gov.hk/documents/AC-004_C.pdf)).
 
-The mapping is not one-to-one: a VLOS flight still needs permission and an Advanced Rating when it is an advanced operation, and the Advanced Operations Permission is one of two experience routes for a BVLOS operator, not a required step (AC-013 also says an operator without BVLOS experience may still be considered). This diagram covers BVLOS in the Regulatory Sandbox only; Sandbox X cross-boundary flights are under AC-017. Dashed, OPEN or PLANNED items are not established; this diagram has none.
+The mapping is not one-to-one: a VLOS flight still needs permission and an Advanced Rating when it is an advanced operation, and the Advanced Operations Permission is one of two experience routes for a BVLOS operator, not a required step (AC-013 also says an operator without BVLOS experience may still be considered). This diagram covers BVLOS in the Regulatory Sandbox only; Sandbox X cross-boundary flights are under AC-017.
 
 ### Term families
 
@@ -252,17 +250,17 @@ flowchart TB
 
 Sources (as of 6 Oct 2026): LAE ([2024 Policy Address ¶81](https://www.policyaddress.gov.hk/2024/en/p81.html); [LegCo CB(3)933/2024](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf)); 低空经济 statistical classification ([NDRC 发改低空〔2025〕1676号](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm)); UAS ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html); [国令761 Art. 62](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm)); SUA and categories ([Cap. 448G s.3](https://www.elegislation.gov.hk/hk/cap448G)); unconventional aircraft, with unmanned aircraft over 150 kg, eVTOL and passenger-carrying designs as examples ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html); [2025 Policy Address](https://www.policyaddress.gov.hk/2025/en/p153.html)); drafting within 2027 ([2026 Policy Address Annex, indicator 35](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). UAV, VTOL and eVTOL are industry usage, as in their entries below.
 
-No arrow joins the two groups: LAE and 低空经济 measure economic activity and are not aircraft categories. Dashed, OPEN or PLANNED items are not established: the dedicated unconventional-aircraft legislation is PLANNED.
+No arrow joins the two groups: LAE and 低空经济 measure economic activity and are not aircraft categories. The dedicated unconventional-aircraft legislation is PLANNED.
 
 ### Terms that must not be mixed
 
-“LAE / 低空经济” = industrial-policy / statistical construct. UAM / AAM / IAM / UAS / SUA = aviation system / vehicle terms — do not equate. HK **1,000 m** working definition ≠ Mainland airspace **120 m / 300 m** class labels.
+HK **1,000 m** working definition ≠ Mainland airspace **120 m / 300 m** class labels.
 
 ## Hong Kong institutions and law
 
 **Action Plan on Developing Low-Altitude Economy (發展低空經濟規劃行動綱領)**  
 Kind: Official  
-2025 PA ¶154; text OPEN. 2025 PA ¶154.
+2025 PA ¶154; text OPEN.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “We will formulate the Action Plan on Developing Low-Altitude Economy to advance Hong Kong as a major hub for low-altitude applications through institutional innovations and technological breakthroughs.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -774,11 +772,11 @@ Industry term for a lighter pad than a full vertiport; **not a Hong Kong statuto
 
 **ASK / available capacity unit**  
 Kind: Course  
-Capacity supplied (seat-km or payload-km) used as the denominator in CASK/CPMK — course accounting identity only; no lecture numbers on the public site. Course models.
+Capacity supplied (seat-km or payload-km) used as the denominator in CASK/CPMK. Course models.
 
 **Break-even load factor**  
 Kind: Course  
-Load factor at which revenue covers a stated cost block; course planning tool — worked classroom numbers stay off the public site. Course models.
+Load factor at which revenue covers a stated cost block; course planning tool. Course models.
 
 **CAPEX / OPEX**  
 Kind: Course  
@@ -802,7 +800,7 @@ Money cost plus time valued at the traveller’s value of time. Course.
 
 **HHI**  
 Kind: Course  
-Sum of squared market shares; classroom calculations stay off the public site. Course.
+Sum of squared market shares. Course.
 
 **Industry value-added**  
 Kind: Course  
@@ -840,13 +838,7 @@ Informal community acceptance that can constrain routes even when legal permissi
 
 **Supporting services**  
 Kind: Industry usage  
-The segment that accounts for most of the 2050 value-added projection. OHKF.
-
-::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
-
-[「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
-:::
+The segment that accounts for most of the 2050 value-added projection. OHKF. The English quote is under Industry value-added.
 
 **unconstrained versus constrained market**  
 Kind: Course  
@@ -858,7 +850,7 @@ Stages from vehicle and infrastructure to operations and supporting services. Co
 
 **Value of time**  
 Kind: Course  
-Shadow price of passenger or shipper time used inside generalised cost — lecture numbers stay off the public site. Course.
+Shadow price of passenger or shipper time used inside generalised cost. Course.
 
 **value-added versus 规模 (规模 (Mainland side only))**  
 Kind: Course  
@@ -866,7 +858,7 @@ OHKF-style industry **value-added** is not the same metric as Mainland **规模*
 
 **yield**  
 Kind: Course  
-Revenue per traffic unit (e.g. per passenger-km or payload-km) — no classroom ticket prices on the public site. Course.
+Revenue per traffic unit (e.g. per passenger-km or payload-km). Course.
 
 ## Unplaced
 

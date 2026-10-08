@@ -13,25 +13,12 @@ Master of Aviation Management
 
 This site is the evidence companion for the course. Lectures, numerical examples, and assignments stay in class. Use these pages when you need a dated official source, a checked number, or a term.
 
-Start here: Glossary (words), then Tracker (what is official), then this week’s Readings. News is optional.
-
-**How to use the site**
-
-- **Tracker** — institutions, Sandbox versus Sandbox X, and audited figures.  
-- **Dates** — official milestones for Hong Kong and three comparator markets.
-- **Glossary** — short bilingual definitions tied to course weeks.  
-- **Readings** — primary documents by week.  
-- **Briefings** — dated packets. Read the newest block first.
-- **News** — press items, at most five a week. For orientation only. Do not cite News for official counts.
-- **Industry** — business and industry items, each tagged company-announced, independently reported or officially confirmed. Company claims are not treated as fact.
-- **Landscape** — standing sector map of LAE businesses (HK, GBA and a few global benchmarks). Separate from Industry news.
-
+Start here: Glossary, then Tracker, then this week’s Readings.
 
 **Rules of use**
 
 A number without a date, an issuer, and a source tier does not belong in a memo.  
 Regulatory Sandbox (first cohort) is not Regulatory Sandbox X.  
 The figure of about HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection for Hong Kong, not a government outturn.
-Press stories on the News page are not a substitute for Tracker.
 
 Last updated: 8 October 2026.

@@ -7,8 +7,6 @@ toc-title: "Sections"
 page-layout: article
 ---
 
-Dated notes for the course. Read the newest date first. These are source notes, not lecture slides.
-
 ## Key to labels
 
 - Source tiers: T1 = official primary document; T2 = official secondary source or reputable report; T3 = industry or think-tank projection.
@@ -71,7 +69,7 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on 
 
 ## 6 Oct 2026: LegCo spectrum restatement, new Sandbox restricted flying zones {#week-2026-10-06}
 
-- On 6 October the Secretary for Commerce and Economic Development told a Legislative Council (LegCo) panel that the drone spectrum licensing launched in October 2025 is aligned with Mainland spectrum planning and will help future cross-boundary drone operations. This restates existing policy; it is not a new spectrum instrument, and the 1430–1444 MHz licence is still limited to the Regulatory Sandbox.
+- On 6 October the Secretary for Commerce and Economic Development told a Legislative Council (LegCo) panel that the drone spectrum licensing launched in October 2025 is aligned with Mainland spectrum planning and will help future cross-boundary drone operations.
 - A Government Notice (G.N. 5936), dated 21 September and in effect from 26 September, designates restricted flying zones to support Regulatory Sandbox pilot projects. It was found after the week closed.
 - Mainland: Xinhua reported on 30 September that the Ministry of Public Security has disclosed an administrative-penalty benchmark for drone offences, in force on issuance. The ministry’s own text has not been read.
 
@@ -98,9 +96,7 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on 
 
 ## 4 Oct 2026: Transport secretary briefs LegCo; Action Plan still being drawn up {#week-2026-10-04}
 
-- On 2 October the Secretary for Transport and Logistics briefed a Legislative Council (LegCo) panel on the First Five-Year Plan and the 2026 Policy Address. The Chinese-only press release restates earlier commitments; it is a briefing, not a new legal instrument.
-- The Working Group will keep working on the Action Plan this year. Its full text is still not published.
-- The briefing restated three points: >140 regularised projects (PA 2026 ¶137); drafting of a dedicated law for unconventional aircraft to be completed next year and sent to LegCo; and a smart low-altitude traffic management system from 2028.
+- On 2 October the Secretary for Transport and Logistics briefed a Legislative Council (LegCo) panel on the First Five-Year Plan and the 2026 Policy Address.
 
 ### What this note added
 
@@ -116,15 +112,12 @@ Status as of the 6 Oct 2026 note. Each line takes the latest dated statement on 
 
 ## Earlier weeks
 
-Older notes are collapsed. Open a week to see its changes and source boxes.
-
 ### 27 Sep 2026: Transport secretary meets Mainland civil aviation regulator in Beijing {#week-2026-09-27}
 
 :::: {.callout-note collapse="true" title="Show the 27 Sep 2026 note"}
 
 - On 23 September the Secretary for Transport and Logistics, with the Permanent Secretary and the Director-General of Civil Aviation, met Deputy Administrator Liang Nan of the Civil Aviation Administration of China (CAAC) in Beijing.
 - Hong Kong’s press release lists the low-altitude economy among the aviation topics discussed, next to First Five-Year Plan and Policy Address measures on connectivity, air cargo and sustainable aviation fuel. The CAAC’s own Chinese notice of the meeting does not mention 低空经济 in its body.
-- This is policy coordination only: no new legal instrument, Sandbox result or market figure.
 
 #### What this note added
 
@@ -220,7 +213,6 @@ English: “The Government is committed to developing Hong Kong into the Asia-Pa
 
 - First weekly note. Hong Kong had no new primary changes on the Action Plan, Sandbox X cross-boundary results, advisory circulars, spectrum, the Working Group or LegCo, Cap. 448G s.12(2)(c), or who issued the HK\$350bn figure.
 - Mainland: on 11 August 2026 the Civil Aviation Administration of China published a consultation draft of its air traffic management rules (comments to 11 September), adding Chapter 12 on unmanned aircraft.
-- The draft is not yet in force. It is not the dedicated airworthiness (Art. 34) or implementing (Art. 225) regulation under the Civil Aviation Law.
 
 #### What this note added
 

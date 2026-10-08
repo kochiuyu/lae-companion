@@ -5,8 +5,6 @@ as_of: "2026-09-07"
 
 Read the official document linked for that week. The models (costs, demand, concentration) are taught in lecture and are not on this page.
 
-Start with the main references; the supplementary ones are for going deeper.
-
 ## Week 1: Introduction to LAE {#week-1}
 
 ### Main references
@@ -32,7 +30,7 @@ Start with the main references; the supplementary ones are for going deeper.
 **Academic**
 
 - [Straubinger, A., Rothfeld, R., Shamiyeh, M., Büchter, K.-D., Kaiser, J., & Plötner, K. O. (2020). An overview of current research and developments in urban air mobility – Setting the scene for UAM introduction. *Journal of Air Transport Management*, 87, 101852. doi:10.1016/j.jairtraman.2020.101852](https://doi.org/10.1016/j.jairtraman.2020.101852) — Widely cited survey of UAM research streams; a good map of the field for week 1.
-- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — Ecosystem and history overview; use for definitions and the stakeholder map, not its market numbers. **Caution:** do not reuse its market-forecast figures.
+- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — Ecosystem and history overview; use for definitions and the stakeholder map. **Caution:** do not reuse its market-forecast figures.
 
 **Official**
 
@@ -53,8 +51,6 @@ Start with the main references; the supplementary ones are for going deeper.
 
   [「政府將成立「發展低空經濟工作組」，由財政司副司長任組長，制訂發展策略和跨部門行動計劃」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2024/tc/p81.html))
   :::
-
-The week’s model is taught in lecture; this document is the official fact constraint.
 
 ### Supplementary references
 
@@ -77,8 +73,6 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 - [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. Official UAM market framing (not an HK government figure).
 
-The week’s model is taught in lecture; this document is the official fact constraint.
-
 ### Supplementary references
 
 **Academic**
@@ -96,8 +90,6 @@ The week’s model is taught in lecture; this document is the official fact cons
 ### Main references
 
 - [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. UAM / AAM market language for cross-checks with lecture models.
-
-The week’s model is taught in lecture; this document is the official fact constraint.
 
 ### Supplementary references
 
@@ -142,13 +134,11 @@ The week’s model is taught in lecture; this document is the official fact cons
   [「政府共接獲72個申請者提交監管沙盒試點項目申請，經發展低空經濟工作組審閱，其中38項成為首批推展的試點項目」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2025/03/20250320/20250320_141320_260.html))
   :::
 
-The week’s model is taught in lecture; this document is the official fact constraint.
-
 ### Supplementary references
 
 **Official**
 
-- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — LegCo Research Office comparison of Shenzhen and US public-private, academia and insurance partnership models. **Caution:** do not reuse its market-forecast figures.
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — LegCo Research Office comparison of Shenzhen and US public-private, academia and insurance partnership models.
 - [Transport and Logistics Bureau, HKSAR (12 February 2025). LCQ3: Promoting development of low-altitude economy (reply to LegCo question).](https://www.tlb.gov.hk/eng/legislative/transport/replies/2025/20250212c.html) — Official HK account of the Sandbox process and cross-boundary interface with Mainland authorities. Chinese version: [[《立法會三題：推動低空經濟發展》]{lang="zh-Hant"}](https://www.tlb.gov.hk/tc/legislative/transport/replies/2025/20250212c.html).
 
 **Think-tank**
@@ -186,7 +176,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 - [[国务院、中央军委 (2023-06-28 公布). 《无人驾驶航空器飞行管理暂行条例》（国令第761号）. 中国政府网.]{lang="zh-Hans"}](https://www.gov.cn/zhengce/content/202306/content_6888799.htm) — The Mainland's top-level UAS flight-management regulation; the national baseline next to HK's Cap. 448G. English gloss: Interim Regulations on the Flight Management of Unmanned Aircraft.
 - [EASA. *Special Condition for VTOL and Means of Compliance* (SC-VTOL; original issue 2 Jul 2019, page updated 18 Jul 2025).](https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-vtol) — EASA's certification basis for VTOL aircraft; the EU benchmark.
 - [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — A CAAC example of risk-based Specific-category approval (BVLOS delivery in populated areas). English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery. *Also listed in [Week 3](#week-3).*
-- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Side-by-side HK, Shenzhen and US regulatory comparison table. **Caution:** do not reuse its market-forecast figures. *Also listed in [Week 6](#week-6).*
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Side-by-side HK, Shenzhen and US regulatory comparison table. *Also listed in [Week 6](#week-6).*
 
 ## Week 8: Airspace Access and Integration {#week-8}
 
@@ -200,8 +190,6 @@ The week’s model is taught in lecture; this document is the official fact cons
 
   [「通訊事務管理局（通訊局） 已規劃1430 – 1444 兆赫頻帶（1.4 吉赫頻帶）供無人機系統使用，並設立新的牌照以促進該專用頻譜的使用。」…「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
   :::
-
-The week’s model is taught in lecture; this document is the official fact constraint.
 
 ### Supplementary references
 
@@ -234,7 +222,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 - [Clothier, R. A., Greer, D. A., Greer, D. G., & Mehta, A. M. (2015). Risk Perception and the Public Acceptance of Drones. *Risk Analysis*, 35(6), 1167–1183. doi:10.1111/risa.12330](https://doi.org/10.1111/risa.12330) — Risk perception and public acceptance of drones; a social-impact barrier.
 - [Al Haddad, C., Chaniotakis, E., Straubinger, A., Plötner, K., & Antoniou, C. (2020). Factors affecting the adoption and use of urban air mobility. *Transportation Research Part A*, 132, 696–712. doi:10.1016/j.tra.2019.12.020](https://doi.org/10.1016/j.tra.2019.12.020) — Adoption barriers and uncertainty in uptake. *Also listed in [Week 4](#week-4).*
-- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — Discusses market-potential uncertainty and its challenges. Cite it for method only; don't repeat its figures. **Caution:** do not reuse its market-forecast figures. *Also listed in [Week 1](#week-1).*
+- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — *Also listed in [Week 1](#week-1).*
 
 **Official**
 
@@ -256,8 +244,6 @@ The week’s model is taught in lecture; this document is the official fact cons
   [「較成熟的應用場景將恆常化運行，並推出進階版低空經濟「監管沙盒X」試點項目，涵蓋跨境路線、低空載人飛行器等技術複雜度較高的應用場景。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p156.html))
   :::
 
-The week’s model is taught in lecture; this document is the official fact constraint.
-
 ### Supplementary references
 
 **Academic**
@@ -276,19 +262,10 @@ The week’s model is taught in lecture; this document is the official fact cons
 
 - [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Action Plan commitment (text still OPEN) and Sandbox X framing.
 
-  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-  English: “We will formulate the Action Plan on Developing Low-Altitude Economy to advance Hong Kong as a major hub for low-altitude applications through institutional innovations and technological breakthroughs.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
+  Same official text as [Week 10](#week-10); not repeated here.
 
-  [「我們會制訂「發展低空經濟規劃行動綱領」，透過制度創新與技術突破，令香港成為低空創新應用的核心樞紐」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 
-  English: “We will regularise the operation of more mature application scenarios, and roll out the advanced low-altitude economy \"Regulatory Sandbox X \" pilot projects to cover application scenarios that are technically more complex, such as cross-boundary routes and passenger-carrying, low-altitude aircraft.” ([source](https://www.policyaddress.gov.hk/2025/en/p156.html))
-
-  [「較成熟的應用場景將恆常化運行，並推出進階版低空經濟「監管沙盒X」試點項目，涵蓋跨境路線、低空載人飛行器等技術複雜度較高的應用場景。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p156.html))
-  :::
-
-- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — Cross-boundary guidance under Sandbox X (not an operational corridor approval).
-
-The week’s model is taught in lecture; this document is the official fact constraint.
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — Cross-boundary guidance under Sandbox X.
 
 ### Supplementary references
 
@@ -299,7 +276,7 @@ The week’s model is taught in lecture; this document is the official fact cons
 **Official**
 
 - [FAA (July 2023). *Advanced Air Mobility (AAM) Implementation Plan: Near-term (Innovate28) Focus with an Eye on the Future of AAM*, Version 1.0.](https://www.faa.gov/sites/faa.gov/files/AAM-I28-Implementation-Plan.pdf) — FAA's integrated near-term AAM plan; a model for structuring a capstone roadmap.
-- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Ready-made HK, Shenzhen and US comparison for synthesis. **Caution:** do not reuse its market-forecast figures. *Also listed in [Week 6](#week-6).*
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Ready-made HK, Shenzhen and US comparison for synthesis. *Also listed in [Week 6](#week-6).*
 
 **Think-tank**
 
@@ -314,8 +291,6 @@ The week’s model is taught in lecture; this document is the official fact cons
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
   :::
-
-The week’s model is taught in lecture; this document is the official fact constraint.
 
 ### Supplementary references
 
