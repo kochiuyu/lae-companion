@@ -1,5 +1,5 @@
 ---
-title: "Landscape"
+title: "Who does what"
 as_of: "2026-10-08"
 page-layout: full
 ---
@@ -39,7 +39,7 @@ Tags mean the same as on Business news. Official counts stay on Tracker.
   span.landscape-entry { display: inline-block; scroll-margin-top: 80px; }
   li.landscape-entry-flash { background: #fff3c4; transition: background 0.4s; border-radius: 3px; }
 </style>
-<div id="landscape-glance-map" role="img" aria-label="Interactive GBA-focused map of unique Hong Kong and Greater Bay Area Landscape firms by cited place"></div>
+<div id="landscape-glance-map" role="img" aria-label="Interactive GBA-focused map of unique Hong Kong and Greater Bay Area firms on Who does what, by cited place"></div>
 <p id="landscape-glance-legend">
   <strong>Colour = geography:</strong>
   <span class="swatch" style="background:#003366"></span> Hong Kong &nbsp;
