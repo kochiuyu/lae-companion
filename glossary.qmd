@@ -359,7 +359,13 @@ English: “(i) 15 pilot projects under the UTM system demonstrations module, (i
 
 **Secretary for Transport and Logistics (STL) (運輸及物流局局長)**  
 Kind: Official  
-Political principal of the Transport and Logistics Bureau; Official status lists STL as **Deputy Head** of the Working Group on Developing Low-altitude Economy (with the Deputy Financial Secretary as Head and TLB as secretariat). Frequently the official voice on Action Plan progress, Smart Low-altitude Traffic Management System timing, and >150 kg unconventional-aircraft drafting (e.g. LegCo EDev Panel briefing 2 Oct 2026). See also Working Group; TLB; Official status (Who runs policy). Official status; Glossary Who regulates what sources; [GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm); [GIA, 2 Oct 2026](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm).
+Hong Kong Principal Official who heads the Transport and Logistics Bureau — **distinct from** TLB (the bureau). Current officeholder: Ms Mable Chan, JP (appointed **5 Dec 2024**). Official status also lists STL as Deputy Head of the Working Group on Developing Low-altitude Economy (Deputy Financial Secretary = Head; TLB = secretariat). See also TLB; Working Group. [GovHK EN](https://www.gov.hk/en/about/govdirectory/po/stl.htm); [GovHK 繁](https://www.gov.hk/tc/about/govdirectory/po/stl.htm); [TLB organisation](https://www.tlb.gov.hk/eng/aboutus/organisation/index.html).
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+English: Secretary for Transport and Logistics — Principal Official directory (appointment **5 Dec 2024**). ([source](https://www.gov.hk/en/about/govdirectory/po/stl.htm))
+
+[「運輸及物流局局長 — 香港特別行政區問責制主要官員，掌管運輸及物流局；現任局長為陳美寶女士, JP（2024年12月5日獲委任）。與「運輸及物流局」（決策局本身）不同。」]{lang="zh-Hant"} (LAE-Intel gloss from GovHK / TLB org materials; [繁體目錄](https://www.gov.hk/tc/about/govdirectory/po/stl.htm))
+:::
 
 **Remote pilot certificate (遙控駕駛員證書)**  
 Kind: Official  
@@ -393,7 +399,7 @@ Official Chinese form 輔助人員. CAD AC-013_C §4.3(b), §8.4.
 
 **TLB (運輸及物流局)**  
 Kind: Official  
-Transport and Logistics Bureau; policy bureau supporting the Working Group secretariat and LAE sandbox communications. TLB / WG materials.
+Transport and Logistics Bureau — the policy **bureau** (not the Principal Official). Supports the Working Group secretariat and LAE sandbox communications. See also Secretary for Transport and Logistics (STL). TLB / WG materials; [TLB organisation](https://www.tlb.gov.hk/eng/aboutus/organisation/index.html).
 
 **Unconventional aircraft (非傳統飛行器)**  
 Kind: Official  
@@ -465,14 +471,14 @@ Mainland national airspace classification labels (2023 release); **not Hong Kong
 
 **Guangdong Provincial People's Government General Office (广东省人民政府办公厅)**  
 Kind: Official  
-Issuer of 粤府办〔2024〕6号 — 《广东省推动低空经济高质量发展行动方案（2024—2026年）》 (21 May 2024). On this site the Greater Bay Area corridor language in that plan is treated as a **policy aim**, not evidence that a Shenzhen–Hong Kong corridor is operating. Mainland / GBA comparator — **not Hong Kong law**. See also 粤府办〔2024〕6号; Official status (Greater Bay Area); Timeline; Glossary Who regulates what diagram. [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
+Issuer of 粤府办〔2024〕6号 — 《广东省推动低空经济高质量发展行动方案（2024—2026年）》 (21 May 2024). On this site the Greater Bay Area corridor language in that plan is treated as a **policy aim**, not evidence that a Shenzhen–Hong Kong corridor is operating. Mainland / GBA comparator — **not Hong Kong law**. See also 粤府办〔2024〕6号 (粤府办 series; sibling letter-series 粤办函〔2025〕268号 is not 粤府办); Official status (Greater Bay Area); Timeline; Glossary Who regulates what diagram. [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
 
 **粤府办〔2024〕6号 (《广东省推动低空经济高质量发展行动方案（2024—2026年）》)**  
 Kind: Official  
-Guangdong provincial LAE action plan for **2024–2026**, issued **21 May 2024** by the Guangdong Provincial People’s Government General Office. Evidenced on Official status / Timeline; Greater Bay Area corridor language on this site is a **policy aim**, not evidence of an operating Shenzhen–Hong Kong corridor. Official English counterpart: **OPEN** (not located). See also Guangdong Provincial People’s Government General Office. Official status; [gd.gov.cn](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
+Notice of the General Office of the People's Government of Guangdong Province printing the *Action Plan of Guangdong Province on Promoting High-Quality Development of the Low-Altitude Economy (2024–2026)* (issued with provincial government consent). Document series **粤府办** (not 粤办函). 成文 **21 May 2024**; 发布 **22 May 2024**. Mainland / GBA comparator — **not Hong Kong law**. Official full English text: **OPEN** (ZH only on portal). Instrument identity only — no provincial 产业规模 / market-size figures. Related later letter-series measure: **粤办函〔2025〕268号** (same issuer; different numbering — do not relabel as 粤府办). See also Guangdong Provincial People’s Government General Office. [gd.gov.cn](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html); sibling [粤办函〔2025〕268号](https://www.gd.gov.cn/gkmlpt/content/4/4788/post_4788687.html).
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
-[「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「2024年5月21日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
+[「广东省人民政府办公厅关于印发《广东省推动低空经济高质量发展行动方案（2024—2026年）》的通知（经省人民政府同意印发）。」…「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「2024年5月21日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
 :::
 
 **Ministry of Transport (交通运输部 / MOT)**  
@@ -483,20 +489,30 @@ Mainland ministry that promulgated CCAR-92 via MOT Order 2024 No. 1 (in force **
 Kind: Official  
 National Development and Reform Commission — issued 发改低空〔2025〕1676号 (22 Dec 2025), the trial statistical classification of 低空经济及其核心产业. That instrument is a **classification**, not an official national scale (规模) figure. Mainland comparator — **not Hong Kong law**. See also 低空经济; Official status. [gov.cn](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm).
 
+**NPC (全国人民代表大会)**  
+Kind: Official  
+National People's Congress — the highest organ of State power of the People's Republic of China; its permanent body is the Standing Committee of the NPC. Mainland institutional comparator — **not Hong Kong law** (institutional bio only, not an LAE policy claim). See also Civil Aviation Law (2025 revision); CAAC. [NPC EN organisation](http://www.npc.gov.cn/zgrdw/englishnpc/Organization/node_2846.htm); [state structure](http://www.npc.gov.cn/zgrdw/englishnpc/stateStructure/node_3826.htm); [ZH](http://www.npc.gov.cn/npc/c2434/c26314/c26319/201905/t20190522_215737.html).
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+English: National People's Congress — highest / supreme organ of state power; Standing Committee is its permanent body. ([organisation](http://www.npc.gov.cn/zgrdw/englishnpc/Organization/node_2846.htm); [state structure](http://www.npc.gov.cn/zgrdw/englishnpc/stateStructure/node_3826.htm))
+
+[「全国人民代表大会是中华人民共和国的最高国家权力机关；其常设机关是全国人民代表大会常务委员会。」]{lang="zh-Hans"} ([source](http://www.npc.gov.cn/npc/c2434/c26314/c26319/201905/t20190522_215737.html))
+:::
+
 **NPC Standing Committee (全国人民代表大会常务委员会)**  
 Kind: Official  
-Revised and adopted the Civil Aviation Law of the PRC (2025 revision) on **27 Dec 2025** (President’s Order No. 65 path; in force **1 Jul 2026**). Mainland comparator — **not Hong Kong law**. See also Civil Aviation Law (2025 revision); CAAC. Official status; Timeline; Glossary Civil Aviation Law callout.
+Permanent body of the NPC. Revised and adopted the Civil Aviation Law of the PRC (2025 revision) on **27 Dec 2025** (President’s Order No. 65 path; in force **1 Jul 2026**). Mainland comparator — **not Hong Kong law**. See also NPC; Civil Aviation Law (2025 revision); CAAC. Official status; Timeline.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The Civil Aviation Law of the People's Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People's Congress of the People's Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
 :::
 
-**State Council and Central Military Commission (国务院、中央军事委员会)**  
+**State Council (国务院)**  
 Kind: Official  
-Joint Mainland authority named on this site for the Interim UAS Ordinance (**国令761**, in force **1 Jan 2024**) and for Civil Aviation Law Art. **258**, which provides that where the State Council and the Central Military Commission have other provisions on the administration of unmanned aircraft, those provisions prevail. Mainland comparator — **not Hong Kong law**. See also 国令761; Civil Aviation Law (2025 revision). Official status; Glossary Who regulates what diagram; Readings.
+State Council of the People's Republic of China (Central People's Government) — the executive body of the highest organ of state power and the highest organ of State administration (*Organic Law of the State Council*, Art. 2; 2024 revision published **11 Mar 2024**). Mainland institutional comparator — **not Hong Kong law**. Bio only — LAE decrees such as **国令761** keep their own rows (Art. 258 also names the Central Military Commission with the State Council). See also 国令761; Civil Aviation Law (2025 revision). [gov.cn Organic Law text](https://www.gov.cn/yaowen/liebiao/202403/content_6938923.htm); [english.www.gov.cn](https://english.www.gov.cn/).
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
-[「第二百五十八条　国务院、中央军事委员会对无人驾驶航空器的管理另有规定的，从其规定。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
+[「中华人民共和国国务院，即中央人民政府，是最高国家权力机关的执行机关，是最高国家行政机关。」]{lang="zh-Hans"} (*国务院组织法* Art. 2; [source](https://www.gov.cn/yaowen/liebiao/202403/content_6938923.htm))
 :::
 
 **低空经济**  
@@ -522,7 +538,7 @@ Course comparators only — **not Hong Kong law**. Dated instruments on [Timelin
 
 **AiRMOUR**  
 Kind: Course  
-EU-funded research and innovation project on sustainable urban air mobility, with a strong focus on emergency medical services; its *Guidebook for Urban Air Mobility Integration* (2023) is used in course materials (urban design/mobility, aviation safety, public acceptance, integration-process management). **Course comparator** — not a Hong Kong regulator and not Hong Kong law. Do not treat guidebook scenario factors as official coefficients. See also Course overview; Lectures (Week 4); EASA. Lectures Week 4; Course overview.
+EU Horizon 2020 Research and Innovation Action (grant **101006601**; **1 Jan 2021** → **31 Dec 2023**) that researched and validated urban air mobility concepts for emergency medical services; coordinated by VTT (Finland); **project closed**. **Not** a company, aircraft brand, or OEM product name (CORDIS lists participants separately). Course comparator — not Hong Kong law. See also Course overview; Lectures (Week 4); EASA. [CORDIS](https://cordis.europa.eu/project/id/101006601); [airmour.eu](https://airmour.eu/project-description/).
 
 **EASA (European Union Aviation Safety Agency)**  
 Kind: Official  
@@ -883,9 +899,13 @@ English: “Based on the latest publicly available data, the industry value adde
 Kind: Course  
 Traffic carried divided by capacity offered (seats or payload). Course.
 
+**NASA (National Aeronautics and Space Administration)**  
+Kind: Official  
+U.S. government agency responsible for science and technology related to air and space; opened **1 Oct 1958**. Course / Readings comparator — **not Hong Kong law**. Institution bio only — do **not** copy UAM market-study unconstrained/constrained dollar figures or TAM from this card; those stay on the separate Course rows below. See also NASA UAM market study constraints; unconstrained versus constrained market; Readings; Timeline. [What Is NASA?](https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-nasa-grades-5-8/); [About](https://www.nasa.gov/about/).
+
 **NASA UAM market study constraints**  
 Kind: Course  
-Legal, weather, infrastructure and acceptance shrink the unconstrained market. NASA 2018.
+Legal, weather, infrastructure and acceptance shrink the unconstrained market. NASA 2018. See also NASA (agency bio).
 
 **Pigovian instrument**  
 Kind: Course  
