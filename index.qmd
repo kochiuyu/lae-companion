@@ -5,7 +5,7 @@ as_of: "2026-10-11"
 ---
 
 **The Chinese University of Hong Kong**  
-Department of Decisions, Operations and Technology  
+CUHK Business School · Decisions, Operations and Technology  
 Master of Aviation Management  
 
 **Course:** DOTE5891 Low Altitude Economics  
