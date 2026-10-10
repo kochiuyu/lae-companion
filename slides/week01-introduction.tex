@@ -1,0 +1,716 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE ======================
+\begin{frame}
+    \title{Introduction to LAE}
+    \author{Chiu Yu KO}
+    \institute{Low Altitude Economics}
+    \date{Week 1}
+    
+  \titlepage
+\end{frame}
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+  \frametitle{Learning Objectives}
+  By the end of this class, you should be able to:
+  \begin{itemize}
+    \item \textbf{Define} the Low Altitude Economy (LAE) in plain English.
+    \item \textbf{Identify} the main business opportunities within the LAE.
+    \item \textbf{Map} who creates value and who gets paid in the LAE ecosystem.
+    \item \textbf{Explain} how Hong Kong's regulatory sandbox can support market development.
+    \item \textbf{Use} simple calculations to assess whether an LAE service might be commercially viable.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER (REVISED WITH FACTS) ======================
+\begin{frame}[t]
+  \frametitle{Why LAE Matters for Hong Kong}
+  \textbf{Imagine two possible services in Hong Kong:}
+  \begin{itemize}
+      \item A drone carries urgent medical supplies across Victoria Harbour, avoiding road congestion.
+      \item An electric air taxi connects a business district with the airport, reducing door-to-door travel time.
+  \end{itemize}
+  \vspace{0.3cm}
+  \textbf{What could this mean for the economy?}
+  \begin{itemize}
+    \item Low-altitude airspace adds a \textbf{third dimension} to the transport network.
+    \item One 2025 study projects that Hong Kong's LAE-related industries could generate approximately \textbf{HK\$350 billion in annual value added by 2050}, with supporting services contributing a substantial share.
+    \item \textbf{Quick poll (2 min):} ``Where is Hong Kong most likely to create value in the low-altitude economy?''
+  \end{itemize}
+  \vfill
+  {\tiny Source: Our Hong Kong Foundation, \textit{Taking Flight: Forging a Future for Hong Kong's Low-Altitude Economy} (2025).}
+\end{frame}
+
+% ====================== Week 1 - Session 1 Title ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Foundations, Definitions \& Economic Significance
+  \end{center}
+\end{frame}
+
+% ====================== Slide 3.5: WHAT IS LAE (VISUAL + FACT) ======================
+\begin{frame}[t]
+  \frametitle{What is the Low Altitude Economy?}
+  \textbf{LAE = Economic activity that uses low-altitude airspace, aircraft, infrastructure, and related services.}
+  \begin{columns}[T, onlytextwidth]
+    \begin{column}{0.35\textwidth}
+      \raggedleft
+      \begin{tikzpicture}[scale=0.75, every node/.style={font=\small}]
+        \useasboundingbox (-2.2,-1.2) rectangle (2.2,4);
+        \fill[gray!10] (-2.2,0) rectangle (2.2,4);
+        \fill[gray!30] (-2.2,-0.5) rectangle (2.2,0);
+        \fill[cuhkpurple!20] (-2.0,0) rectangle (-1.2,2.5);
+        \fill[cuhkpurple!20] (-0.5,0) rectangle (0.4,3.0);
+        \fill[cuhkpurple!20] (1.1,0) rectangle (2.0,2.0);
+        \draw[thick, cuhkpurple, <->] (-2.2,3.5) -- (2.2,3.5) node[midway, fill=white, inner sep=1pt] {\tiny typically below 1,000 m};
+        \node[draw, circle, minimum size=4pt, fill=black] (drone) at (-0.8,1.6) {};
+        \draw[thick] (-1.0,1.6) -- (-0.6,1.6);
+        \draw[thick] (-0.9,1.8) -- (-0.7,1.8);
+        \node[left=1pt of drone, font=\tiny\bfseries] {Drone};
+        \fill[cuhkgold] (1.1,2.0) rectangle (2.0,2.15);
+        \node[align=center, font=\tiny\bfseries] at (1.55, 2.3) {Vertiport};
+        \node[align=center, text width=3.2cm, font=\tiny] at (0,-0.9) {\textbf{eVTOL}: electric vertical take-off \\ and landing aircraft};
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.65\textwidth}
+      \hspace{-0.5cm}
+      \begin{itemize}
+        \item \textbf{Aircraft}: Drones, helicopters, and eVTOL aircraft.
+        \item \textbf{Physical infrastructure}: Vertiports, charging facilities, and maintenance hubs.
+        \item \textbf{Digital infrastructure}: Communications, traffic-management software, and data platforms.
+        \item \textbf{Applications and services}: Logistics, inspection, emergency response, passenger transport, finance, and insurance.
+      \end{itemize}
+      \vspace{0.25cm}
+      \small\textit{The exact altitude boundary varies across policy and industry contexts.}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ====================== REVISED SLIDE 7: LAE vs TRADITIONAL AVIATION ======================
+\begin{frame}[t]
+  \frametitle{How LAE Differs from Traditional Aviation}
+ 
+  \textbf{Recall:} LAE covers economic activity using low-altitude airspace and its supporting ecosystem.
+ 
+  Traditional aviation (e.g., Cathay Pacific) operates very differently:
+  \begin{itemize}
+    \item Uses massive, expensive aircraft
+    \item Departs from giant, centralized airports
+    \item Flies long distances at high altitude
+  \end{itemize}
+ 
+  \vspace{0.3cm}
+  \textbf{The LAE Shift: Key Business Implications}
+  \begin{itemize}
+    \item \textbf{Short-distance, high-frequency operations} inside or between cities
+    \item \textbf{Entire ecosystem} required: charging pads, digital traffic software, insurance, and maintenance
+    \item \textbf{Analogy:} Think of LAE less like a traditional airline and more like an Uber or broadband internet network for the sky
+  \end{itemize}
+ 
+  \textit{Result: LAE services have different cost structures, operating models, and regulatory needs.}
+\end{frame}
+
+% ====================== Slide 8: CLARIFICATION ======================
+\begin{frame}[t]
+  \frametitle{Jargon Buster: LAE, UAM, and AAM}
+
+  You will hear these acronyms constantly. Here is what they actually mean:
+
+  \begin{itemize}
+    \item \textbf{LAE (Low Altitude Economy):} The entire umbrella term we defined earlier. Includes drones, flying taxis, infrastructure, and the software running it all.
+    \item \textbf{UAM (Urban Air Mobility):} A specific subset of LAE. This refers \textit{only} to moving people or cargo over short distances inside a crowded city (like Central to Kowloon).
+    \item \textbf{AAM (Advanced Air Mobility):} A broader term for using new aircraft to connect cities to suburbs or rural areas.
+    \item \textbf{Course focus:} LAE economics starting \textbf{HK-first}, then expanding to the \textbf{Greater Bay Area (GBA)} and \textbf{the rest of China}.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 9: CORE USE CASES (REVISED WITH FACTS) ======================
+\begin{frame}[t]
+  \frametitle{Four Ways to Create Value in the Sky}
+  LAE services must solve a customer problem better than existing alternatives.
+  \vspace{0.25cm}
+  \begin{enumerate}
+    \item \textbf{Cargo and logistics:} High-priority items for which speed, reliability, or access matters.
+    \item \textbf{Passenger air mobility:} Premium short-distance travel where door-to-door time savings justify the fare.
+    \item \textbf{Industrial inspection:} Inspection of bridges, buildings, power infrastructure, and remote assets with less disruption and risk.
+    \item \textbf{Emergency and public services:} Medical delivery, emergency response, search and rescue, and environmental monitoring.
+  \end{enumerate}
+  \vspace{0.35cm}
+  \textbf{Managerial question:} Which applications create enough value to cover the cost, risk, and regulatory requirements?
+\end{frame}
+
+
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: ``Value of Time'' \& ``NPV''}
+  \textbf{1. Value of Time (VOT)}
+  \begin{itemize}
+    \item VOT expresses how much a customer is willing to pay to save travel time.
+    \item It varies across customers, purposes, and situations. Saving 20 minutes may be worth much more for an urgent medical delivery than for a routine trip.
+  \end{itemize}
+  \vspace{0.25cm}
+  \textbf{2. Net Present Value (NPV)}
+  \begin{itemize}
+    \item NPV asks whether the future cash generated by a project is sufficient to justify the investment made today.
+    \item A positive NPV suggests that the project may be financially attractive. A negative NPV means that it does not justify the investment under the assumptions used.
+  \end{itemize}
+\end{frame}
+
+% ====================== REVISED SLIDE 5: NPV FORMULA (NOW CONSISTENT) ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: Assessing Market Viability}
+  \begin{block}{Step 1: Does the service create value for customers?}
+  \[
+    \text{Value of Time Saved per Trip}=VOT\times\Delta T
+  \]
+  \end{block}
+  \begin{block}{Step 2: Can the operator capture enough of that value?}
+  \[
+    \text{Annual Operating Profit}=\text{Annual Revenue}-\text{Annual Operating Cost}
+  \]
+  \end{block}
+  \begin{block}{Step 3: Does the project justify the initial investment?}
+  \[
+    \text{NPV}=-\text{Initial Investment}+\text{Present Value of Future Profits}
+  \]
+  \end{block}
+  \textbf{Core lesson:} Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability.
+\end{frame}
+
+% ====================== REVISED SLIDE 6: BACK-OF-ENVELOPE (NPV) – NOW CONSISTENT ======================
+\begin{frame}[t, shrink=15]
+  \frametitle{Back-of-the-Envelope: How Friction Destroys Value}
+  \textbf{Scenario:} A proposed air-taxi service connects HKIA and Central. The customer's time is worth HK\$1,000 per hour.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case A: Smooth Journey}
+      \begin{itemize}
+        \item Flight time: 10 minutes
+        \item Boarding and waiting: 5 minutes
+        \item Total journey: 15 minutes
+        \item Time saved: 30 minutes = 0.5 hours
+        \item Value of time saved: \(1000\times0.5=\text{HK\$500}\)
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case B: Friction Shock}
+      \begin{itemize}
+        \item Flight time: 10 minutes
+        \item Boarding and waiting: 25 minutes
+        \item Total journey: 35 minutes
+        \item Time saved: 10 minutes \(\approx0.167\) hours
+        \item Value of time saved: \(1000\times0.167\approx\text{HK\$167}\)
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \vspace{0.25cm}
+  \textit{Takeaway: A fast aircraft does not guarantee a valuable service. Waiting, transfers, and access time can sharply reduce the fare premium that customers will accept.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+% ====================== Slide 10: CONCEPT PRIMER 2 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: How Customers Compare Transport Options}
+  When choosing between the MTR, a taxi, or an air taxi, customers consider more than the ticket price.
+  \begin{itemize}
+    \item \textbf{Money cost}: Fare and related charges.
+    \item \textbf{Time cost}: In-vehicle time, waiting, boarding, and transfers.
+    \item \textbf{Other factors}: Reliability, convenience, comfort, and perceived safety.
+  \end{itemize}
+  \vspace{0.35cm}
+  Economists combine money and time into a simple measure called \textbf{generalized cost}.
+\end{frame}
+
+% ====================== Slide 11: STANDALONE FORMULA ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: Generalized Cost}
+  \begin{block}{The Formula}
+  \[
+    \text{Generalized Cost}=\text{Ticket Price}+VOT\times\text{Travel Time}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item The formula converts travel time into a monetary value.
+    \item All else equal, the customer prefers the option with the lower generalized cost.
+    \item A faster mode can charge more, but only up to the value of the time it saves.
+  \end{itemize}
+  \begin{block}{Managerial Lesson}
+    Route planners must consider the complete journey, not only the time spent in the aircraft.
+  \end{block}
+\end{frame}
+
+% ====================== Slide 12: BACK-OF-ENVELOPE (UTILITY) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: Finding the Maximum Ticket Price}
+  \textbf{Scenario:} What is the most a time-sensitive traveller would pay for an air taxi before choosing the Airport Express instead?
+  \textbf{Assumption:} VOT = HK\$10 per minute.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Airport Express}
+      \begin{itemize}
+        \item Ticket price: HK\$115
+        \item Journey time: 24 minutes
+        \item \(GC_{MTR}=115+10(24)\)
+        \item \textbf{Generalized cost = HK\$355}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Air Taxi}
+      \begin{itemize}
+        \item Journey time: 8 minutes
+        \item Match the MTR generalized cost:
+        \item \(P+10(8)=355\)
+        \item \textbf{Maximum ticket price = HK\$275}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \vspace{0.25cm}
+  \textit{Takeaway: Under these simplified assumptions, HK\$275 makes the traveller indifferent. Actual demand also depends on waiting, access, reliability, comfort, and perceived safety.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+% ====================== Slide 13: ECONOMIC SCALE HK ======================
+\begin{frame}[t]
+  \frametitle{Hong Kong's Possible Role: The ``Service Layer''}
+  \textbf{If LAE creates substantial value, where might Hong Kong hold an advantage?}
+  \begin{itemize}
+    \item The GBA has significant strengths in aircraft manufacturing, electronics, supply chains, and large-scale testing.
+    \item Hong Kong may contribute high-value supporting services that help LAE businesses operate, finance growth, and expand internationally:
+    \begin{itemize}
+      \item \textbf{Finance and leasing}
+      \item \textbf{Insurance and risk management}
+      \item \textbf{Legal, certification, and professional services}
+      \item \textbf{Digital platforms and international business development}
+    \end{itemize}
+  \end{itemize}
+  \textit{This is a strategic proposition to evaluate, not a predetermined outcome.}
+\end{frame}
+
+% ====================== Slide 14: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large Who Makes What? (The Value Chain)
+  \end{center}
+\end{frame}
+
+% ====================== Slide 15: JARGON BUSTER ======================
+\begin{frame}[t]
+  \frametitle{Jargon Buster: The LAE Ecosystem}
+  \begin{itemize}
+    \item \textbf{OEM (Original Equipment Manufacturer):} A company that produces the aircraft or key components.
+    \item \textbf{Vertiport:} A site designed for eVTOL take-off, landing, passenger handling, charging, and related operations.
+    \item \textbf{UTM / U-space:} Digital services and procedures that support the safe and efficient management of unmanned-aircraft operations.
+    \item \textbf{Operator:} The organization that provides the transport, logistics, inspection, or public service to the customer.
+  \end{itemize}
+\end{frame}
+
+
+
+% ====================== REVISED SLIDE 16: LAE VALUE CHAIN (VISUAL) ======================
+
+
+
+\begin{frame}[t]
+  \frametitle{The LAE Ecosystem -- Who Gets Paid?}
+  \begin{center}
+  \resizebox{0.92\linewidth}{!}{%
+  \begin{tikzpicture}[every node/.style={font=\small, align=center}]
+    \tikzset{box/.style={rectangle, rounded corners=5pt, minimum width=3.2cm, minimum height=0.8cm, draw=cuhkpurple, fill=cuhklight, thick}}
+    
+    \node[box] (oem) at (-3.8, 1.8) {Aircraft and\\Components};
+    \node[box] (infra) at (0, 1.8) {Vertiports, Energy\\and Maintenance};
+    \node[box] (digital) at (3.8, 1.8) {UTM, Communications\\and Data};
+    \node[box, fill=cuhkgold!25] (operator) at (0, 0.4) {Operators};
+    \node[box] (users) at (0, -0.9) {Customers and Public Agencies};
+    
+    % Scaled down width and broken into two readable lines
+    \node[box, text width=9.5cm] (services) at (0, -2.1) {Supporting Services: Finance, Leasing, Insurance,\\Certification, Legal and Professional Services};
+
+    \draw[->, thick, cuhkpurple] (oem) -- (operator);
+    \draw[->, thick, cuhkpurple] (infra) -- (operator);
+    \draw[->, thick, cuhkpurple] (digital) -- (operator);
+    \draw[<->, thick, cuhkgold] (operator) -- (users);
+    \draw[->, thick, cuhkpurple] (services) -- (operator);
+    \draw[->, thick, cuhkpurple] (services.west) to[bend left=20] (oem.south);
+    \draw[->, thick, cuhkpurple] (services.east) to[bend right=20] (digital.south);
+  \end{tikzpicture}%
+  }
+  \end{center}
+  \vfill
+  \centering\small\textit{Managerial question: Which participants create value, bear risk, and have bargaining power?}
+\end{frame}
+
+% ====================== Slide 16.1: APPLIED TOOL (VALUE CAPTURE) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: How the Ticket Price is Shared}
+  \begin{block}{A Simple Price Decomposition}
+  \[
+  \begin{split}
+  \text{Ticket Price}={}&\text{Aircraft Cost}+\text{Vertiport Fee}+\text{Energy}\\
+  &+\text{UTM Fee}+\text{Maintenance and Labour}\\
+  &+\text{Insurance and Overhead}+\text{Operator Margin}
+  \end{split}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item Different participants may charge usage fees, lease payments, or service fees.
+    \item The operator faces direct demand risk because it must attract customers and fill available capacity.
+    \item Infrastructure and platform providers may face less direct passenger risk, but they still depend on traffic volume and bear investment, technology, and regulatory risks.
+  \end{itemize}
+  \textbf{Core lesson:} Creating value does not guarantee capturing value. Contract design and bargaining power determine how revenue is shared.
+\end{frame}
+
+% ====================== Slide 16.2: BACK-OF-ENVELOPE (PIE CHART) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Illustrative Unit Economics: Where Might HK\$300 Go?}
+  \textbf{Scenario:} A passenger pays HK\$300 for an air-taxi trip. Assume the fare is allocated as follows.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Payments to Partners}
+      \begin{itemize}
+        \item Vertiport fee: HK\$100
+        \item UTM and digital services: HK\$20
+        \item Insurance and financing: HK\$30
+        \item Aircraft lease allocation: HK\$50
+        \item \textbf{Total partner payments: HK\$200}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Operator Economics}
+      \begin{itemize}
+        \item Cash remaining: HK\$100
+        \item Energy: HK\$20
+        \item Maintenance and labour: HK\$50
+        \item \textbf{Operator margin: HK\$30}
+      \end{itemize}
+      \end{block}
+      \textit{If all costs remain unchanged, cutting the fare by HK\$50 turns a HK\$30 margin into a HK\$20 loss.}
+    \end{column}
+  \end{columns}
+  \vfill
+  {\tiny Hypothetical figures for classroom discussion only. Actual costs and contracts may differ substantially.}
+\end{frame}
+
+% ====================== Slide 17: INCENTIVES & FLOWS ======================
+\begin{frame}[t]
+  \frametitle{Stakeholder Conflict: Different Objectives}
+  An \textbf{externality} arises when an activity imposes costs or benefits on others that are not fully reflected in the decision-maker's private costs or revenues.
+  \begin{itemize}
+    \item \textbf{Operators:} Want enough flights and passengers to cover fixed costs.
+    \item \textbf{Investors:} Want a credible route to approval, revenue, and scale.
+    \item \textbf{Government:} Balances innovation, safety, efficiency, and public interest.
+    \item \textbf{Communities:} Care about noise, privacy, visual impact, and fair access to benefits.
+  \end{itemize}
+  \textbf{Managerial challenge:} How can a service reach commercial scale while maintaining public acceptance?
+\end{frame}
+
+% ====================== Slide 17.1: BACK-OF-ENVELOPE (CURFEW) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: How Operating Restrictions Affect Cost}
+  \textbf{Scenario:} Noise concerns lead to a restriction on evening and overnight flights. Assume a fixed aircraft lease cost of HK\$10,000 per day.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case A: Wider Operating Window}
+      \begin{itemize}
+        \item Flights per day: 50
+        \item Fixed cost per flight:
+        \item HK\$10,000 / 50 = \textbf{HK\$200}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case B: Restricted Operating Window}
+      \begin{itemize}
+        \item Flights per day: 20
+        \item Fixed cost per flight:
+        \item HK\$10,000 / 20 = \textbf{HK\$500}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \vspace{0.25cm}
+  \textit{Takeaway: Public acceptance is not merely a public-relations issue. Operating restrictions can directly affect utilization, unit costs, and commercial viability.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis; not current policy or market data.}
+\end{frame}
+
+% ====================== Slide 18: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Hong Kong Policy, "The Sandbox", and Technology
+  \end{center}
+\end{frame}
+
+% ====================== Slide 19: THE AVIATION PROBLEM ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: The Aviation Safety Problem}
+  
+  \textbf{Why don't we have flying taxis everywhere already?}
+
+  \vspace{0.3cm}
+  \begin{itemize}
+      \item Aviation is the safest form of travel in the world because of incredibly strict regulations (often called "Part 25" certification). 
+      \item To get a new airplane certified for the public, a company must spend \textbf{up to 10 years} and billions of dollars proving it won't crash.
+      \item \textbf{The Problem:} Startups building drones do not have billions of dollars. If they have to wait 10 years to fly their first paying customer, they will run out of money and die.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 20: POLICY MOMENTUM ======================
+\begin{frame}[t]
+  \frametitle{The Solution: Hong Kong's Regulatory Sandbox}
+  A regulatory sandbox allows companies and public agencies to test selected LAE applications under controlled conditions.
+  \begin{itemize}
+    \item \textbf{Test safely:} Trials take place on approved routes and under specified operating conditions.
+    \item \textbf{Learn early:} Companies and regulators collect evidence before wider deployment.
+    \item \textbf{Reduce uncertainty:} Problems can be identified before very large investments are made.
+    \item \textbf{Support regulation:} Trial results help the Government develop appropriate operating and safety requirements.
+  \end{itemize}
+  \textit{The sandbox does not remove safety requirements. It provides a controlled pathway for testing and learning.}
+  \vfill
+  {\tiny Source: Hong Kong Transport and Logistics Bureau, Low-altitude Economy Regulatory Sandbox X.}
+\end{frame}
+
+% ====================== Slide 21: STANDALONE FORMULA ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: How a Sandbox May Reduce Entry Barriers}
+  \begin{block}{A Simple Framework}
+  \begin{align*}
+        \text{Entry Barrier}= & \text{Investment Cost}+\text{Compliance Cost}\\&+\text{Cost of Delay}+\text{Uncertainty}
+  \end{align*}
+  \end{block}
+  \begin{itemize}
+    \item \textbf{Investment cost}: Aircraft, infrastructure, software, and staff.
+    \item \textbf{Compliance cost}: Testing, documentation, professional services, and approvals.
+    \item \textbf{Cost of delay}: Cash spent while waiting before wider operation.
+    \item \textbf{Uncertainty}: The risk that the technology, business model, or approval pathway may not work as expected.
+  \end{itemize}
+  \textbf{Core lesson:} A sandbox may reduce delay and uncertainty, making a project easier to test and finance. It does not eliminate compliance or safety costs.
+\end{frame}
+
+% ====================== Slide 22: BACK-OF-ENVELOPE (SANDBOX) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: The Value of Faster Learning}
+  \textbf{Scenario:} A drone-delivery startup must decide how much capital to commit before it knows whether its service can operate reliably and gain approval.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Without Early Controlled Trials}
+      \begin{itemize}
+        \item Larger upfront commitment
+        \item Slower operational learning
+        \item More uncertainty about routes and requirements
+        \item Greater risk of redesign after investment
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{With a Regulatory Sandbox}
+      \begin{itemize}
+        \item Smaller staged tests
+        \item Earlier evidence on safety and reliability
+        \item Better information for regulators and investors
+        \item Investment can be linked to milestones
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \vspace{0.3cm}
+  \textit{Takeaway: The main economic value of a sandbox is faster, lower-cost learning under controlled conditions.}
+\end{frame}
+
+% ====================== Slide 23: GBA COMPARATORS ======================
+\begin{frame}[t]
+  \frametitle{Working with the Greater Bay Area (GBA)}
+  Hong Kong's LAE development is closely connected with the wider GBA ecosystem.
+  \begin{itemize}
+    \item \textbf{Manufacturing and technology:} Shenzhen and other GBA cities have strong capabilities in drones, electronics, batteries, and supply chains.
+    \item \textbf{Hong Kong capabilities:} International finance, insurance, legal services, professional services, logistics, and a complex urban testing environment.
+    \item \textbf{Cross-boundary opportunity:} Logistics and public-service applications may create value, but require coordination on routes, customs, data, communications, and safety requirements.
+    \item \textbf{Strategic question:} How can Hong Kong and other GBA cities combine complementary strengths rather than duplicate them?
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 24: CONCEPT PRIMER 3 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: The "Empty Seat" Problem}
+  
+  \textbf{How do airlines make cheap tickets?}
+  \begin{itemize}
+      \item A Boeing 777 costs hundreds of millions of dollars. But it has \textbf{300+ seats}. By splitting the cost of the fuel and the pilots across 300 people, your ticket to Japan is affordable.
+  \end{itemize}
+
+  \vspace{0.3cm}
+  \textbf{The Flying Taxi Problem:}
+  \begin{itemize}
+      \item An eVTOL flying taxi only has \textbf{4 seats}.
+      \item You cannot divide the cost of the pilot and the machine by 300. You divide it by 4. 
+      \item To prevent a ticket from costing HK\$5,000, you have to find a different mathematical trick.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 25: STANDALONE FORMULA ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: The Unit Cost Equation}
+  \begin{block}{The Formula}
+  \begin{align*}
+         \text{Cost per Passenger}
+    =& \text{Variable Cost per Passenger} \\
+    +&\frac{\text{Daily Fixed Cost}}
+    {\text{Flights per Day}\times\text{Seats per Flight}\times\text{Load Factor}}
+  \end{align*}
+  \end{block}
+  \begin{itemize}
+    \item \textbf{Utilization}: How frequently the aircraft flies.
+    \item \textbf{Capacity}: How many passenger seats are available.
+    \item \textbf{Load factor}: The percentage of seats actually occupied.
+    \item \textbf{Core lesson}: Operators need both frequent operations and sufficient demand. Flying often does not help if the aircraft repeatedly flies with empty seats.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 26: BACK-OF-ENVELOPE (UNIT COST) ======================
+\begin{frame}[t, shrink=15]
+  \frametitle{Back-of-the-Envelope: Utilization and the Empty-Seat Problem}
+  \textbf{Assumptions:} Fixed aircraft cost = HK\$10,000/day; variable cost = HK\$100/flight; four passenger seats.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case A: 10 Flights, 50\% Load Factor}
+      \begin{itemize}
+        \item Paying passengers: \(10\times4\times50\%=20\)
+        \item Fixed cost per passenger: HK\$500
+        \item Variable cost per passenger: HK\$50
+        \item \textbf{Total cost: HK\$550 per passenger}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case B: 25 Flights, 80\% Load Factor}
+      \begin{itemize}
+        \item Paying passengers: \(25\times4\times80\%=80\)
+        \item Fixed cost per passenger: HK\$125
+        \item Variable cost per passenger: HK\$31.25
+        \item \textbf{Total cost: HK\$156.25 per passenger}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \textit{Takeaway: Technology may help, but demand, load factor, charging, maintenance, infrastructure, weather, and regulation all affect achievable utilization.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+% ====================== Slide 27: TECH SUMMARY ======================
+\begin{frame}[t]
+  \frametitle{Technology: An Economic Tool}
+  \begin{itemize}
+    \item \textbf{Aircraft technology}: Changes speed, range, payload, capacity, reliability, and operating cost.
+    \item \textbf{Automation}: May reduce crew requirements and support frequent operations, but must satisfy safety and regulatory requirements.
+    \item \textbf{UTM and communications}: Support coordination, monitoring, and scalable operations in complex airspace.
+    \item \textbf{Infrastructure}: Charging, maintenance, landing sites, and passenger processing determine actual throughput.
+  \end{itemize}
+  \textbf{Managerial lesson:} A technically impressive aircraft creates commercial value only when the complete operating system is safe, reliable, convenient, and affordable.
+\end{frame}
+
+% ====================== REVISED SLIDE 28: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+  \frametitle{In-Class Exercise: Map the Money}
+ 
+  \textbf{Activity: Map the Money in the Low Altitude Economy}
+  \begin{itemize}
+    \item \textbf{Format:} Groups of 4–5
+    \item \textbf{Scenario:} Choose one:
+      \begin{itemize}
+        \item Hong Kong Airport Shuttle route
+        \item Hospital Medical Delivery route
+      \end{itemize}
+    \item \textbf{Task:} On paper or in your notes, map the following:
+    \begin{enumerate}
+        \item Who are the key players in the LAE Value Chain?
+        \item How does the money flow from the customer to each player?
+        \item What does each player want? (Incentives and possible conflicts)
+        \item How does Hong Kong’s Sandbox policy help this business succeed?
+    \end{enumerate}
+    \item \textbf{Timing:} 10 minutes group work + 5 minute quick share-out
+  \end{itemize}
+\end{frame}
+% ====================== Slide 29: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+  \frametitle{Key Takeaways}
+  \begin{itemize}
+    \item LAE combines aircraft, infrastructure, digital systems, operators, customers, and supporting services.
+    \item A service creates value when it saves time, reduces cost or risk, improves access, or enables a mission that existing alternatives cannot perform well.
+    \item Commercial viability depends on willingness to pay, demand, utilization, load factor, operating cost, and investment cost.
+    \item Hong Kong may hold advantages in selected high-value services and in connecting capabilities across the GBA.
+    \item A regulatory sandbox supports controlled testing and faster learning, but does not remove safety or compliance requirements.
+    \item Technology is valuable when it improves the economics of the complete service, not merely the aircraft.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 30: ASSIGNMENT ======================
+\begin{frame}[t]
+  \frametitle{Week 1 Assignment Briefing}
+  \textbf{Two-page Hong Kong LAE Economic Memo (maximum 800 words)}
+  \begin{itemize}
+    \item \textbf{Due:} Beginning of Week 2
+    \item \textbf{Task:} Choose one Hong Kong LAE service idea, such as an airport shuttle, medical delivery, inspection service, or logistics route.
+    \item \textbf{Requirements:}
+    \begin{enumerate}
+      \item Explain the customer problem and why someone would pay for the service.
+      \item Estimate a plausible fare or service fee using time savings or another customer benefit.
+      \item Estimate annual revenue: price $\times$ expected daily transactions $\times$ operating days.
+      \item Identify two important barriers, such as demand, cost, infrastructure, regulation, safety, weather, or public acceptance.
+      \item Explain how controlled sandbox testing could help address one barrier.
+    \end{enumerate}
+    \item \textbf{Grading focus:} Clear economic logic (40\%), transparent and realistic assumptions (30\%), policy link (20\%), professionalism (10\%).
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 31: PREVIEW WEEK 2 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 2}
+  
+  \begin{center}
+      \Large \textbf{Market Structure: The Fight for the Sky}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Question to think about for next week:} \\
+  \textit{If a landing pad on top of a Central skyscraper can only fit two drones at a time... who gets to land there, and who gets pushed out of business?}
+\end{frame}
+
+% ====================== Slide 32: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \textbf{Pre-Class Readings Reminder (for Week 2):}
+  \begin{itemize}
+      \item \textit{McKinsey Perspectives on Advanced Air Mobility}
+      \item \textit{NASA UAM Market Study (2018)} 
+  \end{itemize}
+  
+  \vspace{1cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

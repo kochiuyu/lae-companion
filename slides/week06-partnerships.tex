@@ -1,0 +1,410 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE (REVISED) ======================
+\begin{frame}
+  \title{LAE Strategic Partnerships \& Business Models}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 6}
+  \titlepage
+\end{frame}
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Compare} asset-intensive, service-based, and platform-oriented LAE business models.
+\item \textbf{Explain} when a public-private partnership may be appropriate and what it does not solve.
+\item \textbf{Design} payment mechanisms and KPIs that align service quality, affordability, and commercial viability.
+\item \textbf{Allocate} demand, weather, operational, regulatory, and financing risks to the parties best able to manage them.
+\item \textbf{Evaluate} phased investment and contractual flexibility under uncertain market development.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{Choosing the Commercial Architecture}
+\textbf{Imagine two teams proposing the same LAE service.}
+\begin{itemize}
+\item \textbf{Team A} wants to own aircraft, infrastructure, staff, and customer operations.
+\item \textbf{Team B} wants to coordinate specialist partners and sell an integrated service to the customer.
+\end{itemize}
+\vspace{0.3cm}
+Neither model is automatically superior.
+\begin{itemize}
+\item Ownership can provide control but requires capital and operating capability.
+\item Coordination can provide flexibility but creates dependency, contracting, quality-control, and margin-sharing risks.
+\item \textbf{Quick poll (2 min):} Which capabilities should your Week 5 project own, contract, share, or buy as a service?
+\end{itemize}
+\end{frame}
+
+% ====================== Session 1 Title Card ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Business Models \& Partnership Structures
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Three Business-Model Archetypes}
+\begin{enumerate}
+\item \textbf{Asset-intensive operator:} Owns or finances major aircraft and infrastructure and controls more of the operating system. High capital exposure, but potentially greater control and value capture.
+\item \textbf{Service integrator:} Promises an outcome, such as delivery availability or inspection coverage, while leasing assets or contracting specialist operators. Lower asset ownership, but significant coordination and performance risk.
+\item \textbf{Platform orchestrator:} Connects customers, operators, infrastructure, and data services. Lower physical-asset ownership, but meaningful software, cybersecurity, compliance, customer-acquisition, and network-development costs.
+\end{enumerate}
+\textit{These are broad archetypes. Real businesses often combine elements of all three.}
+\end{frame}
+
+% ====================== REVISED SLIDE: APPLIED TOOL - 3 BUSINESS MODELS COMPARISON ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Comparing Business Models}
+\begin{block}{A Simple Monthly Economic-Profit Screen}
+\[
+\begin{split}
+\text{Monthly Economic Profit}={}&\text{Revenue}-\text{Cash OPEX}\\
+&-\text{Monthly Asset-Cost Allocation}-\text{Partner Payments}
+\end{split}
+\]
+\end{block}
+\begin{itemize}
+\item Asset ownership affects financing, residual value, utilization risk, and control.
+\item Contracting converts some investment into recurring partner payments, but does not eliminate liability or performance risk.
+\item Platforms may scale with relatively fewer physical assets, but require trust, liquidity on both sides, governance, data security, and sufficient transaction volume.
+\item Compare cash flow, economic cost, risk, control, and strategic capability rather than profit alone.
+\end{itemize}
+\end{frame}
+% ====================== NEW SLIDE: BACK-OF-THE-ENVELOPE - 3 MODELS ======================
+\begin{frame}[t,shrink=14]
+\frametitle{Back-of-the-Envelope: Comparing Three Archetypes}
+\textbf{Assumption:} Each model earns HK\$1 million monthly revenue. Figures are simplified and exclude tax and financing.
+\begin{columns}[T]
+\begin{column}{0.32\textwidth}\begin{block}{Asset-Intensive}
+\begin{itemize}
+\item Cash OPEX: HK\$200k
+\item Asset allocation: HK\$333k
+\item Partner payments: HK\$0
+\item \textbf{Economic profit: HK\$467k}
+\item High capital and utilization exposure
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.32\textwidth}\begin{block}{Service Integrator}
+\begin{itemize}
+\item Internal OPEX: HK\$100k
+\item Asset allocation: HK\$0
+\item Partner payments: HK\$800k
+\item \textbf{Economic profit: HK\$100k}
+\item Lower ownership, high supplier dependency
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.32\textwidth}\begin{block}{Platform}
+\begin{itemize}
+\item Cash OPEX: HK\$150k
+\item Software allocation: HK\$33k
+\item Operator payouts: HK\$700k
+\item \textbf{Economic profit: HK\$117k}
+\item Network and governance risk
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The ranking depends on partner payouts, utilization, demand, liability, and investment requirements. An asset-light label does not guarantee higher profit or lower risk.}
+\vfill{\tiny Illustrative assumptions for classroom analysis; not market benchmarks.}
+\end{frame}
+
+% ====================== Slide 7: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large PPP Design, Contract Structures \& Incentives
+  \end{center}
+\end{frame}
+
+% ====================== Slide 8: CONCEPT PRIMER 2 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Public-Private Partnerships}
+A PPP is a long-term arrangement in which a public authority and private party allocate responsibilities and risks for delivering infrastructure or services.
+\begin{itemize}
+\item A PPP is not simply government and business sharing cost and profit.
+\item The private party may design, finance, build, operate, maintain, or integrate specified components.
+\item The public authority defines outcomes, procurement rules, affordability, safety, access, performance, and accountability requirements.
+\item Payment may come from users, the public authority, or a combination.
+\end{itemize}
+\textbf{Managerial test:} Use a PPP only when long-term integration and risk allocation can create better value than conventional procurement or a normal service contract.
+\end{frame}
+
+% ====================== Slide 9: APPLIED TOOL (REVISED - CLEARER) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Applied Tool: Usage and Availability Payments}
+\begin{block}{Usage-Based Component}
+\[R_U=p\times q\]
+\end{block}
+\begin{block}{Availability-Based Component}
+\[R_A=A-D+u\times q\]
+\end{block}
+\begin{itemize}
+\item $A$ is the availability payment, $D$ is deductions for unavailability or failed performance, and $u$ is any usage payment.
+\item A usage-based model places more volume risk on the provider.
+\item An availability model can shift demand risk toward the public authority, but the provider retains performance risk through KPIs and deductions.
+\item Hybrid payment can balance readiness, activity, quality, and affordability.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 10: BACK-OF-ENVELOPE (CONTRACTS) (unchanged) ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: How Payment Design Changes Risk}
+\textbf{Assumptions:} Monthly fixed cost = HK\$500k; variable cost = HK\$200/mission; actual missions = 300.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Usage-Only Payment}
+\begin{itemize}
+\item Fee: HK\$1,000/mission
+\item Revenue: HK\$300k
+\item Variable cost: HK\$60k
+\item Fixed cost: HK\$500k
+\item \textbf{Operating loss: HK\$260k}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Availability Plus Usage}
+\begin{itemize}
+\item Availability payment: HK\$650k
+\item Usage payment: HK\$200/mission
+\item Total revenue: HK\$710k
+\item Total cost: HK\$560k
+\item \textbf{Operating profit before deductions: HK\$150k}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Availability payment stabilizes revenue but should depend on readiness and performance. Weather relief, deductions, and service obligations must be defined explicitly.}
+\vfill{\tiny Illustrative assumptions; excludes insurance, tax, financing, and penalties.}
+\end{frame}
+
+% ====================== Slide 11: CONCEPT PRIMER 3 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Contractual Flexibility and Real Options}
+A real option is the managerial flexibility to change an investment decision as new information arrives.
+\begin{itemize}
+\item Examples include delaying investment, staging construction, expanding after demand is proven, switching technology, or abandoning a project.
+\item A contract can preserve this flexibility through milestone gates, extension rights, break clauses, change procedures, or phased commitments.
+\item Not every flexible clause is freely exercisable. Trigger conditions, notice, compensation, approval, and termination consequences must be specified.
+\item Regulatory change is usually addressed through carefully drafted change-in-law and relief provisions, not a vague right to pause whenever rules change.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 12: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Simple Flexibility Screen}
+\begin{block}{Decision-Tree Comparison}
+\[
+\text{Expected Project Value}=\sum_s \Pr(s)\times\text{Payoff under the chosen action in state }s
+\]
+\end{block}
+\begin{itemize}
+\item Compare a rigid commitment with a staged or contingent decision.
+\item Flexibility creates value only if management can observe new information and respond meaningfully.
+\item Waiting may also have costs: option fees, delay, lost market position, inflation, or expiry of approvals.
+\item NPV is not inherently flawed. A conventional NPV can incorporate planned decisions; real-options analysis makes flexibility more explicit.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 13: BACK-OF-ENVELOPE (REAL OPTIONS) ======================
+\begin{frame}[t,shrink=13]
+\frametitle{Back-of-the-Envelope: The Value of Staging}
+\textbf{Scenario:} A full commitment costs HK\$50M and generates HK\$100M if conditions are favourable, otherwise zero. Each state has probability 50\%.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Commit Now}
+\begin{itemize}
+\item Favourable net payoff: HK\$50M
+\item Unfavourable net payoff: $-$HK\$50M
+\item Expected value: $0.5(50)+0.5(-50)$
+\item \textbf{HK\$0M}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Pay HK\$5M to Wait}
+\begin{itemize}
+\item Favourable: invest later, net payoff HK\$45M
+\item Unfavourable: do not invest, net payoff $-$HK\$5M
+\item Expected value: $0.5(45)+0.5(-5)$
+\item \textbf{HK\$20M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Staging has value in this simplified example because the decision occurs after uncertainty is resolved. Timing, discounting, delay cost, and whether information truly resolves must also be modelled.}
+\vfill{\tiny Illustrative decision tree; not a market valuation.}
+\end{frame}
+
+% ====================== Slide 14: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Global Benchmarks, Co-opetition \& Sandbox X
+  \end{center}
+\end{frame}
+
+% ====================== Slide 15: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Co-opetition}
+Co-opetition means cooperating in selected activities while continuing to compete in others.
+\begin{itemize}
+\item \textbf{Possible cooperation:} shared vertiports, charging, communications, technical interfaces, safety data, and common operational standards.
+\item \textbf{Continued competition:} routes, price, reliability, service design, customer relationships, and specialized capabilities.
+\item \textbf{Potential benefit:} lower duplication, larger compatible networks, and faster market development.
+\item \textbf{Potential risk:} discriminatory access, information leakage, disputes over investment, or weakening of competition.
+\end{itemize}
+\textbf{Managerial requirement:} Define access, cost sharing, data governance, performance, liability, and exit arrangements.
+\end{frame}
+
+% ====================== Slide 16: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Sharing Facility Cost}
+\begin{block}{Facility Cost per Movement}
+\[
+\text{Shared Facility Cost per Movement}
+=
+\frac{\text{Fixed Facility Cost}}{\text{Total Movements}}
++\text{Variable Facility Cost per Movement}
+\]
+\end{block}
+\begin{itemize}
+\item Greater total use can spread fixed facility cost over more movements.
+\item This is the facility's cost, not automatically each operator's charge.
+\item The contract must decide whether operators pay equally, by usage, by peak capacity, or by investment contribution.
+\item Sharing may reduce cost only if additional traffic does not create excessive congestion or expansion cost.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 17: BACK-OF-ENVELOPE (CO-OPETITION) ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Facility Cost Before and After Sharing}
+\textbf{Assumptions:} Fixed facility cost = HK\$40,000/day and variable facility cost = HK\$100/movement.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{50 Movements per Day}
+\begin{itemize}
+\item Fixed cost per movement: HK\$800
+\item Variable cost: HK\$100
+\item \textbf{Facility cost: HK\$900/movement}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{100 Shared Movements per Day}
+\begin{itemize}
+\item Fixed cost per movement: HK\$400
+\item Variable cost: HK\$100
+\item \textbf{Facility cost: HK\$500/movement}
+\item Reduction: about 44\%
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Sharing reduces allocated facility cost under these assumptions. Operator ticket cost, pricing, and profitability require additional aircraft, staff, load-factor, and contract data.}
+\vfill{\tiny Illustrative assumptions; movements are not seats or passenger tickets.}
+\end{frame}
+
+% ====================== Slide 22: GLOBAL BENCHMARKS (REVISED - NARROW TABLE) ======================
+\begin{frame}[t]
+\frametitle{Different Institutional Approaches}
+\begin{itemize}
+\item \textbf{Hong Kong, Sandbox X:} Controlled trials are used to test project concepts, operations, infrastructure, emergency response, and cross-boundary procedures.
+\item \textbf{European U-space:} A regulatory and digital-service framework for managing unmanned-aircraft operations in designated airspace.
+\item \textbf{United States:} FAA and interagency plans coordinate certification, operations, airspace, infrastructure, environment, community engagement, and longer-term AAM development.
+\item \textbf{GBA collaboration:} May combine manufacturing, operating, testing, finance, logistics, and professional-service capabilities across different jurisdictions.
+\end{itemize}
+\textit{These are not simple rankings of speed or flexibility. Each approach creates different requirements, evidence needs, partnership opportunities, and market-entry risks.}
+\end{frame}
+
+% ====================== Slide 19: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+\frametitle{In-Class Exercise: Partnership Term Sheet}
+\textbf{Scenario:} A public authority seeks a drone service for municipal bridge inspections.
+\begin{itemize}
+\item \textbf{Format:} Government and operator teams in groups of 4--5
+\item \textbf{Draft a five-point term sheet:}
+\begin{enumerate}
+\item scope, service period, and responsibilities;
+\item availability, usage, or hybrid payment mechanism;
+\item two measurable KPIs and associated deductions or incentives;
+\item allocation of weather, demand, regulatory, and performance risks; and
+\item one phased-expansion, change, or termination provision.
+\end{enumerate}
+\item \textbf{Timing:} 15 minutes negotiation plus 5-minute discussion.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 20: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+\frametitle{Exercise Template: Negotiation Matrix}
+\begin{center}
+\begin{tabular}{p{0.28\textwidth}|p{0.3\textwidth}|p{0.3\textwidth}}
+\textbf{Issue} & \textbf{Public Authority} & \textbf{Operator}\\
+\hline
+Service outcome & Reliable, affordable inspection & Deliverable, measurable scope\\
+Payment & Value for money and budget control & Bankable and predictable cash flow\\
+Performance & Strong KPIs and remedies & Controllable targets and fair relief\\
+Risk & Transfer where value is improved & Accept only manageable, priced risk\\
+Flexibility & Ability to adapt public service & Compensation for material changes\\
+\end{tabular}
+\end{center}
+\vspace{0.3cm}
+\textit{Principle: Allocate each risk to the party best able to control, absorb, mitigate, or insure it, while considering the price of transferring that risk.}
+\end{frame}
+
+% ====================== Slide 21: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Asset ownership, service integration, and platform coordination involve different combinations of control, capital, capability, and risk.
+\item A PPP is justified by value for money and effective long-term risk allocation, not merely by a desire for public funding.
+\item Availability payments should be linked to measurable readiness and performance, with appropriate deductions and relief rules.
+\item Risks should be allocated to the party best able to manage them, not automatically transferred to either government or operator.
+\item Staged investment and contractual flexibility can create value, but waiting and adjustment also carry costs.
+\item Shared infrastructure can lower unit cost, provided access, governance, congestion, data, liability, and competition are managed carefully.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 22: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 6 Assignment Briefing}
+\textbf{Commercial Model and Partnership Memo (maximum 1,200 words)}
+\begin{itemize}
+\item \textbf{Due:} Beginning of Week 7 (group assignment)
+\item \textbf{Task:} Design a commercially and institutionally credible partnership for a Hong Kong or GBA use case.
+\item \textbf{Requirements:}
+\begin{enumerate}
+\item Recommend an asset-intensive, service-integrator, platform, or hybrid business model.
+\item Explain why a PPP, conventional procurement, or private contract is most appropriate.
+\item Design an availability, usage, or hybrid payment mechanism.
+\item Specify two measurable KPIs with deductions, incentives, and relief conditions.
+\item Allocate at least four major risks and justify each allocation.
+\item Draft one phased-investment, change, or termination provision and explain its limitation.
+\end{enumerate}
+\item \textbf{Grading focus:} Economic reasoning (40\%), credible partnership design (30\%), risk allocation (20\%), professionalism (10\%).
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 23: PREVIEW WEEK 7 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 7}
+  
+  \begin{center}
+      \Large \textbf{LAE Policy and Regulation}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Preview question for next week:} \\
+  \textit{How will government regulatory instruments—like noise curfews and BVLOS flight rules—completely rewrite the contracts we designed today?}
+\end{frame}
+
+% ====================== Slide 24: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \textbf{Pre-Class Readings Reminder (for Week 7):}
+  \begin{itemize}
+      \item \textit{McKinsey: Perspectives on AAM (Platform orchestration)}
+      \item \textit{AiRMOUR Guidebook (Partnership process guidance)}
+  \end{itemize}
+  
+  \vspace{1cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

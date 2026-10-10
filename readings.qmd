@@ -13,6 +13,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 ### Main references
 
+- **Slides:** [week01-introduction.pdf](slides/week01-introduction.pdf) — Week 1 lecture deck ([TeX source](slides/week01-introduction.tex); also on [Lectures](lectures.qmd#week-1)).
+
 - [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (generally below 1,000 m) and the Working Group.
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -48,6 +50,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 ### Main references
 
+- **Slides:** [week02-market-structure.pdf](slides/week02-market-structure.pdf) — Week 2 lecture deck ([TeX source](slides/week02-market-structure.tex); also on [Lectures](lectures.qmd#week-2)).
+
 - [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Institutional map for Hong Kong LAE.
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -75,6 +79,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 ### Main references
 
+- **Slides:** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf) — Week 3 lecture deck ([TeX source](slides/week03-cost-revenue.tex); also on [Lectures](lectures.qmd#week-3)).
+
 - [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. Official UAM market framing (not an HK government figure).
 
 ### Supplementary references
@@ -92,6 +98,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 ## Week 4: Demand Modeling in Urban Air Mobility {#week-4}
 
 ### Main references
+
+- **Slides:** [week04-demand.pdf](slides/week04-demand.pdf) — Week 4 lecture deck ([TeX source](slides/week04-demand.tex); also on [Lectures](lectures.qmd#week-4)).
 
 - [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. UAM / AAM market language for cross-checks with lecture models.
 
@@ -111,6 +119,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 ### Main references
 
+- **Slides:** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf) — Week 5 lecture deck ([TeX source](slides/week05-infrastructure.tex); also on [Lectures](lectures.qmd#week-5)).
+
 - [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Segment structure (infra; education & research; application scenarios; supporting services).
 
 ### Supplementary references
@@ -129,6 +139,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 ## Week 6: LAE Strategic Partnerships and Business Models {#week-6}
 
 ### Main references
+
+- **Slides:** [week06-partnerships.pdf](slides/week06-partnerships.pdf) — Week 6 lecture deck ([TeX source](slides/week06-partnerships.tex); also on [Lectures](lectures.qmd#week-6)).
 
 - [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. Regulatory Sandbox: **38** of **72** selected.
 
@@ -156,6 +168,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 ## Week 7: LAE Policy and Regulation {#week-7}
 
 ### Main references
+
+- **Slides:** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf) — Week 7 lecture deck ([TeX source](slides/week07-policy-regulation.tex); also on [Lectures](lectures.qmd#week-7)).
 
 - [CAD, Small Unmanned Aircraft (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — Cap. 448G regulator page; full effect 1 December 2022; Category C ≤150 kg from July 2025.
 
@@ -186,6 +200,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 ### Main references
 
+- **Slides:** [week08-airspace.pdf](slides/week08-airspace.pdf) — Week 8 lecture deck ([TeX source](slides/week08-airspace.tex); also on [Lectures](lectures.qmd#week-8)).
+
 - [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Regulatory Sandbox X.
 - [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz; confined to LAE Regulatory Sandbox projects.
 
@@ -212,6 +228,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 ### Main references
 
+- **Slides:** [week09-impact.pdf](slides/week09-impact.pdf) — Week 9 lecture deck ([TeX source](slides/week09-impact.tex); also on [Lectures](lectures.qmd#week-9)).
+
 - [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only); not a government outturn.
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -235,6 +253,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 ## Week 10: Sustainability Challenges in Urban Air Operations {#week-10}
 
 ### Main references
+
+- **Slides:** [week10-sustainability.pdf](slides/week10-sustainability.pdf) — Week 10 lecture deck ([TeX source](slides/week10-sustainability.tex); also on [Lectures](lectures.qmd#week-10)).
 
 - [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Sandbox X and the commitment to formulate an Action Plan.
 
@@ -264,6 +284,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 
 ### Main references
 
+- **Slides:** [week11-capstone.pdf](slides/week11-capstone.pdf) — Week 11 lecture deck ([TeX source](slides/week11-capstone.tex); also on [Lectures](lectures.qmd#week-11)).
+
 - [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Action Plan commitment (text still OPEN) and Sandbox X framing.
 
   Same official text as [Week 10](#week-10); not repeated here.
@@ -289,6 +311,8 @@ Read the official document linked for that week. The models (costs, demand, conc
 ## Week 12: LAE Future Frontiers and Final Review {#week-12}
 
 ### Main references
+
+- **Slides:** [week12-future.pdf](slides/week12-future.pdf) — Week 12 lecture deck ([TeX source](slides/week12-future.tex); also on [Lectures](lectures.qmd#week-12)).
 
 - [CAAC, ATM Rules draft (consultation)](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.
 

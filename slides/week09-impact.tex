@@ -1,0 +1,512 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE (REVISED) ======================
+\begin{frame}
+  \title{Economic and Social Impact of LAE}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 9}
+  \titlepage
+\end{frame}
+
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Build} a transparent market-size estimate for a defined Hong Kong LAE use case.
+\item \textbf{Distinguish} potential demand, serviceable demand, capacity, revenue, and value added.
+\item \textbf{Stress-test} a business case using scenarios, sensitivity analysis, and simple probability models.
+\item \textbf{Identify} who receives the benefits and who bears the costs of an LAE project.
+\item \textbf{Explain} how hedonic analysis and benefit-cost analysis may inform noise, access, and equity decisions.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{From Commercial Value to Social Value}
+\textbf{Imagine that several LAE services are operating across Hong Kong.}
+\begin{itemize}
+\item Users may benefit from faster delivery, inspection, emergency response, or passenger travel.
+\item Nearby communities may experience noise, privacy concerns, visual effects, or unequal access to benefits.
+\end{itemize}
+\vspace{0.3cm}
+A profitable service can still create social costs, while an unprofitable service may create important public benefits.
+\begin{itemize}
+\item \textbf{Quick poll (2 min):} Which matters most for public policy: operator profit, total social benefit, or how benefits and costs are distributed?
+\end{itemize}
+\end{frame}
+
+
+% ====================== Session 1 Title Card ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Market Sizing, NASA Barriers \& Uncertainty Modeling
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 - MARKET SIZING ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Market Sizing}
+Market sizing should connect the demand analysis from Week 4 with the capacity and cost analysis from later weeks.
+\begin{itemize}
+\item \textbf{Potential market:} All relevant customers or trips within a clearly defined geography, period, and use case.
+\item \textbf{Serviceable market:} The portion compatible with the proposed route, service level, willingness to pay, regulation, and infrastructure.
+\item \textbf{Obtainable demand:} The portion the operator may realistically serve after competition and capacity constraints.
+\end{itemize}
+\textit{TAM, SAM, and SOM are managerial labels, not a unique NASA methodology. NASA-sponsored UAM studies use detailed market models and examine multiple constraints.}
+\end{frame}
+
+% ====================== Slide 4.5: HOW TO GET TAM ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Defining the Potential Market}
+\textbf{Start with the decision, not the largest available number.}
+\begin{enumerate}
+\item Define the service, origin-destination market, customer, direction, and time period.
+\item Estimate relevant existing trips or missions using transport, airport, logistics, public-service, or survey data.
+\item Decide whether the project may divert existing activity, generate new activity, or change trip frequency.
+\item Remove trips that cannot use the service because of geography, schedule, payload, accessibility, regulation, or other constraints.
+\item Document data gaps and use ranges where evidence is weak.
+\end{enumerate}
+\textit{Do not sum all trips to the airport unless they are genuinely relevant to the defined corridor and service.}
+\end{frame}
+
+% ====================== Slide 5: APPLIED TOOL - MARKET FUNNEL ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Market Funnel with Capacity}
+\begin{block}{Demand Funnel}
+\[
+SAM=TAM\times\text{Eligibility Share}
+\]
+\[
+\text{Potential Operator Demand}=SAM\times\text{Expected Choice Share}
+\]
+\end{block}
+\begin{block}{Capacity Check}
+\[
+\text{Served Demand}=\min\{\text{Potential Operator Demand},\text{Reliable Capacity}\}
+\]
+\end{block}
+\begin{itemize}
+\item Choice share should reflect price, generalized cost, service quality, and competition.
+\item Reliable capacity includes aircraft, seats or payload, infrastructure, operating hours, weather, and approvals.
+\item Avoid calling an unsupported capture percentage ``realistic'' without evidence.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 6: APPLIED TOOL - DAILY REVENUE ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Revenue and Contribution}
+\begin{block}{Revenue}
+\[
+\text{Daily Revenue}=\text{Served Units}\times\text{Average Revenue per Unit}
+\]
+\end{block}
+\begin{block}{Contribution}
+\[
+\text{Daily Contribution}=\text{Daily Revenue}-\text{Variable Cost of Served Units}
+\]
+\end{block}
+\begin{itemize}
+\item Use passenger-trips, deliveries, inspections, or missions consistently.
+\item Revenue is not cash flow or profit and does not by itself justify infrastructure investment.
+\item Compare contribution and longer-term cash flows with fixed operating cost and investment cost.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 7: BACK-OF-THE-ENVELOPE - MARKET FUNNEL ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Filtering and Capacity}
+\textbf{Illustrative airport-corridor assumptions:}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Demand Funnel}
+\begin{itemize}
+\item Relevant trips: 20,000/day
+\item Eligible time-sensitive segment: 10\%
+\item $SAM=20{,}000\times0.10=2{,}000$
+\item Expected choice share: 15\%
+\item Potential operator demand: \textbf{300 passenger-trips/day}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Capacity Check}
+\begin{itemize}
+\item 80 flights/day
+\item Four seats per flight
+\item Target load factor: 80\%
+\item Reliable capacity: $80\times4\times0.80=256$
+\item \textbf{Served demand: 256 passenger-trips/day}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Obtainable demand is constrained by both customer choice and reliable operating capacity.}
+\vfill{\tiny Illustrative assumptions; not current airport-corridor data.}
+\end{frame}
+
+% ====================== Slide 8: BACK-OF-THE-ENVELOPE - DAILY REVENUE ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: From Served Demand to Contribution}
+\textbf{Assumptions:} 256 passenger-trips/day, average fare HK\$400, variable cost HK\$120/passenger-trip, and 330 operating days/year.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Daily Result}
+\begin{itemize}
+\item Revenue: $256\times400=\text{HK\$102,400}$
+\item Variable cost: $256\times120=\text{HK\$30,720}$
+\item \textbf{Daily contribution: HK\$71,680}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Annual Result}
+\begin{itemize}
+\item Annual revenue: HK\$33.8M
+\item Annual variable cost: HK\$10.1M
+\item \textbf{Annual contribution: about HK\$23.7M}
+\item Fixed cost and investment remain to be covered.
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\vfill{\tiny Illustrative assumptions; excludes fixed cost, financing, tax, and demand variation.}
+\end{frame}
+
+% ====================== Slide 9: CONCEPT PRIMER 2 - NASA BARRIERS ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Constraints Identified in UAM Market Studies}
+The NASA-sponsored UAM market study examined interacting constraints rather than a universal list of five revenue haircuts.
+\begin{itemize}
+\item legal and regulatory requirements;
+\item certification and safety;
+\item infrastructure and airspace capacity;
+\item weather and technology limitations;
+\item public perception and community acceptance; and
+\item high near-term service cost and other economic constraints.
+\end{itemize}
+\textbf{Managerial lesson:} Each constraint may affect demand, capacity, price, cost, timing, or probability of launch through a different channel.
+\end{frame}
+
+% ====================== Slide 10: APPLIED TOOL - NASA BARRIER HAIRCUT ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Constraint Mapping}
+\begin{center}\small
+\begin{tabular}{l|l}
+\textbf{Constraint} & \textbf{Primary model channel}\\
+\hline
+Regulatory delay & Launch date, cost, or probability\\
+Infrastructure scarcity & Reliable capacity and access\\
+Public acceptance & Choice share, hours, or route\\
+Weather & Serviceable capacity and reliability\\
+Technology maturity & Cost, payload, range, and downtime\\
+Competition & Price and operator choice share\\
+\end{tabular}
+\end{center}
+\vspace{0.3cm}
+\textit{Avoid multiplying arbitrary independent ``haircuts'' when the same effect is already reflected elsewhere. For example, weather should not reduce both operating days and revenue again unless the channels are distinct.}
+\end{frame}
+
+% ====================== Slide 11: BACK-OF-THE-ENVELOPE - BARRIER HAIRCUT ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: Explicit Constraint Channels}
+\textbf{Base assumptions:} 300 potential passenger-trips/day, fare HK\$400, and 365 calendar days.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Demand and Capacity}
+\begin{itemize}
+\item Reliable capacity: 256 trips/day
+\item Acceptance scenario: 90\% of potential demand
+\item Adjusted demand: 270 trips/day
+\item Served trips: $\min\{270,256\}=256$
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Operating Days and Revenue}
+\begin{itemize}
+\item Serviceable days: 330/year
+\item Annual revenue: $256\times400\times330$
+\item \textbf{HK\$33.8M}
+\item Technology and compliance costs enter the cost model rather than another revenue haircut.
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Model each constraint through its actual channel and check for double counting.}
+\vfill{\tiny Illustrative assumptions for classroom analysis.}
+\end{frame}
+
+
+% ====================== Slide 10: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large Uncertainty, Monte Carlo Sensitivity \& Macro Impact
+  \end{center}
+\end{frame}
+
+% ====================== Slide 10.5: CONCEPT PRIMER - UNCERTAINTY ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Uncertainty}
+Uncertainty means that important inputs and outcomes cannot be known precisely when a decision is made.
+\begin{itemize}
+\item demand and willingness to pay;
+\item approval timing and operating conditions;
+\item weather and serviceable capacity;
+\item technology performance and maintenance;
+\item public acceptance and competition; and
+\item prices, costs, and financing conditions.
+\end{itemize}
+\textbf{Managerial lesson:} Use a base case, downside and upside scenarios, sensitivity analysis, and probability ranges where justified. Not every uncertainty is measurable or hedgeable.
+\end{frame}
+
+% ====================== Slide 11: CONCEPT PRIMER 3 - MONTE CARLO ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Monte Carlo Simulation}
+A Monte Carlo simulation repeatedly samples uncertain inputs from specified probability distributions and recalculates the model.
+\begin{itemize}
+\item It produces a distribution of possible outcomes rather than one forecast.
+\item Results depend on the chosen distributions, correlations, model structure, and data quality.
+\item Correlated inputs matter. Weather may affect capacity, demand, price, and cost simultaneously.
+\item Useful outputs include median NPV, downside percentiles, probability of a cash shortfall, and major risk drivers.
+\end{itemize}
+\textit{Simulation does not make weak assumptions accurate; it makes their implications visible.}
+\end{frame}
+
+% ====================== Slide 12: APPLIED TOOL - EXPECTED VALUE ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Expected Value and Downside Risk}
+\begin{block}{Expected Profit}
+\[
+E[\Pi]=\sum_s \Pr(s)\Pi_s
+\]
+\end{block}
+\begin{itemize}
+\item Expected value is the probability-weighted average across scenarios.
+\item It does not reveal how severe the downside can be or whether the business has enough liquidity to survive it.
+\item Also examine the probability of loss, worst credible cash shortfall, and a downside percentile such as the 10th percentile.
+\item Required cash reserves depend on the timing of cash flows, financing access, risk tolerance, and recovery plan, not expected value alone.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 13: BACK-OF-THE-ENVELOPE - MONTE CARLO ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Expected Profit and Probability of Loss}
+\textbf{Assumption:} Annual cost = HK\$5M.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Three Scenarios}
+\begin{itemize}
+\item Strong: 20\%, revenue HK\$10M, profit HK\$5M
+\item Base: 50\%, revenue HK\$8M, profit HK\$3M
+\item Weak: 30\%, revenue HK\$4M, loss HK\$1M
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Risk Summary}
+\begin{itemize}
+\item Expected revenue: HK\$7.2M
+\item \textbf{Expected profit: HK\$2.2M}
+\item \textbf{Probability of loss: 30\%}
+\item Minimum cash needed in the weak scenario depends on when costs and revenue occur.
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: A positive expected profit can coexist with a material probability of loss.}
+\vfill{\tiny Illustrative scenario probabilities and values.}
+\end{frame}
+
+% ====================== Slide 14: MACRO IMPACT - HK\$350B PRIZE \& SOCIAL EQUITY ======================
+\begin{frame}[t]
+\frametitle{A HK\$350 Billion Projection and Distributional Questions}
+A 2025 report by Our Hong Kong Foundation projects that Hong Kong's LAE-related industries could generate approximately HK\$350 billion in annual industry value added by 2050, with supporting services contributing the majority.
+\begin{itemize}
+\item This is a scenario-based projection, not government revenue, operator revenue, GDP automatically created, or a guaranteed outcome.
+\item Value added measures the contribution of labour and capital after subtracting intermediate inputs; it should not be added directly to market revenue estimates.
+\item Possible benefits include productivity, logistics, public-service performance, employment, research, finance, insurance, legal, and professional services.
+\item Distribution matters: who gains access, who receives employment and business opportunities, and who bears noise, privacy, safety, land-use, or fiscal costs?
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 15: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Stakeholder Effects, Hedonic Valuation \& Equity
+  \end{center}
+\end{frame}
+
+% ====================== Slide 16: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Hedonic Valuation}
+Hedonic analysis estimates how observable attributes are associated with market prices while controlling for other factors.
+\begin{itemize}
+\item For housing, attributes may include size, age, location, transport access, schools, amenities, and environmental conditions such as noise.
+\item A credible study needs many comparable transactions and a strategy for separating noise effects from other site characteristics.
+\item A simple difference between two homes does not establish the causal value of noise.
+\item Property-price effects capture capitalization in housing markets, not every health, annoyance, productivity, or distributional effect.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 17: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Hedonic Price Model}
+\begin{block}{Illustrative Specification}
+\[
+\ln(P_i)=\alpha+\beta N_i+\gamma A_i+\delta X_i+\varepsilon_i
+\]
+\end{block}
+\begin{itemize}
+\item $P_i$ = property price or rent.
+\item $N_i$ = measured noise exposure.
+\item $A_i$ = access to the relevant service or transport network.
+\item $X_i$ = other property and neighbourhood characteristics.
+\item $\beta$ estimates the conditional association between noise and price; causal interpretation requires stronger research design.
+\end{itemize}
+\textbf{Managerial use:} Inform benefit-cost analysis and mitigation, not decide community acceptance by property value alone.
+\end{frame}
+
+% ====================== Slide 18: BACK-OF-ENVELOPE (HEDONIC) ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: Illustrative Property-Value Scenarios}
+\textbf{Assumption:} Baseline apartment value = HK\$8M. The percentages below are hypothetical, not estimates for drone noise in Hong Kong.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Higher Noise, Limited Local Access}
+\begin{itemize}
+\item Assumed noise effect: $-$4\%
+\item Assumed access effect: 0\%
+\item New value: $8M\times0.96$
+\item \textbf{HK\$7.68M}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Lower Noise, Useful Local Access}
+\begin{itemize}
+\item Assumed noise effect: $-$1\%
+\item Assumed access effect: +3\%
+\item New value: $8M\times1.02$
+\item \textbf{HK\$8.16M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The arithmetic illustrates competing effects. Actual coefficients require local transaction, noise, access, and neighbourhood data.}
+\end{frame}
+
+% ====================== Slide 19: SOCIAL EQUITY & ESG ======================
+\begin{frame}[t]
+\frametitle{Social Equity and Distributional Analysis}
+A social-impact assessment should ask who receives each benefit and who bears each cost.
+\begin{itemize}
+\item \textbf{Access}: affordability, geographic coverage, accessibility, digital access, and service availability.
+\item \textbf{Exposure}: noise, privacy, visual impact, safety risk, construction, and land-use effects.
+\item \textbf{Opportunity}: jobs, training, procurement, entrepreneurship, and supporting-service development.
+\item \textbf{Public finance}: subsidies, infrastructure spending, availability payments, and alternative uses of public funds.
+\item \textbf{Public services}: emergency response and medical logistics may create broad benefits, but should be evaluated against alternative delivery methods.
+\end{itemize}
+\textit{ESG reporting can support transparency, but a project should define measurable outcomes rather than assume that an EMS label guarantees equity.}
+\end{frame}
+
+% ====================== Slide 20: GLOBAL COMPARATORS ======================
+\begin{frame}[t]
+\frametitle{Comparing Social Impact Across Places}
+Social impacts depend on local context and should not be ranked through broad claims.
+\begin{itemize}
+\item Hong Kong's dense urban environment makes access, noise exposure, land use, existing public transport, and distributional effects especially important.
+\item Different GBA cities may have different trip patterns, industrial structures, land availability, public-service needs, and regulatory settings.
+\item International evidence on aviation noise and property values can inform hypotheses, but coefficients should not be transferred mechanically to drone or eVTOL operations in Hong Kong.
+\item A common evaluation framework can compare safety, time savings, emissions, noise, accessibility, employment, fiscal cost, and distribution across stakeholder groups.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 21: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+\frametitle{In-Class Exercise: Market, Risk, and Social Impact}
+\textbf{Activity: Stress-Testing the Business and Public Case}
+\begin{itemize}
+\item \textbf{Format:} Groups of 4--5 with the spreadsheet template
+\item \textbf{Tasks:}
+\begin{enumerate}
+\item define relevant trips, eligibility, expected choice share, and reliable capacity;
+\item calculate served demand, revenue, variable cost, and contribution;
+\item vary at least three uncertain inputs and report expected profit and probability of loss;
+\item identify one benefit and one cost for each major stakeholder group; and
+\item test one mitigation and state who pays for it.
+\end{enumerate}
+\item \textbf{Timing:} 15 minutes plus 5-minute discussion.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 22: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+\frametitle{Exercise Template: Integrated Dashboard}
+\begin{center}\small
+\begin{tabular}{l|l}
+\textbf{Section} & \textbf{Inputs and outputs}\\
+\hline
+Market & Relevant trips, eligibility, choice share\\
+Capacity & Flights, capacity per flight, serviceable days\\
+Economics & Price, variable cost, fixed cost, contribution\\
+Uncertainty & Ranges, distributions, correlations, probability of loss\\
+Social impact & Benefits, costs, affected groups, mitigation\\
+\end{tabular}
+\end{center}
+\vspace{0.3cm}
+\textit{Do not use unexplained barrier toggles. Each scenario assumption should change a specific model input and include a source or justification.}
+\end{frame}
+
+% ====================== Slide 23: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Market size must be defined by service, corridor, customer, period, choice behaviour, and reliable capacity.
+\item Revenue, contribution, profit, value added, and social benefit are different concepts.
+\item Constraints should enter through explicit demand, capacity, price, cost, timing, or probability channels without double counting.
+\item Expected value is useful, but decision-makers also need probability of loss, downside cash needs, and key risk drivers.
+\item Hedonic analysis requires comparable data and careful identification; simple assumed property discounts are scenarios, not evidence.
+\item Social evaluation must consider total benefits and costs together with their distribution across users, communities, workers, taxpayers, and businesses.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 24: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 9 Assignment Briefing}
+\textbf{Market, Risk, and Social-Impact Memo with Model (maximum 1,200 words plus spreadsheet)}
+\begin{itemize}
+\item \textbf{Due:} Beginning of Week 10 (group assignment)
+\item \textbf{Requirements:}
+\begin{enumerate}
+\item define the relevant market using sourced data and transparent exclusions;
+\item estimate serviceable and served demand after a reliable-capacity check;
+\item calculate revenue, variable cost, contribution, and relevant fixed cost;
+\item model at least three uncertain inputs, including correlations where material;
+\item report expected profit, probability of loss, and one downside cash-flow measure;
+\item identify benefits, costs, and distributional effects for at least four stakeholder groups; and
+\item evaluate one mitigation, including its cost, beneficiary, and payer.
+\end{enumerate}
+\item \textbf{Grading focus:} Model consistency (30\%), evidence and assumptions (25\%), risk analysis (20\%), social-impact analysis (15\%), professionalism (10\%).
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 25: PREVIEW WEEK 10 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 10}
+  
+  \begin{center}
+      \Large \textbf{Sustainability Challenges in Urban Air Operations}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Preview question for next week:} \\
+  \textit{We just quantified the impact of noise and emissions... but what is the actual mathematical cost of solving them?}
+\end{frame}
+
+% ====================== Slide 26: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \begin{center}
+      \textbf{Next Week Preview:} \\
+      \Large Green Skies: Carbon, Noise, and the Cost of Clean Tech
+  \end{center}
+  
+  \vspace{0.5cm}
+  \textbf{Pre-Class Readings Reminder (for Week 10):}
+  \begin{itemize}
+      \item \textit{NASA UAM Market Study (Sustainability metrics)}
+      \item \textit{Our Hong Kong Foundation (ESG mandates for LAE)}
+  \end{itemize}
+  
+  \vspace{0.5cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

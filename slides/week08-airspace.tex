@@ -1,0 +1,441 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE (REVISED) ======================
+\begin{frame}
+  \title{Airspace Access and Integration}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 8}
+  \titlepage
+\end{frame}
+
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Explain} how safe operating capacity and demand create airspace congestion.
+\item \textbf{Compare} queues, reservations, priority rules, peak pricing, and auctions as allocation mechanisms.
+\item \textbf{Estimate} a simple delay externality and an operator's maximum affordable slot payment.
+\item \textbf{Evaluate} how digital coordination and interoperability affect cost, safety, and scalability.
+\item \textbf{Design} a phased airspace-integration roadmap with explicit evidence and decision gates.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{The 8:00 AM Capacity Conflict}
+\textbf{Imagine that two operations request the same constrained corridor and time window.}
+\begin{itemize}
+\item One is a time-sensitive public-service delivery.
+\item The other is a scheduled commercial passenger or cargo operation.
+\end{itemize}
+\vspace{0.3cm}
+Only one request can be served safely within the available window.
+\begin{itemize}
+\item Should priority depend on arrival time, reservation, social value, price, or a predefined public-service rule?
+\item \textbf{Quick poll (2 min):} Which allocation rule would you choose, and what problem might it create?
+\end{itemize}
+\end{frame}
+
+% ====================== Session 1 Title Card ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Congestion Pricing, Slot Auctions \& Mechanism Design
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: The Airspace Bottleneck}
+Airspace capacity is not simply a fixed number of drones per minute.
+\begin{itemize}
+\item Safe capacity depends on route geometry, separation, aircraft performance, surveillance, communications, weather, contingency routes, human oversight, and interactions with other airspace users.
+\item Vertiport capacity, charging, passenger processing, and available stands may become binding before the corridor itself.
+\item Demand above reliable capacity creates delay, displacement, cancellation, or the need for another route or time.
+\item Sandbox X includes controlled trials related to airspace management and simultaneous unmanned-aircraft operations, but does not establish a general published capacity for Victoria Harbour corridors.
+\end{itemize}
+\textbf{Managerial lesson:} Define the constrained resource and time interval before designing an allocation mechanism.
+\end{frame}
+
+% ====================== Slide 5: CONCEPT PRIMER 2 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Congestion Externalities}
+A congestion externality arises when one additional operation increases delay, risk-management effort, or disruption for other users without bearing the full resulting cost.
+\begin{itemize}
+\item A congestion charge aims to reflect the additional cost imposed on others.
+\item The relevant cost may include aircraft operating cost, passenger or cargo delay, schedule disruption, and additional coordination effort.
+\item Pricing is only one response. Reservations, quotas, priority rules, rerouting, and capacity investment may also be appropriate.
+\item Some public-service missions should be governed by explicit priority rules rather than willingness to pay.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 6: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Simple Marginal Congestion Cost}
+\begin{block}{Illustrative Calculation}
+\[
+\begin{aligned}
+\text{Marginal Congestion Cost} = {} & \sum_j \left(\text{Additional Delay}_j \times \text{Value of Delay}_j\right) \\
+& {} + \text{Other Incremental Costs}
+\end{aligned}
+\]
+\end{block}
+\begin{itemize}
+\item Sum the incremental delay imposed on all affected users, not only the next aircraft.
+\item Values may differ across passengers, cargo, aircraft, public services, and schedule commitments.
+\item The theoretically efficient charge equals marginal external cost, but that cost is difficult to observe precisely in real time.
+\item A practical peak charge may therefore use estimated bands and periodic review.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 7: BACK-OF-ENVELOPE (CONGESTION) ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Estimating a Delay Externality}
+\textbf{Scenario:} One additional operation delays three other flights by five minutes each.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Affected Users}
+\begin{itemize}
+\item Flight 1 delay value: HK\$100/min
+\item Flight 2 delay value: HK\$60/min
+\item Flight 3 delay value: HK\$40/min
+\item Total value: HK\$200/min
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Estimated External Cost}
+\begin{itemize}
+\item Delay: 5 minutes
+\item External delay cost: $5\times200$
+\item \textbf{HK\$1,000}
+\item A peak charge near this amount may encourage a flexible operation to move, but its response is not guaranteed.
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: A congestion charge should reflect the total incremental cost imposed on others, while priority public-service operations require separate rules.}
+\vfill{\tiny Illustrative assumptions; excludes safety, environmental, and schedule-recovery costs.}
+\end{frame}
+
+% ====================== Slide 8: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large Slot Auctions, Mechanisms \& Network Externalities
+  \end{center}
+\end{frame}
+
+% ====================== Slide 9: CONCEPT PRIMER 3 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Mechanism Design and Slot Allocation}
+Mechanism design asks how rules shape participants' information, incentives, and outcomes.
+\begin{itemize}
+\item \textbf{Administrative rules:} schedules, rotation, first-come-first-served, historical rights, or public-service priority.
+\item \textbf{Posted prices:} predictable peak and off-peak charges.
+\item \textbf{Auctions:} participants submit bids for scarce time windows or route access.
+\item \textbf{Package allocation:} linked departure, corridor, arrival, and charging reservations may need to be allocated together.
+\end{itemize}
+\textbf{Design criteria:} safety, efficiency, fairness, competition, transparency, reliability, simplicity, and access for new entrants.
+\textit{Failure to obtain a linked slot should lead to rejection or rescheduling, not an unsafe flight.}
+\end{frame}
+
+% ====================== Slide 10: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Maximum Affordable Slot Payment}
+\begin{block}{A Simple Operator Screen}
+\[
+\text{Maximum Affordable Payment}
+=
+\text{Incremental Revenue}
+-\text{Incremental Operating Cost}
+-\text{Required Contribution}
+\]
+\end{block}
+\begin{itemize}
+\item Use incremental values associated with obtaining the slot, not total company revenue and OPEX.
+\item The required contribution may cover fixed cost, risk, or a target return.
+\item The rational bid also depends on auction rules, expected rival bids, alternative slots, and the risk that linked resources are unavailable.
+\item A high bid does not automatically imply high social value or justify exclusion of smaller operators.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 11: BACK-OF-ENVELOPE (AUCTIONS) ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Comparing Affordable Bids}
+\textbf{Scenario:} Two operators value the same commercial slot.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Operator A}
+\begin{itemize}
+\item Incremental revenue: HK\$2,000
+\item Incremental cost: HK\$1,200
+\item Required contribution: HK\$300
+\item \textbf{Maximum affordable payment: HK\$500}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Operator B}
+\begin{itemize}
+\item Incremental revenue: HK\$2,000
+\item Incremental cost: HK\$600
+\item Required contribution: HK\$300
+\item \textbf{Maximum affordable payment: HK\$1,100}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Operator B can afford a higher bid under these assumptions. The actual payment depends on the auction design and competing bids, not necessarily HK\$501.}
+\vfill{\tiny Illustrative assumptions; commercial slots remain subject to safety, priority, and competition rules.}
+\end{frame}
+
+% ====================== Slide 12: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Network Effects and Shared Information}
+A network effect exists when participation by additional compatible users increases the value of the network to existing users.
+\begin{itemize}
+\item Common interfaces and timely information may improve route planning, conflict detection, situational awareness, and coordination.
+\item More participants can also increase congestion, cybersecurity exposure, monitoring needs, and system complexity.
+\item Shared data does not automatically make a system safer. Data quality, latency, coverage, governance, and operational use matter.
+\item Some benefits are network effects; others are economies of scale or standardization benefits. They should not be treated as identical.
+\end{itemize}
+\end{frame}
+
+
+% ====================== Slide 13: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Coordination-Cost Savings}
+\begin{block}{A Simple Comparison}
+\[
+\begin{aligned}
+\text{Daily Net Saving} = {} & \text{Cost of the Less-Integrated Process} \\
+& {} - \text{Cost of the Interoperable Process}
+\end{aligned}
+\]
+\end{block}
+\begin{itemize}
+\item Each process should include fixed systems, usage fees, communications, human oversight, cybersecurity, integration, certification, and exception handling.
+\item Interoperability can reduce duplicate interfaces and repeated manual data entry.
+\item It may also create migration cost, common dependencies, governance disputes, and switching risks.
+\item Avoid assuming that API or digital-services cost is near zero.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 14: BACK-OF-ENVELOPE (U-SPACE) ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Two Coordination Processes}
+\textbf{Assumptions:} 1,000 operations/day and 30 operating days/month.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Less-Integrated Process}
+\begin{itemize}
+\item Manual and system cost: HK\$30/operation
+\item Daily cost: HK\$30,000
+\item \textbf{Monthly cost: HK\$900,000}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Interoperable Digital Process}
+\begin{itemize}
+\item Fixed system and oversight: HK\$12,000/day
+\item Variable cost: HK\$3/operation
+\item Daily cost: HK\$15,000
+\item \textbf{Monthly cost: HK\$450,000}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The interoperable process saves HK\$450,000 per month under these assumptions, but only if it achieves the required reliability, security, and service quality.}
+\vfill{\tiny Illustrative assumptions; not a Hong Kong UTM or European U-space cost estimate.}
+\end{frame}
+
+% ====================== Slide 15: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Interoperability, Roadmaps \& GBA Integration
+  \end{center}
+\end{frame}
+
+% ====================== Slide 16: CONCEPT PRIMER - INTEROPERABILITY ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Interoperability and Governance}
+Interoperability is the ability of authorized systems and organizations to exchange, interpret, and use information consistently.
+\begin{itemize}
+\item It may rely on common data models, interfaces, identity and access controls, service levels, and conformance testing.
+\item Shared standards can have public-good characteristics, but the systems, operations, cybersecurity, and assurance remain costly.
+\item Open standards do not require unrestricted public access to operational data.
+\item Governance must address data minimization, confidentiality, liability, competition, resilience, vendor dependence, and incident response.
+\end{itemize}
+\textbf{Managerial lesson:} Technical compatibility is necessary but not sufficient; institutions and incentives must also align.
+\end{frame}
+
+% ====================== Slide 17: APPLIED TOOL - INTEROPERABILITY SAVINGS ======================
+
+
+% ====================== Slide 18: BACK-OF-THE-ENVELOPE - INTEROPERABILITY ======================
+
+
+% ====================== Slide 19: CONCEPT PRIMER - AIRSPACE INTEGRATION ROADMAP ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Airspace-Integration Roadmap}
+Integration should proceed through evidence-based stages rather than fixed promises of full scale by a particular year.
+\begin{itemize}
+\item \textbf{Stage 1: Defined trials} with limited routes, aircraft, times, users, and contingency procedures.
+\item \textbf{Stage 2: Extended operations} with more conditions, repeated performance, interoperable services, and stakeholder feedback.
+\item \textbf{Stage 3: Scaled network} only after safety, reliability, capacity, governance, and commercial thresholds are met.
+\item Cross-boundary development also requires coordination on customs, immigration, quarantine, spectrum, data, security, liability, and emergency response.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 20: APPLIED TOOL - ROADMAP VALUATION (REVISED) ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Phased Roadmap Value}
+\begin{block}{A Simple NPV Framework}
+\[
+\text{Roadmap NPV} = \sum_{t=0}^{T} \frac{
+  \begin{aligned}
+    & \text{Incremental Cash Inflow}_t \\
+    {} - {} & \text{Incremental Cash Outflow}_t
+  \end{aligned}
+}{(1+r)^t}
+\]
+\end{block}
+\begin{itemize}
+\item Include implementation cost in the year in which it occurs, rather than subtracting all costs outside the discounting formula.
+\item Cash flows should reflect probability of reaching each phase, operating limits, demand, cost, and possible abandonment.
+\item Decision gates preserve flexibility to pause, redesign, or expand when evidence changes.
+\item A positive NPV under assumptions does not prove that the wider market is viable.
+\end{itemize}
+\end{frame}
+% ====================== Slide 21: BACK-OF-THE-ENVELOPE - ROADMAP (REVISED) ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: A Three-Year Phased Roadmap}
+\textbf{Assumptions:} Discount rate = 10\%. Net cash flows already combine phase revenue and implementation or operating cost.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Cash Flows}
+\begin{itemize}
+\item Year 0 trial investment: $-$HK\$50M
+\item Year 1 net cash flow: HK\$10M
+\item Year 2 net cash flow: HK\$40M
+\item Year 3 net cash flow: HK\$50M
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Present Values}
+\begin{itemize}
+\item Year 1: HK\$9.1M
+\item Year 2: HK\$33.1M
+\item Year 3: HK\$37.6M
+\item Total PV of future net cash flows: HK\$79.8M
+\item \textbf{Roadmap NPV: HK\$29.8M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The roadmap is attractive under these assumed cash flows. Probabilities, decision gates, terminal value, and cross-boundary dependencies still require analysis.}
+\vfill{\tiny Illustrative assumptions; not a forecast of Hong Kong-GBA operations.}
+\end{frame}
+
+% ====================== Slide 19: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+\frametitle{In-Class Exercise: Allocating a Scarce Slot}
+\textbf{Scenario:} Disruption reduces three planned corridors to one available commercial slot.
+\begin{itemize}
+\item \textbf{Roles:} Commercial operators, public-service customer, regulator or airspace manager, and community representative
+\item \textbf{Task:}
+\begin{enumerate}
+\item calculate each commercial operator's maximum affordable payment;
+\item choose an allocation mechanism and explain its objective;
+\item apply a predefined public-service priority rule if triggered;
+\item state how cancelled or displaced operations are treated; and
+\item assess effects on efficiency, fairness, competition, and daily breakeven.
+\end{enumerate}
+\item \textbf{Timing:} 15 minutes plus 5-minute discussion.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 20: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+\frametitle{Exercise Template: Allocation Ledger}
+
+\begin{center}\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{l|c|c|c}
+\textbf{Request} & \textbf{\shortstack{Incremental\\revenue}} & \textbf{\shortstack{Incremental\\cost}} & \textbf{\shortstack{Required\\contribution}}\\
+\hline
+Cargo operator & HK\$800 & HK\$400 & HK\$100\\
+Passenger operator & HK\$2,000 & HK\$600 & HK\$400\\
+Priority public service & \multicolumn{3}{c}{Apply predefined eligibility and dispatch rule}\\
+\end{tabular}
+\end{center}
+
+\vspace{0.2cm}
+\begin{itemize}
+\item Cargo maximum affordable payment: HK\$300.
+\item Passenger maximum affordable payment: HK\$1,000.
+\item If priority is triggered, record who bears the displacement cost and whether compensation, rescheduling, or reserved capacity applies.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 21: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Airspace capacity depends on the complete operating system and cannot be reduced to an unsupported fixed number of drones per minute.
+\item Congestion pricing estimates external delay cost, while queues, reservations, priority rules, and auctions serve different objectives.
+\item Auctions can reveal willingness to pay but require safeguards for safety, competition, linked resources, new entrants, and public-service access.
+\item Interoperability may reduce duplicate coordination and support scale, but does not make digital services free or automatically safe.
+\item Network participation can create benefits and costs; data quality, cybersecurity, governance, and congestion remain essential.
+\item A credible roadmap links each expansion in capacity or operating privilege to evidence, review, and a financially consistent decision gate.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 22: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 8 Assignment Briefing}
+\textbf{Airspace Allocation and Congestion Memo (maximum 1,200 words)}
+\begin{itemize}
+\item \textbf{Due:} Beginning of Week 9 (group assignment)
+\item \textbf{Task:} Design an allocation mechanism for a constrained Hong Kong corridor or facility.
+\item \textbf{Requirements:}
+\begin{enumerate}
+\item define the constrained resource, safe capacity, time interval, and demand scenario;
+\item compare at least two mechanisms, such as queueing, reservations, peak pricing, or auction;
+\item estimate a delay externality or maximum affordable payment using transparent assumptions;
+\item specify eligibility and treatment for priority public-service operations;
+\item model one weather or capacity shock and identify who bears displacement cost;
+\item explain the required digital information, interoperability, cybersecurity, and governance arrangements; and
+\item propose a phased implementation and evaluation plan.
+\end{enumerate}
+\item \textbf{Grading focus:} Economic reasoning (35\%), operational realism (25\%), welfare and competition analysis (20\%), governance and roadmap (10\%), professionalism (10\%).
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 23: PREVIEW WEEK 9 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 9}
+  
+  \begin{center}
+      \Large \textbf{Economic and Social Impact of LAE}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Preview question for next week:} \\
+  \textit{We've spent 8 weeks figuring out how companies make money... but does the Low Altitude Economy actually make life better for the everyday citizens of Hong Kong?}
+\end{frame}
+
+% ====================== Slide 24: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \begin{center}
+      \textbf{Next Week Preview:} \\
+      \Large The Big Picture: Jobs, GDP, and the Environment
+  \end{center}
+  
+  \vspace{0.5cm}
+  \textbf{Pre-Class Readings Reminder (for Week 9):}
+  \begin{itemize}
+      \item \textit{NASA UAM Market Study (Network design \& airspace)}
+      \item \textit{EASA Easy Access Rules for U-space (Interoperability)}
+  \end{itemize}
+  
+  \vspace{0.5cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

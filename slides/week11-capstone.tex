@@ -1,0 +1,401 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE (REVISED) ======================
+\begin{frame}
+  \title{Synthesis \& Capstone Group Presentations}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 11}
+  \titlepage
+\end{frame}
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Integrate} demand, capacity, unit economics, infrastructure, contracts, regulation, and sustainability into one coherent strategy.
+\item \textbf{Check} that assumptions, units, and causal links remain consistent across the complete business model.
+\item \textbf{Evaluate} viability using cash flow, NPV, breakeven, downside risk, and non-financial decision criteria.
+\item \textbf{Present} a concise 12-minute recommendation supported by transparent evidence and sensitivity analysis.
+\item \textbf{Defend} the proposal by explaining limitations, decision gates, and conditions under which the recommendation should change.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{Seeing the Whole System}
+\textbf{A strong capstone does more than collect ten weeks of separate calculations.}
+\begin{itemize}
+\item Demand determines the activity the system may serve.
+\item Infrastructure and regulation constrain reliable capacity.
+\item Capacity, utilization, and contracts determine revenue and unit cost.
+\item Environmental and social impacts affect operating conditions, mitigation cost, and legitimacy.
+\end{itemize}
+\vspace{0.3cm}
+\textbf{Synthesis means tracing how one changed assumption affects the rest of the model.}
+\begin{itemize}
+\item \textbf{Quick poll (2 min):} Which assumption in your project creates the largest cascade if it changes?
+\end{itemize}
+\end{frame}
+
+
+% ====================== Session 1 Title Card ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Integrated Strategy Synthesis \& The Master Viability Equation
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: The Integration Challenge}
+Business-model components are connected through quantities, prices, capacity, cost, timing, risk, and stakeholder responses.
+\begin{itemize}
+\item A restriction on operating hours reduces reliable capacity.
+\item Lower capacity may reduce served demand and revenue while increasing fixed cost per served unit.
+\item A price response may further change customer choice and load factor.
+\item A mitigation measure may increase cost but preserve operating access or reduce disruption.
+\end{itemize}
+\textbf{Integration rule:} Every important assumption should appear once in the correct model channel, with no contradictory units or double counting.
+\end{frame}
+
+% ====================== Slide 5: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: The Viability Test}
+
+% Tighten vertical math spacing inside blocks
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+
+\begin{block}{Step 1: How Much Can We Actually Serve?}
+\[
+\text{Served Activity} = \min\{ \text{Customer Demand}, \text{Reliable Capacity} \}
+\]
+\end{block}
+
+\vspace{-0.1cm}
+
+\begin{block}{Step 2: Does the Service Cover Its Costs?}
+\[
+\text{Operating Profit} = (\text{Price} - \text{Variable Cost}) \times \text{Served Activity} - \text{Fixed Cost}
+\]
+\end{block}
+
+\vspace{0.15cm}
+
+\begin{itemize}
+  \setlength{\itemsep}{2pt}
+  \item Demand may be limited by price, travel time, or customer acceptance.
+  \item Capacity may be limited by aircraft, infrastructure, weather, or regulation.
+  \item The business is operationally viable only if served activity generates enough contribution to cover fixed cost.
+\end{itemize}
+
+\end{frame}
+
+
+% ====================== Slide 6: BACK-OF-THE-ENVELOPE ======================
+\begin{frame}[t]
+\frametitle{Back-of-the-Envelope: The Effect of a Capacity Shock}
+
+% Control math whitespace inside blocks
+\setlength{\abovedisplayskip}{2pt}
+\setlength{\belowdisplayskip}{2pt}
+
+\small
+\textbf{Assumptions:} Customer demand is 100 flights/day at HK\$600 per flight. Variable cost is HK\$100 per flight, and fixed cost is HK\$40,000/day.
+
+\vspace{0.15cm}
+
+\begin{columns}[T]
+  \begin{column}{0.48\textwidth}
+    \begin{block}{Base Case}
+      \textbf{Step 1: Served Activity}
+      \[
+      \min\{100, 100\} = 100
+      \]
+      \vspace{-0.1cm}
+      \textbf{Step 2: Operating Profit}
+      \[
+      \begin{aligned}
+        & (600 - 100) \times 100 - 40{,}000 \\
+        ={} & \mathbf{HK\$10{,}000/\text{day}}
+      \end{aligned}
+      \]
+    \end{block}
+  \end{column}
+
+  \begin{column}{0.48\textwidth}
+    \begin{block}{Capacity Shock}
+      \textbf{Step 1: Served Activity}
+      \[
+      \min\{100, 80\} = 80
+      \]
+      \vspace{-0.1cm}
+      \textbf{Step 2: Operating Profit}
+      \[
+      \begin{aligned}
+        & (600 - 100) \times 80 - 40{,}000 \\
+        ={} & \mathbf{HK\$0/\text{day}}
+      \end{aligned}
+      \]
+    \end{block}
+  \end{column}
+\end{columns}
+
+\vspace{0.2cm}
+
+\footnotesize
+\textit{Takeaway: The capacity shock reduces served activity even though customer demand is unchanged. Because fixed cost remains, the service falls from a daily profit of HK\$10,000 to breakeven.}
+
+\vfill
+{\tiny Illustrative assumptions; no claim about annual Hong Kong weather downtime.}
+\end{frame}
+
+% ====================== Slide 7: CONCEPT PRIMER 2 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Integrated Strategy Template}
+A coherent capstone should connect six decision blocks:
+\begin{enumerate}
+\item \textbf{Service and stakeholder problem}: What need is addressed, for whom, and compared with what alternative?
+\item \textbf{Demand and capacity}: How many units are demanded and reliably serviceable?
+\item \textbf{Economics and finance}: What are contribution, breakeven activity, cash flow, NPV, and downside exposure?
+\item \textbf{Infrastructure and operations}: Which resources are binding, and how is reliability maintained?
+\item \textbf{Partnership and regulation}: Who performs each role, bears each risk, and grants each permission?
+\item \textbf{Sustainability and distribution}: What impacts arise, who bears them, and how are they measured and mitigated?
+\end{enumerate}
+\end{frame}
+
+% ====================== NEW SLIDE 7.5: INTEGRATED SYNTHESIS EXAMPLE ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Integrated Synthesis Example: Airport-Corridor Screening}
+\textbf{Illustrative chain of reasoning:}
+\begin{itemize}
+\item \textbf{Problem}: Test whether a time-sensitive airport segment values the proposed door-to-door service.
+\item \textbf{Demand}: Estimate customer choice at alternative fares using generalized cost and capacity constraints.
+\item \textbf{Operations}: Define aircraft, seats, load factor, operating days, turnaround, and serviceable capacity.
+\item \textbf{Economics}: Calculate contribution per passenger-trip, fixed cost, breakeven activity, NPV, and downside cash need.
+\item \textbf{Regulation}: Identify applicable permissions and use evidence-based Sandbox X or AC-013 milestones only where relevant.
+\item \textbf{Impact}: Compare life-cycle emissions, noise exposure, privacy controls, access, and public-service effects.
+\end{itemize}
+\textbf{Decision:} Recommend proceed, stage, redesign, relocate, or reject, with explicit conditions that would change the recommendation.
+\end{frame}
+
+
+
+
+% ====================== NEW SLIDE 7.6: RISK REGISTER & ROADMAP ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Risk Register and Decision-Gated Roadmap}
+
+\begin{center}\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{1.8cm}|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X}
+\textbf{Risk} & \textbf{Model channel} & \textbf{Response} & \textbf{Decision trigger}\\
+\hline
+Demand & Choice share and price & Pilot and staged capacity & Minimum verified demand\\
+Weather & Serviceable capacity & Procedures and resilience & Reliability threshold\\
+Regulation & Scope and timing & Evidence plan and review & Permission or milestone\\
+Technology & Cost and availability & Test, redundancy, supplier plan & Performance threshold\\
+Community impact & Route and operating conditions & Mitigation and engagement & Exposure and complaint KPI\\
+\end{tabularx}
+\end{center}
+
+\vspace{0.15cm}
+\footnotesize
+\textit{Do not assume fixed Sandbox X approval dates. Under AC-013, BVLOS permission within the regulatory-sandbox context is operation-specific and requires supporting documents, flight and test plans, risk assessment, and mitigations.}
+\end{frame}
+
+% ====================== Slide 8: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large Presentation Skills, Practitioner Frameworks \& Rehearsal
+  \end{center}
+\end{frame}
+
+% ====================== Slide 9: CONCEPT PRIMER 3 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: The Decision-Maker's Lens}
+Assessors may represent investors, operators, regulators, public agencies, customers, or affected communities. Their objectives are not identical.
+\begin{itemize}
+\item \textbf{Operational credibility}: Can the service be delivered safely and reliably?
+\item \textbf{Commercial viability}: Are demand, contribution, cash flow, and financing assumptions credible?
+\item \textbf{Regulatory feasibility}: Is the proposed pathway specific to the aircraft and operation?
+\item \textbf{Public value}: Are benefits, costs, access, and distribution addressed?
+\item \textbf{Decision quality}: Does the recommendation acknowledge uncertainty, alternatives, and conditions for revision?
+\end{itemize}
+\textbf{A strong presentation answers all five without pretending that uncertainty has disappeared.}
+\end{frame}
+
+% ====================== Slide 10: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A 12-Minute Decision Pitch}
+\begin{itemize}
+\item \textbf{Decision and value proposition, 2 minutes}: State the problem, recommendation, customer, use case, and principal evidence.
+\item \textbf{Integrated quantitative case, 4 minutes}: Show demand, reliable capacity, contribution, breakeven, NPV, and one clear sensitivity.
+\item \textbf{Implementation and governance, 3 minutes}: Explain infrastructure, partners, regulatory pathway, responsibilities, and decision gates.
+\item \textbf{Risk and impact, 2 minutes}: Present the major downside scenario, mitigation, residual risk, sustainability, and distributional effects.
+\item \textbf{Closing decision, 1 minute}: State the requested action, next milestone, funding or approval need, and conditions for stopping.
+\end{itemize}
+\textit{Use formulas only where they clarify the decision. The objective is a defensible recommendation, not the largest number of calculations.}
+\end{frame}
+
+% ====================== Slide 11: BACK-OF-ENVELOPE (WIN vs LOSE) ======================
+\begin{frame}[t,shrink=13]
+\frametitle{Back-of-the-Envelope: Weak and Strong Evidence}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{block}{Weak Case}
+\begin{itemize}
+\item Uses total market size as forecast demand
+\item Confuses passenger-trips, flights, and seats
+\item Applies repeated percentage haircuts
+\item Reports expected profit without downside risk
+\item Assumes approval, acceptance, and insurance outcomes
+\end{itemize}
+\end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{block}{Strong Case}
+\begin{itemize}
+\item Defines the market and competing alternative
+\item Checks demand against reliable capacity
+\item Maps each constraint to one model channel
+\item Reports NPV, probability of loss, and cash need
+\item States evidence, limitations, and decision gates
+\end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+\textit{A strong analysis can still recommend rejection or delay. Credibility is more important than producing a favourable answer.}
+\end{frame}
+
+% ====================== Slide 12: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Capstone Group Presentations + Practitioner Feedback
+  \end{center}
+\end{frame}
+
+% ====================== Slide 13: PRESENTATION LOGISTICS ======================
+\begin{frame}[t]
+\frametitle{Presentation Schedule and Ground Rules}
+\begin{itemize}
+\item \textbf{Timing}: 12 minutes to present and 3 minutes for questions. Rehearse to finish without rushing the recommendation.
+\item \textbf{Team contribution}: Every member should speak and understand the central assumptions and results.
+\item \textbf{Traceability}: Cite important data and distinguish sourced evidence from classroom assumptions.
+\item \textbf{Visual discipline}: Use readable charts, tables, sensitivity results, and a decision roadmap rather than dense text.
+\item \textbf{Unit consistency}: Distinguish passengers, passenger-trips, flights, movements, operating days, and annual values.
+\item \textbf{Professional judgment}: Explain uncertainty and limitations directly. Do not present assumptions as current Hong Kong facts.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 14: FEEDBACK GUIDELINES ======================
+\begin{frame}[t]
+\frametitle{Feedback Guidelines for the Audience}
+When evaluating another team, provide one strength, one material concern, and one actionable improvement.
+\begin{itemize}
+\item \textbf{Problem and recommendation}: Is the decision clear and tied to a real stakeholder need?
+\item \textbf{Model consistency}: Do demand, capacity, price, cost, and timing use compatible units?
+\item \textbf{Evidence}: Are important facts sourced and uncertain inputs varied?
+\item \textbf{Implementation}: Are partners, permissions, responsibilities, and milestones plausible?
+\item \textbf{Risk}: Does the analysis identify residual risk, probability of loss, and liquidity needs?
+\item \textbf{Impact}: Are safety, privacy, noise, climate, access, and distribution considered proportionately?
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 15: EXERCISE TEMPLATE ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Visual Template: A 12-Slide Executive Deck}
+\begin{enumerate}
+\item Decision and executive summary
+\item Stakeholder problem and current alternative
+\item Service design and operating concept
+\item Market definition and customer choice
+\item Reliable capacity and infrastructure
+\item Unit economics and breakeven
+\item Cash flow, NPV, and funding requirement
+\item Partnership, payment, and risk allocation
+\item Regulatory pathway and evidence gates
+\item Downside scenario and sensitivity results
+\item Sustainability and distributional impacts
+\item Recommendation, milestones, and stop or expand conditions
+\end{enumerate}
+\textit{The deck order may change, but the logic should move from the decision to evidence, implementation, risk, and action.}
+\end{frame}
+
+% ====================== Slide 16: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Synthesis requires a connected model, not a collection of independent weekly calculations.
+\item Served activity is limited by both customer demand and reliable capacity.
+\item Project viability should be assessed through contribution, cash flow, NPV, downside risk, and non-financial criteria.
+\item Constraints must enter through explicit model channels without double counting.
+\item A credible recommendation states evidence, limitations, residual risks, and conditions for changing course.
+\item Clear presentation supports judgment by making assumptions and trade-offs visible rather than hiding uncertainty.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 17: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 11 Deliverables}
+\textbf{Capstone Presentation and Executive Memo (30\% of course grade)}
+\begin{itemize}
+\item \textbf{Due}: End of Week 11
+\item \textbf{Presentation}: 12 minutes plus 3 minutes for questions
+\item \textbf{Memo}: Maximum five pages excluding references and clearly labelled appendices
+\item \textbf{Required content}:
+\begin{enumerate}
+\item integrated recommendation covering service, demand, capacity, economics, infrastructure, partnership, regulation, and impacts;
+\item consistent quantitative model including breakeven and NPV or an explained alternative;
+\item downside analysis reporting probability of loss or a comparable risk measure and liquidity need;
+\item risk register with owners, responses, residual risks, and decision triggers; and
+\item phased implementation roadmap linked to evidence rather than assumed approval dates.
+\end{enumerate}
+\item \textbf{Grading focus}: Integration and model consistency (35\%), evidence and feasibility (25\%), risk and implementation (20\%), impact and governance (10\%), presentation clarity (10\%).
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 18: PREVIEW WEEK 12 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 12}
+  
+  \begin{center}
+      \Large \textbf{Review, Quantitative Applications \& Final Exam}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Preview question for next week:} \\
+  \textit{How will you demonstrate this level of integrated economic judgment across all 11 weeks under the time pressure of a final exam?}
+\end{frame}
+
+% ====================== Slide 19: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \textbf{Pre-Class Readings Reminder (for Week 12):}
+  \begin{itemize}
+      \item \textit{Review all past reading bundles.}
+      \item \textit{Prepare questions for the final exam review session.}
+  \end{itemize}
+  
+  \vspace{1cm}
+  \begin{center}
+      \textbf{Questions? Final Presentation Feedback?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

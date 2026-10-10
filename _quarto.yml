@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - slides/
 
 website:
   title: "DOTE5891"
@@ -19,6 +21,8 @@ website:
         menu:
           - href: readings.qmd
             text: Readings
+          - href: lectures.qmd
+            text: Lectures
           - href: briefings.qmd
             text: Weekly notes
       - text: "What's new"

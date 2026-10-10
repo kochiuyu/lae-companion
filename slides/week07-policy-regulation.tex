@@ -1,0 +1,511 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE (REVISED) ======================
+\begin{frame}
+  \title{LAE Policy and Regulation}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 7}
+  \titlepage
+\end{frame}
+
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Explain} Hong Kong's risk-based framework for small unmanned aircraft and the role of Sandbox X.
+\item \textbf{Identify} the evidence and permissions required for advanced operations, including BVLOS testing.
+\item \textbf{Evaluate} how safety assurance affects approval, liability, reliability, and insurability.
+\item \textbf{Explain} how digital traffic-management services may support safe and scalable operations.
+\item \textbf{Design} a phased regulatory roadmap that links operating privileges to evidence and performance.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{The Regulatory Strategy Meeting}
+\textbf{Imagine an operator preparing to test a complex drone route in Hong Kong.}
+\begin{itemize}
+\item The operating team must explain the aircraft, route, people, procedures, communications, contingency measures, and data to be collected.
+\item The regulator must decide whether the proposed controls are proportionate to the operational risk.
+\end{itemize}
+\vspace{0.3cm}
+Regulation can increase cost and delay, but it can also establish safety, trust, predictable market access, and credible evidence.
+\begin{itemize}
+\item \textbf{Quick poll (2 min):} Which is more valuable to an early operator: faster approval, clearer requirements, or permission to test a more complex operation?
+\end{itemize}
+\end{frame}
+
+% ====================== Session 1 Title Card ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Regulatory Moats, Sandbox X \& BVLOS
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 - ECONOMIC MOAT ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Regulation and Competitive Advantage}
+Regulatory capability may become a competitive advantage when a firm can demonstrate safe, reliable, and compliant operations more effectively than its rivals.
+\begin{itemize}
+\item Approval can require investment in people, procedures, engineering, testing, documentation, and monitoring.
+\item Evidence and operating experience may reduce uncertainty and improve credibility with customers, partners, investors, and insurers.
+\item However, regulation does not grant an automatic monopoly, and approvals should not be treated as tools for excluding efficient competitors.
+\item Requirements may also promote entry by creating clear, transparent, and proportionate pathways.
+\end{itemize}
+\textbf{Managerial lesson:} Build a compliance capability, not a strategy based on presumed regulatory protection.
+\end{frame}
+
+% ====================== Slide 5: APPLIED TOOL - ECONOMIC MOAT VALUE ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Value of Earlier Market Readiness}
+\begin{block}{A Simple Screening Relationship}
+\[
+\text{Net Readiness Value}
+=
+\text{Contribution Earned During the Lead Period}
+-\text{Additional Compliance and Launch Cost}
+\]
+\end{block}
+\begin{itemize}
+\item The lead period begins only when revenue-generating operation is actually permitted and demand exists.
+\item Contribution, not revenue or accounting profit, should reflect additional operating costs.
+\item Faster readiness may create learning, reputation, and partnership benefits, but competitors and substitutes can still enter.
+\item The calculation should include probability of approval, delay, unsuccessful trials, and the possible expiry of the lead.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 6: BACK-OF-THE-ENVELOPE - ECONOMIC MOAT ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: The Value of Earlier Readiness}
+\textbf{Illustrative assumptions:} Monthly contribution after approval = HK\$2M; additional compliance cost = HK\$15M.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Twelve-Month Lead}
+\begin{itemize}
+\item Contribution during lead: $12\times2=\text{HK\$24M}$
+\item Additional compliance cost: HK\$15M
+\item \textbf{Net readiness value: HK\$9M}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Six-Month Lead}
+\begin{itemize}
+\item Contribution during lead: $6\times2=\text{HK\$12M}$
+\item Additional compliance cost: HK\$15M
+\item \textbf{Net readiness value: $-$HK\$3M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Early readiness has value only if the lead is sufficiently long and commercially useful. It does not imply monopoly protection.}
+\vfill{\tiny Illustrative assumptions; excludes probability of approval, financing, tax, and demand uncertainty.}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Concept Primer: Hong Kong's Regulatory Sandbox X}
+Sandbox X enables selected project concepts to be tested on predefined routes and under controlled conditions.
+\begin{itemize}
+\item It supports testing of airspace management, flight operations, infrastructure, communications, and emergency response.
+\item It allows government and participants to collect evidence on safety, reliability, resilience, technical feasibility, and commercial viability.
+\item Cross-boundary trials may also examine coordination and customs, immigration, and quarantine procedures.
+\item Projects proceed progressively, with routes, parameters, and timing subject to approved conditions.
+\end{itemize}
+\textit{Sandbox X is not a legal safe space, a waiver of safety obligations, or automatic authorization for commercial service.}
+\end{frame}
+% ====================== Slide 8: APPLIED TOOL - SANDBOX X VALUE ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Value of a Controlled Trial}
+\begin{block}{A Simple Expected-Learning Calculation}
+\[
+\text{Trial Value}
+=
+\text{Expected Avoided Redesign and Delay Cost}
++\text{Value of Better Information}
+-\text{Trial Cost}
+\]
+\end{block}
+\begin{itemize}
+\item A trial can reveal whether routes, communications, infrastructure, procedures, and customer demand work as expected.
+\item Evidence may support later approval or investment, but the timing and outcome are not guaranteed.
+\item Trial flights and commercial operations are different stages and may involve different permissions and conditions.
+\item The principal benefit is earlier, lower-cost learning rather than presumed early monopoly profit.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 9: BACK-OF-THE-ENVELOPE - SANDBOX X ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: The Value of Earlier Learning}
+\textbf{Illustrative assumptions:} A controlled trial costs HK\$5M. Without a trial, there is a 40\% chance that a HK\$20M redesign is discovered after investment.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{No Early Trial}
+\begin{itemize}
+\item Expected redesign cost: $0.40\times20$
+\item \textbf{HK\$8M}
+\item Information arrives after larger commitment.
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Controlled Trial}
+\begin{itemize}
+\item Trial cost: HK\$5M
+\item Assume the trial identifies the issue before full investment
+\item \textbf{Illustrative net avoided cost: HK\$3M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: A sandbox trial may create value by discovering problems before scale-up. The result depends on whether the trial is informative.}
+\vfill{\tiny Illustrative assumptions; not official Sandbox X costs or timelines.}
+\end{frame}
+
+% ====================== Slide 10: CONCEPT PRIMER 3 - BVLOS ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: BVLOS Operations}
+BVLOS means operating an unmanned aircraft beyond the remote pilot's direct visual line of sight.
+\begin{itemize}
+\item BVLOS can extend range and reduce the need for observers, but usually increases operational complexity and risk.
+\item The safety case may need to address command and control, navigation, surveillance, airspace conflict, lost-link procedures, weather, emergency response, and human oversight.
+\item Under Hong Kong's risk-based SUA regime, higher-risk advanced operations require prior permission from the Civil Aviation Department and may be subject to additional requirements.
+\item Sandbox testing can generate evidence for defined operations, but does not create a general right to conduct BVLOS flights anywhere.
+\end{itemize}
+\end{frame}
+% ====================== Slide 12: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large Certification, Safety Cases \& OPEX Savings
+  \end{center}
+\end{frame}
+
+% ====================== Slide 13: CONCEPT PRIMER - CERTIFICATION ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Approval, Permission, and Certification}
+These terms should not be used interchangeably.
+\begin{itemize}
+\item \textbf{SUA operating requirements and permission:} Under Cap. 448G, operations are regulated according to aircraft category and operational risk; advanced operations require prior CAD permission.
+\item \textbf{Operator and pilot requirements:} Registration, training, assessment, equipment, records, insurance, and operating conditions may apply.
+\item \textbf{Aircraft certification:} Passenger-carrying or larger unconventional aircraft may require a substantially different airworthiness and operational framework.
+\item \textbf{Infrastructure approval:} Landing sites and supporting facilities may also involve planning, building, fire, land, environmental, and other requirements.
+\end{itemize}
+\textbf{Managerial lesson:} Build a regulatory map for the specific aircraft, mission, route, and business model.
+\end{frame}
+
+% ====================== Slide 14: APPLIED TOOL - CERTIFICATION ROI ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Compliance Investment Appraisal}
+\begin{block}{A Simple Expected-Value Screen}
+\[
+\text{Expected Compliance Value}
+=
+\Pr(\text{approval})\times\text{Project Value if Approved}
+-\text{Compliance Cost}
+-\text{Expected Delay Cost}
+\]
+\end{block}
+\begin{itemize}
+\item Compliance expenditure may be necessary for market access, but it does not automatically create additional revenue.
+\item Project value depends on demand, capacity, competition, operating conditions, and the duration of any advantage.
+\item Delay cost should be measured as foregone contribution or project value, not automatically as lost revenue.
+\item Use staged decision gates where evidence can change the decision to continue.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 15: BACK-OF-THE-ENVELOPE - CERTIFICATION ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Should the Operator Continue?}
+\textbf{Illustrative assumptions:} Compliance programme costs HK\$15M; project value if approved = HK\$30M after all operating costs.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{70\% Approval Probability}
+\begin{itemize}
+\item Expected approved value: $0.70\times30=\text{HK\$21M}$
+\item Less compliance cost: HK\$15M
+\item \textbf{Expected value before delay cost: HK\$6M}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{40\% Approval Probability}
+\begin{itemize}
+\item Expected approved value: $0.40\times30=\text{HK\$12M}$
+\item Less compliance cost: HK\$15M
+\item \textbf{Expected value before delay cost: $-$HK\$3M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Compliance investment should be assessed together with approval probability and project economics, not presumed monopoly revenue.}
+\vfill{\tiny Illustrative assumptions; not official costs or approval probabilities.}
+\end{frame}
+
+% ====================== Slide 16: CONCEPT PRIMER - SAFETY CASE ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: The Safety Case}
+A safety case is a structured argument, supported by evidence, that the risks of a defined operation are understood and adequately controlled.
+\begin{itemize}
+\item It identifies hazards, consequences, preventive controls, mitigations, responsibilities, and evidence.
+\item It should match the actual aircraft, route, environment, operating concept, and emergency procedures.
+\item It does not claim to identify every possible failure or prove that risk is zero.
+\item It must remain current as operations, technology, routes, and evidence change.
+\end{itemize}
+\textbf{Business relevance:} A credible safety case can support approval, operational discipline, partner confidence, and insurance discussions.
+\end{frame}
+
+% ====================== Slide 17: APPLIED TOOL - INSURANCE DISCOUNT ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Risk-Cost Framework}
+\begin{block}{Expected Loss}
+\[
+\text{Expected Loss}=\sum_j \Pr(\text{event }j)\times\text{Financial Consequence}_j
+\]
+\end{block}
+\begin{block}{Total Risk Cost}
+\[
+\text{Risk Cost}=\text{Prevention and Mitigation Cost}+\text{Insurance Cost}+\text{Retained Expected Loss}
+\]
+\end{block}
+\begin{itemize}
+\item Safety investment may reduce event probability or consequence.
+\item Insurance premiums also depend on limits, deductibles, exclusions, exposure, claims history, market conditions, and insurer assessment.
+\item A stronger safety case may support insurability, but a specific premium reduction is not guaranteed.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 18: BACK-OF-THE-ENVELOPE - SAFETY CASE ROI ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Comparing Risk Controls}
+\textbf{Illustrative assumptions:} A proposed control costs HK\$3M and reduces annual expected loss from HK\$2M to HK\$0.5M over a three-year planning period.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Without the Control}
+\begin{itemize}
+\item Annual expected loss: HK\$2M
+\item Three-year expected loss: HK\$6M
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{With the Control}
+\begin{itemize}
+\item Control cost: HK\$3M
+\item Three-year expected loss: HK\$1.5M
+\item Total: HK\$4.5M
+\item \textbf{Illustrative expected saving: HK\$1.5M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Safety investment can create economic value when it reduces expected loss or enables operation, but assumptions and non-financial safety obligations remain critical.}
+\vfill{\tiny Illustrative risk calculation; not an insurance quotation or acceptable-risk threshold.}
+\end{frame}
+
+% ====================== Slide 19: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large U-Space, Transaction Costs \& Global Benchmarks
+  \end{center}
+\end{frame}
+
+% ====================== Slide 20: CONCEPT PRIMER - U-SPACE \& TRANSACTION COSTS ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: U-space, UTM, and Coordination Cost}
+U-space is the European regulatory framework for digital services supporting unmanned-aircraft operations in designated airspace.
+\begin{itemize}
+\item Mandatory services include flight authorization, geo-awareness, network identification, and traffic information.
+\item UTM is a broader term used for systems and services supporting unmanned traffic management in other contexts.
+\item Digital services can standardize information exchange and support higher volumes, but they do not eliminate human oversight, certification, cybersecurity, infrastructure, or service-provider costs.
+\item Transaction costs include planning, authorization, coordination, information exchange, monitoring, and handling exceptions.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 21: APPLIED TOOL - COORDINATION COST ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Coordination Cost per Operation}
+\begin{block}{A Simple Cost Model}
+\[
+\text{Daily Coordination Cost}
+=
+\text{Fixed System Cost}
++q\times\text{Variable Digital Cost}
++h\times\text{Human Oversight Cost}
+\]
+\end{block}
+\begin{itemize}
+\item $q$ is the number of operations and $h$ is the required human-oversight effort.
+\item Digitalization may reduce repetitive manual work while adding software, communications, cybersecurity, certification, and provider fees.
+\item Exceptions, disruptions, and emergency situations may still require substantial human intervention.
+\item Scale is viable only if total system capacity and safety performance also increase.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 22: BACK-OF-THE-ENVELOPE - U-SPACE ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Manual and Digital Coordination}
+\textbf{Assumptions:} 1,000 operations/day and 30 operating days/month.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Mostly Manual Process}
+\begin{itemize}
+\item 100 staff-hours/day at HK\$300/hour
+\item Daily cost: HK\$30,000
+\item \textbf{Monthly cost: HK\$900,000}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Digital System with Oversight}
+\begin{itemize}
+\item System cost: HK\$8,000/day
+\item Human oversight: HK\$7,000/day
+\item Daily cost: HK\$15,000
+\item \textbf{Monthly cost: HK\$450,000}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Digital coordination may lower unit cost, but savings depend on system cost, oversight, reliability, integration, and scale.}
+\vfill{\tiny Illustrative assumptions; not a U-space or Hong Kong UTM cost estimate.}
+\end{frame}
+
+% ====================== Slide 23: CONCEPT PRIMER - GLOBAL BENCHMARKS ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Comparing Regulatory Systems}
+International comparison should focus on functions rather than unsupported rankings of speed.
+\begin{itemize}
+\item \textbf{Hong Kong:} A risk-based SUA framework, prior permission for advanced operations, and controlled Sandbox X trials for more complex applications.
+\item \textbf{European Union:} Harmonized UAS rules and a U-space framework for designated airspace and certified service providers.
+\item \textbf{United States:} Certification, operational approvals, airspace integration, infrastructure, and implementation planning under FAA and interagency programmes.
+\item \textbf{Mainland China and the GBA:} A distinct national and local regulatory environment requiring route-specific and cross-boundary coordination.
+\end{itemize}
+\textbf{Managerial lesson:} Compare requirements, evidence, scope, transferability, cost, and predictability, not only nominal approval time.
+\end{frame}
+% ====================== Slide 24: APPLIED TOOL - REGULATORY AGILITY INDEX ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Regulatory-Pathway Scorecard}
+\begin{center}\small
+\begin{tabular}{l|c}
+\textbf{Dimension} & \textbf{Managerial question}\\
+\hline
+Clarity & Are requirements and decision points understandable?\\
+Proportionality & Are controls matched to operational risk?\\
+Evidence pathway & Can testing generate useful evidence?\\
+Predictability & Are process, timing, and responsibilities credible?\\
+Scalability & Can the approval support expansion or repetition?\\
+Interoperability & Can evidence or approvals support other markets?\\
+\end{tabular}
+\end{center}
+\vspace{0.25cm}
+\textit{A single ratio of approval time to an invented ``stringency score'' would not provide a reliable international comparison.}
+\end{frame}
+
+% ====================== Slide 25: BACK-OF-THE-ENVELOPE - GLOBAL BENCHMARKS ======================
+\begin{frame}[t]
+\frametitle{Back-of-the-Envelope: Weighted Pathway Comparison}
+\textbf{Illustrative exercise:} Score each pathway from 1 to 5 using evidence available to the project team.
+\begin{center}\small
+\begin{tabular}{l|c|c}
+\textbf{Dimension} & \textbf{Weight} & \textbf{What the team documents}\\
+\hline
+Clarity and predictability & 25\% & Published rules and milestones\\
+Trial and evidence pathway & 20\% & Scope and usefulness of testing\\
+Time and internal effort & 20\% & Scenario range, not a fixed claim\\
+Scalability & 20\% & Route, fleet, and repeatability limits\\
+Transferability & 15\% & Recognition and re-use of evidence\\
+\end{tabular}
+\end{center}
+\[
+\text{Weighted Score}=\sum_k w_k s_k
+\]
+\textit{Takeaway: The scorecard makes assumptions visible. It should support judgment rather than claim that one jurisdiction is universally fastest or best.}
+\end{frame}
+
+% ====================== Slide 26: CONCEPT PRIMER - POLICY HARMONISATION ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Coordination and Harmonisation}
+Cross-boundary operations may require coordination across multiple legal and operational systems.
+\begin{itemize}
+\item Harmonisation means aligning selected rules, standards, data formats, procedures, or evidence requirements.
+\item Mutual recognition means one authority accepts specified approvals or evidence from another jurisdiction.
+\item Neither concept necessarily creates one licence valid everywhere.
+\item Cross-boundary operations may also require customs, immigration, quarantine, spectrum, data, security, liability, and emergency-response arrangements.
+\end{itemize}
+\textbf{Managerial lesson:} Identify exactly which requirement must be aligned, recognized, duplicated, or separately approved.
+\end{frame}
+
+
+% ====================== Slide 18: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+\frametitle{In-Class Exercise: Regulatory Simulation}
+\textbf{Scenario:} An operator proposes a drone-delivery route near a residential area in Sha Tin.
+\begin{itemize}
+\item \textbf{Format:} Operator, regulator, public-agency customer, and community representatives
+\item \textbf{Task:}
+\begin{enumerate}
+\item define the service value and affected stakeholders;
+\item identify the main operational and community risks;
+\item propose initial route, time, payload, weather, monitoring, and contingency conditions;
+\item specify the evidence required before expanding the operation; and
+\item define a pause, review, and incident-response rule.
+\end{enumerate}
+\item \textbf{Timing:} 15 minutes plus 5-minute discussion.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 19: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+\frametitle{Exercise Template: Evidence-Based Roadmap}
+\begin{center}\small
+\begin{tabular}{p{0.18\textwidth}|p{0.23\textwidth}|p{0.25\textwidth}|p{0.23\textwidth}}
+\textbf{Phase} & \textbf{Operating scope} & \textbf{Evidence collected} & \textbf{Expansion gate}\\
+\hline
+1. Controlled test & Limited route, time, and payload & Communications, navigation, weather, procedures & Safety and reliability thresholds met\\
+2. Extended trial & More operating conditions or users & Repeated performance and stakeholder feedback & Approved review and updated controls\\
+3. Scaled operation & Wider route, frequency, or fleet & Ongoing monitoring and incident reporting & Continued compliance and periodic review\\
+\end{tabular}
+\end{center}
+\vspace{0.25cm}
+\textit{Data sharing should be necessary, proportionate, secure, and governed by clear rules. It should not be offered as an informal exchange for faster approval.}
+\end{frame}
+
+% ====================== Slide 20: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Hong Kong regulates small unmanned aircraft through a risk-based framework; advanced operations require prior permission and may face additional conditions.
+\item Sandbox X supports controlled testing and evidence collection, but is not a waiver of safety rules or automatic commercial approval.
+\item Compliance capability can create value through readiness, learning, reliability, and credibility, not guaranteed monopoly protection.
+\item A safety case is an evidence-based argument for a defined operation and may support approval and insurability without guaranteeing lower premiums.
+\item Digital traffic-management services may reduce coordination cost and support scale, but still require oversight, cybersecurity, infrastructure, and governance.
+\item A strong roadmap links each expansion in operating privilege to specified evidence, review, and risk controls.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 21: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 7 Assignment Briefing}
+\textbf{Regulatory and Compliance Roadmap Memo (max 1,200 words)}
+\begin{itemize}
+\item \textbf{Due:} Beginning of Week 8 (group assignment)
+\item \textbf{Task:} Develop a regulatory strategy for the group's Hong Kong LAE use case.
+\item \textbf{Requirements:}
+\begin{enumerate}
+\item identify the aircraft, operation, route, stakeholders, and applicable regulatory pathway;
+\item distinguish registration, operating permission, aircraft approval, and site requirements;
+\item outline the major hazards and evidence required for a safety case;
+\item propose a three-phase test-to-scale roadmap with measurable expansion gates;
+\item appraise the expected value and cost of early testing using transparent assumptions; and
+\item propose a necessary and proportionate data-governance plan for regulatory reporting.
+\end{enumerate}
+\item \textbf{Grading focus:} Regulatory accuracy (30\%), economic reasoning (30\%), roadmap and risk controls (30\%), professionalism (10\%).
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 22: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \begin{center}
+      \textbf{Next Week Preview:} \\
+      \Large Airspace Access and Integration
+  \end{center}
+  
+  \vspace{0.5cm}
+  \textbf{Pre-Class Readings Reminder (for Week 8):}
+  \begin{itemize}
+      \item \textit{CAD AC-013 (BVLOS) and Safety Requirements Document}
+      \item \textit{EASA Easy Access Rules for U-space}
+  \end{itemize}
+  
+  \vspace{0.5cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

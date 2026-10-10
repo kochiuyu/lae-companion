@@ -27,9 +27,10 @@ Official words, milestones, and what you may cite.
 ::: {.hub-card}
 ## This week
 
-This week's readings and dated source notes.
+This week's readings, lecture slides, and dated source notes.
 
 - [Readings](readings.qmd)
+- [Lectures](lectures.qmd)
 - [Weekly notes](briefings.qmd)
 :::
 

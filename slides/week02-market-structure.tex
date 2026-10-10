@@ -1,0 +1,768 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE ======================
+\begin{frame}
+    \title{LAE Market Structure and Competition}
+    \author{Chiu Yu KO}
+    \institute{Low Altitude Economics}
+    \date{Week 2}
+  \titlepage
+\end{frame}
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+  \frametitle{Learning Objectives}
+
+  \begin{itemize}
+    \item \textbf{Explain} how market structure shapes competition in different LAE services.
+    \item \textbf{Explain} how utilization and route density can reduce average cost.
+    \item \textbf{Identify} the main barriers that make entry costly or difficult.
+    \item \textbf{Use} simple models to examine price competition and capacity constraints.
+    \item \textbf{Evaluate} how Hong Kong and the wider GBA may contribute complementary capabilities.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+  \frametitle{The Battle for Kowloon}
+  
+  \textbf{Imagine this happening right now in Hong Kong airspace:}
+  \begin{itemize}
+      \item \textbf{Operator A} slashes prices on drone cargo flights to the New Territories, flooding the sky with last-mile deliveries.
+      \item \textbf{Operator B} counters by securing premium air-taxi slots to the airport, promising executives they will beat the Cross-Harbour Tunnel traffic.
+  \end{itemize}
+
+  \vspace{0.3cm}
+  \textbf{This is not random chaos. It is a calculated fight for survival.}
+  \begin{itemize}
+    \item They aren't just fighting for customers. They are fighting for the rarest asset in Hong Kong: \textit{Physical Landing Space}.
+    \item \textbf{Quick poll (2 min):} "In 3 years, will one company own the HKIA-Central route, or will there be 10 companies competing?"
+  \end{itemize}
+\end{frame}
+
+% ====================== Week 2 - Session 1 Title ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Market Segmentation, Concentration \& Economies of Density
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: What is "Market Structure"?}
+  
+  Before we look at the flying taxis, we need to understand how economists label competition.
+
+  \vspace{0.3cm}
+  \textbf{The Three Main Structures:}
+  \begin{itemize}
+      \item \textbf{Monopoly:} One provider serves a defined market. Its pricing power is still constrained by demand, regulation, and alternative services. (Example: A single toll tunnel).
+      \item \textbf{Oligopoly:} A small group of big players (2 to 5 companies). They watch each other carefully. If one drops their price, the others panic. (Example: Mobile phone networks like CSL, 3, SmarTone).
+      \item \textbf{Perfect Competition:} Hundreds of small players selling the exact same thing. Nobody has power to raise prices. (Example: Street food stalls).
+  \end{itemize}
+  
+  \vspace{0.3cm}
+  \textit{LAE does not have one market structure. Competition may differ by application, corridor, and infrastructure layer.}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Who Might Compete in Hong Kong's LAE Ecosystem?}
+\begin{itemize}
+\item \textbf{Aircraft developers and manufacturers}
+\item \textbf{Transport and logistics operators}
+\item \textbf{Telecommunications and digital-platform providers}
+\item \textbf{Infrastructure providers}, including landing, charging, and maintenance facilities
+\item \textbf{Supporting-service providers}, including finance, leasing, insurance, certification, and professional services
+\end{itemize}
+\textit{The relevant competitors depend on the specific market being analysed. Sandbox participation alone does not establish market dominance.}
+\end{frame}
+
+% ====================== Slide 5: MARKET SEGMENTS ======================
+\begin{frame}[t]
+  \frametitle{Four Market Segments — Four Different Battles}
+  
+  Not every low-altitude service competes the same way. The market naturally splits into four clear areas:
+
+  \begin{enumerate}
+    \item \textbf{Last-Mile Logistics:} Speed and cost rule here. Drones win when they beat road congestion on predictable B2B delivery routes.
+    \item \textbf{Passenger Air Taxis:} Time is the product. Premium travellers pay high prices for minutes saved in the most congested corridors.
+    \item \textbf{Industrial Inspection \& Surveying:} Reliability matters most. Companies pay for drones that inspect bridges without shutting down ground traffic.
+    \item \textbf{Emergency Medical Services (EMS):} The highest-value segment. Hospitals pay whatever it takes when lives are on the line.
+  \end{enumerate}
+\end{frame}
+
+% ====================== Slide 6: CONCEPT PRIMER 2 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: ``Market Concentration''}
+  
+  \textbf{What is Market Concentration?}
+  \begin{itemize}
+      \item It asks a simple question: \textit{How much of the pie do the biggest players eat?}
+      \item We measure this to see if a company has too much power.
+  \end{itemize}
+
+  \vspace{0.3cm}
+  \textbf{Why does it matter in LAE?}
+  \begin{itemize}
+      \item If you are the only operator on the Central-HKIA route, you can charge HK\$1,000 per ticket. 
+      \item If 5 other operators are allowed to land on your exact same rooftop, you have to drop your price to compete, or you will lose your customers.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 7: STANDALONE FORMULA ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: Assessing Market Power (HHI)}
+  
+  \begin{block}{The Formula (Herfindahl-Hirschman Index)}
+  \begin{equation}
+      HHI = \sum_{i=1}^{N} s_i^2
+  \end{equation}
+  \textit{where $s_i$ is the market share (in \%) of firm $i$ in a specific corridor.}
+  \end{block}
+
+  \vspace{0.1cm}
+  \begin{block}{What This Actually Means for Business in Plain English}
+  \begin{itemize}
+    \item \textbf{Why do we square the number?} Squaring makes big numbers look much bigger. It mathematically punishes markets where one player is huge. (e.g., $10^2 = 100$, but $90^2 = 8100$).
+    \item \textbf{The Scoreboard:} HHI gives a score from near 0 (perfect competition) to 10,000 (a pure monopoly, since $100\% \times 100\% = 10,000$).
+    \item \textbf{The Policy Use:} HHI is a screening tool. A high score may justify closer analysis, but does not by itself prove market power or determine a regulatory response.
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+% ====================== Slide 8: BACK-OF-ENVELOPE (HHI) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: Do we have a Monopoly?}
+ 
+  \textbf{Scenario:} The government is reviewing market share on the new Northern Metropolis delivery corridor to decide if they need to step in and regulate prices.
+  \vspace{0.3cm}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case A: Fragmented Market}
+      \begin{itemize}
+          \item Four different drone operators share the airspace equally.
+          \item Shares: 25\%, 25\%, 25\%, 25\%
+          \item $HHI = 25^2 + 25^2 + 25^2 + 25^2$
+          \item $HHI = 625 \times 4$
+          \item \textbf{HHI = 2,500}
+          \item \textit{Result: The market is less concentrated than Case B, although four equal firms still produce an HHI of 2,500.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case B: Sandbox Dominance}
+      \begin{itemize}
+          \item One early mover locked up the best landing pads before anyone else.
+          \item Shares: 80\% (Incumbent), 20\% (Small Rival)
+          \item $HHI = 80^2 + 20^2$
+          \item $HHI = 6,400 + 400$
+          \item \textbf{HHI = 6,800}
+          \item \textit{Result: The market is highly concentrated and may warrant closer examination of entry conditions and competitive conduct.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ====================== Slide 9: CONCEPT PRIMER 3 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: Fixed vs. Marginal Costs}
+ 
+  To understand how flying taxis make money, you must understand two types of costs:
+  
+  \vspace{0.3cm}
+  
+  \textbf{1. Fixed Costs (The Rent):}
+  \begin{itemize}
+      \item Money you have to pay \textit{even if you fly zero customers}.
+      \item Example: Leasing a rooftop landing pad in Central costs HK\$1 Million a month, whether you fly 1 time or 1,000 times.
+  \end{itemize}
+  \vspace{0.3cm}
+  \textbf{2. Marginal Costs (The Variable Cost):}
+  \begin{itemize}
+      \item The tiny extra cost to fly \textit{just one more customer}.
+      \item Example: The electricity to charge the drone's battery for one trip across the harbour (maybe HK\$50).
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 9.5: TRANSITION ======================
+\begin{frame}[t]
+  \frametitle{From Concept to Math}
+ 
+  Fixed and marginal costs are the foundation.  
+  The next step is to combine them into one powerful number that operators use every day:
+  
+  \vspace{0.5cm}
+  \centering
+  \Large\textbf{Average Cost per Flight}
+  
+  \vspace{0.3cm}
+  This tells us the true cost of each flight when we spread the huge fixed costs across many trips.
+\end{frame}
+
+% ====================== Slide 10: APPLIED TOOL (ATC) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: Average Cost per Flight}
+ 
+  \begin{block}{The Formula}
+  \begin{equation}
+      \text{ATC} = \frac{\text{Fixed Costs}}{\text{Number of Flights}} + \text{Marginal Cost}
+  \end{equation}
+  \end{block}
+ 
+  \vspace{0.1cm}
+  \begin{block}{What This Actually Means for Business}
+  \begin{itemize}
+    \item Fixed Costs (e.g. rooftop rent) stay the same no matter how many times you fly.
+    \item The more flights you operate, the lower the Fixed Cost per flight becomes.
+    \item Marginal Cost is the extra cost of one additional flight (mainly electricity and minor wear).
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+% ====================== Slide 10.5: BACK-OF-THE-ENVELOPE (ATC) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: How Fixed Costs Make Low Utilization Expensive}
+ 
+  \textbf{Scenario:} A rooftop landing pad in Central costs HK\$1,000,000 per month to lease.  
+  Marginal cost (electricity + minor maintenance) = HK\$50 per flight.
+  \vspace{0.3cm}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Low Utilization (20 flights/day)}
+      \begin{itemize}
+          \item Fixed cost per day ≈ HK\$33,333
+          \item Fixed cost per flight: \$33,333 / 20 = \textbf{HK\$1,667}
+          \item Marginal cost: HK\$50
+          \item \textbf{Total cost per flight: HK\$1,717}
+          \item \textit{Ticket price must be very high — only premium customers can afford it.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{High Utilization (200 flights/day)}
+      \begin{itemize}
+          \item Fixed cost per day ≈ HK\$33,333
+          \item Fixed cost per flight: \$33,333 / 200 = \textbf{HK\$167}
+          \item Marginal cost: HK\$50
+          \item \textbf{Total cost per flight: HK\$217}
+          \item \textit{Ticket price becomes competitive and profitable.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+ 
+  \vspace{0.4cm}
+  \textit{Takeaway: High fixed costs make low utilization deadly. Operators must maximise flights per day to survive.}
+
+\vfill
+{\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+% ====================== Slide 11: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: The "Density" Secret}
+ 
+  \textbf{Why do traditional airlines want bigger planes?}
+  \begin{itemize}
+      \item Airlines rely on \textbf{Economies of Scale}. It's cheaper per person to fly one giant Boeing 777 with 300 seats than to fly 15 small planes with 20 seats.
+  \end{itemize}
+  \vspace{0.3cm}
+  \textbf{The LAE Shift: We can't build bigger drones.}
+  \begin{itemize}
+      \item Flying taxis are stuck at 4 seats. Delivery drones carry 5kg. We can't scale the vehicle.
+      \item Instead, we rely on \textbf{Economies of Density}.
+      \item Since your Fixed Cost (the rooftop rent) is massive, flying 10 times a day is a financial disaster. Higher route volume can spread fixed costs across more flights, although demand, capacity, congestion, weather, and regulation limit achievable density.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 12: STANDALONE FORMULA ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: The Density Cost Advantage}
+ 
+  \begin{block}{The Formula}
+  \begin{equation}
+      \text{Average Cost per flight (AC)} = \frac{\text{Fixed Route Costs}}{\text{Flights} \times \text{Density}} + \text{Marginal Cost}
+  \end{equation}
+  \end{block}
+  \vspace{0.1cm}
+  \begin{block}{What This Actually Means for Business}
+  \begin{itemize}
+    \item \textbf{Why Density Wins:} If density (the number of flights) is the denominator, then running maximum flights through a single corridor drastically lowers the Average Cost of every single ticket.
+    \item \textbf{Potential Incumbent Advantage:} An established operator with greater route volume may sustain a lower average cost than a small entrant.
+    \item \textbf{Network Effects:} A broader network may become more useful to customers, although this is conceptually different from economies of density.
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+% ====================== Slide 13: BACK-OF-ENVELOPE (DENSITY) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: The Density Trap}
+ 
+  \textbf{Scenario:} Calculating the lowest price we can charge to break even. \\
+  \textbf{Assumptions:} A rooftop landing pad (Fixed Cost) is HK\$50,000/day to rent. Electricity/wear (Marginal Cost) is HK\$100/flight.
+  \vspace{0.3cm}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Operator A: Low Density}
+      \begin{itemize}
+          \item Volume: Only 20 flights per day.
+          \item Pad rent spread out: \$50,000 / 20 = \$2,500
+          \item Electricity: \$100
+          \item \textbf{Total Cost to Operator: HK\$2,600/flight}
+          \item \textit{Result: Operator A must charge HK\$3,000 a ticket just to survive. Only billionaires will fly.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Operator B: High Density}
+      \begin{itemize}
+          \item Volume: 500 flights per day.
+          \item Pad rent spread out: \$50,000 / 500 = \$100
+          \item Electricity: \$100
+          \item \textbf{Total Cost to Operator: HK\$200/flight}
+          \item \textit{Result: Operator B has a lower average cost under these assumptions, although feasibility and market price still depend on demand and capacity.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+
+\vfill
+{\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+% ====================== Slide 13: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large The Moat: Entry Barriers \& Defense
+  \end{center}
+\end{frame}
+
+% ====================== Slide 14a: ENTRY BARRIERS - NASA FRAMEWORK ======================
+\begin{frame}[t]
+  \frametitle{Entry Barriers: The NASA Framework}
+ 
+  \begin{itemize}
+    \item In 2018, NASA studied why new drone and flying-taxi companies struggle to enter the market.
+    \item They created a simple, practical list of the biggest obstacles.
+    \item We still use this list today because it is clear and directly applies to Hong Kong.
+    \item These barriers create a huge “moat” around the LAE market.
+    \item They make it very difficult and expensive for new startups to start operating.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 14b: THE THREE BARRIERS ======================
+\begin{frame}[t]
+  \frametitle{The Three Main NASA-Style Entry Barriers}
+ 
+  \begin{enumerate}
+    \item \textbf{Regulatory / Certification (The Valley of Death)}  
+      Companies must spend millions on lawyers and safety tests for years before they are legally allowed to fly paying customers.
+    
+    \item \textbf{Infrastructure Availability}  
+      Finding physical rooftop space and heavy electrical connections in land-scarce Hong Kong is extremely difficult for a new company.
+    
+    \item \textbf{Public Perception}  
+      A single neighbourhood noise complaint or privacy concern can force the government to shut down a corridor overnight.
+  \end{enumerate}
+ 
+  \vspace{0.3cm}
+  \textit{The importance of each barrier varies by application and may change as policy, technology, and the market develop.}
+\end{frame}
+
+
+% ====================== Slide 15: CONCEPT PRIMER 5 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: "Sunk Costs"}
+  
+  \textbf{What is a Sunk Cost?}
+  \begin{itemize}
+      \item It is money you have already spent that you \textbf{can never get back}, even if you quit the business.
+      \item If you buy a van for a delivery business and then quit, you can sell the van to get some money back. That is NOT a sunk cost.
+      \item But if you spend HK\$10 Million paying lawyers to get a flight permit, and then you quit... you cannot sell that permit to anyone else. The unrecoverable portion of that expenditure is a sunk cost.
+  \end{itemize}
+
+  \vspace{0.3cm}
+  \textbf{Why it matters:}
+  \begin{itemize}
+      \item High Sunk Costs terrify new startups. If a startup knows they have to burn HK\$10M just to enter the market, they will probably stay away. Big companies use this fear to their advantage.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 16: CONCEPT PRIMER 6 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: "Limit Pricing"}
+  
+  \textbf{How do you defend your turf if you are the first one in?}
+  \begin{itemize}
+      \item Let's say you are the only flying taxi in Hong Kong. You \textit{could} charge HK\$5,000 a ticket and make huge profits today.
+      \item But if your profits are that huge, rich investors in another country will see that, buy their own drones, pay the Sunk Costs, and invade your market.
+  \end{itemize}
+
+  \vspace{0.3cm}
+  \textbf{The Strategy: Limit Pricing}
+  \begin{itemize}
+      \item You intentionally do not charge the absolute maximum. 
+      \item You charge a price that makes you a *little* bit of money, but is perfectly calculated to guarantee that any new competitor would lose money if they tried to copy you. 
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 17: STANDALONE FORMULA ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: Limit Pricing (Defending a Route)}
+  
+  \begin{block}{The Formula}
+  \begin{equation}
+      P_{\text{Limit}} = AC_{\text{Entrant}} = \frac{\text{Sunk Entry Cost}}{\text{Expected Volume (Q)}} + MC
+  \end{equation}
+  \end{block}
+
+  \vspace{0.1cm}
+  \begin{block}{What This Actually Means for Business}
+  \begin{itemize}
+    \item \textbf{Weaponising the NASA Barriers:} The NASA barriers (Regulation, Infrastructure) create massive "Sunk Entry Costs" for new rivals. They have to pay millions just to show up to the starting line.
+    \item \textbf{The Incumbent's Game:} If you own the route, you charge a price ($P_{\text{Limit}}$) that is exactly equal to the Average Cost ($AC$) of a new entrant.
+    \item \textbf{The Core Lesson:} This simplified calculation estimates an entrant’s break-even price. It does not guarantee that limit pricing will prevent entry.
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+% ====================== Slide 18: BACK-OF-ENVELOPE (LIMIT PRICING) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: Defending the Corridor}
+  
+  \textbf{Scenario:} You run a monopoly eVTOL route. A rival wants to enter. They expect to capture 10,000 flights. Their Marginal Cost (MC) is \$200. How do you price your tickets to keep them out?
+
+  \vspace{0.3cm}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case A: High NASA Barriers}
+      \begin{itemize}
+          \item CAD forces rival to spend years building their own vertiport.
+          \item Sunk Entry Cost: HK\$10 Million
+          \item $AC_{\text{Entrant}} = \frac{10,000,000}{10,000} + 200$
+          \item $AC_{\text{Entrant}} = 1000 + 200 = 1200$
+          \item \textbf{Your Limit Price: HK\$1,190}
+          \item \textit{Result: You can safely charge high prices. The rival cannot match \$1,190 without losing money.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case B: Low Barriers (Shared Hubs)}
+      \begin{itemize}
+          \item CAD forces you to share your landing pad with the rival.
+          \item Sunk Entry Cost drops to: HK\$1 Million
+          \item $AC_{\text{Entrant}} = \frac{1,000,000}{10,000} + 200$
+          \item $AC_{\text{Entrant}} = 100 + 200 = 300$
+          \item \textbf{Your Limit Price: HK\$290}
+          \item \textit{Result: Your moat is gone. You must slash your prices to \$290 to stop the rival from invading.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+
+\vfill
+{\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+
+
+
+
+
+% ====================== Slide 19: HK VS CHINA SCALE ======================
+\begin{frame}[t]
+\frametitle{Hong Kong Experimentation and GBA Scale}
+\begin{itemize}
+\item \textbf{GBA capabilities:} Strong aircraft, drone, electronics, battery, and supply-chain capabilities.
+\item \textbf{Hong Kong's possible contribution:} A complex urban environment together with finance, insurance, logistics, legal, and professional services.
+\item \textbf{Sandbox X:} Controlled trials can generate evidence, reduce uncertainty, and refine project concepts and regulatory requirements.
+\item \textbf{Strategic opportunity:} Combine complementary capabilities while addressing cross-boundary procedures, customs, data, communications, and safety.
+\end{itemize}
+\textit{Hong Kong's advantage is a strategy to build, not an automatic outcome.}
+\end{frame}
+
+% ====================== Slide 20: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Price Wars \& Co-opetition
+  \end{center}
+\end{frame}
+
+% ====================== Slide 21: CONCEPT PRIMER 7 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: The "Race to the Bottom"}
+  
+  \textbf{What happens when two airlines fly the exact same route?}
+  \begin{itemize}
+      \item If Cathay Pacific and HK Express both have half-empty planes going to Tokyo, what do they do? They drop the price to try and steal the other's customers.
+      \item They will keep undercutting each other until the ticket price is exactly equal to the cost of the fuel and the sandwich. All profit disappears.
+      \item Economists call this a \textbf{Bertrand Price War}.
+  \end{itemize}
+
+
+\end{frame}
+
+% ====================== Slide 22: STANDALONE FORMULA ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: Bertrand Price Competition}
+  
+  \begin{block}{The Formula}
+  \begin{equation}
+      P = MC \quad \text{(if capacity is unconstrained)}
+  \end{equation}
+  \end{block}
+
+  \vspace{0.1cm}
+  \begin{block}{What This Actually Means for Business}
+  \begin{itemize}
+    \item \textbf{The Death of Margins:} If operators have unlimited landing space and empty seats, they will undercut each other until Price ($P$) equals Marginal Cost ($MC$). No one makes a profit.
+    \item \textbf{Capacity Saves the Day:} Because HK real estate restricts vertiports to 1 or 2 pads, neither operator can serve the whole market. 
+    \item \textbf{The Core Lesson:} Capacity constraints may soften price competition, while reliability, timing, access, and service quality can also differentiate operators.
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+% ====================== Slide 23: BACK-OF-ENVELOPE (BERTRAND) ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: Capacity Saves the Margin}
+  
+  \textbf{Scenario:} Operator A and Operator B fly the same route. Electricity/Cost per flight is \$100. Customer Willingness to Pay is \$500. Total Demand is 100 passengers.
+
+  \vspace{0.3cm}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Unconstrained Capacity}
+      \begin{itemize}
+          \item Both operators have huge fleets.
+          \item Operator A charges \$400.
+          \item Operator B drops price to \$300 to steal all 100 passengers.
+          \item Operator A counters at \$200.
+          \item \textbf{Final Price drops to \$100 (The cost to fly).}
+          \item \textit{Result: A price war destroys the industry. Zero profit.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Geofenced / Capacity Constrained}
+      \begin{itemize}
+          \item Vertiport rules limit both operators to only 30 flights a day each.
+          \item Total supply (60) is less than total demand (100).
+          \item Operator A charges the max: \$500.
+          \item Operator B doesn't need to undercut; they can easily fill their 30 seats at \$500 anyway.
+          \item \textbf{Price pressure may be weaker, but the final price need not equal maximum willingness to pay.}
+          \item \textit{Result: Limited capacity may support margins, but demand, allocation rules, regulation, and differentiation still matter.}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+
+\vfill
+{\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+% ====================== Slide 21: CONCEPT PRIMER 7 ======================
+
+
+
+% ====================== NEW SLIDE B: APPLIED TOOL (BERTRAND WITH CONSTRAINT) ======================
+
+
+% ====================== Back-of-the-Envelope for Slide B ======================
+
+
+
+% ====================== Slide 24: CO-OPETITION ======================
+\begin{frame}[t]
+  \frametitle{The Rise of "Co-opetition" (Frenemies)}
+
+  \textbf{Aviation Benchmark:} Airlines compete for ticket sales, but they share Oneworld lounges and codeshare flights to survive. \\
+  \textbf{LAE Shift:} Operators must share fundamental infrastructure to survive the early market phase.
+
+  \begin{itemize}
+    \item \textbf{What is Co-opetition?} Competing fiercely on some fronts while cooperating on others to save money and grow the overall market.
+    \item \textbf{Shared Vertiports:} Sharing a roof reduces your fixed costs and builds the network faster.
+    \item \textbf{Strategic Choice:} You compete on the \textit{vehicle app experience} and brand, but you cooperate on the \textit{landing pads and digital traffic control}.
+  \end{itemize}
+\end{frame}
+
+
+% ====================== NEW SLIDE A: CO-OPETITION COST SAVING ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Applied Tool: Co-opetition Cost Saving Formula}
+ 
+  \begin{block}{The Formula}
+  \begin{equation}
+      \text{Savings per Operator} = \frac{\text{Fixed Infrastructure Cost} \times (N-1)}{N}
+  \end{equation}
+  \end{block}
+ 
+  \vspace{0.1cm}
+  \begin{block}{What This Actually Means for Business}
+  \begin{itemize}
+    \item $N$ = number of operators sharing the same vertiport or UTM system.
+    \item Fixed cost (e.g. rooftop rent) is split among more companies.
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+% ====================== Back-of-the-Envelope for Slide A ======================
+\begin{frame}[t, shrink=10]
+  \frametitle{Back-of-the-Envelope: Co-opetition Savings}
+ 
+  \textbf{Scenario:} A prime Kowloon rooftop vertiport costs HK\$100,000 per day to lease and maintain.
+  \vspace{0.3cm}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Alone (No Sharing)}
+      \begin{itemize}
+          \item 1 operator pays full rent.
+          \item Fixed cost per day: \textbf{HK\$100,000}
+          \item If flying 100 times/day: HK\$1,000 per flight just for rent.
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Sharing with 4 Operators}
+      \begin{itemize}
+          \item 4 operators split the same rooftop.
+          \item Fixed cost per operator: \$100,000 / 4 = \textbf{HK\$25,000}
+          \item Savings per operator = HK\$75,000 per day.
+          \item If each flies 100 times/day: rent cost drops to HK\$250 per flight.
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  
+  \vspace{0.4cm}
+  \textit{Takeaway: Sharing infrastructure is one of the fastest ways for early LAE operators to survive Hong Kong’s extreme land costs.}
+
+\vfill
+{\tiny Illustrative assumptions for classroom analysis; not current market data.}
+\end{frame}
+
+% ====================== Slide 25: GLOBAL COMPARATORS ======================
+\begin{frame}[t]
+  \frametitle{Global Regulatory Comparators}
+  
+  How does Hong Kong's strategy compare to the rest of the world?
+
+  \begin{itemize}
+    \item \textbf{Hong Kong (Sandbox X):} Controlled trials test project concepts, operating conditions, infrastructure, and cross-boundary procedures.
+    \item \textbf{Europe (EU U-space):} Highly structured, digital-first. They are building the software rules before they allow the hardware to fly.
+    \item \textbf{USA (FAA Innovate28):} An implementation plan coordinating certification, operations, airspace, infrastructure, environment, and community engagement.
+    \item \textbf{Managerial lesson:} Firms must adapt their entry strategies to how each jurisdiction sequences trials, certification, infrastructure, and deployment.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 26: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+  \frametitle{In-Class Exercise: Market Simulation}
+  
+  \textbf{Activity: Oligopoly Pricing Game}
+  \begin{itemize}
+    \item \textbf{Format:} Groups of 4–5
+    \item \textbf{Scenario:} You are one of two operators granted access to a new Northern Metropolis drone delivery corridor.
+    \item \textbf{Task:} Using the provided handout:
+    \begin{enumerate}
+        \item Look at the Payoff Matrix.
+        \item Decide if your team will set a "High Price" or a "Low Price".
+        \item What happens to your profits if the other team cheats?
+    \end{enumerate}
+    \item \textbf{Timing:} 15 minutes group work + 5 minute share-out.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 27: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+  \frametitle{Exercise Template (Visual)}
+  
+  \begin{center}
+      \textit{[Distribute 1-page printable simulation template]}
+      
+      \vspace{0.5cm}
+      
+      \textbf{The Payoff Matrix (Team A vs Team B):} \\
+      \vspace{0.2cm}
+      If both price High $\rightarrow$ Both survive with healthy margins. \\
+      If one prices Low $\rightarrow$ Captures market, but margins evaporate. \\
+      \vspace{0.5cm}
+      \textit{Discussion: How does a physical capacity constraint (only 1 landing pad) change the math of this game?}
+  \end{center}
+\end{frame}
+
+% ====================== Slide 28: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+  \frametitle{Key Takeaways}
+  
+  \begin{itemize}
+    \item LAE market power is influenced by \textbf{infrastructure scarcity} (vertiports) and \textbf{route density}.
+    \item NASA barriers to entry are immense; big operators use these massive Sunk Costs to establish \textbf{Limit Pricing}, keeping rivals out.
+    \item Capacity constraints and service differentiation may soften price competition, but they do not guarantee high prices or profits.
+    \item \textbf{Co-opetition} may reduce duplicated infrastructure cost, but requires careful rules for access, investment, and control.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 29: ASSIGNMENT ======================
+\begin{frame}[t]
+  \frametitle{Week 2 Assignment Briefing}
+  
+  \textbf{Two-page Market Competition Memo (max 800 words)}
+  \begin{itemize}
+    \item \textbf{Due:} Beginning of Week 3
+    \item \textbf{Task:} Act as an operator entering a specific HK corridor.
+    \item \textbf{Requirements:} 
+    \begin{enumerate}
+        \item Give a rough score for market concentration (HHI).
+        \item Explain how you will achieve "Density" on this specific route.
+        \item Classify the top 3 entry barriers (NASA-style) keeping your rivals out.
+        \item Recommend one strategic "co-opetition" move to save money.
+    \end{enumerate}
+    \item \textbf{Grading Focus:} Applying the economic concepts (40\%), realistic HK linkage (30\%), simple math quantification (20\%), professionalism (10\%).
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 30: PREVIEW WEEK 3 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 3}
+  
+  \begin{center}
+      \Large \textbf{Cost Structures and Revenue Management}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Preview question for next week:} \\
+  \textit{How do you stop your business from going bankrupt when a massive Hong Kong rainstorm grounds your entire fleet for 48 hours?}
+\end{frame}
+
+% ====================== Slide 31: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \textbf{Pre-Class Readings Reminder (for Week 3):}
+  \begin{itemize}
+      \item \textit{McKinsey: Unit Economics of eVTOLs}
+      \item \textit{GBA Aviation Infrastructure Cost Case Study}
+  \end{itemize}
+  
+  \vspace{1cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

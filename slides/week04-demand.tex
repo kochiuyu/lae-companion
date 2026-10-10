@@ -1,0 +1,590 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE ======================
+\begin{frame}
+  \title{Demand Modeling in Urban Air Mobility}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 4}
+  \titlepage
+\end{frame}
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Build} a simple demand forecast from potential trips, corridor share, mode share, and operating constraints.
+\item \textbf{Estimate} willingness to pay using generalized cost and interpret a simple demand curve.
+\item \textbf{Explain} how own-price elasticity and customer heterogeneity affect pricing decisions.
+\item \textbf{Incorporate} public acceptance as a transparent scenario assumption rather than a fixed universal multiplier.
+\item \textbf{Stress-test} demand and revenue under weather, capacity, and policy scenarios.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{Would Customers Actually Choose It?}
+\textbf{Imagine a proposed airport air-mobility service in Hong Kong.}
+\begin{itemize}
+\item The aircraft may be technically capable of completing the trip quickly.
+\item Customers still compare the complete journey with rail, taxi, bus, and private car alternatives.
+\end{itemize}
+\vspace{0.3cm}
+The commercial question is not simply whether the service can fly. It is whether enough customers will choose it at a viable price.
+\begin{itemize}
+\item \textbf{Quick poll (2 min):} Which factor is likely to matter most: price, door-to-door time, reliability, convenience, or public confidence?
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: WTP and Demand Curves}
+\textbf{Willingness to pay (WTP)} is the maximum amount a particular customer would pay for a service rather than go without it or choose an alternative.
+\begin{itemize}
+\item Customers have different WTP because they value time, reliability, comfort, and urgency differently.
+\item A customer does not necessarily disappear from the entire market when price exceeds WTP; they may choose another mode.
+\end{itemize}
+\textbf{A demand curve} shows the quantity customers are expected to purchase at different prices, holding other important conditions fixed.
+\begin{itemize}
+\item It helps managers compare volume, revenue, capacity requirements, and contribution at alternative prices.
+\end{itemize}
+\end{frame}
+
+
+% ====================== NEW SLIDE: APPLIED TOOL - WTP & DEMAND CURVE ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Simple Linear Demand Curve}
+\begin{block}{The Formula}
+\[Q=a-bP\]
+\end{block}
+\begin{itemize}
+\item $Q$ = expected quantity demanded during a defined period
+\item $P$ = price per unit
+\item $a$ = estimated demand at a zero price under the model
+\item $b$ = change in quantity associated with a HK\$1 price increase
+\item The choke price is $P=a/b$, where estimated demand reaches zero.
+\end{itemize}
+\textbf{Managerial caution:} A survey does not automatically produce a reliable demand curve. Managers should use multiple observations, realistic alternatives, and validation against actual behaviour where possible.
+\end{frame}
+
+% ====================== NEW SLIDE: BACK-OF-THE-ENVELOPE (WTP \& DEMAND CURVE) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Comparing Prices for an Airport Service}
+\textbf{Illustrative demand model:} $Q=8{,}000-8P$. Demand falls by 800 passenger-trips for each HK\$100 price increase.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Price = HK\$300}
+\begin{itemize}
+\item $Q=8{,}000-8(300)=5{,}600$
+\item Revenue $=300\times5{,}600$
+\item \textbf{Revenue = HK\$1.68 million}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Price = HK\$500}
+\begin{itemize}
+\item $Q=8{,}000-8(500)=4{,}000$
+\item Revenue $=500\times4{,}000$
+\item \textbf{Revenue = HK\$2.00 million}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: HK\$500 maximizes revenue for this particular linear model. A profit-maximizing price would also require cost and capacity information.}
+\vfill{\tiny Illustrative assumptions for classroom analysis; not a survey result or market forecast.}
+\end{frame}
+
+
+% ====================== Slide 5: CONCEPT PRIMER 2 (REVISED) ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: What is Demand Modelling?}
+Demand modelling uses evidence and explicit assumptions to estimate how many customers may choose a service under different conditions.
+\begin{itemize}
+\item It is not a precise prediction of exactly how many people will travel.
+\item It combines market size, trip patterns, competing modes, price, time, reliability, access, and customer preferences.
+\item The forecast should be presented as a range or set of scenarios rather than a single certain number.
+\end{itemize}
+\textbf{Link to Week 3:} Does forecast demand fit the price, capacity, and activity required to break even?
+\end{frame}
+
+% ====================== Slide 6: NASA FRAMEWORK ======================
+\begin{frame}[t]
+\frametitle{A Four-Step Travel-Demand Framework}
+A traditional transport-planning framework can organize an LAE demand forecast:
+\begin{enumerate}
+\item \textbf{Trip generation:} How many relevant trips may occur?
+\item \textbf{Trip distribution:} Which origins and destinations do those trips connect?
+\item \textbf{Mode choice:} What share may choose LAE rather than rail, taxi, bus, or car?
+\item \textbf{Network assignment:} How would the chosen trips use the available network, routes, and facilities?
+\end{enumerate}
+\textit{NASA-sponsored UAM studies use detailed demand and market models, but the four-step structure is a general transport-planning framework rather than a unique ``NASA formula.''}
+\end{frame}
+
+
+% ====================== Slide 7: APPLIED TOOL - NASA 4-STEP DEMAND FORECAST ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Simple Demand-Funnel Approximation}
+\begin{block}{A Managerial Screening Formula}
+\[
+\text{Potential LAE Passenger-Trips}
+=\text{Relevant Trips}\times\text{Corridor Share}\times\text{Mode Share}
+\]
+\end{block}
+\begin{block}{Capacity Check}
+\[
+\text{Served Passenger-Trips}
+=\min\{\text{Potential Demand},\text{Available Capacity}\}
+\]
+\end{block}
+\begin{itemize}
+\item The multiplication is a simplified demand funnel, not the full four-step transport model.
+\item Route assignment allocates trips across a network; it should not normally be treated as an arbitrary demand-reduction percentage.
+\item Keep passenger-trips, flights, and seats separate throughout the model.
+\end{itemize}
+\end{frame}
+
+
+% ====================== Slide 8: BACK-OF-THE-ENVELOPE (NASA 4-STEP) ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: Demand and Capacity for an Airport Corridor}
+\textbf{Assumptions:} 20,000 relevant daily trips; 60\% involve the selected corridor; estimated LAE mode share = 35\%.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Potential Demand}
+\begin{itemize}
+\item $20{,}000\times0.60\times0.35$
+\item \textbf{4,200 passenger-trips/day}
+\item This is customer demand before checking operating capacity.
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Capacity-Constrained Service}
+\begin{itemize}
+\item Assume 300 flights/day
+\item Four seats and 80\% target load factor
+\item Capacity $=300\times4\times0.80$
+\item \textbf{960 passenger-trips/day}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Potential demand may exceed available capacity. The business model must distinguish customers who want to travel from customers the system can actually serve.}
+\vfill{\tiny Illustrative assumptions for classroom analysis; not current corridor data.}
+\end{frame}
+
+% ====================== Slide 7: CONCEPT PRIMER 3 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Generalized Cost}
+Generalized cost combines the main burdens of a complete journey into a common monetary measure.
+\begin{itemize}
+\item fare and related charges;
+\item access, waiting, boarding, in-vehicle, and transfer time;
+\item reliability, inconvenience, and other service attributes where these can be estimated credibly.
+\end{itemize}
+\textbf{Managerial use:} Compare door-to-door alternatives on a consistent basis.
+\vspace{0.25cm}
+\textit{A lower generalized cost increases the attractiveness of a mode, but does not imply that every customer will choose it. Preferences differ and forecasts remain probabilistic.}
+\end{frame}
+
+% ====================== Slide 8: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Generalized Cost}
+\begin{block}{A Simple Formula}
+\[
+GC=\text{Fare}+VOT\times\text{Door-to-Door Time}+\text{Other Monetized Burdens}
+\]
+\end{block}
+\begin{itemize}
+\item $VOT$ converts travel time into money for comparison.
+\item Other burdens may include unreliability, difficult access, transfers, or screening, provided the values are estimated transparently.
+\item Avoid double counting. A weather delay should not appear in both expected travel time and a separate penalty unless the terms capture different effects.
+\item Customers are more likely, not certain, to select alternatives with lower generalized cost.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 9: BACK-OF-ENVELOPE (GENERALIZED COST) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Comparing Door-to-Door Generalized Cost}
+\textbf{Assumption:} VOT = HK\$15 per minute. Other monetized burdens are illustrative.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Ground Taxi}
+\begin{itemize}
+\item Fare: HK\$350
+\item Door-to-door time: 45 minutes
+\item Other burden: HK\$50
+\item $GC=350+15(45)+50$
+\item \textbf{GC = HK\$1,075}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Air-Mobility Service}
+\begin{itemize}
+\item Fare: HK\$800
+\item Door-to-door time: 12 minutes
+\item Other burden: HK\$80
+\item $GC=800+15(12)+80$
+\item \textbf{GC = HK\$1,060}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The air service is slightly more attractive under these assumptions. The difference is small, so changes in waiting time, reliability, or perceived risk could reverse the result.}
+\vfill{\tiny Illustrative assumptions for classroom analysis.}
+\end{frame}
+
+% ====================== Slide 10: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large WTP Estimation, Elasticities \& Heterogeneity
+  \end{center}
+\end{frame}
+
+% ====================== Slide 11: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: "Elasticity of Demand"}
+  
+  \textbf{What happens when you change your ticket price?}
+  \begin{itemize}
+      \item If you raise the price of a flying taxi by 10\%, will you lose 5\% of your customers, or 50\% of your customers?
+      \item \textbf{Elasticity} measures this exact sensitivity.
+  \end{itemize}
+
+  \vspace{0.3cm}
+  \textbf{Two Types of Elasticity:}
+  \begin{itemize}
+      \item \textbf{Own-Price Elasticity:} How your demand changes when \textit{you} change your price.
+      \item \textbf{Cross-Elasticity:} How your demand changes when \textit{your competitor} changes their price. (e.g., If the MTR raises its fare by HK\$10, how many people suddenly switch to your flying taxi?)
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 12: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Price Elasticity of Demand}
+\begin{block}{The Formula}
+\[
+E_d=\frac{\%\text{ change in quantity demanded}}{\%\text{ change in price}}
+\]
+\end{block}
+\begin{itemize}
+\item Own-price elasticity is usually negative because demand tends to fall as price rises.
+\item Managers often discuss its absolute value: $|E_d|<1$ is inelastic and $|E_d|>1$ is elastic.
+\item The elasticity may change across prices, customer groups, time periods, and competing alternatives.
+\item Small-change approximations are less reliable for large price changes.
+\end{itemize}
+\textbf{Managerial caution:} Emergency or public-service demand does not imply unlimited ability to charge. Budgets, procurement rules, contracts, and public policy still constrain price.
+\end{frame}
+
+% ====================== Slide 13: BACK-OF-ENVELOPE (ELASTICITY) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: How Elasticity Affects Revenue}
+\textbf{Starting point:} Price = HK\$500; volume = 100 passenger-trips; revenue = HK\$50,000. Consider a 20\% price reduction.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Approximate $|E_d|=0.5$}
+\begin{itemize}
+\item Approximate volume increase: 10\%
+\item New volume: 110
+\item New revenue: $400\times110$
+\item \textbf{HK\$44,000}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Approximate $|E_d|=2.0$}
+\begin{itemize}
+\item Approximate volume increase: 40\%
+\item New volume: 140
+\item New revenue: $400\times140$
+\item \textbf{HK\$56,000}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: A discount can raise or lower revenue depending on demand response. Profit also depends on capacity and incremental cost.}
+\vfill{\tiny Illustrative constant-elasticity approximation applied to a relatively large price change.}
+\end{frame}
+
+% ====================== Slide 14: DEMAND HETEROGENEITY ======================
+\begin{frame}[t]
+\frametitle{Demand Heterogeneity}
+Customers differ in urgency, value of time, budget, reliability needs, accessibility requirements, booking flexibility, and willingness to adopt a new service.
+\begin{itemize}
+\item A single corridor may therefore contain several customer segments with different demand curves.
+\item Managers may offer different products, booking conditions, service levels, memberships, or time-based prices.
+\item Segmentation must be operationally feasible, transparent, compatible with applicable law and policy, and acceptable to customers.
+\end{itemize}
+\textbf{Managerial objective:} Match the product and price to different needs without assuming that one label perfectly predicts behaviour.
+\end{frame}
+
+
+% ====================== NEW SLIDE: APPLIED TOOL - DEMAND HETEROGENEITY & PRICE DISCRIMINATION ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Revenue by Customer Segment}
+\begin{block}{The Formula}
+\[
+\text{Total Revenue}=\sum_{i=1}^{n}P_iQ_i(P_i)
+\]
+\end{block}
+\begin{itemize}
+\item $P_i$ is the price or product offer for segment $i$.
+\item $Q_i(P_i)$ is that segment's expected demand at the offered price.
+\item Different offers may reflect booking flexibility, priority, refundability, service level, timing, or membership rather than personal characteristics.
+\item Revenue maximization should be checked against cost, capacity, fairness, transparency, and legal constraints.
+\end{itemize}
+\end{frame}
+
+% ====================== NEW SLIDE: BACK-OF-THE-ENVELOPE (DEMAND HETEROGENEITY) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Two Product Offers}
+\textbf{Scenario:} Compare a uniform fare with two differentiated products for an airport corridor.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Uniform Fare: HK\$500}
+\begin{itemize}
+\item Flexible-business demand: 4,000
+\item Advance-purchase demand: 2,000
+\item \textbf{Revenue = HK\$3.00 million}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Differentiated Products}
+\begin{itemize}
+\item Flexible fare: HK\$800, demand 3,800
+\item Restricted advance fare: HK\$300, demand 3,500
+\item \textbf{Revenue = HK\$4.09 million}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Product differentiation can increase revenue under the assumed demand responses. Costs, capacity, cannibalization, fairness, and implementation must also be assessed.}
+\vfill{\tiny Hypothetical figures for classroom analysis; not a recommendation for pricing based on protected personal characteristics.}
+\end{frame}
+
+% ====================== Slide 15: WHAT IS AiRMOUR? ======================
+\begin{frame}[t]
+\frametitle{What is AiRMOUR?}
+AiRMOUR was an EU-funded research and innovation project supporting sustainable urban air mobility, with a strong focus on emergency medical services.
+\begin{itemize}
+\item Its guidebook brings together urban design and mobility, aviation safety, public acceptance, and integration-process management.
+\item It treats public and stakeholder acceptance as part of planning and implementation, not merely as a numerical demand discount.
+\item Its evidence can help managers identify questions, engagement needs, risks, and scenarios for local analysis.
+\end{itemize}
+\vfill{\tiny Source: AiRMOUR, \textit{Guidebook for Urban Air Mobility Integration} (2023).}
+\end{frame}
+
+% ====================== Slide 16: AiRMOUR SEGMENTATION (HK FOCUS) ======================
+\begin{frame}[t]
+\frametitle{Public Acceptance: A Hong Kong Application}
+Acceptance may differ by mission, location, affected group, perceived benefit, noise, privacy, safety, fairness, and trust.
+\begin{itemize}
+\item Emergency medical use may be viewed differently from leisure, passenger, inspection, or commercial delivery use.
+\item However, ``medical'' does not imply full support, perfectly inelastic demand, or faster approval.
+\item Non-medical applications should not be assigned one universal level of opposition.
+\item Engagement should include users, nearby residents, public agencies, existing transport providers, and other affected stakeholders.
+\end{itemize}
+\textbf{Managerial lesson:} Estimate acceptance locally and use scenarios until reliable evidence becomes available.
+\end{frame}
+
+
+% ====================== NEW SLIDE: APPLIED TOOL - AiRMOUR ACCEPTANCE ADJUSTMENT ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Acceptance Scenarios}
+\begin{block}{A Transparent Scenario Adjustment}
+\[
+\text{Scenario Demand}=\text{Base Demand}\times\text{Acceptance Adjustment}
+\]
+\end{block}
+\begin{itemize}
+\item The adjustment is an analyst-defined scenario input, not an official AiRMOUR coefficient.
+\item Use several values, such as 0.6, 0.8, and 1.0, and explain the evidence or judgment behind them.
+\item Avoid double counting if public acceptance already affects stated mode share, route availability, or generalized cost.
+\item Over time, replace assumed adjustments with survey, pilot, complaint, booking, and revealed-behaviour evidence.
+\end{itemize}
+\end{frame}
+
+% ====================== NEW SLIDE: BACK-OF-THE-ENVELOPE (AiRMOUR) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Acceptance Scenario Analysis}
+\textbf{Base forecast:} 4,200 potential passenger-trips per day before an acceptance adjustment.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Higher-Acceptance Scenario}
+\begin{itemize}
+\item Adjustment: 0.9
+\item Demand: $4{,}200\times0.9$
+\item \textbf{3,780 passenger-trips/day}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Lower-Acceptance Scenario}
+\begin{itemize}
+\item Adjustment: 0.6
+\item Demand: $4{,}200\times0.6$
+\item \textbf{2,520 passenger-trips/day}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Acceptance assumptions can materially change forecasts. They should be visible, justified, varied, and not presented as measured facts.}
+\vfill{\tiny Illustrative scenario factors; not coefficients published by AiRMOUR.}
+\end{frame}
+
+% ====================== Slide 16: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Scenario Analysis, Uncertainty \& Shocks
+  \end{center}
+\end{frame}
+
+% ====================== Slide 17: CONCEPT PRIMER 5 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Scenario Analysis}
+A demand forecast should examine plausible changes rather than assume one perfectly stable future.
+\begin{itemize}
+\item \textbf{Demand shock:} Fewer customers travel or choose the service.
+\item \textbf{Capacity shock:} Weather, maintenance, staffing, or operating restrictions reduce service availability.
+\item \textbf{Price or cost shock:} Fares, competing-mode prices, energy, insurance, or site costs change.
+\item \textbf{Policy or acceptance change:} New conditions alter routes, operating hours, or customer confidence.
+\end{itemize}
+\textbf{Managerial purpose:} Identify which assumptions matter most and prepare responses before committing large investments.
+\end{frame}
+
+% ====================== Slide 18: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Revenue Under Demand and Capacity Shocks}
+\begin{block}{Served Quantity}
+\[
+Q_{served}=\min\{Q_{demand},Q_{capacity}\}
+\]
+\end{block}
+\begin{block}{Revenue}
+\[
+R=P\times Q_{served}+\text{Committed Revenue}-\text{Refunds and Credits}
+\]
+\end{block}
+\begin{itemize}
+\item A weather event may reduce capacity rather than customer demand, although repeated unreliability can later affect demand.
+\item A policy change may affect price, capacity, cost, or demand through different channels.
+\item Model each channel explicitly rather than applying one unexplained ``shock penalty'' to revenue.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 19: BACK-OF-ENVELOPE (SHOCKS) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: A Weekly Capacity Shock}
+\textbf{Assumptions:} Demand and normal capacity = 100 trips/week; price = HK\$500; fixed cost = HK\$40,000/week. Variable cost is omitted for simplicity.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Normal Week}
+\begin{itemize}
+\item Served trips: 100
+\item Revenue: HK\$50,000
+\item \textbf{Margin before variable cost: HK\$10,000}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{30\% Capacity Loss}
+\begin{itemize}
+\item Served trips: 70
+\item Revenue: HK\$35,000
+\item \textbf{Margin before variable cost: $-$HK\$5,000}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Possible responses include reserves, flexible capacity, alternative transport, committed revenue, insurance, or revised pricing. Raising the fare to HK\$600 alone would produce HK\$42,000 only if all 70 customers still travelled.}
+\vfill{\tiny Illustrative assumptions; excludes variable cost, refunds, service credits, and demand response to a price change.}
+\end{frame}
+
+% ====================== Slide 20: HK VS GBA COMPARISON (REVISED) ======================
+\begin{frame}[t]
+\frametitle{Hong Kong and the GBA: Different Demand Opportunities}
+\begin{center}\small
+\begin{tabular}{l|cc}
+\textbf{Dimension} & \textbf{Hong Kong possibility} & \textbf{Wider GBA possibility}\\
+\hline
+Trip patterns & Dense, complex, constrained & Diverse urban and regional\\
+Customer value & Time-sensitive, specialized & Larger and more varied\\
+Alternatives & Strong public transport & Varies substantially by city\\
+Scale & Limited local geography & Broader network potential\\
+Key question & Value per trip & Volume and network reach\\
+\end{tabular}
+\end{center}
+\vspace{0.3cm}
+\textit{These are hypotheses for analysis, not universal conclusions. Forecasts should use route-specific data on customers, alternatives, access, capacity, and regulation.}
+\end{frame}
+
+
+% ====================== Slide 21: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+  \frametitle{In-Class Exercise: Interactive Pricing Simulation}
+  
+  \textbf{Activity: The Pricing Sweet Spot}
+  \begin{itemize}
+    \item \textbf{Format:} Groups of 4–5 (Laptops required)
+    \item \textbf{Scenario:} You are managing a HK Airport Shuttle corridor.
+    \item \textbf{Task:} Using the provided Excel template:
+    \begin{enumerate}
+        \item Set prices for Segment A (Business) and Segment B (Tourists).
+        \item Observe how the Elasticity multiplier changes your total volume.
+        \item Optimise your prices to achieve maximum total revenue.
+    \end{enumerate}
+    \item \textbf{Timing:} 15 minutes hands-on + 5 minute share-out.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 22: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+  \frametitle{Exercise Template (Visual)}
+  
+  \begin{center}
+      \textit{[Distribute digital Excel Spreadsheet to student groups]}
+      
+      \vspace{0.5cm}
+      
+      \textbf{The Dashboard View:} \\
+      \vspace{0.2cm}
+      Input: Base Price | Executive Discount (\%) | Tourist Discount (\%) \\
+      Output: Executive Volume | Tourist Volume | Total Revenue \\
+      \vspace{0.5cm}
+      \textit{Hint: Don't give discounts to executives with inelastic demand!}
+  \end{center}
+\end{frame}
+
+% ====================== Slide 23: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Demand modelling produces evidence-based scenarios, not exact predictions.
+\item Distinguish potential passenger demand, available capacity, flights, and passengers actually served.
+\item Generalized cost compares complete journeys, while mode choice remains heterogeneous and probabilistic.
+\item Elasticity helps assess price changes, but revenue and profit also depend on capacity and cost.
+\item Customer segmentation can support differentiated products, subject to transparency, fairness, feasibility, and applicable rules.
+\item Public acceptance and external shocks should be modelled through explicit, justified assumptions rather than universal multipliers.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 24: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 4 Assignment Briefing}
+\textbf{Demand Forecast Memo and Model (maximum 1,200 words plus spreadsheet)}
+\begin{itemize}
+\item \textbf{Due:} Beginning of Week 5 (group assignment)
+\item \textbf{Task:} Extend the previous business model with a transparent demand forecast.
+\item \textbf{Requirements:}
+\begin{enumerate}
+\item Define the relevant trip market, corridor, time period, and customer groups.
+\item Estimate potential demand and mode share using generalized cost or a clearly explained alternative.
+\item Compare forecast demand with available seats and flights.
+\item Estimate price sensitivity for two product or customer segments and state the limitations.
+\item Run one acceptance scenario and one weather or capacity shock.
+\item Recommend a pricing or capacity response and explain its risk.
+\end{enumerate}
+\item \textbf{Grading focus:} Economic reasoning (40\%), transparent calibration (30\%), scenario analysis (20\%), professionalism (10\%).
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 25: PREVIEW WEEK 5 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 5}
+  
+  \begin{center}
+      \Large \textbf{Infrastructure Economics and Management}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Preview question for next week:} \\
+  \textit{How will these demand forecasts drive exactly where we place million-dollar vertiports in land-scarce Hong Kong?}
+\end{frame}
+
+% ====================== Slide 26: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \textbf{Pre-Class Readings Reminder (for Week 5):}
+  \begin{itemize}
+      \item \textit{McKinsey: Perspectives on AAM (Infrastructure sections)}
+      \item \textit{NASA UAM Market Study (Site-selection sensitivities)}
+  \end{itemize}
+  
+  \vspace{1cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}
