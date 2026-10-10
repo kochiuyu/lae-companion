@@ -187,3 +187,156 @@ div.callout-caution {
     min-height: 280px !important;
   }
 }
+
+/* Force light palette (beige / navy) — no dark mode */
+html {
+  color-scheme: light;
+}
+
+html.quarto-dark,
+body.quarto-dark,
+.quarto-dark {
+  color-scheme: light !important;
+}
+
+/* Hide dark-mode toggle if Quarto injects one */
+.quarto-color-scheme-toggle,
+#quarto-color-scheme-toggle,
+a.quarto-color-scheme {
+  display: none !important;
+}
+
+/* Skip to content — visually hidden until keyboard focus */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 10000;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  left: 0.75rem;
+  top: 0.75rem;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 0.85rem;
+  overflow: visible;
+  background: #003366;
+  color: #fff !important;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Print-friendly: especially Readings / Lectures; applies site-wide */
+@media print {
+  .navbar,
+  .navbar-container,
+  header.fixed-top,
+  #quarto-header,
+  #quarto-sidebar,
+  #quarto-margin-sidebar,
+  #TOC,
+  nav[role="doc-toc"],
+  .sidebar,
+  .page-tools,
+  .quarto-title-meta,
+  .quarto-title-banner,
+  #quarto-back-to-top,
+  footer,
+  .page-footer,
+  .footer,
+  #quarto-search,
+  .aa-DetachedOverlay,
+  .quarto-color-scheme-toggle,
+  #quarto-color-scheme-toggle,
+  .skip-link,
+  .noprint {
+    display: none !important;
+  }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    color-scheme: light !important;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    page-break-after: avoid;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: none !important;
+  }
+
+  #quarto-content,
+  #quarto-document-content,
+  main.content,
+  main {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+  }
+
+  .page-columns,
+  .page-rows-contents,
+  .page-full {
+    display: block !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .column-margin,
+  .margin-aside {
+    display: none !important;
+  }
+
+  table thead th {
+    background: #fff !important;
+    color: #000 !important;
+    border-bottom: 1.5pt solid #000;
+  }
+
+  table tbody tr:nth-child(even) {
+    background: transparent !important;
+  }
+
+  /* Readings / Lectures: keep week headings with following list */
+  body.page-readings h2,
+  body.page-lectures h2,
+  body.page-readings h3,
+  body.page-lectures h3 {
+    page-break-after: avoid;
+  }
+
+  body.page-readings ul,
+  body.page-lectures ul,
+  body.page-readings ol,
+  body.page-lectures ol {
+    page-break-inside: avoid;
+  }
+
+  .status-chip {
+    border: 1pt solid #000 !important;
+    color: #000 !important;
+    background: transparent !important;
+  }
+}

@@ -62,6 +62,7 @@ website:
 format:
   html:
     theme: litera
+    respect-user-color-scheme: false
     fontsize: 1.05em
     linestretch: 1.45
     link-external-new: true
@@ -70,3 +71,6 @@ format:
     toc-location: right
     toc-title: "Sections"
     page-layout: full
+    include-before-body:
+      - text: |
+          <a class="skip-link" href="#quarto-document-content">Skip to content</a>

@@ -6,6 +6,9 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    body-classes: "page-readings"
 ---
 
 Models (costs, demand, concentration) stay in lecture. ~HK$350 billion by 2050 is an Our Hong Kong Foundation projection, not a government figure.

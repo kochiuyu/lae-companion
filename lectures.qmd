@@ -6,6 +6,9 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Weeks"
+format:
+  html:
+    body-classes: "page-lectures"
 ---
 
 Titles match [Readings](readings.qmd).
