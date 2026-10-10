@@ -11,13 +11,13 @@ Master of Aviation Management
 **Instructor:** Chiu Yu Ko  
 **First offering:** December 2026  
 
-This site is the evidence companion for the course. Lectures, numerical examples, and assignments stay in class. Use these pages when you need a dated official source, a checked number, or a term.
+Evidence companion for DOTE5891 — dated official sources, checked numbers, and course materials.
 
 ::: {.hub-grid}
 ::: {.hub-card}
 ## Official facts
 
-Official words, checked status, and who is doing what in the market.
+Terms, checked status, and who is in the market.
 
 - [Glossary](glossary.qmd)
 - [Official status](tracker.qmd)
@@ -27,7 +27,7 @@ Official words, checked status, and who is doing what in the market.
 ::: {.hub-card}
 ## Course
 
-Course readings and lecture slides.
+Weekly readings and lecture slides.
 
 - [Readings](readings.qmd)
 - [Lectures](lectures.qmd)
@@ -36,7 +36,7 @@ Course readings and lecture slides.
 ::: {.hub-card}
 ## Updates
 
-Dated government and regulatory items, business news, and the timeline of milestones.
+Dated government items, business news, and the milestone timeline.
 
 - [Government news](news.qmd)
 - [Business news](industry.qmd)
@@ -44,12 +44,10 @@ Dated government and regulatory items, business news, and the timeline of milest
 :::
 :::
 
-Start here: Glossary, then Official status, then Course Readings.
+Start here: Glossary → Official status → Readings.
 
-**Rules of use**
+**Rules**
 
-A number without a date, an issuer, and a source tier does not belong in a memo.  
-Regulatory Sandbox (first cohort) is not Regulatory Sandbox X.  
-The figure of about HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection for Hong Kong, not a government outturn.
-
-Last updated: 11 October 2026.
+- A number needs a date, an issuer, and a source tier.
+- Regulatory Sandbox ≠ Regulatory Sandbox X.
+- ~HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection, not a government figure.

@@ -9,7 +9,7 @@ toc-title: "Sections"
 
 ## At a glance
 
-Five diagrams that summarise entries below. Each caption lists its sources; the entries themselves start at [Hong Kong institutions and law](#hong-kong-institutions-and-law).
+Diagrams and definitions for LAE terms. Captions list sources; entries start at [Hong Kong institutions and law](#hong-kong-institutions-and-law).
 
 ### Who regulates what
 

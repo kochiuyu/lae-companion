@@ -7,12 +7,10 @@ toc-location: right
 toc-title: "Weeks"
 ---
 
-Lecture slide decks for DOTE5891. Titles match [Readings](readings.qmd).
+Lecture PDFs by week (titles match [Readings](readings.qmd)).
 
-- **Before you go** — skim before opening the PDF or attending class.
-- **Takeaways** — main points to remember after you have read or attended.
-
-Also linked under each week’s Main references on [Readings](readings.qmd).
+- **Before you go** — skim before the PDF or class.
+- **Takeaways** — main points after you have read or attended.
 
 ## Week 1: Introduction to LAE {#week-1}
 

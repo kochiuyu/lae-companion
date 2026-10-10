@@ -7,9 +7,7 @@ toc-title: "Sections"
 page-layout: full
 ---
 
-Read the one-line note under each heading, then the dates.
-
-“In force” means the instrument applies now. “Draft” or “guidance” means it does not yet bind operators by itself.
+Dated official instruments and milestones. “In force” applies now; “Draft” or “guidance” does not bind by itself.
 
 ## Timeline at a glance
 
@@ -39,7 +37,7 @@ span.dates-item{display:inline-block;scroll-margin-top:80px}
 @media (max-width:480px){.dtl-grid{grid-template-columns:1fr}.dtl{font-size:.88rem}}
 </style>
 <div class="dtl" id="dates-timeline">
-<p class="dtl-head"><strong>Official LAE milestones, Hong Kong first (as of 6 Oct 2026)</strong> — select an item to jump to its dated row.</p>
+<p class="dtl-head"><strong>Official LAE milestones, Hong Kong first (as of 6 Oct 2026)</strong> — select an item to jump to its row.</p>
 <div class="dtl-grid">
 <details class="dtl-card" open><summary>HK · Cap. 448G<span class="n">3 items</span></summary><ol>
 <li id="tl-hk-cap-448g-2022-12-01" class="st-est"><a href="#date-2022-12-01-cap448g"><span class="chip">1 Dec 2022</span> · Cap. 448G takes full effect<span class="badge b-est">Established</span></a></li>

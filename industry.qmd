@@ -4,17 +4,13 @@ as_of: "2026-10-10"
 page-layout: article
 ---
 
-Business and industry items on low-altitude economy use and development: delivery routes, eVTOL orders and test flights, funding, partnerships and launches, in Hong Kong, the Greater Bay Area and among key global players. Government and regulatory items stay on Government news; official status stays on Official status.
+Dated business and industry items (delivery, eVTOL, funding, partnerships). Government items stay on Government news.
 
 ## How to read the tags
 
-Each item carries one source-type tag:
-
-- **Company-announced:** the claim comes from the company itself (press release, launch event, social post). It is the company's claim, not an established fact.
-- **Independently reported:** a news outlet reported it from its own sources or checks, beyond the company's statement.
-- **Officially confirmed:** a government body or regulator has confirmed it in an official release or document, which is linked.
-
-## Items
+- **Company-announced:** the company’s own claim.
+- **Independently reported:** a news outlet’s own reporting.
+- **Officially confirmed:** confirmed in a linked official release or document.
 
 ## Timeline at a glance
 
@@ -44,7 +40,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones (as of 10 Oct 2026)</strong> — skim the cards, then jump to the dated item. Prefer Officially confirmed and Independently reported; a few Company-announced items are included where clearly dated.</p>
+<p class="itl-head"><strong>Business-news milestones (as of 10 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>October 2026<span class="n">3 items</span></summary><ol>
 <li id="tl-ind-2026-10-06-eve"><a href="#industry-item-2026-10-06-eve"><span class="chip">6 Oct</span> · Eve Florida eVTOL summit; 2028 US demos (company timing)<span class="badge b-ind">Indep.</span></a></li>

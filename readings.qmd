@@ -7,7 +7,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Read the official document linked for that week. The models (costs, demand, concentration) are taught in lecture and are not on this page.
+Official documents by week. Cost, demand, and concentration models stay in lecture.
 
 ## Week 1: Introduction to LAE {#week-1}
 
