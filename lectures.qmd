@@ -7,67 +7,79 @@ toc-location: right
 toc-title: "Weeks"
 ---
 
-Lecture slide decks for DOTE5891. Titles match [Readings](readings.qmd). Models and numerical examples stay in class; use these PDFs for review. Source TeX lives under `slides/` (theme: `cuhkbeamer.sty`).
+Lecture slide decks for DOTE5891. Titles match [Readings](readings.qmd). Each week has a short outline summary and a PDF for review; models and numerical examples stay in class.
 
-Also listed under each week’s Main references on [Readings](readings.qmd).
+Also linked under each week’s Main references on [Readings](readings.qmd).
 
 ## Week 1: Introduction to LAE {#week-1}
 
+Defines the Low Altitude Economy in plain English and contrasts it with traditional aviation jargon (LAE, UAM, AAM). Walks through value creation, generalized cost, and simple viability checks, then maps who creates value and who gets paid in the ecosystem. Introduces Hong Kong’s regulatory sandbox as a way to support market development, with unit-cost and utilization primers and a short in-class money-mapping exercise.
+
 - **Slides (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
-- **Source (TeX):** [week01-introduction.tex](slides/week01-introduction.tex)
 
 ## Week 2: LAE Market Structure and Competition {#week-2}
 
+Explains how market structure shapes competition across LAE service segments, using concentration ideas and a simple HHI-style assessment of market power. Connects fixed versus marginal cost, utilization, and route density to average cost, then covers NASA-style entry barriers, sunk costs, and limit pricing. Compares price competition under capacity constraints with co-opetition (shared facilities), and closes with Hong Kong experimentation versus GBA scale.
+
 - **Slides (PDF):** [week02-market-structure.pdf](slides/week02-market-structure.pdf)
-- **Source (TeX):** [week02-market-structure.tex](slides/week02-market-structure.tex)
 
 ## Week 3: Cost Structures and Revenue Management {#week-3}
 
+Separates CAPEX from OPEX and builds unit-cost measures such as CASK and cost per mission-kilometre. Estimates breakeven volume and shows how price, load factor, and utilization affect viability, then compares pay-per-use, subscription, availability-based, and complementary revenue models. Treats weather downtime as a planning risk and contrasts cost and revenue possibilities across Hong Kong and the GBA in a spreadsheet workshop.
+
 - **Slides (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
-- **Source (TeX):** [week03-cost-revenue.tex](slides/week03-cost-revenue.tex)
 
 ## Week 4: Demand Modeling in Urban Air Mobility {#week-4}
 
+Builds a transparent demand forecast from potential trips, corridor and mode share, and operating constraints, using willingness to pay and generalized cost. Covers own-price elasticity, customer heterogeneity, and simple segmented offers, and treats public acceptance as scenario assumptions rather than a fixed multiplier. Stress-tests demand and revenue under weather, capacity, and policy shocks, with an interactive pricing simulation.
+
 - **Slides (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
-- **Source (TeX):** [week04-demand.tex](slides/week04-demand.tex)
 
 ## Week 5: Infrastructure Economics and Management {#week-5}
 
+Compares vertiport archetypes and site-selection trade-offs among throughput, reliability, access time, and operating cost. Calculates breakeven activity and staged ramp-up under uncertain demand, and allocates scarce slots with peak-pricing style rules while protecting priority services. Evaluates hub, distributed, and hybrid network designs for Hong Kong and the wider GBA in an infrastructure-viability workshop.
+
 - **Slides (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
-- **Source (TeX):** [week05-infrastructure.tex](slides/week05-infrastructure.tex)
 
 ## Week 6: LAE Strategic Partnerships and Business Models {#week-6}
 
+Compares asset-intensive, service-based, and platform-oriented commercial architectures. Explains when public–private partnerships may help, how usage and availability payments shift risk, and how contractual flexibility and staging create option value. Applies co-opetition to shared facility cost and closes with a partnership term-sheet negotiation exercise.
+
 - **Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
-- **Source (TeX):** [week06-partnerships.tex](slides/week06-partnerships.tex)
 
 ## Week 7: LAE Policy and Regulation {#week-7}
 
+Frames regulation as part of competitive strategy and values earlier market readiness and controlled trials (including Sandbox X). Covers BVLOS and the distinction among approval, permission, and certification, then links safety cases and risk–cost controls to insurability and reliability. Introduces U-space/UTM coordination cost and a regulatory-pathway scorecard for a phased, evidence-gated roadmap.
+
 - **Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
-- **Source (TeX):** [week07-policy-regulation.tex](slides/week07-policy-regulation.tex)
 
 ## Week 8: Airspace Access and Integration {#week-8}
 
+Shows how safe operating capacity and demand create congestion and delay externalities in shared airspace. Compares queues, reservations, priority rules, peak pricing, and auctions as slot-allocation mechanisms, and estimates an operator’s maximum affordable slot payment. Evaluates digital coordination and interoperability, then designs a phased airspace-integration roadmap with explicit evidence gates.
+
 - **Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
-- **Source (TeX):** [week08-airspace.tex](slides/week08-airspace.tex)
 
 ## Week 9: Market Sizing, Barriers, Uncertainty and Social Impact {#week-9}
 
+Builds a transparent market-size funnel from potential demand through capacity, revenue, and contribution for a defined use case. Maps constraints highlighted in UAM market studies and stress-tests the case with scenarios, sensitivity, and simple probability models. Moves from commercial value to social value via distributional questions, illustrative hedonic thinking, and equity comparisons across places.
+
 - **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
-- **Source (TeX):** [week09-impact.tex](slides/week09-impact.tex)
 
 ## Week 10: Sustainability Challenges in Urban Air Operations {#week-10}
 
+Identifies major environmental and social externalities of urban air operations (noise, privacy, greenhouse gases) and compares pricing, restrictions, standards, mitigation, and compensation responses. Calculates simple operational and life-cycle emissions indicators with transparent boundaries, and evaluates privacy controls and public-acceptance measures. Designs sustainability KPIs and a public-service commitment cost screen in a mitigation scorecard exercise.
+
 - **Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
-- **Source (TeX):** [week10-sustainability.tex](slides/week10-sustainability.tex)
 
 ## Week 11: Synthesis and Capstone Group Presentations {#week-11}
 
+Integrates demand, capacity, unit economics, infrastructure, contracts, regulation, and sustainability into one coherent strategy check. Applies a viability test (cash flow, NPV, breakeven, downside risk, and non-financial criteria) and an airport-corridor screening example with a risk register and decision gates. Prepares a 12-minute decision pitch and 12-slide executive deck for capstone presentations, with audience feedback guidelines.
+
 - **Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
-- **Source (TeX):** [week11-capstone.tex](slides/week11-capstone.tex)
 
 ## Week 12: LAE Future Frontiers and Final Review {#week-12}
 
+Looks ahead from corridors to networks—more nodes raise possible connections without guaranteeing demand or value—and appraises digital coordination under total system cost and governance. Screens possible Hong Kong service roles (financing, leasing, insurance, professional services, data-enabled assurance) and reapplies the course viability test. Recaps the quantitative toolkit and closes with consistent judgment under operational, regulatory, financial, and social constraints.
+
 - **Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
-- **Source (TeX):** [week12-future.tex](slides/week12-future.tex)
 
