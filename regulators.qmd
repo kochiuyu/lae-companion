@@ -30,9 +30,9 @@ Standing reminders (do not collapse these on [Official status](tracker.qmd)):
 | Body | What it controls for this course |
 |------|----------------------------------|
 | [**CAAC**](glossary.qmd#mainland-comparators) | Civil Aviation Administration of China — responsible authority under **CCAR-92** for UAS operational safety; publisher of ATM Rules Ch. 12 **draft** (not promulgated). |
-| **Ministry of Transport** | Promulgated **CCAR-92** (MOT Order 2024 No. 1; in force 1 Jan 2024) — see Glossary diagram sources and [Official status](tracker.qmd). |
-| **NDRC** | Issued 发改低空〔2025〕**1676号** — **statistical classification** of 低空经济, not an official national scale (规模) figure ([Official status](tracker.qmd)). |
-| **Guangdong Provincial People’s Government General Office** | Issued 粤府办〔2024〕**6号** (LAE action plan 2024–2026); GBA corridor language is a **policy aim**, not evidence of an operating SZ–HK corridor ([Glossary](glossary.qmd#who-regulates-what); [Official status](tracker.qmd)). |
+| [**Ministry of Transport**](glossary.qmd#mainland-comparators) | Promulgated **CCAR-92** (MOT Order 2024 No. 1; in force 1 Jan 2024) — see Glossary diagram sources and [Official status](tracker.qmd). |
+| [**NDRC**](glossary.qmd#mainland-comparators) | Issued 发改低空〔2025〕**1676号** — **statistical classification** of 低空经济, not an official national scale (规模) figure ([Official status](tracker.qmd)). |
+| [**Guangdong Provincial People’s Government General Office**](glossary.qmd#mainland-comparators) | Issued 粤府办〔2024〕**6号** (LAE action plan 2024–2026); GBA corridor language is a **policy aim**, not evidence of an operating SZ–HK corridor ([Glossary](glossary.qmd#who-regulates-what); [Official status](tracker.qmd)). |
 
 Related Mainland instruments (status on Official status / Timeline): **国令761**, National Airspace Basic Classification, Civil Aviation Law (2025 revision).
 
@@ -42,8 +42,8 @@ Not Hong Kong regulators. Use them for frameworks and readings, not HK complianc
 
 | Body | What students use it for here |
 |------|-------------------------------|
-| **EASA** | EU Aviation Safety Agency — U-space framework as comparator; SC-VTOL / VTOL certification material; prototype vertiport design specs. Dated rows on [Timeline](dates.qmd); documents on [Readings](readings.qmd). |
-| **FAA** | US Federal Aviation Administration — UTM / UAM concepts of operations; Remote ID; powered-lift and AAM implementation plan as course comparators. Dated rows on [Timeline](dates.qmd); documents on [Readings](readings.qmd). |
+| [**EASA**](glossary.qmd#eu-us-comparators) | EU Aviation Safety Agency — U-space framework as comparator; SC-VTOL / VTOL certification material; prototype vertiport design specs. Dated rows on [Timeline](dates.qmd); documents on [Readings](readings.qmd). |
+| [**FAA**](glossary.qmd#eu-us-comparators) | US Federal Aviation Administration — UTM / UAM concepts of operations; Remote ID; powered-lift and AAM implementation plan as course comparators. Dated rows on [Timeline](dates.qmd); documents on [Readings](readings.qmd). |
 
 [Course overview](overview.qmd) also names NASA, AiRMOUR, and other AAM frameworks as comparators — not decision-makers for Hong Kong flights.
 
