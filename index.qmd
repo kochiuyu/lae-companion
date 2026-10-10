@@ -19,17 +19,24 @@ Course companion for DOTE5891 — lecture slides, readings, and supporting evide
 
 ::: {.hub-grid}
 ::: {.hub-card}
-## Course
+## Orient
 
-Start with how to use this site; then primer, slides, readings, and the week map.
+Week map, plain-language primers, and how to use this site.
 
-- [How to use this site](howto.qmd)
+- [Course overview](overview.qmd)
 - [What is LAE?](primer.qmd)
 - [Who decides what?](regulators.qmd)
 - [Business overview](business-overview.qmd)
+- [How to use this site](howto.qmd)
+:::
+
+::: {.hub-card}
+## Teach
+
+Slide decks and weekly documents.
+
 - [Lectures](lectures.qmd)
 - [Readings](readings.qmd)
-- [Course overview](overview.qmd)
 :::
 
 ::: {.hub-card}

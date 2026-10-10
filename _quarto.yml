@@ -26,22 +26,24 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Course
+      - text: Orient
         menu:
           - href: overview.qmd
             text: Course overview
-          - href: howto.qmd
-            text: How to use this site
           - href: primer.qmd
             text: What is LAE?
           - href: regulators.qmd
             text: Who decides what?
           - href: business-overview.qmd
             text: Business overview
-          - href: readings.qmd
-            text: Readings
+          - href: howto.qmd
+            text: How to use this site
+      - text: Teach
+        menu:
           - href: lectures.qmd
             text: Lectures
+          - href: readings.qmd
+            text: Readings
       - text: Official facts
         menu:
           - href: glossary.qmd
