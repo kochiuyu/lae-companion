@@ -21,8 +21,6 @@ The course is intentionally quantitative and managerial. Students learn to trans
 
 By the end of the course, students should be able to evaluate whether a proposed LAE service is commercially viable, socially acceptable, policy-consistent, and scalable across Hong Kong and the GBA. The capstone presentation requires students to integrate demand, cost, infrastructure, regulation, airspace access, sustainability, and risk into one coherent business or policy strategy.
 
-Attendance requirement: students are required to have at least 70% attendance in this course.
-
 ## Objectives
 
 - Study LAE economics and business strategy in Hong Kong and the GBA, with global AAM comparators.
