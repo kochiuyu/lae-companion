@@ -1,6 +1,6 @@
 ---
 title: "Low Altitude Economics Companion"
-subtitle: "Evidence companion for DOTE5891"
+subtitle: "Course companion for DOTE5891"
 as_of: "2026-10-11"
 ---
 

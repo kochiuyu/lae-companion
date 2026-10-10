@@ -42,7 +42,7 @@ website:
           - href: dates.qmd
             text: Timeline
   page-footer:
-    left: "Evidence companion. Lectures stay in class."
+    left: "DOTE5891 course companion — readings, lecture slides, and official evidence."
     right: "CUHK · Decisions, Operations and Technology"
 
 format:
