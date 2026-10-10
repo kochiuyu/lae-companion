@@ -13,22 +13,36 @@ Master of Aviation Management
 
 This site is the evidence companion for the course. Lectures, numerical examples, and assignments stay in class. Use these pages when you need a dated official source, a checked number, or a term.
 
-**Facts**
+::: {.hub-grid}
+::: {.hub-card}
+## Facts
+
+Official words, milestones, and what you may cite.
 
 - [Glossary](glossary.qmd)
 - [Tracker](tracker.qmd)
 - [Dates](dates.qmd)
+:::
 
-**This week**
+::: {.hub-card}
+## This week
+
+This week's readings and dated source notes.
 
 - [Readings](readings.qmd)
 - [Weekly notes](briefings.qmd)
+:::
 
-**What's new**
+::: {.hub-card}
+## What's new
+
+Press items, business news, and who is doing what.
 
 - [Press](news.qmd)
 - [Business news](industry.qmd)
 - [Who does what](landscape.qmd)
+:::
+:::
 
 Start here: Glossary, then Tracker, then this week’s Readings.
 

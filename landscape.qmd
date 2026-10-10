@@ -2,6 +2,9 @@
 title: "Who does what"
 as_of: "2026-10-08"
 page-layout: full
+toc: true
+toc-location: right
+toc-title: "Sections"
 ---
 
 Standing sector map of low-altitude economy businesses: who is doing what in Hong Kong, the Greater Bay Area and among a few global benchmarks. Business news holds dated news of the same firms; Press holds government and regulatory items; Tracker holds official status.
@@ -29,6 +32,9 @@ Tags mean the same as on Business news. Official counts stay on Tracker.
     background: #e8eef2;
     z-index: 0;
     position: relative;
+  }
+  @media (max-width: 640px) {
+    #landscape-glance-map { height: 320px; min-height: 280px; }
   }
   #landscape-glance-legend { margin: 0.5rem 0 0; font-size: 0.92rem; }
   #landscape-glance-legend span.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: middle; border: 1px solid #333; }

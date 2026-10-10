@@ -2,6 +2,9 @@
 title: "Readings"
 as_of: "2026-09-07"
 page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
 ---
 
 Read the official document linked for that week. The models (costs, demand, concentration) are taught in lecture and are not on this page.
