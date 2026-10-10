@@ -62,67 +62,65 @@ From the course outline’s cumulative strategy-building sequence:
 
 ## 12-week conceptual map
 
-```{mermaid}
-%%| fig-cap: "Week topics from the course schedule / Readings. Click a week to open that Readings section."
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#F7F6F3", "primaryTextColor": "#1a1a1a", "primaryBorderColor": "#003366", "lineColor": "#003366", "secondaryColor": "#e6edf5", "tertiaryColor": "#F7F6F3", "fontFamily": "system-ui, sans-serif"}}}%%
-flowchart TB
-  subgraph B["Weeks 1–3 · Building blocks"]
-    direction TB
-    W1["Week 1: Introduction to LAE"]
-    W2["Week 2: LAE Market Structure and Competition"]
-    W3["Week 3: Cost Structures and Revenue Management"]
-    W1 --> W2 --> W3
-  end
-  subgraph E["Weeks 4–6 · Extend the use case"]
-    direction TB
-    W4["Week 4: Demand Modeling in Urban Air Mobility"]
-    W5["Week 5: Infrastructure Economics and Management"]
-    W6["Week 6: LAE Strategic Partnerships and Business Models"]
-    W4 --> W5 --> W6
-  end
-  subgraph A["Weeks 7–10 · Add policy layers"]
-    direction TB
-    W7["Week 7: LAE Policy and Regulation"]
-    W8["Week 8: Airspace Access and Integration"]
-    W9["Week 9: Market Sizing, Barriers, Uncertainty and Social Impact"]
-    W10["Week 10: Sustainability Challenges in Urban Air Operations"]
-    W7 --> W8 --> W9 --> W10
-  end
-  subgraph S["Weeks 11–12 · Synthesize"]
-    direction TB
-    W11["Week 11: Synthesis and Capstone Group Presentations"]
-    W12["Week 12: LAE Future Frontiers and Final Review"]
-    W11 --> W12
-  end
-  B --> E --> A --> S
-  click W1 "readings.qmd#week-1" "Readings · Week 1"
-  click W2 "readings.qmd#week-2" "Readings · Week 2"
-  click W3 "readings.qmd#week-3" "Readings · Week 3"
-  click W4 "readings.qmd#week-4" "Readings · Week 4"
-  click W5 "readings.qmd#week-5" "Readings · Week 5"
-  click W6 "readings.qmd#week-6" "Readings · Week 6"
-  click W7 "readings.qmd#week-7" "Readings · Week 7"
-  click W8 "readings.qmd#week-8" "Readings · Week 8"
-  click W9 "readings.qmd#week-9" "Readings · Week 9"
-  click W10 "readings.qmd#week-10" "Readings · Week 10"
-  click W11 "readings.qmd#week-11" "Readings · Week 11"
-  click W12 "readings.qmd#week-12" "Readings · Week 12"
+How the weeks build on each other. Week titles match [Readings](readings.qmd). Click a week for that Readings section (slides on [Lectures](lectures.qmd)).
+
+```{=html}
+<style>
+.omap{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--muted:#5f5f5f;margin:.75rem 0 1.25rem;font-size:.92rem}
+.omap-cap{color:var(--muted);margin:0 0 .75rem;font-size:.88rem}
+.omap-flow{display:flex;flex-direction:column;gap:.55rem;align-items:stretch;max-width:52rem}
+.omap-stage{background:var(--beige);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:8px;padding:.55rem .85rem .7rem}
+.omap-stage h3{margin:0 0 .45rem;font-size:1rem;color:var(--navy);font-weight:600}
+.omap-stage ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.35rem}
+.omap-stage li{margin:0}
+.omap-stage a{display:block;background:#fff;border:1px solid var(--line);border-radius:6px;padding:.4rem .65rem;color:var(--ink);text-decoration:none;line-height:1.35}
+.omap-stage a:hover{border-color:var(--navy);background:#e6edf5}
+.omap-stage a:focus-visible{outline:2px solid var(--navy);outline-offset:1px}
+.omap-stage .wk{display:inline-block;font-size:.76rem;font-weight:600;padding:.05rem .45rem;border-radius:999px;background:#e6edf5;color:var(--navy);margin-right:.4rem;white-space:nowrap}
+.omap-arrow{text-align:center;color:var(--navy);font-size:1.25rem;line-height:1;user-select:none}
+@media (max-width:640px){.omap{font-size:.88rem}}
+</style>
+<div class="omap" id="course-map">
+<p class="omap-cap">Week topics from the course schedule / Readings. Grouped by the outline’s cumulative build sequence.</p>
+<div class="omap-flow">
+<section class="omap-stage" aria-labelledby="omap-b">
+<h3 id="omap-b">Weeks 1–3 · Building blocks</h3>
+<ol>
+<li><a href="readings.qmd#week-1"><span class="wk">Week 1</span> Introduction to LAE</a></li>
+<li><a href="readings.qmd#week-2"><span class="wk">Week 2</span> LAE Market Structure and Competition</a></li>
+<li><a href="readings.qmd#week-3"><span class="wk">Week 3</span> Cost Structures and Revenue Management</a></li>
+</ol>
+</section>
+<div class="omap-arrow" aria-hidden="true">↓</div>
+<section class="omap-stage" aria-labelledby="omap-e">
+<h3 id="omap-e">Weeks 4–6 · Extend the use case</h3>
+<ol>
+<li><a href="readings.qmd#week-4"><span class="wk">Week 4</span> Demand Modeling in Urban Air Mobility</a></li>
+<li><a href="readings.qmd#week-5"><span class="wk">Week 5</span> Infrastructure Economics and Management</a></li>
+<li><a href="readings.qmd#week-6"><span class="wk">Week 6</span> LAE Strategic Partnerships and Business Models</a></li>
+</ol>
+</section>
+<div class="omap-arrow" aria-hidden="true">↓</div>
+<section class="omap-stage" aria-labelledby="omap-a">
+<h3 id="omap-a">Weeks 7–10 · Add policy layers</h3>
+<ol>
+<li><a href="readings.qmd#week-7"><span class="wk">Week 7</span> LAE Policy and Regulation</a></li>
+<li><a href="readings.qmd#week-8"><span class="wk">Week 8</span> Airspace Access and Integration</a></li>
+<li><a href="readings.qmd#week-9"><span class="wk">Week 9</span> Market Sizing, Barriers, Uncertainty and Social Impact</a></li>
+<li><a href="readings.qmd#week-10"><span class="wk">Week 10</span> Sustainability Challenges in Urban Air Operations</a></li>
+</ol>
+</section>
+<div class="omap-arrow" aria-hidden="true">↓</div>
+<section class="omap-stage" aria-labelledby="omap-s">
+<h3 id="omap-s">Weeks 11–12 · Synthesize</h3>
+<ol>
+<li><a href="readings.qmd#week-11"><span class="wk">Week 11</span> Synthesis and Capstone Group Presentations</a></li>
+<li><a href="readings.qmd#week-12"><span class="wk">Week 12</span> LAE Future Frontiers and Final Review</a></li>
+</ol>
+</section>
+</div>
+</div>
 ```
-
-Point form (same titles as [Readings](readings.qmd)):
-
-1. [Introduction to LAE](readings.qmd#week-1) · [slides](lectures.qmd#week-1)
-2. [LAE Market Structure and Competition](readings.qmd#week-2) · [slides](lectures.qmd#week-2)
-3. [Cost Structures and Revenue Management](readings.qmd#week-3) · [slides](lectures.qmd#week-3)
-4. [Demand Modeling in Urban Air Mobility](readings.qmd#week-4) · [slides](lectures.qmd#week-4)
-5. [Infrastructure Economics and Management](readings.qmd#week-5) · [slides](lectures.qmd#week-5)
-6. [LAE Strategic Partnerships and Business Models](readings.qmd#week-6) · [slides](lectures.qmd#week-6)
-7. [LAE Policy and Regulation](readings.qmd#week-7) · [slides](lectures.qmd#week-7)
-8. [Airspace Access and Integration](readings.qmd#week-8) · [slides](lectures.qmd#week-8)
-9. [Market Sizing, Barriers, Uncertainty and Social Impact](readings.qmd#week-9) · [slides](lectures.qmd#week-9)
-10. [Sustainability Challenges in Urban Air Operations](readings.qmd#week-10) · [slides](lectures.qmd#week-10)
-11. [Synthesis and Capstone Group Presentations](readings.qmd#week-11) · [slides](lectures.qmd#week-11)
-12. [LAE Future Frontiers and Final Review](readings.qmd#week-12) · [slides](lectures.qmd#week-12)
 
 ## Course materials on this site
 
