@@ -1,0 +1,55 @@
+---
+title: "Who decides what?"
+subtitle: "Regulator cheat sheet for LAE students"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+One-line roles only. Instruments and status live on [Official status](tracker.qmd) and [Timeline](dates.qmd); term definitions on the [Glossary](glossary.qmd). Comparators are not Hong Kong law.
+
+## Hong Kong
+
+| Body | What it controls for this course |
+|------|----------------------------------|
+| [**Working Group on Developing Low-altitude Economy**](glossary.qmd#hong-kong-institutions-and-law) | Cross-government LAE strategy group (headed by the Deputy Financial Secretary; STL is Deputy Head). Selects Sandbox / Sandbox X projects; Action Plan still being formulated (text **OPEN**). |
+| [**TLB** (Transport and Logistics Bureau)](glossary.qmd#hong-kong-institutions-and-law) | Policy bureau: Working Group secretariat support; runs Sandbox pilot projects by batches; publishes Sandbox X module communications. |
+| [**CAD** (Civil Aviation Department)](glossary.qmd#hong-kong-institutions-and-law) | Cap. **448G** SUA regulator; issues sandbox Advisory Circulars (**AC-013** BVLOS in Sandbox; **AC-017** cross-boundary in Sandbox X); designates restricted flying zones; technical study role on the planned traffic-management system. |
+| [**OFCA / Communications Authority**](glossary.qmd#hong-kong-institutions-and-law) | Spectrum licensing for the **1.4 GHz UAS (Private) Licence** (confined to LAE Regulatory Sandbox projects). CAD still approves relevant flight paths in that setting. |
+
+Standing reminders (do not collapse these on [Official status](tracker.qmd)):
+
+- **Regulatory Sandbox ≠ Sandbox X.**
+- Shenzhen–Hong Kong / GBA corridor: **not operational** on tracked evidence.
+- No published Action Plan text; no dedicated Hong Kong eVTOL or vertiport statute yet.
+
+## Mainland (comparator)
+
+| Body | What it controls for this course |
+|------|----------------------------------|
+| [**CAAC**](glossary.qmd#mainland-comparators) | Civil Aviation Administration of China — responsible authority under **CCAR-92** for UAS operational safety; publisher of ATM Rules Ch. 12 **draft** (not promulgated). |
+| **Ministry of Transport** | Promulgated **CCAR-92** (MOT Order 2024 No. 1; in force 1 Jan 2024) — see Glossary diagram sources and [Official status](tracker.qmd). |
+| **NDRC** | Issued 发改低空〔2025〕**1676号** — **statistical classification** of 低空经济, not an official national scale (规模) figure ([Official status](tracker.qmd)). |
+| **Guangdong Provincial People’s Government General Office** | Issued 粤府办〔2024〕**6号** (LAE action plan 2024–2026); GBA corridor language is a **policy aim**, not evidence of an operating SZ–HK corridor ([Glossary](glossary.qmd#who-regulates-what); [Official status](tracker.qmd)). |
+
+Related Mainland instruments (status on Official status / Timeline): **国令761**, National Airspace Basic Classification, Civil Aviation Law (2025 revision).
+
+## EU / US (course comparators)
+
+Not Hong Kong regulators. Use them for frameworks and readings, not HK compliance claims.
+
+| Body | What students use it for here |
+|------|-------------------------------|
+| **EASA** | EU Aviation Safety Agency — U-space framework as comparator; SC-VTOL / VTOL certification material; prototype vertiport design specs. Dated rows on [Timeline](dates.qmd); documents on [Readings](readings.qmd). |
+| **FAA** | US Federal Aviation Administration — UTM / UAM concepts of operations; Remote ID; powered-lift and AAM implementation plan as course comparators. Dated rows on [Timeline](dates.qmd); documents on [Readings](readings.qmd). |
+
+[Course overview](overview.qmd) also names NASA, AiRMOUR, and other AAM frameworks as comparators — not decision-makers for Hong Kong flights.
+
+## Where to look next
+
+- Settled / OPEN / WATCH labels → [Official status](tracker.qmd)
+- Dated instruments and milestones → [Timeline](dates.qmd)
+- Term entries and “who regulates what” diagram → [Glossary](glossary.qmd)
+- Plain-language scope → [What is LAE?](primer.qmd)

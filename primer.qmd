@@ -1,0 +1,63 @@
+---
+title: "What is LAE?"
+subtitle: "A short primer for newcomers"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+Plain-language scope for DOTE5891. Definitions live in the [Glossary](glossary.qmd); citeable status lives on [Official status](tracker.qmd).
+
+## Low altitude / LAE
+
+- In Hong Kong, **LAE** means economic activities in airspace generally below about **1,000 metres** — a policy working description, not a Cap. 448G flying limit ([Glossary · altitude scale](glossary.qmd#altitude-scale); [Official status](tracker.qmd)).
+- The course umbrella also covers aircraft, infrastructure, traffic management, and supporting services (finance, insurance, platforms) — see [Course overview](overview.qmd) and Week 1 on [Lectures](lectures.qmd).
+- Mainland **低空经济** is a separate statistical / industrial-policy scope (NDRC 发改低空〔2025〕1676号). Do not treat it as the same metric as a Hong Kong value-added figure ([Glossary](glossary.qmd#mainland-comparators); [Official status](tracker.qmd)).
+
+## Drones vs eVTOL
+
+- **SUA / drones:** Hong Kong’s Cap. 448G term is **small unmanned aircraft (SUA)** — unmanned aircraft not more than **150 kg**. “Drone” in everyday speech is not a Cap. 448G synonym ([Glossary · vehicles](glossary.qmd#vehicles-and-operations)).
+- **eVTOL:** industry label for electric vertical take-off and landing craft. In Hong Kong, passenger-carrying / heavy types sit above the SUA ceiling and are treated as **unconventional aircraft** pending dedicated rules — **no dedicated Hong Kong eVTOL statute yet** ([Glossary](glossary.qmd#vehicles-and-operations); [Official status](tracker.qmd)).
+- Weight, line-of-sight, and permission ladders are on the Glossary diagrams, not repeated here.
+
+## Vertiports
+
+- A **vertiport** is a take-off and landing site for advanced low-altitude craft (industry usage).
+- The 2025 Policy Address names planning of such sites; **Hong Kong has no dedicated vertiport statute yet**. Action Plan text remains unpublished ([Glossary · infrastructure](glossary.qmd#infrastructure); [Official status](tracker.qmd)).
+
+## U-space / UTM
+
+- **U-space:** EU / industry label for a set of UAS traffic services — **not Hong Kong law**. Do not write that Hong Kong has U-space ([Glossary · airspace](glossary.qmd#airspace-and-traffic)).
+- **UTM:** unmanned aircraft system traffic management (industry usage). Hong Kong’s **Smart Low-altitude Traffic Management System** is **planned** (progressive implementation from **2028** in Policy Address language) — not yet a Hong Kong statute ([Glossary](glossary.qmd#airspace-and-traffic); [Official status](tracker.qmd); [Timeline](dates.qmd)).
+- Sandbox X includes a **UTM system demonstrations** module (counts on Official status — do not invent totals here).
+
+## BVLOS
+
+- **BVLOS** = operation beyond the remote pilot’s (or observer’s) visual line of sight ([Glossary](glossary.qmd#vehicles-and-operations)).
+- In the first **Regulatory Sandbox**, the relevant CAD circular is **AC-013**. Sandbox X cross-boundary flying is under **AC-017** — a different programme ([Glossary](glossary.qmd#hong-kong-institutions-and-law); [Official status](tracker.qmd)).
+
+## Why Hong Kong / GBA
+
+- Core course setting: Hong Kong and the Greater Bay Area, with EU/US/NASA-style comparators on [Course overview](overview.qmd) and [Readings](readings.qmd).
+- Hong Kong has an active policy track (Working Group, sandboxes, Cap. 448G / ACs) — see [Who decides what?](regulators.qmd) and [Timeline](dates.qmd).
+- **Regulatory Sandbox ≠ Sandbox X.** Do not blend their counts ([Official status](tracker.qmd)).
+- The Shenzhen–Hong Kong / GBA **cross-boundary corridor is not operational** on the evidence tracked here ([Official status](tracker.qmd); [Timeline](dates.qmd)).
+- If you see **~HK$350 billion by 2050**, that is an **Our Hong Kong Foundation** projection, **not** a government figure ([Official status](tracker.qmd); [Glossary](glossary.qmd)).
+
+## How this site helps
+
+| Need | Go to |
+|------|--------|
+| Week map and outcomes | [Course overview](overview.qmd) |
+| Slide PDFs | [Lectures](lectures.qmd) |
+| Weekly documents | [Readings](readings.qmd) |
+| Term definitions | [Glossary](glossary.qmd) |
+| What is settled / still OPEN | [Official status](tracker.qmd) |
+| Who regulates | [Who decides what?](regulators.qmd) |
+| Dated instruments | [Timeline](dates.qmd) |
+| Firms (not treated as fact) | [Companies & sectors](landscape.qmd) |
+| Dated government / business items | [Government news](news.qmd) · [Business news](industry.qmd) |
+
+No Blackboard or assessment admin on this companion — course logistics stay with the teaching platform.

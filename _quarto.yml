@@ -5,6 +5,8 @@ project:
   render:
     - index.qmd
     - overview.qmd
+    - primer.qmd
+    - regulators.qmd
     - glossary.qmd
     - tracker.qmd
     - dates.qmd
@@ -24,6 +26,10 @@ website:
         menu:
           - href: overview.qmd
             text: Course overview
+          - href: primer.qmd
+            text: What is LAE?
+          - href: regulators.qmd
+            text: Who decides what?
           - href: readings.qmd
             text: Readings
           - href: lectures.qmd

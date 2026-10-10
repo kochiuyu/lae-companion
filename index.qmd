@@ -18,8 +18,10 @@ Course companion for DOTE5891 — lecture slides, readings, and supporting evide
 ::: {.hub-card}
 ## Course
 
-Start with slides and readings; overview maps the twelve weeks.
+Start with the primer and who decides what; then slides, readings, and the week map.
 
+- [What is LAE?](primer.qmd)
+- [Who decides what?](regulators.qmd)
 - [Lectures](lectures.qmd)
 - [Readings](readings.qmd)
 - [Course overview](overview.qmd)
