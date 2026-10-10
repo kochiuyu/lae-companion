@@ -1,5 +1,6 @@
 ---
 title: "Low Altitude Economics Companion"
+subtitle: "Evidence companion for DOTE5891"
 as_of: "2026-10-11"
 ---
 
@@ -10,8 +11,6 @@ Master of Aviation Management
 **Course:** DOTE5891 Low Altitude Economics  
 **Instructor:** Chiu Yu Ko  
 **First offering:** December 2026  
-
-Evidence companion for DOTE5891 — dated official sources, checked numbers, and course materials.
 
 ::: {.hub-grid}
 ::: {.hub-card}
@@ -43,11 +42,3 @@ Dated government items, business news, and the milestone timeline.
 - [Timeline](dates.qmd)
 :::
 :::
-
-Start here: Glossary → Official status → Readings.
-
-**Rules**
-
-- A number needs a date, an issuer, and a source tier.
-- Regulatory Sandbox ≠ Regulatory Sandbox X.
-- ~HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection, not a government figure.

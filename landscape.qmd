@@ -1,13 +1,12 @@
 ---
 title: "Companies & sectors"
+subtitle: "Who is in the market"
 as_of: "2026-10-08"
 page-layout: full
 toc: true
 toc-location: right
 toc-title: "Sections"
 ---
-
-Sector map of LAE firms in Hong Kong, the Greater Bay Area, and a few global benchmarks.
 
 Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 

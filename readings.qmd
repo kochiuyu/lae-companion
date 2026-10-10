@@ -1,5 +1,6 @@
 ---
 title: "Readings"
+subtitle: "Official documents by week"
 as_of: "2026-09-07"
 page-layout: article
 toc: true
@@ -7,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Official documents by week. Cost, demand, and concentration models stay in lecture.
+Models (costs, demand, concentration) stay in lecture. ~HK$350 billion by 2050 is an Our Hong Kong Foundation projection, not a government figure.
 
 ## Week 1: Introduction to LAE {#week-1}
 

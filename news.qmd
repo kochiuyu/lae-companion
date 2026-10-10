@@ -1,10 +1,9 @@
 ---
 title: "Government news"
+subtitle: "Dated government and regulatory items"
 as_of: "2026-10-11"
 page-layout: article
 ---
-
-Dated government and regulatory items. Official counts and the HK$350 billion figure stay on Official status.
 
 ## Timeline at a glance
 

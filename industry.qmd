@@ -1,10 +1,9 @@
 ---
 title: "Business news"
+subtitle: "Dated company and industry items"
 as_of: "2026-10-10"
 page-layout: article
 ---
-
-Dated business and industry items (delivery, eVTOL, funding, partnerships). Government items stay on Government news.
 
 ## How to read the tags
 

@@ -1,5 +1,6 @@
 ---
 title: "Glossary"
+subtitle: "Terms and diagrams you can cite"
 as_of: "2026-09-07"
 page-layout: article
 toc: true
@@ -7,9 +8,11 @@ toc-location: right
 toc-title: "Sections"
 ---
 
+~HK$350 billion by 2050 is an Our Hong Kong Foundation projection, not a government figure.
+
 ## At a glance
 
-Diagrams and definitions for LAE terms. Captions list sources; entries start at [Hong Kong institutions and law](#hong-kong-institutions-and-law).
+Captions list sources; entries start at [Hong Kong institutions and law](#hong-kong-institutions-and-law).
 
 ### Who regulates what
 

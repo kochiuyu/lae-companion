@@ -8,7 +8,7 @@ toc-title: "Sections"
 page-layout: full
 ---
 
-Checked official facts and open items you may cite. Do not add the Regulatory Sandbox **38** to Sandbox X module counts — they are not the same programme.
+Regulatory Sandbox ≠ Sandbox X.
 
 ## Status board
 
