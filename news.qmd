@@ -1,6 +1,6 @@
 ---
 title: "Press"
-as_of: "2026-10-08"
+as_of: "2026-10-10"
 page-layout: article
 ---
 
@@ -34,22 +34,52 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Press milestones (as of 8 Oct 2026)</strong> — skim the cards, then jump to the dated item. Prefer government / regulatory and independently reported; official counts stay on Tracker. Full list below is unchanged.</p>
+<p class="itl-head"><strong>Press milestones (as of 10 Oct 2026)</strong> — skim the cards, then jump to the dated item. Prefer government / regulatory and independently reported; official counts stay on Tracker.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>October 2026<span class="n">3 items</span></summary><ol>
 <li id="tl-press-2026-10-07-slatms"><a href="#press-item-2026-10-07-slatms"><span class="chip">7 Oct</span> · CAD outlines SLATMS / Smart TMS research stack<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-05-sandbox-connect" class="st-open"><a href="#press-item-2026-10-05-sandbox-connect"><span class="chip">5 Oct</span> · “Sandbox Connect” cross-jurisdictional trial framing (results OPEN)<span class="badge b-open">OPEN</span></a></li>
 <li id="tl-press-2026-10-02-stl-edev"><a href="#press-item-2026-10-02-stl-edev"><span class="chip">2 Oct</span> · STL LegCo EDev Panel: Action Plan / &gt;150 kg / Smart TMS 2028<span class="badge b-off">GIA</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>September 2026<span class="n">8 items</span></summary><ol>
+<details class="itl-card" open><summary>September 2026<span class="n">10 items</span></summary><ol>
+<li id="tl-press-2026-09-26-gn5936"><a href="#press-item-2026-09-26-gn5936"><span class="chip">26 Sep</span> · G.N. 5936 Sandbox restricted flying zones effective<span class="badge b-off">Gazette</span></a></li>
 <li id="tl-press-2026-09-23-caac"><a href="#press-item-2026-09-23-caac"><span class="chip">23 Sep</span> · STL / TLB / CAD meet CAAC Deputy Administrator in Beijing<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-09-21-keeta"><a href="#press-item-2026-09-21-keeta"><span class="chip">21 Sep</span> · Keeta Drone to Chung On Estate (Regulatory Sandbox)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-16-policy-address" class="st-open"><a href="#press-item-2026-09-16-policy-address"><span class="chip">16 Sep</span> · Policy Address: Action Plan, cross-boundary trials, &gt;150 kg drafting<span class="badge b-open">OPEN</span></a></li>
+<li id="tl-press-2026-09-14-nansha" class="st-open"><a href="#press-item-2026-09-14-nansha"><span class="chip">14 Sep</span> · Nansha–Hong Kong bilateral-sandbox MoU (not operational corridor)<span class="badge b-open">MoU</span></a></li>
 <li id="tl-press-2026-09-10-stl-rthk"><a href="#press-item-2026-09-10-stl-rthk"><span class="chip">10 Sep</span> · STL: LAE applications entering regularisation stage<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-10-bri"><a href="#press-item-2026-09-10-bri"><span class="chip">10 Sep</span> · Belt and Road LAE session; Sandbox X further 33 projects<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-10-hkust"><a href="#press-item-2026-09-10-hkust"><span class="chip">10 Sep</span> · HKUST LAE forum; standards Joint Statement of Intent<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-09-kazakhstan"><a href="#press-item-2026-09-09-kazakhstan"><span class="chip">9 Sep</span> · Hong Kong–Kazakhstan transport-lab MoU (LAE discussed)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-02-szhk" class="st-open"><a href="#press-item-2026-09-02-szhk"><span class="chip">2 Sep</span> · Shenzhen port measures: SZ–HK low-altitude logistics (plans)<span class="badge b-open">Plans</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>August 2026<span class="n">1 item</span></summary><ol>
+<li id="tl-press-2026-08-11-caac-atm" class="st-open"><a href="#press-item-2026-08-11-caac-atm"><span class="chip">11 Aug</span> · CAAC draft Civil Aviation ATM Rules (consultation)<span class="badge b-open">DRAFT</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>July 2026<span class="n">1 item</span></summary><ol>
+<li id="tl-press-2026-07-31-ac014"><a href="#press-item-2026-07-31-ac014"><span class="chip">31 Jul</span> · CAD AC-014 Category C SUA / Pre-defined Scenario #1<span class="badge b-off">CAD</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>June 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-press-2026-06-24-lcq21"><a href="#press-item-2026-06-24-lcq21"><span class="chip">24 Jun</span> · LCQ21 STL reply: Sandbox / Sandbox X / SLATMS stocktake<span class="badge b-off">GIA</span></a></li>
+<li id="tl-press-2026-06-10-sz120" class="st-open"><a href="#press-item-2026-06-10-sz120"><span class="chip">10 Jun</span> · Shenzhen press: below-120 m airspace “regularised opening” framing<span class="badge b-open">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>April 2026<span class="n">3 items</span></summary><ol>
+<li id="tl-press-2026-04-24-ac017"><a href="#press-item-2026-04-24-ac017"><span class="chip">24 Apr</span> · CAD AC-017 cross-boundary SUA within Sandbox X<span class="badge b-off">CAD</span></a></li>
+<li id="tl-press-2026-04-20-utm"><a href="#press-item-2026-04-20-utm"><span class="chip">20 Apr</span> · TLB Sandbox X UTM list (15 projects)<span class="badge b-off">TLB</span></a></li>
+<li id="tl-press-2026-04-15-uca"><a href="#press-item-2026-04-15-uca"><span class="chip">15 Apr</span> · TLB Sandbox X first-batch UCA list (4 projects)<span class="badge b-off">TLB</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>January 2026<span class="n">1 item</span></summary><ol>
+<li id="tl-press-2026-01-27-gba" class="st-open"><a href="#press-item-2026-01-27-gba"><span class="chip">27 Jan</span> · GBA Office Shenzhen seminar on cross-boundary LAE (Action Plan OPEN)<span class="badge b-open">OPEN</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>December 2025<span class="n">2 items</span></summary><ol>
+<li id="tl-press-2025-12-31-ac013"><a href="#press-item-2025-12-31-ac013"><span class="chip">31 Dec</span> · CAD AC-013 BVLOS within Regulatory Sandbox<span class="badge b-off">CAD</span></a></li>
+<li id="tl-press-2025-12-27-cal"><a href="#press-item-2025-12-27-cal"><span class="chip">27 Dec</span> · PRC Civil Aviation Law revised (effective 1 Jul 2026)<span class="badge b-off">Official</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>November 2025<span class="n">1 item</span></summary><ol>
+<li id="tl-press-2025-11-24-sandbox-x"><a href="#press-item-2025-11-24-sandbox-x"><span class="chip">24 Nov</span> · Regulatory Sandbox X launched<span class="badge b-off">GIA</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>October 2025<span class="n">1 item</span></summary><ol>
+<li id="tl-press-2025-10-27-uas-licence"><a href="#press-item-2025-10-27-uas-licence"><span class="chip">27 Oct</span> · CA / OFCA UAS (Private) Licence 1430–1444 MHz<span class="badge b-off">GIA</span></a></li>
 </ol></details>
 </div></div>
 ```
@@ -70,7 +100,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 - **6 Oct 2026 · 政府新聞公報 (Chinese GIA):** SCED tells LegCo the UAS spectrum licensing regime aligns with Mainland planning, aiding future cross-boundary drone operations.
   - What's new: Cross-border 6G trials covering LAE will be encouraged.
   - Status: Restatement; licensing regime unchanged since October 2025; Shenzhen–HK corridor still not evidenced.
-  - Read instead: [this GIA release](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm); 1430–1444 MHz UAS (Private) Licence.
+  - Read instead: [this GIA release](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm); [UAS (Private) Licence launch, 27 Oct 2025](#press-item-2025-10-27-uas-licence).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「低空經濟發展方面，通訊事務管理局（通訊局）已於二○二五年十月推出使用無人機系統專用頻譜的發牌制度。有關安排與內地的頻譜規劃一致，有助日後無人機跨境運作。」…「政府會積極鼓勵業界拓展跨境6G技術試驗及應用場景驗證，包括低軌衞星、低空經濟等，以達到粵港澳大灣區、香港及業界三贏局面。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm))
@@ -107,6 +137,19 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ## 2026-09 {#press-2026-09}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+
+- []{#press-item-2026-09-26-gn5936 .press-item}**26 Sep 2026 · Civil Aviation Department (Gazette G.N. 5936):** Director-General designates Cap. 448G restricted flying zones to facilitate Low-Altitude Economy Regulatory Sandbox pilot projects; supersedes G.N. 4328 of 2026 (notice dated 21 Sep; effective 26 Sep). [Link](https://www.cad.gov.hk/documents/G.N.5936_E.pdf) · [中文](https://www.cad.gov.hk/documents/G.N.5936_C.pdf)
+  - What's new: Official Gazette designation under Cap. 448G s.19(1) of named areas as RFZs for Sandbox facilitation. An airspace designation, not an amendment to Cap. 448G and not a count of Sandbox projects. CAD’s SUA listing page also labels it as superseding G.N. 927 of 2026 — contradiction with the PDF text (G.N. 4328); keep both labels OPEN pending clarification.
+  - Status: Regulatory Sandbox airspace facilitation (not Sandbox X results). Official counts stay on Tracker.
+  - Read instead: Tracker / Dates: G.N. 5936; Cap. 448G RFZs.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “By virtue of the authority under section 19(1) of the Small Unmanned Aircraft Order, Chapter 448G, I hereby designate the areas in Hong Kong (including the airspace above the areas) described below as restricted flying zones for the purposes of section 18(1) of the said Order:—” … “The designation made in this notice, which shall have effect at all times during a day, shall come into effect and supersede the designation made in G.N. 4328 of 2026 on 26 September 2026.” … “21 September 2026 — Clara Wong Director-General of Civil Aviation” ([source](https://www.cad.gov.hk/documents/G.N.5936_E.pdf))
+
+  [「本人憑藉《小型無人機令》(第448G章)第19(1)條授予的權力，現就該命令第18(1)條，指定下列香港範圍(包括該範圍的空域)為限制飛行區：」…「本公告作出的指定將於2026年9月26日開始實施，全日生效，並同時取代2026年第4328號政府公告內作出的指定。」…「2026年9月21日 民航處處長黃嘉華」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/G.N.5936_C.pdf))
+  :::
+
 
 - []{#press-item-2026-09-23-caac .press-item}**23 Sep 2026 · info.gov.hk (English GIA) / 政府新聞公報 (Chinese GIA):** STL Chan, TLB Permanent Secretary and CAD Director-General meet CAAC Deputy Administrator Liang Nan in Beijing.
   - What's new: Low-altitude economy listed among topics, alongside trunk-branch connectivity, air cargo and SAF.
@@ -155,6 +198,18 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「行政長官李家超公布《香港第一個五年規劃》，分為七篇二十八章，共約六萬字，一文看清文件重點：」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1870283-20260916.htm))
+  :::
+
+
+- []{#press-item-2026-09-14-nansha .press-item}**14 Sep 2026 · 大洋网 / 中新网:** Press reports that the International Advanced Technology Application Promotion Center (GBA) and Hong Kong Productivity Council exchanged a Nansha–Hong Kong “bilateral sandbox” MoU on full-space unmanned systems and low-altitude cooperation. [Link](https://news.dayoo.com/finance/202609/14/171077_55003542.htm) · [中新网](https://www.chinanews.com.cn/dwq/2026/09-16/10697190.shtml)
+  - What's new: Framed as a nationwide-first MoU / mechanism for cross-boundary rule and standards work, witnessed in the Belt and Road Summit context. Distinct from China Daily HK “Sandbox Connect” (5 Oct). Nansha government primary page OPEN this run.
+  - Status: MoU / mechanism only — not evidenced operational SZ–HK corridor flights and not a TLB Sandbox X results list.
+  - Read instead: [Sandbox Connect, 5 Oct 2026](#press-item-2026-10-05-sandbox-connect); Tracker: Sandbox X cross-boundary results (OPEN).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「9月14日，记者从国际先进技术应用推进中心（大湾区）了解到，中心与香港生产力促进局正式交换《香港—广东省（南沙）全空间无人体系及低空经济双边沙盒合作备忘录》，共同启动广东—香港低空经济双边沙盒合作机制。」…「该沙盒合作机制也是全国首创。」]{lang="zh-Hans"} ([source](https://news.dayoo.com/finance/202609/14/171077_55003542.htm))
+
+  English (LAE-Intel translation): On 14 September, reporters learned from the International Advanced Technology Application Promotion Center (Greater Bay Area) that the Centre and the Hong Kong Productivity Council formally exchanged the “Hong Kong–Guangdong Province (Nansha) Full-Space Unmanned Systems and Low-Altitude Economy Bilateral Sandbox Cooperation Memorandum of Understanding,” jointly launching the Guangdong–Hong Kong low-altitude economy bilateral sandbox cooperation mechanism. … The sandbox cooperation mechanism is also described as a nationwide first.
   :::
 
 - []{#press-item-2026-09-10-stl-rthk .press-item}**10 Sep 2026 · RTHK:** STL Mable Chan says Hong Kong LAE applications have entered a regularisation stage. [Link](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm)
@@ -224,4 +279,228 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「由数码港、冠忠智慧出行、亿航智能联合推进的EH216-S项目，入选香港低空经济监管沙盒X首批试点。」…「特区政府明确将研究非传统航空器专属法例，相关附属法例拟于2027年送交立法会审议，为低空出行筑牢安全与前瞻并重的监管底座。」]{lang="zh-Hans"} ([source](https://www.seetao.com/details/276927.html))
+  :::
+
+## 2026-08 {#press-2026-08}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-08-11-caac-atm .press-item}**11 Aug 2026 · Civil Aviation Administration of China:** CAAC opens public consultation on the draft *Civil Aviation Air Traffic Management Rules* (《民用航空空中交通管理规则（征求意见稿）》); comment close 11 Sep 2026. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)
+  - What's new: Formal Mainland ATM-rules revision draft for comment. Already on Dates as DRAFT comparator; first Press listing here.
+  - Status: Draft / consultation only — not in-force traffic rules. Not Hong Kong law.
+  - Read instead: Dates: CAAC ATM Rules draft.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「根据国内民航空管发展的实际情况，中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
+
+  English (LAE-Intel translation): In light of actual developments in domestic civil aviation ATM, CAAC has revised the Civil Aviation Air Traffic Management Rules and formed a draft for public comment. … The deadline for feedback is 11 September 2026.
+  :::
+
+## 2026-07 {#press-2026-07}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-07-31-ac014 .press-item}**31 Jul 2026 · Civil Aviation Department:** CAD publishes AC-014 on permission for Category C small unmanned aircraft operations and Pre-defined Scenario #1. [Link](https://www.cad.gov.hk/documents/AC-014.pdf)
+  - What's new: Formal advisory circular for Category C (heavier) SUA operations under Cap. 448G, cited in LCQ21 (24 Jun) as part of the AC series drawn from Sandbox experience.
+  - Status: CAD advisory circular; Cap. 448G Category C pathway. Official counts stay on Tracker.
+  - Read instead: Tracker / Cap. 448G Category C; [LCQ21, 24 Jun 2026](#press-item-2026-06-24-lcq21).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
+  English: “Permission for Category C Small Unmanned Aircraft Operations and Pre-defined Scenario #1” (AC-014 title block; Date: 31 July 2026) ([source](https://www.cad.gov.hk/documents/AC-014.pdf))
+
+  Chinese title block: OPEN — bilingual PDF; longer Chinese extract optional.
+  :::
+
+## 2026-06 {#press-2026-06}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-06-24-lcq21 .press-item}**24 Jun 2026 · info.gov.hk / Legislative Council (LCQ21):** STL Mable Chan’s written reply reports Sandbox / Sandbox X / SLATMS progress and that cross-boundary trial flights are targeted “as soon as practicable” under Sandbox X. [Link](https://www.info.gov.hk/gia/general/202606/24/P2026062400275.htm) · [中文](https://www.info.gov.hk/gia/general/202606/24/P2026062400273.htm) · [TLB mirror](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)
+  - What's new: Mid-year official stocktake: 34 of 38 first-batch Sandbox projects commenced; more than 20 regularised; Sandbox X received more than 100 applications; 15 UTM and first-batch four UCA pilots selected; SLATMS technical study noted. Cross-boundary logistics trial flights remain a plan under Sandbox X aimed at laying foundations for a GBA LAE corridor — not evidenced as operational.
+  - Status: Officially confirmed written reply. Official counts stay on Tracker; Shenzhen–HK corridor not evidenced as operational. Sandbox ≠ Sandbox X.
+  - Read instead: Tracker: Regulatory Sandbox / Sandbox X; [TLB UTM list](#press-item-2026-04-20-utm); [TLB UCA list](#press-item-2026-04-15-uca).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “To date, 34 projects have commenced… more than 20 projects have been regularised and scaled… Applications under the \"Regulatory Sandbox X\" closed in February this year… more than 100 applications were received. A total of 15 pilot projects under the UTM system demonstrations module and a first batch of four pilot projects under the UCA module have been selected by the Working Group for implementation in phases… The objective is to commence trial flights under the framework of the cross-boundary applications module of the \"Regulatory Sandbox X\" as soon as practicable, with a view to laying the foundation for establishing an LAE corridor in the GBA.” ([source](https://www.info.gov.hk/gia/general/202606/24/P2026062400275.htm))
+
+  [「至今，共有34個項目已經開展……超過20個項目已進入恆常化和規模化運作……「監管沙盒X」的申請已於今年二月截止……各應用場景共接獲多於100項申請。工作組已選定15個UTM系統演示試點項目及首批四個非傳統航空器試點項目予以分階段推行……目標是在「監管沙盒X」跨境操作試點項目的框架下盡快開展試飛，為建立大灣區低空經濟走廊奠下基礎。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202606/24/P2026062400273.htm))
+  :::
+
+- []{#press-item-2026-06-10-sz120 .press-item}**10 Jun 2026 · 深圳特区报 / 深圳新闻网:** Report that Shenzhen has regularly opened airspace below 120 m city-wide, with flyable airspace covering about 75% of the city area (quoting Shenzhen Low-altitude Economy Industry Association). [Link](https://www.sznews.com/news/content/2026-06/10/content_32084388.htm)
+  - What's new: GBA municipal airspace-management colour for the Mainland comparator. Association/city-transport quotes only; Shenzhen FGW thematic page OPEN this run.
+  - Status: Independently reported; not upgraded to CAAC primary. Not an HK corridor and not evidence of operational SZ–HK flights.
+  - Read instead: Mainland / Shenzhen airspace comparator on Dates / Tracker; SZ–HK corridor (not evidenced).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「记者从深圳市低空经济产业协会获悉，前不久，深圳低空经济迎来关键性空域改革突破。全市120米以下低空空域实现常态化全域开放，适飞空域覆盖市域75%范围，福田、南山、罗湖等中心城区全面纳入常规飞行管理。」]{lang="zh-Hans"} ([source](https://www.sznews.com/news/content/2026-06/10/content_32084388.htm))
+
+  English (LAE-Intel translation): Reporters learned from the Shenzhen Low-altitude Economy Industry Association that Shenzhen’s low-altitude economy recently saw a breakthrough in airspace reform. Low-altitude airspace below 120 metres city-wide has achieved regularised city-wide opening, with flyable airspace covering 75% of the municipal area, and central districts including Futian, Nanshan and Luohu brought fully into routine flight management.
+  :::
+
+## 2026-04 {#press-2026-04}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-04-24-ac017 .press-item}**24 Apr 2026 · Civil Aviation Department:** CAD publishes AC-017 on permission for cross-boundary small unmanned aircraft operations within Regulatory Sandbox X. [Link](https://www.cad.gov.hk/documents/AC-017.pdf)
+  - What's new: Sets how to seek Cap. 448G advanced-operations permission for cross-boundary SUA inside Sandbox X. Explicitly does not mean a Shenzhen–Hong Kong commercial route is in service.
+  - Status: CAD advisory circular for Sandbox X context only. Corridor not evidenced as operational.
+  - Read instead: Tracker / Dates: CAD AC-017; Sandbox X cross-boundary module.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
+  English: “Permission for Cross-boundary Small Unmanned Aircraft Operations within the Context of Regulatory Sandbox X” … “According to section 16(1A) of the SUA Order, SUA shall be operated for a flight that is wholly within Hong Kong. Operations not meeting such requirement, i.e. cross-boundary operations, are categorised as \"Advanced Operations\"…” (Date: 24 April 2026) ([source](https://www.cad.gov.hk/documents/AC-017.pdf))
+  :::
+
+- []{#press-item-2026-04-20-utm .press-item}**20 Apr 2026 · Transport and Logistics Bureau:** Official list of 15 Unmanned Aircraft System Traffic Management (UTM) system demonstration pilot projects to be implemented under Sandbox X. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf)
+  - What's new: Primary selection list for the UTM module. Implementation contingent on acceptance of approved conditions; demonstrations in batches. Matches LCQ21’s “15 UTM” count.
+  - Status: Officially confirmed TLB list. Official counts stay on Tracker. Not the cross-boundary module results list.
+  - Read instead: Tracker: Sandbox X UTM; [LCQ21](#press-item-2026-06-24-lcq21).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
+  English: “After review by the Working Group on Developing Low-altitude Economy (\"WG\"), a total of 15 UTM system demonstrations pilot projects will be included for demonstrations in Sandbox X.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_20.4.2026.pdf))
+
+  Chinese twin: OPEN — Chinese PDF not located this run.
+  :::
+
+- []{#press-item-2026-04-15-uca .press-item}**15 Apr 2026 · Transport and Logistics Bureau:** Official first-batch list of four Unconventional Aircraft (UCA) pilot projects under Sandbox X. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - What's new: Names AECOM Asia (+ AutoFlight / Chun Wo); China Travel Tours Transportation (+ AutoFlight / GBA LAE Alliance / CMHK / Esri); Geosys (+ FLYCAMHK / Development Bureau); KC Smart Mobility (+ Cyberport / EHang). Implementation contingent on conditions. Matches LCQ21’s “first batch of four” UCA count. Company angles stay on Business news / Who does what.
+  - Status: Officially confirmed TLB list (Sandbox X, not the Regulatory Sandbox). Official counts stay on Tracker.
+  - Read instead: Tracker: Sandbox X UCA; [Business news / Who does what](industry.qmd) for company coverage.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
+  English: “After review by the Working Group on Developing Low-altitude Economy (\"WG\"), a first batch of four UCA pilot projects will be included for implementation in Sandbox X.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf))
+  :::
+
+- []{#press-item-2026-04-15-dfs-innex .press-item}**15 Apr 2026 · info.gov.hk (DFS Michael Wong):** DFS updates InnoEx 2026 on Sandbox X (more than 100 applications; UTM and unconventional selections progressing) and restates Action Plan drafting. [Link](https://www.info.gov.hk/gia/general/202604/15/P2026041500555.htm)
+  - What's new: Official Working Group head speech the same week as the TLB UTM / UCA lists. Also restates the 1.4 GHz UAS (Private) Licence. Global market-size speech line not carried (market-size exclusion).
+  - Status: Officially confirmed speech. Action Plan text still OPEN.
+  - Read instead: [TLB UTM](#press-item-2026-04-20-utm); [TLB UCA](#press-item-2026-04-15-uca); [UAS Private Licence, 27 Oct 2025](#press-item-2025-10-27-uas-licence).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
+  English: “Sandbox X targets applications that are more advanced, more complicated or have a heavier infrastructure content. I am pleased to report that more than 100 applications have been received…” … “Secondly, we will draft an action plan on developing the low altitude economy.” ([source](https://www.info.gov.hk/gia/general/202604/15/P2026041500555.htm))
+  :::
+
+- []{#press-item-2026-04-15-caac-uas .press-item}**15 Apr 2026 · Civil Aviation Administration of China:** Four-draft package on specific-category standard scenes, risk assessment, mid/small UAS pilot training, and swarm-show flight safety (comment close 23 Apr). [Link](https://www.caac.gov.cn/HDJL/YJZJ/202604/t20260416_230556.html)
+  - What's new: Mainland UAS operational-safety consultation package framed as supporting orderly low-altitude development.
+  - Status: Drafts only — not in-force Hong Kong or Mainland operating rules for this companion.
+  - Read instead: Mainland UAS rules comparator (draft).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为加强低空领域安全能力建设，有序推进各类场景运行人的运营安全评估工作，促进低空经济安全有序发展，民航局制定了《民用无人驾驶航空器特定类标准场景管理办法（征求意见稿）》、《民用无人驾驶航空器特定类运行风险评估与缓解指南（征求意见稿）》、《民用中小型无人驾驶航空器操控员训练安全运行指南（试行）（征求意见稿）》及《微轻小型民用无人驾驶航空器集群表演飞行安全运行指南（试行）（征求意见稿）》四部文件。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202604/t20260416_230556.html))
+
+  English (LAE-Intel translation): To strengthen low-altitude safety capability, orderly advance operational safety assessment for scene operators, and promote safe and orderly development of the low-altitude economy, CAAC has prepared four draft documents: Measures for Specific-Category Standard Scenes for Civil UAS; Guide on Specific-Category Operational Risk Assessment and Mitigation; Trial Guide on Safe Operation of Training for Civil Small/Medium UAS Remote Pilots; and Trial Guide on Safe Operation of Swarm Demonstration Flights for Micro/Light/Small Civil UAS.
+  :::
+
+## 2026-02 {#press-2026-02}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-02-27-stl-hkbu .press-item}**27 Feb 2026 · info.gov.hk (STL Mable Chan):** STL says three of five Sandbox X modules have closed for applications, with the remaining two closing that day; restates Action Plan drafting and CAD advisory circulars from Sandbox learning. [Link](https://www.info.gov.hk/gia/general/202602/27/P2026022700643.htm)
+  - What's new: Dated official marker that Sandbox X application windows were closing end-February 2026 (aligns with LCQ21 “closed in February”). Also recounts Ting Kok village meal-delivery trial under the Working Group / NGO path (Regulatory Sandbox ops — not Sandbox X cross-boundary).
+  - Status: Officially confirmed speech. Action Plan text OPEN.
+  - Read instead: [LCQ21](#press-item-2026-06-24-lcq21); [Sandbox X launch](#press-item-2025-11-24-sandbox-x).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
+  English: “The applications for three of the five modules under the \"Regulatory Sandbox X\" have closed and the remaining two…” … “Looking ahead, the Working Group will formulate an Action Plan on Developing Low-altitude Economy…” ([source](https://www.info.gov.hk/gia/general/202602/27/P2026022700643.htm))
+  :::
+
+- []{#press-item-2026-02-12-caac-std .press-item}**12 Feb 2026 · Civil Aviation Administration of China:** Six-draft industry-standards package including feeder-logistics fixed-wing UAS route-planning guide and low-altitude navigation-service information identifiers for civil UAS (comment close 28 Feb). [Link](https://www.caac.gov.cn/HDJL/YJZJ/202602/t20260212_230055.html)
+  - What's new: Standards-layer Mainland comparator on low-altitude information elements and UAS route procedures.
+  - Status: Drafts only.
+  - Read instead: Mainland UAS / low-altitude standards comparator (draft).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「按照民航行业标准编制计划，我司组织起草了《支线物流固定翼无人驾驶航空器航线划设程序指南（征求意见稿）》《低空航行服务信息要素标识 民用无人驾驶航空器（征求意见稿）》……六项民航行业标准……意见征集日期截至2026年2月28日」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202602/t20260212_230055.html))
+
+  English (LAE-Intel translation): Under the civil aviation industry standards programme, the department has organised drafts of six CAAC industry standards, including the Guide on Procedures for Designating Feeder-Logistics Fixed-Wing UAS Routes (draft) and Low-Altitude Navigation Service Information Element Identification — Civil UAS (draft). … Comment period closes 28 February 2026.
+  :::
+
+## 2026-01 {#press-2026-01}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-01-27-gba .press-item}**27 Jan 2026 · info.gov.hk — GBA Development Office / HKSTP:** GBA Office holds a Shenzhen seminar on cross-boundary low-altitude applications; Commissioner says HKSAR will publish the Action Plan this year. [Link](https://www.info.gov.hk/gia/general/202601/27/P2026012700312.htm) · [中文](https://www.info.gov.hk/gia/general/202601/27/P2026012700308.htm)
+  - What's new: Official CMAB/GBA Office framing of cross-boundary routes, management systems and eVTOL high-end travel as discussion / opportunity topics. Restates Sandbox X already launched and Action Plan to be issued in 2026 — still text OPEN. No corridor flights evidenced.
+  - Status: Seminar colour only; Action Plan OPEN; Shenzhen–HK corridor not evidenced as operational.
+  - Read instead: Tracker: Action Plan / Sandbox X; SZ–HK corridor (not evidenced).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Guangdong-Hong Kong-Macao Greater Bay Area Development Office (GBA Office) held a seminar on the \"cross-boundary applications of the low-altitude economy in the Guangdong-Hong Kong-Macao Greater Bay Area: opportunities and challenges\" in Shenzhen today (January 27) to explore technical developments and challenges in low-altitude cross-boundary air routes, the establishment of low-altitude management systems, the commercialisation of electric vertical take-off and landing aircraft in the high-end cross-boundary travel market of the Guangdong-Hong Kong-Macao Greater Bay Area (GBA), and the future development directions of the low-altitude economy.” ([source](https://www.info.gov.hk/gia/general/202601/27/P2026012700312.htm))
+
+  [「粵港澳大灣區發展辦公室（灣區辦）今日（一月二十七日）在深圳舉辦「粵港澳大灣區低空經濟的跨境應用：機遇與挑戰」研討會，探討跨境航線的技術進展和挑戰、低空管理系統的建設、電動垂直起降飛行器在粵港澳大灣區（大灣區）跨境高端出行市場的商業化路徑，及低空經濟產業的未來發展方向。」…「繼推出「監管沙盒X」計劃後，香港特別行政區政府將於今年發布《發展低空經濟規劃行動綱領》」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202601/27/P2026012700308.htm))
+  :::
+
+- []{#press-item-2026-01-26-ac016 .press-item}**26 Jan 2026 · Civil Aviation Department:** CAD publishes AC-016 guidelines and permission pathway for SUA operations using unmanned aircraft docking stations. [Link](https://www.cad.gov.hk/documents/AC-016.pdf)
+  - What's new: Docking-station / drone-in-a-box guidance cited later in LCQ21 as part of the Sandbox-derived AC series.
+  - Status: CAD advisory circular.
+  - Read instead: Tracker: CAD SUA ACs; Regulatory Sandbox regularisation.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
+  English: “Guidelines and Permission for Small Unmanned Aircraft Operations Using Unmanned Aircraft Docking Station” (Date: 26 January 2026) ([source](https://www.cad.gov.hk/documents/AC-016.pdf))
+  :::
+
+- []{#press-item-2026-01-19-stl-hku .press-item}**19 Jan 2026 · 政府新聞公報 (Chinese GIA only):** STL reviews first-batch Sandbox progress (32 projects then underway), flags Sandbox X for harder cross-boundary / passenger scenarios, and restates intent to draft the Action Plan within the year. [Link](https://www.info.gov.hk/gia/general/202601/19/P2026011900620.htm)
+  - What's new: Early-2026 official stocktake. Sandbox count “32 underway” (later LCQ21 says 34 commenced — do not conflate snapshot dates). Flags >150 kg dedicated legislation aspiration. Action Plan still framed as to-be-drafted.
+  - Status: Officially confirmed Chinese-only speech. Action Plan OPEN; Sandbox ≠ Sandbox X.
+  - Read instead: [LCQ21](#press-item-2026-06-24-lcq21); [Sandbox X launch](#press-item-2025-11-24-sandbox-x).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「自從於去年三月公布首批低空經濟「監管沙盒」項目，共有38個試點項目獲審批進行，目前已有32個項目落地推進」…「我們於去年年底推出的「監管沙盒X」計劃……希望接下來可以涵蓋一些更具難度、跨境跨界的活動，包括跨境物流服務和利用無人機的低空載人服務」…「以期我們能於今年內草擬的《發展低空經濟規劃行動綱領》中展示一些跨境試驗場景和規則對接」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202601/19/P2026011900620.htm))
+
+  English (LAE-Intel translation): Since the first-batch LAE Regulatory Sandbox projects were announced last March, 38 pilot projects were approved, and 32 have now been landed and are progressing… The Sandbox X programme launched at the end of last year… is intended to cover more difficult cross-boundary / cross-domain activities, including cross-boundary logistics and low-altitude passenger-carrying by unmanned aircraft… with a view to showing some cross-boundary trial scenarios and rule alignment in the Action Plan on Developing Low-Altitude Economy to be drafted within this year.
+  :::
+
+## 2025-12 {#press-2025-12}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2025-12-31-ac013 .press-item}**31 Dec 2025 · Civil Aviation Department:** CAD publishes AC-013 on permission for SUA beyond-visual-line-of-sight operations within the Regulatory Sandbox context. [Link](https://www.cad.gov.hk/documents/AC-013_E.pdf) · [中文](https://www.cad.gov.hk/documents/AC-013_C.pdf)
+  - What's new: Formal BVLOS permission pathway inside the first Sandbox — does not authorise BVLOS outside that sandbox.
+  - Status: CAD advisory circular for Regulatory Sandbox context (not Sandbox X).
+  - Read instead: Tracker / Dates: CAD AC-013.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight Operations within the Context of Regulatory Sandbox” (Date: 31 December 2025) ([source](https://www.cad.gov.hk/documents/AC-013_E.pdf))
+
+  [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
+  :::
+
+- []{#press-item-2025-12-27-cal .press-item}**27 Dec 2025 · NPC Standing Committee / CAAC:** Revised *Civil Aviation Law of the PRC* adopted; effective 1 July 2026; strengthens civil UAS management provisions. [Link](https://www.caac.gov.cn/XWZX/MHYW/202512/t20251227_229595.html) · [English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html) · [law text](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html)
+  - What's new: Top-level Mainland statute update supporting low-altitude economy institutional measures and clarifying UAS airworthiness / unique product ID expectations (with statutory exceptions). Comparator for HK Cap. 448 / Cap. 448G discussions — not Hong Kong law.
+  - Status: Officially confirmed Mainland statute; effective 1 Jul 2026.
+  - Read instead: Dates: Mainland Civil Aviation Law.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Civil Aviation Law of the People's Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People's Congress of the People's Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” (President’s Order No. 65) ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
+
+  [「全国人大常委会会议12月27日表决通过新修订的民用航空法，自2026年7月1日起施行。」…「加强对民用无人驾驶航空器的管理，新修订的民用航空法明确，从事民用无人驾驶航空器的设计、生产、进口、维修和飞行活动，应当按照国家有关规定向国务院民用航空主管部门申请取得适航许可，按照规定无需取得适航许可的除外。从事民用无人驾驶航空器生产的机构应当按照国家有关规定为其生产的无人驾驶航空器设置唯一产品识别码。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XWZX/MHYW/202512/t20251227_229595.html))
+  :::
+
+## 2025-11 {#press-2025-11}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2025-11-24-sandbox-x .press-item}**24 Nov 2025 · info.gov.hk / Transport and Logistics Bureau:** Government launches advanced Regulatory Sandbox X for cross-boundary drones, passenger-capable unconventional aircraft and integrated platforms; first-phase UTM applications open to 9 Jan 2026. [Link](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm) · [中文](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm)
+  - What's new: Foundational Press item for the Sandbox X arc. STL also said Action Plan drafting targeted by end of next year (from that vantage) — still OPEN. First-batch Regulatory Sandbox then described as 38 selected / 29 implemented.
+  - Status: Officially confirmed launch. Sandbox X is separate from the Regulatory Sandbox; cross-boundary results OPEN. Action Plan text OPEN.
+  - Read instead: Tracker / Dates: Regulatory Sandbox X; Action Plan (OPEN).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The launch event of the low-altitude economy \"Regulatory Sandbox X\" was held today (November 24)…” … “The goal of \"Regulatory Sandbox X\" is to handle more complex scenarios, such as cross-boundary low altitude drones, unconventional aircraft designed for passenger-carrying, and integrated operation platforms.” … “We will continue to engage with the industry and gather diverse perspectives to enable the drafting of the Action Plan on Developing Low-Altitude Economy by the end of next year.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
+
+  [「低空經濟「監管沙盒X」啟動禮今日（十一月二十四日）舉行……當中的 「X」代表擴展 (extended) 和增值 (extra)，是升級版的監管沙盒，旨在處理更複雜的場景，例如跨境低空無人機、可載人航空器和綜合運營平台等。」…「我們期望繼續和業界諮詢並蒐集不同意見，在明年年底前可草擬發展低空經濟規劃行動綱領」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+  :::
+
+## 2025-10 {#press-2025-10}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2025-10-27-uas-licence .press-item}**27 Oct 2025 · Communications Authority / OFCA:** CA launches the Unmanned Aircraft System (Private) Licence assigning the 1.4 GHz (1430–1444 MHz) band for Sandbox UAS radiocommunications. [Link](https://www.info.gov.hk/gia/general/202510/27/P2025102700178.htm) · [中文](https://www.info.gov.hk/gia/general/202510/27/P2025102700172.htm) · [OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)
+  - What's new: Opens dedicated UAS spectrum licensing to LAE Regulatory Sandbox participants (CAD flight-path approval required). Aligns channel plan with Mainland 1.4 GHz arrangement (per OFCA materials). Later restated by SCED LegCo panel (6 Oct 2026) — this is the launch primary.
+  - Status: Officially confirmed licence regime launch. Not a Sandbox X instrument.
+  - Read instead: Tracker / Dates: 1.4 GHz UAS (Private) Licence; [SCED restatement, 6 Oct 2026](#press-2026-10).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “As announced in the 2025 Policy Address, the Government will enhance core infrastructure facilities, including by designating spectrum, to advance Hong Kong as a major hub for low-altitude innovative applications. Under the UAS (Private) Licence regime, licensees will be assigned with the 1430 – 1444 MHz band (1.4 GHz band) as the dedicated spectrum for establishing, maintaining and operating radiocommunications installation for UAS operations.” ([source](https://www.info.gov.hk/gia/general/202510/27/P2025102700178.htm))
+
+  [「二○二五年《施政報告》宣布，政府將推展核心基建設施，包括推出專用頻譜，以推動香港成為低空創新應用的核心樞紐。在無人機（專用）牌照制度下，牌照持有人可獲指配1430 – 1444 兆赫頻帶（1.4吉赫頻帶）作為專用頻譜，用於設置、維持及操作用於營運無人機系統的無線電通訊裝置」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202510/27/P2025102700172.htm))
   :::
