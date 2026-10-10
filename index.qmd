@@ -12,7 +12,19 @@ Master of Aviation Management
 **Instructor:** Chiu Yu Ko  
 **First offering:** December 2026  
 
+Course companion for DOTE5891 — lecture slides, readings, and supporting evidence.
+
 ::: {.hub-grid}
+::: {.hub-card}
+## Course
+
+Start with slides and readings; overview maps the twelve weeks.
+
+- [Lectures](lectures.qmd)
+- [Readings](readings.qmd)
+- [Course overview](overview.qmd)
+:::
+
 ::: {.hub-card}
 ## Official facts
 
@@ -21,16 +33,6 @@ Terms, checked status, and who is in the market.
 - [Glossary](glossary.qmd)
 - [Official status](tracker.qmd)
 - [Companies & sectors](landscape.qmd)
-:::
-
-::: {.hub-card}
-## Course
-
-Course overview, weekly readings, and lecture slides.
-
-- [Course overview](overview.qmd)
-- [Readings](readings.qmd)
-- [Lectures](lectures.qmd)
 :::
 
 ::: {.hub-card}

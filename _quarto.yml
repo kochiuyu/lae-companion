@@ -20,14 +20,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Official facts
-        menu:
-          - href: glossary.qmd
-            text: Glossary
-          - href: tracker.qmd
-            text: Official status
-          - href: landscape.qmd
-            text: Companies & sectors
       - text: Course
         menu:
           - href: overview.qmd
@@ -36,6 +28,14 @@ website:
             text: Readings
           - href: lectures.qmd
             text: Lectures
+      - text: Official facts
+        menu:
+          - href: glossary.qmd
+            text: Glossary
+          - href: tracker.qmd
+            text: Official status
+          - href: landscape.qmd
+            text: Companies & sectors
       - text: Updates
         menu:
           - href: news.qmd
