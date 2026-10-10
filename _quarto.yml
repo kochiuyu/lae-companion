@@ -25,8 +25,8 @@ website:
             text: Glossary
           - href: tracker.qmd
             text: Official status
-          - href: dates.qmd
-            text: Timeline
+          - href: landscape.qmd
+            text: Companies & sectors
       - text: Course
         menu:
           - href: readings.qmd
@@ -39,8 +39,8 @@ website:
             text: Government news
           - href: industry.qmd
             text: Business news
-          - href: landscape.qmd
-            text: Companies & sectors
+          - href: dates.qmd
+            text: Timeline
   page-footer:
     left: "Evidence companion. Lectures stay in class."
     right: "CUHK · Decisions, Operations and Technology"

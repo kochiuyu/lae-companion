@@ -17,11 +17,11 @@ This site is the evidence companion for the course. Lectures, numerical examples
 ::: {.hub-card}
 ## Official facts
 
-Official words, milestones, and what you may cite.
+Official words, checked status, and who is doing what in the market.
 
 - [Glossary](glossary.qmd)
 - [Official status](tracker.qmd)
-- [Timeline](dates.qmd)
+- [Companies & sectors](landscape.qmd)
 :::
 
 ::: {.hub-card}
@@ -36,11 +36,11 @@ Course readings and lecture slides.
 ::: {.hub-card}
 ## Updates
 
-Government and regulatory items, business news, and who is doing what in the market.
+Dated government and regulatory items, business news, and the timeline of milestones.
 
 - [Government news](news.qmd)
 - [Business news](industry.qmd)
-- [Companies & sectors](landscape.qmd)
+- [Timeline](dates.qmd)
 :::
 :::
 
