@@ -39,26 +39,6 @@ After completing this course, students are expected to:
 - Review business frameworks, value-chain positioning, and regulatory economics, drawing on global case studies from NASA, McKinsey, and AiRMOUR.
 - Develop strategies for market growth, policy evaluation, and stakeholder engagement via scenario discussions and team projects.
 
-## Assessment (shape)
-
-| Element | Weight | Details |
-|---------|--------|---------|
-| Participation | 10% | Case discussions, quick polls, role plays, spreadsheet workshops, bidding games, negotiation exercises, and peer feedback. |
-| Assignment | 20% | Short individual or group submissions applying tools such as NPV, HHI, CASK, NASA demand, ROI, certification value, congestion pricing, barrier haircuts, and ESG KPIs. |
-| Project | 30% | 12-minute integrated HK/GBA LAE strategy pitch with quantitative core, risk register, regulatory roadmap, sustainability/social-license strategy, and executive memo. |
-| Final exam | 40% | Open notes and books. Integrated quantitative and policy-consistent analysis across all course topics. |
-| **Total** | **100%** | |
-
-Late submission of assignment would **not** be accepted.
-
-## How the weeks build
-
-From the course outline’s cumulative strategy-building sequence:
-
-- **Weeks 1–3:** Build a basic HK/GBA use case, map the value chain, assess market structure, and construct cost/revenue unit economics.
-- **Weeks 4–6:** Extend the use case with demand forecasting, infrastructure ROI, and a commercial partnership or PPP design.
-- **Weeks 7–10:** Add regulatory approval strategy, airspace access mechanisms, market-sizing barriers and uncertainty, and sustainability/social-license design.
-- **Weeks 11–12:** Deliver the capstone presentation and prepare for integrated final-exam analysis using the master viability framework.
 
 ## 12-week conceptual map
 
