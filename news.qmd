@@ -6,9 +6,59 @@ page-layout: article
 
 Press items for orientation. Do not cite this page for official project counts or for the HK$350 billion figure. Use Tracker.
 
-## 2026-10
+## Timeline at a glance
 
-- **7 Oct 2026 · 星島頭條 / 香港商報:** CAD Deputy DG Dominic Chow (許文豪) outlines the Smart Low-altitude Traffic Management System (SLATMS) at the police Smart Policing Advisory Group’s 7th meeting. [Link](https://www.stheadline.com/breaking-news/3623364/%E6%B7%B1%E7%A0%94%E6%99%BA%E8%83%BD%E7%84%A1%E4%BA%BA%E9%9B%86%E7%BE%A4-%E5%BC%95%E9%A0%98%E6%9C%AA%E4%BE%86%E8%AD%A6%E6%94%BF%E5%89%8D%E6%B2%BF%E6%8A%80%E8%A1%93-%E7%B6%AD%E8%AD%B7%E5%9F%8E%E5%B8%82%E5%AE%89%E5%85%A8%E9%9F%8C%E6%80%A7) · [香港商報](https://www.hkcd.com.hk/hkcdweb/content/2026/10/07/content_8778765.html)
+```{=html}
+<style>
+.itl{--ink:#1a1a1a;--navy:#003366;--gold:#C5A572;--amber:#9a5b00;--card:#fff;--line:#d9d4c7;--muted:#5f5f5f;margin:.75rem 0 1.25rem;font-size:.92rem}
+.itl-head{color:var(--muted);margin:0 0 .6rem}
+.itl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.9rem}
+.itl-card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:8px;padding:.2rem .9rem .6rem}
+.itl-card>summary{cursor:pointer;font-weight:600;color:var(--navy);padding:.5rem 0;list-style-position:outside}
+.itl-card>summary .n{font-weight:400;color:var(--muted);font-size:.82rem;margin-left:.35rem}
+.itl ol{list-style:none;margin:0;padding:0 0 0 1.1rem;position:relative}
+.itl ol::before{content:"";position:absolute;left:.3rem;top:.4rem;bottom:.4rem;width:1px;background:var(--line)}
+.itl li{position:relative;margin:0 0 .55rem;scroll-margin-top:80px;border-radius:6px}
+.itl li::before{content:"";position:absolute;left:-1.1rem;top:.45rem;width:.6rem;height:.6rem;border-radius:50%;background:var(--navy)}
+.itl li.st-open::before{background:#fff;border:2px solid var(--amber);width:.45rem;height:.45rem}
+.itl li>a{display:block;padding:.3rem .45rem;border-radius:6px;color:var(--ink);text-decoration:none;line-height:1.35}
+.itl li>a:hover{background:#f1eee6}
+.itl li>a:focus-visible{outline:2px solid var(--navy);outline-offset:1px;background:#f1eee6}
+.itl li:target{background:#fff3c4}
+.itl .chip{display:inline-block;font-size:.76rem;font-weight:600;padding:.05rem .5rem;border-radius:999px;background:#e6edf5;color:var(--navy);margin-right:.35rem;white-space:nowrap}
+.itl li.st-open .chip{background:#fbefdc;color:var(--amber)}
+.itl .badge{display:inline-block;font-size:.68rem;letter-spacing:.03em;text-transform:uppercase;padding:0 .4rem;border-radius:4px;border:1px solid currentColor;margin-left:.35rem;vertical-align:1px}
+.itl .b-off{color:#2f6b3a}.itl .b-ind{color:var(--navy)}.itl .b-open{color:var(--amber)}
+h2[id^="press-20"],span.press-item{scroll-margin-top:80px}
+a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap}
+@media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
+</style>
+<div class="itl" id="press-timeline">
+<p class="itl-head"><strong>Press milestones (as of 8 Oct 2026)</strong> — skim the cards, then jump to the dated item. Prefer government / regulatory and independently reported; official counts stay on Tracker. Full list below is unchanged.</p>
+<div class="itl-grid">
+<details class="itl-card" open><summary>October 2026<span class="n">3 items</span></summary><ol>
+<li id="tl-press-2026-10-07-slatms"><a href="#press-item-2026-10-07-slatms"><span class="chip">7 Oct</span> · CAD outlines SLATMS / Smart TMS research stack<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-10-05-sandbox-connect" class="st-open"><a href="#press-item-2026-10-05-sandbox-connect"><span class="chip">5 Oct</span> · “Sandbox Connect” cross-jurisdictional trial framing (results OPEN)<span class="badge b-open">OPEN</span></a></li>
+<li id="tl-press-2026-10-02-stl-edev"><a href="#press-item-2026-10-02-stl-edev"><span class="chip">2 Oct</span> · STL LegCo EDev Panel: Action Plan / &gt;150 kg / Smart TMS 2028<span class="badge b-off">GIA</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>September 2026<span class="n">8 items</span></summary><ol>
+<li id="tl-press-2026-09-23-caac"><a href="#press-item-2026-09-23-caac"><span class="chip">23 Sep</span> · STL / TLB / CAD meet CAAC Deputy Administrator in Beijing<span class="badge b-off">GIA</span></a></li>
+<li id="tl-press-2026-09-21-keeta"><a href="#press-item-2026-09-21-keeta"><span class="chip">21 Sep</span> · Keeta Drone to Chung On Estate (Regulatory Sandbox)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-press-2026-09-16-policy-address" class="st-open"><a href="#press-item-2026-09-16-policy-address"><span class="chip">16 Sep</span> · Policy Address: Action Plan, cross-boundary trials, &gt;150 kg drafting<span class="badge b-open">OPEN</span></a></li>
+<li id="tl-press-2026-09-10-stl-rthk"><a href="#press-item-2026-09-10-stl-rthk"><span class="chip">10 Sep</span> · STL: LAE applications entering regularisation stage<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-press-2026-09-10-bri"><a href="#press-item-2026-09-10-bri"><span class="chip">10 Sep</span> · Belt and Road LAE session; Sandbox X further 33 projects<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-press-2026-09-10-hkust"><a href="#press-item-2026-09-10-hkust"><span class="chip">10 Sep</span> · HKUST LAE forum; standards Joint Statement of Intent<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-press-2026-09-09-kazakhstan"><a href="#press-item-2026-09-09-kazakhstan"><span class="chip">9 Sep</span> · Hong Kong–Kazakhstan transport-lab MoU (LAE discussed)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-press-2026-09-02-szhk" class="st-open"><a href="#press-item-2026-09-02-szhk"><span class="chip">2 Sep</span> · Shenzhen port measures: SZ–HK low-altitude logistics (plans)<span class="badge b-open">Plans</span></a></li>
+</ol></details>
+</div></div>
+```
+
+## 2026-10 {#press-2026-10}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-10-07-slatms .press-item}**7 Oct 2026 · 星島頭條 / 香港商報:** CAD Deputy DG Dominic Chow (許文豪) outlines the Smart Low-altitude Traffic Management System (SLATMS) at the police Smart Policing Advisory Group’s 7th meeting. [Link](https://www.stheadline.com/breaking-news/3623364/%E6%B7%B1%E7%A0%94%E6%99%BA%E8%83%BD%E7%84%A1%E4%BA%BA%E9%9B%86%E7%BE%A4-%E5%BC%95%E9%A0%98%E6%9C%AA%E4%BE%86%E8%AD%A6%E6%94%BF%E5%89%8D%E6%B2%BF%E6%8A%80%E8%A1%93-%E7%B6%AD%E8%AD%B7%E5%9F%8E%E5%B8%82%E5%AE%89%E5%85%A8%E9%9F%8C%E6%80%A7) · [香港商報](https://www.hkcd.com.hk/hkcdweb/content/2026/10/07/content_8778765.html)
   - What's new: CAD outlined SLATMS as an automated pre-/in-/post-flight digital stack with data interfaces for future cross-boundary and meteorological exchange (press report of official remarks; no GIA found).
   - Status: Smart TMS / SLATMS still research stage; Policy Address / STL still point to 2028 initial service. Not a new legal instrument.
   - Read instead: [STL LegCo EDev Panel GIA 2026-10-02](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm) (Smart TMS from 2028); Policy Address Smart TMS framing.
@@ -31,12 +81,12 @@ Press items for orientation. Do not cite this page for official project counts o
   - Status: Enforcement only, no new instrument; penalty restated (max HK$100,000 fine, two years’ imprisonment).
   - Read instead: Cap. 448G (Small Unmanned Aircraft Order) / restricted flying zones.
 
-- **5 Oct 2026 · China Daily Hong Kong:** TLB and CAD describe “Sandbox Connect”, Hong Kong’s first cross-jurisdictional LAE trial under Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/640531)
+- []{#press-item-2026-10-05-sandbox-connect .press-item}**5 Oct 2026 · China Daily Hong Kong:** TLB and CAD describe “Sandbox Connect”, Hong Kong’s first cross-jurisdictional LAE trial under Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/640531)
   - What's new: Nansha as gateway; joint regulatory testing framework under design; longer-term “LAE regulatory green channel” goal.
   - Status: Press framing only; Sandbox X cross-boundary results still open; Shenzhen–HK corridor still not evidenced.
   - Read instead: Regulatory Sandbox X (TLB).
 
-- **2 Oct 2026 · 政府新聞公報 (Chinese GIA):** STL Chan briefs LegCo’s Economic Development Panel on Five-Year Plan / Policy Address transport measures.
+- []{#press-item-2026-10-02-stl-edev .press-item}**2 Oct 2026 · 政府新聞公報 (Chinese GIA):** STL Chan briefs LegCo’s Economic Development Panel on Five-Year Plan / Policy Address transport measures.
   - What's new: Unconventional-aircraft bill to be drafted and submitted next year; Smart TMS rollout from 2028.
   - Status: >140 regularised projects (PA 2026 ¶137) is the Regulatory Sandbox regularisation count, not Sandbox X results; Action Plan still being drafted.
   - Read instead: [this GIA release](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm); Action Plan on Developing Low-Altitude Economy (text open); Cap. 448G / >150 kg drafting.
@@ -54,9 +104,11 @@ Press items for orientation. Do not cite this page for official project counts o
   [「首階段法例修訂工作已於2025年7月生效，包括擴大《小型無人機令》（第448G章）的規管範圍，以涵蓋重量超過25公斤至150公斤的丙類小型無人機，並於《1995 年飛航（香港）令》（第 448C 章）新增條文，為非傳統航空器在特定條件下的試飛提供法律依據。」…「民航處借鑑“監管沙盒”的實踐經驗及不同地區的良好做法，積極研究智能低空交通管理系統。」…「民航處已著手研究在《民航條例》（第448章）下，為重量超過150公斤的非傳統航空器訂立專門的附屬法例」…「全力爭取在2027年完成相關法例的草擬工作。」]{lang="zh-Hant"} ([source](https://bau.com.hk/web/article/1554875572736425984/web/content_1554875572736425984.html))
   :::
 
-## 2026-09
+## 2026-09 {#press-2026-09}
 
-- **23 Sep 2026 · info.gov.hk (English GIA) / 政府新聞公報 (Chinese GIA):** STL Chan, TLB Permanent Secretary and CAD Director-General meet CAAC Deputy Administrator Liang Nan in Beijing.
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-09-23-caac .press-item}**23 Sep 2026 · info.gov.hk (English GIA) / 政府新聞公報 (Chinese GIA):** STL Chan, TLB Permanent Secretary and CAD Director-General meet CAAC Deputy Administrator Liang Nan in Beijing.
   - What's new: Low-altitude economy listed among topics, alongside trunk-branch connectivity, air cargo and SAF.
   - Status: No new Action Plan text or corridor announcement; Shenzhen–HK corridor still not evidenced.
   - Read instead: [English GIA release](https://www.info.gov.hk/gia/general/202609/23/P2026092300422.htm) · [Chinese GIA release](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm); Working Group / TLB / CAD; Action Plan (text open).
@@ -67,7 +119,7 @@ Press items for orientation. Do not cite this page for official project counts o
   [「她今日上午聯同運輸及物流局常任秘書長丘卓恒和民航處處長黃嘉華拜訪中國民用航空局（國家民航局），與國家民航局副局長梁楠會面，闡述香港在航空方面的最新發展，包括在《香港第一個五年規劃》和二○二六年《施政報告》中與航空發展相關的目標與政策，並就香港積極融入國家「幹支通、全網聯」、提升內地城市與全球目的地高效連接、鞏固香港航空貨運業世界領先地位、推動可持續航空燃料生產及使用、低空經濟等各項措施商討。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm))
   :::
 
-- **21 Sep 2026 · HK01:** Regulatory Sandbox drone meal-delivery route reaches Ma On Shan’s Chung On Estate (頌安邨), the first public-housing landing. [Link](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8)
+- []{#press-item-2026-09-21-keeta .press-item}**21 Sep 2026 · HK01:** Regulatory Sandbox drone meal-delivery route reaches Ma On Shan’s Chung On Estate (頌安邨), the first public-housing landing. [Link](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8)
   - What's new: STL and Housing Secretary at launch; more Northern Metropolis estate routes foreshadowed.
   - Status: Regulatory Sandbox ops expansion; not Sandbox X cross-boundary results.
   - Read instead: Regulatory Sandbox.
@@ -76,7 +128,7 @@ Press items for orientation. Do not cite this page for official project counts o
   [「無人機外送航線首次飛到馬鞍山頌安邨，房屋局局長何永賢和運輸及物流局局長陳美寶出席啟動禮。」…「陳美寶表示美團無人機團隊再下一城將無人機外送服務帶到馬鞍山頌安邨 ，標誌「監管沙盒」項目邁向新里程」…「預告低空經濟外送航線未來會飛進更多北部都會區的公共屋邨。」]{lang="zh-Hant"} ([source](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8))
   :::
 
-- **16 Sep 2026 · news.gov.hk (English) / 香港政府新聞網 (Chinese):** Policy Address: Action Plan to launch cross-boundary logistics trial flights and heavy unconventional-aircraft legislation drafting.
+- []{#press-item-2026-09-16-policy-address .press-item}**16 Sep 2026 · news.gov.hk (English) / 香港政府新聞網 (Chinese):** Policy Address: Action Plan to launch cross-boundary logistics trial flights and heavy unconventional-aircraft legislation drafting.
   - What's new: Chinese version adds progressive GBA network expansion and Smart TMS rollout from 2028.
   - Status: Action Plan text still open (Policy Address framing only).
   - Read instead: [English summary](https://www.news.gov.hk/eng/2026/09/20260916/20260916_095230_867.html) · [Chinese summary](https://www.news.gov.hk/chi/2026/09/20260916/20260916_095230_867.html); Action Plan; Sandbox X cross-boundary trial pathway; >150 kg drafting within 2027 (PA Annex indicators 34–35).
@@ -105,7 +157,7 @@ Press items for orientation. Do not cite this page for official project counts o
   [「行政長官李家超公布《香港第一個五年規劃》，分為七篇二十八章，共約六萬字，一文看清文件重點：」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1870283-20260916.htm))
   :::
 
-- **10 Sep 2026 · RTHK:** STL Mable Chan says Hong Kong LAE applications have entered a regularisation stage. [Link](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm)
+- []{#press-item-2026-09-10-stl-rthk .press-item}**10 Sep 2026 · RTHK:** STL Mable Chan says Hong Kong LAE applications have entered a regularisation stage. [Link](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm)
   - What's new: Sandbox X pushed for cross-boundary logistics and passenger-capable unconventional aircraft; HK–Kazakhstan LAE MoU signed.
   - Status: >140 CAD application approvals since Jun 2025 (STL speech), separate from Sandbox X.
   - Read instead: Regulatory Sandbox / Sandbox X; Working Group; Action Plan (text open); CAD / Cap. 448G.
@@ -114,7 +166,7 @@ Press items for orientation. Do not cite this page for official project counts o
   [「運輸及物流局局長陳美寶表示，低空經濟監管沙盒提供安全的測試環境，推動技術創新，自去年6月起，民航處已批准超過140個項目申請，相信下星期發表的香港首份五年規劃，對本港低空經濟發展亦非常重要。」…「特區政府正加倍努力推動「監管沙盒X」，以應對低空經濟中更先進和複雜的應用場景，包括跨境物流操作和非傳統航空器，甚至包括搭載乘客的非傳統航空器。」…「當局昨日與哈薩克政府代表在一帶一路高峰論壇期間簽署合作備忘錄，就深化兩地在發展低空經濟方面的合作奠定基礎，涵蓋標準協調、人才培養和分享監管經驗三方面」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1869548-20260910.htm))
   :::
 
-- **10 Sep 2026 · China Daily Hong Kong:** Belt and Road Summit LAE standards session: DFS Michael Wong on sandbox approvals and Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/639379)
+- []{#press-item-2026-09-10-bri .press-item}**10 Sep 2026 · China Daily Hong Kong:** Belt and Road Summit LAE standards session: DFS Michael Wong on sandbox approvals and Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/639379)
   - What's new: Sandbox X’s further 33 selected projects; Hong Kong–Nansha MoU exchange on cross-boundary testing and standards.
   - Status: 33 matches TLB module counts (15+4+5+9); GBA cross-boundary operations still not evidenced.
   - Read instead: GIA releases on the session: [中文](https://www.info.gov.hk/gia/general/202609/11/P2026091100798.htm) · [English](https://www.info.gov.hk/gia/general/202609/11/P2026091100795.htm); Regulatory Sandbox X (TLB).
@@ -125,7 +177,7 @@ Press items for orientation. Do not cite this page for official project counts o
   English: “A new thematic breakout session hosted by the Working Group on Developing of Low-altitude Economy, and addressed by the Deputy Financial Secretary, Mr Michael Wong, also explored aligning Hong Kong\'s low-altitude economy with national strategies and Belt and Road synergies.” ([source](https://www.info.gov.hk/gia/general/202609/11/P2026091100795.htm))
   :::
 
-- **10 Sep 2026 · HKUST:** HKUST hosts “Future of Low Altitude Economy” forum with the Working Group and GBA Low Altitude Economy Alliance. [Link](https://hkust.edu.hk/news/hkust-hosts-future-low-altitude-economy-forum)
+- []{#press-item-2026-09-10-hkust .press-item}**10 Sep 2026 · HKUST:** HKUST hosts “Future of Low Altitude Economy” forum with the Working Group and GBA Low Altitude Economy Alliance. [Link](https://hkust.edu.hk/news/hkust-hosts-future-low-altitude-economy-forum)
   - What's new: Joint Statement of Intent on Low-Altitude Aviation Standards and Interoperability signed; STL remarks on Sandbox X.
   - Status: Forum report; no status given in the source item.
   - Read instead: Working Group on Developing Low-altitude Economy; Regulatory Sandbox / Sandbox X.
@@ -136,7 +188,7 @@ Press items for orientation. Do not cite this page for official project counts o
   [「科大聯同香港特區政府發展低空經濟工作組及大灣區低空經濟聯盟舉辦「佈局低空經濟未來機遇：城際協同（產業落地與標準建立）」專題論壇。」…「我們正全力推進『監管沙盒 X』計劃，探索更具前瞻性的應用場景，包括跨境運作及非傳統航空器等。」…「會上，來自香港、大灣區及海外的政、產、學、研界代表，在陳美寶局長、葉玉如校長、葛珮帆議員及鄭光廷教授見證下，共同簽署《低空航空標準與互聯互通聯合意向書》」]{lang="zh-Hant"} ([source](https://hkust.edu.hk/zh-hant/news/hkust-hosts-future-low-altitude-economy-forum))
   :::
 
-- **9 Sep 2026 · South China Morning Post:** Kazakhstan vice-minister says he signed a transport-laboratory MoU with TLB at the Belt and Road Summit. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3366910/hong-kong-kazakhstan-sign-mou-transport-lab-discuss-low-altitude-economy)
+- []{#press-item-2026-09-09-kazakhstan .press-item}**9 Sep 2026 · South China Morning Post:** Kazakhstan vice-minister says he signed a transport-laboratory MoU with TLB at the Belt and Road Summit. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3366910/hong-kong-kazakhstan-sign-mou-transport-lab-discuss-low-altitude-economy)
   - What's new: Low-altitude economy / traffic-management cooperation discussed.
   - Status: International MoU watch; speech-attested only, MoU PDF not locked.
   - Read instead: No MoU document; GIA summit releases: [中文](https://www.info.gov.hk/gia/general/202609/09/P2026090900660.htm) · [English](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm).
@@ -156,7 +208,7 @@ Press items for orientation. Do not cite this page for official project counts o
   [「9月4日消息，美团无人机在深圳首次将单线程配送的轴辐式航线点位升级为航网节点，并入已运营半年的龙华区航网，将龙华区航网快速加密至15个点位，多数商家通过无人机能配送外卖的距离，已从原来的3公里延伸至5公里，无人机服务半径扩大约67%。」…「这种“既有点位升级+新点部署”的方式，也将在南山区航网继续推进。」]{lang="zh-Hans"} ([source](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt))
   :::
 
-- **2 Sep 2026 · 南方日报 (via 福建省商务厅 reprint):** Shenzhen issues 2026 port business-environment measures (“19条”), covering SZ–HK cross-border low-altitude logistics. [Link](https://swt.fujian.gov.cn/xxgk/jgzn/jgcs/dtgxdc/wszx/202609/t20260902_7208045.htm)
+- []{#press-item-2026-09-02-szhk .press-item}**2 Sep 2026 · 南方日报 (via 福建省商务厅 reprint):** Shenzhen issues 2026 port business-environment measures (“19条”), covering SZ–HK cross-border low-altitude logistics. [Link](https://swt.fujian.gov.cn/xxgk/jgzn/jgcs/dtgxdc/wszx/202609/t20260902_7208045.htm)
   - What's new: Drone customs-clearance models; orderly SZ–HK drone transport trial flights; eVTOL clearance study.
   - Status: Shenzhen–HK corridor remains a planned trial under Sandbox X; not evidenced as operational.
   - Read instead: 粤府办〔2024〕6号.
