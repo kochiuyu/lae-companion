@@ -19,7 +19,9 @@ project:
 
 website:
   title: "DOTE5891"
+  search: true
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Home

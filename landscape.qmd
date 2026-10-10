@@ -42,7 +42,7 @@ Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checke
   span.landscape-entry { display: inline-block; scroll-margin-top: 80px; }
   li.landscape-entry-flash { background: #fff3c4; transition: background 0.4s; border-radius: 3px; }
 </style>
-<div id="landscape-glance-map" role="img" aria-label="Interactive GBA-focused map of unique Hong Kong and Greater Bay Area firms on Companies & sectors, by cited place"></div>
+<div id="landscape-glance-map" role="region" aria-label="Map of Hong Kong and Greater Bay Area firms on Companies and sectors, by cited place. Each marker is labelled with firm name and place."></div>
 <p id="landscape-glance-legend">
   <strong>Colour = geography:</strong>
   <span class="swatch" style="background:#003366"></span> Hong Kong &nbsp;
@@ -89,12 +89,21 @@ Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checke
     var cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 40 });
     pins.forEach(function (p) {
       var colour = colours[p.bucket] || '#7a6a4f';
+      var pinLabel = p.firm + (p.place ? ', ' + p.place : '');
       var marker = L.circleMarker([p.lat, p.lon], {
         radius: 8,
         color: '#1a1a1a',
         weight: 1,
         fillColor: colour,
-        fillOpacity: 0.9
+        fillOpacity: 0.9,
+        alt: pinLabel
+      });
+      marker.on('add', function () {
+        var node = marker.getElement();
+        if (node) {
+          node.setAttribute('role', 'img');
+          node.setAttribute('aria-label', pinLabel);
+        }
       });
       var sectors = p.sectors.map(esc).join('; ');
       marker.bindPopup(
@@ -114,6 +123,17 @@ Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checke
     });
     map.addLayer(cluster);
     map.fitBounds(gbaFrame, { padding: [36, 36], maxZoom: 10 });
+    // Ensure visible marker paths keep firm+place aria-labels (clusters re-add layers).
+    cluster.on('layeradd', function (e) {
+      var m = e.layer;
+      if (!m || typeof m.getElement !== 'function') return;
+      var node = m.getElement();
+      var lab = (m.options && m.options.alt) || '';
+      if (node && lab) {
+        node.setAttribute('role', 'img');
+        node.setAttribute('aria-label', lab);
+      }
+    });
     function refreshSize() {
       try { map.invalidateSize(true); } catch (e) {}
     }

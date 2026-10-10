@@ -10,6 +10,8 @@ page-layout: full
 
 Regulatory Sandbox ≠ Sandbox X.
 
+As of 11 October 2026.
+
 ## Status board
 
 Open, watch, and settled items as of 6 Oct 2026. Detailed source tables follow.
