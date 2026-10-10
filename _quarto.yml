@@ -71,6 +71,3 @@ format:
     toc-location: right
     toc-title: "Sections"
     page-layout: full
-    include-before-body:
-      - text: |
-          <a class="skip-link" href="#quarto-document-content">Skip to content</a>

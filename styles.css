@@ -206,33 +206,6 @@ a.quarto-color-scheme {
   display: none !important;
 }
 
-/* Skip to content — visually hidden until keyboard focus */
-.skip-link {
-  position: absolute;
-  left: -9999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  z-index: 10000;
-}
-
-.skip-link:focus,
-.skip-link:focus-visible {
-  left: 0.75rem;
-  top: 0.75rem;
-  width: auto;
-  height: auto;
-  padding: 0.5rem 0.85rem;
-  overflow: visible;
-  background: #003366;
-  color: #fff !important;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-}
 
 /* Print-friendly: especially Readings / Lectures; applies site-wide */
 @media print {
@@ -256,7 +229,6 @@ a.quarto-color-scheme {
   .aa-DetachedOverlay,
   .quarto-color-scheme-toggle,
   #quarto-color-scheme-toggle,
-  .skip-link,
   .noprint {
     display: none !important;
   }
