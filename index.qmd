@@ -26,6 +26,7 @@ Start with how to use this site; then primer, slides, readings, and the week map
 - [How to use this site](howto.qmd)
 - [What is LAE?](primer.qmd)
 - [Who decides what?](regulators.qmd)
+- [Business overview](business-overview.qmd)
 - [Lectures](lectures.qmd)
 - [Readings](readings.qmd)
 - [Course overview](overview.qmd)

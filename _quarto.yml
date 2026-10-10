@@ -8,6 +8,7 @@ project:
     - howto.qmd
     - primer.qmd
     - regulators.qmd
+    - business-overview.qmd
     - glossary.qmd
     - tracker.qmd
     - dates.qmd
@@ -35,6 +36,8 @@ website:
             text: What is LAE?
           - href: regulators.qmd
             text: Who decides what?
+          - href: business-overview.qmd
+            text: Business overview
           - href: readings.qmd
             text: Readings
           - href: lectures.qmd

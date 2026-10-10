@@ -1,0 +1,56 @@
+---
+title: "Business overview"
+subtitle: "How value is created, who pays whom, and how sectors fit — for newcomers"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+Short map of the **business** side of LAE. Firm lists stay on [Companies & sectors](landscape.qmd); weekly tools and takeaways stay on [Lectures](lectures.qmd) and [Readings](readings.qmd). Definitions: [Glossary](glossary.qmd).
+
+## How value is created
+
+- LAE is a **system**, not only aircraft: craft, take-off/landing sites, digital traffic and coordination, operators, customers, and supporting services ([Lectures · Week 1](lectures.qmd#week-1)).
+- A service creates value when it **saves time**, **cuts cost or risk**, **improves access**, or **enables a mission** other modes cannot do well ([Lectures · Week 1](lectures.qmd#week-1)).
+- Commercial viability still hangs on willingness to pay, demand, utilization, load factor, operating cost, and investment cost — technology helps only when it improves the **economics of the full service** ([Lectures · Week 1](lectures.qmd#week-1); [Lectures · Week 3](lectures.qmd#week-3)).
+- Unit-cost language in class includes [CASK](glossary.qmd#business-and-economics) (passenger capacity offered) and mission-based measures for cargo or public-service work ([Lectures · Week 3](lectures.qmd#week-3); [Glossary](glossary.qmd#business-and-economics)).
+
+## Who pays whom (high level)
+
+Roles, not named deals:
+
+- **Customers / mission sponsors** pay operators for flights, deliveries, inspections, or other missions (pay-per-use, subscription, availability, or complementary models appear in [Lectures · Week 3](lectures.qmd#week-3)).
+- **Operators** pay (or contract for) aircraft and maintenance, site/slot access, enabling tech and traffic services, insurance, and training — see sector roles below and [Companies & sectors](landscape.qmd).
+- **Infrastructure and platform providers** earn from access, capacity, or coordination services; scarce sites and route density shape competition ([Lectures · Week 2](lectures.qmd#week-2); [Lectures · Week 5](lectures.qmd#week-5)).
+- **Insurers and financiers** price risk and capital; they do not remove operational or regulatory risk ([Lectures · Week 6](lectures.qmd#week-6); [Lectures · Week 12](lectures.qmd#week-12)).
+- **Public bodies** may fund trials, shared infrastructure, or public-service missions (including usage vs availability payments in partnership designs) — a PPP is about value for money and risk allocation, not a free subsidy ([Lectures · Week 6](lectures.qmd#week-6)).
+- Hong Kong **Regulatory Sandbox ≠ [Sandbox X](glossary.qmd#hong-kong-institutions-and-law)**; sandboxes support controlled testing and evidence, not a waiver of safety rules or automatic commercial approval ([Lectures · Week 7](lectures.qmd#week-7); [Glossary](glossary.qmd#hong-kong-institutions-and-law)).
+
+## How sectors fit
+
+[Companies & sectors](landscape.qmd) groups checked entries into eleven roles (company claims are **not** treated as fact; the Shenzhen–Hong Kong / GBA cross-boundary corridor is **not** operational on the evidence tracked here):
+
+| Role on that page | What it usually contributes |
+|-------------------|-----------------------------|
+| Aircraft and airframe makers | Vehicles and platforms |
+| Delivery and logistics | Cargo / last-mile style missions |
+| Inspection and surveying | Asset and site inspection missions |
+| Emergency and medical | Public-safety / medical transport trials |
+| Tourism and entertainment | Visitor / show / attraction flights |
+| eVTOL and passenger trials | Passenger-oriented trial activity |
+| Infrastructure and vertiports | Sites, docking, planned logistics clusters |
+| Enabling technology | UTM, connectivity, shared platforms |
+| Insurance and finance | Risk transfer and capital products |
+| Tangible services | Hands-on flight / MRO / patrol services |
+| Intangible services | Training, research, software-heavy services |
+
+Use the map and sector lists on [Companies & sectors](landscape.qmd) for who appears where — this page does not repeat firm names.
+
+## Where to go next
+
+- [Companies & sectors](landscape.qmd) — market map by sector  
+- [Lectures](lectures.qmd) — especially Weeks 1–3 (value, markets, cost/revenue) and Week 6 (business models)  
+- [Readings](readings.qmd) — documents for those weeks  
+- [What is LAE?](primer.qmd) — plain-language scope · [Who decides what?](regulators.qmd) — regulator roles  
