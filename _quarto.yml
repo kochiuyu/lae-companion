@@ -4,6 +4,7 @@ project:
     - slides/
   render:
     - index.qmd
+    - overview.qmd
     - glossary.qmd
     - tracker.qmd
     - dates.qmd
@@ -29,6 +30,8 @@ website:
             text: Companies & sectors
       - text: Course
         menu:
+          - href: overview.qmd
+            text: Course overview
           - href: readings.qmd
             text: Readings
           - href: lectures.qmd

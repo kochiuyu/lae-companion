@@ -1,0 +1,130 @@
+---
+title: "Course overview"
+subtitle: "What DOTE5891 covers and how the weeks connect"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+**Course:** DOTE5891VM Low Altitude Economics · Second Trimester, 2026–27 · MSc in Aviation Management · CUHK Business School  
+**Instructor:** Chiu Yu Ko
+
+Also on this site: [Readings](readings.qmd) · [Lectures](lectures.qmd)
+
+## Description
+
+This course studies the economics and business strategy of the low altitude economy (LAE), including drones, eVTOL aircraft, vertiports, U-space/UTM systems, BVLOS operations, and related finance, insurance, certification, and platform services. The course uses Hong Kong and the Greater Bay Area as the core applied setting, while drawing comparisons with NASA, AiRMOUR, EASA/U-space, FAA/AAM, and global advanced air mobility frameworks.
+
+The course is intentionally quantitative and managerial. Students learn to translate LAE use cases into demand forecasts, unit economics, infrastructure breakeven models, partnership contracts, regulatory roadmaps, airspace mechanisms, ESG/social-license strategies, risk registers, and investment recommendations. Each week connects a business problem to simple but powerful analytical tools, including NPV, value of time, generalized cost, elasticity, HHI, CASK, CPMK, TAM/SAM/SOM, barrier haircuts, Monte Carlo sensitivity, Pigovian tolls and taxes, and network-scaling formulas.
+
+By the end of the course, students should be able to evaluate whether a proposed LAE service is commercially viable, socially acceptable, policy-consistent, and scalable across Hong Kong and the GBA. The capstone presentation requires students to integrate demand, cost, infrastructure, regulation, airspace access, sustainability, and risk into one coherent business or policy strategy.
+
+Attendance requirement: students are required to have at least 70% attendance in this course.
+
+## Objectives
+
+- Study LAE economics and business strategy in Hong Kong and the GBA, with global AAM comparators.
+- Build quantitative and managerial tools for demand, unit economics, infrastructure, partnerships, regulation, airspace, sustainability, and risk.
+- Integrate those tools into a coherent business or policy strategy (capstone) and exam-ready analysis.
+
+## Learning outcomes
+
+After completing this course, students are expected to:
+
+- Understand demand and supply dynamics in urban air mobility using basic economic models and stakeholder analysis, with a focus on Hong Kong/Greater Bay Area trends.
+- Estimate market sizes and evaluate investment decisions through simple cost-benefit analysis and market simulations.
+- Explore pricing strategies, economic incentives, and congestion management for sustainability and public acceptance.
+- Review business frameworks, value-chain positioning, and regulatory economics, drawing on global case studies from NASA, McKinsey, and AiRMOUR.
+- Develop strategies for market growth, policy evaluation, and stakeholder engagement via scenario discussions and team projects.
+
+## Assessment (shape)
+
+| Element | Weight | Details |
+|---------|--------|---------|
+| Participation | 10% | Case discussions, quick polls, role plays, spreadsheet workshops, bidding games, negotiation exercises, and peer feedback. |
+| Assignment | 20% | Short individual or group submissions applying tools such as NPV, HHI, CASK, NASA demand, ROI, certification value, congestion pricing, barrier haircuts, and ESG KPIs. |
+| Project | 30% | 12-minute integrated HK/GBA LAE strategy pitch with quantitative core, risk register, regulatory roadmap, sustainability/social-license strategy, and executive memo. |
+| Final exam | 40% | Open notes and books. Integrated quantitative and policy-consistent analysis across all course topics. |
+| **Total** | **100%** | |
+
+Late submission of assignment would **not** be accepted.
+
+## How the weeks build
+
+From the course outline’s cumulative strategy-building sequence:
+
+- **Weeks 1–3:** Build a basic HK/GBA use case, map the value chain, assess market structure, and construct cost/revenue unit economics.
+- **Weeks 4–6:** Extend the use case with demand forecasting, infrastructure ROI, and a commercial partnership or PPP design.
+- **Weeks 7–10:** Add regulatory approval strategy, airspace access mechanisms, market-sizing barriers and uncertainty, and sustainability/social-license design.
+- **Weeks 11–12:** Deliver the capstone presentation and prepare for integrated final-exam analysis using the master viability framework.
+
+## 12-week conceptual map
+
+```{mermaid}
+%%| fig-cap: "Week topics from the course schedule / Readings. Click a week to open that Readings section."
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#F7F6F3", "primaryTextColor": "#1a1a1a", "primaryBorderColor": "#003366", "lineColor": "#003366", "secondaryColor": "#e6edf5", "tertiaryColor": "#F7F6F3", "fontFamily": "system-ui, sans-serif"}}}%%
+flowchart TB
+  subgraph B["Weeks 1–3 · Building blocks"]
+    direction TB
+    W1["Week 1: Introduction to LAE"]
+    W2["Week 2: LAE Market Structure and Competition"]
+    W3["Week 3: Cost Structures and Revenue Management"]
+    W1 --> W2 --> W3
+  end
+  subgraph E["Weeks 4–6 · Extend the use case"]
+    direction TB
+    W4["Week 4: Demand Modeling in Urban Air Mobility"]
+    W5["Week 5: Infrastructure Economics and Management"]
+    W6["Week 6: LAE Strategic Partnerships and Business Models"]
+    W4 --> W5 --> W6
+  end
+  subgraph A["Weeks 7–10 · Add policy layers"]
+    direction TB
+    W7["Week 7: LAE Policy and Regulation"]
+    W8["Week 8: Airspace Access and Integration"]
+    W9["Week 9: Market Sizing, Barriers, Uncertainty and Social Impact"]
+    W10["Week 10: Sustainability Challenges in Urban Air Operations"]
+    W7 --> W8 --> W9 --> W10
+  end
+  subgraph S["Weeks 11–12 · Synthesize"]
+    direction TB
+    W11["Week 11: Synthesis and Capstone Group Presentations"]
+    W12["Week 12: LAE Future Frontiers and Final Review"]
+    W11 --> W12
+  end
+  B --> E --> A --> S
+  click W1 "readings.qmd#week-1" "Readings · Week 1"
+  click W2 "readings.qmd#week-2" "Readings · Week 2"
+  click W3 "readings.qmd#week-3" "Readings · Week 3"
+  click W4 "readings.qmd#week-4" "Readings · Week 4"
+  click W5 "readings.qmd#week-5" "Readings · Week 5"
+  click W6 "readings.qmd#week-6" "Readings · Week 6"
+  click W7 "readings.qmd#week-7" "Readings · Week 7"
+  click W8 "readings.qmd#week-8" "Readings · Week 8"
+  click W9 "readings.qmd#week-9" "Readings · Week 9"
+  click W10 "readings.qmd#week-10" "Readings · Week 10"
+  click W11 "readings.qmd#week-11" "Readings · Week 11"
+  click W12 "readings.qmd#week-12" "Readings · Week 12"
+```
+
+Point form (same titles as [Readings](readings.qmd)):
+
+1. [Introduction to LAE](readings.qmd#week-1) · [slides](lectures.qmd#week-1)
+2. [LAE Market Structure and Competition](readings.qmd#week-2) · [slides](lectures.qmd#week-2)
+3. [Cost Structures and Revenue Management](readings.qmd#week-3) · [slides](lectures.qmd#week-3)
+4. [Demand Modeling in Urban Air Mobility](readings.qmd#week-4) · [slides](lectures.qmd#week-4)
+5. [Infrastructure Economics and Management](readings.qmd#week-5) · [slides](lectures.qmd#week-5)
+6. [LAE Strategic Partnerships and Business Models](readings.qmd#week-6) · [slides](lectures.qmd#week-6)
+7. [LAE Policy and Regulation](readings.qmd#week-7) · [slides](lectures.qmd#week-7)
+8. [Airspace Access and Integration](readings.qmd#week-8) · [slides](lectures.qmd#week-8)
+9. [Market Sizing, Barriers, Uncertainty and Social Impact](readings.qmd#week-9) · [slides](lectures.qmd#week-9)
+10. [Sustainability Challenges in Urban Air Operations](readings.qmd#week-10) · [slides](lectures.qmd#week-10)
+11. [Synthesis and Capstone Group Presentations](readings.qmd#week-11) · [slides](lectures.qmd#week-11)
+12. [LAE Future Frontiers and Final Review](readings.qmd#week-12) · [slides](lectures.qmd#week-12)
+
+## Course materials on this site
+
+- [Readings](readings.qmd) — official documents by week  
+- [Lectures](lectures.qmd) — slide PDFs with Before you go / Takeaways  

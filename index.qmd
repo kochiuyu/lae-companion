@@ -26,8 +26,9 @@ Terms, checked status, and who is in the market.
 ::: {.hub-card}
 ## Course
 
-Weekly readings and lecture slides.
+Course overview, weekly readings, and lecture slides.
 
+- [Course overview](overview.qmd)
 - [Readings](readings.qmd)
 - [Lectures](lectures.qmd)
 :::
