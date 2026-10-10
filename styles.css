@@ -340,3 +340,62 @@ a.quarto-color-scheme {
     background: transparent !important;
   }
 }
+
+/* Mobile: news / industry timeline cards — avoid horizontal page overflow */
+#press-timeline,
+#industry-timeline,
+.itl,
+.dtl {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.itl-grid,
+.dtl-grid {
+  max-width: 100%;
+}
+
+.itl-card,
+.dtl-card {
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Long milestone titles wrap; chips/badges may stay nowrap */
+.itl li > a,
+.dtl li > a,
+.itl li .lbl,
+.dtl li .lbl {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .itl-grid,
+  .dtl-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .itl,
+  .dtl {
+    font-size: 0.88rem;
+  }
+}
+
+/* Tables anywhere in main content: horizontal scroll on narrow screens */
+.content table,
+main table,
+#quarto-document-content table,
+.quarto-layout-panel table,
+.table-responsive {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
