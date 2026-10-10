@@ -1,6 +1,6 @@
 ---
 title: "Press"
-as_of: "2026-10-10"
+as_of: "2026-10-11"
 page-layout: article
 ---
 
@@ -34,14 +34,14 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Press milestones (as of 10 Oct 2026)</strong> — skim the cards, then jump to the dated item. Prefer government / regulatory and independently reported; official counts stay on Tracker.</p>
+<p class="itl-head"><strong>Press milestones (as of 11 Oct 2026)</strong> — skim the cards, then jump to the dated item. Prefer government / regulatory and independently reported; official counts stay on Tracker. GBA/Mainland enrich included.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>October 2026<span class="n">3 items</span></summary><ol>
 <li id="tl-press-2026-10-07-slatms"><a href="#press-item-2026-10-07-slatms"><span class="chip">7 Oct</span> · CAD outlines SLATMS / Smart TMS research stack<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-05-sandbox-connect" class="st-open"><a href="#press-item-2026-10-05-sandbox-connect"><span class="chip">5 Oct</span> · “Sandbox Connect” cross-jurisdictional trial framing (results OPEN)<span class="badge b-open">OPEN</span></a></li>
 <li id="tl-press-2026-10-02-stl-edev"><a href="#press-item-2026-10-02-stl-edev"><span class="chip">2 Oct</span> · STL LegCo EDev Panel: Action Plan / &gt;150 kg / Smart TMS 2028<span class="badge b-off">GIA</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>September 2026<span class="n">10 items</span></summary><ol>
+<details class="itl-card" open><summary>September 2026<span class="n">11 items</span></summary><ol>
 <li id="tl-press-2026-09-26-gn5936"><a href="#press-item-2026-09-26-gn5936"><span class="chip">26 Sep</span> · G.N. 5936 Sandbox restricted flying zones effective<span class="badge b-off">Gazette</span></a></li>
 <li id="tl-press-2026-09-23-caac"><a href="#press-item-2026-09-23-caac"><span class="chip">23 Sep</span> · STL / TLB / CAD meet CAAC Deputy Administrator in Beijing<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-09-21-keeta"><a href="#press-item-2026-09-21-keeta"><span class="chip">21 Sep</span> · Keeta Drone to Chung On Estate (Regulatory Sandbox)<span class="badge b-ind">Indep.</span></a></li>
@@ -52,8 +52,10 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 <li id="tl-press-2026-09-10-hkust"><a href="#press-item-2026-09-10-hkust"><span class="chip">10 Sep</span> · HKUST LAE forum; standards Joint Statement of Intent<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-09-kazakhstan"><a href="#press-item-2026-09-09-kazakhstan"><span class="chip">9 Sep</span> · Hong Kong–Kazakhstan transport-lab MoU (LAE discussed)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-02-szhk" class="st-open"><a href="#press-item-2026-09-02-szhk"><span class="chip">2 Sep</span> · Shenzhen port measures: SZ–HK low-altitude logistics (plans)<span class="badge b-open">Plans</span></a></li>
+<li id="tl-press-2026-09-01-qianhai"><a href="#press-item-2026-09-01-qianhai"><span class="chip">1 Sep</span> · Qianhai 12 financial measures for LAE (eff. to end-2028)<span class="badge b-off">Official</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>August 2026<span class="n">1 item</span></summary><ol>
+<details class="itl-card" open><summary>August 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-press-2026-08-26-mps"><a href="#press-item-2026-08-26-mps"><span class="chip">26 Aug</span> · MPS UAS administrative-penalty discretionary baseline<span class="badge b-off">Official</span></a></li>
 <li id="tl-press-2026-08-11-caac-atm" class="st-open"><a href="#press-item-2026-08-11-caac-atm"><span class="chip">11 Aug</span> · CAAC draft Civil Aviation ATM Rules (consultation)<span class="badge b-open">DRAFT</span></a></li>
 </ol></details>
 <details class="itl-card" open><summary>July 2026<span class="n">1 item</span></summary><ol>
@@ -63,23 +65,33 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 <li id="tl-press-2026-06-24-lcq21"><a href="#press-item-2026-06-24-lcq21"><span class="chip">24 Jun</span> · LCQ21 STL reply: Sandbox / Sandbox X / SLATMS stocktake<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-06-10-sz120" class="st-open"><a href="#press-item-2026-06-10-sz120"><span class="chip">10 Jun</span> · Shenzhen press: below-120 m airspace “regularised opening” framing<span class="badge b-open">Indep.</span></a></li>
 </ol></details>
+<details class="itl-card" open><summary>May 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-press-2026-05-30-gd-ordinance" class="st-open"><a href="#press-item-2026-05-30-gd-ordinance"><span class="chip">30 May</span> · Guangdong LAE Development Ordinance draft consultation<span class="badge b-open">DRAFT</span></a></li>
+<li id="tl-press-2026-05-20-dongguan"><a href="#press-item-2026-05-20-dongguan"><span class="chip">20 May</span> · Dongguan “349N” vertiport / TOL facility layout (2026–2030)<span class="badge b-off">Official</span></a></li>
+</ol></details>
 <details class="itl-card" open><summary>April 2026<span class="n">3 items</span></summary><ol>
 <li id="tl-press-2026-04-24-ac017"><a href="#press-item-2026-04-24-ac017"><span class="chip">24 Apr</span> · CAD AC-017 cross-boundary SUA within Sandbox X<span class="badge b-off">CAD</span></a></li>
 <li id="tl-press-2026-04-20-utm"><a href="#press-item-2026-04-20-utm"><span class="chip">20 Apr</span> · TLB Sandbox X UTM list (15 projects)<span class="badge b-off">TLB</span></a></li>
 <li id="tl-press-2026-04-15-uca"><a href="#press-item-2026-04-15-uca"><span class="chip">15 Apr</span> · TLB Sandbox X first-batch UCA list (4 projects)<span class="badge b-off">TLB</span></a></li>
 </ol></details>
+<details class="itl-card" open><summary>March 2026<span class="n">1 item</span></summary><ol>
+<li id="tl-press-2026-03-04-uom"><a href="#press-item-2026-03-04-uom"><span class="chip">4 Mar</span> · CAAC Announcement No. 5: UOM network remote-ID (new production from 1 May)<span class="badge b-off">CAAC</span></a></li>
+</ol></details>
 <details class="itl-card" open><summary>January 2026<span class="n">1 item</span></summary><ol>
 <li id="tl-press-2026-01-27-gba" class="st-open"><a href="#press-item-2026-01-27-gba"><span class="chip">27 Jan</span> · GBA Office Shenzhen seminar on cross-boundary LAE (Action Plan OPEN)<span class="badge b-open">OPEN</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>December 2025<span class="n">2 items</span></summary><ol>
+<details class="itl-card" open><summary>December 2025<span class="n">3 items</span></summary><ol>
 <li id="tl-press-2025-12-31-ac013"><a href="#press-item-2025-12-31-ac013"><span class="chip">31 Dec</span> · CAD AC-013 BVLOS within Regulatory Sandbox<span class="badge b-off">CAD</span></a></li>
 <li id="tl-press-2025-12-27-cal"><a href="#press-item-2025-12-27-cal"><span class="chip">27 Dec</span> · PRC Civil Aviation Law revised (effective 1 Jul 2026)<span class="badge b-off">Official</span></a></li>
+<li id="tl-press-2025-12-22-ndrc1676"><a href="#press-item-2025-12-22-ndrc1676"><span class="chip">22 Dec</span> · NDRC 发改低空〔2025〕1676号 LAE statistical classification (not a scale release)<span class="badge b-off">NDRC</span></a></li>
 </ol></details>
 <details class="itl-card" open><summary>November 2025<span class="n">1 item</span></summary><ol>
 <li id="tl-press-2025-11-24-sandbox-x"><a href="#press-item-2025-11-24-sandbox-x"><span class="chip">24 Nov</span> · Regulatory Sandbox X launched<span class="badge b-off">GIA</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>October 2025<span class="n">1 item</span></summary><ol>
+<details class="itl-card" open><summary>October 2025<span class="n">3 items</span></summary><ol>
+<li id="tl-press-2025-10-29-sz-layout"><a href="#press-item-2025-10-29-sz-layout"><span class="chip">29 Oct</span> · Shenzhen TOL facility layout plan 2026–2035<span class="badge b-off">Official</span></a></li>
 <li id="tl-press-2025-10-27-uas-licence"><a href="#press-item-2025-10-27-uas-licence"><span class="chip">27 Oct</span> · CA / OFCA UAS (Private) Licence 1430–1444 MHz<span class="badge b-off">GIA</span></a></li>
+<li id="tl-press-2025-10-13-gd16"><a href="#press-item-2025-10-13-gd16"><span class="chip">13 Oct</span> · Guangdong “16 measures” supporting high-quality LAE<span class="badge b-off">Official</span></a></li>
 </ol></details>
 </div></div>
 ```
@@ -281,9 +293,35 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   [「由数码港、冠忠智慧出行、亿航智能联合推进的EH216-S项目，入选香港低空经济监管沙盒X首批试点。」…「特区政府明确将研究非传统航空器专属法例，相关附属法例拟于2027年送交立法会审议，为低空出行筑牢安全与前瞻并重的监管底座。」]{lang="zh-Hans"} ([source](https://www.seetao.com/details/276927.html))
   :::
 
+
+- []{#press-item-2026-09-01-qianhai .press-item}**1 Sep 2026 · Authority of Qianhai / Shenzhen Municipal Government Gazette:** Qianhai prints *12 Measures on Financial Empowerment of High-Quality Development of the Low-Altitude Economy Industry* (深前海规〔2026〕8号; signed 14 Aug; effective 1 Sep 2026 to 31 Dec 2028). [Link](https://www.sz.gov.cn/zfgb/2026/gb1424/content/post_12954971.html)
+  - What's new: District financial toolkit (insurance, credit risk-sharing, leasing, “first flight / first operation / first cross-boundary route” incentives, FT-account facilitation). Defines “LAE enterprise” by reference to 发改低空〔2025〕1676号. Cross-boundary “first route” insurance and mutual recognition are encouragement / exploration — not evidenced operational corridor flights.
+  - Status: Officially confirmed Qianhai measures. Shenzhen–HK corridor not evidenced as operational.
+  - Read instead: [NDRC 1676 classification](#press-item-2025-12-22-ndrc1676); Tracker: SZ–HK corridor (not evidenced).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「现将《前海深港现代服务业合作区金融赋能低空经济产业高质量发展的十二条措施》印发，请遵照执行。」…「本措施自2026年9月1日起实施，有效期至2028年12月31日。」…「本措施所称“低空经济企业”是指在前海合作区实际经营，且主营业务归属《低空经济及其核心产业统计分类（试行）》（发改低空〔2025〕1676 号）所列细分类别的经营主体。」…「支持深港澳跨境“首航”保险产品创新。鼓励深港澳保险机构围绕跨境低空应用场景，创新开发跨境低空经济保险产品，探索开展跨境低空保险保单互认机制。」]{lang="zh-Hans"} ([source](https://www.sz.gov.cn/zfgb/2026/gb1424/content/post_12954971.html))
+
+  English (LAE-Intel translation): The 12 Measures on Financial Empowerment of High-Quality Development of the Low-Altitude Economy Industry in the Qianhai Shenzhen-Hong Kong Modern Service Industry Cooperation Zone are hereby printed; comply with them. … The Measures take effect from 1 September 2026 through 31 December 2028. … “Low-altitude economy enterprise” means an entity actually operating in the Qianhai Cooperation Zone whose main business falls within the detailed categories of the Trial Statistical Classification of the Low-Altitude Economy and Its Core Industries (NDRC Low-Altitude〔2025〕No. 1676). … Support innovation of Shenzhen–Hong Kong–Macao cross-boundary “first-route” insurance products; encourage Shenzhen–Hong Kong–Macao insurers to develop cross-boundary LAE insurance around cross-boundary low-altitude scenes and to explore mutual recognition of cross-boundary LAE insurance policies.
+  :::
+
+
 ## 2026-08 {#press-2026-08}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+
+- []{#press-item-2026-08-26-mps .press-item}**26 Aug 2026 · Ministry of Public Security (公通字〔2026〕17号; local republication / Xinhua disclosure ~Sep):** MPS prints *Baseline for Administrative Penalties for Handling UAS-related Illegal Acts by Public Security Organs*; applies from the date of printing. [Link](https://gaj.ankang.gov.cn/Content-2949592.html) · [Xinhua](https://www.news.cn/legal/20260930/fa37e5f2fc824e3c99c78fc5a46b5377/c.html)
+  - What's new: Nationwide discretionary baseline for police administrative penalties under the Interim Regulations on UAS Flight Management and, where overlapping, Public Security Administration Punishments Law Art. 46(1). Covers five behaviour classes including flying without real-name registration and flying micro/light/small civil UAS in controlled airspace without approval. Criminal liability remains separate where the act constitutes a crime. MPS.gov.cn primary HTML OPEN this run; text verified via local republication.
+  - Status: Officially confirmed via local republication of the MPS notice. Mainland enforcement comparator — not Hong Kong law.
+  - Read instead: Mainland UAS enforcement comparator; Cap. 448G / HK enforcement contrast.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「《公安机关依法处置涉无人驾驶航空器违法行为行政处罚裁量基准》已经部长办公会审议通过。现印发给你们，请结合工作实际，认真贯彻执行。」…「公安机关对违反《无人驾驶航空器飞行管理暂行条例》以及同时违反《中华人民共和国治安管理处罚法》第四十六条第一款的违法行为实施行政处罚，适用本裁量基准。对构成犯罪的，依法追究刑事责任。」…「公 安 部 2026年8月26日」]{lang="zh-Hans"} ([source](https://gaj.ankang.gov.cn/Content-2949592.html))
+
+  English (LAE-Intel translation): The Baseline for Administrative Penalties for Handling Unmanned Aircraft System–related Illegal Acts by Public Security Organs has been adopted by the Minister’s office meeting. It is hereby printed and distributed; implement it in light of actual work. … Public security organs applying administrative penalties for violations of the Interim Regulations on Unmanned Aircraft System Flight Management and, concurrently, Article 46(1) of the Public Security Administration Punishments Law of the PRC shall apply this baseline. Where a crime is constituted, criminal liability shall be pursued according to law. … Ministry of Public Security, 26 August 2026.
+  :::
+
 
 - []{#press-item-2026-08-11-caac-atm .press-item}**11 Aug 2026 · Civil Aviation Administration of China:** CAAC opens public consultation on the draft *Civil Aviation Air Traffic Management Rules* (《民用航空空中交通管理规则（征求意见稿）》); comment close 11 Sep 2026. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)
   - What's new: Formal Mainland ATM-rules revision draft for comment. Already on Dates as DRAFT comparator; first Press listing here.
@@ -336,6 +374,34 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
   English (LAE-Intel translation): Reporters learned from the Shenzhen Low-altitude Economy Industry Association that Shenzhen’s low-altitude economy recently saw a breakthrough in airspace reform. Low-altitude airspace below 120 metres city-wide has achieved regularised city-wide opening, with flyable airspace covering 75% of the municipal area, and central districts including Futian, Nanshan and Luohu brought fully into routine flight management.
   :::
+
+
+## 2026-05 {#press-2026-05}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-05-30-gd-ordinance .press-item}**30 May 2026 · 界面新闻 / Sina Finance (Guangdong DRC consultation):** Guangdong Provincial Development and Reform Commission opens public consultation on the draft *Guangdong Province Low-Altitude Economy Development Ordinance* (eight chapters, 49 articles; feedback cited to 30 Jun). [Link](https://finance.sina.com.cn/jjxw/2026-05-30/doc-inhzswye6922764.shtml)
+  - What's new: Provincial local-regulation draft covering airspace coordination, infrastructure, flight services, industry (aligned to NDRC 1676 four industry buckets), scene applications, safety duties and liability. Press notes GBA / Guangdong–Hong Kong–Macao cooperation language. **drc.gd.gov.cn primary consultation HTML OPEN this run.**
+  - Status: Independently reported draft consultation — not in force. Not Hong Kong law. Corridor not evidenced.
+  - Read instead: [NDRC 1676](#press-item-2025-12-22-ndrc1676); Dates: Civil Aviation Law (eff. 1 Jul 2026).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「5月30日，广东省发展改革委公开征求《广东省低空经济发展条例（征求意见稿）》意见。《条例》聚焦制约广东省低空经济发展的突出瓶颈问题……《条例》分为八章，共49条……（一）第一章为总则，共10条。……粤港澳低空经济合作、空域协同运行机制……（四）第四章为产业发展，共10条。……按照《低空经济及其核心产业统计分类（试行）》，围绕低空制造业、低空运营业、低空基建与信息服务业、低空配套业四个产业类别，搭建产业发展框架。」]{lang="zh-Hans"} ([source](https://finance.sina.com.cn/jjxw/2026-05-30/doc-inhzswye6922764.shtml))
+
+  English (LAE-Intel translation): On 30 May, the Guangdong Provincial Development and Reform Commission opened public consultation on the draft Guangdong Province Low-Altitude Economy Development Ordinance. The draft targets bottlenecks constraining Guangdong’s LAE development. … The draft has eight chapters and 49 articles. … Chapter I (General Provisions, 10 articles) includes Guangdong–Hong Kong–Macao LAE cooperation and airspace coordinated operating mechanisms. … Chapter IV (Industrial Development, 10 articles) builds the industry framework around the four categories in the Trial Statistical Classification of the Low-Altitude Economy and Its Core Industries — manufacturing, operations, infrastructure and information services, and supporting industries.
+  :::
+
+- []{#press-item-2026-05-20-dongguan .press-item}**20 May 2026 · Dongguan Development and Reform Bureau / Transport Bureau (东发改〔2026〕123号; published 27 May):** Dongguan issues *Layout Plan for Low-Altitude Economy Take-off and Landing Facilities (2026–2030)* — “349N” system. [Link](https://dgdp.dg.gov.cn/gkmlpt/content/4/4542/post_4542898.html)
+  - What's new: Municipal planning instrument: **3** test fields, **4** tier-1 hubs, **9** tier-2 hubs, and **N** tier-3 points (plan table: **1,518** tier-3; overall **1,534** by 2030). Near-term priority: **2** test fields, **4** hubs and **204** tier-3 points. Planning / selection-pool document — not an operational flight authorisation and not evidenced Dongguan–Hong Kong corridor flights.
+  - Status: Officially confirmed municipal layout plan. Corridor not evidenced as operational.
+  - Read instead: [Shenzhen TOL layout 2026–2035](#press-item-2025-10-29-sz-layout).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「《东莞市低空经济起降设施布局方案（2026-2030年）》业经市人民政府同意，现印发给你们，请认真贯彻执行。」…「构建“349N”起降设施体系，包括：3个测试场、4个一级低空起降枢纽、9个二级低空起降枢纽、N个三级低空起降点。」…「到2030年，形成体系完备、直达高效的低空起降设施网络体系，推动1534个基础设施建设落地」…「近期，优先推动2处低空测试场、4处低空起降枢纽建设……推动落实204处三级起降点建设。」]{lang="zh-Hans"} ([source](https://dgdp.dg.gov.cn/gkmlpt/content/4/4542/post_4542898.html))
+
+  English (LAE-Intel translation): The Dongguan Low-Altitude Economy Take-off and Landing Facility Layout Plan (2026–2030) has been agreed by the municipal people’s government and is hereby printed; implement it earnestly. … Build a “349N” take-off/landing facility system comprising 3 test fields, 4 tier-1 low-altitude hubs, 9 tier-2 hubs and N tier-3 points. … By 2030, form a complete and efficient facility network and advance delivery of 1,534 infrastructure items. … In the near term, prioritise construction of 2 test fields and 4 hubs … and implement 204 tier-3 points.
+  :::
+
 
 ## 2026-04 {#press-2026-04}
 
@@ -390,6 +456,47 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   English (LAE-Intel translation): To strengthen low-altitude safety capability, orderly advance operational safety assessment for scene operators, and promote safe and orderly development of the low-altitude economy, CAAC has prepared four draft documents: Measures for Specific-Category Standard Scenes for Civil UAS; Guide on Specific-Category Operational Risk Assessment and Mitigation; Trial Guide on Safe Operation of Training for Civil Small/Medium UAS Remote Pilots; and Trial Guide on Safe Operation of Swarm Demonstration Flights for Micro/Light/Small Civil UAS.
   :::
 
+
+- []{#press-item-2026-04-08-zhuhai .press-item}**8 Apr 2026 · Zhuhai Municipal Natural Resources Bureau (珠自然资字〔2026〕135号; published 9 Apr):** Zhuhai issues *Several Measures on Optimising Planning Management to Support High-Quality Development of the Low-Altitude Economy (Trial)*. [Link](https://www.zhuhai.gov.cn/zw/fggw/gfxwj/bmgfxwj/content/post_3895375.html)
+  - What's new: Planning / land-resource toolkit: integrate low-altitude infrastructure into territorial spatial plans; prioritise land indicators; simplify plan-adjustment procedures for facilities and small UAS pads. Valid three years from printing. Planning facilitation only — not flight permissions.
+  - Status: Officially confirmed municipal planning measures.
+  - Read instead: [Guangdong “16 measures”](#press-item-2025-10-13-gd16).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「我局制定了《关于优化规划管理支持低空经济高质量发展的若干措施（试行）》，现予以印发，请遵照执行。」…「在国土空间规划中，统筹落实低空基础设施用地布局，推进珠海市低空起降点布局规划编制」…「本措施自印发之日起施行，有效期三年。」]{lang="zh-Hans"} ([source](https://www.zhuhai.gov.cn/zw/fggw/gfxwj/bmgfxwj/content/post_3895375.html))
+
+  English (LAE-Intel translation): The Bureau has formulated the Several Measures on Optimising Planning Management to Support High-Quality Development of the Low-Altitude Economy (Trial), hereby printed for implementation. … In territorial spatial plans, coordinate low-altitude infrastructure land layout and advance preparation of Zhuhai’s low-altitude take-off/landing-point layout plan. … The Measures take effect from the date of printing and remain valid for three years.
+  :::
+
+- []{#press-item-2026-04-01-longgang .press-item}**1 Apr 2026 · Longgang District Development and Reform Bureau (深龙发改规〔2026〕1号; signed 18 Mar; published 19 Mar):** Longgang revises *Several Measures on Supporting High-Quality Development of the Low-Altitude Economy Industry* (effective 1 Apr 2026 for three years; repeals 深龙工信规〔2023〕14号). [Link](https://www.lg.gov.cn/gkmlpt/content/12/12691/post_12691499.html)
+  - What's new: Updated district support package covering tech renovation, take-off/landing network and test-base subsidies, R&D platforms, standards participation, manned / cargo routes, talent and industry funds. Aims to be a LAE industry-ecosystem demonstration district.
+  - Status: Officially confirmed district measures. Not flight permissions.
+  - Read instead: [Guangming district measures](#press-item-2025-12-27-guangming).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「《深圳市龙岗区关于支持低空经济产业高质量发展的若干措施（修订）》经区政府审议通过,现予印发,请遵照执行。」…「将龙岗区率先打造成为低空经济产业生态建设示范区」…「构建由大型起降枢纽、中型起降场、小型起降点组成的多层次、多场景起降网络」…「本措施自2026年4月1日起施行，有效期3年。原《龙岗区关于促进低空经济产业发展的若干措施》（深龙工信规〔2023〕14号）同时废止。」]{lang="zh-Hans"} ([source](https://www.lg.gov.cn/gkmlpt/content/12/12691/post_12691499.html))
+
+  English (LAE-Intel translation): The revised Several Measures of Longgang District, Shenzhen, on Supporting High-Quality Development of the Low-Altitude Economy Industry have been deliberated and adopted by the district government and are hereby printed. … Aim to take the lead in building Longgang into a demonstration district for LAE industrial-ecosystem construction. … Build a multi-tier, multi-scene take-off/landing network of large hubs, medium fields and small points. … The Measures take effect from 1 April 2026 for three years; the prior Longgang measures (深龙工信规〔2023〕14号) are repealed concurrently.
+  :::
+
+
+
+## 2026-03 {#press-2026-03}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-03-04-uom .press-item}**4 Mar 2026 · Civil Aviation Administration of China (Announcement 2026 No. 5):** CAAC sets network-style remote-identification requirements for civil UAS systems via the UOM platform; from 1 May 2026 newly produced/sold civil UAS must meet GB 46750-2025 with automatic continuous transmission to UOM and no off switch. [Link](https://www.caac.gov.cn/XXGK/XXGK/TZTG/202603/P020260306730349409250.pdf)
+  - What's new: Pre-1 May stock: firmware upgrade where possible; otherwise manufacturers must publish retrofit-module schemes and complete retrofit by 1 Nov 2026. CAAC will publish UOM-connected models. Distinct from the still-draft ATM Rules.
+  - Status: In-force CAAC announcement implementing existing regulations / national standard. Not Hong Kong law.
+  - Read instead: Dates / Tracker: UOM / Mainland RID; [OFCA 1.4 GHz UAS (Private) Licence](#press-item-2025-10-27-uas-licence) (different instrument class).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「根据《无人驾驶航空器飞行管理暂行条例》《民用无人驾驶航空器运行安全管理规则》《民用无人驾驶航空器系统运行识别规范》（GB46750-2025）有关要求，现将民用无人驾驶航空器系统网络式运行识别要求和相关事项公告如下：」…「自2026年5月1日起，所有民用无人驾驶航空器系统（以下简称“无人机”）生产厂家应确保其生产、销售的无人机具备运行识别发送功能且技术规范完全符合GB46750-2025的要求。运行识别信息由无人机直接向UOM发送，无人机应在依靠自身动力飞行的全过程中保持运行识别信息的自动持续发送，且不应具备关闭发送的功能。」…「中国民用航空局 2026年3月4日」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/TZTG/202603/P020260306730349409250.pdf))
+
+  English (LAE-Intel translation): Pursuant to the Interim Regulations on UAS Flight Management, the Rules on Safe Operation Management of Civil UAS, and the Civil UAS System Remote Identification Specification (GB 46750-2025), CAAC hereby announces network-style remote-identification requirements for civil UAS systems. … From 1 May 2026, all manufacturers of civil UAS systems shall ensure UAS they produce and sell have remote-identification sending fully conforming to GB 46750-2025. Identification information shall be sent directly to UOM; the UAS shall keep automatic continuous transmission throughout flight under its own power and shall not have a function to switch sending off. … Civil Aviation Administration of China, 4 March 2026.
+  :::
+
+
 ## 2026-02 {#press-2026-02}
 
 [↑ Back to timeline](#press-timeline){.press-back}
@@ -417,6 +524,30 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ## 2026-01 {#press-2026-01}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+
+- []{#press-item-2026-01-07-sz-std .press-item}**7 Jan 2026 · Shenzhen Administration for Market Regulation / DRC (深市监联〔2025〕40号; signed 15 Dec 2025):** Shenzhen issues *Shenzhen Low-Altitude Economy Standard System 2.0 and Standardisation Roadmap*. [Link](https://amr.sz.gov.cn/gkmlpt/content/12/12590/post_12590418.html)
+  - What's new: City-level standard-system planning document to systematise LAE standardisation; PDF annex. Complements municipal infrastructure planning with a standards / roadmap layer rather than new flight rules.
+  - Status: Officially confirmed planning / standards document.
+  - Read instead: [Shenzhen TOL layout](#press-item-2025-10-29-sz-layout).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为加强低空经济标准化工作系统谋划，加快构建满足低空经济高质量发展需求的标准体系，深圳市市场监督管理局、深圳市发展和改革委员会指导编制了《深圳市低空经济标准体系2.0及标准化路线规划》。现印发给你们，请结合实际，抓好贯彻落实。」…「深圳市市场监督管理局 深圳市发展和改革委员会 2025年12月15日」]{lang="zh-Hans"} ([source](https://amr.sz.gov.cn/gkmlpt/content/12/12590/post_12590418.html))
+
+  English (LAE-Intel translation): To strengthen systematic planning of LAE standardisation and accelerate building a standard system that meets high-quality LAE development needs, Shenzhen AMR and DRC have guided preparation of the Shenzhen Low-Altitude Economy Standard System 2.0 and Standardisation Roadmap. It is hereby printed; implement it in light of actual conditions. … Shenzhen Administration for Market Regulation and Shenzhen Development and Reform Commission, 15 December 2025.
+  :::
+
+- []{#press-item-2026-01-04-shanghai .press-item}**4 Jan 2026 · Shanghai Municipal Commission of Economy and Informatisation (沪经信装〔2025〕893号; signed 26 Dec 2025):** Shanghai prints *Several Measures on Linking the Yangtze River Delta to Accelerate Building a Low-Altitude Economy Advanced Manufacturing Cluster*. [Link](https://www.shanghai.gov.cn/gwk/search/content/8027f2e569394d57b39986db618212ff)
+  - What's new: Mainland comparator manufacturing-cluster package (eVTOL / industrial UAS / new-energy GA assembly and key-tech support, pilot-test platforms, airworthiness incentives, Yangtze Delta coordination). No market-size figures quoted.
+  - Status: Officially confirmed municipal measures. Not a GBA corridor instrument.
+  - Read instead: Mainland manufacturing-cluster comparator.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为安全有序推进低空经济产业高质量发展，培育壮大新兴产业，链接长三角建设低空经济先进制造业集群，市经济信息化委、虹桥国际中央商务区管委会、浦东新区政府、长宁区政府、闵行区政府、金山区政府联合制定了《上海市关于链接长三角加快建设低空经济先进制造业集群的若干措施》。现印发给你们，请认真贯彻执行。」…「上海市经济和信息化委员会 … 2025年12月26日」]{lang="zh-Hans"} ([source](https://www.shanghai.gov.cn/gwk/search/content/8027f2e569394d57b39986db618212ff))
+
+  English (LAE-Intel translation): To advance safe and orderly high-quality development of the LAE industry, grow emerging industries, and link the Yangtze River Delta to build an LAE advanced manufacturing cluster, Shanghai Economy and Informatisation Commission, Hongqiao CBD Administration, and the Pudong, Changning, Minhang and Jinshan district governments jointly formulated the Several Measures on Linking the Yangtze River Delta to Accelerate Building a Low-Altitude Economy Advanced Manufacturing Cluster. They are hereby printed; implement them earnestly. … Shanghai Municipal Commission of Economy and Informatisation … 26 December 2025.
+  :::
+
 
 - []{#press-item-2026-01-27-gba .press-item}**27 Jan 2026 · info.gov.hk — GBA Development Office / HKSTP:** GBA Office holds a Shenzhen seminar on cross-boundary low-altitude applications; Commissioner says HKSAR will publish the Action Plan this year. [Link](https://www.info.gov.hk/gia/general/202601/27/P2026012700312.htm) · [中文](https://www.info.gov.hk/gia/general/202601/27/P2026012700308.htm)
   - What's new: Official CMAB/GBA Office framing of cross-boundary routes, management systems and eVTOL high-end travel as discussion / opportunity topics. Restates Sandbox X already launched and Action Plan to be issued in 2026 — still text OPEN. No corridor flights evidenced.
@@ -464,6 +595,17 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
   :::
 
+- []{#press-item-2025-12-27-guangming .press-item}**27 Dec 2025 · Guangming District Development and Reform Bureau (深光发改规〔2025〕2号; published 30 Dec; effective 9 Jan 2026):** Guangming issues *Several Measures on Promoting High-Quality Development of the Low-Altitude Economy*. [Link](https://www.szgm.gov.cn/xxgk/xqgwhxxgkml/zcfg_116521/qbmgfxwj/content/post_12576185.html)
+  - What's new: District package with TC/PC/AC and OC rewards for eVTOL and large/medium UAS (with annual caps), capacity expansion and infrastructure subsidies, logistics and manned route incentives. Subsidy instrument — not flight permissions or corridor evidence.
+  - Status: Officially confirmed district measures.
+  - Read instead: [Longgang revise](#press-item-2026-04-01-longgang).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「《深圳市光明区促进低空经济高质量发展若干措施》已经区政府同意，现予印发，请遵照执行。」…「取得eVTOL航空器型号合格证（TC）、生产许可证（PC）、适航证（AC）的，分别奖励500万元、500万元、150万元」…「本措施由深圳市光明区发展和改革局负责解释，自2026年1月9日起施行，有效期3年。」]{lang="zh-Hans"} ([source](https://www.szgm.gov.cn/xxgk/xqgwhxxgkml/zcfg_116521/qbmgfxwj/content/post_12576185.html))
+
+  English (LAE-Intel translation): The Several Measures of Guangming District, Shenzhen, on Promoting High-Quality Development of the Low-Altitude Economy have been agreed by the district government and are hereby printed. … Entities obtaining an eVTOL type certificate (TC), production certificate (PC) or airworthiness certificate (AC) are rewarded RMB 5 million, RMB 5 million and RMB 1.5 million respectively. … The Measures are interpreted by Guangming DRC and take effect from 9 January 2026 for three years.
+  :::
+
 - []{#press-item-2025-12-27-cal .press-item}**27 Dec 2025 · NPC Standing Committee / CAAC:** Revised *Civil Aviation Law of the PRC* adopted; effective 1 July 2026; strengthens civil UAS management provisions. [Link](https://www.caac.gov.cn/XWZX/MHYW/202512/t20251227_229595.html) · [English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html) · [law text](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html)
   - What's new: Top-level Mainland statute update supporting low-altitude economy institutional measures and clarifying UAS airworthiness / unique product ID expectations (with statutory exceptions). Comparator for HK Cap. 448 / Cap. 448G discussions — not Hong Kong law.
   - Status: Officially confirmed Mainland statute; effective 1 Jul 2026.
@@ -474,6 +616,30 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
   [「全国人大常委会会议12月27日表决通过新修订的民用航空法，自2026年7月1日起施行。」…「加强对民用无人驾驶航空器的管理，新修订的民用航空法明确，从事民用无人驾驶航空器的设计、生产、进口、维修和飞行活动，应当按照国家有关规定向国务院民用航空主管部门申请取得适航许可，按照规定无需取得适航许可的除外。从事民用无人驾驶航空器生产的机构应当按照国家有关规定为其生产的无人驾驶航空器设置唯一产品识别码。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XWZX/MHYW/202512/t20251227_229595.html))
   :::
+
+
+- []{#press-item-2025-12-22-ndrc1676 .press-item}**22 Dec 2025 · National Development and Reform Commission (发改低空〔2025〕1676号; published 26 Dec):** NDRC issues *Trial Statistical Classification of the Low-Altitude Economy and Its Core Industries*. [Link](https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html) · [gov.cn](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm)
+  - What's new: National classification / boundary instrument: **4** major classes (manufacturing; operations; infrastructure and information services; supporting industries), **23** medium and **65** small classes. **Not** an NBS/NDRC 规模 or value-added statistical release — classification only. Later referenced by Qianhai measures and the Guangdong ordinance draft.
+  - Status: Officially confirmed classification instrument. Scale / 增加值 release under 1676号 still OPEN.
+  - Read instead: Tracker: NBS/NDRC scale under 1676号 (OPEN).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为明确低空经济概念和范畴，明晰产业边界，根据低空经济阶段性特征和重点领域、重点环节，按照统计工作相关规定，编制形成《低空经济及其核心产业统计分类（试行）》。现印发你们，请按此执行。」…「国家发展改革委 2025年12月22日」…「低空经济是依托低空航空活动带动相关产业创新和场景应用形成的综合性经济形态。本分类将低空经济范围确定为：01 低空制造业、02 低空运营业、03 低空基建与信息服务业、04 低空配套业等 4 个大类。」]{lang="zh-Hans"} ([source](https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html))
+
+  English (LAE-Intel translation): To clarify the concept and scope of the low-altitude economy and delineate industry boundaries, NDRC has prepared the Trial Statistical Classification of the Low-Altitude Economy and Its Core Industries in light of stage characteristics and key fields/links and in accordance with statistical work rules. It is hereby printed; implement accordingly. … NDRC, 22 December 2025. … The low-altitude economy is a comprehensive economic form formed by innovation and scene applications in related industries driven by low-altitude aviation activities. This classification sets the LAE scope as four major classes: 01 manufacturing; 02 operations; 03 infrastructure and information services; 04 supporting industries.
+  :::
+
+- []{#press-item-2025-12-12-caac-ac .press-item}**12 Dec 2025 · Civil Aviation Administration of China (Aircraft Airworthiness Certification Department; portal 15 Dec; comment close 31 Dec):** CAAC seeks comment on draft ACs *Airworthiness Standards for Restricted-Category UAS* and *Airworthiness Standards for Powered-Lift Aircraft*. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202512/t20251215_229408.html)
+  - What's new: Two draft advisory circulars to guide type certification for restricted-category UAS systems and powered-lift aircraft. Draft ACs only — not final airworthiness rules.
+  - Status: Officially confirmed consultation. Draft only.
+  - Read instead: Dates / Tracker: CAAC airworthiness; eVTOL / powered-lift TC pathway.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为更好指导和规范限用类无人驾驶航空器系统和动力提升航空器型号合格审定工作，结合多个型号合格审定实践经验，民航局航空器适航审定司组织编制了咨询通告《限用类无人驾驶航空器系统适航标准（征求意见稿）》和《动力提升航空器适航标准（征求意见稿）》，现征求公众意见。」…「请于2025年12月31日前……民航局航空器适航审司 2025年12月12日」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202512/t20251215_229408.html))
+
+  English (LAE-Intel translation): To better guide and standardise type certification of restricted-category UAS systems and powered-lift aircraft, and drawing on multiple type-certification practice cases, CAAC’s Aircraft Airworthiness Certification Department has prepared draft advisory circulars on Airworthiness Standards for Restricted-Category UAS Systems and Airworthiness Standards for Powered-Lift Aircraft, now open for public comment. … Please submit comments by 31 December 2025. … CAAC Aircraft Airworthiness Certification Department, 12 December 2025.
+  :::
+
 
 ## 2025-11 {#press-2025-11}
 
@@ -490,9 +656,35 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   [「低空經濟「監管沙盒X」啟動禮今日（十一月二十四日）舉行……當中的 「X」代表擴展 (extended) 和增值 (extra)，是升級版的監管沙盒，旨在處理更複雜的場景，例如跨境低空無人機、可載人航空器和綜合運營平台等。」…「我們期望繼續和業界諮詢並蒐集不同意見，在明年年底前可草擬發展低空經濟規劃行動綱領」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
   :::
 
+
+- []{#press-item-2025-11-03-caac-bio .press-item}**3 Nov 2025 · Civil Aviation Administration of China (Aircraft Airworthiness Certification Department; portal 4 Nov; comment close 21 Nov):** Five-draft industry-standards package including civil UAS cargo packaging requirements and service guide for human biological samples. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202511/t20251104_229033.html)
+  - What's new: Standards drafts for UAS carriage of human biological samples (packaging + service guide), plus other CAAC industry standards. Mainland comparator for medical / sample logistics scenes. Draft standards only.
+  - Status: Officially confirmed consultation. Draft only.
+  - Read instead: Dates / Tracker: UAS medical/logistics scenes; CAAC standards stream.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「按照民航行业标准编制计划，我司组织起草了《民用无人驾驶航空器货物运输包装要求 人类生物样本（征求意见稿）》、《民用无人驾驶航空器人类生物样本运输服务指南（征求意见稿）》……五项民航行业标准……意见征集日期截至11月21日」…「民航局航空器适航审定司 2025年11月3日」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202511/t20251104_229033.html))
+
+  English (LAE-Intel translation): Under the civil aviation industry standards programme, the department has drafted five CAAC industry standards including Civil UAS Cargo Transport Packaging Requirements — Human Biological Samples (draft) and Civil UAS Human Biological Sample Transport Service Guide (draft). … Comment period closes 21 November. … CAAC Aircraft Airworthiness Certification Department, 3 November 2025.
+  :::
+
+
 ## 2025-10 {#press-2025-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+
+- []{#press-item-2025-10-29-sz-layout .press-item}**29 Oct 2025 · Shenzhen Planning and Natural Resources Bureau / DRC / Transport Bureau:** Shenzhen jointly issues *Layout Plan for Low-Altitude Aircraft Take-off and Landing Facilities (2026–2035)*. [Link](https://www.sz.gov.cn/cn/xxgk/zfxxgj/ghjh/csgh/zxgh/content/post_12470231.html) · [plan text republication](https://economy.southcn.com/node_e13b7c1f8b/7f6a8ab1d1.shtml)
+  - What's new: City planning announcement with PDF annex. Corroborating Southern Media accounts describe a “56 hubs + 1,500 endpoint take-off/landing points” overall layout and near-term priority of 13 hubs. Planning layout — not operational authorisations or evidenced cross-boundary flights. Detailed numeric layout quoted from Southern Media republication alongside the official issuance notice.
+  - Status: Officially confirmed issuance; layout figures corroborated via republication. Corridor not evidenced.
+  - Read instead: [Dongguan 349N](#press-item-2026-05-20-dongguan).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「《深圳市低空航空器起降设施布局规划（2026—2035年）》已经市政府同意，现予以印发。」…「深圳市规划和自然资源局 深圳市发展和改革委员会 深圳市交通运输局 2025年10月29日」]{lang="zh-Hans"} ([source](https://www.sz.gov.cn/cn/xxgk/zfxxgj/ghjh/csgh/zxgh/content/post_12470231.html))
+
+  English (LAE-Intel translation): The Shenzhen Layout Plan for Low-Altitude Aircraft Take-off and Landing Facilities (2026–2035) has been agreed by the municipal government and is hereby printed. … Shenzhen Planning and Natural Resources Bureau, Development and Reform Commission, and Transport Bureau, 29 October 2025.
+  :::
+
 
 - []{#press-item-2025-10-27-uas-licence .press-item}**27 Oct 2025 · Communications Authority / OFCA:** CA launches the Unmanned Aircraft System (Private) Licence assigning the 1.4 GHz (1430–1444 MHz) band for Sandbox UAS radiocommunications. [Link](https://www.info.gov.hk/gia/general/202510/27/P2025102700178.htm) · [中文](https://www.info.gov.hk/gia/general/202510/27/P2025102700172.htm) · [OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)
   - What's new: Opens dedicated UAS spectrum licensing to LAE Regulatory Sandbox participants (CAD flight-path approval required). Aligns channel plan with Mainland 1.4 GHz arrangement (per OFCA materials). Later restated by SCED LegCo panel (6 Oct 2026) — this is the launch primary.
@@ -504,3 +696,26 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
   [「二○二五年《施政報告》宣布，政府將推展核心基建設施，包括推出專用頻譜，以推動香港成為低空創新應用的核心樞紐。在無人機（專用）牌照制度下，牌照持有人可獲指配1430 – 1444 兆赫頻帶（1.4吉赫頻帶）作為專用頻譜，用於設置、維持及操作用於營運無人機系統的無線電通訊裝置」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202510/27/P2025102700172.htm))
   :::
+
+- []{#press-item-2025-10-23-caac-ga .press-item}**23 Oct 2025 · Civil Aviation Administration of China (Transport Department; comment close 22 Nov):** CAAC opens consultation on draft *General Aviation Operations Management Regulations*, revising CCAR-290-R3 in support of GA and LAE rulemaking alongside the Civil Aviation Law revision. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202510/t20251023_228940.html)
+  - What's new: Draft departmental regulation reframing GA business licensing toward broader GA operations management. Draft only.
+  - Status: Officially confirmed consultation. Draft only. Not Hong Kong law.
+  - Read instead: [Civil Aviation Law revise](#press-item-2025-12-27-cal).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为加强通用航空和低空经济规章制度体系建设，促进通用航空和低空经济健康安全发展，推进民航法治建设，配合《民航法》修订，按照民航局立法工作安排，在前期征求和吸纳行业及相关部门意见后，民航局运输司修订完善了规章《通用航空经营许可管理规定》（CCAR-290-R3），形成《通用航空经营管理规定》（征求意见稿），现面向社会公开征求意见。」…「请于2025年11月22日前……民航局运输司 2025年10月23日」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202510/t20251023_228940.html))
+
+  English (LAE-Intel translation): To strengthen the GA and LAE rules system, promote healthy and safe GA and LAE development, advance civil-aviation rule of law, and coordinate with revision of the Civil Aviation Law, CAAC’s Transport Department has revised the departmental regulation on GA Business Licensing Management (CCAR-290-R3) into a draft General Aviation Operations Management Regulation, now open for public comment. … Please comment by 22 November 2025. … CAAC Transport Department, 23 October 2025.
+  :::
+
+- []{#press-item-2025-10-13-gd16 .press-item}**13 Oct 2025 · General Office of the People’s Government of Guangdong Province (粤办函〔2025〕268号):** Guangdong issues *Several Measures of Guangdong Province on Supporting High-Quality Development of the Low-Altitude Economy* (16 clauses; effective from release for 3 years). [Link](https://www.gd.gov.cn/gkmlpt/content/4/4788/post_4788687.html)
+  - What's new: Provincial support package: airspace release and flight-service platforms; R&D; airworthiness capacity; infrastructure and urban air mobility (GZ/SZ/ZH to pilot intra- and inter-city passenger routes and explore GBA cross-boundary UAS logistics); data and standards; finance and talent. Cross-boundary language is exploration / support — not evidenced SZ–HK operational corridor. No market-size figures quoted.
+  - Status: Officially confirmed provincial measures. Corridor not evidenced as operational.
+  - Read instead: Tracker: SZ–HK corridor (not evidenced); [Shenzhen TOL layout](#press-item-2025-10-29-sz-layout).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「《广东省支持低空经济高质量发展若干措施》已经省人民政府同意，现印发给你们，请结合实际认真贯彻执行。」…「支持广州、深圳、珠海先行先试，在确保安全的前提下，稳步开通市内和城际低空客运航线，探索制定低空空域交通规则和大湾区跨境无人机物流配送。」…「本措施支持范围包括在我省开展低空经济业务的企业和机构，自发布之日起施行，有效期3年。」…「省政府办公厅 2025年10月13日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4788/post_4788687.html))
+
+  English (LAE-Intel translation): The Several Measures of Guangdong Province on Supporting High-Quality Development of the Low-Altitude Economy have been agreed by the provincial people’s government and are hereby printed; implement them earnestly in light of actual conditions. … Support Guangzhou, Shenzhen and Zhuhai in taking the lead: on the premise of safety, steadily open intra-city and inter-city low-altitude passenger routes, and explore formulating low-altitude airspace traffic rules and GBA cross-boundary UAS logistics delivery. … The Measures cover enterprises and institutions conducting LAE business in the province, take effect from the date of release, and remain valid for three years. … General Office of the Provincial Government, 13 October 2025.
+  :::
+
