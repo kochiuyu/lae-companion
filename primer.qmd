@@ -18,7 +18,7 @@ Plain-language scope for DOTE5891. Definitions live in the [Glossary](glossary.q
 
 ## Drones vs eVTOL
 
-- **SUA / drones:** Hong Kong’s Cap. 448G term is **small unmanned aircraft (SUA)** — unmanned aircraft not more than **150 kg**. “Drone” in everyday speech is not a Cap. 448G synonym ([Glossary · vehicles](glossary.qmd#vehicles-and-operations)).
+- **SUA / drones:** Hong Kong’s [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) term is **small unmanned aircraft (SUA)** — unmanned aircraft not more than **150 kg**. “Drone” in everyday speech is not a Cap. 448G synonym ([Glossary · vehicles](glossary.qmd#vehicles-and-operations)).
 - **eVTOL:** industry label for electric vertical take-off and landing craft. In Hong Kong, passenger-carrying / heavy types sit above the SUA ceiling and are treated as **unconventional aircraft** pending dedicated rules — **no dedicated Hong Kong eVTOL statute yet** ([Glossary](glossary.qmd#vehicles-and-operations); [Official status](tracker.qmd)).
 - Weight, line-of-sight, and permission ladders are on the Glossary diagrams, not repeated here.
 
@@ -42,7 +42,7 @@ Plain-language scope for DOTE5891. Definitions live in the [Glossary](glossary.q
 
 - Core course setting: Hong Kong and the Greater Bay Area, with EU/US/NASA-style comparators on [Course overview](overview.qmd) and [Readings](readings.qmd).
 - Hong Kong has an active policy track (Working Group, sandboxes, Cap. 448G / ACs) — see [Who decides what?](regulators.qmd) and [Timeline](dates.qmd).
-- **Regulatory Sandbox ≠ Sandbox X.** Do not blend their counts ([Official status](tracker.qmd)).
+- **Regulatory Sandbox ≠ [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).** Do not blend their counts ([Official status](tracker.qmd)).
 - The Shenzhen–Hong Kong / GBA **cross-boundary corridor is not operational** on the evidence tracked here ([Official status](tracker.qmd); [Timeline](dates.qmd)).
 - If you see **~HK$350 billion by 2050**, that is an **Our Hong Kong Foundation** projection, **not** a government figure ([Official status](tracker.qmd); [Glossary](glossary.qmd)).
 

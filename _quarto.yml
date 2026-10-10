@@ -5,6 +5,7 @@ project:
   render:
     - index.qmd
     - overview.qmd
+    - howto.qmd
     - primer.qmd
     - regulators.qmd
     - glossary.qmd
@@ -26,6 +27,8 @@ website:
         menu:
           - href: overview.qmd
             text: Course overview
+          - href: howto.qmd
+            text: How to use this site
           - href: primer.qmd
             text: What is LAE?
           - href: regulators.qmd

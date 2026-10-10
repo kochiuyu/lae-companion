@@ -57,7 +57,7 @@ Titles match [Readings](readings.qmd).
 **Before you go**
 
 - How to separate CAPEX, fixed OPEX, and activity-related variable cost.
-- Unit-cost measures you will use: CASK and cost per mission-kilometre.
+- Unit-cost measures you will use: [CASK](glossary.qmd#business-and-economics) and cost per mission-kilometre.
 - Breakeven volume and how price, load factor, and utilization move the numbers.
 - Revenue-model choices (pay-per-use, subscription, availability, complementary) and weather as a planning risk.
 
@@ -133,7 +133,7 @@ Titles match [Readings](readings.qmd).
 **Before you go**
 
 - How regulation can be part of competitive strategy (value of earlier readiness).
-- Hong Kong’s risk-based approach for small unmanned aircraft and the role of Sandbox X.
+- Hong Kong’s risk-based approach for small unmanned aircraft and the role of [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).
 - Permissions for advanced operations (including BVLOS), safety cases, and compliance investment.
 - Digital traffic management (U-space/UTM) and building a phased regulatory roadmap.
 

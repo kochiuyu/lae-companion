@@ -1,0 +1,36 @@
+---
+title: "How to use this site"
+subtitle: "A short path for first-time learners"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+Few steps. Full definitions stay on [Glossary](glossary.qmd); citeable status stays on [Official status](tracker.qmd).
+
+## Start the week
+
+- [Lectures](lectures.qmd) — slide PDFs and takeaways  
+- [Readings](readings.qmd) — documents by week  
+- Map of all twelve weeks: [Course overview](overview.qmd)
+
+## Learn the vocabulary (short)
+
+- [What is LAE?](primer.qmd) — plain-language scope  
+- [Who decides what?](regulators.qmd) — one-line regulator roles  
+- First-use shortcuts: [Sandbox X](glossary.qmd#hong-kong-institutions-and-law) (advanced trial programme, ≠ first Sandbox); [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) (HK small unmanned aircraft Order); [CASK](glossary.qmd#business-and-economics) (cost per available seat-kilometre — lecture tool, not a data series)
+
+## Check what you may cite
+
+- [Official status](tracker.qmd) — [OPEN]{.status-chip .status-open} / [WATCH]{.status-chip .status-watch} / [settled]{.status-chip .status-settled} labels  
+- [Timeline](dates.qmd) — dated instruments  
+- [Glossary](glossary.qmd) — terms and diagrams  
+
+## Optional later
+
+- [Companies & sectors](landscape.qmd) — market map (company claims ≠ facts)  
+- [Government news](news.qmd) · [Business news](industry.qmd) — dated updates  
+
+No Blackboard admin on this companion.

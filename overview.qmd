@@ -18,7 +18,7 @@ Also on this site: [Readings](readings.qmd) · [Lectures](lectures.qmd)
 - Economics and business strategy of the low-altitude economy (LAE): drones, eVTOL, vertiports, U-space/UTM, BVLOS, and related finance, insurance, certification, and platform services.
 - Core setting: Hong Kong and the Greater Bay Area, with comparators from NASA, AiRMOUR, EASA/U-space, FAA/AAM, and other advanced air mobility frameworks.
 - Quantitative and managerial: turn LAE use cases into demand forecasts, unit economics, infrastructure breakeven, partnership contracts, regulatory roadmaps, airspace mechanisms, ESG/social-license strategies, risk registers, and investment recommendations.
-- Weekly tools include NPV, value of time, generalized cost, elasticity, HHI, CASK, CPMK, TAM/SAM/SOM, barrier haircuts, Monte Carlo sensitivity, Pigovian tolls and taxes, and network-scaling formulas.
+- Weekly tools include NPV, value of time, generalized cost, elasticity, HHI, [CASK](glossary.qmd#business-and-economics), CPMK, TAM/SAM/SOM, barrier haircuts, Monte Carlo sensitivity, Pigovian tolls and taxes, and network-scaling formulas.
 - Capstone: integrate demand, cost, infrastructure, regulation, airspace, sustainability, and risk into one coherent business or policy strategy for a commercially viable, socially acceptable, policy-consistent, and scalable HK/GBA service.
 
 ## Objectives

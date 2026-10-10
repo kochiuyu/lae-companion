@@ -41,7 +41,7 @@ Open, watch, and settled items as of 6 Oct 2026. Detailed source tables follow.
 | Hong Kong–Kazakhstan low-altitude MoU | [OPEN]{.status-chip .status-open} | Secretary for Transport and Logistics speech, 10 Sep 2026, attests the exchange on 9 Sep ([GIA](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm)). | The full MoU document (20 Sep note). |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-**Action Plan on Developing Low-Altitude Economy** — *Superseded timing (Nov 2025 framing). Latest: WG still formulating, no new date (STL 2026-10-02; LegCo [CB(2)927/2026(03)](https://www.legco.gov.hk/yr2026/cn/panels/edev/papers/edev20260707cb2-927-3-c.pdf), 2026-07-07). Status OPEN.* English: “We will continue to engage with the industry and gather diverse perspectives to enable the drafting of the Action Plan on Developing Low-Altitude Economy by the end of next year. This will establish the foundational infrastructure for the top-level design of the entire low-latitude economy, providing the industry with a clear and forward-looking trajectory.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))\
+**Action Plan on Developing Low-Altitude Economy** — *Superseded timing (Nov 2025 framing). Latest: WG still formulating, no new date (STL 2026-10-02; LegCo [CB(2)927/2026(03)](https://www.legco.gov.hk/yr2026/cn/panels/edev/papers/edev20260707cb2-927-3-c.pdf), 2026-07-07). Status [OPEN]{.status-chip .status-open}.* English: “We will continue to engage with the industry and gather diverse perspectives to enable the drafting of the Action Plan on Developing Low-Altitude Economy by the end of next year. This will establish the foundational infrastructure for the top-level design of the entire low-latitude economy, providing the industry with a clear and forward-looking trajectory.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))\
 [「我們期望繼續和業界諮詢並蒐集不同意見，在明年年底前可草擬發展低空經濟規劃行動綱領，建構整個低空經濟頂層設計的基建設施，給業界清晰和具前瞻性的方向。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
 :::
 
@@ -81,8 +81,8 @@ Open, watch, and settled items as of 6 Oct 2026. Detailed source tables follow.
 | [Cap. 448G (SUA Order)](https://www.elegislation.gov.hk/hk/cap448G) | Full effect **2022-12-01**; Cat C ≤150 kg from **2025-07-18** | 2021–2025 | CE in Council | T1 |
 | [Civil Aviation Department (CAD)](https://www.cad.gov.hk/english/sua.html) | Cap.448G regulator; sandbox Advisory Circulars (ACs) (AC-013 / AC-017) | Ongoing | CAD | T1/T2 |
 | [Action Plan on Developing Low-Altitude Economy](https://www.policyaddress.gov.hk/2026/en/chapter3.html) | PA 2026 ¶139 *will formulate* (cross-boundary logistics trial flights ASAP; Smart Low-altitude TMS from **2028**; drafting of dedicated >150 kg unconventional-aircraft legislation to begin (PA ¶139) and be completed within 2027, then submitted to LegCo (indicator 35; STL 2026-10-02)); STL LegCo EDev Panel briefing **2026-10-02** restates WG still formulating (繼續全力制訂); LegCo EDev Panel paper [CB(2)927/2026(03)](https://www.legco.gov.hk/yr2026/cn/panels/edev/papers/edev20260707cb2-927-3-c.pdf) (2026-07-07, Chinese; EN counterpart not yet located) says the WG is drafting it; **text** [OPEN]{.status-chip .status-open} — not a gazette statute | 2026-09-16 / 2026-10-02 | CE / STL | T1/T2 |
-| Smart Low-altitude Traffic Management System | PA ¶139 + Annex indicator **34**: progressive implementation **from 2028** (TLB); not yet in force | 2026-09-16 | CE / TLB | T1 |
-| Unconventional aircraft >150 kg legislation | Dedicated legislation: drafting to begin (PA ¶139) and be completed within 2027, then submitted to LegCo (indicator 35; STL 2026-10-02); no Cap.448G amending instrument yet | 2026-09-16 | CE / TLB | T1 |
+| Smart Low-altitude Traffic Management System | [WATCH]{.status-chip .status-watch} · PA ¶139 + Annex indicator **34**: progressive implementation **from 2028** (TLB); not yet in force | 2026-09-16 | CE / TLB | T1 |
+| Unconventional aircraft >150 kg legislation | [WATCH]{.status-chip .status-watch} · Dedicated legislation: drafting to begin (PA ¶139) and be completed within 2027, then submitted to LegCo (indicator 35; STL 2026-10-02); no Cap.448G amending instrument yet | 2026-09-16 | CE / TLB | T1 |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
 **Working Group on Developing Low-altitude Economy** — English: “The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))\
@@ -209,9 +209,9 @@ Law Art. 258 defers UAS rules to State Council/CMC.
 
 | Item | Status | Date | Tier |
 |------|--------|------|------|
-| [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html) | Evidenced | 2024-05-21 | T1 |
-| [Shenzhen domestic blood UAS](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html) | Evidenced; **not** cross-border | 2024-01-19 | T1/T2 |
-| SZ–HK medical corridor **operational** | **NOT evidenced** ([TLB 2026-06-24](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html): planned/trial under Sandbox X) | 2026-06-24 | T1/T3 |
+| [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html) | [settled]{.status-chip .status-settled} | 2024-05-21 | T1 |
+| [Shenzhen domestic blood UAS](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html) | [settled]{.status-chip .status-settled} (**not** cross-border) | 2024-01-19 | T1/T2 |
+| SZ–HK medical corridor **operational** | [OPEN]{.status-chip .status-open} (not evidenced) ([TLB 2026-06-24](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html): planned/trial under Sandbox X) | 2026-06-24 | T1/T3 |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
 **粤府办〔2024〕6号** — [「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「2024年5月21日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
