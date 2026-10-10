@@ -4,7 +4,7 @@ as_of: "2026-10-10"
 page-layout: article
 ---
 
-Business and industry items on low-altitude economy use and development: delivery routes, eVTOL orders and test flights, funding, partnerships and launches, in Hong Kong, the Greater Bay Area and among key global players. Government and regulatory items stay on Press; official status stays on Tracker.
+Business and industry items on low-altitude economy use and development: delivery routes, eVTOL orders and test flights, funding, partnerships and launches, in Hong Kong, the Greater Bay Area and among key global players. Government and regulatory items stay on Government news; official status stays on Official status.
 
 ## How to read the tags
 
@@ -140,20 +140,20 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   [「过去三年，该机场低空飞行测试验证基地一期投入使用，已为广东省航空航天装备研究院、小鹏汇天、珠海天晴等9家低空经济企业提供无人机测试业务。」]{lang="zh-Hans"} ([source](https://pub-zhtb.hizh.cn/a/202610/07/AP6ac63451e4b0858d47781f98.html))
   :::
 
-- **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on Press, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
+- **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on Government news, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
   - Tag: Independently reported
   - Status: Sandbox X cross-boundary results still OPEN; Shenzhen–HK corridor not evidenced as operational.
-  - Read instead: [Press, 5 Oct 2026](news.qmd)
+  - Read instead: [Government news, 5 Oct 2026](news.qmd)
 
 ### September 2026 {#industry-2026-09}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
 
-- []{#industry-item-2026-09-21-keeta .industry-item}**21 Sep 2026 · HK01; TastyMoney:** Cross-reference: Keeta Drone flies from HKSTP to a smart locker at Chung On Estate, Ma On Shan — covered on Press. [Link](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630)
+- []{#industry-item-2026-09-21-keeta .industry-item}**21 Sep 2026 · HK01; TastyMoney:** Cross-reference: Keeta Drone flies from HKSTP to a smart locker at Chung On Estate, Ma On Shan — covered on Government news. [Link](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630)
   - Tag: Independently reported
   - What's new: TastyMoney reports it is the first drone delivery into a Hong Kong public housing estate.
   - Status: Regulatory Sandbox operations (not Sandbox X).
-  - Read instead: [Press, 21 Sep 2026](news.qmd)
+  - Read instead: [Government news, 21 Sep 2026](news.qmd)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「這是無人機配送服務首次進入香港公共屋邨」]{lang="zh-Hant"} ([source](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630))
@@ -172,17 +172,17 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   English (LAE-Intel translation): On 10 September, AutoFlight, Anhui Tianze Lingjie Aviation Co. ("Lingjie Aviation") and Wanjiang Financial Leasing Co. ("Wanjiang Leasing") formally implemented a three-party in-depth strategic co-operation agreement, including a purchase agreement between Lingjie Aviation and AutoFlight for 30 V2000CG CarryAll aircraft
   :::
 
-- []{#industry-item-2026-09-10-mous .industry-item}**10 Sep 2026 · SCMP; GIA (9 Sep):** Cross-reference: LAE MoUs exchanged at the Belt and Road Summit — covered on Press. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367033/hong-kong-signs-2-mous-greater-bay-area-partners-commercialise-aerial-technology)
+- []{#industry-item-2026-09-10-mous .industry-item}**10 Sep 2026 · SCMP; GIA (9 Sep):** Cross-reference: LAE MoUs exchanged at the Belt and Road Summit — covered on Government news. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367033/hong-kong-signs-2-mous-greater-bay-area-partners-commercialise-aerial-technology)
   - Tag: Independently reported
   - What's new: SCMP reports 2 MoUs with GBA partners; the GIA release lists the Working Group among signatories of seven MoUs with overseas counterparts and does not confirm the two GBA MoUs.
   - Status: MoUs, not binding agreements.
-  - Read instead: [Press, Sep 2026](news.qmd); [GIA](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm)
+  - Read instead: [Government news, Sep 2026](news.qmd); [GIA](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm)
 
 - []{#industry-item-2026-09-10-meituan-shanghai .industry-item}**10 Sep 2026 · Meituan newsroom; NBD; SCMP:** Meituan says its Shanghai West Bund low-altitude air network began commercial operations, with a McDonald’s brand-dedicated drone meal route. [Link](https://www.meituan.com/news/NN260911177010407) · [SCMP](https://www.scmp.com/tech/big-tech/article/3367482/cloudy-chance-big-macs-mcdonalds-and-meituan-launch-drone-route-shanghai)
   - Tag: Company-announced
   - What's new: Company says coverage includes Dream Center, Xuhui Riverside, Model Space and McDonald’s Longteng Avenue plaza; framed as Meituan’s second systematic city air network after Shenzhen. Brand counts and ~10-minute end-to-end timing are company figures. Municipal industry-scale targets on the same page are not carried.
   - Status: Shanghai commercial operations as announced by Meituan; not a new Hong Kong route.
-  - Read instead: [Who does what: Meituan Drone](landscape.qmd#firm-meituan-drone); [19 Dec 2025 低空航网 unveil](#industry-item-2025-12-19-meituan)
+  - Read instead: [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone); [19 Dec 2025 低空航网 unveil](#industry-item-2025-12-19-meituan)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「9月10日，美团无人机上海西岸低空航网正式投入运营，配送范围覆盖西岸梦中心、模速空间、麦当劳龙腾大道餐厅、徐汇滨江公共开放空间等核心区域。这是美团无人机继深圳之后，落地的第二张系统性城市航网。」]{lang="zh-Hans"}
@@ -192,10 +192,10 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   English (LAE-Intel translation): On 10 September, Meituan Drone’s Shanghai West Bund low-altitude air network formally entered operation, with delivery coverage of West Bund Dream Center, Model Space, McDonald’s Longteng Avenue restaurant, Xuhui Riverside public open space and other core areas. This is Meituan Drone’s second systematic city air network after Shenzhen. / The same day, Meituan Drone and McDonald’s also launched China’s first restaurant-brand-dedicated drone delivery route.
   :::
 
-- **4 Sep 2026 · 电商派:** Cross-reference: Meituan densifies its Shenzhen Longhua air network to 15 points — covered on Press and Who does what. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
+- **4 Sep 2026 · 电商派:** Cross-reference: Meituan densifies its Shenzhen Longhua air network to 15 points — covered on Government news and Companies & sectors. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
   - Tag: Independently reported
   - Status: Point counts are company figures via press.
-  - Read instead: [Press, 4 Sep 2026](news.qmd); [Who does what: Meituan Drone](landscape.qmd#firm-meituan-drone)
+  - Read instead: [Government news, 4 Sep 2026](news.qmd); [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone)
 
 ### August 2026 {#industry-2026-08}
 
@@ -205,7 +205,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Independently reported
   - What's new: EHang says it is the first public flight demonstration since Sandbox X pilot projects started in mid-August (company statement).
   - Status: A Sandbox X unconventional-aircraft project demonstration (KC Smart Mobility / Cyberport / EHang); not a passenger service.
-  - Read instead: [EHang (Chinese)](https://www.ehang.com/cn/news/1386.html); Tracker: Sandbox X
+  - Read instead: [EHang (Chinese)](https://www.ehang.com/cn/news/1386.html); Official status: Sandbox X
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「其自主研发的EH216-S无人驾驶载人电动垂直起降（eVTOL）航空器在香港数码港成功完成公开首飞。」]{lang="zh-Hans"} ([source](https://www.ehang.com/cn/news/1386.html))
@@ -228,7 +228,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 - []{#industry-item-2026-08-05-joby-q2 .industry-item}**5 Aug 2026 · Joby IR:** Cross-reference: Joby Q2 results restate Stage 5 Show & Verify progress, five aircraft flying and the Toyota manufacturing JV — company IR checkpoint, not a new launch. [Link](https://ir.jobyaviation.com/news-events/press-releases/detail/187/joby-reports-second-quarter-2026-financial-results)
   - Tag: Company-announced
   - Status: Stage 5 percentages, Dubai vertiport status and eIPP Texas passenger timing remain company expectations; not a type certificate or passenger launch.
-  - Read instead: [30 Jun 2026 Joby–Toyota JV](#industry-item-2026-06-30-joby-toyota); [Who does what: Joby](landscape.qmd)
+  - Read instead: [30 Jun 2026 Joby–Toyota JV](#industry-item-2026-06-30-joby-toyota); [Companies & sectors: Joby](landscape.qmd)
 
 - **3 Aug 2026 · Eve Air Mobility newsroom:** Eve says its engineering prototype completed a first partial transition flight. [Link](https://www.eveairmobility.com/eve-air-mobility-achieves-first-transition-flight-milestone-advancing-evtol-program-toward-wing-borne-flight/)
   - Tag: Company-announced
@@ -277,7 +277,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Company-announced
   - What's new: Alliance focuses on commercial-production groundwork and capacity for certification and demand (company). SEC materials describe JTAMPC ownership/board split; additional manufacturing/IP agreements remain to be negotiated.
   - Status: JV launch as announced; not a type certificate and not a firm aircraft order.
-  - Read instead: [Who does what: Joby](landscape.qmd)
+  - Read instead: [Companies & sectors: Joby](landscape.qmd)
 
 - **22 Jun 2026 · 人民财讯 via 证券时报网:** AutoFlight says its large eVTOLs feature in two of the four first-batch Sandbox X unconventional-aircraft projects. [Link](https://stcn.com/article/detail/3971515.html)
   - Tag: Company-announced
@@ -305,7 +305,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Company-announced
   - What's new: Explicitly an MoU — conceptualisation for large enterprise customers; no named pilot customer or launch date in the release. Complements Lalamove’s April Sandbox milestone without duplicating it. Chinese mirror OPEN.
   - Status: MoU, not a binding service launch.
-  - Read instead: [30 Apr 2026 Lalamove Sandbox milestone](#industry-item-2026-04-30-lalamove); [Who does what: Future Yixin](landscape.qmd#firm-future-yixin-aviation-technology-limited)
+  - Read instead: [30 Apr 2026 Lalamove Sandbox milestone](#industry-item-2026-04-30-lalamove); [Companies & sectors: Future Yixin](landscape.qmd#firm-future-yixin-aviation-technology-limited)
 
 ### May 2026 {#industry-2026-05}
 
@@ -347,7 +347,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Company-announced
   - What's new: Khaleej Times reports the same.
   - Status: An RTC programme entry is not an issued certificate; no GCAA primary retrieved.
-  - Read instead: [Who does what: Archer](landscape.qmd)
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
 
 - **6 May 2026 · AutoFlight newsroom:** AutoFlight says Jining Hi-tech Changkong signed a strategic and bulk-purchase framework agreement; first V2000CGF firefighting variant delivered. [Link](https://www.autoflight.com/zh/news/jining/)
   - Tag: Company-announced
@@ -373,7 +373,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Independently reported
   - What's new: HKSTP Chinese venue release quotes the demo before TLB/ITIB/LegCo/HKSTP witnesses under first-batch Sandbox with Future Yixin. Company claims >200 tests including >150 BVLOS, ~9 vs ~20 minutes, and up to ~40% lower per-delivery cost (company figures). Expansion to outlying islands / Northern Metropolis and SE Asia are aspirations, not launches. Distinct from Keeta Science Park–Tai Po elderly and Chung On routes. Official English none published (HKSTP Chinese-only page).
   - Status: Sandbox milestone showcase independently reported via HKSTP; company cost/time claims not upgraded. Regulatory Sandbox (not Sandbox X).
-  - Read instead: [Who does what: Future Yixin](landscape.qmd#firm-future-yixin-aviation-technology-limited)
+  - Read instead: [Companies & sectors: Future Yixin](landscape.qmd#firm-future-yixin-aviation-technology-limited)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「Lalamove 今日在運輸及物流局副局長廖振新先生、創新科技及工業局常任秘書長蔡傑銘先生……見證下，展示「低空經濟監管沙盒」物流配送的階段性成果：無人機由香港科學園載貨起飛，跨越吐露港及多棟建築物，最終精準降落到由香港科技園公司管理、大埔創新園醫療用品製造中心的天台」]{lang="zh-Hant"}
@@ -403,7 +403,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Officially confirmed
   - What's new: AECOM/AutoFlight/Chun Wo; China Travel Tours/AutoFlight/GBA LAE Alliance/CMHK/Esri; Geosys/FLYCAMHK/DEVB; KC Smart Mobility/Cyberport/EHang. Implementation depends on applicants accepting approved conditions.
   - Status: Sandbox X (not the Regulatory Sandbox).
-  - Read instead: Tracker: Sandbox X
+  - Read instead: Official status: Sandbox X
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
   English: “After review by the Working Group on Developing Low-altitude Economy (“WG”), a first batch of four UCA pilot projects will be included for implementation in Sandbox X.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf))
@@ -439,7 +439,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Independently reported
   - What's new: Reported plans: a SZ–HK cross-border logistics sandbox pilot and three routes to be tested first (Shekou–Tuen Mun, Man Kam To–Sheung Shui, inside the Loop).
   - Status: Plans only; no cross-border flight evidenced. Shenzhen–HK corridor not evidenced as operational.
-  - Read instead: [21经济网](https://www.21jingji.com/article/20260328/herald/973b0ec1559dfb075e3c3f6bef7b5a1c.html); Tracker: SZ–HK corridor
+  - Read instead: [21经济网](https://www.21jingji.com/article/20260328/herald/973b0ec1559dfb075e3c3f6bef7b5a1c.html); Official status: SZ–HK corridor
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「「深港低空跨境物流解決方案」正式發布，香港物流及供應鏈多元技術研發中心（LSCM）、工信部電子五所賽寶低空通航實驗室聯合披露關鍵進展：雙方已完成跨境數據互通、飛控平台對接等核心突破，計劃於2026年6月推出深港低空跨境物流監管沙盒試點」…「深圳將優先測試三條跨境無人機配送航線，包括蛇口—屯門航線、文錦渡—上水航線、河套合作區內部航線，預計將於年內啟航。」]{lang="zh-Hant"} ([source](https://www.wenweipo.com/a/202603/27/AP69c5cb01e4b0b49ad1b41cb6.html))
@@ -450,7 +450,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 - **11 Mar 2026 · Joby Aviation newsroom:** Joby says N547JX, the first of its FAA-conforming TIA fleet, has begun flight testing. [Link](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
   - Tag: Company-announced
   - Status: Not a type certificate.
-  - Read instead: [Who does what: Joby](landscape.qmd)
+  - Read instead: [Companies & sectors: Joby](landscape.qmd)
 
 - []{#industry-item-2026-03-09-skydrive-gcp .industry-item}**9 Mar 2026 · SkyDrive Inc.:** SkyDrive says it reached agreement with Japan’s JCAB on the General Certification Plan for the SD-05 type-certification process. [Link](https://skydrive.co.jp/en/news/17834/)
   - Tag: Company-announced
@@ -472,7 +472,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Company-announced
   - What's new: Archer says completing MoC unlocks remaining certification plans and a path toward Type Inspection Authorization “as soon as this year” (company expectation). FAA newsroom primary for this MoC milestone was not retrieved.
   - Status: Company-reported FAA process milestone — not a type certificate; not upgraded to Officially confirmed.
-  - Read instead: [Who does what: Archer](landscape.qmd)
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
 
 - **Mar 2026 · SEC EDGAR Form 6-K Exhibit 99.1 (EHang):** EHang says it delivered 221 eVTOL units in 2025 (215 EH216 series, 6 VT35). [Link](https://www.sec.gov/Archives/edgar/data/1759783/000119312526103021/d67855dex991.htm)
   - Tag: Company-announced
@@ -486,7 +486,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Independently reported
   - What's new: SCMP reports service officially began on 2 Mar 2026; Hong Kong Commercial Daily reports about 15 elderly people served initially. Trip-time claims are the company’s.
   - Status: Regulatory Sandbox route (not Sandbox X); official English OPEN.
-  - Read instead: [SCMP](https://www.scmp.com/video/hong-kong/3345836/keeta-launches-first-drone-meal-delivery-route-elderly-people-remote-rural-areas); [香港商報](https://www.hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html); [Who does what: Kangaroo Limited](landscape.qmd#firm-kangaroo-limited-meituan-keeta-drone)
+  - Read instead: [SCMP](https://www.scmp.com/video/hong-kong/3345836/keeta-launches-first-drone-meal-delivery-route-elderly-people-remote-rural-areas); [香港商報](https://www.hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html); [Companies & sectors: Kangaroo Limited](landscape.qmd#firm-kangaroo-limited-meituan-keeta-drone)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「Keeta Drone（美团无人机）与香港青少年服务处携手合作的“大埔汀角村无人机航线”今日（27日）正式启动，解决偏远乡郊长者送餐服务的三大困难，即路途远、人手缺及轮候长。」]{lang="zh-Hans"} ([source](https://www.keetadrone.com/blogs/news/meituan-drone-service-launches-science-park-tai-po-route-delivering-meals-to-elderly-living-alone-six-days-a-week))
@@ -517,7 +517,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Company-announced
   - What's new: Company says net proceeds are intended for certification, manufacturing, commercial-operations preparation and general corporate purposes. Offerings are subject to market conditions.
   - Status: Proposed offerings as announced; sizing is company-announced.
-  - Read instead: [Who does what: Joby](landscape.qmd)
+  - Read instead: [Companies & sectors: Joby](landscape.qmd)
 
 - **21 Jan 2026 · Zipline newsroom:** Zipline says it passed 2 million deliveries and raised more than US$600m, and is expanding to Houston and Phoenix. [Link](https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix)
   - Tag: Company-announced
@@ -557,7 +557,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Company-announced
   - What's new: Company frames the flight as validating medium- to long-range scenarios and deepening the Hefei partnership. Not a CAAC type certificate. Distinct from the Aug 2026 EH216-S Cyberport public flight and from FY2025 delivery counts.
   - Status: Public flight demonstration as announced by the company.
-  - Read instead: [Who does what: EHang](landscape.qmd#firm-ehang-holdings)
+  - Read instead: [Companies & sectors: EHang](landscape.qmd#firm-ehang-holdings)
 
 - []{#industry-item-2025-12-19-meituan .industry-item}**19 Dec 2025 · 证券时报 / stcn.com:** Meituan Drone unveils its “低空航网” air-network model, a docking airport and a new-generation drone. [Link](https://www.stcn.com/article/detail/3552556.html)
   - Tag: Independently reported
@@ -589,7 +589,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Officially confirmed
   - What's new: STL Mable Chan: Sandbox X handles more complex scenarios such as cross-boundary drones, passenger-carrying aircraft and integrated platforms. The Chinese release says 29 of the 38 first-batch Regulatory Sandbox projects had started.
   - Status: Sandbox X is separate from the Regulatory Sandbox; cross-boundary results OPEN.
-  - Read instead: Tracker: Regulatory Sandbox X
+  - Read instead: Official status: Regulatory Sandbox X
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
   English: “The launch event of the low-altitude economy "Regulatory Sandbox X" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
@@ -616,7 +616,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Tag: Company-announced
   - What's new: Company says tests at Al Ain / desert conditions were coordinated with GCAA, ITC and ADA. Distinct from the May 2026 UAE RTC pathway and from Hawthorne Airport control (Dec 2025) already on this page.
   - Status: In-country flight campaign and Launch Edition payments as announced by the company; not a type certificate.
-  - Read instead: [Who does what: Archer](landscape.qmd)
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
 
 - **3 Nov 2025 · BETA Technologies IR:** BETA says it priced its upsized IPO: 29,852,941 Class A shares at US$34.00. [Link](https://investors.beta.team/news-events/press-releases/detail/89/beta-technologies-inc-prices-upsized-initial-public-offering)
   - Tag: Company-announced

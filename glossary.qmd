@@ -662,7 +662,7 @@ Official Chinese form 航空交通管制. CAD AC-013_C §7.4(f).
 
 **corridor**  
 Kind: Industry usage  
-A defined low-altitude route volume used in policy and sandbox language (including cross-boundary concepts); a planned or trial corridor is not proof of an operating SZ–HK medical corridor. Sandbox X / TLB cross-boundary language; Tracker: corridor **operational** NOT evidenced.
+A defined low-altitude route volume used in policy and sandbox language (including cross-boundary concepts); a planned or trial corridor is not proof of an operating SZ–HK medical corridor. Sandbox X / TLB cross-boundary language; Official status: corridor **operational** NOT evidenced.
 
 **Government Flying Service (政府飛行服務隊)**  
 Kind: Official  

@@ -1,7 +1,7 @@
 ---
-title: "Tracker"
+title: "Official status"
 subtitle: "Official facts you may cite"
-as_of: "2026-10-04"
+as_of: "2026-10-11"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -9,6 +9,67 @@ page-layout: full
 ---
 
 Do not add 38 to the Sandbox X module counts. They are not the same programme.
+
+## Status board
+
+Compact board of items that are still open, under watch, or settled. Detailed source tables follow below. Status as of the 6 Oct 2026 note (folded from the retired Weekly notes page). Each line takes the latest dated statement on record.
+
+### Key to labels
+
+- Source tiers: T1 = official primary document; T2 = official secondary source or reputable report; T3 = industry or think-tank projection.
+- Status: [OPEN]{.status-chip .status-open} = still waiting; the official document or evidence has not appeared. [WATCH]{.status-chip .status-watch} = an official step is dated or pending; check it each week. [settled]{.status-chip .status-settled} = confirmed by an official source, with no step pending.
+- Boxes marked 官方中英文本 or 原文 hold the verbatim official text. Dated government and regulatory items stay on [Government news](news.qmd).
+
+### Where things stand
+
+
+| Item | Status | Latest official word | Still not fact |
+|------|--------|----------------------|----------------|
+| Action Plan on Developing Low-Altitude Economy | [OPEN]{.status-chip .status-open} | Secretary for Transport and Logistics to LegCo, 2 Oct 2026: the Working Group 「繼續全力制訂」 the plan this year ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)). Policy Address ¶139, 16 Sep 2026: “will formulate” ([Ch. III](https://www.policyaddress.gov.hk/2026/en/chapter3.html)). Earlier target: drafting by end-2026 ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)). | The published full text of the plan. |
+| Regulatory Sandbox X cross-boundary results | [OPEN]{.status-chip .status-open} | Transport and Logistics Bureau page, checked in the 6 Oct note: the Working Group “will announce the results in due course” ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). | Any results list. “Trial flights as early as possible” (Policy Address; Secretary for Transport and Logistics) and China Daily HK’s 5 Oct “Sandbox Connect” (Nansha gateway) framing are not results lists. |
+| Shenzhen–Hong Kong drone corridor | [OPEN]{.status-chip .status-open} (not evidenced) | Secretary for Commerce and Economic Development, 6 Oct 2026: the spectrum arrangement 「有助日後無人機跨境運作」, a forward-looking statement ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm)). | That a Shenzhen–Hong Kong drone corridor is operating. No joint route document and no new Greater Bay Area corridor approval were found (5 Sep note). |
+| Smart Low-altitude Traffic Management System | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: progressive rollout from 2028 ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); Policy Address annex indicator 34 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not in force. |
+| Law for unconventional aircraft over 150 kg (Cap. 448G follow-on) | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: complete drafting next year and submit it to LegCo ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); annex indicator 35: drafting complete within 2027 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not enacted; no Cap. 448G amending instrument. |
+| Cap. 448G s.12(2)(c) commencement | [OPEN]{.status-chip .status-open} | No commencement notice gazetted (5 Sep note; no document to link). | Commencement. |
+| Advisory circulars: AC-013 (Regulatory Sandbox) and AC-017 (Sandbox X) | [settled]{.status-chip .status-settled} | Civil Aviation Department list still runs AC-001 to AC-017; no new circular (6 Oct note) ([AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf)). | — |
+| Drone spectrum: 1430–1444 MHz UAS (Private) Licence | [settled]{.status-chip .status-settled} | OFCA: the 1.4 GHz band “is confined to be used by projects under the LAE Regulatory Sandbox” ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)). The 6 Oct LegCo briefing restates the October 2025 launch only ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm)). | Any new spectrum instrument. HKCA 1072 Iss.2 (Aug 2026) is an E-UTRA base-station specification, not a drone rule. |
+| Hong Kong LAE working definition | [settled]{.status-chip .status-settled} | LegCo paper CB(3)933/2024: LAE “refers to economic activities in airspace generally below 1 000 metres” ([LegCo](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf)). | An official Hong Kong LAE value-added series; none exists yet. |
+| HK\$350bn | [settled]{.status-chip .status-settled} | Our Hong Kong Foundation (OHKF), Sep 2025: about HK\$350 billion of industry value added in Hong Kong by 2050 ([OHKF](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83)). | That it is a government figure. It is an OHKF projection (T3), not an HKSAR government number. |
+| Mainland air traffic management rules, Chapter 12 (drones) | [WATCH]{.status-chip .status-watch} (draft) | Civil Aviation Administration of China: draft published 11 Aug 2026; comments closed 11 Sep 2026; still a 征求意见稿 (consultation draft) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)). | That it is promulgated. It is not the Art. 34 / Art. 225 implementing regulation. |
+| Mainland civil aviation security background review rules (民用航空安全背景审查管理规定) | [WATCH]{.status-chip .status-watch} (draft) | Comment deadline 4 Sep 2026 passed; still a draft (13 Sep note) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html)). | That the rules are final. |
+| Mainland national low-altitude economy scale under 1676号 | [OPEN]{.status-chip .status-open} | NDRC 发改低空〔2025〕1676号 (22 Dec 2025) is a statistical classification only ([gov.cn](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm)). | Any official national scale (规模) figure from the National Bureau of Statistics or NDRC. |
+| Hong Kong–Kazakhstan low-altitude MoU | [OPEN]{.status-chip .status-open} | Secretary for Transport and Logistics speech, 10 Sep 2026, attests the exchange on 9 Sep ([GIA](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm)). | The full MoU document (20 Sep note). |
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+**Action Plan on Developing Low-Altitude Economy** — *Superseded timing (Nov 2025 framing). Latest: WG still formulating, no new date (STL 2026-10-02; LegCo [CB(2)927/2026(03)](https://www.legco.gov.hk/yr2026/cn/panels/edev/papers/edev20260707cb2-927-3-c.pdf), 2026-07-07). Status OPEN.* English: “We will continue to engage with the industry and gather diverse perspectives to enable the drafting of the Action Plan on Developing Low-Altitude Economy by the end of next year. This will establish the foundational infrastructure for the top-level design of the entire low-latitude economy, providing the industry with a clear and forward-looking trajectory.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))\
+[「我們期望繼續和業界諮詢並蒐集不同意見，在明年年底前可草擬發展低空經濟規劃行動綱領，建構整個低空經濟頂層設計的基建設施，給業界清晰和具前瞻性的方向。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+:::
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+**Regulatory Sandbox X cross-boundary results** — English: “The Working Group on Developing Low-altitude Economy is evaluating the other applications and will announce the results in due course.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html))\
+[「發展低空經濟工作組正審閱其他申請，並會適時公布有關結果。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
+:::
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+**Drone spectrum: 1430–1444 MHz UAS (Private) Licence** — English: “At present, the 1.4 GHz band is confined to be used by projects under the LAE Regulatory Sandbox launched by the Government.” ([source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html))\
+[「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+:::
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
+**LegCo CB(3)933/2024** — English: “LAE, which refers to economic activities in airspace generally below 1 000 metres” ([source](https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf))\
+[「低空經濟是指在一般低於1,000米以下空域進行的經濟活動」]{lang="zh-Hant"} ([source](https://www.legco.gov.hk/yr2024/chinese/panels/edev/papers/edev20241203cb3-933-3-c.pdf))
+
+**NDRC 发改低空〔2025〕1676号** — [「为明确低空经济概念和范畴，明晰产业边界，根据低空经济阶段性特征和重点领域、重点环节，按照统计工作相关规定，编制形成《低空经济及其核心产业统计分类（试行）》。现印发你们，请按此执行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm))
+:::
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+**OHKF, Sep 2025** — English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))\
+[「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+:::
+
+::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+**Mainland civil aviation security background review rules** — [「形成《民用航空安全背景审查管理规定（征求意见稿）》，现向社会公开征求意见。」…「任何单位和个人如有意见或建议，请填写意见反馈表，于2026年9月4日前发送至mhjgaj@caac.gov.cn。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html))
+:::
 
 ## Source tables
 

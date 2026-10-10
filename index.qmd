@@ -1,6 +1,6 @@
 ---
 title: "Low Altitude Economics Companion"
-as_of: "2026-10-08"
+as_of: "2026-10-11"
 ---
 
 **The Chinese University of Hong Kong**  
@@ -15,37 +15,36 @@ This site is the evidence companion for the course. Lectures, numerical examples
 
 ::: {.hub-grid}
 ::: {.hub-card}
-## Facts
+## Official facts
 
 Official words, milestones, and what you may cite.
 
 - [Glossary](glossary.qmd)
-- [Tracker](tracker.qmd)
-- [Dates](dates.qmd)
+- [Official status](tracker.qmd)
+- [Timeline](dates.qmd)
 :::
 
 ::: {.hub-card}
-## This week
+## Course
 
-This week's readings, lecture slides, and dated source notes.
+Course readings and lecture slides.
 
 - [Readings](readings.qmd)
 - [Lectures](lectures.qmd)
-- [Weekly notes](briefings.qmd)
 :::
 
 ::: {.hub-card}
-## What's new
+## Updates
 
-Press items, business news, and who is doing what.
+Government and regulatory items, business news, and who is doing what in the market.
 
-- [Press](news.qmd)
+- [Government news](news.qmd)
 - [Business news](industry.qmd)
-- [Who does what](landscape.qmd)
+- [Companies & sectors](landscape.qmd)
 :::
 :::
 
-Start here: Glossary, then Tracker, then this week’s Readings.
+Start here: Glossary, then Official status, then Course Readings.
 
 **Rules of use**
 
@@ -53,4 +52,4 @@ A number without a date, an issuer, and a source tier does not belong in a memo.
 Regulatory Sandbox (first cohort) is not Regulatory Sandbox X.  
 The figure of about HK$350 billion by 2050 is an Our Hong Kong Foundation value-added projection for Hong Kong, not a government outturn.
 
-Last updated: 8 October 2026.
+Last updated: 11 October 2026.

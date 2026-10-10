@@ -2,6 +2,16 @@ project:
   type: website
   resources:
     - slides/
+  render:
+    - index.qmd
+    - glossary.qmd
+    - tracker.qmd
+    - dates.qmd
+    - readings.qmd
+    - lectures.qmd
+    - news.qmd
+    - industry.qmd
+    - landscape.qmd
 
 website:
   title: "DOTE5891"
@@ -9,30 +19,28 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Facts
+      - text: Official facts
         menu:
           - href: glossary.qmd
             text: Glossary
           - href: tracker.qmd
-            text: Tracker
+            text: Official status
           - href: dates.qmd
-            text: Dates
-      - text: This week
+            text: Timeline
+      - text: Course
         menu:
           - href: readings.qmd
             text: Readings
           - href: lectures.qmd
             text: Lectures
-          - href: briefings.qmd
-            text: Weekly notes
-      - text: "What's new"
+      - text: Updates
         menu:
           - href: news.qmd
-            text: Press
+            text: Government news
           - href: industry.qmd
             text: Business news
           - href: landscape.qmd
-            text: Who does what
+            text: Companies & sectors
   page-footer:
     left: "Evidence companion. Lectures stay in class."
     right: "CUHK · Decisions, Operations and Technology"
