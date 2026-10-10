@@ -357,6 +357,10 @@ English: “(i) 15 pilot projects under the UTM system demonstrations module, (i
 [「經發展低空經濟工作組審閱後，已選定(i) 15個UTM系統演示試點項目；(ii) 首批四個非傳統航空器試點項目；(iii) 首批五個多場景／多用戶共享平台試點項目，以及(iv) 首批九個其他試點項目予以分階段推行。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
 :::
 
+**Secretary for Transport and Logistics (STL) (運輸及物流局局長)**  
+Kind: Official  
+Political principal of the Transport and Logistics Bureau; Official status lists STL as **Deputy Head** of the Working Group on Developing Low-altitude Economy (with the Deputy Financial Secretary as Head and TLB as secretariat). Frequently the official voice on Action Plan progress, Smart Low-altitude Traffic Management System timing, and >150 kg unconventional-aircraft drafting (e.g. LegCo EDev Panel briefing 2 Oct 2026). See also Working Group; TLB; Official status (Who runs policy). Official status; Glossary Who regulates what sources; [GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm); [GIA, 2 Oct 2026](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm).
+
 **Remote pilot certificate (遙控駕駛員證書)**  
 Kind: Official  
 Certificate issued under Cap. 448G after required training/assessment for registered remote pilots. Cap. 448G; CAD AC-013 §8.
@@ -461,7 +465,15 @@ Mainland national airspace classification labels (2023 release); **not Hong Kong
 
 **Guangdong Provincial People's Government General Office (广东省人民政府办公厅)**  
 Kind: Official  
-Issuer of 粤府办〔2024〕6号 — 《广东省推动低空经济高质量发展行动方案（2024—2026年）》 (21 May 2024). On this site the Greater Bay Area corridor language in that plan is treated as a **policy aim**, not evidence that a Shenzhen–Hong Kong corridor is operating. Mainland / GBA comparator — **not Hong Kong law**. See also Official status (Greater Bay Area); Timeline; Glossary Who regulates what diagram. [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
+Issuer of 粤府办〔2024〕6号 — 《广东省推动低空经济高质量发展行动方案（2024—2026年）》 (21 May 2024). On this site the Greater Bay Area corridor language in that plan is treated as a **policy aim**, not evidence that a Shenzhen–Hong Kong corridor is operating. Mainland / GBA comparator — **not Hong Kong law**. See also 粤府办〔2024〕6号; Official status (Greater Bay Area); Timeline; Glossary Who regulates what diagram. [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
+
+**粤府办〔2024〕6号 (《广东省推动低空经济高质量发展行动方案（2024—2026年）》)**  
+Kind: Official  
+Guangdong provincial LAE action plan for **2024–2026**, issued **21 May 2024** by the Guangdong Provincial People’s Government General Office. Evidenced on Official status / Timeline; Greater Bay Area corridor language on this site is a **policy aim**, not evidence of an operating Shenzhen–Hong Kong corridor. Official English counterpart: **OPEN** (not located). See also Guangdong Provincial People’s Government General Office. Official status; [gd.gov.cn](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
+
+::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+[「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「2024年5月21日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
+:::
 
 **Ministry of Transport (交通运输部 / MOT)**  
 Kind: Official  
@@ -470,6 +482,22 @@ Mainland ministry that promulgated CCAR-92 via MOT Order 2024 No. 1 (in force **
 **NDRC (国家发展和改革委员会)**  
 Kind: Official  
 National Development and Reform Commission — issued 发改低空〔2025〕1676号 (22 Dec 2025), the trial statistical classification of 低空经济及其核心产业. That instrument is a **classification**, not an official national scale (规模) figure. Mainland comparator — **not Hong Kong law**. See also 低空经济; Official status. [gov.cn](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm).
+
+**NPC Standing Committee (全国人民代表大会常务委员会)**  
+Kind: Official  
+Revised and adopted the Civil Aviation Law of the PRC (2025 revision) on **27 Dec 2025** (President’s Order No. 65 path; in force **1 Jul 2026**). Mainland comparator — **not Hong Kong law**. See also Civil Aviation Law (2025 revision); CAAC. Official status; Timeline; Glossary Civil Aviation Law callout.
+
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+English: “The Civil Aviation Law of the People's Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People's Congress of the People's Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
+:::
+
+**State Council and Central Military Commission (国务院、中央军事委员会)**  
+Kind: Official  
+Joint Mainland authority named on this site for the Interim UAS Ordinance (**国令761**, in force **1 Jan 2024**) and for Civil Aviation Law Art. **258**, which provides that where the State Council and the Central Military Commission have other provisions on the administration of unmanned aircraft, those provisions prevail. Mainland comparator — **not Hong Kong law**. See also 国令761; Civil Aviation Law (2025 revision). Official status; Glossary Who regulates what diagram; Readings.
+
+::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+[「第二百五十八条　国务院、中央军事委员会对无人驾驶航空器的管理另有规定的，从其规定。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
+:::
 
 **低空经济**  
 Hong Kong: 低空經濟
@@ -491,6 +519,10 @@ State Council Interim UAS Flight Management Ordinance; effective **2024-01-01** 
 ## EU / US comparators
 
 Course comparators only — **not Hong Kong law**. Dated instruments on [Timeline](dates.qmd); documents on [Readings](readings.qmd).
+
+**AiRMOUR**  
+Kind: Course  
+EU-funded research and innovation project on sustainable urban air mobility, with a strong focus on emergency medical services; its *Guidebook for Urban Air Mobility Integration* (2023) is used in course materials (urban design/mobility, aviation safety, public acceptance, integration-process management). **Course comparator** — not a Hong Kong regulator and not Hong Kong law. Do not treat guidebook scenario factors as official coefficients. See also Course overview; Lectures (Week 4); EASA. Lectures Week 4; Course overview.
 
 **EASA (European Union Aviation Safety Agency)**  
 Kind: Official  
