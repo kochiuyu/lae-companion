@@ -15,11 +15,11 @@ Also on this site: [Readings](readings.qmd) · [Lectures](lectures.qmd)
 
 ## Description
 
-This course studies the economics and business strategy of the low altitude economy (LAE), including drones, eVTOL aircraft, vertiports, U-space/UTM systems, BVLOS operations, and related finance, insurance, certification, and platform services. The course uses Hong Kong and the Greater Bay Area as the core applied setting, while drawing comparisons with NASA, AiRMOUR, EASA/U-space, FAA/AAM, and global advanced air mobility frameworks.
-
-The course is intentionally quantitative and managerial. Students learn to translate LAE use cases into demand forecasts, unit economics, infrastructure breakeven models, partnership contracts, regulatory roadmaps, airspace mechanisms, ESG/social-license strategies, risk registers, and investment recommendations. Each week connects a business problem to simple but powerful analytical tools, including NPV, value of time, generalized cost, elasticity, HHI, CASK, CPMK, TAM/SAM/SOM, barrier haircuts, Monte Carlo sensitivity, Pigovian tolls and taxes, and network-scaling formulas.
-
-By the end of the course, students should be able to evaluate whether a proposed LAE service is commercially viable, socially acceptable, policy-consistent, and scalable across Hong Kong and the GBA. The capstone presentation requires students to integrate demand, cost, infrastructure, regulation, airspace access, sustainability, and risk into one coherent business or policy strategy.
+- Economics and business strategy of the low-altitude economy (LAE): drones, eVTOL, vertiports, U-space/UTM, BVLOS, and related finance, insurance, certification, and platform services.
+- Core setting: Hong Kong and the Greater Bay Area, with comparators from NASA, AiRMOUR, EASA/U-space, FAA/AAM, and other advanced air mobility frameworks.
+- Quantitative and managerial: turn LAE use cases into demand forecasts, unit economics, infrastructure breakeven, partnership contracts, regulatory roadmaps, airspace mechanisms, ESG/social-license strategies, risk registers, and investment recommendations.
+- Weekly tools include NPV, value of time, generalized cost, elasticity, HHI, CASK, CPMK, TAM/SAM/SOM, barrier haircuts, Monte Carlo sensitivity, Pigovian tolls and taxes, and network-scaling formulas.
+- Capstone: integrate demand, cost, infrastructure, regulation, airspace, sustainability, and risk into one coherent business or policy strategy for a commercially viable, socially acceptable, policy-consistent, and scalable HK/GBA service.
 
 ## Objectives
 
