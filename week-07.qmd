@@ -16,7 +16,16 @@ format:
 
 **Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
 
-This page is the Week 7 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 6 designed partnerships and payment mechanisms; this week asks how **regulation** shapes competitive readiness, permissions, safety cases, and scalable coordination. Links: [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Glossary](glossary.qmd).
+This page is the **Week 7** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how readiness / Sandbox evidence / permissions / safety cases / digital coordination connect to Week 6 contracts, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
+
+Week 6 designed partnerships and payment mechanisms. This week asks how **regulation** shapes competitive readiness, permissions, safety cases, and scalable coordination — and how those instruments rewrite the contracts you just drafted.
+
+**Orient refreshers:**
+
+- [Who decides what?](regulators.qmd) — institutions and standing caveats  
+- [Key figures](key-figures.qmd) — Sandbox counts and programme facts  
+- [Glossary](glossary.qmd) — Cap. 448G, BVLOS, Sandbox X, UTM  
+- [Week 6](week-06.qmd) — PPP, availability payments, staging  
 
 ## Summary {#summary}
 
@@ -36,7 +45,7 @@ This page is the Week 7 article for the 12-week Low Altitude Economics course: a
 - A strong roadmap ties each new operating privilege to specified evidence, review, and risk controls.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples below use round figures (readiness value, trial cost, compliance expected value, coordination cost). They are **illustrative assumptions for learning**, not CAD fees, Sandbox X budgets, approval odds, or insurance quotes. Absolute facts (Cap. 448G, trial programmes, AC numbers) stay with their issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (readiness value, trial cost, compliance expected value, coordination cost). They are **illustrative assumptions for learning**, not CAD fees, Sandbox X budgets, approval odds, or insurance quotes. Absolute facts (Cap. **448G**; first Sandbox **38 of 72**; **Sandbox ≠ Sandbox X**; **AC-013** = BVLOS in the first Regulatory Sandbox; **AC-017** = Sandbox X cross-boundary) stay with issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -49,13 +58,29 @@ By the end of Week 7 you should be able to:
 4. **Explain** how digital traffic-management services may support safe and scalable operations.  
 5. **Design** a phased regulatory roadmap that links operating privileges to evidence and performance.
 
+### How these notes are organised
+
+| Part | Sections | Focus |
+|------|----------|--------|
+| Strategy & readiness | §§1–2 | Regulatory meeting; compliance capability; readiness value |
+| HK frame & BVLOS | §§3–4 | Cap. 448G; Sandbox ≠ Sandbox X; AC-013 vs AC-017 |
+| Approval & safety | §§5–6 | Permission vs certification; compliance appraisal; safety case / risk cost |
+| Scale & pathways | §§7–9 | U-space/UTM; scorecard; harmonisation; phased roadmap |
+| Closing | §§10–11 | Tool map; synthesis; study checklist |
+
+Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned` and named intermediates — **no** nested `array` with column-gutter specs (KaTeX-unsafe).
+
 ---
 
 ## 1. The regulatory strategy meeting
 
 Imagine an operator preparing to test a complex drone route in Hong Kong. The operating team must explain the aircraft, route, people, procedures, communications, contingency measures, and data to be collected. The regulator must decide whether the proposed controls are **proportionate** to the operational risk.
 
-Regulation can increase cost and delay — but it can also establish safety, trust, predictable market access, and credible evidence. For an early operator, the trade-off is often among faster approval, clearer requirements, and permission to test a more complex operation. Week 6’s contracts assume some of these permissions exist; this week maps how they are earned.
+Regulation can increase cost and delay — but it can also establish safety, trust, predictable market access, and credible evidence. For an early operator, the trade-off is often among faster approval, clearer requirements, and permission to test a more complex operation.
+
+### Link back to Week 6
+
+Week 6’s availability payments, KPIs, and change-in-law clauses **assume** some operating privilege exists. This week maps how that privilege is earned: Cap. 448G permission, Sandbox evidence, safety cases, and — for scale — digital coordination. A beautiful PPP term sheet does not replace prior CAD permission for advanced operations.
 
 ---
 
@@ -70,14 +95,18 @@ Regulatory capability may become a competitive advantage when a firm can demonst
 
 **Managerial lesson:** build a **compliance capability**, not a strategy based on presumed regulatory protection.
 
+**Beyond the slide.** Readiness is not the same as Sandbox selection. Being one of the first-batch **38 of 72** (or later Sandbox X modules) is evidence about *trial participation* — not a commercial licence, exclusive route right, or permanent slot ([Key figures](key-figures.qmd); Week 6 Readings issuer).
+
 ### Value of earlier market readiness
 
+In words: take contribution earned while you alone (or early) can operate commercially, then subtract the extra compliance and launch cost that bought that lead.
+
 $$
+\begin{aligned}
 \text{Net readiness value}
-=
-\text{Contribution earned during the lead period}
--
-\text{Additional compliance and launch cost}
+&= \text{Contribution earned during the lead period} \\
+&\quad - \text{Additional compliance and launch cost}
+\end{aligned}
 $$
 
 The lead period begins only when revenue-generating operation is **actually permitted** and demand exists. Use contribution (not revenue alone). Faster readiness may create learning, reputation, and partnership benefits — competitors and substitutes can still enter. Include probability of approval, delay, unsuccessful trials, and possible expiry of the lead.
@@ -109,19 +138,24 @@ Under Cap. **448G**, small unmanned aircraft (SUA ≤ 150 kg) are regulated unde
 
 **Sandbox X is not** a legal safe space, a waiver of safety obligations, or automatic authorization for commercial service. Treat **Sandbox ≠ Sandbox X**.
 
+::: {.callout-note appearance="simple"}
+**Corridor note.** Sandbox X language may include cross-boundary or corridor concepts. A planned or trial corridor is **not** proof of day-to-day operating service ([Official status](tracker.qmd); [Who decides what?](regulators.qmd#standing-caveats)).
+:::
+
 ### Value of a controlled trial
 
+In words: expected redesign and delay you avoid, plus the value of better information, minus what the trial costs.
+
 $$
+\begin{aligned}
 \text{Trial value}
-=
-\text{Expected avoided redesign and delay cost}
-+
-\text{Value of better information}
--
-\text{Trial cost}
+&= \text{Expected avoided redesign and delay cost} \\
+&\quad + \text{Value of better information}
+  - \text{Trial cost}
+\end{aligned}
 $$
 
-A trial can reveal whether routes, communications, infrastructure, procedures, and demand work as expected. Evidence may support later approval or investment — timing and outcome are not guaranteed. Trial flights and commercial operations are different stages. The principal benefit is earlier, lower-cost **learning**, not presumed early monopoly profit.
+A trial can reveal whether routes, communications, infrastructure, procedures, and demand work as expected. Evidence may support later approval or investment — timing and outcome are not guaranteed. Trial flights and commercial operations are different stages. The principal benefit is earlier, lower-cost **learning**, not presumed early monopoly profit — the same real-options intuition as Week 6 staging.
 
 **Illustrative assumptions:** controlled trial costs HK$5M; without a trial, 40% chance a HK$20M redesign is discovered after investment.
 
@@ -147,7 +181,7 @@ Under Hong Kong’s risk-based SUA regime, higher-risk advanced operations requi
 - **AC-017** — Sandbox X cross-boundary guidance (distinct circular).  
 - Safety Requirements Document (SRD) — ratings, standard vs advanced operations.  
 
-Do not merge AC-013’s Sandbox BVLOS pathway with Sandbox X cross-boundary procedures.
+**Beyond the slide.** Do **not** merge AC-013’s Sandbox BVLOS pathway with AC-017’s Sandbox X cross-boundary procedures. A Week 6 availability contract that assumes “BVLOS anywhere in the GBA” is writing fiction unless the permission map matches Cap. 448G + the relevant circular + approved conditions.
 
 ---
 
@@ -160,18 +194,22 @@ Do not merge AC-013’s Sandbox BVLOS pathway with Sandbox X cross-boundary proc
 | **Aircraft certification / airworthiness** | Passenger-carrying or larger unconventional aircraft may need a substantially different framework (trials for unconventional aircraft discussed under Cap. 448C provisions in official replies — see Glossary / regulators) |
 | **Infrastructure / site approval** | Landing sites and supporting facilities may involve planning, building, fire, land, environmental, and other requirements |
 
-**Managerial lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not a single generic “licence.”
+**Managerial lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not a single generic “licence.” Week 5’s “no dedicated HK vertiport statute” caveat still bites here: site approvals may sit outside Cap. 448G alone.
 
 ### Compliance investment appraisal
 
+In words: probability of approval times project value if approved, minus compliance cost, minus expected delay cost.
+
 $$
+\begin{aligned}
+\text{Expected approved value}
+&= \Pr(\text{approval})
+  \times \text{Project value if approved} \\
 \text{Expected compliance value}
-=
-\Pr(\text{approval})\times\text{Project value if approved}
--
-\text{Compliance cost}
--
-\text{Expected delay cost}
+&= \text{Expected approved value}
+  - \text{Compliance cost}
+  - \text{Expected delay cost}
+\end{aligned}
 $$
 
 Compliance spend may be necessary for market access; it does not automatically create additional revenue. Project value depends on demand, capacity, competition, operating conditions, and how long any advantage lasts. Measure delay as foregone **contribution** or project value. Use staged gates where evidence can change the continue/stop decision (Week 6 real-options logic).
@@ -194,23 +232,26 @@ A **safety case** is a structured argument, supported by evidence, that the risk
 
 **Business relevance:** a credible safety case can support approval, operational discipline, partner confidence, and insurance discussions — without guaranteeing cheaper premiums.
 
+In words: expected loss sums probability times financial consequence across events. Risk cost adds prevention/mitigation spend, insurance premiums, and retained expected loss.
+
 $$
+\begin{aligned}
 \text{Expected loss}
-=
-\sum_j \Pr(\text{event }j)\times\text{Financial consequence}_j
+&= \sum_j \Pr(\text{event } j)
+  \times \text{Financial consequence}_j
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 \text{Risk cost}
-=
-\text{Prevention and mitigation cost}
-+
-\text{Insurance cost}
-+
-\text{Retained expected loss}
+&= \text{Prevention and mitigation cost} \\
+&\quad + \text{Insurance cost}
+  + \text{Retained expected loss}
+\end{aligned}
 $$
 
-Safety investment may reduce event probability or consequence. Premiums also depend on limits, deductibles, exclusions, exposure, claims history, market conditions, and insurer assessment.
+Safety investment may reduce event probability or consequence. Premiums also depend on limits, deductibles, exclusions, exposure, claims history, market conditions, and insurer assessment. Policy language that the insurance industry may develop LAE products using Sandbox data ([Glossary](glossary.qmd)) is evidence of an **active theme** — not a quote for your safety case.
 
 **Illustrative assumptions:** a proposed control costs HK$3M and reduces annual expected loss from HK$2M to HK$0.5M over three years.
 
@@ -228,16 +269,19 @@ Safety investment can create economic value when it reduces expected loss or ena
 
 **U-space** is the European regulatory framework for digital services supporting unmanned-aircraft operations in designated airspace. Mandatory services commonly discussed include flight authorization, geo-awareness, network identification, and traffic information. **UTM** is a broader term for systems and services supporting unmanned traffic management in other contexts ([Who decides what?](regulators.qmd) · EASA comparator).
 
+**Beyond the slide.** **U-space ≠ Hong Kong law.** Hong Kong’s smart low-altitude traffic-management system appears in planning language (Policy Address / Sandbox X UTM demos) — treat it as **planned / trial infrastructure**, not as a completed local U-space statute ([Glossary](glossary.qmd); [Official status](tracker.qmd)).
+
 Digital services can standardize information exchange and support higher volumes — they do **not** eliminate human oversight, certification, cybersecurity, infrastructure, or service-provider costs. Transaction costs include planning, authorization, coordination, information exchange, monitoring, and handling exceptions.
 
+In words: daily coordination cost is fixed system cost plus variable digital cost per operation plus human-oversight cost.
+
 $$
+\begin{aligned}
 \text{Daily coordination cost}
-=
-\text{Fixed system cost}
-+
-q\times\text{Variable digital cost}
-+
-h\times\text{Human oversight cost}
+&= \text{Fixed system cost} \\
+&\quad + q \times \text{Variable digital cost} \\
+&\quad + h \times \text{Human oversight cost}
+\end{aligned}
 $$
 
 Here $q$ is the number of operations and $h$ is required human-oversight effort. Digitalization may cut repetitive manual work while adding software, communications, cybersecurity, certification, and provider fees. Exceptions and emergencies may still need substantial human intervention. Scale is viable only if total system capacity and safety performance also increase.
@@ -264,7 +308,7 @@ International comparison should focus on **functions**, not unsupported rankings
 | **United States** | Certification, operational approvals, airspace integration, infrastructure, and implementation planning under FAA / interagency programmes |
 | **Mainland China and the GBA** | Distinct national and local regulatory environment; route-specific and cross-boundary coordination |
 
-Compare requirements, evidence, scope, transferability, cost, and predictability — not only nominal approval time. Cross-boundary corridors remain **not** day-to-day operating service on the evidence tracked here.
+Compare requirements, evidence, scope, transferability, cost, and predictability — not only nominal approval time. Cross-boundary corridors remain **not** day-to-day operating service on the evidence tracked here. 国令761 and EASA SC-VTOL on [Readings](#readings) are **comparators**, not Cap. 448G substitutes.
 
 ### Regulatory-pathway scorecard
 
@@ -280,7 +324,10 @@ Compare requirements, evidence, scope, transferability, cost, and predictability
 A single ratio of “approval time ÷ invented stringency” is **not** a reliable international comparison. Teams may score pathways 1–5 with documented weights (e.g. clarity 25%, trial pathway 20%, time/effort 20%, scalability 20%, transferability 15%):
 
 $$
-\text{Weighted score}=\sum_k w_k s_k
+\begin{aligned}
+\text{Weighted score}
+&= \sum_k w_k s_k
+\end{aligned}
 $$
 
 The scorecard makes assumptions visible; it supports judgment rather than claiming one jurisdiction is universally fastest or best.
@@ -301,15 +348,49 @@ Classroom exercise style — evidence-based expansion:
 | 2. Extended trial | More operating conditions or users | Repeated performance and stakeholder feedback | Approved review and updated controls |
 | 3. Scaled operation | Wider route, frequency, or fleet | Ongoing monitoring and incident reporting | Continued compliance and periodic review |
 
-Data sharing should be necessary, proportionate, secure, and governed by clear rules — **not** offered as an informal exchange for faster approval.
+Data sharing should be necessary, proportionate, secure, and governed by clear rules — **not** offered as an informal exchange for faster approval. Each gate should rewrite Week 6 KPIs and Week 5 capacity assumptions if the evidence changes what you are allowed to fly.
 
 ---
 
-## 10. Putting Week 7 together
+## 10. One-page tool map (from Cap. 448G to roadmap)
 
-Hong Kong regulates SUA through a risk-based Cap. 448G framework; advanced operations need prior permission and may face extra conditions. **Sandbox X** supports controlled testing and evidence — not a waiver or automatic commercial approval. Keep **Sandbox ≠ Sandbox X**. Compliance capability creates value through readiness, learning, reliability, and credibility — not guaranteed monopoly protection. A safety case argues for a defined operation and may support approval and insurability without guaranteeing lower premiums. Digital traffic-management services may cut coordination cost and support scale, but still need oversight, cybersecurity, infrastructure, and governance. A strong roadmap links each expansion in operating privilege to specified evidence, review, and risk controls.
+| Step | Ask | Output |
+|------|-----|--------|
+| 1 | What aircraft, mission, route, and risk class? | Cap. 448G / category map |
+| 2 | Is this advanced? Which circular applies? | AC-013 vs AC-017 vs other |
+| 3 | Sandbox or Sandbox X — and for what evidence? | Trial design (not a commercial licence) |
+| 4 | What is net readiness value of earlier permission? | Contribution − compliance cost |
+| 5 | What is expected compliance value at realistic $\Pr(\text{approval})$? | Continue / stage / stop |
+| 6 | Does the safety case match the **defined** operation? | Hazards, controls, evidence |
+| 7 | What is risk cost after prevention + insurance + retention? | Control appraisal |
+| 8 | Manual vs digital coordination at planned $q$? | UTM / oversight cost screen |
+| 9 | Which pathway dimensions matter for this business? | Weighted scorecard (transparent) |
+| 10 | What privilege expands only after which gate? | Phased roadmap |
+
+---
+
+## 11. Putting Week 7 together
+
+Hong Kong regulates SUA through a risk-based Cap. 448G framework; advanced operations need prior permission and may face extra conditions. **Sandbox X** supports controlled testing and evidence — not a waiver or automatic commercial approval. Keep **Sandbox ≠ Sandbox X**, and keep **AC-013 ≠ AC-017**. Compliance capability creates value through readiness, learning, reliability, and credibility — not guaranteed monopoly protection. A safety case argues for a defined operation and may support approval and insurability without guaranteeing lower premiums. Digital traffic-management services may cut coordination cost and support scale, but **U-space ≠ Hong Kong law**, and oversight, cybersecurity, infrastructure, and governance still bind. A strong roadmap links each expansion in operating privilege to specified evidence, review, and risk controls — and feeds back into Week 6 contracts.
 
 The short checklist is in [Summary](#summary) above.
+
+---
+
+## 12. Study checklist (beyond the slides)
+
+1. Explain why regulation can raise cost **and** create readiness value.  
+2. Compute **net readiness value**; say when a shorter lead destroys it.  
+3. State Cap. **448G** risk-based SUA facts (full effect **1 Dec 2022**; Cat C ≤150 kg from **July 2025**).  
+4. Keep **Sandbox ≠ Sandbox X**; cite first-batch **38 of 72** without inventing commercial rights.  
+5. Separate **AC-013** (BVLOS in first Sandbox) from **AC-017** (Sandbox X cross-boundary).  
+6. Map permission vs operator/pilot vs airworthiness vs site approval for one mission.  
+7. Compute **expected compliance value** at two approval probabilities.  
+8. Define a safety case for a **defined** operation; compute risk cost with a control.  
+9. Write daily coordination cost; state **U-space ≠ HK law**.  
+10. Score two pathways with transparent weights — no “fastest jurisdiction” claim.  
+11. Draft a three-phase roadmap with evidence gates that rewrite contracts.  
+12. Keep corridor **not** day-to-day operating service on tracked evidence.
 
 ---
 
