@@ -1,19 +1,22 @@
 ---
 title: "Week 12: LAE Future Frontiers and Final Review"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "Networks, services roles, and the course viability test"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 11](week-11.qmd)
 
 **Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
+
+This page is the Week 12 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review. Links: [Course overview](overview.qmd) · [Week 11](week-11.qmd) · [Key figures](key-figures.qmd).
 
 ## Summary {#summary}
 
@@ -32,9 +35,239 @@ format:
 - Reapply the viability test to integrated quantitative scenarios before recommending a path.
 - The goal is consistent judgment under operational, regulatory, financial, and social constraints.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers and projections.** Worked examples below (network links, insurance evidence cost, leasing cash flows, exam shock) use **illustrative assumptions for learning**. The OHKF **HK$350bn** figure remains a private think-tank **value-added** projection for Hong Kong by 2050 — **not** a government number ([Week 9](week-09.qmd) · [Key figures](key-figures.qmd)). CAAC ATM Rules on Readings are a **draft consultation**, not in force. Keep **Sandbox ≠ Sandbox X**; Sandbox X does **not** bypass legal or safety requirements.
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 12 you should be able to:
+
+1. **Explain** how adding nodes increases possible connections without guaranteeing demand or value.  
+2. **Evaluate** digital coordination using total system cost, reliability, oversight, and governance.  
+3. **Assess** possible Hong Kong roles in financing, leasing, insurance, professional services, and data-enabled assurance.  
+4. **Apply** the course viability test to integrated quantitative scenarios.  
+5. **Develop** recommendations that remain consistent with operational, regulatory, financial, and social constraints.
+
+---
+
+## 1. The next horizon
+
+The final week asks how an LAE project moves from a controlled trial to a **repeatable operating system**. A larger network may create more useful connections — and more coordination, repositioning, infrastructure, and regulatory requirements. Growth should follow evidence on demand, reliable capacity, unit economics, safety, and stakeholder impact.
+
+Which part of the value chain is most likely to create durable value — aircraft, operations, infrastructure, software, finance, or professional services — is an empirical question, not a slogan ([How does LAE work?](business-overview.qmd)).
+
+---
+
+## 2. From corridors to networks
+
+A **network** links several origins, destinations, operators, and supporting facilities:
+
+- More nodes create more possible connections, but only some will have sufficient demand and feasible operations.  
+- Network value depends on frequency, reliability, access, transfer quality, compatible systems, and customer needs.  
+- Cross-boundary services also require coordination on permissions, customs, immigration, quarantine, data, communications, liability, and emergency response.  
+- Empty repositioning, unbalanced demand, congestion, and duplicated infrastructure can offset network benefits.  
+
+**Managerial lesson:** count possible links first, then test which links are useful, serviceable, and commercially viable. Do **not** claim GBA corridors as day-to-day operating service on the evidence tracked here.
+
+### Counting possible connections
+
+$$
+L=\frac{N(N-1)}{2}
+\quad\text{(undirected pairs)}
+$$
+
+$N$ is the number of active nodes; $L$ is the number of possible pairs. If direction matters, possible origin–destination links are $N(N-1)$. The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with $N$, not exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
+
+**Illustrative expansion:**
+
+| | Five nodes | Twenty nodes |
+|--|------------|--------------|
+| Possible pairs | $5\times4/2=10$ | $20\times19/2=190$ |
+| Screening | Suppose 6 pass | Suppose 15% pass → ≈29 |
+| **Candidate links** | **6** | **≈29** |
+
+More nodes increase the option set; viable service grows only where demand, capacity, regulation, and operations align. Screening rates are classroom assumptions — not a GBA forecast.
+
+---
+
+## 3. Digital coordination and governance
+
+Digital systems can support planning, authorization, identification, traffic information, monitoring, and conflict management (Week 8 UTM / U-space discussion). **U-space is not Hong Kong law.** Automation may reduce repetitive manual work and improve consistency at higher volumes — operators and service providers still need defined responsibilities, qualified personnel, cybersecurity, assurance, incident response, and regulatory oversight. Human roles may change rather than disappear (exceptions, emergencies, degradation, accountability). Algorithmic decisions should be traceable, testable, secure, and subject to appropriate review.
+
+**Managerial lesson:** evaluate the complete socio-technical system, not simply the cost of an algorithm.
+
+### Digital-coordination business case
+
+$$
+\begin{aligned}
+\text{Net saving} = {} & \text{Cost of current process} \\
+& {} - \text{Cost of digital process} - \text{Transition cost}
+\end{aligned}
+$$
+
+Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees, and exception handling. Savings depend on annual activity, reliability, integration complexity, and how much manual work is actually displaced. Marginal digital cost may be low — it is not generally zero. The preferred design must also meet safety, resilience, privacy, and accountability requirements (Week 10).
+
+### Value of better risk evidence (illustrative)
+
+**Assumptions:** annual premium without project-specific evidence HK$12.5M; evidence collection and risk controls cost HK$3M.
+
+| | No demonstrated improvement | Improved risk case |
+|--|----------------------------|--------------------|
+| Premium | HK$12.5M | HK$9M (illustrative) |
+| Evidence / control cost | HK$0 | HK$3M |
+| **Total** | **HK$12.5M** | **HK$12M** (first-year saving HK$0.5M) |
+
+Better evidence may support underwriting and risk management; premium reductions are **not** automatic. Not an insurance quotation or a measured Sandbox X effect.
+
+---
+
+## 4. Possible Hong Kong service roles
+
+A **2025 Our Hong Kong Foundation** projection assigns a large share of potential **2050** LAE **value added** to **supporting services** ([Week 9](week-09.qmd) · [Readings there](week-09.qmd#readings)). Possible roles include finance, leasing, insurance, legal and professional services, certification support, data assurance, cybersecurity, research, and training.
+
+Hong Kong’s actual advantage must be tested through capability, cost, regulation, customer demand, access to regional markets, and competition. Manufacturing, operations, infrastructure, and services are **complementary** layers — not mutually exclusive. High value added does **not** imply high margin, low risk, or automatic market leadership.
+
+**Managerial lesson:** identify a specific service, customer problem, capability, revenue model, and defensible source of advantage.
+
+### Leasing appraisal (risk does not disappear)
+
+$$
+CF_L
+=
+\text{Lease receipts}
+-
+\text{Financing cost}
+-
+\text{Maintenance}
+-
+\text{Insurance}
+-
+\text{Expected credit loss}
+$$
+
+$$
+NPV
+=
+-\text{Purchase price}
++
+\sum_{t=1}^{T}\frac{CF_{L,t}}{(1+r)^t}
++
+\frac{\text{Residual value}_T}{(1+r)^T}
+$$
+
+Depreciation is an accounting allocation; residual value and cash expenditures belong in the cash-flow appraisal. The lessor retains asset-value, financing, technology, maintenance, repossession, legal, and lessee-credit risks. Lease receipts are contractual — not risk-free.
+
+**Illustrative monthly scenario:** lease payment HK$300k.
+
+| | Operator | Lessor |
+|--|----------|--------|
+| Situation | Revenue after disruption HK$250k; lease HK$300k | Contractual receipt HK$300k; financing/asset-management HK$150k |
+| Result | Shortfall HK$50k before other costs; bears demand/operating risk | Cash flow HK$150k before credit loss; **default puts receipt and asset value at risk** |
+
+Leasing **reallocates** risks between parties; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual value, and recovery cost in this classroom screen.
+
+### From local evidence to transferable capability
+
+Controlled trials can generate evidence on aircraft performance, communications, navigation, weather, emergency response, infrastructure, simultaneous operations, and user feedback. Evidence may support local policy, procedures, assurance services, and commercial refinement. Transfer to another jurisdiction is **not** automatic — rules, environments, aircraft, routes, and acceptance differ. A credible exportable capability may include testing methods, data governance, assurance, training, technical integration, or professional advice. Claims of a global “gold standard” need external validation, reproducibility, interoperability, and recognition by relevant authorities.
+
+**Managerial lesson:** export validated methods and capabilities — not an assumption that one local rulebook will be universally adopted. Keep **Sandbox ≠ Sandbox X**; Sandbox X supports controlled testing and evidence collection — it does **not** bypass legal or safety requirements.
+
+Mainland ATM rules drafts (e.g. CAAC consultation on Readings) remain **draft only** until promulgated — do not treat them as in-force Hong Kong or Mainland law.
+
+---
+
+## 5. Final review: five-step exam method
+
+For an integrated LAE scenario:
+
+1. **Define the decision** — What is being chosen, for whom, over what period, and compared with what alternative?  
+2. **Find served activity** — Compare customer demand with reliable capacity.  
+3. **Calculate viability** — Use price, variable cost, served activity, fixed cost, and any specified charges or payments.  
+4. **Map each constraint once** — Show whether it changes demand, capacity, price, cost, timing, or risk.  
+5. **Recommend conditionally** — Address safety, regulation, sustainability, distribution, uncertainty, and the evidence needed to proceed.  
+
+The aim is not to force every course tool into every answer. Use only the tools that clarify the decision.
+
+### The viability test (reapplied)
+
+$$
+\text{Served activity}
+=
+\min\{\text{Customer demand},\ \text{Reliable capacity}\}
+$$
+
+$$
+\text{Operating profit}
+=
+(\text{Price}-\text{Variable cost})\times\text{Served activity}
+-
+\text{Fixed cost}
+$$
+
+Add any specified tax, fee, subsidy, or committed payment in the correct place. Recalculate served activity when a shock changes demand or capacity. Then discuss regulation, safety, sustainability, and distributional effects (Week 11).
+
+### Quantitative toolkit recap
+
+| Question type | Typical tools |
+|---------------|---------------|
+| Demand | Generalized cost, choice share, elasticity, market funnel |
+| Capacity | Reliable flights, seats/payload, operating days, bottlenecks |
+| Economics | Contribution, breakeven, unit cost, cash flow, NPV |
+| Uncertainty | Scenarios, sensitivity, expected value, probability of loss, liquidity need |
+| Allocation | Queues, reservations, priority, congestion charges, auctions |
+| Impact | Life-cycle emissions, noise exposure, privacy controls, distribution, KPIs |
+
+Start with the decision and units. Do not begin with an all-purpose “super-formula.”
+
+### Worked illustration (capacity and cost shock)
+
+**Base data (illustrative exam assumptions):** demand = 200 flights/day; reliable capacity after disruption = 160; price = HK$500; variable cost = HK$100/flight; fixed cost = HK$40,000/day; specified noise charge = HK$50/flight.
+
+| Step | Result |
+|------|--------|
+| Served activity | $\min\{200,160\}=160$ |
+| Contribution | $(500-100-50)\times 160$ = HK$56,000 |
+| Operating profit | $56{,}000-40{,}000$ = **HK$16,000/day** |
+
+The service remains profitable under the stated assumptions. Compare mitigation cost with the expected reduction in the charge and other benefits. Do **not** recommend visual masking as a noise remedy — privacy and noise require different controls (Week 10). Not a current Hong Kong noise charge or capacity rule.
+
+---
+
+## 6. Consistent judgment
+
+A strong answer combines correct calculation with a recommendation that respects the operating context:
+
+- Keep units consistent; distinguish demand, capacity, served activity, flights, seats, and passenger-trips.  
+- Do not apply the same constraint twice through separate “haircuts.”  
+- Do not assume Sandbox X bypasses legal or safety requirements.  
+- Do not assume a market mechanism is appropriate where safety or predefined public-service priority governs access.  
+- State which assumptions are provided, which are sourced, and which are analytical scenarios.  
+- Conclude with the condition under which the project should proceed, pause, redesign, or stop.  
+
+### Conclusion: from analysis to decision
+
+The Low Altitude Economy remains an emerging field in which technology, regulation, business models, and public expectations continue to develop. Good analysis separates evidence from assumptions. Good modelling connects demand, reliable capacity, cost, finance, risk, and impact without double counting. Good strategy uses staged commitments and evidence-based decision gates. Good policy considers safety, efficiency, innovation, competition, accessibility, privacy, environmental impact, and distribution.
+
+**The objective is not to predict the future with certainty, but to make better decisions as evidence develops.**
+
+Exam logistics and timing stay on the teaching platform.
+
+---
+
+## 7. Putting Week 12 together
+
+Adding nodes raises possible connections — it does not guarantee viable demand or value. Judge digital coordination by total system cost, reliability, oversight, and governance. Hong Kong roles in services and assurance still carry risk; leasing and similar plays do not make risk disappear. Reapply the viability test before recommending a path. The goal is consistent judgment under operational, regulatory, financial, and social constraints. Keep absolute facts with issuers; keep **Sandbox ≠ Sandbox X**.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) (CAAC ATM Rules **draft** consultation — not in force; Pons-Prats et al. on UAM prospects; FAA UAM ConOps / AAM Implementation Plan; EASA SC-VTOL; CAAC leadership piece on general aviation and LAE).  
+- **Course links:** [Week 11](week-11.qmd) · [Week 9](week-09.qmd) · [Course overview](overview.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).  
+- **Slides:** [week12-future.pdf](slides/week12-future.pdf).
 
 ## Readings {#readings}
 
@@ -58,6 +291,10 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 - [EASA. *Special Condition for VTOL and Means of Compliance* (SC-VTOL; original issue 2 Jul 2019, page updated 18 Jul 2025).](https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-vtol) — Live certification basis for passenger eVTOL (page updated July 2025). *Also listed in [Week 7](week-07.qmd).*
 - [FAA (July 2023). *Advanced Air Mobility (AAM) Implementation Plan: Near-term (Innovate28) Focus with an Eye on the Future of AAM*, Version 1.0.](https://www.faa.gov/sites/faa.gov/files/AAM-I28-Implementation-Plan.pdf) — FAA's 'eye on the future' section beyond 2028. *Also listed in [Week 11](week-11.qmd).*
 - [[宋志勇 (中国民用航空局局长) (2025-01-03). 高质量发展通用航空和低空经济. CAAC website, 民航要闻.]{lang="zh-Hans"}](https://www.caac.gov.cn/XWZX/MHYW/202501/t20250103_226313.html) — CAAC priorities for the next phase of LAE. English gloss: Developing general aviation and the low-altitude economy with high quality. *Also listed in [Week 1](week-01.qmd).*
+
+## End of the twelve-week sequence
+
+This page closes the Teach sequence. Return to [Course overview](overview.qmd) for the full map, or to [Week 11](week-11.qmd) for the capstone synthesis that this review builds on. Final exam logistics stay on the teaching platform.
 
 ---
 
