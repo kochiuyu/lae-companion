@@ -1,6 +1,6 @@
 ---
 title: "Week 8: Airspace Access and Integration"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 7](week-07.qmd) · [All weeks](weeks.qmd) · [Week 9 →](week-09.qmd)
+[← Week 7](week-07.qmd) · [Week 9 →](week-09.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
 
-- **Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - Why safe capacity and demand collide (the morning capacity conflict).
 - Congestion as an externality and simple ways to think about delay cost.
 - Slot allocation options: queues, reservations, priority, peak pricing, auctions.
 - Digital coordination, interoperability, and a phased airspace-integration roadmap.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Airspace capacity depends on the whole operating system—not an unsupported “drones per minute” number.
 - Congestion pricing estimates external delay cost; queues, reservations, priority, and auctions serve different goals.
 - Auctions can reveal willingness to pay but need safeguards for safety, competition, new entrants, and public-service access.
 - Interoperability can cut duplicate coordination and support scale; it is not free or automatically safe.
 - A credible roadmap links each capacity or privilege expansion to evidence, review, and a financially consistent decision gate.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -61,4 +64,4 @@ format:
 
 ---
 
-[← Week 7](week-07.qmd) · [All weeks](weeks.qmd) · [Week 9 →](week-09.qmd)
+[← Week 7](week-07.qmd) · [Week 9 →](week-09.qmd)

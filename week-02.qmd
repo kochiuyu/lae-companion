@@ -1,6 +1,6 @@
 ---
 title: "Week 2: LAE Market Structure and Competition"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,26 +11,29 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 1](week-01.qmd) · [All weeks](weeks.qmd) · [Week 3 →](week-03.qmd)
+[← Week 1](week-01.qmd) · [Week 3 →](week-03.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week02-market-structure.pdf](slides/week02-market-structure.pdf)
 
-- **Slides (PDF):** [week02-market-structure.pdf](slides/week02-market-structure.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - How market structure shapes competition across different LAE service segments.
 - Tools for concentration and market power (including a simple HHI-style check).
 - Why utilization, route density, and fixed costs change average cost—and what that means for entry.
 - Price competition, capacity limits, entry barriers, and when rivals might cooperate on shared facilities.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Market power in LAE is often tied to scarce infrastructure (e.g. vertiports) and route density.
 - Large sunk costs and entry barriers can support limit pricing that keeps rivals out.
 - Capacity constraints and differentiation can soften price wars—but they do not guarantee high prices or profits.
 - Co-opetition can cut duplicated infrastructure cost if access, investment, and control rules are clear.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -61,4 +64,4 @@ format:
 
 ---
 
-[← Week 1](week-01.qmd) · [All weeks](weeks.qmd) · [Week 3 →](week-03.qmd)
+[← Week 1](week-01.qmd) · [Week 3 →](week-03.qmd)

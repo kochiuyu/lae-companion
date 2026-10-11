@@ -1,6 +1,6 @@
 ---
 title: "Week 9: Market Sizing, Barriers, Uncertainty and Social Impact"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 8](week-08.qmd) · [All weeks](weeks.qmd) · [Week 10 →](week-10.qmd)
+[← Week 8](week-08.qmd) · [Week 10 →](week-10.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
-- **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - How to size a market for a defined use case (funnel through capacity, revenue, contribution).
 - How constraints from UAM studies should enter the model without double counting.
 - Uncertainty tools: scenarios, sensitivity, and simple probability / downside views.
 - From commercial value to social value: who benefits, who bears costs, and illustrative hedonic thinking.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Market size must specify service, corridor, customer, period, choice behaviour, and reliable capacity.
 - Revenue, contribution, profit, value added, and social benefit are different concepts—do not mix them.
 - Put constraints into explicit demand, capacity, price, cost, timing, or probability channels.
 - Expected value helps, but also look at probability of loss, downside cash needs, and key risk drivers.
 - Social evaluation covers total benefits and costs and how they are distributed across groups.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -59,4 +62,4 @@ format:
 
 ---
 
-[← Week 8](week-08.qmd) · [All weeks](weeks.qmd) · [Week 10 →](week-10.qmd)
+[← Week 8](week-08.qmd) · [Week 10 →](week-10.qmd)

@@ -11,14 +11,14 @@ toc-title: "Sections"
 **Course:** 12-week Low Altitude Economics · 2026–27  
 **Instructor:** Chiu Yu Ko
 
-**New here?** Read [What is LAE?](primer.qmd) first for plain-language scope, then come back for the week map. Weekly materials: [Weeks](weeks.qmd) (slides, notes, and readings together).
+**New here?** Read [What is LAE?](primer.qmd) first for plain-language scope, then come back for the week map. Weekly materials: open a week under **Teach** (for example [Week 1](week-01.qmd)).
 
 ## Description
 
 - Economics and business strategy of the **low-altitude economy (LAE)** — services that use low-altitude airspace, not only aircraft. Vehicle types, sites, traffic labels, and trial programmes are introduced on [What is LAE?](primer.qmd); formal definitions stay in the [Glossary](glossary.qmd).
-- Core setting: Hong Kong and the Greater Bay Area, with selected global advanced air mobility frameworks as **comparators** (not Hong Kong law) — see Objectives below and [Weeks](weeks.qmd).
+- Core setting: Hong Kong and the Greater Bay Area, with selected global advanced air mobility frameworks as **comparators** (not Hong Kong law) — see Objectives below and the week pages under **Teach**.
 - Quantitative and managerial: turn use cases into demand, unit economics, infrastructure breakeven, partnerships, regulatory roadmaps, airspace choices, sustainability, risk, and investment recommendations.
-- Each week adds tools (cost and demand measures, competition checks, infrastructure and partnership logic, and related methods). Names and formulas appear on the [week pages](weeks.qmd) when you need them — this page does not dump the acronym list.
+- Each week adds tools (cost and demand measures, competition checks, infrastructure and partnership logic, and related methods). Names and formulas appear on each week page under **Teach** when you need them — this page does not dump the acronym list.
 - Capstone: integrate those tools into one coherent business or policy strategy for a commercially viable, socially acceptable, policy-consistent, and scalable HK/GBA service.
 
 ## Objectives
@@ -102,4 +102,4 @@ How the weeks build on each other. Week titles match the course schedule. Click 
 
 ## Course materials on this site
 
-- [Weeks](weeks.qmd) — slides, notes, Before you go / Takeaways, and readings by week  
+- **Teach** menu — one article per week (notes, slides, summary, readings)  

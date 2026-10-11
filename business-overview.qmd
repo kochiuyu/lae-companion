@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Short map of the **business** side of LAE. Firm lists stay on [Companies & sectors](landscape.qmd); weekly tools and takeaways stay on [Weeks](weeks.qmd). Definitions: [Glossary](glossary.qmd).
+Short map of the **business** side of LAE. Firm lists stay on [Companies & sectors](landscape.qmd); weekly tools and takeaways stay on the week pages under **Teach** (for example [Week 1](week-01.qmd)). Definitions: [Glossary](glossary.qmd).
 
 ## How value is created
 
@@ -82,5 +82,5 @@ Use the map and sector lists on [Companies & sectors](landscape.qmd) for who app
 
 - [Who decides what?](regulators.qmd) — regulator roles  
 - [Companies & sectors](landscape.qmd) — market map by sector  
-- [Weeks](weeks.qmd) — especially Weeks 1–3 and Week 6  
-- [Weeks](weeks.qmd) · [What is LAE?](primer.qmd)
+- **Teach** menu — especially [Week 1](week-01.qmd), [Week 2](week-02.qmd), [Week 3](week-03.qmd), [Week 6](week-06.qmd)  
+- [Week 1](week-01.qmd) · [What is LAE?](primer.qmd)

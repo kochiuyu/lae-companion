@@ -1,13 +1,13 @@
 ---
 title: "Lectures"
-subtitle: "Moved — Teach is organised by week"
+subtitle: "Moved — Teach is one page per week"
 as_of: "2026-10-11"
 page-layout: article
 ---
 
-Slides and takeaways now live on each **week page**, together with that week's readings and notes.
+Slides and takeaways live on each **week article** (with notes and readings).
 
-**Go to [Weeks](weeks.qmd)** — or jump:
+Use the **Teach** menu, or jump:
 
 - [Week 1: Introduction to LAE](week-01.qmd)
 - [Week 2: LAE Market Structure and Competition](week-02.qmd)
@@ -21,5 +21,3 @@ Slides and takeaways now live on each **week page**, together with that week's r
 - [Week 10: Sustainability Challenges in Urban Air Operations](week-10.qmd)
 - [Week 11: Synthesis and Capstone Group Presentations](week-11.qmd)
 - [Week 12: LAE Future Frontiers and Final Review](week-12.qmd)
-
-Old bookmarks such as `lectures.html#week-1` should use the matching week page (for example [Week 1](week-01.qmd)).

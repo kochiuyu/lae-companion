@@ -1,6 +1,6 @@
 ---
 title: "Week 6: LAE Strategic Partnerships and Business Models"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 5](week-05.qmd) · [All weeks](weeks.qmd) · [Week 7 →](week-07.qmd)
+[← Week 5](week-05.qmd) · [Week 7 →](week-07.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
 
-- **Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - Three commercial architectures: asset-intensive, service-based, and platform-oriented.
 - When a public–private partnership might make sense—and what it does not fix.
 - Usage vs availability payments, risk allocation, and contractual flexibility / staging.
 - Sharing facilities (co-opetition) and negotiating a simple partnership term sheet.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Ownership, service integration, and platforms mix control, capital, capability, and risk differently.
 - A PPP is about value for money and long-term risk allocation—not just accessing public money.
 - Availability payments should link to measurable readiness and performance, with clear deductions and relief.
 - Assign each risk to the party best able to manage it.
 - Shared infrastructure can lower unit cost only if access, governance, congestion, data, liability, and competition are managed.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -62,4 +65,4 @@ format:
 
 ---
 
-[← Week 5](week-05.qmd) · [All weeks](weeks.qmd) · [Week 7 →](week-07.qmd)
+[← Week 5](week-05.qmd) · [Week 7 →](week-07.qmd)

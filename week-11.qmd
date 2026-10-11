@@ -1,6 +1,6 @@
 ---
 title: "Week 11: Synthesis and Capstone Group Presentations"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 10](week-10.qmd) · [All weeks](weeks.qmd) · [Week 12 →](week-12.qmd)
+[← Week 10](week-10.qmd) · [Week 12 →](week-12.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
 
-- **Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - How to connect every weekly tool into one coherent strategy (not separate homework answers).
 - The viability test: cash flow, NPV, breakeven, downside risk, and non-financial criteria.
 - Airport-corridor screening example, risk register, and decision gates.
 - How to give a clear 12-minute recommendation and a short executive deck.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Synthesis means a connected model—not a pile of independent weekly calculations.
 - Served activity is limited by both customer demand and reliable capacity.
 - Judge viability with contribution, cash flow, NPV, downside risk, and non-financial criteria together.
 - A credible recommendation states evidence, limitations, residual risks, and when you would change course.
 - Clear presentation makes assumptions and trade-offs visible instead of hiding uncertainty.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -60,4 +63,4 @@ format:
 
 ---
 
-[← Week 10](week-10.qmd) · [All weeks](weeks.qmd) · [Week 12 →](week-12.qmd)
+[← Week 10](week-10.qmd) · [Week 12 →](week-12.qmd)

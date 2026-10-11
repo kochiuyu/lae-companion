@@ -78,7 +78,7 @@ Sites for advanced craft are often called **vertiports** in industry language �
 
 ## Why Hong Kong and the GBA
 
-The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style comparators on [Course overview](overview.qmd) and [Weeks](weeks.qmd). Hong Kong already has an active policy track (Working Group, sandboxes, Cap. 448G and Advisory Circulars) on [Timeline](dates.qmd).
+The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style comparators on [Course overview](overview.qmd) and the week pages under **Teach**. Hong Kong already has an active policy track (Working Group, sandboxes, Cap. 448G and Advisory Circulars) on [Timeline](dates.qmd).
 
 
 ```{=html}
@@ -114,6 +114,6 @@ The boxes above are enough for a first pass. When you need regulator names, open
 3. **[Common questions](faq.qmd)** · **[Key figures](key-figures.qmd)** — short Q&As and sourced numbers.  
 4. **[How to use this site](howto.qmd)** — full Orient path, then Teach and Updates.
 
-Then switch to **Teach**: [Weeks](weeks.qmd).
+Then switch to **Teach**: start with [Week 1](week-01.qmd).
 
 No Blackboard or assessment admin on this site — course logistics stay with the teaching platform.

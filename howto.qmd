@@ -26,7 +26,7 @@ Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-ins
 
 ## Then Teach
 
-- [Weeks](weeks.qmd) — each week page has slides, notes (when published), Before you go / Takeaways, and readings  
+- **Teach** menu — one page per week (full notes when published, slides, summary, readings). Start with [Week 1](week-01.qmd).  
 
 ## Official facts
 

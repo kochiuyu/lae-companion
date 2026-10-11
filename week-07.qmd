@@ -1,6 +1,6 @@
 ---
 title: "Week 7: LAE Policy and Regulation"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 6](week-06.qmd) · [All weeks](weeks.qmd) · [Week 8 →](week-08.qmd)
+[← Week 6](week-06.qmd) · [Week 8 →](week-08.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
 
-- **Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - How regulation can be part of competitive strategy (value of earlier readiness).
 - Hong Kong’s risk-based approach for small unmanned aircraft and the role of [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).
 - Permissions for advanced operations (including BVLOS), safety cases, and compliance investment.
 - Digital traffic management (U-space/UTM) and building a phased regulatory roadmap.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Advanced operations need prior permission and may face extra conditions under a risk-based framework.
 - Sandbox X supports controlled testing and evidence—not a waiver of safety rules or automatic commercial approval.
 - A safety case is an evidence-based argument for a defined operation; it may aid approval and insurability without guaranteeing cheaper premiums.
 - Digital traffic-management services can cut coordination cost and support scale, but still need oversight, cybersecurity, and governance.
 - A strong roadmap ties each new operating privilege to specified evidence, review, and risk controls.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -64,4 +67,4 @@ format:
 
 ---
 
-[← Week 6](week-06.qmd) · [All weeks](weeks.qmd) · [Week 8 →](week-08.qmd)
+[← Week 6](week-06.qmd) · [Week 8 →](week-08.qmd)

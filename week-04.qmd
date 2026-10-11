@@ -1,6 +1,6 @@
 ---
 title: "Week 4: Demand Modeling in Urban Air Mobility"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 3](week-03.qmd) · [All weeks](weeks.qmd) · [Week 5 →](week-05.qmd)
+[← Week 3](week-03.qmd) · [Week 5 →](week-05.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
 
-- **Slides (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - Whether customers would actually choose an LAE option versus other modes.
 - A simple demand funnel: potential trips → corridor/mode share → capacity constraints.
 - Willingness to pay, generalized cost, elasticity, and why customers are not all the same.
 - How to treat public acceptance and shocks as explicit scenarios—not a magic multiplier.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Demand models give evidence-based scenarios, not exact predictions.
 - Keep potential demand, available capacity, flights, and passengers actually served distinct.
 - Generalized cost compares whole journeys; mode choice stays heterogeneous and probabilistic.
 - Elasticity helps with pricing, but revenue and profit also depend on capacity and cost.
 - Public acceptance and external shocks should enter through clear, justified assumptions.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -53,4 +56,4 @@ format:
 
 ---
 
-[← Week 3](week-03.qmd) · [All weeks](weeks.qmd) · [Week 5 →](week-05.qmd)
+[← Week 3](week-03.qmd) · [Week 5 →](week-05.qmd)

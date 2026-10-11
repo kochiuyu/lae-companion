@@ -1,6 +1,6 @@
 ---
 title: "Week 3: Cost Structures and Revenue Management"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 2](week-02.qmd) · [All weeks](weeks.qmd) · [Week 4 →](week-04.qmd)
+[← Week 2](week-02.qmd) · [Week 4 →](week-04.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
 
-- **Slides (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - How to separate CAPEX, fixed OPEX, and activity-related variable cost.
 - Unit-cost measures you will use: [CASK](glossary.qmd#business-and-economics) and cost per mission-kilometre.
 - Breakeven volume and how price, load factor, and utilization move the numbers.
 - Revenue-model choices (pay-per-use, subscription, availability, complementary) and weather as a planning risk.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Always separate CAPEX, recurring fixed OPEX, and variable cost before talking about unit economics.
 - CASK is about passenger capacity offered; cargo and public-service work often need mission-based measures.
 - Breakeven needs a consistent unit, contribution margin, realistic capacity, and realistic demand.
 - Revenue management aims to improve total contribution—not just fill every seat.
 - Subscriptions and similar contracts can reshape risk; none is a free or guaranteed hedge.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -53,4 +56,4 @@ format:
 
 ---
 
-[← Week 2](week-02.qmd) · [All weeks](weeks.qmd) · [Week 4 →](week-04.qmd)
+[← Week 2](week-02.qmd) · [Week 4 →](week-04.qmd)

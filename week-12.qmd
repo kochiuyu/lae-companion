@@ -1,6 +1,6 @@
 ---
 title: "Week 12: LAE Future Frontiers and Final Review"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 11](week-11.qmd) · [All weeks](weeks.qmd)
+[← Week 11](week-11.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
 
-- **Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - From corridors to networks: more nodes create possible links, not automatic demand or value.
 - Digital coordination as a business and governance question (cost, reliability, oversight).
 - Possible Hong Kong service roles: financing, leasing, insurance, professional services, data-enabled assurance.
 - Final review: reapply the course viability test and the five-step exam method.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Adding nodes raises possible connections; it does not guarantee viable demand or value.
 - Judge digital coordination by total system cost, reliability, oversight, and governance—not buzzwords.
 - Hong Kong roles in services and assurance still carry risk; leasing and similar plays do not make risk disappear.
 - Reapply the viability test to integrated quantitative scenarios before recommending a path.
 - The goal is consistent judgment under operational, regulatory, financial, and social constraints.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -58,4 +61,4 @@ format:
 
 ---
 
-[← Week 11](week-11.qmd) · [All weeks](weeks.qmd)
+[← Week 11](week-11.qmd)

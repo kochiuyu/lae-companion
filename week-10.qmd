@@ -1,6 +1,6 @@
 ---
 title: "Week 10: Sustainability Challenges in Urban Air Operations"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 9](week-09.qmd) · [All weeks](weeks.qmd) · [Week 11 →](week-11.qmd)
+[← Week 9](week-09.qmd) · [Week 11 →](week-11.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
 
-- **Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - Main environmental and social externalities of urban air operations (noise, privacy, greenhouse gases).
 - Policy responses: pricing, operating rules, standards, mitigation, and compensation.
 - Simple operational and life-cycle emissions thinking with clear boundaries.
 - Privacy governance, public acceptance by use case, equity commitments, and sustainability KPIs.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Address externalities with a mix of technology, standards, operating rules, pricing, compensation, and engagement.
 - Do not “price noise” by multiplying flights by decibels above an assumed threshold.
 - Privacy needs lawful purpose, necessity, proportionality, minimization, security, transparency, retention control, and accountability.
 - Electric operation is not zero life-cycle emissions; GHG scopes and LCA need consistent boundaries.
 - Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -63,4 +66,4 @@ format:
 
 ---
 
-[← Week 9](week-09.qmd) · [All weeks](weeks.qmd) · [Week 11 →](week-11.qmd)
+[← Week 9](week-09.qmd) · [Week 11 →](week-11.qmd)

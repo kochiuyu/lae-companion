@@ -44,7 +44,7 @@ LAE is a **whole service** (craft, sites, traffic, operators, customers, support
 
 ## 9. Where are lectures and readings?
 
-**Teach** menu: [Weeks](weeks.qmd) — each week has slides, notes (when published), takeaways, and readings. Week map: [Course overview](overview.qmd). Path tip: [How to use this site](howto.qmd).
+**Teach** menu: one page per week (notes, slides, summary, readings) — start with [Week 1](week-01.qmd). Week map: [Course overview](overview.qmd). Path tip: [How to use this site](howto.qmd).
 
 ## 10. What may I treat as settled for citation?
 

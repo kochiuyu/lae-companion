@@ -1,6 +1,6 @@
 ---
 title: "Week 5: Infrastructure Economics and Management"
-subtitle: "Slides, notes, and readings"
+subtitle: "Lecture notes, slides, and readings"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -11,27 +11,30 @@ format:
     body-classes: "page-week"
 ---
 
-[← Week 4](week-04.qmd) · [All weeks](weeks.qmd) · [Week 6 →](week-06.qmd)
+[← Week 4](week-04.qmd) · [Week 6 →](week-06.qmd)
 
-## Materials {#materials}
+**Slides (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
 
-- **Slides (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
-- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+## Summary {#summary}
 
-## Before you go {#before-you-go}
+**Before you go**
 
 - Why infrastructure (not only aircraft) can be the binding bottleneck.
 - Vertiport archetypes, site-selection trade-offs, throughput, and reliability.
 - Breakeven activity, staged ramp-up, and planning for downtime.
 - How scarce slots might be allocated, and hub vs distributed vs hybrid networks.
 
-## Takeaways {#takeaways}
+**Takeaways**
 
 - Infrastructure strategy balances safety, access, utilities, reliable capacity, cost, expandability, and community impact.
 - Breakeven should use reliable capacity and contribution per movement—not theoretical maximum activity.
 - Staged investment and liquidity planning reduce the risk of building ahead of demand.
 - Scarce slots need transparent allocation and priority rules; peak pricing is only one option.
 - Hub, distributed, and hybrid networks trade facility cost, access, resilience, and connectivity.
+
+## Notes {#notes}
+
+Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
 
 ## Readings {#readings}
 
@@ -54,4 +57,4 @@ format:
 
 ---
 
-[← Week 4](week-04.qmd) · [All weeks](weeks.qmd) · [Week 6 →](week-06.qmd)
+[← Week 4](week-04.qmd) · [Week 6 →](week-06.qmd)
