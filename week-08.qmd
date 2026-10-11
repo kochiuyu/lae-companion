@@ -16,7 +16,16 @@ format:
 
 **Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
 
-This page is the Week 8 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 7 mapped permissions and safety cases; this week asks how **scarce low-altitude capacity** is allocated when demand exceeds what can be served safely — and how digital coordination supports integration. Links: [Week 5](week-05.qmd) · [Week 7](week-07.qmd) · [Who decides what?](regulators.qmd) · [Glossary · airspace](glossary.qmd#airspace-and-traffic).
+This page is the **Week 8** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how scarce airspace / congestion / allocation mechanisms / digital coordination / roadmaps connect to Weeks 5–7, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
+
+Week 7 mapped permissions and safety cases. This week asks how **scarce low-altitude capacity** is allocated when demand exceeds what can be served safely — and how digital coordination supports integration without inventing corridor capacities.
+
+**Orient refreshers:**
+
+- [Week 5](week-05.qmd) — scarce site slots  
+- [Week 7](week-07.qmd) — Cap. 448G, Sandbox X, U-space ≠ HK law  
+- [Who decides what?](regulators.qmd) — standing caveats  
+- [Glossary · airspace](glossary.qmd#airspace-and-traffic) — UTM / U-space labels  
 
 ## Summary {#summary}
 
@@ -36,7 +45,7 @@ This page is the Week 8 article for the 12-week Low Altitude Economics course: a
 - A credible roadmap links each capacity or privilege expansion to evidence, review, and a financially consistent decision gate.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples below use round figures (delay externalities, bid screens, coordination savings, roadmap NPV). They are **illustrative assumptions for learning**, not published corridor capacities, CAD fees, UTM tariffs, or GBA forecasts. Absolute facts (AC-017, OFCA 1.4 GHz Sandbox confinement, Cap. 448G height bands) stay with their issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (delay externalities, bid screens, coordination savings, roadmap NPV). They are **illustrative assumptions for learning**, not published corridor capacities, CAD fees, UTM tariffs, or GBA forecasts. Absolute facts (**AC-017** = Sandbox X cross-boundary; **OFCA 1.4 GHz** confined to LAE Regulatory Sandbox; Cap. **448G** height bands; **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**) stay with issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -49,13 +58,28 @@ By the end of Week 8 you should be able to:
 4. **Evaluate** how digital coordination and interoperability affect cost, safety, and scalability.  
 5. **Design** a phased airspace-integration roadmap with explicit evidence and decision gates.
 
+### How these notes are organised
+
+| Part | Sections | Focus |
+|------|----------|--------|
+| Conflict & capacity | §§1–2 | 8:00 AM conflict; whole-system bottleneck; HK height / Sandbox facts |
+| Congestion & mechanisms | §§3–4 | Delay externality; queues / prices / auctions; affordable bid |
+| Networks & digital | §§5–6 | Network effects; interoperability; OFCA / AC-017 facts |
+| Roadmap & close | §§7–10 | Phased integration NPV; tool map; synthesis; study checklist |
+
+Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned` and named intermediates — no nested `array` with column-gutter specs (KaTeX-unsafe).
+
 ---
 
 ## 1. The 8:00 AM capacity conflict
 
 Imagine that two operations request the same constrained corridor and time window. One is a time-sensitive public-service delivery; the other is a scheduled commercial passenger or cargo operation. Only one request can be served safely within the available window.
 
-Should priority depend on arrival time, reservation, social value, price, or a predefined public-service rule? Every rule solves one problem and creates another — queues favour early requesters, prices favour high willingness to pay, priority rules protect designated missions but need clear triggers. Week 5 treated scarce **site** slots; this week treats scarce **airspace** access as a related allocation problem.
+Should priority depend on arrival time, reservation, social value, price, or a predefined public-service rule? Every rule solves one problem and creates another — queues favour early requesters, prices favour high willingness to pay, priority rules protect designated missions but need clear triggers.
+
+### Link back to Weeks 5–7
+
+Week 5 treated scarce **site** slots. Week 7 showed that advanced operations need Cap. 448G permission and that Sandbox evidence is not a commercial franchise. Week 8 treats scarce **airspace** access as a related allocation problem: even with permission and a pad, the corridor–time pair may still bind.
 
 ---
 
@@ -72,6 +96,12 @@ Hong Kong facts to keep straight ([Key figures](key-figures.qmd) · [Glossary](g
 
 **Managerial lesson:** define the constrained resource and time interval **before** designing an allocation mechanism.
 
+::: {.callout-note appearance="simple"}
+**Capacity discipline.** Do not invent “drones per minute” for Harbour or GBA corridors. Classroom delay and bid numbers below are teaching screens, not published CAD capacities.
+:::
+
+**Beyond the slide.** If pads bind first, a sophisticated corridor auction allocates the wrong scarce resource. Diagnose the bottleneck (airspace vs vertiport vs charging vs communications) the way Week 5 diagnosed site bottlenecks — then pick the mechanism.
+
 ---
 
 ## 3. Congestion externalities
@@ -82,10 +112,20 @@ Pricing is only one response. Reservations, quotas, priority rules, rerouting, a
 
 ### Marginal congestion cost (illustrative)
 
+In words: sum additional delay times value of delay across affected users, then add other incremental costs. Compact symbols:
+
+- $D_j$ — additional delay for user $j$  
+- $v_j$ — value of delay for user $j$  
+- $C_{\mathrm{other}}$ — other incremental costs  
+- $\mathrm{MCC}$ — marginal congestion cost  
+
 $$
 \begin{aligned}
-\text{Marginal congestion cost} = {} & \sum_j \left(\text{Additional delay}_j \times \text{Value of delay}_j\right) \\
-& {} + \text{Other incremental costs}
+S_{\mathrm{delay}}
+&= \sum_j \left( D_j \times v_j \right) \\
+\mathrm{MCC}
+&= S_{\mathrm{delay}} \\
+&\quad + C_{\mathrm{other}}
 \end{aligned}
 $$
 
@@ -100,7 +140,9 @@ Sum the incremental delay imposed on **all** affected users, not only the next a
 | Flight 3 | HK$40/min |
 | **Total** | **HK$200/min** |
 
-External delay cost ≈ $5 \times 200$ = **HK$1,000**. A peak charge near this amount may encourage a flexible operation to move; response is not guaranteed. Excludes safety, environmental, and schedule-recovery costs in this classroom screen.
+External delay cost ≈ $5 \times 200$ = **HK$1,000** (here $C_{\mathrm{other}}=0$). A peak charge near this amount may encourage a flexible operation to move; response is not guaranteed. Excludes safety, environmental, and schedule-recovery costs in this classroom screen.
+
+**Beyond the slide.** A charge that ignores public-service priority will look “efficient” on willingness-to-pay and still violate Week 6 / Week 7 service obligations. Mechanism choice is not only price versus queue — it is which missions are allowed to bid at all.
 
 ---
 
@@ -119,14 +161,20 @@ Mechanism design asks how rules shape participants’ information, incentives, a
 
 ### Maximum affordable slot payment
 
+In words: incremental revenue from the slot, minus incremental operating cost, minus required contribution. Compact symbols:
+
+- $R_{\Delta}$ — incremental revenue  
+- $C_{\Delta}$ — incremental operating cost  
+- $\pi_{\mathrm{req}}$ — required contribution  
+- $B_{\max}$ — maximum affordable payment  
+
 $$
-\text{Maximum affordable payment}
-=
-\text{Incremental revenue}
--
-\text{Incremental operating cost}
--
-\text{Required contribution}
+\begin{aligned}
+B_{\max}
+&= R_{\Delta} \\
+&\quad - C_{\Delta} \\
+&\quad - \pi_{\mathrm{req}}
+\end{aligned}
 $$
 
 Use incremental values associated with obtaining the slot — not total company revenue and OPEX. Required contribution may cover fixed cost, risk, or a target return. The rational bid also depends on auction rules, expected rival bids, alternative slots, and the risk that linked resources are unavailable. A high bid does **not** automatically imply high social value or justify excluding smaller operators.
@@ -142,7 +190,7 @@ Use incremental values associated with obtaining the slot — not total company 
 
 Operator B can afford a higher bid under these assumptions. Actual payment depends on auction design and competing bids — not necessarily “one dollar above A.” Commercial slots remain subject to safety, priority, and competition rules.
 
-**Exercise ledger (classroom):** cargo max affordable = revenue − cost − contribution = $800 - 400 - 100$ = **HK$300**; passenger = $2000 - 600 - 400$ = **HK$1,000**. If priority public service is triggered, record who bears displacement cost and whether compensation, rescheduling, or reserved capacity applies.
+**Exercise ledger (classroom):** cargo $B_{\max}$ = revenue − cost − contribution = $800 - 400 - 100$ = **HK$300**; passenger = $2000 - 600 - 400$ = **HK$1,000**. If priority public service is triggered, record who bears displacement cost and whether compensation, rescheduling, or reserved capacity applies.
 
 ---
 
@@ -151,6 +199,8 @@ Operator B can afford a higher bid under these assumptions. Actual payment depen
 A **network effect** exists when participation by additional compatible users increases the value of the network to existing users. Common interfaces and timely information may improve route planning, conflict detection, situational awareness, and coordination. More participants can also increase congestion, cybersecurity exposure, monitoring needs, and system complexity.
 
 Shared data does **not** automatically make a system safer — data quality, latency, coverage, governance, and operational use matter. Some benefits are network effects; others are economies of scale or standardization. Do not treat them as identical.
+
+**Beyond the slide.** Network effects can lock in a coordination platform the way Week 2 density locked in pad advantage. Interoperability standards and open interfaces are therefore competition policy as well as engineering — not only “IT efficiency.”
 
 ---
 
@@ -164,10 +214,17 @@ Week 7 introduced U-space (EU framework) and UTM as broader traffic-management l
 
 ### Coordination-cost savings
 
+In words: subtract the cost of the interoperable process from the cost of the less-integrated process. Compact symbols:
+
+- $C_{\mathrm{legacy}}$ — cost of the less-integrated process  
+- $C_{\mathrm{interop}}$ — cost of the interoperable process  
+- $S_{\mathrm{day}}$ — daily net saving  
+
 $$
 \begin{aligned}
-\text{Daily net saving} = {} & \text{Cost of the less-integrated process} \\
-& {} - \text{Cost of the interoperable process}
+S_{\mathrm{day}}
+&= C_{\mathrm{legacy}} \\
+&\quad - C_{\mathrm{interop}}
 \end{aligned}
 $$
 
@@ -187,6 +244,8 @@ Illustrative monthly saving HK$450,000 — only if reliability, security, and se
 - **OFCA** has made the **1430–1444 MHz** (1.4 GHz) band available for UAS under a dedicated licence; at present the band is confined to projects under the LAE **Regulatory Sandbox** launched by the Government ([Readings](#readings)). Do not treat it as open commercial spectrum.  
 - **CAD AC-017** covers cross-boundary SUA permission **inside Regulatory Sandbox X** ([Readings](#readings)). Time-slot and path approvals follow that circular — not a general corridor licence.
 
+**Beyond the slide.** Mixing OFCA’s Sandbox-confined 1.4 GHz fact with AC-017’s Sandbox X cross-boundary pathway is the same category error as merging AC-013 and AC-017 in Week 7. Keep programmes and circulars separate when you design allocation and communications assumptions.
+
 ---
 
 ## 7. Airspace-integration roadmap
@@ -203,15 +262,21 @@ Cross-boundary development also requires coordination on customs, immigration, q
 
 ### Phased roadmap value
 
+In words: discount each year’s incremental net cash flow and sum. Compact symbols:
+
+- $CF_t$ — incremental cash inflow minus outflow in year $t$  
+- $r$ — discount rate  
+- $\mathrm{NPV}$ — roadmap net present value  
+
 $$
-\text{Roadmap NPV}
-=
-\sum_{t=0}^{T}
-\frac{
-\text{Incremental cash inflow}_t
--
-\text{Incremental cash outflow}_t
-}{(1+r)^t}
+\begin{aligned}
+CF_t
+&= \text{Incremental cash inflow}_t \\
+&\quad - \text{Incremental cash outflow}_t \\
+\mathrm{NPV}
+&= \sum_{t=0}^{T}
+  \frac{CF_t}{(1+r)^t}
+\end{aligned}
 $$
 
 Include implementation cost in the year it occurs. Cash flows should reflect probability of reaching each phase, operating limits, demand, cost, and possible abandonment. Decision gates preserve flexibility to pause, redesign, or expand when evidence changes (Week 6 staging). A positive NPV under assumptions does **not** prove that the wider market is viable.
@@ -230,11 +295,45 @@ Attractive under these assumed cash flows. Probabilities, decision gates, termin
 
 ---
 
-## 8. Putting Week 8 together
+## 8. One-page tool map (from bottleneck to roadmap)
 
-Airspace capacity depends on the **complete operating system** — not an unsupported “drones per minute” number. Congestion pricing estimates external delay cost; queues, reservations, priority rules, and auctions serve different objectives. Auctions can reveal willingness to pay but need safeguards for safety, competition, linked resources, new entrants, and public-service access. Interoperability may reduce duplicate coordination and support scale — it does not make digital services free or automatically safe. Network participation creates benefits and costs; data quality, cybersecurity, governance, and congestion remain essential. A credible roadmap links each expansion in capacity or operating privilege to evidence, review, and a financially consistent decision gate. Keep **Sandbox ≠ Sandbox X**; do not invent corridor capacities.
+| Step | Ask | Output |
+|------|-----|--------|
+| 1 | What scarce resource and time window bind? | Airspace / pad / charging / C2 diagnosis |
+| 2 | Cap. 448G height / RFZ / Sandbox rules for this mission? | Legal operating envelope |
+| 3 | What is MCC from delay externalities? | Peak-charge screen (not a tariff) |
+| 4 | Queue, posted price, auction, package, or priority? | Mechanism choice + safeguards |
+| 5 | What is $B_{\max}$ for each bidder? | Affordable-payment screen |
+| 6 | Are linked slots (pad + corridor + charging) packaged? | Reject / reschedule rule |
+| 7 | Does interoperability cut $C_{\mathrm{legacy}}$ enough? | $S_{\mathrm{day}}$ screen |
+| 8 | OFCA 1.4 GHz / AC-017 — which programme applies? | Spectrum and cross-boundary map |
+| 9 | What privilege expands only after which gate? | Phased roadmap |
+| 10 | Keep Sandbox ≠ Sandbox X; U-space ≠ HK law; no invented corridor capacity | Fact discipline |
+
+---
+
+## 9. Putting Week 8 together
+
+Airspace capacity depends on the **complete operating system** — not an unsupported “drones per minute” number. Congestion pricing estimates external delay cost; queues, reservations, priority rules, and auctions serve different objectives. Auctions can reveal willingness to pay but need safeguards for safety, competition, linked resources, new entrants, and public-service access. Interoperability may reduce duplicate coordination and support scale — it does not make digital services free or automatically safe. Network participation creates benefits and costs; data quality, cybersecurity, governance, and congestion remain essential. A credible roadmap links each expansion in capacity or operating privilege to evidence, review, and a financially consistent decision gate. Keep **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**; do not invent corridor capacities; keep **OFCA Sandbox spectrum** separate from **AC-017 Sandbox X** cross-boundary permission.
 
 The short checklist is in [Summary](#summary) above.
+
+---
+
+## 10. Study checklist (beyond the slides)
+
+1. State why capacity is a **whole-system** concept, not drones-per-minute.  
+2. Separate Cap. **448G** height bands from the ~**1,000 m** policy working description.  
+3. Keep **Sandbox ≠ Sandbox X**; no invented Harbour corridor capacity.  
+4. Compute $S_{\mathrm{delay}}$ and $\mathrm{MCC}$ for a three-flight delay scenario.  
+5. Compare queue / posted price / auction / package / priority on design criteria.  
+6. Compute $B_{\max}$ for two operators; say why high bid ≠ high social value.  
+7. Explain linked-slot failure → reject/reschedule, not unsafe flight.  
+8. Distinguish network effects from scale / standardization.  
+9. State **U-space ≠ HK law**; compute $S_{\mathrm{day}}$ for two coordination processes.  
+10. Cite OFCA **1.4 GHz Sandbox confinement** and **AC-017** Sandbox X scope correctly.  
+11. Build a three-stage roadmap with evidence gates and $\mathrm{NPV}$ from $CF_t$.  
+12. Connect Week 5 site slots and Week 7 permissions to this week’s airspace allocation.
 
 ---
 
