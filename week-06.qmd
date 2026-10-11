@@ -1,19 +1,22 @@
 ---
 title: "Week 6: LAE Strategic Partnerships and Business Models"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "Who owns what, who pays whom, and how risk is shared"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 5](week-05.qmd) · [Week 7 →](week-07.qmd)
 
 **Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
+
+This page is the Week 6 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Weeks 3–5 built costs, demand, and sites; this week asks **which commercial architecture** delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk. Links: [How does LAE work?](business-overview.qmd) · [Week 5](week-05.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics).
 
 ## Summary {#summary}
 
@@ -32,9 +35,226 @@ format:
 - Assign each risk to the party best able to manage it.
 - Shared infrastructure can lower unit cost only if access, governance, congestion, data, liability, and competition are managed.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples below use round figures (monthly profits, availability fees, staging payoffs). They are **illustrative assumptions for learning**, not market benchmarks or named-deal terms. Trial counts (e.g. Sandbox first batch) stay with their issuers on [Key figures](key-figures.qmd) / [Readings](#readings).
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 6 you should be able to:
+
+1. **Compare** asset-intensive, service-based, and platform-oriented LAE business models.  
+2. **Explain** when a public–private partnership may be appropriate — and what it does not solve.  
+3. **Design** payment mechanisms and KPIs that align service quality, affordability, and commercial viability.  
+4. **Allocate** demand, weather, operational, regulatory, and financing risks to the parties best able to manage them.  
+5. **Evaluate** phased investment and contractual flexibility under uncertain market development.
+
+---
+
+## 1. Choosing the commercial architecture
+
+Imagine two teams proposing the same LAE service. **Team A** wants to own aircraft, infrastructure, staff, and customer operations. **Team B** wants to coordinate specialist partners and sell an integrated outcome to the customer.
+
+Neither model is automatically superior:
+
+- Ownership can provide **control** but requires capital and operating capability.  
+- Coordination can provide **flexibility** but creates dependency, contracting, quality-control, and margin-sharing risks.  
+
+Week 5 asked which sites to build; Week 6 asks which capabilities to **own, contract, share, or buy as a service**.
+
+---
+
+## 2. Three business-model archetypes
+
+| Archetype | Core idea | Typical exposure |
+|-----------|-----------|------------------|
+| **Asset-intensive operator** | Owns or finances major aircraft and infrastructure; controls more of the operating system | High capital and utilization risk; potentially greater control and value capture |
+| **Service integrator** | Promises an outcome (e.g. delivery availability, inspection coverage) while leasing assets or contracting operators | Lower asset ownership; high coordination and performance risk |
+| **Platform orchestrator** | Connects customers, operators, infrastructure, and data services | Fewer physical assets; software, cybersecurity, compliance, customer acquisition, and network risk |
+
+Real businesses often **combine** elements. Roles without firm names: [How does LAE work?](business-overview.qmd).
+
+### Monthly economic-profit screen
+
+$$
+\begin{aligned}
+\text{Monthly economic profit} ={}& \text{Revenue} - \text{Cash OPEX} \\
+&- \text{Monthly asset-cost allocation} - \text{Partner payments}
+\end{aligned}
+$$
+
+Ownership affects financing, residual value, utilization risk, and control. Contracting converts some investment into recurring partner payments — it does **not** eliminate liability or performance risk. Platforms may scale with fewer physical assets but need trust, two-sided liquidity, governance, data security, and enough transactions. Compare cash flow, economic cost, risk, control, and capability — not a single profit number.
+
+### Worked illustration (three archetypes)
+
+**Assumption (illustrative):** each model earns HK$1M monthly revenue; tax and financing omitted.
+
+| | Asset-intensive | Service integrator | Platform |
+|--|-----------------|--------------------|----------|
+| Cash / internal OPEX | HK$200k | HK$100k | HK$150k |
+| Asset / software allocation | HK$333k | HK$0 | HK$33k |
+| Partner / operator payouts | HK$0 | HK$800k | HK$700k |
+| **Economic profit** | **HK$467k** | **HK$100k** | **HK$117k** |
+| Character | High capital & utilization exposure | Supplier dependency | Network & governance risk |
+
+An “asset-light” label does **not** guarantee higher profit or lower risk. Ranking depends on payouts, utilization, demand, liability, and investment needs.
+
+---
+
+## 3. Public–private partnerships (PPP)
+
+A **PPP** is a long-term arrangement in which a public authority and a private party allocate responsibilities and risks for delivering infrastructure or services ([Glossary · PPP](glossary.qmd#business-and-economics) — course term; **not** a substitute for a vertiport statute).
+
+- It is **not** merely “government and business share cost and profit.”  
+- The private party may design, finance, build, operate, maintain, or integrate specified components.  
+- The public authority defines outcomes, procurement rules, affordability, safety, access, performance, and accountability.  
+- Payment may come from users, the authority, or both.  
+
+**Managerial test:** use a PPP only when long-term integration and risk allocation can create **better value for money** than conventional procurement or a normal service contract — not merely to chase public funding.
+
+Hong Kong’s trial programmes (first **Regulatory Sandbox** vs later **Sandbox X**) create controlled learning settings; they are **not** themselves a PPP template and must not be merged ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); first-batch **38 of 72** on [Readings](#readings)).
+
+---
+
+## 4. Usage vs availability payments
+
+$$
+R_U = p \times q
+\quad\text{(usage-based revenue)}
+$$
+
+$$
+R_A = A - D + u \times q
+\quad\text{(availability-based component)}
+$$
+
+- $A$ — availability payment  
+- $D$ — deductions for unavailability or failed performance  
+- $u$ — any additional usage payment  
+- $q$ — quantity (missions, movements, etc.)  
+
+Usage-based models put more **volume risk** on the provider. Availability models can shift more **demand risk** toward the public authority, but the provider keeps **performance risk** through KPIs and deductions. Hybrids can balance readiness, activity, quality, and affordability (same logic as Week 3 revenue models).
+
+### Worked illustration (payment design and risk)
+
+**Assumptions (illustrative):** monthly fixed cost HK$500k; variable cost HK$200/mission; actual missions = 300.
+
+| | Usage-only (HK$1,000/mission) | Availability HK$650k + usage HK$200/mission |
+|--|-------------------------------|-----------------------------------------------|
+| Revenue | HK$300k | HK$710k |
+| Variable + fixed cost | HK$60k + HK$500k = HK$560k | HK$560k |
+| **Operating result** | **Loss HK$260k** | **Profit HK$150k** (before deductions) |
+
+Availability stabilises revenue but should depend on **readiness and performance**. Weather relief, deductions, and service obligations must be drafted explicitly.
+
+---
+
+## 5. Contractual flexibility and real options
+
+A **real option** is managerial flexibility to change an investment decision as information arrives: delay, stage, expand after demand is proven, switch technology, or abandon. Contracts can preserve flexibility through milestone gates, extension rights, break clauses, change procedures, or phased commitments.
+
+Not every flexible clause is freely exercisable — triggers, notice, compensation, approvals, and termination consequences must be specified. Regulatory change is usually handled through carefully drafted **change-in-law** and relief provisions, not a vague right to pause whenever rules change.
+
+### Decision-tree screen
+
+$$
+\text{Expected project value}
+=
+\sum_s \Pr(s) \times \text{Payoff under the chosen action in state }s
+$$
+
+Compare a rigid commitment with a staged or contingent decision. Flexibility creates value only if management can observe new information and respond. Waiting also has costs: option fees, delay, lost position, inflation, or expiring approvals. Conventional NPV can incorporate planned decisions; real-options thinking makes flexibility more explicit.
+
+### Worked illustration (value of staging)
+
+**Scenario (illustrative):** full commitment costs HK$50M; generates HK$100M if favourable, otherwise zero; each state 50% probability.
+
+| | Commit now | Pay HK$5M to wait, then decide |
+|--|------------|--------------------------------|
+| Favourable net | HK$50M | Invest later → HK$45M |
+| Unfavourable net | −HK$50M | Do not invest → −HK$5M |
+| **Expected value** | $0.5(50)+0.5(-50)=$ **HK$0** | $0.5(45)+0.5(-5)=$ **HK$20M** |
+
+Staging has value here because the decision occurs after uncertainty resolves. Timing, discounting, delay cost, and whether information truly resolves must still be modelled.
+
+---
+
+## 6. Co-opetition and shared facilities
+
+**Co-opetition** means cooperating in selected activities while competing in others (Week 2 theme, deepened here):
+
+- **Possible cooperation:** shared vertiports, charging, communications, interfaces, safety data, common standards.  
+- **Continued competition:** routes, price, reliability, service design, customers, specialised capabilities.  
+- **Benefit:** less duplication; larger compatible networks; faster market development.  
+- **Risk:** discriminatory access, information leakage, investment disputes, weakened competition.  
+
+Define access, cost sharing, data governance, performance, liability, and exit. Week 5’s scarce-slot rules apply inside shared sites.
+
+### Facility cost per movement
+
+$$
+\text{Shared facility cost per movement}
+=
+\frac{\text{Fixed facility cost}}{\text{Total movements}}
++ \text{Variable facility cost per movement}
+$$
+
+Greater total use can spread fixed cost — this is the **facility’s** cost, not automatically each operator’s charge. Contracts must decide equal vs usage vs peak vs investment-based payments. Sharing helps only if extra traffic does not create excessive congestion or expansion cost.
+
+**Assumptions (illustrative):** fixed facility cost HK$40,000/day; variable HK$100/movement.
+
+| | 50 movements/day | 100 shared movements/day |
+|--|------------------|--------------------------|
+| Fixed per movement | HK$800 | HK$400 |
+| + Variable | HK$100 | HK$100 |
+| **Facility cost/movement** | **HK$900** | **HK$500** (~44% lower) |
+
+Operator ticket cost still needs aircraft, staff, load factor, and contract data. Movements ≠ seats or passenger tickets.
+
+---
+
+## 7. Institutional approaches (comparators)
+
+| Setting | Partnership / entry flavour (simplified) |
+|---------|------------------------------------------|
+| **Hong Kong — Sandbox X** (distinct from the earlier Regulatory Sandbox) | Controlled trials for project concepts, operations, infrastructure, emergency response, cross-boundary procedures |
+| **European U-space** | Regulatory and digital-service frame for unmanned operations in designated airspace |
+| **United States** | FAA / interagency coordination of certification, operations, airspace, infrastructure, environment, community engagement |
+| **GBA collaboration** | May combine manufacturing, operating, testing, finance, logistics, and professional services across jurisdictions |
+
+These are **not** simple rankings of “speed.” Each creates different evidence needs, partnership opportunities, and entry risks ([Who decides what?](regulators.qmd)). Cross-boundary corridors remain **not** day-to-day operating service on the evidence tracked here.
+
+---
+
+## 8. Term-sheet thinking (risk to the best party)
+
+When negotiating (classroom exercise style), map at least:
+
+| Issue | Public authority typically wants | Operator typically wants |
+|-------|----------------------------------|--------------------------|
+| Service outcome | Reliable, affordable delivery of the mission | Clear, measurable scope |
+| Payment | Value for money; budget control | Bankable, predictable cash flow |
+| Performance | Strong KPIs and remedies | Controllable targets; fair relief |
+| Risk | Transfer where value improves | Accept only manageable, priced risk |
+| Flexibility | Ability to adapt the public service | Compensation for material changes |
+
+**Principle:** allocate each risk to the party best able to **control, absorb, mitigate, or insure** it — and price the transfer. Do not dump all risk on government or on the operator by default.
+
+---
+
+## 9. Putting Week 6 together
+
+Asset ownership, service integration, and platforms mix **control, capital, capability, and risk** differently. A PPP is justified by value for money and long-term risk allocation — not by hunger for public money alone. Link **availability** payments to readiness and performance, with deductions and relief. Stage investment and write flexibility carefully. Share infrastructure only with governance that protects access, data, liability, and competition. Keep **Sandbox ≠ Sandbox X**.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) (first-batch Regulatory Sandbox **38 of 72**; LegCo note on Shenzhen/US partnership models; TLB LCQ on Sandbox process; WEF / Deloitte for ecosystem structure — not for numbers).  
+- **Course links:** [Week 5](week-05.qmd) · [How does LAE work?](business-overview.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).  
+- **Slides:** [week06-partnerships.pdf](slides/week06-partnerships.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 6 assignment brief used in class.
 
 ## Readings {#readings}
 
@@ -62,6 +282,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 **Industry**
 
 - [Hussain, A., & Silver, D. (26 January 2021). *Advanced air mobility*. Deloitte Insights.](https://www2.deloitte.com/us/en/insights/industry/aerospace-defense/advanced-air-mobility.html) — Consultancy view of AAM business models and ecosystem roles. Use it for structure only, not for numbers.
+
+## Looking ahead to Week 7
+
+Week 7 turns to **LAE policy and regulation**: how regulation can be part of competitive strategy; Hong Kong’s risk-based SUA approach and Sandbox X; permissions for advanced operations (including BVLOS); safety cases; and digital traffic management. Preview question: how will instruments such as operating restrictions and BVLOS rules rewrite the contracts designed this week?
+
+Continue: [Week 7](week-07.qmd) · [Course overview](overview.qmd).
 
 ---
 
