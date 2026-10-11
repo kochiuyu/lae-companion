@@ -1,0 +1,55 @@
+---
+title: "Common questions"
+subtitle: "Ten short answers for first-time learners"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Questions"
+---
+
+Quick answers. Longer explanations stay on the linked Orient and Official facts pages.
+
+## 1. What does “LAE” mean in Hong Kong?
+
+Economic activity in airspace generally below about **1,000 metres** — a **policy working description**, not a Cap. 448G flying height. See [What is LAE?](primer.qmd) and [Key figures](key-figures.qmd).
+
+## 2. Is “drone” the same as SUA?
+
+In everyday speech, people say “drone.” Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) (not more than **150 kg**). “Drone” is not a Cap. 448G synonym. See [Glossary · vehicles](glossary.qmd#vehicles-and-operations).
+
+## 3. Does Hong Kong already have eVTOL or vertiport statutes?
+
+**No dedicated Hong Kong eVTOL or vertiport statute yet.** Heavier / passenger-oriented types sit above the SUA ceiling as unconventional aircraft pending rules; “vertiport” is industry language for take-off and landing sites. Status rows: [Official status](tracker.qmd); plain language: [What is LAE?](primer.qmd).
+
+## 4. What are Sandbox and Sandbox X?
+
+Two **different** Hong Kong trial programmes — an early **Regulatory Sandbox** and a later **Sandbox X**. Do not mix their project counts. Plain wording: [Who decides what?](regulators.qmd#standing-caveats); numbers: [Key figures](key-figures.qmd).
+
+## 5. Is the Shenzhen–Hong Kong corridor already flying?
+
+A cross-boundary / GBA corridor is discussed in policy, but on the evidence tracked here it is **not an operating corridor yet**. See [Who decides what?](regulators.qmd#standing-caveats) and [Official status](tracker.qmd).
+
+## 6. Is the HK$350 billion figure a government number?
+
+**No.** About **HK$350 billion** by 2050 is an **Our Hong Kong Foundation** projection, not an HKSAR government figure. See [Key figures](key-figures.qmd) and [Official status](tracker.qmd).
+
+## 7. Who decides what in Hong Kong?
+
+Short roles: Working Group (strategy), **TLB** (policy bureau), **CAD** (Cap. 448G / sandbox circulars), **OFCA** (sandbox spectrum licence). Cheat sheet: [Who decides what?](regulators.qmd).
+
+## 8. How does the business side fit together?
+
+LAE is a **whole service** (craft, sites, traffic, operators, customers, supporting services). Who pays whom is on [How does LAE work?](business-overview.qmd); firm lists (claims ≠ facts) on [Companies & sectors](landscape.qmd).
+
+## 9. Where are lectures and readings?
+
+**Teach** menu: [Lectures](lectures.qmd) (slide PDFs and takeaways) and [Readings](readings.qmd) (documents by week). Week map: [Course overview](overview.qmd). Path tip: [How to use this site](howto.qmd).
+
+## 10. What may I treat as settled for citation?
+
+Use [Official status](tracker.qmd) chips — [OPEN]{.status-chip .status-open} / [WATCH]{.status-chip .status-watch} / [settled]{.status-chip .status-settled} — and dated instruments on [Timeline](dates.qmd). Definitions: [Glossary](glossary.qmd).
+
+---
+
+Next: [Key figures](key-figures.qmd) · back to [How to use this site](howto.qmd).

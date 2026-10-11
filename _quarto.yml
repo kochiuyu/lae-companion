@@ -7,6 +7,7 @@ project:
     - overview.qmd
     - howto.qmd
     - primer.qmd
+    - faq.qmd
     - key-figures.qmd
     - regulators.qmd
     - business-overview.qmd
@@ -33,14 +34,16 @@ website:
             text: Course overview
           - href: primer.qmd
             text: What is LAE?
-          - href: key-figures.qmd
-            text: Key figures
           - href: business-overview.qmd
             text: How does LAE work?
           - href: regulators.qmd
             text: Who decides what?
           - href: howto.qmd
             text: How to use this site
+          - href: faq.qmd
+            text: Common questions
+          - href: key-figures.qmd
+            text: Key figures
       - text: Teach
         menu:
           - href: lectures.qmd
