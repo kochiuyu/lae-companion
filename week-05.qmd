@@ -330,20 +330,17 @@ There is **no** universal “Hong Kong strategy” or “GBA strategy.” Config
 
 ### Generalized cost per served trip
 
-In words: spread network fixed cost, OPEX, and disruption cost over **served** trips, then add access burden per trip.
+In words: first bundle network fixed cost, OPEX, and disruption cost; divide that bundle by **served** trips; then add access burden per trip.
 
 $$
 \begin{aligned}
+\text{Network cost bundle}
+&= \text{Network fixed cost}
+  + \text{Network OPEX}
+  + \text{Disruption cost} \\
 \text{GC per trip}
-&=
-\frac{
-\begin{array}{@{}c@{}}
-\text{Network fixed cost} \\
-{}+ \text{Network OPEX} \\
-{}+ \text{Disruption cost}
-\end{array}
-}{\text{Served trips}} \\[0.6em]
-&\quad + \text{Access burden per trip}
+&= \frac{\text{Network cost bundle}}{\text{Served trips}}
+  + \text{Access burden per trip}
 \end{aligned}
 $$
 
