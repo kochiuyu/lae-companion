@@ -1,19 +1,22 @@
 ---
 title: "Week 11: Synthesis and Capstone Group Presentations"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "One connected model, a viability test, and a clear recommendation"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 10](week-10.qmd) · [Week 12 →](week-12.qmd)
 
 **Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
+
+This page is the Week 11 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation. Links: [Course overview](overview.qmd) · [Week 9](week-09.qmd) · [Week 10](week-10.qmd).
 
 ## Summary {#summary}
 
@@ -32,9 +35,206 @@ format:
 - A credible recommendation states evidence, limitations, residual risks, and when you would change course.
 - Clear presentation makes assumptions and trade-offs visible instead of hiding uncertainty.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples below (capacity-shock profits) use **illustrative assumptions for learning**, not Hong Kong weather downtime, corridor capacities, or deal terms. Absolute facts (Policy Address / Sandbox X framing, AC-017, Action Plan still **OPEN**) stay with issuers on [Readings](#readings) / [Official status](tracker.qmd). Keep **Sandbox ≠ Sandbox X**; do not invent approval dates.
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 11 you should be able to:
+
+1. **Integrate** demand, capacity, unit economics, infrastructure, contracts, regulation, and sustainability into one coherent strategy.  
+2. **Check** that assumptions, units, and causal links remain consistent across the complete business model.  
+3. **Evaluate** viability using cash flow, NPV, breakeven, downside risk, and non-financial decision criteria.  
+4. **Present** a concise 12-minute recommendation supported by transparent evidence and sensitivity analysis.  
+5. **Defend** the proposal by explaining limitations, decision gates, and conditions under which the recommendation should change.
+
+---
+
+## 1. Seeing the whole system
+
+A strong capstone does more than collect ten weeks of separate calculations:
+
+- **Demand** determines the activity the system may serve (Week 4 / Week 9).  
+- **Infrastructure and regulation** constrain reliable capacity (Weeks 5, 7, 8).  
+- **Capacity, utilization, and contracts** determine revenue and unit cost (Weeks 3, 6).  
+- **Environmental and social impacts** affect operating conditions, mitigation cost, and legitimacy (Weeks 9–10).  
+
+**Synthesis** means tracing how one changed assumption affects the rest of the model. Ask which assumption in your project creates the largest cascade if it changes.
+
+---
+
+## 2. The integration challenge
+
+Business-model components are connected through quantities, prices, capacity, cost, timing, risk, and stakeholder responses:
+
+- A restriction on operating hours reduces reliable capacity.  
+- Lower capacity may reduce served demand and revenue while increasing fixed cost per served unit.  
+- A price response may further change customer choice and load factor.  
+- A mitigation measure may increase cost but preserve operating access or reduce disruption.  
+
+**Integration rule:** every important assumption should appear **once** in the correct model channel, with no contradictory units or double counting (Week 9 constraint-mapping lesson).
+
+### The viability test
+
+$$
+\text{Served activity}
+=
+\min\{\text{Customer demand},\ \text{Reliable capacity}\}
+$$
+
+$$
+\text{Operating profit}
+=
+(\text{Price}-\text{Variable cost})\times\text{Served activity}
+-
+\text{Fixed cost}
+$$
+
+Demand may be limited by price, travel time, or customer acceptance. Capacity may be limited by aircraft, infrastructure, weather, or regulation. The business is operationally viable only if served activity generates enough contribution to cover fixed cost. Longer-horizon judgment still needs cash flow, NPV, financing, and downside liquidity (Weeks 3 and 9).
+
+### Worked illustration (capacity shock)
+
+**Assumptions (illustrative):** customer demand 100 flights/day at HK$600/flight; variable cost HK$100/flight; fixed cost HK$40,000/day.
+
+| | Base case | Capacity shock (80 flights reliable) |
+|--|-----------|--------------------------------------|
+| Served activity | $\min\{100,100\}=100$ | $\min\{100,80\}=80$ |
+| Operating profit | $(600-100)\times 100 - 40{,}000$ = **HK$10,000/day** | $(600-100)\times 80 - 40{,}000$ = **HK$0/day** |
+
+The capacity shock reduces served activity even though customer demand is unchanged. Because fixed cost remains, the service falls from a daily profit of HK$10,000 to breakeven. No claim about annual Hong Kong weather downtime.
+
+---
+
+## 3. Integrated strategy template
+
+A coherent capstone should connect six decision blocks:
+
+1. **Service and stakeholder problem** — What need is addressed, for whom, and compared with what alternative?  
+2. **Demand and capacity** — How many units are demanded and reliably serviceable?  
+3. **Economics and finance** — Contribution, breakeven activity, cash flow, NPV, and downside exposure?  
+4. **Infrastructure and operations** — Which resources are binding, and how is reliability maintained?  
+5. **Partnership and regulation** — Who performs each role, bears each risk, and grants each permission?  
+6. **Sustainability and distribution** — What impacts arise, who bears them, and how are they measured and mitigated?  
+
+### Airport-corridor screening (illustrative chain)
+
+| Block | Example reasoning |
+|-------|-------------------|
+| Problem | Test whether a time-sensitive airport segment values the proposed door-to-door service |
+| Demand | Estimate customer choice at alternative fares using generalized cost and capacity constraints |
+| Operations | Define aircraft, seats, load factor, operating days, turnaround, and serviceable capacity |
+| Economics | Contribution per passenger-trip, fixed cost, breakeven, NPV, downside cash need |
+| Regulation | Identify applicable permissions; use evidence-based **Sandbox X** or **AC-013** milestones **only where relevant** (keep programmes distinct) |
+| Impact | Life-cycle emissions, noise exposure, privacy controls, access, public-service effects |
+
+**Decision:** recommend proceed, stage, redesign, relocate, or reject — with explicit conditions that would change the recommendation. Do not invent published corridor capacities or claim cross-boundary corridors as day-to-day service.
+
+---
+
+## 4. Risk register and decision-gated roadmap
+
+| Risk | Model channel | Response | Decision trigger |
+|------|---------------|----------|------------------|
+| Demand | Choice share and price | Pilot and staged capacity | Minimum verified demand |
+| Weather | Serviceable capacity | Procedures and resilience | Reliability threshold |
+| Regulation | Scope and timing | Evidence plan and review | Permission or milestone |
+| Technology | Cost and availability | Test, redundancy, supplier plan | Performance threshold |
+| Community impact | Route and operating conditions | Mitigation and engagement | Exposure and complaint KPI |
+
+Do **not** assume fixed Sandbox X approval dates. Under **AC-013**, BVLOS permission within the **first Regulatory Sandbox** context is operation-specific and requires supporting documents, flight and test plans, risk assessment, and mitigations ([Week 7](week-07.qmd)). **AC-017** covers cross-boundary SUA permission inside **Sandbox X** ([Readings](#readings)). Keep **Sandbox ≠ Sandbox X**. The Action Plan commitment in the 2025 Policy Address remains text **OPEN** on Official status — cite the issuer, do not invent a published plan.
+
+Phased gates echo Weeks 6–8: expand only when evidence, review, and risk controls justify it.
+
+---
+
+## 5. The decision-maker's lens
+
+Assessors may represent investors, operators, regulators, public agencies, customers, or affected communities. Their objectives are not identical:
+
+| Lens | Core question |
+|------|---------------|
+| **Operational credibility** | Can the service be delivered safely and reliably? |
+| **Commercial viability** | Are demand, contribution, cash flow, and financing assumptions credible? |
+| **Regulatory feasibility** | Is the proposed pathway specific to the aircraft and operation? |
+| **Public value** | Are benefits, costs, access, and distribution addressed? |
+| **Decision quality** | Does the recommendation acknowledge uncertainty, alternatives, and conditions for revision? |
+
+A strong presentation answers all five without pretending that uncertainty has disappeared.
+
+### A 12-minute decision pitch
+
+| Segment | Focus |
+|---------|--------|
+| **Decision and value proposition (≈2 min)** | Problem, recommendation, customer, use case, principal evidence |
+| **Integrated quantitative case (≈4 min)** | Demand, reliable capacity, contribution, breakeven, NPV, one clear sensitivity |
+| **Implementation and governance (≈3 min)** | Infrastructure, partners, regulatory pathway, responsibilities, decision gates |
+| **Risk and impact (≈2 min)** | Major downside, mitigation, residual risk, sustainability, distribution |
+| **Closing decision (≈1 min)** | Requested action, next milestone, funding or approval need, stop conditions |
+
+Use formulas only where they clarify the decision. The objective is a **defensible recommendation**, not the largest number of calculations.
+
+### Weak vs strong evidence
+
+| Weak case | Strong case |
+|-----------|-------------|
+| Uses total market size as forecast demand | Defines the market and competing alternative |
+| Confuses passenger-trips, flights, and seats | Checks demand against reliable capacity |
+| Applies repeated percentage haircuts | Maps each constraint to one model channel |
+| Reports expected profit without downside risk | Reports NPV, probability of loss, and cash need |
+| Assumes approval, acceptance, and insurance outcomes | States evidence, limitations, and decision gates |
+
+A strong analysis can still recommend **rejection or delay**. Credibility matters more than producing a favourable answer.
+
+---
+
+## 6. Presentation logistics and feedback
+
+**Ground rules (classroom):**
+
+- **Timing:** 12 minutes to present and 3 minutes for questions — rehearse to finish without rushing the recommendation.  
+- **Team contribution:** every member should speak and understand the central assumptions and results.  
+- **Traceability:** cite important data; distinguish sourced evidence from classroom assumptions.  
+- **Visual discipline:** readable charts, tables, sensitivity results, and a decision roadmap rather than dense text.  
+- **Unit consistency:** distinguish passengers, passenger-trips, flights, movements, operating days, and annual values.  
+- **Professional judgment:** explain uncertainty and limitations directly; do not present assumptions as current Hong Kong facts.  
+
+**Audience feedback:** provide one strength, one material concern, and one actionable improvement — covering problem/recommendation, model consistency, evidence, implementation, risk, and impact (safety, privacy, noise, climate, access, distribution).
+
+### Twelve-slide executive deck (template)
+
+1. Decision and executive summary  
+2. Stakeholder problem and current alternative  
+3. Service design and operating concept  
+4. Market definition and customer choice  
+5. Reliable capacity and infrastructure  
+6. Unit economics and breakeven  
+7. Cash flow, NPV, and funding requirement  
+8. Partnership, payment, and risk allocation  
+9. Regulatory pathway and evidence gates  
+10. Downside scenario and sensitivity results  
+11. Sustainability and distributional impacts  
+12. Recommendation, milestones, and stop or expand conditions  
+
+Deck order may change; logic should move from decision → evidence → implementation → risk → action.
+
+Assessment logistics and grading weights stay on the teaching platform; the slide deck carries the Week 11 deliverables brief used in class (presentation + executive memo).
+
+---
+
+## 7. Putting Week 11 together
+
+Synthesis requires a **connected model**, not a collection of independent weekly calculations. Served activity is limited by both customer demand and reliable capacity. Judge viability through contribution, cash flow, NPV, downside risk, and non-financial criteria together. Put constraints into explicit model channels without double counting. A credible recommendation states evidence, limitations, residual risks, and conditions for changing course. Clear presentation supports judgment by making assumptions and trade-offs visible rather than hiding uncertainty. Keep absolute facts with issuers; keep **Sandbox ≠ Sandbox X**.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) (2025 Policy Address ¶153–157 / Action Plan OPEN + Sandbox X framing — same official text as Week 10; CAD AC-017; Straubinger et al. UAM overview; FAA AAM Implementation Plan as roadmap comparator; LegCo IN10/2025; CAICT ecosystem report for GBA-facing work).  
+- **Course links:** [Week 10](week-10.qmd) · [Course overview](overview.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).  
+- **Slides:** [week11-capstone.pdf](slides/week11-capstone.pdf).
 
 ## Readings {#readings}
 
@@ -60,6 +260,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 **Think-tank**
 
 - [[中国信息通信研究院知识产权与创新发展中心 & 中国互联网协会 (2024年12月). 《低空经济政策与产业生态研究报告（2024年）》. CAICT.]{lang="zh-Hans"}](https://www.caict.ac.cn/english/research/whitepapers/202504/P020250401513801693140.pdf) — Mainland ecosystem framing for GBA-facing capstones. English gloss: Research Report on Low-Altitude Economy Policy and Industrial Ecosystem (2024). *Also listed in [Week 1](week-01.qmd).*
+
+## Looking ahead to Week 12
+
+Week 12 turns to **review, quantitative applications, and the final exam**: demonstrating integrated economic judgment across the course under time pressure. Preview question from class: how will you show this level of connected reasoning across all eleven weeks in the exam?
+
+Continue: [Week 12](week-12.qmd) · [Course overview](overview.qmd).
 
 ---
 
