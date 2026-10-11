@@ -22,7 +22,7 @@ project:
     - usecases.qmd
 
 website:
-  title: "DOTE5891"
+  title: "LAE Course"
   search: true
   navbar:
     search: true
@@ -70,8 +70,8 @@ website:
           - href: dates.qmd
             text: Timeline
   page-footer:
-    left: "DOTE5891 course companion — readings, lecture slides, and official evidence."
-    right: "Updated 11 October 2026 · CUHK Business School · Decisions, Operations and Technology"
+    left: "12-week low-altitude economy course — readings, lecture slides, and official evidence."
+    right: "Updated 11 October 2026"
 
 format:
   html:

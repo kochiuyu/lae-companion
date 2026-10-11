@@ -1,6 +1,6 @@
 ---
 title: "Course overview"
-subtitle: "What DOTE5891 covers and how the weeks connect"
+subtitle: "What the course covers and how the weeks connect"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-**Course:** DOTE5891VM Low Altitude Economics · Second Trimester, 2026–27 · MSc in Aviation Management · CUHK Business School  
+**Course:** 12-week Low Altitude Economics · 2026–27  
 **Instructor:** Chiu Yu Ko
 
 **New here?** Read [What is LAE?](primer.qmd) first for plain-language scope, then come back for the week map. Weekly slides and documents: [Lectures](lectures.qmd) · [Readings](readings.qmd).

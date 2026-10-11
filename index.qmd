@@ -1,18 +1,14 @@
 ---
-title: "Low Altitude Economics Companion"
-subtitle: "Course companion for DOTE5891"
+title: "Low Altitude Economics"
+subtitle: "For a 12-week low-altitude economy course"
 as_of: "2026-10-11"
 ---
 
-**The Chinese University of Hong Kong**  
-CUHK Business School · Decisions, Operations and Technology  
-Master of Aviation Management  
-
-**Course:** DOTE5891 Low Altitude Economics  
+**Course:** 12-week Low Altitude Economics  
 **Instructor:** Chiu Yu Ko  
 **First offering:** December 2026  
 
-Course companion for DOTE5891 — lecture slides, readings, and supporting evidence.
+Site for a 12-week low-altitude economy course — lecture slides, readings, and supporting evidence.
 
 <!-- Start here: term not in session yet (first offering Dec 2026). When a teaching week is active, point these two links at lectures.qmd#week-N and readings.qmd#week-N. -->
 **Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · then [Lectures](lectures.qmd) · [Readings](readings.qmd)

@@ -40,4 +40,4 @@ Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-ins
 - [Companies & sectors](landscape.qmd) — market map  
 - [Government news](news.qmd) · [Business news](industry.qmd) · [Use cases](usecases.qmd) — dated updates  
 
-No Blackboard admin on this companion.
+No Blackboard admin on this site.

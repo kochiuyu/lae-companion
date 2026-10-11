@@ -470,7 +470,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-04-15-caac-uas .press-item}**15 Apr 2026 · Civil Aviation Administration of China:** Four-draft package on specific-category standard scenes, risk assessment, mid/small UAS pilot training, and swarm-show flight safety (comment close 23 Apr). [Link](https://www.caac.gov.cn/HDJL/YJZJ/202604/t20260416_230556.html)
   - What's new: Mainland UAS operational-safety consultation package framed as supporting orderly low-altitude development.
-  - Status: Drafts only — not in-force Hong Kong or Mainland operating rules for this companion.
+  - Status: Drafts only — not in-force Hong Kong or Mainland operating rules for this site.
   - Read instead: Mainland UAS rules comparator (draft).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}

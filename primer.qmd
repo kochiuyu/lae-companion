@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Plain-language start for DOTE5891. Definitions stay in the [Glossary](glossary.qmd); citeable status stays on [Official status](tracker.qmd).
+Plain-language start for this 12-week course. Definitions stay in the [Glossary](glossary.qmd); citeable status stays on [Official status](tracker.qmd).
 
 ## A whole service, not only a vehicle
 
@@ -115,4 +115,4 @@ The boxes above are enough for a first pass. When you need regulator names, open
 
 Then switch to **Teach**: [Lectures](lectures.qmd) · [Readings](readings.qmd).
 
-No Blackboard or assessment admin on this companion — course logistics stay with the teaching platform.
+No Blackboard or assessment admin on this site — course logistics stay with the teaching platform.
