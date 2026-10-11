@@ -70,7 +70,7 @@ website:
           - href: dates.qmd
             text: Timeline
   page-footer:
-    left: "12-week low-altitude economy course — readings, lecture slides, and official evidence."
+    left: "12-week LAE course"
     right: "Updated 11 October 2026"
 
 format:
