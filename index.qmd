@@ -11,13 +11,13 @@ as_of: "2026-10-11"
 Site for a 12-week low-altitude economy course — lecture slides, readings, and supporting evidence.
 
 <!-- Start here: term not in session yet (first offering Dec 2026). When a teaching week is active, point these two links at lectures.qmd#week-N and readings.qmd#week-N. -->
-**Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · then [Lectures](lectures.qmd) · [Readings](readings.qmd)
+**Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · [How to use this site](howto.qmd) · then [Lectures](lectures.qmd) · [Readings](readings.qmd)
 
 ::: {.hub-grid}
 ::: {.hub-card}
 ## Orient
 
-Week map, plain-language primers, and how to use this site.
+Week map, primers, how the business works, FAQ, key figures, and how to use this site.
 
 - [Course overview](overview.qmd)
 - [What is LAE?](primer.qmd)
@@ -40,7 +40,7 @@ Slide decks and weekly documents.
 ::: {.hub-card}
 ## Official facts
 
-Terms, checked status, and who is in the market.
+Terms, checked status, and who is in the market (firms and sectors).
 
 - [Glossary](glossary.qmd)
 - [Official status](tracker.qmd)
@@ -50,7 +50,7 @@ Terms, checked status, and who is in the market.
 ::: {.hub-card}
 ## Updates
 
-Dated government items, business news, use cases, and the milestone timeline.
+Dated government and business news, trial and operating use cases, and the timeline.
 
 - [Government news](news.qmd)
 - [Business news](industry.qmd)

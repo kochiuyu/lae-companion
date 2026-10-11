@@ -29,15 +29,17 @@ Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-ins
 - [Lectures](lectures.qmd) — slide PDFs and takeaways  
 - [Readings](readings.qmd) — documents by week  
 
-## Check what you may cite
+## Official facts
 
-- [Official status](tracker.qmd) — [OPEN]{.status-chip .status-open} / [WATCH]{.status-chip .status-watch} / [settled]{.status-chip .status-settled} labels  
-- [Timeline](dates.qmd) — dated instruments  
 - [Glossary](glossary.qmd) — terms and diagrams  
+- [Official status](tracker.qmd) — [OPEN]{.status-chip .status-open} / [WATCH]{.status-chip .status-watch} / [settled]{.status-chip .status-settled} labels  
+- [Companies & sectors](landscape.qmd) — who is in the market  
 
-## Optional later
+## Updates
 
-- [Companies & sectors](landscape.qmd) — market map  
-- [Government news](news.qmd) · [Business news](industry.qmd) · [Use cases](usecases.qmd) — dated updates  
+- [Government news](news.qmd) — dated government and regulatory items  
+- [Business news](industry.qmd) — dated company and industry items  
+- [Use cases](usecases.qmd) — trial and operating applications  
+- [Timeline](dates.qmd) — dated instruments and milestones  
 
 No Blackboard admin on this site.

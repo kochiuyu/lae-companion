@@ -111,7 +111,8 @@ The boxes above are enough for a first pass. When you need regulator names, open
 
 1. **[How does LAE work?](business-overview.qmd)** — value, who pays whom, and how sectors fit.  
 2. **[Who decides what?](regulators.qmd)** — who regulates what, in one-line roles.  
-3. **[How to use this site](howto.qmd)** — Orient path, then Teach.
+3. **[Common questions](faq.qmd)** · **[Key figures](key-figures.qmd)** — short Q&As and sourced numbers.  
+4. **[How to use this site](howto.qmd)** — full Orient path, then Teach and Updates.
 
 Then switch to **Teach**: [Lectures](lectures.qmd) · [Readings](readings.qmd).
 
