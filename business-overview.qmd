@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Short map of the **business** side of LAE. Firm lists stay on [Companies & sectors](landscape.qmd); weekly tools and takeaways stay on [Lectures](lectures.qmd) and [Readings](readings.qmd). Definitions: [Glossary](glossary.qmd). Trial-programme mix-ups (Sandbox ≠ Sandbox X; corridor not operational) are stated on [Who decides what?](regulators.qmd#standing-caveats).
+Short map of the **business** side of LAE. Firm lists stay on [Companies & sectors](landscape.qmd); weekly tools and takeaways stay on [Lectures](lectures.qmd) and [Readings](readings.qmd). Definitions: [Glossary](glossary.qmd).
 
 ## How value is created
 
@@ -20,7 +20,7 @@ Unit-cost language in class includes [CASK](glossary.qmd#business-and-economics)
 
 ## Money flow (high level)
 
-Roles and payment directions only — **not** market sizes, deal values, or named firms. Sandboxes support controlled testing; they are not automatic commercial approval ([Lectures · Week 7](lectures.qmd#week-7); [Who decides what?](regulators.qmd#standing-caveats)).
+Roles and payment directions only — **not** market sizes, deal values, or named firms. Trial programmes help teams test under controlled conditions; they are not the same as everyday commercial approval ([Lectures · Week 7](lectures.qmd#week-7)).
 
 ```{=html}
 <style>
@@ -88,7 +88,7 @@ Use the map and sector lists on [Companies & sectors](landscape.qmd) for who app
 
 ## Where to go next
 
-- [Who decides what?](regulators.qmd) — regulator roles and standing caveats  
+- [Who decides what?](regulators.qmd) — regulator roles  
 - [Companies & sectors](landscape.qmd) — market map by sector  
 - [Lectures](lectures.qmd) — especially Weeks 1–3 and Week 6  
 - [Readings](readings.qmd) · [What is LAE?](primer.qmd)

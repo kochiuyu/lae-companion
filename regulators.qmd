@@ -10,13 +10,12 @@ toc-title: "Sections"
 
 One-line roles only. Instruments and status live on [Official status](tracker.qmd) and [Timeline](dates.qmd); term definitions on the [Glossary](glossary.qmd). Comparators are not Hong Kong law.
 
-## Standing caveats {#standing-caveats}
+## Two things to keep straight {#standing-caveats}
 
-State these clearly here; earlier Orient pages only point back to this section.
+In plain words (details and dates on [Official status](tracker.qmd) and [Timeline](dates.qmd)):
 
-1. **Regulatory Sandbox ≠ [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).** They are different Hong Kong trial programmes. Do not blend their project counts or Advisory Circulars ([Official status](tracker.qmd)). Example: **AC-013** (BVLOS) belongs with the first Regulatory Sandbox; **AC-017** (cross-boundary) belongs with Sandbox X.
-2. The Shenzhen–Hong Kong / GBA **cross-boundary corridor is not operational** on the evidence tracked on this site ([Official status](tracker.qmd); [Timeline](dates.qmd)). Policy aims or trial pathways are not the same as an operating corridor.
-3. Related OPEN items students also mix up: **no published Action Plan text** yet; **no dedicated Hong Kong eVTOL or vertiport statute** yet ([Official status](tracker.qmd)).
+1. **Hong Kong has two different trial programmes** — the first **Regulatory Sandbox** and later **[Sandbox X](glossary.qmd#hong-kong-institutions-and-law)**. They are not the same list of projects.
+2. A **Shenzhen–Hong Kong / GBA cross-boundary corridor** is discussed in policy, but **flights are not running on an operating corridor** on the evidence tracked here.
 
 ## Hong Kong
 

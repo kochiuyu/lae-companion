@@ -17,10 +17,10 @@ Follow the Orient menu in order:
 1. [Course overview](overview.qmd) — week map and what the course covers  
 2. [What is LAE?](primer.qmd) — plain-language scope  
 3. [How does LAE work?](business-overview.qmd) — value, who pays whom, sectors  
-4. [Who decides what?](regulators.qmd) — regulator roles and [standing caveats](regulators.qmd#standing-caveats) (Sandbox ≠ Sandbox X; corridor not operational)  
+4. [Who decides what?](regulators.qmd) — who regulates what  
 5. This page — how the rest of the site fits
 
-First-use shortcuts when a term appears: [Sandbox X](glossary.qmd#hong-kong-institutions-and-law) (≠ first Regulatory Sandbox); [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law); [CASK](glossary.qmd#business-and-economics) (lecture tool, not a data series).
+Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-institutions-and-law); [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law); [CASK](glossary.qmd#business-and-economics).
 
 ## Then Teach
 

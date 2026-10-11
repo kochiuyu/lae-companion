@@ -38,9 +38,9 @@ Picture a completed mission: someone needs a delivery, inspection, medical trans
 <div class="wsvc-arrow" aria-hidden="true">↓ delivers an outcome for</div>
 <div class="wsvc-box"><strong>Customers / mission sponsors</strong><br/>Who needs the delivery, inspection, medical transfer, or similar job done — and who pays for that outcome (business detail on <a href="business-overview.qmd">How does LAE work?</a>).</div>
 <div class="wsvc-arrow" aria-hidden="true">↓ under</div>
-<div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and under which trial pathway. One-line roles and standing caveats (Sandbox ≠ Sandbox X; corridor not operational) on <a href="regulators.qmd#standing-caveats">Who decides what?</a>; instruments on Official status.</div>
+<div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and under which permissions. One-line regulator roles on <a href="regulators.qmd">Who decides what?</a>; citeable status on Official status.</div>
 </div>
-<p class="wsvc-note">Operators and supporting services (finance, insurance, training, platforms) sit across this chain — see Week 1 on Lectures. Diagram invents no market sizes or firm claims.</p>
+<p class="wsvc-note">Operators and supporting services (finance, insurance, training, platforms) sit across this chain — Week 1 on Lectures opens the same idea.</p>
 </figure>
 ```
 
@@ -94,23 +94,23 @@ The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style
 .phk-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
 </style>
 <figure class="phk" id="lae-hk-gba" aria-labelledby="phk-title">
-<p class="phk-cap" id="phk-title"><strong>Why Hong Kong / GBA (schematic)</strong> — course setting and two mix-ups. Full standing caveats on Who decides what?</p>
+<p class="phk-cap" id="phk-title"><strong>Why Hong Kong / GBA</strong> — where the course is set, in simple terms.</p>
 <div class="phk-flow">
-<div class="phk-box"><strong>Policy aim &amp; active track</strong><br/>Hong Kong and the Greater Bay Area are the course core setting, with EU / US / NASA-style comparators. Hong Kong already has Working Group, sandboxes, Cap. 448G and Advisory Circulars (dated trail on Timeline).</div>
-<div class="phk-arrow" aria-hidden="true">↓ do not collapse these</div>
-<div class="phk-box warn"><strong>Regulatory Sandbox ≠ Sandbox X</strong><br/>Different Hong Kong trial programmes — do not blend counts or circulars. Stated once on <a href="regulators.qmd#standing-caveats">Who decides what? · Standing caveats</a>.</div>
-<div class="phk-box warn"><strong>Cross-boundary corridor — not operational</strong><br/>Shenzhen–Hong Kong / GBA corridor language can be a <em>policy aim</em>; on tracked evidence the corridor is <strong>not operational</strong> (OPEN / WATCH as labelled on Official status). Same caveats section: <a href="regulators.qmd#standing-caveats">Who decides what?</a>.</div>
+<div class="phk-box"><strong>Hong Kong + Greater Bay Area</strong><br/>This is the course’s home setting. Hong Kong already has a Working Group, trial programmes (sandboxes), Cap. 448G, and Advisory Circulars — the dated trail is on Timeline. Readings also use EU / US / NASA-style examples for comparison.</div>
+<div class="phk-arrow" aria-hidden="true">↓ useful to know</div>
+<div class="phk-box"><strong>Two separate sandboxes</strong><br/>Hong Kong ran an early <strong>Regulatory Sandbox</strong>, then a later programme called <strong>Sandbox X</strong>. Think of them as two different trial rounds, not one combined list.</div>
+<div class="phk-box"><strong>Cross-boundary corridor</strong><br/>A Shenzhen–Hong Kong / GBA corridor is a policy idea people talk about. On the evidence tracked here, it is <strong>not flying as an operating corridor yet</strong> — still planned / under discussion, not day-to-day service.</div>
 </div>
-<p class="phk-note">If a slide quotes ~HK$350 billion by 2050, that is an Our Hong Kong Foundation projection, not a government figure (Official status / Glossary).</p>
+<p class="phk-note">More on who regulates what: <a href="regulators.qmd">Who decides what?</a>. Big private forecasts you may see in slides are not the same as government figures — check Official status if unsure.</p>
 </figure>
 ```
 
-See the schematic above for Sandbox ≠ Sandbox X and the corridor status; the full wording stays on [Who decides what?](regulators.qmd#standing-caveats). If a slide quotes **~HK$350 billion by 2050**, that is an **Our Hong Kong Foundation** projection, **not** a government figure ([Official status](tracker.qmd); [Glossary](glossary.qmd)).
+The boxes above are enough for a first pass. When you need regulator names, open [Who decides what?](regulators.qmd).
 
 ## What to read next
 
 1. **[How does LAE work?](business-overview.qmd)** — value, who pays whom, and how sectors fit.  
-2. **[Who decides what?](regulators.qmd)** — regulator roles and the standing caveats.  
+2. **[Who decides what?](regulators.qmd)** — who regulates what, in one-line roles.  
 3. **[How to use this site](howto.qmd)** — Orient path, then Teach.
 
 Then switch to **Teach**: [Lectures](lectures.qmd) · [Readings](readings.qmd).
