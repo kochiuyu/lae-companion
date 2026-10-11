@@ -50,13 +50,62 @@ Mainland **低空经济** uses a separate statistical / industrial-policy scope 
 
 You will hear everyday words (“drone”) and law or industry labels side by side. Hong Kong’s main legal label for light unmanned craft is **small unmanned aircraft (SUA)** under [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) (not more than **150 kg**). **eVTOL** is an industry label for electric vertical take-off and landing craft; Hong Kong has **no dedicated eVTOL statute yet**, and heavier / passenger types sit above the SUA ceiling as **unconventional aircraft** pending rules ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [Official status](tracker.qmd)).
 
+
+```{=html}
+<style>
+.plab{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--gold:#C5A572;--muted:#5f5f5f;margin:1rem 0 1.35rem;font-size:.9rem;max-width:44rem}
+.plab-cap{color:var(--muted);margin:0 0 .65rem;font-size:.88rem;line-height:1.4}
+.plab-grid{display:grid;grid-template-columns:1fr;gap:.45rem}
+@media (min-width:640px){.plab-grid{grid-template-columns:1fr 1fr 1fr}}
+.plab-box{background:var(--beige);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:8px;padding:.55rem .7rem;color:var(--ink);line-height:1.35}
+.plab-box strong{display:block;color:var(--navy);margin-bottom:.25rem}
+.plab-box a{color:var(--navy);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.plab-box .tag{display:inline-block;font-size:.72rem;font-weight:600;padding:.05rem .4rem;border-radius:999px;background:#e6edf5;color:var(--navy);margin-bottom:.35rem}
+.plab-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
+</style>
+<figure class="plab" id="lae-labels" aria-labelledby="plab-title">
+<p class="plab-cap" id="plab-title"><strong>Labels at a glance</strong> — everyday speech vs law / industry wording. Full entries in the Glossary.</p>
+<div class="plab-grid">
+<div class="plab-box"><span class="tag">Altitude</span><strong>~1,000 m</strong>Hong Kong LAE working description for economic activity in low-altitude airspace — <em>not</em> a Cap. 448G flying limit. <a href="glossary.qmd#altitude-scale">Glossary · altitude scale</a></div>
+<div class="plab-box"><span class="tag">SUA</span><strong>Small unmanned aircraft</strong>Hong Kong Cap. 448G term for unmanned aircraft not more than <strong>150 kg</strong>. “Drone” in everyday speech is not a Cap. 448G synonym. <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G</a> · <a href="glossary.qmd#vehicles-and-operations">vehicles</a></div>
+<div class="plab-box"><span class="tag">eVTOL</span><strong>Electric VTOL (industry)</strong>Heavier / passenger-oriented types sit above the SUA ceiling as <strong>unconventional aircraft</strong> pending rules — <strong>no dedicated Hong Kong eVTOL statute yet</strong>. <a href="glossary.qmd#vehicles-and-operations">Glossary · vehicles</a></div>
+</div>
+<p class="plab-note">Sites (vertiports), U-space / UTM, BVLOS, and permission ladders: see prose below and Glossary diagrams — not reprinted here.</p>
+</figure>
+```
+
 Sites for advanced craft are often called **vertiports** in industry language — again, **no dedicated Hong Kong vertiport statute yet** ([Glossary · infrastructure](glossary.qmd#infrastructure)). Traffic labels such as **U-space** (EU / industry, **not Hong Kong law**) and **UTM** (industry usage) appear in readings; Hong Kong’s Smart Low-altitude Traffic Management System is **planned** (Policy Address language: progressive implementation from **2028**), not yet a statute ([Glossary · airspace](glossary.qmd#airspace-and-traffic); [Timeline](dates.qmd)). Weight ladders, BVLOS, and permission diagrams live on the Glossary — this page does not reprint them.
 
 ## Why Hong Kong and the GBA
 
 The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style comparators on [Course overview](overview.qmd) and [Readings](readings.qmd). Hong Kong already has an active policy track (Working Group, sandboxes, Cap. 448G and Advisory Circulars) on [Timeline](dates.qmd).
 
-Two mix-ups students often make — **Regulatory Sandbox ≠ Sandbox X**, and the Shenzhen–Hong Kong / GBA corridor **not operational** on tracked evidence — are stated once on [Who decides what?](regulators.qmd#standing-caveats). If a slide quotes **~HK$350 billion by 2050**, that is an **Our Hong Kong Foundation** projection, **not** a government figure ([Official status](tracker.qmd); [Glossary](glossary.qmd)).
+
+```{=html}
+<style>
+.phk{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--gold:#C5A572;--muted:#5f5f5f;margin:1rem 0 1.35rem;font-size:.9rem;max-width:44rem}
+.phk-cap{color:var(--muted);margin:0 0 .65rem;font-size:.88rem;line-height:1.4}
+.phk-flow{display:flex;flex-direction:column;gap:.4rem}
+.phk-box{background:var(--beige);border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:8px;padding:.55rem .75rem;color:var(--ink);line-height:1.35}
+.phk-box strong{color:var(--navy)}
+.phk-box a{color:var(--navy);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.phk-box.warn{border-left-color:var(--gold);background:#fff}
+.phk-arrow{text-align:center;color:var(--navy);font-size:1.05rem;line-height:1;user-select:none;font-weight:600}
+.phk-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
+</style>
+<figure class="phk" id="lae-hk-gba" aria-labelledby="phk-title">
+<p class="phk-cap" id="phk-title"><strong>Why Hong Kong / GBA (schematic)</strong> — course setting and two mix-ups. Full standing caveats on Who decides what?</p>
+<div class="phk-flow">
+<div class="phk-box"><strong>Policy aim &amp; active track</strong><br/>Hong Kong and the Greater Bay Area are the course core setting, with EU / US / NASA-style comparators. Hong Kong already has Working Group, sandboxes, Cap. 448G and Advisory Circulars (dated trail on Timeline).</div>
+<div class="phk-arrow" aria-hidden="true">↓ do not collapse these</div>
+<div class="phk-box warn"><strong>Regulatory Sandbox ≠ Sandbox X</strong><br/>Different Hong Kong trial programmes — do not blend counts or circulars. Stated once on <a href="regulators.qmd#standing-caveats">Who decides what? · Standing caveats</a>.</div>
+<div class="phk-box warn"><strong>Cross-boundary corridor — not operational</strong><br/>Shenzhen–Hong Kong / GBA corridor language can be a <em>policy aim</em>; on tracked evidence the corridor is <strong>not operational</strong> (OPEN / WATCH as labelled on Official status). Same caveats section: <a href="regulators.qmd#standing-caveats">Who decides what?</a>.</div>
+</div>
+<p class="phk-note">If a slide quotes ~HK$350 billion by 2050, that is an Our Hong Kong Foundation projection, not a government figure (Official status / Glossary).</p>
+</figure>
+```
+
+See the schematic above for Sandbox ≠ Sandbox X and the corridor status; the full wording stays on [Who decides what?](regulators.qmd#standing-caveats). If a slide quotes **~HK$350 billion by 2050**, that is an **Our Hong Kong Foundation** projection, **not** a government figure ([Official status](tracker.qmd); [Glossary](glossary.qmd)).
 
 ## What to read next
 
