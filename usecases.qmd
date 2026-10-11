@@ -1,19 +1,13 @@
 ---
 title: "Use cases"
-subtitle: "Trial and operating LAE applications (past year)"
+subtitle: "Dated trial and operating applications"
 as_of: "2026-10-11"
 page-layout: article
 ---
 
 ## Standing note
 
-This page tracks **real or trial LAE operations** — delivery, medical/emergency, inspection/survey, tourism/entertainment shows, eVTOL passenger trials, and evidenced vertiport/ops infrastructure. It is not a market-size or TAM page.
-
-**Status tags:** **Operating** = recurring / public / commercial service evidenced; **Trial** = sandbox, demo, one-off, MoU/signing or route-not-yet-flying, or certified infrastructure awaiting passenger service.
-
-Sandbox counts and the Shenzhen–Hong Kong / GBA corridor status live on [Official status](tracker.qmd) (plain wording on [Who decides what?](regulators.qmd#standing-caveats)). **Sandbox ≠ Sandbox X.** No evidenced SZ–HK corridor flight as of 11 Oct 2026. MoUs and LOIs stay labelled as such.
-
-Company metrics (route counts, order totals, fundraising) stay attributed and are not upgraded. Cross-check dated colour on [Business news](industry.qmd) and [Government news](news.qmd); operator rows on [Companies & sectors](landscape.qmd).
+Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating** (recurring public or commercial service). Sandbox counts and corridor status live on [Official status](tracker.qmd). Item lines below focus on the use case — they do not restate those baselines.
 
 ## How to read the source tags
 
