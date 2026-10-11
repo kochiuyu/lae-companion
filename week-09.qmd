@@ -1,19 +1,22 @@
 ---
 title: "Week 9: Market Sizing, Barriers, Uncertainty and Social Impact"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "Sizing demand, stress-testing risk, and who gains or bears costs"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 8](week-08.qmd) · [Week 10 →](week-10.qmd)
 
 **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
+
+This page is the Week 9 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution. Links: [Week 4](week-04.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).
 
 ## Summary {#summary}
 
@@ -32,9 +35,263 @@ format:
 - Expected value helps, but also look at probability of loss, downside cash needs, and key risk drivers.
 - Social evaluation covers total benefits and costs and how they are distributed across groups.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers and the HK$350bn figure.** Worked examples below use round figures (funnels, contribution, scenario profits, property-value arithmetic). They are **illustrative assumptions for learning**, not current corridor data or hedonic estimates for Hong Kong drone noise. The **HK$350 billion** projection is an **Our Hong Kong Foundation** (OHKF) private think-tank figure for Hong Kong industry **value added** by **2050** — **not** a government number, not operator revenue, and not automatic GDP ([Key figures](key-figures.qmd) · [Readings](#readings) · [Official status](tracker.qmd)).
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 9 you should be able to:
+
+1. **Build** a transparent market-size estimate for a defined Hong Kong LAE use case.  
+2. **Distinguish** potential demand, serviceable demand, capacity, revenue, and value added.  
+3. **Stress-test** a business case using scenarios, sensitivity analysis, and simple probability models.  
+4. **Identify** who receives the benefits and who bears the costs of an LAE project.  
+5. **Explain** how hedonic analysis and benefit-cost analysis may inform noise, access, and equity decisions.
+
+---
+
+## 1. From commercial value to social value
+
+Imagine several LAE services operating across Hong Kong. Users may benefit from faster delivery, inspection, emergency response, or passenger travel. Nearby communities may experience noise, privacy concerns, visual effects, or unequal access to benefits.
+
+A profitable service can still create social costs; an unprofitable service may create important public benefits. For public policy, the question is often whether **operator profit**, **total social benefit**, or the **distribution** of benefits and costs matters most — and how to measure each without mixing them.
+
+---
+
+## 2. Market sizing
+
+Market sizing connects Week 4 demand analysis with capacity and cost from later weeks:
+
+| Label | Meaning |
+|-------|---------|
+| **Potential market** | All relevant customers or trips within a clearly defined geography, period, and use case |
+| **Serviceable market** | Portion compatible with route, service level, willingness to pay, regulation, and infrastructure |
+| **Obtainable demand** | Portion the operator may realistically serve after competition and capacity constraints |
+
+**TAM / SAM / SOM** are managerial labels, not a unique NASA methodology. NASA-sponsored UAM studies use detailed market models and examine multiple constraints ([Glossary](glossary.qmd)).
+
+### Defining the potential market
+
+Start with the **decision**, not the largest available number:
+
+1. Define the service, origin–destination market, customer, direction, and time period.  
+2. Estimate relevant existing trips or missions using transport, airport, logistics, public-service, or survey data.  
+3. Decide whether the project may divert existing activity, generate new activity, or change trip frequency.  
+4. Remove trips that cannot use the service because of geography, schedule, payload, accessibility, regulation, or other constraints.  
+5. Document data gaps and use ranges where evidence is weak.  
+
+Do **not** sum all trips to the airport unless they are genuinely relevant to the defined corridor and service.
+
+### Market funnel with capacity
+
+$$
+SAM = TAM \times \text{Eligibility share}
+$$
+
+$$
+\text{Potential operator demand} = SAM \times \text{Expected choice share}
+$$
+
+$$
+\text{Served demand} = \min\{\text{Potential operator demand},\ \text{Reliable capacity}\}
+$$
+
+Choice share should reflect price, generalized cost, service quality, and competition (Week 4). Reliable capacity includes aircraft, seats or payload, infrastructure, operating hours, weather, and approvals (Weeks 5 and 8). Avoid calling an unsupported capture percentage “realistic” without evidence.
+
+### Revenue and contribution
+
+$$
+\text{Daily revenue} = \text{Served units} \times \text{Average revenue per unit}
+$$
+
+$$
+\text{Daily contribution} = \text{Daily revenue} - \text{Variable cost of served units}
+$$
+
+Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue is not cash flow or profit and does not by itself justify infrastructure investment. Compare contribution and longer-term cash flows with fixed operating cost and investment cost.
+
+### Worked illustration (funnel → contribution)
+
+**Illustrative airport-corridor assumptions** (not current data):
+
+| Step | Figure |
+|------|--------|
+| Relevant trips | 20,000/day |
+| Eligible time-sensitive segment | 10% → $SAM = 2{,}000$ |
+| Expected choice share | 15% → potential operator demand **300** passenger-trips/day |
+| Reliable capacity | 80 flights/day × 4 seats × 80% load = **256** |
+| **Served demand** | $\min\{300,256\}=$ **256** passenger-trips/day |
+
+With fare HK$400, variable cost HK$120 per passenger-trip, 330 operating days/year:
+
+| | Daily | Annual (≈) |
+|--|-------|-------------|
+| Revenue | $256 \times 400$ = HK$102,400 | HK$33.8M |
+| Variable cost | $256 \times 120$ = HK$30,720 | HK$10.1M |
+| **Contribution** | **HK$71,680** | **≈ HK$23.7M** |
+
+Fixed cost and investment remain to be covered. Excludes financing, tax, and demand variation.
+
+---
+
+## 3. Constraints from UAM market studies (no double counting)
+
+NASA-sponsored UAM market work examined **interacting** constraints rather than a universal list of five revenue haircuts. Themes typically include:
+
+- legal and regulatory requirements;  
+- certification and safety;  
+- infrastructure and airspace capacity;  
+- weather and technology limitations;  
+- public perception and community acceptance; and  
+- high near-term service cost and other economic constraints.  
+
+**Managerial lesson:** each constraint may affect demand, capacity, price, cost, timing, or probability of launch through a **different channel**.
+
+| Constraint | Primary model channel |
+|------------|----------------------|
+| Regulatory delay | Launch date, cost, or probability |
+| Infrastructure scarcity | Reliable capacity and access |
+| Public acceptance | Choice share, hours, or route |
+| Weather | Serviceable capacity and reliability |
+| Technology maturity | Cost, payload, range, and downtime |
+| Competition | Price and operator choice share |
+
+Avoid multiplying arbitrary independent “haircuts” when the same effect is already reflected elsewhere. For example, weather should not reduce both operating days **and** revenue again unless the channels are distinct.
+
+**Base assumptions (illustrative):** 300 potential passenger-trips/day; fare HK$400; 365 calendar days.
+
+| Channel | Treatment |
+|---------|-----------|
+| Reliable capacity | 256 trips/day |
+| Acceptance scenario | 90% of potential → adjusted demand 270 |
+| Served trips | $\min\{270,256\}=256$ |
+| Serviceable days | 330/year |
+| Annual revenue | $256 \times 400 \times 330$ = **HK$33.8M** |
+
+Technology and compliance costs enter the **cost** model rather than another revenue haircut.
+
+---
+
+## 4. Uncertainty, scenarios, and expected value
+
+Uncertainty means important inputs and outcomes cannot be known precisely when a decision is made: demand and WTP; approval timing and operating conditions; weather and serviceable capacity; technology and maintenance; public acceptance and competition; prices, costs, and financing.
+
+Use a base case, downside and upside scenarios, sensitivity analysis, and probability ranges where justified. Not every uncertainty is measurable or hedgeable.
+
+### Monte Carlo (concept)
+
+A Monte Carlo simulation repeatedly samples uncertain inputs from specified distributions and recalculates the model. It produces a **distribution** of outcomes rather than one forecast. Results depend on chosen distributions, correlations, model structure, and data quality. Correlated inputs matter — weather may affect capacity, demand, price, and cost simultaneously. Useful outputs include median NPV, downside percentiles, probability of a cash shortfall, and major risk drivers.
+
+**Simulation does not make weak assumptions accurate; it makes their implications visible.**
+
+### Expected value and downside risk
+
+$$
+E[\Pi]=\sum_s \Pr(s)\,\Pi_s
+$$
+
+Expected value is the probability-weighted average across scenarios. It does **not** reveal how severe the downside can be or whether the business has enough liquidity to survive it. Also examine probability of loss, worst credible cash shortfall, and a downside percentile (e.g. 10th). Required cash reserves depend on cash-flow timing, financing access, risk tolerance, and recovery plans — not expected value alone.
+
+**Assumption (illustrative):** annual cost = HK$5M.
+
+| Scenario | Probability | Revenue | Profit |
+|----------|-------------|---------|--------|
+| Strong | 20% | HK$10M | HK$5M |
+| Base | 50% | HK$8M | HK$3M |
+| Weak | 30% | HK$4M | −HK$1M |
+
+Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK$7.2M**. Expected profit = **HK$2.2M**. Probability of loss = **30%**. Minimum cash needed in the weak scenario depends on when costs and revenue occur. A positive expected profit can coexist with a material probability of loss.
+
+---
+
+## 5. The HK$350 billion projection — and distributional questions
+
+A **2025** report by **Our Hong Kong Foundation (OHKF)** projects that Hong Kong’s LAE-related industries could generate approximately **HK$350 billion** in annual industry **value added** by **2050**, with **supporting services** contributing the majority ([Readings](#readings) · [Key figures](key-figures.qmd)).
+
+Keep the attribution strict:
+
+- This is a **scenario-based private think-tank projection**, **not** a government target, not government revenue, not operator revenue, not GDP automatically created, and **not** a guaranteed outcome.  
+- **Value added** measures the contribution of labour and capital after subtracting intermediate inputs — it should **not** be added directly to market revenue estimates.  
+- Geography is **Hong Kong only** in the quoted figure; do not merge it with Mainland **规模** (scale) totals ([Glossary](glossary.qmd)).  
+- Possible benefit themes include productivity, logistics, public-service performance, employment, research, finance, insurance, legal, and professional services — still subject to evidence and distribution.  
+
+**Distribution matters:** who gains access; who receives employment and business opportunities; who bears noise, privacy, safety, land-use, or fiscal costs?
+
+---
+
+## 6. Hedonic valuation (illustrative tool)
+
+Hedonic analysis estimates how observable attributes are associated with market prices while controlling for other factors. For housing, attributes may include size, age, location, transport access, schools, amenities, and environmental conditions such as noise. A credible study needs many comparable transactions and a strategy for separating noise effects from other site characteristics. A simple difference between two homes does **not** establish the causal value of noise. Property-price effects capture capitalization in housing markets — not every health, annoyance, productivity, or distributional effect.
+
+### Illustrative specification
+
+$$
+\ln(P_i)=\alpha+\beta N_i+\gamma A_i+\delta X_i+\varepsilon_i
+$$
+
+- $P_i$ — property price or rent  
+- $N_i$ — measured noise exposure  
+- $A_i$ — access to the relevant service or transport network  
+- $X_i$ — other property and neighbourhood characteristics  
+- $\beta$ — conditional association between noise and price; **causal** interpretation needs stronger research design  
+
+**Managerial use:** inform benefit-cost analysis and mitigation — do not decide community acceptance by property value alone.
+
+**Assumption (illustrative):** baseline apartment value = HK$8M. Percentages below are **hypothetical**, not estimates for drone noise in Hong Kong.
+
+| Scenario | Assumed effects | Implied value |
+|----------|-----------------|---------------|
+| Higher noise, limited local access | Noise −4%; access 0% | $8\text{M}\times 0.96$ = **HK$7.68M** |
+| Lower noise, useful local access | Noise −1%; access +3% | $8\text{M}\times 1.02$ = **HK$8.16M** |
+
+The arithmetic illustrates competing effects. Actual coefficients require local transaction, noise, access, and neighbourhood data. International aviation-noise coefficients should not be transferred mechanically to drone or eVTOL operations in Hong Kong.
+
+---
+
+## 7. Social equity and distributional analysis
+
+A social-impact assessment should ask who receives each benefit and who bears each cost:
+
+| Dimension | Questions |
+|-----------|-----------|
+| **Access** | Affordability, geographic coverage, accessibility, digital access, service availability |
+| **Exposure** | Noise, privacy, visual impact, safety risk, construction, land-use effects |
+| **Opportunity** | Jobs, training, procurement, entrepreneurship, supporting-service development |
+| **Public finance** | Subsidies, infrastructure spending, availability payments, alternative uses of public funds |
+| **Public services** | Emergency response and medical logistics may create broad benefits — evaluate against alternative delivery methods |
+
+ESG reporting can support transparency, but a project should define **measurable outcomes** rather than assume that an EMS label guarantees equity. Hong Kong’s dense urban setting makes access, noise exposure, land use, existing public transport, and distribution especially important. Different GBA cities may differ in trip patterns, industry structure, land availability, public-service needs, and regulation. A common evaluation framework can compare safety, time savings, emissions, noise, accessibility, employment, fiscal cost, and distribution across stakeholder groups — without ranking places through broad unsupported claims. Keep **Sandbox ≠ Sandbox X** when citing trial evidence; do not claim cross-boundary corridors as day-to-day service.
+
+---
+
+## 8. Integrated dashboard (classroom)
+
+| Section | Inputs and outputs |
+|---------|-------------------|
+| Market | Relevant trips, eligibility, choice share |
+| Capacity | Flights, capacity per flight, serviceable days |
+| Economics | Price, variable cost, fixed cost, contribution |
+| Uncertainty | Ranges, distributions, correlations, probability of loss |
+| Social impact | Benefits, costs, affected groups, mitigation |
+
+Do not use unexplained barrier toggles. Each scenario assumption should change a **specific** model input and include a source or justification.
+
+---
+
+## 9. Putting Week 9 together
+
+Market size must be defined by service, corridor, customer, period, choice behaviour, and reliable capacity. **Revenue, contribution, profit, value added, and social benefit are different concepts.** Put constraints into explicit demand, capacity, price, cost, timing, or probability channels without double counting. Expected value is useful, but decision-makers also need probability of loss, downside cash needs, and key risk drivers. Hedonic analysis needs comparable data and careful identification — simple assumed property discounts are scenarios, not evidence. Social evaluation must consider total benefits and costs together with their distribution across users, communities, workers, taxpayers, and businesses. Attribute **HK$350bn** only to OHKF as stated above.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) (OHKF *Taking Flight* value-added projection; Clothier et al. on drone acceptance; Al Haddad et al. / Cohen et al. on adoption and market potential; EASA societal-acceptance study).  
+- **Course links:** [Week 8](week-08.qmd) · [Week 4](week-04.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
+- **Slides:** [week09-impact.pdf](slides/week09-impact.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 9 assignment brief used in class.
 
 ## Readings {#readings}
 
@@ -59,6 +316,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 **Official**
 
 - [EASA. *Full Report – Study on the societal acceptance of Urban Air Mobility in Europe*. European Union Aviation Safety Agency (publication date not shown on landing page).](https://www.easa.europa.eu/en/full-report-study-societal-acceptance-urban-air-mobility-europe) — n.d. — Public acceptance, noise and safety concerns from the EU survey. *Also listed in [Week 4](week-04.qmd).*
+
+## Looking ahead to Week 10
+
+Week 10 turns to **sustainability challenges in urban air operations**: carbon, noise, and the cost of cleaner technology — linking the social costs named this week to measurable environmental metrics and abatement costs.
+
+Continue: [Week 10](week-10.qmd) · [Course overview](overview.qmd).
 
 ---
 
