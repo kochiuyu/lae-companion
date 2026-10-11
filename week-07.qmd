@@ -198,16 +198,18 @@ Under Hong Kong’s risk-based SUA regime, higher-risk advanced operations requi
 
 ### Compliance investment appraisal
 
-In words: probability of approval times project value if approved, minus compliance cost, minus expected delay cost.
+In words: first form expected approved value; subtract compliance cost; then subtract expected delay cost to get expected compliance value.
 
 $$
 \begin{aligned}
 \text{Expected approved value}
 &= \Pr(\text{approval})
   \times \text{Project value if approved} \\
-\text{Expected compliance value}
+\text{Net after compliance cost}
 &= \text{Expected approved value}
-  - \text{Compliance cost}
+  - \text{Compliance cost} \\
+\text{Expected compliance value}
+&= \text{Net after compliance cost}
   - \text{Expected delay cost}
 \end{aligned}
 $$
