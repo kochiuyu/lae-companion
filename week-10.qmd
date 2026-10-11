@@ -1,19 +1,22 @@
 ---
 title: "Week 10: Sustainability Challenges in Urban Air Operations"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "Externalities, life-cycle emissions, privacy, and measurable KPIs"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 9](week-09.qmd) · [Week 11 →](week-11.qmd)
 
 **Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
+
+This page is the Week 10 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs. Links: [Week 9](week-09.qmd) · [Glossary](glossary.qmd) · [Who decides what?](regulators.qmd).
 
 ## Summary {#summary}
 
@@ -32,9 +35,253 @@ format:
 - Electric operation is not zero life-cycle emissions; GHG scopes and LCA need consistent boundaries.
 - Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples below use round figures (noise-upgrade appraisal, privacy-control cost, carbon-value scenarios, electricity factors, public-service slot cost). They are **illustrative assumptions for learning**, not Hong Kong noise limits, CAD charges, compliance quotations, or grid-factor claims. Use sourced emissions factors and local evidence for any real inventory. Policy facts (e.g. Sandbox X / Action Plan language) stay with issuers on [Readings](#readings) / [Official status](tracker.qmd).
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 10 you should be able to:
+
+1. **Identify** major environmental and social externalities associated with urban air operations.  
+2. **Compare** pricing, operating restrictions, standards, mitigation, and compensation as policy responses.  
+3. **Calculate** simple operational and life-cycle greenhouse-gas indicators using transparent boundaries.  
+4. **Evaluate** privacy and public-acceptance measures using necessity, proportionality, and stakeholder evidence.  
+5. **Design** measurable sustainability KPIs and assess who benefits, who pays, and who bears residual impacts.
+
+---
+
+## 1. Can an LAE service be sustainable and viable?
+
+Imagine a proposed electric-aircraft corridor near a dense urban community. The service may reduce travel time or improve delivery and public-service performance. Electricity use, vehicle manufacturing, noise, visual effects, data collection, and infrastructure still create impacts.
+
+“Electric” does **not** automatically mean zero-emission, quiet, private, equitable, or publicly accepted. The binding constraint for a project may be noise, privacy, greenhouse-gas emissions, energy demand, or unequal distribution of benefits — often more than one at once. Week 9 asked who gains and who bears costs; this week builds the measurement tools.
+
+---
+
+## 2. Externalities
+
+An **externality** arises when an activity affects third parties and those effects are not fully reflected in the decision-maker’s private costs or benefits ([Glossary](glossary.qmd)):
+
+| Type | Examples |
+|------|----------|
+| **Noise and visual effects** | Annoyance, sleep disturbance, amenity, land-use impacts |
+| **Privacy and data** | Excessive collection, surveillance concerns, security risk, loss of trust |
+| **Climate and energy** | Operational electricity emissions, supply-chain emissions, peak-load requirements |
+| **Positive effects** | Time savings, safer inspection, emergency response, knowledge, network benefits |
+
+**Managerial lesson:** first identify and measure the impact; then compare prevention, mitigation, pricing, compensation, and operating restrictions.
+
+### Pricing a noise externality (economic benchmark)
+
+$$
+\text{Efficient charge per operation}
+=
+\text{Marginal external noise cost}
+$$
+
+Marginal external cost depends on exposure, time, location, number of affected people, baseline noise, event frequency, and health or amenity effects. Decibels are **logarithmic** — “decibels above a limit” should **not** automatically be multiplied by flights and a fixed monetary rate. Practical instruments may use certified noise categories, time-of-day charges, quotas, curfews, route restrictions, or performance standards. Charges should encourage quieter operations without implying that every impact can simply be paid for (Week 9 hedonic thinking informs estimation; it does not replace regulation).
+
+### Worked illustration (quieter technology)
+
+**Illustrative assumptions:** quieter-technology upgrade costs HK$3M; reduces expected annual noise charges, monitoring cost, and disruption by HK$1.2M (from HK$1.5M to HK$0.3M).
+
+| | Without upgrade | With upgrade |
+|--|-----------------|--------------|
+| Expected annual noise-related cost | HK$1.5M | HK$0.3M |
+| Upfront cost | — | HK$3M |
+| Five-year undiscounted total | HK$7.5M | HK$4.5M |
+| **Illustrative five-year saving** | | **HK$3M** |
+
+A complete appraisal should discount cash flows and test performance, maintenance, and demand effects. Not Hong Kong noise limits, charges, or technology quotations.
+
+---
+
+## 3. Privacy governance for onboard cameras
+
+Cameras may support navigation, inspection, security, or evidence collection — privacy risk depends on what is captured, retained, linked, and used.
+
+- Define a **lawful and specific purpose** before collecting personal data.  
+- Test **necessity and proportionality**; consider less intrusive alternatives.  
+- **Minimize** field of view, resolution, recording duration, identifiers, audio, and retention where not needed.  
+- Use access controls, encryption, logs, retention limits, deletion procedures, notices, and incident response.  
+- Onboard masking may be one control — it is not universally required or sufficient by itself.  
+
+Hong Kong privacy guidance for drone cameras emphasizes avoiding excessive collection, notification, security, and responsible data handling. Course notes do not invent a specific ordinance text; verify current PCPD / regulator materials when designing a real plan.
+
+### Privacy-control cost
+
+$$
+\text{Annual cost}
+=
+\text{Fixed governance and system cost}
++
+q\times\text{Variable processing cost}
++
+\text{Audit and incident cost}
+$$
+
+Fixed cost may include privacy-impact assessment, system design, notices, access controls, training, and vendor assurance. Variable cost may include secure processing, storage, communications, review, and deletion. Cost cannot be inferred from an unsupported percentage of flight operating cost. Compare controls using privacy effectiveness, safety compatibility, reliability, and total cost.
+
+**Illustrative assumptions:** 50,000 operations/year; fixed privacy-system and governance cost HK$600k/year (base design).
+
+| | Lower variable cost | Higher-assurance design |
+|--|---------------------|-------------------------|
+| Processing | HK$4/op → HK$200k | HK$8/op → HK$400k |
+| Fixed | HK$600k | HK$1M |
+| **Annual cost** | **HK$800k** | **HK$1.4M** |
+
+The more expensive design is justified only if additional controls materially improve privacy, security, or operational assurance. Not a compliance quotation or claim that either design is legally sufficient.
+
+---
+
+## 4. Carbon cost scenarios (appraisal aid — not a claimed CAD tax)
+
+A carbon value can support investment appraisal. **Illustrative assumptions:** 50,000 operations/year; carbon value HK$1 per kg CO₂e.
+
+| Intensity | Annual emissions | Annual carbon cost |
+|-----------|------------------|--------------------|
+| 40 kg CO₂e/operation | $50{,}000 \times 40 = 2{,}000{,}000$ kg | **HK$2M** |
+| 10 kg CO₂e/operation | $50{,}000 \times 10 = 500{,}000$ kg | **HK$0.5M** |
+
+This is **not** a claim that CAD imposes such a tax. Emissions factors and boundaries must be sourced.
+
+---
+
+## 5. GHG inventory and life-cycle assessment
+
+Corporate GHG **scopes** and product **life-cycle assessment (LCA)** answer related but different questions:
+
+| Concept | Focus |
+|---------|--------|
+| **Scope 1** | Direct emissions from sources owned or controlled by the reporting organization |
+| **Scope 2** | Indirect emissions associated with purchased electricity, steam, heat, or cooling |
+| **Scope 3** | Other indirect value-chain emissions (e.g. aircraft, batteries, infrastructure, maintenance, end-of-life) |
+| **LCA** | Environmental impacts of a defined product or service across a specified life cycle and functional unit |
+
+An electric aircraft may have zero in-flight exhaust emissions while still having Scope 2 and Scope 3 emissions. Corporate scopes should not simply be added without checking boundaries and double counting.
+
+### Electricity-related (operational) emissions
+
+$$
+\mathrm{CO_2e\ per\ operation}
+=
+\text{kWh consumed}
+\times
+\text{electricity emissions factor}
+$$
+
+Match units carefully (e.g. kg CO₂e/kWh). Include charging losses and relevant facility energy if they fall within the boundary. Distinguish location-based grid factors from market-based contractual claims where applicable. Compare modes using a consistent functional unit (passenger-km, tonne-km, or completed mission).
+
+**Assumption (illustrative):** 50 kWh electricity per operation.
+
+| Factor | Result |
+|--------|--------|
+| 0.8 kg/kWh | **40 kg CO₂e/operation** |
+| 0.2 kg/kWh | **10 kg CO₂e/operation** |
+
+Electricity source matters — these figures alone do not establish whether the service outperforms another transport mode. Occupancy, distance, infrastructure, and life-cycle emissions also matter. Use current, sourced factors for an actual inventory.
+
+### Life-cycle emissions per functional unit
+
+$$
+\text{Life-cycle emissions per unit}
+=
+\frac{E_{\text{vehicle}}+E_{\text{battery}}+E_{\text{infrastructure}}+E_{\text{operations}}+E_{\text{end-of-life}}}
+{\text{Lifetime functional units}}
+$$
+
+State lifetime, utilization, replacement cycles, occupancy or payload, system boundary, and allocation method. Scope 3 is **not** a universal fixed percentage of total emissions. Compare alternatives using the **same** boundary and functional unit.
+
+**Illustrative assumptions:** embodied aircraft, battery, and infrastructure emissions allocated at 12 kg CO₂e per operation.
+
+| | Higher-carbon electricity | Lower-carbon electricity |
+|--|---------------------------|--------------------------|
+| Electricity | 40 kg | 10 kg |
+| Allocated embodied | 12 kg | 12 kg |
+| **Total** | **52 kg CO₂e/operation** | **22 kg CO₂e/operation** |
+
+Decarbonizing electricity reduces operational emissions; embodied emissions remain sensitive to lifetime use and replacement assumptions. Not a comparative claim about jets or sustainable aviation fuel.
+
+---
+
+## 6. Public acceptance by use case
+
+**AiRMOUR** examined sustainable UAM through the lens of emergency medical services while also considering other applications ([Glossary · AiRMOUR](glossary.qmd) — closed EU research action; **not** a company or OEM brand). Acceptance may vary with perceived public benefit, urgency, safety, noise, privacy, fairness, trust, location, and available alternatives. Urgent medical applications may receive stronger support than some non-urgent applications — acceptance is **not** automatic or perfectly divided into two groups. Infrastructure maintenance, surveying, and environmental monitoring may also be viewed favourably in some contexts.
+
+Local engagement and evidence are necessary before transferring European findings to Hong Kong. **Managerial lesson:** segment by use case and affected stakeholder; test assumptions rather than assigning universal acceptance scores (Week 9 distribution theme; EASA societal-acceptance study on Readings).
+
+---
+
+## 7. Equity, social licence, and funding commitments
+
+**Social licence** refers to continuing acceptance and trust among affected communities and stakeholders. It complements, but does **not** replace, legal approval. Ask who receives time savings, service improvements, employment, and business opportunities — and who bears noise, privacy, safety, land-use, and fiscal costs. Consider affordability, accessibility, geographic coverage, consultation, complaints, and remedies. Acceptance may change over time and cannot be purchased by one symbolic public-service commitment.
+
+**Managerial lesson:** build legitimacy through performance, transparency, participation, mitigation, and fair distribution of benefits and costs.
+
+### Funding a public-service commitment
+
+$$
+\text{Net contribution}
+=
+Q_C m_C
++
+\text{Public-service payment}
+-
+Q_P c_P
+-
+\text{Fixed cost}
+$$
+
+- $Q_C m_C$ — contribution from commercial services  
+- $Q_P c_P$ — incremental cost of the public-service commitment  
+
+Funding may come from commercial cross-subsidy, public procurement, availability payment (Week 6), philanthropy, or another transparent source. Specify eligibility, service level, opportunity cost, accountability, and long-term affordability.
+
+**Assumptions (illustrative):** 100 daily slots; commercial contribution HK$400/flight; public-service incremental cost HK$100/flight.
+
+| | All commercial | Twenty priority slots |
+|--|----------------|----------------------|
+| Commercial contribution | $100 \times 400$ = HK$40,000 | $80 \times 400$ = HK$32,000 |
+| Public-service cost | — | $20 \times 100$ = HK$2,000 |
+| **Net before fixed cost** | **HK$40,000/day** | **HK$30,000/day** |
+| Opportunity cost vs all-commercial | — | HK$10,000/day |
+
+The commitment has a measurable cost. Whether it is justified — and who should fund it — requires public-value and distributional assessment. No claim that the commitment secures approval or acceptance.
+
+Keep **Sandbox ≠ Sandbox X** when citing trial programmes; Action Plan language and Sandbox X commitments stay with the 2025 Policy Address / Official status issuers ([Readings](#readings)). Do not claim cross-boundary corridors as day-to-day operating service.
+
+---
+
+## 8. Sustainability KPI design
+
+| Area | Example KPI | Boundary or denominator |
+|------|-------------|-------------------------|
+| Noise | Population-weighted exposure | Route, period, and noise metric |
+| Climate | kg CO₂e / passenger-km | Life-cycle boundary and occupancy |
+| Privacy | Personal-data incidents | Operations and severity |
+| Equity | Service availability by area | Population, need, and affordability |
+| Governance | Complaints resolved on time | Defined process and deadline |
+
+Define baseline, target, measurement method, frequency, owner, assurance, and corrective action. There is **no** universal CAD or investor requirement that mandates a fixed trio of ratios invented in class. A KPI tracks performance — it does not by itself prove profitability or social acceptance.
+
+**Mitigation scorecard (classroom):** for each material impact (noise, privacy, climate, equity), record measure, KPI, and payer. Do **not** assume a 60 dB limit or a fixed number of free public-service flights. Define thresholds from evidence, regulation, operating context, and stakeholder agreement.
+
+---
+
+## 9. Putting Week 10 together
+
+Externalities should be measured and addressed through a mix of technology, standards, operating rules, pricing, compensation, and engagement. Noise cannot be priced reliably by multiplying flights by decibels above an assumed threshold. Privacy governance requires lawful purpose, necessity, proportionality, minimization, security, transparency, retention control, and accountability. Corporate GHG scopes and LCA need clear, consistent boundaries — **electric operation does not imply zero life-cycle emissions**. Public acceptance varies across use cases and stakeholders. Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) (2025 Policy Address ¶153–157 on Sandbox X / Action Plan; Stolaroff et al. and Kasliwal et al. on life-cycle GHG; Vascik & Hansman on noise as a scaling constraint; NASA UAM noise technical paper).  
+- **Course links:** [Week 9](week-09.qmd) · [Week 6](week-06.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).  
+- **Slides:** [week10-sustainability.pdf](slides/week10-sustainability.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 10 assignment brief used in class.
 
 ## Readings {#readings}
 
@@ -63,6 +310,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 **Official**
 
 - [Rizzi, S. A., Huff, D. L., Boyd, D. D., Bent, P., Henderson, B. S., et al. (October 2020). *Urban Air Mobility Noise: Current Practice, Gaps, and Recommendations*. NASA/TP-20205007433.](https://ntrs.nasa.gov/citations/20205007433) — NASA review of UAM noise practice, gaps and recommendations.
+
+## Looking ahead to Week 11
+
+Week 11 is **synthesis and capstone group presentations**: combining demand, unit economics, infrastructure, regulation, airspace allocation, market sizing, and sustainability into one coherent commercial and institutional case. Preview question from class: how will you integrate those building blocks into one master presentation?
+
+Continue: [Week 11](week-11.qmd) · [Course overview](overview.qmd).
 
 ---
 
