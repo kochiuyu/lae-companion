@@ -32,10 +32,10 @@ website:
             text: Course overview
           - href: primer.qmd
             text: What is LAE?
+          - href: business-overview.qmd
+            text: How does the business work?
           - href: regulators.qmd
             text: Who decides what?
-          - href: business-overview.qmd
-            text: Business overview
           - href: howto.qmd
             text: How to use this site
       - text: Teach

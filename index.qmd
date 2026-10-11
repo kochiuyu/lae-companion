@@ -25,8 +25,8 @@ Week map, plain-language primers, and how to use this site.
 
 - [Course overview](overview.qmd)
 - [What is LAE?](primer.qmd)
+- [How does the business work?](business-overview.qmd)
 - [Who decides what?](regulators.qmd)
-- [Business overview](business-overview.qmd)
 - [How to use this site](howto.qmd)
 :::
 

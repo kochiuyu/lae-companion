@@ -1,5 +1,5 @@
 ---
-title: "Business overview"
+title: "How does the business work?"
 subtitle: "How value is created, who pays whom, and how sectors fit — for newcomers"
 as_of: "2026-10-11"
 page-layout: article
