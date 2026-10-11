@@ -49,7 +49,7 @@ If a slide or article quotes **~HK$350 billion by 2050**, that is an **Our Hong 
 
 You now have the scope. Orient continues in this order:
 
-1. **[How does the business work?](business-overview.qmd)** — how value is created, who pays whom at a high level, and how sectors fit (no firm list on that page).  
+1. **[How does LAE work?](business-overview.qmd)** — how value is created, who pays whom at a high level, and how sectors fit (no firm list on that page).  
 2. **[Who decides what?](regulators.qmd)** — one-line roles for Hong Kong, Mainland, and EU/US comparators.  
 3. **[How to use this site](howto.qmd)** — a short path through Lectures, Readings, Glossary, and Official status.
 

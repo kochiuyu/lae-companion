@@ -33,7 +33,7 @@ website:
           - href: primer.qmd
             text: What is LAE?
           - href: business-overview.qmd
-            text: How does the business work?
+            text: How does LAE work?
           - href: regulators.qmd
             text: Who decides what?
           - href: howto.qmd
