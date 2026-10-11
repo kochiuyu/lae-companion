@@ -54,10 +54,11 @@ Terms, checked status, and who is in the market.
 ::: {.hub-card}
 ## Updates
 
-Dated government items, business news, and the milestone timeline.
+Dated government items, business news, use cases, and the milestone timeline.
 
 - [Government news](news.qmd)
 - [Business news](industry.qmd)
+- [Use cases](usecases.qmd)
 - [Timeline](dates.qmd)
 :::
 :::

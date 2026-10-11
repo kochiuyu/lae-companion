@@ -19,6 +19,7 @@ project:
     - news.qmd
     - industry.qmd
     - landscape.qmd
+    - usecases.qmd
 
 website:
   title: "DOTE5891"
@@ -64,6 +65,8 @@ website:
             text: Government news
           - href: industry.qmd
             text: Business news
+          - href: usecases.qmd
+            text: Use cases
           - href: dates.qmd
             text: Timeline
   page-footer:
