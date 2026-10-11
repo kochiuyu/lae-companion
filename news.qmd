@@ -39,7 +39,9 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 <div class="itl" id="press-timeline">
 <p class="itl-head"><strong>Government news milestones (as of 11 Oct 2026)</strong> — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">3 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">5 items</span></summary><ol>
+<li id="tl-press-2026-10-11-sai-kung"><a href="#press-item-2026-10-11-sai-kung"><span class="chip">11 Oct</span> · CAD: Mainland eVTOL firms invited into Sandbox; cross-boundary pilots next<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-10-10-ftu-caac"><a href="#press-item-2026-10-10-ftu-caac"><span class="chip">10 Oct</span> · FTU–Guangzhou CAAC small multi-rotor VLOS licence course opens<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-07-slatms"><a href="#press-item-2026-10-07-slatms"><span class="chip">7 Oct</span> · CAD outlines SLATMS / Smart TMS research stack<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-05-sandbox-connect" class="st-open"><a href="#press-item-2026-10-05-sandbox-connect"><span class="chip">5 Oct</span> · “Sandbox Connect” cross-jurisdictional trial framing (results OPEN)<span class="badge b-open">OPEN</span></a></li>
 <li id="tl-press-2026-10-02-stl-edev"><a href="#press-item-2026-10-02-stl-edev"><span class="chip">2 Oct</span> · STL LegCo EDev Panel: Action Plan / &gt;150 kg / Smart TMS 2028<span class="badge b-off">GIA</span></a></li>
@@ -102,6 +104,24 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ## 2026-10 {#press-2026-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-10-11-sai-kung .press-item}**11 Oct 2026 · 香港文匯報:** At a Sai Kung “low-altitude economy and rural cultural tourism” forum (held 10 Oct), CAD Deputy Director-General and Working Group Project Facilitation Task Force co-convenor Chow Wing-hang (周永恒) said the government has invited Mainland advanced eVTOL enterprises into the Regulatory Sandbox and next intends to expand to cross-boundary flight pilots. [Link](https://www.tkww.hk/epaper/view/newsDetail/2108969991637438464.html) · [PDF](https://dw-media.tkww.hk/epaper/wwp/20261011/a07-1011.pdf)
+  - What's new: Press report of official remarks: Sandbox invitation to Mainland eVTOL firms, and intent to expand to cross-boundary flight pilots; Sai Kung framed as a practice base (distance from HKIA airspace constraints; coastal-mountain terrain). No accompanying GIA found this run.
+  - Status: Press only (T3). Invitation / intent restated; not a new instrument or results list.
+  - Read instead: [Official status](tracker.qmd) (Sandbox / Sandbox X); [Who decides what?](regulators.qmd).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「特區政府發展低空經濟工作組項目促進小組聯席召集人周永恒透露，政府已邀請內地最先進的電動垂直起降飛行器（eVTOL）企業參與『監管沙盒』，下一步擬拓展至跨境飛行試點。他表示，西貢遠離香港國際機場空域限制，兼備山海地形，是發展本地及跨境低空經濟的理想實踐基地，未來更可拓展至夜間執法、海洋養殖自動化及海陸空三維立體交通網絡」]{lang="zh-Hant"} ([source](https://www.tkww.hk/epaper/view/newsDetail/2108969991637438464.html))
+  :::
+
+- []{#press-item-2026-10-10-ftu-caac .press-item}**10 Oct 2026 · 香港商報:** The Hong Kong Federation of Trade Unions and the Guangzhou Federation of Trade Unions opened a CAAC “small multi-rotor visual-line-of-sight remote pilot licence” cross-boundary training course in Guangzhou, with 20 Hong Kong trainees selected for weekend classes through 6 December. [Link](https://www.hkcd.com.hk/hkcdweb/content/2026/10/10/content_8779335.html) · [香港文匯報](https://www.tkww.hk/epaper/view/newsDetail/2108969990274289664.html)
+  - What's new: Union-organised CAAC UAS remote-pilot licensing channel for Hong Kong residents (48 theory + 108 practical hours; Guangzhou/Shenzhen weekends).
+  - Status: Press only (T3). Not Cap. 448G CAD-approved training and not a Sandbox instrument.
+  - Read instead: none (talent / Mainland licensing pathway).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「10月10日，由香港工聯會和廣州市總工會主辦、廣州工聯諮詢服務中心承辦，並由香港工聯會大灣區社會服務社作為支持機構的『中國民航局民用無人駕駛航空器小型多旋翼視距內操控員執照』跨境培訓課程在廣電計量科技產業園舉行開班啟動禮。……本次培訓班採取『周末授課、廣州及深圳兩地搭配、培訓與考證一體化』靈活模式……經嚴格面試後篩選出20名香港學員。……從10月10日開班，到12月6日結束，共48理論課時、108實踐課時。」]{lang="zh-Hant"} ([source](https://www.hkcd.com.hk/hkcdweb/content/2026/10/10/content_8779335.html))
+  :::
 
 - []{#press-item-2026-10-07-slatms .press-item}**7 Oct 2026 · 星島頭條 / 香港商報:** CAD Deputy DG Dominic Chow (許文豪) outlines the Smart Low-altitude Traffic Management System (SLATMS) at the police Smart Policing Advisory Group’s 7th meeting. [Link](https://www.stheadline.com/breaking-news/3623364/%E6%B7%B1%E7%A0%94%E6%99%BA%E8%83%BD%E7%84%A1%E4%BA%BA%E9%9B%86%E7%BE%A4-%E5%BC%95%E9%A0%98%E6%9C%AA%E4%BE%86%E8%AD%A6%E6%94%BF%E5%89%8D%E6%B2%BF%E6%8A%80%E8%A1%93-%E7%B6%AD%E8%AD%B7%E5%9F%8E%E5%B8%82%E5%AE%89%E5%85%A8%E9%9F%8C%E6%80%A7) · [香港商報](https://www.hkcd.com.hk/hkcdweb/content/2026/10/07/content_8778765.html)
   - What's new: CAD outlined SLATMS as an automated pre-/in-/post-flight digital stack with data interfaces for future cross-boundary and meteorological exchange (press report of official remarks; no GIA found).

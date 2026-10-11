@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-10"
+as_of: "2026-10-11"
 page-layout: article
 ---
 
@@ -43,12 +43,18 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones (as of 10 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones (as of 11 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">3 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">9 items</span></summary><ol>
+<li id="tl-ind-2026-10-09-arrive"><a href="#industry-item-2026-10-09-arrive"><span class="chip">9 Oct</span> · Arrive AI–Modovolo autonomous handoff partnership<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-08-zhuhai-islands"><a href="#industry-item-2026-10-08-zhuhai-islands"><span class="chip">8 Oct</span> · Zhuhai three-party sea-island UAV livelihood-supply pilot<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-08-eplane"><a href="#industry-item-2026-10-08-eplane"><span class="chip">8 Oct</span> · ePlane–Noida International Airport eVTOL MoU<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-07-xunyi"><a href="#industry-item-2026-10-07-xunyi"><span class="chip">7 Oct</span> · Xunyi Hangzhou cross-Qiantang UAV route (company scale)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-07-a2z-bali"><a href="#industry-item-2026-10-07-a2z-bali"><span class="chip">7 Oct</span> · A2Z–Grab–SKYY Bali BVLOS food-delivery pilot<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-07-aeroberm"><a href="#industry-item-2026-10-07-aeroberm"><span class="chip">7 Oct</span> · Aeroberm–Foster Aviation UAE vertiport-kit partnership<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-07-beta"><a href="#industry-item-2026-10-07-beta"><span class="chip">7 Oct</span> · BETA Utah eIPP medical-cargo flights (company)<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-06-eve"><a href="#industry-item-2026-10-06-eve"><span class="chip">6 Oct</span> · Eve Florida eVTOL summit; 2028 US demos (company timing)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-05-lianzhou"><a href="#industry-item-2026-10-05-lianzhou"><span class="chip">5 Oct</span> · Lianzhou Airport aviation open day; LAE test clients<span class="badge b-ind">Indep.</span></a></li>
-<li id="tl-ind-2026-10-07-beta"><a href="#industry-item-2026-10-07-beta"><span class="chip">7 Oct</span> · BETA Utah eIPP medical-cargo flights (company)<span class="badge b-co">Company</span></a></li>
 </ol></details>
 <details class="itl-card" open><summary>September 2026<span class="n">3 items</span></summary><ol>
 <li id="tl-ind-2026-09-21-keeta"><a href="#industry-item-2026-09-21-keeta"><span class="chip">21 Sep</span> · Keeta Drone to Chung On Estate public housing<span class="badge b-ind">Indep.</span></a></li>
@@ -106,6 +112,54 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ### October 2026 {#industry-2026-10}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-09-arrive .industry-item}**9 Oct 2026 · Arrive AI / Newswire:** Arrive AI and Modovolo announce a partnership to integrate Modovolo’s Lift drone with Arrive Point™ stations for unattended package delivery. [Link](https://www.newswire.com/news/arrive-ai-and-modovolo-partner-to-advance-autonomous-drone-delivery)
+  - Tag: Company-announced
+  - What's new: Arrive AI says the partners will develop end-to-end autonomous delivery in which a drone lowers a package into a secure Arrive Point™ with no ground pilot and no exposed doorstep drop. Path is integration development → test-bed at Arrive AI HQ → planned live deliveries in a designated Fishers, Indiana area subject to required regulatory approvals.
+  - Status: Partnership / product integration as announced by the company; service not live.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-08-zhuhai-islands .industry-item}**8 Oct 2026 · C114通信网 (China Unicom Zhuhai feature):** Zhuhai Agriculture Investment Holding Group, Guangdong Chaofei Technology and China Unicom Zhuhai sign a strategic cooperation for a sea-island UAV livelihood-supply / low-altitude logistics pilot framed around Zhuhai’s 262 islands. [Link](https://m.c114.com.cn/w84-1318768.html) · [C114 desktop](http://www.c114.com.cn/news/84/a1318768.html)
+  - Tag: Company-announced
+  - What's new: China Unicom Zhuhai says the three parties signed for a national sea-island UAV livelihood-supply pilot demonstration using a 5G + BeiDou digital base. Stated division of labour: Zhuhai Agriculture Investment Holding Group (municipal SOE) handles procurement, quality control, cold-chain storage and consolidation; Chaofei provides UAV logistics technology and operations; Unicom Zhuhai covers 5G along island routes and market take-off/landing points, BeiDou positioning, and low-altitude flight-supervision platform access. Traditional boat supply is described as >12 hours one-way and weather-vulnerable. Route count, aircraft type, payload and frequency are not published.
+  - Status: Signing / pilot-preparation as announced via the Unicom feature; not live commercial routes; no municipal official instrument retrieved this run.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，珠海市农业投资控股集团有限公司、广东超飞科技有限公司、中国联通珠海市分公司举行海岛无人机民生保供项目战略合作签约。中国联通珠海市分公司与市低空团队组建专项攻坚队伍，深度参与项目技术方案落地，依托5G+北斗数字底座，创新低空物流模式……」]{lang="zh-Hans"}
+
+  [「本次三方携手共建全国海岛无人机民生保供试点示范工程，构建可复制、可推广的低空物流助农兴农运营体系。……重点推进海岛航线、农贸市场起降点沿线5G网络覆盖，提供北斗定位服务、低空飞行监管平台接入支撑……」]{lang="zh-Hans"} ([source](https://m.c114.com.cn/w84-1318768.html))
+  :::
+
+- []{#industry-item-2026-10-08-eplane .industry-item}**8 Oct 2026 · Business Standard:** Ubifly Technologies (The ePlane Company) and Yamuna International Airport Pvt Ltd (Noida International Airport concessionaire) sign an MoU to develop vertiports, charging, SOPs and airspace integration for the e200X. [Link](https://www.business-standard.com/industry/news/eplane-noida-international-airport-evtol-vertiport-mou-e200x-126100800841_1.html) · [CNBC-TV18](https://www.cnbctv18.com/business/aviation/noida-international-airport-signs-deal-for-eplane-air-taxis-vertiports-and-charging-stations-20007518.htm)
+  - Tag: Independently reported
+  - What's new: Independent Indian business press reports an MoU under which the airport will allocate space for proof-of-concept trials, vertiports and charging stations and align procedures for eVTOL; ePlane will pursue DGCA / BCAS clearances and continue e200X prototyping and flight testing. Stated use cases include airport-to-airport transit, intra-city travel and emergency air ambulance. Company says e200X is in the DGCA type-certification pipeline and that it holds Design Organisation Approval for electric aircraft — company claims, not upgraded.
+  - Status: MoU independently reported; MoU ≠ firm infrastructure award or certified commercial service.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-07-xunyi .industry-item}**7 Oct 2026 · 浙江日报 / 浙江在线:** Zhejiang Daily interview with Xunyi (迅蚁) founder Zhang Lei on Hangzhou’s first cross-Qiantang instant-delivery UAV route. [Link](https://zjnews.zjol.com.cn/zjnews/202610/t20261007_31951269.shtml)
+  - Tag: Independently reported
+  - What's new: The interview describes a south-bank-to-Shangcheng receiving-point route (~10+ minutes, ~100 m AGL) as Hangzhou’s first low-altitude instant-delivery cross-river line. The founder says the route has logged more than 100 flights in a single trial month and that cargo mix is mainly business express, fresh goods, emergency medicines and digital accessories rather than restaurant takeaway. Cumulative company claims in the same piece (2,000+ routes / 800,000+ flights / 60+ city medical network / 300+ Hangzhou operating lines) and any “global first urban UAV logistics licence” framing are company-announced via the founder — not independently audited here.
+  - Status: Cross-river route ops colour independently reported via Zhejiang Daily; scale figures remain company claims.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「杭州钱塘江南岸，一架六旋翼无人机掠过江面，十多分钟后降落在上城区接收点。这是杭州首条低空即时配送跨江航线，也是少数已经实现常态化运营的低空物流线路。」]{lang="zh-Hans"}
+
+  [「试运行以来，这条航线单月累计飞行100多架次。……它运输的不全是大家印象里的外卖，大多以商务急件、生鲜、应急药品、数码配件为主。」]{lang="zh-Hans"} ([source](https://zjnews.zjol.com.cn/zjnews/202610/t20261007_31951269.shtml))
+  :::
+
+- []{#industry-item-2026-10-07-a2z-bali .industry-item}**7 Oct 2026 · AJOT / eVTOL Insights / DroneDJ:** A2Z says it is the technology partner for a Bali BVLOS food-delivery proof-of-concept with Grab Indonesia and SKYY Network. [Link](https://www.ajot.com/news/a2z-drone-delivery-chosen-as-technology-partner-for-indonesia-drone-delivery-trials) · [eVTOL Insights](https://evtolinsights.com/a2z-chosen-as-partner-for-commercial-drone-delivery-trials-in-indonesia/) · [DroneDJ](https://dronedj.com/2026/10/07/food-delivery-drone-bali-indonesia/)
+  - Tag: Company-announced
+  - What's new: A2Z says Grab and SKYY selected its Longtail Dual and AirDock autonomous charging docks for a BVLOS food-delivery trial between Café del Mar Bali and Nuanu Creative City; customers order via Grab; SKYY operates flights. Partners describe the trial as Indonesia’s first BVLOS food delivery under a DGCA certificate using SORA; route sits in controlled airspace associated with Ngurah Rai International Airport. Grab frames drones as a complement to driver-partners, not a replacement. DGCA certificate itself not retrieved on a regulator primary this run — not upgraded to Officially confirmed.
+  - Status: Company-announced pilot / tech-partner selection via trade press; DGCA primary not retrieved.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-07-aeroberm .industry-item}**7 Oct 2026 · Urban Air Mobility News:** Foster Aviation (Dubai) becomes Aeroberm™ (a Skyportz company) partner for UAE vertiport rollout; fractal-panel prototype planned for VertiExpo Dubai Dec 2026. [Link](https://www.urbanairmobilitynews.com/vertiports/aeroberm-foster-aviation-partner-to-deploy-vertiports-across-the-uae/) · [Aeroberm](https://www.aeroberm.com.au/)
+  - Tag: Company-announced
+  - What's new: The companies announce a strategic partnership under which Foster will work with UAE air-safety regulators and property developers to establish vertiport sites using Aeroberm’s fractal-panel deck (company claims on downwash dissipation / optional battery dunk tank — CFD with Swinburne, not independently verified here). A prototype is to be displayed at VertiExpo Dubai (14–16 Dec 2026) with advance orders taken for 2027 delivery.
+  - Status: Partnership / product-kit push as announced; not a named municipal vertiport award or certified network opening.
+  - Read instead: None.
 
 - []{#industry-item-2026-10-07-beta .industry-item}**7 Oct 2026 · BETA Technologies IR:** BETA says it concluded five days of Utah eIPP flights with Alpine Air using ALIA CTOL for time-sensitive medical cargo. [Link](https://investors.beta.team/news-events/press-releases/detail/119/beta-completes-utah-eipp-operations-to-support-the-future-of-radiopharmaceutical-delivery-and-treatment)
   - Tag: Company-announced
