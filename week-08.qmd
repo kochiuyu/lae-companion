@@ -1,19 +1,22 @@
 ---
 title: "Week 8: Airspace Access and Integration"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "Scarce capacity, allocation rules, and digital coordination"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 7](week-07.qmd) · [Week 9 →](week-09.qmd)
 
 **Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
+
+This page is the Week 8 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 7 mapped permissions and safety cases; this week asks how **scarce low-altitude capacity** is allocated when demand exceeds what can be served safely — and how digital coordination supports integration. Links: [Week 5](week-05.qmd) · [Week 7](week-07.qmd) · [Who decides what?](regulators.qmd) · [Glossary · airspace](glossary.qmd#airspace-and-traffic).
 
 ## Summary {#summary}
 
@@ -32,9 +35,214 @@ format:
 - Interoperability can cut duplicate coordination and support scale; it is not free or automatically safe.
 - A credible roadmap links each capacity or privilege expansion to evidence, review, and a financially consistent decision gate.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples below use round figures (delay externalities, bid screens, coordination savings, roadmap NPV). They are **illustrative assumptions for learning**, not published corridor capacities, CAD fees, UTM tariffs, or GBA forecasts. Absolute facts (AC-017, OFCA 1.4 GHz Sandbox confinement, Cap. 448G height bands) stay with their issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd).
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 8 you should be able to:
+
+1. **Explain** how safe operating capacity and demand create airspace congestion.  
+2. **Compare** queues, reservations, priority rules, peak pricing, and auctions as allocation mechanisms.  
+3. **Estimate** a simple delay externality and an operator’s maximum affordable slot payment.  
+4. **Evaluate** how digital coordination and interoperability affect cost, safety, and scalability.  
+5. **Design** a phased airspace-integration roadmap with explicit evidence and decision gates.
+
+---
+
+## 1. The 8:00 AM capacity conflict
+
+Imagine that two operations request the same constrained corridor and time window. One is a time-sensitive public-service delivery; the other is a scheduled commercial passenger or cargo operation. Only one request can be served safely within the available window.
+
+Should priority depend on arrival time, reservation, social value, price, or a predefined public-service rule? Every rule solves one problem and creates another — queues favour early requesters, prices favour high willingness to pay, priority rules protect designated missions but need clear triggers. Week 5 treated scarce **site** slots; this week treats scarce **airspace** access as a related allocation problem.
+
+---
+
+## 2. The airspace bottleneck
+
+Airspace capacity is **not** simply a fixed number of drones per minute. Safe capacity depends on route geometry, separation, aircraft performance, surveillance, communications, weather, contingency routes, human oversight, and interactions with other airspace users. Vertiport capacity, charging, passenger processing, and available stands may bind **before** the corridor itself. Demand above reliable capacity creates delay, displacement, cancellation, or the need for another route or time.
+
+Hong Kong facts to keep straight ([Key figures](key-figures.qmd) · [Glossary](glossary.qmd)):
+
+- Cap. **448G** operating height limits (e.g. Category A1 **100 ft** AGL; Category A2 **300 ft** AGL ≈ 91 m) are **not** the same as the policy working description of LAE as economic activities generally below about **1,000 m**.  
+- **Restricted flying zones** and HKAIP special-use airspace constrain where SUA may fly; cite current CAD notices/maps, not press maps.  
+- **Sandbox X** includes controlled trials related to airspace management and simultaneous unmanned-aircraft operations — it does **not** establish a general published capacity for Victoria Harbour (or other) corridors.  
+- Keep **Sandbox ≠ Sandbox X**. Cross-boundary corridor aims are **not** day-to-day operating service on the evidence tracked here.
+
+**Managerial lesson:** define the constrained resource and time interval **before** designing an allocation mechanism.
+
+---
+
+## 3. Congestion externalities
+
+A congestion externality arises when one additional operation increases delay, risk-management effort, or disruption for other users without bearing the full resulting cost. A congestion charge aims to reflect the additional cost imposed on others. Relevant costs may include aircraft operating cost, passenger or cargo delay, schedule disruption, and extra coordination effort.
+
+Pricing is only one response. Reservations, quotas, priority rules, rerouting, and capacity investment may also be appropriate. Some public-service missions should be governed by **explicit priority rules** rather than willingness to pay.
+
+### Marginal congestion cost (illustrative)
+
+$$
+\begin{aligned}
+\text{Marginal congestion cost} = {} & \sum_j \left(\text{Additional delay}_j \times \text{Value of delay}_j\right) \\
+& {} + \text{Other incremental costs}
+\end{aligned}
+$$
+
+Sum the incremental delay imposed on **all** affected users, not only the next aircraft. Values may differ across passengers, cargo, aircraft, public services, and schedule commitments. The theoretically efficient charge equals marginal external cost — that cost is hard to observe precisely in real time, so a practical peak charge may use estimated bands and periodic review.
+
+**Scenario (illustrative):** one additional operation delays three other flights by five minutes each.
+
+| Affected user | Delay value |
+|---------------|-------------|
+| Flight 1 | HK$100/min |
+| Flight 2 | HK$60/min |
+| Flight 3 | HK$40/min |
+| **Total** | **HK$200/min** |
+
+External delay cost ≈ $5 \times 200$ = **HK$1,000**. A peak charge near this amount may encourage a flexible operation to move; response is not guaranteed. Excludes safety, environmental, and schedule-recovery costs in this classroom screen.
+
+---
+
+## 4. Mechanism design and slot allocation
+
+Mechanism design asks how rules shape participants’ information, incentives, and outcomes:
+
+| Family | Examples |
+|--------|----------|
+| **Administrative rules** | Schedules, rotation, first-come-first-served, historical rights, public-service priority |
+| **Posted prices** | Predictable peak and off-peak charges |
+| **Auctions** | Bids for scarce time windows or route access |
+| **Package allocation** | Linked departure, corridor, arrival, and charging reservations allocated together |
+
+**Design criteria:** safety, efficiency, fairness, competition, transparency, reliability, simplicity, and access for new entrants. Failure to obtain a linked slot should lead to **rejection or rescheduling**, not an unsafe flight. Week 5’s scarce-slot logic at sites applies again in the corridor.
+
+### Maximum affordable slot payment
+
+$$
+\text{Maximum affordable payment}
+=
+\text{Incremental revenue}
+-
+\text{Incremental operating cost}
+-
+\text{Required contribution}
+$$
+
+Use incremental values associated with obtaining the slot — not total company revenue and OPEX. Required contribution may cover fixed cost, risk, or a target return. The rational bid also depends on auction rules, expected rival bids, alternative slots, and the risk that linked resources are unavailable. A high bid does **not** automatically imply high social value or justify excluding smaller operators.
+
+**Scenario (illustrative):** two operators value the same commercial slot.
+
+| | Operator A | Operator B |
+|--|------------|------------|
+| Incremental revenue | HK$2,000 | HK$2,000 |
+| Incremental cost | HK$1,200 | HK$600 |
+| Required contribution | HK$300 | HK$300 |
+| **Maximum affordable payment** | **HK$500** | **HK$1,100** |
+
+Operator B can afford a higher bid under these assumptions. Actual payment depends on auction design and competing bids — not necessarily “one dollar above A.” Commercial slots remain subject to safety, priority, and competition rules.
+
+**Exercise ledger (classroom):** cargo max affordable = revenue − cost − contribution = $800 - 400 - 100$ = **HK$300**; passenger = $2000 - 600 - 400$ = **HK$1,000**. If priority public service is triggered, record who bears displacement cost and whether compensation, rescheduling, or reserved capacity applies.
+
+---
+
+## 5. Network effects and shared information
+
+A **network effect** exists when participation by additional compatible users increases the value of the network to existing users. Common interfaces and timely information may improve route planning, conflict detection, situational awareness, and coordination. More participants can also increase congestion, cybersecurity exposure, monitoring needs, and system complexity.
+
+Shared data does **not** automatically make a system safer — data quality, latency, coverage, governance, and operational use matter. Some benefits are network effects; others are economies of scale or standardization. Do not treat them as identical.
+
+---
+
+## 6. Digital coordination and interoperability
+
+Week 7 introduced U-space (EU framework) and UTM as broader traffic-management labels. **U-space is not Hong Kong law** — do not write that Hong Kong “has U-space” ([Glossary · U-space](glossary.qmd#airspace-and-traffic)). Hong Kong’s traffic-management system remains a technical study / development topic on official pages; Sandbox X UTM demonstration modules are selected batches on [Key figures](key-figures.qmd), not a published city-wide capacity.
+
+**Interoperability** is the ability of authorized systems and organizations to exchange, interpret, and use information consistently. It may rely on common data models, interfaces, identity and access controls, service levels, and conformance testing. Shared standards can have public-good characteristics, but systems, operations, cybersecurity, and assurance remain costly. Open standards do **not** require unrestricted public access to operational data. Governance must address data minimization, confidentiality, liability, competition, resilience, vendor dependence, and incident response.
+
+**Managerial lesson:** technical compatibility is necessary but not sufficient; institutions and incentives must also align.
+
+### Coordination-cost savings
+
+$$
+\begin{aligned}
+\text{Daily net saving} = {} & \text{Cost of the less-integrated process} \\
+& {} - \text{Cost of the interoperable process}
+\end{aligned}
+$$
+
+Include fixed systems, usage fees, communications, human oversight, cybersecurity, integration, certification, and exception handling. Interoperability can reduce duplicate interfaces and repeated manual data entry — and may create migration cost, common dependencies, governance disputes, and switching risks. Do not assume API or digital-services cost is near zero.
+
+**Assumptions (illustrative):** 1,000 operations/day; 30 operating days/month.
+
+| | Less-integrated | Interoperable digital |
+|--|-----------------|------------------------|
+| Daily cost | HK$30/op → HK$30,000 | Fixed/oversight HK$12,000 + HK$3/op → HK$15,000 |
+| **Monthly cost** | **HK$900,000** | **HK$450,000** |
+
+Illustrative monthly saving HK$450,000 — only if reliability, security, and service quality meet requirements. Not a Hong Kong UTM or European U-space cost estimate.
+
+### Spectrum and cross-boundary access (absolute facts)
+
+- **OFCA** has made the **1430–1444 MHz** (1.4 GHz) band available for UAS under a dedicated licence; at present the band is confined to projects under the LAE **Regulatory Sandbox** launched by the Government ([Readings](#readings)). Do not treat it as open commercial spectrum.  
+- **CAD AC-017** covers cross-boundary SUA permission **inside Regulatory Sandbox X** ([Readings](#readings)). Time-slot and path approvals follow that circular — not a general corridor licence.
+
+---
+
+## 7. Airspace-integration roadmap
+
+Integration should proceed through evidence-based stages rather than fixed promises of full scale by a particular year:
+
+| Stage | Scope | Gate idea |
+|-------|-------|-----------|
+| **1. Defined trials** | Limited routes, aircraft, times, users, contingency procedures | Safety and reliability thresholds met |
+| **2. Extended operations** | More conditions; repeated performance; interoperable services; stakeholder feedback | Approved review and updated controls |
+| **3. Scaled network** | Wider capacity only after thresholds met | Continued compliance; periodic review |
+
+Cross-boundary development also requires coordination on customs, immigration, quarantine, spectrum, data, security, liability, and emergency response (Week 7 harmonisation theme).
+
+### Phased roadmap value
+
+$$
+\text{Roadmap NPV}
+=
+\sum_{t=0}^{T}
+\frac{
+\text{Incremental cash inflow}_t
+-
+\text{Incremental cash outflow}_t
+}{(1+r)^t}
+$$
+
+Include implementation cost in the year it occurs. Cash flows should reflect probability of reaching each phase, operating limits, demand, cost, and possible abandonment. Decision gates preserve flexibility to pause, redesign, or expand when evidence changes (Week 6 staging). A positive NPV under assumptions does **not** prove that the wider market is viable.
+
+**Assumptions (illustrative):** discount rate 10%; net cash flows already combine phase revenue and implementation/operating cost.
+
+| Year | Net cash flow | Present value (approx.) |
+|------|---------------|-------------------------|
+| 0 | −HK$50M | −HK$50M |
+| 1 | HK$10M | HK$9.1M |
+| 2 | HK$40M | HK$33.1M |
+| 3 | HK$50M | HK$37.6M |
+| **PV of future nets / NPV** | | **HK$79.8M PV → roadmap NPV ≈ HK$29.8M** |
+
+Attractive under these assumed cash flows. Probabilities, decision gates, terminal value, and cross-boundary dependencies still require analysis. Not a forecast of Hong Kong–GBA operations.
+
+---
+
+## 8. Putting Week 8 together
+
+Airspace capacity depends on the **complete operating system** — not an unsupported “drones per minute” number. Congestion pricing estimates external delay cost; queues, reservations, priority rules, and auctions serve different objectives. Auctions can reveal willingness to pay but need safeguards for safety, competition, linked resources, new entrants, and public-service access. Interoperability may reduce duplicate coordination and support scale — it does not make digital services free or automatically safe. Network participation creates benefits and costs; data quality, cybersecurity, governance, and congestion remain essential. A credible roadmap links each expansion in capacity or operating privilege to evidence, review, and a financially consistent decision gate. Keep **Sandbox ≠ Sandbox X**; do not invent corridor capacities.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) (CAD AC-017 Sandbox X cross-boundary; OFCA 1.4 GHz UAS licence confined to LAE Regulatory Sandbox; academic UAM airspace reviews; NASA / FAA ConOps comparators).  
+- **Course links:** [Week 7](week-07.qmd) · [Week 5](week-05.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Glossary · airspace](glossary.qmd#airspace-and-traffic).  
+- **Slides:** [week08-airspace.pdf](slides/week08-airspace.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 8 assignment brief used in class.
 
 ## Readings {#readings}
 
@@ -61,6 +269,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 - [Thipphavong, D. P., Apaza, R. D., Barmore, B. E., Battiste, V., Belcastro, C. M., et al. (2018). *Urban Air Mobility Airspace Integration Concepts and Considerations*. NASA NTRS 20180005218 (ARC-E-DAA-TN57126).](https://ntrs.nasa.gov/citations/20180005218) — NASA's multi-author airspace integration concepts paper.
 - [FAA (2020). *Unmanned Aircraft System (UAS) Traffic Management (UTM) Concept of Operations*, v2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/2022-08/UTM_ConOps_v2.pdf) — FAA's UTM concept of operations; a reference model for low-altitude traffic management.
 - [FAA (26 April 2023). *Urban Air Mobility (UAM) Concept of Operations*, Version 2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/Urban%20Air%20Mobility%20%28UAM%29%20Concept%20of%20Operations%202.0_0.pdf) — FAA UAM ConOps 2.0: corridors and the roles of PSUs and operators.
+
+## Looking ahead to Week 9
+
+Week 9 turns to the **economic and social impact of LAE**: jobs, productivity, distribution, environment, and public acceptance — asking whether low-altitude services improve outcomes for everyday users, not only whether operators can earn a contribution margin. Preview question from class: after eight weeks on how firms organise commercial models, does LAE actually make life better for citizens?
+
+Continue: [Week 9](week-09.qmd) · [Course overview](overview.qmd).
 
 ---
 
