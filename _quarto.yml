@@ -16,6 +16,7 @@ project:
     - dates.qmd
     - readings.qmd
     - lectures.qmd
+    - notes-w1.qmd
     - news.qmd
     - industry.qmd
     - landscape.qmd

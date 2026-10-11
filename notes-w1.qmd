@@ -1,0 +1,80 @@
+---
+title: "Week 1 notes"
+subtitle: "What the slides leave room for"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+Notes for **Week 1: Introduction to LAE** — not a second copy of the deck. Skim [Lectures · Week 1](lectures.qmd#week-1) for **Before you go** and **Takeaways**; open the [PDF](slides/week01-introduction.pdf) for formulas and in-class examples. This page unpacks connections, caveats already on the site, and where to read next.
+
+If you are new to the course, start with [What is LAE?](primer.qmd), then come back here.
+
+## How this week is built
+
+The deck has three sessions. Treat them as one story:
+
+1. **Foundations** — what LAE is, how it differs from traditional aviation, and simple tools for time value and generalized cost.  
+2. **Value chain** — who creates value, who gets paid, and why incentives can conflict.  
+3. **Policy and technology** — why controlled trials matter, how utilization and load factor drive unit cost, and when technology helps the *whole* service.
+
+Classroom numbers on waiting time, fares, and cost shares are **illustrative** (the slides label them that way). Do not treat them as current Hong Kong market data.
+
+## Definitions the slides compress
+
+| Label on the slides | Keep straight |
+|---------------------|---------------|
+| **LAE** | Whole system: aircraft, sites, digital coordination, operators, customers, supporting services — not only drones or air taxis. Plain start: [What is LAE?](primer.qmd). |
+| **UAM** | Short-distance people or cargo moves *inside* a dense city — a subset of LAE. |
+| **AAM** | Broader industry label for new aircraft linking cities, suburbs, or other corridors. Course framing still starts **Hong Kong-first**, then GBA / wider China as comparators. |
+| **~1,000 m** | Hong Kong **policy working description** of LAE airspace — not a Cap. 448G flying limit. Numbers: [Key figures](key-figures.qmd); terms: [Glossary · altitude](glossary.qmd#altitude-scale). |
+| **SUA vs eVTOL** | Everyday “drone” speech is not Cap. 448G wording. Light unmanned craft: **SUA** (≤150 kg). **eVTOL** is an industry label; Hong Kong has **no dedicated eVTOL statute yet**. [Primer · labels](primer.qmd#lae-labels) · [Glossary · vehicles](glossary.qmd#vehicles-and-operations). |
+| **OEM / vertiport / UTM** | Roles in the ecosystem diagram — full entries in the [Glossary](glossary.qmd). Vertiport and U-space/UTM labels are industry / overseas frames unless Hong Kong law says otherwise. |
+
+## The HK$350 billion line
+
+The icebreaker cites ~**HK$350 billion** annual value added by **2050**. That figure is from **Our Hong Kong Foundation** (*Taking Flight*, 2025) — a **private think-tank projection**, not an HKSAR government number. Keep the issuer visible when you quote it: [Key figures](key-figures.qmd) · [Common questions](faq.qmd) · [Readings · Week 1](readings.qmd#week-1).
+
+## Tools: what the formulas are for
+
+The deck gives short formulas. Use them as judgment aids, not as black boxes:
+
+- **Value of time (VOT)** — how much a customer might pay to save time; it varies by purpose and urgency.  
+- **Generalized cost** — ticket price plus time valued at VOT. Faster modes can charge more **only up to** the time they actually save door-to-door (waiting and access count).  
+- **NPV** — whether future profits justify today’s investment under stated assumptions.  
+- **Unit cost / empty-seat problem** — fixed cost divided across flights × seats × load factor. Flying often does not help if seats stay empty.
+
+Later weeks deepen the same ideas: demand and mode choice ([Week 4](lectures.qmd#week-4)), unit economics and CASK ([Week 3](lectures.qmd#week-3)), infrastructure throughput ([Week 5](lectures.qmd#week-5)). Business roles without firm names: [How does LAE work?](business-overview.qmd).
+
+## Value chain without replaying the diagram
+
+Who gets paid depends on contracts and bargaining power — creating value does not guarantee capturing it. For a role-only map (customers → operators → aircraft/sites/tech/finance), use [How does LAE work?](business-overview.qmd). Named firms stay on [Companies & sectors](landscape.qmd).
+
+**Externalities** (noise, privacy, congestion) show up as operating limits, community pushback, or higher unit cost when utilization falls. That thread continues in Weeks 8–10.
+
+## Sandbox: controlled learning, not a waiver
+
+Slides talk about a **regulatory sandbox** as a way to test under controlled conditions and learn faster. On this site, keep two programmes **separate**:
+
+- Early **Regulatory Sandbox** (first-batch counts such as 38 of 72).  
+- Later **Sandbox X** (different module counts and framing).
+
+They are not one combined list. Counts and sources: [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [FAQ](faq.qmd). A sandbox can cut **delay and uncertainty**; it does **not** remove safety or compliance costs — same point as the Lectures takeaways, with citeable programme detail here.
+
+Cross-boundary / GBA logistics may look attractive as a story; on the evidence tracked here, a Shenzhen–Hong Kong corridor is **not** day-to-day operating service yet ([Primer · HK/GBA](primer.qmd#lae-hk-gba) · [Official status](tracker.qmd)).
+
+Real trial and operating applications (past year and older public-service cases): [Use cases](usecases.qmd).
+
+## Technology as an economic tool
+
+Speed, automation, UTM, and charging only help if the **full journey** is safe, reliable, convenient, and affordable — not if only the airframe looks impressive. That is the bridge from Week 1 into cost, demand, and infrastructure weeks.
+
+## Readings and next steps
+
+- Documents for this week: [Readings · Week 1](readings.qmd#week-1) (Policy Address working definition; OHKF report; short academic / Mainland comparators).  
+- Slide brief for the Week 1 memo lives in the [PDF](slides/week01-introduction.pdf); assessment logistics stay on the teaching platform, not this site.  
+- Preview: [Week 2 · Market structure](lectures.qmd#week-2) — scarce sites and who gets access.
+
+**Back to:** [Lectures](lectures.qmd#week-1) · [Course overview](overview.qmd) · [How to use this site](howto.qmd)
