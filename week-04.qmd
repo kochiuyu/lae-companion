@@ -16,7 +16,15 @@ format:
 
 **Slides (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
 
-This page is the Week 4 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 3 asked what you must charge and how costs behave; this week asks whether **enough customers would choose** the service at a viable price. Links: [Week 1 · generalized cost](week-01.qmd#7-generalized-cost-and-mode-choice) · [Week 3](week-03.qmd) · [Course overview](overview.qmd).
+This page is the **Week 4** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how WTP / funnels / generalized cost / elasticity / acceptance / shocks connect to Week 3 breakeven, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
+
+Week 3 asked what you must **charge** and how costs behave under utilization and weather. This week asks whether **enough customers would choose** the service at a viable price — and how to present that answer as transparent scenarios rather than a single “market size” claim.
+
+**Orient refreshers:**
+
+- [Week 1 · generalized cost](week-01.qmd#7-generalized-cost-and-mode-choice) — VOT, GC, and fare ceilings  
+- [Week 3](week-03.qmd) — contribution, capacity, and required activity  
+- [Glossary · business and economics](glossary.qmd#business-and-economics) — shared definitions  
 
 ## Summary {#summary}
 
@@ -36,7 +44,7 @@ This page is the Week 4 article for the 12-week Low Altitude Economics course: a
 - Public acceptance and external shocks should enter through clear, justified assumptions.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples below use round figures (trips, fares, elasticities, acceptance factors). They are **illustrative assumptions for learning**, not survey results, corridor forecasts, or Hong Kong government demand projections.
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (trips, fares, elasticities, acceptance factors). They are **illustrative assumptions for learning**, not survey results, corridor forecasts, or Hong Kong government demand projections. Absolute reading and programme facts (NASA UAM Market Study as **not** an HKSAR forecast; AiRMOUR as an EU project / guidebook lens; EASA societal-acceptance study as European comparator; first Sandbox **38 of 72** vs **Sandbox X**) stay with issuers on [Readings](#readings) / [Key figures](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -49,6 +57,18 @@ By the end of Week 4 you should be able to:
 4. **Incorporate** public acceptance as a transparent scenario assumption rather than a fixed universal multiplier.  
 5. **Stress-test** demand and revenue under weather, capacity, and policy scenarios.
 
+### How these notes are organised
+
+| Part | Sections | Focus |
+|------|----------|--------|
+| Choice & WTP | §§1–3 | Would customers choose it?; WTP and linear demand; what modelling is / is not |
+| Funnel & GC | §§4–5 | Four-step frame; managerial funnel; generalized cost door-to-door |
+| Price response | §§6–7 | Own- and cross-elasticity; heterogeneity and differentiated products |
+| Acceptance & shocks | §§8–10 | AiRMOUR lens; scenario shocks; HK–GBA demand hypotheses |
+| Closing | §§11–13 | Tool map; synthesis; study checklist beyond the slides |
+
+Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first.
+
 ---
 
 ## 1. Would customers actually choose it?
@@ -59,6 +79,14 @@ The commercial question is not only whether the service can fly. It is whether *
 
 Factors that often matter: price, door-to-door time, reliability, convenience, and public confidence. Rankings differ by customer and trip purpose.
 
+### Link back to Week 3 (and Week 1)
+
+Week 3 produced a **required activity** number (missions or flights per day to cover fixed cost). Week 4 asks whether **demand at a viable price** can deliver that activity — after capacity binds. Week 1 already showed that friction and access time can destroy $\Delta T$ even when cruise is fast ([generalized cost](week-01.qmd#7-generalized-cost-and-mode-choice)). This week puts those ideas into a demand-modelling toolkit.
+
+::: {.callout-note appearance="simple"}
+**Corridor note.** Policy language and sandbox trials may name corridors or airport connections. A planned or trial corridor is **not** proof of day-to-day operating service or of a measured HK demand curve ([Official status](tracker.qmd); [Who decides what?](regulators.qmd#standing-caveats)). Classroom “airport service” examples below are teaching setups, not forecasts.
+:::
+
 ---
 
 ## 2. Willingness to pay and a simple demand curve
@@ -68,6 +96,8 @@ Factors that often matter: price, door-to-door time, reliability, convenience, a
 A **demand curve** shows expected quantity at different prices, holding other important conditions fixed. It helps compare volume, revenue, capacity need, and contribution across prices.
 
 ### Linear demand (classroom form)
+
+In words: expected quantity falls linearly as price rises; the intercept is model demand at a zero price, and the slope says how many units drop for each Hong Kong dollar of price increase.
 
 $$
 Q = a - bP
@@ -81,6 +111,8 @@ $$
 
 **Caution:** a survey does not automatically yield a reliable demand curve. Use multiple observations, realistic alternatives, and validation against behaviour where possible.
 
+**Beyond the slide.** Individual WTP is not the same object as Week 1’s **GC-based fare ceiling** ($P_{\max}$ against an alternative). GC indifference is a *comparative* upper bound under stated time and fare assumptions. A market demand curve aggregates many customers’ choices under competition, information, and capacity. Do not paste one traveller’s $P_{\max}$ into $Q=a-bP$ and call it a Hong Kong forecast.
+
 ### Worked illustration (airport service prices)
 
 **Illustrative model:** $Q = 8{,}000 - 8P$ (demand falls by 800 trips for each HK$100 price rise).
@@ -90,7 +122,7 @@ $$
 | HK$300 | $8{,}000 - 8(300) = 5{,}600$ | $300 \times 5{,}600 =$ **HK$1.68M** |
 | HK$500 | $8{,}000 - 8(500) = 4{,}000$ | $500 \times 4{,}000 =$ **HK$2.00M** |
 
-Under this particular linear model, HK$500 yields higher revenue. A **profit**-maximising price also needs cost and capacity (Week 3).
+Under this particular linear model, HK$500 yields higher revenue. A **profit**-maximising price also needs cost and capacity (Week 3). If contribution margin is thin, the higher-revenue price can still lose money — or hit a pad/flight cap before 4,000 trips are served.
 
 ---
 
@@ -99,6 +131,8 @@ Under this particular linear model, HK$500 yields higher revenue. A **profit**-m
 Demand modelling uses evidence and **explicit assumptions** to estimate how many customers may choose a service under different conditions. It is **not** a precise prediction of exact headcounts. It combines market size, trip patterns, competing modes, price, time, reliability, access, and preferences. Present forecasts as **ranges or scenarios**, not a single certain number.
 
 **Link to Week 3:** does forecast demand fit the price, capacity, and activity required to break even?
+
+**Beyond the slide (NASA framing).** NASA-sponsored UAM market work distinguishes unconstrained and constrained markets: legal, weather, infrastructure, and acceptance shrink what a raw “trip potential” might suggest ([Glossary](glossary.qmd); [Readings](#readings)). Use that *logic* in class. Do **not** copy NASA dollar / TAM figures into a Hong Kong business case as local demand, and do not treat NASA as Hong Kong law or as an HKSAR government number.
 
 ---
 
@@ -115,6 +149,8 @@ NASA-sponsored UAM market studies use detailed demand models; the four-step stru
 
 ### Managerial demand funnel
 
+In words: start from relevant trips, keep only the share on your corridor, then keep only the share that chooses your mode — that product is **potential** passenger-trips. Served trips cannot exceed available capacity.
+
 $$
 \text{Potential LAE passenger-trips}
 =
@@ -129,6 +165,8 @@ $$
 
 The product is a **screening funnel**, not the full four-step model. Assignment allocates trips on a network — do not treat it as an arbitrary demand haircut. Keep **passenger-trips**, **flights**, and **seats** distinct.
 
+**Beyond the slide.** Mode share is an *outcome* of GC, preferences, and constraints — not a free parameter you dial to hit a spreadsheet target. If you raise mode share from 10% to 35% without changing fare, time, reliability, or acceptance assumptions, you have rewritten the story, not estimated demand.
+
 ### Worked illustration (demand vs capacity)
 
 **Assumptions (illustrative):** 20,000 relevant daily trips; 60% on the selected corridor; LAE mode share 35%.
@@ -138,7 +176,7 @@ The product is a **screening funnel**, not the full four-step model. Assignment 
 | Calculation | $20{,}000 \times 0.60 \times 0.35$ | 300 flights/day × 4 seats × 80% load |
 | Result | **4,200** passenger-trips/day | **960** passenger-trips/day |
 
-Potential demand may exceed capacity. The business model must separate customers who **want** to travel from customers the system can **serve**.
+Potential demand may exceed capacity. The business model must separate customers who **want** to travel from customers the system can **serve**. Week 3’s required flights/day only works if the **served** column can cover contribution — not the unconstrained funnel headline.
 
 ---
 
@@ -146,7 +184,7 @@ Potential demand may exceed capacity. The business model must separate customers
 
 **Generalized cost (GC)** combines the main burdens of a complete journey into a common money measure: fare and related charges; access, waiting, boarding, in-vehicle, and transfer time; and (where credible) reliability or inconvenience.
 
-Week 1 introduced a short form. Week 4 expands it:
+Week 1 introduced a short form. Week 4 expands it — in words: fare plus value of time times full door-to-door time, plus other monetized burdens you can justify.
 
 $$
 GC = \text{Fare} + VOT \times \text{Door-to-door time} + \text{Other monetized burdens}
@@ -165,7 +203,9 @@ $VOT$ converts time to money. Avoid **double counting** (for example putting the
 | Other burden | HK$50 | HK$80 |
 | **GC** | $350 + 15(45) + 50 =$ **HK$1,075** | $800 + 15(12) + 80 =$ **HK$1,060** |
 
-The air option is slightly preferred under these assumptions. A small change in waiting, reliability, or perceived risk could reverse the ranking.
+The air option is slightly preferred under these assumptions. A small change in waiting, reliability, or perceived risk could reverse the ranking — exactly the Week 1 friction lesson: pad access and boarding can erase cruise-time advantage.
+
+**Beyond the slide.** GC ranks *options for a traveller type*. It does not by itself give mode share, elasticity, or revenue. Use GC to stress-test whether your fare is even in the ballpark; use the funnel and capacity check to turn “might prefer” into “how many can we serve.”
 
 ---
 
@@ -190,7 +230,9 @@ Own-price elasticity is usually negative. Managers often quote the absolute valu
 | 0.5 | +10% | 110 | $400 \times 110 =$ **HK$44,000** |
 | 2.0 | +40% | 140 | $400 \times 140 =$ **HK$56,000** |
 
-A discount can raise or lower revenue depending on response. Profit also needs capacity and incremental cost (Week 3).
+A discount can raise or lower revenue depending on response. Profit also needs capacity and incremental cost (Week 3). If pads already bind at 100 trips, the elastic case’s “+40% volume” never materialises — you only cut price on capacity you already fill.
+
+**Beyond the slide.** Cross-elasticity to rail or taxi is often the real pricing story in Hong Kong corridors with strong public transport. Own-price elasticity measured in isolation (no alternatives in the survey) can understate switching when MTR or taxi quality changes.
 
 ---
 
@@ -199,6 +241,8 @@ A discount can raise or lower revenue depending on response. Profit also needs c
 Customers differ in urgency, VOT, budget, reliability needs, access, booking flexibility, and willingness to try a new mode. One corridor may contain several segments with different demand curves.
 
 Managers may offer different products, booking rules, service levels, memberships, or time-based prices — if operationally feasible, transparent, lawful, and acceptable. Do not assume one demographic label perfectly predicts behaviour. Prefer offers defined by **product attributes** (flexibility, refundability, priority, timing) rather than protected personal characteristics.
+
+In words: total revenue is the sum across products of each product’s price times the quantity that product attracts at that price.
 
 $$
 \text{Total revenue} = \sum_{i=1}^{n} P_i Q_i(P_i)
@@ -213,7 +257,7 @@ $$
 | Volumes | Flexible-business 4,000; advance 2,000 | Flexible HK$800 → 3,800; restricted HK$300 → 3,500 |
 | **Revenue** | **HK$3.00M** | $800\times3{,}800 + 300\times3{,}500 =$ **HK$4.09M** |
 
-Differentiation can raise revenue under assumed responses; still check cost, capacity, cannibalization, fairness, and implementation.
+Differentiation can raise revenue under assumed responses; still check cost, capacity, cannibalization, fairness, and implementation. Week 3 revenue management returns here: the goal is contribution, not filling every seat with the cheapest product.
 
 ---
 
@@ -229,6 +273,8 @@ For Hong Kong applications:
 
 ### Transparent acceptance adjustment
 
+In words: take a base demand figure and multiply by an explicit acceptance factor you chose for the scenario — then defend that factor.
+
 $$
 \text{Scenario demand} = \text{Base demand} \times \text{Acceptance adjustment}
 $$
@@ -241,6 +287,8 @@ The factor is an **analyst-defined scenario input**, not an official AiRMOUR coe
 |----------|------------|--------|
 | Higher acceptance | 0.9 | **3,780**/day |
 | Lower acceptance | 0.6 | **2,520**/day |
+
+**Beyond the slide.** EASA’s European societal-acceptance study ([Readings](#readings)) is **comparator evidence**, not a Hong Kong survey. AiRMOUR’s EMS focus is a research lens, not a claim that Hong Kong medical missions already enjoy high acceptance or cleared corridors. Keep **Regulatory Sandbox ≠ Sandbox X**: trial participation is not a measured citywide acceptance rate.
 
 ---
 
@@ -263,7 +311,7 @@ $$
 R = P \times Q_{\text{served}} + \text{Committed revenue} - \text{Refunds and credits}
 $$
 
-Model each channel explicitly — do not apply one unexplained “shock penalty” to revenue. Weather may cut **capacity** first; repeated unreliability can later cut **demand**.
+Model each channel explicitly — do not apply one unexplained “shock penalty” to revenue. Weather may cut **capacity** first; repeated unreliability can later cut **demand** (Week 3 weather channels return here).
 
 ### Worked illustration (weekly capacity shock)
 
@@ -291,20 +339,57 @@ Responses can include reserves, flexible capacity, alternative modes, committed 
 
 Hypotheses for analysis, not universal conclusions. Use route-specific data on customers, alternatives, access, capacity, and regulation. Keep **Regulatory Sandbox ≠ Sandbox X**; neither is a demand forecast ([Who decides what?](regulators.qmd#standing-caveats)).
 
+Strong MTR / Airport Express / taxi alternatives raise the bar for GC advantage in Hong Kong; that is a **hypothesis about competition**, not a claim that air options cannot win on some corridors for some segments.
+
 ---
 
-## 11. Putting Week 4 together
+## 11. One-page tool map (from trips to cash)
 
-Demand models produce **scenarios**, not certainties. Separate potential demand, capacity, flights, and passengers served. Use **generalized cost** for door-to-door comparison while treating mode choice as probabilistic. Use **elasticity** and **segmentation** carefully; check capacity and cost before celebrating revenue. Put **acceptance** and **shocks** in explicit, justified assumptions — never as invisible magic multipliers.
+| Step | Ask | Output |
+|------|-----|--------|
+| 1 | What trips are relevant? | Trip generation / market definition |
+| 2 | Which OD pairs / corridor? | Distribution / corridor share |
+| 3 | What share might choose LAE? | Mode share (GC + preferences) |
+| 4 | What capacity can we offer? | Flights × seats × feasible load |
+| 5 | How many can we serve? | $\min\{\text{potential},\ \text{capacity}\}$ |
+| 6 | What price / products? | $Q=a-bP$; segments; elasticity |
+| 7 | What acceptance scenarios? | Explicit adjustment factors |
+| 8 | What if weather / policy shocks? | Served trips and revenue under $R$ |
+| 9 | Does this cover Week 3 breakeven? | Required activity vs served activity |
+
+If step 9 fails, fix price, cost, capacity, product design, or the corridor definition — do not silently inflate mode share.
+
+---
+
+## 12. Putting Week 4 together
+
+Demand models produce **scenarios**, not certainties. Separate potential demand, capacity, flights, and passengers served. Use **generalized cost** for door-to-door comparison while treating mode choice as probabilistic. Use **elasticity** and **segmentation** carefully; check capacity and cost before celebrating revenue. Put **acceptance** and **shocks** in explicit, justified assumptions — never as invisible magic multipliers. Confront every demand headline with Week 3’s required activity and physical pad limits.
 
 The short checklist is in [Summary](#summary) above.
+
+---
+
+## 13. Study checklist (beyond the slides)
+
+1. State the commercial question: **enough customers at a viable price**, not “can it fly.”  
+2. Define WTP and sketch $Q=a-bP$; compute choke price $a/b$.  
+3. Explain why a survey is **not** automatically a reliable demand curve.  
+4. Separate **potential** funnel demand from **served** trips under capacity.  
+5. Keep passenger-trips, flights, and seats distinct in one worked example.  
+6. Compute GC for two modes; show how access/wait friction can reverse the ranking.  
+7. Contrast own-price and cross-elasticity; say when a discount raises vs lowers revenue.  
+8. Build a two-product revenue example and name cannibalization / fairness checks.  
+9. Apply an **explicit** acceptance factor and justify it — never an invisible haircut.  
+10. Run a capacity shock and recompute revenue with $Q_{\text{served}}=\min\{Q_d,Q_c\}$.  
+11. Link served demand to Week 3 **breakeven / required activity**.  
+12. Keep **Sandbox ≠ Sandbox X**; treat NASA / AiRMOUR / EASA as **comparators**, not HK demand quotes.
 
 ---
 
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (NASA UAM Market Study; stated-preference and adoption papers; EASA societal-acceptance report as EU comparator).  
-- **Course links:** [Week 1](week-01.qmd) · [Week 3](week-03.qmd) · [Week 5](week-05.qmd).  
+- **Course links:** [Week 1](week-01.qmd) · [Week 3](week-03.qmd) · [Week 5](week-05.qmd) · [Glossary](glossary.qmd) · [Key figures](key-figures.qmd).  
 - **Slides:** [week04-demand.pdf](slides/week04-demand.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 4 assignment brief used in class.
 
 ## Readings {#readings}
