@@ -16,7 +16,16 @@ format:
 
 **Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
 
-This page is the Week 6 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Weeks 3–5 built costs, demand, and sites; this week asks **which commercial architecture** delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk. Links: [How does LAE work?](business-overview.qmd) · [Week 5](week-05.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics).
+This page is the **Week 6** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how commercial architectures / PPP / payment design / staging / co-opetition connect to Weeks 3–5, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
+
+Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **commercial architecture** delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk when pads, demand, and weather are uncertain.
+
+**Orient refreshers:**
+
+- [How does LAE work?](business-overview.qmd) — roles in the value chain  
+- [Week 5](week-05.qmd) — sites, scarce slots, staged infrastructure  
+- [Glossary · PPP](glossary.qmd#business-and-economics) — course term, not a statute  
+- [Key figures](key-figures.qmd) — Sandbox counts and caveats  
 
 ## Summary {#summary}
 
@@ -36,7 +45,7 @@ This page is the Week 6 article for the 12-week Low Altitude Economics course: a
 - Shared infrastructure can lower unit cost only if access, governance, congestion, data, liability, and competition are managed.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples below use round figures (monthly profits, availability fees, staging payoffs). They are **illustrative assumptions for learning**, not market benchmarks or named-deal terms. Trial counts (e.g. Sandbox first batch) stay with their issuers on [Key figures](key-figures.qmd) / [Readings](#readings).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (monthly profits, availability fees, staging payoffs). They are **illustrative assumptions for learning**, not market benchmarks or named-deal terms. Absolute programme facts (first Regulatory Sandbox **38 of 72**; **Sandbox ≠ Sandbox X**; corridor not day-to-day operating service) stay with issuers on [Key figures](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats) / [Readings](#readings).
 :::
 
 ## Learning objectives
@@ -49,6 +58,18 @@ By the end of Week 6 you should be able to:
 4. **Allocate** demand, weather, operational, regulatory, and financing risks to the parties best able to manage them.  
 5. **Evaluate** phased investment and contractual flexibility under uncertain market development.
 
+### How these notes are organised
+
+| Part | Sections | Focus |
+|------|----------|--------|
+| Architecture | §§1–2 | Why commercial design next; three archetypes; economic-profit screen |
+| Public deals & pay | §§3–4 | PPP value-for-money test; usage vs availability payments |
+| Flexibility & sharing | §§5–6 | Real options / staging; co-opetition and facility cost |
+| Institutions & close | §§7–10 | Comparators; term-sheet principle; tool map; synthesis |
+| Checklist | §11 | Study checklist beyond the slides |
+
+Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned` only — no `array` column gutters.
+
 ---
 
 ## 1. Choosing the commercial architecture
@@ -60,7 +81,13 @@ Neither model is automatically superior:
 - Ownership can provide **control** but requires capital and operating capability.  
 - Coordination can provide **flexibility** but creates dependency, contracting, quality-control, and margin-sharing risks.  
 
-Week 5 asked which sites to build; Week 6 asks which capabilities to **own, contract, share, or buy as a service**.
+### Link back to Weeks 3–5
+
+Week 3 separated CAPEX, fixed OPEX, and variable cost. Week 4 showed **served** demand can bind below funnel headlines. Week 5 asked which sites to build and how to stage them. Week 6 asks which capabilities to **own, contract, share, or buy as a service** — and who bears demand, weather, performance, and financing risk when those choices are written into contracts.
+
+::: {.callout-note appearance="simple"}
+**Sandbox note.** First **Regulatory Sandbox** (**38 of 72** selected) and later **Sandbox X** are controlled trial settings. They are **not** a PPP template, not proof of a permanent commercial partnership, and not a corridor operating claim. Keep programmes separate ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); [Readings](#readings)).
+:::
 
 ---
 
@@ -74,12 +101,18 @@ Week 5 asked which sites to build; Week 6 asks which capabilities to **own, cont
 
 Real businesses often **combine** elements. Roles without firm names: [How does LAE work?](business-overview.qmd).
 
+**Beyond the slide.** “Asset-light” is a slogan, not a risk transfer. An integrator that outsources flying still faces KPI deductions, customer refunds, and reputational damage when partners fail. A platform that never touches an aircraft still needs two-sided liquidity, trusted data, and liability allocation when a mission goes wrong.
+
 ### Monthly economic-profit screen
+
+In words: take revenue, subtract cash operating spend, the period’s asset-cost allocation, and what you pay partners.
 
 $$
 \begin{aligned}
-\text{Monthly economic profit} ={}& \text{Revenue} - \text{Cash OPEX} \\
-&- \text{Monthly asset-cost allocation} - \text{Partner payments}
+\text{Monthly economic profit}
+&= \text{Revenue} - \text{Cash OPEX} \\
+&\quad - \text{Monthly asset-cost allocation}
+  - \text{Partner payments}
 \end{aligned}
 $$
 
@@ -97,7 +130,7 @@ Ownership affects financing, residual value, utilization risk, and control. Cont
 | **Economic profit** | **HK$467k** | **HK$100k** | **HK$117k** |
 | Character | High capital & utilization exposure | Supplier dependency | Network & governance risk |
 
-An “asset-light” label does **not** guarantee higher profit or lower risk. Ranking depends on payouts, utilization, demand, liability, and investment needs.
+An “asset-light” label does **not** guarantee higher profit or lower risk. Ranking depends on payouts, utilization, demand, liability, and investment needs. Confront the asset-intensive column with Week 5’s ramp-up liquidity: early utilization may not support the asset allocation line.
 
 ---
 
@@ -112,20 +145,28 @@ A **PPP** is a long-term arrangement in which a public authority and a private p
 
 **Managerial test:** use a PPP only when long-term integration and risk allocation can create **better value for money** than conventional procurement or a normal service contract — not merely to chase public funding.
 
+**Beyond the slide.** A PPP does **not** invent demand, create landing rights, or replace Cap. 448G permissions. It reallocates who pays for readiness, who bears volume risk, and who fixes performance failures — under procurement law and budget rules that still bind the public side. Week 5’s “no dedicated HK vertiport statute” caveat still applies: calling a site a PPP vertiport does not create that statute.
+
 Hong Kong’s trial programmes (first **Regulatory Sandbox** vs later **Sandbox X**) create controlled learning settings; they are **not** themselves a PPP template and must not be merged ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); first-batch **38 of 72** on [Readings](#readings)).
 
 ---
 
 ## 4. Usage vs availability payments
 
+In words: usage revenue is price times quantity. An availability component starts from a readiness fee, subtracts performance deductions, and may add a smaller per-unit usage term.
+
 $$
-R_U = p \times q
+\begin{aligned}
+R_U &= p \times q
 \quad\text{(usage-based revenue)}
+\end{aligned}
 $$
 
 $$
-R_A = A - D + u \times q
+\begin{aligned}
+R_A &= A - D + u \times q
 \quad\text{(availability-based component)}
+\end{aligned}
 $$
 
 - $A$ — availability payment  
@@ -134,6 +175,8 @@ $$
 - $q$ — quantity (missions, movements, etc.)  
 
 Usage-based models put more **volume risk** on the provider. Availability models can shift more **demand risk** toward the public authority, but the provider keeps **performance risk** through KPIs and deductions. Hybrids can balance readiness, activity, quality, and affordability (same logic as Week 3 revenue models).
+
+**Beyond the slide.** Availability is payment for **readiness**, not a free weather hedge. If the contract pays $A$ when pads are open and staffed — but weather grounds flights — decide explicitly whether that day is “available,” “excused,” or “deductible.” Vague force-majeure language recreates the Week 3 storm loss inside a PPP wrapper.
 
 ### Worked illustration (payment design and risk)
 
@@ -145,7 +188,7 @@ Usage-based models put more **volume risk** on the provider. Availability models
 | Variable + fixed cost | HK$60k + HK$500k = HK$560k | HK$560k |
 | **Operating result** | **Loss HK$260k** | **Profit HK$150k** (before deductions) |
 
-Availability stabilises revenue but should depend on **readiness and performance**. Weather relief, deductions, and service obligations must be drafted explicitly.
+Availability stabilises revenue but should depend on **readiness and performance**. Weather relief, deductions, and service obligations must be drafted explicitly. If deductions wipe HK$200k for missed KPIs, the “profit” column disappears — design $D$ with the same care as $A$.
 
 ---
 
@@ -157,13 +200,20 @@ Not every flexible clause is freely exercisable — triggers, notice, compensati
 
 ### Decision-tree screen
 
+In words: expected project value is the probability-weighted payoff of the action you would choose in each state.
+
 $$
+\begin{aligned}
 \text{Expected project value}
-=
-\sum_s \Pr(s) \times \text{Payoff under the chosen action in state }s
+&=
+\sum_s \Pr(s)
+  \times \text{Payoff under the chosen action in state } s
+\end{aligned}
 $$
 
 Compare a rigid commitment with a staged or contingent decision. Flexibility creates value only if management can observe new information and respond. Waiting also has costs: option fees, delay, lost position, inflation, or expiring approvals. Conventional NPV can incorporate planned decisions; real-options thinking makes flexibility more explicit.
+
+**Beyond the slide.** Week 5’s staged vertiport ramp-up is the same idea in infrastructure CAPEX. Week 6 writes it into **contracts**: milestone gates, expansion options, and break clauses. Sandbox learning can reduce uncertainty — it does not by itself create a contractual option to expand onto a permanent site.
 
 ### Worked illustration (value of staging)
 
@@ -192,11 +242,15 @@ Define access, cost sharing, data governance, performance, liability, and exit. 
 
 ### Facility cost per movement
 
+In words: spread fixed facility cost over total movements, then add variable facility cost per movement.
+
 $$
+\begin{aligned}
 \text{Shared facility cost per movement}
-=
-\frac{\text{Fixed facility cost}}{\text{Total movements}}
-+ \text{Variable facility cost per movement}
+&=
+\frac{\text{Fixed facility cost}}{\text{Total movements}} \\
+&\quad + \text{Variable facility cost per movement}
+\end{aligned}
 $$
 
 Greater total use can spread fixed cost — this is the **facility’s** cost, not automatically each operator’s charge. Contracts must decide equal vs usage vs peak vs investment-based payments. Sharing helps only if extra traffic does not create excessive congestion or expansion cost.
@@ -211,6 +265,8 @@ Greater total use can spread fixed cost — this is the **facility’s** cost, n
 
 Operator ticket cost still needs aircraft, staff, load factor, and contract data. Movements ≠ seats or passenger tickets.
 
+**Beyond the slide.** Unit-cost savings from sharing evaporate if the co-opetition agreement lets the pad owner favour its own airline affiliate at peak (Week 2 limit-pricing / discrimination logic). Write access, priority, and information-firewall rules before celebrating the HK$500 line.
+
 ---
 
 ## 7. Institutional approaches (comparators)
@@ -223,6 +279,8 @@ Operator ticket cost still needs aircraft, staff, load factor, and contract data
 | **GBA collaboration** | May combine manufacturing, operating, testing, finance, logistics, and professional services across jurisdictions |
 
 These are **not** simple rankings of “speed.” Each creates different evidence needs, partnership opportunities, and entry risks ([Who decides what?](regulators.qmd)). Cross-boundary corridors remain **not** day-to-day operating service on the evidence tracked here.
+
+**Beyond the slide.** **U-space ≠ Hong Kong law.** Use it as a European comparator for how digital services and partnerships might be organised — not as a local operating rulebook. LegCo and TLB materials on [Readings](#readings) compare partnership models and Sandbox process; they do not convert Sandbox participation into a commercial franchise.
 
 ---
 
@@ -240,20 +298,56 @@ When negotiating (classroom exercise style), map at least:
 
 **Principle:** allocate each risk to the party best able to **control, absorb, mitigate, or insure** it — and price the transfer. Do not dump all risk on government or on the operator by default.
 
+A practical risk map for LAE term sheets often includes: demand / volume; weather and downtime; site access and slots; safety and liability; regulatory / change-in-law; charging and energy; data and cybersecurity; financing and FX. For each row, name the owner, the KPI or relief trigger, and the price of the transfer.
+
 ---
 
-## 9. Putting Week 6 together
+## 9. One-page tool map (from architecture to term sheet)
 
-Asset ownership, service integration, and platforms mix **control, capital, capability, and risk** differently. A PPP is justified by value for money and long-term risk allocation — not by hunger for public money alone. Link **availability** payments to readiness and performance, with deductions and relief. Stage investment and write flexibility carefully. Share infrastructure only with governance that protects access, data, liability, and competition. Keep **Sandbox ≠ Sandbox X**.
+| Step | Ask | Output |
+|------|-----|--------|
+| 1 | Own, integrate, or orchestrate which layers? | Archetype screen |
+| 2 | What is monthly economic profit after partner payouts? | Profit screen (not a risk verdict) |
+| 3 | Is a PPP better value for money than ordinary procurement? | Go / no-go on PPP |
+| 4 | Usage, availability, or hybrid — with which KPIs and $D$? | Payment design |
+| 5 | Which risks sit with whom, and at what price? | Risk allocation matrix |
+| 6 | What can we stage / delay / abandon as information arrives? | Real-options / gates |
+| 7 | What is shared vs still competed? | Co-opetition boundary |
+| 8 | How is shared facility cost recovered without discrimination? | Access + charging rules |
+| 9 | Do Week 4 served demand and Week 5 reliable capacity support the deal? | Reality check |
+| 10 | Keep Sandbox ≠ Sandbox X; no corridor-ops claim | Fact discipline |
+
+---
+
+## 10. Putting Week 6 together
+
+Asset ownership, service integration, and platforms mix **control, capital, capability, and risk** differently. A PPP is justified by value for money and long-term risk allocation — not by hunger for public money alone. Link **availability** payments to readiness and performance, with deductions and relief. Stage investment and write flexibility carefully. Share infrastructure only with governance that protects access, data, liability, and competition. Keep **Sandbox ≠ Sandbox X**, and do not treat trial participation as a commercial franchise or corridor operating claim.
 
 The short checklist is in [Summary](#summary) above.
+
+---
+
+## 11. Study checklist (beyond the slides)
+
+1. Contrast ownership vs coordination on **control, capital, and dependency**.  
+2. Fill the three-archetype table and compute the **monthly economic-profit** screen.  
+3. Explain why “asset-light” does **not** erase performance or liability risk.  
+4. State the PPP **value-for-money** test — and what a PPP does not invent (demand, statute, permissions).  
+5. Write $R_U$ and $R_A$; define $A$, $D$, $u$, and $q$ in one sentence each.  
+6. Show how availability can flip a loss to a profit — then wipe it with deductions.  
+7. Compute the staging decision-tree expected value; name one cost of waiting.  
+8. Separate **cooperation** vs **competition** layers in a shared-pad deal.  
+9. Compute shared facility cost per movement; say why the facility cost ≠ operator ticket cost.  
+10. Draft five term-sheet rows with risk owner, KPI/relief, and price of transfer.  
+11. Link Week 4 served demand and Week 5 reliable capacity to the partnership cash flows.  
+12. Keep **Sandbox ≠ Sandbox X** (**38 of 72**); **U-space ≠ HK law**; corridor not day-to-day service.
 
 ---
 
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (first-batch Regulatory Sandbox **38 of 72**; LegCo note on Shenzhen/US partnership models; TLB LCQ on Sandbox process; WEF / Deloitte for ecosystem structure — not for numbers).  
-- **Course links:** [Week 5](week-05.qmd) · [How does LAE work?](business-overview.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).  
+- **Course links:** [Week 5](week-05.qmd) · [How does LAE work?](business-overview.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics).  
 - **Slides:** [week06-partnerships.pdf](slides/week06-partnerships.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 6 assignment brief used in class.
 
 ## Readings {#readings}
