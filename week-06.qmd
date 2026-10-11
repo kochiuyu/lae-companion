@@ -242,14 +242,15 @@ Define access, cost sharing, data governance, performance, liability, and exit. 
 
 ### Facility cost per movement
 
-In words: spread fixed facility cost over total movements, then add variable facility cost per movement.
+In words: first allocate fixed facility cost per movement; then add variable facility cost per movement to get the shared facility unit cost.
 
 $$
 \begin{aligned}
+\text{Fixed cost per movement}
+&= \frac{\text{Fixed facility cost}}{\text{Total movements}} \\
 \text{Shared facility cost per movement}
-&=
-\frac{\text{Fixed facility cost}}{\text{Total movements}} \\
-&\quad + \text{Variable facility cost per movement}
+&= \text{Fixed cost per movement}
+  + \text{Variable facility cost per movement}
 \end{aligned}
 $$
 
