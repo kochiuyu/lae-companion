@@ -16,6 +16,34 @@ In Hong Kong, **low-altitude economy (LAE)** means economic activity in airspace
 
 Picture a completed mission: someone needs a delivery, inspection, medical transfer, or similar job done. An **operator** flies (or manages) the aircraft; the craft needs somewhere to take off and land; someone coordinates traffic and communications; **customers or mission sponsors** pay for the outcome; and supporting services (finance, insurance, training, platforms) keep the operation going. That whole chain is what the course means by LAE — Week 1 on [Lectures](lectures.qmd) opens the same idea; the week map is on [Course overview](overview.qmd).
 
+
+```{=html}
+<style>
+.wsvc{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--gold:#C5A572;--muted:#5f5f5f;margin:1rem 0 1.35rem;font-size:.9rem;max-width:40rem}
+.wsvc-cap{color:var(--muted);margin:0 0 .65rem;font-size:.88rem;line-height:1.4}
+.wsvc-flow{display:flex;flex-direction:column;gap:.4rem;align-items:stretch}
+.wsvc-box{background:var(--beige);border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:8px;padding:.55rem .75rem;color:var(--ink);line-height:1.35}
+.wsvc-box strong{color:var(--navy)}
+.wsvc-box a{color:var(--navy);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.wsvc-box.rules{border-left-color:var(--gold);background:#fff}
+.wsvc-arrow{text-align:center;color:var(--navy);font-size:1.1rem;line-height:1;user-select:none;font-weight:600}
+.wsvc-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
+</style>
+<figure class="wsvc" id="lae-whole-service" aria-labelledby="wsvc-title">
+<p class="wsvc-cap" id="wsvc-title"><strong>Whole service (schematic)</strong> — how the pieces fit for one mission. Not a regulatory map; formal terms live in the Glossary.</p>
+<div class="wsvc-flow">
+<div class="wsvc-box"><strong>Craft</strong><br/>The aircraft that flies the mission — e.g. light unmanned types under <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G / SUA</a>, or heavier / passenger-oriented types discussed as <a href="glossary.qmd#vehicles-and-operations">eVTOL / unconventional aircraft</a> (no dedicated Hong Kong eVTOL statute yet).</div>
+<div class="wsvc-arrow" aria-hidden="true">↓ needs place and airspace</div>
+<div class="wsvc-box"><strong>Airspace &amp; sites</strong><br/>Low-altitude working band (<a href="glossary.qmd#altitude-scale">~1,000 m policy description</a>); take-off/landing sites (industry: <a href="glossary.qmd#infrastructure">vertiports</a>); traffic coordination labels (<a href="glossary.qmd#airspace-and-traffic">UTM / U-space</a> — U-space is not Hong Kong law).</div>
+<div class="wsvc-arrow" aria-hidden="true">↓ delivers an outcome for</div>
+<div class="wsvc-box"><strong>Customers / mission sponsors</strong><br/>Who needs the delivery, inspection, medical transfer, or similar job done — and who pays for that outcome (business detail on <a href="business-overview.qmd">How does LAE work?</a>).</div>
+<div class="wsvc-arrow" aria-hidden="true">↓ under</div>
+<div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and under which trial pathway. One-line roles and standing caveats (Sandbox ≠ Sandbox X; corridor not operational) on <a href="regulators.qmd#standing-caveats">Who decides what?</a>; instruments on Official status.</div>
+</div>
+<p class="wsvc-note">Operators and supporting services (finance, insurance, training, platforms) sit across this chain — see Week 1 on Lectures. Diagram invents no market sizes or firm claims.</p>
+</figure>
+```
+
 Mainland **低空经济** uses a separate statistical / industrial-policy scope (NDRC 发改低空〔2025〕1676号). Do not treat it as the same metric as a Hong Kong value-added figure ([Glossary](glossary.qmd#mainland-comparators); [Official status](tracker.qmd)).
 
 ## Labels you will meet (keep light)
