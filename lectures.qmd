@@ -19,7 +19,7 @@ Titles match [Readings](readings.qmd).
 ## Week 1: Introduction to LAE {#week-1}
 
 - **Slides (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
-- **Notes:** [Week 1 notes](notes-w1.qmd) — expands what the slides omit
+- **Notes:** [Week 1 notes](notes-w1.qmd) — full lecture notes
 
 **Before you go**
 
