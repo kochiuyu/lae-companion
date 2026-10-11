@@ -1,19 +1,22 @@
 ---
 title: "Week 3: Cost Structures and Revenue Management"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "Unit economics, breakeven, and how revenue models reshape risk"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 2](week-02.qmd) · [Week 4 →](week-04.qmd)
 
 **Slides (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
+
+This page is the Week 3 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 2 asked who competes and why scarce sites matter; this week asks whether the **numbers** work — investment vs operating cost, unit measures, breakeven, revenue models, and weather downtime. Links: [Glossary · CASK / CAPEX](glossary.qmd#business-and-economics) · [How does LAE work?](business-overview.qmd) · [Week 2](week-02.qmd).
 
 ## Summary {#summary}
 
@@ -32,9 +35,301 @@ format:
 - Revenue management aims to improve total contribution—not just fill every seat.
 - Subscriptions and similar contracts can reshape risk; none is a free or guaranteed hedge.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples below use round figures (asset costs, CASK, fares, missions, weather days). They are **illustrative assumptions for learning**, not current Hong Kong market quotations, operator filings, or forecasts.
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 3 you should be able to:
+
+1. **Distinguish** CAPEX from OPEX in an LAE business model, and separate recurring fixed OPEX from activity-related variable cost.  
+2. **Calculate** simple unit-cost measures, including [CASK](glossary.qmd#business-and-economics) and cost per mission-kilometre.  
+3. **Estimate** breakeven volume and explain how price, load factor, and utilization affect viability.  
+4. **Compare** pay-per-use, subscription, availability-based, and complementary revenue models.  
+5. **Evaluate** how weather downtime and cost differences across Hong Kong and the GBA affect strategy — without treating any hedge as free or guaranteed.
+
+---
+
+## 1. Why cost and revenue structure come next
+
+A technically feasible LAE service is not automatically commercially viable. Managers must connect **asset cost**, **daily operations**, **capacity**, **demand**, **pricing**, and **risk**.
+
+Imagine two reviews of the same business case. One manager asks how charging time, maintenance, and turnaround cap daily missions. Another asks whether subscriptions or availability contracts could make revenue more predictable. Both questions sit inside this week's toolkit.
+
+Week 2 showed that scarce pads and density drive average cost. Week 3 makes that precise: what is investment, what is recurring spend, what is the right **unit**, and how does the **revenue model** change who bears volume risk?
+
+---
+
+## 2. CAPEX, OPEX, and a daily economic-cost sketch
+
+### CAPEX vs OPEX
+
+| Label | Plain meaning | Typical LAE examples |
+|-------|---------------|----------------------|
+| **CAPEX** | Investment in assets that provide benefits over several years | Aircraft, charging equipment, vertiport construction, major software platforms |
+| **OPEX** | Recurring spend to operate the service | Energy, maintenance, staff, insurance, site fees, communications, routine compliance |
+
+**Important nuance:** certification and approval expenditure is **not automatically CAPEX**. Accounting treatment depends on the nature of the spend and applicable rules. For managerial classroom work, keep a separate line for compliance / approval cash so you do not bury it inside “aircraft” or “OPEX” without thought.
+
+Also separate, inside OPEX:
+
+- **Recurring fixed OPEX** — paid even at zero missions that day (many site fees, base staff, insurance).  
+- **Variable (activity-related) cost** — rises with missions or flight hours (energy, wear, some labour).
+
+Glossary: [CAPEX / OPEX](glossary.qmd#business-and-economics).
+
+### A simple daily economic-cost approximation
+
+$$
+\text{Daily economic cost}
+=
+\frac{\text{Asset cost} - \text{Expected residual value}}{\text{Useful operating days}}
++ \text{Daily OPEX}
+$$
+
+This spreads net asset cost across expected operating life and adds daily operating spend. Financing cost, maintenance cycles, downtime, and residual value may need separate treatment in a full model. Treat the formula as an **economic-cost sketch**, not complete accounting depreciation or a full cash-flow statement.
+
+### Worked illustration (investment level and unit cost)
+
+**Assumptions (illustrative):** five-year life; no residual value; useful days $= 5 \times 365 = 1{,}825$; daily OPEX = HK$8,000; **50 missions** per operating day.
+
+| | Case A: HK$10M investment | Case B: HK$6M investment |
+|--|----------------------------|---------------------------|
+| Daily asset allocation | $10\text{M}/1{,}825 \approx$ **HK$5,479** | $6\text{M}/1{,}825 \approx$ **HK$3,288** |
+| + Daily OPEX | HK$8,000 | HK$8,000 |
+| Total daily economic cost | HK$13,479 | HK$11,288 |
+| **Cost per mission** | $\approx$ **HK$270** | $\approx$ **HK$226** |
+
+**Takeaway:** higher investment raises unit cost, but utilization and operating cost remain equally important.
+
+### The “Hong Kong premium” as a hypothesis
+
+Why might an LAE service cost more to operate in Hong Kong? Class lists **hypotheses to test**, not proven universal mark-ups:
+
+- Scarce sites, structural works, charging, passenger access, and safety facilities.  
+- Dense buildings, terrain, communications, weather, and interactions with other airspace users.  
+- Skilled labour and professional services (engineering, insurance, legal, compliance).  
+- Reliability requirements (redundancy, maintenance capability, contingency planning).
+
+The size of any premium depends on application, site, and operating model. Compare specific cases — do not paste a single “HK multiplier” into every spreadsheet.
+
+---
+
+## 3. Unit economics: CASK and mission-kilometres
+
+**Unit economics** studies revenue and cost for one meaningful unit of activity:
+
+- Passenger service — per flight, available seat-kilometre, or paying passenger-trip.  
+- Cargo or public-service work — per mission, mission-kilometre, or kilogram delivered.
+
+### CASK (cost per available seat-kilometre)
+
+$$
+CASK = \frac{\text{Operating cost for the period}}{\text{Available seats} \times \text{Kilometres flown}}
+$$
+
+Available seat-kilometres measure **capacity offered**, whether seats are sold or not. More productive use can spread some fixed operating costs over more seat-km. A low CASK does **not** guarantee profit: the operator must still fill seats and earn enough revenue. Turnaround, charging, maintenance, weather, route length, and capacity all affect the measure.
+
+Glossary: [CASK / CPMK](glossary.qmd#business-and-economics).
+
+### Worked illustration (utilization and CASK)
+
+**Assumptions (illustrative):** four available seats; operating cost **HK$12,000/day**; each trip **10 km**.
+
+| | 10 trips/day | 50 trips/day |
+|--|--------------|--------------|
+| Available seat-km | $4 \times 10 \times 10 = 400$ | $4 \times 50 \times 10 = 2{,}000$ |
+| **CASK** | $12{,}000/400 =$ **HK$30** per seat-km | $12{,}000/2{,}000 =$ **HK$6** per seat-km |
+| Allocated cost of one seat on a 10 km trip | HK$300 | HK$60 |
+
+Higher utilization lowers CASK in this simplified example; it still does not prove demand or profitability.
+
+### Cost per mission-kilometre
+
+For cargo, inspection, emergency, or public-service missions:
+
+$$
+\text{Cost per mission-km}
+=
+\frac{\text{Operating cost for the period}}{\text{Total mission-kilometres}}
+$$
+
+Longer missions create more mission-km mechanically — compare routes with attention to length, payload, quality, and complexity.
+
+**Assumptions (illustrative):** daily operating cost HK$12,000; average mission **8 km**.
+
+| | 20 missions/day | 100 missions/day |
+|--|-----------------|------------------|
+| Mission-km | 160 | 800 |
+| Cost per mission-km | HK$75 | HK$15 |
+| Allocated cost per mission | **HK$600** | **HK$120** |
+
+Volume can cut allocated unit cost; capacity, demand, turnaround, and service rules constrain how much volume you can actually run (Week 2 density logic returns here).
+
+---
+
+## 4. Revenue models: more than one transaction type
+
+LAE businesses may combine several models:
+
+| Model | Revenue predictability (typical) | Who bears usage risk (typical) | Possible use |
+|-------|----------------------------------|--------------------------------|--------------|
+| **Pay per use** | Lower | Operator | Passenger trip, delivery, inspection |
+| **Subscription / membership** | Medium | Shared | Frequent users; priority or allowance |
+| **Availability-based contract** | Higher | Customer / shared | Public or critical readiness |
+| **Complementary services** | Varies | Varies | Data, analytics, maintenance, platform |
+
+Match the model to the **value promised** and the party best able to manage the risk. A subscription is not guaranteed cash unless customers accept terms and keep paying. Data does not monetise itself — it needs useful products, rights, demand, security, and privacy compliance. Mixing models can diversify revenue but raises contractual and operational complexity. Week 6 returns to partnerships and payment designs.
+
+---
+
+## 5. Revenue management (not “fill every seat”)
+
+**Revenue management** allocates limited capacity and adjusts prices or conditions to improve **total expected contribution** — not merely to eliminate empty seats.
+
+- Selling too cheaply can fill capacity while destroying revenue.  
+- Holding capacity for later high-value demand can sometimes raise total contribution.  
+- Managers weigh price, booking time, segment, expected demand, cancellations, and capacity.
+
+**Managerial objective:** sell the right capacity to the right customer at the right time and price.
+
+A simple passenger-revenue identity:
+
+$$
+\text{Revenue per flight}
+=
+\text{Seats} \times \text{Load factor} \times \text{Average fare}
+$$
+
+Load factor is the share of available seats occupied by **paying** passengers. Average fare should reflect discounts and mix. Maximising load factor alone is the wrong goal if fares collapse.
+
+---
+
+## 6. Breakeven volume
+
+For one consistent service unit (flight, passenger, delivery, or mission):
+
+$$
+\text{Breakeven units}
+=
+\frac{\text{Fixed cost}}{\text{Revenue per unit} - \text{Variable cost per unit}}
+$$
+
+The denominator is **contribution margin per unit**. For passenger flights, revenue per flight depends on fare **and** paying passengers per flight.
+
+Equivalently, a daily activity target:
+
+$$
+\text{Required missions per day}
+=
+\frac{\text{Fixed daily cost}}{\text{Contribution margin per mission}}
+$$
+
+Compare that target with physical capacity, operating hours, charging, maintenance, weather, and expected demand. This required-activity number is **not** the usual statistical “utilization rate” (actual use ÷ available capacity or time). Revenue management can improve contribution; it cannot invent unlimited capacity or demand.
+
+### Worked illustration (price and breakeven)
+
+**Assumptions (illustrative):** fixed cost **HK$20,000/day**; variable cost **HK$100 per mission**.
+
+| Revenue per mission | Contribution | Breakeven missions/day |
+|---------------------|--------------|-------------------------|
+| HK$500 | HK$400 | $20{,}000/400 =$ **50** |
+| HK$200 | HK$100 | $20{,}000/100 =$ **200** |
+
+Discounting sharply raises required volume — test whether that volume fits capacity and demand.
+
+### Worked illustration (load factor and breakeven flights)
+
+**Assumptions (illustrative):** four seats; average fare HK$500; fixed cost HK$20,000/day; variable cost HK$100/**flight**.
+
+| Load factor | Paying passengers (avg) | Revenue/flight | Contribution | Breakeven flights/day |
+|-------------|-------------------------|----------------|--------------|------------------------|
+| 40% | 1.6 | HK$800 | HK$700 | $\approx$ **29** |
+| 90% | 3.6 | HK$1,800 | HK$1,700 | $\approx$ **12** |
+
+Fractional passengers are averages across many flights. Higher load factor can cut required flights **if** fare and costs stay unchanged.
+
+---
+
+## 7. Weather downtime and risk responses
+
+Severe weather can hit an LAE business through several channels at once:
+
+- lost trips and revenue;  
+- continued aircraft, site, staff, insurance, and financing costs;  
+- disruption, refunds, and service-level penalties;  
+- repositioning, inspection, maintenance, and recovery costs;  
+- lower willingness to rely on the service next time.
+
+A weather warning does not mechanically ground every operation; restrictions depend on aircraft capability, location, approval, and conditions.
+
+### Managing weather risk
+
+Combine operational, contractual, and financial tools:
+
+- **Operational resilience** — forecasting, spare capacity, alternative modes/routes, recovery plans.  
+- **Contract design** — availability payments, minimum commitments, cancellation terms, service credits, force majeure.  
+- **Insurance or parametric cover** — possible payout on an agreed trigger, subject to exclusions, basis risk, and premium.  
+- **Liquidity** — cash or committed financing for temporary shortfalls.
+
+Subscriptions and reservation fees transfer risk **only if** customers accept the terms and see real value. None of these tools is a free hedge.
+
+### Profit under a mixed-revenue sketch
+
+$$
+\begin{aligned}
+\text{Profit} ={}& \text{Committed revenue} + \text{Usage revenue} + \text{Insurance payout} \\
+&- \text{Fixed cost} - \text{Variable cost} - \text{Premiums and service credits}
+\end{aligned}
+$$
+
+Committed revenue can reduce exposure to flight volume but usually adds availability obligations. Downtime may save some variable cost while still creating refunds, credits, recovery costs, or reputational damage. The aim is manageable cash flow and service obligations — not to “profit from storms.”
+
+### Worked illustration (five grounded days)
+
+**Assumptions (illustrative):** 30-day month; **25** operating days; 50 missions/day on open days; usage revenue HK$500/mission; fixed cost HK$600,000/month; variable cost HK$100/mission. Missions $= 25 \times 50 = 1{,}250$.
+
+| | Pay per mission only | Committed monthly revenue HK$750,000 |
+|--|----------------------|----------------------------------------|
+| Usage / contract revenue | HK$625,000 | HK$750,000 |
+| Variable cost | HK$125,000 | HK$125,000 |
+| Fixed cost | HK$600,000 | HK$600,000 |
+| **Result (before credits/premiums)** | **Loss HK$100,000** | **Profit HK$25,000** |
+
+Committed revenue may stabilise cash flow; the contract must still specify availability, refunds, credits, and weather obligations. Illustration excludes taxes, financing, premiums, recovery costs, and possible service credits.
+
+---
+
+## 8. Hong Kong and the GBA: cost and revenue hypotheses
+
+| Dimension | Hong Kong possibility | Wider GBA possibility |
+|-----------|----------------------|------------------------|
+| Site environment | Dense and constrained | More varied |
+| Customer base | Premium and specialised | Larger and more diverse |
+| Cost pressure | Site and professional costs | Varies by city and use case |
+| Scale opportunity | Complex urban services | Manufacturing and network scale |
+| Potential role | Finance, logistics, services | Technology, production, operations |
+
+These are **strategic hypotheses**, not universal facts. Compare specific sites, routes, customers, regulations, and partners. Keep trial programmes straight: **Regulatory Sandbox ≠ Sandbox X**; neither is a cost or revenue forecast ([Who decides what?](regulators.qmd#standing-caveats); [Key figures](key-figures.qmd)).
+
+Compliance and trial rules can become real OPEX lines — for example Mainland delivery-trial guidance listed in [Readings](#readings) turns record-keeping, insurance, and link requirements into operating-cost items for operators who face those rules (comparator context, not Hong Kong Cap. 448G text).
+
+---
+
+## 9. Putting Week 3 together
+
+Separate **CAPEX**, recurring **fixed OPEX**, and **variable** cost before any unit metric. Choose **CASK** for passenger capacity offered and **mission-based** measures for cargo/public service. Breakeven needs a **consistent unit**, contribution margin, and a reality check against capacity and demand. Revenue management maximises **contribution**, not empty-seat guilt. Subscriptions, availability contracts, insurance, and liquidity **reshape** risk — none is a free guarantee. HK–GBA differences are hypotheses to test case by case.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) on this page (NASA UAM Market Study as official UAM framing — **not** an HK government figure; academic cost/operations reviews; CAAC delivery-trial guide as a cost-line comparator).  
+- **Course links:** [Glossary · business and economics](glossary.qmd#business-and-economics) · [Week 2](week-02.qmd) · [How does LAE work?](business-overview.qmd).  
+- **Slides:** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 3 assignment brief used in class.
 
 ## Readings {#readings}
 
@@ -53,6 +348,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 **Official**
 
 - [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — CAAC delivery-trial requirements (C2 link, record keeping, insurance, buffers) that turn directly into operating-cost lines. English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery.
+
+## Looking ahead to Week 4
+
+Week 4 turns to **demand modeling in urban air mobility**: whether customers would actually choose an LAE option, funnels from potential trips to constrained capacity, willingness to pay and generalized cost, and treating public acceptance as explicit scenarios. Preview question: once you know what you must charge to survive, how do you show that customers might pay it?
+
+Continue: [Week 4](week-04.qmd) · [Course overview](overview.qmd).
 
 ---
 
