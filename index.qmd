@@ -8,53 +8,6 @@ as_of: "2026-10-11"
 **Instructor:** Chiu Yu Ko  
 **First offering:** December 2026  
 
-Site for a 12-week low-altitude economy course — lecture slides, readings, and supporting evidence.
+Site for a 12-week low-altitude economy course — weekly slides, notes, readings, and supporting evidence.
 
-<!-- Start here: term not in session yet (first offering Dec 2026). When a teaching week is active, point these two links at lectures.qmd#week-N and readings.qmd#week-N. -->
-**Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · [How to use this site](howto.qmd) · then [Lectures](lectures.qmd) · [Readings](readings.qmd)
-
-::: {.hub-grid}
-::: {.hub-card}
-## Orient
-
-Week map, primers, how the business works, FAQ, key figures, and how to use this site.
-
-- [Course overview](overview.qmd)
-- [What is LAE?](primer.qmd)
-- [How does LAE work?](business-overview.qmd)
-- [Who decides what?](regulators.qmd)
-- [How to use this site](howto.qmd)
-- [Common questions](faq.qmd)
-- [Key figures](key-figures.qmd)
-:::
-
-::: {.hub-card}
-## Teach
-
-Slide decks and weekly documents.
-
-- [Lectures](lectures.qmd)
-- [Readings](readings.qmd)
-:::
-
-::: {.hub-card}
-## Official facts
-
-Terms, checked status, and who is in the market (firms and sectors).
-
-- [Glossary](glossary.qmd)
-- [Official status](tracker.qmd)
-- [Companies & sectors](landscape.qmd)
-:::
-
-::: {.hub-card}
-## Updates
-
-Dated government and business news, trial and operating use cases, and the timeline.
-
-- [Government news](news.qmd)
-- [Business news](industry.qmd)
-- [Use cases](usecases.qmd)
-- [Timeline](dates.qmd)
-:::
-:::
+**Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · [How to use this site](howto.qmd) · then [Weeks](weeks.qmd)

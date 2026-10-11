@@ -1,0 +1,62 @@
+---
+title: "Week 9: Market Sizing, Barriers, Uncertainty and Social Impact"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 8](week-08.qmd) · [All weeks](weeks.qmd) · [Week 10 →](week-10.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- How to size a market for a defined use case (funnel through capacity, revenue, contribution).
+- How constraints from UAM studies should enter the model without double counting.
+- Uncertainty tools: scenarios, sensitivity, and simple probability / downside views.
+- From commercial value to social value: who benefits, who bears costs, and illustrative hedonic thinking.
+
+## Takeaways {#takeaways}
+
+- Market size must specify service, corridor, customer, period, choice behaviour, and reliable capacity.
+- Revenue, contribution, profit, value added, and social benefit are different concepts—do not mix them.
+- Put constraints into explicit demand, capacity, price, cost, timing, or probability channels.
+- Expected value helps, but also look at probability of loss, downside cash needs, and key risk drivers.
+- Social evaluation covers total benefits and costs and how they are distributed across groups.
+
+## Readings {#readings}
+
+### Main references
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+  [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+  :::
+
+### Supplementary references
+
+**Academic**
+
+- [Clothier, R. A., Greer, D. A., Greer, D. G., & Mehta, A. M. (2015). Risk Perception and the Public Acceptance of Drones. *Risk Analysis*, 35(6), 1167–1183. doi:10.1111/risa.12330](https://doi.org/10.1111/risa.12330) — Risk perception and public acceptance of drones; a social-impact barrier.
+- [Al Haddad, C., Chaniotakis, E., Straubinger, A., Plötner, K., & Antoniou, C. (2020). Factors affecting the adoption and use of urban air mobility. *Transportation Research Part A*, 132, 696–712. doi:10.1016/j.tra.2019.12.020](https://doi.org/10.1016/j.tra.2019.12.020) — Adoption barriers and uncertainty in uptake. *Also listed in [Week 4](week-04.qmd).*
+- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — *Also listed in [Week 1](week-01.qmd).*
+
+**Official**
+
+- [EASA. *Full Report – Study on the societal acceptance of Urban Air Mobility in Europe*. European Union Aviation Safety Agency (publication date not shown on landing page).](https://www.easa.europa.eu/en/full-report-study-societal-acceptance-urban-air-mobility-europe) — n.d. — Public acceptance, noise and safety concerns from the EU survey. *Also listed in [Week 4](week-04.qmd).*
+
+---
+
+[← Week 8](week-08.qmd) · [All weeks](weeks.qmd) · [Week 10 →](week-10.qmd)

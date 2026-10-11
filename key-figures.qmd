@@ -71,4 +71,4 @@ Striking numbers only. Every figure links to its issuer. Full status and wording
 - [Glossary](glossary.qmd) — altitude and weight diagrams  
 - [Timeline](dates.qmd) — dated instruments  
 
-**Next:** [Common questions](faq.qmd) · [Home](index.qmd) · Teach: [Lectures](lectures.qmd) · [Readings](readings.qmd)
+**Next:** [Common questions](faq.qmd) · [Home](index.qmd) · Teach: [Weeks](weeks.qmd)

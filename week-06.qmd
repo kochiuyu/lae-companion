@@ -1,0 +1,65 @@
+---
+title: "Week 6: LAE Strategic Partnerships and Business Models"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 5](week-05.qmd) · [All weeks](weeks.qmd) · [Week 7 →](week-07.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- Three commercial architectures: asset-intensive, service-based, and platform-oriented.
+- When a public–private partnership might make sense—and what it does not fix.
+- Usage vs availability payments, risk allocation, and contractual flexibility / staging.
+- Sharing facilities (co-opetition) and negotiating a simple partnership term sheet.
+
+## Takeaways {#takeaways}
+
+- Ownership, service integration, and platforms mix control, capital, capability, and risk differently.
+- A PPP is about value for money and long-term risk allocation—not just accessing public money.
+- Availability payments should link to measurable readiness and performance, with clear deductions and relief.
+- Assign each risk to the party best able to manage it.
+- Shared infrastructure can lower unit cost only if access, governance, congestion, data, liability, and competition are managed.
+
+## Readings {#readings}
+
+### Main references
+
+- [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. Regulatory Sandbox: **38** of **72** selected.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Working Group on Developing LAE approved the 38 projects after reviewing 72 project proposals.” ([source](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html))
+
+  [「政府共接獲72個申請者提交監管沙盒試點項目申請，經發展低空經濟工作組審閱，其中38項成為首批推展的試點項目」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2025/03/20250320/20250320_141320_260.html))
+  :::
+
+### Supplementary references
+
+**Official**
+
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — LegCo Research Office comparison of Shenzhen and US public-private, academia and insurance partnership models.
+- [Transport and Logistics Bureau, HKSAR (12 February 2025). LCQ3: Promoting development of low-altitude economy (reply to LegCo question).](https://www.tlb.gov.hk/eng/legislative/transport/replies/2025/20250212c.html) — Official HK account of the Sandbox process and cross-boundary interface with Mainland authorities. Chinese version: [[《立法會三題：推動低空經濟發展》]{lang="zh-Hant"}](https://www.tlb.gov.hk/tc/legislative/transport/replies/2025/20250212c.html).
+
+**Think-tank**
+
+- [World Economic Forum, in collaboration with Kearney (July 2024). *Advanced Air Mobility: Shaping the Future of Aviation* (White Paper).](https://www3.weforum.org/docs/WEF_Advanced_Air_Mobility_2024.pdf) — Shows ecosystem partnerships and roles across AAM. *Also listed in [Week 2](week-02.qmd).*
+
+**Industry**
+
+- [Hussain, A., & Silver, D. (26 January 2021). *Advanced air mobility*. Deloitte Insights.](https://www2.deloitte.com/us/en/insights/industry/aerospace-defense/advanced-air-mobility.html) — Consultancy view of AAM business models and ecosystem roles. Use it for structure only, not for numbers.
+
+---
+
+[← Week 5](week-05.qmd) · [All weeks](weeks.qmd) · [Week 7 →](week-07.qmd)

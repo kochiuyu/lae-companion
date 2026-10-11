@@ -1,0 +1,56 @@
+---
+title: "Week 4: Demand Modeling in Urban Air Mobility"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 3](week-03.qmd) · [All weeks](weeks.qmd) · [Week 5 →](week-05.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- Whether customers would actually choose an LAE option versus other modes.
+- A simple demand funnel: potential trips → corridor/mode share → capacity constraints.
+- Willingness to pay, generalized cost, elasticity, and why customers are not all the same.
+- How to treat public acceptance and shocks as explicit scenarios—not a magic multiplier.
+
+## Takeaways {#takeaways}
+
+- Demand models give evidence-based scenarios, not exact predictions.
+- Keep potential demand, available capacity, flights, and passengers actually served distinct.
+- Generalized cost compares whole journeys; mode choice stays heterogeneous and probabilistic.
+- Elasticity helps with pricing, but revenue and profit also depend on capacity and cost.
+- Public acceptance and external shocks should enter through clear, justified assumptions.
+
+## Readings {#readings}
+
+### Main references
+
+- [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. UAM / AAM market language for cross-checks with lecture models.
+
+### Supplementary references
+
+**Academic**
+
+- [Fu, M., Rothfeld, R., & Antoniou, C. (2019). Exploring Preferences for Transportation Modes in an Urban Air Mobility Environment: Munich Case Study. *Transportation Research Record*, 2673(10), 427–442. doi:10.1177/0361198119843858](https://doi.org/10.1177/0361198119843858) — Stated-preference mode-choice model for UAM (Munich); a template for demand estimation.
+- [Al Haddad, C., Chaniotakis, E., Straubinger, A., Plötner, K., & Antoniou, C. (2020). Factors affecting the adoption and use of urban air mobility. *Transportation Research Part A*, 132, 696–712. doi:10.1016/j.tra.2019.12.020](https://doi.org/10.1016/j.tra.2019.12.020) — Adoption factors from a survey; inputs for willingness-to-use assumptions.
+- [Doole, M., Ellerbroek, J., & Hoekstra, J. (2020). Estimation of traffic density from drone-based delivery in very low level urban airspace. *Journal of Air Transport Management*, 88, 101862. doi:10.1016/j.jairtraman.2020.101862](https://doi.org/10.1016/j.jairtraman.2020.101862) — Estimates delivery-drone traffic density from demand scenarios; links demand to airspace load.
+
+**Official**
+
+- [EASA. *Full Report – Study on the societal acceptance of Urban Air Mobility in Europe*. European Union Aviation Safety Agency (publication date not shown on landing page).](https://www.easa.europa.eu/en/full-report-study-societal-acceptance-urban-air-mobility-europe) — n.d. — European regulator's survey of public acceptance; demand-side constraint evidence.
+
+---
+
+[← Week 3](week-03.qmd) · [All weeks](weeks.qmd) · [Week 5 →](week-05.qmd)

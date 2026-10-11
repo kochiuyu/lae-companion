@@ -11,7 +11,7 @@ format:
     html-math-method: katex
 ---
 
-These are the **Week 1 lecture notes** for this 12-week Low Altitude Economics course. They are written to stand alone: you should be able to study the week's ideas from this page without keeping the slide deck open. The [PDF slides](slides/week01-introduction.pdf) remain useful for classroom pacing; [Lectures · Week 1](lectures.qmd#week-1) keeps a short **Before you go** / **Takeaways** checklist; [Readings · Week 1](readings.qmd#week-1) holds the official documents.
+These are the **Week 1 lecture notes** for this 12-week Low Altitude Economics course. They are written to stand alone: you should be able to study the week's ideas from this page without keeping the slide deck open. The [PDF slides](slides/week01-introduction.pdf) remain useful for classroom pacing. The [Week 1](week-01.qmd) page keeps **Before you go** / **Takeaways** and the official **readings** beside the slides link.
 
 Plain-language orientation (if you are new): [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd).
 
@@ -98,14 +98,14 @@ The managerial question is always the same: **which applications create enough v
 
 ## 5. Hong Kong scale — and how to read the HK$350 billion figure
 
-Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimension** to the transport and logistics network. Policy already treats LAE as a development theme: the 2024 Policy Address describes economic activities generally below 1,000 metres and establishes the Working Group on Developing Low-altitude Economy ([Readings · Week 1](readings.qmd#week-1); [Timeline](dates.qmd)).
+Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimension** to the transport and logistics network. Policy already treats LAE as a development theme: the 2024 Policy Address describes economic activities generally below 1,000 metres and establishes the Working Group on Developing Low-altitude Economy ([Week 1 · Readings](week-01.qmd#readings); [Timeline](dates.qmd)).
 
 You will also see a striking private projection: that Hong Kong’s LAE-related industries could generate about **HK$350 billion** in annual **industry value added by 2050**, with a large share in supporting services. That figure comes from **Our Hong Kong Foundation** (*Taking Flight: Forging a Future for Hong Kong’s Low-Altitude Economy*, 2025). It is a **think-tank projection**, **not** an HKSAR government number. When you quote it, name the issuer:
 
 - [Key figures](key-figures.qmd)  
 - [Common questions](faq.qmd)  
 - [Official status](tracker.qmd)  
-- Primary listing: [Readings · Week 1](readings.qmd#week-1)
+- Primary listing: [Week 1 · Readings](week-01.qmd#readings)
 
 Hong Kong’s possible comparative advantage is often framed as a **service layer** — finance and leasing, insurance and risk management, legal / certification / professional services, digital platforms, and international business development — sitting alongside GBA strengths in manufacturing, electronics, batteries, and large-scale testing. That is a **strategic proposition to evaluate**, not a predetermined outcome.
 
@@ -166,7 +166,7 @@ $$
 \text{Generalized cost} = \text{Ticket price} + \text{VOT} \times \text{Travel time}
 $$
 
-All else equal, the customer prefers the option with lower generalized cost. A faster mode can charge more, but **only up to the value of the time it actually saves** on the full journey. Route planners must therefore design the **complete journey**, not only cruise time in the air. Week 4 returns to demand and mode choice in more depth ([Lectures · Week 4](lectures.qmd#week-4)).
+All else equal, the customer prefers the option with lower generalized cost. A faster mode can charge more, but **only up to the value of the time it actually saves** on the full journey. Route planners must therefore design the **complete journey**, not only cruise time in the air. Week 4 returns to demand and mode choice in more depth ([Week 4](week-04.qmd)).
 
 ---
 
@@ -309,7 +309,7 @@ Hong Kong has run more than one trial track. On this site you must **not** merge
 | Early **Regulatory Sandbox** | First-batch selection figures such as **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language also refers to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
 | Later **Sandbox X** | A distinct programme with its own module counts and framing (e.g. UTM, unconventional aircraft, shared platform modules on TLB materials). Policy Address snapshots of “projects that had begun testing” are again **not** the same as total selected modules. |
 
-Citeable counts and issuers: [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what?](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Primary communications are also listed across [Readings](readings.qmd) (especially Weeks 7 and 10–11 for Sandbox X / Action Plan language).
+Citeable counts and issuers: [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what?](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Primary communications are also listed across [Weeks](weeks.qmd) (especially Weeks 7 and 10–11 for Sandbox X / Action Plan language).
 
 ### Entry barriers as a simple sum
 
@@ -376,7 +376,7 @@ $$
 | Variable cost per passenger | HK\$50 | HK\$31.25 |
 | **Total cost per passenger** | **HK\$550** | **HK\$156.25** |
 
-Technology may help, but demand, load factor, charging, maintenance, infrastructure, weather, and regulation all affect achievable utilization. Week 3 develops cost structures and revenue management in more detail ([Lectures · Week 3](lectures.qmd#week-3)).
+Technology may help, but demand, load factor, charging, maintenance, infrastructure, weather, and regulation all affect achievable utilization. Week 3 develops cost structures and revenue management in more detail ([Week 3](week-03.qmd)).
 
 ---
 
@@ -399,13 +399,13 @@ LAE is a **system**: aircraft, infrastructure, digital coordination, operators, 
 
 Hong Kong may hold advantages in selected high-value services and in connecting GBA capabilities — as a hypothesis to test with evidence. Regulatory sandboxes support controlled testing and faster learning; they do not waive safety or compliance. Technology matters when it improves the economics of the **full service**, not only the airframe.
 
-For a one-page checklist version of the same ideas, see [Lectures · Week 1](lectures.qmd#week-1).
+For a one-page checklist version of the same ideas, see [Week 1](week-01.qmd).
 
 ---
 
 ## Further reading and course links
 
-- **Documents for this week:** [Readings · Week 1](readings.qmd#week-1) — 2024 Policy Address working definition; OHKF *Taking Flight*; short academic and Mainland comparator pieces.  
+- **Documents for this week:** [Week 1 · Readings](week-01.qmd#readings) — 2024 Policy Address working definition; OHKF *Taking Flight*; short academic and Mainland comparator pieces.  
 - **Orient:** [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Common questions](faq.qmd).  
 - **Evidence pages:** [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Timeline](dates.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week01-introduction.pdf](slides/week01-introduction.pdf). Assessment logistics and submission stay on the teaching platform; the slide deck carries the Week 1 memo brief used in class.
@@ -416,4 +416,4 @@ For a one-page checklist version of the same ideas, see [Lectures · Week 1](lec
 
 Week 2 turns to **market structure and competition**: how scarce infrastructure (for example limited landing capacity in dense districts), sunk costs, and route density shape rivalry and entry. Preview question: if a landing site can only handle a small number of movements at once, who gets access — and who is pushed out?
 
-Continue: [Lectures · Week 2](lectures.qmd#week-2) · [Course overview](overview.qmd).
+Continue: [Week 2](week-02.qmd) · [Course overview](overview.qmd).

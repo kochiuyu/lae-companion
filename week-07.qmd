@@ -1,0 +1,67 @@
+---
+title: "Week 7: LAE Policy and Regulation"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 6](week-06.qmd) · [All weeks](weeks.qmd) · [Week 8 →](week-08.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- How regulation can be part of competitive strategy (value of earlier readiness).
+- Hong Kong’s risk-based approach for small unmanned aircraft and the role of [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).
+- Permissions for advanced operations (including BVLOS), safety cases, and compliance investment.
+- Digital traffic management (U-space/UTM) and building a phased regulatory roadmap.
+
+## Takeaways {#takeaways}
+
+- Advanced operations need prior permission and may face extra conditions under a risk-based framework.
+- Sandbox X supports controlled testing and evidence—not a waiver of safety rules or automatic commercial approval.
+- A safety case is an evidence-based argument for a defined operation; it may aid approval and insurability without guaranteeing cheaper premiums.
+- Digital traffic-management services can cut coordination cost and support scale, but still need oversight, cybersecurity, and governance.
+- A strong roadmap ties each new operating privilege to specified evidence, review, and risk controls.
+
+## Readings {#readings}
+
+### Main references
+
+- [CAD, Small Unmanned Aircraft (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — Cap. 448G regulator page; full effect 1 December 2022; Category C ≤150 kg from July 2025.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Under the SUA Order that took full effect on 1 December 2022, SUA operations are regulated under a risk-based approach.”…“In July 2025, the scope of the SUA Order was expanded to cover SUA weighing not more than 150kg.” ([source](https://www.cad.gov.hk/english/sua.html))
+
+  [「法例已於2022年12月1日全面實施，以風險為本的模式規管小型無人機的操作」…「於2025年7月， 《小型無人機令》的規管制度擴闊至重量不超過150公斤的小型無人機。」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/chinese/sua.html))
+  :::
+
+- [CAD AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) — 31 December 2025. BVLOS inside the first Regulatory Sandbox.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight Operations within the Context of Regulatory Sandbox” ([source](https://www.cad.gov.hk/documents/AC-013_E.pdf))
+
+  [「「監管沙盒」框架下小型無人機超視距操作許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-013_C.pdf))
+  :::
+
+### Supplementary references
+
+**Official**
+
+- [[国务院、中央军委 (2023-06-28 公布). 《无人驾驶航空器飞行管理暂行条例》（国令第761号）. 中国政府网.]{lang="zh-Hans"}](https://www.gov.cn/zhengce/content/202306/content_6888799.htm) — The Mainland's top-level UAS flight-management regulation; the national baseline next to HK's Cap. 448G. English gloss: Interim Regulations on the Flight Management of Unmanned Aircraft.
+- [EASA. *Special Condition for VTOL and Means of Compliance* (SC-VTOL; original issue 2 Jul 2019, page updated 18 Jul 2025).](https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-vtol) — EASA's certification basis for VTOL aircraft; the EU benchmark.
+- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — A CAAC example of risk-based Specific-category approval (BVLOS delivery in populated areas). English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery. *Also listed in [Week 3](week-03.qmd).*
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Side-by-side HK, Shenzhen and US regulatory comparison table. *Also listed in [Week 6](week-06.qmd).*
+
+---
+
+[← Week 6](week-06.qmd) · [All weeks](weeks.qmd) · [Week 8 →](week-08.qmd)

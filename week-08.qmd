@@ -1,0 +1,64 @@
+---
+title: "Week 8: Airspace Access and Integration"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 7](week-07.qmd) · [All weeks](weeks.qmd) · [Week 9 →](week-09.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- Why safe capacity and demand collide (the morning capacity conflict).
+- Congestion as an externality and simple ways to think about delay cost.
+- Slot allocation options: queues, reservations, priority, peak pricing, auctions.
+- Digital coordination, interoperability, and a phased airspace-integration roadmap.
+
+## Takeaways {#takeaways}
+
+- Airspace capacity depends on the whole operating system—not an unsupported “drones per minute” number.
+- Congestion pricing estimates external delay cost; queues, reservations, priority, and auctions serve different goals.
+- Auctions can reveal willingness to pay but need safeguards for safety, competition, new entrants, and public-service access.
+- Interoperability can cut duplicate coordination and support scale; it is not free or automatically safe.
+- A credible roadmap links each capacity or privilege expansion to evidence, review, and a financially consistent decision gate.
+
+## Readings {#readings}
+
+### Main references
+
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Regulatory Sandbox X.
+- [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz; confined to LAE Regulatory Sandbox projects.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Communications Authority has made available the 1430 – 1444 MHz band (1.4 GHz band) for use by UAS and created a new licence to facilitate the use of the dedicated spectrum.”…“At present, the 1.4 GHz band is confined to be used by projects under the LAE Regulatory Sandbox launched by the Government.” ([source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html))
+
+  [「通訊事務管理局（通訊局） 已規劃1430 – 1444 兆赫頻帶（1.4 吉赫頻帶）供無人機系統使用，並設立新的牌照以促進該專用頻譜的使用。」…「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
+  :::
+
+### Supplementary references
+
+**Academic**
+
+- [Bauranov, A., & Rakas, J. (2021). Designing airspace for urban air mobility: A review of concepts and approaches. *Progress in Aerospace Sciences*, 125, 100726. doi:10.1016/j.paerosci.2021.100726](https://doi.org/10.1016/j.paerosci.2021.100726) — Review of UAM airspace design concepts (layers, corridors, free flight).
+- [Doole, M., Ellerbroek, J., & Hoekstra, J. (2020). Estimation of traffic density from drone-based delivery in very low level urban airspace. *Journal of Air Transport Management*, 88, 101862. doi:10.1016/j.jairtraman.2020.101862](https://doi.org/10.1016/j.jairtraman.2020.101862) — Quantifies traffic density in very low-level urban airspace. *Also listed in [Week 4](week-04.qmd).*
+
+**Official**
+
+- [Thipphavong, D. P., Apaza, R. D., Barmore, B. E., Battiste, V., Belcastro, C. M., et al. (2018). *Urban Air Mobility Airspace Integration Concepts and Considerations*. NASA NTRS 20180005218 (ARC-E-DAA-TN57126).](https://ntrs.nasa.gov/citations/20180005218) — NASA's multi-author airspace integration concepts paper.
+- [FAA (2020). *Unmanned Aircraft System (UAS) Traffic Management (UTM) Concept of Operations*, v2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/2022-08/UTM_ConOps_v2.pdf) — FAA's UTM concept of operations; a reference model for low-altitude traffic management.
+- [FAA (26 April 2023). *Urban Air Mobility (UAM) Concept of Operations*, Version 2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/Urban%20Air%20Mobility%20%28UAM%29%20Concept%20of%20Operations%202.0_0.pdf) — FAA UAM ConOps 2.0: corridors and the roles of PSUs and operators.
+
+---
+
+[← Week 7](week-07.qmd) · [All weeks](weeks.qmd) · [Week 9 →](week-09.qmd)

@@ -1,0 +1,61 @@
+---
+title: "Week 12: LAE Future Frontiers and Final Review"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 11](week-11.qmd) · [All weeks](weeks.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- From corridors to networks: more nodes create possible links, not automatic demand or value.
+- Digital coordination as a business and governance question (cost, reliability, oversight).
+- Possible Hong Kong service roles: financing, leasing, insurance, professional services, data-enabled assurance.
+- Final review: reapply the course viability test and the five-step exam method.
+
+## Takeaways {#takeaways}
+
+- Adding nodes raises possible connections; it does not guarantee viable demand or value.
+- Judge digital coordination by total system cost, reliability, oversight, and governance—not buzzwords.
+- Hong Kong roles in services and assurance still carry risk; leasing and similar plays do not make risk disappear.
+- Reapply the viability test to integrated quantitative scenarios before recommending a path.
+- The goal is consistent judgment under operational, regulatory, financial, and social constraints.
+
+## Readings {#readings}
+
+### Main references
+
+- [CAAC, ATM Rules draft (consultation)](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
+  :::
+
+### Supplementary references
+
+**Academic**
+
+- [Pons-Prats, J., Živojinović, T., & Kuljanin, J. (2022). On the understanding of the current status of urban air mobility development and its future prospects: Commuting in a flying vehicle as a new paradigm. *Transportation Research Part E*, 166, 102868. doi:10.1016/j.tre.2022.102868](https://doi.org/10.1016/j.tre.2022.102868) — Future prospects of commuting by flying vehicle. *Also listed in [Week 2](week-02.qmd).*
+
+**Official**
+
+- [FAA (26 April 2023). *Urban Air Mobility (UAM) Concept of Operations*, Version 2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/Urban%20Air%20Mobility%20%28UAM%29%20Concept%20of%20Operations%202.0_0.pdf) — FAA's view of how UAM operations mature over time. *Also listed in [Week 8](week-08.qmd).*
+- [EASA. *Special Condition for VTOL and Means of Compliance* (SC-VTOL; original issue 2 Jul 2019, page updated 18 Jul 2025).](https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-vtol) — Live certification basis for passenger eVTOL (page updated July 2025). *Also listed in [Week 7](week-07.qmd).*
+- [FAA (July 2023). *Advanced Air Mobility (AAM) Implementation Plan: Near-term (Innovate28) Focus with an Eye on the Future of AAM*, Version 1.0.](https://www.faa.gov/sites/faa.gov/files/AAM-I28-Implementation-Plan.pdf) — FAA's 'eye on the future' section beyond 2028. *Also listed in [Week 11](week-11.qmd).*
+- [[宋志勇 (中国民用航空局局长) (2025-01-03). 高质量发展通用航空和低空经济. CAAC website, 民航要闻.]{lang="zh-Hans"}](https://www.caac.gov.cn/XWZX/MHYW/202501/t20250103_226313.html) — CAAC priorities for the next phase of LAE. English gloss: Developing general aviation and the low-altitude economy with high quality. *Also listed in [Week 1](week-01.qmd).*
+
+---
+
+[← Week 11](week-11.qmd) · [All weeks](weeks.qmd)

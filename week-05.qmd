@@ -1,0 +1,57 @@
+---
+title: "Week 5: Infrastructure Economics and Management"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 4](week-04.qmd) · [All weeks](weeks.qmd) · [Week 6 →](week-06.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- Why infrastructure (not only aircraft) can be the binding bottleneck.
+- Vertiport archetypes, site-selection trade-offs, throughput, and reliability.
+- Breakeven activity, staged ramp-up, and planning for downtime.
+- How scarce slots might be allocated, and hub vs distributed vs hybrid networks.
+
+## Takeaways {#takeaways}
+
+- Infrastructure strategy balances safety, access, utilities, reliable capacity, cost, expandability, and community impact.
+- Breakeven should use reliable capacity and contribution per movement—not theoretical maximum activity.
+- Staged investment and liquidity planning reduce the risk of building ahead of demand.
+- Scarce slots need transparent allocation and priority rules; peak pricing is only one option.
+- Hub, distributed, and hybrid networks trade facility cost, access, resilience, and connectivity.
+
+## Readings {#readings}
+
+### Main references
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Segment structure (infra; education & research; application scenarios; supporting services).
+
+### Supplementary references
+
+**Academic**
+
+- [Schweiger, K., & Preis, L. (2022). Urban Air Mobility: Systematic Review of Scientific Publications and Regulations for Vertiport Design and Operations. *Drones*, 6(7), 179. doi:10.3390/drones6070179](https://doi.org/10.3390/drones6070179) — Systematic review of vertiport design and operations research and regulation.
+- [Vascik, P. D., & Hansman, R. J. (2018). Scaling Constraints for Urban Air Mobility Operations: Air Traffic Control, Ground Infrastructure, and Noise. *2018 Aviation Technology, Integration, and Operations Conference*, AIAA. doi:10.2514/6.2018-3849](https://doi.org/10.2514/6.2018-3849) — Shows how ATC, ground infrastructure and noise cap UAM scale; a classic infrastructure-bottleneck paper.
+
+**Official**
+
+- [EASA (24 March 2022). *Prototype Technical Design Specifications for Vertiports* (PTS-VPT-DSN).](https://www.easa.europa.eu/en/document-library/general-publications/prototype-technical-design-specifications-vertiports) — Regulator's prototype vertiport design specification; the official design constraint.
+- [HKSAR Government (25 June 2025). LCQ3: Developing low-altitude economy. Press release P2025062500305, info.gov.hk.](https://www.info.gov.hk/gia/general/202506/25/P2025062500305.htm) — HK government on 3D spatial data, the CSDI and a unified data-sharing platform as LAE infrastructure.
+- [[深圳市人民代表大会常务委员会 (2023年12月29日通过；2024年2月1日起施行). 《深圳经济特区低空经济产业促进条例》, 公告第一二八号, 深圳市政府公报2024年第4期（总第1319期）.]{lang="zh-Hans"}](https://www.sz.gov.cn/zfgb/2024/gb1319/content/post_11127288.html) — Chapter 2 (基础设施) sets out who plans, builds and runs physical and digital low-altitude infrastructure in Shenzhen. English gloss: Shenzhen Special Economic Zone Regulations on Promoting the Low-Altitude Economy Industry. *Also listed in [Week 2](week-02.qmd).*
+
+---
+
+[← Week 4](week-04.qmd) · [All weeks](weeks.qmd) · [Week 6 →](week-06.qmd)

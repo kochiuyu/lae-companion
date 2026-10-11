@@ -534,7 +534,7 @@ State Council Interim UAS Flight Management Ordinance; effective **2024-01-01** 
 
 ## EU / US comparators
 
-Course comparators only — **not Hong Kong law**. Dated instruments on [Timeline](dates.qmd); documents on [Readings](readings.qmd).
+Course comparators only — **not Hong Kong law**. Dated instruments on [Timeline](dates.qmd); documents on [Weeks](weeks.qmd).
 
 **AiRMOUR**  
 Kind: Course  

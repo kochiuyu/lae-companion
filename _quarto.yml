@@ -14,9 +14,22 @@ project:
     - glossary.qmd
     - tracker.qmd
     - dates.qmd
-    - readings.qmd
-    - lectures.qmd
+    - weeks.qmd
+    - week-01.qmd
+    - week-02.qmd
+    - week-03.qmd
+    - week-04.qmd
+    - week-05.qmd
+    - week-06.qmd
+    - week-07.qmd
+    - week-08.qmd
+    - week-09.qmd
+    - week-10.qmd
+    - week-11.qmd
+    - week-12.qmd
     - notes-w1.qmd
+    - lectures.qmd
+    - readings.qmd
     - news.qmd
     - industry.qmd
     - landscape.qmd
@@ -48,10 +61,8 @@ website:
             text: Key figures
       - text: Teach
         menu:
-          - href: lectures.qmd
-            text: Lectures
-          - href: readings.qmd
-            text: Readings
+          - href: weeks.qmd
+            text: Weeks
       - text: Official facts
         menu:
           - href: glossary.qmd

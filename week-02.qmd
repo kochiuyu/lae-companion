@@ -1,0 +1,64 @@
+---
+title: "Week 2: LAE Market Structure and Competition"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 1](week-01.qmd) · [All weeks](weeks.qmd) · [Week 3 →](week-03.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week02-market-structure.pdf](slides/week02-market-structure.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- How market structure shapes competition across different LAE service segments.
+- Tools for concentration and market power (including a simple HHI-style check).
+- Why utilization, route density, and fixed costs change average cost—and what that means for entry.
+- Price competition, capacity limits, entry barriers, and when rivals might cooperate on shared facilities.
+
+## Takeaways {#takeaways}
+
+- Market power in LAE is often tied to scarce infrastructure (e.g. vertiports) and route density.
+- Large sunk costs and entry barriers can support limit pricing that keeps rivals out.
+- Capacity constraints and differentiation can soften price wars—but they do not guarantee high prices or profits.
+- Co-opetition can cut duplicated infrastructure cost if access, investment, and control rules are clear.
+
+## Readings {#readings}
+
+### Main references
+
+- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Institutional map for Hong Kong LAE.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))
+
+  [「政府將成立「發展低空經濟工作組」，由財政司副司長任組長，制訂發展策略和跨部門行動計劃」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2024/tc/p81.html))
+  :::
+
+### Supplementary references
+
+**Academic**
+
+- [Pons-Prats, J., Živojinović, T., & Kuljanin, J. (2022). On the understanding of the current status of urban air mobility development and its future prospects: Commuting in a flying vehicle as a new paradigm. *Transportation Research Part E*, 166, 102868. doi:10.1016/j.tre.2022.102868](https://doi.org/10.1016/j.tre.2022.102868) — Reviews players, vehicle types and development status; useful for mapping market structure.
+
+**Official**
+
+- [[深圳市人民代表大会常务委员会 (2023年12月29日通过；2024年2月1日起施行). 《深圳经济特区低空经济产业促进条例》, 公告第一二八号, 深圳市政府公报2024年第4期（总第1319期）.]{lang="zh-Hans"}](https://www.sz.gov.cn/zfgb/2024/gb1319/content/post_11127288.html) — Shenzhen's statute sets who coordinates what (industry vs transport bureaus) and how platforms and associations fit in: the institutional basis of competition in the GBA. English gloss: Shenzhen Special Economic Zone Regulations on Promoting the Low-Altitude Economy Industry.
+- [[国家发展和改革委员会 (2023-11). 《关于再次推广借鉴深圳综合改革试点创新举措和典型经验的通知》（发改体改〔2023〕1447号）.]{lang="zh-Hans"}](https://www.ndrc.gov.cn/xxgk/zcfb/tz/202311/t20231116_1361995.html) — NDRC notice spreading Shenzhen reform practices (including LAE) nationwide; evidence on policy diffusion that shapes market entry. English gloss: Notice on again promoting Shenzhen comprehensive-reform pilot innovations and typical experiences.
+
+**Think-tank**
+
+- [World Economic Forum, in collaboration with Kearney (July 2024). *Advanced Air Mobility: Shaping the Future of Aviation* (White Paper).](https://www3.weforum.org/docs/WEF_Advanced_Air_Mobility_2024.pdf) — Systematises AAM use cases and the actor landscape (in collaboration with Kearney).
+
+---
+
+[← Week 1](week-01.qmd) · [All weeks](weeks.qmd) · [Week 3 →](week-03.qmd)

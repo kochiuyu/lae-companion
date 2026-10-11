@@ -1,0 +1,56 @@
+---
+title: "Week 3: Cost Structures and Revenue Management"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 2](week-02.qmd) · [All weeks](weeks.qmd) · [Week 4 →](week-04.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- How to separate CAPEX, fixed OPEX, and activity-related variable cost.
+- Unit-cost measures you will use: [CASK](glossary.qmd#business-and-economics) and cost per mission-kilometre.
+- Breakeven volume and how price, load factor, and utilization move the numbers.
+- Revenue-model choices (pay-per-use, subscription, availability, complementary) and weather as a planning risk.
+
+## Takeaways {#takeaways}
+
+- Always separate CAPEX, recurring fixed OPEX, and variable cost before talking about unit economics.
+- CASK is about passenger capacity offered; cargo and public-service work often need mission-based measures.
+- Breakeven needs a consistent unit, contribution margin, realistic capacity, and realistic demand.
+- Revenue management aims to improve total contribution—not just fill every seat.
+- Subscriptions and similar contracts can reshape risk; none is a free or guaranteed hedge.
+
+## Readings {#readings}
+
+### Main references
+
+- [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. Official UAM market framing (not an HK government figure).
+
+### Supplementary references
+
+**Academic**
+
+- [Rajendran, S., & Srinivas, S. (2020). Air taxi service for urban mobility: A critical review of recent developments, future challenges, and opportunities. *Transportation Research Part E*, 143, 102090. doi:10.1016/j.tre.2020.102090](https://doi.org/10.1016/j.tre.2020.102090) — Covers air-taxi operations, pricing and fleet questions; a good bridge to cost and revenue modelling.
+- [Kellermann, R., Biehle, T., & Fischer, L. (2020). Drones for parcel and passenger transportation: A literature review. *Transportation Research Interdisciplinary Perspectives*, 4, 100088. doi:10.1016/j.trip.2019.100088](https://doi.org/10.1016/j.trip.2019.100088) — Parcel and passenger drone literature review; covers cost drivers and operating models.
+- [Garrow, L. A., German, B. J., & Leonard, C. E. (2021). Urban air mobility: A comprehensive review and comparative analysis with autonomous and electric ground transportation for informing future research. *Transportation Research Part C*, 132, 103377. doi:10.1016/j.trc.2021.103377](https://doi.org/10.1016/j.trc.2021.103377) — Compares UAM with autonomous and electric ground modes; useful for cost and competition benchmarks.
+
+**Official**
+
+- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — CAAC delivery-trial requirements (C2 link, record keeping, insurance, buffers) that turn directly into operating-cost lines. English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery.
+
+---
+
+[← Week 2](week-02.qmd) · [All weeks](weeks.qmd) · [Week 4 →](week-04.qmd)

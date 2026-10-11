@@ -1,0 +1,73 @@
+---
+title: "Week 1: Introduction to LAE"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[All weeks](weeks.qmd) · [Week 2 →](week-02.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
+- **Notes:** [Week 1 notes](notes-w1.qmd) — full lecture notes for this week
+
+## Before you go {#before-you-go}
+
+- What “low-altitude economy” means in plain English, and how it differs from traditional aviation.
+- Jargon you will hear: LAE, UAM, and AAM.
+- Simple tools for value of time, generalized cost, and whether a service might be commercially viable.
+- Who sits in the ecosystem (who creates value, who gets paid) and why a regulatory sandbox matters for testing.
+
+## Takeaways {#takeaways}
+
+- LAE is a whole system: aircraft, infrastructure, digital systems, operators, customers, and supporting services.
+- A service creates value when it saves time, cuts cost or risk, improves access, or enables a mission alternatives cannot do well.
+- Viability hangs on willingness to pay, demand, utilization, load factor, operating cost, and investment cost.
+- A sandbox supports controlled testing and faster learning; it does not remove safety or compliance needs.
+- Technology matters when it improves the economics of the full service—not only the aircraft.
+
+## Readings {#readings}
+
+### Main references
+
+- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (generally below 1,000 m) and the Working Group.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Low-altitude economy, which refers to economic activities in airspace below 1 000 metres, presents a wide array of application scenarios including rescues, surveys and delivery of goods and passengers.”…“The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))
+
+  [「低空經濟是指一般於1 000米以下空域進行的低空經濟活動，可用於救援、測量、送貨載客等範疇。」…「政府將成立「發展低空經濟工作組」，由財政司副司長任組長，制訂發展策略和跨部門行動計劃」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2024/tc/p81.html))
+  :::
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. ~HK$350 billion industry value-added projection for Hong Kong by 2050.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+
+  [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
+  :::
+
+### Supplementary references
+
+**Academic**
+
+- [Straubinger, A., Rothfeld, R., Shamiyeh, M., Büchter, K.-D., Kaiser, J., & Plötner, K. O. (2020). An overview of current research and developments in urban air mobility – Setting the scene for UAM introduction. *Journal of Air Transport Management*, 87, 101852. doi:10.1016/j.jairtraman.2020.101852](https://doi.org/10.1016/j.jairtraman.2020.101852) — Widely cited survey of UAM research streams; a good map of the field for week 1.
+- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — Ecosystem and history overview; use for definitions and the stakeholder map. **Caution:** do not reuse its market-forecast figures.
+
+**Official**
+
+- [[宋志勇 (中国民用航空局局长) (2025-01-03). 高质量发展通用航空和低空经济. CAAC website, 民航要闻.]{lang="zh-Hans"}](https://www.caac.gov.cn/XWZX/MHYW/202501/t20250103_226313.html) — CAAC head's own statement of how the Mainland regulator links general aviation and LAE. English gloss: Developing general aviation and the low-altitude economy with high quality.
+
+**Think-tank**
+
+- [[中国信息通信研究院知识产权与创新发展中心 & 中国互联网协会 (2024年12月). 《低空经济政策与产业生态研究报告（2024年）》. CAICT.]{lang="zh-Hans"}](https://www.caict.ac.cn/english/research/whitepapers/202504/P020250401513801693140.pdf) — Mainland definition of LAE (1,000 m, extendable to 3,000 m) and four-part industry ecosystem; contrasts with the HK framing. English gloss: Research Report on Low-Altitude Economy Policy and Industrial Ecosystem (2024).
+
+---
+
+[All weeks](weeks.qmd) · [Week 2 →](week-02.qmd)

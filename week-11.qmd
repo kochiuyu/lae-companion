@@ -1,0 +1,63 @@
+---
+title: "Week 11: Synthesis and Capstone Group Presentations"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 10](week-10.qmd) · [All weeks](weeks.qmd) · [Week 12 →](week-12.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- How to connect every weekly tool into one coherent strategy (not separate homework answers).
+- The viability test: cash flow, NPV, breakeven, downside risk, and non-financial criteria.
+- Airport-corridor screening example, risk register, and decision gates.
+- How to give a clear 12-minute recommendation and a short executive deck.
+
+## Takeaways {#takeaways}
+
+- Synthesis means a connected model—not a pile of independent weekly calculations.
+- Served activity is limited by both customer demand and reliable capacity.
+- Judge viability with contribution, cash flow, NPV, downside risk, and non-financial criteria together.
+- A credible recommendation states evidence, limitations, residual risks, and when you would change course.
+- Clear presentation makes assumptions and trade-offs visible instead of hiding uncertainty.
+
+## Readings {#readings}
+
+### Main references
+
+- [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Action Plan commitment (text still OPEN) and Sandbox X framing.
+
+  Same official text as [Week 10](week-10.qmd); not repeated here.
+
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — Cross-boundary guidance under Sandbox X.
+
+### Supplementary references
+
+**Academic**
+
+- [Straubinger, A., Rothfeld, R., Shamiyeh, M., Büchter, K.-D., Kaiser, J., & Plötner, K. O. (2020). An overview of current research and developments in urban air mobility – Setting the scene for UAM introduction. *Journal of Air Transport Management*, 87, 101852. doi:10.1016/j.jairtraman.2020.101852](https://doi.org/10.1016/j.jairtraman.2020.101852) — A broad framework to organise capstone arguments. *Also listed in [Week 1](week-01.qmd).*
+
+**Official**
+
+- [FAA (July 2023). *Advanced Air Mobility (AAM) Implementation Plan: Near-term (Innovate28) Focus with an Eye on the Future of AAM*, Version 1.0.](https://www.faa.gov/sites/faa.gov/files/AAM-I28-Implementation-Plan.pdf) — FAA's integrated near-term AAM plan; a model for structuring a capstone roadmap.
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Ready-made HK, Shenzhen and US comparison for synthesis. *Also listed in [Week 6](week-06.qmd).*
+
+**Think-tank**
+
+- [[中国信息通信研究院知识产权与创新发展中心 & 中国互联网协会 (2024年12月). 《低空经济政策与产业生态研究报告（2024年）》. CAICT.]{lang="zh-Hans"}](https://www.caict.ac.cn/english/research/whitepapers/202504/P020250401513801693140.pdf) — Mainland ecosystem framing for GBA-facing capstones. English gloss: Research Report on Low-Altitude Economy Policy and Industrial Ecosystem (2024). *Also listed in [Week 1](week-01.qmd).*
+
+---
+
+[← Week 10](week-10.qmd) · [All weeks](weeks.qmd) · [Week 12 →](week-12.qmd)

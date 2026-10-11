@@ -14,7 +14,7 @@ Plain-language start for this 12-week course. Definitions stay in the [Glossary]
 
 In Hong Kong, **low-altitude economy (LAE)** means economic activity in airspace generally below about **1,000 metres** — a **policy working description**, not a Cap. 448G flying limit ([Glossary · altitude scale](glossary.qmd#altitude-scale); [Official status](tracker.qmd)).
 
-Picture a completed mission: someone needs a delivery, inspection, medical transfer, or similar job done. An **operator** flies (or manages) the aircraft; the craft needs somewhere to take off and land; someone coordinates traffic and communications; **customers or mission sponsors** pay for the outcome; and supporting services (finance, insurance, training, platforms) keep the operation going. That whole chain is what the course means by LAE — Week 1 on [Lectures](lectures.qmd) opens the same idea; the week map is on [Course overview](overview.qmd).
+Picture a completed mission: someone needs a delivery, inspection, medical transfer, or similar job done. An **operator** flies (or manages) the aircraft; the craft needs somewhere to take off and land; someone coordinates traffic and communications; **customers or mission sponsors** pay for the outcome; and supporting services (finance, insurance, training, platforms) keep the operation going. That whole chain is what the course means by LAE — Week 1 on [Weeks](week-01.qmd) opens the same idea; the week map is on [Course overview](overview.qmd).
 
 
 ```{=html}
@@ -40,7 +40,7 @@ Picture a completed mission: someone needs a delivery, inspection, medical trans
 <div class="wsvc-arrow" aria-hidden="true">↓ under</div>
 <div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and under which permissions. One-line regulator roles on <a href="regulators.qmd">Who decides what?</a>; citeable status on Official status.</div>
 </div>
-<p class="wsvc-note">Operators and supporting services (finance, insurance, training, platforms) sit across this chain — Week 1 on Lectures opens the same idea.</p>
+<p class="wsvc-note">Operators and supporting services (finance, insurance, training, platforms) sit across this chain — Week 1 opens the same idea.</p>
 </figure>
 ```
 
@@ -78,7 +78,7 @@ Sites for advanced craft are often called **vertiports** in industry language �
 
 ## Why Hong Kong and the GBA
 
-The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style comparators on [Course overview](overview.qmd) and [Readings](readings.qmd). Hong Kong already has an active policy track (Working Group, sandboxes, Cap. 448G and Advisory Circulars) on [Timeline](dates.qmd).
+The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style comparators on [Course overview](overview.qmd) and [Weeks](weeks.qmd). Hong Kong already has an active policy track (Working Group, sandboxes, Cap. 448G and Advisory Circulars) on [Timeline](dates.qmd).
 
 
 ```{=html}
@@ -114,6 +114,6 @@ The boxes above are enough for a first pass. When you need regulator names, open
 3. **[Common questions](faq.qmd)** · **[Key figures](key-figures.qmd)** — short Q&As and sourced numbers.  
 4. **[How to use this site](howto.qmd)** — full Orient path, then Teach and Updates.
 
-Then switch to **Teach**: [Lectures](lectures.qmd) · [Readings](readings.qmd).
+Then switch to **Teach**: [Weeks](weeks.qmd).
 
 No Blackboard or assessment admin on this site — course logistics stay with the teaching platform.

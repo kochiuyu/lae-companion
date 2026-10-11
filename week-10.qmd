@@ -1,0 +1,66 @@
+---
+title: "Week 10: Sustainability Challenges in Urban Air Operations"
+subtitle: "Slides, notes, and readings"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    body-classes: "page-week"
+---
+
+[← Week 9](week-09.qmd) · [All weeks](weeks.qmd) · [Week 11 →](week-11.qmd)
+
+## Materials {#materials}
+
+- **Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
+- **Notes:** Lecture notes for this week are not on the site yet (Week 1 pattern will extend week-by-week).
+
+## Before you go {#before-you-go}
+
+- Main environmental and social externalities of urban air operations (noise, privacy, greenhouse gases).
+- Policy responses: pricing, operating rules, standards, mitigation, and compensation.
+- Simple operational and life-cycle emissions thinking with clear boundaries.
+- Privacy governance, public acceptance by use case, equity commitments, and sustainability KPIs.
+
+## Takeaways {#takeaways}
+
+- Address externalities with a mix of technology, standards, operating rules, pricing, compensation, and engagement.
+- Do not “price noise” by multiplying flights by decibels above an assumed threshold.
+- Privacy needs lawful purpose, necessity, proportionality, minimization, security, transparency, retention control, and accountability.
+- Electric operation is not zero life-cycle emissions; GHG scopes and LCA need consistent boundaries.
+- Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
+
+## Readings {#readings}
+
+### Main references
+
+- [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Sandbox X and the commitment to formulate an Action Plan.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “We will formulate the Action Plan on Developing Low-Altitude Economy to advance Hong Kong as a major hub for low-altitude applications through institutional innovations and technological breakthroughs.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
+
+  [「我們會制訂「發展低空經濟規劃行動綱領」，透過制度創新與技術突破，令香港成為低空創新應用的核心樞紐」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
+
+  English: “We will regularise the operation of more mature application scenarios, and roll out the advanced low-altitude economy \"Regulatory Sandbox X \" pilot projects to cover application scenarios that are technically more complex, such as cross-boundary routes and passenger-carrying, low-altitude aircraft.” ([source](https://www.policyaddress.gov.hk/2025/en/p156.html))
+
+  [「較成熟的應用場景將恆常化運行，並推出進階版低空經濟「監管沙盒X」試點項目，涵蓋跨境路線、低空載人飛行器等技術複雜度較高的應用場景。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p156.html))
+  :::
+
+### Supplementary references
+
+**Academic**
+
+- [Stolaroff, J. K., Samaras, C., O'Neill, E. R., Lubers, A., Mitchell, A. S., & Ceperley, D. (2018). Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery. *Nature Communications*, 9, 409. doi:10.1038/s41467-017-02411-5](https://doi.org/10.1038/s41467-017-02411-5) — Life-cycle energy and GHG of delivery drones compared with ground delivery.
+- [Kasliwal, A., Furbush, N. J., Gawron, J. H., McBride, J. R., Wallington, T. J., De Kleine, R. D., et al. (2019). Role of flying cars in sustainable mobility. *Nature Communications*, 10, 1555. doi:10.1038/s41467-019-09426-0](https://doi.org/10.1038/s41467-019-09426-0) — Life-cycle comparison of VTOL 'flying cars' with cars; the sustainability case and its limits.
+- [Vascik, P. D., & Hansman, R. J. (2018). Scaling Constraints for Urban Air Mobility Operations: Air Traffic Control, Ground Infrastructure, and Noise. *2018 Aviation Technology, Integration, and Operations Conference*, AIAA. doi:10.2514/6.2018-3849](https://doi.org/10.2514/6.2018-3849) — Noise as a scaling constraint. *Also listed in [Week 5](week-05.qmd).*
+
+**Official**
+
+- [Rizzi, S. A., Huff, D. L., Boyd, D. D., Bent, P., Henderson, B. S., et al. (October 2020). *Urban Air Mobility Noise: Current Practice, Gaps, and Recommendations*. NASA/TP-20205007433.](https://ntrs.nasa.gov/citations/20205007433) — NASA review of UAM noise practice, gaps and recommendations.
+
+---
+
+[← Week 9](week-09.qmd) · [All weeks](weeks.qmd) · [Week 11 →](week-11.qmd)
