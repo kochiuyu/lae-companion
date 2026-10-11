@@ -1,19 +1,22 @@
 ---
 title: "Week 5: Infrastructure Economics and Management"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "Sites, throughput, scarce slots, and network design"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 4](week-04.qmd) · [Week 6 →](week-06.qmd)
 
 **Slides (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
+
+This page is the Week 5 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 4 asked whether customers would choose the service; this week asks whether **sites and capacity** can support that demand — and who gets scarce slots when they cannot. Links: [Glossary · vertiport](glossary.qmd#infrastructure) · [Week 3](week-03.qmd) · [Week 4](week-04.qmd) · [Companies & sectors](landscape.qmd).
 
 ## Summary {#summary}
 
@@ -32,9 +35,285 @@ format:
 - Scarce slots need transparent allocation and priority rules; peak pricing is only one option.
 - Hub, distributed, and hybrid networks trade facility cost, access, resilience, and connectivity.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples below use round figures (site costs, movements, fees, access minutes). They are **illustrative assumptions for learning**, not current Hong Kong site quotations, operator tariffs, or government capacity plans. **Vertiport** here is industry / classroom language — Hong Kong has **no dedicated vertiport statute yet** ([Glossary](glossary.qmd#infrastructure); [FAQ](faq.qmd)).
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 5 you should be able to:
+
+1. **Compare** vertiport archetypes and identify main site-selection trade-offs.  
+2. **Estimate** how throughput, reliability, access time, and operating cost affect infrastructure viability.  
+3. **Calculate** breakeven activity and evaluate staged ramp-up under uncertain demand.  
+4. **Assess** methods for allocating scarce slots while protecting priority services.  
+5. **Evaluate** hub, distributed, and hybrid network designs for Hong Kong and the wider GBA as hypotheses, not predetermined templates.
+
+---
+
+## 1. The infrastructure bottleneck
+
+Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
+
+**Managerial question:** which resource is most likely to bind — aircraft, landing capacity, charging, airspace access, or customer access? Week 4 demand forecasts only matter if sites can serve them.
+
+Policy language in Hong Kong already names planning of facilities such as vertiports alongside spectrum, air route networks, and a smart low-altitude traffic-management system (Policy Address framing; status on [Official status](tracker.qmd) / [Timeline](dates.qmd)). That is **planning language**, not proof that a dedicated vertiport statute exists.
+
+---
+
+## 2. Three classroom vertiport archetypes
+
+For managerial analysis (not an official Hong Kong classification):
+
+| Archetype | Plain idea | Typical trade-off |
+|-----------|------------|-------------------|
+| **Building-based** | Rooftop or elevated structure | Strong access; structural, safety, power, and circulation upgrades |
+| **Integrated hub** | Multiple pads/stands plus charging, processing, maintenance | High capability; high cost and complexity |
+| **Ground-based** | Available land site | Often easier to expand; may mean longer access to customers |
+
+Actual design depends on aircraft, operations, safety requirements, and local approval. EASA’s prototype vertiport design specifications are an **EU comparator** design constraint on [Readings](#readings) — not Hong Kong law.
+
+---
+
+## 3. Site selection as a multi-criteria decision
+
+A workable site balances:
+
+- **Safety and obstacles** — approach/departure, separation, downwash/outwash, emergency response, surrounding uses.  
+- **Customer access** — door-to-door time, transfers, elevators, walking, accessibility (ties to Week 4 generalized cost).  
+- **Utilities and operations** — charging, communications, maintenance, storage, staffing, recovery.  
+- **Capacity and expandability** — pads, stands, turnaround, hours, growth.  
+- **Cost and approval** — construction/adaptation, lease, environment, community acceptance, regulatory requirements.
+
+### Generalized site cost (screening)
+
+$$
+\begin{aligned}
+\text{Generalized site cost} ={}& \text{Annualized infrastructure cost} + \text{Annual OPEX} \\
+&+ \text{Monetized access burden} + \text{Expected disruption cost}
+\end{aligned}
+$$
+
+Lower generalized cost is **not** automatically better if the site fails safety, capacity, or service requirements.
+
+### Worked illustration (two archetypes)
+
+**Assumptions (illustrative):** 100 passenger-trips/day; value of access time HK$15/minute.
+
+| | Building-based | Ground-based |
+|--|----------------|--------------|
+| Daily infrastructure allocation | HK$5,000 | HK$1,000 |
+| Daily OPEX | HK$8,000 | HK$2,000 |
+| Extra access time | 8 min | 3 min |
+| Access burden | $8 \times 15 \times 100 =$ HK$12,000 | $3 \times 15 \times 100 =$ HK$4,500 |
+| **Generalized site cost/day** | **HK$25,000** | **HK$7,500** |
+
+Under these assumptions the ground site looks cheaper. Actual choice still depends on demand, safety, capacity, network value, and feasible access.
+
+---
+
+## 4. Throughput, reliability, and breakeven capacity use
+
+**Throughput** — movements, passengers, or missions a facility can process in a period. It depends on pads, stands, turnaround, charging, processing, staffing, airspace, and procedures.
+
+**Reliability** — ability to deliver planned capacity when needed. Downtime cuts usable capacity and can create delays, diversions, refunds, or lost demand.
+
+**Managerial lesson:** prefer **reliable, serviceable capacity** over theoretical maximum throughput.
+
+### Breakeven capacity use
+
+$$
+\text{Breakeven capacity use}
+=
+\frac{\text{Fixed daily facility cost}}
+{\text{Reliable daily capacity} \times \text{Contribution per movement}}
+$$
+
+Contribution per movement ≈ facility fee − variable facility cost for that movement. Reliable capacity should reflect hours, turnaround, maintenance, weather, and priority access. The result is the **share of reliable capacity** that must be sold to cover fixed facility cost — not “percent of hours in the day the facility must be open.”
+
+### Worked illustration
+
+**Assumptions (illustrative):** reliable capacity 100 movements/day; fee HK$200/movement; variable facility cost omitted → max fee revenue HK$20,000/day.
+
+| | Higher-cost site | Lower-cost site |
+|--|------------------|-----------------|
+| Fixed cost/day | HK$15,000 | HK$4,000 |
+| Breakeven use | $15{,}000/20{,}000 =$ **75%** | $4{,}000/20{,}000 =$ **20%** |
+
+A higher-cost site needs more activity, higher contribution per movement, or complementary revenue.
+
+---
+
+## 5. Staged ramp-up and liquidity
+
+New infrastructure rarely hits mature demand immediately. Early use may be limited by adoption, aircraft availability, approvals, operating experience, and network coverage. A **staged plan** links investment to evidence and milestones (temporary/modular site, limited hours, selected users, later expansion). The financial plan needs working capital for early losses and contingencies.
+
+**Question:** which investment is reversible or expandable if demand differs from forecast?
+
+### Worked illustration (funding the ramp-up)
+
+**Assumptions (illustrative):** initial investment HK$10M; annual fixed operating cost HK$2M; other OPEX omitted.
+
+| | Mature demand (80% use) | Year-1 ramp (20% use) |
+|--|-------------------------|------------------------|
+| Annual revenue | HK$4M | HK$1M |
+| Fixed operating cost | HK$2M | HK$2M |
+| **Operating result before other costs** | **Surplus HK$2M** | **Shortfall HK$1M** |
+
+Financing must cover the expected ramp-up shortfall **plus** contingency.
+
+---
+
+## 6. Reliability scenarios (simple return screen)
+
+$$
+\text{Simple return}
+=
+\frac{\text{Adjusted revenue} - \text{Adjusted operating cost}}
+{\text{Initial investment}}
+$$
+
+Adjusted revenue should reflect serviceable capacity, demand, cancellations, and pricing under the scenario. Some costs fall in downtime; fixed cost, recovery, refunds, and credits may remain or rise. Weather should be modelled from route- and aircraft-specific assumptions — **not** a universal annual percentage. This simple return is **not** full ROI or NPV (timing, financing, tax, residual value omitted).
+
+### Worked illustration (downtime stress)
+
+**Assumptions (illustrative):** investment HK$10M; revenue without disruption HK$4M; annual cost HK$2.5M.
+
+| | No downtime | 20% revenue reduction |
+|--|-------------|------------------------|
+| Operating surplus | HK$1.5M | HK$0.7M |
+| **Simple return** | **15%** | **7%** |
+
+The 20% cut is an **illustrative stress scenario**, not a claim about Hong Kong’s annual weather downtime. A better model separates capacity loss, demand loss, variable-cost savings, and recovery cost (Week 3–4 logic).
+
+---
+
+## 7. Infrastructure CAPEX and OPEX
+
+**Investment** may include site acquisition/adaptation; touchdown/lift-off and safety areas; parking and passenger/cargo processing; charging and energy storage; communications, lighting, security, fire protection; access and ground-transport integration; design, testing, approval, and contingency.
+
+**Recurring OPEX** may include staffing and security; electricity, communications, software; inspection and maintenance reserves; lease, insurance, professional services, compliance; disruption recovery and service-level obligations.
+
+**Lesson:** do not assume electricity dominates OPEX — the mix depends on site and operating model (same CAPEX/OPEX discipline as Week 3).
+
+### Daily infrastructure cost (economic sketch)
+
+$$
+\text{Daily infrastructure cost}
+=
+\frac{\text{CAPEX} - \text{Expected residual value}}{\text{Useful operating days}}
++ \text{Daily OPEX}
+$$
+
+Useful for unit-cost screening; not identical to cash flow, accounting depreciation, mortgage payment, ROI, or NPV.
+
+**Assumptions (illustrative):** ten-year life; no residual value ($10 \times 365 = 3{,}650$ days).
+
+| | Higher-investment | Lower-investment |
+|--|-------------------|------------------|
+| CAPEX | HK$18.25M | HK$3.65M |
+| Daily allocation | HK$5,000 | HK$1,000 |
+| Daily OPEX | HK$10,000 | HK$3,000 |
+| **Daily economic cost** | **HK$15,000** | **HK$4,000** |
+
+A higher-cost site must create enough extra demand, price, reliability, network value, or complementary revenue to justify the gap.
+
+---
+
+## 8. Allocating scarce slots
+
+When requests exceed safe, reliable capacity, managers need a **transparent** rule:
+
+- **Administrative** — fixed schedules, permits, historic rights, rotation, first-come-first-served.  
+- **Market-based** — posted peak pricing or auctions where appropriate.  
+- **Priority rules** — emergency, public-service, or other protected operations under predefined procedures.  
+- **Operational controls** — reservations, buffers, delay management, diversions, cancellations.  
+
+**Objective:** balance safety, efficiency, predictability, access, competition, and public-service obligations. Week 8 returns to airspace congestion in more depth.
+
+### Illustrative peak-pricing rule (design choice, not a regulation)
+
+$$
+\text{Slot fee}
+=
+\text{Base fee}
++
+\text{Congestion charge} \times \left(\frac{\text{Requests}}{\text{Available slots}}\right)
+$$
+
+Peak charges may shift flexible demand only if operators can change timing, route, or facility. Pricing must sit with safety limits, priority rules, competition policy, transparency, and access obligations. **Revenue maximisation alone is not the goal** of scarce infrastructure allocation.
+
+**Assumptions (illustrative):** base fee HK$100; congestion parameter HK$200.
+
+| | 2 requests / 2 slots | 8 requests / 2 slots |
+|--|----------------------|----------------------|
+| Ratio | 1 | 4 |
+| **Fee** | $100 + 1(200) =$ **HK$300** | $100 + 4(200) =$ **HK$900** |
+
+Higher fees may shift flexible trips; estimate response. Price alone does not identify which missions create the greatest social value.
+
+Sandbox / Sandbox X participation does **not** create a permanent commercial slot right ([Who decides what?](regulators.qmd#standing-caveats)).
+
+---
+
+## 9. Network design: hub, distributed, hybrid
+
+| Design | Possible strengths | Possible weaknesses |
+|--------|--------------------|---------------------|
+| **Concentrated hub** | Shared facilities, high throughput, connections, specialised services | Longer access; vulnerable to single-site disruption |
+| **Distributed** | Better customer access; resilience | Duplicated fixed cost; thinner activity per site |
+| **Hybrid** | Major hubs plus feeders / specialised sites | Coordination complexity |
+
+There is **no** universal “Hong Kong strategy” or “GBA strategy.” Configuration depends on demand, geography, capacity, and service purpose.
+
+### Generalized cost per served trip
+
+$$
+\text{GC per trip}
+=
+\frac{\text{Network fixed cost} + \text{Network OPEX} + \text{Disruption cost}}{\text{Served trips}}
++ \text{Access burden per trip}
+$$
+
+Use **served** trips (after capacity), not unconstrained forecast demand (Week 4).
+
+**Assumptions (illustrative):** 4,000 served passenger-trips/day; VOT HK$15/minute.
+
+| | Concentrated | Distributed |
+|--|--------------|-------------|
+| Daily network cost | HK$15,000 | HK$45,000 |
+| Cost per trip | HK$3.75 | HK$11.25 |
+| Access burden/trip | $8 \times 15 =$ HK$120 | $2 \times 15 =$ HK$30 |
+| **GC per trip** | **HK$123.75** | **HK$41.25** |
+
+Distributed wins under these assumed volumes and access times; the ranking can reverse if demand, reliability, sites, or network cost change. (4,000 refers to passenger-trips, not flights.)
+
+### Hong Kong and GBA infrastructure hypotheses
+
+| Dimension | Hong Kong possibility | Wider GBA possibility |
+|-----------|----------------------|------------------------|
+| Site environment | Dense and constrained | More varied |
+| Customer access | Strong value in central locations | Varies by city/corridor |
+| Infrastructure role | Integration and specialised services | Larger network / production scale |
+| Key question | Value per scarce site | Network coverage and volume |
+
+Route-specific analysis beats predetermined templates. OHKF *Taking Flight* (infra / supporting-services segment structure) is a **think-tank** framing on [Readings](#readings) — not an HKSAR government figure ([Key figures](key-figures.qmd)).
+
+---
+
+## 10. Putting Week 5 together
+
+Infrastructure strategy balances safety, access, utilities, **reliable** capacity, cost, expandability, and community impact. Breakeven uses reliable capacity and contribution per movement — not paper maximums. Stage investment and fund the ramp-up. Model weather and maintenance through explicit capacity/demand/cost/recovery channels. Allocate scarce slots with transparent rules and priority protections; peak pricing is one tool among several. Choose hub, distributed, or hybrid on evidence, not slogan.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) (OHKF segment structure — think-tank; vertiport academic reviews; EASA prototype vertiport specs as EU comparator; HKSAR LCQ on spatial data / CSDI; Shenzhen infra chapter).  
+- **Course links:** [Week 3](week-03.qmd) · [Week 4](week-04.qmd) · [Glossary · infrastructure](glossary.qmd#infrastructure) · [Landscape](landscape.qmd).  
+- **Slides:** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 5 assignment brief used in class.
 
 ## Readings {#readings}
 
@@ -54,6 +333,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 - [EASA (24 March 2022). *Prototype Technical Design Specifications for Vertiports* (PTS-VPT-DSN).](https://www.easa.europa.eu/en/document-library/general-publications/prototype-technical-design-specifications-vertiports) — Regulator's prototype vertiport design specification; the official design constraint.
 - [HKSAR Government (25 June 2025). LCQ3: Developing low-altitude economy. Press release P2025062500305, info.gov.hk.](https://www.info.gov.hk/gia/general/202506/25/P2025062500305.htm) — HK government on 3D spatial data, the CSDI and a unified data-sharing platform as LAE infrastructure.
 - [[深圳市人民代表大会常务委员会 (2023年12月29日通过；2024年2月1日起施行). 《深圳经济特区低空经济产业促进条例》, 公告第一二八号, 深圳市政府公报2024年第4期（总第1319期）.]{lang="zh-Hans"}](https://www.sz.gov.cn/zfgb/2024/gb1319/content/post_11127288.html) — Chapter 2 (基础设施) sets out who plans, builds and runs physical and digital low-altitude infrastructure in Shenzhen. English gloss: Shenzhen Special Economic Zone Regulations on Promoting the Low-Altitude Economy Industry. *Also listed in [Week 2](week-02.qmd).*
+
+## Looking ahead to Week 6
+
+Week 6 turns to **strategic partnerships and business models**: asset-intensive vs service vs platform architectures; when a public–private partnership might make sense; usage vs availability payments; and co-opetition on shared facilities. Preview theme from the slides: who pays for the chargers?
+
+Continue: [Week 6](week-06.qmd) · [Course overview](overview.qmd).
 
 ---
 
