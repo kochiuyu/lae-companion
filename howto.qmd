@@ -16,9 +16,10 @@ Follow the Orient menu in order:
 
 1. [Course overview](overview.qmd) — week map and what the course covers  
 2. [What is LAE?](primer.qmd) — plain-language scope  
-3. [How does LAE work?](business-overview.qmd) — value, who pays whom, sectors  
-4. [Who decides what?](regulators.qmd) — who regulates what  
-5. This page — how the rest of the site fits
+3. [Key figures](key-figures.qmd) — short sourced numbers  
+4. [How does LAE work?](business-overview.qmd) — value, who pays whom, sectors  
+5. [Who decides what?](regulators.qmd) — who regulates what  
+6. This page — how the rest of the site fits
 
 Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-institutions-and-law); [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law); [CASK](glossary.qmd#business-and-economics).
 
