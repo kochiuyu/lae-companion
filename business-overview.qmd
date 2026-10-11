@@ -56,15 +56,7 @@ Roles and payment directions only — **not** market sizes, deal values, or name
 </figure>
 ```
 
-See also [Companies & sectors](landscape.qmd) for the firm map.
-
-## Who pays whom (same roles, in words)
-
-- **Customers / mission sponsors** pay operators for missions ([Lectures · Week 3](lectures.qmd#week-3)).
-- **Operators** pay (or contract for) aircraft and maintenance, site/slot access, enabling tech and traffic services, insurance, and training — see sector roles below and [Companies & sectors](landscape.qmd).
-- **Infrastructure and platform providers** earn from access, capacity, or coordination; scarce sites and route density shape competition ([Lectures · Week 2](lectures.qmd#week-2); [Lectures · Week 5](lectures.qmd#week-5)).
-- **Insurers and financiers** price risk and capital ([Lectures · Week 6](lectures.qmd#week-6); [Lectures · Week 12](lectures.qmd#week-12)).
-- **Public bodies** may fund trials, shared infrastructure, or public-service missions — a PPP is about value for money and risk allocation, not a free subsidy ([Lectures · Week 6](lectures.qmd#week-6)).
+Firm names stay on [Companies & sectors](landscape.qmd).
 
 ## How sectors fit
 
