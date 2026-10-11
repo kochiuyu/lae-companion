@@ -1,6 +1,6 @@
 ---
 title: "How does LAE work?"
-subtitle: "How value is created, who pays whom, and how sectors fit — for newcomers"
+subtitle: "How value is created, the value chain, and how sectors fit — for newcomers"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
@@ -18,9 +18,9 @@ A service creates value when it **saves time**, **cuts cost or risk**, **improve
 
 Unit-cost language in class includes [CASK](glossary.qmd#business-and-economics) (passenger capacity offered) and mission-based measures for cargo or public-service work ([Lectures · Week 3](lectures.qmd#week-3); [Glossary](glossary.qmd#business-and-economics)).
 
-## Money flow (high level)
+## Value chain
 
-Roles and payment directions only — **not** market sizes, deal values, or named firms. Trial programmes help teams test under controlled conditions; they are not the same as everyday commercial approval ([Lectures · Week 7](lectures.qmd#week-7)).
+Roles only — how value moves along the chain, **not** market sizes, deal values, or named firms. Trial programmes help teams test under controlled conditions; they are not the same as everyday commercial approval ([Lectures · Week 7](lectures.qmd#week-7)).
 
 ```{=html}
 <style>
@@ -37,11 +37,11 @@ Roles and payment directions only — **not** market sizes, deal values, or name
 }
 .vchain-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
 </style>
-<figure class="vchain" id="lae-money-flow" aria-labelledby="vchain-title">
-<p class="vchain-cap" id="vchain-title"><strong>Schematic money / value flow</strong> (lecture roles). Arrows show typical who-pays-whom direction, not volumes.</p>
+<figure class="vchain" id="lae-value-chain" aria-labelledby="vchain-title">
+<p class="vchain-cap" id="vchain-title"><strong>Value chain (schematic)</strong> — lecture roles only. Arrows show typical direction of value / payment between roles, not volumes.</p>
 <div class="vchain-flow">
 <div class="vchain-box pay"><strong>Customers / mission sponsors</strong><br/>Pay for flights, deliveries, inspections, or other missions (pay-per-use, subscription, availability, or complementary models).</div>
-<div class="vchain-arrow" aria-hidden="true">↓ payment for the mission</div>
+<div class="vchain-arrow" aria-hidden="true">↓ value for the mission</div>
 <div class="vchain-box"><strong>Operators</strong><br/>Deliver the service; buy or contract for aircraft, sites, traffic/tech, insurance, and training.</div>
 <div class="vchain-arrow" aria-hidden="true">↓ operator spend on inputs</div>
 <div class="vchain-suppliers">
@@ -50,13 +50,13 @@ Roles and payment directions only — **not** market sizes, deal values, or name
 <div class="vchain-box"><strong>Insurance &amp; finance</strong><br/>Price risk and capital — they do not remove operational or regulatory risk.</div>
 </div>
 <div class="vchain-arrow" aria-hidden="true">↕ when public missions or shared infra</div>
-<div class="vchain-box pay"><strong>Public bodies (when involved)</strong><br/>May fund trials, shared infrastructure, or public-service missions (usage vs availability payments in partnership designs) — money can flow toward operators or sites, not only as an operator input cost.</div>
+<div class="vchain-box pay"><strong>Public bodies (when involved)</strong><br/>May fund trials, shared infrastructure, or public-service missions (usage vs availability payments in partnership designs) — value can move toward operators or sites, not only as an operator input cost.</div>
 </div>
-<p class="vchain-note">Grounded in Lectures Weeks 1–3, 5–7, and 12. No TAM/SAM figures. Company names stay on Companies &amp; sectors.</p>
+<p class="vchain-note">Grounded in Lectures Weeks 1–3, 5–7, and 12. Roles only — no firm names or TAM/SAM figures.</p>
 </figure>
 ```
 
-Firm names stay on [Companies & sectors](landscape.qmd).
+Named firms: [Companies & sectors](landscape.qmd).
 
 ## How sectors fit
 
