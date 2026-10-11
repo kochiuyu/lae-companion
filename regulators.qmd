@@ -10,20 +10,22 @@ toc-title: "Sections"
 
 One-line roles only. Instruments and status live on [Official status](tracker.qmd) and [Timeline](dates.qmd); term definitions on the [Glossary](glossary.qmd). Comparators are not Hong Kong law.
 
+## Standing caveats {#standing-caveats}
+
+State these clearly here; earlier Orient pages only point back to this section.
+
+1. **Regulatory Sandbox ≠ [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).** They are different Hong Kong trial programmes. Do not blend their project counts or Advisory Circulars ([Official status](tracker.qmd)). Example: **AC-013** (BVLOS) belongs with the first Regulatory Sandbox; **AC-017** (cross-boundary) belongs with Sandbox X.
+2. The Shenzhen–Hong Kong / GBA **cross-boundary corridor is not operational** on the evidence tracked on this site ([Official status](tracker.qmd); [Timeline](dates.qmd)). Policy aims or trial pathways are not the same as an operating corridor.
+3. Related OPEN items students also mix up: **no published Action Plan text** yet; **no dedicated Hong Kong eVTOL or vertiport statute** yet ([Official status](tracker.qmd)).
+
 ## Hong Kong
 
 | Body | What it controls for this course |
 |------|----------------------------------|
 | [**Working Group on Developing Low-altitude Economy**](glossary.qmd#hong-kong-institutions-and-law) | Cross-government LAE strategy group (headed by the Deputy Financial Secretary; STL is Deputy Head). Selects Sandbox / Sandbox X projects; Action Plan still being formulated (text **OPEN**). |
 | [**TLB** (Transport and Logistics Bureau)](glossary.qmd#hong-kong-institutions-and-law) | Policy bureau: Working Group secretariat support; runs Sandbox pilot projects by batches; publishes Sandbox X module communications. |
-| [**CAD** (Civil Aviation Department)](glossary.qmd#hong-kong-institutions-and-law) | Cap. **448G** SUA regulator; issues sandbox Advisory Circulars (**AC-013** BVLOS in Sandbox; **AC-017** cross-boundary in Sandbox X); designates restricted flying zones; technical study role on the planned traffic-management system. |
+| [**CAD** (Civil Aviation Department)](glossary.qmd#hong-kong-institutions-and-law) | Cap. **448G** SUA regulator; issues sandbox Advisory Circulars; designates restricted flying zones; technical study role on the planned traffic-management system. |
 | [**OFCA / Communications Authority**](glossary.qmd#hong-kong-institutions-and-law) | Spectrum licensing for the **1.4 GHz UAS (Private) Licence** (confined to LAE Regulatory Sandbox projects). CAD still approves relevant flight paths in that setting. |
-
-Standing reminders (do not collapse these on [Official status](tracker.qmd)):
-
-- **Regulatory Sandbox ≠ Sandbox X.**
-- Shenzhen–Hong Kong / GBA corridor: **not operational** on tracked evidence.
-- No published Action Plan text; no dedicated Hong Kong eVTOL or vertiport statute yet.
 
 ## Mainland (comparator)
 
@@ -52,4 +54,5 @@ Not Hong Kong regulators. Use them for frameworks and readings, not HK complianc
 - Settled / OPEN / WATCH labels → [Official status](tracker.qmd)
 - Dated instruments and milestones → [Timeline](dates.qmd)
 - Term entries and “who regulates what” diagram → [Glossary](glossary.qmd)
+- Business side → [How does LAE work?](business-overview.qmd)
 - Plain-language scope → [What is LAE?](primer.qmd)

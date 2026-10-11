@@ -11,15 +11,15 @@ toc-title: "Sections"
 **Course:** DOTE5891VM Low Altitude Economics · Second Trimester, 2026–27 · MSc in Aviation Management · CUHK Business School  
 **Instructor:** Chiu Yu Ko
 
-Also on this site: [Readings](readings.qmd) · [Lectures](lectures.qmd)
+**New here?** Read [What is LAE?](primer.qmd) first for plain-language scope, then come back for the week map. Weekly slides and documents: [Lectures](lectures.qmd) · [Readings](readings.qmd).
 
 ## Description
 
-- Economics and business strategy of the low-altitude economy (LAE): drones, eVTOL, vertiports, U-space/UTM, BVLOS, and related finance, insurance, certification, and platform services.
-- Core setting: Hong Kong and the Greater Bay Area, with comparators from NASA, AiRMOUR, EASA/U-space, FAA/AAM, and other advanced air mobility frameworks.
-- Quantitative and managerial: turn LAE use cases into demand forecasts, unit economics, infrastructure breakeven, partnership contracts, regulatory roadmaps, airspace mechanisms, ESG/social-license strategies, risk registers, and investment recommendations.
-- Weekly tools include NPV, value of time, generalized cost, elasticity, HHI, [CASK](glossary.qmd#business-and-economics), CPMK, TAM/SAM/SOM, barrier haircuts, Monte Carlo sensitivity, Pigovian tolls and taxes, and network-scaling formulas.
-- Capstone: integrate demand, cost, infrastructure, regulation, airspace, sustainability, and risk into one coherent business or policy strategy for a commercially viable, socially acceptable, policy-consistent, and scalable HK/GBA service.
+- Economics and business strategy of the **low-altitude economy (LAE)** — services that use low-altitude airspace, not only aircraft. Vehicle types, sites, traffic labels, and trial programmes are introduced on [What is LAE?](primer.qmd); formal definitions stay in the [Glossary](glossary.qmd).
+- Core setting: Hong Kong and the Greater Bay Area, with selected global advanced air mobility frameworks as **comparators** (not Hong Kong law) — see Objectives below and [Readings](readings.qmd).
+- Quantitative and managerial: turn use cases into demand, unit economics, infrastructure breakeven, partnerships, regulatory roadmaps, airspace choices, sustainability, risk, and investment recommendations.
+- Each week adds tools (cost and demand measures, competition checks, infrastructure and partnership logic, and related methods). Names and formulas appear in [Lectures](lectures.qmd) and [Readings](readings.qmd) when you need them — this page does not dump the acronym list.
+- Capstone: integrate those tools into one coherent business or policy strategy for a commercially viable, socially acceptable, policy-consistent, and scalable HK/GBA service.
 
 ## Objectives
 
@@ -40,7 +40,7 @@ After completing this course, students are expected to:
 
 ## 12-week conceptual map
 
-How the weeks build on each other. Week titles match [Readings](readings.qmd). Click a week for that Readings section (slides on [Lectures](lectures.qmd)).
+How the weeks build on each other. Week titles match [Readings](readings.qmd). Click a week for that Readings section (slides on [Lectures](lectures.qmd)). Plain-language orientation stays in the Orient menu — start with [What is LAE?](primer.qmd) if the week titles still feel dense.
 
 ```{=html}
 <style>
@@ -59,7 +59,7 @@ How the weeks build on each other. Week titles match [Readings](readings.qmd). C
 @media (max-width:640px){.omap{font-size:.88rem}}
 </style>
 <div class="omap" id="course-map">
-<p class="omap-cap">Week topics from the course schedule / Readings. Grouped by the outline’s cumulative build sequence.</p>
+<p class="omap-cap">Week topics from the course schedule / Readings. Grouped by how the outline builds — tools and jargon come in the weekly materials, not in this map caption.</p>
 <div class="omap-flow">
 <section class="omap-stage" aria-labelledby="omap-b">
 <h3 id="omap-b">Weeks 1–3 · Building blocks</h3>

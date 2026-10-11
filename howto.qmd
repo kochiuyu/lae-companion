@@ -10,17 +10,22 @@ toc-title: "Sections"
 
 Few steps. Full definitions stay on [Glossary](glossary.qmd); citeable status stays on [Official status](tracker.qmd).
 
-## Start the week
+## Orient first
+
+Follow the Orient menu in order:
+
+1. [Course overview](overview.qmd) — week map and what the course covers  
+2. [What is LAE?](primer.qmd) — plain-language scope  
+3. [How does LAE work?](business-overview.qmd) — value, who pays whom, sectors  
+4. [Who decides what?](regulators.qmd) — regulator roles and [standing caveats](regulators.qmd#standing-caveats) (Sandbox ≠ Sandbox X; corridor not operational)  
+5. This page — how the rest of the site fits
+
+First-use shortcuts when a term appears: [Sandbox X](glossary.qmd#hong-kong-institutions-and-law) (≠ first Regulatory Sandbox); [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law); [CASK](glossary.qmd#business-and-economics) (lecture tool, not a data series).
+
+## Then Teach
 
 - [Lectures](lectures.qmd) — slide PDFs and takeaways  
 - [Readings](readings.qmd) — documents by week  
-- Map of all twelve weeks: [Course overview](overview.qmd)
-
-## Learn the vocabulary (short)
-
-- [What is LAE?](primer.qmd) — plain-language scope  
-- [Who decides what?](regulators.qmd) — one-line regulator roles  
-- First-use shortcuts: [Sandbox X](glossary.qmd#hong-kong-institutions-and-law) (advanced trial programme, ≠ first Sandbox); [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) (HK small unmanned aircraft Order); [CASK](glossary.qmd#business-and-economics) (cost per available seat-kilometre — lecture tool, not a data series)
 
 ## Check what you may cite
 
