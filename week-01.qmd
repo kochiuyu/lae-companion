@@ -1,7 +1,7 @@
 ---
 title: "Week 1: Introduction to LAE"
-subtitle: "Introduction to the low-altitude economy"
-as_of: "2026-10-11"
+subtitle: "What LAE is, how value is created, and how to test viability"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
@@ -16,7 +16,15 @@ format:
 
 **Slides (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
 
-This page is the Week 1 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Plain-language orientation (if you are new): [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd).
+This page is the **Week 1** article for the 12-week Low Altitude Economics course. It holds a short summary, full lecture notes, and the week's readings.
+
+**If you are new to the topic**, start with:
+
+- [What is LAE?](primer.qmd) — plain-language orientation  
+- [How does LAE work?](business-overview.qmd) — roles in the value chain  
+- [Who decides what?](regulators.qmd) — institutions and standing caveats  
+
+**This week** defines LAE, introduces VOT / generalized cost / NPV, maps who gets paid, and explains sandboxes. **Week 2** turns to market structure and competition.
 
 ## Summary {#summary}
 
@@ -36,7 +44,7 @@ This page is the Week 1 article for the 12-week Low Altitude Economics course: a
 - Technology matters when it improves the economics of the full service—not only the aircraft.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers.** Several worked examples below use round figures (fares, waiting times, cost shares). They are **illustrative assumptions for learning**, not current Hong Kong market data or forecasts.
+**Classroom numbers.** Worked examples below use round figures (fares, waiting times, cost shares). They are **illustrative assumptions for learning**, not current Hong Kong market data or forecasts. Absolute figures (e.g. Cap. 448G bands, OHKF **HK$350bn**, Sandbox counts) stay with their issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Official status](tracker.qmd).
 :::
 
 ## Learning objectives
@@ -50,15 +58,36 @@ By the end of Week 1 you should be able to:
 5. **Explain** what a Hong Kong regulatory sandbox is for — and what it does *not* waive — keeping the first **Regulatory Sandbox** separate from **Sandbox X**.  
 6. **Use** simple tools — value of time, generalized cost, NPV intuition, and a unit-cost equation — to judge whether a service *might* be commercially viable.
 
+### How these notes are organised
+
+| Part | Sections | Focus |
+|------|----------|--------|
+| Concepts | §§1–5 | What LAE is; jargon; value families; Hong Kong scale / HK$350bn attribution |
+| Tools | §§6–8 | VOT, NPV, generalized cost; classroom worked examples |
+| Industry & rules | §§9–12 | Value chain; entry barriers; sandboxes; GBA caveat |
+| Closing | §§13–15 | Empty-seat unit cost; technology as an economic tool; synthesis |
+
+Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first.
+
 ---
 
 ## 1. What is the low-altitude economy?
 
 **Low-altitude economy (LAE)** means economic activity that uses low-altitude airspace together with the aircraft, physical sites, digital systems, operators, customers, and supporting services needed to deliver a mission.
 
-In Hong Kong policy language, that working band is often described as airspace **generally below about 1,000 metres**. That figure is a **policy working description** of the *economic* field — it is **not** the same thing as a Cap. 448G flying-height limit for small unmanned aircraft. Cap. 448G sets operational height bands such as 100 ft / 300 ft AGL for ordinary categories unless CAD grants permission. Keep those layers separate: [Key figures](key-figures.qmd) · [Glossary · altitude](glossary.qmd#altitude-scale) · [Official status](tracker.qmd).
+### Policy band vs flying limits
 
-A useful mental picture is one completed mission, not one vehicle on a poster:
+In Hong Kong policy language, that working band is often described as airspace **generally below about 1,000 metres**. That figure is a **policy working description** of the *economic* field — **not** a Cap. 448G flying-height limit for small unmanned aircraft.
+
+Cap. 448G sets operational height bands such as **100 ft / 300 ft AGL** for ordinary categories unless CAD grants permission. Keep those layers separate:
+
+- [Key figures](key-figures.qmd)  
+- [Glossary · altitude](glossary.qmd#altitude-scale)  
+- [Official status](tracker.qmd)  
+
+### One completed mission
+
+Picture one completed mission, not one vehicle on a poster:
 
 - Someone needs a delivery, inspection, medical transfer, or similar **outcome**.  
 - An **operator** flies or manages the aircraft.  
@@ -67,11 +96,18 @@ A useful mental picture is one completed mission, not one vehicle on a poster:
 - **Customers or mission sponsors** pay for the outcome.  
 - Supporting services (finance, insurance, training, platforms) keep the operation going.
 
-That whole chain is what this course means by LAE. The same idea appears in plain language on [What is LAE?](primer.qmd).
+That whole chain is what this course means by LAE. Same idea in plain language: [What is LAE?](primer.qmd).
 
-**Aircraft in scope** for discussion include unmanned aircraft (everyday speech: “drones”), helicopters, and electric vertical take-off and landing (**eVTOL**) concepts. **Physical infrastructure** includes take-off and landing sites (industry label: **vertiports**), charging, and maintenance. **Digital infrastructure** includes communications, traffic-management software, and data platforms. **Applications** span logistics, inspection, emergency response, passenger transport, and supporting finance and insurance.
+### Scope labels (keep them distinct)
 
-Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under Cap. 448G (not more than **150 kg**). Everyday “drone” speech is not a Cap. 448G synonym. **eVTOL** is an industry label; Hong Kong has **no dedicated eVTOL statute yet**, and heavier / passenger-oriented types sit above the SUA ceiling as unconventional aircraft pending rules ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [FAQ](faq.qmd)).
+| Layer | What it covers |
+|-------|----------------|
+| **Aircraft in discussion** | Unmanned aircraft (everyday speech: “drones”), helicopters, and electric vertical take-off and landing (**eVTOL**) concepts |
+| **Physical infrastructure** | Take-off and landing sites (industry label: **vertiports**), charging, maintenance |
+| **Digital infrastructure** | Communications, traffic-management software, data platforms |
+| **Applications** | Logistics, inspection, emergency response, passenger transport, supporting finance and insurance |
+
+Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under Cap. 448G (not more than **150 kg**). Everyday “drone” speech is **not** a Cap. 448G synonym. **eVTOL** is an industry label; Hong Kong has **no dedicated eVTOL statute yet**, and heavier / passenger-oriented types sit above the SUA ceiling as unconventional aircraft pending rules ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [FAQ](faq.qmd)).
 
 The exact altitude boundary also varies across jurisdictions. Mainland statistical / industrial-policy language for **低空经济** is a separate frame — do not treat it as the same metric as a Hong Kong value-added figure ([Glossary · Mainland](glossary.qmd#mainland-comparators)).
 
@@ -79,19 +115,21 @@ The exact altitude boundary also varies across jurisdictions. Mainland statistic
 
 ## 2. How LAE differs from traditional aviation
 
-Traditional scheduled aviation (long-haul airlines) typically uses large, expensive aircraft, departs from large centralized airports, and flies long distances at high altitude. LAE points in a different business direction:
+Traditional scheduled aviation typically uses large, expensive aircraft, large centralized airports, and long high-altitude flights. LAE points in a different business direction:
 
 - **Short-distance, high-frequency** operations inside or between cities.  
 - An **entire ecosystem** — sites, charging, digital coordination, insurance, maintenance — not only an airframe.  
 - Different **cost structures**, operating models, and regulatory needs.
 
-A helpful analogy used in class: think less like a traditional airline network and more like a high-frequency network service for the sky — where waiting, access, and reliability matter as much as cruise speed. The managerial implication is immediate: a fast aircraft does not automatically create a valuable *service*.
+**Analogy used in class:** think less like a traditional airline network and more like a high-frequency network service for the sky — where waiting, access, and reliability matter as much as cruise speed.
+
+**Managerial implication:** a fast aircraft does not automatically create a valuable *service*.
 
 ---
 
 ## 3. LAE, UAM, and AAM
 
-You will hear three acronyms constantly. Keep them nested, not interchangeable:
+You will hear three acronyms constantly. Keep them **nested**, not interchangeable:
 
 | Term | Meaning in this course |
 |------|-------------------------|
@@ -112,40 +150,50 @@ An LAE service must solve a customer problem better than existing alternatives. 
 3. **Industrial inspection** — bridges, buildings, power assets, and remote sites with less disruption and risk.  
 4. **Emergency and public services** — medical delivery, emergency response, search and rescue, environmental monitoring.
 
-The managerial question is always the same: **which applications create enough value to cover cost, risk, and regulatory requirements?** Dated trial and operating examples on this site live on [Use cases](usecases.qmd); firm lists stay on [Companies & sectors](landscape.qmd).
+**Managerial question:** which applications create enough value to cover cost, risk, and regulatory requirements?
+
+Dated trial and operating examples: [Use cases](usecases.qmd). Named organisations: [Companies & sectors](landscape.qmd).
 
 ---
 
 ## 5. Hong Kong scale — and how to read the HK$350 billion figure
 
-Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimension** to the transport and logistics network. Policy already treats LAE as a development theme: the 2024 Policy Address describes economic activities generally below 1,000 metres and establishes the Working Group on Developing Low-altitude Economy ([Readings](#readings); [Timeline](dates.qmd)).
+Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimension** to the transport and logistics network. Policy already treats LAE as a development theme: the **2024 Policy Address** describes economic activities generally below 1,000 metres and establishes the Working Group on Developing Low-altitude Economy ([Readings](#readings); [Timeline](dates.qmd)).
 
-You will also see a striking private projection: that Hong Kong’s LAE-related industries could generate about **HK$350 billion** in annual **industry value added by 2050**, with a large share in supporting services. That figure comes from **Our Hong Kong Foundation** (*Taking Flight: Forging a Future for Hong Kong’s Low-Altitude Economy*, 2025). It is a **think-tank projection**, **not** an HKSAR government number. When you quote it, name the issuer:
+### The HK$350 billion projection
+
+You will also see a private projection: that Hong Kong’s LAE-related industries could generate about **HK$350 billion** in annual **industry value added by 2050**, with a large share in supporting services.
+
+That figure comes from **Our Hong Kong Foundation** (*Taking Flight: Forging a Future for Hong Kong’s Low-Altitude Economy*, 2025). It is a **think-tank projection**, **not** an HKSAR government number. When you quote it, name the issuer:
 
 - [Key figures](key-figures.qmd)  
 - [Common questions](faq.qmd)  
 - [Official status](tracker.qmd)  
-- Primary listing: [Readings](#readings)
+- Primary listing: [Readings](#readings)  
 
-Hong Kong’s possible comparative advantage is often framed as a **service layer** — finance and leasing, insurance and risk management, legal / certification / professional services, digital platforms, and international business development — sitting alongside GBA strengths in manufacturing, electronics, batteries, and large-scale testing. That is a **strategic proposition to evaluate**, not a predetermined outcome.
+### Services-layer hypothesis
+
+Hong Kong’s possible comparative advantage is often framed as a **service layer** — finance and leasing, insurance and risk management, legal / certification / professional services, digital platforms, and international business development — sitting alongside GBA strengths in manufacturing, electronics, batteries, and large-scale testing.
+
+That is a **strategic proposition to evaluate**, not a predetermined outcome.
 
 ---
 
 ## 6. Value of time and net present value
 
-Two building-block ideas open the quantitative toolkit.
+Sections 1–5 defined the field. Sections 6–8 open the **quantitative toolkit**.
 
 ### Value of time (VOT)
 
 **Value of time** expresses how much a customer is willing to pay to save travel (or delivery) time. It is not a universal constant: it varies across customers, trip purposes, and situations. Saving twenty minutes may be worth far more for an urgent medical delivery than for a routine errand.
 
-A simple measure of time-related benefit per trip is:
+Time-related benefit per trip:
 
 $$
 \text{Value of time saved per trip} = \text{VOT} \times \Delta T
 $$
 
-where $\Delta T$ is time saved relative to the best alternative (in the same time units as VOT).
+where $\Delta T$ is time saved relative to the best alternative (same time units as VOT).
 
 ### Net present value (NPV)
 
@@ -155,11 +203,14 @@ $$
 \text{NPV} = -\text{Initial investment} + \text{Present value of future profits}
 $$
 
-A positive NPV suggests the project may be financially attractive *under those assumptions*; a negative NPV means it does not justify the investment under those assumptions. NPV is not a guarantee — it is a disciplined way to organise cash, timing, and risk later in the course.
+| NPV result (under stated assumptions) | Interpretation |
+|---------------------------------------|----------------|
+| Positive | Project may be financially attractive |
+| Negative | Does not justify the investment |
+
+NPV is not a guarantee — it is a disciplined way to organise cash, timing, and risk later in the course.
 
 ### A three-step viability screen
-
-Week 1 groups the logic as:
 
 1. **Does the service create value for customers?** (for example via time savings: $\text{VOT}\times\Delta T$).  
 2. **Can the operator capture enough of that value?**  
@@ -186,15 +237,19 @@ $$
 \text{Generalized cost} = \text{Ticket price} + \text{VOT} \times \text{Travel time}
 $$
 
-All else equal, the customer prefers the option with lower generalized cost. A faster mode can charge more, but **only up to the value of the time it actually saves** on the full journey. Route planners must therefore design the **complete journey**, not only cruise time in the air. Week 4 returns to demand and mode choice in more depth ([Week 4](week-04.qmd)).
+All else equal, the customer prefers the option with **lower** generalized cost. A faster mode can charge more, but **only up to the value of the time it actually saves** on the full journey.
+
+**Design implication:** plan the **complete journey**, not only cruise time in the air. Week 4 returns to demand and mode choice ([Week 4](week-04.qmd)).
 
 ---
 
 ## 8. Worked illustrations (classroom assumptions)
 
+The next two examples apply VOT and generalized cost. Figures are **illustrative** — see the callout under [Summary](#summary).
+
 ### 8.1 Door-to-door friction destroys value
 
-**Scenario (illustrative):** a proposed air-taxi link between Hong Kong International Airport and Central. Suppose the traveller’s time is worth **HK\$1,000 per hour**.
+**Scenario (illustrative):** a proposed air-taxi link between Hong Kong International Airport and Central. Traveller’s time worth **HK$1,000 per hour**.
 
 | | Case A: smooth journey | Case B: friction shock |
 |--|------------------------|-------------------------|
@@ -202,15 +257,15 @@ All else equal, the customer prefers the option with lower generalized cost. A f
 | Boarding and waiting | 5 minutes | 25 minutes |
 | Total journey | 15 minutes | 35 minutes |
 | Time saved vs a 45-minute alternative | 30 minutes = 0.5 h | 10 minutes ≈ 0.167 h |
-| Value of time saved | $1000\times 0.5 =$ **HK\$500** | $1000\times 0.167 \approx$ **HK\$167** |
+| Value of time saved | $1000\times 0.5 =$ **HK$500** | $1000\times 0.167 \approx$ **HK$167** |
 
 **Takeaway:** a fast aircraft does not guarantee a valuable service. Waiting, transfers, and access time can sharply reduce the fare premium customers will accept.
 
 ### 8.2 Finding a maximum ticket price against Airport Express
 
-**Scenario (illustrative):** what is the most a time-sensitive traveller would pay for an air taxi before choosing the Airport Express? Assume **VOT = HK\$10 per minute**.
+**Scenario (illustrative):** what is the most a time-sensitive traveller would pay for an air taxi before choosing the Airport Express? Assume **VOT = HK$10 per minute**.
 
-**Airport Express (assumed):** ticket HK\$115; journey 24 minutes.
+**Airport Express (assumed):** ticket HK$115; journey 24 minutes.
 
 $$
 GC_{\text{MTR}} = 115 + 10\times 24 = \mathbf{HK\$355}
@@ -222,13 +277,13 @@ $$
 P + 10\times 8 = 355 \implies P = \mathbf{HK\$275}
 $$
 
-Under these simplified assumptions, **HK\$275** makes the traveller indifferent. Actual demand also depends on waiting, access, reliability, comfort, and perceived safety — none of which are in the short formula.
+Under these simplified assumptions, **HK$275** makes the traveller indifferent. Actual demand also depends on waiting, access, reliability, comfort, and perceived safety — none of which are in the short formula.
 
 ---
 
 ## 9. The LAE value chain — who creates value and who gets paid?
 
-Session 2 shifts from “what is LAE?” to **who makes what**.
+Concepts and tools are in place. This section asks **who makes what** along the chain.
 
 ### Roles
 
@@ -241,11 +296,11 @@ Session 2 shifts from “what is LAE?” to **who makes what**.
 | **Customers / public agencies** | Pay for missions or sponsor public-service outcomes. |
 | **Supporting services** | Finance, leasing, insurance, certification, legal and professional services. |
 
-A schematic money-and-value map (roles only, no firm names) is on [How does LAE work?](business-overview.qmd). Named organisations stay on [Companies & sectors](landscape.qmd).
+Roles-only money-and-value map (no firm names): [How does LAE work?](business-overview.qmd). Named organisations: [Companies & sectors](landscape.qmd).
 
 ### How a ticket price might be shared
 
-One teaching decomposition of an air-taxi fare is:
+One teaching decomposition of an air-taxi fare:
 
 $$
 \begin{aligned}
@@ -261,21 +316,21 @@ Different participants may charge usage fees, lease payments, or service fees. T
 
 ### Illustrative unit economics (not market data)
 
-Suppose a passenger pays **HK\$300**. One classroom allocation is:
+Suppose a passenger pays **HK$300**. One classroom allocation:
 
 | Payment | Amount |
 |---------|--------|
-| Vertiport fee | HK\$100 |
-| UTM and digital services | HK\$20 |
-| Insurance and financing | HK\$30 |
-| Aircraft lease allocation | HK\$50 |
-| **Partner payments** | **HK\$200** |
-| Cash left for operator | HK\$100 |
-| Energy | HK\$20 |
-| Maintenance and labour | HK\$50 |
-| **Operator margin** | **HK\$30** |
+| Vertiport fee | HK$100 |
+| UTM and digital services | HK$20 |
+| Insurance and financing | HK$30 |
+| Aircraft lease allocation | HK$50 |
+| **Partner payments** | **HK$200** |
+| Cash left for operator | HK$100 |
+| Energy | HK$20 |
+| Maintenance and labour | HK$50 |
+| **Operator margin** | **HK$30** |
 
-If all costs stayed unchanged, cutting the fare by HK\$50 would turn a HK\$30 margin into a HK\$20 loss. Real contracts differ; the point is sensitivity, not the specific split.
+If all costs stayed unchanged, cutting the fare by HK$50 would turn a HK$30 margin into a HK$20 loss. Real contracts differ; the point is **sensitivity**, not the specific split.
 
 ### Stakeholder conflict and externalities
 
@@ -290,12 +345,12 @@ An **externality** arises when an activity imposes costs or benefits on others t
 
 ### Operating restrictions raise unit cost
 
-**Scenario (illustrative):** noise concerns restrict evening and overnight flights. Fixed aircraft lease cost = **HK\$10,000 per day**.
+**Scenario (illustrative):** noise concerns restrict evening and overnight flights. Fixed aircraft lease cost = **HK$10,000 per day**.
 
 | | Wider window | Restricted window |
 |--|--------------|-------------------|
 | Flights per day | 50 | 20 |
-| Fixed cost per flight | HK\$10,000 / 50 = **HK\$200** | HK\$10,000 / 20 = **HK\$500** |
+| Fixed cost per flight | HK$10,000 / 50 = **HK$200** | HK$10,000 / 20 = **HK$500** |
 
 Public acceptance is not only a communications issue. Operating limits change utilization, unit costs, and commercial viability. Weeks 8–10 return to congestion, noise, privacy, and social impact.
 
@@ -329,7 +384,7 @@ Hong Kong has run more than one trial track. On this site you must **not** merge
 | Early **Regulatory Sandbox** | First-batch selection figures such as **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language also refers to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
 | Later **Sandbox X** | A distinct programme with its own module counts and framing (e.g. UTM, unconventional aircraft, shared platform modules on TLB materials). Policy Address snapshots of “projects that had begun testing” are again **not** the same as total selected modules. |
 
-Citeable counts and issuers: [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what?](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Primary communications are also listed across later week pages (especially Weeks 7 and 10–11 for Sandbox X / Action Plan language).
+Citeable counts and issuers: [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what? · standing caveats](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Primary communications are also listed across later week pages (especially Weeks 7 and 10–11 for Sandbox X / Action Plan language).
 
 ### Entry barriers as a simple sum
 
@@ -340,10 +395,12 @@ $$
 \end{aligned}
 $$
 
-- **Investment cost** — aircraft, infrastructure, software, staff.  
-- **Compliance cost** — testing, documentation, professional services, approvals.  
-- **Cost of delay** — cash spent while waiting before wider operation.  
-- **Uncertainty** — technology, business model, or approval pathway may not work as expected.
+| Component | Plain meaning |
+|-----------|----------------|
+| **Investment cost** | Aircraft, infrastructure, software, staff |
+| **Compliance cost** | Testing, documentation, professional services, approvals |
+| **Cost of delay** | Cash spent while waiting before wider operation |
+| **Uncertainty** | Technology, business model, or approval pathway may not work as expected |
 
 **Core lesson:** a sandbox may reduce **delay** and **uncertainty**, making a project easier to test and finance. It does **not** eliminate compliance or safety costs.
 
@@ -361,7 +418,9 @@ Hong Kong’s LAE development is closely connected with the wider GBA ecosystem:
 
 **Strategic question:** how can Hong Kong and other GBA cities combine complementary strengths rather than duplicate them?
 
-**Evidence caveat:** a Shenzhen–Hong Kong / GBA cross-boundary corridor appears in policy discussion, but on the evidence tracked on this site it is **not** flying as day-to-day operating corridor service. Treat corridor language as **planned / under discussion**, not as current operations ([Regulators · standing caveats](regulators.qmd#standing-caveats); [Official status](tracker.qmd); [Primer](primer.qmd)).
+::: {.callout-important appearance="simple"}
+**Evidence caveat.** A Shenzhen–Hong Kong / GBA cross-boundary corridor appears in policy discussion, but on the evidence tracked on this site it is **not** flying as day-to-day operating corridor service. Treat corridor language as **planned / under discussion**, not as current operations ([Regulators · standing caveats](regulators.qmd#standing-caveats); [Official status](tracker.qmd); [What is LAE?](primer.qmd)).
+:::
 
 ---
 
@@ -369,7 +428,7 @@ Hong Kong’s LAE development is closely connected with the wider GBA ecosystem:
 
 Airlines amortise expensive aircraft across hundreds of seats. Many eVTOL concepts under discussion have only a handful of seats (class examples often use **four**). You cannot divide pilot and machine cost by 300; you divide by a small number. Unless utilization and load factor are high, ticket prices explode.
 
-A compact unit-cost equation is:
+Unit cost:
 
 $$
 \begin{aligned}
@@ -379,24 +438,26 @@ $$
 \end{aligned}
 $$
 
-- **Utilization** — how frequently the aircraft flies.  
-- **Capacity** — seats available.  
-- **Load factor** — share of seats actually occupied.
+| Driver | Meaning |
+|--------|---------|
+| **Utilization** | How frequently the aircraft flies |
+| **Capacity** | Seats available |
+| **Load factor** | Share of seats actually occupied |
 
 **Core lesson:** operators need both frequent operations *and* sufficient demand. Flying often does not help if the aircraft repeatedly flies empty.
 
 ### Illustrative comparison
 
-**Assumptions (classroom):** fixed aircraft cost = HK\$10,000/day; variable cost = HK\$100/flight; four seats.
+**Assumptions (classroom):** fixed aircraft cost = HK$10,000/day; variable cost = HK$100/flight; four seats.
 
 | | Case A: 10 flights, 50% load | Case B: 25 flights, 80% load |
 |--|------------------------------|------------------------------|
 | Paying passengers | $10\times 4\times 0.5 = 20$ | $25\times 4\times 0.8 = 80$ |
-| Fixed cost per passenger | HK\$500 | HK\$125 |
-| Variable cost per passenger | HK\$50 | HK\$31.25 |
-| **Total cost per passenger** | **HK\$550** | **HK\$156.25** |
+| Fixed cost per passenger | HK$500 | HK$125 |
+| Variable cost per passenger | HK$50 | HK$31.25 |
+| **Total cost per passenger** | **HK$550** | **HK$156.25** |
 
-Technology may help, but demand, load factor, charging, maintenance, infrastructure, weather, and regulation all affect achievable utilization. Week 3 develops cost structures and revenue management in more detail ([Week 3](week-03.qmd)).
+Technology may help, but demand, load factor, charging, maintenance, infrastructure, weather, and regulation all affect achievable utilization. Week 3 develops cost structures and revenue management ([Week 3](week-03.qmd)).
 
 ---
 
@@ -419,13 +480,15 @@ LAE is a **system**: aircraft, infrastructure, digital coordination, operators, 
 
 Hong Kong may hold advantages in selected high-value services and in connecting GBA capabilities — as a hypothesis to test with evidence. Regulatory sandboxes support controlled testing and faster learning; they do not waive safety or compliance. Technology matters when it improves the economics of the **full service**, not only the airframe.
 
+Keep **Sandbox ≠ Sandbox X**. Attribute **HK$350bn** only to OHKF. Do not claim cross-boundary corridors as day-to-day service.
+
 The short checklist is in [Summary](#summary) above.
 
 ---
 
 ## Further reading and course links
 
-- **Documents for this week:** [Readings](#readings) on this page.
+- **Documents for this week:** [Readings](#readings) on this page.  
 - **Orient:** [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Common questions](faq.qmd).  
 - **Evidence pages:** [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Timeline](dates.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week01-introduction.pdf](slides/week01-introduction.pdf). Assessment logistics and submission stay on the teaching platform; the slide deck carries the Week 1 memo brief used in class.
@@ -467,7 +530,9 @@ The short checklist is in [Summary](#summary) above.
 
 ## Looking ahead to Week 2
 
-Week 2 turns to **market structure and competition**: how scarce infrastructure (for example limited landing capacity in dense districts), sunk costs, and route density shape rivalry and entry. Preview question: if a landing site can only handle a small number of movements at once, who gets access — and who is pushed out?
+Week 2 turns to **market structure and competition**: how scarce infrastructure (for example limited landing capacity in dense districts), sunk costs, and route density shape rivalry and entry.
+
+**Preview question:** if a landing site can only handle a small number of movements at once, who gets access — and who is pushed out?
 
 Continue: [Week 2](week-02.qmd) · [Course overview](overview.qmd).
 
