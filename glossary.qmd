@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-~HK$350 billion by 2050 is an Our Hong Kong Foundation projection, not a government figure.
+Term definitions and diagrams you can cite. Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
 
 ## At a glance
 
@@ -92,7 +92,7 @@ flowchart LR
 
 Sources (as of 6 Oct 2026): Working Group led by the Deputy Financial Secretary ([2024 Policy Address ¶82](https://www.policyaddress.gov.hk/2024/en/p81.html)); Secretary for Transport and Logistics as Deputy Head, and TLB carrying out Sandbox pilot projects by batches ([GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)); Working Group selection of Sandbox projects ([GIA, 20 Mar 2025](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)) and Sandbox X projects ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)); Sandbox X launch ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)); Action Plan still being formulated ([STL to LegCo, 2 Oct 2026, Chinese only](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm); [2026 Policy Address ¶139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)); TLB indicators 34–35 ([PA Annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)); CAD technical study on the traffic management system, and Sandbox X cross-boundary trial flights “as soon as practicable” ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); CAD as Cap. 448G regulator ([CAD](https://www.cad.gov.hk/english/sua.html); [Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); [G.N. 5936](https://www.cad.gov.hk/documents/G.N.5936_E.pdf); [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf); 1.4 GHz licence, CAD flight-path approval and Sandbox-only use ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)); Civil Aviation Law and Art. 258 ([CAAC](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html); [CAAC English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html)); [国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm); CCAR-92 and §92.5 ([Ministry of Transport](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html)); ATM Rules draft ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)); 粤府办〔2024〕6号 and its Greater Bay Area corridor aim ([Guangdong](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html)).
 
-Dashed boxes and dashed arrows (OPEN, PLANNED, DRAFT) are not yet established: no published Action Plan text, no law in force, and no operating Shenzhen–Hong Kong corridor. Solid arrows are relationships stated in the sources above.
+Dashed boxes and dashed arrows (OPEN, PLANNED, DRAFT) are not yet established. Solid arrows are relationships stated in the sources above. Corridor and Sandbox status: [Official status](tracker.qmd).
 
 ### Altitude scale
 

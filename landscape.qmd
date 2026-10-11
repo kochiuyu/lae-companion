@@ -12,7 +12,7 @@ Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checke
 
 ## Companies & sectors at a glance
 
-**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks remain in the sector lists below but are **omitted from the map by design**. Marker colour = Hong Kong vs GBA — see legend under the map. Click a pin for firm name, sector(s) and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). The Shenzhen–Hong Kong / GBA cross-boundary corridor is **not** drawn and is **not** operational. **Counting rule:** one pin per unique HK/GBA firm at its cited place label; dual-sector rows among these (Thales, ARCGine, Geosys, Esri, POI, China Mobile Hong Kong) collapsed to a single pin with combined sector list — **54 pins** (44 Hong Kong + 10 GBA) from the HK/GBA subset of 73 entry rows.
+**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks stay in the sector lists below but are omitted from the map. Marker colour = Hong Kong vs GBA — see legend. Click a pin for firm, sector(s), and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). **Counting rule:** one pin per unique HK/GBA firm — **54 pins** (44 Hong Kong + 10 GBA) from the HK/GBA subset of 73 entry rows.
 
 ```{=html}
 <!-- Landscape at-a-glance map: Leaflet CDN, self-contained (no _quarto.yml change). GBA-focused (HK + Shenzhen/Guangzhou/Zhuhai); Global benchmarks omitted from map. -->
@@ -287,7 +287,7 @@ Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checke
 
 - []{#firm-shenzhen-blood-center-5g-uas-blood .landscape-entry}**Shenzhen Blood Center (5G+ UAS blood transport platform) · Shenzhen:** Shenzhen municipal health authorities enabled a domestic 5G+ UAS blood-transport platform (intra-city hospital pilots); not a Shenzhen–Hong Kong cross-boundary corridor. [Link](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-shenzhen-blood-center-5g-uas-blood"}
   - Tag: Officially confirmed
-  - Status: Operating (intra-city Shenzhen; SZ–HK corridor not evidenced)
+  - Status: Operating (intra-city Shenzhen)
   - Source: [Shenzhen Municipal Health Commission / Blood Center news](https://wjw.sz.gov.cn/szsxyzx/xxgk/xwdt/content/post_11129733.html)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -296,7 +296,7 @@ Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checke
 
 - []{#firm-china-mobile-hong-kong-emergency-and .landscape-entry}**China Mobile Hong Kong / Hospital Authority (Princess Margaret Hospital) · Hong Kong:** Regulatory Sandbox project listed as signal testing at Princess Margaret Hospital (hospital-site LAE trial; not an operational medical corridor). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-china-mobile-hong-kong"}
   - Tag: Officially confirmed
-  - Status: Trial / Regulatory Sandbox (signal testing; not operational medical corridor)
+  - Status: Trial / Regulatory Sandbox (signal testing)
   - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
 
 ## Tourism and entertainment
@@ -409,9 +409,9 @@ Sources (as of 8 Oct 2026): 73 entries across eleven sectors. Entries are checke
   - Source: [CAD AC-016](https://www.cad.gov.hk/documents/AC-016.pdf)
 
 
-- []{#firm-cad-ac-017-cross-boundary-sandbox-x .landscape-entry}**CAD AC-017 (cross-boundary Sandbox X SUA permission pathway) · Hong Kong:** CAD Advisory Circular on permission requirements for cross-boundary SUA ops within Sandbox X. Permission pathway only — does not evidence an operating Shenzhen–Hong Kong corridor; TLB still says cross-boundary results “in due course”. Not a vertiport statute. [Link](https://www.cad.gov.hk/documents/AC-017.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-cad-ac-017-cross-boundary-sandbox-x"}
+- []{#firm-cad-ac-017-cross-boundary-sandbox-x .landscape-entry}**CAD AC-017 (cross-boundary Sandbox X SUA permission pathway) · Hong Kong:** CAD Advisory Circular on permission requirements for cross-boundary SUA ops within Sandbox X. Permission pathway for Sandbox X (cross-boundary results still OPEN on Official status). Not a vertiport statute. [Link](https://www.cad.gov.hk/documents/AC-017.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-cad-ac-017-cross-boundary-sandbox-x"}
   - Tag: Officially confirmed
-  - Status: Announced (AC pathway; corridor not operational)
+  - Status: Announced (AC pathway)
   - Source: [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf)
 
 ## Insurance and finance

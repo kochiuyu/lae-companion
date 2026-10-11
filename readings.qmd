@@ -11,7 +11,7 @@ format:
     body-classes: "page-readings"
 ---
 
-Models (costs, demand, concentration) stay in lecture. ~HK$350 billion by 2050 is an Our Hong Kong Foundation projection, not a government figure.
+Models (costs, demand, concentration) stay in lecture. Attribution for large projections: [Official status](tracker.qmd) · [Key figures](key-figures.qmd).
 
 ## Week 1: Introduction to LAE {#week-1}
 
@@ -234,7 +234,7 @@ Models (costs, demand, concentration) stay in lecture. ~HK$350 billion by 2050 i
 
 - **Slides:** [week09-impact.pdf](slides/week09-impact.pdf) — Week 9 lecture deck (also on [Lectures](lectures.qmd#week-9)).
 
-- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only); not a government outturn.
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only).
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
   English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))

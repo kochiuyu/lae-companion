@@ -5,6 +5,10 @@ as_of: "2026-10-11"
 page-layout: article
 ---
 
+## Standing note
+
+Sandbox counts and the Shenzhen–Hong Kong / GBA corridor status live on [Official status](tracker.qmd) (and plain wording on [Who decides what?](regulators.qmd#standing-caveats)). Item lines below focus on what is new in that release — they do not restate those baselines.
+
 ## Timeline at a glance
 
 ```{=html}
@@ -45,7 +49,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 <li id="tl-press-2026-09-23-caac"><a href="#press-item-2026-09-23-caac"><span class="chip">23 Sep</span> · STL / TLB / CAD meet CAAC Deputy Administrator in Beijing<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-09-21-keeta"><a href="#press-item-2026-09-21-keeta"><span class="chip">21 Sep</span> · Keeta Drone to Chung On Estate (Regulatory Sandbox)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-16-policy-address" class="st-open"><a href="#press-item-2026-09-16-policy-address"><span class="chip">16 Sep</span> · Policy Address: Action Plan, cross-boundary trials, &gt;150 kg drafting<span class="badge b-open">OPEN</span></a></li>
-<li id="tl-press-2026-09-14-nansha" class="st-open"><a href="#press-item-2026-09-14-nansha"><span class="chip">14 Sep</span> · Nansha–Hong Kong bilateral-sandbox MoU (not operational corridor)<span class="badge b-open">MoU</span></a></li>
+<li id="tl-press-2026-09-14-nansha" class="st-open"><a href="#press-item-2026-09-14-nansha"><span class="chip">14 Sep</span> · Nansha–Hong Kong bilateral-sandbox MoU<span class="badge b-open">MoU</span></a></li>
 <li id="tl-press-2026-09-10-stl-rthk"><a href="#press-item-2026-09-10-stl-rthk"><span class="chip">10 Sep</span> · STL: LAE applications entering regularisation stage<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-10-bri"><a href="#press-item-2026-09-10-bri"><span class="chip">10 Sep</span> · Belt and Road LAE session; Sandbox X further 33 projects<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-10-hkust"><a href="#press-item-2026-09-10-hkust"><span class="chip">10 Sep</span> · HKUST LAE forum; standards Joint Statement of Intent<span class="badge b-ind">Indep.</span></a></li>
@@ -110,7 +114,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - **6 Oct 2026 · 政府新聞公報 (Chinese GIA):** SCED tells LegCo the UAS spectrum licensing regime aligns with Mainland planning, aiding future cross-boundary drone operations.
   - What's new: Cross-border 6G trials covering LAE will be encouraged.
-  - Status: Restatement; licensing regime unchanged since October 2025; Shenzhen–HK corridor still not evidenced.
+  - Status: Restatement; licensing regime unchanged since October 2025.
   - Read instead: [this GIA release](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm); [UAS (Private) Licence launch, 27 Oct 2025](#press-item-2025-10-27-uas-licence).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -124,7 +128,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-10-05-sandbox-connect .press-item}**5 Oct 2026 · China Daily Hong Kong:** TLB and CAD describe “Sandbox Connect”, Hong Kong’s first cross-jurisdictional LAE trial under Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/640531)
   - What's new: Nansha as gateway; joint regulatory testing framework under design; longer-term “LAE regulatory green channel” goal.
-  - Status: Press framing only; Sandbox X cross-boundary results still open; Shenzhen–HK corridor still not evidenced.
+  - Status: Press framing only; Sandbox X cross-boundary results still open (Official status).
   - Read instead: Regulatory Sandbox X (TLB).
 
 - []{#press-item-2026-10-02-stl-edev .press-item}**2 Oct 2026 · 政府新聞公報 (Chinese GIA):** STL Chan briefs LegCo’s Economic Development Panel on Five-Year Plan / Policy Address transport measures.
@@ -164,7 +168,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-09-23-caac .press-item}**23 Sep 2026 · info.gov.hk (English GIA) / 政府新聞公報 (Chinese GIA):** STL Chan, TLB Permanent Secretary and CAD Director-General meet CAAC Deputy Administrator Liang Nan in Beijing.
   - What's new: Low-altitude economy listed among topics, alongside trunk-branch connectivity, air cargo and SAF.
-  - Status: No new Action Plan text or corridor announcement; Shenzhen–HK corridor still not evidenced.
+  - Status: No new Action Plan text in this item.
   - Read instead: [English GIA release](https://www.info.gov.hk/gia/general/202609/23/P2026092300422.htm) · [Chinese GIA release](https://www.info.gov.hk/gia/general/202609/23/P2026092300345.htm); Working Group / TLB / CAD; Action Plan (text open).
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -214,7 +218,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-09-14-nansha .press-item}**14 Sep 2026 · 大洋网 / 中新网:** Press reports that the International Advanced Technology Application Promotion Center (GBA) and Hong Kong Productivity Council exchanged a Nansha–Hong Kong “bilateral sandbox” MoU on full-space unmanned systems and low-altitude cooperation. [Link](https://news.dayoo.com/finance/202609/14/171077_55003542.htm) · [中新网](https://www.chinanews.com.cn/dwq/2026/09-16/10697190.shtml)
   - What's new: Framed as a nationwide-first MoU / mechanism for cross-boundary rule and standards work, witnessed in the Belt and Road Summit context. Distinct from China Daily HK “Sandbox Connect” (5 Oct). Nansha government primary page OPEN this run.
-  - Status: MoU / mechanism only — not evidenced operational SZ–HK corridor flights and not a TLB Sandbox X results list.
+  - Status: MoU / cooperation mechanism only — not a TLB Sandbox X results list.
   - Read instead: [Sandbox Connect, 5 Oct 2026](#press-item-2026-10-05-sandbox-connect); Official status: Sandbox X cross-boundary results (OPEN).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -234,7 +238,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-09-10-bri .press-item}**10 Sep 2026 · China Daily Hong Kong:** Belt and Road Summit LAE standards session: DFS Michael Wong on sandbox approvals and Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/639379)
   - What's new: Sandbox X’s further 33 selected projects; Hong Kong–Nansha MoU exchange on cross-boundary testing and standards.
-  - Status: 33 matches TLB module counts (15+4+5+9); GBA cross-boundary operations still not evidenced.
+  - Status: 33 matches TLB module counts (15+4+5+9).
   - Read instead: GIA releases on the session: [中文](https://www.info.gov.hk/gia/general/202609/11/P2026091100798.htm) · [English](https://www.info.gov.hk/gia/general/202609/11/P2026091100795.htm); Regulatory Sandbox X (TLB).
 
   ::: {.callout-note collapse="true" appearance="simple" title="中文官方來源 · Chinese official source"}
@@ -276,7 +280,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-09-02-szhk .press-item}**2 Sep 2026 · 南方日报 (via 福建省商务厅 reprint):** Shenzhen issues 2026 port business-environment measures (“19条”), covering SZ–HK cross-border low-altitude logistics. [Link](https://swt.fujian.gov.cn/xxgk/jgzn/jgcs/dtgxdc/wszx/202609/t20260902_7208045.htm)
   - What's new: Drone customs-clearance models; orderly SZ–HK drone transport trial flights; eVTOL clearance study.
-  - Status: Shenzhen–HK corridor remains a planned trial under Sandbox X; not evidenced as operational.
+  - Status: Planned trial framing under Sandbox X.
   - Read instead: 粤府办〔2024〕6号.
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -294,8 +298,8 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 
 - []{#press-item-2026-09-01-qianhai .press-item}**1 Sep 2026 · Authority of Qianhai / Shenzhen Municipal Government Gazette:** Qianhai prints *12 Measures on Financial Empowerment of High-Quality Development of the Low-Altitude Economy Industry* (深前海规〔2026〕8号; signed 14 Aug; effective 1 Sep 2026 to 31 Dec 2028). [Link](https://www.sz.gov.cn/zfgb/2026/gb1424/content/post_12954971.html)
-  - What's new: District financial toolkit (insurance, credit risk-sharing, leasing, “first flight / first operation / first cross-boundary route” incentives, FT-account facilitation). Defines “LAE enterprise” by reference to 发改低空〔2025〕1676号. Cross-boundary “first route” insurance and mutual recognition are encouragement / exploration — not evidenced operational corridor flights.
-  - Status: Officially confirmed Qianhai measures. Shenzhen–HK corridor not evidenced as operational.
+  - What's new: District financial toolkit (insurance, credit risk-sharing, leasing, “first flight / first operation / first cross-boundary route” incentives, FT-account facilitation). Defines “LAE enterprise” by reference to 发改低空〔2025〕1676号. Cross-boundary “first route” insurance and mutual recognition are encouragement / exploration language.
+  - Status: Officially confirmed Qianhai measures.
   - Read instead: [NDRC 1676 classification](#press-item-2025-12-22-ndrc1676); Official status: SZ–HK corridor (not evidenced).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -353,8 +357,8 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 [↑ Back to timeline](#press-timeline){.press-back}
 
 - []{#press-item-2026-06-24-lcq21 .press-item}**24 Jun 2026 · info.gov.hk / Legislative Council (LCQ21):** STL Mable Chan’s written reply reports Sandbox / Sandbox X / SLATMS progress and that cross-boundary trial flights are targeted “as soon as practicable” under Sandbox X. [Link](https://www.info.gov.hk/gia/general/202606/24/P2026062400275.htm) · [中文](https://www.info.gov.hk/gia/general/202606/24/P2026062400273.htm) · [TLB mirror](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)
-  - What's new: Mid-year official stocktake: 34 of 38 first-batch Sandbox projects commenced; more than 20 regularised; Sandbox X received more than 100 applications; 15 UTM and first-batch four UCA pilots selected; SLATMS technical study noted. Cross-boundary logistics trial flights remain a plan under Sandbox X aimed at laying foundations for a GBA LAE corridor — not evidenced as operational.
-  - Status: Officially confirmed written reply. Official counts stay on Official status; Shenzhen–HK corridor not evidenced as operational. Sandbox ≠ Sandbox X.
+  - What's new: Mid-year official stocktake: 34 of 38 first-batch Sandbox projects commenced; more than 20 regularised; Sandbox X received more than 100 applications; 15 UTM and first-batch four UCA pilots selected; SLATMS technical study noted. Cross-boundary logistics trial flights remain a plan under Sandbox X aimed at laying foundations for a GBA LAE corridor.
+  - Status: Officially confirmed written reply. Official counts stay on Official status.
   - Read instead: Official status: Regulatory Sandbox / Sandbox X; [TLB UTM list](#press-item-2026-04-20-utm); [TLB UCA list](#press-item-2026-04-15-uca).
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -365,7 +369,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-06-10-sz120 .press-item}**10 Jun 2026 · 深圳特区报 / 深圳新闻网:** Report that Shenzhen has regularly opened airspace below 120 m city-wide, with flyable airspace covering about 75% of the city area (quoting Shenzhen Low-altitude Economy Industry Association). [Link](https://www.sznews.com/news/content/2026-06/10/content_32084388.htm)
   - What's new: GBA municipal airspace-management colour for the Mainland comparator. Association/city-transport quotes only; Shenzhen FGW thematic page OPEN this run.
-  - Status: Independently reported; not upgraded to CAAC primary. Not an HK corridor and not evidence of operational SZ–HK flights.
+  - Status: Independently reported; not upgraded to CAAC primary.
   - Read instead: Mainland / Shenzhen airspace comparator on Timeline / Official status; SZ–HK corridor (not evidenced).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -381,7 +385,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-05-30-gd-ordinance .press-item}**30 May 2026 · 界面新闻 / Sina Finance (Guangdong DRC consultation):** Guangdong Provincial Development and Reform Commission opens public consultation on the draft *Guangdong Province Low-Altitude Economy Development Ordinance* (eight chapters, 49 articles; feedback cited to 30 Jun). [Link](https://finance.sina.com.cn/jjxw/2026-05-30/doc-inhzswye6922764.shtml)
   - What's new: Provincial local-regulation draft covering airspace coordination, infrastructure, flight services, industry (aligned to NDRC 1676 four industry buckets), scene applications, safety duties and liability. Press notes GBA / Guangdong–Hong Kong–Macao cooperation language. **drc.gd.gov.cn primary consultation HTML OPEN this run.**
-  - Status: Independently reported draft consultation — not in force. Not Hong Kong law. Corridor not evidenced.
+  - Status: Independently reported draft consultation — not in force. Not Hong Kong law.
   - Read instead: [NDRC 1676](#press-item-2025-12-22-ndrc1676); Timeline: Civil Aviation Law (eff. 1 Jul 2026).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -391,8 +395,8 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 - []{#press-item-2026-05-20-dongguan .press-item}**20 May 2026 · Dongguan Development and Reform Bureau / Transport Bureau (东发改〔2026〕123号; published 27 May):** Dongguan issues *Layout Plan for Low-Altitude Economy Take-off and Landing Facilities (2026–2030)* — “349N” system. [Link](https://dgdp.dg.gov.cn/gkmlpt/content/4/4542/post_4542898.html)
-  - What's new: Municipal planning instrument: **3** test fields, **4** tier-1 hubs, **9** tier-2 hubs, and **N** tier-3 points (plan table: **1,518** tier-3; overall **1,534** by 2030). Near-term priority: **2** test fields, **4** hubs and **204** tier-3 points. Planning / selection-pool document — not an operational flight authorisation and not evidenced Dongguan–Hong Kong corridor flights.
-  - Status: Officially confirmed municipal layout plan. Corridor not evidenced as operational.
+  - What's new: Municipal planning instrument: **3** test fields, **4** tier-1 hubs, **9** tier-2 hubs, and **N** tier-3 points (plan table: **1,518** tier-3; overall **1,534** by 2030). Near-term priority: **2** test fields, **4** hubs and **204** tier-3 points. Planning / selection-pool document — not an operational flight authorisation.
+  - Status: Officially confirmed municipal layout plan.
   - Read instead: [Shenzhen TOL layout 2026–2035](#press-item-2025-10-29-sz-layout).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -407,8 +411,8 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 [↑ Back to timeline](#press-timeline){.press-back}
 
 - []{#press-item-2026-04-24-ac017 .press-item}**24 Apr 2026 · Civil Aviation Department:** CAD publishes AC-017 on permission for cross-boundary small unmanned aircraft operations within Regulatory Sandbox X. [Link](https://www.cad.gov.hk/documents/AC-017.pdf)
-  - What's new: Sets how to seek Cap. 448G advanced-operations permission for cross-boundary SUA inside Sandbox X. Explicitly does not mean a Shenzhen–Hong Kong commercial route is in service.
-  - Status: CAD advisory circular for Sandbox X context only. Corridor not evidenced as operational.
+  - What's new: Sets how to seek Cap. 448G advanced-operations permission for cross-boundary SUA inside Sandbox X. Permission pathway for Sandbox X context (see Official status for corridor / results rows).
+  - Status: CAD advisory circular for Sandbox X context only.
   - Read instead: Official status / Timeline: CAD AC-017; Sandbox X cross-boundary module.
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方英文 · Official English"}
@@ -538,7 +542,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-01-04-shanghai .press-item}**4 Jan 2026 · Shanghai Municipal Commission of Economy and Informatisation (沪经信装〔2025〕893号; signed 26 Dec 2025):** Shanghai prints *Several Measures on Linking the Yangtze River Delta to Accelerate Building a Low-Altitude Economy Advanced Manufacturing Cluster*. [Link](https://www.shanghai.gov.cn/gwk/search/content/8027f2e569394d57b39986db618212ff)
   - What's new: Mainland comparator manufacturing-cluster package (eVTOL / industrial UAS / new-energy GA assembly and key-tech support, pilot-test platforms, airworthiness incentives, Yangtze Delta coordination). No market-size figures quoted.
-  - Status: Officially confirmed municipal measures. Not a GBA corridor instrument.
+  - Status: Officially confirmed municipal measures.
   - Read instead: Mainland manufacturing-cluster comparator.
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -550,7 +554,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-01-27-gba .press-item}**27 Jan 2026 · info.gov.hk — GBA Development Office / HKSTP:** GBA Office holds a Shenzhen seminar on cross-boundary low-altitude applications; Commissioner says HKSAR will publish the Action Plan this year. [Link](https://www.info.gov.hk/gia/general/202601/27/P2026012700312.htm) · [中文](https://www.info.gov.hk/gia/general/202601/27/P2026012700308.htm)
   - What's new: Official CMAB/GBA Office framing of cross-boundary routes, management systems and eVTOL high-end travel as discussion / opportunity topics. Restates Sandbox X already launched and Action Plan to be issued in 2026 — still text OPEN. No corridor flights evidenced.
-  - Status: Seminar colour only; Action Plan OPEN; Shenzhen–HK corridor not evidenced as operational.
+  - Status: Seminar colour only; Action Plan text still OPEN.
   - Read instead: Official status: Action Plan / Sandbox X; SZ–HK corridor (not evidenced).
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
@@ -570,7 +574,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-01-19-stl-hku .press-item}**19 Jan 2026 · 政府新聞公報 (Chinese GIA only):** STL reviews first-batch Sandbox progress (32 projects then underway), flags Sandbox X for harder cross-boundary / passenger scenarios, and restates intent to draft the Action Plan within the year. [Link](https://www.info.gov.hk/gia/general/202601/19/P2026011900620.htm)
   - What's new: Early-2026 official stocktake. Sandbox count “32 underway” (later LCQ21 says 34 commenced — do not conflate snapshot dates). Flags >150 kg dedicated legislation aspiration. Action Plan still framed as to-be-drafted.
-  - Status: Officially confirmed Chinese-only speech. Action Plan OPEN; Sandbox ≠ Sandbox X.
+  - Status: Officially confirmed Chinese-only speech. Action Plan text still OPEN.
   - Read instead: [LCQ21](#press-item-2026-06-24-lcq21); [Sandbox X launch](#press-item-2025-11-24-sandbox-x).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -675,7 +679,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2025-10-29-sz-layout .press-item}**29 Oct 2025 · Shenzhen Planning and Natural Resources Bureau / DRC / Transport Bureau:** Shenzhen jointly issues *Layout Plan for Low-Altitude Aircraft Take-off and Landing Facilities (2026–2035)*. [Link](https://www.sz.gov.cn/cn/xxgk/zfxxgj/ghjh/csgh/zxgh/content/post_12470231.html) · [plan text republication](https://economy.southcn.com/node_e13b7c1f8b/7f6a8ab1d1.shtml)
   - What's new: City planning announcement with PDF annex. Corroborating Southern Media accounts describe a “56 hubs + 1,500 endpoint take-off/landing points” overall layout and near-term priority of 13 hubs. Planning layout — not operational authorisations or evidenced cross-boundary flights. Detailed numeric layout quoted from Southern Media republication alongside the official issuance notice.
-  - Status: Officially confirmed issuance; layout figures corroborated via republication. Corridor not evidenced.
+  - Status: Officially confirmed issuance; layout figures corroborated via republication.
   - Read instead: [Dongguan 349N](#press-item-2026-05-20-dongguan).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -709,7 +713,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2025-10-13-gd16 .press-item}**13 Oct 2025 · General Office of the People’s Government of Guangdong Province (粤办函〔2025〕268号):** Guangdong issues *Several Measures of Guangdong Province on Supporting High-Quality Development of the Low-Altitude Economy* (16 clauses; effective from release for 3 years). [Link](https://www.gd.gov.cn/gkmlpt/content/4/4788/post_4788687.html)
   - What's new: Provincial support package: airspace release and flight-service platforms; R&D; airworthiness capacity; infrastructure and urban air mobility (GZ/SZ/ZH to pilot intra- and inter-city passenger routes and explore GBA cross-boundary UAS logistics); data and standards; finance and talent. Cross-boundary language is exploration / support — not evidenced SZ–HK operational corridor. No market-size figures quoted.
-  - Status: Officially confirmed provincial measures. Corridor not evidenced as operational.
+  - Status: Officially confirmed provincial measures.
   - Read instead: Official status: SZ–HK corridor (not evidenced); [Shenzhen TOL layout](#press-item-2025-10-29-sz-layout).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}

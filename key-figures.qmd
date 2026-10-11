@@ -70,4 +70,5 @@ Striking numbers only. Every figure links to its issuer. Full status and wording
 - [Official status](tracker.qmd) — settled / OPEN / WATCH rows and quoted sources  
 - [Glossary](glossary.qmd) — altitude and weight diagrams  
 - [Timeline](dates.qmd) — dated instruments  
-- Next Orient: [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd)
+
+**Next:** [Common questions](faq.qmd) · [Home](index.qmd) · Teach: [Lectures](lectures.qmd) · [Readings](readings.qmd)

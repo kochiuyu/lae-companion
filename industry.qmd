@@ -5,6 +5,10 @@ as_of: "2026-10-10"
 page-layout: article
 ---
 
+## Standing note
+
+Company and press claims on this page are not treated as government fact. Sandbox counts and corridor status live on [Official status](tracker.qmd). Item lines below focus on what is new.
+
 ## How to read the tags
 
 - **Company-announced:** the company’s own claim.
@@ -137,7 +141,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 
 - **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on Government news, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
   - Tag: Independently reported
-  - Status: Sandbox X cross-boundary results still OPEN; Shenzhen–HK corridor not evidenced as operational.
+  - Status: Sandbox X cross-boundary results still OPEN (Official status).
   - Read instead: [Government news, 5 Oct 2026](news.qmd)
 
 ### September 2026 {#industry-2026-09}
@@ -433,7 +437,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 - []{#industry-item-2026-03-26-szhk .industry-item}**26 Mar 2026 · 香港文匯報 (Wen Wei Po):** LSCM and CEPREI release a “Shenzhen–HK low-altitude cross-border logistics solution”; three priority cross-border drone routes named. [Link](https://www.wenweipo.com/a/202603/27/AP69c5cb01e4b0b49ad1b41cb6.html)
   - Tag: Independently reported
   - What's new: Reported plans: a SZ–HK cross-border logistics sandbox pilot and three routes to be tested first (Shekou–Tuen Mun, Man Kam To–Sheung Shui, inside the Loop).
-  - Status: Plans only; no cross-border flight evidenced. Shenzhen–HK corridor not evidenced as operational.
+  - Status: Plans only; no cross-border flight evidenced in this item.
   - Read instead: [21经济网](https://www.21jingji.com/article/20260328/herald/973b0ec1559dfb075e3c3f6bef7b5a1c.html); Official status: SZ–HK corridor
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}

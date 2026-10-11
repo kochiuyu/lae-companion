@@ -15,7 +15,7 @@ Master of Aviation Management
 Course companion for DOTE5891 — lecture slides, readings, and supporting evidence.
 
 <!-- Start here: term not in session yet (first offering Dec 2026). When a teaching week is active, point these two links at lectures.qmd#week-N and readings.qmd#week-N. -->
-**Start here:** [Lectures](lectures.qmd) · [Readings](readings.qmd)
+**Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · then [Lectures](lectures.qmd) · [Readings](readings.qmd)
 
 ::: {.hub-grid}
 ::: {.hub-card}

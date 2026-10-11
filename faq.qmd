@@ -24,7 +24,7 @@ In everyday speech, people say “drone.” Hong Kong law’s main label for lig
 
 ## 4. What are Sandbox and Sandbox X?
 
-Two **different** Hong Kong trial programmes — an early **Regulatory Sandbox** and a later **Sandbox X**. Do not mix their project counts. Plain wording: [Who decides what?](regulators.qmd#standing-caveats); numbers: [Key figures](key-figures.qmd).
+Two **different** Hong Kong trial programmes — an early **Regulatory Sandbox** and a later **Sandbox X**. Plain wording: [Who decides what?](regulators.qmd#standing-caveats); numbers: [Key figures](key-figures.qmd).
 
 ## 5. Is the Shenzhen–Hong Kong corridor already flying?
 
@@ -40,7 +40,7 @@ Short roles: Working Group (strategy), **TLB** (policy bureau), **CAD** (Cap. 44
 
 ## 8. How does the business side fit together?
 
-LAE is a **whole service** (craft, sites, traffic, operators, customers, supporting services). Who pays whom is on [How does LAE work?](business-overview.qmd); firm lists (claims ≠ facts) on [Companies & sectors](landscape.qmd).
+LAE is a **whole service** (craft, sites, traffic, operators, customers, supporting services). Who pays whom is on [How does LAE work?](business-overview.qmd); firm lists on [Companies & sectors](landscape.qmd).
 
 ## 9. Where are lectures and readings?
 
