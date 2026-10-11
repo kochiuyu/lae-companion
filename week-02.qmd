@@ -1,19 +1,22 @@
 ---
 title: "Week 2: LAE Market Structure and Competition"
-subtitle: "Lecture notes, slides, and readings"
-as_of: "2026-10-11"
+subtitle: "How competition, density, and scarce sites shape LAE markets"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
 format:
   html:
+    html-math-method: katex
     body-classes: "page-week"
 ---
 
 [← Week 1](week-01.qmd) · [Week 3 →](week-03.qmd)
 
 **Slides (PDF):** [week02-market-structure.pdf](slides/week02-market-structure.pdf)
+
+This page is the Week 2 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 1 built the LAE system and simple viability tools; this week asks **who competes with whom**, why **scarce landing space and route density** matter, and when rivals might **share infrastructure** instead of duplicating it. Orient refreshers: [How does LAE work?](business-overview.qmd) · [Companies & sectors](landscape.qmd) · [Who decides what?](regulators.qmd).
 
 ## Summary {#summary}
 
@@ -31,9 +34,286 @@ format:
 - Capacity constraints and differentiation can soften price wars—but they do not guarantee high prices or profits.
 - Co-opetition can cut duplicated infrastructure cost if access, investment, and control rules are clear.
 
-## Notes {#notes}
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples below use round figures (shares, rents, flights, fares). They are **illustrative assumptions for learning**, not current Hong Kong market data, corridor forecasts, or named operators' real costs.
+:::
 
-Full textbook-style lecture notes for this week are not on the site yet. Until they are, use the slides PDF above with the Summary on this page. Week 1 shows the finished pattern on [Week 1](week-01.qmd).
+## Learning objectives
+
+By the end of Week 2 you should be able to:
+
+1. **Explain** how market structure shapes competition in different LAE services (and why LAE is not one single market).  
+2. **Explain** how utilization and route density can reduce average cost when fixed costs are large.  
+3. **Identify** main barriers that make entry costly or difficult (including NASA-style categories used in class).  
+4. **Use** simple tools — HHI as a screen, average-cost / density equations, limit pricing, Bertrand intuition with capacity, and a co-opetition cost split — to organise an argument.  
+5. **Evaluate** how Hong Kong and the wider GBA may contribute complementary capabilities without treating trial participation as proof of market dominance.
+
+---
+
+## 1. Why market structure matters in LAE
+
+Week 1 asked whether a service might create value and cover cost. Week 2 asks a different managerial question: **in this corridor or segment, who has bargaining power — and why?**
+
+Imagine two operators in Hong Kong airspace. One pushes low prices on drone cargo to the New Territories; another locks scarce air-taxi access toward the airport. They are not only fighting for customers. In a dense city they also fight for **physical landing and handling space** — rooftops, pads, charging, and related access that cannot be duplicated cheaply.
+
+That fight does not look the same in every LAE application. Competition may differ by **service type**, **corridor**, and **infrastructure layer** (aircraft vs sites vs digital coordination vs supporting services). Roles and firm lists for Hong Kong / GBA sit on [How does LAE work?](business-overview.qmd) and [Companies & sectors](landscape.qmd); this week supplies the economic language to interpret them.
+
+**Sandbox note:** participation in a Hong Kong trial programme (the early **Regulatory Sandbox** or later **Sandbox X**) is evidence about *testing under controlled conditions*. It does **not** by itself establish market dominance or commercial scale. Keep the two programmes separate ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); [FAQ](faq.qmd)).
+
+---
+
+## 2. What economists mean by “market structure”
+
+Before analysing flying taxis or drone corridors, label how competition is organised in a **defined market** (product + geography + customer type — for example “premium passenger trips on a named corridor,” not “all of LAE”).
+
+Three classic structures (simplified):
+
+| Structure | Plain meaning | Everyday analogy (not an LAE claim) |
+|-----------|---------------|-------------------------------------|
+| **Monopoly** | One provider serves the defined market. Pricing power is still limited by demand, regulation, and substitutes. | A single toll tunnel on a route |
+| **Oligopoly** | A small number of large players watch each other; one price cut can trigger responses. | A handful of mobile networks |
+| **Perfect competition** | Many small sellers of a homogeneous product; no one can raise price alone. | Many stalls selling the same simple item |
+
+**Core lesson for LAE:** there is no single market structure for the whole low-altitude economy. Last-mile logistics, passenger air taxis, industrial inspection, and emergency medical missions can look like different competitive games — even in the same city.
+
+### Who might compete?
+
+Depending on the market you define, rivals may include aircraft developers and manufacturers; transport and logistics operators; telecommunications and digital-platform providers; infrastructure providers (landing, charging, maintenance); and supporting-service providers (finance, leasing, insurance, certification, professional services). Always state **which layer** you are analysing before talking about “the LAE market.”
+
+---
+
+## 3. Four segments — four competitive logics
+
+Class organises early LAE battles into four families (aligned with Week 1’s value families, but now with a competition lens):
+
+1. **Last-mile logistics** — speed and cost rule; drones win when they beat road congestion on predictable B2B routes.  
+2. **Passenger air taxis** — time is the product; premium travellers may pay for minutes saved on congested corridors.  
+3. **Industrial inspection and surveying** — reliability and disruption avoidance matter; buyers pay to inspect assets without shutting ground traffic.  
+4. **Emergency medical services (EMS)** — very high willingness to pay when time and access are mission-critical.
+
+Dated trial and operating examples (not market-share claims): [Use cases](usecases.qmd).
+
+---
+
+## 4. Market concentration and the HHI screen
+
+**Concentration** asks how much of a defined market’s activity sits with the largest players. If one operator uniquely controls a corridor’s usable landing access, pricing pressure from rivals is weak. If several operators can use the same scarce site under clear rules, prices are more contested.
+
+### Herfindahl–Hirschman Index (HHI)
+
+A common screening measure is:
+
+$$
+HHI = \sum_{i=1}^{N} s_i^2
+$$
+
+where $s_i$ is firm $i$’s market share **in percent** in the defined market (so a pure monopoly scores $100^2 = 10{,}000$). Squaring **amplifies** large shares: a firm with 90% contributes $8{,}100$; four equal 25% firms contribute $4 \times 625 = 2{,}500$.
+
+Course glossary entry: [HHI](glossary.qmd) (course term).
+
+**Policy use in this course:** HHI is a **screen**. A high score may justify closer look at entry conditions and conduct. It does **not** by itself prove illegal market power or dictate a regulatory response.
+
+### Worked illustration (classroom shares)
+
+**Scenario (illustrative):** shares on a hypothetical delivery corridor under review.
+
+| | Case A: four equal operators | Case B: one large, one small |
+|--|------------------------------|------------------------------|
+| Shares | 25%, 25%, 25%, 25% | 80%, 20% |
+| HHI | $4 \times 25^2 = \mathbf{2{,}500}$ | $80^2 + 20^2 = 6{,}400 + 400 = \mathbf{6{,}800}$ |
+
+Case B is far more concentrated and may warrant closer examination of **entry** and **access to sites** — still without claiming that any real Hong Kong corridor has these shares.
+
+---
+
+## 5. Fixed cost, marginal cost, and average cost per flight
+
+To see why landing pads and utilization dominate LAE competition, separate two cost ideas:
+
+- **Fixed costs** — paid even if you fly zero customers (for example a long lease on a rooftop site).  
+- **Marginal (variable) cost** — the extra cost of one more flight (energy, minor wear, and similar).
+
+Average total cost per flight (simple teaching form):
+
+$$
+\text{ATC} = \frac{\text{Fixed costs}}{\text{Number of flights}} + \text{Marginal cost}
+$$
+
+More flights **spread** the fixed charge. Low utilization makes each flight look extremely expensive even if energy is cheap.
+
+### Worked illustration (rooftop rent)
+
+**Assumptions (illustrative):** rooftop pad lease **HK\$1,000,000 per month** ≈ **HK\$33,333 per day**; marginal cost **HK\$50 per flight**.
+
+| | Low utilization (20 flights/day) | High utilization (200 flights/day) |
+|--|----------------------------------|--------------------------------------|
+| Fixed cost per flight | $33{,}333 / 20 =$ **HK\$1,667** | $33{,}333 / 200 =$ **HK\$167** |
+| + Marginal cost | HK\$50 | HK\$50 |
+| **ATC** | **HK\$1,717** | **HK\$217** |
+
+**Takeaway:** high fixed site costs make low utilization deadly. Operators must earn enough reliable daily volume — subject to demand, weather, regulation, and pad throughput (Week 5 deepens infrastructure).
+
+---
+
+## 6. Economies of density (not bigger vehicles)
+
+Traditional airlines often chase **economies of scale** with larger aircraft. Many LAE concepts cannot “go bigger” the same way: passenger eVTOL ideas may have only a handful of seats; delivery drones carry limited payload.
+
+Instead, LAE economics leans on **economies of density**: running **more volume through the same corridor and sites** so fixed route and pad costs are spread thinly. Achievable density is limited by demand, pad capacity, congestion, weather, and rules — density is not a free lunch.
+
+A teaching form that highlights density in the denominator:
+
+$$
+\text{Average cost per flight} = \frac{\text{Fixed route costs}}{\text{Flights} \times \text{Density factor}} + \text{Marginal cost}
+$$
+
+(In the simplest classroom cases, “density” is just higher flight count on the same fixed pad.)
+
+**Incumbent angle:** an operator that already has volume and site access may sustain a lower average cost than a thin entrant — one reason early control of scarce pads can look like a competitive moat. **Network effects** (a wider network is more useful to customers) are related but conceptually distinct from density on one corridor.
+
+### Worked illustration (density trap)
+
+**Assumptions (illustrative):** fixed pad cost **HK\$50,000/day**; marginal cost **HK\$100/flight**.
+
+| | Operator A: 20 flights/day | Operator B: 500 flights/day |
+|--|----------------------------|-----------------------------|
+| Fixed per flight | HK\$2,500 | HK\$100 |
+| + MC | HK\$100 | HK\$100 |
+| **Cost per flight** | **HK\$2,600** | **HK\$200** |
+
+Under these assumptions B has a much lower average cost. Whether 500 flights/day is operationally or commercially feasible is a separate evidence question.
+
+---
+
+## 7. Entry barriers: a NASA-style checklist
+
+NASA’s UAM market work (2018) is used in this course as a **practical checklist** of why new entrants struggle — not as Hong Kong law. Three barriers emphasised in class:
+
+1. **Regulatory / certification** — years of testing, documentation, and approvals before routine paying operations (the “valley of death” for capital).  
+2. **Infrastructure availability** — scarce sites, power, and related ground systems in a land-constrained city.  
+3. **Public perception** — noise, privacy, or visual concerns that can shrink operating windows or close corridors.
+
+Importance varies by application and over time. Hong Kong’s institutional map (Working Group, TLB, CAD, OFCA) is on [Who decides what?](regulators.qmd); citeable programme status is on [Official status](tracker.qmd).
+
+### Sunk costs
+
+A **sunk cost** is expenditure you cannot recover if you exit (for example much of the spend on a one-off approval process that cannot be resold). High sunk entry costs deter startups; incumbents may benefit because rivals must “pay to show up” before competing on price.
+
+### Limit pricing
+
+If an incumbent could charge a very high monopoly price, that profit signal might attract entry. **Limit pricing** means charging low enough that a potential entrant’s expected average cost (including amortised sunk entry cost) is not covered — a teaching strategy, not a guarantee that entry is blocked.
+
+$$
+P_{\text{Limit}} \approx AC_{\text{Entrant}} = \frac{\text{Sunk entry cost}}{\text{Expected volume } Q} + MC
+$$
+
+### Worked illustration (limit price and shared pads)
+
+**Assumptions (illustrative):** entrant expects $Q = 10{,}000$ flights; $MC =$ HK\$200.
+
+| | High sunk entry (own pad build-out) | Lower sunk entry (shared pad access) |
+|--|--------------------------------------|--------------------------------------|
+| Sunk entry cost | HK\$10,000,000 | HK\$1,000,000 |
+| $AC_{\text{Entrant}}$ | $1{,}000 + 200 =$ **HK\$1,200** | $100 + 200 =$ **HK\$300** |
+| Example limit-style price | ~**HK\$1,190** | ~**HK\$290** |
+
+When policy or contracts force **sharing** of scarce pads, the incumbent’s “moat” from sunk infrastructure shrinks and limit prices fall. The arithmetic estimates a break-even screen — it does not prove that limit pricing always deters entry.
+
+---
+
+## 8. Hong Kong experimentation and GBA scale
+
+Competitive strategy in this course is HK-first but GBA-aware:
+
+- **GBA strengths** often sit in aircraft, electronics, batteries, and supply chains.  
+- **Hong Kong** may contribute dense urban testing plus finance, insurance, logistics, legal, and professional services.  
+- **Sandbox X** (distinct from the earlier Regulatory Sandbox) supports controlled trials that generate evidence and reduce uncertainty — still **not** a waiver of safety rules and **not** automatic commercial approval ([Key figures](key-figures.qmd)).  
+- Cross-boundary ideas need coordination on routes, customs, data, communications, and safety; a Shenzhen–Hong Kong corridor is **not** treated here as day-to-day operating service ([Regulators · standing caveats](regulators.qmd#standing-caveats)).
+
+Hong Kong’s service-layer role is a **strategy to build**, not an automatic outcome (same theme as Week 1).
+
+---
+
+## 9. Price competition when capacity is scarce
+
+### Bertrand intuition
+
+If two operators offer a homogeneous service with **unconstrained** capacity, price undercutting can drive price down toward **marginal cost** — a “race to the bottom” where margins vanish (Bertrand-style teaching model):
+
+$$
+P = MC \quad \text{(unconstrained capacity, homogeneous product)}
+$$
+
+### Why scarce pads change the story
+
+In land-scarce settings, vertiport or pad rules may cap how many movements each operator can run. If **total capacity is below demand**, neither firm can serve the whole market by cutting price alone. Capacity constraints **may soften** price wars. Reliability, schedule, access quality, and brand can also differentiate services.
+
+Capacity limits do **not** guarantee high prices or profits: allocation rules, regulation, demand shocks, and quality still matter. Week 8 returns to congestion and slot logic.
+
+### Worked illustration (capacity vs price war)
+
+**Assumptions (illustrative):** $MC =$ HK\$100; willingness to pay up to HK\$500; demand = 100 passengers.
+
+| | Unconstrained fleets | Each limited to 30 flights/day (total 60 < 100) |
+|--|----------------------|--------------------------------------------------|
+| Logic | Undercutting can push $P$ toward **HK\$100** | Neither can absorb all demand; price pressure **may** be weaker |
+| Lesson | Price war destroys margins | Scarcity can support margins — not a promise of $P =$ HK\$500 |
+
+---
+
+## 10. Co-opetition: compete on service, share the roof
+
+Airlines sometimes compete for passengers while sharing lounges or codeshares. Early LAE operators may need a similar split:
+
+- **Compete** on vehicle, app experience, reliability, and brand.  
+- **Cooperate** on scarce landing sites, charging, or digital traffic coordination where duplication is ruinously expensive.
+
+**Co-opetition** only lowers unit cost if rules for **access, investment, control, congestion, data, liability, and competition law** are clear. Sharing without governance can recreate conflict.
+
+Teaching split of a shared fixed infrastructure cost among $N$ operators:
+
+$$
+\text{Savings per operator relative to going alone} = \frac{\text{Fixed infrastructure cost} \times (N-1)}{N}
+$$
+
+### Worked illustration (shared rooftop)
+
+**Assumptions (illustrative):** Kowloon rooftop site **HK\$100,000/day**.
+
+| | Alone | Four operators share equally |
+|--|-------|------------------------------|
+| Fixed cost per operator | HK\$100,000 | HK\$25,000 |
+| If each flies 100 times/day | HK\$1,000 rent/flight | HK\$250 rent/flight |
+
+Sharing is one of the fastest ways to survive extreme land costs — if the access rules work.
+
+---
+
+## 11. Global comparators (not Hong Kong law)
+
+Firms adapt entry strategy to how each jurisdiction sequences trials, certification, infrastructure, and deployment:
+
+- **Hong Kong** — sandboxes (including **Sandbox X** for more complex trials) generate controlled evidence.  
+- **Europe (U-space framing)** — digital traffic rules and services as a structured comparator.  
+- **USA (e.g. FAA Innovate28-style planning)** — implementation plans coordinating certification, operations, airspace, infrastructure, environment, and community engagement.
+
+Use these as **comparators** on [Who decides what?](regulators.qmd) and [Readings](#readings) — not as plug-in Hong Kong compliance checklists.
+
+---
+
+## 12. Putting Week 2 together
+
+Define the market narrowly. Measure concentration only as a **screen** (HHI). Trace average cost to **fixed sites + utilization/density**. Treat NASA-style barriers and **sunk costs** as the material of moats and **limit pricing**. Expect **Bertrand-style** pressure when capacity is loose; expect softer price wars when pads bind — without assuming profits. Use **co-opetition** when shared infrastructure beats duplication, with governance attached. Keep **Sandbox ≠ Sandbox X**, and never confuse trial participation with proven dominance.
+
+The short checklist is in [Summary](#summary) above.
+
+---
+
+## Further reading and course links
+
+- **Documents for this week:** [Readings](#readings) on this page (Policy Address institutional map; Shenzhen statute / NDRC diffusion as GBA entry context; WEF actor landscape).  
+- **Evidence pages:** [Companies & sectors](landscape.qmd) · [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Glossary](glossary.qmd).  
+- **Slides:** [week02-market-structure.pdf](slides/week02-market-structure.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 2 memo brief used in class.
 
 ## Readings {#readings}
 
@@ -61,6 +341,12 @@ Full textbook-style lecture notes for this week are not on the site yet. Until t
 **Think-tank**
 
 - [World Economic Forum, in collaboration with Kearney (July 2024). *Advanced Air Mobility: Shaping the Future of Aviation* (White Paper).](https://www3.weforum.org/docs/WEF_Advanced_Air_Mobility_2024.pdf) — Systematises AAM use cases and the actor landscape (in collaboration with Kearney).
+
+## Looking ahead to Week 3
+
+Week 3 turns to **cost structures and revenue management**: separating CAPEX, fixed OPEX, and variable cost; unit measures such as CASK; breakeven; and how weather and downtime reshape risk. Preview question: how do you keep a business from failing when a multi-day storm grounds the fleet?
+
+Continue: [Week 3](week-03.qmd) · [Course overview](overview.qmd).
 
 ---
 
