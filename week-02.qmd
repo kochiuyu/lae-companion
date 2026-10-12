@@ -54,7 +54,7 @@ By the end of Week 2 you should be able to:
 4. **Use** simple tools — HHI as a screen, average-cost / density equations, limit pricing, Bertrand intuition with capacity, and a co-opetition cost split — to organise an argument.  
 5. **Evaluate** how Hong Kong and the wider GBA may contribute complementary capabilities without treating trial participation as proof of market dominance.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -85,6 +85,8 @@ Week 1’s empty-seat / utilization arithmetic already hinted that **fixed site 
 :::
 
 ---
+
+Section 1 asked why structure matters for LAE. Economists answer with a precise idea of **market structure** — how many rivals, how differentiated the product, and how hard entry is — before anyone talks about “dominance.”
 
 ## 2. What economists mean by “market structure”
 
@@ -117,9 +119,11 @@ Three classic structures (simplified):
 
 Depending on the market you define, rivals may include aircraft developers and manufacturers; transport and logistics operators; telecommunications and digital-platform providers; infrastructure providers (landing, charging, maintenance); and supporting-service providers (finance, leasing, insurance, certification, professional services). Always state **which layer** you are analysing before talking about “the LAE market.”
 
-**Beyond the slide.** An OEM, a vertiport landlord, and a logistics operator can all be “competitors” only if you fuzz the market definition. Define the **product** (e.g. last-mile B2B parcels under 5 kg on a named corridor) and the **layer** (operator vs site owner). Otherwise HHI and “dominance” become meaningless.
+**Connecting idea.** An OEM, a vertiport landlord, and a logistics operator can all be “competitors” only if you fuzz the market definition. Define the **product** (e.g. last-mile B2B parcels under 5 kg on a named corridor) and the **layer** (operator vs site owner). Otherwise HHI and “dominance” become meaningless.
 
 ---
+
+Structure labels (monopoly, oligopoly, competition) are empty until you name **which product and which layer** compete. LAE is not one market: logistics, inspection, passenger concepts, and emergency services follow different competitive logics.
 
 ## 3. Four segments — four competitive logics
 
@@ -144,6 +148,8 @@ Dated trial and operating examples (not market-share claims): [Use cases](usecas
 **Managerial implication:** do not import a “passenger oligopoly” story into an inspection tender, or a “logistics price war” story into an EMS availability contract (Week 6 payment design).
 
 ---
+
+Four segments, four logics. Concentration tools come next: the **HHI screen** is a classroom way to summarise how uneven shares look — useful only after the market definition in §§2–3 is clear.
 
 ## 4. Market concentration and the HHI screen
 
@@ -174,13 +180,15 @@ Course glossary entry: [HHI](glossary.qmd) (course term).
 
 Case B is far more concentrated and may warrant closer examination of **entry** and **access to sites** — still without claiming that any real Hong Kong corridor has these shares. (Slide titles that say “Sandbox Dominance” are teaching labels for Case B’s *story* — they do **not** mean Sandbox selection equals market share.)
 
-### Beyond the slide: what HHI does *not* tell you
+### Connecting idea: what HHI does *not* tell you
 
 - It does not identify whether the “pie” is seats, flights, revenue, or pad movements — you must define the metric.  
 - It does not prove that high concentration came from exclusionary conduct rather than superior density or early site leases.  
 - It ignores **substitutes** outside the defined market (road delivery, Airport Express, manned inspection). Week 1’s generalized-cost logic still bounds pricing power.
 
 ---
+
+HHI describes shares. Cost structure explains why those shares might stick: when **fixed cost** is large relative to marginal cost, average cost falls with volume and scale / density start to look like a moat.
 
 ## 5. Fixed cost, marginal cost, and average cost per flight
 
@@ -214,6 +222,8 @@ More flights **spread** the fixed charge. Low utilization makes each flight look
 Week 1’s operating-restriction example (same fixed lease, fewer flights) is the same ATC logic under a **noise window** shock. Week 2 adds the competitive twist: if only one firm can reach 200 flights/day because it alone has pad access, ATC gaps can **look like** a moat — and HHI may later rise on that corridor. Causation runs from **scarce sites → density → ATC → possible concentration**, not from “HHI causes low cost.”
 
 ---
+
+Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a related question: does packing more activity onto the *same* corridor or pad cut unit cost — without needing a bigger vehicle?
 
 ## 6. Economies of density (not bigger vehicles)
 
@@ -259,9 +269,11 @@ $$
 
 Under these assumptions B has a much lower average cost. Whether 500 flights/day is operationally or commercially feasible is a separate evidence question — Week 5 throughput and Week 8 congestion tools test that claim.
 
-**Beyond the slide.** Do not treat “500 flights/day” as a Hong Kong forecast. Use it only to see how steeply ATC falls with density *if* demand and pad rules allow it.
+**Connecting idea.** Do not treat “500 flights/day” as a Hong Kong forecast. Use it only to see how steeply ATC falls with density *if* demand and pad rules allow it.
 
 ---
+
+Density can lower ATC *if* volume is allowed. **Entry barriers** ask why rivals might never reach that volume — sunk pads, certification, scarce sites, and limit pricing belong on one checklist.
 
 ## 7. Entry barriers: a NASA-style checklist
 
@@ -303,6 +315,8 @@ When policy or contracts force **sharing** of scarce pads, the incumbent’s “
 
 ---
 
+Barrier checklists are general. Hong Kong’s answer to “learn before you scale” is the **sandbox track** — and GBA scale is a separate regional story. Keep programme names and corridor claims absolute.
+
 ## 8. Hong Kong experimentation and GBA scale
 
 Competitive strategy in this course is HK-first but GBA-aware:
@@ -329,6 +343,8 @@ Hong Kong’s service-layer role is a **strategy to build**, not an automatic ou
 
 ---
 
+Place and programmes set the institutional stage. When **capacity is scarce**, price competition need not look like textbook Bertrand — pad limits and ATC reshape who can undercut whom.
+
 ## 9. Price competition when capacity is scarce
 
 ### Bertrand intuition
@@ -354,13 +370,15 @@ Capacity limits do **not** guarantee high prices or profits: allocation rules, r
 | Logic | Undercutting can push $P$ toward **HK$100** | Neither can absorb all demand; price pressure **may** be weaker |
 | Lesson | Price war destroys margins | Scarcity can support margins — not a promise of $P =$ HK$500 |
 
-### Beyond the slide: connecting Bertrand to ATC and HHI
+### Connecting idea: connecting Bertrand to ATC and HHI
 
 - If ATC is HK$1,717 at low utilization ([§5](#worked-illustration-rooftop-rent)), a Bertrand outcome at $P=MC=\text{HK\$50}$ is **financially ruinous** — firms will exit or seek pad scarcity / differentiation.  
 - If pads are shared and capacity expands, Bertrand pressure can return — which is why co-opetition needs **access rules**, not only a lower rent bill ([§10](#10-co-opetition-compete-on-service-share-the-roof)).  
 - High HHI on a pad-constrained corridor may coexist with soft price competition — or with regulated access prices. HHI alone cannot tell which.
 
 ---
+
+Scarce pads can support margins *or* invite sharing. **Co-opetition** asks whether rivals can share the roof while still competing on service — and what governance that requires.
 
 ## 10. Co-opetition: compete on service, share the roof
 
@@ -392,6 +410,8 @@ Sharing is one of the fastest ways to survive extreme land costs — if the acce
 
 ---
 
+Hong Kong and GBA facts are local. **Global comparators** (NASA, EASA, mainland notices) show other institutional settings — useful for structure thinking, never as Hong Kong law or market share.
+
 ## 11. Global comparators (not Hong Kong law)
 
 Firms adapt entry strategy to how each jurisdiction sequences trials, certification, infrastructure, and deployment:
@@ -404,6 +424,8 @@ Use these as **comparators** on [Who decides what?](regulators.qmd) and [Reading
 
 ---
 
+Pull the thread: define the market → segment logic → HHI with eyes open → ATC and density → barriers and sandboxes → scarce-capacity pricing and co-opetition — then refuse trial counts as dominance.
+
 ## 12. Putting Week 2 together
 
 Define the market narrowly. Measure concentration only as a **screen** (HHI). Trace average cost to **fixed sites + utilization/density**. Treat NASA-style barriers and **sunk costs** as the material of moats and **limit pricing**. Expect **Bertrand-style** pressure when capacity is loose; expect softer price wars when pads bind — without assuming profits. Use **co-opetition** when shared infrastructure beats duplication, with governance attached.
@@ -414,7 +436,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 13. Study checklist (beyond the slides)
+## 13. Study checklist
 
 1. Define a **narrow market** (product + geography + customer + layer) before talking about competition.  
 2. Explain why LAE is **not one market structure**.  

@@ -49,7 +49,7 @@ By the end of Week 11 you should be able to:
 4. **Present** a concise 12-minute recommendation supported by transparent evidence and sensitivity analysis.  
 5. **Defend** the proposal by explaining limitations, decision gates, and conditions under which the recommendation should change.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -73,9 +73,11 @@ A strong capstone does more than collect ten weeks of separate calculations:
 
 **Synthesis** means tracing how one changed assumption affects the rest of the model. Ask which assumption in your project creates the largest cascade if it changes.
 
-**Beyond the slide.** If noise mitigation raises $C_{\mathrm{priv}}$ or fixed cost (Week 10) and a curfew cuts reliable capacity $K$ (Week 8), both effects must hit the **same** cash-flow path — not two independent “ESG slides” that never change $\Pi_{\mathrm{op}}$ or $\mathrm{NPV}$.
+**Connecting idea.** If noise mitigation raises $C_{\mathrm{priv}}$ or fixed cost (Week 10) and a curfew cuts reliable capacity $K$ (Week 8), both effects must hit the **same** cash-flow path — not two independent “ESG slides” that never change $\Pi_{\mathrm{op}}$ or $\mathrm{NPV}$.
 
 ---
+
+Section 1 insisted on one connected system. The **integration challenge** makes the rivets visible: $D_{\mathrm{served}}$, capacity $K$, and operating profit must share one cash-flow path.
 
 ## 2. The integration challenge
 
@@ -138,9 +140,11 @@ Demand may be limited by price, travel time, or customer acceptance. Capacity ma
 
 The capacity shock reduces served activity even though customer demand is unchanged. Because fixed cost remains, the service falls from a daily profit of HK\$10,000 to breakeven. No claim about annual Hong Kong weather downtime.
 
-**Beyond the slide.** Raising marketing spend to lift $D$ does nothing when $K$ binds — the same diagnosis Week 9 used when $D_{\mathrm{pot}} > K$. In the pitch, say which lever is binding before you “solve” the wrong constraint.
+**Connecting idea.** Raising marketing spend to lift $D$ does nothing when $K$ binds — the same diagnosis Week 9 used when $D_{\mathrm{pot}} > K$. In the pitch, say which lever is binding before you “solve” the wrong constraint.
 
 ---
+
+Viability rivets need a storyboard. The **integrated strategy template** gives six blocks — and an illustrative airport-corridor screen — so the pitch is a model, not a collage.
 
 ## 3. Integrated strategy template
 
@@ -181,9 +185,11 @@ A coherent capstone should connect six decision blocks:
 
 **Decision:** recommend proceed, stage, redesign, relocate, or reject — with explicit conditions that would change the recommendation. Do not invent published corridor capacities or claim cross-boundary corridors as day-to-day service.
 
-**Beyond the slide.** Straubinger et al. and the FAA AAM Implementation Plan ([Readings](#readings)) are useful **organisers** for a roadmap slide — they are not Hong Kong law and do not replace Cap. 448G / AC-013 / AC-017 pathways.
+**Connecting idea.** Straubinger et al. and the FAA AAM Implementation Plan ([Readings](#readings)) are useful **organisers** for a roadmap slide — they are not Hong Kong law and do not replace Cap. 448G / AC-013 / AC-017 pathways.
 
 ---
+
+A template without gates is a wish list. The **risk register and decision-gated roadmap** bind each material risk to a model channel and a stop/expand trigger.
 
 ## 4. Risk register and decision-gated roadmap
 
@@ -199,9 +205,11 @@ Do **not** assume fixed Sandbox X approval dates. Under **AC-013**, BVLOS permis
 
 Phased gates echo Weeks 6–8: expand only when evidence, review, and risk controls justify it. Week 8’s roadmap $\mathrm{NPV}$ is the financial check on that staging story — not a substitute for the permission gate.
 
-**Beyond the slide.** A risk register row that never changes $D$, $K$, $p$, $v$, $F$, or launch timing is decoration. Each material risk needs a model channel (Week 9) and a gate that can stop expansion (Week 8).
+**Connecting idea.** A risk register row that never changes $D$, $K$, $p$, $v$, $F$, or launch timing is decoration. Each material risk needs a model channel (Week 9) and a gate that can stop expansion (Week 8).
 
 ---
+
+Gates face humans. The **decision-maker’s lens** asks what investors, regulators, and communities will treat as strong evidence — and which category errors to refuse aloud.
 
 ## 5. The decision-maker's lens
 
@@ -241,9 +249,11 @@ Use formulas only where they clarify the decision. The objective is a **defensib
 
 A strong analysis can still recommend **rejection or delay**. Credibility matters more than producing a favourable answer.
 
-**Beyond the slide.** “HK\$350bn” (OHKF value-added projection from Week 9) is **not** your obtainable demand. “Electric” (Week 10) is **not** zero life-cycle emissions. Name the channel; refuse category errors in the pitch.
+**Connecting idea.** “HK\$350bn” (OHKF value-added projection from Week 9) is **not** your obtainable demand. “Electric” (Week 10) is **not** zero life-cycle emissions. Name the channel; refuse category errors in the pitch.
 
 ---
+
+Evidence needs a delivery format. **Presentation logistics** and the twelve-slide deck turn the model into a timed pitch with feedback hooks — still not a substitute for the numbers.
 
 ## 6. Presentation logistics and feedback
 
@@ -294,6 +304,8 @@ Assessment logistics and grading weights stay on the teaching platform; the slid
 
 ---
 
+Pull the thread: cascade → viability test → six-block template → gated risks → decision-maker evidence → rehearsed close — keep Sandbox ≠ Sandbox X and OHKF attribution intact.
+
 ## 7. Putting Week 11 together
 
 Synthesis requires a **connected model**, not a collection of independent weekly calculations. Served activity is limited by both customer demand and reliable capacity. Judge viability through contribution, cash flow, NPV, downside risk, and non-financial criteria together. Put constraints into explicit model channels without double counting. A credible recommendation states evidence, limitations, residual risks, and conditions for changing course. Clear presentation supports judgment by making assumptions and trade-offs visible rather than hiding uncertainty. Keep absolute facts with issuers; keep **Sandbox ≠ Sandbox X**.
@@ -302,7 +314,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 8. Study checklist (beyond the slides)
+## 8. Study checklist
 
 1. Trace one assumption change through demand → capacity → cost → cash flow → legitimacy.  
 2. Compute $D_{\mathrm{served}}$ and $\Pi_{\mathrm{op}}$ for a capacity shock with fixed $D$.  

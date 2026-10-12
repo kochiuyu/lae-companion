@@ -49,7 +49,7 @@ By the end of Week 12 you should be able to:
 4. **Apply** the course viability test to integrated quantitative scenarios.  
 5. **Develop** recommendations that remain consistent with operational, regulatory, financial, and social constraints.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -68,9 +68,11 @@ The final week asks how an LAE project moves from a controlled trial to a **repe
 
 Which part of the value chain is most likely to create durable value — aircraft, operations, infrastructure, software, finance, or professional services — is an empirical question, not a slogan ([How does LAE work?](business-overview.qmd)).
 
-**Beyond the slide.** Week 11’s recommendation (proceed / stage / redesign / reject) is the input to Week 12’s network question: if you stage, which **node** or **link** earns the next gate — not “add twenty vertiports because $L$ looks large.”
+**Connecting idea.** Week 11’s recommendation (proceed / stage / redesign / reject) is the input to Week 12’s network question: if you stage, which **node** or **link** earns the next gate — not “add twenty vertiports because $L$ looks large.”
 
 ---
+
+Section 1 set the horizon: from trial to repeatable system. **Corridors to networks** asks how node count raises possible links — screening math, not a forecast that every link flies.
 
 ## 2. From corridors to networks
 
@@ -126,9 +128,11 @@ If direction matters, possible origin–destination links are $N(N-1)$. The form
 
 More nodes increase the option set; viable service grows only where demand, capacity, regulation, and operations align. Screening rates are classroom assumptions — not a GBA forecast.
 
-**Beyond the slide.** FAA UAM ConOps and AAM Implementation Plan ([Readings](#readings)) describe **maturation pathways** for US concepts of operations — they are comparators for structuring a network roadmap, not Hong Kong corridor licences.
+**Connecting idea.** FAA UAM ConOps and AAM Implementation Plan ([Readings](#readings)) describe **maturation pathways** for US concepts of operations — they are comparators for structuring a network roadmap, not Hong Kong corridor licences.
 
 ---
+
+Networks need coordination. **Digital coordination and governance** put net savings and better risk evidence in the same cash-flow path as Week 8 roadmap NPV — or they are theatre.
 
 ## 3. Digital coordination and governance
 
@@ -164,9 +168,11 @@ Include software, communications, cybersecurity, certification, human oversight,
 
 Better evidence may support underwriting and risk management; premium reductions are **not** automatic. Not an insurance quotation or a measured Sandbox X effect.
 
-**Beyond the slide.** An “insurance saving” that never appears in $\mathrm{CF}_{t}$ is theatre. Put evidence cost and any credible premium change in the same cash-flow path you used for Week 8 roadmap $\mathrm{NPV}$.
+**Connecting idea.** An “insurance saving” that never appears in $\mathrm{CF}_{t}$ is theatre. Put evidence cost and any credible premium change in the same cash-flow path you used for Week 8 roadmap $\mathrm{NPV}$.
 
 ---
+
+Digital layers are general. **Hong Kong service roles** (including leasing and supporting services) ask where local capability might sit — sized with Week 9’s funnel, not OHKF totals as bookings.
 
 ## 4. Possible Hong Kong service roles
 
@@ -220,9 +226,11 @@ Controlled trials can generate evidence on aircraft performance, communications,
 
 Mainland ATM rules drafts (e.g. CAAC consultation on Readings) remain **draft only** until promulgated — do not treat them as in-force Hong Kong or Mainland law. EASA SC-VTOL ([Readings](#readings)) is a **certification** comparator for passenger VTOL concepts — not a Hong Kong operating approval.
 
-**Beyond the slide.** OHKF’s supporting-services share of HK\$350bn value added is a **scenario composition**, not a booking for any one lessor, insurer, or consultancy. Size the service with Week 9’s funnel, then stress-test credit and residual-value risk as above.
+**Connecting idea.** OHKF’s supporting-services share of HK\$350bn value added is a **scenario composition**, not a booking for any one lessor, insurer, or consultancy. Size the service with Week 9’s funnel, then stress-test credit and residual-value risk as above.
 
 ---
+
+Roles and networks feed the exam. The **five-step exam method** reapplies the viability test and quantitative toolkit under shocks — timing and probability, not stacked haircuts.
 
 ## 5. Final review: five-step exam method
 
@@ -300,9 +308,11 @@ Start with the decision and units. Do not begin with an all-purpose “super-for
 
 In symbols: $\Pi_{\mathrm{op}} = (p - v - c_{\mathrm{noise}})\, D_{\mathrm{served}} - F$. The service remains profitable under the stated assumptions. Compare mitigation cost with the expected reduction in the charge and other benefits. Do **not** recommend visual masking as a noise remedy — privacy and noise require different controls (Week 10). Not a current Hong Kong noise charge or capacity rule.
 
-**Beyond the slide.** If the examiner adds a regulatory delay, put it in **timing / probability of launch** — do not multiply another arbitrary revenue haircut on top of an already permission-conditioned $D$ (Week 9).
+**Connecting idea.** If the examiner adds a regulatory delay, put it in **timing / probability of launch** — do not multiply another arbitrary revenue haircut on top of an already permission-conditioned $D$ (Week 9).
 
 ---
+
+Method without judgment fails. **Consistent judgment** keeps units, facts, and conditional recommendations aligned so proceed / pause / redesign / stop stays defendable.
 
 ## 6. Consistent judgment
 
@@ -340,6 +350,8 @@ Exam logistics and timing stay on the teaching platform.
 
 ---
 
+Pull the thread: horizon → network screening → digital NPV discipline → HK service roles → exam method → conditional judgment — absolute facts with issuers; Sandbox ≠ Sandbox X to the end.
+
 ## 7. Putting Week 12 together
 
 Adding nodes raises possible connections — it does not guarantee viable demand or value. Judge digital coordination by total system cost, reliability, oversight, and governance. Hong Kong roles in services and assurance still carry risk; leasing and similar plays do not make risk disappear. Reapply the viability test before recommending a path. The goal is consistent judgment under operational, regulatory, financial, and social constraints. Keep absolute facts with issuers; keep **Sandbox ≠ Sandbox X**.
@@ -348,7 +360,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 8. Study checklist (beyond the slides)
+## 8. Study checklist
 
 1. Compute $L$ for two values of $N$; say why $L$ is not demand.  
 2. Screen a classroom share of links; refuse to treat the result as a GBA forecast.  

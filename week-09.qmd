@@ -49,7 +49,7 @@ By the end of Week 9 you should be able to:
 4. **Identify** who receives the benefits and who bears the costs of an LAE project.  
 5. **Explain** how hedonic analysis and benefit-cost analysis may inform noise, access, and equity decisions.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -72,9 +72,11 @@ A profitable service can still create social costs; an unprofitable service may 
 
 **Link back to Weeks 4–8.** Week 4 gave choice behaviour and willingness to pay. Weeks 5–6 gave site and facility costs. Week 7 gave the permission envelope (Cap. 448G; Sandbox ≠ Sandbox X). Week 8 gave scarce airspace allocation. Week 9 asks whether the commercial case that survived those screens also improves outcomes for users, neighbours, workers, and taxpayers — and how to size that case without inventing corridor data.
 
-**Beyond the slide.** Contribution margin answers “can the operator cover variable cost?” Social benefit–cost answers “do total gains exceed total costs, including those outside the firm?” Distribution answers “who wins and who loses?” Keep the three questions separate even when one spreadsheet tries to hold all three.
+**Connecting idea.** Contribution margin answers “can the operator cover variable cost?” Social benefit–cost answers “do total gains exceed total costs, including those outside the firm?” Distribution answers “who wins and who loses?” Keep the three questions separate even when one spreadsheet tries to hold all three.
 
 ---
+
+Section 1 separated commercial profit from social net benefit. **Market sizing** starts the commercial side: define the market, apply a funnel, and confront obtainable demand with capacity.
 
 ## 2. Market sizing
 
@@ -179,9 +181,11 @@ With fare HK\$400, variable cost HK\$120 per passenger-trip, 330 operating days/
 
 Fixed cost and investment remain to be covered. Excludes financing, tax, and demand variation.
 
-**Beyond the slide.** If $K$ binds, raising marketing spend to lift $s$ does not raise $D_{\mathrm{served}}$. Diagnose whether the binding constraint is eligibility, choice, or capacity before spending on the wrong lever — the same bottleneck logic Week 5 and Week 8 used for pads and corridors.
+**Connecting idea.** If $K$ binds, raising marketing spend to lift $s$ does not raise $D_{\mathrm{served}}$. Diagnose whether the binding constraint is eligibility, choice, or capacity before spending on the wrong lever — the same bottleneck logic Week 5 and Week 8 used for pads and corridors.
 
 ---
+
+Funnels invite laundry-list barriers. **UAM market-study constraints** must map to one model channel each — no double-counted haircuts on the same demand.
 
 ## 3. Constraints from UAM market studies (no double counting)
 
@@ -234,9 +238,11 @@ Avoid multiplying arbitrary independent “haircuts” when the same effect is a
 
 Technology and compliance costs enter the **cost** model rather than another revenue haircut.
 
-**Beyond the slide.** A one-line “apply five NASA barriers × 0.8 each” spreadsheet is not analysis — it is double counting dressed as diligence. Map each barrier once, name the channel, and show the arithmetic.
+**Connecting idea.** A one-line “apply five NASA barriers × 0.8 each” spreadsheet is not analysis — it is double counting dressed as diligence. Map each barrier once, name the channel, and show the arithmetic.
 
 ---
+
+Even a clean funnel is uncertain. **Scenarios and expected value** (and Monte Carlo as a concept) replace one heroic base case with weighted outcomes and downside risk.
 
 ## 4. Uncertainty, scenarios, and expected value
 
@@ -273,9 +279,11 @@ Expected value is the probability-weighted average across scenarios. It does **n
 
 Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **HK\$2.2M**. Probability of loss = **30%**. Minimum cash needed in the weak scenario depends on when costs and revenue occur. A positive expected profit can coexist with a material probability of loss.
 
-**Beyond the slide.** Week 8’s phased roadmap $\mathrm{NPV}$ used $CF_{t}$ under a base path. Week 9 asks what happens when those cash flows are random: report $E[\Pi]$ **and** $\Pr(\Pi < 0)$, not only the mean that looks investable.
+**Connecting idea.** Week 8’s phased roadmap $\mathrm{NPV}$ used $CF_{t}$ under a base path. Week 9 asks what happens when those cash flows are random: report $E[\Pi]$ **and** $\Pr(\Pi < 0)$, not only the mean that looks investable.
 
 ---
+
+Uncertainty tools are general. The **HK$350bn** figure is an OHKF think-tank **value-added** projection by 2050 — not government GDP, not your obtainable revenue, and not a TAM.
 
 ## 5. The HK\$350 billion projection — and distributional questions
 
@@ -290,9 +298,11 @@ Keep the attribution strict:
 
 **Distribution matters:** who gains access; who receives employment and business opportunities; who bears noise, privacy, safety, land-use, or fiscal costs?
 
-**Beyond the slide.** Treating HK\$350bn as “the market” for a single operator’s SOM is a category error: value added ≠ revenue ≠ obtainable demand. Cite OHKF for the projection; size your use case with the funnel in §2.
+**Connecting idea.** Treating HK\$350bn as “the market” for a single operator’s SOM is a category error: value added ≠ revenue ≠ obtainable demand. Cite OHKF for the projection; size your use case with the funnel in §2.
 
 ---
+
+Attribution discipline clears the projection. **Hedonic valuation** is a classroom tool for how attributes (including noise) show up in prices — illustrative $\beta$, not a Hong Kong drone-noise study.
 
 ## 6. Hedonic valuation (illustrative tool)
 
@@ -324,9 +334,11 @@ $$
 
 The arithmetic illustrates competing effects. Actual coefficients require local transaction, noise, access, and neighbourhood data. International aviation-noise coefficients should not be transferred mechanically to drone or eVTOL operations in Hong Kong.
 
-**Beyond the slide.** A −4% “noise discount” in a classroom table is a **scenario dial**, not evidence. Clothier et al. and the EASA societal-acceptance study (see [Readings](#readings)) inform *perception* and acceptance barriers; they do not supply Hong Kong drone-noise hedonic $\beta$.
+**Connecting idea.** A −4% “noise discount” in a classroom table is a **scenario dial**, not evidence. Clothier et al. and the EASA societal-acceptance study (see [Readings](#readings)) inform *perception* and acceptance barriers; they do not supply Hong Kong drone-noise hedonic $\beta$.
 
 ---
+
+Hedonics price attributes; **equity** asks who gains and who bears costs — distribution joins the dashboard beside contribution and externalities.
 
 ## 7. Social equity and distributional analysis
 
@@ -342,9 +354,11 @@ A social-impact assessment should ask who receives each benefit and who bears ea
 
 ESG reporting can support transparency, but a project should define **measurable outcomes** rather than assume that an EMS label guarantees equity. Hong Kong’s dense urban setting makes access, noise exposure, land use, existing public transport, and distribution especially important. Different GBA cities may differ in trip patterns, industry structure, land availability, public-service needs, and regulation. A common evaluation framework can compare safety, time savings, emissions, noise, accessibility, employment, fiscal cost, and distribution across stakeholder groups — without ranking places through broad unsupported claims. Keep **Sandbox ≠ Sandbox X** when citing trial evidence; do not claim cross-boundary corridors as day-to-day service.
 
-**Beyond the slide.** Week 8’s public-service priority rules and Week 6’s availability payments already encode distributional choices. Equity analysis makes those choices explicit: who is protected, who pays, and what mitigation buys.
+**Connecting idea.** Week 8’s public-service priority rules and Week 6’s availability payments already encode distributional choices. Equity analysis makes those choices explicit: who is protected, who pays, and what mitigation buys.
 
 ---
+
+Pieces need one screen. The **integrated dashboard** and tool map walk definition → funnel → capacity → contribution → scenarios → distribution so “market size” cannot skip $K$.
 
 ## 8. Integrated dashboard (classroom)
 
@@ -375,6 +389,8 @@ Do not use unexplained barrier toggles. Each scenario assumption should change a
 
 ---
 
+Pull the thread: commercial vs social → funnel with capacity → one channel per barrier → expected value → OHKF attribution → hedonics and equity — then refuse HK$350bn as your SAM.
+
 ## 9. Putting Week 9 together
 
 Market size must be defined by service, corridor, customer, period, choice behaviour, and reliable capacity. **Revenue, contribution, profit, value added, and social benefit are different concepts.** Put constraints into explicit demand, capacity, price, cost, timing, or probability channels without double counting. Expected value is useful, but decision-makers also need probability of loss, downside cash needs, and key risk drivers. Hedonic analysis needs comparable data and careful identification — simple assumed property discounts are scenarios, not evidence. Social evaluation must consider total benefits and costs together with their distribution across users, communities, workers, taxpayers, and businesses. Attribute **HK\$350bn** only to OHKF as stated above.
@@ -383,7 +399,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 10. Study checklist (beyond the slides)
+## 10. Study checklist
 
 1. Define a use case with service, OD, customer, and period — refuse “all trips to the airport” without relevance.  
 2. Compute $SAM$, $D_{\mathrm{pot}}$, and $D_{\mathrm{served}}$ with an explicit $K$.  

@@ -49,7 +49,7 @@ By the end of Week 10 you should be able to:
 4. **Evaluate** privacy and public-acceptance measures using necessity, proportionality, and stakeholder evidence.  
 5. **Design** measurable sustainability KPIs and assess who benefits, who pays, and who bears residual impacts.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -71,9 +71,11 @@ Imagine a proposed electric-aircraft corridor near a dense urban community. The 
 
 **Link back to Weeks 6–9.** Week 6 availability payments and Week 8 public-service priority already encode who pays for non-commercial missions. Week 9 hedonic and distribution tables ask who bears noise and who gains access. Week 10 turns those questions into operational metrics: marginal external cost screens, privacy-control cost, Scope 2 / LCA boundaries, and KPIs with owners and corrective action.
 
-**Beyond the slide.** A contribution-positive business case (Week 9 funnel) can still fail social licence if noise, privacy, or equity residuals are unmanaged. Sustainability is a constraint set and a measurement discipline — not a marketing adjective for electric propulsion.
+**Connecting idea.** A contribution-positive business case (Week 9 funnel) can still fail social licence if noise, privacy, or equity residuals are unmanaged. Sustainability is a constraint set and a measurement discipline — not a marketing adjective for electric propulsion.
 
 ---
+
+Section 1 asked whether electric propulsion equals sustainability. **Externalities** make the gap concrete: noise and other unpriced burdens enter cash flow or operating limits — not footnotes.
 
 ## 2. Externalities
 
@@ -138,9 +140,11 @@ Marginal external cost depends on exposure, time, location, number of affected p
 
 A complete appraisal should discount cash flows (Week 8 $\mathrm{NPV}$ logic with $\mathrm{CF}_{t}$) and test performance, maintenance, and demand effects. Not Hong Kong noise limits, charges, or technology quotations.
 
-**Beyond the slide.** If community acceptance binds before contribution does, a quieter-tech $\mathrm{NPV}$ that ignores mitigation cost is incomplete. Put noise cost in the cash-flow path — or in an operating restriction that cuts $K$ (Week 9 capacity) — rather than as a footnote.
+**Connecting idea.** If community acceptance binds before contribution does, a quieter-tech $\mathrm{NPV}$ that ignores mitigation cost is incomplete. Put noise cost in the cash-flow path — or in an operating restriction that cuts $K$ (Week 9 capacity) — rather than as a footnote.
 
 ---
+
+Noise is one channel. **Privacy governance** for onboard cameras is another OPEX and trust cost — explicit, not a vague ESG haircut on revenue.
 
 ## 3. Privacy governance for onboard cameras
 
@@ -181,9 +185,11 @@ Cost cannot be inferred from an unsupported percentage of flight operating cost.
 
 The more expensive design is justified only if additional controls materially improve privacy, security, or operational assurance. Not a compliance quotation or claim that either design is legally sufficient.
 
-**Beyond the slide.** Privacy cost enters Week 6 OPEX and Week 9 contribution the same way compliance cost did in Week 7 — as an explicit channel, not a vague “ESG haircut” on revenue.
+**Connecting idea.** Privacy cost enters Week 6 OPEX and Week 9 contribution the same way compliance cost did in Week 7 — as an explicit channel, not a vague “ESG haircut” on revenue.
 
 ---
+
+Privacy is operational; carbon often enters as appraisal. **Carbon cost scenarios** are teaching aids — **not** a claimed CAD aviation tax — unless an issuer rule applies.
 
 ## 4. Carbon cost scenarios (appraisal aid — not a claimed CAD tax)
 
@@ -196,9 +202,11 @@ A carbon value can support investment appraisal. **Illustrative assumptions:** 5
 
 This is **not** a claim that CAD imposes such a tax. Emissions factors and boundaries must be sourced.
 
-**Beyond the slide.** Treat the carbon value as an **appraisal dial** (like Week 8’s illustrative peak charge), not as an invented Hong Kong aviation carbon levy. If a real carbon price or reporting rule applies, cite the issuer.
+**Connecting idea.** Treat the carbon value as an **appraisal dial** (like Week 8’s illustrative peak charge), not as an invented Hong Kong aviation carbon levy. If a real carbon price or reporting rule applies, cite the issuer.
 
 ---
+
+A carbon value needs an inventory. **GHG scopes and LCA** answer different boundary questions — do not add them into one misleading total.
 
 ## 5. GHG inventory and life-cycle assessment
 
@@ -274,9 +282,11 @@ State lifetime, utilization, replacement cycles, occupancy or payload, system bo
 
 Decarbonizing electricity reduces operational emissions; embodied emissions remain sensitive to lifetime use and replacement assumptions. Not a comparative claim about jets or sustainable aviation fuel.
 
-**Beyond the slide.** Do not add Scope 1+2+3 totals to an LCA total without a boundary map — that is the GHG analogue of Week 9’s double-counted barrier haircuts.
+**Connecting idea.** Do not add Scope 1+2+3 totals to an LCA total without a boundary map — that is the GHG analogue of Week 9’s double-counted barrier haircuts.
 
 ---
+
+Inventories measure burdens. **Public acceptance by use case** asks whose consent matters — traveller choice share is not the same as resident social licence under the route.
 
 ## 6. Public acceptance by use case
 
@@ -284,9 +294,11 @@ Decarbonizing electricity reduces operational emissions; embodied emissions rema
 
 Local engagement and evidence are necessary before transferring European findings to Hong Kong. **Managerial lesson:** segment by use case and affected stakeholder; test assumptions rather than assigning universal acceptance scores (Week 9 distribution theme; EASA societal-acceptance study listed with Week 4 / Week 9 readings).
 
-**Beyond the slide.** Choice share $s$ in the Week 9 funnel is not the same as community acceptance of overflights. A high $s$ among travellers can coexist with low social licence among residents under the route — model both.
+**Connecting idea.** Choice share $s$ in the Week 9 funnel is not the same as community acceptance of overflights. A high $s$ among travellers can coexist with low social licence among residents under the route — model both.
 
 ---
+
+Acceptance and equity meet funding. **Social licence and public-service commitments** need a payable source when priority flights displace commercial contribution.
 
 ## 7. Equity, social licence, and funding commitments
 
@@ -324,9 +336,11 @@ The commitment has a measurable cost. Whether it is justified — and who should
 
 Keep **Sandbox ≠ Sandbox X** when citing trial programmes; Action Plan language and Sandbox X commitments stay with the 2025 Policy Address / Official status issuers ([Readings](#readings)). Do not claim cross-boundary corridors as day-to-day operating service.
 
-**Beyond the slide.** Week 8’s priority rules decide *who flies*; this week’s $\Pi_{\mathrm{net}}$ decides *who pays* when priority displaces commercial contribution. Write both down before promising “twenty free public-service flights.”
+**Connecting idea.** Week 8’s priority rules decide *who flies*; this week’s $\Pi_{\mathrm{net}}$ decides *who pays* when priority displaces commercial contribution. Write both down before promising “twenty free public-service flights.”
 
 ---
+
+Commitments need metrics. **Sustainability KPI design** ties noise, privacy, carbon, and equity to boundaries, owners, and corrective action — then the tool map closes the loop.
 
 ## 8. Sustainability KPI design
 
@@ -359,6 +373,8 @@ Define baseline, target, measurement method, frequency, owner, assurance, and co
 
 ---
 
+Pull the thread: externalities → privacy → appraisal carbon → GHG/LCA boundaries → acceptance vs licence → funded equity → KPIs — electric remains necessary but not sufficient.
+
 ## 9. Putting Week 10 together
 
 Externalities should be measured and addressed through a mix of technology, standards, operating rules, pricing, compensation, and engagement. Noise cannot be priced reliably by multiplying flights by decibels above an assumed threshold. Privacy governance requires lawful purpose, necessity, proportionality, minimization, security, transparency, retention control, and accountability. Corporate GHG scopes and LCA need clear, consistent boundaries — **electric operation does not imply zero life-cycle emissions**. Public acceptance varies across use cases and stakeholders. Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
@@ -367,7 +383,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 10. Study checklist (beyond the slides)
+## 10. Study checklist
 
 1. State why “electric” does not imply zero life-cycle emissions, quietness, privacy, or equity.  
 2. Define an externality; give one negative and one positive LAE example.  

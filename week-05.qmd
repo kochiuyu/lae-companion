@@ -56,7 +56,7 @@ By the end of Week 5 you should be able to:
 4. **Assess** methods for allocating scarce slots while protecting priority services.  
 5. **Evaluate** hub, distributed, and hybrid network designs for Hong Kong and the wider GBA as hypotheses, not predetermined templates.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -102,6 +102,8 @@ Policy language in Hong Kong already names planning of facilities such as vertip
 
 ---
 
+Section 1 named infrastructure as the bottleneck that can bind before aircraft do. **Vertiport archetypes** give classroom labels for site types — not an official Hong Kong classification.
+
 ## 2. Three classroom vertiport archetypes
 
 For managerial analysis (not an official Hong Kong classification):
@@ -114,9 +116,11 @@ For managerial analysis (not an official Hong Kong classification):
 
 Actual design depends on aircraft, operations, safety requirements, and local approval. EASA’s prototype vertiport design specifications are an **EU comparator** design constraint on [Readings](#readings) — not Hong Kong law.
 
-**Beyond the slide.** Calling a site a “vertiport” in class does not create a Cap. 448G category or a zoning entitlement. Use the archetype labels to organise **cost / access / expandability** trade-offs. For regulation and land use, stay with current SUA / aviation / planning instruments and issuer documents — not imported EU labels as if they were local statutes.
+**Connecting idea.** Calling a site a “vertiport” in class does not create a Cap. 448G category or a zoning entitlement. Use the archetype labels to organise **cost / access / expandability** trade-offs. For regulation and land use, stay with current SUA / aviation / planning instruments and issuer documents — not imported EU labels as if they were local statutes.
 
 ---
+
+Archetypes frame trade-offs. **Site selection** turns them into a multi-criteria screen: safety, access, cost, and demand catchment on one page.
 
 ## 3. Site selection as a multi-criteria decision
 
@@ -158,9 +162,11 @@ Lower generalized cost is **not** automatically better if the site fails safety,
 
 Under these assumptions the ground site looks cheaper. Actual choice still depends on demand, safety, capacity, network value, and feasible access. A cheap site with weak customer access can raise door-to-door GC enough to destroy Week 4 mode share — the “cheap land, empty pads” trap.
 
-**Beyond the slide.** Access burden is paid by **passengers or cargo shippers**, not automatically by the site owner. If you omit it from the site screen, you systematically favour remote cheap land and then wonder why demand fails to materialise.
+**Connecting idea.** Access burden is paid by **passengers or cargo shippers**, not automatically by the site owner. If you omit it from the site screen, you systematically favour remote cheap land and then wonder why demand fails to materialise.
 
 ---
+
+A chosen site still needs **throughput and reliability**. Breakeven capacity use asks how full the facility must run before infrastructure cost is covered.
 
 ## 4. Throughput, reliability, and breakeven capacity use
 
@@ -199,6 +205,8 @@ A higher-cost site needs more activity, higher contribution per movement, or com
 
 ---
 
+Mature throughput is rarely day-one reality. **Staged ramp-up** protects liquidity when demand is uncertain — real-options thinking applied to pads and fit-out.
+
 ## 5. Staged ramp-up and liquidity
 
 New infrastructure rarely hits mature demand immediately. Early use may be limited by adoption, aircraft availability, approvals, operating experience, and network coverage. A **staged plan** links investment to evidence and milestones (temporary/modular site, limited hours, selected users, later expansion). The financial plan needs working capital for early losses and contingencies.
@@ -217,9 +225,11 @@ New infrastructure rarely hits mature demand immediately. Early use may be limit
 
 Financing must cover the expected ramp-up shortfall **plus** contingency.
 
-**Beyond the slide.** Staging is real-options thinking without the full option math (Week 6 returns to partnerships and payment design). Building the full integrated hub on day one converts demand uncertainty into a sunk-cost problem — the same sunk-cost logic Week 2 used for limit pricing, now applied to your own balance sheet.
+**Connecting idea.** Staging is real-options thinking without the full option math (Week 6 returns to partnerships and payment design). Building the full integrated hub on day one converts demand uncertainty into a sunk-cost problem — the same sunk-cost logic Week 2 used for limit pricing, now applied to your own balance sheet.
 
 ---
+
+Staging changes when cash goes out. **Reliability scenarios** ask how downtime cuts revenue and return — a simple screen, not a Hong Kong weather forecast.
 
 ## 6. Reliability scenarios (simple return screen)
 
@@ -249,6 +259,8 @@ Adjusted revenue should reflect serviceable capacity, demand, cancellations, and
 The 20% cut is an **illustrative stress scenario**, not a claim about Hong Kong’s annual weather downtime. A better model separates capacity loss, demand loss, variable-cost savings, and recovery cost (Week 3–4 logic).
 
 ---
+
+Return screens need cost inputs. **Infrastructure CAPEX and OPEX** separate building the site from running it — then feed daily economic cost and slot math.
 
 ## 7. Infrastructure CAPEX and OPEX
 
@@ -283,9 +295,11 @@ Useful for unit-cost screening; not identical to cash flow, accounting depreciat
 
 A higher-cost site must create enough extra demand, price, reliability, network value, or complementary revenue to justify the gap.
 
-**Beyond the slide (absolute context).** Hong Kong public materials already discuss **spatial data / CSDI / data-sharing** as enabling infrastructure for LAE (HKSAR LCQ on [Readings](#readings)). That is evidence that **digital and data layers** sit beside physical pads — not evidence that physical vertiport CAPEX is already funded or that a dedicated vertiport statute exists. Shenzhen’s statute Chapter 2 ([Readings](#readings)) assigns planning / build / run roles for physical and digital low-altitude infrastructure in Shenzhen — **GBA comparator governance**, not Cap. 448G text.
+**Connecting idea.** Hong Kong public materials already discuss **spatial data / CSDI / data-sharing** as enabling infrastructure for LAE (HKSAR LCQ on [Readings](#readings)). That is evidence that **digital and data layers** sit beside physical pads — not evidence that physical vertiport CAPEX is already funded or that a dedicated vertiport statute exists. Shenzhen’s statute Chapter 2 ([Readings](#readings)) assigns planning / build / run roles for physical and digital low-altitude infrastructure in Shenzhen — **GBA comparator governance**, not Cap. 448G text.
 
 ---
+
+When pads bind, **slot allocation** decides who flies. Peak pricing and priority rules are design choices here — not a claim about any Hong Kong regulation.
 
 ## 8. Allocating scarce slots
 
@@ -327,9 +341,11 @@ Higher fees may shift flexible trips; estimate response. Price alone does not id
 
 Sandbox / Sandbox X participation does **not** create a permanent commercial slot right ([Who decides what?](regulators.qmd#standing-caveats)).
 
-**Beyond the slide.** Peak pricing without priority rules can price out emergency or contracted public missions — or force them into side deals that destroy transparency. Peak pricing without competition safeguards can entrench the pad owner from Week 2’s scarcity story. Treat the formula as a **teaching design**, not a proposed Hong Kong tariff.
+**Connecting idea.** Peak pricing without priority rules can price out emergency or contracted public missions — or force them into side deals that destroy transparency. Peak pricing without competition safeguards can entrench the pad owner from Week 2’s scarcity story. Treat the formula as a **teaching design**, not a proposed Hong Kong tariff.
 
 ---
+
+Slots are local; networks are not. **Hub, distributed, or hybrid** design changes access burden, GC, and which sites must clear first.
 
 ## 9. Network design: hub, distributed, hybrid
 
@@ -383,6 +399,8 @@ Route-specific analysis beats predetermined templates. OHKF *Taking Flight* (inf
 
 ---
 
+Network choice needs a sequence. The **tool map** walks site screen → throughput → ramp-up → slots so “build it and they will come” cannot skip cash and capacity.
+
 ## 10. One-page tool map (from site choice to slots)
 
 | Step | Ask | Output |
@@ -400,6 +418,8 @@ Route-specific analysis beats predetermined templates. OHKF *Taking Flight* (inf
 
 ---
 
+Pull the thread: bottleneck → archetypes → site cost → throughput and staging → reliability → CAPEX/OPEX → slots and network — then refuse sandbox counts as vertiport capacity.
+
 ## 11. Putting Week 5 together
 
 Infrastructure strategy balances safety, access, utilities, **reliable** capacity, cost, expandability, and community impact. Breakeven uses reliable capacity and contribution per movement — not paper maximums. Stage investment and fund the ramp-up. Model weather and maintenance through explicit capacity/demand/cost/recovery channels. Allocate scarce slots with transparent rules and priority protections; peak pricing is one tool among several. Choose hub, distributed, or hybrid on evidence, not slogan. Keep classroom “vertiport” language separate from Hong Kong statute — and keep Sandbox learning separate from permanent slot rights.
@@ -408,7 +428,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 12. Study checklist (beyond the slides)
+## 12. Study checklist
 
 1. Name the likely **binding bottleneck** for a named mission (pads vs aircraft vs charging vs access).  
 2. Compare three **classroom archetypes** without treating them as HK statutory classes.  

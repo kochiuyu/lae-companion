@@ -56,7 +56,7 @@ By the end of Week 8 you should be able to:
 4. **Evaluate** how digital coordination and interoperability affect cost, safety, and scalability.  
 5. **Design** a phased airspace-integration roadmap with explicit evidence and decision gates.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -80,6 +80,8 @@ Should priority depend on arrival time, reservation, social value, price, or a p
 Week 5 treated scarce **site** slots. Week 7 showed that advanced operations need Cap. 448G permission and that Sandbox evidence is not a commercial franchise. Week 8 treats scarce **airspace** access as a related allocation problem: even with permission and a pad, the corridor–time pair may still bind.
 
 ---
+
+Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck** is a whole-system capacity problem — pads, procedures, spectrum, and rules can bind before aircraft do.
 
 ## 2. The airspace bottleneck
 
@@ -113,9 +115,11 @@ Hong Kong facts to keep straight ([Key figures](key-figures.qmd) · [Glossary](g
 **Capacity discipline.** Do not invent “drones per minute” for Harbour or GBA corridors. Classroom delay and bid numbers below are teaching screens, not published CAD capacities.
 :::
 
-**Beyond the slide.** If pads bind first, a sophisticated corridor auction allocates the wrong scarce resource. Diagnose the bottleneck (airspace vs vertiport vs charging vs communications) the way Week 5 diagnosed site bottlenecks — then pick the mechanism.
+**Connecting idea.** If pads bind first, a sophisticated corridor auction allocates the wrong scarce resource. Diagnose the bottleneck (airspace vs vertiport vs charging vs communications) the way Week 5 diagnosed site bottlenecks — then pick the mechanism.
 
 ---
+
+When capacity binds, delay spills onto others. **Congestion externalities** put a classroom price on that spillover — an appraisal aid, not a published Hong Kong charge.
 
 ## 3. Congestion externalities
 
@@ -155,9 +159,11 @@ Sum the incremental delay imposed on **all** affected users, not only the next a
 
 External delay cost ≈ $5 \times 200$ = **HK$1,000** (here $C_{\mathrm{other}}=0$). A peak charge near this amount may encourage a flexible operation to move; response is not guaranteed. Excludes safety, environmental, and schedule-recovery costs in this classroom screen.
 
-**Beyond the slide.** A charge that ignores public-service priority will look “efficient” on willingness-to-pay and still violate Week 6 / Week 7 service obligations. Mechanism choice is not only price versus queue — it is which missions are allowed to bid at all.
+**Connecting idea.** A charge that ignores public-service priority will look “efficient” on willingness-to-pay and still violate Week 6 / Week 7 service obligations. Mechanism choice is not only price versus queue — it is which missions are allowed to bid at all.
 
 ---
+
+Externalities motivate design. **Mechanism design and slot allocation** ask how queues, prices, or auctions assign scarce movements — and what a bidder can afford to pay.
 
 ## 4. Mechanism design and slot allocation
 
@@ -220,15 +226,19 @@ Operator B can afford a higher bid under these assumptions. Actual payment depen
 
 ---
 
+Slots allocate a facility. **Network effects** ask whether shared information and coordination raise value as more users join — or lock in a poor standard.
+
 ## 5. Network effects and shared information
 
 A **network effect** exists when participation by additional compatible users increases the value of the network to existing users. Common interfaces and timely information may improve route planning, conflict detection, situational awareness, and coordination. More participants can also increase congestion, cybersecurity exposure, monitoring needs, and system complexity.
 
 Shared data does **not** automatically make a system safer — data quality, latency, coverage, governance, and operational use matter. Some benefits are network effects; others are economies of scale or standardization. Do not treat them as identical.
 
-**Beyond the slide.** Network effects can lock in a coordination platform the way Week 2 density locked in pad advantage. Interoperability standards and open interfaces are therefore competition policy as well as engineering — not only “IT efficiency.”
+**Connecting idea.** Network effects can lock in a coordination platform the way Week 2 density locked in pad advantage. Interoperability standards and open interfaces are therefore competition policy as well as engineering — not only “IT efficiency.”
 
 ---
+
+Network value needs working pipes. **Digital coordination and interoperability** cover data, spectrum, and cross-boundary access — with absolute OFCA / Sandbox facts kept distinct from U-space.
 
 ## 6. Digital coordination and interoperability
 
@@ -270,9 +280,11 @@ Illustrative monthly saving HK$450,000 — only if reliability, security, and se
 - **OFCA** has made the **1430–1444 MHz** (1.4 GHz) band available for UAS under a dedicated licence; at present the band is confined to projects under the LAE **Regulatory Sandbox** launched by the Government ([Readings](#readings)). Do not treat it as open commercial spectrum.  
 - **CAD AC-017** covers cross-boundary SUA permission **inside Regulatory Sandbox X** ([Readings](#readings)). Time-slot and path approvals follow that circular — not a general corridor licence.
 
-**Beyond the slide.** Mixing OFCA’s Sandbox-confined 1.4 GHz fact with AC-017’s Sandbox X cross-boundary pathway is the same category error as merging AC-013 and AC-017 in Week 7. Keep programmes and circulars separate when you design allocation and communications assumptions.
+**Connecting idea.** Mixing OFCA’s Sandbox-confined 1.4 GHz fact with AC-017’s Sandbox X cross-boundary pathway is the same category error as merging AC-013 and AC-017 in Week 7. Keep programmes and circulars separate when you design allocation and communications assumptions.
 
 ---
+
+Digital pieces mature over time. An **airspace-integration roadmap** stages evidence and investment — NPV of phasing, not a claim of corridor capacity.
 
 ## 7. Airspace-integration roadmap
 
@@ -322,6 +334,8 @@ Attractive under these assumed cash flows. Probabilities, decision gates, termin
 
 ---
 
+Roadmaps need a sequence. The **tool map** walks bottleneck → congestion cost → allocation mechanism → network/digital layers → phased value so pad limits cannot be ignored.
+
 ## 8. One-page tool map (from bottleneck to roadmap)
 
 | Step | Ask | Output |
@@ -339,6 +353,8 @@ Attractive under these assumed cash flows. Probabilities, decision gates, termin
 
 ---
 
+Pull the thread: conflict → system bottleneck → congestion → slots → network effects → digital facts → roadmap — then refuse mixing Sandbox spectrum notes with invented corridor throughput.
+
 ## 9. Putting Week 8 together
 
 Airspace capacity depends on the **complete operating system** — not an unsupported “drones per minute” number. Congestion pricing estimates external delay cost; queues, reservations, priority rules, and auctions serve different objectives. Auctions can reveal willingness to pay but need safeguards for safety, competition, linked resources, new entrants, and public-service access. Interoperability may reduce duplicate coordination and support scale — it does not make digital services free or automatically safe. Network participation creates benefits and costs; data quality, cybersecurity, governance, and congestion remain essential. A credible roadmap links each expansion in capacity or operating privilege to evidence, review, and a financially consistent decision gate. Keep **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**; do not invent corridor capacities; keep **OFCA Sandbox spectrum** separate from **AC-017 Sandbox X** cross-boundary permission.
@@ -347,7 +363,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 10. Study checklist (beyond the slides)
+## 10. Study checklist
 
 1. State why capacity is a **whole-system** concept, not drones-per-minute.  
 2. Separate Cap. **448G** height bands from the ~**1,000 m** policy working description.  

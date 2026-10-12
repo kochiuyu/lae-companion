@@ -55,7 +55,7 @@ By the end of Week 3 you should be able to:
 4. **Compare** pay-per-use, subscription, availability-based, and complementary revenue models.  
 5. **Evaluate** how weather downtime and cost differences across Hong Kong and the GBA affect strategy — without treating any hedge as free or guaranteed.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -85,6 +85,8 @@ Week 2 showed that scarce pads and density drive **average total cost (ATC)**. W
 
 ---
 
+Section 1 placed cost and revenue after market structure. Start with the **cost stack**: what is capital, what recurs every day, and how those pieces become a rough daily economic cost.
+
 ## 2. CAPEX, OPEX, and a daily economic-cost sketch
 
 ### CAPEX vs OPEX
@@ -103,7 +105,7 @@ Also separate, inside OPEX:
 
 Glossary: [CAPEX / OPEX](glossary.qmd#business-and-economics).
 
-**Beyond the slide.** The CAPEX / OPEX label answers an *accounting and cash-timing* question. The fixed / variable split answers a *managerial* question: what still burns cash if the fleet sits on the ground? Weather and demand shocks make that split non-negotiable. Mixing the two axes (“CAPEX is fixed, OPEX is variable”) is a common error — major software platforms can be CAPEX, and energy is OPEX but largely variable.
+**Connecting idea.** The CAPEX / OPEX label answers an *accounting and cash-timing* question. The fixed / variable split answers a *managerial* question: what still burns cash if the fleet sits on the ground? Weather and demand shocks make that split non-negotiable. Mixing the two axes (“CAPEX is fixed, OPEX is variable”) is a common error — major software platforms can be CAPEX, and energy is OPEX but largely variable.
 
 ### A simple daily economic-cost approximation
 
@@ -143,6 +145,8 @@ Why might an LAE service cost more to operate in Hong Kong? Class lists **hypoth
 The size of any premium depends on application, site, and operating model. Compare specific cases — do not paste a single “HK multiplier” into every spreadsheet.
 
 ---
+
+CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?” Unit economics asks the next question: **cost and revenue per meaningful unit of activity**.
 
 ## 3. From cost stack to unit economics (tool chain)
 
@@ -184,6 +188,8 @@ That order prevents the classic mistake of computing a polished CASK from a mudd
 
 ---
 
+The tool chain maps stack → unit measures → breakeven. **CASK** and mission-kilometres are two classroom unit metrics — choose the unit that matches the service, not the buzzword.
+
 ## 4. Unit economics: CASK and mission-kilometres
 
 **Unit economics** studies revenue and cost for one meaningful unit of activity:
@@ -203,7 +209,7 @@ Available seat-kilometres measure **capacity offered**, whether seats are sold o
 
 Glossary: [CASK / CPMK](glossary.qmd#business-and-economics).
 
-**Beyond the slide.** CASK is a **cost-of-capacity** metric. It does not replace revenue per passenger, contribution margin, or cash flow. Airlines sometimes pair cost and yield ideas; in this course, keep the managerial order clear: (1) what does capacity cost, (2) what contribution does a sold seat or mission earn, (3) how many units cover fixed cost. Do not invent Hong Kong eVTOL CASK benchmarks from airline averages — the cost stack and mission profile differ.
+**Connecting idea.** CASK is a **cost-of-capacity** metric. It does not replace revenue per passenger, contribution margin, or cash flow. Airlines sometimes pair cost and yield ideas; in this course, keep the managerial order clear: (1) what does capacity cost, (2) what contribution does a sold seat or mission earn, (3) how many units cover fixed cost. Do not invent Hong Kong eVTOL CASK benchmarks from airline averages — the cost stack and mission profile differ.
 
 ### Worked illustration (utilization and CASK)
 
@@ -241,6 +247,8 @@ Volume can cut allocated unit cost; capacity, demand, turnaround, and service ru
 
 ---
 
+Unit cost alone does not pay the bills. **Revenue models** decide who pays for readiness vs usage — and who bears empty-seat or grounded-day risk.
+
 ## 5. Revenue models: more than one transaction type
 
 LAE businesses may combine several models:
@@ -254,9 +262,11 @@ LAE businesses may combine several models:
 
 Match the model to the **value promised** and the party best able to manage the risk. A subscription is not guaranteed cash unless customers accept terms and keep paying. Data does not monetise itself — it needs useful products, rights, demand, security, and privacy compliance. Mixing models can diversify revenue but raises contractual and operational complexity. Week 6 returns to partnerships and payment designs.
 
-**Beyond the slide.** Availability payments buy **readiness**, not necessarily high flight volume. That is attractive when public agencies value coverage on bad weather days — and expensive for the buyer if paid capacity sits idle. Pay-per-use looks “simple” until a multi-day storm zeros usage revenue while fixed OPEX continues (Session 3). Choose the model for the **risk you can actually manage**, not for the label that sounds modern.
+**Connecting idea.** Availability payments buy **readiness**, not necessarily high flight volume. That is attractive when public agencies value coverage on bad weather days — and expensive for the buyer if paid capacity sits idle. Pay-per-use looks “simple” until a multi-day storm zeros usage revenue while fixed OPEX continues (Session 3). Choose the model for the **risk you can actually manage**, not for the label that sounds modern.
 
 ---
+
+A revenue model names the transaction. **Revenue management** allocates scarce seats, slots, or payload toward contribution — not toward filling every seat at any price.
 
 ## 6. Revenue management (not “fill every seat”)
 
@@ -278,9 +288,11 @@ $$
 
 Load factor is the share of available seats occupied by **paying** passengers. Average fare should reflect discounts and mix. Maximising load factor alone is the wrong goal if fares collapse.
 
-**Beyond the slide.** Load factor links **CASK** (cost of seats offered) to **cash** (seats sold). High utilization that fills seats at wrecked fares can look good on a load-factor chart and still fail contribution. For cargo, replace “load factor × fare” with payload × price per kg or price per mission — same managerial idea, different unit.
+**Connecting idea.** Load factor links **CASK** (cost of seats offered) to **cash** (seats sold). High utilization that fills seats at wrecked fares can look good on a load-factor chart and still fail contribution. For cargo, replace “load factor × fare” with payload × price per kg or price per mission — same managerial idea, different unit.
 
 ---
+
+Pricing and mix improve contribution *given* volume. **Breakeven** asks how much volume you need before fixed cost is covered — and whether that volume is physically feasible.
 
 ## 7. Breakeven volume
 
@@ -339,6 +351,8 @@ Do not treat an in-class “airport shuttle” spreadsheet as a real Hong Kong o
 
 ---
 
+Breakeven on a clear-weather day is incomplete. **Weather downtime** hits revenue, fixed OPEX, and sometimes contracts at once — so risk responses belong in the same workbook as CASK.
+
 ## 8. Weather downtime and risk responses
 
 Severe weather can hit an LAE business through several channels at once:
@@ -362,7 +376,7 @@ Combine operational, contractual, and financial tools:
 
 Subscriptions and reservation fees transfer risk **only if** customers accept the terms and see real value. None of these tools is a free hedge.
 
-**Beyond the slide (absolute context, not a hedge).** Hong Kong policy language has noted industry work on LAE insurance products that draw on Regulatory Sandbox data ([Glossary](glossary.qmd) / Policy Address citations there). That is evidence that **insurance product design is an active theme** — not evidence that any named operator already has cheap parametric cover, nor that Sandbox participation equals commercial insurance readiness. Treat premiums, exclusions, and basis risk as first-class model inputs when you claim a hedge.
+**Connecting idea.** Hong Kong policy language has noted industry work on LAE insurance products that draw on Regulatory Sandbox data ([Glossary](glossary.qmd) / Policy Address citations there). That is evidence that **insurance product design is an active theme** — not evidence that any named operator already has cheap parametric cover, nor that Sandbox participation equals commercial insurance readiness. Treat premiums, exclusions, and basis risk as first-class model inputs when you claim a hedge.
 
 ### Profit under a mixed-revenue sketch
 
@@ -392,6 +406,8 @@ Committed revenue may stabilise cash flow; the contract must still specify avail
 
 ---
 
+Cost and revenue tools are general. **Hong Kong and GBA hypotheses** ask which cost lines and revenue mixes are plausible locally — without pasting foreign TAM figures into a local case.
+
 ## 9. Hong Kong and the GBA: cost and revenue hypotheses
 
 | Dimension | Hong Kong possibility | Wider GBA possibility |
@@ -406,9 +422,11 @@ These are **strategic hypotheses**, not universal facts. Compare specific sites,
 
 Compliance and trial rules can become real OPEX lines — for example Mainland delivery-trial guidance listed in [Readings](#readings) turns record-keeping, insurance, and link requirements into operating-cost items for operators who face those rules (comparator context, **not** Hong Kong Cap. 448G text).
 
-**Beyond the slide.** When you cite the NASA *Urban Air Mobility Market Study* ([Readings](#readings)), use it as **official UAM framing and constraint thinking** (legal, weather, infrastructure, acceptance shrink unconstrained markets). Do **not** paste its dollar or TAM figures into a Hong Kong business case as if they were local forecasts, and do not treat NASA as Hong Kong law or as an HKSAR government number.
+**Connecting idea.** When you cite the NASA *Urban Air Mobility Market Study* ([Readings](#readings)), use it as **official UAM framing and constraint thinking** (legal, weather, infrastructure, acceptance shrink unconstrained markets). Do **not** paste its dollar or TAM figures into a Hong Kong business case as if they were local forecasts, and do not treat NASA as Hong Kong law or as an HKSAR government number.
 
 ---
+
+Hypotheses need a sequence. The **one-page tool map** walks investment → unit cost → revenue → breakeven → capacity consistency so the spreadsheet cannot silently contradict itself.
 
 ## 10. One-page tool map (from investment to cash)
 
@@ -427,6 +445,8 @@ If step 6’s required activity exceeds step 4’s physical capacity, the model 
 
 ---
 
+Pull the thread: stack → unit metrics → revenue design → RM → breakeven under downtime → place-specific hypotheses — then refuse sandbox participation as proof of unit economics.
+
 ## 11. Putting Week 3 together
 
 Separate **CAPEX**, recurring **fixed OPEX**, and **variable** cost before any unit metric. Choose **CASK** for passenger capacity offered and **mission-based** measures for cargo/public service. Breakeven needs a **consistent unit**, contribution margin, and a reality check against capacity and demand. Revenue management maximises **contribution**, not empty-seat guilt. Subscriptions, availability contracts, insurance, and liquidity **reshape** risk — none is a free guarantee. HK–GBA differences are hypotheses to test case by case. Sandbox learning and compliance lines are real when they appear in cash — they are still not a substitute for unit economics.
@@ -435,7 +455,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 12. Study checklist (beyond the slides)
+## 12. Study checklist
 
 1. Separate **CAPEX**, recurring **fixed OPEX**, and **variable** cost on one page before any unit metric.  
 2. Explain why certification cash is **not automatically CAPEX**.  
