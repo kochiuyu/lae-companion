@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Term definitions and diagrams you can cite. Week notes link here on **first use**. Cards use a short lecture pattern (**what → why in LAE → watch-out**) where it helps. Source type is shown by **section** (Hong Kong law, Mainland comparator, course economics, …) — not by a per-term Official/Course tag. Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
+Term definitions and diagrams you can cite. Week notes link here on **first use**. Each card has a **What** (definition). **Why in LAE** and **Watch-out** appear only when they add a real course or compliance point — not as repeated boilerplate. Source type is shown by **section** (Hong Kong law, Mainland comparator, course economics, …). Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
 
 ## At a glance
 
@@ -266,11 +266,7 @@ HK **1,000 m** working definition ≠ Mainland airspace **120 m / 300 m** class 
 ## Hong Kong institutions and law
 **Action Plan on Developing Low-Altitude Economy (發展低空經濟規劃行動綱領)**  
 
-**What:** 2025 PA ¶154; text OPEN.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Policy Address **2025** ¶154 names an *Action Plan on Developing Low-Altitude Economy* (發展低空經濟規劃行動綱領). Full plan text is still **OPEN** on this site’s tracker — cite the PA paragraph, not a finished statute.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “We will formulate the Action Plan on Developing Low-Altitude Economy to advance Hong Kong as a major hub for low-altitude applications through institutional innovations and technological breakthroughs.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -278,94 +274,49 @@ English: “We will formulate the Action Plan on Developing Low-Altitude Economy
 [「我們會制訂「發展低空經濟規劃行動綱領」，透過制度創新與技術突破，令香港成為低空創新應用的核心樞紐」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
 
-
 **advanced operations (進階操作)**  
 
 **What:** SUA operations that require prior CAD permission under Cap. 448G (as distinct from ordinary permitted flying). Cap. 448G / CAD.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Advanced Operations Permission (進階操作許可)**  
 
 **What:** CAD permission under Cap. 448G s.37 to conduct an advanced operation (e.g. Sandbox BVLOS or Sandbox X cross-boundary). Cap. 448G s.37; CAD AC-013 §4.2; AC-017.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Advanced Rating (進階等級)**  
 
 **What:** Rating assigned with a remote pilot certificate for more demanding SUA operations; AC-013 requires it for Sandbox BVLOS remote pilots. Cap. 448G; CAD AC-013 §8.1–8.2.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Advisory Circular (小型無人機通告)**  
 
 **What:** CAD guidance document (e.g. AC-013 Sandbox BVLOS; AC-017 Sandbox X cross-boundary) — guidance, not Cap. 448G itself. CAD ACs.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **ATMD (CAD)**  
 
 **What:** CAD Air Traffic Management Division; AC-017 normally requires time-slot requests ≥5 working days before Sandbox X cross-boundary flights. CAD AC-017 §4.3.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **CAD (民航處)**  
 
 **What:** Hong Kong Civil Aviation Department — Cap. 448G regulator and issuer of sandbox Advisory Circulars. Cap. 448G; CAD.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Cap. 448C pathway (《1995年飛航（香港）令》（第448C章）)**  
 
 **What:** Air Navigation (Hong Kong) Order 1995 — used with Cap. 448G when heavier / unconventional trial flying needs provisions outside the SUA Order alone. Cap. 448C; 2024–2025 PA LAE legislative track.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Dangerous goods (SUA) (危險品)**  
 
 **What:** Goods or substances within Cap. 295 as applied by Cap. 448G; SUA must not carry them in flight unless permission is obtained. Cap. 448G; Cap. 295; CAD AC-013 §6.6.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Enclosed area (圍封範圍 / 圍封區域)**  
 
-**What:** Official Chinese form 圍封範圍 / 圍封區域. Cap. 448G via AC-002_C / SRD (tc).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Cap. 448G / SRD concept of an **enclosed** (fenced or similarly bounded) area — 圍封範圍 / 圍封區域 — used when classifying where SUA may fly with lower risk to outsiders. Cap. 448G via AC-002_C / SRD (tc).
 
 **HKCA 1072**  
 
 **What:** Do **not** map to the 1.4 GHz UAS (Private) Licence (GN-1/2025). HKCA 1072 Iss.2 (Aug 2026) is E-UTRA base station — different instrument. (WEEKLY-2026-09-05)
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **LAE insurance task force**  
 
-**What:** Industry group using Sandbox data. 2025 PA ¶157.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Industry group referenced in **2025 PA ¶157** that uses Sandbox data to help develop insurance products — an industry forum, **not** a regulator.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The insurance industry has set up a task force to develop low-altitude economy insurance products for various application scenarios, drawing reference from the data of the Government\'s Regulatory Sandbox.” ([source](https://www.policyaddress.gov.hk/2025/en/p156.html))
@@ -373,22 +324,13 @@ English: “The insurance industry has set up a task force to develop low-altitu
 [「保險業界已成立專責小組，並會參考政府「監管沙盒」的數據，開發不同應用場景的低空經濟保險產品。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p156.html))
 :::
 
-
 **OFCA / Communications Authority (通訊事務管理局)**  
 
 **What:** Spectrum licensing authority for the UAS (Private) Licence (with the Communications Authority). OFCA / CA.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Operator (SUA) (營運人)**  
 
-**What:** Official Chinese form 營運人. CAD AC-013_C §1.3.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** The person or organisation that **operates** the SUA under Cap. 448G (營運人) — a role distinct from the remote pilot and the responsible person. CAD AC-013_C §1.3.
 
 **[Regulatory Sandbox (監管沙盒)]{#regulatory-sandbox}**
 
@@ -426,48 +368,27 @@ English: “(i) 15 pilot projects under the UTM system demonstrations module, (i
 
 **What:** Hong Kong Principal Official who heads the Transport and Logistics Bureau — **distinct from** TLB (the bureau). Current officeholder: Ms Mable Chan, JP (appointed **5 Dec 2024**). Official status also lists STL as Deputy Head of the Working Group on Developing Low-altitude Economy (Deputy Financial Secretary = Head; TLB = secretariat). See also TLB; Working Group. [GovHK EN](https://www.gov.hk/en/about/govdirectory/po/stl.htm); [GovHK 繁](https://www.gov.hk/tc/about/govdirectory/po/stl.htm); [TLB organisation](https://www.tlb.gov.hk/eng/aboutus/organisation/index.html).
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: Secretary for Transport and Logistics — Principal Official directory (appointment **5 Dec 2024**). ([source](https://www.gov.hk/en/about/govdirectory/po/stl.htm))
 
 [「運輸及物流局局長 — 香港特別行政區問責制主要官員，掌管運輸及物流局；現任局長為陳美寶女士, JP（2024年12月5日獲委任）。與「運輸及物流局」（決策局本身）不同。」]{lang="zh-Hant"} (LAE-Intel gloss from GovHK / TLB org materials; [繁體目錄](https://www.gov.hk/tc/about/govdirectory/po/stl.htm))
 :::
 
-
 **Remote pilot certificate (遙控駕駛員證書)**  
 
 **What:** Certificate issued under Cap. 448G after required training/assessment for registered remote pilots. Cap. 448G; CAD AC-013 §8.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Responsible person (負責人)**  
 
 **What:** Person responsible for the SUA under Cap. 448G (registration/labelling and compliance duties alongside the remote pilot). Cap. 448G.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Safety Requirements Document (SRD) (《安全規定文件》 / 《小型無人機安全規定文件》)**  
 
 **What:** CAD document issued under Cap. 448G s.63 setting detailed SUA safety requirements; ACs are read with the Order and the SRD. Cap. 448G s.63; CAD AC-013 §18.2; AC-017 §11.2.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Small Unmanned Aircraft Order, Cap. 448G (《小型無人機令》（第448G章）)**  
 
 **What:** Hong Kong statute for small unmanned aircraft. Full effect 1 December 2022; Category C up to 150 kg from 18 July 2025.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Under the SUA Order that took full effect on 1 December 2022, SUA operations are regulated under a risk-based approach.”…“In July 2025, the scope of the SUA Order was expanded to cover SUA weighing not more than 150kg.” ([source](https://www.cad.gov.hk/english/sua.html))
@@ -475,38 +396,21 @@ English: “Under the SUA Order that took full effect on 1 December 2022, SUA op
 [「法例已於2022年12月1日全面實施，以風險為本的模式規管小型無人機的操作」…「於2025年7月， 《小型無人機令》的規管制度擴闊至重量不超過150公斤的小型無人機。」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/chinese/sua.html))
 :::
 
-
 **Standard Rating (標準等級)**  
 
-**What:** Official Chinese form 標準等級. CAD SRD (tc) §5.1.1.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Baseline remote-pilot rating under the Safety Requirements Document (標準等級), contrasted with **Advanced Rating** for more demanding SUA operations. CAD SRD (tc) §5.1.1.
 
 **Supporting crew (輔助人員)**  
 
-**What:** Official Chinese form 輔助人員. CAD AC-013_C §4.3(b), §8.4.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** People who assist the remote pilot (輔助人員) without necessarily manipulating the flight controls — an AC-013 crew role for advanced / sandbox operations. CAD AC-013_C §4.3(b), §8.4.
 
 **TLB (運輸及物流局)**  
 
 **What:** Transport and Logistics Bureau — the policy **bureau** (not the Principal Official). Supports the Working Group secretariat and LAE sandbox communications. See also Secretary for Transport and Logistics (STL). TLB / WG materials; [TLB organisation](https://www.tlb.gov.hk/eng/aboutus/organisation/index.html).
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Unconventional aircraft (非傳統飛行器)**  
 
-**What:** Intended dedicated rules for craft over 150 kg; legislation OPEN. 2025 PA ¶154.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Policy language for craft **above** the Cap. 448G SUA ceiling (above 150 kg) for which dedicated rules are intended; legislation is still **OPEN**. 2025 PA ¶154.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Improve civil aviation legislation and regulatory framework, including formulating dedicated legislation for unconventional aircraft weighing over 150 kilograms, to lay the foundation for developing the standardisation of the low-altitude economy.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -514,22 +418,13 @@ English: “Improve civil aviation legislation and regulatory framework, includi
 [「完善民航法例及規管框架，為重量超過150公斤的「非傳統飛行器」制訂專用法例，為低空經濟標準化發展奠下基礎。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
 
-
 **Unmanned Aircraft Office (CAD) (無人駕駛飛機組)**  
 
-**What:** Official Chinese form 無人駕駛飛機組. CAD AC-013_C §18.3.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** CAD unit that handles small unmanned aircraft matters (無人駕駛飛機組) — the contact point named in sandbox ACs. CAD AC-013_C §18.3.
 
 **Working Group on Developing Low-altitude Economy (發展低空經濟工作組)**  
 
 **What:** Cross-government group headed by the Deputy Financial Secretary; first meeting 2024-11-12. 2024 PA ¶82; GIA 2024-11-12.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))
@@ -541,49 +436,30 @@ English: “The Chief Executive announced in the 2024 Policy Address to establis
 [「行政長官在二○二四年《施政報告》宣布成立「發展低空經濟工作組」（工作組），財政司副司長黃偉綸今日（十一月十二日）以組長身分召開工作組的首次會議。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
 :::
 
-
 ## Mainland comparators
 **CAAC (中国民用航空局)**  
 
 **What:** Civil Aviation Administration of China — responsible authority under CCAR-92 (§92.5) for UAS operational safety; publisher of the ATM Rules Chapter 12 consultation draft (**not** promulgated). Mainland comparator — **not Hong Kong law**. See also CCAR-92; CAAC ATM Rules (draft); Civil Aviation Law (2025 revision). Glossary Who regulates what diagram; Official status; Timeline.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **CAAC ATM Rules (draft) (《民用航空空中交通管理规则（征求意见稿）》)**  
 
 **What:** NEW watch term. Published **2026-08-11**; comments to **2026-09-11**; Chapter 12 无人驾驶航空器. Not yet law. (WEEKLY-2026-09-05)
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「中国民用航空局修订了《民用航空空中交通管理规则》，形成《民用航空空中交通管理规则（征求意见稿）》，现向社会公开征求意见。」…「意见反馈截止时间为2026年9月11日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html))
 :::
 
-
 **CCAR-92 (《民用无人驾驶航空器运行安全管理规则》)**  
 
 **What:** CAAC civil aviation regulation on UAS operational safety; effective **2024-01-01**. CCAR-92 / MOT publication.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「已于2023年12月15日经第29次部务会议通过，现予公布，自公布之日起施行。」…「2024年1月1日」]{lang="zh-Hans"} ([source](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html))
 :::
 
-
 **Civil Aviation Law (2025 revision) (《中华人民共和国民用航空法》（2025年修订）)**  
 
 **What:** Revised PRC Civil Aviation Law (Order No. 65); passed 2025-12-27; effective **2026-07-01**; detailed UAS operating rules still rest on State Council / CAAC instruments until further rules are made. Order No. 65; CAAC.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Order of the President of the People\'s Republic of China (No. 65)”…“The Civil Aviation Law of the People\'s Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People\'s Congress of the People\'s Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
@@ -591,64 +467,37 @@ English: “Order of the President of the People\'s Republic of China (No. 65)�
 [「中华人民共和国主席令第六十五号」…「2025年12月27日第十四届全国人民代表大会常务委员会第十九次会议修订」…「第二百六十二条　本法自2026年7月1日起施行。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html))
 :::
 
-
 **Class G / W (G类 / W类空域)**  
 
 **What:** Mainland national airspace classification labels (2023 release); **not Hong Kong law**. CAAC National Airspace Basic Classification (2023-12-21).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「为充分利用国家空域资源，规范空域划设和管理使用，国家空管委组织制定了《国家空域基础分类方法》，现予以发布。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html))
 :::
 
-
 **Guangdong Provincial People's Government General Office (广东省人民政府办公厅)**  
 
 **What:** Issuer of 粤府办〔2024〕6号 — 《广东省推动低空经济高质量发展行动方案（2024—2026年）》 (21 May 2024). On this site the Greater Bay Area corridor language in that plan is treated as a **policy aim**, not evidence that a Shenzhen–Hong Kong corridor is operating. Mainland / GBA comparator — **not Hong Kong law**. See also 粤府办〔2024〕6号 (粤府办 series; sibling letter-series 粤办函〔2025〕268号 is not 粤府办); Official status (Greater Bay Area); Timeline; Glossary Who regulates what diagram. [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **粤府办〔2024〕6号 (《广东省推动低空经济高质量发展行动方案（2024—2026年）》)**  
 
 **What:** Notice of the General Office of the People's Government of Guangdong Province printing the *Action Plan of Guangdong Province on Promoting High-Quality Development of the Low-Altitude Economy (2024–2026)* (issued with provincial government consent). Document series **粤府办** (not 粤办函). 成文 **21 May 2024**; 发布 **22 May 2024**. Mainland / GBA comparator — **not Hong Kong law**. Official full English text: **OPEN** (ZH only on portal). Instrument identity only — no provincial 产业规模 / market-size figures. Related later letter-series measure: **粤办函〔2025〕268号** (same issuer; different numbering — do not relabel as 粤府办). See also Guangdong Provincial People’s Government General Office. [gd.gov.cn](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html); sibling [粤办函〔2025〕268号](https://www.gd.gov.cn/gkmlpt/content/4/4788/post_4788687.html).
 
-**Why in LAE:** Course and Orient pages point here so law, comparator, and industry labels stay distinct.
-
-**Watch-out:** Comparator or industry labels are **not** automatically Hong Kong law.
-
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「广东省人民政府办公厅关于印发《广东省推动低空经济高质量发展行动方案（2024—2026年）》的通知（经省人民政府同意印发）。」…「现将《广东省推动低空经济高质量发展行动方案（2024—2026年）》印发给你们」…「2024年5月21日」]{lang="zh-Hans"} ([source](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html))
 :::
-
 
 **Ministry of Transport (交通运输部 / MOT)**  
 
 **What:** Mainland ministry that promulgated CCAR-92 via MOT Order 2024 No. 1 (in force **1 Jan 2024**). Mainland comparator — **not Hong Kong law**. See also CCAR-92; CAAC. Glossary Who regulates what diagram; Official status; [MOT publication](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html).
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **NDRC (国家发展和改革委员会)**  
 
 **What:** National Development and Reform Commission — issued 发改低空〔2025〕1676号 (22 Dec 2025), the trial statistical classification of 低空经济及其核心产业. That instrument is a **classification**, not an official national scale (规模) figure. Mainland comparator — **not Hong Kong law**. See also 低空经济; Official status. [gov.cn](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm).
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **NPC (全国人民代表大会)**  
 
 **What:** National People's Congress — the highest organ of State power of the People's Republic of China; its permanent body is the Standing Committee of the NPC. Mainland institutional comparator — **not Hong Kong law** (institutional bio only, not an LAE policy claim). See also Civil Aviation Law (2025 revision); CAAC. [NPC EN organisation](http://www.npc.gov.cn/zgrdw/englishnpc/Organization/node_2846.htm); [state structure](http://www.npc.gov.cn/zgrdw/englishnpc/stateStructure/node_3826.htm); [ZH](http://www.npc.gov.cn/npc/c2434/c26314/c26319/201905/t20190522_215737.html).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: National People's Congress — highest / supreme organ of state power; Standing Committee is its permanent body. ([organisation](http://www.npc.gov.cn/zgrdw/englishnpc/Organization/node_2846.htm); [state structure](http://www.npc.gov.cn/zgrdw/englishnpc/stateStructure/node_3826.htm))
@@ -656,59 +505,38 @@ English: National People's Congress — highest / supreme organ of state power; 
 [「全国人民代表大会是中华人民共和国的最高国家权力机关；其常设机关是全国人民代表大会常务委员会。」]{lang="zh-Hans"} ([source](http://www.npc.gov.cn/npc/c2434/c26314/c26319/201905/t20190522_215737.html))
 :::
 
-
 **NPC Standing Committee (全国人民代表大会常务委员会)**  
 
 **What:** Permanent body of the NPC. Revised and adopted the Civil Aviation Law of the PRC (2025 revision) on **27 Dec 2025** (President’s Order No. 65 path; in force **1 Jul 2026**). Mainland comparator — **not Hong Kong law**. See also NPC; Civil Aviation Law (2025 revision); CAAC. Official status; Timeline.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The Civil Aviation Law of the People's Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People's Congress of the People's Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))
 :::
 
-
 **State Council (国务院)**  
 
 **What:** State Council of the People's Republic of China (Central People's Government) — the executive body of the highest organ of state power and the highest organ of State administration (*Organic Law of the State Council*, Art. 2; 2024 revision published **11 Mar 2024**). Mainland institutional comparator — **not Hong Kong law**. Bio only — LAE decrees such as **国令761** keep their own rows (Art. 258 also names the Central Military Commission with the State Council). See also 国令761; Civil Aviation Law (2025 revision). [gov.cn Organic Law text](https://www.gov.cn/yaowen/liebiao/202403/content_6938923.htm); [english.www.gov.cn](https://english.www.gov.cn/).
 
-**Why in LAE:** Course and Orient pages point here so law, comparator, and industry labels stay distinct.
-
-**Watch-out:** Comparator or industry labels are **not** automatically Hong Kong law.
-
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「中华人民共和国国务院，即中央人民政府，是最高国家权力机关的执行机关，是最高国家行政机关。」]{lang="zh-Hans"} (*国务院组织法* Art. 2; [source](https://www.gov.cn/yaowen/liebiao/202403/content_6938923.htm))
 :::
-
 
 **低空经济**  
 
 **What:** Hong Kong: 低空經濟
 Mainland statistical and industrial-policy scope per NDRC 发改低空〔2025〕1676号 (2025-12-22) — **not** the same metric as OHKF Hong Kong industry value-added. NDRC 发改低空〔2025〕1676号.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「为明确低空经济概念和范畴，明晰产业边界，根据低空经济阶段性特征和重点领域、重点环节，按照统计工作相关规定，编制形成《低空经济及其核心产业统计分类（试行）》。现印发你们，请按此执行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm))
 :::
-
 
 **国令761 (《无人驾驶航空器飞行管理暂行条例》)**  
 
 **What:** State Council Interim UAS Flight Management Ordinance; effective **2024-01-01** — Mainland ops baseline with CCAR-92. 国令761.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
 [「现公布《无人驾驶航空器飞行管理暂行条例》，自2024年1月1日起施行。」]{lang="zh-Hans"} ([source](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm))
 :::
-
 
 ## EU / US comparators
 
@@ -718,58 +546,30 @@ Course comparators only — **not Hong Kong law**. Dated instruments on [Timelin
 
 **What:** EU Horizon 2020 Research and Innovation Action (grant **101006601**; **1 Jan 2021** → **31 Dec 2023**) that researched and validated urban air mobility concepts for emergency medical services; coordinated by VTT (Finland); **project closed**. **Not** a company, aircraft brand, or OEM product name (CORDIS lists participants separately). Course comparator — not Hong Kong law. See also Course overview; Lectures (Week 4); EASA. [CORDIS](https://cordis.europa.eu/project/id/101006601); [airmour.eu](https://airmour.eu/project-description/).
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **EASA (European Union Aviation Safety Agency)**  
 
 **What:** EU aviation safety agency used as a **course comparator**. Site evidence: SC-VTOL-01 Issue 1 (2 Jul 2019) as the airworthiness special condition for small VTOL-capable aircraft; ED Decision 2025/011/R (7 Jul 2025) adding crew and operations material for innovative air mobility / manned VTOL-capable aircraft; prototype vertiport design specifications and a societal-acceptance study on Readings. U-space itself is created by Implementing Regulation (EU) 2021/664 (Timeline) — an EU framework, not an EASA-only instrument; later EASA rows are technical conditions, not a new U-space regulation. See also U-space; Vertiport; eVTOL; Timeline (European Union); Readings. Timeline / Readings / Course overview.
 
-**Why in LAE:** Course and Orient pages point here so law, comparator, and industry labels stay distinct.
-
-**Watch-out:** Comparator or industry labels are **not** automatically Hong Kong law.
-
 **FAA (Federal Aviation Administration)**  
 
 **What:** US aviation authority used as a **course comparator**. Site evidence: Remote ID final rule (Federal Register publication 15 Jan 2021); UAM Concept of Operations v2.0 (26 Apr 2023); UTM Concept of Operations and AAM Implementation Plan on Readings; Integration of Powered-Lift final rule (powered-lift is the FAA category closest to many eVTOL designs). Do **not** confuse the US Remote ID rule with this Glossary’s **Remote ID** entry (CAD AC-017 §8.2). See also UTM; eVTOL; Timeline (United States); Readings. Timeline / Readings / Course overview.
-
-**Why in LAE:** Course and Orient pages point here so law, comparator, and industry labels stay distinct.
-
-**Watch-out:** Comparator or industry labels are **not** automatically Hong Kong law.
 
 ## Vehicles and operations
 **300 ft AGL operating limit (飛行高度不高於地面以上 300 呎)**  
 
 **What:** Maximum flying altitude for Category A2 SUA (and exempted Category A1 models flown to Category A2 requirements): 300 ft above ground level; Category A1's limit is 100 ft. Higher only with CAD permission under Cap. 448G s.37. G.N. 1276 of 2022; SRD §7.4.1; CAD AC-013 §6.1.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Air risk (空中風險)**  
 
 **What:** Risk of collision or conflict with other airspace users during the SUA flight. CAD AC-013 §4.3(f).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Automatic operation (自動操作)**  
 
 **What:** SUA follows pre-determined routes, but the remote pilot must still be able to intervene for unforeseen events. CAD AC-013 §2.1.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Autonomous operation (自主操作)**  
 
 **What:** SUA flies without the remote pilot being able to intervene; **not allowed** for Sandbox BVLOS under AC-013. CAD AC-013 §2.2, §6.7.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **[BVLOS (超視距操作)]{#bvlos}**
 
@@ -783,17 +583,9 @@ Course comparators only — **not Hong Kong law**. Dated instruments on [Timelin
 
 **What:** Command-and-control communications link between the remote pilot / ground systems and the SUA. CAD AC-013 §5.5; AC-017 §5.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Category A1 / A2 / B / C (甲一類 / 甲二類 / 乙類 / 丙類)**  
 
 **What:** Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G s.2, s.3(2) (Cat C expansion 2025-07-18).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The amendments to the Small Unmanned Aircraft (SUA) Order (Cap. 448G) serve to extend the existing regulatory regime to cover SUA weighing over 25 kilograms but not exceeding 150kg.”…“The Small Unmanned Aircraft (Amendment) Order 2025 and the Air Navigation (Hong Kong) Order 1995 (Amendment) Order 2025 will come into effect tomorrow (July 18) to facilitate the development of the low-altitude economy.” ([source](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm))
@@ -801,54 +593,29 @@ English: “The amendments to the Small Unmanned Aircraft (SUA) Order (Cap. 448G
 [「修訂《小型無人機令》（第448G章）旨在擴闊現行規管制度，以涵蓋重量超過25公斤但不超過150公斤的小型無人機。」…「《2025年小型無人機（修訂）令》和《2025年〈1995年飛航（香港）令〉（修訂）令》，將於明日（七月十八日）生效，以推動低空經濟的發展。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202507/17/P2025071700589.htm))
 :::
 
-
 **Congested area (人口稠密區域 / 人口密集區域)**  
 
 **What:** Built-up area where BVLOS routes that raise ground risk should normally be avoided unless justified to CAD. CAD AC-013 §5.2; Cap. 448G operating context.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Containment**  
 
 **What:** Keeping the SUA entirely inside the pre-defined sandbox operating areas or routes by technology and/or procedures. CAD AC-013 §4.3(d), §5.3.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Cross-boundary SUA operation (跨境小型無人機操作 / 跨境操作)**  
 
 **What:** SUA flight that is **not** wholly within Hong Kong; Cap. 448G treats it as an advanced operation needing CAD permission — AC-017 covers Sandbox X cross-boundary (no person on board). Cap. 448G s.16(1A); CAD AC-017.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Daylight-only default (只限日間時間操作)**  
 
 **What:** Default operating requirement to fly SUA only in daylight hours unless a relevant permission is obtained. Cap. 448G / SRD; CAD AC-013 §6.1.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Detect and avoid (探測與避障)**  
 
 **What:** Capability to see, sense or detect conflicting traffic or other hazards and take appropriate action — concept only, no product brand. CAD AC-013 §2.3.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **docking station (無人機機庫)**  
 
 **What:** Ground unit for automated launch, recovery, charging or swapping of small unmanned aircraft; CAD AC-016 addresses hangar/dock-style SUA operations — **not** a vertiport statute. CAD AC-016; industry usage.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Guidelines and Permission for Small Unmanned Aircraft Operations Using Unmanned Aircraft Docking Station” ([source](https://www.cad.gov.hk/documents/AC-016.pdf))
@@ -856,14 +623,9 @@ English: “Guidelines and Permission for Small Unmanned Aircraft Operations Usi
 [「使用無人機機庫進行小型無人機操作的指引及許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-016_C.pdf))
 :::
 
-
 **EVLOS (延伸視線操作)**  
 
 **What:** Operation beyond simple VLOS but still using visual observers or procedures — not BVLOS. CAD / Cap. 448G practice.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **[eVTOL (電動垂直起降飛行器)]{#evtol}**
 
@@ -881,139 +643,71 @@ English: “Improve civil aviation legislation and regulatory framework, includi
 
 **Fail-safe mechanism (失效安全機制)**  
 
-**What:** Official Chinese form 失效安全機制. CAD AC-013_C App. A §3.7.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Design or procedure that puts the SUA into a safer state after a failure (失效安全機制) — required thinking in sandbox equipment and contingency plans. CAD AC-013_C App. A §3.7.
 
 **Flight critical system (飛行關鍵系統)**  
 
 **What:** System whose failure could be catastrophic or stop the SUA sustaining flight (e.g. flight control, propulsion, navigation). CAD AC-013 §2.4.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Flight log (飛行記錄)**  
 
 **What:** Required safety-system record of flight data; AC-013 requires retention (with other safety-system info) for six months and accessibility in Hong Kong for advanced operations. Cap. 448G s.13; CAD AC-013 §10.1.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Flight termination (飛行終止 / 終止飛行)**  
 
 **What:** Procedure or system that ends the flight as soon as practicable in an emergency. CAD AC-013 §9.4.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Flyaway (飛失)**  
 
-**What:** Official Chinese form 飛失. CAD AC-013_C §14.1(f).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Loss of effective control or unintended departure of the SUA (飛失) — a contingency AC-013 expects operators to plan and report for. CAD AC-013_C §14.1(f).
 
 **Geo-awareness (適飛空域辨識)**  
 
 **What:** SUA safety-system function that supports awareness of geographical limits; required with flight log under Cap. 448G s.13 / AC-013. Cap. 448G s.13; CAD AC-013 §10.1.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Geo-fence / geo-fencing (電子圍欄)**  
 
 **What:** Electronic or procedural boundary that keeps the SUA inside pre-defined sandbox operating areas or flight routes. CAD AC-013 §5.3, App. A §3.6.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Ground risk (地面風險)**  
 
 **What:** Risk to people, vehicles, vessels or structures on the ground from the SUA flight. CAD AC-013 §4.3(f), §5.2.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Interoperability / standards**  
 
 **What:** Ability of vehicles, UTM and sites to work to a common rule set; cite PA infrastructure language only. Course / 2025 PA.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Involved person (參與人員)**  
 
 **What:** Person who takes part in or is briefed on the SUA operation, understands the risks, and follows safety instructions. CAD AC-013 §2.5.1.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **MTOW**  
 
 **What:** Maximum certified take-off weight; Cap. 448G categories and Mainland UAS rules key off weight thresholds. Cap. 448G; Mainland UAS instruments.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Operations Manual (操作手冊)**  
 
 **What:** Operator document setting organisation, procedures, emergency response and maintenance for the proposed advanced / sandbox operation. CAD AC-013 App. A; AC-017 §9.1.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **payload (載荷)**  
 
-**What:** Mass or cargo carried for the mission, distinct from empty weight or MTOW. Course.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Mass or cargo carried for the mission — distinct from empty weight or **MTOW**. Mission economics and category rules both care which mass you mean. Course.
 
 **Remote ID**  
 
 **What:** Continuous broadcast of SUA identity and geographic position so aircraft in the air can be identified. CAD AC-017 §8.2.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Remote pilot (遙控駕駛員)**  
 
 **What:** Person who manipulates the flight controls of a SUA during flight under Cap. 448G. Cap. 448G; CAD AC-013 §7.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **Return-to-home (自動返航 / 返航點)**  
 
 **What:** Pre-programmed recovery behaviour that sends the SUA to a home or safe site (e.g. after C2-link loss); incorrect RTH settings are a containment hazard. CAD AC-013 §14.1.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Specific Operations Risk Assessment (SORA) (特定運行風險評估)**  
 
-**What:** Official Chinese form 特定運行風險評估. CAD AC-013_C App. B (names SORA).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** **SORA** (特定運行風險評估) — a structured method to argue ground and air risk for advanced / BVLOS-style operations; AC-013 App. B names it. CAD AC-013_C App. B.
 
 **[SUA (小型無人機)]{#sua}**
 
@@ -1027,41 +721,21 @@ English: “Improve civil aviation legislation and regulatory framework, includi
 
 **What:** Means (or alternative compliance) for the remote pilot to monitor the SUA and nearby traffic/obstacles during higher-risk BVLOS. CAD AC-013 §10.9.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **UAS**  
 
 **What:** Unmanned aircraft system (aircraft + control station + links); used in OFCA licence titles and Mainland instruments; broader than Cap. 448G “SUA.”. OFCA UAS (Private) Licence; Mainland 国令761 / CCAR-92 usage.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **UAV**  
 
 **What:** Common label for the aircraft alone; prefer **SUA** when citing Cap. 448G and **UAS** when citing system or spectrum rules. Course / industry usage.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Uninvolved person (非參與人員)**  
 
 **What:** Any person other than an involved person; drives ground-risk planning for BVLOS. CAD AC-013 §2.5.2.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Visual observer (視像觀察員)**  
 
 **What:** Person at the same location as the remote pilot who keeps unaided visual contact with the SUA and communicates to help avoid collision. CAD AC-013 §2.6.1; official Chinese form 視像觀察員 in [G.N. 1276 ¶(2)](https://www.cad.gov.hk/documents/G.N.1276_C.pdf) and CAD AC-013_C §2.6.1.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 **[VLOS (視線內操作)]{#vlos}**
 
@@ -1075,81 +749,44 @@ English: “Improve civil aviation legislation and regulatory framework, includi
 
 **What:** Vertical take-off and landing as a flight capability, whether electric or not; broader than eVTOL. Course / industry usage.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 ## Airspace and traffic
 **Aerodrome Traffic Zone (機場交通區)**  
 
-**What:** Official Chinese form 機場交通區. CAD AC-013_C §5.1(d).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Airspace around an aerodrome (機場交通區) that Sandbox / advanced SUA routes must respect unless coordination and permission say otherwise. CAD AC-013_C §5.1(d).
 
 **Air Traffic Control (航空交通管制)**  
 
-**What:** Official Chinese form 航空交通管制. CAD AC-013_C §7.4(f).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** The aviation traffic service (航空交通管制) that manages manned (and coordinated) traffic — **not** the course economics acronym ATC (average total cost). CAD AC-013_C §7.4(f).
 
 **corridor**  
 
 **What:** A defined low-altitude route volume used in policy and sandbox language (including cross-boundary concepts); a planned or trial corridor is not proof of an operating SZ–HK medical corridor. Sandbox X / TLB cross-boundary language; Official status: corridor **operational** NOT evidenced.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Government Flying Service (政府飛行服務隊)**  
 
-**What:** Official Chinese form 政府飛行服務隊. CAD AC-013_C §5.1(f).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** HKSAR government flight unit (政府飛行服務隊) that may appear in coordination language for low-altitude operations. CAD AC-013_C §5.1(f).
 
 **HKAIP special-use airspace (《香港航空資料匯編》…禁區／限制區／危險區)**  
 
 **What:** Prohibited, Restricted or Danger Areas published in the Hong Kong Aeronautical Information Publication — Sandbox BVLOS routes must stay clear unless justified. CAD AC-013 §5.1; HKAIP.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Prohibited / Restricted / Danger Area (HKAIP) (禁區／限制區／危險區)**  
 
-**What:** Official Chinese form 禁區／限制區／危險區. CAD AC-013_C §5.1(b).
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** HKAIP special-use airspace types (禁區／限制區／危險區). Sandbox BVLOS routes must stay clear unless justified to CAD. CAD AC-013_C §5.1(b).
 
 **restricted flying zone (限制飛行區)**  
 
 **What:** CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Smart low-altitude traffic management (智能低空交通管理系統)**  
 
 **What:** Policy-Address label for the planned digital traffic-management layer of low-altitude infrastructure; Hong Kong system still **planned**, not a statute. 2024 PA LAE infra slide; 2025 PA ¶154.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Enhance core infrastructure facilities by designating spectrum by the end of the year, as well as facilitating early planning and deployment of facilities such as vertiports, air route networks, satellite positioning, three-dimensional spatial data systems and a smart, low-altitude traffic-management system.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
 
 [「推展核心基建設施，年底前推出專用頻譜，提前規劃部署起降場、航路網絡、衞星定位、三維空間數據系統、智能低空交通管理系統等。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
-
 
 **[U-space]{#u-space}**
 
@@ -1177,18 +814,10 @@ English: “Enhance core infrastructure facilities by designating spectrum by th
 
 **What:** Plain-language pair to VLOS: keeping the aircraft in unaided sight; use the VLOS entry for Cap. 448G citations. Cap. 448G / CAD.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 ## Infrastructure
 **1.4 GHz / UAS**  
 
 **What:** Dedicated UAS spectrum band 1430–1444 MHz, licensable for LAE Regulatory Sandbox projects from 2025-10-27 — not a general public mobile band. CA / OFCA; GN-1/2025.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The Communications Authority has made available the 1430 – 1444 MHz band (1.4 GHz band) for use by UAS and created a new licence to facilitate the use of the dedicated spectrum.”…“At present, the 1.4 GHz band is confined to be used by projects under the LAE Regulatory Sandbox launched by the Government.”…“the Unmanned Aircraft System (Private) Licence has been created since 27 October 2025” ([source](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html))
@@ -1196,38 +825,21 @@ English: “The Communications Authority has made available the 1430 – 1444 MH
 [「通訊事務管理局（通訊局） 已規劃1430 – 1444 兆赫頻帶（1.4 吉赫頻帶）供無人機系統使用，並設立新的牌照以促進該專用頻譜的使用。」…「目前，1.4 吉赫頻帶只限於香港低空經濟監管沙盒項目使用。」…「無人駕駛飛機系統（專用）牌照於2025年10月27日設立」]{lang="zh-Hant"} ([source](https://www.ofca.gov.hk/tc/industry_focus/industry_focus/uas_private_licence/index.html))
 :::
 
-
 **charging / swapping (充電站 (PA infra list))**  
 
 **What:** Energy logistics for electric SUA or eVTOL at sites or docks; course infrastructure concept, not a licence by itself. Course.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 **Dedicated spectrum (PA) (專用頻譜)**  
 
-**What:** Official Chinese form 專用頻譜. 2025 PA ¶154.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Policy Address infrastructure item (專用頻譜) — dedicated radio spectrum for LAE. Licence detail sits with OFCA / Communications Authority; PA wording alone is not a licence. 2025 PA ¶154.
 
 **GNSS (全球導航衞星系統)**  
 
-**What:** Official Chinese form 全球導航衞星系統. CAD AC-013_C §5.5.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** **Global Navigation Satellite System** (全球導航衞星系統) — satellite positioning used for SUA navigation and geo-awareness. CAD AC-013_C §5.5.
 
 **Low-altitude infrastructure (低空基礎建設 / 低空基礎設施)**  
 
 **What:** PA package covering GNSS, mobile radio, high-speed data, take-off/landing and charging facilities, plus traffic management — planning language, not a built network inventory. 2024 PA LAE; 2025 PA ¶154–155.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Enhance core infrastructure facilities by designating spectrum by the end of the year, as well as facilitating early planning and deployment of facilities such as vertiports, air route networks, satellite positioning, three-dimensional spatial data systems and a smart, low-altitude traffic-management system.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -1235,30 +847,17 @@ English: “Enhance core infrastructure facilities by designating spectrum by th
 [「推展核心基建設施，年底前推出專用頻譜，提前規劃部署起降場、航路網絡、衞星定位、三維空間數據系統、智能低空交通管理系統等。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
 
-
 **Route network (PA) (航路網絡)**  
 
-**What:** Official Chinese form 航路網絡. 2025 PA ¶154.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Policy Address planning label (航路網絡) for a low-altitude route network. Naming it in the PA is **not** proof that city-wide corridors already operate. 2025 PA ¶154.
 
 **Satellite positioning (PA) (衞星定位)**  
 
-**What:** Official Chinese form 衞星定位. 2025 PA ¶154.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Policy Address infrastructure item (衞星定位) — satellite positioning as part of the planned low-altitude package. 2025 PA ¶154.
 
 **Three-dimensional spatial data system (PA) (三維空間數據系統)**  
 
-**What:** Official Chinese form 三維空間數據系統. 2025 PA ¶154.
-
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
+**What:** Policy Address infrastructure item (三維空間數據系統) for 3D spatial data that supports low-altitude planning and operations. 2025 PA ¶154.
 
 **[Throughput]{#throughput}**
 
@@ -1286,13 +885,9 @@ English: “Enhance core infrastructure facilities by designating spectrum by th
 
 **What:** Industry term for a lighter pad than a full vertiport; **not a Hong Kong statutory category**. Industry usage.
 
-**Why in LAE:** You will meet this name in readings, permissions, or week notes — keep the issuer wording exact.
-
-**Watch-out:** Do not treat a slide shorthand as a substitute for the legal or issuer definition. When unsure, check [Official status](tracker.qmd) or the linked week.
-
 ## Business and economics
 
-Course economics vocabulary in plain English. Each card: **what it is** → **why it matters in LAE** → **watch-out**. Law and programme names live in the sections above — typology is by **section heading**, not a per-term Official/Course tag. Worked numbers stay on **Teach**; citeable programme facts stay on [Key figures](key-figures.qmd) / [Official status](tracker.qmd).
+Course economics vocabulary in plain English. Cards keep **What**; **Why in LAE** / **Watch-out** stay only when the line is term-specific. Law and programme names live in the sections above — typology is by **section heading**. Worked numbers stay on **Teach**; citeable programme facts stay on [Key figures](key-figures.qmd) / [Official status](tracker.qmd).
 
 **[AAM]{#aam}**  
 
@@ -1491,7 +1086,6 @@ English: “Based on the latest publicly available data, the industry value adde
 
 [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
 :::
-
 
 **[KPI]{#kpi}**  
 
