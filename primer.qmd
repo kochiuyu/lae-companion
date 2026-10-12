@@ -8,13 +8,26 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Plain-language start for this 12-week course. Definitions stay in the [Glossary](glossary.qmd); citeable status stays on [Official status](tracker.qmd).
+This page explains the **low-altitude economy** in simple English. Use it before the week pages under **Teach**.
+
+Harder words and legal names appear here too. When you see a new term, this page says what it means the first time. Longer definitions sit in the [Glossary](glossary.qmd). Checked programme facts sit on [Official status](tracker.qmd).
 
 ## A whole service, not only a vehicle
 
-In Hong Kong, **low-altitude economy (LAE)** means economic activity in airspace generally below about **1,000 metres** — a **policy working description**, not a Cap. 448G flying limit ([Glossary · altitude scale](glossary.qmd#altitude-scale); [Official status](tracker.qmd)).
+In Hong Kong, the **low-altitude economy (LAE)** means business and other paid activity that uses airspace generally below about **1,000 metres**.
 
-Picture a completed mission: someone needs a delivery, inspection, medical transfer, or similar job done. An **operator** flies (or manages) the aircraft; the craft needs somewhere to take off and land; someone coordinates traffic and communications; **customers or mission sponsors** pay for the outcome; and supporting services (finance, insurance, training, platforms) keep the operation going. That whole chain is what the course means by LAE — Week 1 on [Weeks](week-01.qmd) opens the same idea; the week map is on [Course overview](overview.qmd).
+That **1,000 metre** figure is a **policy working description** — a way officials and analysts talk about the field. It is **not** the same thing as a flying-height limit in Hong Kong’s main drone law, Cap. 448G ([Glossary · altitude scale](glossary.qmd#altitude-scale); [Official status](tracker.qmd)).
+
+Think of one finished job, not only one aircraft:
+
+- Someone needs a delivery, an inspection, a medical transfer, or a similar task.
+- An **operator** flies the aircraft or runs the flight.
+- The aircraft needs a place to take off and land.
+- Someone helps coordinate traffic and communications.
+- **Customers** (or **mission sponsors**) pay for the result.
+- Other firms support the work — for example finance, insurance, training, and software platforms.
+
+That whole chain is what this course means by LAE. [Week 1](week-01.qmd) starts the same idea. The week map is on [Course overview](overview.qmd).
 
 
 ```{=html}
@@ -30,25 +43,28 @@ Picture a completed mission: someone needs a delivery, inspection, medical trans
 .wsvc-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
 </style>
 <figure class="wsvc" id="lae-whole-service" aria-labelledby="wsvc-title">
-<p class="wsvc-cap" id="wsvc-title"><strong>Whole service (schematic)</strong> — how the pieces fit for one mission. Not a regulatory map; formal terms live in the Glossary.</p>
+<p class="wsvc-cap" id="wsvc-title"><strong>Whole service (simple picture)</strong> — the pieces of one mission. This is not a law map. Formal terms live in the Glossary.</p>
 <div class="wsvc-flow">
-<div class="wsvc-box"><strong>Craft</strong><br/>The aircraft that flies the mission — e.g. light unmanned types under <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G / SUA</a>, or heavier / passenger-oriented types discussed as <a href="glossary.qmd#vehicles-and-operations">eVTOL / unconventional aircraft</a> (no dedicated Hong Kong eVTOL statute yet).</div>
+<div class="wsvc-box"><strong>Craft</strong><br/>The aircraft that flies the mission. Light unmanned types often fall under <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G / SUA</a>. Heavier or passenger-oriented types are discussed as <a href="glossary.qmd#vehicles-and-operations">eVTOL / unconventional aircraft</a>. Hong Kong has <strong>no dedicated eVTOL law yet</strong>.</div>
 <div class="wsvc-arrow" aria-hidden="true">↓ needs place and airspace</div>
-<div class="wsvc-box"><strong>Airspace &amp; sites</strong><br/>Low-altitude working band (<a href="glossary.qmd#altitude-scale">~1,000 m policy description</a>); take-off/landing sites (industry: <a href="glossary.qmd#infrastructure">vertiports</a>); traffic coordination labels (<a href="glossary.qmd#airspace-and-traffic">UTM / U-space</a> — U-space is not Hong Kong law).</div>
-<div class="wsvc-arrow" aria-hidden="true">↓ delivers an outcome for</div>
-<div class="wsvc-box"><strong>Customers / mission sponsors</strong><br/>Who needs the delivery, inspection, medical transfer, or similar job done — and who pays for that outcome (business detail on <a href="business-overview.qmd">How does LAE work?</a>).</div>
+<div class="wsvc-box"><strong>Airspace &amp; sites</strong><br/>The low-altitude working band (<a href="glossary.qmd#altitude-scale">about 1,000 m as a policy description</a>). Take-off and landing sites (industry word: <a href="glossary.qmd#infrastructure">vertiports</a>). Traffic labels such as <a href="glossary.qmd#airspace-and-traffic">UTM / U-space</a> — <strong>U-space is not Hong Kong law</strong>.</div>
+<div class="wsvc-arrow" aria-hidden="true">↓ delivers a result for</div>
+<div class="wsvc-box"><strong>Customers / mission sponsors</strong><br/>Who needs the job done, and who pays for that result. Business detail: <a href="business-overview.qmd">How does LAE work?</a>.</div>
 <div class="wsvc-arrow" aria-hidden="true">↓ under</div>
-<div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and under which permissions. One-line regulator roles on <a href="regulators.qmd">Who decides what?</a>; citeable status on Official status.</div>
+<div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and with which permissions. Short roles: <a href="regulators.qmd">Who decides what?</a>. Checked status: Official status.</div>
 </div>
-<p class="wsvc-note">Operators and supporting services (finance, insurance, training, platforms) sit across this chain — Week 1 opens the same idea.</p>
+<p class="wsvc-note">Operators and support services (finance, insurance, training, platforms) sit across this chain. Week 1 opens the same idea.</p>
 </figure>
 ```
 
-Mainland **低空经济** uses a separate statistical / industrial-policy scope (NDRC 发改低空〔2025〕1676号). Do not treat it as the same metric as a Hong Kong value-added figure ([Glossary](glossary.qmd#mainland-comparators); [Official status](tracker.qmd)).
+On the Mainland, **低空经济** (low-altitude economy) uses a **different** statistical and industrial-policy scope (NDRC 发改低空〔2025〕1676号). Do **not** treat that Mainland measure as the same number as a Hong Kong **value-added** figure ([Glossary](glossary.qmd#mainland-comparators); [Official status](tracker.qmd)).
 
 ## Labels you will meet (keep light)
 
-You will hear everyday words (“drone”) and law or industry labels side by side. Hong Kong’s main legal label for light unmanned craft is **small unmanned aircraft (SUA)** under [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) (not more than **150 kg**). **eVTOL** is an industry label for electric vertical take-off and landing craft; Hong Kong has **no dedicated eVTOL statute yet**, and heavier / passenger types sit above the SUA ceiling as **unconventional aircraft** pending rules ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [Official status](tracker.qmd)).
+You will hear everyday words (such as “drone”) next to law or industry labels. Keep them separate.
+
+- **Small unmanned aircraft (SUA)** — Hong Kong’s main legal label for light unmanned craft under [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law). Cap. 448G covers unmanned aircraft **not more than 150 kg**. “Drone” in everyday speech is **not** a Cap. 448G legal synonym.
+- **eVTOL** — an industry label for **electric vertical take-off and landing** craft (aircraft that take off and land straight up and down, usually with electric power). Hong Kong has **no dedicated eVTOL statute yet**. Heavier or passenger types sit above the SUA weight ceiling. They are treated as **unconventional aircraft** while rules are still being developed ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [Official status](tracker.qmd)).
 
 
 ```{=html}
@@ -64,21 +80,32 @@ You will hear everyday words (“drone”) and law or industry labels side by si
 .plab-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
 </style>
 <figure class="plab" id="lae-labels" aria-labelledby="plab-title">
-<p class="plab-cap" id="plab-title"><strong>Labels at a glance</strong> — everyday speech vs law / industry wording. Full entries in the Glossary.</p>
+<p class="plab-cap" id="plab-title"><strong>Labels at a glance</strong> — everyday speech vs law / industry wording. Full entries are in the Glossary.</p>
 <div class="plab-grid">
-<div class="plab-box"><span class="tag">Altitude</span><strong>~1,000 m</strong>Hong Kong LAE working description for economic activity in low-altitude airspace — <em>not</em> a Cap. 448G flying limit. <a href="glossary.qmd#altitude-scale">Glossary · altitude scale</a></div>
-<div class="plab-box"><span class="tag">SUA</span><strong>Small unmanned aircraft</strong>Hong Kong Cap. 448G term for unmanned aircraft not more than <strong>150 kg</strong>. “Drone” in everyday speech is not a Cap. 448G synonym. <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G</a> · <a href="glossary.qmd#vehicles-and-operations">vehicles</a></div>
-<div class="plab-box"><span class="tag">eVTOL</span><strong>Electric VTOL (industry)</strong>Heavier / passenger-oriented types sit above the SUA ceiling as <strong>unconventional aircraft</strong> pending rules — <strong>no dedicated Hong Kong eVTOL statute yet</strong>. <a href="glossary.qmd#vehicles-and-operations">Glossary · vehicles</a></div>
+<div class="plab-box"><span class="tag">Altitude</span><strong>~1,000 m</strong>Hong Kong working description for economic activity in low-altitude airspace — <em>not</em> a Cap. 448G flying limit. <a href="glossary.qmd#altitude-scale">Glossary · altitude scale</a></div>
+<div class="plab-box"><span class="tag">SUA</span><strong>Small unmanned aircraft</strong>Hong Kong Cap. 448G term for unmanned aircraft not more than <strong>150 kg</strong>. Everyday “drone” is not a Cap. 448G synonym. <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G</a> · <a href="glossary.qmd#vehicles-and-operations">vehicles</a></div>
+<div class="plab-box"><span class="tag">eVTOL</span><strong>Electric VTOL (industry)</strong>Heavier / passenger-oriented types sit above the SUA ceiling as <strong>unconventional aircraft</strong> while rules develop — <strong>no dedicated Hong Kong eVTOL statute yet</strong>. <a href="glossary.qmd#vehicles-and-operations">Glossary · vehicles</a></div>
 </div>
-<p class="plab-note">Sites (vertiports), U-space / UTM, BVLOS, and permission ladders: see prose below and Glossary diagrams — not reprinted here.</p>
+<p class="plab-note">Sites (vertiports), U-space / UTM, BVLOS, and permission steps: see the text below and the Glossary — not reprinted here.</p>
 </figure>
 ```
 
-Sites for advanced craft are often called **vertiports** in industry language — again, **no dedicated Hong Kong vertiport statute yet** ([Glossary · infrastructure](glossary.qmd#infrastructure)). Traffic labels such as **U-space** (EU / industry, **not Hong Kong law**) and **UTM** (industry usage) appear in readings; Hong Kong’s Smart Low-altitude Traffic Management System is **planned** (Policy Address language: progressive implementation from **2028**), not yet a statute ([Glossary · airspace](glossary.qmd#airspace-and-traffic); [Timeline](dates.qmd)). Weight ladders, BVLOS, and permission diagrams live on the Glossary — this page does not reprint them.
+A few more labels you will see in readings:
+
+- **Vertiport** — industry word for a take-off and landing site for advanced craft. Hong Kong has **no dedicated vertiport statute yet** ([Glossary · infrastructure](glossary.qmd#infrastructure)).
+- **U-space** — an EU / industry traffic concept. **U-space is not Hong Kong law.**
+- **UTM** — **unmanned aircraft system traffic management**; industry usage for digital traffic coordination.
+- Hong Kong’s **Smart Low-altitude Traffic Management System** is **planned** (Policy Address language: progressive implementation from **2028**). It is **not** a statute yet ([Glossary · airspace](glossary.qmd#airspace-and-traffic); [Timeline](dates.qmd)).
+
+Weight ladders, **BVLOS** (**beyond visual line of sight** — flying when the remote pilot cannot see the aircraft), and permission diagrams live on the Glossary. This page does not reprint them.
 
 ## Why Hong Kong and the GBA
 
-The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style comparators on [Course overview](overview.qmd) and the week pages under **Teach**. Hong Kong already has an active policy track (Working Group, sandboxes, Cap. 448G and Advisory Circulars) on [Timeline](dates.qmd).
+This course focuses on **Hong Kong** and the **Greater Bay Area (GBA)** — the city cluster that includes Hong Kong, Macao, and nearby Guangdong cities.
+
+Readings also use EU, US, and NASA-style examples for **comparison**. Those foreign frames are **not** Hong Kong law. See [Course overview](overview.qmd) and the week pages under **Teach**.
+
+Hong Kong already has an active policy track: a Working Group, trial programmes (**sandboxes**), Cap. 448G, and Advisory Circulars. The dated trail is on [Timeline](dates.qmd).
 
 
 ```{=html}
@@ -96,16 +123,16 @@ The course centres Hong Kong and the Greater Bay Area, with EU / US / NASA-style
 <figure class="phk" id="lae-hk-gba" aria-labelledby="phk-title">
 <p class="phk-cap" id="phk-title"><strong>Why Hong Kong / GBA</strong> — where the course is set, in simple terms.</p>
 <div class="phk-flow">
-<div class="phk-box"><strong>Hong Kong + Greater Bay Area</strong><br/>This is the course’s home setting. Hong Kong already has a Working Group, trial programmes (sandboxes), Cap. 448G, and Advisory Circulars — the dated trail is on Timeline. Readings also use EU / US / NASA-style examples for comparison.</div>
+<div class="phk-box"><strong>Hong Kong + Greater Bay Area</strong><br/>This is the course’s home setting. Hong Kong already has a Working Group, trial programmes (sandboxes), Cap. 448G, and Advisory Circulars — see Timeline. Readings also use EU / US / NASA-style examples for comparison only.</div>
 <div class="phk-arrow" aria-hidden="true">↓ useful to know</div>
-<div class="phk-box"><strong>Two separate sandboxes</strong><br/>Hong Kong ran an early <strong>Regulatory Sandbox</strong>, then a later programme called <strong>Sandbox X</strong>. Think of them as two different trial rounds, not one combined list.</div>
-<div class="phk-box"><strong>Cross-boundary corridor</strong><br/>A Shenzhen–Hong Kong / GBA corridor is a policy idea people talk about. On the evidence tracked here, it is <strong>not flying as an operating corridor yet</strong> — still planned / under discussion, not day-to-day service.</div>
+<div class="phk-box"><strong>Two separate sandboxes</strong><br/>Hong Kong ran an early <strong>Regulatory Sandbox</strong>, then a later programme called <strong>Sandbox X</strong>. Treat them as two different trial rounds — <strong>not</strong> one combined list.</div>
+<div class="phk-box"><strong>Cross-boundary corridor</strong><br/>A Shenzhen–Hong Kong / GBA corridor is a policy idea people discuss. On the evidence tracked here, it is <strong>not flying as day-to-day service yet</strong> — still planned / under discussion.</div>
 </div>
-<p class="phk-note">More on who regulates what: <a href="regulators.qmd">Who decides what?</a>. Big private forecasts you may see in slides are not the same as government figures — check Official status if unsure.</p>
+<p class="phk-note">Who regulates what: <a href="regulators.qmd">Who decides what?</a>. Large private forecasts in slides are not the same as government figures — check Official status if unsure.</p>
 </figure>
 ```
 
-The boxes above are enough for a first pass. When you need regulator names, open [Who decides what?](regulators.qmd).
+The boxes above are enough for a first pass. For regulator names, open [Who decides what?](regulators.qmd).
 
 ## What to read next
 
@@ -114,6 +141,6 @@ The boxes above are enough for a first pass. When you need regulator names, open
 3. **[Common questions](faq.qmd)** · **[Key figures](key-figures.qmd)** — short Q&As and sourced numbers.  
 4. **[How to use this site](howto.qmd)** — full Orient path, then Teach and Updates.
 
-Then switch to **Teach**: start with [Week 1](week-01.qmd).
+Then open **Teach**: start with [Week 1](week-01.qmd).
 
-No Blackboard or assessment admin on this site — course logistics stay with the teaching platform.
+This site has no Blackboard or assessment admin. Course logistics stay on the teaching platform.
