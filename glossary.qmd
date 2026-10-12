@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Term definitions and diagrams you can cite. Week notes link here on **first use**. Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
+Term definitions and diagrams you can cite. Week notes link here on **first use**. Business cards use a short lecture pattern (**what → why in LAE → watch-out**). Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
 
 ## At a glance
 
@@ -853,249 +853,223 @@ Industry term for a lighter pad than a full vertiport; **not a Hong Kong statuto
 
 ## Business and economics
 
-Course economics vocabulary. Short definitions for first use in the week notes — details and worked examples stay on **Teach**.
-
+Course economics vocabulary in plain English. Pattern: **what it is** → **why it matters in LAE** → **watch-out**. Worked numbers stay on **Teach**; citeable programme facts stay on [Key figures](key-figures.qmd) / [Official status](tracker.qmd).
 
 **[AAM]{#aam}**  
 Kind: Course  
-**Advanced air mobility** — broad industry label for new aircraft concepts that may connect cities, suburbs, or corridors. Course comparator language; **not** Hong Kong law. Nested with LAE / UAM on Week 1.
+
+**What:** **Advanced air mobility** — a broad industry label for new aircraft concepts that may link cities, suburbs, or corridors.
+
+**Why in LAE:** Readings use AAM as a **comparator** frame next to Hong Kong-first LAE and city **UAM**.
+
+**Watch-out:** AAM language is **not** Hong Kong law. Nesting: LAE (umbrella) ⊃ UAM (in-city) ; AAM is broader industry talk. See [Week 1](week-01.qmd).
 
 **[ASK / available capacity unit]{#ask}**  
 Kind: Course  
-Capacity supplied (seat-km or payload-km) used as the denominator in CASK/CPMK. Course models.
+
+**What:** Capacity you **offer** (seat-km or payload-km), used as the denominator in CASK / CPMK.
+
+**Why in LAE:** Separates “how much capacity did we put in the sky?” from “how much was used?” (load factor).
+
+**Watch-out:** ASK is not demand and not revenue. Classroom CASK figures are teaching tools, not market data. See [Week 3](week-03.qmd).
 
 **[ATC (average total cost)]{#atc-average-total-cost}**  
 Kind: Course  
-**Average total cost** — total cost divided by units of output (flights, missions, or passengers as defined). **Not** the same as Air Traffic Control (see Airspace and traffic). Course.
+
+**What:** **Average total cost** — total cost divided by units of output (flights, missions, or passengers — say which).
+
+**Why in LAE:** Shows how **fixed cost** spreads when utilization or density rises on the same corridor or pad (Weeks 2–3).
+
+**Watch-out:** This is **not** Air Traffic Control (the aviation safety / traffic service). For traffic-control language see [Airspace and traffic](#airspace-and-traffic).
 
 **[availability payment]{#availability-payment}**  
 Kind: Course  
-Payment for readiness / availability of a service or asset, even when usage is low. Contrasts with usage payments. Week 6.
+
+**What:** Payment for **readiness** of a service or asset, even when usage is low.
+
+**Why in LAE:** Public or partner deals often buy “be ready to fly” for emergency or sparse routes, not only pay-per-trip.
+
+**Watch-out:** Availability pay does **not** prove there is commercial demand. Contrast [usage payment](#usage-payment). See [Week 6](week-06.qmd).
 
 **[Bertrand competition]{#bertrand}**  
 Kind: Course  
-Price competition when rivals set prices (rather than quantities). With scarce pads, pure Bertrand intuition can fail. Week 2.
+
+**What:** Price competition when rivals set **prices** (rather than quantities).
+
+**Why in LAE:** With scarce pads, undercutting toward marginal cost can destroy margins if average cost stays high.
+
+**Watch-out:** Textbook Bertrand needs a clear product and free capacity. Pad limits change the story. See [Week 2](week-02.qmd).
 
 **[Break-even load factor]{#break-even-load-factor}**  
 Kind: Course  
-Load factor at which revenue covers a stated cost block; course planning tool. Course models.
+
+**What:** The load factor at which revenue covers a stated cost block.
+
+**Why in LAE:** Links “how full must we be?” to a cost target before you talk about profit.
+
+**Watch-out:** Only as good as the cost block you chose. See also [breakeven volume](#breakeven-volume); [Week 3](week-03.qmd).
 
 **[breakeven volume]{#breakeven-volume}**  
 Kind: Course  
-Output (flights, passengers, or missions) needed to cover fixed cost at a stated contribution per unit. Week 3.
+
+**What:** How many flights, passengers, or missions you need to cover fixed cost at a stated contribution per unit.
+
+**Why in LAE:** Turns a cost stack into a volume target you can compare with capacity and demand.
+
+**Watch-out:** Breakeven on a clear-weather day can fail when downtime cuts volume. See [Week 3](week-03.qmd).
 
 **[CAPEX / OPEX]{#capex-opex}**  
 Kind: Course  
-**CAPEX** = capital expenditure (upfront investment). **OPEX** = operating expenditure (recurring running costs). Keep separate before unit metrics. Course.
+
+**What:** **CAPEX** = capital expenditure (upfront investment). **OPEX** = operating expenditure (recurring running costs).
+
+**Why in LAE:** Mixing them hides whether a problem is “too expensive to build” or “too expensive to run every day.”
+
+**Watch-out:** Label the period. Some costs look fixed in a week and variable over a year. See [Week 3](week-03.qmd).
 
 **[cash flow]{#cash-flow}**  
 Kind: Course  
-Money in minus money out in a period. Discounted cash flows feed NPV. Course.
+
+**What:** Money in minus money out in a period.
+
+**Why in LAE:** NPV and staging decisions need cash timing, not only accounting profit labels.
+
+**Watch-out:** State what is included (tax, partner fees, CAPEX). See [NPV](#npv).
 
 **[CASK / CPMK]{#cask-cpmk}**  
 Kind: Course  
-**CASK** = cost per available seat-kilometre; **CPMK** = cost per available payload-kilometre — cost of capacity offered. Lecture figures are not market data. Course.
+
+**What:** **CASK** = cost per available seat-kilometre; **CPMK** = cost per available payload-kilometre — cost of **capacity offered**.
+
+**Why in LAE:** Compares unit cost when seats or payload-km are the natural unit (passenger vs cargo / mission).
+
+**Watch-out:** Lecture CASK numbers are **not** Hong Kong market data. See [Week 3](week-03.qmd).
 
 **[contribution margin]{#contribution-margin}**  
 Kind: Course  
-Revenue minus variable cost (before fixed cost). Used in breakeven and revenue-management screens. Course.
+
+**What:** Revenue minus variable cost (before fixed cost).
+
+**Why in LAE:** Shows whether an extra trip helps pay the lease — the heart of revenue management and breakeven.
+
+**Watch-out:** Positive contribution can still lose money after fixed cost. See [Week 3](week-03.qmd).
 
 **[co-opetition]{#co-opetition}**  
 Kind: Course  
-Cooperate on shared assets (e.g. a pad) while competing on service. Week 2 / Week 6.
+
+**What:** Cooperate on shared assets (for example a pad) while competing on service.
+
+**Why in LAE:** Scarce roofs push rivals to share infrastructure without merging brands.
+
+**Watch-out:** Sharing can cut unit cost and harden price competition at the same time. See [Week 2](week-02.qmd) / [Week 6](week-06.qmd).
 
 **[congestion externality]{#congestion-externality}**  
 Kind: Course  
-Extra delay (and related cost) imposed on others when scarce airspace or pad capacity is used. Week 8.
+
+**What:** Extra delay (and related cost) you impose on others when scarce airspace or pad capacity is used.
+
+**Why in LAE:** Private flight decisions can ignore spillover delay, so queues grow too far.
+
+**Watch-out:** Classroom congestion charges are appraisal aids — not a published Hong Kong drone congestion tax. See [Week 8](week-08.qmd).
 
 **[demand funnel]{#demand-funnel}**  
 Kind: Course  
-Step-down from relevant trips to choice to **served** demand under capacity. Week 4 / Week 9.
+
+**What:** A step-down from relevant trips → choice → **served** demand under capacity.
+
+**Why in LAE:** Stops “huge TAM” slides from skipping pads, weather, and acceptance.
+
+**Watch-out:** Unconstrained funnel headlines are not obtainable revenue. See [Week 4](week-04.qmd) / [Week 9](week-09.qmd).
 
 **[discount rate]{#discount-rate}**  
 Kind: Course  
-Rate used to convert future cash into present value in NPV. Course assumption — state it. Course.
+
+**What:** The rate used to turn future cash into present value in NPV.
+
+**Why in LAE:** Higher rates punish distant cash — important when certification and sandboxes delay launch.
+
+**Watch-out:** Always state the rate; it is an assumption, not a law of nature. See [NPV](#npv).
 
 **[economies of density]{#economies-of-density}**  
 Kind: Course  
-Average cost falls as more flights share the same corridor or vertiport. Course.
+
+**What:** Average cost falls as more flights share the **same** corridor or vertiport (not only “bigger aircraft”).
+
+**Why in LAE:** Density can look like a moat when sites are scarce.
+
+**Watch-out:** Density needs allowed volume — demand, pads, and rules can bind first. See [Week 2](week-02.qmd).
 
 **[elasticity of demand]{#elasticity-of-demand}**  
 Kind: Course  
-How quantity responds to a price change. **Own-price** = your price; **cross-price** = a rival or substitute’s price. Week 4.
+
+**What:** How quantity responds to a price change. **Own-price** = your price; **cross-price** = a rival or substitute’s price.
+
+**Why in LAE:** Strong MTR / taxi alternatives can make air fares very sensitive.
+
+**Watch-out:** Elasticity from a survey without alternatives can understate switching. See [Week 4](week-04.qmd).
 
 **[entry barrier]{#entry-barrier}**  
 Kind: Course  
-Cost or delay that slows or blocks new entry (investment, compliance, delay, uncertainty). Sandboxes may cut delay/uncertainty, not safety duties. Week 1 / Week 2 / Week 7.
+
+**What:** Cost or delay that slows or blocks new entry (investment, compliance, waiting, uncertainty).
+
+**Why in LAE:** Explains why controlled trials exist — learn before irreversible scale-up.
+
+**Watch-out:** A sandbox may cut **delay** and **uncertainty**; it does **not** waive Cap. 448G or safety duties. Keep **Regulatory Sandbox ≠ Sandbox X**. See [Week 1](week-01.qmd) / [Week 7](week-07.qmd).
 
 **[externality]{#externality}**  
 Kind: Course  
-Noise, risk, privacy, or carbon cost (or benefit) not fully priced into the private ticket or fee. Course.
+
+**What:** A cost or benefit that falls on others and is not fully priced into the private ticket or fee (noise, privacy, carbon, risk).
+
+**Why in LAE:** Communities and rules can shrink the operating window even when a fare looks fine.
+
+**Watch-out:** Put externalities in cash flow or capacity limits — not only in an ESG footnote. See [Week 10](week-10.qmd).
 
 **[fixed cost]{#fixed-cost}**  
 Kind: Course  
-Cost that does not change with one more flight or passenger in the short run (e.g. a daily aircraft lease). Course.
+
+**What:** A cost that does not change when you add one more flight or passenger in the short run (classroom example: a daily aircraft lease).
+
+**Why in LAE:** The same lease spread over fewer flights means a higher cost per flight or per passenger. Curfews and pad limits that cut daily flights raise fixed cost per flight even if the aircraft is unchanged.
+
+**Watch-out:** “Fixed” depends on the time window. Over a longer horizon, leases and staff can become variable. Always state the period. See [Week 1](week-01.qmd).
 
 **[generalised cost]{#generalised-cost}**  
 Kind: Course  
-Money cost plus time valued at the traveller’s **value of time (VOT)**. Also written generalized cost (GC). Course.
+
+**What:** Money cost plus time valued at the traveller’s **value of time (VOT)**. Also written **generalized cost (GC)**.
+
+**Why in LAE:** Compares air options with MTR, taxi, or Airport Express on one scale — door-to-door, not cruise time only.
+
+**Watch-out:** A GC fare ceiling is not a forecast price. Waiting and access can destroy the time advantage. See [Week 1](week-01.qmd) / [Week 4](week-04.qmd).
 
 **[hedonic valuation]{#hedonic-valuation}**  
 Kind: Course  
-Linking market prices to measurable attributes (e.g. noise) while controlling for other factors. Classroom tool — not a Hong Kong drone-noise study. Week 9.
+
+**What:** Linking market prices to measurable attributes (for example noise) while controlling for other factors.
+
+**Why in LAE:** Classroom tool for how “quiet” or “view” might show up in prices or discounts.
+
+**Watch-out:** Illustrative coefficients are **not** a Hong Kong drone-noise study. See [Week 9](week-09.qmd).
 
 **[HHI]{#hhi}**  
 Kind: Course  
-**Herfindahl–Hirschman Index** — sum of squared market shares; a classroom concentration screen. Define the market first. Course.
 
-**[KPI]{#kpi}**  
-Kind: Course  
-**Key performance indicator** — a measurable metric with a clear boundary and owner. Week 10.
+**What:** **Herfindahl–Hirschman Index** — sum of squared market shares; a classroom concentration screen.
 
-**[LAE]{#lae}**  
-Kind: Course  
-**Low-altitude economy** — economic activity in low-altitude airspace plus the aircraft, sites, digital systems, operators, customers, and supporting services that deliver a mission. Hong Kong policy working band ≈ **1,000 m** is not a Cap. 448G flying limit. See also Week 1; What is LAE?
+**Why in LAE:** Summarises how uneven shares look **after** you define product, place, and layer (operator vs site owner).
 
-**[LCA / life-cycle assessment]{#lca}**  
-Kind: Course  
-Assessment of impacts across the full life of a product or service. Do not add GHG Scope totals to an LCA total without a boundary map. Week 10.
-
-**[limit pricing]{#limit-pricing}**  
-Kind: Course  
-Pricing (or related tactics) aimed at deterring entry. Week 2.
-
-**[load factor]{#load-factor}**  
-Kind: Course  
-Traffic carried divided by capacity offered (seats or payload). Course.
-
-**[marginal cost]{#marginal-cost}**  
-Kind: Course  
-Extra cost of one more unit of output (one more flight or passenger, as defined). Course.
-
-**[mode choice]{#mode-choice}**  
-Kind: Course  
-Which travel or delivery option a customer picks (e.g. MTR vs taxi vs air). Often screened with generalised cost. Week 1 / Week 4.
-
-**[Monte Carlo]{#monte-carlo}**  
-Kind: Course  
-Many random draws from uncertain inputs to show a range of outcomes (and downside risk). Week 9 concept.
-
-**[network effects]{#network-effects}**  
-Kind: Course  
-Value of a system rises as more users join (or a poor standard can lock in). Week 8 / Week 12.
-
-**[NPV / net present value]{#npv}**  
-Kind: Course  
-Present value of future cash flows minus (or compared with) upfront investment, under stated assumptions. Not a guarantee. Course.
-
-**[OEM]{#oem}**  
-Kind: Course  
-**Original equipment manufacturer** — produces the aircraft or key components. Week 1 value chain.
-
-**[operating profit]{#operating-profit}**  
-Kind: Course  
-Revenue minus operating cost for a period (before or after specified items — state the definition). Course.
-
-**[Pigovian instrument]{#pigovian-instrument}**  
-Kind: Course  
-Tax, charge or subsidy aimed at an externality; Hong Kong has no drone congestion tax in force. Course.
-
-**[platform / FaaS]{#platform-faas}**  
-Kind: Course  
-Matching or fly-as-a-service model, as distinct from owning the fleet. Course.
-
-**[PPP]{#ppp}**  
-Kind: Course  
-**Public–private partnership** for infrastructure or services — **not** a substitute for a vertiport statute. Course.
-
-**[real options]{#real-options}**  
-Kind: Course  
-Value of flexibility to wait, stage, expand, or exit when uncertainty is high. Week 5 / Week 6.
-
-**[revenue management]{#revenue-management}**  
-Kind: Course  
-Allocating scarce capacity and adjusting prices or conditions to improve expected contribution — not “fill every seat.” Week 3.
-
-**[risk register]{#risk-register}**  
-Kind: Course  
-Table of material risks with model channel, response, and decision trigger / gate. Week 11.
-
-**[SAM]{#sam}**  
-Kind: Course  
-**Serviceable available market** — the part of the broad market you could realistically serve under stated filters. Week 9. Not the same as OHKF HK$350bn.
-
-**[Scope 1 / 2 / 3]{#ghg-scopes}**  
-Kind: Course  
-GHG inventory categories: direct (1), purchased energy (2), and other indirect value-chain (3). Keep boundaries clear; do not casually add to LCA totals. Week 10.
-
-**[slot]{#slot}**  
-Kind: Course  
-A right to use scarce pad or airspace capacity at a time. Allocation may use queues, prices, or auctions. Week 5 / Week 8.
-
-**[Social license]{#social-license}**  
-Kind: Course  
-Informal community acceptance that can constrain routes even when legal permission exists. Also written social licence. Course models.
-
-**[sunk cost]{#sunk-cost}**  
-Kind: Course  
-Cost already spent that cannot be recovered. Relevant for entry and limit-pricing logic. Week 2.
-
-**[Supporting services]{#supporting-services}**  
-Kind: Industry usage  
-The segment that accounts for most of the 2050 value-added projection. OHKF. The English quote is under Industry value-added.
-
-**[TAM]{#tam}**  
-Kind: Course  
-**Total addressable market** — the broadest relevant set of trips or customers before tight filters. Week 9. Not OHKF HK$350bn.
-
-**[UAM]{#uam}**  
-Kind: Course  
-**Urban air mobility** — short-distance movement of people or cargo **inside** a dense city; a subset of LAE. Course.
-
-**[unconstrained versus constrained market]{#unconstrained-versus-constrained-market}**  
-Kind: Course  
-Theoretical demand versus demand after legal, weather, infrastructure and acceptance barriers (NASA UAM framing). NASA UAM market study (2018).
-
-**[unit cost]{#unit-cost}**  
-Kind: Course  
-Cost per meaningful unit (per passenger, per flight, per mission-km). Often fixed cost spread over utilization × load factor plus variable cost. Course.
-
-**[usage payment]{#usage-payment}**  
-Kind: Course  
-Payment that rises with actual use (flights, trips, or missions). Contrasts with availability payments. Week 6.
-
-**[utilization]{#utilization}**  
-Kind: Course  
-How intensively an asset is used (e.g. flights per day). Higher utilization spreads fixed cost. Course.
-
-**[Value chain]{#value-chain}**  
-Kind: Course  
-Stages from vehicle and infrastructure to operations and supporting services — who creates value and who gets paid. Course.
-
-**[Value of time]{#value-of-time}**  
-Kind: Course  
-**VOT** — how much a customer is willing to pay to save time; used inside generalised cost. Course.
-
-**[variable cost]{#variable-cost}**  
-Kind: Course  
-Cost that rises with output (e.g. energy per flight). Course.
-
-**[value-added versus 规模 (规模 (Mainland side only))]{#value-added-versus-guimo}**  
-Kind: Course  
-OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals. OHKF (T3).
-
-**[WTP / willingness to pay]{#wtp}**  
-Kind: Course  
-The most a customer would pay for a service rather than go without. Week 4.
-
-**[yield]{#yield}**  
-Kind: Course  
-Revenue per traffic unit (e.g. per passenger-km or payload-km). Course.
-
+**Watch-out:** HHI does not prove abuse, does not fix the “pie” metric, and ignores substitutes outside your definition. See [Week 2](week-02.qmd).
 
 **[Industry value-added]{#industry-value-added}**  
 Kind: Course  
-Accounting concept used by Our Hong Kong Foundation for the ~HK$350 billion figure: Hong Kong only, horizon 2050, September 2025 report. Not government output and not a Mainland 规模 total.
+
+**What:** An accounting idea used by **Our Hong Kong Foundation (OHKF)** for about **HK$350 billion** of Hong Kong LAE industry value added by **2050** (September 2025 report). Supporting services are the majority in that projection.
+
+**Why in LAE:** Scale talk needs a clear metric. Value added subtracts intermediate inputs — it is not the same as summing ticket revenue.
+
+**Watch-out:** This is a **think-tank projection**, **not** an HKSAR government number, **not** GDP, **not** your obtainable revenue, and **not** a Mainland 规模 total. Cite [Key figures](key-figures.qmd) / [Official status](tracker.qmd).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
@@ -1103,13 +1077,343 @@ English: “Based on the latest publicly available data, the industry value adde
 [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
 :::
 
+
+**[KPI]{#kpi}**  
+Kind: Course  
+
+**What:** **Key performance indicator** — a measurable metric with a clear boundary and owner.
+
+**Why in LAE:** Turns sustainability and equity promises into something you can review and correct.
+
+**Watch-out:** A KPI without a boundary (what counts?) is theatre. See [Week 10](week-10.qmd).
+
+**[LAE]{#lae}**  
+Kind: Course  
+
+**What:** **Low-altitude economy** — economic activity in low-altitude airspace plus the aircraft, sites, digital systems, operators, customers, and supporting services that deliver a **mission**.
+
+**Why in LAE:** The course unit of analysis is a completed service outcome, not only an airframe.
+
+**Watch-out:** Hong Kong’s ~**1,000 m** working description is **policy / economic framing**, **not** a Cap. 448G flying-height limit (ordinary Cap. 448G bands include 100 ft / 300 ft AGL unless CAD permits otherwise). See [What is LAE?](primer.qmd); [Week 1](week-01.qmd); [Key figures](key-figures.qmd).
+
+**[LCA / life-cycle assessment]{#lca}**  
+Kind: Course  
+
+**What:** Assessment of impacts across the full life of a product or service.
+
+**Why in LAE:** “Electric in flight” is not the same as low impact from manufacture to disposal.
+
+**Watch-out:** Do not add GHG Scope 1+2+3 totals to an LCA total without a boundary map. See [Week 10](week-10.qmd).
+
+**[limit pricing]{#limit-pricing}**  
+Kind: Course  
+
+**What:** Pricing or related tactics aimed at deterring entry.
+
+**Why in LAE:** Shared pads and sunk site costs change whether limit pricing is feasible.
+
+**Watch-out:** Classroom stories are not claims about any named Hong Kong operator. See [Week 2](week-02.qmd).
+
+**[load factor]{#load-factor}**  
+Kind: Course  
+
+**What:** Traffic carried divided by capacity offered (seats or payload filled ÷ seats or payload available).
+
+**Why in LAE:** Flying often does not help if the aircraft repeatedly flies empty.
+
+**Watch-out:** Load factor is not utilization (how often you fly). You need both. See [Week 1](week-01.qmd) / [Week 3](week-03.qmd).
+
+**[marginal cost]{#marginal-cost}**  
+Kind: Course  
+
+**What:** Extra cost of one more unit of output (one more flight or passenger, as defined).
+
+**Why in LAE:** Short-run pricing floors and congestion logic start from marginal cost — but ATC still includes fixed cost.
+
+**Watch-out:** Pricing at marginal cost can bankrupt a high-fixed-cost LAE service. See [Week 2](week-02.qmd).
+
+**[mode choice]{#mode-choice}**  
+Kind: Course  
+
+**What:** Which travel or delivery option a customer picks (for example MTR vs taxi vs air).
+
+**Why in LAE:** Air wins only if door-to-door generalized cost (and acceptance) beat alternatives.
+
+**Watch-out:** Mode share is an outcome, not an input you may invent. See [Week 4](week-04.qmd).
+
+**[Monte Carlo]{#monte-carlo}**  
+Kind: Course  
+
+**What:** Many random draws from uncertain inputs to show a range of outcomes (and downside risk).
+
+**Why in LAE:** Replaces one heroic base case when demand, weather, and approval timing are uncertain.
+
+**Watch-out:** Concept tool in Week 9 — not a claim that any Hong Kong operator published a Monte Carlo. See [Week 9](week-09.qmd).
+
+**[network effects]{#network-effects}**  
+Kind: Course  
+
+**What:** Value of a system rises as more users join (or a poor standard can lock everyone in).
+
+**Why in LAE:** Shared information and coordination platforms can tip toward one standard.
+
+**Watch-out:** More nodes raise *possible* links; they do not guarantee demand on each link. See [Week 8](week-08.qmd) / [Week 12](week-12.qmd).
+
+**[NPV / net present value]{#npv}**  
+Kind: Course  
+
+**What:** Whether future cash from a project is worth what you must invest today, after adjusting for timing (and, when stated, risk).
+
+**Why in LAE:** Used as a **screen**: positive NPV under clear assumptions means “might justify investment”; negative means “does not, under those assumptions.”
+
+**Watch-out:** NPV is not a forecast guarantee. A sandbox that cuts delay can improve the *distribution* of NPVs — it does not invent positive margins after partners are paid. See [Week 1](week-01.qmd).
+
+**[OEM]{#oem}**  
+Kind: Course  
+
+**What:** **Original equipment manufacturer** — builds the aircraft or key components.
+
+**Why in LAE:** Ticket money is shared along the chain; OEM cost is one slice, not the whole fare.
+
+**Watch-out:** Naming an OEM is not the same as proving Hong Kong certification is done. See [Week 1](week-01.qmd).
+
+**[operating profit]{#operating-profit}**  
+Kind: Course  
+
+**What:** Revenue minus operating cost for a period (state what is in or out).
+
+**Why in LAE:** Bridges “customers get value” to “the operator can capture enough to survive.”
+
+**Watch-out:** Define the line items. Partner fees can erase a fat headline fare. See [Week 1](week-01.qmd).
+
+**[Pigovian instrument]{#pigovian-instrument}**  
+Kind: Course  
+
+**What:** A tax, charge, or subsidy aimed at an externality.
+
+**Why in LAE:** Classroom peak or noise charges illustrate design ideas for scarce capacity.
+
+**Watch-out:** Hong Kong has **no** drone congestion tax in force as a general rule on this site’s tracker — do not invent one. See [Week 8](week-08.qmd) / [Official status](tracker.qmd).
+
+**[platform / FaaS]{#platform-faas}**  
+Kind: Course  
+
+**What:** Matching or “fly-as-a-service” models, as distinct from owning the fleet.
+
+**Why in LAE:** Asset-light slogans change who holds aircraft risk — they do not remove it.
+
+**Watch-out:** “Asset-light” is not a risk-free business plan. See [Week 6](week-06.qmd).
+
+**[PPP]{#ppp}**  
+Kind: Course  
+
+**What:** **Public–private partnership** — a long-term deal sharing roles, money, and risk between public and private sides.
+
+**Why in LAE:** Vertiports and public-service missions often need shared investment rules.
+
+**Watch-out:** A PPP does **not** invent demand and is **not** a substitute for a Hong Kong vertiport statute (none dedicated yet). See [Week 6](week-06.qmd).
+
+**[real options]{#real-options}**  
+Kind: Course  
+
+**What:** The value of flexibility to wait, stage, expand, or exit when uncertainty is high.
+
+**Why in LAE:** Staging a vertiport or fleet beats betting the full CAPEX on day one.
+
+**Watch-out:** Option value needs a real decision gate — not a vague “we might expand.” See [Week 5](week-05.qmd) / [Week 6](week-06.qmd).
+
+**[revenue management]{#revenue-management}**  
+Kind: Course  
+
+**What:** Allocating scarce capacity and adjusting prices or conditions to improve **expected contribution** — not “fill every seat.”
+
+**Why in LAE:** Empty seats on small aircraft are expensive; mix and fare rules matter.
+
+**Watch-out:** High load factor at a low fare can still miss contribution. See [Week 3](week-03.qmd).
+
+**[risk register]{#risk-register}**  
+Kind: Course  
+
+**What:** A table of material risks with a model channel, a response, and a decision trigger / gate.
+
+**Why in LAE:** Capstone and exam answers need risks that change $D$, $K$, cost, or timing — not decoration.
+
+**Watch-out:** A row that never changes the cash-flow path is not a real control. See [Week 11](week-11.qmd).
+
+**[SAM]{#sam}**  
+Kind: Course  
+
+**What:** **Serviceable available market** — the part of the broad market you could realistically serve under stated filters.
+
+**Why in LAE:** Sits between a wide TAM and what capacity can actually serve.
+
+**Watch-out:** SAM is **not** the OHKF HK$350bn figure. See [TAM](#tam); [Week 9](week-09.qmd).
+
+**[Scope 1 / 2 / 3]{#ghg-scopes}**  
+Kind: Course  
+
+**What:** GHG inventory categories: direct (1), purchased energy (2), and other indirect value-chain (3).
+
+**Why in LAE:** Keeps “electric aircraft” claims honest about whose emissions count.
+
+**Watch-out:** Do not casually add Scopes to an LCA total without boundaries. See [Week 10](week-10.qmd).
+
+**[slot]{#slot}**  
+Kind: Course  
+
+**What:** A right to use scarce pad or airspace capacity at a time.
+
+**Why in LAE:** When pads bind, who flies is an allocation problem (queues, prices, auctions, priority rules).
+
+**Watch-out:** Classroom peak prices are design choices — not a claim about a Hong Kong regulation. See [Week 5](week-05.qmd) / [Week 8](week-08.qmd).
+
+**[Social license]{#social-license}**  
+Kind: Course  
+
+**What:** Ongoing acceptance and trust among affected communities (also written **social licence**).
+
+**Why in LAE:** Legal permission can exist while routes still fail locally on noise or privacy.
+
+**Watch-out:** Traveller choice share is not the same as resident acceptance under the route. See [Week 10](week-10.qmd).
+
+**[sunk cost]{#sunk-cost}**  
+Kind: Course  
+
+**What:** Cost already spent that cannot be recovered.
+
+**Why in LAE:** Entry and pad investment create sunk barriers; limit pricing logic starts here.
+
+**Watch-out:** Sunk cost should not drive “we must keep flying” if forward-looking cash is negative. See [Week 2](week-02.qmd).
+
+**[Supporting services]{#supporting-services}**  
+Kind: Industry usage  
+
+**What:** Finance, insurance, professional services, platforms, and related layers — the segment that accounts for most of OHKF’s 2050 Hong Kong value-added projection.
+
+**Why in LAE:** Hong Kong’s possible role is often framed as a **service layer** beside GBA manufacturing — as a hypothesis to test.
+
+**Watch-out:** OHKF emphasis is not proof of comparative advantage. See [Industry value-added](#industry-value-added).
+
+**[TAM]{#tam}**  
+Kind: Course  
+
+**What:** **Total addressable market** — the broadest relevant set of trips or customers before tight filters.
+
+**Why in LAE:** Useful as a starting funnel step — dangerous as a revenue claim.
+
+**Watch-out:** TAM is **not** OHKF HK$350bn and not obtainable demand. See [Week 9](week-09.qmd).
+
+**[UAM]{#uam}**  
+Kind: Course  
+
+**What:** **Urban air mobility** — short-distance movement of people or cargo **inside** a dense city; a subset of LAE.
+
+**Why in LAE:** Keeps city passenger/cargo concepts distinct from wider corridor AAM talk.
+
+**Watch-out:** A cargo SUA trial can be LAE without being passenger UAM. See [Week 1](week-01.qmd).
+
+**[unconstrained versus constrained market]{#unconstrained-versus-constrained-market}**  
+Kind: Course  
+
+**What:** Theoretical demand versus demand after legal, weather, infrastructure, and acceptance barriers (NASA UAM framing).
+
+**Why in LAE:** Stops unconstrained dollar slides from being pasted into a Hong Kong case.
+
+**Watch-out:** NASA figures are comparators — **not** Hong Kong law or local forecasts. See NASA rows below; [Week 9](week-09.qmd).
+
+**[unit cost]{#unit-cost}**  
+Kind: Course  
+
+**What:** Cost per meaningful unit (per passenger, per flight, per mission-km). Often variable cost plus fixed cost spread over utilization × seats × load factor.
+
+**Why in LAE:** Empty-seat economics: few seats mean fixed cost per passenger explodes unless utilization and load factor are high.
+
+**Watch-out:** State the unit. See [Week 1](week-01.qmd) / [Week 3](week-03.qmd).
+
+**[usage payment]{#usage-payment}**  
+Kind: Course  
+
+**What:** Payment that rises with actual use (flights, trips, or missions).
+
+**Why in LAE:** Shifts volume risk toward the party that depends on traffic.
+
+**Watch-out:** Usage pay can leave the provider unpaid on grounded days — availability pay is the contrast. See [Week 6](week-06.qmd).
+
+**[utilization]{#utilization}**  
+Kind: Course  
+
+**What:** How intensively an asset is used (for example flights per day).
+
+**Why in LAE:** Higher utilization spreads fixed cost over more flights.
+
+**Watch-out:** Utilization is not load factor. You can fly often with empty seats. See [Week 1](week-01.qmd).
+
+**[Value chain]{#value-chain}**  
+Kind: Course  
+
+**What:** Stages from vehicles and sites to operators and supporting services — who creates value and who gets paid.
+
+**Why in LAE:** A high ticket can still leave a thin operator margin after partners are paid.
+
+**Watch-out:** Roles-only maps are not market-share claims. See [How does LAE work?](business-overview.qmd); [Week 1](week-01.qmd).
+
+**[Value of time]{#value-of-time}**  
+Kind: Course  
+
+**What:** **VOT** — how much a customer is willing to pay to save travel or delivery time.
+
+**Why in LAE:** Turns minutes into money inside generalized cost and fare-ceiling screens.
+
+**Watch-out:** VOT is not demand volume and not NPV by itself. See [Week 1](week-01.qmd).
+
+**[variable cost]{#variable-cost}**  
+Kind: Course  
+
+**What:** Cost that rises with output (for example energy per flight).
+
+**Why in LAE:** Contribution margin = revenue − variable cost; then fixed cost must still be covered.
+
+**Watch-out:** Mis-labeling fixed costs as variable flatters short-run pricing. See [Week 3](week-03.qmd).
+
+**[value-added versus 规模 (规模 (Mainland side only))]{#value-added-versus-guimo}**  
+Kind: Course  
+
+**What:** OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals.
+
+**Why in LAE:** Stops double-counting across borders and metric systems.
+
+**Watch-out:** Do not merge Mainland 低空经济 statistics with Hong Kong OHKF value-added. See [Industry value-added](#industry-value-added); [Official status](tracker.qmd).
+
+**[WTP / willingness to pay]{#wtp}**  
+Kind: Course  
+
+**What:** The most a customer would pay for a service rather than go without.
+
+**Why in LAE:** Starting point for demand curves and fare design — still not a Hong Kong forecast.
+
+**Watch-out:** Individual WTP is not the same as social net benefit or acceptance. See [Week 4](week-04.qmd).
+
+**[yield]{#yield}**  
+Kind: Course  
+
+**What:** Revenue per traffic unit (for example per passenger-km or payload-km).
+
+**Why in LAE:** Pairs with CASK-style cost metrics in unit-economics talk.
+
+**Watch-out:** High yield on tiny volume may not cover fixed cost. See [Week 3](week-03.qmd).
+
 **[NASA (National Aeronautics and Space Administration)]{#nasa}**  
 Kind: Official  
 U.S. government agency responsible for science and technology related to air and space; opened **1 Oct 1958**. Course / Readings comparator — **not Hong Kong law**. Institution bio only — do **not** copy UAM market-study unconstrained/constrained dollar figures or TAM from this card; those stay on the separate Course rows below. See also NASA UAM market study constraints; unconstrained versus constrained market; Readings; Timeline. [What Is NASA?](https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-nasa-grades-5-8/); [About](https://www.nasa.gov/about/).
 
 **[NASA UAM market study constraints]{#nasa-uam-market-study-constraints}**  
 Kind: Course  
-Legal, weather, infrastructure and acceptance shrink the unconstrained market. NASA 2018. See also NASA (agency bio).
+
+**What:** In NASA UAM market-study framing, legal, weather, infrastructure, and acceptance barriers shrink an unconstrained market into a constrained one (NASA 2018).
+
+**Why in LAE:** Teaches students not to paste unconstrained dollar / TAM figures into a Hong Kong case.
+
+**Watch-out:** Comparator study only — **not** Hong Kong law and not a local forecast. See also [NASA](#nasa); [unconstrained versus constrained market](#unconstrained-versus-constrained-market).
 
 ## Unplaced
 
