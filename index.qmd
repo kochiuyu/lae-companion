@@ -30,7 +30,7 @@ Week map, primers, how the business works, FAQ, key figures, and how to use this
 ::: {.hub-card}
 ## Teach
 
-Weekly lecture material — slides, notes/readings, and references. Open from the Teach menu, or jump:
+Weekly lecture material — slides, notes/readings, and references.
 
 - [Week 1: Intro](week-01.qmd)
 - [Week 2: Markets](week-02.qmd)
