@@ -32,18 +32,18 @@ Week map, primers, how the business works, FAQ, key figures, and how to use this
 
 One Wikipedia-style page per week (notes, slides, summary, readings). Open from the Teach menu, or jump:
 
-- [Week 1: Introduction to LAE](week-01.qmd)
-- [Week 2: LAE Market Structure and Competition](week-02.qmd)
-- [Week 3: Cost Structures and Revenue Management](week-03.qmd)
-- [Week 4: Demand Modeling in Urban Air Mobility](week-04.qmd)
-- [Week 5: Infrastructure Economics and Management](week-05.qmd)
-- [Week 6: LAE Strategic Partnerships and Business Models](week-06.qmd)
-- [Week 7: LAE Policy and Regulation](week-07.qmd)
-- [Week 8: Airspace Access and Integration](week-08.qmd)
-- [Week 9: Market Sizing, Barriers, Uncertainty and Social Impact](week-09.qmd)
-- [Week 10: Sustainability Challenges in Urban Air Operations](week-10.qmd)
-- [Week 11: Synthesis and Capstone Group Presentations](week-11.qmd)
-- [Week 12: LAE Future Frontiers and Final Review](week-12.qmd)
+- [Week 1](week-01.qmd)
+- [Week 2](week-02.qmd)
+- [Week 3](week-03.qmd)
+- [Week 4](week-04.qmd)
+- [Week 5](week-05.qmd)
+- [Week 6](week-06.qmd)
+- [Week 7](week-07.qmd)
+- [Week 8](week-08.qmd)
+- [Week 9](week-09.qmd)
+- [Week 10](week-10.qmd)
+- [Week 11](week-11.qmd)
+- [Week 12](week-12.qmd)
 :::
 
 ::: {.hub-card}
