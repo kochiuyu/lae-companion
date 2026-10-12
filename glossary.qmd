@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Term definitions and diagrams you can cite. Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
+Term definitions and diagrams you can cite. Week notes link here on **first use**. Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
 
 ## At a glance
 
@@ -333,7 +333,7 @@ Spectrum licensing authority for the UAS (Private) Licence (with the Communicati
 Kind: Official  
 Official Chinese form 營運人. CAD AC-013_C §1.3.
 
-**Regulatory Sandbox (監管沙盒)**  
+**[Regulatory Sandbox (監管沙盒)]{#regulatory-sandbox}**  
 Kind: Official  
 First-cohort Hong Kong trial programme. Applications from 13 November 2024; 38 of 72 proposals selected (TLB/GIA, 20 March 2025). BVLOS in this programme is covered by CAD AC-013.
 
@@ -343,7 +343,7 @@ English: “The Government received Regulatory Sandbox pilot project proposals f
 [「政府共接獲由72個申請者提交的「監管沙盒」試點項目申請，經發展低空經濟工作組審閱後，其中38項成為首批推展的試點項目」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000178.htm))
 :::
 
-**Regulatory Sandbox X (監管沙盒 X / 監管沙盒X)**  
+]{#sandbox-x}**[Regulatory Sandbox X (監管沙盒 X / 監管沙盒X)**  
 Kind: Official  
 Advanced programme launched 24 November 2025. Separate from the first Sandbox. Module batches reported as UTM 15, unconventional aircraft 4, shared platform 5, others 9; cross-boundary results still open. CAD AC-017 covers cross-boundary operations in Sandbox X.
 
@@ -566,7 +566,7 @@ SUA follows pre-determined routes, but the remote pilot must still be able to in
 Kind: Official  
 SUA flies without the remote pilot being able to intervene; **not allowed** for Sandbox BVLOS under AC-013. CAD AC-013 §2.2, §6.7.
 
-**BVLOS (超視距操作)**  
+**[BVLOS (超視距操作)]{#bvlos}**  
 Kind: Official  
 Operation beyond the remote pilot’s visual line of sight; in the first Regulatory Sandbox, the relevant circular is CAD AC-013. CAD AC-013; Cap. 448G.
 
@@ -618,7 +618,7 @@ English: “Guidelines and Permission for Small Unmanned Aircraft Operations Usi
 Kind: Official  
 Operation beyond simple VLOS but still using visual observers or procedures — not BVLOS. CAD / Cap. 448G practice.
 
-**eVTOL (電動垂直起降飛行器)**  
+**[eVTOL (電動垂直起降飛行器)]{#evtol}**  
 Kind: Industry usage  
 Electric vertical take-off and landing aircraft; in Hong Kong, passenger-carrying / heavy types sit above the Cap. 448G 150 kg SUA ceiling and are treated as unconventional aircraft pending dedicated rules — **no dedicated HK eVTOL statute yet**. Cap. 448G ceiling; 2025 PA ¶154 unconventional-aircraft pathway (OPEN).
 
@@ -696,7 +696,7 @@ Pre-programmed recovery behaviour that sends the SUA to a home or safe site (e.g
 Kind: Official  
 Official Chinese form 特定運行風險評估. CAD AC-013_C App. B (names SORA).
 
-**SUA (小型無人機)**  
+**[SUA (小型無人機)]{#sua}**  
 Mainland: 无人驾驶航空器
 Kind: Official  
 Hong Kong Cap. 448G term for small unmanned aircraft in the Order’s weight classes — not a global synonym for every drone. Cap. 448G.
@@ -769,11 +769,11 @@ English: “Enhance core infrastructure facilities by designating spectrum by th
 [「推展核心基建設施，年底前推出專用頻譜，提前規劃部署起降場、航路網絡、衞星定位、三維空間數據系統、智能低空交通管理系統等。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
 
-**U-space**  
+**[U-space]{#u-space}**  
 Kind: Industry usage  
 EU / industry label for a set of UAS traffic services; **not Hong Kong law** — do not write that Hong Kong has U-space. EU U-space framework (industry comparator). See also EASA; Timeline (European Union).
 
-**UTM**  
+**[UTM]{#utm}**  
 Kind: Industry usage  
 Unmanned aircraft system traffic management; Hong Kong’s smart low-altitude traffic-management system is **planned** infrastructure (2025 PA) — **not yet a Hong Kong statute**. 2025 PA ¶154; Sandbox X UTM demos.
 
@@ -833,11 +833,11 @@ Official Chinese form 衞星定位. 2025 PA ¶154.
 Kind: Official  
 Official Chinese form 三維空間數據系統. 2025 PA ¶154.
 
-**Throughput**  
+**[Throughput]{#throughput}**  
 Kind: Course  
 Movements a site can handle per hour after safety separation. Course.
 
-**Vertiport (起降場)**  
+**[Vertiport (起降場)]{#vertiport}**  
 Kind: Industry usage  
 Take-off and landing site for advanced low-altitude craft; 2025 Policy Address names planning of such sites — **Hong Kong has no dedicated vertiport statute yet** (do not invent one). 2025 PA ¶154; text of Action Plan OPEN.
 
@@ -853,39 +853,247 @@ Industry term for a lighter pad than a full vertiport; **not a Hong Kong statuto
 
 ## Business and economics
 
-**ASK / available capacity unit**  
+Course economics vocabulary. Short definitions for first use in the week notes — details and worked examples stay on **Teach**.
+
+
+**[AAM]{#aam}**  
+Kind: Course  
+**Advanced air mobility** — broad industry label for new aircraft concepts that may connect cities, suburbs, or corridors. Course comparator language; **not** Hong Kong law. Nested with LAE / UAM on Week 1.
+
+**[ASK / available capacity unit]{#ask}**  
 Kind: Course  
 Capacity supplied (seat-km or payload-km) used as the denominator in CASK/CPMK. Course models.
 
-**Break-even load factor**  
+**[ATC (average total cost)]{#atc-average-total-cost}**  
+Kind: Course  
+**Average total cost** — total cost divided by units of output (flights, missions, or passengers as defined). **Not** the same as Air Traffic Control (see Airspace and traffic). Course.
+
+**[availability payment]{#availability-payment}**  
+Kind: Course  
+Payment for readiness / availability of a service or asset, even when usage is low. Contrasts with usage payments. Week 6.
+
+**[Bertrand competition]{#bertrand}**  
+Kind: Course  
+Price competition when rivals set prices (rather than quantities). With scarce pads, pure Bertrand intuition can fail. Week 2.
+
+**[Break-even load factor]{#break-even-load-factor}**  
 Kind: Course  
 Load factor at which revenue covers a stated cost block; course planning tool. Course models.
 
-**CAPEX / OPEX**  
+**[breakeven volume]{#breakeven-volume}**  
 Kind: Course  
-Upfront capital expenditure versus recurring operating expenditure. Course.
+Output (flights, passengers, or missions) needed to cover fixed cost at a stated contribution per unit. Week 3.
 
-**CASK / CPMK**  
+**[CAPEX / OPEX]{#capex-opex}**  
 Kind: Course  
-Cost per available seat-kilometre or per available payload-kilometre — lecture worked examples are not data. Course.
+**CAPEX** = capital expenditure (upfront investment). **OPEX** = operating expenditure (recurring running costs). Keep separate before unit metrics. Course.
 
-**economies of density**  
+**[cash flow]{#cash-flow}**  
+Kind: Course  
+Money in minus money out in a period. Discounted cash flows feed NPV. Course.
+
+**[CASK / CPMK]{#cask-cpmk}**  
+Kind: Course  
+**CASK** = cost per available seat-kilometre; **CPMK** = cost per available payload-kilometre — cost of capacity offered. Lecture figures are not market data. Course.
+
+**[contribution margin]{#contribution-margin}**  
+Kind: Course  
+Revenue minus variable cost (before fixed cost). Used in breakeven and revenue-management screens. Course.
+
+**[co-opetition]{#co-opetition}**  
+Kind: Course  
+Cooperate on shared assets (e.g. a pad) while competing on service. Week 2 / Week 6.
+
+**[congestion externality]{#congestion-externality}**  
+Kind: Course  
+Extra delay (and related cost) imposed on others when scarce airspace or pad capacity is used. Week 8.
+
+**[demand funnel]{#demand-funnel}**  
+Kind: Course  
+Step-down from relevant trips to choice to **served** demand under capacity. Week 4 / Week 9.
+
+**[discount rate]{#discount-rate}**  
+Kind: Course  
+Rate used to convert future cash into present value in NPV. Course assumption — state it. Course.
+
+**[economies of density]{#economies-of-density}**  
 Kind: Course  
 Average cost falls as more flights share the same corridor or vertiport. Course.
 
-**externality**  
+**[elasticity of demand]{#elasticity-of-demand}**  
 Kind: Course  
-Noise, risk, privacy or carbon cost not priced into the ticket or fee. Course.
+How quantity responds to a price change. **Own-price** = your price; **cross-price** = a rival or substitute’s price. Week 4.
 
-**generalised cost**  
+**[entry barrier]{#entry-barrier}**  
 Kind: Course  
-Money cost plus time valued at the traveller’s value of time. Course.
+Cost or delay that slows or blocks new entry (investment, compliance, delay, uncertainty). Sandboxes may cut delay/uncertainty, not safety duties. Week 1 / Week 2 / Week 7.
 
-**HHI**  
+**[externality]{#externality}**  
 Kind: Course  
-Sum of squared market shares. Course.
+Noise, risk, privacy, or carbon cost (or benefit) not fully priced into the private ticket or fee. Course.
 
-**Industry value-added**  
+**[fixed cost]{#fixed-cost}**  
+Kind: Course  
+Cost that does not change with one more flight or passenger in the short run (e.g. a daily aircraft lease). Course.
+
+**[generalised cost]{#generalised-cost}**  
+Kind: Course  
+Money cost plus time valued at the traveller’s **value of time (VOT)**. Also written generalized cost (GC). Course.
+
+**[hedonic valuation]{#hedonic-valuation}**  
+Kind: Course  
+Linking market prices to measurable attributes (e.g. noise) while controlling for other factors. Classroom tool — not a Hong Kong drone-noise study. Week 9.
+
+**[HHI]{#hhi}**  
+Kind: Course  
+**Herfindahl–Hirschman Index** — sum of squared market shares; a classroom concentration screen. Define the market first. Course.
+
+**[KPI]{#kpi}**  
+Kind: Course  
+**Key performance indicator** — a measurable metric with a clear boundary and owner. Week 10.
+
+**[LAE]{#lae}**  
+Kind: Course  
+**Low-altitude economy** — economic activity in low-altitude airspace plus the aircraft, sites, digital systems, operators, customers, and supporting services that deliver a mission. Hong Kong policy working band ≈ **1,000 m** is not a Cap. 448G flying limit. See also Week 1; What is LAE?
+
+**[LCA / life-cycle assessment]{#lca}**  
+Kind: Course  
+Assessment of impacts across the full life of a product or service. Do not add GHG Scope totals to an LCA total without a boundary map. Week 10.
+
+**[limit pricing]{#limit-pricing}**  
+Kind: Course  
+Pricing (or related tactics) aimed at deterring entry. Week 2.
+
+**[load factor]{#load-factor}**  
+Kind: Course  
+Traffic carried divided by capacity offered (seats or payload). Course.
+
+**[marginal cost]{#marginal-cost}**  
+Kind: Course  
+Extra cost of one more unit of output (one more flight or passenger, as defined). Course.
+
+**[mode choice]{#mode-choice}**  
+Kind: Course  
+Which travel or delivery option a customer picks (e.g. MTR vs taxi vs air). Often screened with generalised cost. Week 1 / Week 4.
+
+**[Monte Carlo]{#monte-carlo}**  
+Kind: Course  
+Many random draws from uncertain inputs to show a range of outcomes (and downside risk). Week 9 concept.
+
+**[network effects]{#network-effects}**  
+Kind: Course  
+Value of a system rises as more users join (or a poor standard can lock in). Week 8 / Week 12.
+
+**[NPV / net present value]{#npv}**  
+Kind: Course  
+Present value of future cash flows minus (or compared with) upfront investment, under stated assumptions. Not a guarantee. Course.
+
+**[OEM]{#oem}**  
+Kind: Course  
+**Original equipment manufacturer** — produces the aircraft or key components. Week 1 value chain.
+
+**[operating profit]{#operating-profit}**  
+Kind: Course  
+Revenue minus operating cost for a period (before or after specified items — state the definition). Course.
+
+**[Pigovian instrument]{#pigovian-instrument}**  
+Kind: Course  
+Tax, charge or subsidy aimed at an externality; Hong Kong has no drone congestion tax in force. Course.
+
+**[platform / FaaS]{#platform-faas}**  
+Kind: Course  
+Matching or fly-as-a-service model, as distinct from owning the fleet. Course.
+
+**[PPP]{#ppp}**  
+Kind: Course  
+**Public–private partnership** for infrastructure or services — **not** a substitute for a vertiport statute. Course.
+
+**[real options]{#real-options}**  
+Kind: Course  
+Value of flexibility to wait, stage, expand, or exit when uncertainty is high. Week 5 / Week 6.
+
+**[revenue management]{#revenue-management}**  
+Kind: Course  
+Allocating scarce capacity and adjusting prices or conditions to improve expected contribution — not “fill every seat.” Week 3.
+
+**[risk register]{#risk-register}**  
+Kind: Course  
+Table of material risks with model channel, response, and decision trigger / gate. Week 11.
+
+**[SAM]{#sam}**  
+Kind: Course  
+**Serviceable available market** — the part of the broad market you could realistically serve under stated filters. Week 9. Not the same as OHKF HK$350bn.
+
+**[Scope 1 / 2 / 3]{#ghg-scopes}**  
+Kind: Course  
+GHG inventory categories: direct (1), purchased energy (2), and other indirect value-chain (3). Keep boundaries clear; do not casually add to LCA totals. Week 10.
+
+**[slot]{#slot}**  
+Kind: Course  
+A right to use scarce pad or airspace capacity at a time. Allocation may use queues, prices, or auctions. Week 5 / Week 8.
+
+**[Social license]{#social-license}**  
+Kind: Course  
+Informal community acceptance that can constrain routes even when legal permission exists. Also written social licence. Course models.
+
+**[sunk cost]{#sunk-cost}**  
+Kind: Course  
+Cost already spent that cannot be recovered. Relevant for entry and limit-pricing logic. Week 2.
+
+**[Supporting services]{#supporting-services}**  
+Kind: Industry usage  
+The segment that accounts for most of the 2050 value-added projection. OHKF. The English quote is under Industry value-added.
+
+**[TAM]{#tam}**  
+Kind: Course  
+**Total addressable market** — the broadest relevant set of trips or customers before tight filters. Week 9. Not OHKF HK$350bn.
+
+**[UAM]{#uam}**  
+Kind: Course  
+**Urban air mobility** — short-distance movement of people or cargo **inside** a dense city; a subset of LAE. Course.
+
+**[unconstrained versus constrained market]{#unconstrained-versus-constrained-market}**  
+Kind: Course  
+Theoretical demand versus demand after legal, weather, infrastructure and acceptance barriers (NASA UAM framing). NASA UAM market study (2018).
+
+**[unit cost]{#unit-cost}**  
+Kind: Course  
+Cost per meaningful unit (per passenger, per flight, per mission-km). Often fixed cost spread over utilization × load factor plus variable cost. Course.
+
+**[usage payment]{#usage-payment}**  
+Kind: Course  
+Payment that rises with actual use (flights, trips, or missions). Contrasts with availability payments. Week 6.
+
+**[utilization]{#utilization}**  
+Kind: Course  
+How intensively an asset is used (e.g. flights per day). Higher utilization spreads fixed cost. Course.
+
+**[Value chain]{#value-chain}**  
+Kind: Course  
+Stages from vehicle and infrastructure to operations and supporting services — who creates value and who gets paid. Course.
+
+**[Value of time]{#value-of-time}**  
+Kind: Course  
+**VOT** — how much a customer is willing to pay to save time; used inside generalised cost. Course.
+
+**[variable cost]{#variable-cost}**  
+Kind: Course  
+Cost that rises with output (e.g. energy per flight). Course.
+
+**[value-added versus 规模 (规模 (Mainland side only))]{#value-added-versus-guimo}**  
+Kind: Course  
+OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals. OHKF (T3).
+
+**[WTP / willingness to pay]{#wtp}**  
+Kind: Course  
+The most a customer would pay for a service rather than go without. Week 4.
+
+**[yield]{#yield}**  
+Kind: Course  
+Revenue per traffic unit (e.g. per passenger-km or payload-km). Course.
+
+
+**[Industry value-added]{#industry-value-added}**  
 Kind: Course  
 Accounting concept used by Our Hong Kong Foundation for the ~HK$350 billion figure: Hong Kong only, horizon 2050, September 2025 report. Not government output and not a Mainland 规模 total.
 
@@ -895,57 +1103,13 @@ English: “Based on the latest publicly available data, the industry value adde
 [「根據本報告撰寫時的最新公開數據估算，預計到2050年，本港低空經濟產業的增加價值將達到約3,500億港元，而其中大部分來自配套服務。」]{lang="zh-Hant"} ([source](https://ourhkfoundation.org.hk/tc/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
 :::
 
-**load factor**  
-Kind: Course  
-Traffic carried divided by capacity offered (seats or payload). Course.
-
-**NASA (National Aeronautics and Space Administration)**  
+**[NASA (National Aeronautics and Space Administration)]{#nasa}**  
 Kind: Official  
 U.S. government agency responsible for science and technology related to air and space; opened **1 Oct 1958**. Course / Readings comparator — **not Hong Kong law**. Institution bio only — do **not** copy UAM market-study unconstrained/constrained dollar figures or TAM from this card; those stay on the separate Course rows below. See also NASA UAM market study constraints; unconstrained versus constrained market; Readings; Timeline. [What Is NASA?](https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-nasa-grades-5-8/); [About](https://www.nasa.gov/about/).
 
-**NASA UAM market study constraints**  
+**[NASA UAM market study constraints]{#nasa-uam-market-study-constraints}**  
 Kind: Course  
 Legal, weather, infrastructure and acceptance shrink the unconstrained market. NASA 2018. See also NASA (agency bio).
-
-**Pigovian instrument**  
-Kind: Course  
-Tax, charge or subsidy aimed at that externality; Hong Kong has no drone congestion tax in force. Course.
-
-**platform / FaaS**  
-Kind: Course  
-Matching or fly-as-a-service model, as distinct from owning the fleet. Course.
-
-**PPP**  
-Kind: Course  
-Public–private partnership for infrastructure or services — **not** a substitute for a vertiport statute. Course.
-
-**Social license**  
-Kind: Course  
-Informal community acceptance that can constrain routes even when legal permission exists. Course models.
-
-**Supporting services**  
-Kind: Industry usage  
-The segment that accounts for most of the 2050 value-added projection. OHKF. The English quote is under Industry value-added.
-
-**unconstrained versus constrained market**  
-Kind: Course  
-Theoretical demand versus demand after legal, weather, infrastructure and acceptance barriers (NASA UAM framing). NASA UAM market study (2018).
-
-**Value chain**  
-Kind: Course  
-Stages from vehicle and infrastructure to operations and supporting services. Course.
-
-**Value of time**  
-Kind: Course  
-Shadow price of passenger or shipper time used inside generalised cost. Course.
-
-**value-added versus 规模 (规模 (Mainland side only))**  
-Kind: Course  
-OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals. OHKF (T3).
-
-**yield**  
-Kind: Course  
-Revenue per traffic unit (e.g. per passenger-km or payload-km). Course.
 
 ## Unplaced
 

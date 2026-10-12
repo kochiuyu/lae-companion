@@ -22,7 +22,7 @@ format:
 - [How does LAE work?](business-overview.qmd) — roles in the value chain  
 - [Who decides what?](regulators.qmd) — institutions and standing caveats  
 
-**This week** defines LAE, introduces three tools — **VOT** (value of time), **generalized cost**, and **NPV** (net present value) — maps who gets paid, and explains sandboxes. **Week 2** turns to market structure and competition.
+**This week** defines LAE, introduces three tools — [**VOT**](glossary.qmd#value-of-time) (value of time), **generalized cost**, and [**NPV**](glossary.qmd#npv) (net present value) — maps who gets paid, and explains sandboxes. **Week 2** turns to market structure and competition.
 
 ## Summary {#summary}
 
@@ -71,6 +71,8 @@ Use the right-hand **On this page** list to jump. Equations use KaTeX; each form
 
 ## 1. What is the low-altitude economy?
 
+
+
 ```{=html}
 <figure class="wdiag" id="w01-system" aria-labelledby="w01-system-title">
 <p class="wdiag-cap" id="w01-system-title"><strong>LAE as a system (roles)</strong></p>
@@ -89,7 +91,9 @@ Use the right-hand **On this page** list to jump. Equations use KaTeX; each form
 <p class="wdiag-note">Roles only — not market shares or firm names. See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
 </figure>
 ```
-**Low-altitude economy (LAE)** means economic activity that uses low-altitude airspace — together with the aircraft, physical sites, digital systems, operators, customers, and supporting services needed to deliver a mission.
+
+
+[**Low-altitude economy (LAE)**](glossary.qmd#lae) means economic activity that uses low-altitude airspace — together with the aircraft, physical sites, digital systems, operators, customers, and supporting services needed to deliver a mission.
 
 That definition is deliberately wide.
 
@@ -175,7 +179,7 @@ Traditional scheduled aviation typically uses large, expensive aircraft, large c
 
 Three contrasts matter for later weeks:
 
-1. **Fixed cost per passenger.** A large jet spreads aircraft cost across hundreds of seats. Many eVTOL concepts under discussion have only a handful of seats (class examples often use four). Unit cost then rises sharply unless utilization and load factor are high ([§13](#13-the-empty-seat-problem-and-unit-cost)).  
+1. [**Fixed cost**](glossary.qmd#fixed-cost) per passenger. A large jet spreads aircraft cost across hundreds of seats. Many eVTOL concepts under discussion have only a handful of seats (class examples often use four). Unit cost then rises sharply unless utilization and load factor are high ([§13](#13-the-empty-seat-problem-and-unit-cost)).  
 2. **Ground and digital share of cost.** Vertiport fees, charging, and traffic-management services can claim a large slice of a short-trip fare ([§9](#9-the-lae-value-chain--who-creates-value-and-who-gets-paid)).  
 3. **Operating-window sensitivity.** Noise or community limits that cut daily flights raise fixed cost per flight even if the aircraft is unchanged ([§9](#operating-restrictions-raise-unit-cost)).
 
@@ -192,8 +196,8 @@ You will hear three acronyms constantly. Keep them **nested**, not interchangeab
 | Term | Meaning in this course |
 |------|-------------------------|
 | **LAE (low-altitude economy)** | The umbrella: economic activity in low-altitude airspace plus the supporting ecosystem. |
-| **UAM (urban air mobility)** | A *subset*: moving people or cargo over short distances **inside** a dense city. |
-| **AAM (advanced air mobility)** | A broader industry label for new aircraft connecting cities to suburbs or other corridors. |
+| [**UAM (urban air mobility)**](glossary.qmd#uam) | A *subset*: moving people or cargo over short distances **inside** a dense city. |
+| [**AAM (advanced air mobility)**](glossary.qmd#aam) | A broader industry label for new aircraft connecting cities to suburbs or other corridors. |
 
 **Course focus:** start **Hong Kong-first**, then expand to the **Greater Bay Area (GBA)** — the city cluster that includes Hong Kong, Macao, and nearby Guangdong cities — and selected Mainland / global comparators. EU / US / NASA-style AAM materials are **comparators**, not Hong Kong law ([Who decides what?](regulators.qmd); [Course overview](overview.qmd)).
 
@@ -224,7 +228,7 @@ An LAE service must solve a customer problem better than existing alternatives. 
 
 | Family | Typical value created | Typical binding constraints (preview) |
 |--------|----------------------|--------------------------------------|
-| Cargo / logistics | Time, reliability, access where roads are slow or blocked | Payload, weather, landing sites, BVLOS / advanced-ops permission (**BVLOS** = beyond visual line of sight) |
+| Cargo / logistics | Time, reliability, access where roads are slow or blocked | Payload, weather, landing sites, BVLOS / advanced-ops permission ([**BVLOS**](glossary.qmd#bvlos) = beyond visual line of sight) |
 | Passenger mobility | Door-to-door time vs MTR / taxi / Airport Express | Vertiport access, load factor, noise, public acceptance |
 | Inspection | Lower disruption and risk vs manned access | Safety case, data / privacy, repeatability |
 | Emergency / public | Outcomes that alternatives cannot match in time | Priority rules, funding (availability vs usage), acceptance |
@@ -243,6 +247,8 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 
 ### The HK$350 billion projection
 
+
+
 ```{=html}
 <figure class="wdiag" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
 <p class="wdiag-cap" id="w01-ohkf-title"><strong>Reading the OHKF HK$350bn figure</strong></p>
@@ -253,6 +259,8 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 <p class="wdiag-note">Cite Key figures / Readings. Do not merge with Mainland scale totals.</p>
 </figure>
 ```
+
+
 You will also see a private projection: that Hong Kong’s LAE-related industries could generate about **HK$350 billion** in annual **industry value added by 2050**, with a large share in supporting services.
 
 That figure comes from **Our Hong Kong Foundation (OHKF)** (*Taking Flight: Forging a Future for Hong Kong’s Low-Altitude Economy*, September 2025). It is a **think-tank projection**, **not** an HKSAR government number.
@@ -281,9 +289,13 @@ Sections 1–5 defined the field. Sections 6–8 open the **quantitative toolkit
 
 Time-related benefit per trip:
 
+
+
 $$
 \text{Value of time saved per trip} = \text{VOT} \times \Delta T
 $$
+
+
 
 where $\Delta T$ is time saved relative to the best alternative (same time units as VOT).
 
@@ -295,9 +307,13 @@ Customer value is only step one. Investors still ask whether the **cash stream**
 
 **Net present value (NPV)** asks whether the future cash a project generates is enough to justify the investment made today, under stated assumptions:
 
+
+
 $$
 \text{NPV} = -\text{Initial investment} + \text{Present value of future profits}
 $$
+
+
 
 | NPV result (under stated assumptions) | Interpretation |
 |---------------------------------------|----------------|
@@ -312,9 +328,13 @@ Put VOT and NPV on one screen with a middle step — **capture** — so time sav
 
 1. **Does the service create value for customers?** (for example via time savings: $\text{VOT}\times\Delta T$).  
 2. **Can the operator capture enough of that value?**  
-   $$
+   
+
+$$
    \text{Annual operating profit} = \text{Annual revenue} - \text{Annual operating cost}
-   $$  
+   $$
+
+  
 3. **Does the project justify the initial investment?** (NPV).
 
 **Core lesson:** time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability.
@@ -339,11 +359,15 @@ When travellers choose among MTR, taxi, or a hypothetical air taxi, they conside
 - **Time cost** — in-vehicle time, waiting, boarding, and transfers.  
 - **Other factors** — reliability, convenience, comfort, perceived safety.
 
-Economists often combine money and time into **generalized cost (GC)**:
+Economists often combine money and time into [**generalized cost (GC)**](glossary.qmd#generalised-cost):
+
+
 
 $$
 \text{Generalized cost} = \text{Ticket price} + \text{VOT} \times \text{Travel time}
 $$
+
+
 
 All else equal, the customer prefers the option with **lower** generalized cost. A faster mode can charge more, but **only up to the value of the time it actually saves** on the full journey.
 
@@ -353,9 +377,13 @@ All else equal, the customer prefers the option with **lower** generalized cost.
 
 Rearrange the indifference condition. If the alternative mode has generalized cost $GC_A$ and the air option takes time $T_{\text{air}}$, the maximum fare that keeps the traveller indifferent (ignoring comfort and reliability) is:
 
+
+
 $$
 P_{\max} = GC_A - \text{VOT}\times T_{\text{air}}
 $$
+
+
 
 That is exactly the Airport Express screen in [§8.2](#82-finding-a-maximum-ticket-price-against-airport-express). Notice what is missing: waiting at the vertiport, access time to the pad, cancellation risk, and perceived safety. Adding friction raises $T_{\text{air}}$ or lowers effective VOT for the air option — which is why [§8.1](#81-door-to-door-friction-destroys-value) destroys value even when cruise time is unchanged.
 
@@ -389,15 +417,23 @@ The next two examples apply VOT and generalized cost. Figures are **illustrative
 
 **Airport Express (assumed for the exercise):** ticket HK$115; journey 24 minutes. (The HK$115 figure is used as a classroom anchor for the formula — treat it as part of the illustrative setup, not as a claim about every fare class or access journey.)
 
+
+
 $$
 GC_{\text{MTR}} = 115 + 10\times 24 = \mathbf{HK\$355}
 $$
 
+
+
 **Air taxi (assumed):** journey 8 minutes. Match the same generalized cost:
+
+
 
 $$
 P + 10\times 8 = 355 \implies P = \mathbf{HK\$275}
 $$
+
+
 
 Under these simplified assumptions, **HK$275** makes the traveller indifferent. Actual demand also depends on waiting, access, reliability, comfort, and perceived safety — none of which are in the short formula.
 
@@ -427,7 +463,7 @@ Concepts and tools are in place. This section asks **who makes what** along the 
 
 | Role | Plain meaning |
 |------|----------------|
-| **OEM** | **Original equipment manufacturer** — produces the aircraft or key components. |
+| [**OEM**](glossary.qmd#oem) | **Original equipment manufacturer** — produces the aircraft or key components. |
 | **Vertiport / sites** | Take-off, landing, passenger or cargo handling, charging, related ground operations (industry language; no dedicated Hong Kong vertiport statute yet). |
 | **UTM / U-space** | Digital services and procedures that support safe, efficient management of unmanned operations. **UTM** = unmanned aircraft system traffic management. **U-space** is an EU / industry frame, **not** Hong Kong law; Hong Kong’s Smart Low-altitude Traffic Management System is a **planned** programme (Policy Address language: progressive implementation from **2028**), not a statute yet ([Key figures](key-figures.qmd); [Glossary · airspace](glossary.qmd#airspace-and-traffic)). |
 | **Operator** | Provides the transport, logistics, inspection, or public service to the customer. |
@@ -442,6 +478,8 @@ Roles-only money-and-value map (no firm names): [How does LAE work?](business-ov
 
 One teaching decomposition of an air-taxi fare:
 
+
+
 $$
 \begin{aligned}
 \text{Ticket price} =\ &\text{Aircraft cost} + \text{Vertiport fee} + \text{Energy} \\
@@ -449,6 +487,8 @@ $$
 &+ \text{Insurance and overhead} + \text{Operator margin}.
 \end{aligned}
 $$
+
+
 
 Different participants may charge usage fees, lease payments, or service fees. The **operator** typically faces direct demand risk (attract customers; fill capacity). Infrastructure and platform providers may face less *direct* passenger risk, but they still depend on traffic volume and bear investment, technology, and regulatory risk.
 
@@ -476,7 +516,7 @@ If all costs stayed unchanged, cutting the fare by HK$50 would turn a HK$30 marg
 
 ### Stakeholder conflict and externalities
 
-An **externality** arises when an activity imposes costs or benefits on others that are not fully reflected in the decision-maker’s private costs or revenues.
+An [**externality**](glossary.qmd#externality) arises when an activity imposes costs or benefits on others that are not fully reflected in the decision-maker’s private costs or revenues.
 
 - **Operators** want enough flights and passengers to cover fixed costs.  
 - **Investors** want a credible path to approval, revenue, and scale.  
@@ -502,7 +542,7 @@ Public acceptance is not only a communications issue. Operating limits change ut
 
 ---
 
-Even a clean ticket split fails if the product cannot enter. Aviation’s safety culture and certification timelines raise **entry barriers**; that is the economic reason controlled trial programmes exist — not a waiver of Cap. 448G or airworthiness duties.
+Even a clean ticket split fails if the product cannot enter. Aviation’s safety culture and certification timelines raise [**entry barriers**](glossary.qmd#entry-barrier); that is the economic reason controlled trial programmes exist — not a waiver of Cap. 448G or airworthiness duties.
 
 ## 10. Why new aviation products face high entry barriers
 
@@ -542,12 +582,16 @@ With programmes named correctly, summarise economically what a sandbox can chang
 
 ### Entry barriers as a simple sum
 
+
+
 $$
 \begin{aligned}
 \text{Entry barrier} =\ &\text{Investment cost} + \text{Compliance cost} \\
 &+ \text{Cost of delay} + \text{Uncertainty}.
 \end{aligned}
 $$
+
+
 
 | Component | Plain meaning |
 |-----------|----------------|
@@ -588,9 +632,11 @@ GBA strategy does not fix aircraft economics. Many passenger concepts under disc
 
 Airlines amortise expensive aircraft across hundreds of seats. Many eVTOL concepts under discussion have only a handful of seats (class examples often use **four**). You cannot divide pilot and machine cost by 300; you divide by a small number. Unless utilization and load factor are high, ticket prices rise sharply.
 
-**Utilization** = how often the aircraft flies. **Load factor** = share of seats that are filled.
+[**Utilization**](glossary.qmd#utilization) = how often the aircraft flies. [**Load factor**](glossary.qmd#load-factor) = share of seats that are filled.
 
-Unit cost:
+[Unit cost](glossary.qmd#unit-cost):
+
+
 
 $$
 \begin{aligned}
@@ -599,6 +645,8 @@ $$
 &+ \frac{\text{Daily fixed cost}}{\text{Flights per day}\times\text{Seats per flight}\times\text{Load factor}}.
 \end{aligned}
 $$
+
+
 
 | Driver | Meaning |
 |--------|---------|

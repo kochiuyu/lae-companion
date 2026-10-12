@@ -1,5 +1,5 @@
 ---
-title: "Week 12: LAE Future Frontiers and Final Review"
+title: "Week 12: [LAE](glossary.qmd#lae) Future Frontiers and Final Review"
 subtitle: "Networks, services roles, and the course viability test"
 as_of: "2026-10-12"
 page-layout: article
@@ -54,7 +54,7 @@ By the end of Week 12 you should be able to:
 | Part | Sections | Focus |
 |------|----------|--------|
 | Horizon & networks | §§1–2 | Growth under evidence; $L = N(N-1)/2$; screening ≠ forecast |
-| Digital & HK services | §§3–4 | Coordination net saving; leasing $\mathrm{CF}_{L}$ / $\mathrm{NPV}$; transferable capability |
+| Digital & HK services | §§3–4 | Coordination net saving; leasing $\mathrm{CF}_{L}$ / $\mathrm{[NPV](glossary.qmd#npv)}$; transferable capability |
 | Exam method & judgment | §§5–6 | Five-step method; viability reapplied; toolkit; consistent judgment |
 | Close | §§7–8 | Synthesis; study checklist |
 
@@ -74,9 +74,11 @@ Which part of the value chain is most likely to create durable value — aircraf
 
 Section 1 set the horizon: from trial to repeatable system. **Corridors to networks** asks how node count raises possible links. That is screening math — **not** a forecast that every link flies.
 
-## 2. From corridors to networks
+## 2. From corridors to [networks](glossary.qmd#network-effects)
 
 A **corridor** is one link. A **network** is many links among many nodes. Adding nodes raises the *possible* number of connections — it does not guarantee that each link has demand or value.
+
+
 
 
 
@@ -99,6 +101,8 @@ A **corridor** is one link. A **network** is many links among many nodes. Adding
 </figure>
 ```
 
+
+
 A **network** links several origins, destinations, operators, and supporting facilities:
 
 - More nodes create more possible connections, but only some will have sufficient demand and feasible operations.  
@@ -114,12 +118,16 @@ A **network** links several origins, destinations, operators, and supporting fac
 - $L$ — number of possible undirected pairs  
 
 
+
+
 $$
 \begin{aligned}
 L
 &= \frac{N(N-1)}{2}
 \end{aligned}
 $$
+
+
 
 
 If direction matters, possible origin–destination links are $N(N-1)$. The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with $N$, not exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
@@ -138,7 +146,7 @@ More nodes increase the option set; viable service grows only where demand, capa
 
 ---
 
-Networks need coordination. **Digital coordination and governance** put net savings and better risk evidence in the same cash-flow path as Week 8 roadmap NPV — or they are theatre.
+Networks need coordination. **Digital coordination and governance** put net savings and better risk evidence in the same [cash-flow](glossary.qmd#cash-flow) path as Week 8 roadmap NPV — or they are theatre.
 
 ## 3. Digital coordination and governance
 
@@ -154,12 +162,16 @@ Digital systems can support planning, authorization, identification, traffic inf
 - $S_{\mathrm{net}}$ — net saving relative to the legacy process  
 
 
+
+
 $$
 \begin{aligned}
 S_{\mathrm{net}}
 &= C_{\mathrm{legacy}} - C_{\mathrm{dig}} - C_{\mathrm{trans}}
 \end{aligned}
 $$
+
+
 
 
 Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees, and exception handling. Savings depend on annual activity, reliability, integration complexity, and how much manual work is actually displaced. Marginal digital cost may be low — it is not generally zero. The preferred design must also meet safety, resilience, privacy, and accountability requirements (Week 10). This is the same spirit as Week 8’s $S_{\mathrm{day}}$ screen — now stated as a net figure after transition cost.
@@ -204,6 +216,8 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
 - $\mathrm{NPV}$ — lessor net present value  
 
 
+
+
 $$
 \begin{aligned}
 \mathrm{CF}_{L,t}
@@ -215,6 +229,8 @@ $$
   + \frac{V_{T}}{(1+r)^{T}}
 \end{aligned}
 $$
+
+
 
 
 Depreciation is an accounting allocation; residual value and cash expenditures belong in the cash-flow appraisal. The lessor retains asset-value, financing, technology, maintenance, repossession, legal, and lessee-credit risks. Lease receipts are contractual — not risk-free.
@@ -246,6 +262,8 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
 
 
 
+
+
 ```{=html}
 <figure class="wdiag" id="w12-exam" aria-labelledby="w12-exam-title">
 <p class="wdiag-cap" id="w12-exam-title"><strong>Five-step exam method</strong></p>
@@ -263,6 +281,8 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
 <p class="wdiag-note">CAAC ATM Rules on Readings remain a draft consultation — not in force. U-space ≠ HK law.</p>
 </figure>
 ```
+
+
 
 For an integrated LAE scenario:
 
@@ -285,6 +305,8 @@ Same symbols as Week 11 — rehearse them until the units are automatic:
 - $\Pi_{\mathrm{op}}$ — operating profit  
 
 
+
+
 $$
 \begin{aligned}
 D_{\mathrm{served}}
@@ -293,6 +315,8 @@ D_{\mathrm{served}}
 &= (p - v)\, D_{\mathrm{served}} - F
 \end{aligned}
 $$
+
+
 
 
 Add any specified tax, fee, subsidy, or committed payment in the correct place (e.g. subtract a per-flight noise charge inside the contribution term, or add $P_{\mathrm{PS}}$ as in Week 10). Recalculate $D_{\mathrm{served}}$ when a shock changes demand or capacity. Then discuss regulation, safety, sustainability, and distributional effects (Week 11).

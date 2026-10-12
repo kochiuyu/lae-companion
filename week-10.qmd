@@ -79,7 +79,8 @@ Section 1 asked whether electric propulsion equals sustainability. **Externaliti
 
 ## 2. Externalities
 
-An **externality** is a cost or benefit that falls on other people and is not fully priced into the operator’s private costs or revenues. Noise is a common example in LAE.
+An [**externality**](glossary.qmd#externality) is a cost or benefit that falls on other people and is not fully priced into the operator’s private costs or revenues. Noise is a common example in LAE.
+
 
 
 
@@ -104,6 +105,7 @@ An **externality** is a cost or benefit that falls on other people and is not fu
 </figure>
 ```
 
+
 An **externality** arises when an activity affects third parties and those effects are not fully reflected in the decision-maker’s private costs or benefits ([Glossary](glossary.qmd)):
 
 | Type | Examples |
@@ -123,12 +125,14 @@ Name the intermediates:
 - $\mathrm{MEC}_{\mathrm{noise}}$ — marginal external noise cost  
 
 
+
 $$
 \begin{aligned}
 C^{*}_{\mathrm{noise}}
 &= \mathrm{MEC}_{\mathrm{noise}}
 \end{aligned}
 $$
+
 
 
 Marginal external cost depends on exposure, time, location, number of affected people, baseline noise, event frequency, and health or amenity effects. Decibels are **logarithmic** — “decibels above a limit” should **not** automatically be multiplied by flights and a fixed monetary rate. Practical instruments may use certified noise categories, time-of-day charges, quotas, curfews, route restrictions, or performance standards. Charges should encourage quieter operations without implying that every impact can simply be paid for (Week 9 hedonic thinking informs estimation; it does not replace regulation). Vascik & Hansman and the NASA UAM noise technical paper (see [Readings](#readings)) treat noise as a **scaling constraint**, not a side note.
@@ -173,12 +177,14 @@ Hong Kong privacy guidance for drone cameras emphasizes avoiding excessive colle
 - $C_{\mathrm{priv}}$ — annual privacy-control cost  
 
 
+
 $$
 \begin{aligned}
 C_{\mathrm{priv}}
 &= F_{\mathrm{gov}} + q \times v + A
 \end{aligned}
 $$
+
 
 
 Cost cannot be inferred from an unsupported percentage of flight operating cost. Compare controls using privacy effectiveness, safety compatibility, reliability, and total cost.
@@ -220,6 +226,7 @@ A carbon value needs an inventory. **GHG scopes and LCA** answer different bound
 
 
 
+
 ```{=html}
 <figure class="wdiag" id="w10-ghg" aria-labelledby="w10-ghg-title">
 <p class="wdiag-cap" id="w10-ghg-title"><strong>Scopes vs LCA (different questions)</strong></p>
@@ -232,6 +239,7 @@ A carbon value needs an inventory. **GHG scopes and LCA** answer different bound
 </figure>
 ```
 
+
 Corporate GHG **scopes** and product **life-cycle assessment (LCA)** answer related but different questions:
 
 | Concept | Focus |
@@ -239,7 +247,7 @@ Corporate GHG **scopes** and product **life-cycle assessment (LCA)** answer rela
 | **Scope 1** | Direct emissions from sources owned or controlled by the reporting organization |
 | **Scope 2** | Indirect emissions associated with purchased electricity, steam, heat, or cooling |
 | **Scope 3** | Other indirect value-chain emissions (e.g. aircraft, batteries, infrastructure, maintenance, end-of-life) |
-| **LCA** | Environmental impacts of a defined product or service across a specified life cycle and functional unit |
+| [**LCA**](glossary.qmd#lca) | Environmental impacts of a defined product or service across a specified life cycle and functional unit |
 
 An electric aircraft may have zero in-flight exhaust emissions while still having Scope 2 and Scope 3 emissions. Corporate scopes should not simply be added without checking boundaries and double counting. Stolaroff et al. and Kasliwal et al. ([Readings](#readings)) illustrate why delivery-drone and VTOL sustainability claims depend on grid intensity, utilization, and the comparison mode — not on “electric” alone.
 
@@ -250,12 +258,14 @@ An electric aircraft may have zero in-flight exhaust emissions while still havin
 - $e_{\mathrm{op}}$ — operational electricity-related emissions per operation  
 
 
+
 $$
 \begin{aligned}
 e_{\mathrm{op}}
 &= E_{\mathrm{kWh}} \times f_{\mathrm{grid}}
 \end{aligned}
 $$
+
 
 
 Match units carefully. Include charging losses and relevant facility energy if they fall within the boundary. Distinguish location-based grid factors from market-based contractual claims where applicable. Compare modes using a consistent functional unit (passenger-km, tonne-km, or completed mission).
@@ -276,12 +286,14 @@ Electricity source matters — these figures alone do not establish whether the 
 - $e_{\mathrm{FU}}$ — life-cycle emissions per functional unit  
 
 
+
 $$
 \begin{aligned}
 e_{\mathrm{FU}}
 &= \frac{E_{\mathrm{v}} + E_{\mathrm{b}} + E_{\mathrm{i}} + E_{\mathrm{o}} + E_{\mathrm{e}}}{U}
 \end{aligned}
 $$
+
 
 
 State lifetime, utilization, replacement cycles, occupancy or payload, system boundary, and allocation method. Scope 3 is **not** a universal fixed percentage of total emissions. Compare alternatives using the **same** boundary and functional unit.
@@ -296,7 +308,7 @@ State lifetime, utilization, replacement cycles, occupancy or payload, system bo
 
 Decarbonizing electricity reduces operational emissions; embodied emissions remain sensitive to lifetime use and replacement assumptions. Not a comparative claim about jets or sustainable aviation fuel.
 
-**Connecting idea.** Do not add Scope 1+2+3 totals to an LCA total without a boundary map — that is the GHG analogue of Week 9’s double-counted barrier haircuts.
+**Connecting idea.** Do not add [Scope 1+2+3](glossary.qmd#ghg-scopes) totals to an LCA total without a boundary map — that is the GHG analogue of Week 9’s double-counted barrier haircuts.
 
 ---
 
@@ -316,7 +328,7 @@ Acceptance and equity meet funding. **Social licence and public-service commitme
 
 ## 7. Equity, social licence, and funding commitments
 
-**Social licence** (ongoing acceptance and trust among affected communities) refers to continuing acceptance and trust among affected communities and stakeholders. It complements, but does **not** replace, legal approval. Ask who receives time savings, service improvements, employment, and business opportunities — and who bears noise, privacy, safety, land-use, and fiscal costs. Consider affordability, accessibility, geographic coverage, consultation, complaints, and remedies. Acceptance may change over time and cannot be purchased by one symbolic public-service commitment.
+[**Social licence**](glossary.qmd#social-license) refers to continuing acceptance and trust among affected communities and stakeholders. It complements, but does **not** replace, legal approval. Ask who receives time savings, service improvements, employment, and business opportunities — and who bears noise, privacy, safety, land-use, and fiscal costs. Consider affordability, accessibility, geographic coverage, consultation, complaints, and remedies. Acceptance may change over time and cannot be purchased by one symbolic public-service commitment.
 
 **Managerial lesson:** build legitimacy through performance, transparency, participation, mitigation, and fair distribution of benefits and costs.
 
@@ -329,12 +341,14 @@ Acceptance and equity meet funding. **Social licence and public-service commitme
 - $\Pi_{\mathrm{net}}$ — net contribution after the commitment  
 
 
+
 $$
 \begin{aligned}
 \Pi_{\mathrm{net}}
 &= Q_{C}\, m_{C} + P_{\mathrm{PS}} - Q_{P}\, c_{P} - F
 \end{aligned}
 $$
+
 
 
 Funding may come from commercial cross-subsidy, public procurement, availability payment (Week 6), philanthropy, or another transparent source. Specify eligibility, service level, opportunity cost, accountability, and long-term affordability.
@@ -356,7 +370,7 @@ Keep **Sandbox ≠ Sandbox X** when citing trial programmes; Action Plan languag
 
 ---
 
-Commitments need metrics. **Sustainability KPI design** ties noise, privacy, carbon, and equity to boundaries, owners, and corrective action — then the tool map closes the loop.
+Commitments need metrics. [**Sustainability KPI**](glossary.qmd#kpi) design** ties noise, privacy, carbon, and equity to boundaries, owners, and corrective action — then the tool map closes the loop.
 
 ## 8. Sustainability KPI design
 

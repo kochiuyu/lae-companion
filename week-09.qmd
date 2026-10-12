@@ -54,9 +54,9 @@ By the end of Week 9 you should be able to:
 | Part | Sections | Focus |
 |------|----------|--------|
 | Commercial vs social | §1 | Profit can diverge from social net benefit and distribution |
-| Market funnel | §2 | TAM / SAM / obtainable demand; capacity-capped contribution |
+| Market funnel | §2 | [TAM](glossary.qmd#tam) / [SAM](glossary.qmd#sam) / obtainable demand; capacity-capped contribution |
 | Constraints | §3 | Map each barrier to one model channel; avoid double counting |
-| Uncertainty | §4 | Scenarios, Monte Carlo (many random draws from uncertain inputs to see a range of outcomes) concept, expected value and downside |
+| Uncertainty | §4 | Scenarios, [Monte Carlo](glossary.qmd#monte-carlo) concept, expected value and downside |
 | Value added & equity | §§5–7 | OHKF HK\$350bn attribution; hedonic tool; distribution |
 | Close | §§8–10 | Integrated dashboard; synthesis; study checklist |
 
@@ -108,6 +108,8 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 
 
 
+
+
 ```{=html}
 <figure class="wdiag" id="w09-funnel" aria-labelledby="w09-funnel-title">
 <p class="wdiag-cap" id="w09-funnel-title"><strong>Funnel symbols (Week 9)</strong></p>
@@ -122,6 +124,8 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 </figure>
 ```
 
+
+
 Name the intermediates before the formulas:
 
 - $TAM$ — total addressable market (relevant trips or missions in the defined geography and period)  
@@ -131,6 +135,8 @@ Name the intermediates before the formulas:
 - $D_{\mathrm{pot}}$ — potential operator demand before capacity binding  
 - $K$ — reliable capacity (aircraft, seats or payload, infrastructure, hours, weather, approvals from Weeks 5 and 8)  
 - $D_{\mathrm{served}}$ — served demand after the capacity screen  
+
+
 
 
 $$
@@ -145,6 +151,8 @@ D_{\mathrm{served}}
 $$
 
 
+
+
 Choice share should reflect price, generalized cost, service quality, and competition (Week 4). Reliable capacity includes aircraft, seats or payload, infrastructure, operating hours, weather, and approvals (Weeks 5 and 8). Avoid calling an unsupported capture percentage “realistic” without evidence.
 
 ### Revenue and contribution
@@ -155,6 +163,8 @@ Choice share should reflect price, generalized cost, service quality, and compet
 - $\Pi_{\mathrm{var}}$ — daily contribution (revenue minus variable cost of served units)  
 
 
+
+
 $$
 \begin{aligned}
 R_{\mathrm{day}}
@@ -163,6 +173,8 @@ R_{\mathrm{day}}
 &= R_{\mathrm{day}} - D_{\mathrm{served}} \times v
 \end{aligned}
 $$
+
+
 
 
 Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue is not cash flow or profit and does not by itself justify infrastructure investment. Compare contribution and longer-term cash flows with fixed operating cost and investment cost (Week 6 facility logic; Week 8 roadmap NPV with $CF_{t}$).
@@ -199,6 +211,8 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 
 
 
+
+
 ```{=html}
 <figure class="wdiag" id="w09-channels" aria-labelledby="w09-channels-title">
 <p class="wdiag-cap" id="w09-channels-title"><strong>One constraint → one model channel</strong></p>
@@ -213,6 +227,8 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 <p class="wdiag-note">NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
 </figure>
 ```
+
+
 
 NASA-sponsored UAM market work examined **interacting** constraints rather than a universal list of five revenue haircuts. Themes typically include:
 
@@ -271,12 +287,16 @@ A Monte Carlo simulation repeatedly samples uncertain inputs from specified dist
 Let $s$ index scenarios, $\Pr(s)$ the probability of scenario $s$, and $\Pi_{s}$ profit (or another payoff) in that scenario. Expected profit is:
 
 
+
+
 $$
 \begin{aligned}
 E[\Pi]
 &= \sum_{s} \Pr(s)\, \Pi_{s}
 \end{aligned}
 $$
+
+
 
 
 Expected value is the probability-weighted average across scenarios. It does **not** reveal how severe the downside can be or whether the business has enough liquidity to survive it. Also examine probability of loss, worst credible cash shortfall, and a downside percentile (e.g. 10th). Required cash reserves depend on cash-flow timing, financing access, risk tolerance, and recovery plans — not expected value alone.
@@ -295,7 +315,7 @@ Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **H
 
 ---
 
-Uncertainty tools are general. The **HK$350bn** figure is an **Our Hong Kong Foundation (OHKF)** think-tank **value-added** projection by 2050. It is **not** government GDP, **not** your obtainable revenue, and **not** a TAM.
+Uncertainty tools are general. The [**HK$350bn**](glossary.qmd#industry-value-added) figure is an **Our Hong Kong Foundation (OHKF)** think-tank **value-added** projection by 2050. It is **not** government GDP, **not** your obtainable revenue, and **not** a TAM.
 
 ## 5. The HK\$350 billion projection — and distributional questions
 
@@ -314,7 +334,7 @@ Keep the attribution strict:
 
 ---
 
-Attribution discipline clears the projection. **Hedonic valuation** is a classroom tool for how attributes (including noise) show up in prices — illustrative $\beta$, not a Hong Kong drone-noise study.
+Attribution discipline clears the projection. [**Hedonic valuation**](glossary.qmd#hedonic-valuation) is a classroom tool for how attributes (including noise) show up in prices — illustrative $\beta$, not a Hong Kong drone-noise study.
 
 ## 6. Hedonic valuation (illustrative tool)
 
@@ -323,12 +343,16 @@ Hedonic analysis estimates how observable attributes are associated with market 
 ### Illustrative specification
 
 
+
+
 $$
 \begin{aligned}
 \ln(P_{i})
 &= \alpha + \beta N_{i} + \gamma A_{i} + \delta X_{i} + \varepsilon_{i}
 \end{aligned}
 $$
+
+
 
 
 - $P_{i}$ — property price or rent  

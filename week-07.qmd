@@ -102,6 +102,7 @@ Regulatory capability may become a competitive advantage when a firm can demonst
 In words: take contribution earned while you alone (or early) can operate commercially, then subtract the extra compliance and launch cost that bought that lead.
 
 
+
 $$
 \begin{aligned}
 \text{Net readiness value}
@@ -109,6 +110,7 @@ $$
 &\quad - \text{Additional compliance and launch cost}
 \end{aligned}
 $$
+
 
 
 The lead period begins only when revenue-generating operation is **actually permitted** and demand exists. Use contribution (not revenue alone). Faster readiness may create learning, reputation, and partnership benefits — competitors and substitutes can still enter. Include probability of approval, delay, unsuccessful trials, and possible expiry of the lead.
@@ -131,6 +133,7 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 
 
 
+
 ```{=html}
 <figure class="wdiag" id="w07-sandbox" aria-labelledby="w07-sandbox-title">
 <p class="wdiag-cap" id="w07-sandbox-title"><strong>Sandbox ≠ Sandbox X (keep programmes distinct)</strong></p>
@@ -143,6 +146,7 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 <p class="wdiag-note">Absolute programme labels — cite Readings / Key figures / Who decides what?.</p>
 </figure>
 ```
+
 
 Under Cap. **448G**, small unmanned aircraft (SUA ≤ 150 kg) are regulated under a **risk-based** approach. The Order took full effect on **1 December 2022**; in **July 2025** the scope expanded to cover SUA weighing not more than 150 kg (Category C) — see [CAD SUA page](https://www.cad.gov.hk/english/sua.html) on [Readings](#readings) and [Key figures](key-figures.qmd). Advanced operations need **prior CAD permission** and may face additional conditions ([Who decides what?](regulators.qmd)).
 
@@ -166,6 +170,7 @@ Under Cap. **448G**, small unmanned aircraft (SUA ≤ 150 kg) are regulated unde
 In words: expected redesign and delay you avoid, plus the value of better information, minus what the trial costs.
 
 
+
 $$
 \begin{aligned}
 \text{Trial value}
@@ -174,6 +179,7 @@ $$
   - \text{Trial cost}
 \end{aligned}
 $$
+
 
 
 A trial can reveal whether routes, communications, infrastructure, procedures, and demand work as expected. Evidence may support later approval or investment — timing and outcome are not guaranteed. Trial flights and commercial operations are different stages. The principal benefit is earlier, lower-cost **learning**, not presumed early monopoly profit — the same real-options intuition as Week 6 staging.
@@ -195,7 +201,7 @@ Sandbox learning is controlled. **BVLOS and advanced operations** raise the perm
 
 **BVLOS** means **beyond visual line of sight**: the remote pilot cannot see the aircraft with their own eyes during the flight. These operations need a higher permission bar than simple visual-line-of-sight flights.
 
-**BVLOS** (**beyond visual line of sight** — flying when the remote pilot cannot see the aircraft) means operating an unmanned aircraft beyond the remote pilot’s direct visual line of sight ([Glossary](glossary.qmd)). It can extend range and reduce the need for observers, but usually increases operational complexity and risk. A safety case may need to address command and control, navigation, surveillance, airspace conflict, lost-link procedures, weather, emergency response, and human oversight.
+[**BVLOS**](glossary.qmd#bvlos) (beyond visual line of sight) means operating an unmanned aircraft beyond the remote pilot’s direct visual line of sight ([Glossary](glossary.qmd)). It can extend range and reduce the need for observers, but usually increases operational complexity and risk. A safety case may need to address command and control, navigation, surveillance, airspace conflict, lost-link procedures, weather, emergency response, and human oversight.
 
 Under Hong Kong’s risk-based SUA regime, higher-risk advanced operations require prior permission from CAD and may be subject to additional requirements. Sandbox testing can generate evidence for **defined** operations — it does **not** create a general right to conduct BVLOS flights anywhere.
 
@@ -235,6 +241,7 @@ In words: form expected approved value, then peel off compliance cost and delay 
 - $V_{\mathrm{comp}}$ — expected compliance value  
 
 
+
 $$
 \begin{aligned}
 V_{\mathrm{appr}}
@@ -248,6 +255,7 @@ V_{\mathrm{comp}}
 &\quad - C_{\mathrm{delay}}
 \end{aligned}
 $$
+
 
 
 Compliance spend may be necessary for market access; it does not automatically create additional revenue. Project value depends on demand, capacity, competition, operating conditions, and how long any advantage lasts. Measure delay as foregone **contribution** or project value. Use staged gates where evidence can change the continue/stop decision (Week 6 real-options logic).
@@ -275,6 +283,7 @@ A **safety case** is a structured argument, supported by evidence, that the risk
 In words: expected loss sums probability times financial consequence across events. Risk cost adds prevention/mitigation spend, insurance premiums, and retained expected loss.
 
 
+
 $$
 \begin{aligned}
 \text{Expected loss}
@@ -282,6 +291,8 @@ $$
   \times \text{Financial consequence}_j
 \end{aligned}
 $$
+
+
 
 
 
@@ -293,6 +304,7 @@ $$
   + \text{Retained expected loss}
 \end{aligned}
 $$
+
 
 
 Safety investment may reduce event probability or consequence. Premiums also depend on limits, deductibles, exclusions, exposure, claims history, market conditions, and insurer assessment. Policy language that the insurance industry may develop LAE products using Sandbox data ([Glossary](glossary.qmd)) is evidence of an **active theme** — not a quote for your safety case.
@@ -313,13 +325,14 @@ Safety cases are local; digital traffic ideas are often foreign. **U-space / UTM
 
 ## 7. U-space, UTM, and coordination cost
 
-**U-space** (an EU / industry traffic framework — **not** Hong Kong law) is the European regulatory framework for digital services supporting unmanned-aircraft operations in designated airspace. Mandatory services commonly discussed include flight authorization, geo-awareness, network identification, and traffic information. **UTM** is a broader term for systems and services supporting unmanned traffic management in other contexts ([Who decides what?](regulators.qmd) · EASA comparator).
+[**U-space**](glossary.qmd#u-space) (EU / industry — **not** Hong Kong law) is the European regulatory framework for digital services supporting unmanned-aircraft operations in designated airspace. Mandatory services commonly discussed include flight authorization, geo-awareness, network identification, and traffic information. **UTM** is a broader term for systems and services supporting unmanned traffic management in other contexts ([Who decides what?](regulators.qmd) · EASA comparator).
 
 **Connecting idea.** **U-space ≠ Hong Kong law.** Hong Kong’s smart low-altitude traffic-management system appears in planning language (Policy Address / Sandbox X UTM demos) — treat it as **planned / trial infrastructure**, not as a completed local U-space statute ([Glossary](glossary.qmd); [Official status](tracker.qmd)).
 
 Digital services can standardize information exchange and support higher volumes — they do **not** eliminate human oversight, certification, cybersecurity, infrastructure, or service-provider costs. Transaction costs include planning, authorization, coordination, information exchange, monitoring, and handling exceptions.
 
 In words: daily coordination cost is fixed system cost plus variable digital cost per operation plus human-oversight cost.
+
 
 
 $$
@@ -330,6 +343,7 @@ $$
 &\quad + h \times \text{Human oversight cost}
 \end{aligned}
 $$
+
 
 
 Here $q$ is the number of operations and $h$ is required human-oversight effort. Digitalization may cut repetitive manual work while adding software, communications, cybersecurity, certification, and provider fees. Exceptions and emergencies may still need substantial human intervention. Scale is viable only if total system capacity and safety performance also increase.
@@ -374,12 +388,14 @@ Compare requirements, evidence, scope, transferability, cost, and predictability
 A single ratio of “approval time ÷ invented stringency” is **not** a reliable international comparison. Teams may score pathways 1–5 with documented weights (e.g. clarity 25%, trial pathway 20%, time/effort 20%, scalability 20%, transferability 15%):
 
 
+
 $$
 \begin{aligned}
 \text{Weighted score}
 &= \sum_k w_k s_k
 \end{aligned}
 $$
+
 
 
 The scorecard makes assumptions visible; it supports judgment rather than claiming one jurisdiction is universally fastest or best.

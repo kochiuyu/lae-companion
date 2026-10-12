@@ -95,6 +95,7 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 
 
 
+
 ```{=html}
 <figure class="wdiag" id="w06-arch" aria-labelledby="w06-arch-title">
 <p class="wdiag-cap" id="w06-arch-title"><strong>Architecture choice (roles)</strong></p>
@@ -106,6 +107,7 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 <p class="wdiag-note">Architecture changes risk allocation — it does not remove Cap. 448G permission needs (Week 7).</p>
 </figure>
 ```
+
 
 | Archetype | Core idea | Typical exposure |
 |-----------|-----------|------------------|
@@ -122,6 +124,7 @@ Real businesses often **combine** elements. Roles without firm names: [How does 
 In words: take revenue, subtract cash operating spend, the period’s asset-cost allocation, and what you pay partners.
 
 
+
 $$
 \begin{aligned}
 \text{Monthly economic profit}
@@ -130,6 +133,7 @@ $$
   - \text{Partner payments}
 \end{aligned}
 $$
+
 
 
 Ownership affects financing, residual value, utilization risk, and control. Contracting converts some investment into recurring partner payments — it does **not** eliminate liability or performance risk. Platforms may scale with fewer physical assets but need trust, two-sided liquidity, governance, data security, and enough transactions. Compare cash flow, economic cost, risk, control, and capability — not a single profit number.
@@ -150,7 +154,7 @@ An “asset-light” label does **not** guarantee higher profit or lower risk. R
 
 ---
 
-Private archetypes still meet public assets. **PPP** (**public–private partnership** — a long-term deal that shares roles and risk) asks when a partnership is value for money — not when a logo partnership invents demand.
+Private archetypes still meet public assets. [**PPP**](glossary.qmd#ppp) (public–private partnership) asks when a partnership is value for money — not when a logo partnership invents demand.
 
 ## 3. Public–private partnerships (PPP)
 
@@ -177,6 +181,7 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 
 
 
+
 ```{=html}
 <figure class="wdiag" id="w06-pay" aria-labelledby="w06-pay-title">
 <p class="wdiag-cap" id="w06-pay-title"><strong>Who bears demand risk?</strong></p>
@@ -190,7 +195,9 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 </figure>
 ```
 
+
 In words: usage revenue is price times quantity. An availability component starts from a readiness fee, subtracts performance deductions, and may add a smaller per-unit usage term.
+
 
 
 $$
@@ -202,12 +209,15 @@ $$
 
 
 
+
+
 $$
 \begin{aligned}
 R_A &= A - D + u \times q
 \quad\text{(availability-based component)}
 \end{aligned}
 $$
+
 
 
 - $A$ — availability payment  
@@ -246,6 +256,7 @@ Not every flexible clause is freely exercisable — triggers, notice, compensati
 In words: expected project value is the probability-weighted payoff of the action you would choose in each state.
 
 
+
 $$
 \begin{aligned}
 \text{Expected project value}
@@ -254,6 +265,7 @@ $$
   \times \text{Payoff under the chosen action in state } s
 \end{aligned}
 $$
+
 
 
 Compare a rigid commitment with a staged or contingent decision. Flexibility creates value only if management can observe new information and respond. Waiting also has costs: option fees, delay, lost position, inflation, or expiring approvals. Conventional NPV can incorporate planned decisions; real-options thinking makes flexibility more explicit.
@@ -274,7 +286,7 @@ Staging has value here because the decision occurs after uncertainty resolves. T
 
 ---
 
-Flexibility helps one party; scarce roofs force sharing. **Co-opetition** (cooperate on shared assets while competing on service) returns from Week 2: shared facilities can cut unit cost — and harden price competition.
+Flexibility helps one party; scarce roofs force sharing. [**Co-opetition**](glossary.qmd#co-opetition) returns from Week 2: shared facilities can cut unit cost — and harden price competition.
 
 ## 6. Co-opetition and shared facilities
 
@@ -292,6 +304,7 @@ Define access, cost sharing, data governance, performance, liability, and exit. 
 In words: first allocate fixed facility cost per movement; then add variable facility cost per movement to get the shared facility unit cost.
 
 
+
 $$
 \begin{aligned}
 \text{Fixed cost per movement}
@@ -301,6 +314,7 @@ $$
   + \text{Variable facility cost per movement}
 \end{aligned}
 $$
+
 
 
 Greater total use can spread fixed cost — this is the **facility’s** cost, not automatically each operator’s charge. Contracts must decide equal vs usage vs peak vs investment-based payments. Sharing helps only if extra traffic does not create excessive congestion or expansion cost.
@@ -379,7 +393,7 @@ Pull the thread: architecture → profit screen → PPP and payments → real op
 
 ## 10. Putting Week 6 together
 
-Asset ownership, service integration, and platforms mix **control, capital, capability, and risk** differently. A PPP is justified by value for money and long-term risk allocation — not by hunger for public money alone. Link **availability** payments to readiness and performance, with deductions and relief. Stage investment and write flexibility carefully. Share infrastructure only with governance that protects access, data, liability, and competition. Keep **Sandbox ≠ Sandbox X**, and do not treat trial participation as a commercial franchise or corridor operating claim.
+Asset ownership, service integration, and platforms mix **control, capital, capability, and risk** differently. A PPP is justified by value for money and long-term risk allocation — not by hunger for public money alone. Link [**availability**](glossary.qmd#availability-payment) payments to readiness and performance, with deductions and relief. Stage investment and write flexibility carefully. Share infrastructure only with governance that protects access, data, liability, and competition. Keep **Sandbox ≠ Sandbox X**, and do not treat trial participation as a commercial franchise or corridor operating claim.
 
 The short checklist is in [Summary](#summary) above.
 

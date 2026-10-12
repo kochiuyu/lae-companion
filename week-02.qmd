@@ -92,6 +92,7 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
 
 
 
+
 ```{=html}
 <figure class="wdiag" id="w02-compete" aria-labelledby="w02-compete-title">
 <p class="wdiag-cap" id="w02-compete-title"><strong>Who might compete (question map)</strong></p>
@@ -104,6 +105,7 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
 <p class="wdiag-note">Connects to Week 5 scarce sites and Week 8 airspace allocation.</p>
 </figure>
 ```
+
 
 Before analysing flying taxis or drone corridors, label how competition is organised in a **defined market** (product + geography + customer type — for example “premium passenger trips on a named corridor,” not “all of LAE”).
 
@@ -164,9 +166,11 @@ Four segments, four logics. Concentration tools come next. The **HHI screen** is
 A common screening measure is:
 
 
+
 $$
 HHI = \sum_{i=1}^{N} s_i^2
 $$
+
 
 
 where $s_i$ is firm $i$’s market share **in percent** in the defined market (so a pure monopoly scores $100^2 = 10{,}000$). Squaring **amplifies** large shares: a firm with 90% contributes $8{,}100$; four equal 25% firms contribute $4 \times 625 = 2{,}500$.
@@ -194,7 +198,7 @@ Case B is far more concentrated and may warrant closer examination of **entry** 
 
 ---
 
-HHI describes shares. Cost structure explains why those shares might stick: when **fixed cost** is large relative to marginal cost, average cost falls with volume and scale / density start to look like a moat.
+HHI describes shares. Cost structure explains why those shares might stick: when [**fixed cost**](glossary.qmd#fixed-cost) is large relative to marginal cost, average cost falls with volume and scale / density start to look like a moat.
 
 ## 5. Fixed cost, marginal cost, and average cost per flight
 
@@ -206,9 +210,11 @@ To see why landing pads and utilization dominate LAE competition, separate two c
 Average total cost per flight (simple teaching form):
 
 
+
 $$
 \text{ATC} = \frac{\text{Fixed costs}}{\text{Number of flights}} + \text{Marginal cost}
 $$
+
 
 
 More flights **spread** the fixed charge. Low utilization makes each flight look extremely expensive even if energy is cheap.
@@ -221,7 +227,7 @@ More flights **spread** the fixed charge. Low utilization makes each flight look
 |--|----------------------------------|--------------------------------------|
 | Fixed cost per flight | $33{,}333 / 20 =$ **HK$1,667** | $33{,}333 / 200 =$ **HK$167** |
 | + Marginal cost | HK$50 | HK$50 |
-| **ATC** (**average total cost** — total cost divided by units of output) | **HK$1,717** | **HK$217** |
+| [**ATC**](glossary.qmd#atc-average-total-cost) (average total cost) | **HK$1,717** | **HK$217** |
 
 **Takeaway:** high fixed site costs make low utilization deadly. Operators must earn enough reliable daily volume — subject to demand, weather, regulation, and pad throughput (Week 5 deepens infrastructure).
 
@@ -234,6 +240,7 @@ Week 1’s operating-restriction example (same fixed lease, fewer flights) is th
 Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a related question: does packing more activity onto the *same* corridor or pad cut unit cost — without needing a bigger vehicle?
 
 ## 6. Economies of density (not bigger vehicles)
+
 
 
 
@@ -253,6 +260,7 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
 </figure>
 ```
 
+
 Traditional airlines often chase **economies of scale** with larger aircraft. Many LAE concepts cannot “go bigger” the same way: passenger eVTOL ideas may have only a handful of seats; delivery drones carry limited payload. Hong Kong has **no dedicated eVTOL statute yet**; treat eVTOL as an industry concept pending rules ([Week 1](week-01.qmd); [Glossary · vehicles](glossary.qmd#vehicles-and-operations)).
 
 Instead, LAE economics leans on **economies of density**: running **more volume through the same corridor and sites** so fixed route and pad costs are spread thinly. Achievable density is limited by demand, pad capacity, congestion, weather, and rules — density is not a free lunch ([Glossary · economies of density](glossary.qmd)).
@@ -260,14 +268,16 @@ Instead, LAE economics leans on **economies of density**: running **more volume 
 A teaching form that highlights density in the denominator:
 
 
+
 $$
 \text{Average cost per flight} = \frac{\text{Fixed route costs}}{\text{Flights} \times \text{Density factor}} + \text{Marginal cost}
 $$
 
 
+
 (In the simplest classroom cases, “density” is just higher flight count on the same fixed pad.)
 
-**Incumbent angle:** an operator that already has volume and site access may sustain a lower average cost than a thin entrant — one reason early control of scarce pads can look like a competitive moat. **Network effects** (a wider network is more useful to customers) are related but conceptually distinct from density on one corridor (Week 8 / Week 12 return to networks).
+**Incumbent angle:** an operator that already has volume and site access may sustain a lower average cost than a thin entrant — one reason early control of scarce pads can look like a competitive moat. [**Network effects**](glossary.qmd#network-effects) (a wider network is more useful to customers) are related but conceptually distinct from density on one corridor (Week 8 / Week 12 return to networks).
 
 ### Worked illustration (density trap)
 
@@ -308,9 +318,11 @@ A **sunk cost** is expenditure you cannot recover if you exit (for example much 
 If an incumbent could charge a very high monopoly price, that profit signal might attract entry. **Limit pricing** means charging low enough that a potential entrant’s expected average cost (including amortised sunk entry cost) is not covered — a teaching strategy, not a guarantee that entry is blocked.
 
 
+
 $$
 P_{\text{Limit}} \approx AC_{\text{Entrant}} = \frac{\text{Sunk entry cost}}{\text{Expected volume } Q} + MC
 $$
+
 
 
 ### Worked illustration (limit price and shared pads)
@@ -366,9 +378,11 @@ Place and programmes set the institutional stage. When **capacity is scarce**, p
 If two operators offer a homogeneous service with **unconstrained** capacity, price undercutting can drive price down toward **marginal cost** — a “race to the bottom” where margins vanish (Bertrand-style teaching model):
 
 
+
 $$
 P = MC \quad \text{(unconstrained capacity, homogeneous product)}
 $$
+
 
 
 ### Why scarce pads change the story
@@ -394,7 +408,7 @@ Capacity limits do **not** guarantee high prices or profits: allocation rules, r
 
 ---
 
-Scarce pads can support margins *or* invite sharing. **Co-opetition** asks whether rivals can share the roof while still competing on service — and what governance that requires.
+Scarce pads can support margins *or* invite sharing. [**Co-opetition**](glossary.qmd#co-opetition) asks whether rivals can share the roof while still competing on service — and what governance that requires.
 
 ## 10. Co-opetition: compete on service, share the roof
 
@@ -408,9 +422,11 @@ Airlines sometimes compete for passengers while sharing lounges or codeshares. E
 Teaching split of a shared fixed infrastructure cost among $N$ operators:
 
 
+
 $$
 \text{Savings per operator relative to going alone} = \frac{\text{Fixed infrastructure cost} \times (N-1)}{N}
 $$
+
 
 
 ### Worked illustration (shared rooftop)
@@ -446,7 +462,7 @@ Pull the thread: define the market → segment logic → HHI with eyes open → 
 
 ## 12. Putting Week 2 together
 
-Define the market narrowly. Measure concentration only as a **screen** (HHI). Trace average cost to **fixed sites + utilization/density**. Treat NASA-style barriers and **sunk costs** as the material of moats and **limit pricing**. Expect **Bertrand-style** pressure when capacity is loose; expect softer price wars when pads bind — without assuming profits. Use **co-opetition** when shared infrastructure beats duplication, with governance attached.
+Define the market narrowly. Measure concentration only as a **screen** (HHI). Trace average cost to **fixed sites + utilization/density**. Treat NASA-style barriers and [**sunk costs**](glossary.qmd#sunk-cost) as the material of moats and **limit pricing**. Expect **Bertrand-style** pressure when capacity is loose; expect softer price wars when pads bind — without assuming profits. Use **co-opetition** when shared infrastructure beats duplication, with governance attached.
 
 Keep **Sandbox ≠ Sandbox X**, and never confuse trial participation (38 of 72 / Sandbox X modules) with proven dominance. Do not claim GBA corridors as day-to-day service.
 
@@ -458,7 +474,7 @@ The short checklist is in [Summary](#summary) above.
 
 1. Define a **narrow market** (product + geography + customer + layer) before talking about competition.  
 2. Explain why LAE is **not one market structure**.  
-3. Compute **HHI** (**Herfindahl–Hirschman Index** — a concentration score built from market shares) from percent shares and interpret it only as a **screen**.  
+3. Compute [**HHI**](glossary.qmd#hhi) (concentration from market shares) from percent shares and interpret it only as a **screen**.  
 4. Separate **fixed** vs **marginal** cost; compute **ATC** at low and high utilization.  
 5. Contrast **economies of scale** (bigger vehicles) with **economies of density** (more volume on the same sites).  
 6. List NASA-style barriers and give a **sunk cost** example that is hard to resell.  
