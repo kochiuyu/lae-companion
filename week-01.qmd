@@ -71,6 +71,25 @@ Use the right-hand **On this page** list to jump. Equations use KaTeX; each form
 
 ## 1. What is the low-altitude economy?
 
+
+```{=html}
+<figure class="wdiag" id="w01-system" aria-labelledby="w01-system-title">
+<p class="wdiag-cap" id="w01-system-title"><strong>LAE as a system (roles)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box"><strong>Customers / missions</strong><br/>Need time savings, access, inspection, logistics, or public service.</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Operators</strong><br/>Deliver the flight or mission under applicable permissions.</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ spend on inputs</div>
+<div class="wdiag-row">
+<div class="wdiag-box"><strong>Aircraft</strong></div>
+<div class="wdiag-box"><strong>Sites / pads</strong></div>
+<div class="wdiag-box"><strong>Digital coordination</strong></div>
+<div class="wdiag-box"><strong>Insurance &amp; services</strong></div>
+</div>
+</div>
+<p class="wdiag-note">Roles only — not market shares or firm names. See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
+</figure>
+```
 **Low-altitude economy (LAE)** means economic activity that uses low-altitude airspace together with the aircraft, physical sites, digital systems, operators, customers, and supporting services needed to deliver a mission.
 
 That definition is deliberately wide. If you only remember “flying cars,” you will miss most of the near-term economics: inspection, logistics, emergency response, and the supporting services that OHKF projects as a large share of 2050 value added ([§5](#5-hong-kong-scale--and-how-to-read-the-hk350-billion-figure)). If you only remember “drones,” you will miss passenger concepts, infrastructure, and digital traffic management — and you will blur everyday speech with Cap. 448G’s legal label **SUA**.
@@ -203,6 +222,17 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 
 ### The HK$350 billion projection
 
+
+```{=html}
+<figure class="wdiag" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
+<p class="wdiag-cap" id="w01-ohkf-title"><strong>Reading the OHKF HK$350bn figure</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box fact"><strong>What it is</strong><br/>Our Hong Kong Foundation (private think-tank) scenario projection for Hong Kong industry <em>value added</em> by 2050; supporting services are the majority in that report.</div>
+<div class="wdiag-box muted"><strong>What it is not</strong><br/>Not a government target; not operator revenue; not automatic GDP; not a single firm’s obtainable market.</div>
+</div>
+<p class="wdiag-note">Cite Key figures / Readings. Do not merge with Mainland scale totals.</p>
+</figure>
+```
 You will also see a private projection: that Hong Kong’s LAE-related industries could generate about **HK$350 billion** in annual **industry value added by 2050**, with a large share in supporting services.
 
 That figure comes from **Our Hong Kong Foundation** (*Taking Flight: Forging a Future for Hong Kong’s Low-Altitude Economy*, September 2025). It is a **think-tank projection**, **not** an HKSAR government number.

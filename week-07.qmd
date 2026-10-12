@@ -123,6 +123,19 @@ Early readiness has value only if the lead is long enough and commercially usefu
 
 ## 3. Hong Kong’s risk-based SUA frame and Sandbox X
 
+
+```{=html}
+<figure class="wdiag" id="w07-sandbox" aria-labelledby="w07-sandbox-title">
+<p class="wdiag-cap" id="w07-sandbox-title"><strong>Sandbox ≠ Sandbox X (keep programmes distinct)</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box fact"><strong>Regulatory Sandbox</strong><br/>Controlled trials under the first Sandbox programme. Advanced / BVLOS pathways: see <strong>CAD AC-013</strong> (operation-specific evidence).</div>
+<div class="wdiag-box fact"><strong>Regulatory Sandbox X</strong><br/>Advanced / more complex trials (e.g. cross-boundary SUA permission pathways). Cross-boundary circular: <strong>CAD AC-017</strong>.</div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true">≠</div>
+<div class="wdiag-box muted"><strong>Neither is a commercial franchise</strong><br/>Sandbox evidence ≠ day-to-day operating approval. <strong>U-space ≠ Hong Kong law.</strong> Action Plan language in the 2025 Policy Address stays with the issuer (OPEN on Official status where noted).</div>
+<p class="wdiag-note">Absolute programme labels — cite Readings / Key figures / Who decides what?.</p>
+</figure>
+```
 Under Cap. **448G**, small unmanned aircraft (SUA ≤ 150 kg) are regulated under a **risk-based** approach. The Order took full effect on **1 December 2022**; in **July 2025** the scope expanded to cover SUA weighing not more than 150 kg (Category C) — see [CAD SUA page](https://www.cad.gov.hk/english/sua.html) on [Readings](#readings) and [Key figures](key-figures.qmd). Advanced operations need **prior CAD permission** and may face additional conditions ([Who decides what?](regulators.qmd)).
 
 **Keep two trial programmes distinct** ([regulators standing caveats](regulators.qmd#standing-caveats)):

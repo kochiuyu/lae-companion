@@ -74,6 +74,25 @@ Which part of the value chain is most likely to create durable value — aircraf
 
 ## 2. From corridors to networks
 
+
+```{=html}
+<figure class="wdiag" id="w12-network" aria-labelledby="w12-network-title">
+<p class="wdiag-cap" id="w12-network-title"><strong>Possible links ≠ viable service</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box">N nodes → L = N(N−1)/2 undirected pairs (or N(N−1) if directed)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ screen each link</div>
+<div class="wdiag-row">
+<div class="wdiag-box">Demand</div>
+<div class="wdiag-box">Reliable K</div>
+<div class="wdiag-box">Permission</div>
+<div class="wdiag-box">Cost / acceptance</div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box fact"><strong>Candidate services only where all pass</strong><br/>Do not claim GBA corridors as day-to-day operating service on evidence tracked here.</div>
+</div>
+<p class="wdiag-note">Screening rates in the worked table are classroom assumptions — not a GBA forecast.</p>
+</figure>
+```
 A **network** links several origins, destinations, operators, and supporting facilities:
 
 - More nodes create more possible connections, but only some will have sufficient demand and feasible operations.  
@@ -207,6 +226,24 @@ Mainland ATM rules drafts (e.g. CAAC consultation on Readings) remain **draft on
 
 ## 5. Final review: five-step exam method
 
+
+```{=html}
+<figure class="wdiag" id="w12-exam" aria-labelledby="w12-exam-title">
+<p class="wdiag-cap" id="w12-exam-title"><strong>Five-step exam method</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box"><strong>1</strong> Define the decision &amp; alternative</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>2</strong> Served activity min{D, K}</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>3</strong> Viability (p, v, F, specified charges)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>4</strong> Map each constraint once</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box fact"><strong>5</strong> Recommend conditionally (proceed / pause / redesign / stop)</div>
+</div>
+<p class="wdiag-note">CAAC ATM Rules on Readings remain a draft consultation — not in force. U-space ≠ HK law.</p>
+</figure>
+```
 For an integrated LAE scenario:
 
 1. **Define the decision** — What is being chosen, for whom, over what period, and compared with what alternative?  

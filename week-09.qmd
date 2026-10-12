@@ -102,6 +102,20 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 
 ### Market funnel with capacity
 
+
+```{=html}
+<figure class="wdiag" id="w09-funnel" aria-labelledby="w09-funnel-title">
+<p class="wdiag-cap" id="w09-funnel-title"><strong>Funnel symbols (Week 9)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box">TAM → eligibility e → SAM</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ choice share s</div>
+<div class="wdiag-box">D_pot = SAM × s</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box fact">D_served = min{D_pot, K}</div>
+</div>
+<p class="wdiag-note">OHKF HK$350bn is think-tank Hong Kong value added by 2050 — not SOM. Classroom funnel numbers are illustrative.</p>
+</figure>
+```
 Name the intermediates before the formulas:
 
 - $TAM$ — total addressable market (relevant trips or missions in the defined geography and period)  
@@ -171,6 +185,21 @@ Fixed cost and investment remain to be covered. Excludes financing, tax, and dem
 
 ## 3. Constraints from UAM market studies (no double counting)
 
+
+```{=html}
+<figure class="wdiag" id="w09-channels" aria-labelledby="w09-channels-title">
+<p class="wdiag-cap" id="w09-channels-title"><strong>One constraint → one model channel</strong></p>
+<div class="wdiag-stack cols-3">
+<div class="wdiag-box"><strong>Demand / choice</strong></div>
+<div class="wdiag-box"><strong>Capacity K</strong></div>
+<div class="wdiag-box"><strong>Price / cost</strong></div>
+<div class="wdiag-box"><strong>Timing / launch</strong></div>
+<div class="wdiag-box"><strong>Probability</strong></div>
+<div class="wdiag-box muted"><strong>Avoid</strong><br/>Stacking independent “haircuts” for the same effect</div>
+</div>
+<p class="wdiag-note">NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
+</figure>
+```
 NASA-sponsored UAM market work examined **interacting** constraints rather than a universal list of five revenue haircuts. Themes typically include:
 
 - legal and regulatory requirements;  

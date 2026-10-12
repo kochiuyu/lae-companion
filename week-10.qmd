@@ -77,6 +77,27 @@ Imagine a proposed electric-aircraft corridor near a dense urban community. The 
 
 ## 2. Externalities
 
+
+```{=html}
+<figure class="wdiag" id="w10-ext" aria-labelledby="w10-ext-title">
+<p class="wdiag-cap" id="w10-ext-title"><strong>Impact → response mix</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-row">
+<div class="wdiag-box"><strong>Noise / visual</strong></div>
+<div class="wdiag-box"><strong>Privacy / data</strong></div>
+<div class="wdiag-box"><strong>Climate / energy</strong></div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ measure, then choose instruments</div>
+<div class="wdiag-row">
+<div class="wdiag-box">Technology</div>
+<div class="wdiag-box">Standards / rules</div>
+<div class="wdiag-box">Pricing / charges</div>
+<div class="wdiag-box">Compensation / engage</div>
+</div>
+</div>
+<p class="wdiag-note">Do not “price noise” as flights × dB above an assumed limit × $. Carbon values in class are appraisal dials — not a claimed CAD tax.</p>
+</figure>
+```
 An **externality** arises when an activity affects third parties and those effects are not fully reflected in the decision-maker’s private costs or benefits ([Glossary](glossary.qmd)):
 
 | Type | Examples |
@@ -181,6 +202,18 @@ This is **not** a claim that CAD imposes such a tax. Emissions factors and bound
 
 ## 5. GHG inventory and life-cycle assessment
 
+
+```{=html}
+<figure class="wdiag" id="w10-ghg" aria-labelledby="w10-ghg-title">
+<p class="wdiag-cap" id="w10-ghg-title"><strong>Scopes vs LCA (different questions)</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box"><strong>Corporate scopes 1–3</strong><br/>Organisation boundary: direct, purchased energy, other value-chain.</div>
+<div class="wdiag-box"><strong>Product / service LCA</strong><br/>Functional unit across a defined life cycle (vehicle, battery, infra, ops, end-of-life).</div>
+</div>
+<div class="wdiag-box fact" style="margin-top:.35rem"><strong>Electric ≠ zero life-cycle emissions</strong><br/>Match boundaries before comparing modes. Do not add scopes to LCA totals without a map.</div>
+<p class="wdiag-note">Use sourced grid factors for real inventories; classroom kWh factors are illustrative.</p>
+</figure>
+```
 Corporate GHG **scopes** and product **life-cycle assessment (LCA)** answer related but different questions:
 
 | Concept | Focus |

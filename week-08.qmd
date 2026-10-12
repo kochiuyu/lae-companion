@@ -83,6 +83,21 @@ Week 5 treated scarce **site** slots. Week 7 showed that advanced operations nee
 
 ## 2. The airspace bottleneck
 
+
+```{=html}
+<figure class="wdiag" id="w08-capacity" aria-labelledby="w08-capacity-title">
+<p class="wdiag-cap" id="w08-capacity-title"><strong>Whole-system capacity (not drones-per-minute)</strong></p>
+<div class="wdiag-row">
+<div class="wdiag-box"><strong>Route / separation</strong></div>
+<div class="wdiag-box"><strong>Surveillance &amp; C2</strong></div>
+<div class="wdiag-box"><strong>Weather &amp; hours</strong></div>
+<div class="wdiag-box"><strong>Vertiport / charging</strong></div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ whichever binds first sets reliable K</div>
+<div class="wdiag-box fact"><strong>Fact discipline</strong><br/>Cap. 448G height bands ≠ ~1,000 m policy working description. Do not invent Harbour corridor capacity. Keep Sandbox ≠ Sandbox X; OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</div>
+<p class="wdiag-note">Classroom delay and bid numbers later are teaching screens, not published CAD capacities.</p>
+</figure>
+```
 Airspace capacity is **not** simply a fixed number of drones per minute. Safe capacity depends on route geometry, separation, aircraft performance, surveillance, communications, weather, contingency routes, human oversight, and interactions with other airspace users. Vertiport capacity, charging, passenger processing, and available stands may bind **before** the corridor itself. Demand above reliable capacity creates delay, displacement, cancellation, or the need for another route or time.
 
 Hong Kong facts to keep straight ([Key figures](key-figures.qmd) · [Glossary](glossary.qmd)):
@@ -146,6 +161,19 @@ External delay cost ≈ $5 \times 200$ = **HK$1,000** (here $C_{\mathrm{other}}=
 
 ## 4. Mechanism design and slot allocation
 
+
+```{=html}
+<figure class="wdiag" id="w08-mech" aria-labelledby="w08-mech-title">
+<p class="wdiag-cap" id="w08-mech-title"><strong>Allocation families (choose with criteria)</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box"><strong>Administrative</strong><br/>Schedule, rotation, FCFS, public-service priority</div>
+<div class="wdiag-box"><strong>Posted prices</strong><br/>Peak / off-peak charges</div>
+<div class="wdiag-box"><strong>Auctions</strong><br/>Bids for scarce windows — need safeguards</div>
+<div class="wdiag-box"><strong>Packages</strong><br/>Linked pad + corridor + charging</div>
+</div>
+<p class="wdiag-note">High willingness to pay ≠ automatic social priority. Failure to obtain a linked slot → reject/reschedule, not unsafe flight.</p>
+</figure>
+```
 Mechanism design asks how rules shape participants’ information, incentives, and outcomes:
 
 | Family | Examples |

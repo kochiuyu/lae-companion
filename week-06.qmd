@@ -91,6 +91,18 @@ Week 3 separated CAPEX, fixed OPEX, and variable cost. Week 4 showed **served** 
 
 ## 2. Three business-model archetypes
 
+
+```{=html}
+<figure class="wdiag" id="w06-arch" aria-labelledby="w06-arch-title">
+<p class="wdiag-cap" id="w06-arch-title"><strong>Architecture choice (roles)</strong></p>
+<div class="wdiag-stack cols-3">
+<div class="wdiag-box"><strong>Own / integrate</strong><br/>Control assets; bear more CAPEX and utilization risk.</div>
+<div class="wdiag-box"><strong>Contract / PPP</strong><br/>Share design, build, operate, or finance with public or private partners.</div>
+<div class="wdiag-box"><strong>Orchestrate</strong><br/>Platform coordinates parties; needs liquidity, trust, and governance.</div>
+</div>
+<p class="wdiag-note">Architecture changes risk allocation — it does not remove Cap. 448G permission needs (Week 7).</p>
+</figure>
+```
 | Archetype | Core idea | Typical exposure |
 |-----------|-----------|------------------|
 | **Asset-intensive operator** | Owns or finances major aircraft and infrastructure; controls more of the operating system | High capital and utilization risk; potentially greater control and value capture |
@@ -151,6 +163,19 @@ Hong Kong’s trial programmes (first **Regulatory Sandbox** vs later **Sandbox 
 
 ## 4. Usage vs availability payments
 
+
+```{=html}
+<figure class="wdiag" id="w06-pay" aria-labelledby="w06-pay-title">
+<p class="wdiag-cap" id="w06-pay-title"><strong>Who bears demand risk?</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box"><strong>Usage payment</strong><br/>Cash follows traffic / missions → operator (or SPV) bears more demand risk.</div>
+<div class="wdiag-box"><strong>Availability payment</strong><br/>Cash follows agreed readiness / service level → public sponsor often bears more demand risk.</div>
+</div>
+<p class="wdiag-arrow" aria-hidden="true">↕ hybrids exist</p>
+<div class="wdiag-box fact"><strong>Write the risk down</strong><br/>Payment design is a risk allocation, not a slogan.</div>
+<p class="wdiag-note">Classroom payment figures are illustrative — not CAD or government tariffs.</p>
+</figure>
+```
 In words: usage revenue is price times quantity. An availability component starts from a readiness fee, subtracts performance deductions, and may add a smaller per-unit usage term.
 
 $$

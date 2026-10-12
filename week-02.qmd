@@ -88,6 +88,19 @@ Week 1’s empty-seat / utilization arithmetic already hinted that **fixed site 
 
 ## 2. What economists mean by “market structure”
 
+
+```{=html}
+<figure class="wdiag" id="w02-compete" aria-labelledby="w02-compete-title">
+<p class="wdiag-cap" id="w02-compete-title"><strong>Who might compete (question map)</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box"><strong>Same OD / same mission?</strong><br/>Substitute services compete for the same customer trip or payload.</div>
+<div class="wdiag-box"><strong>Same scarce pad / slot?</strong><br/>Rivals may compete for infrastructure even if missions differ.</div>
+<div class="wdiag-box"><strong>Same corridor–time window?</strong><br/>Airspace access can bind before “market share” does (Week 8).</div>
+<div class="wdiag-box fact"><strong>Discipline</strong><br/>Name the market before computing concentration. Classroom HHI shares are illustrative — not Hong Kong firm data.</div>
+</div>
+<p class="wdiag-note">Connects to Week 5 scarce sites and Week 8 airspace allocation.</p>
+</figure>
+```
 Before analysing flying taxis or drone corridors, label how competition is organised in a **defined market** (product + geography + customer type — for example “premium passenger trips on a named corridor,” not “all of LAE”).
 
 Three classic structures (simplified):
@@ -204,6 +217,22 @@ Week 1’s operating-restriction example (same fixed lease, fewer flights) is th
 
 ## 6. Economies of density (not bigger vehicles)
 
+
+```{=html}
+<figure class="wdiag" id="w02-density" aria-labelledby="w02-density-title">
+<p class="wdiag-cap" id="w02-density-title"><strong>Density feedback (conceptual)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box"><strong>More flights on shared fixed cost</strong><br/>(pad rent, staffing, coordination)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Lower average cost per flight</strong> (when utilization rises)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Stronger position at that site</strong> — if demand and permission hold</div>
+<div class="wdiag-arrow" aria-hidden="true">⚠</div>
+<div class="wdiag-box muted"><strong>Not automatic monopoly</strong><br/>Entry, regulation, rival pads, and congestion can reverse the advantage.</div>
+</div>
+<p class="wdiag-note">Schematic teaching loop — not a forecast of any Hong Kong site.</p>
+</figure>
+```
 Traditional airlines often chase **economies of scale** with larger aircraft. Many LAE concepts cannot “go bigger” the same way: passenger eVTOL ideas may have only a handful of seats; delivery drones carry limited payload. Hong Kong has **no dedicated eVTOL statute yet**; treat eVTOL as an industry concept pending rules ([Week 1](week-01.qmd); [Glossary · vehicles](glossary.qmd#vehicles-and-operations)).
 
 Instead, LAE economics leans on **economies of density**: running **more volume through the same corridor and sites** so fixed route and pad costs are spread thinly. Achievable density is limited by demand, pad capacity, congestion, weather, and rules — density is not a free lunch ([Glossary · economies of density](glossary.qmd)).

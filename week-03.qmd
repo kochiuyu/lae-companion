@@ -146,6 +146,25 @@ The size of any premium depends on application, site, and operating model. Compa
 
 ## 3. From cost stack to unit economics (tool chain)
 
+
+```{=html}
+<figure class="wdiag" id="w03-toolchain" aria-labelledby="w03-toolchain-title">
+<p class="wdiag-cap" id="w03-toolchain-title"><strong>Cost → unit → contribution → cash (tool chain)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-row">
+<div class="wdiag-box"><strong>CAPEX</strong><br/>Aircraft, sites, systems</div>
+<div class="wdiag-box"><strong>OPEX</strong><br/>Crew, energy, MRO, fees</div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ choose a consistent unit</div>
+<div class="wdiag-box"><strong>Unit cost</strong> (e.g. CASK or cost per mission-km)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Contribution</strong> = revenue − variable cost of served units</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Cash / breakeven screen</strong><br/>Cover fixed cost; then financing and downside (later weeks)</div>
+</div>
+<p class="wdiag-note">Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
+</figure>
+```
 Before naming CASK, lock the **stack**:
 
 1. List CAPEX items and an economic-life assumption.  

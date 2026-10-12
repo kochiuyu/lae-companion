@@ -90,6 +90,22 @@ Business-model components are connected through quantities, prices, capacity, co
 
 ### The viability test
 
+
+```{=html}
+<figure class="wdiag" id="w11-viable" aria-labelledby="w11-viable-title">
+<p class="wdiag-cap" id="w11-viable-title"><strong>Viability stack (symbols)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box">D (demand) and K (reliable capacity) — same units</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box fact">D_served = min{D, K}</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box">Π_op = (p − v)·D_served − F</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ then</div>
+<div class="wdiag-box">CF_t / NPV, downside Pr(Π &lt; 0), non-financial gates</div>
+</div>
+<p class="wdiag-note">Capacity-shock table below is illustrative — not Hong Kong weather downtime.</p>
+</figure>
+```
 Name the intermediates (same funnel logic as Week 9, now at the centre of the pitch):
 
 - $D$ — customer demand (units per period: flights, passenger-trips, missions — pick one and keep it)  
@@ -128,6 +144,21 @@ The capacity shock reduces served activity even though customer demand is unchan
 
 ## 3. Integrated strategy template
 
+
+```{=html}
+<figure class="wdiag" id="w11-blocks" aria-labelledby="w11-blocks-title">
+<p class="wdiag-cap" id="w11-blocks-title"><strong>Six connected blocks</strong></p>
+<div class="wdiag-stack cols-3">
+<div class="wdiag-box"><strong>1 Problem</strong></div>
+<div class="wdiag-box"><strong>2 Demand &amp; K</strong></div>
+<div class="wdiag-box"><strong>3 Economics</strong></div>
+<div class="wdiag-box"><strong>4 Ops / infra</strong></div>
+<div class="wdiag-box"><strong>5 Partners / regulation</strong></div>
+<div class="wdiag-box"><strong>6 Impact / equity</strong></div>
+</div>
+<p class="wdiag-note">Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
+</figure>
+```
 A coherent capstone should connect six decision blocks:
 
 1. **Service and stakeholder problem** — What need is addressed, for whom, and compared with what alternative?  

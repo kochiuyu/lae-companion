@@ -371,3 +371,87 @@ main table,
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+
+/* ============================================================
+   Week-page teaching diagrams (HTML/CSS; no Mermaid)
+   Navy / beige / gold — match hub-card / vchain / omap voice
+   ============================================================ */
+.wdiag {
+  --ink: #1a1a1a;
+  --navy: #003366;
+  --beige: #F7F6F3;
+  --line: #d9d4c7;
+  --gold: #C5A572;
+  --muted: #5f5f5f;
+  margin: 1rem 0 1.4rem;
+  font-size: 0.9rem;
+  max-width: 42rem;
+}
+.wdiag-cap {
+  color: var(--muted);
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+.wdiag-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: stretch;
+}
+.wdiag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: stretch;
+}
+.wdiag-row > .wdiag-box {
+  flex: 1 1 8.5rem;
+}
+.wdiag-box {
+  background: var(--beige);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--navy);
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+  color: var(--ink);
+  line-height: 1.35;
+}
+.wdiag-box strong {
+  color: var(--navy);
+}
+.wdiag-box.fact {
+  border-left-color: var(--gold);
+  background: #fff;
+}
+.wdiag-box.muted {
+  border-left-color: var(--line);
+  color: var(--muted);
+}
+.wdiag-arrow {
+  text-align: center;
+  color: var(--navy);
+  font-size: 1.05rem;
+  line-height: 1;
+  user-select: none;
+  font-weight: 600;
+}
+.wdiag-note {
+  margin: 0.55rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.wdiag-stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.35rem;
+}
+@media (min-width: 560px) {
+  .wdiag-stack.cols-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wdiag-stack.cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

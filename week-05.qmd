@@ -71,6 +71,21 @@ Use the right-hand **On this page** list to jump. Equations use KaTeX; each form
 
 ## 1. The infrastructure bottleneck
 
+
+```{=html}
+<figure class="wdiag" id="w05-bottleneck" aria-labelledby="w05-bottleneck-title">
+<p class="wdiag-cap" id="w05-bottleneck-title"><strong>Diagnose which resource binds</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box"><strong>Pad / stand / gate</strong><br/>Turnaround and parking</div>
+<div class="wdiag-box"><strong>Charging / energy</strong><br/>Dwell and power access</div>
+<div class="wdiag-box"><strong>Passenger / cargo process</strong><br/>Throughput on the ground</div>
+<div class="wdiag-box"><strong>Airspace / procedure</strong><br/>Separations and hours (Week 8)</div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true" style="margin-top:.35rem">↓</div>
+<div class="wdiag-box fact"><strong>Allocate the scarce resource you actually have</strong><br/>A pad auction cannot fix an airspace bind (and vice versa).</div>
+<p class="wdiag-note">No invented “drones per minute” for Harbour or GBA corridors.</p>
+</figure>
+```
 Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
 
 **Managerial question:** which resource is most likely to bind — aircraft, landing capacity, charging, airspace access, or customer access? Week 4 demand forecasts only matter if sites can serve them.
