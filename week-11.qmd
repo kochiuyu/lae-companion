@@ -49,6 +49,17 @@ By the end of Week 11 you should be able to:
 4. **Present** a concise 12-minute recommendation supported by transparent evidence and sensitivity analysis.  
 5. **Defend** the proposal by explaining limitations, decision gates, and conditions under which the recommendation should change.
 
+### How these notes are organised
+
+| Part | Sections | Focus |
+|------|----------|--------|
+| Whole system & viability | §§1–2 | Cascade logic; \(D_{\mathrm{served}}\) and \(\Pi_{\mathrm{op}}\); capacity shock |
+| Strategy & risk | §§3–4 | Six-block template; airport-corridor screen; risk register / gates |
+| Pitch & evidence | §§5–6 | Decision-maker lenses; 12-minute pitch; weak vs strong; deck + logistics |
+| Close | §§7–8 | Synthesis; study checklist |
+
+Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned`, named intermediates, and `\mathrm{...}` for multi-letter symbols — no nested `array` with column-gutter specs (KaTeX-unsafe).
+
 ---
 
 ## 1. Seeing the whole system
@@ -61,6 +72,8 @@ A strong capstone does more than collect ten weeks of separate calculations:
 - **Environmental and social impacts** affect operating conditions, mitigation cost, and legitimacy (Weeks 9–10).  
 
 **Synthesis** means tracing how one changed assumption affects the rest of the model. Ask which assumption in your project creates the largest cascade if it changes.
+
+**Beyond the slide.** If noise mitigation raises \(C_{\mathrm{priv}}\) or fixed cost (Week 10) and a curfew cuts reliable capacity \(K\) (Week 8), both effects must hit the **same** cash-flow path — not two independent “ESG slides” that never change \(\Pi_{\mathrm{op}}\) or \(\mathrm{NPV}\).
 
 ---
 
@@ -77,32 +90,39 @@ Business-model components are connected through quantities, prices, capacity, co
 
 ### The viability test
 
-$$
-\text{Served activity}
-=
-\min\{\text{Customer demand},\ \text{Reliable capacity}\}
-$$
+Name the intermediates (same funnel logic as Week 9, now at the centre of the pitch):
+
+- \(D\) — customer demand (units per period: flights, passenger-trips, missions — pick one and keep it)  
+- \(K\) — reliable capacity in the same units  
+- \(D_{\mathrm{served}}\) — served activity after the capacity screen  
+- \(p\) — price (average revenue) per served unit  
+- \(v\) — variable cost per served unit  
+- \(F\) — fixed cost for the period  
+- \(\Pi_{\mathrm{op}}\) — operating profit (contribution minus fixed cost)  
 
 $$
-\text{Operating profit}
-=
-(\text{Price}-\text{Variable cost})\times\text{Served activity}
--
-\text{Fixed cost}
+\begin{aligned}
+D_{\mathrm{served}}
+&= \min\{D,\, K\} \\
+\Pi_{\mathrm{op}}
+&= (p - v)\, D_{\mathrm{served}} - F
+\end{aligned}
 $$
 
-Demand may be limited by price, travel time, or customer acceptance. Capacity may be limited by aircraft, infrastructure, weather, or regulation. The business is operationally viable only if served activity generates enough contribution to cover fixed cost. Longer-horizon judgment still needs cash flow, NPV, financing, and downside liquidity (Weeks 3 and 9).
+Demand may be limited by price, travel time, or customer acceptance. Capacity may be limited by aircraft, infrastructure, weather, or regulation. The business is operationally viable only if served activity generates enough contribution to cover fixed cost. Longer-horizon judgment still needs cash flow, \(\mathrm{NPV}\) from \(\mathrm{CF}_{t}\) (Week 8), financing, and downside liquidity / \(\Pr(\Pi < 0)\) (Week 9).
 
 ### Worked illustration (capacity shock)
 
-**Assumptions (illustrative):** customer demand 100 flights/day at HK$600/flight; variable cost HK$100/flight; fixed cost HK$40,000/day.
+**Assumptions (illustrative):** \(D = 100\) flights/day at \(p =\) HK$600/flight; \(v =\) HK$100/flight; \(F =\) HK$40,000/day.
 
-| | Base case | Capacity shock (80 flights reliable) |
+| | Base case | Capacity shock (\(K = 80\)) |
 |--|-----------|--------------------------------------|
-| Served activity | $\min\{100,100\}=100$ | $\min\{100,80\}=80$ |
-| Operating profit | $(600-100)\times 100 - 40{,}000$ = **HK$10,000/day** | $(600-100)\times 80 - 40{,}000$ = **HK$0/day** |
+| Served activity | \(\min\{100,100\}=100\) | \(\min\{100,80\}=80\) |
+| Operating profit | \((600-100)\times 100 - 40{,}000\) = **HK$10,000/day** | \((600-100)\times 80 - 40{,}000\) = **HK$0/day** |
 
 The capacity shock reduces served activity even though customer demand is unchanged. Because fixed cost remains, the service falls from a daily profit of HK$10,000 to breakeven. No claim about annual Hong Kong weather downtime.
+
+**Beyond the slide.** Raising marketing spend to lift \(D\) does nothing when \(K\) binds — the same diagnosis Week 9 used when \(D_{\mathrm{pot}} > K\). In the pitch, say which lever is binding before you “solve” the wrong constraint.
 
 ---
 
@@ -130,6 +150,8 @@ A coherent capstone should connect six decision blocks:
 
 **Decision:** recommend proceed, stage, redesign, relocate, or reject — with explicit conditions that would change the recommendation. Do not invent published corridor capacities or claim cross-boundary corridors as day-to-day service.
 
+**Beyond the slide.** Straubinger et al. and the FAA AAM Implementation Plan ([Readings](#readings)) are useful **organisers** for a roadmap slide — they are not Hong Kong law and do not replace Cap. 448G / AC-013 / AC-017 pathways.
+
 ---
 
 ## 4. Risk register and decision-gated roadmap
@@ -144,7 +166,9 @@ A coherent capstone should connect six decision blocks:
 
 Do **not** assume fixed Sandbox X approval dates. Under **AC-013**, BVLOS permission within the **first Regulatory Sandbox** context is operation-specific and requires supporting documents, flight and test plans, risk assessment, and mitigations ([Week 7](week-07.qmd)). **AC-017** covers cross-boundary SUA permission inside **Sandbox X** ([Readings](#readings)). Keep **Sandbox ≠ Sandbox X**. The Action Plan commitment in the 2025 Policy Address remains text **OPEN** on Official status — cite the issuer, do not invent a published plan.
 
-Phased gates echo Weeks 6–8: expand only when evidence, review, and risk controls justify it.
+Phased gates echo Weeks 6–8: expand only when evidence, review, and risk controls justify it. Week 8’s roadmap \(\mathrm{NPV}\) is the financial check on that staging story — not a substitute for the permission gate.
+
+**Beyond the slide.** A risk register row that never changes \(D\), \(K\), \(p\), \(v\), \(F\), or launch timing is decoration. Each material risk needs a model channel (Week 9) and a gate that can stop expansion (Week 8).
 
 ---
 
@@ -186,6 +210,8 @@ Use formulas only where they clarify the decision. The objective is a **defensib
 
 A strong analysis can still recommend **rejection or delay**. Credibility matters more than producing a favourable answer.
 
+**Beyond the slide.** “HK$350bn” (OHKF value-added projection from Week 9) is **not** your obtainable demand. “Electric” (Week 10) is **not** zero life-cycle emissions. Name the channel; refuse category errors in the pitch.
+
 ---
 
 ## 6. Presentation logistics and feedback
@@ -220,6 +246,21 @@ Deck order may change; logic should move from decision → evidence → implemen
 
 Assessment logistics and grading weights stay on the teaching platform; the slide deck carries the Week 11 deliverables brief used in class (presentation + executive memo).
 
+### One-page tool map (from cascade to recommendation)
+
+| Step | Ask | Output |
+|------|-----|--------|
+| 1 | Which assumption cascades farthest if wrong? | Integration priority |
+| 2 | \(D\), \(K\), \(D_{\mathrm{served}}\) in one unit system? | Capacity-consistent activity |
+| 3 | \(\Pi_{\mathrm{op}} = (p-v)D_{\mathrm{served}}-F\); then \(\mathrm{CF}_{t}\) / \(\mathrm{NPV}\)? | Viability stack |
+| 4 | Each constraint → one channel (no multi-haircut)? | Week 9 discipline |
+| 5 | Six strategy blocks filled without contradictions? | Connected narrative |
+| 6 | Risk register changes a model input + gate? | Decision-gated roadmap |
+| 7 | AC-013 vs AC-017 vs Policy Address OPEN — which applies? | Regulatory map (Sandbox ≠ Sandbox X) |
+| 8 | Five decision-maker lenses answered? | Pitch coverage |
+| 9 | Weak vs strong evidence checklist passed? | Credibility screen |
+| 10 | Recommendation + stop/expand conditions stated aloud? | Defendable close |
+
 ---
 
 ## 7. Putting Week 11 together
@@ -227,6 +268,23 @@ Assessment logistics and grading weights stay on the teaching platform; the slid
 Synthesis requires a **connected model**, not a collection of independent weekly calculations. Served activity is limited by both customer demand and reliable capacity. Judge viability through contribution, cash flow, NPV, downside risk, and non-financial criteria together. Put constraints into explicit model channels without double counting. A credible recommendation states evidence, limitations, residual risks, and conditions for changing course. Clear presentation supports judgment by making assumptions and trade-offs visible rather than hiding uncertainty. Keep absolute facts with issuers; keep **Sandbox ≠ Sandbox X**.
 
 The short checklist is in [Summary](#summary) above.
+
+---
+
+## 8. Study checklist (beyond the slides)
+
+1. Trace one assumption change through demand → capacity → cost → cash flow → legitimacy.  
+2. Compute \(D_{\mathrm{served}}\) and \(\Pi_{\mathrm{op}}\) for a capacity shock with fixed \(D\).  
+3. State breakeven served activity when \(F\) and \((p-v)\) are given.  
+4. Fill all six strategy-template blocks for your use case without inventing corridor capacity.  
+5. Keep **Sandbox ≠ Sandbox X**; separate AC-013, AC-017, and Policy Address Action Plan (**OPEN**).  
+6. Write five risk-register rows that each name a model channel and a decision trigger.  
+7. Answer the five decision-maker lenses in one paragraph each.  
+8. Time a 12-minute pitch; end with stop/expand conditions, not only “please approve.”  
+9. Replace one weak-evidence habit (TAM-as-forecast, multi-haircut, hidden downside) with the strong form.  
+10. Distinguish OHKF value added, operator revenue, and social benefit (Week 9).  
+11. Put one Week 10 externality (\(C_{\mathrm{priv}}\), \(e_{\mathrm{op}}\), or noise mitigation) into the cash-flow or capacity channel.  
+12. Recommend proceed / stage / redesign / relocate / **reject** with evidence — rejection can be the rigorous answer.
 
 ---
 
