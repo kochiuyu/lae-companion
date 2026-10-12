@@ -16,7 +16,7 @@ format:
 
 **Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
 
-This page is the Week 12 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review. Links: [Course overview](overview.qmd) · [Week 11](week-11.qmd) · [Key figures](key-figures.qmd).
+Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review. Links: [Course overview](overview.qmd) · [Week 11](week-11.qmd) · [Key figures](key-figures.qmd).
 
 ## Summary {#summary}
 

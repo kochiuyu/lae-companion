@@ -16,7 +16,7 @@ format:
 
 **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
-This page is the Week 9 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution. Links: [Week 4](week-04.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).
+Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution. Links: [Week 4](week-04.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).
 
 ## Summary {#summary}
 

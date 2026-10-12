@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
 
-This page is the **Week 4** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how WTP / funnels / generalized cost / elasticity / acceptance / shocks connect to Week 3 breakeven, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 Week 3 asked what you must **charge** and how costs behave under utilization and weather. This week asks whether **enough customers would choose** the service at a viable price — and how to present that answer as transparent scenarios rather than a single “market size” claim.
 
 **Orient refreshers:**

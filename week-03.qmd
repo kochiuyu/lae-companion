@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
 
-This page is the **Week 3** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how CAPEX / OPEX / unit measures / breakeven / revenue models / weather tools connect, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 Week 2 asked **who competes** and why scarce pads and density matter for average cost. This week asks whether the **numbers** work: investment vs operating cost, the right unit, breakeven volume, how revenue models reshape who bears usage risk, and how weather downtime hits cash flow.
 
 **Orient refreshers:**

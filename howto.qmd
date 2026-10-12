@@ -1,7 +1,7 @@
 ---
 title: "How to use this site"
 subtitle: "A short path for first-time learners"
-as_of: "2026-10-11"
+as_of: "2026-10-12"
 page-layout: article
 toc: true
 toc-location: right
@@ -26,7 +26,8 @@ Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-ins
 
 ## Then Teach
 
-- **Teach** menu — one page per week (full notes when published, slides, summary, readings). Start with [Week 1](week-01.qmd).  
+- **Teach** menu — one page per week (notes, slides PDF, summary, readings). Start with [Week 1](week-01.qmd).  
+- Slides PDFs are the class outline; the week page holds the fuller notes and readings.  
 
 ## Official facts
 

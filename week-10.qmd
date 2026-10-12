@@ -16,7 +16,7 @@ format:
 
 **Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
 
-This page is the Week 10 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs. Links: [Week 9](week-09.qmd) · [Glossary](glossary.qmd) · [Who decides what?](regulators.qmd).
+Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs. Links: [Week 9](week-09.qmd) · [Glossary](glossary.qmd) · [Who decides what?](regulators.qmd).
 
 ## Summary {#summary}
 

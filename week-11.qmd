@@ -16,7 +16,7 @@ format:
 
 **Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
 
-This page is the Week 11 article for the 12-week Low Altitude Economics course: a short summary, full lecture notes, and the week's readings in one place. Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation. Links: [Course overview](overview.qmd) · [Week 9](week-09.qmd) · [Week 10](week-10.qmd).
+Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation. Links: [Course overview](overview.qmd) · [Week 9](week-09.qmd) · [Week 10](week-10.qmd).
 
 ## Summary {#summary}
 

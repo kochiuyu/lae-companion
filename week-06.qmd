@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
 
-This page is the **Week 6** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how commercial architectures / PPP / payment design / staging / co-opetition connect to Weeks 3–5, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **commercial architecture** delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk when pads, demand, and weather are uncertain.
 
 **Orient refreshers:**

@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week02-market-structure.pdf](slides/week02-market-structure.pdf)
 
-This page is the **Week 2** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how concentration / density / entry / price tools connect, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 Week 1 built the LAE system and simple viability tools (VOT, generalized cost, unit cost, sandboxes). This week asks **who competes with whom**, why **scarce landing space and route density** matter, and when rivals might **share infrastructure** instead of duplicating it.
 
 **Orient refreshers:**

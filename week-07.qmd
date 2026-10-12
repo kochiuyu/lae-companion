@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
 
-This page is the **Week 7** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how readiness / Sandbox evidence / permissions / safety cases / digital coordination connect to Week 6 contracts, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 Week 6 designed partnerships and payment mechanisms. This week asks how **regulation** shapes competitive readiness, permissions, safety cases, and scalable coordination — and how those instruments rewrite the contracts you just drafted.
 
 **Orient refreshers:**

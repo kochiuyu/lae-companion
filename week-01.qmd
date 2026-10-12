@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
 
-This page is the **Week 1** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how tools connect, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 **If you are new to the topic**, start with:
 
 - [What is LAE?](primer.qmd) — plain-language orientation  

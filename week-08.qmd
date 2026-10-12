@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
 
-This page is the **Week 8** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how scarce airspace / congestion / allocation mechanisms / digital coordination / roadmaps connect to Weeks 5–7, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 Week 7 mapped permissions and safety cases. This week asks how **scarce low-altitude capacity** is allocated when demand exceeds what can be served safely — and how digital coordination supports integration without inventing corridor capacities.
 
 **Orient refreshers:**

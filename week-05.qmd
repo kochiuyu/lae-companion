@@ -16,8 +16,6 @@ format:
 
 **Slides (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
 
-This page is the **Week 5** article for the 12-week Low Altitude Economics course. The Beamer deck is a classroom outline. **These notes are the self-contained textbook chapter**: fuller intuition, how sites / throughput / breakeven / staging / scarce slots / network design connect to Weeks 3–4, and worked reasoning that slides cannot hold. Use the PDF for class navigation; use this page to study.
-
 Week 4 asked whether **customers would choose** the service. This week asks whether **sites and capacity** can support that demand — and who gets scarce slots when they cannot. Infrastructure is where Week 2’s pad scarcity, Week 3’s fixed cost, and Week 4’s served-trip logic meet on the ground.
 
 **Orient refreshers:**
