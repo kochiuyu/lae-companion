@@ -36,7 +36,7 @@ This page is the Week 9 article for the 12-week Low Altitude Economics course: a
 - Social evaluation covers total benefits and costs and how they are distributed across groups.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers and the HK$350bn figure.** Worked examples below use round figures (funnels, contribution, scenario profits, property-value arithmetic). They are **illustrative assumptions for learning**, not current corridor data or hedonic estimates for Hong Kong drone noise. The **HK$350 billion** projection is an **Our Hong Kong Foundation** (OHKF) private think-tank figure for Hong Kong industry **value added** by **2050** — **not** a government number, not operator revenue, and not automatic GDP ([Key figures](key-figures.qmd) · [Readings](#readings) · [Official status](tracker.qmd)).
+**Classroom numbers and the HK\$350bn figure.** Worked examples below use round figures (funnels, contribution, scenario profits, property-value arithmetic). They are **illustrative assumptions for learning**, not current corridor data or hedonic estimates for Hong Kong drone noise. The **HK\$350 billion** projection is an **Our Hong Kong Foundation** (OHKF) private think-tank figure for Hong Kong industry **value added** by **2050** — **not** a government number, not operator revenue, and not automatic GDP ([Key figures](key-figures.qmd) · [Readings](#readings) · [Official status](tracker.qmd)).
 :::
 
 ## Learning objectives
@@ -57,7 +57,7 @@ By the end of Week 9 you should be able to:
 | Market funnel | §2 | TAM / SAM / obtainable demand; capacity-capped contribution |
 | Constraints | §3 | Map each barrier to one model channel; avoid double counting |
 | Uncertainty | §4 | Scenarios, Monte Carlo concept, expected value and downside |
-| Value added & equity | §§5–7 | OHKF HK$350bn attribution; hedonic tool; distribution |
+| Value added & equity | §§5–7 | OHKF HK\$350bn attribution; hedonic tool; distribution |
 | Close | §§8–10 | Integrated dashboard; synthesis; study checklist |
 
 Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned` and named intermediates — no nested `array` with column-gutter specs (KaTeX-unsafe).
@@ -104,13 +104,13 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 
 Name the intermediates before the formulas:
 
-- \(TAM\) — total addressable market (relevant trips or missions in the defined geography and period)  
-- \(e\) — eligibility share (route, payload, schedule, regulation, accessibility)  
-- \(SAM\) — serviceable available market  
-- \(s\) — expected choice share (price, generalized cost, quality, competition from Week 4)  
-- \(D_{\mathrm{pot}}\) — potential operator demand before capacity binding  
-- \(K\) — reliable capacity (aircraft, seats or payload, infrastructure, hours, weather, approvals from Weeks 5 and 8)  
-- \(D_{\mathrm{served}}\) — served demand after the capacity screen  
+- $TAM$ — total addressable market (relevant trips or missions in the defined geography and period)  
+- $e$ — eligibility share (route, payload, schedule, regulation, accessibility)  
+- $SAM$ — serviceable available market  
+- $s$ — expected choice share (price, generalized cost, quality, competition from Week 4)  
+- $D_{\mathrm{pot}}$ — potential operator demand before capacity binding  
+- $K$ — reliable capacity (aircraft, seats or payload, infrastructure, hours, weather, approvals from Weeks 5 and 8)  
+- $D_{\mathrm{served}}$ — served demand after the capacity screen  
 
 $$
 \begin{aligned}
@@ -127,10 +127,10 @@ Choice share should reflect price, generalized cost, service quality, and compet
 
 ### Revenue and contribution
 
-- \(p\) — average revenue per served unit  
-- \(v\) — variable cost per served unit  
-- \(R_{\mathrm{day}}\) — daily revenue  
-- \(\Pi_{\mathrm{var}}\) — daily contribution (revenue minus variable cost of served units)  
+- $p$ — average revenue per served unit  
+- $v$ — variable cost per served unit  
+- $R_{\mathrm{day}}$ — daily revenue  
+- $\Pi_{\mathrm{var}}$ — daily contribution (revenue minus variable cost of served units)  
 
 $$
 \begin{aligned}
@@ -141,7 +141,7 @@ R_{\mathrm{day}}
 \end{aligned}
 $$
 
-Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue is not cash flow or profit and does not by itself justify infrastructure investment. Compare contribution and longer-term cash flows with fixed operating cost and investment cost (Week 6 facility logic; Week 8 roadmap NPV with \(CF_{t}\)).
+Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue is not cash flow or profit and does not by itself justify infrastructure investment. Compare contribution and longer-term cash flows with fixed operating cost and investment cost (Week 6 facility logic; Week 8 roadmap NPV with $CF_{t}$).
 
 ### Worked illustration (funnel → contribution)
 
@@ -150,22 +150,22 @@ Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue
 | Step | Figure |
 |------|--------|
 | Relevant trips | 20,000/day |
-| Eligible time-sensitive segment | 10% → \(SAM = 2{,}000\) |
-| Expected choice share | 15% → \(D_{\mathrm{pot}} =\) **300** passenger-trips/day |
+| Eligible time-sensitive segment | 10% → $SAM = 2{,}000$ |
+| Expected choice share | 15% → $D_{\mathrm{pot}} =$ **300** passenger-trips/day |
 | Reliable capacity | 80 flights/day × 4 seats × 80% load = **256** |
-| **Served demand** | \(\min\{300,256\}=\) **256** passenger-trips/day |
+| **Served demand** | $\min\{300,256\}=$ **256** passenger-trips/day |
 
-With fare HK$400, variable cost HK$120 per passenger-trip, 330 operating days/year:
+With fare HK\$400, variable cost HK\$120 per passenger-trip, 330 operating days/year:
 
 | | Daily | Annual (≈) |
 |--|-------|-------------|
-| Revenue | \(256 \times 400\) = HK$102,400 | HK$33.8M |
-| Variable cost | \(256 \times 120\) = HK$30,720 | HK$10.1M |
-| **Contribution** | **HK$71,680** | **≈ HK$23.7M** |
+| Revenue | $256 \times 400$ = HK\$102,400 | HK\$33.8M |
+| Variable cost | $256 \times 120$ = HK\$30,720 | HK\$10.1M |
+| **Contribution** | **HK\$71,680** | **≈ HK\$23.7M** |
 
 Fixed cost and investment remain to be covered. Excludes financing, tax, and demand variation.
 
-**Beyond the slide.** If \(K\) binds, raising marketing spend to lift \(s\) does not raise \(D_{\mathrm{served}}\). Diagnose whether the binding constraint is eligibility, choice, or capacity before spending on the wrong lever — the same bottleneck logic Week 5 and Week 8 used for pads and corridors.
+**Beyond the slide.** If $K$ binds, raising marketing spend to lift $s$ does not raise $D_{\mathrm{served}}$. Diagnose whether the binding constraint is eligibility, choice, or capacity before spending on the wrong lever — the same bottleneck logic Week 5 and Week 8 used for pads and corridors.
 
 ---
 
@@ -191,17 +191,17 @@ NASA-sponsored UAM market work examined **interacting** constraints rather than 
 | Technology maturity | Cost, payload, range, and downtime |
 | Competition | Price and operator choice share |
 
-Avoid multiplying arbitrary independent “haircuts” when the same effect is already reflected elsewhere. For example, weather should not reduce both operating days **and** revenue again unless the channels are distinct. Cap. 448G permission timing belongs in launch date or probability (Week 7); it is not a second haircut on top of an already permission-conditioned \(SAM\).
+Avoid multiplying arbitrary independent “haircuts” when the same effect is already reflected elsewhere. For example, weather should not reduce both operating days **and** revenue again unless the channels are distinct. Cap. 448G permission timing belongs in launch date or probability (Week 7); it is not a second haircut on top of an already permission-conditioned $SAM$.
 
-**Base assumptions (illustrative):** \(D_{\mathrm{pot}} = 300\) passenger-trips/day; fare HK$400; 365 calendar days.
+**Base assumptions (illustrative):** $D_{\mathrm{pot}} = 300$ passenger-trips/day; fare HK\$400; 365 calendar days.
 
 | Channel | Treatment |
 |---------|-----------|
-| Reliable capacity | \(K = 256\) trips/day |
+| Reliable capacity | $K = 256$ trips/day |
 | Acceptance scenario | 90% of potential → adjusted demand 270 |
-| Served trips | \(\min\{270,256\}=256\) |
+| Served trips | $\min\{270,256\}=256$ |
 | Serviceable days | 330/year |
-| Annual revenue | \(256 \times 400 \times 330\) = **HK$33.8M** |
+| Annual revenue | $256 \times 400 \times 330$ = **HK\$33.8M** |
 
 Technology and compliance costs enter the **cost** model rather than another revenue haircut.
 
@@ -223,7 +223,7 @@ A Monte Carlo simulation repeatedly samples uncertain inputs from specified dist
 
 ### Expected value and downside risk
 
-Let \(s\) index scenarios, \(\Pr(s)\) the probability of scenario \(s\), and \(\Pi_{s}\) profit (or another payoff) in that scenario. Expected profit is:
+Let $s$ index scenarios, $\Pr(s)$ the probability of scenario $s$, and $\Pi_{s}$ profit (or another payoff) in that scenario. Expected profit is:
 
 $$
 \begin{aligned}
@@ -234,23 +234,23 @@ $$
 
 Expected value is the probability-weighted average across scenarios. It does **not** reveal how severe the downside can be or whether the business has enough liquidity to survive it. Also examine probability of loss, worst credible cash shortfall, and a downside percentile (e.g. 10th). Required cash reserves depend on cash-flow timing, financing access, risk tolerance, and recovery plans — not expected value alone.
 
-**Assumption (illustrative):** annual cost = HK$5M.
+**Assumption (illustrative):** annual cost = HK\$5M.
 
 | Scenario | Probability | Revenue | Profit |
 |----------|-------------|---------|--------|
-| Strong | 20% | HK$10M | HK$5M |
-| Base | 50% | HK$8M | HK$3M |
-| Weak | 30% | HK$4M | −HK$1M |
+| Strong | 20% | HK\$10M | HK\$5M |
+| Base | 50% | HK\$8M | HK\$3M |
+| Weak | 30% | HK\$4M | −HK\$1M |
 
-Expected revenue = \(0.2(10)+0.5(8)+0.3(4)\) = **HK$7.2M**. Expected profit = **HK$2.2M**. Probability of loss = **30%**. Minimum cash needed in the weak scenario depends on when costs and revenue occur. A positive expected profit can coexist with a material probability of loss.
+Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **HK\$2.2M**. Probability of loss = **30%**. Minimum cash needed in the weak scenario depends on when costs and revenue occur. A positive expected profit can coexist with a material probability of loss.
 
-**Beyond the slide.** Week 8’s phased roadmap \(\mathrm{NPV}\) used \(CF_{t}\) under a base path. Week 9 asks what happens when those cash flows are random: report \(E[\Pi]\) **and** \(\Pr(\Pi < 0)\), not only the mean that looks investable.
+**Beyond the slide.** Week 8’s phased roadmap $\mathrm{NPV}$ used $CF_{t}$ under a base path. Week 9 asks what happens when those cash flows are random: report $E[\Pi]$ **and** $\Pr(\Pi < 0)$, not only the mean that looks investable.
 
 ---
 
-## 5. The HK$350 billion projection — and distributional questions
+## 5. The HK\$350 billion projection — and distributional questions
 
-A **2025** report by **Our Hong Kong Foundation (OHKF)** projects that Hong Kong’s LAE-related industries could generate approximately **HK$350 billion** in annual industry **value added** by **2050**, with **supporting services** contributing the majority ([Readings](#readings) · [Key figures](key-figures.qmd)).
+A **2025** report by **Our Hong Kong Foundation (OHKF)** projects that Hong Kong’s LAE-related industries could generate approximately **HK\$350 billion** in annual industry **value added** by **2050**, with **supporting services** contributing the majority ([Readings](#readings) · [Key figures](key-figures.qmd)).
 
 Keep the attribution strict:
 
@@ -261,7 +261,7 @@ Keep the attribution strict:
 
 **Distribution matters:** who gains access; who receives employment and business opportunities; who bears noise, privacy, safety, land-use, or fiscal costs?
 
-**Beyond the slide.** Treating HK$350bn as “the market” for a single operator’s SOM is a category error: value added ≠ revenue ≠ obtainable demand. Cite OHKF for the projection; size your use case with the funnel in §2.
+**Beyond the slide.** Treating HK\$350bn as “the market” for a single operator’s SOM is a category error: value added ≠ revenue ≠ obtainable demand. Cite OHKF for the projection; size your use case with the funnel in §2.
 
 ---
 
@@ -278,24 +278,24 @@ $$
 \end{aligned}
 $$
 
-- \(P_{i}\) — property price or rent  
-- \(N_{i}\) — measured noise exposure  
-- \(A_{i}\) — access to the relevant service or transport network  
-- \(X_{i}\) — other property and neighbourhood characteristics  
-- \(\beta\) — conditional association between noise and price; **causal** interpretation needs stronger research design  
+- $P_{i}$ — property price or rent  
+- $N_{i}$ — measured noise exposure  
+- $A_{i}$ — access to the relevant service or transport network  
+- $X_{i}$ — other property and neighbourhood characteristics  
+- $\beta$ — conditional association between noise and price; **causal** interpretation needs stronger research design  
 
 **Managerial use:** inform benefit-cost analysis and mitigation — do not decide community acceptance by property value alone.
 
-**Assumption (illustrative):** baseline apartment value = HK$8M. Percentages below are **hypothetical**, not estimates for drone noise in Hong Kong.
+**Assumption (illustrative):** baseline apartment value = HK\$8M. Percentages below are **hypothetical**, not estimates for drone noise in Hong Kong.
 
 | Scenario | Assumed effects | Implied value |
 |----------|-----------------|---------------|
-| Higher noise, limited local access | Noise −4%; access 0% | \(8\text{M}\times 0.96\) = **HK$7.68M** |
-| Lower noise, useful local access | Noise −1%; access +3% | \(8\text{M}\times 1.02\) = **HK$8.16M** |
+| Higher noise, limited local access | Noise −4%; access 0% | $8\text{M}\times 0.96$ = **HK\$7.68M** |
+| Lower noise, useful local access | Noise −1%; access +3% | $8\text{M}\times 1.02$ = **HK\$8.16M** |
 
 The arithmetic illustrates competing effects. Actual coefficients require local transaction, noise, access, and neighbourhood data. International aviation-noise coefficients should not be transferred mechanically to drone or eVTOL operations in Hong Kong.
 
-**Beyond the slide.** A −4% “noise discount” in a classroom table is a **scenario dial**, not evidence. Clothier et al. and the EASA societal-acceptance study (see [Readings](#readings)) inform *perception* and acceptance barriers; they do not supply Hong Kong drone-noise hedonic \(\beta\).
+**Beyond the slide.** A −4% “noise discount” in a classroom table is a **scenario dial**, not evidence. Clothier et al. and the EASA societal-acceptance study (see [Readings](#readings)) inform *perception* and acceptance barriers; they do not supply Hong Kong drone-noise hedonic $\beta$.
 
 ---
 
@@ -321,10 +321,10 @@ ESG reporting can support transparency, but a project should define **measurable
 
 | Section | Inputs and outputs |
 |---------|-------------------|
-| Market | Relevant trips, eligibility \(e\), choice share \(s\) |
-| Capacity | Flights, capacity per flight, serviceable days → \(K\) |
-| Economics | Price \(p\), variable cost \(v\), fixed cost, contribution \(\Pi_{\mathrm{var}}\) |
-| Uncertainty | Ranges, distributions, correlations, \(E[\Pi]\), \(\Pr(\Pi < 0)\) |
+| Market | Relevant trips, eligibility $e$, choice share $s$ |
+| Capacity | Flights, capacity per flight, serviceable days → $K$ |
+| Economics | Price $p$, variable cost $v$, fixed cost, contribution $\Pi_{\mathrm{var}}$ |
+| Uncertainty | Ranges, distributions, correlations, $E[\Pi]$, $\Pr(\Pi < 0)$ |
 | Social impact | Benefits, costs, affected groups, mitigation and who pays |
 
 Do not use unexplained barrier toggles. Each scenario assumption should change a **specific** model input and include a source or justification.
@@ -334,12 +334,12 @@ Do not use unexplained barrier toggles. Each scenario assumption should change a
 | Step | Ask | Output |
 |------|-----|--------|
 | 1 | Service, OD, customer, period defined? | Decision scope (not “all airport trips”) |
-| 2 | What is \(TAM\), \(e\), \(SAM\), \(s\), \(K\)? | Funnel with capacity screen |
-| 3 | \(D_{\mathrm{served}}\), \(R_{\mathrm{day}}\), \(\Pi_{\mathrm{var}}\)? | Contribution screen (not NPV alone) |
+| 2 | What is $TAM$, $e$, $SAM$, $s$, $K$? | Funnel with capacity screen |
+| 3 | $D_{\mathrm{served}}$, $R_{\mathrm{day}}$, $\Pi_{\mathrm{var}}$? | Contribution screen (not NPV alone) |
 | 4 | Each UAM constraint → which channel? | No double-counted haircuts |
-| 5 | Scenarios / sensitivity / \(\Pr(\Pi < 0)\)? | Expected value **and** downside |
-| 6 | Cite OHKF HK$350bn only as think-tank value added? | Attribution discipline |
-| 7 | Hedonic \(\beta\) local and identified — or scenario only? | Property-value tool limits |
+| 5 | Scenarios / sensitivity / $\Pr(\Pi < 0)$? | Expected value **and** downside |
+| 6 | Cite OHKF HK\$350bn only as think-tank value added? | Attribution discipline |
+| 7 | Hedonic $\beta$ local and identified — or scenario only? | Property-value tool limits |
 | 8 | Access / exposure / opportunity / fiscal / public service? | Distribution table |
 | 9 | Mitigation cost and who pays? | Equity-aware design change |
 | 10 | Sandbox ≠ Sandbox X; no invented corridor capacity; classroom figures labeled illustrative | Fact discipline |
@@ -348,7 +348,7 @@ Do not use unexplained barrier toggles. Each scenario assumption should change a
 
 ## 9. Putting Week 9 together
 
-Market size must be defined by service, corridor, customer, period, choice behaviour, and reliable capacity. **Revenue, contribution, profit, value added, and social benefit are different concepts.** Put constraints into explicit demand, capacity, price, cost, timing, or probability channels without double counting. Expected value is useful, but decision-makers also need probability of loss, downside cash needs, and key risk drivers. Hedonic analysis needs comparable data and careful identification — simple assumed property discounts are scenarios, not evidence. Social evaluation must consider total benefits and costs together with their distribution across users, communities, workers, taxpayers, and businesses. Attribute **HK$350bn** only to OHKF as stated above.
+Market size must be defined by service, corridor, customer, period, choice behaviour, and reliable capacity. **Revenue, contribution, profit, value added, and social benefit are different concepts.** Put constraints into explicit demand, capacity, price, cost, timing, or probability channels without double counting. Expected value is useful, but decision-makers also need probability of loss, downside cash needs, and key risk drivers. Hedonic analysis needs comparable data and careful identification — simple assumed property discounts are scenarios, not evidence. Social evaluation must consider total benefits and costs together with their distribution across users, communities, workers, taxpayers, and businesses. Attribute **HK\$350bn** only to OHKF as stated above.
 
 The short checklist is in [Summary](#summary) above.
 
@@ -357,16 +357,16 @@ The short checklist is in [Summary](#summary) above.
 ## 10. Study checklist (beyond the slides)
 
 1. Define a use case with service, OD, customer, and period — refuse “all trips to the airport” without relevance.  
-2. Compute \(SAM\), \(D_{\mathrm{pot}}\), and \(D_{\mathrm{served}}\) with an explicit \(K\).  
+2. Compute $SAM$, $D_{\mathrm{pot}}$, and $D_{\mathrm{served}}$ with an explicit $K$.  
 3. Separate revenue, contribution, profit, value added, and social benefit.  
 4. Map six UAM constraint themes to model channels; show one double-counting trap.  
-5. Build a three-scenario table; compute \(E[\Pi]\) and \(\Pr(\Pi < 0)\).  
+5. Build a three-scenario table; compute $E[\Pi]$ and $\Pr(\Pi < 0)$.  
 6. State what Monte Carlo adds — and what weak distributions cannot fix.  
-7. Attribute HK$350bn to OHKF value added by 2050 (Hong Kong only); say what it is **not**.  
-8. Write the hedonic \(\ln(P_{i})\) line; explain why \(\beta\) is not automatic causation.  
+7. Attribute HK\$350bn to OHKF value added by 2050 (Hong Kong only); say what it is **not**.  
+8. Write the hedonic $\ln(P_{i})$ line; explain why $\beta$ is not automatic causation.  
 9. Fill access / exposure / opportunity / fiscal / public-service rows for one project.  
 10. Keep **Sandbox ≠ Sandbox X**; no invented corridor capacity; no mechanical transfer of aviation-noise coefficients to HK drones.  
-11. Connect Week 4 choice share and Week 8 capacity / \(CF_{t}\) to this week’s funnel and downside view.  
+11. Connect Week 4 choice share and Week 8 capacity / $CF_{t}$ to this week’s funnel and downside view.  
 12. Name one mitigation and who pays for it.
 
 ---

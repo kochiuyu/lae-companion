@@ -92,8 +92,8 @@ An **externality** arises when an activity affects third parties and those effec
 
 Name the intermediates:
 
-- \(C^{*}_{\mathrm{noise}}\) — efficient charge per operation (economic benchmark, not a published CAD tariff)  
-- \(\mathrm{MEC}_{\mathrm{noise}}\) — marginal external noise cost  
+- $C^{*}_{\mathrm{noise}}$ — efficient charge per operation (economic benchmark, not a published CAD tariff)  
+- $\mathrm{MEC}_{\mathrm{noise}}$ — marginal external noise cost  
 
 $$
 \begin{aligned}
@@ -106,18 +106,18 @@ Marginal external cost depends on exposure, time, location, number of affected p
 
 ### Worked illustration (quieter technology)
 
-**Illustrative assumptions:** quieter-technology upgrade costs HK$3M; reduces expected annual noise charges, monitoring cost, and disruption by HK$1.2M (from HK$1.5M to HK$0.3M).
+**Illustrative assumptions:** quieter-technology upgrade costs HK\$3M; reduces expected annual noise charges, monitoring cost, and disruption by HK\$1.2M (from HK\$1.5M to HK\$0.3M).
 
 | | Without upgrade | With upgrade |
 |--|-----------------|--------------|
-| Expected annual noise-related cost | HK$1.5M | HK$0.3M |
-| Upfront cost | — | HK$3M |
-| Five-year undiscounted total | HK$7.5M | HK$4.5M |
-| **Illustrative five-year saving** | | **HK$3M** |
+| Expected annual noise-related cost | HK\$1.5M | HK\$0.3M |
+| Upfront cost | — | HK\$3M |
+| Five-year undiscounted total | HK\$7.5M | HK\$4.5M |
+| **Illustrative five-year saving** | | **HK\$3M** |
 
-A complete appraisal should discount cash flows (Week 8 \(\mathrm{NPV}\) logic with \(\mathrm{CF}_{t}\)) and test performance, maintenance, and demand effects. Not Hong Kong noise limits, charges, or technology quotations.
+A complete appraisal should discount cash flows (Week 8 $\mathrm{NPV}$ logic with $\mathrm{CF}_{t}$) and test performance, maintenance, and demand effects. Not Hong Kong noise limits, charges, or technology quotations.
 
-**Beyond the slide.** If community acceptance binds before contribution does, a quieter-tech \(\mathrm{NPV}\) that ignores mitigation cost is incomplete. Put noise cost in the cash-flow path — or in an operating restriction that cuts \(K\) (Week 9 capacity) — rather than as a footnote.
+**Beyond the slide.** If community acceptance binds before contribution does, a quieter-tech $\mathrm{NPV}$ that ignores mitigation cost is incomplete. Put noise cost in the cash-flow path — or in an operating restriction that cuts $K$ (Week 9 capacity) — rather than as a footnote.
 
 ---
 
@@ -135,11 +135,11 @@ Hong Kong privacy guidance for drone cameras emphasizes avoiding excessive colle
 
 ### Privacy-control cost
 
-- \(F_{\mathrm{gov}}\) — fixed governance and system cost (PIA, design, notices, access controls, training, vendor assurance)  
-- \(q\) — operations (or other activity units) in the period  
-- \(v\) — variable processing cost per unit (secure processing, storage, communications, review, deletion)  
-- \(A\) — audit and incident cost  
-- \(C_{\mathrm{priv}}\) — annual privacy-control cost  
+- $F_{\mathrm{gov}}$ — fixed governance and system cost (PIA, design, notices, access controls, training, vendor assurance)  
+- $q$ — operations (or other activity units) in the period  
+- $v$ — variable processing cost per unit (secure processing, storage, communications, review, deletion)  
+- $A$ — audit and incident cost  
+- $C_{\mathrm{priv}}$ — annual privacy-control cost  
 
 $$
 \begin{aligned}
@@ -150,13 +150,13 @@ $$
 
 Cost cannot be inferred from an unsupported percentage of flight operating cost. Compare controls using privacy effectiveness, safety compatibility, reliability, and total cost.
 
-**Illustrative assumptions:** 50,000 operations/year; fixed privacy-system and governance cost HK$600k/year (base design); set \(A = 0\) in the teaching screen.
+**Illustrative assumptions:** 50,000 operations/year; fixed privacy-system and governance cost HK\$600k/year (base design); set $A = 0$ in the teaching screen.
 
 | | Lower variable cost | Higher-assurance design |
 |--|---------------------|-------------------------|
-| Processing | HK$4/op → HK$200k | HK$8/op → HK$400k |
-| Fixed | HK$600k | HK$1M |
-| **Annual cost** | **HK$800k** | **HK$1.4M** |
+| Processing | HK\$4/op → HK\$200k | HK\$8/op → HK\$400k |
+| Fixed | HK\$600k | HK\$1M |
+| **Annual cost** | **HK\$800k** | **HK\$1.4M** |
 
 The more expensive design is justified only if additional controls materially improve privacy, security, or operational assurance. Not a compliance quotation or claim that either design is legally sufficient.
 
@@ -166,12 +166,12 @@ The more expensive design is justified only if additional controls materially im
 
 ## 4. Carbon cost scenarios (appraisal aid — not a claimed CAD tax)
 
-A carbon value can support investment appraisal. **Illustrative assumptions:** 50,000 operations/year; carbon value HK$1 per kg \(\mathrm{CO}_{2}\mathrm{e}\).
+A carbon value can support investment appraisal. **Illustrative assumptions:** 50,000 operations/year; carbon value HK\$1 per kg $\mathrm{CO}_{2}\mathrm{e}$.
 
 | Intensity | Annual emissions | Annual carbon cost |
 |-----------|------------------|--------------------|
-| 40 kg \(\mathrm{CO}_{2}\mathrm{e}\)/operation | \(50{,}000 \times 40 = 2{,}000{,}000\) kg | **HK$2M** |
-| 10 kg \(\mathrm{CO}_{2}\mathrm{e}\)/operation | \(50{,}000 \times 10 = 500{,}000\) kg | **HK$0.5M** |
+| 40 kg $\mathrm{CO}_{2}\mathrm{e}$/operation | $50{,}000 \times 40 = 2{,}000{,}000$ kg | **HK\$2M** |
+| 10 kg $\mathrm{CO}_{2}\mathrm{e}$/operation | $50{,}000 \times 10 = 500{,}000$ kg | **HK\$0.5M** |
 
 This is **not** a claim that CAD imposes such a tax. Emissions factors and boundaries must be sourced.
 
@@ -194,9 +194,9 @@ An electric aircraft may have zero in-flight exhaust emissions while still havin
 
 ### Electricity-related (operational) emissions
 
-- \(E_{\mathrm{kWh}}\) — electricity consumed per operation (kWh), including charging losses if inside the boundary  
-- \(f_{\mathrm{grid}}\) — electricity emissions factor (e.g. kg \(\mathrm{CO}_{2}\mathrm{e}\)/kWh)  
-- \(e_{\mathrm{op}}\) — operational electricity-related emissions per operation  
+- $E_{\mathrm{kWh}}$ — electricity consumed per operation (kWh), including charging losses if inside the boundary  
+- $f_{\mathrm{grid}}$ — electricity emissions factor (e.g. kg $\mathrm{CO}_{2}\mathrm{e}$/kWh)  
+- $e_{\mathrm{op}}$ — operational electricity-related emissions per operation  
 
 $$
 \begin{aligned}
@@ -207,20 +207,20 @@ $$
 
 Match units carefully. Include charging losses and relevant facility energy if they fall within the boundary. Distinguish location-based grid factors from market-based contractual claims where applicable. Compare modes using a consistent functional unit (passenger-km, tonne-km, or completed mission).
 
-**Assumption (illustrative):** \(E_{\mathrm{kWh}} = 50\).
+**Assumption (illustrative):** $E_{\mathrm{kWh}} = 50$.
 
-| Factor \(f_{\mathrm{grid}}\) | Result \(e_{\mathrm{op}}\) |
+| Factor $f_{\mathrm{grid}}$ | Result $e_{\mathrm{op}}$ |
 |--------|--------|
-| 0.8 kg/kWh | **40 kg \(\mathrm{CO}_{2}\mathrm{e}\)/operation** |
-| 0.2 kg/kWh | **10 kg \(\mathrm{CO}_{2}\mathrm{e}\)/operation** |
+| 0.8 kg/kWh | **40 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** |
+| 0.2 kg/kWh | **10 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** |
 
 Electricity source matters — these figures alone do not establish whether the service outperforms another transport mode. Occupancy, distance, infrastructure, and life-cycle emissions also matter. Use current, sourced factors for an actual inventory.
 
 ### Life-cycle emissions per functional unit
 
-- \(E_{\mathrm{v}}, E_{\mathrm{b}}, E_{\mathrm{i}}, E_{\mathrm{o}}, E_{\mathrm{e}}\) — vehicle, battery, infrastructure, operations, and end-of-life emissions in the chosen boundary  
-- \(U\) — lifetime functional units (passenger-km, tonne-km, missions, …)  
-- \(e_{\mathrm{FU}}\) — life-cycle emissions per functional unit  
+- $E_{\mathrm{v}}, E_{\mathrm{b}}, E_{\mathrm{i}}, E_{\mathrm{o}}, E_{\mathrm{e}}$ — vehicle, battery, infrastructure, operations, and end-of-life emissions in the chosen boundary  
+- $U$ — lifetime functional units (passenger-km, tonne-km, missions, …)  
+- $e_{\mathrm{FU}}$ — life-cycle emissions per functional unit  
 
 $$
 \begin{aligned}
@@ -231,13 +231,13 @@ $$
 
 State lifetime, utilization, replacement cycles, occupancy or payload, system boundary, and allocation method. Scope 3 is **not** a universal fixed percentage of total emissions. Compare alternatives using the **same** boundary and functional unit.
 
-**Illustrative assumptions:** embodied aircraft, battery, and infrastructure emissions allocated at 12 kg \(\mathrm{CO}_{2}\mathrm{e}\) per operation (a teaching allocation of embodied mass into a per-operation screen — not a published factor).
+**Illustrative assumptions:** embodied aircraft, battery, and infrastructure emissions allocated at 12 kg $\mathrm{CO}_{2}\mathrm{e}$ per operation (a teaching allocation of embodied mass into a per-operation screen — not a published factor).
 
 | | Higher-carbon electricity | Lower-carbon electricity |
 |--|---------------------------|--------------------------|
 | Electricity | 40 kg | 10 kg |
 | Allocated embodied | 12 kg | 12 kg |
-| **Total** | **52 kg \(\mathrm{CO}_{2}\mathrm{e}\)/operation** | **22 kg \(\mathrm{CO}_{2}\mathrm{e}\)/operation** |
+| **Total** | **52 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** | **22 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** |
 
 Decarbonizing electricity reduces operational emissions; embodied emissions remain sensitive to lifetime use and replacement assumptions. Not a comparative claim about jets or sustainable aviation fuel.
 
@@ -251,7 +251,7 @@ Decarbonizing electricity reduces operational emissions; embodied emissions rema
 
 Local engagement and evidence are necessary before transferring European findings to Hong Kong. **Managerial lesson:** segment by use case and affected stakeholder; test assumptions rather than assigning universal acceptance scores (Week 9 distribution theme; EASA societal-acceptance study listed with Week 4 / Week 9 readings).
 
-**Beyond the slide.** Choice share \(s\) in the Week 9 funnel is not the same as community acceptance of overflights. A high \(s\) among travellers can coexist with low social licence among residents under the route — model both.
+**Beyond the slide.** Choice share $s$ in the Week 9 funnel is not the same as community acceptance of overflights. A high $s$ among travellers can coexist with low social licence among residents under the route — model both.
 
 ---
 
@@ -263,11 +263,11 @@ Local engagement and evidence are necessary before transferring European finding
 
 ### Funding a public-service commitment
 
-- \(Q_{C}, m_{C}\) — commercial quantity and contribution margin per unit  
-- \(P_{\mathrm{PS}}\) — public-service payment (procurement, availability payment, or other transparent source)  
-- \(Q_{P}, c_{P}\) — public-service quantity and incremental cost per unit  
-- \(F\) — fixed cost allocated to the period  
-- \(\Pi_{\mathrm{net}}\) — net contribution after the commitment  
+- $Q_{C}, m_{C}$ — commercial quantity and contribution margin per unit  
+- $P_{\mathrm{PS}}$ — public-service payment (procurement, availability payment, or other transparent source)  
+- $Q_{P}, c_{P}$ — public-service quantity and incremental cost per unit  
+- $F$ — fixed cost allocated to the period  
+- $\Pi_{\mathrm{net}}$ — net contribution after the commitment  
 
 $$
 \begin{aligned}
@@ -278,20 +278,20 @@ $$
 
 Funding may come from commercial cross-subsidy, public procurement, availability payment (Week 6), philanthropy, or another transparent source. Specify eligibility, service level, opportunity cost, accountability, and long-term affordability.
 
-**Assumptions (illustrative):** 100 daily slots; commercial contribution HK$400/flight; public-service incremental cost HK$100/flight; \(P_{\mathrm{PS}} = 0\) and \(F\) omitted in the teaching screen below.
+**Assumptions (illustrative):** 100 daily slots; commercial contribution HK\$400/flight; public-service incremental cost HK\$100/flight; $P_{\mathrm{PS}} = 0$ and $F$ omitted in the teaching screen below.
 
 | | All commercial | Twenty priority slots |
 |--|----------------|----------------------|
-| Commercial contribution | \(100 \times 400\) = HK$40,000 | \(80 \times 400\) = HK$32,000 |
-| Public-service cost | — | \(20 \times 100\) = HK$2,000 |
-| **Net before fixed cost** | **HK$40,000/day** | **HK$30,000/day** |
-| Opportunity cost vs all-commercial | — | HK$10,000/day |
+| Commercial contribution | $100 \times 400$ = HK\$40,000 | $80 \times 400$ = HK\$32,000 |
+| Public-service cost | — | $20 \times 100$ = HK\$2,000 |
+| **Net before fixed cost** | **HK\$40,000/day** | **HK\$30,000/day** |
+| Opportunity cost vs all-commercial | — | HK\$10,000/day |
 
 The commitment has a measurable cost. Whether it is justified — and who should fund it — requires public-value and distributional assessment. No claim that the commitment secures approval or acceptance.
 
 Keep **Sandbox ≠ Sandbox X** when citing trial programmes; Action Plan language and Sandbox X commitments stay with the 2025 Policy Address / Official status issuers ([Readings](#readings)). Do not claim cross-boundary corridors as day-to-day operating service.
 
-**Beyond the slide.** Week 8’s priority rules decide *who flies*; this week’s \(\Pi_{\mathrm{net}}\) decides *who pays* when priority displaces commercial contribution. Write both down before promising “twenty free public-service flights.”
+**Beyond the slide.** Week 8’s priority rules decide *who flies*; this week’s $\Pi_{\mathrm{net}}$ decides *who pays* when priority displaces commercial contribution. Write both down before promising “twenty free public-service flights.”
 
 ---
 
@@ -300,7 +300,7 @@ Keep **Sandbox ≠ Sandbox X** when citing trial programmes; Action Plan languag
 | Area | Example KPI | Boundary or denominator |
 |------|-------------|-------------------------|
 | Noise | Population-weighted exposure | Route, period, and noise metric |
-| Climate | kg \(\mathrm{CO}_{2}\mathrm{e}\) / passenger-km | Life-cycle boundary and occupancy |
+| Climate | kg $\mathrm{CO}_{2}\mathrm{e}$ / passenger-km | Life-cycle boundary and occupancy |
 | Privacy | Personal-data incidents | Operations and severity |
 | Equity | Service availability by area | Population, need, and affordability |
 | Governance | Complaints resolved on time | Defined process and deadline |
@@ -314,13 +314,13 @@ Define baseline, target, measurement method, frequency, owner, assurance, and co
 | Step | Ask | Output |
 |------|-----|--------|
 | 1 | Which externalities bind (noise, privacy, climate, equity)? | Impact list with affected parties |
-| 2 | What is \(\mathrm{MEC}_{\mathrm{noise}}\) vs practical instrument? | Charge / quota / curfew / standard screen |
-| 3 | Privacy: purpose, necessity, minimization — and \(C_{\mathrm{priv}}\)? | Control design + cost channel |
+| 2 | What is $\mathrm{MEC}_{\mathrm{noise}}$ vs practical instrument? | Charge / quota / curfew / standard screen |
+| 3 | Privacy: purpose, necessity, minimization — and $C_{\mathrm{priv}}$? | Control design + cost channel |
 | 4 | Carbon value for appraisal only — or a real priced rule? | Attribution discipline (not invented CAD tax) |
-| 5 | \(e_{\mathrm{op}} = E_{\mathrm{kWh}} \times f_{\mathrm{grid}}\) with sourced \(f_{\mathrm{grid}}\)? | Scope 2 operational screen |
-| 6 | Same boundary for \(e_{\mathrm{FU}}\) vs comparator mode? | LCA screen without double counting |
+| 5 | $e_{\mathrm{op}} = E_{\mathrm{kWh}} \times f_{\mathrm{grid}}$ with sourced $f_{\mathrm{grid}}$? | Scope 2 operational screen |
+| 6 | Same boundary for $e_{\mathrm{FU}}$ vs comparator mode? | LCA screen without double counting |
 | 7 | Acceptance by **use case** and stakeholder — not one score? | Segmented acceptance hypothesis |
-| 8 | \(\Pi_{\mathrm{net}}\) with explicit \(P_{\mathrm{PS}}\) and opportunity cost? | Funded public-service commitment |
+| 8 | $\Pi_{\mathrm{net}}$ with explicit $P_{\mathrm{PS}}$ and opportunity cost? | Funded public-service commitment |
 | 9 | KPI: baseline, owner, frequency, corrective action? | Mitigation scorecard row |
 | 10 | Sandbox ≠ Sandbox X; Policy Address / Action Plan cited to issuer only | Fact discipline |
 
@@ -338,14 +338,14 @@ The short checklist is in [Summary](#summary) above.
 
 1. State why “electric” does not imply zero life-cycle emissions, quietness, privacy, or equity.  
 2. Define an externality; give one negative and one positive LAE example.  
-3. Write \(C^{*}_{\mathrm{noise}} = \mathrm{MEC}_{\mathrm{noise}}\); say why “flights × dB above limit × \$” is wrong.  
+3. Write $C^{*}_{\mathrm{noise}} = \mathrm{MEC}_{\mathrm{noise}}$; say why “flights × dB above limit × \$” is wrong.  
 4. Appraise a quieter-tech upgrade with discounted cash flows — label figures illustrative.  
-5. Compute \(C_{\mathrm{priv}} = F_{\mathrm{gov}} + q v + A\) for two assurance levels.  
+5. Compute $C_{\mathrm{priv}} = F_{\mathrm{gov}} + q v + A$ for two assurance levels.  
 6. Separate an appraisal carbon dial from any claimed CAD carbon tax.  
-7. Compute \(e_{\mathrm{op}}\) for two grid factors; state units and boundary.  
-8. Compute \(e_{\mathrm{FU}}\); list what must be held constant when comparing modes.  
+7. Compute $e_{\mathrm{op}}$ for two grid factors; state units and boundary.  
+8. Compute $e_{\mathrm{FU}}$; list what must be held constant when comparing modes.  
 9. Explain AiRMOUR as a closed EU research action — not an OEM brand; segment acceptance by use case.  
-10. Compute \(\Pi_{\mathrm{net}}\) for a public-service slot commitment; name who pays.  
+10. Compute $\Pi_{\mathrm{net}}$ for a public-service slot commitment; name who pays.  
 11. Fill one mitigation-scorecard row (measure, KPI, payer) without inventing a 60 dB rule.  
 12. Keep **Sandbox ≠ Sandbox X**; cite 2025 Policy Address Action Plan / Sandbox X language only to the issuer.
 

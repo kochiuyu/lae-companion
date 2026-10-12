@@ -36,7 +36,7 @@ This page is the Week 12 article for the 12-week Low Altitude Economics course: 
 - The goal is consistent judgment under operational, regulatory, financial, and social constraints.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers and projections.** Worked examples below (network links, insurance evidence cost, leasing cash flows, exam shock) use **illustrative assumptions for learning**. The OHKF **HK$350bn** figure remains a private think-tank **value-added** projection for Hong Kong by 2050 — **not** a government number ([Week 9](week-09.qmd) · [Key figures](key-figures.qmd)). CAAC ATM Rules on Readings are a **draft consultation**, not in force. Keep **Sandbox ≠ Sandbox X**; Sandbox X does **not** bypass legal or safety requirements.
+**Classroom numbers and projections.** Worked examples below (network links, insurance evidence cost, leasing cash flows, exam shock) use **illustrative assumptions for learning**. The OHKF **HK\$350bn** figure remains a private think-tank **value-added** projection for Hong Kong by 2050 — **not** a government number ([Week 9](week-09.qmd) · [Key figures](key-figures.qmd)). CAAC ATM Rules on Readings are a **draft consultation**, not in force. Keep **Sandbox ≠ Sandbox X**; Sandbox X does **not** bypass legal or safety requirements.
 :::
 
 ## Learning objectives
@@ -53,8 +53,8 @@ By the end of Week 12 you should be able to:
 
 | Part | Sections | Focus |
 |------|----------|--------|
-| Horizon & networks | §§1–2 | Growth under evidence; \(L = N(N-1)/2\); screening ≠ forecast |
-| Digital & HK services | §§3–4 | Coordination net saving; leasing \(\mathrm{CF}_{L}\) / \(\mathrm{NPV}\); transferable capability |
+| Horizon & networks | §§1–2 | Growth under evidence; $L = N(N-1)/2$; screening ≠ forecast |
+| Digital & HK services | §§3–4 | Coordination net saving; leasing $\mathrm{CF}_{L}$ / $\mathrm{NPV}$; transferable capability |
 | Exam method & judgment | §§5–6 | Five-step method; viability reapplied; toolkit; consistent judgment |
 | Close | §§7–8 | Synthesis; study checklist |
 
@@ -68,7 +68,7 @@ The final week asks how an LAE project moves from a controlled trial to a **repe
 
 Which part of the value chain is most likely to create durable value — aircraft, operations, infrastructure, software, finance, or professional services — is an empirical question, not a slogan ([How does LAE work?](business-overview.qmd)).
 
-**Beyond the slide.** Week 11’s recommendation (proceed / stage / redesign / reject) is the input to Week 12’s network question: if you stage, which **node** or **link** earns the next gate — not “add twenty vertiports because \(L\) looks large.”
+**Beyond the slide.** Week 11’s recommendation (proceed / stage / redesign / reject) is the input to Week 12’s network question: if you stage, which **node** or **link** earns the next gate — not “add twenty vertiports because $L$ looks large.”
 
 ---
 
@@ -85,8 +85,8 @@ A **network** links several origins, destinations, operators, and supporting fac
 
 ### Counting possible connections
 
-- \(N\) — number of active nodes  
-- \(L\) — number of possible undirected pairs  
+- $N$ — number of active nodes  
+- $L$ — number of possible undirected pairs  
 
 $$
 \begin{aligned}
@@ -95,13 +95,13 @@ L
 \end{aligned}
 $$
 
-If direction matters, possible origin–destination links are \(N(N-1)\). The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with \(N\), not exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
+If direction matters, possible origin–destination links are $N(N-1)$. The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with $N$, not exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
 
 **Illustrative expansion:**
 
 | | Five nodes | Twenty nodes |
 --|------------|--------------|
-| Possible pairs | \(5\times4/2=10\) | \(20\times19/2=190\) |
+| Possible pairs | $5\times4/2=10$ | $20\times19/2=190$ |
 | Screening | Suppose 6 pass | Suppose 15% pass → ≈29 |
 | **Candidate links** | **6** | **≈29** |
 
@@ -119,10 +119,10 @@ Digital systems can support planning, authorization, identification, traffic inf
 
 ### Digital-coordination business case
 
-- \(C_{\mathrm{legacy}}\) — cost of the current (less-integrated) process  
-- \(C_{\mathrm{dig}}\) — recurring cost of the digital process  
-- \(C_{\mathrm{trans}}\) — transition / migration cost (amortize or place in year 0 as required)  
-- \(S_{\mathrm{net}}\) — net saving relative to the legacy process  
+- $C_{\mathrm{legacy}}$ — cost of the current (less-integrated) process  
+- $C_{\mathrm{dig}}$ — recurring cost of the digital process  
+- $C_{\mathrm{trans}}$ — transition / migration cost (amortize or place in year 0 as required)  
+- $S_{\mathrm{net}}$ — net saving relative to the legacy process  
 
 $$
 \begin{aligned}
@@ -131,21 +131,21 @@ S_{\mathrm{net}}
 \end{aligned}
 $$
 
-Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees, and exception handling. Savings depend on annual activity, reliability, integration complexity, and how much manual work is actually displaced. Marginal digital cost may be low — it is not generally zero. The preferred design must also meet safety, resilience, privacy, and accountability requirements (Week 10). This is the same spirit as Week 8’s \(S_{\mathrm{day}}\) screen — now stated as a net figure after transition cost.
+Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees, and exception handling. Savings depend on annual activity, reliability, integration complexity, and how much manual work is actually displaced. Marginal digital cost may be low — it is not generally zero. The preferred design must also meet safety, resilience, privacy, and accountability requirements (Week 10). This is the same spirit as Week 8’s $S_{\mathrm{day}}$ screen — now stated as a net figure after transition cost.
 
 ### Value of better risk evidence (illustrative)
 
-**Assumptions:** annual premium without project-specific evidence HK$12.5M; evidence collection and risk controls cost HK$3M.
+**Assumptions:** annual premium without project-specific evidence HK\$12.5M; evidence collection and risk controls cost HK\$3M.
 
 | | No demonstrated improvement | Improved risk case |
 |--|----------------------------|--------------------|
-| Premium | HK$12.5M | HK$9M (illustrative) |
-| Evidence / control cost | HK$0 | HK$3M |
-| **Total** | **HK$12.5M** | **HK$12M** (first-year saving HK$0.5M) |
+| Premium | HK\$12.5M | HK\$9M (illustrative) |
+| Evidence / control cost | HK\$0 | HK\$3M |
+| **Total** | **HK\$12.5M** | **HK\$12M** (first-year saving HK\$0.5M) |
 
 Better evidence may support underwriting and risk management; premium reductions are **not** automatic. Not an insurance quotation or a measured Sandbox X effect.
 
-**Beyond the slide.** An “insurance saving” that never appears in \(\mathrm{CF}_{t}\) is theatre. Put evidence cost and any credible premium change in the same cash-flow path you used for Week 8 roadmap \(\mathrm{NPV}\).
+**Beyond the slide.** An “insurance saving” that never appears in $\mathrm{CF}_{t}$ is theatre. Put evidence cost and any credible premium change in the same cash-flow path you used for Week 8 roadmap $\mathrm{NPV}$.
 
 ---
 
@@ -159,16 +159,16 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
 
 ### Leasing appraisal (risk does not disappear)
 
-- \(\mathrm{CF}_{L,t}\) — lessor net cash flow in period \(t\)  
-- \(R_{t}\) — lease receipts  
-- \(F_{t}\) — financing cost  
-- \(M_{t}\) — maintenance  
-- \(I_{t}\) — insurance  
-- \(L_{t}\) — expected credit (and related) loss accrual for the period  
-- \(P_{0}\) — purchase price at \(t=0\)  
-- \(V_{T}\) — residual value at horizon \(T\)  
-- \(r\) — discount rate  
-- \(\mathrm{NPV}\) — lessor net present value  
+- $\mathrm{CF}_{L,t}$ — lessor net cash flow in period $t$  
+- $R_{t}$ — lease receipts  
+- $F_{t}$ — financing cost  
+- $M_{t}$ — maintenance  
+- $I_{t}$ — insurance  
+- $L_{t}$ — expected credit (and related) loss accrual for the period  
+- $P_{0}$ — purchase price at $t=0$  
+- $V_{T}$ — residual value at horizon $T$  
+- $r$ — discount rate  
+- $\mathrm{NPV}$ — lessor net present value  
 
 $$
 \begin{aligned}
@@ -184,12 +184,12 @@ $$
 
 Depreciation is an accounting allocation; residual value and cash expenditures belong in the cash-flow appraisal. The lessor retains asset-value, financing, technology, maintenance, repossession, legal, and lessee-credit risks. Lease receipts are contractual — not risk-free.
 
-**Illustrative monthly scenario:** lease payment HK$300k.
+**Illustrative monthly scenario:** lease payment HK\$300k.
 
 | | Operator | Lessor |
 |--|----------|--------|
-| Situation | Revenue after disruption HK$250k; lease HK$300k | Contractual receipt HK$300k; financing/asset-management HK$150k |
-| Result | Shortfall HK$50k before other costs; bears demand/operating risk | Cash flow HK$150k before credit loss; **default puts receipt and asset value at risk** |
+| Situation | Revenue after disruption HK\$250k; lease HK\$300k | Contractual receipt HK\$300k; financing/asset-management HK\$150k |
+| Result | Shortfall HK\$50k before other costs; bears demand/operating risk | Cash flow HK\$150k before credit loss; **default puts receipt and asset value at risk** |
 
 Leasing **reallocates** risks between parties; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual value, and recovery cost in this classroom screen.
 
@@ -201,7 +201,7 @@ Controlled trials can generate evidence on aircraft performance, communications,
 
 Mainland ATM rules drafts (e.g. CAAC consultation on Readings) remain **draft only** until promulgated — do not treat them as in-force Hong Kong or Mainland law. EASA SC-VTOL ([Readings](#readings)) is a **certification** comparator for passenger VTOL concepts — not a Hong Kong operating approval.
 
-**Beyond the slide.** OHKF’s supporting-services share of HK$350bn value added is a **scenario composition**, not a booking for any one lessor, insurer, or consultancy. Size the service with Week 9’s funnel, then stress-test credit and residual-value risk as above.
+**Beyond the slide.** OHKF’s supporting-services share of HK\$350bn value added is a **scenario composition**, not a booking for any one lessor, insurer, or consultancy. Size the service with Week 9’s funnel, then stress-test credit and residual-value risk as above.
 
 ---
 
@@ -221,11 +221,11 @@ The aim is not to force every course tool into every answer. Use only the tools 
 
 Same symbols as Week 11 — rehearse them until the units are automatic:
 
-- \(D\) — customer demand  
-- \(K\) — reliable capacity (same units)  
-- \(D_{\mathrm{served}}\) — served activity  
-- \(p, v, F\) — price, variable cost, fixed cost  
-- \(\Pi_{\mathrm{op}}\) — operating profit  
+- $D$ — customer demand  
+- $K$ — reliable capacity (same units)  
+- $D_{\mathrm{served}}$ — served activity  
+- $p, v, F$ — price, variable cost, fixed cost  
+- $\Pi_{\mathrm{op}}$ — operating profit  
 
 $$
 \begin{aligned}
@@ -236,7 +236,7 @@ D_{\mathrm{served}}
 \end{aligned}
 $$
 
-Add any specified tax, fee, subsidy, or committed payment in the correct place (e.g. subtract a per-flight noise charge inside the contribution term, or add \(P_{\mathrm{PS}}\) as in Week 10). Recalculate \(D_{\mathrm{served}}\) when a shock changes demand or capacity. Then discuss regulation, safety, sustainability, and distributional effects (Week 11).
+Add any specified tax, fee, subsidy, or committed payment in the correct place (e.g. subtract a per-flight noise charge inside the contribution term, or add $P_{\mathrm{PS}}$ as in Week 10). Recalculate $D_{\mathrm{served}}$ when a shock changes demand or capacity. Then discuss regulation, safety, sustainability, and distributional effects (Week 11).
 
 ### Quantitative toolkit recap
 
@@ -253,17 +253,17 @@ Start with the decision and units. Do not begin with an all-purpose “super-for
 
 ### Worked illustration (capacity and cost shock)
 
-**Base data (illustrative exam assumptions):** \(D = 200\) flights/day; \(K = 160\) after disruption; \(p =\) HK$500; \(v =\) HK$100/flight; \(F =\) HK$40,000/day; specified noise charge \(c_{\mathrm{noise}} =\) HK$50/flight.
+**Base data (illustrative exam assumptions):** $D = 200$ flights/day; $K = 160$ after disruption; $p =$ HK\$500; $v =$ HK\$100/flight; $F =$ HK\$40,000/day; specified noise charge $c_{\mathrm{noise}} =$ HK\$50/flight.
 
 | Step | Result |
 |------|--------|
-| Served activity | \(\min\{200,160\}=160\) |
-| Contribution | \((500-100-50)\times 160\) = HK$56,000 |
-| Operating profit | \(56{,}000-40{,}000\) = **HK$16,000/day** |
+| Served activity | $\min\{200,160\}=160$ |
+| Contribution | $(500-100-50)\times 160$ = HK\$56,000 |
+| Operating profit | $56{,}000-40{,}000$ = **HK\$16,000/day** |
 
-In symbols: \(\Pi_{\mathrm{op}} = (p - v - c_{\mathrm{noise}})\, D_{\mathrm{served}} - F\). The service remains profitable under the stated assumptions. Compare mitigation cost with the expected reduction in the charge and other benefits. Do **not** recommend visual masking as a noise remedy — privacy and noise require different controls (Week 10). Not a current Hong Kong noise charge or capacity rule.
+In symbols: $\Pi_{\mathrm{op}} = (p - v - c_{\mathrm{noise}})\, D_{\mathrm{served}} - F$. The service remains profitable under the stated assumptions. Compare mitigation cost with the expected reduction in the charge and other benefits. Do **not** recommend visual masking as a noise remedy — privacy and noise require different controls (Week 10). Not a current Hong Kong noise charge or capacity rule.
 
-**Beyond the slide.** If the examiner adds a regulatory delay, put it in **timing / probability of launch** — do not multiply another arbitrary revenue haircut on top of an already permission-conditioned \(D\) (Week 9).
+**Beyond the slide.** If the examiner adds a regulatory delay, put it in **timing / probability of launch** — do not multiply another arbitrary revenue haircut on top of an already permission-conditioned $D$ (Week 9).
 
 ---
 
@@ -291,13 +291,13 @@ Exam logistics and timing stay on the teaching platform.
 | Step | Ask | Output |
 |------|-----|--------|
 | 1 | What decision and alternative? | Exam step 1 |
-| 2 | \(L = N(N-1)/2\) vs which links pass demand/\(K\)/permission? | Network screen |
-| 3 | \(D_{\mathrm{served}}\), \(\Pi_{\mathrm{op}}\) (plus specified charges)? | Viability |
-| 4 | \(S_{\mathrm{net}}\) for digital coordination — safety still met? | Governance-aware IT case |
-| 5 | Service-role \(\mathrm{CF}_{L,t}\) / \(\mathrm{NPV}\) — credit & residual risk named? | Leasing / assurance screen |
+| 2 | $L = N(N-1)/2$ vs which links pass demand/$K$/permission? | Network screen |
+| 3 | $D_{\mathrm{served}}$, $\Pi_{\mathrm{op}}$ (plus specified charges)? | Viability |
+| 4 | $S_{\mathrm{net}}$ for digital coordination — safety still met? | Governance-aware IT case |
+| 5 | Service-role $\mathrm{CF}_{L,t}$ / $\mathrm{NPV}$ — credit & residual risk named? | Leasing / assurance screen |
 | 6 | Each constraint → one channel? | No double counting |
 | 7 | Sandbox ≠ Sandbox X; CAAC draft ≠ in-force law; U-space ≠ HK law | Fact discipline |
-| 8 | OHKF HK$350bn = think-tank value added only? | Attribution |
+| 8 | OHKF HK\$350bn = think-tank value added only? | Attribution |
 | 9 | Conditional recommend: proceed / pause / redesign / stop | Decision quality |
 | 10 | Evidence needed for the next gate? | Staged commitment |
 
@@ -313,15 +313,15 @@ The short checklist is in [Summary](#summary) above.
 
 ## 8. Study checklist (beyond the slides)
 
-1. Compute \(L\) for two values of \(N\); say why \(L\) is not demand.  
+1. Compute $L$ for two values of $N$; say why $L$ is not demand.  
 2. Screen a classroom share of links; refuse to treat the result as a GBA forecast.  
-3. Compute \(S_{\mathrm{net}}\) including transition cost; list non-cost pass/fail criteria.  
+3. Compute $S_{\mathrm{net}}$ including transition cost; list non-cost pass/fail criteria.  
 4. Explain why a premium cut after “better evidence” is not automatic.  
-5. Write \(\mathrm{CF}_{L,t}\) and \(\mathrm{NPV}\) for a lessor; name residual and credit risks.  
-6. Attribute OHKF HK$350bn only as Hong Kong industry **value added** by 2050 (think-tank).  
+5. Write $\mathrm{CF}_{L,t}$ and $\mathrm{NPV}$ for a lessor; name residual and credit risks.  
+6. Attribute OHKF HK\$350bn only as Hong Kong industry **value added** by 2050 (think-tank).  
 7. Keep **Sandbox ≠ Sandbox X**; Sandbox X does not bypass legal/safety requirements.  
 8. Treat CAAC ATM Rules on Readings as **draft consultation** only.  
-9. Recompute \(D_{\mathrm{served}}\) and \(\Pi_{\mathrm{op}}\) under a capacity + noise-charge shock.  
+9. Recompute $D_{\mathrm{served}}$ and $\Pi_{\mathrm{op}}$ under a capacity + noise-charge shock.  
 10. Map one constraint to a single channel (no multi-haircut).  
 11. Run the five-step exam method on a past Week 11 use case.  
 12. Close with proceed / pause / redesign / stop **and** the evidence that would change the call.
