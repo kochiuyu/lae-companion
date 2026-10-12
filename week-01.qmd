@@ -56,7 +56,7 @@ By the end of Week 1 you should be able to:
 5. **Explain** what a Hong Kong regulatory sandbox is for — and what it does *not* waive — keeping the first **Regulatory Sandbox** separate from **Sandbox X**.  
 6. **Use** simple tools — value of time, generalized cost, NPV intuition, and a unit-cost equation — to judge whether a service *might* be commercially viable.
 
-### How these notes are organised
+### How this week is organised
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -65,12 +65,11 @@ By the end of Week 1 you should be able to:
 | Industry & rules | §§9–12 | Value chain; entry barriers; sandboxes; GBA caveat |
 | Closing | §§13–16 | Empty-seat unit cost; technology; synthesis; exam-style checklist |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Where a slide lists a bullet, these notes usually explain *why* the bullet matters economically.
+Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first.
 
 ---
 
 ## 1. What is the low-altitude economy?
-
 
 ```{=html}
 <figure class="wdiag" id="w01-system" aria-labelledby="w01-system-title">
@@ -112,6 +111,8 @@ Keep the layers separate:
 
 Cite: [Key figures](key-figures.qmd) · [Glossary · altitude](glossary.qmd#altitude-scale) · [Official status](tracker.qmd).
 
+Altitude language frames the *field*. The economic unit of analysis is still a **completed mission** — who needs an outcome, who flies, and who gets paid.
+
 ### One completed mission
 
 Picture one completed mission, not one vehicle on a poster:
@@ -126,6 +127,8 @@ Picture one completed mission, not one vehicle on a poster:
 That whole chain is what this course means by LAE. Same idea in plain language: [What is LAE?](primer.qmd).
 
 **Why start with the mission?** Because commercial and policy questions attach to outcomes — time saved, risk avoided, access gained — not to airframe marketing. Week 1’s quantitative tools (VOT, generalized cost, unit cost) all measure *service* performance. Weeks 5–8 later ask whether sites and airspace can deliver that performance at scale.
+
+Before the tools, keep **scope labels** distinct so “drone,” “SUA,” and “eVTOL” do not collapse into one legal claim.
 
 ### Scope labels (keep them distinct)
 
@@ -143,6 +146,8 @@ Hong Kong law’s main label for light unmanned craft is **small unmanned aircra
 The exact altitude boundary also varies across jurisdictions. Mainland statistical / industrial-policy language for **低空经济** is a separate frame — do not treat it as the same metric as a Hong Kong value-added figure ([Glossary · Mainland](glossary.qmd#mainland-comparators)).
 
 ---
+
+Section 1 defined LAE as a **mission system**. The next question is how that system differs, economically, from the scheduled aviation most people already know — because those differences drive cost, demand, and regulation for the rest of the course.
 
 ## 2. How LAE differs from traditional aviation
 
@@ -168,6 +173,8 @@ None of these require inventing Hong Kong fare data. They are structural reasons
 
 ---
 
+Cost structure alone does not fix vocabulary. Policy papers, OEM decks, and Hong Kong readings mix **LAE**, **UAM**, and **AAM**. Before naming a use case, keep the nesting straight so you do not cite the wrong comparator as if it were Cap. 448G law.
+
 ## 3. LAE, UAM, and AAM
 
 You will hear three acronyms constantly. Keep them **nested**, not interchangeable:
@@ -189,6 +196,8 @@ You will hear three acronyms constantly. Keep them **nested**, not interchangeab
 When a reading uses “UAM” or “AAM,” ask which part of the LAE umbrella it actually covers — and which Hong Kong legal pathway (SUA vs unconventional aircraft vs planned rules) would apply.
 
 ---
+
+With the umbrella terms sorted, ask what **customer problem** a service actually solves. Week 1 groups near-term opportunities into four families; later weeks test whether any one family clears cost, capacity, and acceptance screens.
 
 ## 4. Four ways to create value in the sky
 
@@ -216,12 +225,13 @@ Icebreaker intuition from class (not a claim that either service is operating to
 
 ---
 
+Value families are global; this course is **Hong Kong-first**. Scale claims therefore need careful attribution — especially the widely quoted HK$350 billion projection.
+
 ## 5. Hong Kong scale — and how to read the HK$350 billion figure
 
 Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimension** to the transport and logistics network. Policy already treats LAE as a development theme: the **2024 Policy Address** describes economic activities generally below 1,000 metres and establishes the Working Group on Developing Low-altitude Economy ([Readings](#readings); [Timeline](dates.qmd)).
 
 ### The HK$350 billion projection
-
 
 ```{=html}
 <figure class="wdiag" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
@@ -269,6 +279,8 @@ where $\Delta T$ is time saved relative to the best alternative (same time units
 
 **Intuition.** VOT converts minutes into money so you can compare a faster but dearer option with a slower but cheaper one. It does **not** by itself tell you demand volume, load factor, or NPV.
 
+Customer value is only step one. Investors still ask whether the **cash stream**, after costs and risk, justifies what must be spent today — that is NPV.
+
 ### Net present value (NPV)
 
 **NPV** asks whether the future cash a project generates is enough to justify the investment made today, under stated assumptions:
@@ -283,6 +295,8 @@ $$
 | Negative | Does not justify the investment |
 
 NPV is not a guarantee — it is a disciplined way to organise cash, timing, and risk later in the course. Week 6’s staging / real-options logic and Week 9’s downside analysis refine what “under stated assumptions” means.
+
+Put VOT and NPV on one screen with a middle step — **capture** — so time savings are not mistaken for automatic profit.
 
 ### A three-step viability screen
 
@@ -304,6 +318,8 @@ Step 2 asks whether the operator can **charge** something related to that value 
 Step 3 asks whether the **stream** of margins, after tax and risk, covers the upfront aircraft, site, and compliance investment (NPV). A sandbox may change step 3 by reducing delay and uncertainty ([§11](#11-regulatory-sandboxes-in-hong-kong)) — it does not invent positive margins.
 
 ---
+
+VOT and NPV tell you what time is worth and whether investment might pay. Travellers still choose among **modes**. Generalized cost puts money and time on one scale so you can see when a faster air option can (and cannot) beat MTR, taxi, or Airport Express.
 
 ## 7. Generalized cost and mode choice
 
@@ -335,6 +351,8 @@ That is exactly the Airport Express screen in [§8.2](#82-finding-a-maximum-tick
 
 ---
 
+The formulas are short; mistakes usually come from **wrong door-to-door times** or from treating a classroom fare ceiling as a forecast. The next examples apply VOT and GC under stated assumptions — then connect the answers to partner payments and unit cost.
+
 ## 8. Worked illustrations (classroom assumptions)
 
 The next two examples apply VOT and generalized cost. Figures are **illustrative** — see the callout under [Summary](#summary). They are **not** claims about current Airport Express demand or any operating air-taxi fare.
@@ -353,7 +371,7 @@ The next two examples apply VOT and generalized cost. Figures are **illustrative
 
 **Takeaway:** a fast aircraft does not guarantee a valuable service. Waiting, transfers, and access time can sharply reduce the fare premium customers will accept.
 
-**Beyond the slide.** Case B is not “bad luck.” It is what happens when vertiport processing, security, or schedule padding is ignored in the business case. Infrastructure economics (Week 5) and public acceptance / operating windows (Weeks 9–10) re-enter here as determinants of $\Delta T$, not as separate soft topics.
+**Connecting idea.** Case B is not “bad luck.” It is what happens when vertiport processing, security, or schedule padding is ignored in the business case. Infrastructure economics (Week 5) and public acceptance / operating windows (Weeks 9–10) re-enter here as determinants of $\Delta T$, not as separate soft topics.
 
 ### 8.2 Finding a maximum ticket price against Airport Express
 
@@ -373,7 +391,7 @@ $$
 
 Under these simplified assumptions, **HK$275** makes the traveller indifferent. Actual demand also depends on waiting, access, reliability, comfort, and perceived safety — none of which are in the short formula.
 
-**Beyond the slide.** $P=\text{HK\$275}$ is a **ceiling under stated assumptions**, not a forecast price. If partner payments alone claim HK$200 of a HK$300 ticket ([§9](#illustrative-unit-economics-not-market-data)), a fare near HK$275 may still leave a thin operator margin — connecting GC to value-chain capture.
+**Connecting idea.** $P=\text{HK\$275}$ is a **ceiling under stated assumptions**, not a forecast price. If partner payments alone claim HK$200 of a HK$300 ticket ([§9](#illustrative-unit-economics-not-market-data)), a fare near HK$275 may still leave a thin operator margin — connecting GC to value-chain capture.
 
 ### 8.3 How the Week 1 tools fit on one page
 
@@ -388,6 +406,8 @@ Under these simplified assumptions, **HK$275** makes the traveller indifferent. 
 A coherent Week 1 answer moves **down** this table: customer value → mode comparison → capture → unit cost → investment — without double-counting the same constraint twice.
 
 ---
+
+Tools answered what customers might pay. The value chain asks **who receives** that payment — OEMs, sites, digital services, insurers, and the operator — and why a thin operator margin can coexist with a high ticket.
 
 ## 9. The LAE value chain — who creates value and who gets paid?
 
@@ -442,7 +462,7 @@ Suppose a passenger pays **HK$300**. One classroom allocation:
 
 If all costs stayed unchanged, cutting the fare by HK$50 would turn a HK$30 margin into a HK$20 loss. Real contracts differ; the point is **sensitivity**, not the specific split.
 
-**Beyond the slide.** Compare this margin with the GC ceiling of HK$275 in §8.2. Under those two *separate* classroom setups, the operator is already near a knife-edge: customer indifference is not the same as a thick margin after partners are paid. Week 3’s revenue management and Week 6’s partnership payment design exist because this tension is structural.
+**Connecting idea.** Compare this margin with the GC ceiling of HK$275 in §8.2. Under those two *separate* classroom setups, the operator is already near a knife-edge: customer indifference is not the same as a thick margin after partners are paid. Week 3’s revenue management and Week 6’s partnership payment design exist because this tension is structural.
 
 ### Stakeholder conflict and externalities
 
@@ -454,6 +474,8 @@ An **externality** arises when an activity imposes costs or benefits on others t
 - **Communities** care about noise, privacy, visual impact, and fair access to benefits.
 
 **Managerial challenge:** how can a service reach commercial scale while maintaining public acceptance?
+
+Acceptance is not only reputation. When communities or rules shrink the operating window, **fixed cost per flight** rises — the next classroom screen.
 
 ### Operating restrictions raise unit cost
 
@@ -470,6 +492,8 @@ Public acceptance is not only a communications issue. Operating limits change ut
 
 ---
 
+Even a clean ticket split fails if the product cannot enter. Aviation’s safety culture and certification timelines raise **entry barriers**; that is the economic reason controlled trial programmes exist — not a waiver of Cap. 448G or airworthiness duties.
+
 ## 10. Why new aviation products face high entry barriers
 
 Aviation is extremely safety-regulated. Certifying a new type for routine public use can take many years and very large compliance outlays under traditional manned-aviation pathways (class discussion often refers to stringent airworthiness regimes such as US “Part 25”-style certification as a *comparator*, not as Hong Kong SUA law).
@@ -479,6 +503,8 @@ For startups and new mission designs, a multi-year wait before the first paying 
 **Hong Kong pathway reminder.** Light unmanned operations sit under Cap. **448G** with a risk-based approach (full effect **1 December 2022**; Category C expansion **July 2025** — [Week 7 Readings](week-07.qmd) / [Key figures](key-figures.qmd)). That is a different legal track from traditional large-aircraft certification — but advanced operations still need prior CAD permission, and sandboxes still do not waive safety.
 
 ---
+
+Hong Kong’s answer to “learn before you scale” is the **regulatory sandbox** track — actually more than one programme. Keep the labels separate before you treat trial evidence as a commercial franchise.
 
 ## 11. Regulatory sandboxes in Hong Kong
 
@@ -501,6 +527,8 @@ Hong Kong has run more than one trial track. On this site you must **not** merge
 | Later **Sandbox X** | Distinct programme. Selected modules reported as **33** so far on TLB materials: UTM **15** + unconventional aircraft **4** + shared platform **5** + others **9**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 33 module total ([Key figures](key-figures.qmd)). |
 
 Citeable counts and issuers: [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what? · standing caveats](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Later weeks carry AC-013 (BVLOS in the first Regulatory Sandbox) and AC-017 (Sandbox X cross-boundary) — do not mix those circulars ([Week 7](week-07.qmd); [Week 8](week-08.qmd)).
+
+With programmes named correctly, summarise economically what a sandbox can change in the **entry-barrier** sum.
 
 ### Entry barriers as a simple sum
 
@@ -526,6 +554,8 @@ Without early controlled trials, firms often face larger upfront commitments, sl
 
 ---
 
+Sandbox learning is local; supply chains and corridor ideas are regional. Hong Kong’s LAE story is often told together with the **Greater Bay Area** — manufacturing and testing nearby, services in Hong Kong — but corridor language must stay evidence-disciplined.
+
 ## 12. Working with the Greater Bay Area
 
 Hong Kong’s LAE development is closely connected with the wider GBA ecosystem:
@@ -541,6 +571,8 @@ Hong Kong’s LAE development is closely connected with the wider GBA ecosystem:
 :::
 
 ---
+
+GBA strategy does not fix aircraft economics. Many passenger concepts under discussion have few seats: unless **utilization and load factor** are high, fixed cost per passenger stays above what generalized-cost fare ceilings can support.
 
 ## 13. The empty-seat problem and unit cost
 
@@ -577,9 +609,11 @@ $$
 
 Technology may help, but demand, load factor, charging, maintenance, infrastructure, weather, and regulation all affect achievable utilization. Week 3 develops cost structures and revenue management ([Week 3](week-03.qmd)).
 
-**Beyond the slide.** Case A’s HK$550 cost per passenger sits far above the illustrative GC fare ceiling of HK$275 in §8.2. Under those two classroom setups, the service cannot clear both a customer indifference fare and a low-utilization cost floor. That is the empty-seat problem in one sentence: **customer value and aircraft economics must meet in the middle.**
+**Connecting idea.** Case A’s HK$550 cost per passenger sits far above the illustrative GC fare ceiling of HK$275 in §8.2. Under those two classroom setups, the service cannot clear both a customer indifference fare and a low-utilization cost floor. That is the empty-seat problem in one sentence: **customer value and aircraft economics must meet in the middle.**
 
 ---
+
+Unit cost and fare ceilings set the economic target. **Technology** matters when it moves those levers — shorter door-to-door time, higher reliable flights per day, lower energy or maintenance — not when it only improves a brochure.
 
 ## 14. Technology as an economic tool
 
@@ -596,6 +630,8 @@ Treat technology as a lever on economics, not as an end in itself:
 
 ---
 
+Pull the thread: system definition → value → Hong Kong scale with correct attribution → VOT / GC / NPV → who gets paid → sandboxes kept distinct → GBA caveat → empty-seat unit cost → technology as a lever.
+
 ## 15. Putting Week 1 together
 
 LAE is a **system**: aircraft, infrastructure, digital coordination, operators, customers, and supporting services. A service creates value when it saves time, cuts cost or risk, improves access, or enables a mission alternatives cannot do well. Commercial viability still hangs on willingness to pay, demand, utilization, load factor, operating cost, and investment cost.
@@ -608,7 +644,7 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
-## 16. Study checklist (beyond the slides)
+## 16. Study checklist
 
 Use this when reviewing — each item should be answerable in your own words with a formula or a cite:
 
