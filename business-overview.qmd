@@ -8,19 +8,36 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Short map of the **business** side of LAE. Firm lists stay on [Companies & sectors](landscape.qmd); weekly tools and takeaways stay on the week pages under **Teach** (for example [Week 1](week-01.qmd)). Definitions: [Glossary](glossary.qmd).
+This page is a short map of the **business** side of the low-altitude economy (LAE).
+
+- Firm lists stay on [Companies & sectors](landscape.qmd).
+- Weekly tools stay on the week pages under **Teach** (for example [Week 1](week-01.qmd)).
+- Definitions stay in the [Glossary](glossary.qmd).
 
 ## How value is created
 
-LAE is a **system**, not only aircraft: craft, take-off/landing sites, digital traffic and coordination, operators, customers, and supporting services ([Week 1](week-01.qmd)).
+LAE is a **system**, not only aircraft. The system includes craft, take-off and landing sites, digital traffic and coordination, operators, customers, and supporting services ([Week 1](week-01.qmd)).
 
-A service creates value when it **saves time**, **cuts cost or risk**, **improves access**, or **enables a mission** other modes cannot do well. Commercial viability still hangs on willingness to pay, demand, utilization, load factor, operating cost, and investment cost — technology helps only when it improves the **economics of the full service** ([Week 1](week-01.qmd); [Week 3](week-03.qmd)).
+A service creates **value** when it does at least one of these well:
 
-Unit-cost language in class includes [CASK](glossary.qmd#business-and-economics) (passenger capacity offered) and mission-based measures for cargo or public-service work ([Week 3](week-03.qmd); [Glossary](glossary.qmd#business-and-economics)).
+- saves time;
+- cuts cost or risk;
+- improves access; or
+- enables a mission that other modes cannot do well.
+
+A service is still commercially hard unless customers are willing to pay, demand is real, aircraft and sites are used enough (**utilization** and **load factor**), and operating and investment costs stay under control.
+
+Technology helps only when it improves the **economics of the full service** — not when it only makes the aircraft look advanced ([Week 1](week-01.qmd); [Week 3](week-03.qmd)).
+
+In class, unit-cost language includes [CASK](glossary.qmd#business-and-economics) (**cost per available seat-kilometre** — cost of passenger capacity offered) and mission-based measures for cargo or public-service work ([Week 3](week-03.qmd); [Glossary](glossary.qmd#business-and-economics)).
 
 ## Value chain
 
-Roles only — how value moves along the chain, **not** market sizes, deal values, or named firms. Trial programmes help teams test under controlled conditions; they are not the same as everyday commercial approval ([Week 7](week-07.qmd)).
+This section names **roles** only — how value moves along the chain.
+
+It does **not** give market sizes, deal values, or firm names.
+
+Trial programmes help teams test under controlled conditions. They are **not** the same as everyday commercial approval ([Week 7](week-07.qmd)).
 
 ```{=html}
 <style>
@@ -38,21 +55,21 @@ Roles only — how value moves along the chain, **not** market sizes, deal value
 .vchain-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
 </style>
 <figure class="vchain" id="lae-value-chain" aria-labelledby="vchain-title">
-<p class="vchain-cap" id="vchain-title"><strong>Value chain (schematic)</strong> — lecture roles only. Arrows show typical direction of value / payment between roles, not volumes.</p>
+<p class="vchain-cap" id="vchain-title"><strong>Value chain (simple picture)</strong> — course roles only. Arrows show the usual direction of value or payment — not volumes or market size.</p>
 <div class="vchain-flow">
-<div class="vchain-box pay"><strong>Customers / mission sponsors</strong><br/>Pay for flights, deliveries, inspections, or other missions (pay-per-use, subscription, availability, or complementary models).</div>
+<div class="vchain-box pay"><strong>Customers / mission sponsors</strong><br/>Pay for flights, deliveries, inspections, or other missions — for example pay-per-use, subscription, availability payments, or mixed models.</div>
 <div class="vchain-arrow" aria-hidden="true">↓ value for the mission</div>
-<div class="vchain-box"><strong>Operators</strong><br/>Deliver the service; buy or contract for aircraft, sites, traffic/tech, insurance, and training.</div>
+<div class="vchain-box"><strong>Operators</strong><br/>Run the service. They buy or contract aircraft, sites, traffic/tech, insurance, and training.</div>
 <div class="vchain-arrow" aria-hidden="true">↓ operator spend on inputs</div>
 <div class="vchain-suppliers">
 <div class="vchain-box"><strong>Aircraft &amp; sites</strong><br/>Airframes; take-off/landing and related infrastructure access.</div>
 <div class="vchain-box"><strong>Enabling tech &amp; services</strong><br/>Traffic/coordination platforms, connectivity, training, MRO-style work.</div>
-<div class="vchain-box"><strong>Insurance &amp; finance</strong><br/>Price risk and capital — they do not remove operational or regulatory risk.</div>
+<div class="vchain-box"><strong>Insurance &amp; finance</strong><br/>Price risk and provide capital. They do <strong>not</strong> remove operational or regulatory risk.</div>
 </div>
 <div class="vchain-arrow" aria-hidden="true">↕ when public missions or shared infra</div>
-<div class="vchain-box pay"><strong>Public bodies (when involved)</strong><br/>May fund trials, shared infrastructure, or public-service missions (usage vs availability payments in partnership designs) — value can move toward operators or sites, not only as an operator input cost.</div>
+<div class="vchain-box pay"><strong>Public bodies (when involved)</strong><br/>May fund trials, shared infrastructure, or public-service missions (usage vs availability payments in partnership designs). Value can move toward operators or sites — not only as an operator cost.</div>
 </div>
-<p class="vchain-note">Grounded in Lectures Weeks 1–3, 5–7, and 12. Roles only — no firm names or TAM/SAM figures.</p>
+<p class="vchain-note">Based on Weeks 1–3, 5–7, and 12. Roles only — no firm names and no market-size (TAM/SAM) figures.</p>
 </figure>
 ```
 
@@ -69,14 +86,14 @@ Named firms: [Companies & sectors](landscape.qmd).
 | Inspection and surveying | Asset and site inspection missions |
 | Emergency and medical | Public-safety / medical transport trials |
 | Tourism and entertainment | Visitor / show / attraction flights |
-| eVTOL and passenger trials | Passenger-oriented trial activity |
-| Infrastructure and vertiports | Sites, docking, planned logistics clusters |
-| Enabling technology | UTM, connectivity, shared platforms |
+| eVTOL and passenger trials | Passenger-oriented trial activity (**eVTOL** = electric vertical take-off and landing) |
+| Infrastructure and vertiports | Sites, docking, planned logistics clusters (**vertiport** = industry word for a take-off/landing site) |
+| Enabling technology | UTM, connectivity, shared platforms (**UTM** = unmanned aircraft system traffic management) |
 | Insurance and finance | Risk transfer and capital products |
-| Tangible services | Hands-on flight / MRO / patrol services |
+| Tangible services | Hands-on flight / MRO / patrol services (**MRO** = maintenance, repair, and overhaul) |
 | Intangible services | Training, research, software-heavy services |
 
-Use the map and sector lists on [Companies & sectors](landscape.qmd) for who appears where — this page does not repeat firm names.
+Use the map and sector lists on [Companies & sectors](landscape.qmd) for who appears where. This page does not repeat firm names.
 
 ## Where to go next
 

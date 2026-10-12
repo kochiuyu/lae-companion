@@ -11,36 +11,43 @@ toc-title: "Sections"
 **Course:** 12-week Low Altitude Economics · 2026–27  
 **Instructor:** Chiu Yu Ko
 
-**New here?** Read [What is LAE?](primer.qmd) first for plain-language scope, then come back for the week map. Weekly materials: open a week under **Teach** (for example [Week 1](week-01.qmd)).
+**New here?** Start with [What is LAE?](primer.qmd). It explains the field in simple English. Then come back to this page for the week map.
+
+Weekly lecture pages sit under **Teach** (for example [Week 1](week-01.qmd)).
 
 ## Description
 
-- Economics and business strategy of the **low-altitude economy (LAE)** — services that use low-altitude airspace, not only aircraft. Vehicle types, sites, traffic labels, and trial programmes are introduced on [What is LAE?](primer.qmd); formal definitions stay in the [Glossary](glossary.qmd).
-- Core setting: Hong Kong and the Greater Bay Area, with selected global advanced air mobility frameworks as **comparators** (not Hong Kong law) — see Objectives below and the week pages under **Teach**.
-- Quantitative and managerial: turn use cases into demand, unit economics, infrastructure breakeven, partnerships, regulatory roadmaps, airspace choices, sustainability, risk, and investment recommendations.
-- Each week adds tools (cost and demand measures, competition checks, infrastructure and partnership logic, and related methods). Names and formulas appear on each week page under **Teach** when you need them — this page does not dump the acronym list.
-- Capstone: integrate those tools into one coherent business or policy strategy for a commercially viable, socially acceptable, policy-consistent, and scalable HK/GBA service.
+This course is about the **economics and business strategy** of the **low-altitude economy (LAE)**.
+
+LAE means services that use low-altitude airspace — not only the aircraft itself. Vehicle types, sites, traffic labels, and trial programmes are introduced on [What is LAE?](primer.qmd). Formal definitions sit in the [Glossary](glossary.qmd).
+
+- **Where we focus:** Hong Kong and the **Greater Bay Area (GBA)** — the city cluster that includes Hong Kong, Macao, and nearby Guangdong cities.
+- **Comparators:** Selected global **advanced air mobility (AAM)** frameworks (ideas for new air services in cities). These are for comparison only. They are **not** Hong Kong law. See Objectives below and the week pages under **Teach**.
+- **What you practise:** Turn use cases into demand, unit economics, infrastructure breakeven, partnerships, regulatory roadmaps, airspace choices, sustainability, risk, and investment recommendations.
+- **How weeks work:** Each week adds tools (cost and demand measures, competition checks, infrastructure and partnership logic, and related methods). Names and formulas appear on each week page when you need them. This page does not list every acronym.
+- **Capstone:** Combine those tools into one clear business or policy strategy for a Hong Kong / GBA service that can work commercially, be accepted socially, fit policy, and scale.
 
 ## Objectives
 
 - Study LAE economics and business strategy in Hong Kong and the GBA, with global AAM comparators.
 - Build quantitative and managerial tools for demand, unit economics, infrastructure, partnerships, regulation, airspace, sustainability, and risk.
-- Integrate those tools into a coherent business or policy strategy (capstone) and exam-ready analysis.
+- Combine those tools into a coherent business or policy strategy (capstone) and exam-ready analysis.
 
 ## Learning outcomes
 
-After completing this course, students are expected to:
+After this course, you should be able to:
 
-- Understand demand and supply dynamics in urban air mobility using basic economic models and stakeholder analysis, with a focus on Hong Kong/Greater Bay Area trends.
-- Estimate market sizes and evaluate investment decisions through simple cost-benefit analysis and market simulations.
-- Explore pricing strategies, economic incentives, and congestion management for sustainability and public acceptance.
-- Review business frameworks, value-chain positioning, and regulatory economics, drawing on global case studies from NASA, McKinsey, and AiRMOUR.
-- Develop strategies for market growth, policy evaluation, and stakeholder engagement via scenario discussions and team projects.
-
+- Understand demand and supply in **urban air mobility** (city air services) with basic economic models and stakeholder analysis, focused on Hong Kong / GBA trends.
+- Estimate market sizes and judge investments with simple cost–benefit analysis and market simulations.
+- Explore pricing, economic incentives, and congestion management for sustainability and public acceptance.
+- Review business frameworks, value-chain roles, and regulatory economics, using global case studies from NASA, McKinsey, and AiRMOUR.
+- Develop strategies for market growth, policy evaluation, and stakeholder engagement through scenario discussions and team projects.
 
 ## 12-week conceptual map
 
-How the weeks build on each other. Week titles match the course schedule. Click a week to open its page (slides, notes, readings). If week titles feel dense, start with [What is LAE?](primer.qmd) in the Orient menu.
+This map shows how the weeks build on each other. Week titles match the course schedule.
+
+Click a week to open its page (slides, notes, readings). If the titles feel heavy, start with [What is LAE?](primer.qmd) in the Orient menu.
 
 ```{=html}
 <style>
@@ -102,4 +109,4 @@ How the weeks build on each other. Week titles match the course schedule. Click 
 
 ## Course materials on this site
 
-- **Teach** menu — one article per week (notes, slides, summary, readings)  
+- **Teach** menu — one article per week (notes, slides, summary, readings)

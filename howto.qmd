@@ -8,26 +8,33 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Few steps. Full definitions stay on [Glossary](glossary.qmd); citeable status stays on [Official status](tracker.qmd).
+A few steps only.
+
+- Full definitions: [Glossary](glossary.qmd)
+- Citeable status: [Official status](tracker.qmd)
 
 ## Orient first
 
-Follow the Orient menu in order:
+Follow the **Orient** menu in this order:
 
 1. [Course overview](overview.qmd) — week map and what the course covers  
-2. [What is LAE?](primer.qmd) — plain-language scope  
+2. [What is LAE?](primer.qmd) — plain-English scope  
 3. [How does LAE work?](business-overview.qmd) — value, who pays whom, sectors  
 4. [Who decides what?](regulators.qmd) — who regulates what  
 5. This page — how the rest of the site fits  
 6. [Common questions](faq.qmd) — ten short Q&As  
 7. [Key figures](key-figures.qmd) — short sourced numbers  
 
-Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-institutions-and-law); [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law); [CASK](glossary.qmd#business-and-economics).
+Handy Glossary links when a term appears:
+
+- [Sandbox X](glossary.qmd#hong-kong-institutions-and-law) (keep separate from the earlier Regulatory Sandbox)
+- [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law)
+- [CASK](glossary.qmd#business-and-economics) (cost per available seat-kilometre)
 
 ## Then Teach
 
 - **Teach** menu — one page per week (notes, slides PDF, summary, readings). Start with [Week 1](week-01.qmd).  
-- Slides PDFs are the class outline; the week page holds the fuller notes and readings.  
+- Slide PDFs are the class outline. The week page holds the fuller notes and readings.
 
 ## Official facts
 
@@ -42,4 +49,4 @@ Handy Glossary links when a term appears: [Sandbox X](glossary.qmd#hong-kong-ins
 - [Use cases](usecases.qmd) — trial and operating applications  
 - [Timeline](dates.qmd) — dated instruments and milestones  
 
-No Blackboard admin on this site.
+This site has no Blackboard admin. Course logistics stay on the teaching platform.

@@ -8,7 +8,11 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Striking numbers only. Every figure links to its issuer. Full status and wording live on [Official status](tracker.qmd); diagrams on [Glossary](glossary.qmd); dates on [Timeline](dates.qmd).
+This page shows striking numbers only. Every figure links to its issuer.
+
+- Full status and wording: [Official status](tracker.qmd)
+- Diagrams: [Glossary](glossary.qmd)
+- Dates: [Timeline](dates.qmd)
 
 ```{=html}
 <style>
@@ -29,8 +33,8 @@ Striking numbers only. Every figure links to its issuer. Full status and wording
 
 ```{=html}
 <div class="kfig"><div class="kfig-grid">
-<div class="kfig-card"><span class="num">~1,000 m</span><span class="label">Hong Kong working description of LAE — economic activities in airspace generally below about 1,000 metres (not a Cap. 448G flying limit).</span><span class="src">Issuer: LegCo paper <a href="https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf">CB(3)933/2024</a> · also on <a href="tracker.qmd">Official status</a></span></div>
-<div class="kfig-card"><span class="num">120 m / 300 m</span><span class="label">Mainland airspace labels (真高): 120 m controlled airspace; 300 m fused flight — different scheme from Hong Kong’s 1,000 m working description.</span><span class="src">Issuer: <a href="https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm">国令761</a> Arts. 19 &amp; 22 · Glossary altitude diagram</span></div>
+<div class="kfig-card"><span class="num">~1,000 m</span><span class="label">Hong Kong working description of LAE — economic activity in airspace generally below about 1,000 metres. This is <strong>not</strong> a Cap. 448G flying limit.</span><span class="src">Issuer: LegCo paper <a href="https://www.legco.gov.hk/yr2024/english/panels/edev/papers/edev20241203cb3-933-3-e.pdf">CB(3)933/2024</a> · also on <a href="tracker.qmd">Official status</a></span></div>
+<div class="kfig-card"><span class="num">120 m / 300 m</span><span class="label">Mainland airspace labels (真高): 120 m controlled airspace; 300 m fused flight. This is a <strong>different</strong> scheme from Hong Kong’s 1,000 m working description.</span><span class="src">Issuer: <a href="https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm">国令761</a> Arts. 19 &amp; 22 · Glossary altitude diagram</span></div>
 <div class="kfig-card"><span class="num">100 ft / 300 ft</span><span class="label">Hong Kong Cap. 448G operating height limits for Category A1 (100 ft AGL) and Category A2 (300 ft AGL ≈ 91 m). Higher needs CAD permission.</span><span class="src">Issuer: CAD <a href="https://www.cad.gov.hk/documents/G.N.1276_E.pdf">G.N. 1276 of 2022</a> · Glossary</span></div>
 </div></div>
 ```
@@ -39,19 +43,21 @@ Striking numbers only. Every figure links to its issuer. Full status and wording
 
 ```{=html}
 <div class="kfig"><div class="kfig-grid">
-<div class="kfig-card"><span class="num">≤ 150 kg</span><span class="label">Small unmanned aircraft (SUA) ceiling under Cap. 448G — the main Hong Kong legal label for light unmanned craft.</span><span class="src">Issuer: <a href="https://www.elegislation.gov.hk/hk/cap448G">Cap. 448G</a> · Official status</span></div>
+<div class="kfig-card"><span class="num">≤ 150 kg</span><span class="label"><strong>Small unmanned aircraft (SUA)</strong> ceiling under Cap. 448G — the main Hong Kong legal label for light unmanned craft.</span><span class="src">Issuer: <a href="https://www.elegislation.gov.hk/hk/cap448G">Cap. 448G</a> · Official status</span></div>
 <div class="kfig-card"><span class="num">A1 → C</span><span class="label">Weight classes: A1 ≤250 g; A2 ≤7 kg; B ≤25 kg; C above 25 kg up to 150 kg (Category C from 18 Jul 2025).</span><span class="src">Issuer: <a href="https://www.elegislation.gov.hk/hk/cap448G">Cap. 448G</a>; Cat C start <a href="https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm">GIA, 17 Jul 2025</a></span></div>
 </div></div>
 ```
 
 ## Trial programmes (two separate counts)
 
+Keep **Regulatory Sandbox** and **Sandbox X** separate. Do not add their counts into one total.
+
 ```{=html}
 <div class="kfig"><div class="kfig-grid">
-<div class="kfig-card"><span class="num">38 of 72</span><span class="label">First Regulatory Sandbox — first batch of pilot projects selected from applications.</span><span class="src">Issuer: <a href="https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm">GIA, 20 Mar 2025</a> · Official status</span></div>
-<div class="kfig-card"><span class="num">33</span><span class="label">Sandbox X selected modules so far: UTM 15 + unconventional aircraft 4 + shared platform 5 + others 9 (15+4+5+9). Separate from the Sandbox 38.</span><span class="src">Issuer: <a href="https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html">TLB Low-altitude page</a> · Official status</span></div>
-<div class="kfig-card"><span class="num">&gt;140</span><span class="label">Regularised Regulatory Sandbox projects approved (Policy Address figure) — not the same as the first-batch 38.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶137</a></span></div>
-<div class="kfig-card"><span class="num">~10</span><span class="label">Sandbox X projects that had begun testing (Policy Address snapshot) — not the same as the 33 module total.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶137</a></span></div>
+<div class="kfig-card"><span class="num">38 of 72</span><span class="label">First <strong>Regulatory Sandbox</strong> — first batch of pilot projects selected from applications.</span><span class="src">Issuer: <a href="https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm">GIA, 20 Mar 2025</a> · Official status</span></div>
+<div class="kfig-card"><span class="num">33</span><span class="label"><strong>Sandbox X</strong> selected modules so far: UTM 15 + unconventional aircraft 4 + shared platform 5 + others 9 (15+4+5+9). Separate from the Sandbox 38.</span><span class="src">Issuer: <a href="https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html">TLB Low-altitude page</a> · Official status</span></div>
+<div class="kfig-card"><span class="num">&gt;140</span><span class="label">Regularised Regulatory Sandbox projects approved (Policy Address figure) — <strong>not</strong> the same as the first-batch 38.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶137</a></span></div>
+<div class="kfig-card"><span class="num">~10</span><span class="label">Sandbox X projects that had begun testing (Policy Address snapshot) — <strong>not</strong> the same as the 33 module total.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶137</a></span></div>
 </div></div>
 ```
 
@@ -59,9 +65,9 @@ Striking numbers only. Every figure links to its issuer. Full status and wording
 
 ```{=html}
 <div class="kfig"><div class="kfig-grid">
-<div class="kfig-card gold wide"><span class="num">HK$350 bn</span><span class="label">Our Hong Kong Foundation projection of Hong Kong LAE industry value added by 2050 — a private think-tank figure, not a government number.</span><span class="src">Issuer: <a href="https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83">OHKF, Sep 2025</a> · Official status</span></div>
+<div class="kfig-card gold wide"><span class="num">HK$350 bn</span><span class="label"><strong>Our Hong Kong Foundation</strong> projection of Hong Kong LAE industry value added by 2050 — a private think-tank figure, <strong>not</strong> a government number.</span><span class="src">Issuer: <a href="https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83">OHKF, Sep 2025</a> · Official status</span></div>
 <div class="kfig-card"><span class="num">from 2028</span><span class="label">Target for progressive implementation of Hong Kong’s Smart Low-altitude Traffic Management System.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶139</a> · Official status (WATCH)</span></div>
-<div class="kfig-card"><span class="num">1.4 GHz</span><span class="label">1430–1444 MHz UAS (Private) Licence — spectrum confined to LAE Regulatory Sandbox projects.</span><span class="src">Issuer: <a href="https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html">OFCA</a></span></div>
+<div class="kfig-card"><span class="num">1.4 GHz</span><span class="label">1430–1444 MHz UAS (Private) Licence — spectrum confined to LAE <strong>Regulatory Sandbox</strong> projects (not Sandbox X by itself).</span><span class="src">Issuer: <a href="https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html">OFCA</a></span></div>
 </div></div>
 ```
 

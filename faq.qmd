@@ -8,47 +8,96 @@ toc-location: right
 toc-title: "Questions"
 ---
 
-Quick answers. Longer explanations stay on the linked Orient and Official facts pages.
+Quick answers. Longer explanations sit on the linked Orient and Official facts pages.
 
 ## 1. What does “LAE” mean in Hong Kong?
 
-Economic activity in airspace generally below about **1,000 metres** — a **policy working description**, not a Cap. 448G flying height. See [What is LAE?](primer.qmd) and [Key figures](key-figures.qmd).
+**LAE** means the **low-altitude economy**.
+
+In Hong Kong it refers to economic activity in airspace generally below about **1,000 metres**.
+
+That height is a **policy working description** — a way to talk about the field. It is **not** a Cap. 448G flying-height limit.
+
+See [What is LAE?](primer.qmd) and [Key figures](key-figures.qmd).
 
 ## 2. Is “drone” the same as SUA?
 
-In everyday speech, people say “drone.” Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) (not more than **150 kg**). “Drone” is not a Cap. 448G synonym. See [Glossary · vehicles](glossary.qmd#vehicles-and-operations).
+In everyday speech, people say “drone.”
+
+Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law) (not more than **150 kg**).
+
+“Drone” is **not** a Cap. 448G legal synonym.
+
+See [Glossary · vehicles](glossary.qmd#vehicles-and-operations).
 
 ## 3. Does Hong Kong already have eVTOL or vertiport statutes?
 
-**No dedicated Hong Kong eVTOL or vertiport statute yet.** Heavier / passenger-oriented types sit above the SUA ceiling as unconventional aircraft pending rules; “vertiport” is industry language for take-off and landing sites. Status rows: [Official status](tracker.qmd); plain language: [What is LAE?](primer.qmd).
+**No.** Hong Kong has **no dedicated eVTOL or vertiport statute yet**.
+
+- **eVTOL** = electric vertical take-off and landing craft (industry label).
+- **Vertiport** = industry word for a take-off and landing site.
+
+Heavier / passenger-oriented types sit above the SUA weight ceiling as **unconventional aircraft** while rules are still being developed.
+
+Status rows: [Official status](tracker.qmd). Plain language: [What is LAE?](primer.qmd).
 
 ## 4. What are Sandbox and Sandbox X?
 
-Two **different** Hong Kong trial programmes — an early **Regulatory Sandbox** and a later **Sandbox X**. Plain wording: [Who decides what?](regulators.qmd#standing-caveats); numbers: [Key figures](key-figures.qmd).
+They are two **different** Hong Kong trial programmes:
+
+1. an early **Regulatory Sandbox**; and  
+2. a later **Sandbox X**.
+
+Do **not** treat them as one combined list.
+
+Plain wording: [Who decides what?](regulators.qmd#standing-caveats). Numbers: [Key figures](key-figures.qmd).
 
 ## 5. Is the Shenzhen–Hong Kong corridor already flying?
 
-A cross-boundary / GBA corridor is discussed in policy, but on the evidence tracked here it is **not an operating corridor yet**. See [Who decides what?](regulators.qmd#standing-caveats) and [Official status](tracker.qmd).
+A cross-boundary / **Greater Bay Area (GBA)** corridor is discussed in policy.
+
+On the evidence tracked here, it is **not an operating corridor yet** — not day-to-day service.
+
+See [Who decides what?](regulators.qmd#standing-caveats) and [Official status](tracker.qmd).
 
 ## 6. Is the HK$350 billion figure a government number?
 
-**No.** About **HK$350 billion** by 2050 is an **Our Hong Kong Foundation** projection, not an HKSAR government figure. See [Key figures](key-figures.qmd) and [Official status](tracker.qmd).
+**No.**
+
+About **HK$350 billion** by 2050 is an **Our Hong Kong Foundation** projection (a private think-tank figure). It is **not** an HKSAR government figure.
+
+See [Key figures](key-figures.qmd) and [Official status](tracker.qmd).
 
 ## 7. Who decides what in Hong Kong?
 
-Short roles: Working Group (strategy), **TLB** (policy bureau), **CAD** (Cap. 448G / sandbox circulars), **OFCA** (sandbox spectrum licence). Cheat sheet: [Who decides what?](regulators.qmd).
+Short roles:
+
+- **Working Group** — strategy  
+- **TLB** (Transport and Logistics Bureau) — policy bureau  
+- **CAD** (Civil Aviation Department) — Cap. 448G / sandbox circulars  
+- **OFCA** — sandbox spectrum licence  
+
+Cheat sheet: [Who decides what?](regulators.qmd).
 
 ## 8. How does the business side fit together?
 
-LAE is a **whole service** (craft, sites, traffic, operators, customers, supporting services). Who pays whom is on [How does LAE work?](business-overview.qmd); firm lists on [Companies & sectors](landscape.qmd).
+LAE is a **whole service**: craft, sites, traffic, operators, customers, and supporting services.
+
+Who pays whom: [How does LAE work?](business-overview.qmd).  
+Firm lists: [Companies & sectors](landscape.qmd).
 
 ## 9. Where are lectures and readings?
 
-**Teach** menu: one page per week (notes, slides, summary, readings) — start with [Week 1](week-01.qmd). Week map: [Course overview](overview.qmd). Path tip: [How to use this site](howto.qmd).
+Use the **Teach** menu: one page per week (notes, slides, summary, readings). Start with [Week 1](week-01.qmd).
+
+Week map: [Course overview](overview.qmd).  
+Path tip: [How to use this site](howto.qmd).
 
 ## 10. What may I treat as settled for citation?
 
-Use [Official status](tracker.qmd) chips — [OPEN]{.status-chip .status-open} / [WATCH]{.status-chip .status-watch} / [settled]{.status-chip .status-settled} — and dated instruments on [Timeline](dates.qmd). Definitions: [Glossary](glossary.qmd).
+Use [Official status](tracker.qmd) chips — [OPEN]{.status-chip .status-open} / [WATCH]{.status-chip .status-watch} / [settled]{.status-chip .status-settled} — and dated instruments on [Timeline](dates.qmd).
+
+Definitions: [Glossary](glossary.qmd).
 
 ---
 
