@@ -262,22 +262,21 @@ Cross-boundary development also requires coordination on customs, immigration, q
 
 ### Phased roadmap value
 
-In words: form year-$t$ net cash flow, then discount and sum. Compact symbols (braced subscripts so Markdown/KaTeX stay unambiguous):
+In words: form year-$t$ net cash flow as inflow minus outflow, then discount and sum. Use an upright multi-letter label for cash flow so KaTeX does not read CF as the product $C \cdot F$:
 
 - $I_{t}$ — incremental cash inflow in year $t$  
 - $O_{t}$ — incremental cash outflow in year $t$  
-- $CF_{t}$ — incremental net cash flow ($I_{t}-O_{t}$)  
+- $\mathrm{CF}_{t}$ — incremental net cash flow ($I_{t}-O_{t}$)  
 - $r$ — discount rate  
 - $\mathrm{NPV}$ — roadmap net present value  
 
 $$
 \begin{aligned}
-CF_{t}
-&= I_{t} \\
-&\quad - O_{t} \\
+\mathrm{CF}_{t}
+&= I_{t} - O_{t} \\
 \mathrm{NPV}
 &= \sum_{t=0}^{T}
-  \frac{CF_{t}}{(1+r)^{t}}
+  \frac{\mathrm{CF}_{t}}{(1+r)^{t}}
 \end{aligned}
 $$
 
@@ -334,7 +333,7 @@ The short checklist is in [Summary](#summary) above.
 8. Distinguish network effects from scale / standardization.  
 9. State **U-space ≠ HK law**; compute $S_{\mathrm{day}}$ for two coordination processes.  
 10. Cite OFCA **1.4 GHz Sandbox confinement** and **AC-017** Sandbox X scope correctly.  
-11. Build a three-stage roadmap with evidence gates and $\mathrm{NPV}$ from $CF_{t}$.  
+11. Build a three-stage roadmap with evidence gates and $\mathrm{NPV}$ from $\mathrm{CF}_{t}$.  
 12. Connect Week 5 site slots and Week 7 permissions to this week’s airspace allocation.
 
 ---
