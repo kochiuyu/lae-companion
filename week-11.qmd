@@ -77,9 +77,11 @@ A strong capstone does more than collect ten weeks of separate calculations:
 
 ---
 
-Section 1 insisted on one connected system. The **integration challenge** makes the rivets visible: $D_{\mathrm{served}}$, capacity $K$, and operating profit must share one cash-flow path.
+Section 1 insisted on one connected system. The **integration challenge** makes the rivets visible. Served demand $D_{\mathrm{served}}$, capacity $K$, and operating profit must share **one** cash-flow path.
 
 ## 2. The integration challenge
+
+Integration means the pieces share **one** model path: demand, capacity, cost, cash, and legitimacy must move together. Do not keep “ESG slides” that never change profit or NPV.
 
 Business-model components are connected through quantities, prices, capacity, cost, timing, risk, and stakeholder responses:
 
@@ -91,6 +93,7 @@ Business-model components are connected through quantities, prices, capacity, co
 **Integration rule:** every important assumption should appear **once** in the correct model channel, with no contradictory units or double counting (Week 9 constraint-mapping lesson).
 
 ### The viability test
+
 
 
 ```{=html}
@@ -108,6 +111,7 @@ Business-model components are connected through quantities, prices, capacity, co
 <p class="wdiag-note">Capacity-shock table below is illustrative — not Hong Kong weather downtime.</p>
 </figure>
 ```
+
 Name the intermediates (same funnel logic as Week 9, now at the centre of the pitch):
 
 - $D$ — customer demand (units per period: flights, passenger-trips, missions — pick one and keep it)  
@@ -118,6 +122,7 @@ Name the intermediates (same funnel logic as Week 9, now at the centre of the pi
 - $F$ — fixed cost for the period  
 - $\Pi_{\mathrm{op}}$ — operating profit (contribution minus fixed cost)  
 
+
 $$
 \begin{aligned}
 D_{\mathrm{served}}
@@ -126,6 +131,7 @@ D_{\mathrm{served}}
 &= (p - v)\, D_{\mathrm{served}} - F
 \end{aligned}
 $$
+
 
 Demand may be limited by price, travel time, or customer acceptance. Capacity may be limited by aircraft, infrastructure, weather, or regulation. The business is operationally viable only if served activity generates enough contribution to cover fixed cost. Longer-horizon judgment still needs cash flow, $\mathrm{NPV}$ from $\mathrm{CF}_{t}$ (Week 8), financing, and downside liquidity / $\Pr(\Pi < 0)$ (Week 9).
 
@@ -149,6 +155,7 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
 ## 3. Integrated strategy template
 
 
+
 ```{=html}
 <figure class="wdiag" id="w11-blocks" aria-labelledby="w11-blocks-title">
 <p class="wdiag-cap" id="w11-blocks-title"><strong>Six connected blocks</strong></p>
@@ -163,6 +170,7 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
 <p class="wdiag-note">Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
 </figure>
 ```
+
 A coherent capstone should connect six decision blocks:
 
 1. **Service and stakeholder problem** — What need is addressed, for whom, and compared with what alternative?  
@@ -209,7 +217,7 @@ Phased gates echo Weeks 6–8: expand only when evidence, review, and risk contr
 
 ---
 
-Gates face humans. The **decision-maker’s lens** asks what investors, regulators, and communities will treat as strong evidence — and which category errors to refuse aloud.
+Gates face humans. The **decision-maker’s lens** asks what investors, regulators, and communities will treat as strong evidence. It also asks which category errors you must refuse aloud.
 
 ## 5. The decision-maker's lens
 

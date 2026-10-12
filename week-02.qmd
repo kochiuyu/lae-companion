@@ -86,9 +86,10 @@ Week 1’s empty-seat / utilization arithmetic already hinted that **fixed site 
 
 ---
 
-Section 1 asked why structure matters for LAE. Economists answer with a precise idea of **market structure** — how many rivals, how differentiated the product, and how hard entry is — before anyone talks about “dominance.”
+Section 1 asked why structure matters for LAE. Economists start with **market structure**: how many rivals there are, how different the products are, and how hard it is for new firms to enter. Only then does “dominance” make sense.
 
 ## 2. What economists mean by “market structure”
+
 
 
 ```{=html}
@@ -103,6 +104,7 @@ Section 1 asked why structure matters for LAE. Economists answer with a precise 
 <p class="wdiag-note">Connects to Week 5 scarce sites and Week 8 airspace allocation.</p>
 </figure>
 ```
+
 Before analysing flying taxis or drone corridors, label how competition is organised in a **defined market** (product + geography + customer type — for example “premium passenger trips on a named corridor,” not “all of LAE”).
 
 Three classic structures (simplified):
@@ -149,7 +151,7 @@ Dated trial and operating examples (not market-share claims): [Use cases](usecas
 
 ---
 
-Four segments, four logics. Concentration tools come next: the **HHI screen** is a classroom way to summarise how uneven shares look — useful only after the market definition in §§2–3 is clear.
+Four segments, four logics. Concentration tools come next. The **HHI screen** is a classroom way to summarise how uneven shares look. Use it only after the market definition in §§2–3 is clear.
 
 ## 4. Market concentration and the HHI screen
 
@@ -157,11 +159,15 @@ Four segments, four logics. Concentration tools come next: the **HHI screen** is
 
 ### Herfindahl–Hirschman Index (HHI)
 
+**HHI** is a concentration score. You build it from each firm’s market share. A higher HHI means shares are more uneven (more concentrated).
+
 A common screening measure is:
+
 
 $$
 HHI = \sum_{i=1}^{N} s_i^2
 $$
+
 
 where $s_i$ is firm $i$’s market share **in percent** in the defined market (so a pure monopoly scores $100^2 = 10{,}000$). Squaring **amplifies** large shares: a firm with 90% contributes $8{,}100$; four equal 25% firms contribute $4 \times 625 = 2{,}500$.
 
@@ -199,9 +205,11 @@ To see why landing pads and utilization dominate LAE competition, separate two c
 
 Average total cost per flight (simple teaching form):
 
+
 $$
 \text{ATC} = \frac{\text{Fixed costs}}{\text{Number of flights}} + \text{Marginal cost}
 $$
+
 
 More flights **spread** the fixed charge. Low utilization makes each flight look extremely expensive even if energy is cheap.
 
@@ -213,7 +221,7 @@ More flights **spread** the fixed charge. Low utilization makes each flight look
 |--|----------------------------------|--------------------------------------|
 | Fixed cost per flight | $33{,}333 / 20 =$ **HK$1,667** | $33{,}333 / 200 =$ **HK$167** |
 | + Marginal cost | HK$50 | HK$50 |
-| **ATC** | **HK$1,717** | **HK$217** |
+| **ATC** (**average total cost** — total cost divided by units of output) | **HK$1,717** | **HK$217** |
 
 **Takeaway:** high fixed site costs make low utilization deadly. Operators must earn enough reliable daily volume — subject to demand, weather, regulation, and pad throughput (Week 5 deepens infrastructure).
 
@@ -226,6 +234,7 @@ Week 1’s operating-restriction example (same fixed lease, fewer flights) is th
 Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a related question: does packing more activity onto the *same* corridor or pad cut unit cost — without needing a bigger vehicle?
 
 ## 6. Economies of density (not bigger vehicles)
+
 
 
 ```{=html}
@@ -243,15 +252,18 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
 <p class="wdiag-note">Schematic teaching loop — not a forecast of any Hong Kong site.</p>
 </figure>
 ```
+
 Traditional airlines often chase **economies of scale** with larger aircraft. Many LAE concepts cannot “go bigger” the same way: passenger eVTOL ideas may have only a handful of seats; delivery drones carry limited payload. Hong Kong has **no dedicated eVTOL statute yet**; treat eVTOL as an industry concept pending rules ([Week 1](week-01.qmd); [Glossary · vehicles](glossary.qmd#vehicles-and-operations)).
 
 Instead, LAE economics leans on **economies of density**: running **more volume through the same corridor and sites** so fixed route and pad costs are spread thinly. Achievable density is limited by demand, pad capacity, congestion, weather, and rules — density is not a free lunch ([Glossary · economies of density](glossary.qmd)).
 
 A teaching form that highlights density in the denominator:
 
+
 $$
 \text{Average cost per flight} = \frac{\text{Fixed route costs}}{\text{Flights} \times \text{Density factor}} + \text{Marginal cost}
 $$
+
 
 (In the simplest classroom cases, “density” is just higher flight count on the same fixed pad.)
 
@@ -295,9 +307,11 @@ A **sunk cost** is expenditure you cannot recover if you exit (for example much 
 
 If an incumbent could charge a very high monopoly price, that profit signal might attract entry. **Limit pricing** means charging low enough that a potential entrant’s expected average cost (including amortised sunk entry cost) is not covered — a teaching strategy, not a guarantee that entry is blocked.
 
+
 $$
 P_{\text{Limit}} \approx AC_{\text{Entrant}} = \frac{\text{Sunk entry cost}}{\text{Expected volume } Q} + MC
 $$
+
 
 ### Worked illustration (limit price and shared pads)
 
@@ -351,9 +365,11 @@ Place and programmes set the institutional stage. When **capacity is scarce**, p
 
 If two operators offer a homogeneous service with **unconstrained** capacity, price undercutting can drive price down toward **marginal cost** — a “race to the bottom” where margins vanish (Bertrand-style teaching model):
 
+
 $$
 P = MC \quad \text{(unconstrained capacity, homogeneous product)}
 $$
+
 
 ### Why scarce pads change the story
 
@@ -391,9 +407,11 @@ Airlines sometimes compete for passengers while sharing lounges or codeshares. E
 
 Teaching split of a shared fixed infrastructure cost among $N$ operators:
 
+
 $$
 \text{Savings per operator relative to going alone} = \frac{\text{Fixed infrastructure cost} \times (N-1)}{N}
 $$
+
 
 ### Worked illustration (shared rooftop)
 
@@ -440,7 +458,7 @@ The short checklist is in [Summary](#summary) above.
 
 1. Define a **narrow market** (product + geography + customer + layer) before talking about competition.  
 2. Explain why LAE is **not one market structure**.  
-3. Compute **HHI** from percent shares and interpret it only as a **screen**.  
+3. Compute **HHI** (**Herfindahl–Hirschman Index** — a concentration score built from market shares) from percent shares and interpret it only as a **screen**.  
 4. Separate **fixed** vs **marginal** cost; compute **ATC** at low and high utilization.  
 5. Contrast **economies of scale** (bigger vehicles) with **economies of density** (more volume on the same sites).  
 6. List NASA-style barriers and give a **sunk cost** example that is hard to resell.  

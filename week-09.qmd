@@ -56,7 +56,7 @@ By the end of Week 9 you should be able to:
 | Commercial vs social | §1 | Profit can diverge from social net benefit and distribution |
 | Market funnel | §2 | TAM / SAM / obtainable demand; capacity-capped contribution |
 | Constraints | §3 | Map each barrier to one model channel; avoid double counting |
-| Uncertainty | §4 | Scenarios, Monte Carlo concept, expected value and downside |
+| Uncertainty | §4 | Scenarios, Monte Carlo (many random draws from uncertain inputs to see a range of outcomes) concept, expected value and downside |
 | Value added & equity | §§5–7 | OHKF HK\$350bn attribution; hedonic tool; distribution |
 | Close | §§8–10 | Integrated dashboard; synthesis; study checklist |
 
@@ -76,7 +76,7 @@ A profitable service can still create social costs; an unprofitable service may 
 
 ---
 
-Section 1 separated commercial profit from social net benefit. **Market sizing** starts the commercial side: define the market, apply a funnel, and confront obtainable demand with capacity.
+Section 1 separated commercial profit from social net benefit. **Market sizing** starts the commercial side. Define the market, apply a funnel, and check obtainable demand against capacity.
 
 ## 2. Market sizing
 
@@ -92,6 +92,8 @@ Market sizing connects Week 4 demand analysis with capacity and cost from later 
 
 ### Defining the potential market
 
+Before any big number, name the **service**, the **route or area**, the **customer type**, and the **time period**. A vague “all trips to the airport” is not a market definition.
+
 Start with the **decision**, not the largest available number:
 
 1. Define the service, origin–destination market, customer, direction, and time period.  
@@ -103,6 +105,7 @@ Start with the **decision**, not the largest available number:
 Do **not** sum all trips to the airport unless they are genuinely relevant to the defined corridor and service. Do **not** invent a published Hong Kong corridor volume when CAD has not published one — use ranges and label classroom figures as illustrative.
 
 ### Market funnel with capacity
+
 
 
 ```{=html}
@@ -118,6 +121,7 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 <p class="wdiag-note">OHKF HK$350bn is think-tank Hong Kong value added by 2050 — not SOM. Classroom funnel numbers are illustrative.</p>
 </figure>
 ```
+
 Name the intermediates before the formulas:
 
 - $TAM$ — total addressable market (relevant trips or missions in the defined geography and period)  
@@ -127,6 +131,7 @@ Name the intermediates before the formulas:
 - $D_{\mathrm{pot}}$ — potential operator demand before capacity binding  
 - $K$ — reliable capacity (aircraft, seats or payload, infrastructure, hours, weather, approvals from Weeks 5 and 8)  
 - $D_{\mathrm{served}}$ — served demand after the capacity screen  
+
 
 $$
 \begin{aligned}
@@ -139,6 +144,7 @@ D_{\mathrm{served}}
 \end{aligned}
 $$
 
+
 Choice share should reflect price, generalized cost, service quality, and competition (Week 4). Reliable capacity includes aircraft, seats or payload, infrastructure, operating hours, weather, and approvals (Weeks 5 and 8). Avoid calling an unsupported capture percentage “realistic” without evidence.
 
 ### Revenue and contribution
@@ -148,6 +154,7 @@ Choice share should reflect price, generalized cost, service quality, and compet
 - $R_{\mathrm{day}}$ — daily revenue  
 - $\Pi_{\mathrm{var}}$ — daily contribution (revenue minus variable cost of served units)  
 
+
 $$
 \begin{aligned}
 R_{\mathrm{day}}
@@ -156,6 +163,7 @@ R_{\mathrm{day}}
 &= R_{\mathrm{day}} - D_{\mathrm{served}} \times v
 \end{aligned}
 $$
+
 
 Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue is not cash flow or profit and does not by itself justify infrastructure investment. Compare contribution and longer-term cash flows with fixed operating cost and investment cost (Week 6 facility logic; Week 8 roadmap NPV with $CF_{t}$).
 
@@ -190,6 +198,7 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 ## 3. Constraints from UAM market studies (no double counting)
 
 
+
 ```{=html}
 <figure class="wdiag" id="w09-channels" aria-labelledby="w09-channels-title">
 <p class="wdiag-cap" id="w09-channels-title"><strong>One constraint → one model channel</strong></p>
@@ -204,6 +213,7 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 <p class="wdiag-note">NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
 </figure>
 ```
+
 NASA-sponsored UAM market work examined **interacting** constraints rather than a universal list of five revenue haircuts. Themes typically include:
 
 - legal and regulatory requirements;  
@@ -260,12 +270,14 @@ A Monte Carlo simulation repeatedly samples uncertain inputs from specified dist
 
 Let $s$ index scenarios, $\Pr(s)$ the probability of scenario $s$, and $\Pi_{s}$ profit (or another payoff) in that scenario. Expected profit is:
 
+
 $$
 \begin{aligned}
 E[\Pi]
 &= \sum_{s} \Pr(s)\, \Pi_{s}
 \end{aligned}
 $$
+
 
 Expected value is the probability-weighted average across scenarios. It does **not** reveal how severe the downside can be or whether the business has enough liquidity to survive it. Also examine probability of loss, worst credible cash shortfall, and a downside percentile (e.g. 10th). Required cash reserves depend on cash-flow timing, financing access, risk tolerance, and recovery plans — not expected value alone.
 
@@ -283,7 +295,7 @@ Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **H
 
 ---
 
-Uncertainty tools are general. The **HK$350bn** figure is an OHKF think-tank **value-added** projection by 2050 — not government GDP, not your obtainable revenue, and not a TAM.
+Uncertainty tools are general. The **HK$350bn** figure is an **Our Hong Kong Foundation (OHKF)** think-tank **value-added** projection by 2050. It is **not** government GDP, **not** your obtainable revenue, and **not** a TAM.
 
 ## 5. The HK\$350 billion projection — and distributional questions
 
@@ -310,12 +322,14 @@ Hedonic analysis estimates how observable attributes are associated with market 
 
 ### Illustrative specification
 
+
 $$
 \begin{aligned}
 \ln(P_{i})
 &= \alpha + \beta N_{i} + \gamma A_{i} + \delta X_{i} + \varepsilon_{i}
 \end{aligned}
 $$
+
 
 - $P_{i}$ — property price or rent  
 - $N_{i}$ — measured noise exposure  

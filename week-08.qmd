@@ -81,9 +81,10 @@ Week 5 treated scarce **site** slots. Week 7 showed that advanced operations nee
 
 ---
 
-Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck** is a whole-system capacity problem — pads, procedures, spectrum, and rules can bind before aircraft do.
+Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck** is a whole-system capacity problem. Pads, procedures, spectrum, and rules can bind before aircraft do.
 
 ## 2. The airspace bottleneck
+
 
 
 ```{=html}
@@ -100,6 +101,7 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 <p class="wdiag-note">Classroom delay and bid numbers later are teaching screens, not published CAD capacities.</p>
 </figure>
 ```
+
 Airspace capacity is **not** simply a fixed number of drones per minute. Safe capacity depends on route geometry, separation, aircraft performance, surveillance, communications, weather, contingency routes, human oversight, and interactions with other airspace users. Vertiport capacity, charging, passenger processing, and available stands may bind **before** the corridor itself. Demand above reliable capacity creates delay, displacement, cancellation, or the need for another route or time.
 
 Hong Kong facts to keep straight ([Key figures](key-figures.qmd) · [Glossary](glossary.qmd)):
@@ -123,6 +125,8 @@ When capacity binds, delay spills onto others. **Congestion externalities** put 
 
 ## 3. Congestion externalities
 
+A **congestion externality** is the extra delay (and related cost) you impose on others when you use scarce airspace or pad capacity. Your private decision may ignore that cost — so total delay can rise too far.
+
 A congestion externality arises when one additional operation increases delay, risk-management effort, or disruption for other users without bearing the full resulting cost. A congestion charge aims to reflect the additional cost imposed on others. Relevant costs may include aircraft operating cost, passenger or cargo delay, schedule disruption, and extra coordination effort.
 
 Pricing is only one response. Reservations, quotas, priority rules, rerouting, and capacity investment may also be appropriate. Some public-service missions should be governed by **explicit priority rules** rather than willingness to pay.
@@ -136,6 +140,7 @@ In words: sum additional delay times value of delay across affected users, then 
 - $C_{\mathrm{other}}$ — other incremental costs  
 - $\mathrm{MCC}$ — marginal congestion cost  
 
+
 $$
 \begin{aligned}
 S_{\mathrm{delay}}
@@ -145,6 +150,7 @@ S_{\mathrm{delay}}
 &\quad + C_{\mathrm{other}}
 \end{aligned}
 $$
+
 
 Sum the incremental delay imposed on **all** affected users, not only the next aircraft. Values may differ across passengers, cargo, aircraft, public services, and schedule commitments. The theoretically efficient charge equals marginal external cost — that cost is hard to observe precisely in real time, so a practical peak charge may use estimated bands and periodic review.
 
@@ -168,6 +174,7 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 ## 4. Mechanism design and slot allocation
 
 
+
 ```{=html}
 <figure class="wdiag" id="w08-mech" aria-labelledby="w08-mech-title">
 <p class="wdiag-cap" id="w08-mech-title"><strong>Allocation families (choose with criteria)</strong></p>
@@ -180,6 +187,7 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 <p class="wdiag-note">High willingness to pay ≠ automatic social priority. Failure to obtain a linked slot → reject/reschedule, not unsafe flight.</p>
 </figure>
 ```
+
 Mechanism design asks how rules shape participants’ information, incentives, and outcomes:
 
 | Family | Examples |
@@ -200,6 +208,7 @@ In words: incremental revenue from the slot, minus incremental operating cost, m
 - $\pi_{\mathrm{req}}$ — required contribution  
 - $B_{\max}$ — maximum affordable payment  
 
+
 $$
 \begin{aligned}
 B_{\max}
@@ -208,6 +217,7 @@ B_{\max}
 &\quad - \pi_{\mathrm{req}}
 \end{aligned}
 $$
+
 
 Use incremental values associated with obtaining the slot — not total company revenue and OPEX. Required contribution may cover fixed cost, risk, or a target return. The rational bid also depends on auction rules, expected rival bids, alternative slots, and the risk that linked resources are unavailable. A high bid does **not** automatically imply high social value or justify excluding smaller operators.
 
@@ -226,7 +236,7 @@ Operator B can afford a higher bid under these assumptions. Actual payment depen
 
 ---
 
-Slots allocate a facility. **Network effects** ask whether shared information and coordination raise value as more users join — or lock in a poor standard.
+Slots allocate a facility. **Network effects** ask whether shared information and coordination raise value as more users join — or lock everyone into a poor standard.
 
 ## 5. Network effects and shared information
 
@@ -256,6 +266,7 @@ In words: subtract the cost of the interoperable process from the cost of the le
 - $C_{\mathrm{interop}}$ — cost of the interoperable process  
 - $S_{\mathrm{day}}$ — daily net saving  
 
+
 $$
 \begin{aligned}
 S_{\mathrm{day}}
@@ -263,6 +274,7 @@ S_{\mathrm{day}}
 &\quad - C_{\mathrm{interop}}
 \end{aligned}
 $$
+
 
 Include fixed systems, usage fees, communications, human oversight, cybersecurity, integration, certification, and exception handling. Interoperability can reduce duplicate interfaces and repeated manual data entry — and may create migration cost, common dependencies, governance disputes, and switching risks. Do not assume API or digital-services cost is near zero.
 
@@ -308,6 +320,7 @@ In words: form year-$t$ net cash flow as inflow minus outflow, then discount and
 - $r$ — discount rate  
 - $\mathrm{NPV}$ — roadmap net present value  
 
+
 $$
 \begin{aligned}
 \mathrm{CF}_{t}
@@ -317,6 +330,7 @@ $$
   \frac{\mathrm{CF}_{t}}{(1+r)^{t}}
 \end{aligned}
 $$
+
 
 Include implementation cost in the year it occurs. Cash flows should reflect probability of reaching each phase, operating limits, demand, cost, and possible abandonment. Decision gates preserve flexibility to pause, redesign, or expand when evidence changes (Week 6 staging). A positive NPV under assumptions does **not** prove that the wider market is viable.
 

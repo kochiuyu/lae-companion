@@ -72,6 +72,7 @@ Use the right-hand **On this page** list to jump. Equations use KaTeX; each form
 ## 1. The infrastructure bottleneck
 
 
+
 ```{=html}
 <figure class="wdiag" id="w05-bottleneck" aria-labelledby="w05-bottleneck-title">
 <p class="wdiag-cap" id="w05-bottleneck-title"><strong>Diagnose which resource binds</strong></p>
@@ -86,6 +87,7 @@ Use the right-hand **On this page** list to jump. Equations use KaTeX; each form
 <p class="wdiag-note">No invented “drones per minute” for Harbour or GBA corridors.</p>
 </figure>
 ```
+
 Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
 
 **Managerial question:** which resource is most likely to bind — aircraft, landing capacity, charging, airspace access, or customer access? Week 4 demand forecasts only matter if sites can serve them.
@@ -102,7 +104,7 @@ Policy language in Hong Kong already names planning of facilities such as vertip
 
 ---
 
-Section 1 named infrastructure as the bottleneck that can bind before aircraft do. **Vertiport archetypes** give classroom labels for site types — not an official Hong Kong classification.
+Section 1 named infrastructure as the bottleneck that can bind before aircraft do. **Vertiport archetypes** are classroom labels for site types. They are **not** an official Hong Kong classification.
 
 ## 2. Three classroom vertiport archetypes
 
@@ -136,6 +138,7 @@ A workable site balances:
 
 In words: add annualized infrastructure cost, annual operating spend, the monetized burden of extra access time for users, and expected disruption cost — then treat the sum as a **screen**, not a safety verdict.
 
+
 $$
 \begin{aligned}
 \text{Generalized site cost}
@@ -145,6 +148,7 @@ $$
 &\quad + \text{Expected disruption cost}
 \end{aligned}
 $$
+
 
 Lower generalized cost is **not** automatically better if the site fails safety, capacity, or service requirements.
 
@@ -170,7 +174,7 @@ A chosen site still needs **throughput and reliability**. Breakeven capacity use
 
 ## 4. Throughput, reliability, and breakeven capacity use
 
-**Throughput** — movements, passengers, or missions a facility can process in a period. It depends on pads, stands, turnaround, charging, processing, staffing, airspace, and procedures.
+**Throughput** (movements or passengers a facility can process in a period) — movements, passengers, or missions a facility can process in a period. It depends on pads, stands, turnaround, charging, processing, staffing, airspace, and procedures.
 
 **Reliability** — ability to deliver planned capacity when needed. Downtime cuts usable capacity and can create delays, diversions, refunds, or lost demand.
 
@@ -179,6 +183,7 @@ A chosen site still needs **throughput and reliability**. Breakeven capacity use
 ### Breakeven capacity use
 
 In words: take fixed daily facility cost and divide by (reliable daily capacity times contribution earned per movement). The result is the **share of reliable capacity** that must be sold to cover fixed facility cost.
+
 
 $$
 \begin{aligned}
@@ -189,6 +194,7 @@ $$
   \times \text{Contribution per movement}}
 \end{aligned}
 $$
+
 
 Contribution per movement ≈ facility fee − variable facility cost for that movement. Reliable capacity should reflect hours, turnaround, maintenance, weather, and priority access. This is **not** “percent of hours in the day the facility must be open.”
 
@@ -235,6 +241,7 @@ Staging changes when cash goes out. **Reliability scenarios** ask how downtime c
 
 In words: take scenario-adjusted revenue minus scenario-adjusted operating cost, then divide by initial investment — a rough screen, not a full NPV.
 
+
 $$
 \begin{aligned}
 \text{Simple return}
@@ -244,6 +251,7 @@ $$
 {\text{Initial investment}}
 \end{aligned}
 $$
+
 
 Adjusted revenue should reflect serviceable capacity, demand, cancellations, and pricing under the scenario. Some costs fall in downtime; fixed cost, recovery, refunds, and credits may remain or rise. Weather should be modelled from route- and aircraft-specific assumptions — **not** a universal annual percentage. This simple return is **not** full ROI or NPV (timing, financing, tax, residual value omitted).
 
@@ -272,6 +280,7 @@ Return screens need cost inputs. **Infrastructure CAPEX and OPEX** separate buil
 
 ### Daily infrastructure cost (economic sketch)
 
+
 $$
 \begin{aligned}
 \text{Daily infrastructure cost}
@@ -281,6 +290,7 @@ $$
 &\quad + \text{Daily OPEX}
 \end{aligned}
 $$
+
 
 Useful for unit-cost screening; not identical to cash flow, accounting depreciation, mortgage payment, ROI, or NPV.
 
@@ -316,6 +326,7 @@ When requests exceed safe, reliable capacity, managers need a **transparent** ru
 
 In words: start from a base fee, then add a congestion term that rises with how many requests compete for each available slot.
 
+
 $$
 \begin{aligned}
 \text{Slot fee}
@@ -327,6 +338,7 @@ $$
   \right)
 \end{aligned}
 $$
+
 
 Peak charges may shift flexible demand only if operators can change timing, route, or facility. Pricing must sit with safety limits, priority rules, competition policy, transparency, and access obligations. **Revenue maximisation alone is not the goal** of scarce infrastructure allocation.
 
@@ -361,6 +373,7 @@ There is **no** universal “Hong Kong strategy” or “GBA strategy.” Config
 
 In words: first bundle network fixed cost, OPEX, and disruption cost; divide that bundle by **served** trips; then add access burden per trip.
 
+
 $$
 \begin{aligned}
 \text{Network cost bundle}
@@ -372,6 +385,7 @@ $$
   + \text{Access burden per trip}
 \end{aligned}
 $$
+
 
 Use **served** trips (after capacity), not unconstrained forecast demand (Week 4).
 

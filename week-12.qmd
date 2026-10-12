@@ -72,9 +72,12 @@ Which part of the value chain is most likely to create durable value — aircraf
 
 ---
 
-Section 1 set the horizon: from trial to repeatable system. **Corridors to networks** asks how node count raises possible links — screening math, not a forecast that every link flies.
+Section 1 set the horizon: from trial to repeatable system. **Corridors to networks** asks how node count raises possible links. That is screening math — **not** a forecast that every link flies.
 
 ## 2. From corridors to networks
+
+A **corridor** is one link. A **network** is many links among many nodes. Adding nodes raises the *possible* number of connections — it does not guarantee that each link has demand or value.
+
 
 
 ```{=html}
@@ -95,6 +98,7 @@ Section 1 set the horizon: from trial to repeatable system. **Corridors to netwo
 <p class="wdiag-note">Screening rates in the worked table are classroom assumptions — not a GBA forecast.</p>
 </figure>
 ```
+
 A **network** links several origins, destinations, operators, and supporting facilities:
 
 - More nodes create more possible connections, but only some will have sufficient demand and feasible operations.  
@@ -109,12 +113,14 @@ A **network** links several origins, destinations, operators, and supporting fac
 - $N$ — number of active nodes  
 - $L$ — number of possible undirected pairs  
 
+
 $$
 \begin{aligned}
 L
 &= \frac{N(N-1)}{2}
 \end{aligned}
 $$
+
 
 If direction matters, possible origin–destination links are $N(N-1)$. The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with $N$, not exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
 
@@ -147,12 +153,14 @@ Digital systems can support planning, authorization, identification, traffic inf
 - $C_{\mathrm{trans}}$ — transition / migration cost (amortize or place in year 0 as required)  
 - $S_{\mathrm{net}}$ — net saving relative to the legacy process  
 
+
 $$
 \begin{aligned}
 S_{\mathrm{net}}
 &= C_{\mathrm{legacy}} - C_{\mathrm{dig}} - C_{\mathrm{trans}}
 \end{aligned}
 $$
+
 
 Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees, and exception handling. Savings depend on annual activity, reliability, integration complexity, and how much manual work is actually displaced. Marginal digital cost may be low — it is not generally zero. The preferred design must also meet safety, resilience, privacy, and accountability requirements (Week 10). This is the same spirit as Week 8’s $S_{\mathrm{day}}$ screen — now stated as a net figure after transition cost.
 
@@ -195,6 +203,7 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
 - $r$ — discount rate  
 - $\mathrm{NPV}$ — lessor net present value  
 
+
 $$
 \begin{aligned}
 \mathrm{CF}_{L,t}
@@ -206,6 +215,7 @@ $$
   + \frac{V_{T}}{(1+r)^{T}}
 \end{aligned}
 $$
+
 
 Depreciation is an accounting allocation; residual value and cash expenditures belong in the cash-flow appraisal. The lessor retains asset-value, financing, technology, maintenance, repossession, legal, and lessee-credit risks. Lease receipts are contractual — not risk-free.
 
@@ -230,9 +240,10 @@ Mainland ATM rules drafts (e.g. CAAC consultation on Readings) remain **draft on
 
 ---
 
-Roles and networks feed the exam. The **five-step exam method** reapplies the viability test and quantitative toolkit under shocks — timing and probability, not stacked haircuts.
+Roles and networks feed the exam. The **five-step exam method** (define → measure → test constraints → judge → recommend) reapplies the viability test and quantitative toolkit under shocks — timing and probability, not stacked haircuts.
 
 ## 5. Final review: five-step exam method
+
 
 
 ```{=html}
@@ -252,6 +263,7 @@ Roles and networks feed the exam. The **five-step exam method** reapplies the vi
 <p class="wdiag-note">CAAC ATM Rules on Readings remain a draft consultation — not in force. U-space ≠ HK law.</p>
 </figure>
 ```
+
 For an integrated LAE scenario:
 
 1. **Define the decision** — What is being chosen, for whom, over what period, and compared with what alternative?  
@@ -272,6 +284,7 @@ Same symbols as Week 11 — rehearse them until the units are automatic:
 - $p, v, F$ — price, variable cost, fixed cost  
 - $\Pi_{\mathrm{op}}$ — operating profit  
 
+
 $$
 \begin{aligned}
 D_{\mathrm{served}}
@@ -280,6 +293,7 @@ D_{\mathrm{served}}
 &= (p - v)\, D_{\mathrm{served}} - F
 \end{aligned}
 $$
+
 
 Add any specified tax, fee, subsidy, or committed payment in the correct place (e.g. subtract a per-flight noise charge inside the contribution term, or add $P_{\mathrm{PS}}$ as in Week 10). Recalculate $D_{\mathrm{served}}$ when a shock changes demand or capacity. Then discuss regulation, safety, sustainability, and distributional effects (Week 11).
 
@@ -312,7 +326,7 @@ In symbols: $\Pi_{\mathrm{op}} = (p - v - c_{\mathrm{noise}})\, D_{\mathrm{serve
 
 ---
 
-Method without judgment fails. **Consistent judgment** keeps units, facts, and conditional recommendations aligned so proceed / pause / redesign / stop stays defendable.
+Method without judgment fails. **Consistent judgment** keeps units, facts, and conditional recommendations aligned. Then proceed / pause / redesign / stop stays defendable.
 
 ## 6. Consistent judgment
 

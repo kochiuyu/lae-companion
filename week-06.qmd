@@ -89,9 +89,10 @@ Week 3 separated CAPEX, fixed OPEX, and variable cost. Week 4 showed **served** 
 
 ---
 
-Section 1 asked who owns risk in the commercial stack. **Three business-model archetypes** make that choice concrete — and the monthly economic-profit screen keeps slogans from replacing cash.
+Section 1 asked who owns risk in the commercial stack. **Three business-model archetypes** make that choice concrete. A monthly economic-profit screen keeps slogans from replacing cash.
 
 ## 2. Three business-model archetypes
+
 
 
 ```{=html}
@@ -105,6 +106,7 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 <p class="wdiag-note">Architecture changes risk allocation — it does not remove Cap. 448G permission needs (Week 7).</p>
 </figure>
 ```
+
 | Archetype | Core idea | Typical exposure |
 |-----------|-----------|------------------|
 | **Asset-intensive operator** | Owns or finances major aircraft and infrastructure; controls more of the operating system | High capital and utilization risk; potentially greater control and value capture |
@@ -119,6 +121,7 @@ Real businesses often **combine** elements. Roles without firm names: [How does 
 
 In words: take revenue, subtract cash operating spend, the period’s asset-cost allocation, and what you pay partners.
 
+
 $$
 \begin{aligned}
 \text{Monthly economic profit}
@@ -127,6 +130,7 @@ $$
   - \text{Partner payments}
 \end{aligned}
 $$
+
 
 Ownership affects financing, residual value, utilization risk, and control. Contracting converts some investment into recurring partner payments — it does **not** eliminate liability or performance risk. Platforms may scale with fewer physical assets but need trust, two-sided liquidity, governance, data security, and enough transactions. Compare cash flow, economic cost, risk, control, and capability — not a single profit number.
 
@@ -146,9 +150,11 @@ An “asset-light” label does **not** guarantee higher profit or lower risk. R
 
 ---
 
-Private archetypes still meet public assets. **PPP** asks when a partnership is value for money — not when a logo partnership invents demand.
+Private archetypes still meet public assets. **PPP** (**public–private partnership** — a long-term deal that shares roles and risk) asks when a partnership is value for money — not when a logo partnership invents demand.
 
 ## 3. Public–private partnerships (PPP)
+
+A **PPP** is a **public–private partnership**: a long-term deal where the public and private sides share roles, money, and risk. It does **not** invent demand by itself.
 
 A **PPP** is a long-term arrangement in which a public authority and a private party allocate responsibilities and risks for delivering infrastructure or services ([Glossary · PPP](glossary.qmd#business-and-economics) — course term; **not** a substitute for a vertiport statute).
 
@@ -170,6 +176,7 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 ## 4. Usage vs availability payments
 
 
+
 ```{=html}
 <figure class="wdiag" id="w06-pay" aria-labelledby="w06-pay-title">
 <p class="wdiag-cap" id="w06-pay-title"><strong>Who bears demand risk?</strong></p>
@@ -182,7 +189,9 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 <p class="wdiag-note">Classroom payment figures are illustrative — not CAD or government tariffs.</p>
 </figure>
 ```
+
 In words: usage revenue is price times quantity. An availability component starts from a readiness fee, subtracts performance deductions, and may add a smaller per-unit usage term.
+
 
 $$
 \begin{aligned}
@@ -191,12 +200,15 @@ R_U &= p \times q
 \end{aligned}
 $$
 
+
+
 $$
 \begin{aligned}
 R_A &= A - D + u \times q
 \quad\text{(availability-based component)}
 \end{aligned}
 $$
+
 
 - $A$ — availability payment  
 - $D$ — deductions for unavailability or failed performance  
@@ -233,6 +245,7 @@ Not every flexible clause is freely exercisable — triggers, notice, compensati
 
 In words: expected project value is the probability-weighted payoff of the action you would choose in each state.
 
+
 $$
 \begin{aligned}
 \text{Expected project value}
@@ -241,6 +254,7 @@ $$
   \times \text{Payoff under the chosen action in state } s
 \end{aligned}
 $$
+
 
 Compare a rigid commitment with a staged or contingent decision. Flexibility creates value only if management can observe new information and respond. Waiting also has costs: option fees, delay, lost position, inflation, or expiring approvals. Conventional NPV can incorporate planned decisions; real-options thinking makes flexibility more explicit.
 
@@ -260,7 +274,7 @@ Staging has value here because the decision occurs after uncertainty resolves. T
 
 ---
 
-Flexibility helps one party; scarce roofs force sharing. **Co-opetition** returns from Week 2: shared facilities can cut unit cost — and harden price competition.
+Flexibility helps one party; scarce roofs force sharing. **Co-opetition** (cooperate on shared assets while competing on service) returns from Week 2: shared facilities can cut unit cost — and harden price competition.
 
 ## 6. Co-opetition and shared facilities
 
@@ -277,6 +291,7 @@ Define access, cost sharing, data governance, performance, liability, and exit. 
 
 In words: first allocate fixed facility cost per movement; then add variable facility cost per movement to get the shared facility unit cost.
 
+
 $$
 \begin{aligned}
 \text{Fixed cost per movement}
@@ -286,6 +301,7 @@ $$
   + \text{Variable facility cost per movement}
 \end{aligned}
 $$
+
 
 Greater total use can spread fixed cost — this is the **facility’s** cost, not automatically each operator’s charge. Contracts must decide equal vs usage vs peak vs investment-based payments. Sharing helps only if extra traffic does not create excessive congestion or expansion cost.
 
