@@ -104,6 +104,60 @@
     return list;
   }
 
+
+  /** Mermaid scopes CSS and marker urls to svg#id (e.g. #mermaid-1, url(#mermaid-1_flowchart-…)).
+   *  Cloning while the original stays on-page needs unique ids, or removing id breaks styles/arrows. */
+  function cloneMermaidSvg(svg) {
+    var svgClone = svg.cloneNode(true);
+    var oldId = svg.getAttribute("id") || "";
+    var newId = oldId ? oldId + "-lb" : "mermaid-lb-" + Date.now().toString(36);
+    if (oldId) {
+      svgClone.setAttribute("id", newId);
+      // <style> blocks: #mermaid-1 … → #mermaid-1-lb …
+      svgClone.querySelectorAll("style").forEach(function (st) {
+        if (st.textContent && st.textContent.indexOf(oldId) !== -1) {
+          st.textContent = st.textContent.split(oldId).join(newId);
+        }
+      });
+      // id="mermaid-1_…" on markers/clips/etc.
+      svgClone.querySelectorAll("[id]").forEach(function (node) {
+        var id = node.getAttribute("id");
+        if (id && id.indexOf(oldId) === 0) {
+          node.setAttribute("id", newId + id.slice(oldId.length));
+        }
+      });
+      // url(#mermaid-1_…), href="#…", xlink:href
+      var attrs = ["marker-end", "marker-start", "marker-mid", "clip-path", "fill", "stroke", "filter", "href", "xlink:href", "style"];
+      svgClone.querySelectorAll("*").forEach(function (node) {
+        attrs.forEach(function (a) {
+          var v = node.getAttribute(a);
+          if (v && v.indexOf(oldId) !== -1) {
+            node.setAttribute(a, v.split(oldId).join(newId));
+          }
+        });
+      });
+      // root may also carry style attr
+      var rs = svgClone.getAttribute("style");
+      if (rs && rs.indexOf(oldId) !== -1) {
+        svgClone.setAttribute("style", rs.split(oldId).join(newId));
+      }
+    } else {
+      svgClone.setAttribute("id", newId);
+    }
+    svgClone.classList.add("fig-lightbox-clone");
+    svgClone.classList.add("fig-lightbox-svg");
+    svgClone.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    if (svgClone.getAttribute("viewBox")) {
+      svgClone.removeAttribute("width");
+      svgClone.removeAttribute("height");
+    }
+    svgClone.style.width = "";
+    svgClone.style.height = "";
+    svgClone.style.maxWidth = "";
+    svgClone.style.maxHeight = "";
+    return svgClone;
+  }
+
   function openFrom(el, hint) {
     var host = resolveHost(el, hint);
     stage.innerHTML = "";
@@ -111,22 +165,8 @@
     if (isMermaidHost(host) || (host && host.tagName === "SVG") || (hint && findSvg(hint.parentElement))) {
       var svg = findSvg(host) || (hint && findSvg(hint.parentElement));
       if (svg) {
-        var svgClone = svg.cloneNode(true);
-        svgClone.removeAttribute("id");
-        svgClone.classList.add("fig-lightbox-clone");
-        svgClone.classList.add("fig-lightbox-svg");
-        // Preserve aspect: Mermaid often sets width="100%" which stretches in a wide dialog.
-        // Prefer viewBox + CSS max containment; never force width:100% + fixed height.
-        svgClone.setAttribute("preserveAspectRatio", "xMidYMid meet");
-        if (svgClone.getAttribute("viewBox")) {
-          svgClone.removeAttribute("width");
-          svgClone.removeAttribute("height");
-        }
-        svgClone.style.width = "";
-        svgClone.style.height = "";
-        svgClone.style.maxWidth = "";
-        svgClone.style.maxHeight = "";
-        stage.appendChild(svgClone);
+        // Keep/rewrite #id so scoped <style> and marker url(#…_flowchart-…) still apply
+        stage.appendChild(cloneMermaidSvg(svg));
       } else {
         var note = document.createElement("p");
         note.textContent = "Diagram is still loading — close and try again in a moment.";
