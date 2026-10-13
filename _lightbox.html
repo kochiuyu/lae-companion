@@ -1,5 +1,7 @@
 <!-- Click-to-enlarge for .wdiag, Mermaid, and Quarto structural figures.
-     No third-party lightbox library — CSS dialog + minimal JS. -->
+     No third-party lightbox library — CSS dialog + minimal JS.
+     IMPORTANT: never insert DOM *inside* pre.mermaid / .mermaid — Mermaid parses
+     the element's textContent, so a "Click to view larger" child becomes a syntax error. -->
 <dialog id="fig-lightbox" class="fig-lightbox" aria-labelledby="fig-lightbox-title">
   <div class="fig-lightbox-chrome">
     <p id="fig-lightbox-title" class="fig-lightbox-title"></p>
@@ -16,25 +18,41 @@
   var titleEl = document.getElementById("fig-lightbox-title");
   var closeBtn = dialog.querySelector(".fig-lightbox-close");
 
+  function isMermaid(el) {
+    return el.classList.contains("mermaid") || (el.tagName === "PRE" && el.classList.contains("mermaid-js"));
+  }
+
   function captionFor(el) {
     var cap =
       el.querySelector(".wdiag-cap, figcaption, .figure-caption, .quarto-figure-caption") ||
-      (el.id ? document.getElementById(el.getAttribute("aria-labelledby") || "") : null);
+      (el.getAttribute("aria-labelledby")
+        ? document.getElementById(el.getAttribute("aria-labelledby"))
+        : null);
     if (cap) return cap.textContent.trim();
-    if (el.getAttribute("aria-label")) return el.getAttribute("aria-label");
+    if (el.getAttribute("aria-label")) {
+      return el.getAttribute("aria-label").replace(/^View larger:\s*/i, "");
+    }
+    if (isMermaid(el)) return "Diagram";
     return "Enlarged figure";
   }
 
-  function targets() {
+  function collectTargets() {
     var list = [];
-    document.querySelectorAll("figure.wdiag, .wdiag").forEach(function (el) {
-      // prefer outer figure.wdiag once
-      if (el.classList.contains("wdiag") && el.closest("figure.wdiag") && el.tagName !== "FIGURE") return;
+    var seen = new Set();
+    function add(el) {
+      if (!el || seen.has(el)) return;
+      seen.add(el);
       list.push(el);
-    });
-    document.querySelectorAll(".mermaid, pre.mermaid, figure.quarto-figure, .quarto-figure").forEach(function (el) {
+    }
+    document.querySelectorAll("figure.wdiag").forEach(add);
+    document.querySelectorAll(".wdiag").forEach(function (el) {
       if (el.closest("figure.wdiag")) return;
-      list.push(el);
+      add(el);
+    });
+    document.querySelectorAll("pre.mermaid, .mermaid").forEach(add);
+    document.querySelectorAll("figure.quarto-figure, .quarto-figure").forEach(function (el) {
+      if (el.closest("figure.wdiag") || isMermaid(el)) return;
+      add(el);
     });
     return list;
   }
@@ -43,9 +61,30 @@
     stage.innerHTML = "";
     var clone = el.cloneNode(true);
     clone.querySelectorAll(".fig-enlarge-hint").forEach(function (h) { h.remove(); });
+    // Strip enlarge affordance classes from clone; avoid nested mermaid re-init
+    clone.classList.remove("fig-enlargeable");
     clone.removeAttribute("id");
-    clone.classList.add("fig-lightbox-clone");
-    stage.appendChild(clone);
+    clone.removeAttribute("data-enlarge-bound");
+    clone.removeAttribute("tabindex");
+    clone.removeAttribute("role");
+    if (isMermaid(clone)) {
+      // Prefer cloning rendered SVG only; drop class "mermaid" so Quarto/Mermaid
+      // does not re-parse SVG markup as diagram source inside the dialog.
+      var svg = clone.tagName === "SVG" ? clone : clone.querySelector("svg");
+      if (svg) {
+        var svgClone = svg.cloneNode(true);
+        svgClone.classList.add("fig-lightbox-clone");
+        stage.appendChild(svgClone);
+      } else {
+        // Not rendered yet — show a note rather than re-feeding source to Mermaid
+        var note = document.createElement("p");
+        note.textContent = "Diagram is still loading — close and try again in a moment.";
+        stage.appendChild(note);
+      }
+    } else {
+      clone.classList.add("fig-lightbox-clone");
+      stage.appendChild(clone);
+    }
     titleEl.textContent = captionFor(el);
     dialog.showModal();
     stage.focus();
@@ -65,7 +104,7 @@
     close();
   });
 
-  targets().forEach(function (el) {
+  function bind(el) {
     if (el.dataset.enlargeBound) return;
     el.dataset.enlargeBound = "1";
     el.classList.add("fig-enlargeable");
@@ -83,12 +122,17 @@
       e.stopPropagation();
       openFrom(el);
     });
-    // Place hint after caption if present, else at end of figure
-    var cap = el.querySelector(".wdiag-cap, figcaption");
-    if (cap && cap.parentNode === el) {
-      cap.insertAdjacentElement("afterend", hint);
+
+    // NEVER append inside Mermaid nodes (textContent is the diagram source).
+    if (isMermaid(el)) {
+      el.insertAdjacentElement("afterend", hint);
     } else {
-      el.appendChild(hint);
+      var cap = el.querySelector(".wdiag-cap, figcaption");
+      if (cap && cap.parentNode === el) {
+        cap.insertAdjacentElement("afterend", hint);
+      } else {
+        el.appendChild(hint);
+      }
     }
 
     el.addEventListener("click", function (e) {
@@ -101,6 +145,21 @@
         openFrom(el);
       }
     });
-  });
+  }
+
+  function run() {
+    collectTargets().forEach(bind);
+  }
+
+  // Run after Mermaid when possible so enlarge clones can use rendered SVG.
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () {
+      run();
+      setTimeout(run, 800);
+    });
+  } else {
+    run();
+    setTimeout(run, 800);
+  }
 })();
 </script>

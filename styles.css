@@ -767,3 +767,10 @@ main table,
     display: none !important;
   }
 }
+
+/* Enlarge hint must sit *after* Mermaid, not inside it */
+pre.mermaid + .fig-enlarge-hint,
+.mermaid + .fig-enlarge-hint {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
