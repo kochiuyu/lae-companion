@@ -1,0 +1,106 @@
+<!-- Click-to-enlarge for .wdiag, Mermaid, and Quarto structural figures.
+     No third-party lightbox library — CSS dialog + minimal JS. -->
+<dialog id="fig-lightbox" class="fig-lightbox" aria-labelledby="fig-lightbox-title">
+  <div class="fig-lightbox-chrome">
+    <p id="fig-lightbox-title" class="fig-lightbox-title"></p>
+    <button type="button" class="fig-lightbox-close" aria-label="Close enlarged figure">&times;</button>
+  </div>
+  <div class="fig-lightbox-stage" tabindex="0"></div>
+  <p class="fig-lightbox-hint">Scroll or pinch to inspect · Esc or × to close</p>
+</dialog>
+<script>
+(function () {
+  var dialog = document.getElementById("fig-lightbox");
+  if (!dialog || typeof dialog.showModal !== "function") return;
+  var stage = dialog.querySelector(".fig-lightbox-stage");
+  var titleEl = document.getElementById("fig-lightbox-title");
+  var closeBtn = dialog.querySelector(".fig-lightbox-close");
+
+  function captionFor(el) {
+    var cap =
+      el.querySelector(".wdiag-cap, figcaption, .figure-caption, .quarto-figure-caption") ||
+      (el.id ? document.getElementById(el.getAttribute("aria-labelledby") || "") : null);
+    if (cap) return cap.textContent.trim();
+    if (el.getAttribute("aria-label")) return el.getAttribute("aria-label");
+    return "Enlarged figure";
+  }
+
+  function targets() {
+    var list = [];
+    document.querySelectorAll("figure.wdiag, .wdiag").forEach(function (el) {
+      // prefer outer figure.wdiag once
+      if (el.classList.contains("wdiag") && el.closest("figure.wdiag") && el.tagName !== "FIGURE") return;
+      list.push(el);
+    });
+    document.querySelectorAll(".mermaid, pre.mermaid, figure.quarto-figure, .quarto-figure").forEach(function (el) {
+      if (el.closest("figure.wdiag")) return;
+      list.push(el);
+    });
+    return list;
+  }
+
+  function openFrom(el) {
+    stage.innerHTML = "";
+    var clone = el.cloneNode(true);
+    clone.querySelectorAll(".fig-enlarge-hint").forEach(function (h) { h.remove(); });
+    clone.removeAttribute("id");
+    clone.classList.add("fig-lightbox-clone");
+    stage.appendChild(clone);
+    titleEl.textContent = captionFor(el);
+    dialog.showModal();
+    stage.focus();
+  }
+
+  function close() {
+    if (dialog.open) dialog.close();
+    stage.innerHTML = "";
+  }
+
+  closeBtn.addEventListener("click", close);
+  dialog.addEventListener("click", function (e) {
+    if (e.target === dialog) close();
+  });
+  dialog.addEventListener("cancel", function (e) {
+    e.preventDefault();
+    close();
+  });
+
+  targets().forEach(function (el) {
+    if (el.dataset.enlargeBound) return;
+    el.dataset.enlargeBound = "1";
+    el.classList.add("fig-enlargeable");
+    el.setAttribute("tabindex", "0");
+    el.setAttribute("role", "button");
+    var label = captionFor(el);
+    el.setAttribute("aria-label", "View larger: " + label);
+
+    var hint = document.createElement("button");
+    hint.type = "button";
+    hint.className = "fig-enlarge-hint";
+    hint.textContent = "Click to view larger";
+    hint.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      openFrom(el);
+    });
+    // Place hint after caption if present, else at end of figure
+    var cap = el.querySelector(".wdiag-cap, figcaption");
+    if (cap && cap.parentNode === el) {
+      cap.insertAdjacentElement("afterend", hint);
+    } else {
+      el.appendChild(hint);
+    }
+
+    el.addEventListener("click", function (e) {
+      if (e.target.closest("a, button.fig-enlarge-hint")) return;
+      openFrom(el);
+    });
+    el.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openFrom(el);
+      }
+    });
+  });
+})();
+</script>

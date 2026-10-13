@@ -116,7 +116,10 @@ format:
     linestretch: 1.45
     link-external-new: true
     css: styles.css
-    include-after-body: _mobile-toc.html
+    include-after-body:
+      - _mobile-toc.html
+      - _breadcrumbs.html
+      - _lightbox.html
     toc: true
     toc-location: right
     toc-title: "Sections"
