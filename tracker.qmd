@@ -1,7 +1,7 @@
 ---
 title: "Official status"
 subtitle: "Official facts you may cite"
-as_of: "2026-10-11"
+as_of: "2026-10-13"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -10,7 +10,7 @@ page-layout: full
 
 Regulatory Sandbox ≠ Sandbox X.
 
-As of 11 October 2026.
+As of 13 October 2026.
 
 ## Status board
 
@@ -28,7 +28,7 @@ Open, watch, and settled items as of 6 Oct 2026. Detailed source tables follow.
 | Item | Status | Latest official word | Still not fact |
 |------|--------|----------------------|----------------|
 | Action Plan on Developing Low-Altitude Economy | [OPEN]{.status-chip .status-open} | Secretary for Transport and Logistics to LegCo, 2 Oct 2026: the Working Group 「繼續全力制訂」 the plan this year ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)). Policy Address ¶139, 16 Sep 2026: “will formulate” ([Ch. III](https://www.policyaddress.gov.hk/2026/en/chapter3.html)). Earlier target: drafting by end-2026 ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)). | The published full text of the plan. |
-| Regulatory Sandbox X cross-boundary results | [OPEN]{.status-chip .status-open} | Transport and Logistics Bureau page, checked in the 6 Oct note: the Working Group “will announce the results in due course” ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). | Any results list. “Trial flights as early as possible” (Policy Address; Secretary for Transport and Logistics) and China Daily HK’s 5 Oct “Sandbox Connect” (Nansha gateway) framing are not results lists. |
+| Regulatory Sandbox X cross-boundary results | [OPEN]{.status-chip .status-open} | Transport and Logistics Bureau page, checked 13 Oct 2026: the Working Group “will announce the results in due course” ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). | Any results list. “Trial flights as early as possible” (Policy Address; Secretary for Transport and Logistics) and China Daily HK’s 5 Oct “Sandbox Connect” (Nansha gateway) framing are not results lists. |
 | Shenzhen–Hong Kong drone corridor | [OPEN]{.status-chip .status-open} (not evidenced) | Secretary for Commerce and Economic Development, 6 Oct 2026: the spectrum arrangement 「有助日後無人機跨境運作」, a forward-looking statement ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm)). | That a Shenzhen–Hong Kong drone corridor is operating. No joint route document and no new Greater Bay Area corridor approval were found (5 Sep note). |
 | Smart Low-altitude Traffic Management System | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: progressive rollout from 2028 ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); Policy Address annex indicator 34 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not in force. |
 | Law for unconventional aircraft over 150 kg (Cap. 448G follow-on) | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: complete drafting next year and submit it to LegCo ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); annex indicator 35: drafting complete within 2027 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not enacted; no Cap. 448G amending instrument. |
@@ -118,7 +118,7 @@ English: “Complete the drafting of the relevant legislation for unconventional
 | Programme | Counts / dates | Issuer | Tier | Note |
 |-----------|----------------|--------|------|------|
 | **[Regulatory Sandbox](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)** | Apps from 2024-11-13; **38** of **72** selected (PR **2025-03-20**) | WG / TLB | T2 | [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) = BVLOS in Sandbox (PDF 2025-12-31, T1) |
-| **[Regulatory Sandbox X](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)** | Launch **2025-11-24**; batches UTM **15** / unconventional aircraft **4** / shared **5** / others **9**; cross-boundary [OPEN]{.status-chip .status-open} | CE / WG / TLB | T1/T2 | [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) = cross-boundary in Sandbox X (PDF 2026-04-24, T1) |
+| **[Regulatory Sandbox X](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)** | Launch **2025-11-24**; batches UTM **15** / unconventional aircraft **4** / shared **5** / others **12**; cross-boundary [OPEN]{.status-chip .status-open} | CE / WG / TLB | T1/T2 | [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) = cross-boundary in Sandbox X (PDF 2026-04-24, T1) |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 **Regulatory Sandbox** — English: “The Government received Regulatory Sandbox pilot project proposals from 72 applicants, and after review by the Working Group on Developing LAE, 38 of them are among the first batch of pilot projects to be rolled out” ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm))\
@@ -130,7 +130,7 @@ English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight O
 [「低空經濟「監管沙盒X」啟動禮今日（十一月二十四日）舉行，旨在進一步推動香港的低空經濟發展，並探索創新應用場景。」…「是升級版的監管沙盒，旨在處理更複雜的場景，例如跨境低空無人機、可載人航空器和綜合運營平台等。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
 :::
 
-> Regulatory Sandbox ≠ Sandbox X. Counts are **38** + Sandbox X module batches (15+4+5+9 = **33**) — never blended.
+> Regulatory Sandbox ≠ Sandbox X. Counts are **38** + Sandbox X module batches (15+4+5+12 = **36**) — never blended.
 
 ## Spectrum
 
@@ -149,10 +149,10 @@ English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight O
 |--------|--------|------|--------|-----------|------|-------------|
 | ~HK$350bn by 2050 | **[Our Hong Kong Foundation (OHKF)](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83)** | Sep 2025 (launch 2025-09-04) | Industry **value-added (VA)** | HK only | T3 | Allowed **only** with OHKF attribution |
 | Sandbox 38 / 72 | [TLB / GIA](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm) | 2025-03-20 | Selected projects | HK | T2 | Allowed |
-| Sandbox X 15+4+5+9 | [TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) | 2025–2026 | Selected modules | HK | T2 | Allowed; cross-boundary [OPEN]{.status-chip .status-open} |
+| Sandbox X 15+4+5+12 | [TLB Others Updated PDFs (12.10.2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_12.10.2026.pdf) · [landing](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) | 2025–2026 | Selected modules (Others **12** as at Oct 2026) | HK | T2 | Allowed; cross-boundary [OPEN]{.status-chip .status-open} |
 | >140 regularised projects (PA 2026 ¶137) | [PA 2026 ¶137](https://www.policyaddress.gov.hk/2026/en/chapter3.html) | 2026-09-16 | Regularised Regulatory Sandbox projects | HK | T1 | Separate from the CAD-approvals figure; do **not** equate to Sandbox **38**; not market-size or VA |
 | >140 CAD application approvals since Jun 2025 (STL speech) | [STL / GIA speech](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm) | 2026-09-10 | CAD application approvals | HK | T1 | Separate from the PA regularised-projects figure; not Sandbox X |
-| about 10 Sandbox X projects begun testing | [PA 2026 ¶137](https://www.policyaddress.gov.hk/2026/en/chapter3.html) | 2026-09-16 | Testing-start snapshot (UTM / unconventional) | HK | T1 | Do **not** blend with Sandbox X module totals **15+4+5+9** or first-batch **38** |
+| about 10 Sandbox X projects begun testing | [PA 2026 ¶137](https://www.policyaddress.gov.hk/2026/en/chapter3.html) | 2026-09-16 | Testing-start snapshot (UTM / unconventional) | HK | T1 | Do **not** blend with Sandbox X module totals **15+4+5+12** or first-batch **38** |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
 **~HK\$350bn by 2050** — English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))\
@@ -161,8 +161,9 @@ English: “Permission for Small Unmanned Aircraft Beyond Visual Line of Sight O
 **Sandbox 38 / 72** — English: “The Government received Regulatory Sandbox pilot project proposals from 72 applicants, and after review by the Working Group on Developing LAE, 38 of them are among the first batch of pilot projects to be rolled out” ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm))\
 [「政府共接獲由72個申請者提交的「監管沙盒」試點項目申請，經發展低空經濟工作組審閱後，其中38項成為首批推展的試點項目」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000178.htm))
 
-**Sandbox X 15+4+5+9** — English: “(i) 15 pilot projects under the UTM system demonstrations module, (ii) a first batch of four pilot projects under the unconventional aircraft module; (iii) a first batch of five pilot projects under the multiple applications/users shared-platform module; and (iv) a first batch of nine pilot projects under the others module have been selected for implementation in phases.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html))\
-[「經發展低空經濟工作組審閱後，已選定(i) 15個UTM系統演示試點項目；(ii) 首批四個非傳統航空器試點項目；(iii) 首批五個多場景／多用戶共享平台試點項目，以及(iv) 首批九個其他試點項目予以分階段推行。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
+**Sandbox X 15+4+5+12** — English (Others Updated PDF, as at October 2026): “After review by the Working Group on Developing Low-altitude Economy (“WG”), 12 other pilot projects will be included for implementation in Sandbox X.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_12.10.2026.pdf))\
+[「經發展低空經濟工作組（「工作組」）審核後，十二個其他試點項目將納入「監管沙盒 X」推展。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Sandbox_X_Other_Applications_TC_12.10.2026.pdf))\
+UTM **15** / unconventional **4** / shared **5** remain as stated on the TLB landing page; Others **12** follows the Updated PDFs (filenames dated 12.10.2026; pages Last-Modified 2026-10-13). Landing body text may still say “nine” / 「首批九個」— treat Updated PDFs as authoritative for the Others count.
 
 **>140 regularised projects (PA 2026 ¶137)** — English: “The low-altitude economy (LAE) \"Regulatory Sandbox\" has facilitated the regularisation of diverse applications. Over 140 regularised projects have been approved” ([source](https://www.policyaddress.gov.hk/2026/en/chapter3.html))\
 [「低空經濟「監管沙盒」已促成多項應用恆常化，至今批准恆常化項目超過140個」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/tc/chapter3.html))

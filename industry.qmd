@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-11"
+as_of: "2026-10-13"
 page-layout: article
 ---
 
@@ -43,9 +43,13 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones (as of 11 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones (as of 13 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">9 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">13 items</span></summary><ol>
+<li id="tl-ind-2026-10-12-heart"><a href="#industry-item-2026-10-12-heart"><span class="chip">12 Oct</span> · Heart Aerospace FAA CLEEN Phase IV (ES-36 hybrid; company)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-12-vtech"><a href="#industry-item-2026-10-12-vtech"><span class="chip">12 Oct</span> · Virginia Tech Smart Airspace Electra+Textron trials<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-09-tcab"><a href="#industry-item-2026-10-09-tcab"><span class="chip">9 Oct</span> · TCab Tech–SIDEC MoU for E20 Malaysia exploration<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-09-zipline"><a href="#industry-item-2026-10-09-zipline"><span class="chip">8–9 Oct</span> · Zipline Round Rock / Austin-area consumer go-live<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-09-arrive"><a href="#industry-item-2026-10-09-arrive"><span class="chip">9 Oct</span> · Arrive AI–Modovolo autonomous handoff partnership<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-08-zhuhai-islands"><a href="#industry-item-2026-10-08-zhuhai-islands"><span class="chip">8 Oct</span> · Zhuhai three-party sea-island UAV livelihood-supply pilot<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-08-eplane"><a href="#industry-item-2026-10-08-eplane"><span class="chip">8 Oct</span> · ePlane–Noida International Airport eVTOL MoU<span class="badge b-ind">Indep.</span></a></li>
@@ -112,6 +116,30 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ### October 2026 {#industry-2026-10}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-12-heart .industry-item}**12 Oct 2026 · Heart Aerospace newsroom:** Heart says FAA selected it for a USD 2.9 m CLEEN Phase IV award (matched by Heart to USD 5.8 m / 24 months) under Project HYPER to advance the ES-36 series-hybrid turbogenerator. [Link](https://www.heartaerospace.com/newsroom/faa-selects-heart-aerospace-for-2-9-million-cleen-award-to-advance-es-36-hybrid-propulsion-system) · [Urban Air Mobility News](https://www.urbanairmobilitynews.com/government-investment/faa-awards-heart-aerospace-more-funding-for-hybrid-propulsion-research/)
+  - Tag: Company-announced
+  - What's new: Company release dated 12 Oct: CLEEN funds development and testing of a megawatt-class turbogenerator in each of two ES-36 propulsion nacelles, extending range beyond battery-only; path is ground testing → demonstration flights on a pre-production ES-36 (company: first flight scheduled 2028). Builds on prior FAA FAST support for THEMIS hybrid propulsion-control architecture. Company restates ES-36 range targets and customer-commitment figures — company claims, not upgraded. This is an R&D / demonstration award as attributed by the company, **not** a type certificate or airline entry-into-service. Separate FAA CLEEN selection instrument for this line item not retrieved here — award details stay company-attributed.
+  - Status: Company-announced R&D award; ES-36 not type-certified; not scheduled passenger service.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-12-vtech .industry-item}**12 Oct 2026 · WDBJ7 (Roanoke):** Local TV reports Virginia Tech Mid-Atlantic Aviation Partnership (MAAP) Smart Airspace eIPP-linked trials of Electra EL2 hybrid-electric Ultra Short and Textron Aerosonde Mk. 4.7 at experimental vertiports in Southwest Virginia. [Link](https://www.wdbj7.com/2026/10/12/virginia-techs-smart-airspace-project-tests-electric-aircraft-southwest-virginia/)
+  - Tag: Independently reported
+  - What's new: Independently reported programme colour: FAA asked MAAP to test three vertiport scenarios (Blackstone airport, Roanoke airport, VTTI urban-style pad); flights described as summer 2026 under the programme. Aircraft operate under experimental licence — **not** full FAA type certification; passenger/cargo commercial service not live. Director comments on vertiport cost vs airports and rural healthcare / corridor use-cases are programme framing, not ops metrics. Project linked to federal eIPP / multi-state (PA-led) partnership. Does **not** create a Hong Kong vertiport statute comparator.
+  - Status: Independently reported experimental-licence trials; experimental ≠ type certificate / scheduled service.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-09-tcab .industry-item}**9 Oct 2026 · TCab Tech company page:** TCab Tech (时的科技) and Selangor Information Technology and Digital Economy Corporation (SIDEC) exchange an MoU to explore E20 five-seat tilt-rotor commercialisation pathways in Malaysia and Southeast Asia; E20 Malaysian debut showcase opens at IOI City Mall, Putrajaya. [Link](https://www.tcabtech.com/en/tcab-tech-sidec-mou-e20-evtol-commercialization-malaysia-southeast-asia/) · [eVTOL Insights](https://evtolinsights.com/tcab-tech-and-sidec-sign-mou-to-explore-e20-evtol-commercialisation-in-malaysia/) · [The Star](https://www.thestar.com.my/metro/metro-news/2026/10/10/sgor-eyes-electric-aviation)
+  - Tag: Company-announced
+  - What's new: Company says the MoU covers certification preparation, industry engagement and potential commercial applications (tourism / intercity / intracity framing); SIDEC to help coordinate with government agencies and CAAM; TCab plans a regional business centre in Malaysia. Company says E20 CAAC TC process has completed G-1 / G-2 / CP milestones — **not** an issued TC. CAAC–CAAM aviation-safety cooperation MoU (21 Sep 2026) is background only and does **not** approve E20 ops in Malaysia. **This is an MoU**, not a firm aircraft order, AOC, or service-entry date. Late catch relative to the 11 Oct industry pass.
+  - Status: MoU as announced by the company; MoU ≠ order / AOC / EIS; TC not achieved.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-09-zipline .industry-item}**8–9 Oct 2026 · Zipline newsroom / City of Round Rock:** Zipline begins Austin-metro consumer drone delivery from a hub at 3000 E. Palm Valley Blvd (Round Rock ETJ); municipal page confirms FAA Part 135 primacy and a ~3-mile service claim. [Link](https://www.zipline.com/newsroom/now-loading-zipline-brings-fast-autonomous-delivery-to-austin) · [City of Round Rock](https://www.roundrocktexas.gov/city-departments/administration/drone-delivery-in-round-rock/) · [FAA Part 135 package-delivery page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Tag: Company-announced
+  - What's new: Company Austin newsroom piece frames Round Rock as the first Austin location (8 Oct demo; 9 Oct First Flight early-access ordering reported). City of Round Rock confirms operations from the ETJ hub and that flight paths are FAA-regulated. FAA Part 135 package-delivery page already lists Zipline among approved UAS Part 135 operators (since 2022 Charlotte baseline) — Round Rock is a **new metro go-live**, not a new certificate. Cumulative delivery / early-access slot / quietness figures stay company-announced. Draft FAA EA for five Texas metros reported by trade press — **not** treated as a final Austin authorisation here. Late catch relative to the 11 Oct industry pass.
+  - Status: Company-announced metro go-live with municipal confirmation of hub / FAA primacy; Part 135 operator existence officially listed on FAA page (certificate existence, not this metro’s EA).
+  - Read instead: None.
 
 - []{#industry-item-2026-10-09-arrive .industry-item}**9 Oct 2026 · Arrive AI / Newswire:** Arrive AI and Modovolo announce a partnership to integrate Modovolo’s Lift drone with Arrive Point™ stations for unattended package delivery. [Link](https://www.newswire.com/news/arrive-ai-and-modovolo-partner-to-advance-autonomous-drone-delivery)
   - Tag: Company-announced
