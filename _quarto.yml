@@ -38,6 +38,7 @@ project:
 website:
   title: "LAE Course"
   search: true
+  back-to-top-navigation: true
   navbar:
     search: true
     left:
@@ -115,6 +116,7 @@ format:
     linestretch: 1.45
     link-external-new: true
     css: styles.css
+    include-after-body: _mobile-toc.html
     toc: true
     toc-location: right
     toc-title: "Sections"

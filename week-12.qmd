@@ -54,7 +54,7 @@ By the end of Week 12 you should be able to:
 | Part | Sections | Focus |
 |------|----------|--------|
 | Horizon & networks | §§1–2 | Growth under evidence; $L = N(N-1)/2$; screening ≠ forecast |
-| Digital & HK services | §§3–4 | Coordination net saving; leasing $\mathrm{CF}_{L}$ / $\mathrm{[NPV](glossary.qmd#npv)}$; transferable capability |
+| Digital & HK services | §§3–4 | Coordination net saving; leasing $\mathrm{CF}_{L}$ / [NPV](glossary.qmd#npv); transferable capability |
 | Exam method & judgment | §§5–6 | Five-step method; viability reapplied; toolkit; consistent judgment |
 | Close | §§7–8 | Synthesis; study checklist |
 

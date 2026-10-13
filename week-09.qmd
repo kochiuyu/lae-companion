@@ -115,7 +115,7 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 <p class="wdiag-cap" id="w09-funnel-title"><strong>Funnel symbols (Week 9)</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box">TAM → eligibility e → SAM</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ choice share s</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ Multiply by choice share (s)</div>
 <div class="wdiag-box">D_pot = SAM × s</div>
 <div class="wdiag-arrow" aria-hidden="true">↓</div>
 <div class="wdiag-box fact">D_served = min{D_pot, K}</div>

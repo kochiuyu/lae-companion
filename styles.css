@@ -455,3 +455,141 @@ main table,
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+
+/* ============================================================
+   Mobile TOC (collapsed "On this page") + floating back-to-top
+   Beige / navy — screen only; print rules above still hide BTT
+   ============================================================ */
+
+/* Quarto injects #quarto-back-to-top when website.back-to-top-navigation: true */
+#quarto-back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1050;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #003366;
+  background: #F7F6F3;
+  color: #003366 !important;
+  box-shadow: 0 2px 8px rgba(0, 51, 102, 0.18);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  line-height: 1;
+  opacity: 0.96;
+}
+
+#quarto-back-to-top:hover,
+#quarto-back-to-top:focus {
+  background: #003366;
+  color: #F7F6F3 !important;
+}
+
+/* Visible on mobile / tablet; Quarto may style BTT as footer-ish on desktop */
+@media (max-width: 991.98px) {
+  #quarto-back-to-top {
+    display: inline-flex !important;
+  }
+}
+
+.mobile-toc {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-toc {
+    display: block;
+    margin: 0.75rem 0 1.1rem;
+    padding: 0.35rem 0.75rem 0.45rem;
+    background: #fff;
+    border: 1px solid #d9d4c7;
+    border-left: 4px solid #003366;
+    border-radius: 8px;
+  }
+
+  .mobile-toc > summary {
+    cursor: pointer;
+    list-style: none;
+    color: #003366;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.35rem 0;
+  }
+
+  .mobile-toc > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-toc > summary::before {
+    content: "▸ ";
+    color: #C5A572;
+  }
+
+  .mobile-toc[open] > summary::before {
+    content: "▾ ";
+  }
+
+  .mobile-toc ul {
+    margin: 0.25rem 0 0.4rem;
+    padding-left: 1.1rem;
+  }
+
+  .mobile-toc li {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+  }
+
+  .mobile-toc a {
+    color: #003366;
+  }
+}
+
+/* ============================================================
+   Formula / KaTeX horizontal scroll on narrow screens (~768px)
+   Prevents page zoom when display math or wdiag math is wide
+   ============================================================ */
+@media (max-width: 768px) {
+  .katex-display,
+  .MathJax_Display,
+  span.math.display,
+  div.math.display,
+  .quarto-figure .katex-display,
+  .wdiag .katex-display,
+  .wdiag-box,
+  .wdiag-row {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .katex-display > .katex,
+  .math.display > .katex {
+    max-width: 100%;
+  }
+
+  /* Keep display math from forcing body wider than the viewport */
+  #quarto-document-content,
+  main.content {
+    overflow-x: clip;
+  }
+
+  #quarto-document-content .katex-display,
+  main.content .katex-display {
+    overflow-x: auto;
+  }
+}
+
+/* Keep BTT print-hidden even if mobile !important ran */
+@media print {
+  #quarto-back-to-top,
+  .mobile-toc {
+    display: none !important;
+  }
+}
