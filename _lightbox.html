@@ -105,45 +105,96 @@
   }
 
 
-  /** Mermaid scopes CSS and marker urls to svg#id (e.g. #mermaid-1, url(#mermaid-1_flowchart-…)).
-   *  Cloning while the original stays on-page needs unique ids, or removing id breaks styles/arrows. */
+  /** Mermaid scopes CSS + markers to svg#id (e.g. #mermaid-1, url(#mermaid-1_…)).
+   *  Clone must rewrite ids WITHOUT using a newId that still has oldId as a prefix
+   *  (mermaid-1-lb makes root become mermaid-1-lb-lb and styles miss → paths inherit
+   *  fill:#333 / black and curved edges render as solid blobs). */
   function cloneMermaidSvg(svg) {
-    var svgClone = svg.cloneNode(true);
+    // outerHTML round-trip (cleaner than cloneNode for some WebKit SVG quirks)
+    var wrap = document.createElement("div");
+    wrap.innerHTML = svg.outerHTML;
+    var svgClone = wrap.querySelector("svg");
+    if (!svgClone) {
+      svgClone = svg.cloneNode(true);
+    }
+
     var oldId = svg.getAttribute("id") || "";
-    var newId = oldId ? oldId + "-lb" : "mermaid-lb-" + Date.now().toString(36);
+    // Prefix form so oldId is NOT a prefix of newId (avoids double-rewrite)
+    var newId = oldId ? ("lb-" + oldId) : ("lb-mermaid-" + Date.now().toString(36));
+
+    function rewrite(str) {
+      if (!str || str.indexOf(oldId) === -1) return str;
+      // Token-safe: #id, id_, id-, or bare id as whole token
+      var esc = oldId.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return str
+        .replace(new RegExp("#" + esc + "(?=\\b|_)", "g"), "#" + newId)
+        .replace(new RegExp(esc + "_", "g"), newId + "_")
+        .replace(new RegExp(esc + "-", "g"), newId + "-")
+        .replace(new RegExp("(^|[^\\w-])" + esc + "(?=[^\\w-]|$)", "g"), "$1" + newId);
+    }
+
     if (oldId) {
-      svgClone.setAttribute("id", newId);
-      // <style> blocks: #mermaid-1 … → #mermaid-1-lb …
       svgClone.querySelectorAll("style").forEach(function (st) {
-        if (st.textContent && st.textContent.indexOf(oldId) !== -1) {
-          st.textContent = st.textContent.split(oldId).join(newId);
-        }
+        st.textContent = rewrite(st.textContent || "");
       });
-      // id="mermaid-1_…" on markers/clips/etc.
+      // Child ids first (not root yet)
       svgClone.querySelectorAll("[id]").forEach(function (node) {
+        if (node === svgClone) return;
         var id = node.getAttribute("id");
-        if (id && id.indexOf(oldId) === 0) {
-          node.setAttribute("id", newId + id.slice(oldId.length));
+        if (!id) return;
+        if (id === oldId || id.indexOf(oldId + "_") === 0 || id.indexOf(oldId + "-") === 0) {
+          node.setAttribute("id", rewrite(id));
         }
       });
-      // url(#mermaid-1_…), href="#…", xlink:href
-      var attrs = ["marker-end", "marker-start", "marker-mid", "clip-path", "fill", "stroke", "filter", "href", "xlink:href", "style"];
+      svgClone.setAttribute("id", newId);
+
+      var attrs = [
+        "marker-end", "marker-start", "marker-mid",
+        "clip-path", "fill", "stroke", "filter",
+        "href", "xlink:href", "style"
+      ];
       svgClone.querySelectorAll("*").forEach(function (node) {
         attrs.forEach(function (a) {
           var v = node.getAttribute(a);
           if (v && v.indexOf(oldId) !== -1) {
-            node.setAttribute(a, v.split(oldId).join(newId));
+            node.setAttribute(a, rewrite(v));
           }
         });
       });
-      // root may also carry style attr
       var rs = svgClone.getAttribute("style");
-      if (rs && rs.indexOf(oldId) !== -1) {
-        svgClone.setAttribute("style", rs.split(oldId).join(newId));
-      }
+      if (rs) svgClone.setAttribute("style", rewrite(rs));
     } else {
       svgClone.setAttribute("id", newId);
     }
+
+    // Belt-and-suspenders: edge paths must never inherit black fill
+    // (default SVG fill is black; Mermaid relies on .flowchart-link{fill:none})
+    var edgeSel = [
+      "path.flowchart-link",
+      ".edgePath path",
+      "path[marker-end]",
+      "path[marker-start]",
+      ".edge-thickness-normal",
+      ".edge-pattern-solid",
+      ".edge-pattern-dotted"
+    ].join(",");
+    svgClone.querySelectorAll(edgeSel).forEach(function (p) {
+      p.setAttribute("fill", "none");
+      // Keep stroke if present via CSS; if computed missing, leave to stylesheet
+    });
+
+    // Inject override style last so it wins even if id rewrite misses
+    var guard = document.createElementNS("http://www.w3.org/2000/svg", "style");
+    guard.textContent = [
+      "#" + newId + " path.flowchart-link,",
+      "#" + newId + " .edgePath path,",
+      "#" + newId + " path[marker-end],",
+      "#" + newId + " path[marker-start]",
+      "{fill:none!important;}",
+      "#" + newId + " .flowchart-link{fill:none!important;}"
+    ].join("");
+    svgClone.insertBefore(guard, svgClone.firstChild);
+
     svgClone.classList.add("fig-lightbox-clone");
     svgClone.classList.add("fig-lightbox-svg");
     svgClone.setAttribute("preserveAspectRatio", "xMidYMid meet");
