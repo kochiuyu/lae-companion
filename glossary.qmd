@@ -667,10 +667,6 @@ Electronic or procedural boundary that keeps the SUA inside pre-defined sandbox 
 
 Risk to people, vehicles, vessels or structures on the ground from the SUA flight. CAD AC-013 §4.3(f), §5.2.
 
-**Interoperability / standards**
-
-Ability of vehicles, UTM and sites to work to a common rule set; cite PA infrastructure language only. Course / 2025 PA.
-
 **Involved person (參與人員)**
 
 Person who takes part in or is briefed on the SUA operation, understands the risks, and follows safety instructions. CAD AC-013 §2.5.1.
@@ -834,6 +830,10 @@ English: “Enhance core infrastructure facilities by designating spectrum by th
 
 [「推展核心基建設施，年底前推出專用頻譜，提前規劃部署起降場、航路網絡、衞星定位、三維空間數據系統、智能低空交通管理系統等。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
+
+**[Interoperability / standards]{#interoperability}**
+
+Ability of authorized systems, organizations, vehicles, UTM/traffic services, and sites to **exchange, interpret, and use** information and procedures under a common rule set (data models, interfaces, identity/access, service levels, conformance testing). In Hong Kong course materials, treat this as **Policy Address infrastructure / digital-coordination language** and a Week 8 teaching concept — not a finished local statute that already mandates one LAE standard stack. Shared standards can cut duplicate interfaces and repeated manual coordination, but systems, cybersecurity, assurance, and governance still cost money; open standards do **not** mean unrestricted public access to operational data. **U-space ≠ Hong Kong law.** See [Week 8](week-08.qmd#digital-coordination-and-interoperability); [Key figures](key-figures.qmd) / [Official status](tracker.qmd) for PA wording.
 
 **Route network (PA) (航路網絡)**
 
@@ -1248,8 +1248,4 @@ U.S. government agency responsible for science and technology related to air and
 In NASA UAM market-study framing, legal, weather, infrastructure, and acceptance barriers shrink an unconstrained market into a constrained one (NASA 2018).
 
 Teaches students not to paste unconstrained dollar / TAM figures into a Hong Kong case. Comparator study only — **not** Hong Kong law and not a local forecast. See also [NASA](#nasa); [unconstrained versus constrained market](#unconstrained-versus-constrained-market).
-
-## Unplaced
-
-- Interoperability / standards
 
