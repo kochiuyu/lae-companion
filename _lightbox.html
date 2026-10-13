@@ -114,13 +114,18 @@
         var svgClone = svg.cloneNode(true);
         svgClone.removeAttribute("id");
         svgClone.classList.add("fig-lightbox-clone");
-        // Let CSS size it; keep viewBox for zoom/scroll
-        if (!svgClone.getAttribute("viewBox") && svgClone.getAttribute("width") && svgClone.getAttribute("height")) {
-          /* keep as-is */
+        svgClone.classList.add("fig-lightbox-svg");
+        // Preserve aspect: Mermaid often sets width="100%" which stretches in a wide dialog.
+        // Prefer viewBox + CSS max containment; never force width:100% + fixed height.
+        svgClone.setAttribute("preserveAspectRatio", "xMidYMid meet");
+        if (svgClone.getAttribute("viewBox")) {
+          svgClone.removeAttribute("width");
+          svgClone.removeAttribute("height");
         }
-        svgClone.style.maxWidth = "none";
-        svgClone.style.width = "100%";
-        svgClone.style.height = "auto";
+        svgClone.style.width = "";
+        svgClone.style.height = "";
+        svgClone.style.maxWidth = "";
+        svgClone.style.maxHeight = "";
         stage.appendChild(svgClone);
       } else {
         var note = document.createElement("p");
@@ -136,6 +141,9 @@
       clone.removeAttribute("tabindex");
       clone.removeAttribute("role");
       clone.classList.add("fig-lightbox-clone");
+      if (clone.classList.contains("wdiag") || clone.querySelector(".wdiag")) {
+        clone.classList.add("fig-lightbox-wdiag");
+      }
       stage.appendChild(clone);
     }
 

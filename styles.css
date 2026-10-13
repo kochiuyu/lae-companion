@@ -731,25 +731,49 @@ main table,
   max-height: calc(94vh - 5.5rem);
   padding: 0.85rem 1rem 1rem;
   overscroll-behavior: contain;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
+/* Default clone: contain inside stage — do not stretch */
 .fig-lightbox-clone {
-  max-width: none !important;
-  width: max-content;
-  min-width: min(100%, 42rem);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: fit-content;
+  min-width: 0;
   margin: 0 auto;
-  transform-origin: top left;
+  transform-origin: top center;
 }
 
+/* Mermaid SVG: intrinsic aspect from viewBox; cap both axes */
+.fig-lightbox-stage > svg.fig-lightbox-svg,
+.fig-lightbox-svg {
+  display: block;
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: calc(94vh - 6.5rem) !important;
+  flex: 0 0 auto;
+}
+
+/* Teaching diagrams: keep layout width readable but not stretched */
 .fig-lightbox-clone.wdiag,
+.fig-lightbox-clone.fig-lightbox-wdiag,
 .fig-lightbox .wdiag {
-  max-width: none;
+  width: 100%;
+  max-width: min(42rem, 100%);
   font-size: 1.05rem;
+}
+
+.fig-lightbox .wdiag-row > .wdiag-box {
+  flex: 1 1 auto; /* allow wrap without forcing equal stretch beyond content */
 }
 
 .fig-lightbox .mermaid,
 .fig-lightbox-clone.mermaid {
-  max-width: none;
+  max-width: 100%;
+  height: auto;
 }
 
 .fig-lightbox-hint {
