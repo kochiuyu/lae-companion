@@ -645,23 +645,42 @@ main table,
 /* ============================================================
    Click-to-enlarge lightbox (.wdiag / Mermaid / quarto-figure)
    ============================================================ */
-.fig-enlargeable {
+/* Stable desktop+mobile hit target (Mermaid may wipe classes on <svg>) */
+.fig-enlarge-wrap,
+.fig-enlargeable,
+[data-enlarge-bound="1"] {
   cursor: zoom-in;
   position: relative;
+  pointer-events: auto;
+}
+
+.fig-enlarge-wrap {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 0.35rem;
+}
+
+/* Let clicks on SVG children bubble to the wrap */
+.fig-enlarge-wrap > svg,
+.fig-enlarge-wrap > pre.mermaid {
+  pointer-events: auto;
 }
 
 .fig-enlarge-hint {
   display: inline-block;
-  margin: 0.35rem 0 0.15rem;
-  padding: 0.2rem 0.55rem;
-  font-size: 0.78rem;
+  margin: 0.45rem 0 0.35rem;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.82rem;
   font-weight: 600;
   color: #003366;
   background: #F7F6F3;
-  border: 1px solid #d9d4c7;
+  border: 1px solid #003366;
   border-radius: 999px;
   cursor: pointer;
   line-height: 1.3;
+  pointer-events: auto;
+  position: relative;
+  z-index: 2;
 }
 
 .fig-enlarge-hint:hover,
@@ -669,6 +688,20 @@ main table,
   background: #003366;
   color: #F7F6F3;
   border-color: #003366;
+}
+
+/* Desktop: keep hint clearly visible (not mobile-only) */
+@media (min-width: 768px) {
+  .fig-enlarge-hint {
+    font-size: 0.88rem;
+    padding: 0.35rem 0.9rem;
+  }
+
+  .fig-enlarge-wrap:hover > .fig-enlarge-hint,
+  .fig-enlargeable:hover > .fig-enlarge-hint {
+    background: #003366;
+    color: #F7F6F3;
+  }
 }
 
 .fig-lightbox {
@@ -792,9 +825,14 @@ main table,
   }
 }
 
-/* Enlarge hint must sit *after* Mermaid, not inside it */
-pre.mermaid + .fig-enlarge-hint,
-.mermaid + .fig-enlarge-hint {
+/* Hint lives inside .fig-enlarge-wrap (after diagram) */
+.fig-enlarge-wrap > .fig-enlarge-hint {
+  margin-top: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+svg.mermaid-js + .fig-enlarge-hint,
+pre.mermaid + .fig-enlarge-hint {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
 }
