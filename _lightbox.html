@@ -1,6 +1,6 @@
 <!-- Click-to-enlarge for .wdiag, Mermaid, and Quarto structural figures.
      Desktop + mobile: wrap hosts in .fig-enlarge-wrap (stable click target).
-     Lightbox zoom: +/− buttons, wheel, pinch. Mermaid SVG clone keeps markers/fill.
+     Lightbox zoom: +/− / wheel / pinch grow real layout size (crisp SVG). Mermaid clone keeps markers/fill.
      Never inject nodes inside pre.mermaid source. -->
 <dialog id="fig-lightbox" class="fig-lightbox" aria-labelledby="fig-lightbox-title">
   <div class="fig-lightbox-chrome">
@@ -35,14 +35,83 @@
   var zoom = 1;
   var pinchStartDist = 0;
   var pinchStartZoom = 1;
+  /* Layout size at 100% (CSS px). Zoom grows real width/height so SVG re-rasters crisp. */
+  var baseW = 0;
+  var baseH = 0;
+  var baseFontRem = 1.05;
+
+  function contentEl() {
+    return viewport.firstElementChild;
+  }
+
+  function clearSizedStyles(el) {
+    if (!el || !el.style) return;
+    el.style.removeProperty("width");
+    el.style.removeProperty("height");
+    el.style.removeProperty("max-width");
+    el.style.removeProperty("max-height");
+    el.style.removeProperty("font-size");
+    el.classList.remove("fig-lightbox-sized");
+  }
+
+  function captureBaseSize() {
+    var el = contentEl();
+    baseW = 0;
+    baseH = 0;
+    if (!el) return;
+    clearSizedStyles(el);
+    viewport.removeAttribute("data-zooming");
+    void el.offsetWidth;
+    var r = el.getBoundingClientRect();
+    baseW = r.width;
+    baseH = r.height;
+    if (el.tagName === "IMG" && el.naturalWidth) {
+      el.dataset.naturalW = String(el.naturalWidth);
+    }
+  }
 
   function applyZoomLayout() {
-    viewport.style.transform = "scale(" + zoom + ")";
-    /* Transform does not grow layout box — pad so stage can scroll/pan. */
-    var w = viewport.scrollWidth;
-    var h = viewport.scrollHeight;
-    viewport.style.marginRight = Math.max(0, (zoom - 1) * w) + "px";
-    viewport.style.marginBottom = Math.max(0, (zoom - 1) * h) + "px";
+    var el = contentEl();
+    /* Drop CSS-transform zoom (blurs vectors painted at page size). */
+    viewport.style.transform = "";
+    viewport.style.marginRight = "";
+    viewport.style.marginBottom = "";
+    if (!el || baseW <= 0) return;
+
+    if (Math.abs(zoom - 1) < 0.001) {
+      clearSizedStyles(el);
+      viewport.removeAttribute("data-zooming");
+      return;
+    }
+
+    viewport.setAttribute("data-zooming", "1");
+    el.classList.add("fig-lightbox-sized");
+    var w = baseW * zoom;
+    var h = baseH * zoom;
+
+    if (el.tagName === "SVG") {
+      el.style.setProperty("max-width", "none", "important");
+      el.style.setProperty("max-height", "none", "important");
+      el.style.setProperty("width", w + "px", "important");
+      el.style.setProperty("height", h + "px", "important");
+    } else if (el.tagName === "IMG") {
+      el.style.setProperty("max-width", "none", "important");
+      el.style.setProperty("width", w + "px", "important");
+      el.style.setProperty("height", "auto", "important");
+    } else {
+      el.style.setProperty("max-width", "none", "important");
+      el.style.setProperty("width", w + "px", "important");
+      if (el.classList.contains("fig-lightbox-wdiag") || el.classList.contains("wdiag") ||
+          (el.querySelector && el.querySelector(".wdiag"))) {
+        el.style.fontSize = (baseFontRem * zoom) + "rem";
+      }
+      var img = el.querySelector && el.querySelector("img");
+      if (img) {
+        img.style.setProperty("max-width", "none", "important");
+        img.style.setProperty("width", "100%", "important");
+        img.style.height = "auto";
+      }
+    }
   }
 
   function setZoom(next, originX, originY) {
@@ -67,9 +136,11 @@
 
   function resetZoom() {
     zoom = 1;
-    viewport.style.transform = "scale(1)";
-    viewport.style.marginRight = "0";
-    viewport.style.marginBottom = "0";
+    viewport.style.transform = "";
+    viewport.style.marginRight = "";
+    viewport.style.marginBottom = "";
+    clearSizedStyles(contentEl());
+    viewport.removeAttribute("data-zooming");
     stage.scrollLeft = 0;
     stage.scrollTop = 0;
     zoomResetBtn.textContent = "100%";
@@ -241,6 +312,13 @@
     titleEl.textContent = captionFor(host);
     dialog.showModal();
     stage.focus();
+    /* Measure fit size after dialog layout; zoom then grows that box (vector re-paint). */
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        captureBaseSize();
+        if (Math.abs(zoom - 1) > 0.001) applyZoomLayout();
+      });
+    });
   }
 
   function close() {
