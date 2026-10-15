@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-13"
+as_of: "2026-10-15"
 page-layout: article
 ---
 
@@ -43,9 +43,15 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones (as of 13 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones (as of 15 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">13 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">19 items</span></summary><ol>
+<li id="tl-ind-2026-10-14-volant"><a href="#industry-item-2026-10-14-volant"><span class="chip">14–15 Oct</span> · Volant–川航低空 50× VE25-100 (20 firm + 30 LOI)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-15-autoflight"><a href="#industry-item-2026-10-15-autoflight"><span class="chip">15 Oct</span> · AutoFlight–JC Aviation MoU 260 eVTOL + 10 SUNSHIP<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-14-dji-dock4"><a href="#industry-item-2026-10-14-dji-dock4"><span class="chip">14 Oct</span> · DJI Dock 4 + Matrice 5TD battery-swap dock launch<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-14-amazon-westborough"><a href="#industry-item-2026-10-14-amazon-westborough"><span class="chip">14 Oct</span> · Amazon Prime Air Westborough Congressional pause request<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-13-indy-heliport"><a href="#industry-item-2026-10-13-indy-heliport"><span class="chip">13 Oct</span> · Indianapolis Downtown Heliport FAA keeps open (AAM framing)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-09-dronevolt"><a href="#industry-item-2026-10-09-dronevolt"><span class="chip">9 Oct</span> · Drone Volt Hercules 100 heavy-lift unveil [late catch]<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-12-heart"><a href="#industry-item-2026-10-12-heart"><span class="chip">12 Oct</span> · Heart Aerospace FAA CLEEN Phase IV (ES-36 hybrid; company)<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-12-vtech"><a href="#industry-item-2026-10-12-vtech"><span class="chip">12 Oct</span> · Virginia Tech Smart Airspace Electra+Textron trials<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-09-tcab"><a href="#industry-item-2026-10-09-tcab"><span class="chip">9 Oct</span> · TCab Tech–SIDEC MoU for E20 Malaysia exploration<span class="badge b-co">Company</span></a></li>
@@ -117,7 +123,50 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
 
-- []{#industry-item-2026-10-12-heart .industry-item}**12 Oct 2026 · Heart Aerospace newsroom:** Heart says FAA selected it for a USD 2.9 m CLEEN Phase IV award (matched by Heart to USD 5.8 m / 24 months) under Project HYPER to advance the ES-36 series-hybrid turbogenerator. [Link](https://www.heartaerospace.com/newsroom/faa-selects-heart-aerospace-for-2-9-million-cleen-award-to-advance-es-36-hybrid-propulsion-system) · [Urban Air Mobility News](https://www.urbanairmobilitynews.com/government-investment/faa-awards-heart-aerospace-more-funding-for-hybrid-propulsion-research/)
+- []{#industry-item-2026-10-14-volant .industry-item}**14–15 Oct 2026 · 新华财经 / 川观新闻:** Volant (上海沃兰特) and Sichuan Airlines Low Altitude (川航低空) sign for 50 VE25-100 “Tianxing” passenger eVTOLs — **20 firm orders and 30 letters of intent** — at the Zigong Low-Altitude Economy Industry Conference (signing 14 Oct; Xinhua Finance 15 Oct). [Link](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html) · [川观新闻](https://cbgc.scol.com.cn/news/8057731) · [证券时报](https://www.stcn.com/article/detail/4218808.html)
+  - Tag: Independently reported
+  - What's new: Independently reported signing: before VE25-100 obtains a type certificate, parties will jointly pursue R&D testing and pilot operations and explore airport-shuttle / UAM / emergency / business / tourism scenarios in Sichuan–Chongqing; industry-fund co-investment language also attributed. Press restates company milestones (AC101/AC102 flights; Zigong base) — **company-origin, not upgraded**. Unit-price and “2000+意向订单” claims in exhibition coverage stay **company/press claims**. **This is a purchase agreement with a large LOI tranche**, not an issued TC, AOC, or scheduled passenger service.
+  - Status: Independently reported procurement signing (20 firm + 30 LOI); TC not issued; not scheduled passenger service.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「上海沃兰特航空科技股份有限公司（简称“沃兰特”）14日与四川航空集团低空经济投资管理有限责任公司（简称“川航低空”）签署协议，川航低空向沃兰特采购50架VE25-100天行客运eVTOL（电动垂直起降航空器），其中确定订单20架，意向订单30架。」]{lang="zh-Hans"} ([source](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html))
+
+  English (LAE-Intel translation): On the 14th, Shanghai Volant Aviation Technology Co., Ltd. (“Volant”) signed an agreement with Sichuan Airlines Group Low-Altitude Economy Investment Management Co., Ltd. (“Sichuan Airlines Low Altitude”) under which the latter will procure 50 VE25-100 “Tianxing” passenger eVTOLs — 20 firm orders and 30 letters of intent.
+  :::
+
+- []{#industry-item-2026-10-15-autoflight .industry-item}**15 Oct 2026 · AutoFlight newsroom:** AutoFlight (峰飞航空) and JC Aviation Pte. Ltd. (Singapore / Makrana Holdings aviation vertical) sign an MoU covering planned procurement of **260** AutoFlight eVTOL aircraft and **10** SUNSHIP water-based platforms, initially focused on India and Brazil. [Link](https://www.autoflight.com/en/news/autoflight-and-jc-aviation-sign-mou-to-accelerate-evtol-deployment-acr/) · [新华财经](https://www.cnfin.com/gs-lb/detail/20261015/4481107_1.html)
+  - Tag: Company-announced
+  - What's new: Company MoU: mix of V2000CG CarryAll cargo, V2000CGF firefighting, and V2000EM Prosperity passenger types between 2026–2031, plus 10 SUNSHIP platforms 2026–2029; **initial confirmed commitment** claimed for two V2000CG and one SUNSHIP, with broader procurement to follow subsequent purchase agreements. Collaboration language covers certification, fleet, training, MRO and local ops support. **MoU ≠ firm fleet backlog / AOC / EIS.** V2000CG CAAC TC claim remains company-announced (unchanged from Companies & sectors).
+  - Status: Company-announced MoU; MoU ≠ firm order / AOC / EIS; initial 2+1 is company claim.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-14-dji-dock4 .industry-item}**14 Oct 2026 · DJI media center:** DJI launches Dock 4, its first drone-in-a-box with ~25-second automated battery swap, paired with the new Matrice 5TD enterprise aircraft for DFR / inspection / security / survey framing. [Link](https://www.dji.com/media-center/announcements/dji-release-dock-4) · [DJI Enterprise Insights](https://enterprise-insights.dji.com/blog/dji-dock-4-battery-swapping-dock)
+  - Tag: Company-announced
+  - What's new: Company product launch: automatic battery swap in 25 seconds; turnaround framed as seconds vs ~30-minute recharge; Matrice 5TD single-flight endurance up to 59 minutes and multi-sensor / onboard-AI object-detection claims — **all company-announced specs**. Available through authorised DJI Enterprise dealers; no HK Sandbox award or CAAC passenger-eVTOL TC attached. Useful enabling-infrastructure product for continuous UAS ops — not a delivery-network go-live.
+  - Status: Company-announced product launch; specs company-origin; not a passenger eVTOL TC.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-14-amazon-westborough .industry-item}**14 Oct 2026 · WBUR / Reuters:** Massachusetts members of Congress write Amazon and the FAA seeking a site-specific environmental review and a pause before Prime Air deliveries from a planned Westborough / MetroWest Massachusetts distribution-centre hub. [Link](https://www.wbur.org/news/2026/10/14/amazon-drone-delivery-massachusetts-markey-trahan-mcgovern) · [FAA Part 135 package-delivery page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Tag: Independently reported
+  - What's new: Independently reported: Amazon has been aiming for end-2026 Prime Air service in a ~7.5-mile radius from Westborough (Shrewsbury, Northborough, parts of Grafton / Worcester / Sutton / Southborough) — **planning claims via press, not live ops**. Letter (Sens. Markey & Warren; Reps. McGovern & Trahan) cites historic town centre, biodiversity, and New England weather/daylight differences vs prior FAA EAs; Massachusetts is among states suing FAA over broader package-delivery environmental approach. Local planning-board launch-pad approval still pending. FAA Part 135 operator status for Amazon Prime Air remains officially confirmed on the FAA package-delivery page (Pendleton OR baseline 2020) — this item is **hub-authorisation friction**, not a new certificate.
+  - Status: Independently reported planning / political friction; hub not live; Part 135 operator existence officially listed on FAA page.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-13-indy-heliport .industry-item}**13 Oct 2026 · AVweb / Federal Register notice:** FAA reverses a prior closure/waiver path and requires Indianapolis Downtown Heliport (8A4) to remain available for public aviation use, citing AIP obligations and preservation of infrastructure for future eVTOL / AAM (determination / FR document dated 13 Oct). [Link](https://avweb.com/aviation-news/faa-reverses-indianapolis-heliport-closure/) · [Federal Register notice](https://www.federalregister.gov/documents/2026/10/13/2026-20859/notice-of-agency-determination-on-waiver-with-respect-to-land-indianapolis-downtown-heliport) · [Indiana AG statement](https://events.in.gov/event/after-intervening-on-behalf-of-the-states-interests-attorney-attorney-general-todd-rokita-announces-faa-decision-to-keep-indianapolis-heliport-open-for-aviation-uses)
+  - Tag: Independently reported
+  - What's new: Independently reported determination: Indianapolis Airport Authority cannot sell the 5.36-acre site for non-aviation redevelopment under the revised FAA stance; public-comment tally and Sweet Helicopters purchase offer noted in press. **Heliport retention ≠ eVTOL type certificate or scheduled air-taxi service.** Useful US infrastructure-preservation precedent; **does not create a Hong Kong vertiport statute**. Federal Register full HTML was CAPTCHA-blocked in the industry pass — treat FR cite as OPEN/blocked primary; AVweb + Indiana AG as secondary.
+  - Status: Independently reported FAA keep-open determination; not an eVTOL TC / scheduled service; not an HK vertiport statute.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-09-dronevolt .industry-item}**9 Oct 2026 (unveil) / 14 Oct 2026 (trade press) · Dronewatch Europe:** French manufacturer Drone Volt unveils Hercules 100 octocopter heavy-lift cargo drone at UAV Show Bordeaux — company specs up to 100 kg payload for 30 minutes — aimed at industrial logistics, emergency response and military resupply. [Link](https://www.dronewatch.eu/french-developed-hercules-100-cargo-drone-can-carry-100-kg-for-30-minutes/)
+  - Tag: Independently reported
+  - What's new: Late-catch product unveil just before the industry window; 14 Oct European trade press documents specs (MTOW 197 kg; winch to 80 kg; foldable arms; triple-redundant flight controls — **company-via-press**). No military order announced. Competes in the same heavy-lift segment as DJI FlyCart / FlyingBasket FB3 per press framing — comparisons not audited. Absent from the 13 Oct industry pass.
+  - Status: Independently reported product unveil; performance figures company-origin; no order announced.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-12-heart .industry-item}
+**12 Oct 2026 · Heart Aerospace newsroom:** Heart says FAA selected it for a USD 2.9 m CLEEN Phase IV award (matched by Heart to USD 5.8 m / 24 months) under Project HYPER to advance the ES-36 series-hybrid turbogenerator. [Link](https://www.heartaerospace.com/newsroom/faa-selects-heart-aerospace-for-2-9-million-cleen-award-to-advance-es-36-hybrid-propulsion-system) · [Urban Air Mobility News](https://www.urbanairmobilitynews.com/government-investment/faa-awards-heart-aerospace-more-funding-for-hybrid-propulsion-research/)
   - Tag: Company-announced
   - What's new: Company release dated 12 Oct: CLEEN funds development and testing of a megawatt-class turbogenerator in each of two ES-36 propulsion nacelles, extending range beyond battery-only; path is ground testing → demonstration flights on a pre-production ES-36 (company: first flight scheduled 2028). Builds on prior FAA FAST support for THEMIS hybrid propulsion-control architecture. Company restates ES-36 range targets and customer-commitment figures — company claims, not upgraded. This is an R&D / demonstration award as attributed by the company, **not** a type certificate or airline entry-into-service. Separate FAA CLEEN selection instrument for this line item not retrieved here — award details stay company-attributed.
   - Status: Company-announced R&D award; ES-36 not type-certified; not scheduled passenger service.

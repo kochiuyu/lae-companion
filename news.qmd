@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-10-11"
+as_of: "2026-10-15"
 page-layout: article
 ---
 
@@ -37,9 +37,10 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones (as of 11 Oct 2026)</strong> — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones (as of 15 Oct 2026)</strong> — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">5 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">6 items</span></summary><ol>
+<li id="tl-press-2026-10-15-caac-landing" class="st-open"><a href="#press-item-2026-10-15-caac-landing"><span class="chip">14–15 Oct</span> · CAAC draft medium/small UAS landing-site technical requirements<span class="badge b-open">DRAFT</span></a></li>
 <li id="tl-press-2026-10-11-sai-kung"><a href="#press-item-2026-10-11-sai-kung"><span class="chip">11 Oct</span> · CAD: Mainland eVTOL firms invited into Sandbox; cross-boundary pilots next<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-10-ftu-caac"><a href="#press-item-2026-10-10-ftu-caac"><span class="chip">10 Oct</span> · FTU–Guangzhou CAAC small multi-rotor VLOS licence course opens<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-07-slatms"><a href="#press-item-2026-10-07-slatms"><span class="chip">7 Oct</span> · CAD outlines SLATMS / Smart TMS research stack<span class="badge b-ind">Press</span></a></li>
@@ -104,6 +105,17 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ## 2026-10 {#press-2026-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-10-15-caac-landing .press-item}**14–15 Oct 2026 · Civil Aviation Administration of China (民航局低空安全司):** CAAC opens public consultation on the draft *Technical Requirements for Medium and Small Unmanned Aircraft Take-off and Landing Sites* (《中小型无人驾驶航空器起降场地技术要求（征求意见稿）》); letter dated 14 Oct 2026; YJZJ listing 15 Oct 2026; comment close **13 Nov 2026**. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261015_231850.html)
+  - What's new: Mainland technical-standard draft for medium/small UAS landing sites / low-altitude ground infrastructure. Parallel WATCH item on Official status. **Not** a final departmental 令; **not** a substitute for the still-draft ATM Rules; **not** a Hong Kong Cap. 448G / vertiport statute (Hong Kong still has no vertiport statute).
+  - Status: Draft / consultation only — not an enacted standard. Not Hong Kong law.
+  - Read instead: [Official status](tracker.qmd) (CAAC landing-site draft WATCH); Timeline: no new HK official milestone this window.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为加快完善低空起降场地技术标准，推动低空基础设施有序发展，满足中小型无人驾驶航空器各类低空应用场景运行需要，民航局低空安全司组织编制了《中小型无人驾驶航空器起降场地技术要求（征求意见稿）》，现公开征求意见。请于2026年11月13日前将意见反馈编写组联系人。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261015_231850.html))
+
+  English (LAE-Intel translation): To accelerate improvement of technical standards for low-altitude take-off and landing sites, promote orderly development of low-altitude infrastructure, and meet operational needs across low-altitude application scenarios for medium and small unmanned aircraft, the Low-altitude Safety Department of CAAC has organised the drafting of the Technical Requirements for Medium and Small Unmanned Aircraft Take-off and Landing Sites (Draft for Comment), which is hereby issued for public comment. Please submit comments to the drafting-group contact by 13 November 2026.
+  :::
 
 - []{#press-item-2026-10-11-sai-kung .press-item}**11 Oct 2026 · 香港文匯報:** At a Sai Kung “low-altitude economy and rural cultural tourism” forum (held 10 Oct), CAD Deputy Director-General and Working Group Project Facilitation Task Force co-convenor Chow Wing-hang (周永恒) said the government has invited Mainland advanced eVTOL enterprises into the Regulatory Sandbox and next intends to expand to cross-boundary flight pilots. [Link](https://www.tkww.hk/epaper/view/newsDetail/2108969991637438464.html) · [PDF](https://dw-media.tkww.hk/epaper/wwp/20261011/a07-1011.pdf)
   - What's new: Press report of official remarks: Sandbox invitation to Mainland eVTOL firms, and intent to expand to cross-boundary flight pilots; Sai Kung framed as a practice base (distance from HKIA airspace constraints; coastal-mountain terrain). No accompanying GIA found this run.

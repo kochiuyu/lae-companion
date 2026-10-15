@@ -1,18 +1,18 @@
 ---
 title: "Companies & sectors"
 subtitle: "Who is in the market"
-as_of: "2026-10-13"
+as_of: "2026-10-15"
 page-layout: full
 toc: true
 toc-location: right
 toc-title: "Sections"
 ---
 
-Sources (as of 13 Oct 2026): 79 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
+Sources (as of 15 Oct 2026): 82 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 
 ## Companies & sectors at a glance
 
-**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks stay in the sector lists below but are omitted from the map. Marker colour = Hong Kong vs GBA — see legend. Click a pin for firm, sector(s), and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). **Counting rule:** one pin per unique HK/GBA firm — **55 pins** (44 Hong Kong + 11 GBA) from the HK/GBA subset of 79 entry rows.
+**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks stay in the sector lists below but are omitted from the map. Marker colour = Hong Kong vs GBA — see legend. Click a pin for firm, sector(s), and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). **Counting rule:** one pin per unique HK/GBA firm — **55 pins** (44 Hong Kong + 11 GBA) from the HK/GBA subset of 82 entry rows.
 
 ```{=html}
 <!-- Landscape at-a-glance map: Leaflet CDN, self-contained (no _quarto.yml change). GBA-focused (HK + Shenzhen/Guangzhou/Zhuhai); Global benchmarks omitted from map. -->
@@ -230,6 +230,15 @@ Sources (as of 13 Oct 2026): 79 entries across eleven sectors. Entries are check
   - Status: Operating (FAA Part 135); Round Rock / Austin-area go-live company-announced + municipal information page
   - Source: [FAA Part 135 package-delivery-by-drone page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone) · [Zipline Austin newsroom (company)](https://www.zipline.com/newsroom/now-loading-zipline-brings-fast-autonomous-delivery-to-austin) · [City of Round Rock](https://www.roundrocktexas.gov/city-departments/administration/drone-delivery-in-round-rock/)
 
+- **Amazon Prime Air · United States:** FAA Part 135 UAS package-delivery air carrier (standard Part 135; FAA notes Amazon was the first >55 lb drone Part 135 operator). Commercial ops began August 2020 in Pendleton, OR per FAA page. Westborough / MetroWest Massachusetts hub remains **planning** — 14 Oct 2026 Congressional letter (Sens. Markey & Warren; Reps. McGovern & Trahan) asks FAA for a site-specific environmental review and Amazon to pause before deliveries; local planning-board launch-pad approval still pending per WBUR. Not live in New England this run. [Link](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Tag: Officially confirmed
+  - Status: Operating (existing Part 135 markets); Westborough = announced / not live
+  - Source: [FAA Part 135 package-delivery-by-drone page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone) · [WBUR 2026-10-14 (Westborough friction)](https://www.wbur.org/news/2026/10/14/amazon-drone-delivery-massachusetts-markey-trahan-mcgovern)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  English: “Amazon Prime Air was the first company to operate a drone larger than 55 pounds under a 14 CFR part 119 air carrier certificate as a standard part 135 operator. Amazon Prime Air began commercial operations in August 2020, in Pendelton, OR.” ([source](https://www.faa.gov/uas/advanced_operations/package_delivery_drone))
+  :::
+
 ## Inspection and surveying
 
 - []{#firm-clp-power-hong-kong .landscape-entry}**CLP Power Hong Kong · Hong Kong:** Regulatory Sandbox infrastructure surveillance over overhead powerlines (Sai Kung, Shing Mun and other CLP corridors). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-clp-power-hong-kong"}
@@ -432,6 +441,11 @@ Sources (as of 13 Oct 2026): 79 entries across eleven sectors. Entries are check
   [「截至10月7日，为期十天的活动共接待游客2.1万余人次，其中港澳游客3000余人次。……过去三年，该机场低空飞行测试验证基地一期投入使用，已为广东省航空航天装备研究院、小鹏汇天、珠海天晴等9家低空经济企业提供无人机测试业务。」]{lang="zh-Hans"} ([source](https://pub-zhtb.hizh.cn/a/202610/07/AP6ac63451e4b0858d47781f98.html))
   :::
 
+- **Indianapolis Downtown Heliport (8A4) · United States:** Existing downtown public-use heliport retained for aviation use after FAA reversed a prior closure/waiver path (~13 Oct 2026). Trade press quoting the FAA determination emphasises preserving infrastructure for future eVTOL / AAM — **not** a type certificate, **not** scheduled eVTOL service, and **not** a Hong Kong vertiport statute comparator. Operator: Indianapolis Airport Authority (FAA AIP obligations). [Link](https://avweb.com/aviation-news/faa-reverses-indianapolis-heliport-closure/)
+  - Tag: Independently reported
+  - Status: Operating (public-use heliport retained); not HK vertiport statute
+  - Source: [AVweb 2026-10-13](https://avweb.com/aviation-news/faa-reverses-indianapolis-heliport-closure/) · [Federal Register notice (HTML CAPTCHA-blocked in packet run)](https://www.federalregister.gov/documents/2026/10/13/2026-20859/notice-of-agency-determination-on-waiver-with-respect-to-land-indianapolis-downtown-heliport) · [Indiana AG statement](https://events.in.gov/event/after-intervening-on-behalf-of-the-states-interests-attorney-attorney-general-todd-rokita-announces-faa-decision-to-keep-indianapolis-heliport-open-for-aviation-uses)
+
 - []{#firm-cad-ac-016-sua-docking-station .landscape-entry}**CAD AC-016 (SUA docking-station pathway) · Hong Kong:** CAD Advisory Circular on SUA operations using unmanned aircraft docking stations — guidance for advanced ops permissions. Not a vertiport statute; Hong Kong has no dedicated vertiport ordinance. [Link](https://www.cad.gov.hk/documents/AC-016.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-cad-ac-016-sua-docking-station"}
   - Tag: Officially confirmed
   - Status: Announced (AC pathway; no HK vertiport statute)
@@ -488,10 +502,10 @@ Sources (as of 13 Oct 2026): 79 entries across eleven sectors. Entries are check
   [「近日,中南局向亿航智能设备（广州）有限公司（下称亿航智能）颁发了全国首个载人无人驾驶航空器系统（简称载人无人机）的生产许可证（PC），这表明亿航智能EH216-S载人无人机已经具备量产能力。……10月12日，民航局为EH216-S载人无人机颁发了TC……」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/local/ZNGLJ/ZN_DQYW/202404/t20240416_223537.html))
   :::
 
-- []{#firm-dji-shenzhen .landscape-entry}**DJI (Shenzhen) · Shenzhen (GBA):** Shenzhen-headquartered civil drone airframe / platform maker with global commercial and consumer fleets; company About page says it maintains a Hong Kong office. No CAAC type-certificate page retrieved for a passenger eVTOL line in the packet — company-announced corporate fact, not a regulator endorsement of any SKU. [Link](https://www.dji.com/company) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-dji-shenzhen"}
+- []{#firm-dji-shenzhen .landscape-entry}**DJI (Shenzhen) · Shenzhen (GBA):** Shenzhen-headquartered civil drone airframe / platform maker with global commercial and consumer fleets; company About page says it maintains a Hong Kong office. On **2026-10-14** company launched **DJI Dock 4** with Matrice 5TD — first company dock with automated ~25-second battery swap (company specs; availability via authorised dealers). Dock / sensor figures remain **company-announced**; not a passenger eVTOL TC. No CAAC type-certificate page retrieved for a passenger eVTOL line in the packet — company-announced corporate fact, not a regulator endorsement of any SKU. [Link](https://www.dji.com/company) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-dji-shenzhen"}
   - Tag: Company-announced
-  - Status: Operating (company About-page claim)
-  - Source: [DJI About page](https://www.dji.com/company)
+  - Status: Operating (company About-page claim); Dock 4 launch company-announced
+  - Source: [DJI About page](https://www.dji.com/company) · [DJI Dock 4 media center 2026-10-14](https://www.dji.com/media-center/announcements/dji-release-dock-4)
 
 - []{#firm-shenzhen-highgreat-innovation-technology .landscape-entry}**Shenzhen HighGreat Innovation Technology · Shenzhen (GBA):** Shenzhen drone manufacturer and formation / light-show airframe provider; named Sandbox collaborator on Cyberport drone-show system trials (OWOWWW Creative). Company capacity / fleet-size claims on highgreatdrone.com stay company-announced. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-shenzhen-highgreat-innovation-technology"}
   - Tag: Officially confirmed
@@ -503,13 +517,17 @@ Sources (as of 13 Oct 2026): 79 entries across eleven sectors. Entries are check
   - Status: Trial / Regulatory Sandbox (also Sandbox X Others)
   - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [Sandbox X Others first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
 
-- **Shanghai AutoFlight (峰飞航空) · Shanghai / Mainland China:** Shanghai-based cargo / passenger eVTOL airframe maker; company says CAAC East China issued a Type Certificate for its ton-class cargo eVTOL (V2000CG) — CAAC primary page not retrieved in the packet, so not upgraded to officially confirmed. Named collaborator on two Hong Kong Sandbox X UCA first-batch projects. Product-SKU catalogue omitted. [Link](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/)
+- **Shanghai AutoFlight (峰飞航空) · Shanghai / Mainland China:** Shanghai-based cargo / passenger eVTOL airframe maker; company says CAAC East China issued a Type Certificate for its ton-class cargo eVTOL (V2000CG) — CAAC primary page not retrieved in the packet, so not upgraded to officially confirmed. Named collaborator on two Hong Kong Sandbox X UCA first-batch projects. On **2026-10-15** signed an **MoU** with Singapore’s JC Aviation covering planned procurement of 260 AutoFlight eVTOLs and 10 SUNSHIP platforms (India/Brazil focus; initial confirmed commitment claimed for 2× V2000CG + 1× SUNSHIP) — **MoU labelled**; broader fleet remains planned purchase agreements, not live ops. Product-SKU catalogue omitted. [Link](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/)
   - Tag: Company-announced
-  - Status: Operating (TC claim company-announced; Sandbox X UCA collaborator)
-  - Source: [AutoFlight Chinese IR 2024-03-22](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/) · [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - Status: Operating (TC claim company-announced; Sandbox X UCA collaborator); JC Aviation path = MoU
+  - Source: [AutoFlight Chinese IR 2024-03-22](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/) · [AutoFlight–JC Aviation MoU 2026-10-15 (company)](https://www.autoflight.com/en/news/autoflight-and-jc-aviation-sign-mou-to-accelerate-evtol-deployment-acr/) · [TLB Sandbox X UCA first batch](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「2024年3月22日，峰飞航空科技自主研发的V2000CG无人驾驶航空器系统获得由中国民用航空华东地区管理局（以下简称，民航华东局）颁发的型号合格证（Type Certificate，下文简称“TC”），这是全球首个通过型号合格认证的吨级以上eVTOL（电动垂直起降）航空器。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/v2000cg-tc-certificate/))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  English: “15 October 2026 (Singapore/ Kunshan, China): AutoFlight … has recently signed a Memorandum of Understanding (MoU) with JC Aviation, covering the planned procurement of 260 AutoFlight eVTOL aircraft and 10 SUNSHIP platforms.” ([source](https://www.autoflight.com/en/news/autoflight-and-jc-aviation-sign-mou-to-accelerate-evtol-deployment-acr/))
   :::
 
 - **Joby Aviation · United States:** US eVTOL / powered-lift airframe developer; FAA published final special-class airworthiness criteria for Model JAS4-1 under 14 CFR 21.17(b) (certification **basis** — not an issued type certificate). Cross-ref eVTOL and passenger trials (eIPP partner). Linked training/ops regime: Powered-Lift final rule / SFAR No. 120 (Part 194) — pilot certification pathway, not aircraft TC. Company IR conforming-flight claims remain company-announced and are not upgraded beyond the FR criteria fact. [Link](https://www.federalregister.gov/documents/2024/03/08/2024-04690/airworthiness-criteria-special-class-airworthiness-criteria-for-the-joby-aero-inc-model-jas4-1)
@@ -576,6 +594,17 @@ Sources (as of 13 Oct 2026): 79 entries across eleven sectors. Entries are check
   - Tag: Company-announced
   - Status: Development / MoU (MoU ≠ order / AOC / EIS; TC not issued; not HK ops)
   - Source: [TCab company page](https://www.tcabtech.com/en/tcab-tech-sidec-mou-e20-evtol-commercialization-malaysia-southeast-asia/) · [eVTOL Insights](https://evtolinsights.com/tcab-tech-and-sidec-sign-mou-to-explore-e20-evtol-commercialisation-in-malaysia/)
+
+- **Volant / 沃兰特 (上海沃兰特) — VE25-100 天行 · Mainland China:** Mainland passenger eVTOL airframe developer (VE25-100 天行, 6-seat class per press). On 2026-10-14 at Zigong Low-Altitude Economy Industry Conference signed a procurement agreement with 四川航空集团低空经济投资管理有限责任公司 (川航低空) for **50** VE25-100 aircraft — Xinhua Finance: **20 firm + 30 letter-of-intent**; parties to co-develop R&D/pilot ops in Sichuan–Chongqing scenarios **before** TC. Company milestones via press (AC101/AC102 flights) remain **company-origin**. **No issued TC** evidenced this run. Not HK ops; **no HK airframe OEM** invented. [Link](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html)
+  - Tag: Independently reported
+  - Status: Development / order (partial LOI); TC not issued; not HK ops
+  - Source: [新华财经 2026-10-15](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html) · [川观新闻 2026-10-14](https://cbgc.scol.com.cn/news/8057731)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「上海沃兰特航空科技股份有限公司（简称“沃兰特”）14日与四川航空集团低空经济投资管理有限责任公司（简称“川航低空”）签署协议，川航低空向沃兰特采购50架VE25-100天行客运eVTOL（电动垂直起降航空器），其中确定订单20架，意向订单30架。」]{lang="zh-Hans"} ([source](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html))
+
+  English (LAE-Intel translation): On the 14th, Shanghai Volant Aviation Technology Co., Ltd. (“Volant”) signed an agreement with Sichuan Airlines Group Low-Altitude Economy Investment Management Co., Ltd. (“Sichuan Airlines Low Altitude”) under which the latter will procure 50 VE25-100 “Tianxing” passenger eVTOLs from Volant — 20 firm orders and 30 letters of intent.
+  :::
 
 ## Enabling technology
 
