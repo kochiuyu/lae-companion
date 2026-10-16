@@ -466,6 +466,43 @@ NASA’s UAM market work (2018) is used in this course as a **practical checklis
 
 Importance varies by application and over time. Hong Kong’s institutional map (Working Group, TLB, CAD, OFCA) is on [Who decides what?](regulators.qmd); citeable programme status is on [Official status](tracker.qmd). Cap. **448G** risk-based SUA regulation and advanced-ops permissions (Week 7) are the local legal frame for light unmanned craft — distinct from US “Part 25”-style manned-aviation stories used only as comparators in Week 1.
 
+```{=html}
+<figure class="wdiag" id="w02-entry-svg" aria-labelledby="w02-entry-svg-title">
+<p class="wdiag-cap" id="w02-entry-svg-title"><strong>Entry barriers (NASA-style checklist)</strong> — (1) regulatory/certification; (2) infrastructure availability; (3) public perception. NASA UAM (2018) used here as a <strong>practical checklist</strong> — <strong>not</strong> Hong Kong law. Sunk costs raise entrant average cost; shared pads can shrink an incumbent moat. Hong Kong sandboxes are a learn-before-scale track — <strong>Sandbox ≠ Sandbox X</strong>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Three entry-barrier cards for certification, infrastructure, and public perception, plus a strip on sunk costs and separate sandbox programmes." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i2-title i2-desc">
+  <title id="i2-title">Entry barriers (NASA-style checklist)</title>
+  <desc id="i2-desc">Three entry barriers from a NASA UAM market checklist used as teaching practice, not Hong Kong law: regulatory and certification; infrastructure availability; public perception. Sunk costs cannot be recovered on exit and raise the entrant average cost. Sharing scarce pads can shrink an incumbent moat. Sandbox programmes are a separate Hong Kong learning track — Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="296" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Entry barriers (NASA-style checklist)</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Teaching checklist · not Hong Kong law · not a forecast</text>
+
+  <rect x="36" y="70" width="200" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="136" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">1 · Certification</text>
+  <text x="136" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Testing · approvals</text>
+  <text x="136" y="144" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">before paying ops</text>
+  <text x="136" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">“Valley of death”</text>
+
+  <rect x="260" y="70" width="200" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">2 · Infrastructure</text>
+  <text x="360" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Scarce sites · power</text>
+  <text x="360" y="144" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">ground systems</text>
+  <text x="360" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Land-constrained city</text>
+
+  <rect x="484" y="70" width="200" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="584" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">3 · Perception</text>
+  <text x="584" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Noise · privacy</text>
+  <text x="584" y="144" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">visual concerns</text>
+  <text x="584" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Can shrink windows</text>
+
+  <rect x="60" y="214" width="600" height="80" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="244" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Sunk costs raise entrant AC · shared pads shrink the moat</text>
+  <text x="360" y="268" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">HK sandboxes = learn-before-scale track · Sandbox ≠ Sandbox X</text>
+
+</svg>
+<p class="wdiag-note">From Week 2 §7. New SVG. Not a Hong Kong forecast.</p>
+</figure>
+```
+
 ### Sunk costs
 
 A **sunk cost** is expenditure you cannot recover if you exit (for example much of the spend on a one-off approval process that cannot be resold). High sunk entry costs deter startups; incumbents may benefit because rivals must “pay to show up” before competing on price.

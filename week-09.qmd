@@ -549,6 +549,50 @@ ESG reporting can support transparency, but a project should define **measurable
 
 **Connecting idea.** Week 8’s public-service priority rules and Week 6’s availability payments already encode distributional choices. Equity analysis makes those choices explicit: who is protected, who pays, and what mitigation buys.
 
+```{=html}
+<figure class="wdiag" id="w09-equity-svg" aria-labelledby="w09-equity-svg-title">
+<p class="wdiag-cap" id="w09-equity-svg-title"><strong>Who gains and who bears costs?</strong> — screen access, exposure, opportunity, public finance, and public services. Ask who receives each benefit and who bears each cost. An <strong>EMS label does not guarantee equity</strong> — define measurable outcomes. Week 6 availability payments and Week 8 public-service priority already encode distributional choices.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Five equity dimension cards — access, exposure, opportunity, public finance, public services — with a note that an EMS label is not automatic equity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i4-title i4-desc">
+  <title id="i4-title">Who gains and who bears costs?</title>
+  <desc id="i4-desc">Five equity dimensions for social-impact assessment: access; exposure; opportunity; public finance; public services. Ask who receives each benefit and who bears each cost. An EMS label does not guarantee equitable outcomes — define measurable outcomes. Week 8 public-service priority and Week 6 availability payments already encode distributional choices.</desc>
+  <rect x="12" y="12" width="696" height="266" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Who gains and who bears costs?</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Distributional screen · measurable outcomes</text>
+
+  <rect x="28" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="90" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Access</text>
+  <text x="90" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Affordability</text>
+  <text x="90" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">coverage</text>
+
+  <rect x="163" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="225" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Exposure</text>
+  <text x="225" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Noise · privacy</text>
+  <text x="225" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">safety risk</text>
+
+  <rect x="298" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Opportunity</text>
+  <text x="360" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Jobs · training</text>
+  <text x="360" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">procurement</text>
+
+  <rect x="433" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="495" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Public</text>
+  <text x="495" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">finance</text>
+  <text x="495" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Subsidies · AP</text>
+
+  <rect x="568" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="630" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Public</text>
+  <text x="630" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">services</text>
+  <text x="630" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">EMS · logistics</text>
+
+  <rect x="60" y="192" width="600" height="70" rx="8" fill="#003366"/>
+  <text x="360" y="220" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">EMS label ≠ automatic equity</text>
+  <text x="360" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Define measurable outcomes · Weeks 6 &amp; 8 already encode distribution</text>
+
+</svg>
+<p class="wdiag-note">From Week 9 §7. New SVG beside the existing table.</p>
+</figure>
+```
+
 ---
 
 Pieces need one screen. The **integrated dashboard** and tool map walk definition → funnel → capacity → contribution → scenarios → distribution so “market size” cannot skip $K$.
