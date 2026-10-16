@@ -73,6 +73,41 @@ A profitable service can still create social costs; an unprofitable service may 
 
 **Connecting idea.** Contribution margin answers “can the operator cover variable cost?” Social benefit–cost answers “do total gains exceed total costs, including those outside the firm?” Distribution answers “who wins and who loses?” Keep the three questions separate even when one spreadsheet tries to hold all three.
 
+```{=html}
+<figure class="wdiag" id="w09-two-lenses" aria-labelledby="w09-two-lenses-title">
+<p class="wdiag-cap" id="w09-two-lenses-title"><strong>Profit is not social net benefit</strong> — commercial lens: can the operator cover variable cost (then fixed cost)? Social lens: do total gains exceed total costs for society, including externalities and who gains or bears burdens? A profitable service can still create social costs; an unprofitable service may create important public benefits.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Two side-by-side panels. Commercial lens asks whether the operator can cover variable and fixed cost. Social lens asks whether total gains exceed total costs for society. A strip notes profitable does not mean socially net positive." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d3-title d3-desc">
+  <title id="d3-title">Profit is not social net benefit</title>
+  <desc id="d3-desc">Two appraisal lenses. Commercial contribution margin asks whether the operator can cover variable cost and then fixed cost. Social benefit-cost asks whether total gains exceed total costs for society, including externalities and distribution. A profitable service can still create social costs; an unprofitable service may create important public benefits.</desc>
+  <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="38" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Profit is not social net benefit</text>
+  <text x="360" y="56" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Two lenses · same service · different questions</text>
+
+  <rect x="40" y="78" width="300" height="200" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="190" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Commercial lens</text>
+  <text x="190" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Contribution margin</text>
+  <text x="190" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Can the operator cover</text>
+  <text x="190" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">variable cost (then F)?</text>
+  <text x="190" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Price · volume · unit cost</text>
+  <text x="190" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">cash and viability</text>
+
+  <rect x="380" y="78" width="300" height="200" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="530" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Social lens</text>
+  <text x="530" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Benefit–cost + distribution</text>
+  <text x="530" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Do total gains exceed</text>
+  <text x="530" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">total costs for society?</text>
+  <text x="530" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Externalities · access</text>
+  <text x="530" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">who gains / who bears</text>
+
+  <rect x="40" y="302" width="640" height="56" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Profitable ≠ socially net positive · Unprofitable ≠ worthless</text>
+  <text x="360" y="346" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Public policy asks the social question even when private NPV is clear.</text>
+
+</svg>
+<p class="wdiag-note">From Week 9 §1 connecting idea.</p>
+</figure>
+```
+
 ---
 
 Section 1 separated commercial profit from social net benefit. **Market sizing** starts the commercial side. Define the market, apply a funnel, and check obtainable demand against capacity.
@@ -227,6 +262,53 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w09-channels-svg" aria-labelledby="w09-channels-svg-title">
+<p class="wdiag-cap" id="w09-channels-svg-title"><strong>One constraint → one model channel</strong> — demand/choice, capacity K, price/cost, timing/launch, probability. Map weather → serviceable K, acceptance → choice share, tech cost → cost model. Avoid five independent “×0.8” haircuts for the same effect. NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Five model-channel boxes: demand or choice, capacity K, price or cost, timing or launch, and probability. Examples map weather to capacity, acceptance to choice share, and technology cost to the cost model. A warning against stacking independent haircuts." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d2-title d2-desc">
+  <title id="d2-title">One constraint → one model channel</title>
+  <desc id="d2-desc">Five model channels for constraints: demand or choice, capacity K, price or cost, timing or launch, and probability. Avoid stacking independent haircuts for the same effect. NASA-sponsored UAM studies examine interacting constraints, not a universal five-haircut recipe.</desc>
+  <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">One constraint → one model channel</text>
+  <text x="360" y="54" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Map each barrier once — do not stack the same effect as five haircuts</text>
+
+  <rect x="28" y="74" width="124" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="90" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Demand /</text>
+  <text x="90" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">choice</text>
+
+  <rect x="164" y="74" width="124" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="226" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Capacity K</text>
+
+  <rect x="300" y="74" width="124" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="362" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Price /</text>
+  <text x="362" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">cost</text>
+
+  <rect x="436" y="74" width="124" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="498" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Timing /</text>
+  <text x="498" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">launch</text>
+
+  <rect x="572" y="74" width="120" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="632" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Probability</text>
+
+  <text x="360" y="170" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">examples (primary channel)</text>
+
+  <rect x="28" y="184" width="210" height="44" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="133" y="211" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Weather → serviceable K</text>
+  <rect x="255" y="184" width="210" height="44" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="360" y="211" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Acceptance → choice share</text>
+  <rect x="482" y="184" width="210" height="44" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="587" y="211" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Tech cost → cost model</text>
+
+  <rect x="28" y="250" width="664" height="90" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="278" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Avoid: five independent “×0.8” haircuts for the same barrier</text>
+  <text x="360" y="300" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Weather should not cut both operating days and capacity if one already captures it.</text>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">NASA-sponsored UAM studies = interacting constraints — not a universal five-haircut recipe.</text>
+
+</svg>
+<p class="wdiag-note">From Week 9 §3. SVG upgrade of HTML #w09-channels.</p>
+</figure>
+```
+
 
 
 NASA-sponsored UAM market work examined **interacting** constraints rather than a universal list of five revenue haircuts. Themes typically include:
@@ -330,6 +412,48 @@ Keep the attribution strict:
 **Distribution matters:** who gains access; who receives employment and business opportunities; who bears noise, privacy, safety, land-use, or fiscal costs?
 
 **Connecting idea.** Treating HK\$350bn as “the market” for a single operator’s SOM is a category error: value added ≠ revenue ≠ obtainable demand. Cite OHKF for the projection; size your use case with the funnel in §2.
+
+```{=html}
+<figure class="wdiag" id="w09-ohkf-350" aria-labelledby="w09-ohkf-350-title">
+<p class="wdiag-cap" id="w09-ohkf-350-title"><strong>HK$350bn is not “the market”</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not GDP, not operator revenue, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue ≠ obtainable demand; distribution still matters.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Central label OHKF about HK$350 billion value added by 2050, with a not-equal mark to four tiles: government target or revenue, GDP, operator revenue or SOM, and Mainland scale totals. Note that it is a private think-tank scenario, not realised cash." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d1-title d1-desc">
+  <title id="d1-title">HK$350bn is not “the market”</title>
+  <desc id="d1-desc">Our Hong Kong Foundation projects about HK$350 billion in Hong Kong LAE industry value added by 2050. It is a private think-tank scenario projection, not a government target, not GDP, not operator revenue, and not a single firm SOM. Geography is Hong Kong only; do not merge with Mainland scale totals.</desc>
+  <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="38" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">HK$350bn is not “the market”</text>
+  <text x="360" y="56" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Our Hong Kong Foundation · industry value added by 2050 · Hong Kong only</text>
+
+  <rect x="200" y="78" width="320" height="70" rx="8" fill="#003366"/>
+  <text x="360" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#ffffff">OHKF ≈ HK$350bn</text>
+  <text x="360" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#ffffff">value added · 2050 projection</text>
+
+  <text x="360" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#C5A572">≠</text>
+
+  <rect x="36" y="188" width="150" height="56" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="111" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Government</text>
+  <text x="111" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">target / revenue</text>
+
+  <rect x="202" y="188" width="150" height="56" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="277" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">GDP</text>
+  <text x="277" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">automatic add-on</text>
+
+  <rect x="368" y="188" width="150" height="56" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="443" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Operator</text>
+  <text x="443" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">revenue / SOM</text>
+
+  <rect x="534" y="188" width="150" height="56" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="609" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Mainland</text>
+  <text x="609" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">规模 totals</text>
+
+  <rect x="36" y="268" width="648" height="72" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Private think-tank scenario — not realised cash</text>
+  <text x="360" y="316" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Value added ≠ revenue ≠ obtainable demand. Distribution still matters:</text>
+  <text x="360" y="334" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">who gains access · who gets jobs · who bears noise, privacy, land-use, fiscal cost</text>
+
+</svg>
+<p class="wdiag-note">From Week 9 §5. Cite Key figures / Readings. Not realised cash.</p>
+</figure>
+```
 
 ---
 

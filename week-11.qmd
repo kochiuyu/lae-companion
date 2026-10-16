@@ -113,6 +113,40 @@ Business-model components are connected through quantities, prices, capacity, co
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w11-viable-svg" aria-labelledby="w11-viable-svg-title">
+<p class="wdiag-cap" id="w11-viable-svg-title"><strong>Viability stack — same units all the way down</strong> — D and K in the same units → D_served = min{D, K} → Π_op = (p − v)·D_served − F → then CF_t / NPV, Pr(Π &lt; 0), and non-financial gates. Capacity-shock numbers in class are illustrative — not Hong Kong weather downtime. Keep Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="A vertical viability stack from demand and reliable capacity to served activity as the minimum of the two, then operating profit, then cash flow NPV downside probability and non-financial gates." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d6-title d6-desc">
+  <title id="d6-title">Viability stack — same units all the way down</title>
+  <desc id="d6-desc">Viability stack: demand D and reliable capacity K in the same units; served activity equals the minimum of D and K; operating profit equals price minus variable cost times served activity minus fixed cost; then cash flows, NPV, downside probability of loss, and non-financial gates. Capacity-shock tables in class are illustrative, not Hong Kong weather downtime.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Viability stack — same units all the way down</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Pick flights, passenger-trips, or missions — and keep it</text>
+
+  <rect x="120" y="68" width="480" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">D (demand) and K (reliable capacity)</text>
+
+  <text x="360" y="132" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">↓</text>
+
+  <rect x="150" y="142" width="420" height="48" rx="6" fill="#003366"/>
+  <text x="360" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#ffffff">D_served = min{D, K}</text>
+
+  <text x="360" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">↓</text>
+
+  <rect x="120" y="218" width="480" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Π_op = (p − v) · D_served − F</text>
+
+  <text x="360" y="284" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">↓ then</text>
+
+  <rect x="100" y="294" width="520" height="56" rx="6" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="318" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">CF_t / NPV · Pr(Π &lt; 0) · non-financial gates</text>
+  <text x="360" y="338" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Permission, safety, acceptance, Sandbox ≠ Sandbox X — not automatic pass</text>
+
+</svg>
+<p class="wdiag-note">From Week 11 §2. SVG upgrade of HTML #w11-viable.</p>
+</figure>
+```
+
 
 
 Name the intermediates (same funnel logic as Week 9, now at the centre of the pitch):
@@ -219,6 +253,58 @@ A template without gates is a wish list. The **risk register and decision-gated 
 | Regulation | Scope and timing | Evidence plan and review | Permission or milestone |
 | Technology | Cost and availability | Test, redundancy, supplier plan | Performance threshold |
 | Community impact | Route and operating conditions | Mitigation and engagement | Exposure and complaint KPI |
+
+```{=html}
+<figure class="wdiag" id="w11-risk-channel" aria-labelledby="w11-risk-channel-title">
+<p class="wdiag-cap" id="w11-risk-channel-title"><strong>Each risk must hit a model channel</strong> — demand → choice share and price; weather → serviceable K; regulation → scope and timing; technology → cost and availability; community → route and operating conditions. A register row that never moves D, K, p, v, F, or launch timing is decoration. Do not assume fixed Sandbox X dates — keep Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Five risks mapped with arrows to primary model channels: demand to choice share and price, weather to serviceable capacity, regulation to scope and timing, technology to cost and availability, community to route and operating conditions." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d7-title d7-desc">
+  <title id="d7-title">Each risk must hit a model channel</title>
+  <desc id="d7-desc">Five risks mapped to model channels: demand to choice share and price; weather to serviceable capacity; regulation to scope and timing; technology to cost and availability; community impact to route and operating conditions. A risk register row that never changes D, K, p, v, F, or launch timing is decoration. Do not assume fixed Sandbox X approval dates.</desc>
+  <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Each risk must hit a model channel</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Otherwise the risk register is decoration</text>
+
+  <!-- left risks, right channels -->
+  <text x="120" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#5f5f5f">Risk</text>
+  <text x="520" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#5f5f5f">Primary channel</text>
+
+  <rect x="36" y="90" width="170" height="36" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="121" y="113" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Demand</text>
+  <text x="230" y="113" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="250" y="90" width="430" height="36" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="465" y="113" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#003366">Choice share and price</text>
+
+  <rect x="36" y="136" width="170" height="36" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="121" y="159" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Weather</text>
+  <text x="230" y="159" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="250" y="136" width="430" height="36" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="465" y="159" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#003366">Serviceable capacity K</text>
+
+  <rect x="36" y="182" width="170" height="36" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="121" y="205" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Regulation</text>
+  <text x="230" y="205" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="250" y="182" width="430" height="36" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="465" y="205" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#003366">Scope and timing / probability</text>
+
+  <rect x="36" y="228" width="170" height="36" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="121" y="251" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Technology</text>
+  <text x="230" y="251" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="250" y="228" width="430" height="36" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="465" y="251" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#003366">Cost and availability</text>
+
+  <rect x="36" y="274" width="170" height="36" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="121" y="297" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Community</text>
+  <text x="230" y="297" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="250" y="274" width="430" height="36" rx="5" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="465" y="297" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#003366">Route and operating conditions</text>
+
+  <rect x="36" y="328" width="648" height="40" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Must move D, K, p, v, F, or launch timing — not fixed Sandbox X dates. Keep Sandbox ≠ Sandbox X.</text>
+
+</svg>
+<p class="wdiag-note">From Week 11 §4 risk table. AC-013 first-Sandbox BVLOS ≠ Sandbox X dates.</p>
+</figure>
+```
 
 Do **not** assume fixed Sandbox X approval dates. Under **AC-013**, BVLOS permission within the **first Regulatory Sandbox** context is operation-specific and requires supporting documents, flight and test plans, risk assessment, and mitigations ([Week 7](week-07.qmd)). **AC-017** covers cross-boundary SUA permission inside **Sandbox X** ([Readings](#readings)). Keep **Sandbox ≠ Sandbox X**. The Action Plan commitment in the 2025 Policy Address remains text **OPEN** on Official status — cite the issuer, do not invent a published plan.
 

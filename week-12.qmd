@@ -281,6 +281,49 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w12-exam-svg" aria-labelledby="w12-exam-svg-title">
+<p class="wdiag-cap" id="w12-exam-svg-title"><strong>Five-step exam method</strong> — (1) define the decision and alternative; (2) served activity min{D, K}; (3) viability with p, v, F and specified charges; (4) map each constraint once; (5) recommend conditionally (proceed / pause / redesign / stop). Use only tools that clarify the decision. U-space ≠ Hong Kong law; CAAC ATM Rules on Readings remain a draft consultation.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Five stacked exam steps from defining the decision to conditional recommendation of proceed, pause, redesign, or stop." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d8-title d8-desc">
+  <title id="d8-title">Five-step exam method</title>
+  <desc id="d8-desc">Five exam steps: define the decision and alternative; find served activity as the minimum of demand and reliable capacity; calculate viability with price, variable cost, fixed cost and specified charges; map each constraint once; recommend conditionally with proceed, pause, redesign, or stop. CAAC ATM Rules on readings remain a draft consultation. U-space is not Hong Kong law.</desc>
+  <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Five-step exam method</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Use only the tools that clarify the decision</text>
+
+  <rect x="80" y="68" width="560" height="40" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="100" y="94" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">1</text>
+  <text x="130" y="94" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">Define the decision &amp; alternative</text>
+
+  <text x="360" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓</text>
+
+  <rect x="80" y="130" width="560" height="40" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="100" y="156" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">2</text>
+  <text x="130" y="156" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">Served activity  min{D, K}</text>
+
+  <text x="360" y="184" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓</text>
+
+  <rect x="80" y="192" width="560" height="40" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="100" y="218" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">3</text>
+  <text x="130" y="218" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">Viability (p, v, F, specified charges)</text>
+
+  <text x="360" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓</text>
+
+  <rect x="80" y="254" width="560" height="40" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="100" y="280" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">4</text>
+  <text x="130" y="280" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">Map each constraint once</text>
+
+  <text x="360" y="308" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓</text>
+
+  <rect x="80" y="316" width="560" height="48" rx="6" fill="#003366"/>
+  <text x="100" y="346" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">5</text>
+  <text x="130" y="346" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Recommend conditionally — proceed / pause / redesign / stop</text>
+
+</svg>
+<p class="wdiag-note">From Week 12 §5. SVG upgrade of HTML #w12-exam.</p>
+</figure>
+```
+
 
 
 For an integrated LAE scenario:
