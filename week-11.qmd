@@ -214,6 +214,52 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w11-blocks-svg" aria-labelledby="w11-blocks-svg-title">
+<p class="wdiag-cap" id="w11-blocks-svg-title"><strong>Six connected blocks</strong> — (1) problem, (2) demand &amp; K, (3) economics, (4) ops/infra, (5) partners/regulation, (6) impact/equity. Recommend proceed / stage / redesign / reject with conditions. Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Six numbered blocks in two rows covering problem, demand and capacity, economics, operations, partners and regulation, and impact and equity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e5-title e5-desc">
+  <title id="e5-title">Six connected blocks</title>
+  <desc id="e5-desc">Six capstone decision blocks: service and stakeholder problem; demand and capacity; economics and finance; infrastructure and operations; partnership and regulation; sustainability and distribution. Keep Sandbox separate from Sandbox X; do not invent corridor capacity; Action Plan remains OPEN where Official status says so.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Six connected blocks</text>
+  <text x="360" y="54" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Capstone template · one coherent recommendation</text>
+
+  <rect x="36" y="74" width="210" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="141" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">1 Problem</text>
+  <text x="141" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Need · who · alternative</text>
+
+  <rect x="256" y="74" width="210" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="361" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">2 Demand &amp; K</text>
+  <text x="361" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Served = min{D, K}</text>
+
+  <rect x="476" y="74" width="210" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="581" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">3 Economics</text>
+  <text x="581" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Contribution · NPV · downside</text>
+
+  <rect x="36" y="172" width="210" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="141" y="204" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">4 Ops / infra</text>
+  <text x="141" y="226" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Binding resource · reliability</text>
+
+  <rect x="256" y="172" width="210" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="361" y="204" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">5 Partners /</text>
+  <text x="361" y="224" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">regulation</text>
+  <text x="361" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Roles · risk · permission</text>
+
+  <rect x="476" y="172" width="210" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="581" y="204" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">6 Impact /</text>
+  <text x="581" y="224" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">equity</text>
+  <text x="581" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Who gains · who bears</text>
+
+  <rect x="36" y="276" width="650" height="72" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Recommend proceed / stage / redesign / reject — with conditions</text>
+  <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Keep Sandbox ≠ Sandbox X · no invented corridor capacity</text>
+  <text x="360" y="344" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Action Plan OPEN where Official status says so</text>
+
+</svg>
+<p class="wdiag-note">From Week 11 §3. SVG upgrade of HTML #w11-blocks.</p>
+</figure>
+```
+
 
 
 A coherent capstone should connect six decision blocks:

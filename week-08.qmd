@@ -243,6 +243,45 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w08-mech-svg" aria-labelledby="w08-mech-svg-title">
+<p class="wdiag-cap" id="w08-mech-svg-title"><strong>Allocation families — choose with criteria</strong> — administrative (schedule, rotation, FCFS, public-service priority); posted prices (peak/off-peak); auctions (scarce windows — need safeguards); packages (linked pad + corridor + charging). High willingness to pay ≠ automatic social priority. No linked slot → reject/reschedule, not an unsafe flight.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Four allocation family cards: administrative, posted prices, auctions, and packages, with a note that high willingness to pay is not automatic social priority." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e4-title e4-desc">
+  <title id="e4-title">Allocation families — choose with criteria</title>
+  <desc id="e4-desc">Four slot allocation families: administrative rules such as schedule, rotation, first-come-first-served, or public-service priority; posted peak and off-peak prices; auctions for scarce windows with safeguards; and package allocation linking pad, corridor, and charging. High willingness to pay is not automatic social priority. Failure to obtain a linked slot means reject or reschedule, not an unsafe flight.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Allocation families — choose with criteria</text>
+  <text x="360" y="54" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Safety · efficiency · fairness · entry · transparency</text>
+
+  <rect x="36" y="74" width="310" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Administrative</text>
+  <text x="191" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Schedule · rotation · FCFS</text>
+  <text x="191" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Public-service priority</text>
+
+  <rect x="374" y="74" width="310" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Posted prices</text>
+  <text x="529" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Peak / off-peak charges</text>
+  <text x="529" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Predictable tariffs</text>
+
+  <rect x="36" y="182" width="310" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Auctions</text>
+  <text x="191" y="238" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Bids for scarce windows</text>
+  <text x="191" y="256" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Need safeguards</text>
+
+  <rect x="374" y="182" width="310" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Packages</text>
+  <text x="529" y="238" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Pad + corridor + charging</text>
+  <text x="529" y="256" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Linked reservations</text>
+
+  <rect x="36" y="296" width="648" height="56" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">High WTP ≠ automatic social priority</text>
+  <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No linked slot → reject / reschedule — not an unsafe flight. Diagnose the bind first (Week 8 §2).</text>
+
+</svg>
+<p class="wdiag-note">From Week 8 §4. SVG upgrade of HTML #w08-mech.</p>
+</figure>
+```
+
 
 Mechanism design asks how rules shape participants’ information, incentives, and outcomes:
 

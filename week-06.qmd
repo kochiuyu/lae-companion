@@ -107,6 +107,49 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w06-arch-svg" aria-labelledby="w06-arch-svg-title">
+<p class="wdiag-cap" id="w06-arch-svg-title"><strong>Architecture choice shifts risk — not Cap. 448G</strong> — Own/integrate (more CAPEX and utilization risk); Contract/PPP (share design–build–operate–finance); Orchestrate (platform needs liquidity, trust, governance). “Asset-light” is a slogan, not a risk transfer. Architecture does not remove Cap. 448G permission needs (Week 7).</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Three architecture cards: own or integrate, contract or PPP, and orchestrate, with a note that asset-light is not a risk transfer and Cap. 448G still applies." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e3-title e3-desc">
+  <title id="e3-title">Architecture choice shifts risk — not Cap. 448G</title>
+  <desc id="e3-desc">Three business-model architecture choices. Own or integrate: control assets and bear more CAPEX and utilization risk. Contract or PPP: share design, build, operate, or finance with partners. Orchestrate: a platform coordinates parties and needs liquidity, trust, and governance. Architecture changes risk allocation; it does not remove Cap. 448G permission needs.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Architecture choice shifts risk — not Cap. 448G</text>
+  <text x="360" y="54" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Three classroom archetypes · real firms often mix them</text>
+
+  <rect x="28" y="74" width="214" height="200" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="135" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Own / integrate</text>
+  <text x="135" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Control assets</text>
+  <text x="135" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Bear more CAPEX and</text>
+  <text x="135" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">utilization risk</text>
+  <text x="135" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Asset-intensive</text>
+  <text x="135" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">operator flavour</text>
+
+  <rect x="254" y="74" width="214" height="200" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="361" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Contract / PPP</text>
+  <text x="361" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Share design, build,</text>
+  <text x="361" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">operate, or finance</text>
+  <text x="361" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">with partners</text>
+  <text x="361" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Service-integrator</text>
+  <text x="361" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">flavour · payout risk</text>
+
+  <rect x="480" y="74" width="214" height="200" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="587" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Orchestrate</text>
+  <text x="587" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Platform coordinates</text>
+  <text x="587" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">parties</text>
+  <text x="587" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Needs liquidity, trust,</text>
+  <text x="587" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">governance</text>
+  <text x="587" y="240" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Network &amp; cyber risk</text>
+
+  <rect x="28" y="298" width="666" height="52" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">“Asset-light” is a slogan, not a risk transfer</text>
+  <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Architecture changes who bears risk — Cap. 448G permission needs remain (Week 7).</text>
+
+</svg>
+<p class="wdiag-note">From Week 6 §2. SVG upgrade of HTML #w06-arch.</p>
+</figure>
+```
+
 
 | Archetype | Core idea | Typical exposure |
 |-----------|-----------|------------------|
