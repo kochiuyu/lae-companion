@@ -88,6 +88,51 @@ By the end of Week 5 you should be able to:
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
+<p class="wdiag-cap" id="w05-bottleneck-svg-title"><strong>Diagnose which resource binds</strong> — pad/stand/gate; charging/energy; passenger/cargo process; airspace/procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind (and vice versa). No invented Harbour/GBA “drones per minute.” Trial sites ≠ permanent slots; Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Four resource cards flowing down to allocate the scarce resource you actually have, with a note against inventing corridor capacity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f1-title f1-desc">
+  <title id="f1-title">Diagnose which resource binds</title>
+  <desc id="f1-desc">Four infrastructure resources that can bind: pad stand or gate; charging or energy; passenger or cargo process; airspace or procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind and vice versa. Do not invent drones-per-minute for Harbour or GBA corridors. Keep Sandbox separate from Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Diagnose which resource binds</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Aircraft may be ready while the ground or airspace is not</text>
+
+  <rect x="36" y="72" width="150" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="111" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Pad / stand</text>
+  <text x="111" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">/ gate</text>
+  <text x="111" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Turnaround</text>
+
+  <rect x="202" y="72" width="150" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="277" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Charging /</text>
+  <text x="277" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">energy</text>
+  <text x="277" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Dwell · power</text>
+
+  <rect x="368" y="72" width="150" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="443" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Passenger /</text>
+  <text x="443" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">cargo process</text>
+  <text x="443" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Ground throughput</text>
+
+  <rect x="534" y="72" width="150" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="609" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Airspace /</text>
+  <text x="609" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">procedure</text>
+  <text x="609" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Separations · hours</text>
+
+  <text x="360" y="186" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">↓</text>
+
+  <rect x="100" y="200" width="520" height="70" rx="8" fill="#003366"/>
+  <text x="360" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Allocate the scarce resource you actually have</text>
+  <text x="360" y="252" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">A pad auction cannot fix an airspace bind (and vice versa)</text>
+
+  <rect x="40" y="292" width="640" height="52" rx="8" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="360" y="314" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">No invented “drones per minute” for Harbour or GBA corridors.</text>
+  <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Trial sites ≠ permanent slots · Sandbox ≠ Sandbox X</text>
+
+</svg>
+<p class="wdiag-note">From Week 5 §1. SVG upgrade of HTML #w05-bottleneck. Complements Week 8 bind-first.</p>
+</figure>
+```
+
 
 Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
 
