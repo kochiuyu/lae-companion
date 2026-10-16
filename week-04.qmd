@@ -65,7 +65,6 @@ By the end of Week 4 you should be able to:
 | Acceptance & shocks | §§8–10 | AiRMOUR lens; scenario shocks; HK–GBA demand hypotheses |
 | Closing | §§11–13 | Tool map; synthesis; study checklist beyond the slides |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first.
 
 ---
 

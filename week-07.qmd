@@ -66,7 +66,6 @@ By the end of Week 7 you should be able to:
 | Scale & pathways | §§7–9 | U-space/UTM; scorecard; harmonisation; phased roadmap |
 | Closing | §§10–11 | Tool map; synthesis; study checklist |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned` and named intermediates — **no** nested `array` with column-gutter specs (KaTeX-unsafe).
 
 ---
 

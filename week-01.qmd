@@ -65,7 +65,6 @@ By the end of Week 1 you should be able to:
 | Industry & rules | §§9–12 | Value chain; entry barriers; sandboxes; GBA caveat |
 | Closing | §§13–16 | Empty-seat unit cost; technology; synthesis; exam-style checklist |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first.
 
 ---
 

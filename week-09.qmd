@@ -60,7 +60,6 @@ By the end of Week 9 you should be able to:
 | Value added & equity | §§5–7 | OHKF HK\$350bn attribution; hedonic tool; distribution |
 | Close | §§8–10 | Integrated dashboard; synthesis; study checklist |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned` and named intermediates — no nested `array` with column-gutter specs (KaTeX-unsafe).
 
 ---
 

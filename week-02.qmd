@@ -64,7 +64,6 @@ By the end of Week 2 you should be able to:
 | Price & sharing | §§9–11 | Bertrand + scarce pads; co-opetition; global comparators |
 | Closing | §§12–13 | Synthesis; study checklist beyond the slides |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first.
 
 ---
 

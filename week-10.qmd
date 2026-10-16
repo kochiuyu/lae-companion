@@ -59,7 +59,6 @@ By the end of Week 10 you should be able to:
 | Acceptance & equity | §§6–7 | AiRMOUR / use-case acceptance; social licence; public-service funding |
 | Close | §§8–10 | KPI design; synthesis; study checklist |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first. Math uses plain `aligned`, named intermediates, and `\mathrm{...}` for multi-letter symbols — no nested `array` with column-gutter specs (KaTeX-unsafe), and no bare `CF`-style letter runs that KaTeX reads as products.
 
 ---
 

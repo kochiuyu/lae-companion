@@ -65,7 +65,6 @@ By the end of Week 3 you should be able to:
 | Risk & place | §§9–11 | Weather channels; mixed-revenue profit; HK–GBA hypotheses |
 | Closing | §§12–13 | Synthesis; study checklist beyond the slides |
 
-Use the right-hand **On this page** list to jump. Equations use KaTeX; each formula is introduced in words first.
 
 ---
 
