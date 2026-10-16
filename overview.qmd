@@ -107,6 +107,58 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 </div>
 ```
 
+```{=html}
+<figure class="wdiag" id="course-map-svg" aria-labelledby="course-map-svg-title">
+<p class="wdiag-cap" id="course-map-svg-title"><strong>12-week conceptual map</strong> — Weeks 1–3 building blocks; Weeks 4–6 extend the use case; Weeks 7–10 add policy layers; Weeks 11–12 synthesize. Week titles match the course schedule. Schematic stages only — use the clickable HTML map for week links. If titles feel heavy, start with <a href="primer.qmd">What is LAE?</a>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="Four stage cards flowing from building blocks through extend and policy layers to synthesize for weeks 1–12." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e8-title e8-desc">
+  <title id="e8-title">12-week conceptual map</title>
+  <desc id="e8-desc">Four stages of the course outline. Weeks 1 to 3 building blocks. Weeks 4 to 6 extend the use case. Weeks 7 to 10 add policy layers. Weeks 11 to 12 synthesize. Week titles match the course schedule. Schematic teaching map — use the clickable HTML map for links.</desc>
+  <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">12-week conceptual map</text>
+  <text x="360" y="54" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">How the outline builds · week titles match the schedule</text>
+
+  <rect x="36" y="72" width="150" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <rect x="36" y="72" width="150" height="8" rx="4" fill="#003366"/>
+  <text x="111" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Weeks 1–3</text>
+  <text x="111" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Building blocks</text>
+  <text x="111" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Intro · markets</text>
+  <text x="111" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">· cost / revenue</text>
+
+  <text x="198" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#9a9488">→</text>
+
+  <rect x="210" y="72" width="150" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <rect x="210" y="72" width="150" height="8" rx="4" fill="#003366"/>
+  <text x="285" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Weeks 4–6</text>
+  <text x="285" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Extend use case</text>
+  <text x="285" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Demand · sites</text>
+  <text x="285" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">· partnerships</text>
+
+  <text x="372" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#9a9488">→</text>
+
+  <rect x="384" y="72" width="150" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <rect x="384" y="72" width="150" height="8" rx="4" fill="#003366"/>
+  <text x="459" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Weeks 7–10</text>
+  <text x="459" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Add policy layers</text>
+  <text x="459" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Rules · airspace</text>
+  <text x="459" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">· sizing · ESG</text>
+
+  <text x="546" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#9a9488">→</text>
+
+  <rect x="558" y="72" width="126" height="150" rx="8" fill="#003366"/>
+  <text x="621" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Weeks 11–12</text>
+  <text x="621" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Synthesize</text>
+  <text x="621" y="180" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Capstone</text>
+  <text x="621" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">· frontiers</text>
+
+  <rect x="36" y="250" width="648" height="70" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="280" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Schematic stages only — use the clickable HTML map for week links</text>
+  <text x="360" y="302" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">If titles feel heavy, start with What is LAE? (primer) in Orient</text>
+
+</svg>
+<p class="wdiag-note">From overview “12-week conceptual map.” HTML #course-map kept for links.</p>
+</figure>
+```
+
 ## Course materials on this site
 
 - **Teach** menu — one article per week (notes, slides, summary, readings)

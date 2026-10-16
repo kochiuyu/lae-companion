@@ -158,6 +158,38 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w09-funnel-svg" aria-labelledby="w09-funnel-svg-title">
+<p class="wdiag-cap" id="w09-funnel-svg-title"><strong>Sizing funnel — TAM to served demand</strong> — TAM × eligibility e → SAM; × choice share s → D_pot; D_served = min{{D_pot, K}}. OHKF <strong>HK$350bn</strong> is a think-tank Hong Kong <strong>industry value-added</strong> projection by 2050 — <strong>not</strong> SOM, not operator revenue, not a government target. Classroom funnel numbers are illustrative. Sandbox selection ≠ market share.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Funnel from TAM through SAM and potential demand to served demand as the minimum of potential demand and capacity K, with a note that OHKF HK$350bn is not SOM." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g1-title g1-desc">
+  <title id="g1-title">Sizing funnel — TAM to served demand</title>
+  <desc id="g1-desc">Week 9 sizing funnel. Total addressable market times eligibility share gives serviceable available market. Times choice share gives potential demand. Served demand equals the minimum of potential demand and reliable capacity K. OHKF HK$350 billion is a think-tank Hong Kong industry value-added projection by 2050 — not serviceable obtainable market. Classroom funnel numbers are illustrative. Sandbox selection is not market share.</desc>
+  <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Sizing funnel — TAM to served demand</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Name the intermediates · classroom numbers are illustrative</text>
+
+  <rect x="120" y="68" width="480" height="40" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">TAM  →  × eligibility e  →  SAM</text>
+
+  <text x="360" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ × choice share s</text>
+
+  <rect x="160" y="134" width="400" height="40" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">D_pot = SAM × s</text>
+
+  <text x="360" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ capacity screen</text>
+
+  <rect x="120" y="200" width="480" height="48" rx="6" fill="#003366"/>
+  <text x="360" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#ffffff">D_served = min{D_pot, K}</text>
+
+  <rect x="60" y="272" width="600" height="70" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="300" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">OHKF HK$350bn ≠ SOM</text>
+  <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Think-tank Hong Kong industry value-added projection by 2050 — not operator revenue</text>
+
+</svg>
+<p class="wdiag-note">From Week 9 §2. SVG upgrade of HTML #w09-funnel.</p>
+</figure>
+```
+
 
 
 Name the intermediates before the formulas:

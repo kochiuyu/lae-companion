@@ -91,6 +91,48 @@ By the end of Week 1 you should be able to:
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="w01-system-svg" aria-labelledby="w01-system-svg-title">
+<p class="wdiag-cap" id="w01-system-svg-title"><strong>LAE as a system (roles)</strong> — customers/missions → operators (under applicable permissions) → aircraft, sites/pads, digital coordination, insurance &amp; services. Roles only — not market shares or firm names. Wide definition: not only “flying cars” or “drones.” See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="System roles flow from customers and missions through operators to four input boxes: aircraft, sites, digital coordination, and insurance and services." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f5-title f5-desc">
+  <title id="f5-title">LAE as a system (roles)</title>
+  <desc id="f5-desc">LAE as a system of roles. Customers or missions need time savings, access, inspection, logistics, or public service. Operators deliver the flight or mission under applicable permissions and spend on inputs: aircraft, sites or pads, digital coordination, and insurance and services. Roles only — not market shares or firm names.</desc>
+  <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">LAE as a system (roles)</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Not market shares · not firm names</text>
+
+  <rect x="140" y="68" width="440" height="48" rx="6" fill="#C5A572"/>
+  <text x="360" y="90" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Customers / missions</text>
+  <text x="360" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Time · access · inspection · logistics · public service</text>
+
+  <text x="360" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓</text>
+
+  <rect x="140" y="146" width="440" height="44" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Operators — deliver under applicable permissions</text>
+
+  <text x="360" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ spend on inputs</text>
+
+  <rect x="36" y="220" width="150" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="111" y="260" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Aircraft</text>
+
+  <rect x="202" y="220" width="150" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="277" y="260" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Sites / pads</text>
+
+  <rect x="368" y="220" width="150" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="443" y="252" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Digital</text>
+  <text x="443" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">coordination</text>
+
+  <rect x="534" y="220" width="150" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="609" y="252" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Insurance</text>
+  <text x="609" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">&amp; services</text>
+
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Wide definition: not only “flying cars” or “drones” · see also How does LAE work?</text>
+
+</svg>
+<p class="wdiag-note">From Week 1 §1. SVG upgrade of HTML #w01-system. Distinct from business-overview value-chain pay flow.</p>
+</figure>
+```
+
 
 [**Low-altitude economy (LAE)**](glossary.qmd#lae) means economic activity that uses low-altitude airspace — together with the aircraft, physical sites, digital systems, operators, customers, and supporting services needed to deliver a mission.
 
@@ -515,6 +557,50 @@ $$
 3. **Does the project justify the initial investment?** (NPV).
 
 **Core lesson:** time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability.
+
+```{=html}
+<figure class="wdiag" id="w01-vot-npv-svg" aria-labelledby="w01-vot-npv-svg-title">
+<p class="wdiag-cap" id="w01-vot-npv-svg-title"><strong>Three-step viability screen</strong> — (1) create value for customers (e.g. VOT × ΔT); (2) capture enough as operating profit (revenue − operating cost); (3) justify the initial investment (NPV). Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is <strong>not</strong> proof of NPV. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="Three cards in sequence: create value with VOT times time saved, capture as revenue minus cost, then justify investment with an NPV screen." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g3-title g3-desc">
+  <title id="g3-title">Three-step viability screen</title>
+  <desc id="g3-desc">Three-step viability screen from Week 1. Step 1: does the service create value for customers, for example via value of time times time saved. Step 2: can the operator capture enough of that value as annual operating profit equals revenue minus operating cost. Step 3: does the project justify the initial investment under net present value. Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is not proof of NPV.</desc>
+  <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Three-step viability screen</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Time savings ≠ automatic profit</text>
+
+  <rect x="36" y="72" width="200" height="140" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="136" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#C5A572">1</text>
+  <text x="136" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Create value</text>
+  <text x="136" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">VOT × ΔT</text>
+  <text x="136" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Customer time</text>
+  <text x="136" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">savings</text>
+
+  <text x="250" y="145" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#9a9488">→</text>
+
+  <rect x="260" y="72" width="200" height="140" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#C5A572">2</text>
+  <text x="360" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Capture</text>
+  <text x="360" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Revenue − cost</text>
+  <text x="360" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Fare · demand</text>
+  <text x="360" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">· partners</text>
+
+  <text x="474" y="145" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#9a9488">→</text>
+
+  <rect x="484" y="72" width="200" height="140" rx="8" fill="#003366"/>
+  <text x="584" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#C5A572">3</text>
+  <text x="584" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Justify invest</text>
+  <text x="584" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#ffffff">NPV screen</text>
+  <text x="584" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cash · timing</text>
+  <text x="584" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">· risk</text>
+
+  <rect x="60" y="240" width="600" height="80" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="272" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Core lesson</text>
+  <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">WTP needs capture; capture needs NPV — sandbox ≠ proof of NPV</text>
+
+</svg>
+<p class="wdiag-note">From Week 1 §6 three-step viability screen. New SVG (no prior HTML twin).</p>
+</figure>
+```
 
 ### Connecting the three steps (worked intuition)
 
