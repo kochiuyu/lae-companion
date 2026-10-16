@@ -584,6 +584,76 @@ The next two examples apply VOT and generalized cost. Figures are **illustrative
 | Time saved vs a 45-minute alternative | 30 minutes = 0.5 h | 10 minutes ≈ 0.167 h |
 | Value of time saved | $1000\times 0.5 =$ **HK$500** | $1000\times 0.167 \approx$ **HK$167** |
 
+```{=html}
+<figure class="wdiag" id="w01-door-to-door" aria-labelledby="w01-door-to-door-title">
+<p class="wdiag-cap" id="w01-door-to-door-title"><strong>Fast flight, slow door-to-door</strong> — illustrative Case&nbsp;A vs Case&nbsp;B from the table: the same 10-minute flight, but boarding/waiting 5 vs 25 minutes. Time saved vs a 45-minute alternative falls from 30 minutes (≈&nbsp;HK$500 at HK$1,000/hour) to about 10 minutes (≈&nbsp;HK$167). Not Hong Kong market data.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Two journey timelines. Case A: 5 minutes waiting plus 10 minutes flight equals 15 minutes total and about HK$500 value of time saved. Case B: 25 minutes waiting plus the same 10-minute flight equals 35 minutes total and about HK$167 saved. Classroom illustration versus a 45-minute alternative." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem">
+  <title id="b3-title">Fast flight, slow door-to-door</title>
+  <desc id="b3-desc">Two illustrative journey timelines for an Airport to Central air-taxi idea. Case A smooth: 5 minutes boarding and waiting plus 10 minutes flight equals 15 minutes total, about HK$500 value of time saved versus a 45-minute alternative. Case B friction: 25 minutes boarding and waiting plus the same 10-minute flight equals 35 minutes total, about HK$167 value of time saved. Classroom assumptions only, not Hong Kong market data. Traveller time worth HK$1,000 per hour.</desc>
+
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+
+  <text x="360" y="38" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Fast flight, slow door-to-door</text>
+  <text x="360" y="56" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Illustrative · same 10-minute flight · different wait · VOT HK$1,000 / hour</text>
+
+  <!-- Legend -->
+  <g font-family="system-ui,Segoe UI,sans-serif" font-size="11">
+    <rect x="48" y="72" width="14" height="14" rx="2" fill="#C5A572"/>
+    <text x="68" y="84" fill="#5f5f5f">Boarding &amp; waiting</text>
+    <rect x="210" y="72" width="14" height="14" rx="2" fill="#003366"/>
+    <text x="230" y="84" fill="#5f5f5f">Flight (10 min both cases)</text>
+    <line x1="420" y1="79" x2="450" y2="79" stroke="#9a9488" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="458" y="84" fill="#5f5f5f">45-min alternative</text>
+  </g>
+
+  <!-- Axis hint -->
+  <text x="160" y="118" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#9a9488">0</text>
+  <text x="700" y="118" text-anchor="end" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#9a9488">minutes →</text>
+
+  <!-- Case A -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <text x="48" y="158" font-size="13" font-weight="700" fill="#003366">Case A</text>
+    <text x="48" y="174" font-size="11" fill="#5f5f5f">smooth</text>
+    <!-- wait 5 min = 60px from x=160 -->
+    <rect x="160" y="148" width="60" height="36" rx="4" fill="#C5A572"/>
+    <text x="190" y="170" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">5</text>
+    <!-- flight 10 = 120px -->
+    <rect x="220" y="148" width="120" height="36" rx="4" fill="#003366"/>
+    <text x="280" y="170" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">10 min flight</text>
+    <!-- end marker total 15 -->
+    <line x1="340" y1="140" x2="340" y2="192" stroke="#003366" stroke-width="1.5"/>
+    <text x="348" y="158" font-size="12" font-weight="700" fill="#003366">15 min total</text>
+    <text x="348" y="176" font-size="12" fill="#003366">VOT saved ≈ HK$500</text>
+    <!-- alternative dashed at 45*12=540 → x=160+540=700 -->
+    <line x1="700" y1="140" x2="700" y2="192" stroke="#9a9488" stroke-width="1.5" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- Case B -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <text x="48" y="248" font-size="13" font-weight="700" fill="#003366">Case B</text>
+    <text x="48" y="264" font-size="11" fill="#5f5f5f">friction</text>
+    <!-- wait 25 = 300px -->
+    <rect x="160" y="238" width="300" height="36" rx="4" fill="#C5A572"/>
+    <text x="310" y="260" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">25 min wait / board</text>
+    <!-- flight 10 -->
+    <rect x="460" y="238" width="120" height="36" rx="4" fill="#003366"/>
+    <text x="520" y="260" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">10 min</text>
+    <!-- total 35 at x=160+420=580 -->
+    <line x1="580" y1="230" x2="580" y2="282" stroke="#003366" stroke-width="1.5"/>
+    <text x="48" y="302" font-size="12" font-weight="700" fill="#003366">35 min total · VOT saved ≈ HK$167</text>
+    <line x1="700" y1="230" x2="700" y2="282" stroke="#9a9488" stroke-width="1.5" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- Takeaway strip -->
+  <rect x="40" y="328" width="640" height="44" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="56" y="348" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Same aircraft speed. Waiting and access shrink the time saved vs a 45-minute alternative</text>
+  <text x="56" y="366" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">(30 min → 10 min) — classroom illustration only, not market data.</text>
+</svg>
+
+<p class="wdiag-note">Classroom assumptions from §8.1 (Airport–Central air-taxi idea; VOT HK$1,000 per hour). A fast aircraft does not guarantee a valuable service.</p>
+</figure>
+```
+
 **Takeaway:** a fast aircraft does not guarantee a valuable service. Waiting, transfers, and access time can sharply reduce the fare premium customers will accept.
 
 **Connecting idea.** Case B is not “bad luck.” It is what happens when vertiport processing, security, or schedule padding is ignored in the business case. Infrastructure economics (Week 5) and public acceptance / operating windows (Weeks 9–10) re-enter here as determinants of $\Delta T$, not as separate soft topics.
