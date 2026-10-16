@@ -201,6 +201,49 @@ You will hear everyday words (such as “drone”) next to law or industry label
 </figure>
 ```
 
+```{=html}
+<figure class="wdiag" id="lae-labels-svg" aria-labelledby="lae-labels-svg-title">
+<p class="wdiag-cap" id="lae-labels-svg-title"><strong>Labels at a glance</strong> — <strong>~1,000 m</strong> is a Hong Kong <strong>policy working description</strong> for the LAE field — <strong>not</strong> a Cap. 448G flying-height limit (ordinary bands: A1 100 ft AGL; A2 300 ft AGL unless CAD permission). <strong>SUA</strong> is Cap. 448G’s legal label; <strong>eVTOL</strong> is an industry label — not a Cap. 448G synonym. U-space is <strong>not</strong> Hong Kong law. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="Three cards for altitude about 1,000 metres versus Cap. 448G, SUA as Cap. 448G label, and eVTOL as industry label, plus ordinary height bands." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g4-title g4-desc">
+  <title id="g4-title">Labels at a glance</title>
+  <desc id="g4-desc">Three labels to keep separate. About 1,000 metres is a Hong Kong policy working description for the low-altitude economy field, not a Cap. 448G flying-height limit. Cap. 448G ordinary bands are Category A1 100 feet AGL and Category A2 300 feet AGL unless CAD grants permission. SUA is Hong Kong Cap. 448G small unmanned aircraft. eVTOL is an industry label for electric vertical take-off and landing craft, not a Cap. 448G synonym. U-space is not Hong Kong law. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Labels at a glance</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Everyday speech ≠ law / industry wording</text>
+
+  <rect x="36" y="70" width="210" height="160" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="141" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#C5A572">ALTITUDE</text>
+  <text x="141" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">~1,000 m</text>
+  <text x="141" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Policy working</text>
+  <text x="141" y="166" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">description</text>
+  <text x="141" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#C5A572">≠ Cap. 448G</text>
+  <text x="141" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">flying-height limit</text>
+
+  <rect x="256" y="70" width="210" height="160" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="361" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#C5A572">SUA</text>
+  <text x="361" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Small unmanned</text>
+  <text x="361" y="144" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">aircraft</text>
+  <text x="361" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Cap. 448G legal</text>
+  <text x="361" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">label (HK)</text>
+  <text x="361" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">≠ everyday “drone”</text>
+
+  <rect x="476" y="70" width="210" height="160" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="581" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#C5A572">eVTOL</text>
+  <text x="581" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Electric VTOL</text>
+  <text x="581" y="144" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">(industry)</text>
+  <text x="581" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Not a Cap. 448G</text>
+  <text x="581" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">synonym for SUA</text>
+  <text x="581" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Often heavier types</text>
+
+  <rect x="60" y="254" width="600" height="70" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="282" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Ordinary Cap. 448G bands: A1 100 ft AGL · A2 300 ft AGL</text>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">U-space ≠ HK law · Sandbox ≠ Sandbox X · Glossary for the rest</text>
+
+</svg>
+<p class="wdiag-note">From primer labels. SVG upgrade of HTML #lae-labels. Mild overlap with Week 1 nested labels — keep light.</p>
+</figure>
+```
+
 A few more labels you will see in readings:
 
 - **Vertiport** — industry word for a take-off and landing site for advanced craft. Hong Kong has **no dedicated vertiport statute yet** ([Glossary · infrastructure](glossary.qmd#infrastructure)).

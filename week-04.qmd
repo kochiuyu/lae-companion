@@ -472,6 +472,61 @@ Hypotheses need a sequence. The **tool map** walks trips → WTP/GC → elastici
 
 If step 9 fails, fix price, cost, capacity, product design, or the corridor definition — do not silently inflate mode share.
 
+```{=html}
+<figure class="wdiag" id="w04-toolmap-svg" aria-labelledby="w04-toolmap-svg-title">
+<p class="wdiag-cap" id="w04-toolmap-svg-title"><strong>From trips to cash (tool map)</strong> — (1) relevant trips → (2) OD/corridor → (3) mode share → (4) capacity → (5) served = min(potential, K) → (6) price/products → (7) acceptance → (8) shocks → (9) Week 3 breakeven. If step 9 fails, fix price, cost, capacity, product, or corridor — <strong>do not</strong> silently inflate mode share. Scenarios, not certainties.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Nine-step grid from market definition through capacity and pricing to a Week 3 breakeven check, with a warning not to inflate mode share." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h3-title h3-desc">
+  <title id="h3-title">From trips to cash (tool map)</title>
+  <desc id="h3-desc">Nine-step Week 4 tool map from trips to cash. One: relevant trips. Two: OD or corridor. Three: mode share. Four: capacity offered. Five: served equals minimum of potential and capacity. Six: price and products. Seven: acceptance scenarios. Eight: weather or policy shocks. Nine: Week 3 breakeven check. If step nine fails, fix price, cost, capacity, product, or corridor — do not silently inflate mode share.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">From trips to cash (tool map)</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Nine checks · scenarios, not certainties</text>
+
+  <rect x="28" y="64" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="88" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">1 · Relevant trips</text>
+  <text x="133" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Market definition</text>
+
+  <rect x="254" y="64" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="359" y="88" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">2 · OD / corridor</text>
+  <text x="359" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Distribution share</text>
+
+  <rect x="480" y="64" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="585" y="88" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">3 · Mode share</text>
+  <text x="585" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">GC + preferences</text>
+
+  <rect x="28" y="134" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="158" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">4 · Capacity</text>
+  <text x="133" y="176" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Flights × seats × LF</text>
+
+  <rect x="254" y="134" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="359" y="158" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">5 · Served</text>
+  <text x="359" y="176" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">min(potential, K)</text>
+
+  <rect x="480" y="134" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="585" y="158" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">6 · Price / products</text>
+  <text x="585" y="176" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Q=a−bP · elasticity</text>
+
+  <rect x="28" y="204" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">7 · Acceptance</text>
+  <text x="133" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Explicit factors</text>
+
+  <rect x="254" y="204" width="210" height="58" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="359" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">8 · Shocks</text>
+  <text x="359" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Weather / policy</text>
+
+  <rect x="480" y="204" width="210" height="58" rx="6" fill="#003366"/>
+  <text x="585" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#ffffff">9 · Breakeven?</text>
+  <text x="585" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#ffffff">vs Week 3 required</text>
+
+  <rect x="40" y="282" width="640" height="56" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="306" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">If step 9 fails — fix price, cost, capacity, product, or corridor</text>
+  <text x="360" y="324" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Do not silently inflate mode share</text>
+
+</svg>
+<p class="wdiag-note">From Week 4 §11. New SVG beside the existing table.</p>
+</figure>
+```
+
 ---
 
 Pull the thread: WTP → honest modelling limits → funnel and GC → elasticity and segments → acceptance scenarios → shocks — then confront every headline with Week 3 required activity.
