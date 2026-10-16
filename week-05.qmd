@@ -119,6 +119,55 @@ For managerial analysis (not an official Hong Kong classification):
 
 Actual design depends on aircraft, operations, safety requirements, and local approval. EASA’s prototype vertiport design specifications are an **EU comparator** design constraint on [Readings](#readings) — not Hong Kong law.
 
+```{=html}
+<figure class="wdiag" id="w05-archetypes" aria-labelledby="w05-archetypes-title">
+<p class="wdiag-cap" id="w05-archetypes-title"><strong>Three site types, three trade-offs</strong> — classroom vertiport archetypes: building-based (strong access; structure/safety/power upgrades), integrated hub (high capability; high cost and complexity), ground-based (often easier to expand; may mean longer customer access). Not Hong Kong statutory classes — no dedicated vertiport statute yet.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Three side-by-side cards for classroom vertiport archetypes: building-based rooftop sites with strong access but upgrade needs; integrated hubs with high capability and high cost; ground-based sites that are often easier to expand but may have longer customer access." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c6-title c6-desc">
+  <title id="c6-title">Three site types, three trade-offs</title>
+  <desc id="c6-desc">Three classroom vertiport archetypes side by side. Building-based rooftop or elevated sites offer strong access but need structure, safety, power, and circulation upgrades. Integrated hubs add charging, processing, and maintenance at high cost and complexity. Ground-based land sites are often easier to expand but may mean longer customer access. Not Hong Kong statutory classes.</desc>
+  <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="38" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Three site types, three trade-offs</text>
+  <text x="360" y="56" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Classroom archetypes · not Hong Kong statutory classes · no dedicated vertiport statute yet</text>
+
+  <!-- Three cards -->
+  <rect x="32" y="78" width="210" height="230" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="137" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Building-based</text>
+  <text x="137" y="132" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Rooftop / elevated</text>
+  <rect x="52" y="150" width="170" height="70" rx="4" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="137" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Strong access</text>
+  <text x="137" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">to customers</text>
+  <text x="137" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Trade-off:</text>
+  <text x="137" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">structure · safety ·</text>
+  <text x="137" y="286" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">power · circulation</text>
+
+  <rect x="255" y="78" width="210" height="230" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Integrated hub</text>
+  <text x="360" y="132" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Multi-pad campus</text>
+  <rect x="275" y="150" width="170" height="70" rx="4" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="360" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">High capability</text>
+  <text x="360" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">charge · process · MRO</text>
+  <text x="360" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Trade-off:</text>
+  <text x="360" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">high cost and</text>
+  <text x="360" y="286" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">complexity</text>
+
+  <rect x="478" y="78" width="210" height="230" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="583" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Ground-based</text>
+  <text x="583" y="132" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Available land site</text>
+  <rect x="498" y="150" width="170" height="70" rx="4" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="583" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Easier to expand</text>
+  <text x="583" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">often</text>
+  <text x="583" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Trade-off:</text>
+  <text x="583" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">may mean longer</text>
+  <text x="583" y="286" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">access for customers</text>
+
+  <rect x="40" y="328" width="640" height="40" rx="8" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Labels organise cost / access / expandability — not Cap. 448G categories or zoning rights.</text>
+
+</svg>
+<p class="wdiag-note">From Week 5 §2 table. Labels are not Cap. 448G categories.</p>
+</figure>
+```
+
 **Connecting idea.** Calling a site a “vertiport” in class does not create a Cap. 448G category or a zoning entitlement. Use the archetype labels to organise **cost / access / expandability** trade-offs. For regulation and land use, stay with current SUA / aviation / planning instruments and issuer documents — not imported EU labels as if they were local statutes.
 
 ---

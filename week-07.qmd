@@ -228,6 +228,50 @@ Advanced ops need clear language. **Approval, permission, and certification** ar
 
 **Managerial lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not a single generic “licence.” Week 5’s “no dedicated HK vertiport statute” caveat still bites here: site approvals may sit outside Cap. 448G alone.
 
+```{=html}
+<figure class="wdiag" id="w07-four-gates" aria-labelledby="w07-four-gates-title">
+<p class="wdiag-cap" id="w07-four-gates-title"><strong>Four gates — do not conflate them</strong> — (1) Cap. 448G SUA operating permission (advanced ops need prior CAD permission; AC-013 ≠ AC-017), (2) operator and pilot requirements, (3) aircraft certification / airworthiness, (4) site and infrastructure approval. Build a map for the specific mission — not one generic “licence.” Keep Regulatory Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Four regulatory gates: Cap. 448G SUA permission, operator and pilot requirements, aircraft certification or airworthiness, and site or infrastructure approval. No single generic licence. Keep Regulatory Sandbox separate from Sandbox X." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c7-title c7-desc">
+  <title id="c7-title">Four gates — do not conflate them</title>
+  <desc id="c7-desc">Four regulatory gates for a specific mission. One: Cap. 448G SUA operating permission, with advanced operations needing prior CAD permission and AC-013 not the same as AC-017. Two: operator and pilot requirements. Three: aircraft certification or airworthiness. Four: site and infrastructure approvals outside Cap. 448G alone. There is no single generic licence. Keep Regulatory Sandbox separate from Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="38" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Four gates — do not conflate them</text>
+  <text x="360" y="56" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Map the specific aircraft, mission, route, and business model</text>
+
+  <!-- 2x2 gates -->
+  <rect x="40" y="78" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="56" y="104" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">1 · SUA permission</text>
+  <text x="56" y="126" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Cap. 448G category and risk</text>
+  <text x="56" y="146" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Advanced ops → prior CAD permission</text>
+  <text x="56" y="164" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">AC-013 ≠ AC-017 pathways</text>
+
+  <rect x="370" y="78" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="386" y="104" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">2 · Operator / pilot</text>
+  <text x="386" y="126" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Registration, training, records</text>
+  <text x="386" y="146" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Equipment, insurance, conditions</text>
+  <text x="386" y="164" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Not the same as aircraft TC</text>
+
+  <rect x="40" y="196" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="56" y="222" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">3 · Aircraft certification</text>
+  <text x="56" y="244" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Airworthiness / type framework</text>
+  <text x="56" y="264" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Passenger or larger unconventional</text>
+  <text x="56" y="282" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">craft may need a different frame</text>
+
+  <rect x="370" y="196" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="386" y="222" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">4 · Site / infrastructure</text>
+  <text x="386" y="244" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Landing and supporting facilities</text>
+  <text x="386" y="264" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Planning, building, fire, land,</text>
+  <text x="386" y="282" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">environment — not Cap. 448G alone</text>
+
+  <rect x="40" y="316" width="640" height="48" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="338" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">No single generic “licence”</text>
+  <text x="360" y="356" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Keep Regulatory Sandbox ≠ Sandbox X · trial evidence ≠ day-to-day operating right</text>
+
+</svg>
+<p class="wdiag-note">From Week 7 §5 table. AC-013 is first-Sandbox BVLOS; AC-017 is Sandbox X cross-boundary.</p>
+</figure>
+```
+
 ### Compliance investment appraisal
 
 In words: form expected approved value, then peel off compliance cost and delay cost. Compact symbols (same meaning as the English labels in the table below):

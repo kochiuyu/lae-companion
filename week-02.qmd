@@ -189,6 +189,52 @@ Course glossary entry: [HHI](glossary.qmd) (course term).
 
 Case B is far more concentrated and may warrant closer examination of **entry** and **access to sites** — still without claiming that any real Hong Kong corridor has these shares. (Slide titles that say “Sandbox Dominance” are teaching labels for Case B’s *story* — they do **not** mean Sandbox selection equals market share.)
 
+```{=html}
+<figure class="wdiag" id="w02-hhi-screen" aria-labelledby="w02-hhi-screen-title">
+<p class="wdiag-cap" id="w02-hhi-screen-title"><strong>Uneven shares raise HHI — not Sandbox “dominance”</strong> — illustrative Case A (four equal 25% shares → HHI 2,500) vs Case B (80% / 20% → HHI 6,800). HHI is a screen only. Regulatory Sandbox or Sandbox X participation is not market-share evidence.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Two panels for the Herfindahl-Hirschman Index. Case A: four equal 25 percent shares give HHI 2,500. Case B: 80 percent and 20 percent give HHI 6,800. A note says trial selection is not market share." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c2-title c2-desc">
+  <title id="c2-title">Uneven shares raise HHI — not Sandbox dominance</title>
+  <desc id="c2-desc">Two classroom panels for the Herfindahl-Hirschman Index. Case A: four equal 25 percent shares give HHI 2,500. Case B: 80 percent and 20 percent shares give HHI 6,800. A note says trial selection is not market share; Sandbox or Sandbox X participation is not HHI evidence. Illustrative only.</desc>
+  <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="40" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Uneven shares raise HHI — not Sandbox “dominance”</text>
+  <text x="360" y="58" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Illustrative corridor shares · HHI is a screen only</text>
+
+  <!-- Case A panel -->
+  <rect x="40" y="80" width="300" height="210" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="190" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Case A</text>
+  <text x="190" y="126" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">four equal operators</text>
+  <!-- four equal bars 25% -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <rect x="70" y="150" width="55" height="70" rx="3" fill="#003366"/>
+    <rect x="135" y="150" width="55" height="70" rx="3" fill="#003366" opacity="0.75"/>
+    <rect x="200" y="150" width="55" height="70" rx="3" fill="#003366" opacity="0.55"/>
+    <rect x="265" y="150" width="55" height="70" rx="3" fill="#003366" opacity="0.4"/>
+    <text x="190" y="250" text-anchor="middle" font-size="12" fill="#1a1a1a">25% · 25% · 25% · 25%</text>
+    <text x="190" y="274" text-anchor="middle" font-size="15" font-weight="700" fill="#003366">HHI = 2,500</text>
+  </g>
+
+  <!-- Case B panel -->
+  <rect x="380" y="80" width="300" height="210" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="530" y="106" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Case B</text>
+  <text x="530" y="126" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">one large, one small</text>
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <rect x="410" y="140" width="180" height="80" rx="3" fill="#003366"/>
+    <text x="500" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">80%</text>
+    <rect x="600" y="180" width="50" height="40" rx="3" fill="#C5A572"/>
+    <text x="625" y="206" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">20%</text>
+    <text x="530" y="250" text-anchor="middle" font-size="12" fill="#1a1a1a">80% + 20%</text>
+    <text x="530" y="274" text-anchor="middle" font-size="15" font-weight="700" fill="#003366">HHI = 6,800</text>
+  </g>
+
+  <rect x="40" y="310" width="640" height="52" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Trial selection ≠ market share</text>
+  <text x="360" y="350" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Sandbox or Sandbox X participation is not HHI evidence — classroom shares only.</text>
+
+</svg>
+<p class="wdiag-note">Classroom shares from Week 2 §4. Keep Sandbox ≠ Sandbox X; selection ≠ HHI.</p>
+</figure>
+```
+
 ### Connecting idea: what HHI does *not* tell you
 
 - It does not identify whether the “pie” is seats, flights, revenue, or pad movements — you must define the metric.  
@@ -227,6 +273,51 @@ More flights **spread** the fixed charge. Low utilization makes each flight look
 | Fixed cost per flight | $33{,}333 / 20 =$ **HK$1,667** | $33{,}333 / 200 =$ **HK$167** |
 | + Marginal cost | HK$50 | HK$50 |
 | [**ATC**](glossary.qmd#atc-average-total-cost) (average total cost) | **HK$1,717** | **HK$217** |
+
+```{=html}
+<figure class="wdiag" id="w02-atc-util" aria-labelledby="w02-atc-util-title">
+<p class="wdiag-cap" id="w02-atc-util-title"><strong>Low flights make the pad expensive</strong> — illustrative rooftop lease ≈ HK$33,333 per day and marginal cost HK$50 per flight. At 20 flights/day, average total cost is about HK$1,717; at 200 flights/day it falls to about HK$217. Classroom arithmetic only — not a Hong Kong site quote.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Two stacked cost bars. Low utilization at 20 flights per day: fixed cost about HK$1,667 per flight plus HK$50 marginal cost gives average total cost about HK$1,717. High utilization at 200 flights per day: fixed about HK$167 plus HK$50 gives about HK$217. Same daily lease about HK$33,333. Illustrative only." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c1-title c1-desc">
+  <title id="c1-title">Low flights make the pad expensive</title>
+  <desc id="c1-desc">Two stacked cost bars for a classroom rooftop-pad example. Low utilization at 20 flights per day: fixed cost about HK$1,667 per flight plus HK$50 marginal cost gives average total cost about HK$1,717. High utilization at 200 flights per day: fixed cost about HK$167 plus HK$50 gives average total cost about HK$217. Same daily lease about HK$33,333. Illustrative only, not Hong Kong market data.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="40" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Low flights make the pad expensive</text>
+  <text x="360" y="58" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Illustrative · rooftop lease ≈ HK$33,333 / day · MC HK$50 / flight</text>
+
+  <g font-family="system-ui,Segoe UI,sans-serif" font-size="11">
+    <rect x="48" y="74" width="14" height="14" rx="2" fill="#C5A572"/>
+    <text x="68" y="86" fill="#5f5f5f">Fixed cost per flight</text>
+    <rect x="230" y="74" width="14" height="14" rx="2" fill="#003366"/>
+    <text x="250" y="86" fill="#5f5f5f">Marginal cost (HK$50)</text>
+  </g>
+
+  <!-- Case Low -->
+  <text x="48" y="130" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Low utilization</text>
+  <text x="48" y="148" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">20 flights / day</text>
+  <!-- scale: 1717 ATC → use ~0.28 px per HK$ so 1717*0.28≈480 -->
+  <rect x="200" y="120" width="468" height="40" rx="4" fill="#C5A572"/>
+  <text x="434" y="145" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="600" fill="#1a1a1a">Fixed ≈ HK$1,667</text>
+  <rect x="668" y="120" width="14" height="40" rx="2" fill="#003366"/>
+  <text x="200" y="178" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">ATC ≈ HK$1,717</text>
+
+  <!-- Case High -->
+  <text x="48" y="230" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">High utilization</text>
+  <text x="48" y="248" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">200 flights / day</text>
+  <!-- 167*0.28≈47, +14 MC -->
+  <rect x="200" y="220" width="56" height="40" rx="4" fill="#C5A572"/>
+  <text x="228" y="245" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="600" fill="#1a1a1a">≈167</text>
+  <rect x="256" y="220" width="28" height="40" rx="3" fill="#003366"/>
+  <text x="270" y="245" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#ffffff">50</text>
+  <text x="296" y="245" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">ATC ≈ HK$217</text>
+
+  <rect x="40" y="300" width="640" height="56" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="56" y="324" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Same lease, same marginal cost. Spreading fixed pad cost over more flights</text>
+  <text x="56" y="342" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">cuts average total cost sharply — classroom illustration only, not a Hong Kong site quote.</text>
+
+</svg>
+<p class="wdiag-note">Classroom assumptions from Week 2 §5 (rooftop rent). Spreading fixed cost does not invent demand or pad throughput.</p>
+</figure>
+```
 
 **Takeaway:** high fixed site costs make low utilization deadly. Operators must earn enough reliable daily volume — subject to demand, weather, regulation, and pad throughput (Week 5 deepens infrastructure).
 
