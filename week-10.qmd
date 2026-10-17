@@ -196,6 +196,39 @@ A complete appraisal should discount cash flows (Week 8 $\mathrm{NPV}$ logic wit
 
 **Connecting idea.** If community acceptance binds before contribution does, a quieter-tech $\mathrm{NPV}$ that ignores mitigation cost is incomplete. Put noise cost in the cash-flow path — or in an operating restriction that cuts $K$ (Week 9 capacity) — rather than as a footnote.
 
+```{=html}
+<figure class="wdiag" id="w10-quieter-svg" aria-labelledby="w10-quieter-svg-title">
+<p class="wdiag-cap" id="w10-quieter-svg-title"><strong>Quieter upgrade HK$3M → 5-yr save HK$3M</strong> — Classroom: quieter-tech upgrade <strong>HK$3M</strong>; annual noise-related cost <strong>HK$1.5M → HK$0.3M</strong> (save HK$1.2M/yr). Five-year undiscounted: without HK$7.5M vs with HK$4.5M → illustrative saving <strong>HK$3M</strong>. Discount cash flows properly (Week 8 NPV). Not HK noise limits, CAD charges, or tech quotations. Carbon dial ≠ CAD tax. ≠ <code>#w10-carbon-dial-svg</code>. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="z4-title z4-desc">
+  <title id="z4-title">Quieter upgrade three million: five-year undiscounted saving three million</title>
+  <desc id="z4-desc">Classroom quieter-technology appraisal. Upgrade costs three million Hong Kong dollars. Annual noise-related cost falls from one point five million to zero point three million. Five-year undiscounted totals seven point five million without upgrade versus four point five million with upgrade. Illustrative five-year saving three million. Discount cash flows properly. Not Hong Kong noise limits, CAD charges, or technology quotations. Carbon dial is not a CAD tax. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="396" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Quieter upgrade HK$3M → 5-yr save HK$3M</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Annual noise-related 1.5M → 0.3M · undiscounted 5-yr (classroom)</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Without upgrade</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Annual noise-related HK$1.5M</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Upfront —</text>
+  <text x="191" y="164" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">5-yr total 5×1.5 = HK$7.5M</text>
+  <text x="191" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Undiscounted path</text>
+  <text x="191" y="226" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$7.5M</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">With upgrade</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Annual noise-related HK$0.3M</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Upfront HK$3M</text>
+  <text x="529" y="164" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">5-yr total 3+5×0.3 = HK$4.5M</text>
+  <text x="529" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Illustrative 5-yr saving</text>
+  <text x="529" y="226" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$3M</text>
+  <rect x="60" y="278" width="600" height="44" rx="8" fill="#003366"/>
+  <text x="360" y="306" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Put quieter-tech in the CF path (or as K cut) — then discount</text>
+  <rect x="60" y="340" width="600" height="40" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="366" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ CAD noise charge · carbon dial ≠ CAD tax · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 10 §2 worked illustration (quieter technology). Classroom only. New SVG. Distinct from #w10-carbon-dial-svg.</p>
+</figure>
+```
+
 ---
 
 Noise is one channel. **Privacy governance** for onboard cameras is another OPEX and trust cost — explicit, not a vague ESG haircut on revenue.

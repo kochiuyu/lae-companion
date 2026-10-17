@@ -357,6 +357,57 @@ A coherent capstone should connect six decision blocks:
 
 **Connecting idea.** Straubinger et al. and the FAA AAM Implementation Plan ([Readings](#readings)) are useful **organisers** for a roadmap slide — they are not Hong Kong law and do not replace Cap. 448G / AC-013 / AC-017 pathways.
 
+```{=html}
+<figure class="wdiag" id="w11-corridor-screen-svg" aria-labelledby="w11-corridor-screen-svg-title">
+<p class="wdiag-cap" id="w11-corridor-screen-svg-title"><strong>Airport-corridor screening · six-block chain</strong> — Illustrative: (1) <strong>Problem</strong> — time-sensitive airport door-to-door value vs alternative; (2) <strong>Demand</strong> — choice at fares under generalized cost + capacity; (3) <strong>Operations</strong> — aircraft, seats, LF, days, serviceable <em>K</em>; (4) <strong>Economics</strong> — contribution, <em>F</em>, BE, NPV, downside; (5) <strong>Regulation</strong> — permissions; Sandbox X / AC-013 only where relevant (keep distinct); (6) <strong>Impact</strong> — emissions, noise, privacy, access, public-service. Recommend proceed / stage / redesign / relocate / reject with conditions. No invented corridor <em>K</em>. AC-013 ≠ AC-017. Sandbox ≠ Sandbox X. U-space ≠ HK law. ~1000 m ≠ Cap. 448G. Near-overlap with <code>#w11-blocks-svg</code> — this is the <em>screening chain</em> table visualised.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 460" role="img" aria-labelledby="z5-title z5-desc">
+  <title id="z5-title">Airport-corridor screening: six blocks from problem through impact to a conditioned recommendation</title>
+  <desc id="z5-desc">Illustrative airport-corridor screening chain. Six blocks: problem tests time-sensitive airport door-to-door value; demand estimates choice at fares under capacity; operations defines aircraft seats load factor and serviceable capacity; economics covers contribution breakeven NPV and downside; regulation uses Sandbox X or AC-013 only where relevant and keeps programmes distinct; impact covers emissions noise privacy access and public-service effects. Recommend proceed stage redesign relocate or reject with conditions. Do not invent published corridor capacities. AC-013 is not AC-017. Sandbox is not Sandbox X. U-space is not Hong Kong law.</desc>
+  <rect x="12" y="12" width="696" height="436" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Airport-corridor screening · six-block chain</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Illustrative chain · not a published corridor K</text>
+  <rect x="28" y="64" width="210" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="86" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">1 · Problem</text>
+  <text x="133" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Time-sensitive airport</text>
+  <text x="133" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">door-to-door value?</text>
+  <text x="133" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">vs alternative</text>
+  <rect x="255" y="64" width="210" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="86" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">2 · Demand</text>
+  <text x="360" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Choice at fares</text>
+  <text x="360" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">generalized cost</text>
+  <text x="360" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">+ capacity constraints</text>
+  <rect x="482" y="64" width="210" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="587" y="86" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">3 · Operations</text>
+  <text x="587" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Aircraft · seats · LF</text>
+  <text x="587" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">operating days</text>
+  <text x="587" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">serviceable K</text>
+  <rect x="28" y="168" width="210" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">4 · Economics</text>
+  <text x="133" y="212" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Contribution · F · BE</text>
+  <text x="133" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">NPV · downside cash</text>
+  <text x="133" y="244" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">per passenger-trip</text>
+  <rect x="255" y="168" width="210" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">5 · Regulation</text>
+  <text x="360" y="212" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Permissions · evidence</text>
+  <text x="360" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Sandbox X / AC-013</text>
+  <text x="360" y="244" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">only where relevant</text>
+  <rect x="482" y="168" width="210" height="88" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="587" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">6 · Impact</text>
+  <text x="587" y="212" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Emissions · noise</text>
+  <text x="587" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">privacy · access</text>
+  <text x="587" y="244" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">public-service effects</text>
+  <rect x="60" y="276" width="600" height="52" rx="8" fill="#003366"/>
+  <text x="360" y="298" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Recommend: proceed · stage · redesign · relocate · reject</text>
+  <text x="360" y="316" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#C5A572">with explicit conditions that would change the call</text>
+  <rect x="60" y="348" width="600" height="72" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="374" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">No invented corridor K · AC-013 ≠ AC-017 · Sandbox ≠ X</text>
+  <text x="360" y="396" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">U-space ≠ HK law · ~1000 m ≠ Cap. 448G · ≠ #w11-blocks-svg alone</text>
+</svg>
+
+<p class="wdiag-note">From Week 11 §3 Airport-corridor screening (illustrative chain). New SVG. Screening chain ≠ published corridor K. Pairs with #w11-blocks-svg.</p>
+</figure>
+```
+
 ---
 
 A template without gates is a wish list. The **risk register and decision-gated roadmap** bind each material risk to a model channel and a stop/expand trigger.

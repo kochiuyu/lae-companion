@@ -457,6 +457,37 @@ Compliance spend may be necessary for market access; it does not automatically c
 
 Assess compliance together with approval probability and project economics — not presumed monopoly revenue.
 
+```{=html}
+<figure class="wdiag" id="w07-compliance-ev-svg" aria-labelledby="w07-compliance-ev-svg-title">
+<p class="wdiag-cap" id="w07-compliance-ev-svg-title"><strong>Compliance HK$15M · 70% EV +HK$6M / 40% −HK$3M</strong> — Classroom: compliance programme <strong>HK$15M</strong>; project value if approved <strong>HK$30M</strong>. 70% approval: 0.70×30 = HK$21M − 15 → EV before delay <strong>+HK$6M</strong>. 40% approval: 0.40×30 = HK$12M − 15 → EV before delay <strong>−HK$3M</strong>. Appraise with Pr(approval) — not presumed monopoly revenue. ≠ readiness / trial SVGs (same 15M family, different lens). Sandbox ≠ Sandbox X. AC-013 ≠ AC-017. U-space ≠ HK law.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="z3-title z3-desc">
+  <title id="z3-title">Compliance fifteen million: seventy percent approval expected value plus six million; forty percent minus three million</title>
+  <desc id="z3-desc">Classroom compliance investment appraisal. Compliance programme fifteen million Hong Kong dollars; project value if approved thirty million. At seventy percent approval: expected approved value twenty-one million minus fifteen equals plus six million. At forty percent: twelve million minus fifteen equals minus three million. Before delay cost. Assess with approval probability — not presumed monopoly revenue. Sandbox is not Sandbox X. U-space is not Hong Kong law. AC-013 is not AC-017.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Compliance HK$15M · 70% EV +HK$6M / 40% −HK$3M</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">C_comp=HK$15M · V_proj if approved=HK$30M (classroom)</text>
+  <rect x="36" y="68" width="310" height="170" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">70% approval</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">0.70 × 30 = HK$21M</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">− compliance HK$15M</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">EV before delay</text>
+  <text x="191" y="202" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">+HK$6M</text>
+  <rect x="374" y="68" width="310" height="170" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">40% approval</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">0.40 × 30 = HK$12M</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">− compliance HK$15M</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">EV before delay</text>
+  <text x="529" y="202" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">−HK$3M</text>
+  <rect x="60" y="258" width="600" height="44" rx="8" fill="#003366"/>
+  <text x="360" y="286" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Appraise with Pr(approval) — not presumed monopoly revenue</text>
+  <rect x="60" y="320" width="600" height="40" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="346" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ readiness / trial SVGs · Sandbox ≠ X · AC-013 ≠ AC-017 · U-space ≠ HK law</text>
+</svg>
+
+<p class="wdiag-note">From Week 7 §5 Compliance investment appraisal. Classroom only. New SVG. Distinct from #w07-readiness-svg / #w07-trial-value-svg.</p>
+</figure>
+```
+
 ---
 
 Gates need evidence. The **safety case** and risk-cost framing turn “how safe?” into an appraisal input — still not a claim that any trial clears a type certificate.

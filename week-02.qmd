@@ -495,6 +495,37 @@ Under these assumptions B has a much lower average cost. Whether 500 flights/day
 
 **Connecting idea.** Do not treat “500 flights/day” as a Hong Kong forecast. Use it only to see how steeply ATC falls with density *if* demand and pad rules allow it.
 
+```{=html}
+<figure class="wdiag" id="w02-density-trap-svg" aria-labelledby="w02-density-trap-svg-title">
+<p class="wdiag-cap" id="w02-density-trap-svg-title"><strong>Density trap · pad HK$50k/day → ATC HK$2,600 vs HK$200</strong> — Classroom: fixed pad <strong>HK$50,000/day</strong>; MC <strong>HK$100/flight</strong>. Operator A <strong>20</strong> flights/day → fixed/flight HK$2,500 + 100 = <strong>HK$2,600</strong>/flight. Operator B <strong>500</strong> flights/day → fixed/flight HK$100 + 100 = <strong>HK$200</strong>/flight. Density can crush ATC <em>if</em> volume is allowed — <strong>500 flights/day ≠ HK forecast</strong>. Illustrative only. ≠ <code>#w02-density-svg</code> (conceptual loop). Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="z1-title z1-desc">
+  <title id="z1-title">Density trap: twenty flights cost two thousand six hundred per flight; five hundred flights cost two hundred per flight</title>
+  <desc id="z1-desc">Classroom density trap. Fixed pad cost fifty thousand Hong Kong dollars per day; marginal cost one hundred per flight. Operator A twenty flights per day: fixed per flight two thousand five hundred plus one hundred equals two thousand six hundred per flight. Operator B five hundred flights per day: fixed per flight one hundred plus one hundred equals two hundred per flight. Five hundred flights per day is not a Hong Kong forecast. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Density trap · pad HK$50k/day → ATC HK$2,600 vs HK$200</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Fixed pad HK$50,000/day · MC HK$100/flight (classroom)</text>
+  <rect x="36" y="68" width="310" height="170" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Operator A · 20 flights/day</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Fixed/flight 50,000÷20 = HK$2,500</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">+ MC HK$100</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Cost per flight</text>
+  <text x="191" y="202" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">HK$2,600</text>
+  <rect x="374" y="68" width="310" height="170" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Operator B · 500 flights/day</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Fixed/flight 50,000÷500 = HK$100</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">+ MC HK$100</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Cost per flight</text>
+  <text x="529" y="202" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">HK$200</text>
+  <rect x="60" y="258" width="600" height="44" rx="8" fill="#003366"/>
+  <text x="360" y="286" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Density can crush ATC if volume is allowed — 500/day ≠ HK forecast</text>
+  <rect x="60" y="320" width="600" height="40" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="346" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w02-density-svg · Sandbox ≠ X · no invented corridor K</text>
+</svg>
+
+<p class="wdiag-note">From Week 2 §6 worked illustration (density trap). Classroom only. New SVG. Pairs with #w02-density-svg (conceptual).</p>
+</figure>
+```
+
 ---
 
 Density can lower ATC *if* volume is allowed. **Entry barriers** ask why rivals might never reach that volume — sunk pads, certification, scarce sites, and limit pricing belong on one checklist.
