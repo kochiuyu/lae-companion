@@ -99,11 +99,9 @@ A **demand curve** shows expected quantity at different prices, holding other im
 In words: expected quantity falls linearly as price rises; the intercept is model demand at a zero price, and the slope says how many units drop for each Hong Kong dollar of price increase.
 
 
-
 $$
 Q = a - bP
 $$
-
 
 
 - $Q$ — expected quantity in a defined period  
@@ -188,27 +186,7 @@ NASA-sponsored UAM market studies use detailed demand models; the four-step stru
 ### Managerial demand funnel
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w04-funnel" aria-labelledby="w04-funnel-title">
-<p class="wdiag-cap" id="w04-funnel-title"><strong>Demand funnel with a capacity screen</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>Relevant trips / missions</strong> (defined OD, customer, period)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ eligibility</div>
-<div class="wdiag-box"><strong>Serviceable demand</strong></div>
-<div class="wdiag-arrow" aria-hidden="true">↓ choice share (price, GC, quality)</div>
-<div class="wdiag-box"><strong>Potential operator demand</strong></div>
-<div class="wdiag-arrow" aria-hidden="true">↓ min with reliable capacity K</div>
-<div class="wdiag-box fact"><strong>Served activity</strong><br/>Cannot exceed what aircraft, sites, hours, weather, and permissions allow.</div>
-</div>
-<p class="wdiag-note">Do not invent published Hong Kong corridor volumes. Worked funnel numbers below are classroom assumptions.</p>
-</figure>
-```
-
-
 In words: start from relevant trips, keep only the share on your corridor, then keep only the share that chooses your mode — that product is **potential** passenger-trips. Served trips cannot exceed available capacity.
-
 
 
 $$
@@ -218,15 +196,11 @@ $$
 $$
 
 
-
-
-
 $$
 \text{Served passenger-trips}
 =
 \min\{\text{Potential demand},\ \text{Available capacity}\}
 $$
-
 
 
 The product is a **screening funnel**, not the full four-step model. Assignment allocates trips on a network — do not treat it as an arbitrary demand haircut. Keep **passenger-trips**, **flights**, and **seats** distinct.
@@ -295,11 +269,9 @@ Funnels count potential choosers. **Generalized cost** asks whether the air opti
 Week 1 introduced a short form. Week 4 expands it — in words: fare plus value of time times full door-to-door time, plus other monetized burdens you can justify.
 
 
-
 $$
 GC = \text{Fare} + VOT \times \text{Door-to-door time} + \text{Other monetized burdens}
 $$
-
 
 
 $VOT$ converts time to money. Avoid **double counting** (for example putting the same weather delay in both expected time and a separate penalty unless the terms capture different effects). Lower GC raises attractiveness but does **not** imply every customer switches — preferences differ; forecasts stay probabilistic.
@@ -360,11 +332,9 @@ GC ranks options for a traveller type. **Elasticity** asks how quantity moves wh
 [**Own-price elasticity**](glossary.qmd#elasticity-of-demand) asks how much quantity changes when *you* change your own price. **Cross-elasticity** asks how *your* demand responds when a competitor’s price changes (for example an MTR fare rise).
 
 
-
 $$
 E_d = \frac{\%\ \text{change in quantity demanded}}{\%\ \text{change in price}}
 $$
-
 
 
 Own-price elasticity is usually negative. Managers often quote the absolute value: $|E_d| < 1$ inelastic; $|E_d| > 1$ elastic. Elasticity can vary by price, segment, period, and alternatives. Small-change approximations are weaker for large price moves.
@@ -462,11 +432,9 @@ Managers may offer different products, booking rules, service levels, membership
 In words: total revenue is the sum across products of each product’s price times the quantity that product attracts at that price.
 
 
-
 $$
 \text{Total revenue} = \sum_{i=1}^{n} P_i Q_i(P_i)
 $$
-
 
 
 ### Worked illustration (uniform vs two products)
@@ -530,11 +498,9 @@ For Hong Kong applications:
 In words: take a base demand figure and multiply by an explicit acceptance factor you chose for the scenario — then defend that factor.
 
 
-
 $$
 \text{Scenario demand} = \text{Base demand} \times \text{Acceptance adjustment}
 $$
-
 
 
 The factor is an **analyst-defined scenario input**, not an official AiRMOUR coefficient. Try several values (for example 0.6, 0.8, 1.0) and justify them. Avoid double counting if acceptance already sits inside mode share or GC. Over time replace assumptions with survey, pilot, complaint, booking, and revealed-behaviour evidence.
@@ -596,19 +562,14 @@ A demand forecast should examine plausible changes, not one stable future:
 Purpose: see which assumptions matter and prepare responses before large investments.
 
 
-
 $$
 Q_{\text{served}} = \min\{Q_{\text{demand}},\ Q_{\text{capacity}}\}
 $$
 
 
-
-
-
 $$
 R = P \times Q_{\text{served}} + \text{Committed revenue} - \text{Refunds and credits}
 $$
-
 
 
 Model each channel explicitly — do not apply one unexplained “shock penalty” to revenue. Weather may cut **capacity** first; repeated unreliability can later cut **demand** (Week 3 weather channels return here).

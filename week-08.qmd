@@ -85,8 +85,6 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 ## 2. The airspace bottleneck
 
 
-
-
 ```{=html}
 <figure class="wdiag" id="w08-capacity" aria-labelledby="w08-capacity-title">
 <p class="wdiag-cap" id="w08-capacity-title"><strong>Whole-system capacity (not drones-per-minute)</strong></p>
@@ -193,14 +191,12 @@ In words: sum additional delay times value of delay across affected users, then 
 - $\mathrm{MCC}$ — marginal congestion cost  
 
 
-
 $$
 \begin{aligned}
 S_{\mathrm{delay}} &= \sum_j \left( D_j \times v_j \right) \\
 \mathrm{MCC} &= S_{\mathrm{delay}} + C_{\mathrm{other}}
 \end{aligned}
 $$
-
 
 
 Sum the incremental delay imposed on **all** affected users, not only the next aircraft. Values may differ across passengers, cargo, aircraft, public services, and schedule commitments. The theoretically efficient charge equals marginal external cost — that cost is hard to observe precisely in real time, so a practical peak charge may use estimated bands and periodic review.
@@ -302,21 +298,6 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 ## 4. Mechanism design and slot allocation
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w08-mech" aria-labelledby="w08-mech-title">
-<p class="wdiag-cap" id="w08-mech-title"><strong>Allocation families (choose with criteria)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Administrative</strong><br/>Schedule, rotation, FCFS, public-service priority</div>
-<div class="wdiag-box"><strong>Posted prices</strong><br/>Peak / off-peak charges</div>
-<div class="wdiag-box"><strong>Auctions</strong><br/>Bids for scarce windows — need safeguards</div>
-<div class="wdiag-box"><strong>Packages</strong><br/>Linked pad + corridor + charging</div>
-</div>
-<p class="wdiag-note">High willingness to pay ≠ automatic social priority. Failure to obtain a linked slot → reject/reschedule, not unsafe flight.</p>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag" id="w08-mech-svg" aria-labelledby="w08-mech-svg-title">
 <p class="wdiag-cap" id="w08-mech-svg-title"><strong>Allocation families — choose with criteria</strong> — administrative (schedule, rotation, FCFS, public-service priority); posted prices (peak/off-peak); auctions (scarce windows — need safeguards); packages (linked pad + corridor + charging). High willingness to pay ≠ automatic social priority. No linked slot → reject/reschedule, not an unsafe flight.</p>
@@ -352,7 +333,7 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No linked slot → reject / reschedule — not an unsafe flight. Diagnose the bind first (Week 8 §2).</text>
 
 </svg>
-<p class="wdiag-note">From Week 8 §4. SVG upgrade of HTML #w08-mech.</p>
+<p class="wdiag-note">From Week 8 §4.</p>
 </figure>
 ```
 
@@ -378,11 +359,9 @@ In words: incremental revenue from the slot, minus incremental operating cost, m
 - $B_{\max}$ — maximum affordable payment  
 
 
-
 $$
 B_{\max} = R_{\Delta} - C_{\Delta} - \pi_{\mathrm{req}}
 $$
-
 
 
 Use incremental values associated with obtaining the slot — not total company revenue and OPEX. Required contribution may cover fixed cost, risk, or a target return. The rational bid also depends on auction rules, expected rival bids, alternative slots, and the risk that linked resources are unavailable. A high bid does **not** automatically imply high social value or justify excluding smaller operators.
@@ -508,11 +487,9 @@ In words: subtract the cost of the interoperable process from the cost of the le
 - $S_{\mathrm{day}}$ — daily net saving  
 
 
-
 $$
 S_{\mathrm{day}} = C_{\mathrm{legacy}} - C_{\mathrm{interop}}
 $$
-
 
 
 Include fixed systems, usage fees, communications, human oversight, cybersecurity, integration, certification, and exception handling. Interoperability can reduce duplicate interfaces and repeated manual data entry — and may create migration cost, common dependencies, governance disputes, and switching risks. Do not assume API or digital-services cost is near zero.
@@ -594,7 +571,6 @@ In words: form year-$t$ net cash flow as inflow minus outflow, then discount and
 - $\mathrm{NPV}$ — roadmap net present value  
 
 
-
 $$
 \begin{aligned}
 \mathrm{CF}_{t}
@@ -604,7 +580,6 @@ $$
   \frac{\mathrm{CF}_{t}}{(1+r)^{t}}
 \end{aligned}
 $$
-
 
 
 Include implementation cost in the year it occurs. Cash flows should reflect probability of reaching each phase, operating limits, demand, cost, and possible abandonment. Decision gates preserve flexibility to pause, redesign, or expand when evidence changes (Week 6 staging). A positive NPV under assumptions does **not** prove that the wider market is viable.

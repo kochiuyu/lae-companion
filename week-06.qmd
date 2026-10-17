@@ -93,20 +93,6 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 ## 2. Three business-model archetypes
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w06-arch" aria-labelledby="w06-arch-title">
-<p class="wdiag-cap" id="w06-arch-title"><strong>Architecture choice (roles)</strong></p>
-<div class="wdiag-stack cols-3">
-<div class="wdiag-box"><strong>Own / integrate</strong><br/>Control assets; bear more CAPEX and utilization risk.</div>
-<div class="wdiag-box"><strong>Contract / PPP</strong><br/>Share design, build, operate, or finance with public or private partners.</div>
-<div class="wdiag-box"><strong>Orchestrate</strong><br/>Platform coordinates parties; needs liquidity, trust, and governance.</div>
-</div>
-<p class="wdiag-note">Architecture changes risk allocation — it does not remove Cap. 448G permission needs (Week 7).</p>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag" id="w06-arch-svg" aria-labelledby="w06-arch-svg-title">
 <p class="wdiag-cap" id="w06-arch-svg-title"><strong>Architecture choice shifts risk — not Cap. 448G</strong> — Own/integrate (more CAPEX and utilization risk); Contract/PPP (share design–build–operate–finance); Orchestrate (platform needs liquidity, trust, governance). “Asset-light” is a slogan, not a risk transfer. Architecture does not remove Cap. 448G permission needs (Week 7).</p>
@@ -146,7 +132,7 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Architecture changes who bears risk — Cap. 448G permission needs remain (Week 7).</text>
 
 </svg>
-<p class="wdiag-note">From Week 6 §2. SVG upgrade of HTML #w06-arch.</p>
+<p class="wdiag-note">From Week 6 §2.</p>
 </figure>
 ```
 
@@ -166,7 +152,6 @@ Real businesses often **combine** elements. Roles without firm names: [How does 
 In words: take revenue, subtract cash operating spend, the period’s asset-cost allocation, and what you pay partners.
 
 
-
 $$
 \begin{aligned}
 \text{Monthly economic profit}
@@ -175,7 +160,6 @@ $$
   - \text{Partner payments}
 \end{aligned}
 $$
-
 
 
 Ownership affects financing, residual value, utilization risk, and control. Contracting converts some investment into recurring partner payments — it does **not** eliminate liability or performance risk. Platforms may scale with fewer physical assets but need trust, two-sided liquidity, governance, data security, and enough transactions. Compare cash flow, economic cost, risk, control, and capability — not a single profit number.
@@ -305,21 +289,6 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 ## 4. Usage vs availability payments
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w06-pay" aria-labelledby="w06-pay-title">
-<p class="wdiag-cap" id="w06-pay-title"><strong>Who bears demand risk?</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Usage payment</strong><br/>Cash follows traffic / missions → operator (or SPV) bears more demand risk.</div>
-<div class="wdiag-box"><strong>Availability payment</strong><br/>Cash follows agreed readiness / service level → public sponsor often bears more demand risk.</div>
-</div>
-<p class="wdiag-arrow" aria-hidden="true">↕ hybrids exist</p>
-<div class="wdiag-box fact"><strong>Write the risk down</strong><br/>Payment design is a risk allocation, not a slogan.</div>
-<p class="wdiag-note">Classroom payment figures are illustrative — not CAD or government tariffs.</p>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag" id="w06-pay-svg" aria-labelledby="w06-pay-svg-title">
 <p class="wdiag-cap" id="w06-pay-svg-title"><strong>Who bears demand risk?</strong> — Usage payment: cash follows traffic / missions → operator (or SPV) bears more demand risk. Availability payment: cash follows agreed readiness / service level → public sponsor often bears more demand risk; provider keeps performance risk via KPIs and deductions. Hybrids exist. Availability pays for readiness — not a free weather hedge. Classroom figures only — not CAD tariffs. Keep Sandbox ≠ Sandbox X.</p>
@@ -368,13 +337,12 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
   <text x="360" y="364" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Classroom payment figures only — not CAD or government tariffs. Sandbox ≠ Sandbox X.</text>
 
 </svg>
-<p class="wdiag-note">From Week 6 §4 (usage vs availability). SVG upgrade of HTML #w06-pay.</p>
+<p class="wdiag-note">From Week 6 §4 (usage vs availability).</p>
 </figure>
 ```
 
 
 In words: usage revenue is price times quantity. An availability component starts from a readiness fee, subtracts performance deductions, and may add a smaller per-unit usage term.
-
 
 
 $$
@@ -385,16 +353,12 @@ R_U &= p \times q
 $$
 
 
-
-
-
 $$
 \begin{aligned}
 R_A &= A - D + u \times q
 \quad\text{(availability-based component)}
 \end{aligned}
 $$
-
 
 
 - $A$ — availability payment  
@@ -466,7 +430,6 @@ Not every flexible clause is freely exercisable — triggers, notice, compensati
 In words: expected project value is the probability-weighted payoff of the action you would choose in each state.
 
 
-
 $$
 \begin{aligned}
 \text{Expected project value}
@@ -475,7 +438,6 @@ $$
   \times \text{Payoff under the chosen action in state } s
 \end{aligned}
 $$
-
 
 
 Compare a rigid commitment with a staged or contingent decision. Flexibility creates value only if management can observe new information and respond. Waiting also has costs: option fees, delay, lost position, inflation, or expiring approvals. Conventional NPV can incorporate planned decisions; real-options thinking makes flexibility more explicit.
@@ -549,7 +511,6 @@ Define access, cost sharing, data governance, performance, liability, and exit. 
 In words: first allocate fixed facility cost per movement; then add variable facility cost per movement to get the shared facility unit cost.
 
 
-
 $$
 \begin{aligned}
 \text{Fixed cost per movement}
@@ -559,7 +520,6 @@ $$
   + \text{Variable facility cost per movement}
 \end{aligned}
 $$
-
 
 
 Greater total use can spread fixed cost — this is the **facility’s** cost, not automatically each operator’s charge. Contracts must decide equal vs usage vs peak vs investment-based payments. Sharing helps only if extra traffic does not create excessive congestion or expansion cost.

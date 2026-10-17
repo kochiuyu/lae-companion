@@ -90,21 +90,6 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
 ## 2. What economists mean by “market structure”
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w02-compete" aria-labelledby="w02-compete-title">
-<p class="wdiag-cap" id="w02-compete-title"><strong>Who might compete (question map)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Same OD / same mission?</strong><br/>Substitute services compete for the same customer trip or payload.</div>
-<div class="wdiag-box"><strong>Same scarce pad / slot?</strong><br/>Rivals may compete for infrastructure even if missions differ.</div>
-<div class="wdiag-box"><strong>Same corridor–time window?</strong><br/>Airspace access can bind before “market share” does (Week 8).</div>
-<div class="wdiag-box fact"><strong>Discipline</strong><br/>Name the market before computing concentration. Classroom HHI shares are illustrative — not Hong Kong firm data.</div>
-</div>
-<p class="wdiag-note">Connects to Week 5 scarce sites and Week 8 airspace allocation.</p>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag" id="w02-compete-svg" aria-labelledby="w02-compete-svg-title">
 <p class="wdiag-cap" id="w02-compete-svg-title"><strong>Who might compete — name the market first</strong> — same OD/mission; same scarce pad/slot; same corridor–time window. Discipline: name the market (product + geography + customer + layer) before concentration. Classroom HHI shares are illustrative — not Hong Kong firm data. Sandbox selection ≠ market share. Connects to Week 5 sites and Week 8 airspace.</p>
@@ -136,7 +121,7 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
   <text x="360" y="290" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Classroom HHI shares are illustrative — not Hong Kong firm data. Sandbox ≠ market share.</text>
 
 </svg>
-<p class="wdiag-note">From Week 2 §2. SVG upgrade of HTML #w02-compete.</p>
+<p class="wdiag-note">From Week 2 §2.</p>
 </figure>
 ```
 
@@ -243,11 +228,9 @@ Four segments, four logics. Concentration tools come next. The **HHI screen** is
 A common screening measure is:
 
 
-
 $$
 HHI = \sum_{i=1}^{N} s_i^2
 $$
-
 
 
 where $s_i$ is firm $i$’s market share **in percent** in the defined market (so a pure monopoly scores $100^2 = 10{,}000$). Squaring **amplifies** large shares: a firm with 90% contributes $8{,}100$; four equal 25% firms contribute $4 \times 625 = 2{,}500$.
@@ -333,11 +316,9 @@ To see why landing pads and utilization dominate LAE competition, separate two c
 Average total cost per flight (simple teaching form):
 
 
-
 $$
 \text{ATC} = \frac{\text{Fixed costs}}{\text{Number of flights}} + \text{Marginal cost}
 $$
-
 
 
 More flights **spread** the fixed charge. Low utilization makes each flight look extremely expensive even if energy is cheap.
@@ -410,24 +391,6 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
 ## 6. Economies of density (not bigger vehicles)
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w02-density" aria-labelledby="w02-density-title">
-<p class="wdiag-cap" id="w02-density-title"><strong>Density feedback (conceptual)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>More flights on shared fixed cost</strong><br/>(pad rent, staffing, coordination)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Lower average cost per flight</strong> (when utilization rises)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Stronger position at that site</strong> — if demand and permission hold</div>
-<div class="wdiag-arrow" aria-hidden="true">⚠</div>
-<div class="wdiag-box muted"><strong>Not automatic monopoly</strong><br/>Entry, regulation, rival pads, and congestion can reverse the advantage.</div>
-</div>
-<p class="wdiag-note">Schematic teaching loop — not a forecast of any Hong Kong site.</p>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag" id="w02-density-svg" aria-labelledby="w02-density-svg-title">
 <p class="wdiag-cap" id="w02-density-svg-title"><strong>Density feedback — not automatic monopoly</strong> — more flights on shared fixed cost → lower average cost per flight (when utilization rises) → stronger position at that site if demand and permission hold. Entry, regulation, rival pads, and congestion can reverse the advantage. Schematic teaching loop — not a forecast of any Hong Kong site.</p>
@@ -458,7 +421,7 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
   <text x="360" y="344" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Entry · regulation · rival pads · congestion can reverse the advantage</text>
 
 </svg>
-<p class="wdiag-note">From Week 2 §6. SVG upgrade of HTML #w02-density.</p>
+<p class="wdiag-note">From Week 2 §6.</p>
 </figure>
 ```
 
@@ -470,11 +433,9 @@ Instead, LAE economics leans on **economies of density**: running **more volume 
 A teaching form that highlights density in the denominator:
 
 
-
 $$
 \text{Average cost per flight} = \frac{\text{Fixed route costs}}{\text{Flights} \times \text{Density factor}} + \text{Marginal cost}
 $$
-
 
 
 (In the simplest classroom cases, “density” is just higher flight count on the same fixed pad.)
@@ -588,11 +549,9 @@ A **sunk cost** is expenditure you cannot recover if you exit (for example much 
 If an incumbent could charge a very high monopoly price, that profit signal might attract entry. **Limit pricing** means charging low enough that a potential entrant’s expected average cost (including amortised sunk entry cost) is not covered — a teaching strategy, not a guarantee that entry is blocked.
 
 
-
 $$
 P_{\text{Limit}} \approx AC_{\text{Entrant}} = \frac{\text{Sunk entry cost}}{\text{Expected volume } Q} + MC
 $$
-
 
 
 ### Worked illustration (limit price and shared pads)
@@ -719,11 +678,9 @@ Place and programmes set the institutional stage. When **capacity is scarce**, p
 If two operators offer a homogeneous service with **unconstrained** capacity, price undercutting can drive price down toward **marginal cost** — a “race to the bottom” where margins vanish (Bertrand-style teaching model):
 
 
-
 $$
 P = MC \quad \text{(unconstrained capacity, homogeneous product)}
 $$
-
 
 
 ### Why scarce pads change the story
@@ -822,11 +779,9 @@ Airlines sometimes compete for passengers while sharing lounges or codeshares. E
 Teaching split of a shared fixed infrastructure cost among $N$ operators:
 
 
-
 $$
 \text{Savings per operator relative to going alone} = \frac{\text{Fixed infrastructure cost} \times (N-1)}{N}
 $$
-
 
 
 ### Worked illustration (shared rooftop)

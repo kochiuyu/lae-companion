@@ -101,7 +101,6 @@ Regulatory capability may become a competitive advantage when a firm can demonst
 In words: take contribution earned while you alone (or early) can operate commercially, then subtract the extra compliance and launch cost that bought that lead.
 
 
-
 $$
 \begin{aligned}
 \text{Net readiness value}
@@ -109,7 +108,6 @@ $$
 &\quad - \text{Additional compliance and launch cost}
 \end{aligned}
 $$
-
 
 
 The lead period begins only when revenue-generating operation is **actually permitted** and demand exists. Use contribution (not revenue alone). Faster readiness may create learning, reputation, and partnership benefits — competitors and substitutes can still enter. Include probability of approval, delay, unsuccessful trials, and possible expiry of the lead.
@@ -162,21 +160,6 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 ## 3. Hong Kong’s risk-based SUA frame and Sandbox X
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w07-sandbox" aria-labelledby="w07-sandbox-title">
-<p class="wdiag-cap" id="w07-sandbox-title"><strong>Sandbox ≠ Sandbox X (keep programmes distinct)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box fact"><strong>Regulatory Sandbox</strong><br/>Controlled trials under the first Sandbox programme. Advanced / BVLOS pathways: see <strong>CAD AC-013</strong> (operation-specific evidence).</div>
-<div class="wdiag-box fact"><strong>Regulatory Sandbox X</strong><br/>Advanced / more complex trials (e.g. cross-boundary SUA permission pathways). Cross-boundary circular: <strong>CAD AC-017</strong>.</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">≠</div>
-<div class="wdiag-box muted"><strong>Neither is a commercial franchise</strong><br/>Sandbox evidence ≠ day-to-day operating approval. <strong>U-space ≠ Hong Kong law.</strong> Action Plan language in the 2025 Policy Address stays with the issuer (OPEN on Official status where noted).</div>
-<p class="wdiag-note">Absolute programme labels — cite Readings / Key figures / Who decides what?.</p>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag" id="w07-sandbox-svg" aria-labelledby="w07-sandbox-svg-title">
 <p class="wdiag-cap" id="w07-sandbox-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Regulatory Sandbox (first programme; advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) ≠ Sandbox X (later complex trials; cross-boundary via <strong>CAD AC-017</strong>). Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. U-space ≠ Hong Kong law. Cite Key figures for counts — do not invent them here.</p>
@@ -209,7 +192,7 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
   <text x="360" y="328" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">U-space ≠ Hong Kong law · corridor talk ≠ operating service · cite Key figures for counts</text>
 
 </svg>
-<p class="wdiag-note">From Week 7 §3. SVG upgrade of HTML #w07-sandbox. Keep AC-013 ≠ AC-017.</p>
+<p class="wdiag-note">From Week 7 §3. Keep AC-013 ≠ AC-017.</p>
 </figure>
 ```
 
@@ -236,7 +219,6 @@ Under Cap. **448G**, small unmanned aircraft (SUA ≤ 150 kg) are regulated unde
 In words: expected redesign and delay you avoid, plus the value of better information, minus what the trial costs.
 
 
-
 $$
 \begin{aligned}
 \text{Trial value}
@@ -245,7 +227,6 @@ $$
   - \text{Trial cost}
 \end{aligned}
 $$
-
 
 
 A trial can reveal whether routes, communications, infrastructure, procedures, and demand work as expected. Evidence may support later approval or investment — timing and outcome are not guaranteed. Trial flights and commercial operations are different stages. The principal benefit is earlier, lower-cost **learning**, not presumed early monopoly profit — the same real-options intuition as Week 6 staging.
@@ -428,7 +409,6 @@ In words: form expected approved value, then peel off compliance cost and delay 
 - $V_{\mathrm{comp}}$ — expected compliance value  
 
 
-
 $$
 \begin{aligned}
 V_{\mathrm{appr}} &= \Pr(\text{approval}) \times V_{\mathrm{proj}} \\
@@ -436,7 +416,6 @@ V_{\mathrm{net}} &= V_{\mathrm{appr}} - C_{\mathrm{comp}} \\
 V_{\mathrm{comp}} &= V_{\mathrm{net}} - C_{\mathrm{delay}}
 \end{aligned}
 $$
-
 
 
 Compliance spend may be necessary for market access; it does not automatically create additional revenue. Project value depends on demand, capacity, competition, operating conditions, and how long any advantage lasts. Measure delay as foregone **contribution** or project value. Use staged gates where evidence can change the continue/stop decision (Week 6 real-options logic).
@@ -495,7 +474,6 @@ A **safety case** is a structured argument, supported by evidence, that the risk
 In words: expected loss sums probability times financial consequence across events. Risk cost adds prevention/mitigation spend, insurance premiums, and retained expected loss.
 
 
-
 $$
 \begin{aligned}
 \text{Expected loss}
@@ -503,9 +481,6 @@ $$
   \times \text{Financial consequence}_j
 \end{aligned}
 $$
-
-
-
 
 
 $$
@@ -516,7 +491,6 @@ $$
   + \text{Retained expected loss}
 \end{aligned}
 $$
-
 
 
 Safety investment may reduce event probability or consequence. Premiums also depend on limits, deductibles, exclusions, exposure, claims history, market conditions, and insurer assessment. Policy language that the insurance industry may develop LAE products using Sandbox data ([Glossary](glossary.qmd)) is evidence of an **active theme** — not a quote for your safety case.
@@ -611,7 +585,6 @@ Digital services can standardize information exchange and support higher volumes
 In words: daily coordination cost is fixed system cost plus variable digital cost per operation plus human-oversight cost.
 
 
-
 $$
 \begin{aligned}
 \text{Daily coordination cost}
@@ -620,7 +593,6 @@ $$
 &\quad + h \times \text{Human oversight cost}
 \end{aligned}
 $$
-
 
 
 Here $q$ is the number of operations and $h$ is required human-oversight effort. Digitalization may cut repetitive manual work while adding software, communications, cybersecurity, certification, and provider fees. Exceptions and emergencies may still need substantial human intervention. Scale is viable only if total system capacity and safety performance also increase.
@@ -665,14 +637,12 @@ Compare requirements, evidence, scope, transferability, cost, and predictability
 A single ratio of “approval time ÷ invented stringency” is **not** a reliable international comparison. Teams may score pathways 1–5 with documented weights (e.g. clarity 25%, trial pathway 20%, time/effort 20%, scalability 20%, transferability 15%):
 
 
-
 $$
 \begin{aligned}
 \text{Weighted score}
 &= \sum_k w_k s_k
 \end{aligned}
 $$
-
 
 
 The scorecard makes assumptions visible; it supports judgment rather than claiming one jurisdiction is universally fastest or best.

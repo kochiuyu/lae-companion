@@ -165,14 +165,12 @@ Glossary: [CAPEX / OPEX](glossary.qmd#business-and-economics).
 In words: take net asset cost (purchase price minus expected residual), spread it over useful operating days, then add that day's operating spend.
 
 
-
 $$
 \text{Daily economic cost}
 =
 \frac{\text{Asset cost} - \text{Expected residual value}}{\text{Useful operating days}}
 + \text{Daily OPEX}
 $$
-
 
 
 This spreads net asset cost across expected operating life and adds daily operating spend. Financing cost, maintenance cycles, downtime, and residual value may need separate treatment in a full model. Treat the formula as an **economic-cost sketch**, not complete accounting depreciation or a full cash-flow statement.
@@ -239,27 +237,6 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
 ## 3. From cost stack to unit economics (tool chain)
 
 
-
-
-```{=html}
-<figure class="wdiag" id="w03-toolchain" aria-labelledby="w03-toolchain-title">
-<p class="wdiag-cap" id="w03-toolchain-title"><strong>Cost → unit → contribution → cash (tool chain)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-row">
-<div class="wdiag-box"><strong>CAPEX</strong><br/>Aircraft, sites, systems</div>
-<div class="wdiag-box"><strong>OPEX</strong><br/>Crew, energy, MRO, fees</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ choose a consistent unit</div>
-<div class="wdiag-box"><strong>Unit cost</strong> (e.g. CASK or cost per mission-km)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Contribution</strong> = revenue − variable cost of served units</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Cash / breakeven screen</strong><br/>Cover fixed cost; then financing and downside (later weeks)</div>
-</div>
-<p class="wdiag-note">Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag" id="w03-toolchain-svg" aria-labelledby="w03-toolchain-svg-title">
 <p class="wdiag-cap" id="w03-toolchain-svg-title"><strong>Cost → unit → contribution → cash</strong> — CAPEX and OPEX → choose a consistent unit (CASK or mission-km) → contribution = revenue − variable cost of served units → cash/breakeven screen (cover fixed cost; financing and downside later). Lock the stack before polishing a CASK. Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
@@ -295,7 +272,7 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cover fixed cost · then financing / downside</text>
 
 </svg>
-<p class="wdiag-note">From Week 3 §3. SVG upgrade of HTML #w03-toolchain.</p>
+<p class="wdiag-note">From Week 3 §3.</p>
 </figure>
 ```
 
@@ -333,11 +310,9 @@ The tool chain maps stack → unit measures → breakeven. [**CASK**](glossary.q
 In words: take operating cost for the period and divide by the seat-kilometres of capacity you **offered** (seats × kilometres flown), whether sold or empty.
 
 
-
 $$
 CASK = \frac{\text{Operating cost for the period}}{\text{Available seats} \times \text{Kilometres flown}}
 $$
-
 
 
 Available seat-kilometres measure **capacity offered**, whether seats are sold or not. More productive use can spread some fixed operating costs over more seat-km. A low CASK does **not** guarantee profit: the operator must still fill seats and earn enough revenue. Turnaround, charging, maintenance, weather, route length, and capacity all affect the measure.
@@ -402,13 +377,11 @@ Higher utilization lowers CASK in this simplified example; it still does not pro
 For cargo, inspection, emergency, or public-service missions:
 
 
-
 $$
 \text{Cost per mission-km}
 =
 \frac{\text{Operating cost for the period}}{\text{Total mission-kilometres}}
 $$
-
 
 
 Longer missions create more mission-km mechanically — compare routes with attention to length, payload, quality, and complexity.
@@ -505,13 +478,11 @@ A revenue model names the transaction. [**Revenue management**](glossary.qmd#rev
 A simple passenger-revenue identity — in words, seats offered times the share occupied by paying passengers times the average fare they pay:
 
 
-
 $$
 \text{Revenue per flight}
 =
 \text{Seats} \times \text{Load factor} \times \text{Average fare}
 $$
-
 
 
 Load factor is the share of available seats occupied by **paying** passengers. Average fare should reflect discounts and mix. Maximising load factor alone is the wrong goal if fares collapse.
@@ -564,7 +535,6 @@ Pricing and mix improve contribution *given* volume. [**Breakeven**](glossary.qm
 For one consistent service unit (flight, passenger, delivery, or mission):
 
 
-
 $$
 \text{Breakeven units}
 =
@@ -572,11 +542,9 @@ $$
 $$
 
 
-
 The denominator is **contribution margin per unit**. For passenger flights, revenue per flight depends on fare **and** paying passengers per flight.
 
 Equivalently, a daily activity target:
-
 
 
 $$
@@ -584,7 +552,6 @@ $$
 =
 \frac{\text{Fixed daily cost}}{\text{Contribution margin per mission}}
 $$
-
 
 
 Compare that target with physical capacity, operating hours, charging, maintenance, weather, and expected demand. This required-activity number is **not** the usual statistical “utilization rate” (actual use ÷ available capacity or time). Revenue management can improve contribution; it cannot invent unlimited capacity or demand.
@@ -795,14 +762,12 @@ Subscriptions and reservation fees transfer risk **only if** customers accept th
 In words: add committed, usage, and any insurance cash; subtract fixed and variable operating cost plus premiums and service credits.
 
 
-
 $$
 \begin{aligned}
 \text{Profit} ={}& \text{Committed revenue} + \text{Usage revenue} + \text{Insurance payout} \\
 &- \text{Fixed cost} - \text{Variable cost} - \text{Premiums and service credits}
 \end{aligned}
 $$
-
 
 
 Committed revenue can reduce exposure to flight volume but usually adds availability obligations. Downtime may save some variable cost while still creating refunds, credits, recovery costs, or reputational damage. The aim is manageable cash flow and service obligations — not to “profit from storms.”
