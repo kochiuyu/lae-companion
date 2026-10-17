@@ -924,7 +924,7 @@ pre.mermaid + .fig-enlarge-hint {
   overflow-wrap: break-word;
 }
 
-/* fieldset UA default min-width:min-content clips long stems/options */
+/* fieldset UA default min-width:min-content expands past the card */
 .selfcheck-q {
   margin: 0 0 1rem;
   padding: 0.85rem 0.95rem 0.75rem;
@@ -934,6 +934,7 @@ pre.mermaid + .fig-enlarge-hint {
   border-left: 4px solid #C5A572;
   min-width: 0;
   max-width: 100%;
+  width: 100%;
   box-sizing: border-box;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -943,18 +944,22 @@ pre.mermaid + .fig-enlarge-hint {
   margin-bottom: 0.15rem;
 }
 
-/* display:table is a known fix so <legend> wraps inside fieldset */
+/*
+  Navy stem (<legend>): Bootstrap 5 already uses float:left + width:100% so
+  legends wrap. Prior draft set display:table + float:none, which undid that
+  and left long blue stems clipping / overflowing the card.
+*/
 .selfcheck-q > legend,
 .selfcheck-q .selfcheck-stem {
-  display: table;
-  float: none;
-  font-weight: 650;
-  color: #003366;
-  margin: 0 0 0.55rem;
-  padding: 0;
+  float: left;
+  display: block;
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+  margin: 0 0 0.55rem;
+  padding: 0;
+  font-weight: 650;
+  color: #003366;
   font-size: 1.02rem;
   line-height: 1.45;
   white-space: normal;
@@ -962,6 +967,28 @@ pre.mermaid + .fig-enlarge-hint {
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
+}
+
+/* Keep em/strong/sub inside the navy stem in normal inline flow */
+.selfcheck-q > legend em,
+.selfcheck-q > legend strong,
+.selfcheck-q > legend sub,
+.selfcheck-q > legend sup,
+.selfcheck-q .selfcheck-stem em,
+.selfcheck-q .selfcheck-stem strong,
+.selfcheck-q .selfcheck-stem sub,
+.selfcheck-q .selfcheck-stem sup {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Clear the floated legend so options / actions sit below the stem */
+.selfcheck-q > .selfcheck-options,
+.selfcheck-q > .selfcheck-actions,
+.selfcheck-q > .selfcheck-feedback,
+.selfcheck-q > .selfcheck-explain {
+  clear: both;
 }
 
 .selfcheck-options {
@@ -978,26 +1005,50 @@ pre.mermaid + .fig-enlarge-hint {
   max-width: 100%;
 }
 
-/* grid: radio | text(+mark) — text column wraps; flex alone can clip */
+/*
+  Options: do NOT use display:grid/flex on <label>.
+  Grid/flex make each child (including <em>/<strong>) its own item, so
+  “… — <em>not</em> a Cap.…” blows the card / fails to wrap.
+  Absolute radio + block label keeps all option text in one inline flow.
+*/
 .selfcheck-options label {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  column-gap: 0.55rem;
-  row-gap: 0.15rem;
-  align-items: start;
+  display: block;
+  position: relative;
+  padding-left: 1.65rem;
   cursor: pointer;
   line-height: 1.45;
   color: #1a1a1a;
   min-width: 0;
   max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
   overflow-wrap: anywhere;
   word-wrap: break-word;
+  word-break: break-word;
 }
 
 .selfcheck-options input[type="radio"] {
-  margin-top: 0.28rem;
-  grid-column: 1;
-  grid-row: 1;
+  position: absolute;
+  left: 0;
+  top: 0.28rem;
+  margin: 0;
+}
+
+/* Inline markup inside options must stay inline and wrap with the sentence */
+.selfcheck-options label em,
+.selfcheck-options label strong,
+.selfcheck-options label sub,
+.selfcheck-options label sup,
+.selfcheck-options label a,
+.selfcheck-options label .selfcheck-opt-text {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.selfcheck-opt-text {
+  display: inline;
+  min-width: 0;
 }
 
 .selfcheck-mark {
@@ -1007,6 +1058,7 @@ pre.mermaid + .fig-enlarge-hint {
   font-size: 1.05em;
   line-height: 1;
   vertical-align: -0.05em;
+  white-space: nowrap;
 }
 
 .selfcheck-mark-ok,
@@ -1119,6 +1171,9 @@ pre.mermaid + .fig-enlarge-hint {
   .selfcheck-q > legend,
   .selfcheck-q .selfcheck-stem {
     font-size: 1rem;
+  }
+  .selfcheck-options label {
+    padding-left: 1.55rem;
   }
 }
 

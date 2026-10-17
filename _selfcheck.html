@@ -1,6 +1,6 @@
 <!-- Self-check MCQs: private practice on week pages.
      Markup: .selfcheck > .selfcheck-q[data-correct="a|b|c|d"] with radios + .selfcheck-explain.
-     JS adds Check answer / Reset; ✓/✗ feedback; no scores stored, no LMS. -->
+     JS adds Check answer / Reset; ✓/✗ feedback; wraps option text so <em>/<strong> stay inline; no scores stored, no LMS. -->
 <script>
 (function () {
   function feedbackEl(q) {
@@ -36,6 +36,24 @@
     return actions;
   }
 
+  /* Wrap label children after the radio into one span so <em>/<strong> stay in
+     a single inline flow (CSS grid/flex would otherwise make each a cell). */
+  function wrapOptionText(label) {
+    if (!label || label.querySelector(":scope > .selfcheck-opt-text")) return;
+    var radio = label.querySelector(':scope > input[type="radio"]');
+    var wrap = document.createElement("span");
+    wrap.className = "selfcheck-opt-text";
+    var node = radio ? radio.nextSibling : label.firstChild;
+    while (node) {
+      var next = node.nextSibling;
+      if (!(node.nodeType === 1 && node.classList && node.classList.contains("selfcheck-mark"))) {
+        wrap.appendChild(node);
+      }
+      node = next;
+    }
+    if (wrap.childNodes.length) label.appendChild(wrap);
+  }
+
   function clearMarks(q) {
     q.querySelectorAll(".selfcheck-mark").forEach(function (el) {
       el.remove();
@@ -47,7 +65,7 @@
 
   function addMark(li, kind) {
     if (!li) return;
-    var existing = li.querySelector(":scope > label > .selfcheck-mark, :scope > .selfcheck-mark");
+    var existing = li.querySelector(".selfcheck-mark");
     if (existing) existing.remove();
     var mark = document.createElement("span");
     mark.className = "selfcheck-mark selfcheck-mark-" + kind;
@@ -60,8 +78,14 @@
       mark.setAttribute("aria-label", "Correct");
     }
     var label = li.querySelector(":scope > label");
-    if (label) label.appendChild(mark);
-    else li.appendChild(mark);
+    if (!label) {
+      li.appendChild(mark);
+      return;
+    }
+    wrapOptionText(label);
+    var text = label.querySelector(":scope > .selfcheck-opt-text");
+    if (text) text.appendChild(mark);
+    else label.appendChild(mark);
   }
 
   function markOptions(q, selected, correct, ok) {
@@ -143,6 +167,7 @@
     if (q.dataset.selfcheckBound === "1") return;
     q.dataset.selfcheckBound = "1";
     if (!q.getAttribute("role")) q.setAttribute("role", "group");
+    q.querySelectorAll(".selfcheck-options label").forEach(wrapOptionText);
     var actions = ensureActions(q);
     var checkBtn = actions.querySelector(".selfcheck-check");
     var resetBtn = actions.querySelector(".selfcheck-reset");
