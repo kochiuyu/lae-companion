@@ -552,6 +552,40 @@ The commitment has a measurable cost. Whether it is justified — and who should
 
 Keep **Sandbox ≠ Sandbox X** when citing trial programmes; Action Plan language and Sandbox X commitments stay with the 2025 Policy Address / Official status issuers ([Readings](#readings)). Do not claim cross-boundary corridors as day-to-day operating service.
 
+```{=html}
+<figure class="wdiag" id="w10-fund-ps-svg" aria-labelledby="w10-fund-ps-svg-title">
+<p class="wdiag-cap" id="w10-fund-ps-svg-title"><strong>Social licence ≠ legal approval</strong> — continuing acceptance complements, but does <strong>not</strong> replace, permission. Π<sub>net</sub> = Q<sub>C</sub> m<sub>C</sub> + P<sub>PS</sub> − Q<sub>P</sub> c<sub>P</sub> − F. Classroom: <strong>100</strong> daily slots; commercial <strong>HK$400</strong>/flight; public-service incremental <strong>HK$100</strong>/flight; <strong>20</strong> priority slots cost ~<strong>HK$10k/day</strong> opportunity vs all-commercial. P<sub>PS</sub> = transparent source only — not a claimed CAD noise tax. Commitment ≠ purchased acceptance. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q4-title q4-desc">
+  <title id="q4-title">Social licence ≠ legal approval; public-service commitment has a measurable cost</title>
+  <desc id="q4-desc">Social licence is continuing acceptance and trust; it complements but does not replace legal approval. Net contribution equals commercial quantity times margin plus public-service payment minus public-service quantity times incremental cost minus fixed cost. Classroom: 100 daily slots at Hong Kong dollar 400 commercial contribution; twenty priority slots cost about 10 thousand per day opportunity versus all-commercial. Public-service payment must be a transparent source. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Social licence ≠ legal approval</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Π_net = Q_C m_C + P_PS − Q_P c_P − F</text>
+  <rect x="28" y="68" width="320" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="188" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Social licence</text>
+  <text x="188" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Acceptance · trust · legitimacy</text>
+  <text x="360" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#C5A572">≠</text>
+  <rect x="372" y="68" width="320" height="70" rx="8" fill="#003366"/>
+  <text x="532" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Legal approval</text>
+  <text x="532" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#F7F6F3">Permission · Cap. 448G still binds</text>
+  <rect x="36" y="156" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="184" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">All commercial · 100 slots</text>
+  <text x="191" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">100 × HK$400 = HK$40k/day</text>
+  <text x="191" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Net HK$40,000/day</text>
+  <rect x="374" y="156" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="184" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">20 priority slots</text>
+  <text x="529" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">80×400 − 20×100 = HK$30k</text>
+  <text x="529" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Opp. cost ~HK$10k/day</text>
+  <rect x="60" y="276" width="600" height="30" rx="8" fill="#003366"/>
+  <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">P_PS = transparent source only · commitment ≠ bought acceptance</text>
+  <rect x="60" y="316" width="600" height="22" rx="6" fill="#ffffff" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="360" y="331" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Not a claimed CAD noise tax · Sandbox ≠ Sandbox X</text>
+</svg>
+
+<p class="wdiag-note">From Week 10 §7. Classroom 100×HK$400 / 20×HK$100 / ~HK$10k/day only. New SVG.</p>
+</figure>
+```
+
 **Connecting idea.** Week 8’s priority rules decide *who flies*; this week’s $\Pi_{\mathrm{net}}$ decides *who pays* when priority displaces commercial contribution. Write both down before promising “twenty free public-service flights.”
 
 ---

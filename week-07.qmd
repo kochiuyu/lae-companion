@@ -442,6 +442,42 @@ Safety investment may reduce event probability or consequence. Premiums also dep
 
 Safety investment can create economic value when it reduces expected loss or enables operation; non-financial safety obligations remain binding. This is not an insurance quotation or an acceptable-risk threshold.
 
+```{=html}
+<figure class="wdiag" id="w07-risk-cost-svg" aria-labelledby="w07-risk-cost-svg-title">
+<p class="wdiag-cap" id="w07-risk-cost-svg-title"><strong>Risk cost = prevention + insurance + retained EL</strong> — expected loss sums Pr × financial consequence; risk cost adds prevention/mitigation, insurance, and retained EL. Classroom control <strong>HK$3M</strong> cuts 3-year EL <strong>HK$6M → HK$1.5M</strong> (total <strong>HK$4.5M</strong>; illustrative saving <strong>HK$1.5M</strong>). Safety spend ≠ automatic cheaper premium. Not an insurance quotation or acceptable-risk threshold. Sandbox ≠ Sandbox X. U-space ≠ Hong Kong law.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q3-title q3-desc">
+  <title id="q3-title">Risk cost = prevention + insurance + retained expected loss</title>
+  <desc id="q3-desc">Risk cost equals prevention and mitigation cost plus insurance cost plus retained expected loss. Expected loss sums probability times financial consequence. Classroom control costs Hong Kong dollar 3 million and cuts three-year expected loss from 6 million to 1.5 million, for an illustrative expected saving of 1.5 million. Not an insurance quotation. Sandbox is not Sandbox X. U-space is not Hong Kong law.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Risk cost = prevention + insurance + retained EL</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">EL = Σ Pr × consequence · classroom control appraisal</text>
+  <rect x="28" y="68" width="210" height="72" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Prevention / mitigation</text>
+  <text x="133" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Controls · procedures</text>
+  <rect x="255" y="68" width="210" height="72" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Insurance</text>
+  <text x="360" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Premium · limits · exclusions</text>
+  <rect x="482" y="68" width="210" height="72" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="587" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Retained EL</text>
+  <text x="587" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">What you still bear</text>
+  <rect x="36" y="158" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="186" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Without control</text>
+  <text x="191" y="210" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">3y EL HK$6M</text>
+  <text x="191" y="234" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Total HK$6M</text>
+  <rect x="374" y="158" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="186" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">With control HK$3M</text>
+  <text x="529" y="210" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">3y EL HK$1.5M · + control</text>
+  <text x="529" y="234" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Total HK$4.5M</text>
+  <rect x="60" y="278" width="600" height="30" rx="8" fill="#003366"/>
+  <text x="360" y="298" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Illustrative saving HK$1.5M · not an insurance quote</text>
+  <rect x="60" y="318" width="600" height="22" rx="6" fill="#ffffff" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="360" y="333" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X · U-space ≠ HK law</text>
+</svg>
+
+<p class="wdiag-note">From Week 7 §6. Classroom HK$3M / HK$6M→HK$1.5M only. New SVG.</p>
+</figure>
+```
+
 ---
 
 Safety cases are local; digital traffic ideas are often foreign. **U-space / UTM** inform coordination-cost thinking — **U-space ≠ Hong Kong law**.

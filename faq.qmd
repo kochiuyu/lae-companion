@@ -80,6 +80,38 @@ Do **not** treat them as one combined list.
 
 Plain wording: [Who decides what?](regulators.qmd#standing-caveats). Numbers: [Key figures](key-figures.qmd).
 
+```{=html}
+<figure class="wdiag" id="faq-sandbox-split-svg" aria-labelledby="faq-sandbox-split-svg-title">
+<p class="wdiag-cap" id="faq-sandbox-split-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Hong Kong has two <strong>different</strong> trial programmes: an early <strong>Regulatory Sandbox</strong> (advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) and a later <strong>Sandbox X</strong> (complex / cross-boundary via <strong>CAD AC-017</strong>). Do <strong>not</strong> merge them into one list. Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. Cite <a href="key-figures.qmd">Key figures</a> for counts — do not invent them here. U-space ≠ Hong Kong law.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q5-title q5-desc">
+  <title id="q5-title">Regulatory Sandbox ≠ Sandbox X</title>
+  <desc id="q5-desc">Hong Kong has two different trial programmes: an early Regulatory Sandbox and a later Sandbox X. Do not treat them as one combined list. Advanced BVLOS pathways in the first Sandbox include CAD AC-013; Sandbox X cross-boundary pathways include CAD AC-017. Neither is a commercial franchise. Cite Key figures for counts — do not invent them here. U-space is not Hong Kong law.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">FAQ §4 · two trial programmes — not one list</text>
+  <rect x="36" y="70" width="280" height="160" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="176" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Regulatory Sandbox</text>
+  <text x="176" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Early trial programme</text>
+  <text x="176" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Advanced / BVLOS:</text>
+  <text x="176" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">CAD AC-013</text>
+  <text x="176" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">(inside first Sandbox)</text>
+  <text x="360" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#C5A572">≠</text>
+  <rect x="404" y="70" width="280" height="160" rx="8" fill="#003366"/>
+  <text x="544" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Sandbox X</text>
+  <text x="544" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#F7F6F3">Later complex trials</text>
+  <text x="544" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#F7F6F3">Cross-boundary pathways:</text>
+  <text x="544" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#C5A572">CAD AC-017</text>
+  <text x="544" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#C5A572">(Sandbox X — not AC-013)</text>
+  <rect x="60" y="250" width="600" height="40" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="360" y="276" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Neither is a commercial franchise · evidence ≠ day-to-day approval</text>
+  <rect x="60" y="306" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="325" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Cite Key figures for counts · U-space ≠ HK law</text>
+</svg>
+
+<p class="wdiag-note">From FAQ §4. Sandbox ≠ Sandbox X; AC-013 ≠ AC-017. New SVG.</p>
+</figure>
+```
+
 ## 5. Is the Shenzhen–Hong Kong corridor already flying?
 
 A cross-boundary / **Greater Bay Area (GBA)** corridor is discussed in policy.
