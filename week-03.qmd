@@ -487,6 +487,43 @@ Load factor is the share of available seats occupied by **paying** passengers. A
 
 **Connecting idea.** Load factor links **CASK** (cost of seats offered) to **cash** (seats sold). High utilization that fills seats at wrecked fares can look good on a load-factor chart and still fail contribution. For cargo, replace “load factor × fare” with payload × price per kg or price per mission — same managerial idea, different unit.
 
+```{=html}
+<figure class="wdiag" id="w03-rm-svg" aria-labelledby="w03-rm-svg-title">
+<p class="wdiag-cap" id="w03-rm-svg-title"><strong>Revenue = seats × load factor × average fare — fill ≠ contribution</strong> — revenue management improves <strong>total expected contribution</strong>, not merely empty-seat elimination. Maximising load factor alone is the wrong goal if fares collapse. High utilization that fills seats at wrecked fares can look good on a load-factor chart and still fail contribution. Cargo: payload × price per kg / mission — same idea, different unit.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-labelledby="p4-title p4-desc">
+  <title id="p4-title">Revenue = seats times load factor times average fare — fill is not contribution</title>
+  <desc id="p4-desc">Passenger revenue equals seats times load factor times average fare. Maximising load factor alone is the wrong goal if fares collapse. Fill every seat can wreck contribution. For cargo use payload times price per kilogram or per mission. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Seats × LF × fare — fill ≠ contribution</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Revenue management · not empty-seat elimination</text>
+  <rect x="40" y="72" width="160" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="120" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Seats</text>
+  <text x="120" y="126" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Capacity offered</text>
+  <text x="220" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#C5A572">×</text>
+  <rect x="240" y="72" width="160" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="320" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Load factor</text>
+  <text x="320" y="126" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Paying share</text>
+  <text x="420" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#C5A572">×</text>
+  <rect x="440" y="72" width="160" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="520" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Avg fare</text>
+  <text x="520" y="126" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Mix · discounts</text>
+  <text x="620" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#C5A572">=</text>
+  <rect x="640" y="72" width="52" height="80" rx="8" fill="#003366"/>
+  <text x="666" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Rev</text>
+  <rect x="60" y="174" width="600" height="48" rx="8" fill="#003366"/>
+  <text x="360" y="204" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Goal = total expected contribution — not full cabin</text>
+  <rect x="36" y="240" width="310" height="48" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">High LF + wrecked fares → fail</text>
+  <rect x="374" y="240" width="310" height="48" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Cargo: payload × $/kg · mission</text>
+  <rect x="60" y="304" width="600" height="14" rx="0" fill="none"/>
+  <text x="360" y="316" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Right capacity · right customer · right time · right price</text>
+</svg>
+
+<p class="wdiag-note">From Week 3 §6. Load factor ≠ contribution goal. New SVG.</p>
+</figure>
+```
+
 ---
 
 Pricing and mix improve contribution *given* volume. [**Breakeven**](glossary.qmd#breakeven-volume) asks how much volume you need before fixed cost is covered — and whether that volume is physically feasible.

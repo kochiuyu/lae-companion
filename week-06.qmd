@@ -215,6 +215,46 @@ A **PPP** is a long-term arrangement in which a public authority and a private p
 
 Hong Kong’s trial programmes (first **Regulatory Sandbox** vs later **Sandbox X**) create controlled learning settings; they are **not** themselves a PPP template and must not be merged ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); first-batch **38 of 72** on [Readings](#readings)).
 
+```{=html}
+<figure class="wdiag" id="w06-ppp-svg" aria-labelledby="w06-ppp-svg-title">
+<p class="wdiag-cap" id="w06-ppp-svg-title"><strong>PPP reallocates roles and risk — does not invent demand</strong> — a public–private partnership allocates who designs, finances, builds, operates, and who bears volume vs performance risk. It does <strong>not</strong> invent demand, create landing rights, or replace Cap. 448G permissions. Calling a site a “PPP vertiport” does <strong>not</strong> create a dedicated HK vertiport statute. Sandbox ≠ Sandbox X (learning settings, not a PPP template).</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="p3-title p3-desc">
+  <title id="p3-title">PPP reallocates roles and risk — does not invent demand</title>
+  <desc id="p3-desc">A public-private partnership allocates design, finance, build, and operate roles and who bears volume versus performance risk. It does not invent demand, create landing rights, or replace Cap. 448G permissions. Calling a site a PPP vertiport does not create a dedicated Hong Kong vertiport statute. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">PPP reallocates roles &amp; risk — not demand</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Long-term deal · not a vertiport statute</text>
+  <rect x="28" y="68" width="155" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="105" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Design</text>
+  <text x="105" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Scope · standards</text>
+  <rect x="198" y="68" width="155" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Finance</text>
+  <text x="275" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Who pays CAPEX</text>
+  <rect x="368" y="68" width="155" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Build</text>
+  <text x="445" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Delivery risk</text>
+  <rect x="538" y="68" width="155" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="615" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Operate</text>
+  <text x="615" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">KPIs · readiness</text>
+  <rect x="60" y="158" width="600" height="48" rx="8" fill="#003366"/>
+  <text x="360" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Allocate volume risk · performance risk · payment source</text>
+  <rect x="28" y="226" width="210" height="58" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="133" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ invent demand</text>
+  <text x="133" y="268" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Traffic still uncertain</text>
+  <rect x="255" y="226" width="210" height="58" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="360" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ landing rights</text>
+  <text x="360" y="268" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Cap. 448G still binds</text>
+  <rect x="482" y="226" width="210" height="58" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="587" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ vertiport statute</text>
+  <text x="587" y="268" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Label ≠ new law</text>
+  <rect x="60" y="302" width="600" height="30" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X · not a PPP template</text>
+</svg>
+
+<p class="wdiag-note">From Week 6 §3. PPP ≠ Cap. 448G permission. New SVG.</p>
+</figure>
+```
+
 ---
 
 A PPP needs a payment rule. **Usage vs availability** payments decide who bears volume risk and what “readiness” is worth when aircraft sit on the ground.

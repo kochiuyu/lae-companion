@@ -408,6 +408,35 @@ New infrastructure rarely hits mature demand immediately. Early use may be limit
 
 Financing must cover the expected ramp-up shortfall **plus** contingency.
 
+```{=html}
+<figure class="wdiag" id="w05-ramp-svg" aria-labelledby="w05-ramp-svg-title">
+<p class="wdiag-cap" id="w05-ramp-svg-title"><strong>Staged ramp vs full hub day-one</strong> — mature <strong>80% use</strong> can show a surplus while Year-1 <strong>20% use</strong> shows a shortfall (classroom: investment <strong>HK$10M</strong>; fixed OPEX <strong>HK$2M</strong>/yr; revenue <strong>HK$4M → HK$1M</strong>). Financing must cover the ramp shortfall <strong>plus</strong> contingency. Building the full integrated hub on day one converts demand uncertainty into a <strong>sunk-cost</strong> problem. Staging ≠ Week 6 option math (that returns later).</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q1-title q1-desc">
+  <title id="q1-title">Staged ramp versus full hub day-one</title>
+  <desc id="q1-desc">Classroom ramp-up: investment Hong Kong dollar 10 million; annual fixed operating cost 2 million. Mature 80 percent use: revenue 4 million, surplus 2 million. Year-1 20 percent use: revenue 1 million, shortfall 1 million. Financing must cover the shortfall plus contingency. Full integrated hub on day one converts demand uncertainty into a sunk-cost problem. Illustrative only, not Hong Kong weather downtime. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Staged ramp vs full hub day-one</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Investment HK$10M · fixed OPEX HK$2M/yr · classroom</text>
+  <rect x="36" y="68" width="310" height="130" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Mature · 80% use</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Revenue HK$4M</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Fixed OPEX HK$2M</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Surplus HK$2M</text>
+  <rect x="374" y="68" width="310" height="130" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Year-1 · 20% use</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Revenue HK$1M</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Fixed OPEX HK$2M</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Shortfall HK$1M</text>
+  <rect x="60" y="218" width="600" height="48" rx="8" fill="#003366"/>
+  <text x="360" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Fund shortfall + contingency · stage to evidence</text>
+  <rect x="60" y="286" width="600" height="42" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="312" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Full hub day-one = sunk-cost trap · staging ≠ Week 6 option math</text>
+</svg>
+
+<p class="wdiag-note">From Week 5 §5. Classroom HK$10M / HK$2M / HK$4M→HK$1M only. New SVG.</p>
+</figure>
+```
+
 **Connecting idea.** Staging is real-options thinking without the full option math (Week 6 returns to partnerships and payment design). Building the full integrated hub on day one converts demand uncertainty into a sunk-cost problem — the same sunk-cost logic Week 2 used for limit pricing, now applied to your own balance sheet.
 
 ---
@@ -535,6 +564,44 @@ Peak charges may shift flexible demand only if operators can change timing, rout
 Higher fees may shift flexible trips; estimate response. Price alone does not identify which missions create the greatest social value.
 
 Sandbox / Sandbox X participation does **not** create a permanent commercial slot right ([Who decides what?](regulators.qmd#standing-caveats)).
+
+```{=html}
+<figure class="wdiag" id="w05-slots-svg" aria-labelledby="w05-slots-svg-title">
+<p class="wdiag-cap" id="w05-slots-svg-title"><strong>Scarce slots — four controls; revenue max ≠ goal</strong> — administrative · market · priority · operational controls. Illustrative peak fee: base <strong>HK$100</strong> + congestion <strong>HK$200</strong> × (requests / slots) → <strong>2/2 → HK$300</strong>; <strong>8/2 → HK$900</strong>. Design choice, <strong>not</strong> a Hong Kong tariff. Revenue maximisation alone is <strong>not</strong> the goal of scarce infrastructure allocation. Sandbox / Sandbox X ≠ permanent commercial slot right. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 380" role="img" aria-labelledby="q2-title q2-desc">
+  <title id="q2-title">Scarce slots — revenue maximisation is not the goal</title>
+  <desc id="q2-desc">Four allocation controls: administrative, market-based, priority rules, and operational controls. Illustrative peak fee equals base Hong Kong dollar 100 plus congestion charge 200 times requests over available slots. Two requests over two slots equals 300; eight over two equals 900. Design choice, not a Hong Kong tariff. Revenue maximisation alone is not the goal. Sandbox is not Sandbox X and does not create a permanent commercial slot right. No invented corridor capacity.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Scarce slots · revenue max ≠ goal</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Admin · market · priority · ops · classroom fee</text>
+  <rect x="28" y="68" width="155" height="64" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="105" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Administrative</text>
+  <text x="105" y="114" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Schedules · permits</text>
+  <rect x="198" y="68" width="155" height="64" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Market</text>
+  <text x="275" y="114" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Peak price · auction</text>
+  <rect x="368" y="68" width="155" height="64" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Priority</text>
+  <text x="445" y="114" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">EMS · public-service</text>
+  <rect x="538" y="68" width="155" height="64" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="615" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Ops controls</text>
+  <text x="615" y="114" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Buffers · diversions</text>
+  <rect x="60" y="150" width="600" height="42" rx="8" fill="#003366"/>
+  <text x="360" y="176" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Fee = HK$100 + HK$200 × (requests / slots)</text>
+  <rect x="36" y="212" width="310" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="240" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">2 req / 2 slots</text>
+  <text x="191" y="262" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">Fee = HK$300</text>
+  <rect x="374" y="212" width="310" height="70" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="240" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">8 req / 2 slots</text>
+  <text x="529" y="262" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">Fee = HK$900</text>
+  <rect x="60" y="302" width="600" height="48" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Teaching design ≠ HK tariff · Sandbox ≠ slot right</text>
+  <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No invented corridor K · Week 8 returns to congestion</text>
+</svg>
+
+<p class="wdiag-note">From Week 5 §8. Illustrative HK$100 / HK$200 only. New SVG.</p>
+</figure>
+```
 
 **Connecting idea.** Peak pricing without priority rules can price out emergency or contracted public missions — or force them into side deals that destroy transparency. Peak pricing without competition safeguards can entrench the pad owner from Week 2’s scarcity story. Treat the formula as a **teaching design**, not a proposed Hong Kong tariff.
 

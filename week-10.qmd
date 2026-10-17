@@ -468,6 +468,46 @@ Local engagement and evidence are necessary before transferring European finding
 
 **Connecting idea.** Choice share $s$ in the Week 9 funnel is not the same as community acceptance of overflights. A high $s$ among travellers can coexist with low social licence among residents under the route — model both.
 
+```{=html}
+<figure class="wdiag" id="w10-accept-usecase-svg" aria-labelledby="w10-accept-usecase-svg-title">
+<p class="wdiag-cap" id="w10-accept-usecase-svg-title"><strong>Use-case acceptance ≠ traveller share $s$</strong> — acceptance may vary with perceived public benefit, urgency, safety, noise, privacy, and fairness (AiRMOUR = closed EU research action, <strong>not</strong> an OEM). Urgent medical applications may receive stronger support than some leisure uses — <strong>not</strong> automatic or binary. High choice share $s$ among travellers (Week 9 funnel) can coexist with low <strong>social licence</strong> among residents under the route. Do <strong>not</strong> transfer EU scores to Hong Kong as fact.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="p5-title p5-desc">
+  <title id="p5-title">Use-case acceptance is not traveller share s</title>
+  <desc id="p5-desc">Public acceptance may vary by use case from emergency medical services to leisure. High traveller choice share can coexist with low resident social licence under the route. AiRMOUR is a closed EU research action, not an OEM. Do not transfer EU scores to Hong Kong as fact. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Acceptance by use case ≠ traveller share s</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Segment stakeholders · do not copy EU scores to HK</text>
+  <rect x="28" y="68" width="155" height="88" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="105" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">EMS / medical</text>
+  <text x="105" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Urgency · public</text>
+  <text x="105" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">benefit lens</text>
+  <rect x="198" y="68" width="155" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Infra / survey</text>
+  <text x="275" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Maintenance ·</text>
+  <text x="275" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">monitoring</text>
+  <rect x="368" y="68" width="155" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Cargo / logistic</text>
+  <text x="445" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Benefit vs noise</text>
+  <text x="445" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">· privacy trade</text>
+  <rect x="538" y="68" width="155" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="615" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Leisure / taxi</text>
+  <text x="615" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Often weaker</text>
+  <text x="615" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">social licence</text>
+  <rect x="36" y="176" width="310" height="78" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Travellers · choice share s</text>
+  <text x="191" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Week 9 funnel · can be high</text>
+  <rect x="374" y="176" width="310" height="78" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Residents · social licence</text>
+  <text x="529" y="228" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Under-route · can be low</text>
+  <rect x="60" y="274" width="600" height="48" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">High s ≠ automatic licence · model both</text>
+  <text x="360" y="312" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">AiRMOUR = closed EU research · not OEM · not HK fact</text>
+</svg>
+
+<p class="wdiag-note">From Week 10 §6. AiRMOUR = closed EU research, not OEM. New SVG.</p>
+</figure>
+```
+
 ---
 
 Acceptance and equity meet funding. **Social licence and public-service commitments** need a payable source when priority flights displace commercial contribution.
