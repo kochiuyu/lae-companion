@@ -1,5 +1,5 @@
 ---
-title: "Week 12: [LAE](glossary.qmd#lae) Future Frontiers and Final Review"
+title: "Week 12: LAE Future Frontiers and Final Review"
 subtitle: "Networks, services roles, and the course viability test"
 as_of: "2026-10-12"
 page-layout: article
