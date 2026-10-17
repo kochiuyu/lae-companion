@@ -6,9 +6,12 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    html-math-method: katex
 ---
 
-Cheat sheet of **named teaching formulas** copied from the week notes. Worked numeric examples stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
+Cheat sheet of **named teaching formulas** copied from the week notes. Worked numeric examples stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named tables stay on [Tables](tables.qmd). Teaching diagrams stay on [Figures](figures.qmd). Documents listed on the week notes stay on [Readings](readings.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
 
 - Keep **Sandbox ≠ Sandbox X**.
 - **U-space ≠ Hong Kong law.**
@@ -775,8 +778,11 @@ Lease cash flows and residual value — leasing reallocates risk; it does not er
 
 ## Where else to look
 
+- [Tables](tables.qmd) — named teaching tables
+- [Figures](figures.qmd) — teaching diagrams
+- [Readings](readings.qmd) — documents listed on the week notes
 - [Glossary · Business and economics](glossary.qmd#business-and-economics) — word definitions
 - [Key figures](key-figures.qmd) — sourced HK programme numbers
 - Teach menu — week pages with worked examples
 
-**Next:** [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)
+**Next:** [Tables](tables.qmd) · [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

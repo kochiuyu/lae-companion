@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Cheat sheet of **teaching diagrams** (`.wdiag`) from the week notes. Worked narrative and tables stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Named tables stay on [Tables](tables.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
+Cheat sheet of **teaching diagrams** (`.wdiag`) from the week notes. Worked narrative and tables stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Named tables stay on [Tables](tables.qmd). Documents listed on the week notes stay on [Readings](readings.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
 
 - Keep **Sandbox ≠ Sandbox X**.
 - **U-space ≠ Hong Kong law.**
@@ -5492,3 +5492,14 @@ Teaching figure from the week notes. [Five-step exam method](week-12.qmd#w12-exa
 ```
 
 Teaching figure from the week notes. [Exam shock · Π = HK$16,000/day](week-12.qmd#w12-exam-shock-svg)
+
+## Where else to look
+
+- [Formulas](formulas.qmd) — named teaching identities
+- [Tables](tables.qmd) — named teaching tables
+- [Readings](readings.qmd) — documents listed on the week notes
+- [Glossary](glossary.qmd) — word definitions
+- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- Teach menu — week pages with full narrative and tables
+
+**Next:** [Readings](readings.qmd) · [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

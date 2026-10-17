@@ -6,9 +6,12 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    html-math-method: katex
 ---
 
-Cheat sheet of **named teaching tables** copied from the week notes. Worked narrative and figures stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd). Teaching diagrams are collected on [Figures](figures.qmd).
+Cheat sheet of **named teaching tables** copied from the week notes. Worked narrative and figures stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Teaching diagrams stay on [Figures](figures.qmd). Documents listed on the week notes stay on [Readings](readings.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
 
 - Keep **Sandbox ≠ Sandbox X**.
 - **U-space ≠ Hong Kong law.**
@@ -1159,8 +1162,10 @@ Teaching table from the week notes. [Worked illustration (capacity and cost shoc
 ## Where else to look
 
 - [Formulas](formulas.qmd) — named teaching identities
+- [Figures](figures.qmd) — teaching diagrams
+- [Readings](readings.qmd) — documents listed on the week notes
 - [Glossary](glossary.qmd) — word definitions
 - [Key figures](key-figures.qmd) — sourced HK programme numbers
 - Teach menu — week pages with full narrative and figures
 
-**Next:** [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)
+**Next:** [Figures](figures.qmd) · [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

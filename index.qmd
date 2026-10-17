@@ -26,7 +26,7 @@ Week map, primers, how the business works, FAQ, key figures, and how to use this
 ::: {.hub-card}
 ## Teach
 
-Weekly lecture material — slides, notes/readings, and references.
+Weekly lecture material — slides, notes, and cheat sheets. Each week ends with a short Self-check.
 
 - [Week 1: Intro](week-01.qmd)
 - [Week 2: Markets](week-02.qmd)
@@ -40,6 +40,10 @@ Weekly lecture material — slides, notes/readings, and references.
 - [Week 10: Sustainability](week-10.qmd)
 - [Week 11: Capstone](week-11.qmd)
 - [Week 12: Frontiers](week-12.qmd)
+- [Formulas](formulas.qmd)
+- [Tables](tables.qmd)
+- [Figures](figures.qmd)
+- [Readings](readings.qmd)
 :::
 
 ::: {.hub-card}

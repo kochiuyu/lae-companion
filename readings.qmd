@@ -333,3 +333,14 @@ Full notes: [Week 12](week-12.qmd) · Readings section: [Week 12 · Readings](we
 - [[宋志勇 (中国民用航空局局长) (2025-01-03). 高质量发展通用航空和低空经济. CAAC website, 民航要闻.]{lang="zh-Hans"}](https://www.caac.gov.cn/XWZX/MHYW/202501/t20250103_226313.html) — CAAC priorities for the next phase of LAE. English gloss: Developing general aviation and the low-altitude economy with high quality. *Also listed in [Week 1](week-01.qmd).*
 
 Week 12 readings on the notes page: [Week 12 · Readings](week-12.qmd#readings)
+
+## Where else to look
+
+- [Formulas](formulas.qmd) — named teaching identities
+- [Tables](tables.qmd) — named teaching tables
+- [Figures](figures.qmd) — teaching diagrams
+- [Glossary](glossary.qmd) — word definitions
+- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- Teach menu — week pages with full narrative, tables, and figures
+
+**Next:** [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)
