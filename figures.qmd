@@ -12,7 +12,7 @@ format:
     body-classes: "page-prose"
 ---
 
-Teaching diagrams (`.wdiag`) from the week notes — **SVG on this page** for quick review. Week pages remain the full notes context (narrative, tables, worked numbers). Counts below are SVG teaching-diagram entries; where a week has an HTML companion, it appears here as a collapsed “Text diagram” and is not a separate count.
+Teaching diagrams (`.wdiag`) from the week notes — **SVG on this page** for quick review. Week pages remain the full notes context (narrative, tables, worked numbers). Counts below are SVG teaching-diagram entries. This hub is **SVG-only** (text-diagram HTML twins stay on the week pages).
 
 **Source of truth:** the week page SVG. This hub is a **mirror** for review — if a caption or diagram drifts, edit the week first and report the mismatch. Weeks below open as an accordion (Week 1 expanded; others collapsed; print expands all).
 
@@ -32,28 +32,6 @@ Full notes: [Week 1](week-01.qmd) · 12 figures.
 
 <p class="fig-title" id="f01-system">LAE as a system (roles)</p>
 Open in [Week 1 notes](week-01.qmd#w01-system-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f01-system-text" aria-labelledby="f01-system-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f01-system-text-title"><strong>LAE as a system (roles)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>Customers / missions</strong><br/>Need time savings, access, inspection, logistics, or public service.</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Operators</strong><br/>Deliver the flight or mission under applicable permissions.</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ spend on inputs</div>
-<div class="wdiag-row">
-<div class="wdiag-box"><strong>Aircraft</strong></div>
-<div class="wdiag-box"><strong>Sites / pads</strong></div>
-<div class="wdiag-box"><strong>Digital coordination</strong></div>
-<div class="wdiag-box"><strong>Insurance &amp; services</strong></div>
-</div>
-</div>
-<p class="wdiag-note">Roles only — not market shares or firm names. See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-system-svg" aria-labelledby="w01-system-svg-title">
@@ -373,20 +351,6 @@ Open in [Week 1 notes](week-01.qmd#w01-four-families-svg).
 
 <p class="fig-title" id="f01-ohkf">Reading the OHKF HK$350bn figure</p>
 Open in [Week 1 notes](week-01.qmd#w01-ohkf-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f01-ohkf-text" aria-labelledby="f01-ohkf-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f01-ohkf-text-title"><strong>Reading the OHKF HK$350bn figure</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box fact"><strong>What it is</strong><br/>Our Hong Kong Foundation (private think-tank) scenario projection for Hong Kong industry <em>value added</em> by 2050; supporting services are the majority in that report.</div>
-<div class="wdiag-box muted"><strong>What it is not</strong><br/>Not a government target; not operator revenue; not automatic GDP; not a single firm’s obtainable market.</div>
-</div>
-<p class="wdiag-note">Cite Key numbers / Readings. Do not merge with Mainland scale totals.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
@@ -713,22 +677,6 @@ Full notes: [Week 2](week-02.qmd) · 12 figures.
 Open in [Week 2 notes](week-02.qmd#w02-compete-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f02-compete-text" aria-labelledby="f02-compete-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f02-compete-text-title"><strong>Who might compete (question map)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Same OD / same mission?</strong><br/>Substitute services compete for the same customer trip or payload.</div>
-<div class="wdiag-box"><strong>Same scarce pad / slot?</strong><br/>Rivals may compete for infrastructure even if missions differ.</div>
-<div class="wdiag-box"><strong>Same corridor–time window?</strong><br/>Airspace access can bind before “market share” does (Week 8).</div>
-<div class="wdiag-box fact"><strong>Discipline</strong><br/>Name the market before computing concentration. Classroom HHI shares are illustrative — not Hong Kong firm data.</div>
-</div>
-<p class="wdiag-note">Connects to Week 5 scarce sites and Week 8 airspace allocation.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w02-compete-svg" aria-labelledby="w02-compete-svg-title">
 <p class="wdiag-cap" id="w02-compete-svg-title"><strong>Who might compete — name the market first</strong> — same OD/mission; same scarce pad/slot; same corridor–time window. Discipline: name the market (product + geography + customer + layer) before concentration. Classroom HHI shares are illustrative — not Hong Kong firm data. Sandbox selection ≠ market share. Connects to Week 5 sites and Week 8 airspace.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f3-title f3-desc">
@@ -908,25 +856,6 @@ Open in [Week 2 notes](week-02.qmd#w02-atc-util).
 
 <p class="fig-title" id="f02-density">Density feedback — not automatic monopoly</p>
 Open in [Week 2 notes](week-02.qmd#w02-density-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f02-density-text" aria-labelledby="f02-density-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f02-density-text-title"><strong>Density feedback (conceptual)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>More flights on shared fixed cost</strong><br/>(pad rent, staffing, coordination)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Lower average cost per flight</strong> (when utilization rises)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Stronger position at that site</strong> — if demand and permission hold</div>
-<div class="wdiag-arrow" aria-hidden="true">⚠</div>
-<div class="wdiag-box muted"><strong>Not automatic monopoly</strong><br/>Entry, regulation, rival pads, and congestion can reverse the advantage.</div>
-</div>
-<p class="wdiag-note">Schematic teaching loop — not a forecast of any Hong Kong site.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w02-density-svg" aria-labelledby="w02-density-svg-title">
@@ -1311,28 +1240,6 @@ Open in [Week 3 notes](week-03.qmd#w03-invest-unit-svg).
 
 <p class="fig-title" id="f03-toolchain">Cost → unit → contribution → cash</p>
 Open in [Week 3 notes](week-03.qmd#w03-toolchain-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f03-toolchain-text" aria-labelledby="f03-toolchain-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f03-toolchain-text-title"><strong>Cost → unit → contribution → cash (tool chain)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-row">
-<div class="wdiag-box"><strong>CAPEX</strong><br/>Aircraft, sites, systems</div>
-<div class="wdiag-box"><strong>OPEX</strong><br/>Crew, energy, MRO, fees</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ choose a consistent unit</div>
-<div class="wdiag-box"><strong>Unit cost</strong> (e.g. CASK or cost per mission-km)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Contribution</strong> = revenue − variable cost of served units</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Cash / breakeven screen</strong><br/>Cover fixed cost; then financing and downside (later weeks)</div>
-</div>
-<p class="wdiag-note">Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-toolchain-svg" aria-labelledby="w03-toolchain-svg-title">
@@ -2149,24 +2056,6 @@ Full notes: [Week 5](week-05.qmd) · 11 figures.
 Open in [Week 5 notes](week-05.qmd#w05-bottleneck-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f05-bottleneck-text" aria-labelledby="f05-bottleneck-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f05-bottleneck-text-title"><strong>Diagnose which resource binds</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Pad / stand / gate</strong><br/>Turnaround and parking</div>
-<div class="wdiag-box"><strong>Charging / energy</strong><br/>Dwell and power access</div>
-<div class="wdiag-box"><strong>Passenger / cargo process</strong><br/>Throughput on the ground</div>
-<div class="wdiag-box"><strong>Airspace / procedure</strong><br/>Separations and hours (Week 8)</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true" style="margin-top:.35rem">↓</div>
-<div class="wdiag-box fact"><strong>Allocate the scarce resource you actually have</strong><br/>A pad auction cannot fix an airspace bind (and vice versa).</div>
-<p class="wdiag-note">No invented “drones per minute” for Harbour or GBA corridors.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
 <p class="wdiag-cap" id="w05-bottleneck-svg-title"><strong>Diagnose which resource binds</strong> — pad/stand/gate; charging/energy; passenger/cargo process; airspace/procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind (and vice versa). No invented Harbour/GBA “drones per minute.” Trial sites ≠ permanent slots; Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f1-title f1-desc">
@@ -2670,21 +2559,6 @@ Full notes: [Week 6](week-06.qmd) · 10 figures.
 Open in [Week 6 notes](week-06.qmd#w06-arch-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f06-arch-text" aria-labelledby="f06-arch-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f06-arch-text-title"><strong>Architecture choice (roles)</strong></p>
-<div class="wdiag-stack cols-3">
-<div class="wdiag-box"><strong>Own / integrate</strong><br/>Control assets; bear more CAPEX and utilization risk.</div>
-<div class="wdiag-box"><strong>Contract / PPP</strong><br/>Share design, build, operate, or finance with public or private partners.</div>
-<div class="wdiag-box"><strong>Orchestrate</strong><br/>Platform coordinates parties; needs liquidity, trust, and governance.</div>
-</div>
-<p class="wdiag-note">Architecture changes risk allocation — it does not remove Cap. 448G permission needs (Week 7).</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w06-arch-svg" aria-labelledby="w06-arch-svg-title">
 <p class="wdiag-cap" id="w06-arch-svg-title"><strong>Architecture choice shifts risk — not Cap. 448G</strong> — Own/integrate (more CAPEX and utilization risk); Contract/PPP (share design–build–operate–finance); Orchestrate (platform needs liquidity, trust, governance). “Asset-light” is a slogan, not a risk transfer. Architecture does not remove Cap. 448G permission needs (Week 7).</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e3-title e3-desc">
@@ -2818,22 +2692,6 @@ Open in [Week 6 notes](week-06.qmd#w06-ppp-svg).
 
 <p class="fig-title" id="f06-pay">Who bears demand risk?</p>
 Open in [Week 6 notes](week-06.qmd#w06-pay-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f06-pay-text" aria-labelledby="f06-pay-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f06-pay-text-title"><strong>Who bears demand risk?</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Usage payment</strong><br/>Cash follows traffic / missions → operator (or SPV) bears more demand risk.</div>
-<div class="wdiag-box"><strong>Availability payment</strong><br/>Cash follows agreed readiness / service level → public sponsor often bears more demand risk.</div>
-</div>
-<p class="wdiag-arrow" aria-hidden="true">↕ hybrids exist</p>
-<div class="wdiag-box fact"><strong>Write the risk down</strong><br/>Payment design is a risk allocation, not a slogan.</div>
-<p class="wdiag-note">Classroom payment figures are illustrative — not CAD or government tariffs.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w06-pay-svg" aria-labelledby="w06-pay-svg-title">
@@ -3191,22 +3049,6 @@ Open in [Week 7 notes](week-07.qmd#w07-readiness-svg).
 
 <p class="fig-title" id="f07-sandbox">Sandbox ≠ Sandbox X</p>
 Open in [Week 7 notes](week-07.qmd#w07-sandbox-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f07-sandbox-text" aria-labelledby="f07-sandbox-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f07-sandbox-text-title"><strong>Sandbox ≠ Sandbox X (keep programmes distinct)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box fact"><strong>Regulatory Sandbox</strong><br/>Controlled trials under the first Sandbox programme. Advanced / BVLOS pathways: see <strong>CAD AC-013</strong> (operation-specific evidence).</div>
-<div class="wdiag-box fact"><strong>Regulatory Sandbox X</strong><br/>Advanced / more complex trials (e.g. cross-boundary SUA permission pathways). Cross-boundary circular: <strong>CAD AC-017</strong>.</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">≠</div>
-<div class="wdiag-box muted"><strong>Neither is a commercial franchise</strong><br/>Sandbox evidence ≠ day-to-day operating approval. <strong>U-space ≠ Hong Kong law.</strong> Action Plan language in the 2025 Policy Address stays with the issuer (OPEN on Official status where noted).</div>
-<p class="wdiag-note">Absolute programme labels — cite Readings / Key numbers / Who decides what?.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w07-sandbox-svg" aria-labelledby="w07-sandbox-svg-title">
@@ -3644,24 +3486,6 @@ Full notes: [Week 8](week-08.qmd) · 10 figures.
 Open in [Week 8 notes](week-08.qmd#w08-capacity-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f08-capacity-text" aria-labelledby="f08-capacity-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f08-capacity-text-title"><strong>Whole-system capacity (not drones-per-minute)</strong></p>
-<div class="wdiag-row">
-<div class="wdiag-box"><strong>Route / separation</strong></div>
-<div class="wdiag-box"><strong>Surveillance &amp; C2</strong></div>
-<div class="wdiag-box"><strong>Weather &amp; hours</strong></div>
-<div class="wdiag-box"><strong>Vertiport / charging</strong></div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ whichever binds first sets reliable K</div>
-<div class="wdiag-box fact"><strong>Fact discipline</strong><br/>Cap. 448G height bands ≠ ~1,000 m policy working description. Do not invent Harbour corridor capacity. Keep Sandbox ≠ Sandbox X; OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</div>
-<p class="wdiag-note">Classroom delay and bid numbers later are teaching screens, not published CAD capacities. Text twin of SVG <code>#w08-capacity-svg</code> — no invented corridor <em>K</em>.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w08-capacity-svg" aria-labelledby="w08-capacity-svg-title">
 <p class="wdiag-cap" id="w08-capacity-svg-title"><strong>Whole-system capacity (not drones-per-minute)</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set what can be served safely. Reliable capacity is whichever link binds first — not a published drones-per-minute number. Cap. 448G height bands ≠ ~1,000 m policy working description; Sandbox ≠ Sandbox X; do not invent Harbour corridor capacity. OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="cap8-title cap8-desc">
@@ -3849,22 +3673,6 @@ Open in [Week 8 notes](week-08.qmd#w08-mcc-delay-svg).
 
 <p class="fig-title" id="f08-mech">Allocation families — choose with criteria</p>
 Open in [Week 8 notes](week-08.qmd#w08-mech-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f08-mech-text" aria-labelledby="f08-mech-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f08-mech-text-title"><strong>Allocation families (choose with criteria)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Administrative</strong><br/>Schedule, rotation, FCFS, public-service priority</div>
-<div class="wdiag-box"><strong>Posted prices</strong><br/>Peak / off-peak charges</div>
-<div class="wdiag-box"><strong>Auctions</strong><br/>Bids for scarce windows — need safeguards</div>
-<div class="wdiag-box"><strong>Packages</strong><br/>Linked pad + corridor + charging</div>
-</div>
-<p class="wdiag-note">High willingness to pay ≠ automatic social priority. Failure to obtain a linked slot → reject/reschedule, not unsafe flight.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-mech-svg" aria-labelledby="w08-mech-svg-title">
@@ -4173,23 +3981,6 @@ Open in [Week 9 notes](week-09.qmd#w09-two-lenses).
 Open in [Week 9 notes](week-09.qmd#w09-funnel-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f09-funnel-text" aria-labelledby="f09-funnel-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f09-funnel-text-title"><strong>Funnel symbols (Week 9)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box">TAM → eligibility e → SAM</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ Multiply by choice share (s)</div>
-<div class="wdiag-box">D_pot = SAM × s</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box fact">D_served = min{D_pot, K}</div>
-</div>
-<p class="wdiag-note">OHKF HK$350bn is think-tank Hong Kong value added by 2050 — not SOM. Classroom funnel numbers are illustrative.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w09-funnel-svg" aria-labelledby="w09-funnel-svg-title">
 <p class="wdiag-cap" id="w09-funnel-svg-title"><strong>Sizing funnel — TAM to served demand</strong> — TAM × eligibility e → SAM; × choice share s → D_pot; D_served = min{{D_pot, K}}. OHKF <strong>HK$350bn</strong> is a think-tank Hong Kong <strong>industry value-added</strong> projection by 2050 — <strong>not</strong> SOM, not operator revenue, not a government target. Classroom funnel numbers are illustrative. Sandbox selection ≠ market share.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g1-title g1-desc">
@@ -4272,24 +4063,6 @@ Open in [Week 9 notes](week-09.qmd#w09-funnel-contrib-svg).
 
 <p class="fig-title" id="f09-channels">One constraint → one model channel</p>
 Open in [Week 9 notes](week-09.qmd#w09-channels-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f09-channels-text" aria-labelledby="f09-channels-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f09-channels-text-title"><strong>One constraint → one model channel</strong></p>
-<div class="wdiag-stack cols-3">
-<div class="wdiag-box"><strong>Demand / choice</strong></div>
-<div class="wdiag-box"><strong>Capacity K</strong></div>
-<div class="wdiag-box"><strong>Price / cost</strong></div>
-<div class="wdiag-box"><strong>Timing / launch</strong></div>
-<div class="wdiag-box"><strong>Probability</strong></div>
-<div class="wdiag-box muted"><strong>Avoid</strong><br/>Stacking independent “haircuts” for the same effect</div>
-</div>
-<p class="wdiag-note">NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-channels-svg" aria-labelledby="w09-channels-svg-title">
@@ -4653,30 +4426,6 @@ Full notes: [Week 10](week-10.qmd) · 12 figures.
 Open in [Week 10 notes](week-10.qmd#w10-ext-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f10-ext-text" aria-labelledby="f10-ext-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f10-ext-text-title"><strong>Impact → response mix</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-row">
-<div class="wdiag-box"><strong>Noise / visual</strong></div>
-<div class="wdiag-box"><strong>Privacy / data</strong></div>
-<div class="wdiag-box"><strong>Climate / energy</strong></div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ measure, then choose instruments</div>
-<div class="wdiag-row">
-<div class="wdiag-box">Technology</div>
-<div class="wdiag-box">Standards / rules</div>
-<div class="wdiag-box">Pricing / charges</div>
-<div class="wdiag-box">Compensation / engage</div>
-</div>
-</div>
-<p class="wdiag-note">Do not “price noise” as flights × dB above an assumed limit × $. Carbon values in class are appraisal dials — not a claimed CAD tax.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w10-ext-svg" aria-labelledby="w10-ext-svg-title">
 <p class="wdiag-cap" id="w10-ext-svg-title"><strong>Measure the impact, then pick instruments</strong> — noise/visual, privacy/data, climate/energy → technology, standards/rules, pricing/charges, compensation/engage. Do not invent a noise charge as flights × dB × $. Carbon values in class are appraisal dials — not a claimed CAD tax.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d5-title d5-desc">
@@ -4899,21 +4648,6 @@ Open in [Week 10 notes](week-10.qmd#w10-grid-eop-svg).
 
 <p class="fig-title" id="f10-ghg">Scopes vs LCA — different questions</p>
 Open in [Week 10 notes](week-10.qmd#w10-ghg-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f10-ghg-text" aria-labelledby="f10-ghg-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f10-ghg-text-title"><strong>Scopes vs LCA (different questions)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Corporate scopes 1–3</strong><br/>Organisation boundary: direct, purchased energy, other value-chain.</div>
-<div class="wdiag-box"><strong>Product / service LCA</strong><br/>Functional unit across a defined life cycle (vehicle, battery, infra, ops, end-of-life).</div>
-</div>
-<div class="wdiag-box fact" style="margin-top:.35rem"><strong>Electric ≠ zero life-cycle emissions</strong><br/>Match boundaries before comparing modes. Do not add scopes to LCA totals without a map.</div>
-<p class="wdiag-note">Use sourced grid factors for real inventories; classroom kWh factors are illustrative.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w10-ghg-svg" aria-labelledby="w10-ghg-svg-title">
@@ -5229,25 +4963,6 @@ Open in [Week 11 notes](week-11.qmd#w11-integrate-svg).
 Open in [Week 11 notes](week-11.qmd#w11-viable-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f11-viable-text" aria-labelledby="f11-viable-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f11-viable-text-title"><strong>Viability stack (symbols)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box">D (demand) and K (reliable capacity) — same units</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box fact">D_served = min{D, K}</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box">Π_op = (p − v)·D_served − F</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ then</div>
-<div class="wdiag-box">CF_t / NPV, downside Pr(Π &lt; 0), non-financial gates</div>
-</div>
-<p class="wdiag-note">Capacity-shock table below is illustrative — not Hong Kong weather downtime.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w11-viable-svg" aria-labelledby="w11-viable-svg-title">
 <p class="wdiag-cap" id="w11-viable-svg-title"><strong>Viability stack — same units all the way down</strong> — D and K in the same units → D_served = min{D, K} → Π_op = (p − v)·D_served − F → then CF_t / NPV, Pr(Π &lt; 0), and non-financial gates. Capacity-shock numbers in class are illustrative — not Hong Kong weather downtime. Keep Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d6-title d6-desc">
@@ -5317,24 +5032,6 @@ Open in [Week 11 notes](week-11.qmd#w11-cap-shock-svg).
 
 <p class="fig-title" id="f11-blocks">Six connected blocks</p>
 Open in [Week 11 notes](week-11.qmd#w11-blocks-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f11-blocks-text" aria-labelledby="f11-blocks-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f11-blocks-text-title"><strong>Six connected blocks</strong></p>
-<div class="wdiag-stack cols-3">
-<div class="wdiag-box"><strong>1 Problem</strong></div>
-<div class="wdiag-box"><strong>2 Demand &amp; K</strong></div>
-<div class="wdiag-box"><strong>3 Economics</strong></div>
-<div class="wdiag-box"><strong>4 Ops / infra</strong></div>
-<div class="wdiag-box"><strong>5 Partners / regulation</strong></div>
-<div class="wdiag-box"><strong>6 Impact / equity</strong></div>
-</div>
-<p class="wdiag-note">Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-blocks-svg" aria-labelledby="w11-blocks-svg-title">
@@ -5650,28 +5347,6 @@ Full notes: [Week 12](week-12.qmd) · 8 figures.
 Open in [Week 12 notes](week-12.qmd#w12-network-svg).
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="f12-network-text" aria-labelledby="f12-network-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f12-network-text-title"><strong>Possible links ≠ viable service</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box">N nodes → L = N(N−1)/2 undirected pairs (or N(N−1) if directed)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ screen each link</div>
-<div class="wdiag-row">
-<div class="wdiag-box">Demand</div>
-<div class="wdiag-box">Reliable K</div>
-<div class="wdiag-box">Permission</div>
-<div class="wdiag-box">Cost / acceptance</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box fact"><strong>Candidate services only where all pass</strong><br/>Do not claim GBA corridors as day-to-day operating service on evidence tracked here.</div>
-</div>
-<p class="wdiag-note">Screening rates in the worked table are classroom assumptions — not a GBA forecast.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w12-network-svg" aria-labelledby="w12-network-svg-title">
 <p class="wdiag-cap" id="w12-network-svg-title"><strong>Possible links ≠ viable service</strong> — N nodes create L = N(N−1)/2 possible pairs (or N(N−1) if directed). Screen each link for demand, reliable K, permission, and cost/acceptance. Candidate services only where all pass. Do not claim GBA corridors as day-to-day operating service on evidence tracked here. Screening rates in class are illustrative — not a GBA forecast.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d9-title d9-desc">
@@ -5895,27 +5570,6 @@ Open in [Week 12 notes](week-12.qmd#w12-leasing-svg).
 
 <p class="fig-title" id="f12-exam">Five-step exam method</p>
 Open in [Week 12 notes](week-12.qmd#w12-exam-svg).
-
-```{=html}
-<figure class="wdiag wdiag-text" id="f12-exam-text" aria-labelledby="f12-exam-text-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="f12-exam-text-title"><strong>Five-step exam method</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>1</strong> Define the decision &amp; alternative</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>2</strong> Served activity min{D, K}</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>3</strong> Viability (p, v, F, specified charges)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>4</strong> Map each constraint once</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box fact"><strong>5</strong> Recommend conditionally (proceed / pause / redesign / stop)</div>
-</div>
-<p class="wdiag-note">CAAC ATM Rules on Readings remain a draft consultation — not in force. U-space ≠ HK law.</p>
-</details>
-</figure>
-```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-exam-svg" aria-labelledby="w12-exam-svg-title">
