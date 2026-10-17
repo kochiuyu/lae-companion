@@ -352,6 +352,40 @@ Contribution per movement ≈ facility fee − variable facility cost for that m
 
 A higher-cost site needs more activity, higher contribution per movement, or complementary revenue. Confront the 75% figure with Week 4 **served** demand after acceptance and weather — not with unconstrained funnel headlines.
 
+```{=html}
+<figure class="wdiag" id="w05-reliable-k-svg" aria-labelledby="w05-reliable-k-svg-title">
+<p class="wdiag-cap" id="w05-reliable-k-svg-title"><strong>Prefer reliable capacity over theoretical max</strong> — breakeven capacity use = fixed daily facility cost ÷ (reliable daily capacity × contribution per movement). Classroom: higher-cost site ≈ <strong>75%</strong> of reliable <em>K</em>; lower-cost ≈ <strong>20%</strong>. This is <strong>not</strong> “percent of hours in the day the facility must be open.” Weather, turnaround, and priority access cut usable capacity.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Formula strip for breakeven capacity use as fixed cost over reliable capacity times contribution, with two classroom cards showing about 75 percent versus 20 percent of reliable capacity, and a note that this is not percent of clock hours." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n4-title n4-desc">
+  <title id="n4-title">Prefer reliable capacity over theoretical max</title>
+  <desc id="n4-desc">Prefer reliable, serviceable capacity over theoretical maximum throughput. Breakeven capacity use equals fixed daily facility cost divided by reliable daily capacity times contribution per movement. Classroom: higher-cost site needs about 75 percent of reliable capacity; lower-cost site about 20 percent. This is not percent of clock hours. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
+  <rect x="12" y="12" width="696" height="306" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Prefer reliable capacity over theoretical max</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Breakeven capacity use · classroom only</text>
+  <rect x="40" y="70" width="200" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="140" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Fixed daily FC</text>
+  <text x="140" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Facility cost</text>
+  <text x="260" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" fill="#9a9488">÷</text>
+  <rect x="280" y="70" width="180" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="370" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">K_reliable ×</text>
+  <text x="370" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">contrib / movement</text>
+  <text x="490" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" fill="#9a9488">=</text>
+  <rect x="520" y="70" width="160" height="70" rx="8" fill="#003366"/>
+  <text x="600" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Breakeven</text>
+  <text x="600" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#F7F6F3">share of K_rel</text>
+  <rect x="36" y="162" width="300" height="80" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="186" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Higher-cost site</text>
+  <text x="186" y="216" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">≈ 75% of reliable K</text>
+  <rect x="384" y="162" width="300" height="80" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="534" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Lower-cost site</text>
+  <text x="534" y="216" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" fill="#1a1a1a">≈ 20% of reliable K</text>
+  <rect x="60" y="262" width="600" height="40" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Not % of clock hours · weather &amp; priority cut usable K</text>
+</svg>
+
+<p class="wdiag-note">From Week 5 §4. Classroom 75%/20% only. New SVG.</p>
+</figure>
+```
+
 ---
 
 Mature throughput is rarely day-one reality. **Staged ramp-up** protects liquidity when demand is uncertain — real-options thinking applied to pads and fit-out.

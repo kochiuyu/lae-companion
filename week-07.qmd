@@ -454,6 +454,35 @@ Safety cases are local; digital traffic ideas are often foreign. **U-space / UTM
 
 Digital services can standardize information exchange and support higher volumes — they do **not** eliminate human oversight, certification, cybersecurity, infrastructure, or service-provider costs. Transaction costs include planning, authorization, coordination, information exchange, monitoring, and handling exceptions.
 
+```{=html}
+<figure class="wdiag" id="w07-uspace-svg" aria-labelledby="w07-uspace-svg-title">
+<p class="wdiag-cap" id="w07-uspace-svg-title"><strong>U-space ≠ Hong Kong law</strong> — U-space is an EU / industry frame for digital unmanned-traffic services (authorisation, geo-awareness, network ID, traffic information). <strong>UTM</strong> is a broader label. Hong Kong’s smart low-altitude traffic-management system appears in planning language and Sandbox X UTM demos — treat as <strong>planned / trial</strong>, not a completed local U-space statute. Digital services do not erase oversight, certification, cybersecurity, or provider costs.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Two panels with a not-equal mark: U-space EU industry services versus Hong Kong planned or trial smart low-altitude traffic management; strip notes digital does not erase oversight and Sandbox is not Sandbox X." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n1-title n1-desc">
+  <title id="n1-title">U-space ≠ Hong Kong law</title>
+  <desc id="n1-desc">U-space is an EU and industry regulatory framework for digital services supporting unmanned aircraft — not Hong Kong law. UTM is a broader traffic-management label. Hong Kong smart low-altitude traffic management appears in planning language and Sandbox X UTM demos — treat as planned or trial infrastructure, not a completed local U-space statute. Digital services do not eliminate human oversight, certification, cybersecurity or provider costs. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="276" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">U-space ≠ Hong Kong law</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Keep comparator labels separate from Cap. 448G</text>
+  <rect x="36" y="70" width="280" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="176" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">U-space (EU / industry)</text>
+  <text x="176" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Authorisation · geo-awareness</text>
+  <text x="176" y="144" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Network ID · traffic info</text>
+  <text x="176" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Comparator — not Cap. 448G</text>
+  <text x="360" y="135" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#C5A572">≠</text>
+  <rect x="404" y="70" width="280" height="120" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="544" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Hong Kong path</text>
+  <text x="544" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Smart LATMS = planned / trial</text>
+  <text x="544" y="144" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Policy Address · Sandbox X demos</text>
+  <text x="544" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Not a completed U-space statute</text>
+  <rect x="60" y="214" width="600" height="58" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="238" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Digital ≠ zero oversight · cyber · certification · fees</text>
+  <text x="360" y="258" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">UTM = broader label · Sandbox ≠ Sandbox X</text>
+</svg>
+
+<p class="wdiag-note">From Week 7 §7. U-space ≠ HK law. New SVG.</p>
+</figure>
+```
+
 In words: daily coordination cost is fixed system cost plus variable digital cost per operation plus human-oversight cost.
 
 

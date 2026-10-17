@@ -208,6 +208,47 @@ $$
 
 Sum the incremental delay imposed on **all** affected users, not only the next aircraft. Values may differ across passengers, cargo, aircraft, public services, and schedule commitments. The theoretically efficient charge equals marginal external cost — that cost is hard to observe precisely in real time, so a practical peak charge may use estimated bands and periodic review.
 
+```{=html}
+<figure class="wdiag" id="w08-mcc-svg" aria-labelledby="w08-mcc-svg-title">
+<p class="wdiag-cap" id="w08-mcc-svg-title"><strong>Congestion cost is what you impose on others</strong> — marginal congestion cost sums additional delay × value of delay across affected users, then adds other incremental costs (MCC). Pricing is only one response; reservations, quotas, priority rules, rerouting, and capacity investment may also fit. Some public-service missions need <strong>explicit priority</strong> rather than willingness to pay. Classroom delay screens only — not published CAD capacities; do not invent corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Diagram equating sum of delay times value plus other costs to marginal congestion cost, with response chips for charge reserve quota priority and invest or reroute, and a note that public missions may need priority rather than pure willingness to pay." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m5-title m5-desc">
+  <title id="m5-title">Congestion cost is what you impose on others</title>
+  <desc id="m5-desc">Marginal congestion cost sums additional delay times value of delay across affected users, then adds other incremental costs. Pricing is only one response. Some public-service missions need explicit priority rules rather than willingness to pay. Classroom delay numbers only. Do not invent corridor capacity. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Congestion cost is what you impose on others</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">MCC teaching identity · not published CAD capacities</text>
+  <rect x="40" y="70" width="200" height="78" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="140" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Σ (Dj × vj)</text>
+  <text x="140" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Delay × value</text>
+  <text x="140" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">across affected users</text>
+  <text x="270" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" fill="#9a9488">+</text>
+  <rect x="300" y="70" width="160" height="78" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="380" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">C_other</text>
+  <text x="380" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Extra coordination</text>
+  <text x="490" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" fill="#9a9488">=</text>
+  <rect x="520" y="70" width="160" height="78" rx="8" fill="#003366"/>
+  <text x="600" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#ffffff">MCC</text>
+  <text x="600" y="130" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#F7F6F3">Marginal congestion</text>
+  <text x="360" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Responses (pricing is only one)</text>
+  <rect x="28" y="188" width="120" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="88" y="218" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Charge</text>
+  <rect x="160" y="188" width="120" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="220" y="218" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Reserve</text>
+  <rect x="292" y="188" width="120" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="352" y="218" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Quota</text>
+  <rect x="424" y="188" width="120" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="484" y="218" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Priority</text>
+  <rect x="556" y="188" width="136" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="624" y="218" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Invest / reroute</text>
+  <rect x="60" y="258" width="600" height="52" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="280" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Public missions may need priority ≠ pure WTP</text>
+  <text x="360" y="298" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No invented corridor K · Sandbox ≠ Sandbox X</text>
+</svg>
+
+<p class="wdiag-note">From Week 8 §3 congestion externalities. Classroom MCC only. New SVG.</p>
+</figure>
+```
+
 **Scenario (illustrative):** one additional operation delays three other flights by five minutes each.
 
 | Affected user | Delay value |

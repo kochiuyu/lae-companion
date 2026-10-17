@@ -639,6 +639,34 @@ Capacity limits do **not** guarantee high prices or profits: allocation rules, r
 | Logic | Undercutting can push $P$ toward **HK$100** | Neither can absorb all demand; price pressure **may** be weaker |
 | Lesson | Price war destroys margins | Scarcity can support margins — not a promise of $P =$ HK$500 |
 
+```{=html}
+<figure class="wdiag" id="w02-bertrand-svg" aria-labelledby="w02-bertrand-svg-title">
+<p class="wdiag-cap" id="w02-bertrand-svg-title"><strong>Scarce pads can soften price wars</strong> — with unconstrained capacity and a homogeneous product, Bertrand undercutting can push <em>P</em> toward <em>MC</em>. When pad rules leave <strong>total capacity below demand</strong>, neither firm can absorb the market by cutting price alone — scarcity <strong>may</strong> soften wars. Capacity limits do <strong>not</strong> guarantee high prices or profits. Classroom only (MC = HK$100; WTP up to HK$500; demand = 100).</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Two panels comparing unconstrained fleets where price races toward marginal cost with capacity-capped pads where total capacity is below demand so price pressure may soften; caution that scarcity does not guarantee high prices; no invented corridor capacity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n2-title n2-desc">
+  <title id="n2-title">Scarce pads can soften price wars</title>
+  <desc id="n2-desc">Bertrand intuition: with unconstrained capacity and a homogeneous product, undercutting can push price toward marginal cost. When pads cap each operator so total capacity is below demand, neither firm can absorb the whole market by cutting price alone — scarcity may soften price wars. Capacity limits do not guarantee high prices or profits. Classroom screen only. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
+  <rect x="12" y="12" width="696" height="276" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Scarce pads can soften price wars</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Bertrand teaching screen · not a profit promise</text>
+  <rect x="36" y="70" width="300" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="186" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Unconstrained fleets</text>
+  <text x="186" y="126" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Undercut → P toward MC</text>
+  <text x="186" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Classroom: MC = HK$100</text>
+  <text x="186" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Margins can vanish</text>
+  <rect x="384" y="70" width="300" height="120" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="534" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Capacity-capped pads</text>
+  <text x="534" y="126" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Total K &lt; demand</text>
+  <text x="534" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Neither absorbs all by cutting P</text>
+  <text x="534" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Price pressure may soften</text>
+  <rect x="60" y="212" width="600" height="58" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="236" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Scarcity ≠ guaranteed high P or profit</text>
+  <text x="360" y="256" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Allocation · regulation · shocks still bind · no invented corridor K</text>
+</svg>
+
+<p class="wdiag-note">From Week 2 §9. Classroom Bertrand screen only. New SVG.</p>
+</figure>
+```
+
 ### Connecting idea: connecting Bertrand to ATC and HHI
 
 - If ATC is HK$1,717 at low utilization ([§5](#worked-illustration-rooftop-rent)), a Bertrand outcome at $P=MC=\text{HK\$50}$ is **financially ruinous** — firms will exit or seek pad scarcity / differentiation.  
@@ -657,6 +685,37 @@ Airlines sometimes compete for passengers while sharing lounges or codeshares. E
 - **Cooperate** on scarce landing sites, charging, or digital traffic coordination where duplication is ruinously expensive.
 
 **Co-opetition** only lowers unit cost if rules for **access, investment, control, congestion, data, liability, and competition law** are clear. Sharing without governance can recreate conflict. Week 6 deepens PPP / payment design; Week 8 deepens shared facility cost per movement.
+
+```{=html}
+<figure class="wdiag" id="w02-coop-svg" aria-labelledby="w02-coop-svg-title">
+<p class="wdiag-cap" id="w02-coop-svg-title"><strong>Compete on service, share the roof</strong> — compete on vehicle, app, reliability, and brand; cooperate on scarce pads, charging, or digital coordination where duplication is ruinous. Classroom rooftop: alone <strong>HK$100,000/day</strong> vs four sharing <strong>HK$25,000</strong> each (100 flights → HK$1,000 vs HK$250 rent/flight). Sharing without clear rules for access, investment, control, congestion, data, liability, and competition law can recreate conflict — not free money.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Two panels: compete on vehicle app reliability and brand versus cooperate on pads charging and digital traffic; alone HK dollar 100,000 per day versus four operators sharing at HK dollar 25,000 each; strip says needs access rules, not free money, Sandbox not equal Sandbox X." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m3-title m3-desc">
+  <title id="m3-title">Compete on service, share the roof</title>
+  <desc id="m3-desc">Co-opetition: compete on vehicle, app, reliability and brand; cooperate on scarce pads, charging or digital coordination. Classroom rooftop: alone HK dollar 100,000 per day versus four operators sharing equally at HK dollar 25,000 each. Sharing without access rules can recreate conflict. Not free money. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="296" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Compete on service, share the roof</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Co-opetition · classroom rooftop only</text>
+  <rect x="36" y="68" width="300" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="186" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Compete</text>
+  <text x="186" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Vehicle · app · reliability · brand</text>
+  <text x="186" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Where customers choose</text>
+  <rect x="384" y="68" width="300" height="88" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="534" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Cooperate</text>
+  <text x="534" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Pads · charging · digital traffic</text>
+  <text x="534" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Where duplication is ruinous</text>
+  <rect x="36" y="172" width="300" height="70" rx="8" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="186" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Alone</text>
+  <text x="186" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">HK$100,000/day → HK$1,000/flight</text>
+  <rect x="384" y="172" width="300" height="70" rx="8" fill="#003366"/>
+  <text x="534" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Four share equally</text>
+  <text x="534" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#F7F6F3">HK$25,000/day → HK$250/flight</text>
+  <rect x="60" y="258" width="600" height="38" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="283" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Needs access rules · not free money · Sandbox ≠ Sandbox X</text>
+</svg>
+
+<p class="wdiag-note">From Week 2 §10 co-opetition. Classroom rooftop only. New SVG.</p>
+</figure>
+```
 
 Teaching split of a shared fixed infrastructure cost among $N$ operators:
 
