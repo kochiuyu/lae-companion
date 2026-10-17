@@ -688,56 +688,7 @@ The short checklist is in [Summary](#summary) above.
 
 Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w11" data-week="11">
-  <p class="selfcheck-intro">Four questions from Week 11 learning objectives, the Study checklist, and the operating viability test (D<sub>served</sub>, Π<sub>op</sub>). Integrate weeks without inventing corridor capacity; <strong>Sandbox ≠ Sandbox X</strong>; separate AC-013, AC-017, and Policy Address Action Plan.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q1" data-correct="c">
-    <legend class="selfcheck-stem">1. Week 11’s integration challenge is mainly to…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q1" value="a"> Keep demand, capacity, unit economics, infrastructure, contracts, regulation, and sustainability in separate silos.</label></li>
-      <li><label><input type="radio" name="sc-w11-q1" value="b"> Replace analysis with TAM-as-forecast slides.</label></li>
-      <li><label><input type="radio" name="sc-w11-q1" value="c"> Trace one assumption change through demand → capacity → cost → cash flow → legitimacy with consistent units and causal links.</label></li>
-      <li><label><input type="radio" name="sc-w11-q1" value="d"> Treat Sandbox X as a safety waiver.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1–2; Study checklist 1; §§1–2. Weak-evidence habits (TAM-as-forecast, multi-haircut, hidden downside) are called out (Study checklist 9).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q2" data-correct="a">
-    <legend class="selfcheck-stem">2. The operating viability test identities include…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q2" value="a"> D<sub>served</sub> = min{D, K} and Π<sub>op</sub> = (p − v) D<sub>served</sub> − F — recomputed under capacity shocks with fixed D.</label></li>
-      <li><label><input type="radio" name="sc-w11-q2" value="b"> D<sub>served</sub> always equals unconstrained TAM.</label></li>
-      <li><label><input type="radio" name="sc-w11-q2" value="c"> Π<sub>op</sub> equals OHKF HK$350bn.</label></li>
-      <li><label><input type="radio" name="sc-w11-q2" value="d"> Viability ignores non-financial decision criteria.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 2–3; <a href="formulas.qmd#w11-viability">Formulas · Week 11 viability</a>. Also use cash flow, NPV, downside, and non-financial criteria.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q3" data-correct="b">
-    <legend class="selfcheck-stem">3. Which regulatory / programme hygiene matches Week 11?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q3" value="a"> Merge Sandbox, Sandbox X, AC-013, AC-017, and the Policy Address Action Plan into one label.</label></li>
-      <li><label><input type="radio" name="sc-w11-q3" value="b"> Keep Sandbox ≠ Sandbox X; separate AC-013, AC-017, and Policy Address Action Plan (OPEN on the tracker as applicable) — do not invent corridor capacity.</label></li>
-      <li><label><input type="radio" name="sc-w11-q3" value="c"> OHKF value added, operator revenue, and social benefit are interchangeable.</label></li>
-      <li><label><input type="radio" name="sc-w11-q3" value="d"> Rejection is never a rigorous recommendation.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 4–5, 10, 12. Distinguish OHKF value added, operator revenue, and social benefit (Week 9). Proceed / stage / redesign / relocate / <strong>reject</strong> are all valid calls.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q4" data-correct="d">
-    <legend class="selfcheck-stem">4. A strong 12-minute decision pitch in Week 11 should…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q4" value="a"> End only with “please approve,” without stop/expand conditions.</label></li>
-      <li><label><input type="radio" name="sc-w11-q4" value="b"> Hide the risk register from the slides.</label></li>
-      <li><label><input type="radio" name="sc-w11-q4" value="c"> Use multi-haircut demand as the only evidence.</label></li>
-      <li><label><input type="radio" name="sc-w11-q4" value="d"> Answer decision-maker lenses, show sensitivity / downside, put one Week 10 externality into a cash-flow or capacity channel, and close with stop/expand (or reject) conditions.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 6–8, 11; twelve-slide template §§. Risk-register rows name a model channel and a decision trigger.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w11.html >}}
 
 ---
 

@@ -829,56 +829,7 @@ The short checklist is in [Summary](#summary) above.
 
 Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w06" data-week="06">
-  <p class="selfcheck-intro">Four questions from Week 6 learning objectives, the Study checklist, and named formulas (monthly economic profit, R<sub>U</sub> / R<sub>A</sub>, shared facility cost). A PPP does not invent demand, statute, or permissions. <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q1" data-correct="a">
-    <legend class="selfcheck-stem">1. Asset-intensive, service-based, and platform-oriented models are compared in Week 6 mainly on…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q1" value="a"> Control, capital intensity, and dependency — “asset-light” does not erase performance or liability risk.</label></li>
-      <li><label><input type="radio" name="sc-w06-q1" value="b"> Which model automatically waives Cap. 448G.</label></li>
-      <li><label><input type="radio" name="sc-w06-q1" value="c"> Which model maximises Sandbox X modules.</label></li>
-      <li><label><input type="radio" name="sc-w06-q1" value="d"> Whether U-space is Hong Kong law.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–3; §§2–3. Monthly economic-profit screen: <a href="formulas.qmd#w06-econ-profit">Formulas · Week 6</a>.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q2" data-correct="d">
-    <legend class="selfcheck-stem">2. A public–private partnership (PPP) value-for-money test…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q2" value="a"> Guarantees demand and creates Cap. 448G permissions by contract alone.</label></li>
-      <li><label><input type="radio" name="sc-w06-q2" value="b"> Is identical to Sandbox X selection.</label></li>
-      <li><label><input type="radio" name="sc-w06-q2" value="c"> Removes the need for KPIs and deductions.</label></li>
-      <li><label><input type="radio" name="sc-w06-q2" value="d"> Asks whether the partnership structure improves value vs alternatives — it does <em>not</em> invent demand, statute, or permissions.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 2; Study checklist 4; § PPP discussion. Payment mechanisms and KPIs still align quality, affordability, and viability (Learning objective 3).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q3" data-correct="c">
-    <legend class="selfcheck-stem">3. In the availability-based component R<sub>A</sub> = A − D + u × q…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q3" value="a"> Deductions D never matter once A is set.</label></li>
-      <li><label><input type="radio" name="sc-w06-q3" value="b"> R<sub>A</sub> equals HHI.</label></li>
-      <li><label><input type="radio" name="sc-w06-q3" value="c"> Availability can flip a loss to a profit sketch — then deductions can wipe that gain; define A, D, u, and q explicitly.</label></li>
-      <li><label><input type="radio" name="sc-w06-q3" value="d"> R<sub>A</sub> is a Cap. 448G mandatory tariff.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 5–6; <a href="formulas.qmd#w06-ra">Formulas · R<sub>A</sub></a>. Usage-based R<sub>U</sub> = p × q is the companion identity.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Shared-pad co-opetition in Week 6 means…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q4" value="a"> Operators merge into one firm so competition disappears.</label></li>
-      <li><label><input type="radio" name="sc-w06-q4" value="b"> Separate cooperation (shared facility) from competition (service); facility cost per movement ≠ operator ticket cost; draft term-sheet rows with risk owner and KPI/relief.</label></li>
-      <li><label><input type="radio" name="sc-w06-q4" value="c"> Sandbox first-batch participation replaces a term sheet.</label></li>
-      <li><label><input type="radio" name="sc-w06-q4" value="d"> Corridor policy language is day-to-day operating service.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 8–12; §§ shared pads / term sheet. Keep Sandbox ≠ Sandbox X (38 of 72); corridor ≠ day-to-day service.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w06.html >}}
 
 ---
 

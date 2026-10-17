@@ -881,67 +881,7 @@ The short checklist is in [Summary](#summary) above.
 
 Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w07" data-week="07">
-  <p class="selfcheck-intro">Five questions from Week 7 learning objectives, the Study checklist, and named formulas (readiness / compliance appraisal). Cap. <strong>448G</strong> risk-based SUA facts; <strong>Sandbox ≠ Sandbox X</strong>; <strong>AC-013 ≠ AC-017</strong>; <strong>U-space ≠ HK law</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q1" data-correct="a">
-    <legend class="selfcheck-stem">1. Cap. 448G in these notes is framed as…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q1" value="a"> A risk-based small unmanned aircraft framework (full effect 1 Dec 2022; Cat C ≤150 kg from July 2025 in the notes’ tracked facts) — not a waiver of safety duties.</label></li>
-      <li><label><input type="radio" name="sc-w07-q1" value="b"> Identical to EU U-space and automatically Hong Kong law under that name.</label></li>
-      <li><label><input type="radio" name="sc-w07-q1" value="c"> A vertiport construction code that replaces CAD permissions.</label></li>
-      <li><label><input type="radio" name="sc-w07-q1" value="d"> A GBA customs tariff for eVTOL tickets.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 3; Week 7 policy sections. U-space ≠ HK law (Study checklist 9).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q2" data-correct="b">
-    <legend class="selfcheck-stem">2. Which pair correctly separates sandbox instruments?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q2" value="a"> Sandbox and Sandbox X are two names for one programme.</label></li>
-      <li><label><input type="radio" name="sc-w07-q2" value="b"> Keep Sandbox ≠ Sandbox X; AC-013 addresses BVLOS in the first Sandbox context; AC-017 addresses Sandbox X cross-boundary — cite first-batch 38 of 72 without inventing commercial rights.</label></li>
-      <li><label><input type="radio" name="sc-w07-q2" value="c"> AC-017 replaces Cap. 448G entirely.</label></li>
-      <li><label><input type="radio" name="sc-w07-q2" value="d"> First-batch 38 of 72 equals Sandbox X’s 33 modules.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 4–5; Learning objective 1–2. Programme facts stay with issuers / Key figures — no invented commercial rights from selection counts.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Net readiness value (classroom) is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q3" value="a"> Contribution earned during the lead period minus additional compliance and launch cost — a shorter lead can destroy it.</label></li>
-      <li><label><input type="radio" name="sc-w07-q3" value="b"> Always increased by skipping evidence gates.</label></li>
-      <li><label><input type="radio" name="sc-w07-q3" value="c"> Equal to OHKF HK$350bn.</label></li>
-      <li><label><input type="radio" name="sc-w07-q3" value="d"> The same as Bertrand P = MC.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 1–2; <a href="formulas.qmd#w07-readiness">Formulas · net readiness value</a>. Compliance appraisal uses approval probability and delay cost (<a href="formulas.qmd#w07-comp">Formulas · compliance</a>).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. A safety case in Week 7 is for…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q4" value="a"> Any undefined “drone industry” in the abstract.</label></li>
-      <li><label><input type="radio" name="sc-w07-q4" value="b"> A <em>defined</em> operation — map permission vs operator/pilot vs airworthiness vs site approval; risk cost includes prevention, insurance, and retained expected loss.</label></li>
-      <li><label><input type="radio" name="sc-w07-q4" value="c"> Automatically removing insurability concerns.</label></li>
-      <li><label><input type="radio" name="sc-w07-q4" value="d"> Proving a GBA corridor is already day-to-day service.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 6, 8; risk-cost identity on Formulas. Corridor remains not day-to-day operating service on tracked evidence (Study checklist 12).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q5" data-correct="b">
-    <legend class="selfcheck-stem">5. Digital traffic-management / coordination in Week 7…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q5" value="a"> Means U-space is already Hong Kong statute.</label></li>
-      <li><label><input type="radio" name="sc-w07-q5" value="b"> May support safe scalable operations; daily coordination cost is a teaching identity — still <strong>U-space ≠ HK law</strong>; score pathways with transparent weights, no “fastest jurisdiction” claim.</label></li>
-      <li><label><input type="radio" name="sc-w07-q5" value="c"> Replaces Cap. 448G categories.</label></li>
-      <li><label><input type="radio" name="sc-w07-q5" value="d"> Is identical to Sandbox X module totals.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 9–11; <a href="formulas.qmd#w07-coord">Formulas · daily coordination cost</a>. Phased roadmap with evidence gates that rewrite contracts.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w07.html >}}
 
 ---
 

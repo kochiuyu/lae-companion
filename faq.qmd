@@ -167,7 +167,7 @@ Short roles:
 - **CAD** (Civil Aviation Department) — Cap. 448G / sandbox circulars  
 - **OFCA** — sandbox spectrum licence  
 
-Cheat sheet: [Who decides what?](regulators.qmd).
+Roles page: [Who decides what?](regulators.qmd).
 
 ## 8. How does the business side fit together?
 

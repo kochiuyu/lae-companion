@@ -771,56 +771,7 @@ The short checklist is in [Summary](#summary) above.
 
 Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w04" data-week="04">
-  <p class="selfcheck-intro">Four questions from Week 4 learning objectives, the Study checklist, and named formulas (funnel, GC, elasticity, Q<sub>served</sub>). Public acceptance is an <em>explicit</em> scenario factor — never an invisible haircut. <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q1" data-correct="c">
-    <legend class="selfcheck-stem">1. The Week 4 commercial question is best stated as…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q1" value="a"> “Can the aircraft fly?” alone.</label></li>
-      <li><label><input type="radio" name="sc-w04-q1" value="b"> Whether Sandbox X has more modules than the first Regulatory Sandbox.</label></li>
-      <li><label><input type="radio" name="sc-w04-q1" value="c"> Whether there are enough customers at a viable price — potential funnel demand vs served trips under capacity.</label></li>
-      <li><label><input type="radio" name="sc-w04-q1" value="d"> Whether Cap. 448G A2 height equals ~1,000 m policy language.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 1, 4–5; Learning objective 1; §§1–4. Keep passenger-trips, flights, and seats distinct. Height-band guards belong to Weeks 1 / 7 / 8, not this demand question.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q2" data-correct="d">
-    <legend class="selfcheck-stem">2. Door-to-door generalized cost in Week 4 is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q2" value="a"> Fare only — access and wait time never reverse mode ranking.</label></li>
-      <li><label><input type="radio" name="sc-w04-q2" value="b"> Identical to Week 1 short-form GC with no door-to-door extension.</label></li>
-      <li><label><input type="radio" name="sc-w04-q2" value="c"> A Cap. 448G statutory tariff schedule.</label></li>
-      <li><label><input type="radio" name="sc-w04-q2" value="d"> GC = fare + VOT × door-to-door time + other monetized burdens — access/wait friction can reverse which mode looks cheaper.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 2; Study checklist 6; §5; <a href="formulas.qmd#w04-gc">Formulas · Week 4 · GC</a>. Week 1 short form is ticket + VOT × travel time; Week 4 stresses full door-to-door burdens.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Own-price elasticity of demand (classroom) measures…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q3" value="a"> % change in quantity demanded ÷ % change in own price — and helps judge when a discount raises vs lowers revenue.</label></li>
-      <li><label><input type="radio" name="sc-w04-q3" value="b"> Only cross-elasticity with ground modes.</label></li>
-      <li><label><input type="radio" name="sc-w04-q3" value="c"> The same thing as HHI.</label></li>
-      <li><label><input type="radio" name="sc-w04-q3" value="d"> A fixed universal public-acceptance multiplier of 0.7.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 7–8; §6; <a href="formulas.qmd#w04-ed">Formulas · E<sub>d</sub></a>. Acceptance must be an explicit, defended factor (Study checklist 9), not a hidden constant.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Under a capacity shock, served quantity is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q4" value="a"> Always equal to unconstrained demand Q<sub>d</sub>.</label></li>
-      <li><label><input type="radio" name="sc-w04-q4" value="b"> Q<sub>served</sub> = min{Q<sub>demand</sub>, Q<sub>capacity</sub>}, then linked to Week 3 breakeven / required activity.</label></li>
-      <li><label><input type="radio" name="sc-w04-q4" value="c"> Sandbox first-batch selection counts.</label></li>
-      <li><label><input type="radio" name="sc-w04-q4" value="d"> NASA / AiRMOUR survey totals pasted as Hong Kong demand.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 5; Study checklist 10–12; §9; <a href="formulas.qmd#w04-qserved">Formulas · Q<sub>served</sub></a>. NASA / AiRMOUR / EASA are comparators, not HK demand quotes.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w04.html >}}
 
 ---
 

@@ -928,56 +928,7 @@ The short checklist is in [Summary](#summary) above.
 
 Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w05" data-week="05">
-  <p class="selfcheck-intro">Four questions from Week 5 learning objectives, the Study checklist, and named formulas (generalized site cost, reliable capacity, breakeven capacity use). No dedicated Hong Kong vertiport statute in these notes; <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q1" data-correct="a">
-    <legend class="selfcheck-stem">1. For a named mission, Week 5 first asks you to identify…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q1" value="a"> The likely binding bottleneck (pads vs aircraft vs charging vs access) — not “drones per minute” alone.</label></li>
-      <li><label><input type="radio" name="sc-w05-q1" value="b"> Which Cap. 448G category creates a statutory vertiport class.</label></li>
-      <li><label><input type="radio" name="sc-w05-q1" value="c"> A single mandatory hub template for all of Hong Kong.</label></li>
-      <li><label><input type="radio" name="sc-w05-q1" value="d"> OHKF HK$350bn as site CAPEX.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1–2; Study checklist 1–2, 5, 12; §§1–3. Classroom archetypes are teaching labels, not HK statutory classes. No dedicated HK vertiport statute in these notes.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q2" data-correct="c">
-    <legend class="selfcheck-stem">2. Generalized site cost in Week 5 includes…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q2" value="a"> Land rent only — access time never matters.</label></li>
-      <li><label><input type="radio" name="sc-w05-q2" value="b"> Only the Sandbox X application fee.</label></li>
-      <li><label><input type="radio" name="sc-w05-q2" value="c"> Annualized infrastructure cost + annual OPEX + monetized access burden — cheap remote land can still destroy Week 4 mode share.</label></li>
-      <li><label><input type="radio" name="sc-w05-q2" value="d"> U-space charges under Hong Kong law.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 3–4; <a href="formulas.qmd#w05-site">Formulas · generalized site cost</a>. U-space ≠ HK law.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Reliable capacity vs theoretical throughput means…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q3" value="a"> Separate theoretical throughput from reliable capacity; breakeven capacity use must confront Week 4 served demand.</label></li>
-      <li><label><input type="radio" name="sc-w05-q3" value="b"> They are always identical in Hong Kong weather.</label></li>
-      <li><label><input type="radio" name="sc-w05-q3" value="c"> Peak slot fees may ignore priority services.</label></li>
-      <li><label><input type="radio" name="sc-w05-q3" value="d"> A 20% downtime figure is stated as a Hong Kong weather fact.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 5–8; §§4–6. Downtime examples are classroom stresses — not “HK weather fact.” Slot rules must protect priority services (Learning objective 4).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Hub vs distributed network design in these notes is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q4" value="a"> A predetermined legal template for Hong Kong.</label></li>
-      <li><label><input type="radio" name="sc-w05-q4" value="b"> Compared via GC per served trip and related cost bundles as <em>hypotheses</em> — rankings can reverse; EASA / Shenzhen Chapter 2 / OHKF are comparators / think-tank / GBA law, not Cap. 448G.</label></li>
-      <li><label><input type="radio" name="sc-w05-q4" value="c"> Proven by Sandbox first-batch “38 of 72” alone.</label></li>
-      <li><label><input type="radio" name="sc-w05-q4" value="d"> The same as Bertrand P = MC under unconstrained pads.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 5; Study checklist 11–12; § network design. Keep programme facts separate from network choice.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w05.html >}}
 
 ---
 

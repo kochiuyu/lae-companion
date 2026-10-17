@@ -23,682 +23,73 @@ Week index: [W1](#week-01) · [W2](#week-02) · [W3](#week-03) · [W4](#week-04)
 
 Full notes: [Week 1](week-01.qmd) · On-week Self-check: [Week 1 · Self-check](week-01.qmd#self-check) · 5 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w01" data-week="01">
-  <p class="selfcheck-intro">Five questions from Week 1 learning objectives, the Study checklist, and named formulas only. Keep the standing guards: <strong>Sandbox ≠ Sandbox X</strong>; OHKF <strong>HK$350bn</strong> = industry <em>value added</em>; ~1,000&nbsp;m ≠ Cap.&nbsp;448G flying limit; <strong>U-space ≠ Hong Kong law</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w01-q1" data-correct="b">
-    <legend class="selfcheck-stem">1. In these notes, the low-altitude economy (LAE) is best defined as…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w01-q1" value="a"> Only passenger eVTOL “flying cars.”</label></li>
-      <li><label><input type="radio" name="sc-w01-q1" value="b"> Economic activity that uses low-altitude airspace together with aircraft, sites, digital systems, operators, customers, and supporting services — a whole mission system, not an airframe alone.</label></li>
-      <li><label><input type="radio" name="sc-w01-q1" value="c"> The Cap. 448G statute itself.</label></li>
-      <li><label><input type="radio" name="sc-w01-q1" value="d"> A synonym for U-space under Hong Kong law.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>LAE is framed as a <strong>mission / service system</strong> (Learning objective 1; Study checklist 1; §1). “Flying cars only” misses logistics, inspection, EMS, and supporting services. Cap. 448G is Hong Kong’s SUA frame, not the definition of LAE. U-space is an EU / industry frame — <strong>not</strong> Hong Kong law.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w01-q2" data-correct="c">
-    <legend class="selfcheck-stem">2. Hong Kong policy language often describes LAE as activity generally below about 1,000&nbsp;m. That figure is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w01-q2" value="a"> The Cap. 448G Category A2 flying ceiling for ordinary SUA operations.</label></li>
-      <li><label><input type="radio" name="sc-w01-q2" value="b"> Permission to fly any SUA to 1,000&nbsp;m AGL without further CAD approval.</label></li>
-      <li><label><input type="radio" name="sc-w01-q2" value="c"> A policy / economic working description of the LAE field — <em>not</em> a Cap. 448G ordinary flying-height limit (those bands are 100&nbsp;ft / 300&nbsp;ft AGL unless CAD grants permission).</label></li>
-      <li><label><input type="radio" name="sc-w01-q2" value="d"> The same thing as Mainland 120&nbsp;m / 300&nbsp;m (真高) labels under 国令761.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Keep the layers separate (Study checklist 2; §1 Policy band vs flying limits). ~1,000&nbsp;m is policy framing of the economic field. Cap. 448G ordinary bands are <strong>100&nbsp;ft</strong> (A1) and <strong>300&nbsp;ft ≈ 91&nbsp;m</strong> (A2) AGL. Mainland height labels are a different scheme.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w01-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. When these notes quote “about HK$350 billion,” the correct attribution is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w01-q3" value="a"> Our Hong Kong Foundation (OHKF) scenario projection for Hong Kong LAE industry <em>value added</em> by 2050 — a private think-tank figure, not an HKSAR government target, not operator revenue, and not automatic GDP.</label></li>
-      <li><label><input type="radio" name="sc-w01-q3" value="b"> An HKSAR Policy Address binding spending commitment for 2030.</label></li>
-      <li><label><input type="radio" name="sc-w01-q3" value="c"> Total operator ticket revenue across all Hong Kong LAE firms today.</label></li>
-      <li><label><input type="radio" name="sc-w01-q3" value="d"> A Mainland 规模 (scale) total that already includes Hong Kong GDP.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Attribution rule (§5; Study checklist 11): name <strong>OHKF</strong>, metric (<strong>industry value added</strong>), geography (<strong>Hong Kong</strong>), horizon (<strong>2050</strong>). Value added ≠ revenue. Not a government target; not Mainland scale totals.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w01-q4" data-correct="d">
-    <legend class="selfcheck-stem">4. Which statement about Hong Kong sandboxes is correct?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w01-q4" value="a"> The first Regulatory Sandbox and Sandbox X are the same programme under two names.</label></li>
-      <li><label><input type="radio" name="sc-w01-q4" value="b"> Entering a sandbox waives Cap. 448G and airworthiness duties for commercial flights.</label></li>
-      <li><label><input type="radio" name="sc-w01-q4" value="c"> First-batch selection “38 of 72” is the same statistic as Sandbox X’s “33 modules” total.</label></li>
-      <li><label><input type="radio" name="sc-w01-q4" value="d"> Sandboxes support controlled testing and can reduce learning cost, delay, and uncertainty in the entry-barrier sum — they do <em>not</em> waive safety or compliance; keep the first Regulatory Sandbox (e.g. 38 of 72) separate from Sandbox X (e.g. 33 modules).</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 5; Study checklist 8–9; §§10–11. <strong>Sandbox ≠ Sandbox X</strong>. A sandbox changes economic entry frictions; it is not a safety waiver. Cite first-batch and Sandbox X counts separately (<a href="key-figures.qmd">Key figures</a>).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w01-q5" data-correct="b">
-    <legend class="selfcheck-stem">5. Generalized cost (short form) in Week 1 is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w01-q5" value="a"> Ticket price only — time does not enter mode choice.</label></li>
-      <li><label><input type="radio" name="sc-w01-q5" value="b"> GC = ticket price + VOT × travel time — money and time in one comparable burden; a maximum fare against an alternative follows from matching that GC.</label></li>
-      <li><label><input type="radio" name="sc-w01-q5" value="c"> The same identity as U-space charges under Hong Kong statute.</label></li>
-      <li><label><input type="radio" name="sc-w01-q5" value="d"> NPV of the initial investment alone, with no operating cash flows.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Named formula on <a href="formulas.qmd#w01-gc">Formulas · Week 1 · GC</a> and §7. GC puts money and time on one scale; <em>P</em><sub>max</sub> follows from matching an alternative’s GC (§8 AE ceiling illustration). U-space is <strong>not</strong> Hong Kong law; NPV is a separate viability screen (− initial investment + present value of future profits).</div>
-  </fieldset>
-</div>
-```
+{{< include _includes/selfcheck-w01.html >}}
 
 ## Week 2 — Competition, cost, and co-opetition {#week-02}
 
 Full notes: [Week 2](week-02.qmd) · On-week Self-check: [Week 2 · Self-check](week-02.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w02" data-week="02">
-  <p class="selfcheck-intro">Four questions from Week 2 learning objectives, the Study checklist, and named formulas (HHI, ATC, density, Bertrand / co-opetition). Keep <strong>Sandbox ≠ Sandbox X</strong>; corridor policy / trial ≠ day-to-day operating service.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w02-q1" data-correct="d">
-    <legend class="selfcheck-stem">1. Before talking about “competition in LAE,” these notes first ask you to…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w02-q1" value="a"> Treat all LAE services as one city-wide market with a single HHI.</label></li>
-      <li><label><input type="radio" name="sc-w02-q1" value="b"> Use Sandbox X module counts as market shares.</label></li>
-      <li><label><input type="radio" name="sc-w02-q1" value="c"> Assume Bertrand P = MC always holds when pads are scarce.</label></li>
-      <li><label><input type="radio" name="sc-w02-q1" value="d"> Define a <em>narrow</em> market (product + geography + customer + layer) — LAE is not one market structure.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–2; §2–3. Four segments (logistics, air taxis, inspection, EMS) have different competitive logics. HHI is a screen on a defined market, not a city-wide LAE score. Sandbox counts are programme facts, not shares.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w02-q2" data-correct="c">
-    <legend class="selfcheck-stem">2. The Herfindahl–Hirschman Index (HHI) in Week 2 is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w02-q2" value="a"> The sum of firms’ market shares (percent), used as a binding legal threshold in Cap. 448G.</label></li>
-      <li><label><input type="radio" name="sc-w02-q2" value="b"> Average total cost per flight when utilization rises.</label></li>
-      <li><label><input type="radio" name="sc-w02-q2" value="c"> HHI = Σ s<sub>i</sub><sup>2</sup> from market shares — a concentration <em>screen</em>, not proof of dominance or a Cap. 448G test.</label></li>
-      <li><label><input type="radio" name="sc-w02-q2" value="d"> The same identity as economies of scale from bigger vehicles.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Named formula <a href="formulas.qmd#w02-hhi">Formulas · Week 2 · HHI</a>; Study checklist 3; §4. Higher HHI means more uneven shares. It does not prove market power alone. ATC and density are separate tools (§§5–6).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w02-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Economies of density (Week 2) mean…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w02-q3" value="a"> Spreading fixed route / site cost over more volume on the <em>same</em> corridor and sites — not the same thing as bigger vehicles.</label></li>
-      <li><label><input type="radio" name="sc-w02-q3" value="b"> Lower average cost mainly by flying larger vehicles (economies of scale).</label></li>
-      <li><label><input type="radio" name="sc-w02-q3" value="c"> That scarce pads never affect Bertrand price wars.</label></li>
-      <li><label><input type="radio" name="sc-w02-q3" value="d"> That entering the first Regulatory Sandbox automatically creates density.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 2; Study checklist 5; §6; <a href="formulas.qmd#w02-density">Formulas · density</a>. Contrast with scale. Scarce pads can soften Bertrand wars (Study checklist 8; §9). Sandbox entry ≠ density proof.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w02-q4" data-correct="c">
-    <legend class="selfcheck-stem">4. Which statement matches the Week 2 sandbox / corridor guards?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w02-q4" value="a"> First-batch “38 of 72” and Sandbox X’s “33 modules” are interchangeable market-share statistics.</label></li>
-      <li><label><input type="radio" name="sc-w02-q4" value="b"> Sandbox participation proves Hong Kong firms dominate the GBA market.</label></li>
-      <li><label><input type="radio" name="sc-w02-q4" value="c"> Keep <strong>Sandbox ≠ Sandbox X</strong>; cite 38 of 72 and Sandbox X 33 modules separately; policy / trial corridors are not day-to-day operating service.</label></li>
-      <li><label><input type="radio" name="sc-w02-q4" value="d"> U-space rules in Hong Kong statute set the HHI screen.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 10–11; §8 Absolute programme facts. Learning objective 5: complementary capabilities ≠ trial as proof of dominance. U-space ≠ Hong Kong law (standing course guard).</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w02.html >}}
 
 ## Week 3 — Unit cost, revenue, and breakeven {#week-03}
 
 Full notes: [Week 3](week-03.qmd) · On-week Self-check: [Week 3 · Self-check](week-03.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w03" data-week="03">
-  <p class="selfcheck-intro">Four questions from Week 3 learning objectives, the Study checklist, and named formulas (CAPEX/OPEX, CASK, breakeven). Keep the <strong>Hong Kong premium</strong> as hypotheses to test; <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q1" data-correct="b">
-    <legend class="selfcheck-stem">1. On the Week 3 cost stack, the first discipline is to…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q1" value="a"> Jump straight to CASK before listing cost items.</label></li>
-      <li><label><input type="radio" name="sc-w03-q1" value="b"> Separate CAPEX, recurring fixed OPEX, and activity-related variable cost — and remember certification cash is not automatically CAPEX.</label></li>
-      <li><label><input type="radio" name="sc-w03-q1" value="c"> Treat all Hong Kong costs as a fixed universal multiplier over GBA peers.</label></li>
-      <li><label><input type="radio" name="sc-w03-q1" value="d"> Equate CASK with profit per passenger.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–2, 4; §§2–3. Hong Kong premium is a hypothesis, not a universal multiplier. CASK is cost per available seat-km offered — not proof of profit (<a href="formulas.qmd#w03-cask">Formulas · CASK</a>).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q2" data-correct="a">
-    <legend class="selfcheck-stem">2. CASK (cost per available seat-kilometre) is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q2" value="a"> Operating cost ÷ (available seats × kilometres flown) — cost per seat-km <em>offered</em>, whether sold or empty.</label></li>
-      <li><label><input type="radio" name="sc-w03-q2" value="b"> Ticket revenue ÷ revenue passenger-kilometres only.</label></li>
-      <li><label><input type="radio" name="sc-w03-q2" value="c"> The Cap. 448G statutory charge per kilometre.</label></li>
-      <li><label><input type="radio" name="sc-w03-q2" value="d"> Identical to cost per mission-kilometre for cargo.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 5–6; §4; <a href="formulas.qmd#w03-cask">Formulas · CASK</a>. Mission-km is a different unit for cargo / public service. CASK does not by itself prove commercial viability.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Breakeven units in the Week 3 classroom identity are…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q3" value="a"> Fixed cost ÷ (revenue per unit − variable cost per unit), then confronted with physical capacity.</label></li>
-      <li><label><input type="radio" name="sc-w03-q3" value="b"> Always equal to Sandbox X module counts.</label></li>
-      <li><label><input type="radio" name="sc-w03-q3" value="c"> Maximising load factor alone, even if contribution falls.</label></li>
-      <li><label><input type="radio" name="sc-w03-q3" value="d"> CAPEX ÷ ticket price, ignoring variable cost.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 8–9; §7; <a href="formulas.qmd#w03-be">Formulas · Breakeven</a>. Maximising load factor alone can destroy contribution (revenue-per-flight identity). Results must confront capacity.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Which revenue-model statement matches Week 3?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q4" value="a"> Pay-per-use, subscription, availability-based, and complementary models all place usage risk on the same party.</label></li>
-      <li><label><input type="radio" name="sc-w03-q4" value="b"> Compare models on predictability and who bears usage risk — availability payments can flip a loss to a profit sketch, but are not free insurance.</label></li>
-      <li><label><input type="radio" name="sc-w03-q4" value="c"> Weather downtime has no channel into required activity.</label></li>
-      <li><label><input type="radio" name="sc-w03-q4" value="d"> NASA UAM framing is a Hong Kong cost quote you may paste into CASK.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 7, 11–12; §§5, 8. Weather loss channels and hedge limitations are explicit. NASA / CAAC materials are comparators / readings, not HK cost quotes.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w03.html >}}
 
 ## Week 4 — Demand, GC, and elasticity {#week-04}
 
 Full notes: [Week 4](week-04.qmd) · On-week Self-check: [Week 4 · Self-check](week-04.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w04" data-week="04">
-  <p class="selfcheck-intro">Four questions from Week 4 learning objectives, the Study checklist, and named formulas (funnel, GC, elasticity, Q<sub>served</sub>). Public acceptance is an <em>explicit</em> scenario factor — never an invisible haircut. <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q1" data-correct="c">
-    <legend class="selfcheck-stem">1. The Week 4 commercial question is best stated as…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q1" value="a"> “Can the aircraft fly?” alone.</label></li>
-      <li><label><input type="radio" name="sc-w04-q1" value="b"> Whether Sandbox X has more modules than the first Regulatory Sandbox.</label></li>
-      <li><label><input type="radio" name="sc-w04-q1" value="c"> Whether there are enough customers at a viable price — potential funnel demand vs served trips under capacity.</label></li>
-      <li><label><input type="radio" name="sc-w04-q1" value="d"> Whether Cap. 448G A2 height equals ~1,000 m policy language.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 1, 4–5; Learning objective 1; §§1–4. Keep passenger-trips, flights, and seats distinct. Height-band guards belong to Weeks 1 / 7 / 8, not this demand question.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q2" data-correct="d">
-    <legend class="selfcheck-stem">2. Door-to-door generalized cost in Week 4 is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q2" value="a"> Fare only — access and wait time never reverse mode ranking.</label></li>
-      <li><label><input type="radio" name="sc-w04-q2" value="b"> Identical to Week 1 short-form GC with no door-to-door extension.</label></li>
-      <li><label><input type="radio" name="sc-w04-q2" value="c"> A Cap. 448G statutory tariff schedule.</label></li>
-      <li><label><input type="radio" name="sc-w04-q2" value="d"> GC = fare + VOT × door-to-door time + other monetized burdens — access/wait friction can reverse which mode looks cheaper.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 2; Study checklist 6; §5; <a href="formulas.qmd#w04-gc">Formulas · Week 4 · GC</a>. Week 1 short form is ticket + VOT × travel time; Week 4 stresses full door-to-door burdens.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Own-price elasticity of demand (classroom) measures…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q3" value="a"> % change in quantity demanded ÷ % change in own price — and helps judge when a discount raises vs lowers revenue.</label></li>
-      <li><label><input type="radio" name="sc-w04-q3" value="b"> Only cross-elasticity with ground modes.</label></li>
-      <li><label><input type="radio" name="sc-w04-q3" value="c"> The same thing as HHI.</label></li>
-      <li><label><input type="radio" name="sc-w04-q3" value="d"> A fixed universal public-acceptance multiplier of 0.7.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 7–8; §6; <a href="formulas.qmd#w04-ed">Formulas · E<sub>d</sub></a>. Acceptance must be an explicit, defended factor (Study checklist 9), not a hidden constant.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w04-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Under a capacity shock, served quantity is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w04-q4" value="a"> Always equal to unconstrained demand Q<sub>d</sub>.</label></li>
-      <li><label><input type="radio" name="sc-w04-q4" value="b"> Q<sub>served</sub> = min{Q<sub>demand</sub>, Q<sub>capacity</sub>}, then linked to Week 3 breakeven / required activity.</label></li>
-      <li><label><input type="radio" name="sc-w04-q4" value="c"> Sandbox first-batch selection counts.</label></li>
-      <li><label><input type="radio" name="sc-w04-q4" value="d"> NASA / AiRMOUR survey totals pasted as Hong Kong demand.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 5; Study checklist 10–12; §9; <a href="formulas.qmd#w04-qserved">Formulas · Q<sub>served</sub></a>. NASA / AiRMOUR / EASA are comparators, not HK demand quotes.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w04.html >}}
 
 ## Week 5 — Sites, capacity, and network cost {#week-05}
 
 Full notes: [Week 5](week-05.qmd) · On-week Self-check: [Week 5 · Self-check](week-05.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w05" data-week="05">
-  <p class="selfcheck-intro">Four questions from Week 5 learning objectives, the Study checklist, and named formulas (generalized site cost, reliable capacity, breakeven capacity use). No dedicated Hong Kong vertiport statute in these notes; <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q1" data-correct="a">
-    <legend class="selfcheck-stem">1. For a named mission, Week 5 first asks you to identify…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q1" value="a"> The likely binding bottleneck (pads vs aircraft vs charging vs access) — not “drones per minute” alone.</label></li>
-      <li><label><input type="radio" name="sc-w05-q1" value="b"> Which Cap. 448G category creates a statutory vertiport class.</label></li>
-      <li><label><input type="radio" name="sc-w05-q1" value="c"> A single mandatory hub template for all of Hong Kong.</label></li>
-      <li><label><input type="radio" name="sc-w05-q1" value="d"> OHKF HK$350bn as site CAPEX.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1–2; Study checklist 1–2, 5, 12; §§1–3. Classroom archetypes are teaching labels, not HK statutory classes. No dedicated HK vertiport statute in these notes.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q2" data-correct="c">
-    <legend class="selfcheck-stem">2. Generalized site cost in Week 5 includes…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q2" value="a"> Land rent only — access time never matters.</label></li>
-      <li><label><input type="radio" name="sc-w05-q2" value="b"> Only the Sandbox X application fee.</label></li>
-      <li><label><input type="radio" name="sc-w05-q2" value="c"> Annualized infrastructure cost + annual OPEX + monetized access burden — cheap remote land can still destroy Week 4 mode share.</label></li>
-      <li><label><input type="radio" name="sc-w05-q2" value="d"> U-space charges under Hong Kong law.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 3–4; <a href="formulas.qmd#w05-site">Formulas · generalized site cost</a>. U-space ≠ HK law.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Reliable capacity vs theoretical throughput means…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q3" value="a"> Separate theoretical throughput from reliable capacity; breakeven capacity use must confront Week 4 served demand.</label></li>
-      <li><label><input type="radio" name="sc-w05-q3" value="b"> They are always identical in Hong Kong weather.</label></li>
-      <li><label><input type="radio" name="sc-w05-q3" value="c"> Peak slot fees may ignore priority services.</label></li>
-      <li><label><input type="radio" name="sc-w05-q3" value="d"> A 20% downtime figure is stated as a Hong Kong weather fact.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 5–8; §§4–6. Downtime examples are classroom stresses — not “HK weather fact.” Slot rules must protect priority services (Learning objective 4).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w05-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Hub vs distributed network design in these notes is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w05-q4" value="a"> A predetermined legal template for Hong Kong.</label></li>
-      <li><label><input type="radio" name="sc-w05-q4" value="b"> Compared via GC per served trip and related cost bundles as <em>hypotheses</em> — rankings can reverse; EASA / Shenzhen Chapter 2 / OHKF are comparators / think-tank / GBA law, not Cap. 448G.</label></li>
-      <li><label><input type="radio" name="sc-w05-q4" value="c"> Proven by Sandbox first-batch “38 of 72” alone.</label></li>
-      <li><label><input type="radio" name="sc-w05-q4" value="d"> The same as Bertrand P = MC under unconstrained pads.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 5; Study checklist 11–12; § network design. Keep programme facts separate from network choice.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w05.html >}}
 
 ## Week 6 — Partnerships and payment rules {#week-06}
 
 Full notes: [Week 6](week-06.qmd) · On-week Self-check: [Week 6 · Self-check](week-06.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w06" data-week="06">
-  <p class="selfcheck-intro">Four questions from Week 6 learning objectives, the Study checklist, and named formulas (monthly economic profit, R<sub>U</sub> / R<sub>A</sub>, shared facility cost). A PPP does not invent demand, statute, or permissions. <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q1" data-correct="a">
-    <legend class="selfcheck-stem">1. Asset-intensive, service-based, and platform-oriented models are compared in Week 6 mainly on…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q1" value="a"> Control, capital intensity, and dependency — “asset-light” does not erase performance or liability risk.</label></li>
-      <li><label><input type="radio" name="sc-w06-q1" value="b"> Which model automatically waives Cap. 448G.</label></li>
-      <li><label><input type="radio" name="sc-w06-q1" value="c"> Which model maximises Sandbox X modules.</label></li>
-      <li><label><input type="radio" name="sc-w06-q1" value="d"> Whether U-space is Hong Kong law.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–3; §§2–3. Monthly economic-profit screen: <a href="formulas.qmd#w06-econ-profit">Formulas · Week 6</a>.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q2" data-correct="d">
-    <legend class="selfcheck-stem">2. A public–private partnership (PPP) value-for-money test…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q2" value="a"> Guarantees demand and creates Cap. 448G permissions by contract alone.</label></li>
-      <li><label><input type="radio" name="sc-w06-q2" value="b"> Is identical to Sandbox X selection.</label></li>
-      <li><label><input type="radio" name="sc-w06-q2" value="c"> Removes the need for KPIs and deductions.</label></li>
-      <li><label><input type="radio" name="sc-w06-q2" value="d"> Asks whether the partnership structure improves value vs alternatives — it does <em>not</em> invent demand, statute, or permissions.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 2; Study checklist 4; § PPP discussion. Payment mechanisms and KPIs still align quality, affordability, and viability (Learning objective 3).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q3" data-correct="c">
-    <legend class="selfcheck-stem">3. In the availability-based component R<sub>A</sub> = A − D + u × q…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q3" value="a"> Deductions D never matter once A is set.</label></li>
-      <li><label><input type="radio" name="sc-w06-q3" value="b"> R<sub>A</sub> equals HHI.</label></li>
-      <li><label><input type="radio" name="sc-w06-q3" value="c"> Availability can flip a loss to a profit sketch — then deductions can wipe that gain; define A, D, u, and q explicitly.</label></li>
-      <li><label><input type="radio" name="sc-w06-q3" value="d"> R<sub>A</sub> is a Cap. 448G mandatory tariff.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 5–6; <a href="formulas.qmd#w06-ra">Formulas · R<sub>A</sub></a>. Usage-based R<sub>U</sub> = p × q is the companion identity.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w06-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Shared-pad co-opetition in Week 6 means…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w06-q4" value="a"> Operators merge into one firm so competition disappears.</label></li>
-      <li><label><input type="radio" name="sc-w06-q4" value="b"> Separate cooperation (shared facility) from competition (service); facility cost per movement ≠ operator ticket cost; draft term-sheet rows with risk owner and KPI/relief.</label></li>
-      <li><label><input type="radio" name="sc-w06-q4" value="c"> Sandbox first-batch participation replaces a term sheet.</label></li>
-      <li><label><input type="radio" name="sc-w06-q4" value="d"> Corridor policy language is day-to-day operating service.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 8–12; §§ shared pads / term sheet. Keep Sandbox ≠ Sandbox X (38 of 72); corridor ≠ day-to-day service.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w06.html >}}
 
 ## Week 7 — Readiness, trials, and risk cost {#week-07}
 
 Full notes: [Week 7](week-07.qmd) · On-week Self-check: [Week 7 · Self-check](week-07.qmd#self-check) · 5 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w07" data-week="07">
-  <p class="selfcheck-intro">Five questions from Week 7 learning objectives, the Study checklist, and named formulas (readiness / compliance appraisal). Cap. <strong>448G</strong> risk-based SUA facts; <strong>Sandbox ≠ Sandbox X</strong>; <strong>AC-013 ≠ AC-017</strong>; <strong>U-space ≠ HK law</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q1" data-correct="a">
-    <legend class="selfcheck-stem">1. Cap. 448G in these notes is framed as…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q1" value="a"> A risk-based small unmanned aircraft framework (full effect 1 Dec 2022; Cat C ≤150 kg from July 2025 in the notes’ tracked facts) — not a waiver of safety duties.</label></li>
-      <li><label><input type="radio" name="sc-w07-q1" value="b"> Identical to EU U-space and automatically Hong Kong law under that name.</label></li>
-      <li><label><input type="radio" name="sc-w07-q1" value="c"> A vertiport construction code that replaces CAD permissions.</label></li>
-      <li><label><input type="radio" name="sc-w07-q1" value="d"> A GBA customs tariff for eVTOL tickets.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 3; Week 7 policy sections. U-space ≠ HK law (Study checklist 9).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q2" data-correct="b">
-    <legend class="selfcheck-stem">2. Which pair correctly separates sandbox instruments?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q2" value="a"> Sandbox and Sandbox X are two names for one programme.</label></li>
-      <li><label><input type="radio" name="sc-w07-q2" value="b"> Keep Sandbox ≠ Sandbox X; AC-013 addresses BVLOS in the first Sandbox context; AC-017 addresses Sandbox X cross-boundary — cite first-batch 38 of 72 without inventing commercial rights.</label></li>
-      <li><label><input type="radio" name="sc-w07-q2" value="c"> AC-017 replaces Cap. 448G entirely.</label></li>
-      <li><label><input type="radio" name="sc-w07-q2" value="d"> First-batch 38 of 72 equals Sandbox X’s 33 modules.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 4–5; Learning objective 1–2. Programme facts stay with issuers / Key figures — no invented commercial rights from selection counts.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Net readiness value (classroom) is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q3" value="a"> Contribution earned during the lead period minus additional compliance and launch cost — a shorter lead can destroy it.</label></li>
-      <li><label><input type="radio" name="sc-w07-q3" value="b"> Always increased by skipping evidence gates.</label></li>
-      <li><label><input type="radio" name="sc-w07-q3" value="c"> Equal to OHKF HK$350bn.</label></li>
-      <li><label><input type="radio" name="sc-w07-q3" value="d"> The same as Bertrand P = MC.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 1–2; <a href="formulas.qmd#w07-readiness">Formulas · net readiness value</a>. Compliance appraisal uses approval probability and delay cost (<a href="formulas.qmd#w07-comp">Formulas · compliance</a>).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. A safety case in Week 7 is for…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q4" value="a"> Any undefined “drone industry” in the abstract.</label></li>
-      <li><label><input type="radio" name="sc-w07-q4" value="b"> A <em>defined</em> operation — map permission vs operator/pilot vs airworthiness vs site approval; risk cost includes prevention, insurance, and retained expected loss.</label></li>
-      <li><label><input type="radio" name="sc-w07-q4" value="c"> Automatically removing insurability concerns.</label></li>
-      <li><label><input type="radio" name="sc-w07-q4" value="d"> Proving a GBA corridor is already day-to-day service.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 6, 8; risk-cost identity on Formulas. Corridor remains not day-to-day operating service on tracked evidence (Study checklist 12).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w07-q5" data-correct="b">
-    <legend class="selfcheck-stem">5. Digital traffic-management / coordination in Week 7…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w07-q5" value="a"> Means U-space is already Hong Kong statute.</label></li>
-      <li><label><input type="radio" name="sc-w07-q5" value="b"> May support safe scalable operations; daily coordination cost is a teaching identity — still <strong>U-space ≠ HK law</strong>; score pathways with transparent weights, no “fastest jurisdiction” claim.</label></li>
-      <li><label><input type="radio" name="sc-w07-q5" value="c"> Replaces Cap. 448G categories.</label></li>
-      <li><label><input type="radio" name="sc-w07-q5" value="d"> Is identical to Sandbox X module totals.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 9–11; <a href="formulas.qmd#w07-coord">Formulas · daily coordination cost</a>. Phased roadmap with evidence gates that rewrite contracts.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w07.html >}}
 
 ## Week 8 — Congestion, slots, and roadmap NPV {#week-08}
 
 Full notes: [Week 8](week-08.qmd) · On-week Self-check: [Week 8 · Self-check](week-08.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w08" data-week="08">
-  <p class="selfcheck-intro">Four questions from Week 8 learning objectives, the Study checklist, and named formulas (S<sub>delay</sub> / MCC, B<sub>max</sub>, S<sub>day</sub>). Capacity is a whole-system concept; <strong>Sandbox ≠ Sandbox X</strong>; <strong>U-space ≠ HK law</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w08-q1" data-correct="b">
-    <legend class="selfcheck-stem">1. Safe operating capacity in Week 8 is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w08-q1" value="a"> Only “drones per minute” on one pad.</label></li>
-      <li><label><input type="radio" name="sc-w08-q1" value="b"> A whole-system concept linking demand, sites, permissions, and allocation rules — separate Cap. 448G height bands from the ~1,000 m policy working description.</label></li>
-      <li><label><input type="radio" name="sc-w08-q1" value="c"> Equal to invented Harbour corridor capacity in these notes.</label></li>
-      <li><label><input type="radio" name="sc-w08-q1" value="d"> Identical to Sandbox X’s 33 modules.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–3. No invented Harbour corridor capacity. Height-band vs policy-band guard continues from Week 1.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w08-q2" data-correct="a">
-    <legend class="selfcheck-stem">2. Marginal congestion cost (MCC) in the classroom sketch is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w08-q2" value="a"> S<sub>delay</sub> = Σ (D<sub>j</sub> × v<sub>j</sub>), then MCC = S<sub>delay</sub> + C<sub>other</sub> — a delay externality aid for allocation design.</label></li>
-      <li><label><input type="radio" name="sc-w08-q2" value="b"> Always equal to the ticket fare.</label></li>
-      <li><label><input type="radio" name="sc-w08-q2" value="c"> A Cap. 448G mandatory noise fine schedule.</label></li>
-      <li><label><input type="radio" name="sc-w08-q2" value="d"> HHI computed from pad shares.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 4; <a href="formulas.qmd#w08-mcc">Formulas · MCC</a>. Compare queue / posted price / auction / package / priority on design criteria (Study checklist 5).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w08-q3" data-correct="b">
-    <legend class="selfcheck-stem">3. An operator’s maximum affordable slot payment B<sub>max</sub> is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w08-q3" value="a"> Always the social value of the flight.</label></li>
-      <li><label><input type="radio" name="sc-w08-q3" value="b"> B<sub>max</sub> = R<sub>Δ</sub> − C<sub>Δ</sub> − π<sub>req</sub> — incremental revenue minus incremental cost minus required contribution; a high bid ≠ high social value.</label></li>
-      <li><label><input type="radio" name="sc-w08-q3" value="c"> OFCA spectrum fees only.</label></li>
-      <li><label><input type="radio" name="sc-w08-q3" value="d"> Zero when linked slots fail — so the flight should proceed unsafe.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 6–7; <a href="formulas.qmd#w08-bmax">Formulas · B<sub>max</sub></a>. Linked-slot failure → reject/reschedule, not unsafe flight.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w08-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Which digital / programme statement matches Week 8?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w08-q4" value="a"> U-space is Hong Kong law; OFCA 1.4 GHz Sandbox confinement may be ignored.</label></li>
-      <li><label><input type="radio" name="sc-w08-q4" value="b"> U-space ≠ HK law; S<sub>day</sub> = C<sub>legacy</sub> − C<sub>interop</sub>; cite OFCA 1.4 GHz Sandbox confinement and AC-017 Sandbox X scope correctly; keep Sandbox ≠ Sandbox X.</label></li>
-      <li><label><input type="radio" name="sc-w08-q4" value="c"> Network effects are identical to simple economies of scale.</label></li>
-      <li><label><input type="radio" name="sc-w08-q4" value="d"> Week 5 site slots and Week 7 permissions are unrelated to airspace allocation.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 8–12; <a href="formulas.qmd#w08-sday">Formulas · S<sub>day</sub></a>. Connect site slots and permissions to this week’s allocation.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w08.html >}}
 
 ## Week 9 — Funnel, contribution, and scenarios {#week-09}
 
 Full notes: [Week 9](week-09.qmd) · On-week Self-check: [Week 9 · Self-check](week-09.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w09" data-week="09">
-  <p class="selfcheck-intro">Four questions from Week 9 learning objectives, the Study checklist, and named formulas (SAM / D<sub>pot</sub> / D<sub>served</sub>, E[Π], hedonic sketch). OHKF <strong>HK$350bn</strong> = Hong Kong industry <em>value added</em> by 2050 (think-tank). <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w09-q1" data-correct="a">
-    <legend class="selfcheck-stem">1. A transparent market-size estimate in Week 9 starts by…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w09-q1" value="a"> Defining service, OD, customer, and period — then SAM = TAM × e, D<sub>pot</sub> = SAM × s, and D<sub>served</sub> with explicit capacity K.</label></li>
-      <li><label><input type="radio" name="sc-w09-q1" value="b"> Taking “all trips to the airport” as the market without a defined use case.</label></li>
-      <li><label><input type="radio" name="sc-w09-q1" value="c"> Equating TAM with served revenue.</label></li>
-      <li><label><input type="radio" name="sc-w09-q1" value="d"> Pasting Mainland 规模 totals as Hong Kong GDP.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1–2; Study checklist 1–2; <a href="formulas.qmd#w09-funnel">Formulas · market funnel</a>. Separate revenue, contribution, profit, value added, and social benefit (Study checklist 3).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w09-q2" data-correct="c">
-    <legend class="selfcheck-stem">2. When these notes quote about HK$350 billion in Week 9…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w09-q2" value="a"> It is an HKSAR binding spending commitment.</label></li>
-      <li><label><input type="radio" name="sc-w09-q2" value="b"> It equals one corridor’s ticket revenue today.</label></li>
-      <li><label><input type="radio" name="sc-w09-q2" value="c"> Attribute it to OHKF as Hong Kong LAE industry <em>value added</em> by 2050 (private think-tank) — not operator revenue and not automatic GDP.</label></li>
-      <li><label><input type="radio" name="sc-w09-q2" value="d"> It is a CAD carbon-tax forecast.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 7; Learning objective 2; Key figures / Week 1 attribution rule reused. Distinct from operator revenue and social benefit.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w09-q3" data-correct="d">
-    <legend class="selfcheck-stem">3. Stress-testing in Week 9 includes…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w09-q3" value="a"> One hidden multi-haircut that replaces scenarios.</label></li>
-      <li><label><input type="radio" name="sc-w09-q3" value="b"> Treating Sandbox selection counts as probability weights.</label></li>
-      <li><label><input type="radio" name="sc-w09-q3" value="c"> Assuming aviation-noise hedonic coefficients transfer mechanically to HK drones.</label></li>
-      <li><label><input type="radio" name="sc-w09-q3" value="d"> Scenario tables with E[Π] = Σ Pr(s) Π<sub>s</sub> and Pr(Π &lt; 0); Monte Carlo cannot fix weak distributions.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 5–6, 10; <a href="formulas.qmd#w09-ev">Formulas · E[Π]</a>. No mechanical transfer of aviation-noise coefficients (Study checklist 10).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w09-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Hedonic analysis in the classroom sketch…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w09-q4" value="a"> Proves causation from any noise coefficient β automatically.</label></li>
-      <li><label><input type="radio" name="sc-w09-q4" value="b"> Uses an illustrative ln(P<sub>i</sub>) specification; β is not automatic causation — fill access / exposure / opportunity / fiscal / public-service rows and name who pays for mitigation.</label></li>
-      <li><label><input type="radio" name="sc-w09-q4" value="c"> Replaces Cap. 448G.</label></li>
-      <li><label><input type="radio" name="sc-w09-q4" value="d"> Is identical to CASK.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 8–9, 12; <a href="formulas.qmd#w09-hedonic">Formulas · hedonic</a>.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w09.html >}}
 
 ## Week 10 — Noise, privacy, emissions, and public service {#week-10}
 
 Full notes: [Week 10](week-10.qmd) · On-week Self-check: [Week 10 · Self-check](week-10.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w10" data-week="10">
-  <p class="selfcheck-intro">Four questions from Week 10 learning objectives, the Study checklist, and named formulas (MEC<sub>noise</sub>, C<sub>priv</sub>, e<sub>op</sub>, e<sub>FU</sub>). “Electric” ≠ zero life-cycle emissions, quietness, privacy, or equity. <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w10-q1" data-correct="c">
-    <legend class="selfcheck-stem">1. An externality in Week 10 is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w10-q1" value="a"> Any private operating cost already paid by the operator.</label></li>
-      <li><label><input type="radio" name="sc-w10-q1" value="b"> Automatically priced by Cap. 448G.</label></li>
-      <li><label><input type="radio" name="sc-w10-q1" value="c"> A cost or benefit imposed on others outside the market transaction — give negative and positive LAE examples; “electric” does not imply zero life-cycle emissions or quietness.</label></li>
-      <li><label><input type="radio" name="sc-w10-q1" value="d"> Identical to CASK.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–2; §2. Policy responses include pricing, restrictions, standards, mitigation, and compensation (Learning objective 2).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w10-q2" data-correct="a">
-    <legend class="selfcheck-stem">2. The efficient noise-charge benchmark C*<sub>noise</sub> = MEC<sub>noise</sub> means…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w10-q2" value="a"> Set the charge to marginal external cost of noise as an economic benchmark — “flights × dB × $” is called out as wrong; figures in worked examples stay illustrative.</label></li>
-      <li><label><input type="radio" name="sc-w10-q2" value="b"> Charge = flights × dB above limit × $ as a correct statutory formula in these notes.</label></li>
-      <li><label><input type="radio" name="sc-w10-q2" value="c"> CAD already levies this as a named carbon tax.</label></li>
-      <li><label><input type="radio" name="sc-w10-q2" value="d"> AiRMOUR is an OEM brand that sets the charge.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 3–4, 6; <a href="formulas.qmd#w10-noise">Formulas · noise</a>. Separate appraisal carbon dials from any claimed CAD carbon tax. AiRMOUR is a closed EU research action — not an OEM brand (Study checklist 9).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w10-q3" data-correct="d">
-    <legend class="selfcheck-stem">3. Operational electricity emissions e<sub>op</sub> are…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w10-q3" value="a"> Always zero for electric aircraft.</label></li>
-      <li><label><input type="radio" name="sc-w10-q3" value="b"> Identical to privacy-control cost C<sub>priv</sub>.</label></li>
-      <li><label><input type="radio" name="sc-w10-q3" value="c"> Sandbox X’s environmental score.</label></li>
-      <li><label><input type="radio" name="sc-w10-q3" value="d"> e<sub>op</sub> = E<sub>kWh</sub> × f<sub>grid</sub> — state units and boundary; life-cycle e<sub>FU</sub> adds vehicle, battery, infrastructure, operations, end-of-life over use U.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 7–8; <a href="formulas.qmd#w10-eop">Formulas · e<sub>op</sub></a> and <a href="formulas.qmd#w10-efu">e<sub>FU</sub></a>. Hold functional unit constant when comparing modes.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w10-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Privacy-control cost C<sub>priv</sub> = F<sub>gov</sub> + q v + A…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w10-q4" value="a"> Is optional to ignore for onboard cameras.</label></li>
-      <li><label><input type="radio" name="sc-w10-q4" value="b"> Appraises governance / assurance cost at different assurance levels using necessity and proportionality — then design measurable KPIs (measure, KPI, payer) without inventing a 60 dB rule.</label></li>
-      <li><label><input type="radio" name="sc-w10-q4" value="c"> Equals OHKF value added.</label></li>
-      <li><label><input type="radio" name="sc-w10-q4" value="d"> Waives public-acceptance concerns for all use cases equally.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 5, 9–12; <a href="formulas.qmd#w10-priv">Formulas · C<sub>priv</sub></a>. Segment acceptance by use case; cite Action Plan / Sandbox X language only to the issuer.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w10.html >}}
 
 ## Week 11 — Viability recommendation {#week-11}
 
 Full notes: [Week 11](week-11.qmd) · On-week Self-check: [Week 11 · Self-check](week-11.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w11" data-week="11">
-  <p class="selfcheck-intro">Four questions from Week 11 learning objectives, the Study checklist, and the operating viability test (D<sub>served</sub>, Π<sub>op</sub>). Integrate weeks without inventing corridor capacity; <strong>Sandbox ≠ Sandbox X</strong>; separate AC-013, AC-017, and Policy Address Action Plan.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q1" data-correct="c">
-    <legend class="selfcheck-stem">1. Week 11’s integration challenge is mainly to…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q1" value="a"> Keep demand, capacity, unit economics, infrastructure, contracts, regulation, and sustainability in separate silos.</label></li>
-      <li><label><input type="radio" name="sc-w11-q1" value="b"> Replace analysis with TAM-as-forecast slides.</label></li>
-      <li><label><input type="radio" name="sc-w11-q1" value="c"> Trace one assumption change through demand → capacity → cost → cash flow → legitimacy with consistent units and causal links.</label></li>
-      <li><label><input type="radio" name="sc-w11-q1" value="d"> Treat Sandbox X as a safety waiver.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1–2; Study checklist 1; §§1–2. Weak-evidence habits (TAM-as-forecast, multi-haircut, hidden downside) are called out (Study checklist 9).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q2" data-correct="a">
-    <legend class="selfcheck-stem">2. The operating viability test identities include…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q2" value="a"> D<sub>served</sub> = min{D, K} and Π<sub>op</sub> = (p − v) D<sub>served</sub> − F — recomputed under capacity shocks with fixed D.</label></li>
-      <li><label><input type="radio" name="sc-w11-q2" value="b"> D<sub>served</sub> always equals unconstrained TAM.</label></li>
-      <li><label><input type="radio" name="sc-w11-q2" value="c"> Π<sub>op</sub> equals OHKF HK$350bn.</label></li>
-      <li><label><input type="radio" name="sc-w11-q2" value="d"> Viability ignores non-financial decision criteria.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 2–3; <a href="formulas.qmd#w11-viability">Formulas · Week 11 viability</a>. Also use cash flow, NPV, downside, and non-financial criteria.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q3" data-correct="b">
-    <legend class="selfcheck-stem">3. Which regulatory / programme hygiene matches Week 11?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q3" value="a"> Merge Sandbox, Sandbox X, AC-013, AC-017, and the Policy Address Action Plan into one label.</label></li>
-      <li><label><input type="radio" name="sc-w11-q3" value="b"> Keep Sandbox ≠ Sandbox X; separate AC-013, AC-017, and Policy Address Action Plan (OPEN on the tracker as applicable) — do not invent corridor capacity.</label></li>
-      <li><label><input type="radio" name="sc-w11-q3" value="c"> OHKF value added, operator revenue, and social benefit are interchangeable.</label></li>
-      <li><label><input type="radio" name="sc-w11-q3" value="d"> Rejection is never a rigorous recommendation.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 4–5, 10, 12. Distinguish OHKF value added, operator revenue, and social benefit (Week 9). Proceed / stage / redesign / relocate / <strong>reject</strong> are all valid calls.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w11-q4" data-correct="d">
-    <legend class="selfcheck-stem">4. A strong 12-minute decision pitch in Week 11 should…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w11-q4" value="a"> End only with “please approve,” without stop/expand conditions.</label></li>
-      <li><label><input type="radio" name="sc-w11-q4" value="b"> Hide the risk register from the slides.</label></li>
-      <li><label><input type="radio" name="sc-w11-q4" value="c"> Use multi-haircut demand as the only evidence.</label></li>
-      <li><label><input type="radio" name="sc-w11-q4" value="d"> Answer decision-maker lenses, show sensitivity / downside, put one Week 10 externality into a cash-flow or capacity channel, and close with stop/expand (or reject) conditions.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 6–8, 11; twelve-slide template §§. Risk-register rows name a model channel and a decision trigger.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w11.html >}}
 
 ## Week 12 — Networks, digital coordination, and leasing {#week-12}
 
 Full notes: [Week 12](week-12.qmd) · On-week Self-check: [Week 12 · Self-check](week-12.qmd#self-check) · 4 questions.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w12" data-week="12">
-  <p class="selfcheck-intro">Four questions from Week 12 learning objectives, the Study checklist, and named formulas (L = N(N−1)/2, S<sub>net</sub>, lessor CF / NPV). More links ≠ automatic demand; OHKF <strong>HK$350bn</strong> attribution unchanged; <strong>Sandbox ≠ Sandbox X</strong>; CAAC ATM Rules on Readings = draft consultation only.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w12-q1" data-correct="c">
-    <legend class="selfcheck-stem">1. Possible undirected network links L = N(N−1)/2 mean…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w12-q1" value="a"> L is the same as forecast passenger demand.</label></li>
-      <li><label><input type="radio" name="sc-w12-q1" value="b"> A Cap. 448G right to operate every link.</label></li>
-      <li><label><input type="radio" name="sc-w12-q1" value="c"> Counting possible connections — L is not demand; screening a classroom share of links is not a GBA forecast.</label></li>
-      <li><label><input type="radio" name="sc-w12-q1" value="d"> Sandbox X’s module total.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–2; <a href="formulas.qmd#w12-links">Formulas · L</a>; §2.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w12-q2" data-correct="a">
-    <legend class="selfcheck-stem">2. Digital-coordination net saving S<sub>net</sub> is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w12-q2" value="a"> S<sub>net</sub> = C<sub>legacy</sub> − C<sub>dig</sub> − C<sub>trans</sub> — still subject to non-cost pass/fail criteria; a premium cut after “better evidence” is not automatic.</label></li>
-      <li><label><input type="radio" name="sc-w12-q2" value="b"> Automatic proof that U-space is Hong Kong law.</label></li>
-      <li><label><input type="radio" name="sc-w12-q2" value="c"> Equal to lessor residual risk disappearing.</label></li>
-      <li><label><input type="radio" name="sc-w12-q2" value="d"> Identical to HHI.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 2; Study checklist 3–4; <a href="formulas.qmd#w12-snet">Formulas · S<sub>net</sub></a>.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w12-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Hong Kong service-role / leasing appraisal in Week 12…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w12-q3" value="a"> Uses lessor CF<sub>L,t</sub> and NPV identities; residual and credit risks remain; possible roles include financing, leasing, insurance, professional services, and data-enabled assurance.</label></li>
-      <li><label><input type="radio" name="sc-w12-q3" value="b"> Erases residual and credit risk once a lease is signed.</label></li>
-      <li><label><input type="radio" name="sc-w12-q3" value="c"> Treats OHKF HK$350bn as lessor ticket revenue.</label></li>
-      <li><label><input type="radio" name="sc-w12-q3" value="d"> Lets Sandbox X bypass legal/safety requirements.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 5–7; <a href="formulas.qmd#w12-lease">Formulas · lease</a>. Sandbox X does not bypass legal/safety requirements.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w12-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. The five-step exam method ends by…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w12-q4" value="a"> Mapping every constraint into many overlapping haircuts at once.</label></li>
-      <li><label><input type="radio" name="sc-w12-q4" value="b"> Recommending conditionally (proceed / pause / redesign / stop) with the evidence that would change the call — after defining the decision, finding served activity, calculating viability, and mapping each constraint to a single channel.</label></li>
-      <li><label><input type="radio" name="sc-w12-q4" value="c"> Treating CAAC ATM Rules on Readings as already in force in Hong Kong.</label></li>
-      <li><label><input type="radio" name="sc-w12-q4" value="d"> Ignoring capacity + noise-charge shocks to Π<sub>op</sub>.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 8–12; §5. Recompute D<sub>served</sub> and Π<sub>op</sub> under shocks; CAAC ATM Rules = draft consultation only.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w12.html >}}
 
 ## Where else to look
 

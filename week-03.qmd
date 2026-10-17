@@ -995,56 +995,7 @@ The short checklist is in [Summary](#summary) above.
 
 Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
 
-```{=html}
-<div class="selfcheck" id="selfcheck-w03" data-week="03">
-  <p class="selfcheck-intro">Four questions from Week 3 learning objectives, the Study checklist, and named formulas (CAPEX/OPEX, CASK, breakeven). Keep the <strong>Hong Kong premium</strong> as hypotheses to test; <strong>Sandbox ≠ Sandbox X</strong>.</p>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q1" data-correct="b">
-    <legend class="selfcheck-stem">1. On the Week 3 cost stack, the first discipline is to…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q1" value="a"> Jump straight to CASK before listing cost items.</label></li>
-      <li><label><input type="radio" name="sc-w03-q1" value="b"> Separate CAPEX, recurring fixed OPEX, and activity-related variable cost — and remember certification cash is not automatically CAPEX.</label></li>
-      <li><label><input type="radio" name="sc-w03-q1" value="c"> Treat all Hong Kong costs as a fixed universal multiplier over GBA peers.</label></li>
-      <li><label><input type="radio" name="sc-w03-q1" value="d"> Equate CASK with profit per passenger.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–2, 4; §§2–3. Hong Kong premium is a hypothesis, not a universal multiplier. CASK is cost per available seat-km offered — not proof of profit (<a href="formulas.qmd#w03-cask">Formulas · CASK</a>).</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q2" data-correct="a">
-    <legend class="selfcheck-stem">2. CASK (cost per available seat-kilometre) is…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q2" value="a"> Operating cost ÷ (available seats × kilometres flown) — cost per seat-km <em>offered</em>, whether sold or empty.</label></li>
-      <li><label><input type="radio" name="sc-w03-q2" value="b"> Ticket revenue ÷ revenue passenger-kilometres only.</label></li>
-      <li><label><input type="radio" name="sc-w03-q2" value="c"> The Cap. 448G statutory charge per kilometre.</label></li>
-      <li><label><input type="radio" name="sc-w03-q2" value="d"> Identical to cost per mission-kilometre for cargo.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Study checklist 5–6; §4; <a href="formulas.qmd#w03-cask">Formulas · CASK</a>. Mission-km is a different unit for cargo / public service. CASK does not by itself prove commercial viability.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q3" data-correct="a">
-    <legend class="selfcheck-stem">3. Breakeven units in the Week 3 classroom identity are…</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q3" value="a"> Fixed cost ÷ (revenue per unit − variable cost per unit), then confronted with physical capacity.</label></li>
-      <li><label><input type="radio" name="sc-w03-q3" value="b"> Always equal to Sandbox X module counts.</label></li>
-      <li><label><input type="radio" name="sc-w03-q3" value="c"> Maximising load factor alone, even if contribution falls.</label></li>
-      <li><label><input type="radio" name="sc-w03-q3" value="d"> CAPEX ÷ ticket price, ignoring variable cost.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 8–9; §7; <a href="formulas.qmd#w03-be">Formulas · Breakeven</a>. Maximising load factor alone can destroy contribution (revenue-per-flight identity). Results must confront capacity.</div>
-  </fieldset>
-
-  <fieldset class="selfcheck-q" id="sc-w03-q4" data-correct="b">
-    <legend class="selfcheck-stem">4. Which revenue-model statement matches Week 3?</legend>
-    <ul class="selfcheck-options">
-      <li><label><input type="radio" name="sc-w03-q4" value="a"> Pay-per-use, subscription, availability-based, and complementary models all place usage risk on the same party.</label></li>
-      <li><label><input type="radio" name="sc-w03-q4" value="b"> Compare models on predictability and who bears usage risk — availability payments can flip a loss to a profit sketch, but are not free insurance.</label></li>
-      <li><label><input type="radio" name="sc-w03-q4" value="c"> Weather downtime has no channel into required activity.</label></li>
-      <li><label><input type="radio" name="sc-w03-q4" value="d"> NASA UAM framing is a Hong Kong cost quote you may paste into CASK.</label></li>
-    </ul>
-    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 7, 11–12; §§5, 8. Weather loss channels and hedge limitations are explicit. NASA / CAAC materials are comparators / readings, not HK cost quotes.</div>
-  </fieldset>
-
-</div>
-```
+{{< include _includes/selfcheck-w03.html >}}
 
 ---
 

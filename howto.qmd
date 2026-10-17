@@ -92,10 +92,10 @@ Handy Glossary links when a term appears:
 
 Formulas, tables, figures, readings, and Self-check quizzes collected from the week notes.
 
-- [Formulas](formulas.qmd) — named teaching identities from the week notes (cheat sheet).
-- [Tables](tables.qmd) — named teaching tables from the week notes (cheat sheet).
-- [Figures](figures.qmd) — teaching diagrams from the week notes (cheat sheet).
-- [Readings](readings.qmd) — documents listed on the week notes (cheat sheet).
+- [Formulas](formulas.qmd) — named teaching identities from the week notes.
+- [Tables](tables.qmd) — named teaching tables from the week notes.
+- [Figures](figures.qmd) — teaching diagrams from the week notes.
+- [Readings](readings.qmd) — documents listed on the week notes.
 - [Self-check](quizzes.qmd) — practice questions from Weeks 1–12 (same MCQs as on each week page).
 
 ## Official facts

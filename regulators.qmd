@@ -1,6 +1,6 @@
 ---
 title: "Who decides what?"
-subtitle: "Regulator cheat sheet for LAE students"
+subtitle: "Regulator roles for LAE students"
 as_of: "2026-10-11"
 page-layout: article
 toc: true
