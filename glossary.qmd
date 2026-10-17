@@ -21,7 +21,6 @@ Captions list sources; entries start at [Hong Kong institutions and law](#hong-k
 ### Who regulates what
 
 ```{mermaid}
-%%| column: page
 %%{init: {"flowchart": {"curve": "basis", "nodeSpacing": 18, "rankSpacing": 45, "padding": 10}}}%%
 flowchart LR
     subgraph ML["Mainland (comparator)"]
@@ -127,7 +126,6 @@ Boxes are in height order but not to scale; Hong Kong metre figures are conversi
 ### Weight ladder (Cap. 448G)
 
 ```{mermaid}
-%%| column: page
 %%{init: {"flowchart": {"nodeSpacing": 14, "rankSpacing": 30, "padding": 8, "wrappingWidth": 400}}}%%
 flowchart LR
     subgraph SA1[" "]
@@ -184,7 +182,6 @@ Each step adds to the ones on its left. A Category A1 flight that does not meet 
 ### Line of sight and permissions
 
 ```{mermaid}
-%%| column: page
 %%{init: {"flowchart": {"nodeSpacing": 24, "rankSpacing": 60, "padding": 10, "wrappingWidth": 400}}}%%
 flowchart LR
     V["<b>VLOS</b> 視線內操作<br/>direct, unaided sight kept by the<br/>remote pilot and/or a visual observer<br/><b>at the same location</b>"]
@@ -220,7 +217,6 @@ The mapping is not one-to-one: a VLOS flight still needs permission and an Advan
 ### Term families
 
 ```{mermaid}
-%%| column: page
 %%{init: {"flowchart": {"nodeSpacing": 22, "rankSpacing": 40, "padding": 10, "wrappingWidth": 400}}}%%
 flowchart TB
     subgraph AV["Aviation terms"]

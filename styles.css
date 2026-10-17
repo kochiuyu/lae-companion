@@ -1373,3 +1373,21 @@ body.page-prose .wdiag.wdiag-text {
     max-width: 46rem;
   }
 }
+
+
+/* ============================================================
+   page-prose × Quarto column:page guard
+   %%| column: page adds .page-columns.page-full on <main>, which
+   turns #quarto-document-content into Quarto's nested page grid.
+   Children then land in body-content (minmax ~500px) inside an
+   already-capped 46rem main → prose looks much narrower than
+   Formulas / other page-prose hubs. Kill the nested grid so
+   measure stays 46/48rem; diagrams still max at 100% of main.
+   ============================================================ */
+body.page-prose #quarto-document-content.page-columns {
+  display: block;
+}
+body.page-prose #quarto-document-content.page-columns > .page-columns,
+body.page-prose #quarto-document-content .column-page {
+  max-width: 100%;
+}
