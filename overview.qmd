@@ -55,7 +55,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 .omap-cap{color:var(--muted);margin:0 0 .75rem;font-size:.88rem}
 .omap-flow{display:flex;flex-direction:column;gap:.55rem;align-items:stretch;max-width:52rem}
 .omap-stage{background:var(--beige);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:8px;padding:.55rem .85rem .7rem}
-.omap-stage h3{margin:0 0 .45rem;font-size:1rem;color:var(--navy);font-weight:600}
+.omap-stage-title{margin:0 0 .45rem;font-size:1rem;color:var(--navy);font-weight:600;line-height:1.35}
 .omap-stage ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.35rem}
 .omap-stage li{margin:0}
 .omap-stage a{display:block;background:#fff;border:1px solid var(--line);border-radius:6px;padding:.4rem .65rem;color:var(--ink);text-decoration:none;line-height:1.35}
@@ -69,7 +69,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 <p class="omap-cap">Week topics from the course schedule / Readings, grouped by how the outline builds.</p>
 <div class="omap-flow">
 <section class="omap-stage" aria-labelledby="omap-b">
-<h3 id="omap-b">Weeks 1–3 · Building blocks</h3>
+<p class="omap-stage-title" id="omap-b">Weeks 1–3 · Building blocks</p>
 <ol>
 <li><a href="week-01.qmd"><span class="wk">Week 1</span> Introduction to LAE</a></li>
 <li><a href="week-02.qmd"><span class="wk">Week 2</span> LAE Market Structure and Competition</a></li>
@@ -78,7 +78,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 </section>
 <div class="omap-arrow" aria-hidden="true">↓</div>
 <section class="omap-stage" aria-labelledby="omap-e">
-<h3 id="omap-e">Weeks 4–6 · Extend the use case</h3>
+<p class="omap-stage-title" id="omap-e">Weeks 4–6 · Extend the use case</p>
 <ol>
 <li><a href="week-04.qmd"><span class="wk">Week 4</span> Demand Modeling in Urban Air Mobility</a></li>
 <li><a href="week-05.qmd"><span class="wk">Week 5</span> Infrastructure Economics and Management</a></li>
@@ -87,7 +87,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 </section>
 <div class="omap-arrow" aria-hidden="true">↓</div>
 <section class="omap-stage" aria-labelledby="omap-a">
-<h3 id="omap-a">Weeks 7–10 · Add policy layers</h3>
+<p class="omap-stage-title" id="omap-a">Weeks 7–10 · Add policy layers</p>
 <ol>
 <li><a href="week-07.qmd"><span class="wk">Week 7</span> LAE Policy and Regulation</a></li>
 <li><a href="week-08.qmd"><span class="wk">Week 8</span> Airspace Access and Integration</a></li>
@@ -97,7 +97,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 </section>
 <div class="omap-arrow" aria-hidden="true">↓</div>
 <section class="omap-stage" aria-labelledby="omap-s">
-<h3 id="omap-s">Weeks 11–12 · Synthesize</h3>
+<p class="omap-stage-title" id="omap-s">Weeks 11–12 · Synthesize</p>
 <ol>
 <li><a href="week-11.qmd"><span class="wk">Week 11</span> Synthesis and Capstone Group Presentations</a></li>
 <li><a href="week-12.qmd"><span class="wk">Week 12</span> LAE Future Frontiers and Final Review</a></li>
