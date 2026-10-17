@@ -91,6 +91,19 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
 
 
 ```{=html}
+<figure class="wdiag" id="w02-compete" aria-labelledby="w02-compete-title">
+<p class="wdiag-cap" id="w02-compete-title"><strong>Who might compete (question map)</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box"><strong>Same OD / same mission?</strong><br/>Substitute services compete for the same customer trip or payload.</div>
+<div class="wdiag-box"><strong>Same scarce pad / slot?</strong><br/>Rivals may compete for infrastructure even if missions differ.</div>
+<div class="wdiag-box"><strong>Same corridor–time window?</strong><br/>Airspace access can bind before “market share” does (Week 8).</div>
+<div class="wdiag-box fact"><strong>Discipline</strong><br/>Name the market before computing concentration. Classroom HHI shares are illustrative — not Hong Kong firm data.</div>
+</div>
+<p class="wdiag-note">Connects to Week 5 scarce sites and Week 8 airspace allocation.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w02-compete-svg" aria-labelledby="w02-compete-svg-title">
 <p class="wdiag-cap" id="w02-compete-svg-title"><strong>Who might compete — name the market first</strong> — same OD/mission; same scarce pad/slot; same corridor–time window. Discipline: name the market (product + geography + customer + layer) before concentration. Classroom HHI shares are illustrative — not Hong Kong firm data. Sandbox selection ≠ market share. Connects to Week 5 sites and Week 8 airspace.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Three question cards about same mission, same pad, and same corridor-time window, plus a discipline strip to name the market before concentration." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f3-title f3-desc">
@@ -121,7 +134,7 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
   <text x="360" y="290" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Classroom HHI shares are illustrative — not Hong Kong firm data. Sandbox ≠ market share.</text>
 
 </svg>
-<p class="wdiag-note">From Week 2 §2.</p>
+<p class="wdiag-note">From Week 2 §2. SVG upgrade of HTML #w02-compete.</p>
 </figure>
 ```
 
@@ -392,6 +405,22 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
 
 
 ```{=html}
+<figure class="wdiag" id="w02-density" aria-labelledby="w02-density-title">
+<p class="wdiag-cap" id="w02-density-title"><strong>Density feedback (conceptual)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box"><strong>More flights on shared fixed cost</strong><br/>(pad rent, staffing, coordination)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Lower average cost per flight</strong> (when utilization rises)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Stronger position at that site</strong> — if demand and permission hold</div>
+<div class="wdiag-arrow" aria-hidden="true">⚠</div>
+<div class="wdiag-box muted"><strong>Not automatic monopoly</strong><br/>Entry, regulation, rival pads, and congestion can reverse the advantage.</div>
+</div>
+<p class="wdiag-note">Schematic teaching loop — not a forecast of any Hong Kong site.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w02-density-svg" aria-labelledby="w02-density-svg-title">
 <p class="wdiag-cap" id="w02-density-svg-title"><strong>Density feedback — not automatic monopoly</strong> — more flights on shared fixed cost → lower average cost per flight (when utilization rises) → stronger position at that site if demand and permission hold. Entry, regulation, rival pads, and congestion can reverse the advantage. Schematic teaching loop — not a forecast of any Hong Kong site.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Vertical density loop from more flights on shared fixed cost to lower average cost to stronger site position, ending with a warning that this is not an automatic monopoly." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e7-title e7-desc">
@@ -421,7 +450,7 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
   <text x="360" y="344" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Entry · regulation · rival pads · congestion can reverse the advantage</text>
 
 </svg>
-<p class="wdiag-note">From Week 2 §6.</p>
+<p class="wdiag-note">From Week 2 §6. SVG upgrade of HTML #w02-density.</p>
 </figure>
 ```
 

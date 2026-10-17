@@ -142,6 +142,20 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 
 
 ```{=html}
+<figure class="wdiag" id="w09-funnel" aria-labelledby="w09-funnel-title">
+<p class="wdiag-cap" id="w09-funnel-title"><strong>Funnel symbols (Week 9)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box">TAM → eligibility e → SAM</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ Multiply by choice share (s)</div>
+<div class="wdiag-box">D_pot = SAM × s</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box fact">D_served = min{D_pot, K}</div>
+</div>
+<p class="wdiag-note">OHKF HK$350bn is think-tank Hong Kong value added by 2050 — not SOM. Classroom funnel numbers are illustrative.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w09-funnel-svg" aria-labelledby="w09-funnel-svg-title">
 <p class="wdiag-cap" id="w09-funnel-svg-title"><strong>Sizing funnel — TAM to served demand</strong> — TAM × eligibility e → SAM; × choice share s → D_pot; D_served = min{{D_pot, K}}. OHKF <strong>HK$350bn</strong> is a think-tank Hong Kong <strong>industry value-added</strong> projection by 2050 — <strong>not</strong> SOM, not operator revenue, not a government target. Classroom funnel numbers are illustrative. Sandbox selection ≠ market share.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Funnel from TAM through SAM and potential demand to served demand as the minimum of potential demand and capacity K, with a note that OHKF HK$350bn is not SOM." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g1-title g1-desc">
@@ -169,7 +183,7 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
   <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Think-tank Hong Kong industry value-added projection by 2050 — not operator revenue</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §2.</p>
+<p class="wdiag-note">From Week 9 §2. SVG upgrade of HTML #w09-funnel.</p>
 </figure>
 ```
 
@@ -299,6 +313,21 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 
 
 ```{=html}
+<figure class="wdiag" id="w09-channels" aria-labelledby="w09-channels-title">
+<p class="wdiag-cap" id="w09-channels-title"><strong>One constraint → one model channel</strong></p>
+<div class="wdiag-stack cols-3">
+<div class="wdiag-box"><strong>Demand / choice</strong></div>
+<div class="wdiag-box"><strong>Capacity K</strong></div>
+<div class="wdiag-box"><strong>Price / cost</strong></div>
+<div class="wdiag-box"><strong>Timing / launch</strong></div>
+<div class="wdiag-box"><strong>Probability</strong></div>
+<div class="wdiag-box muted"><strong>Avoid</strong><br/>Stacking independent “haircuts” for the same effect</div>
+</div>
+<p class="wdiag-note">NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w09-channels-svg" aria-labelledby="w09-channels-svg-title">
 <p class="wdiag-cap" id="w09-channels-svg-title"><strong>One constraint → one model channel</strong> — demand/choice, capacity K, price/cost, timing/launch, probability. Map weather → serviceable K, acceptance → choice share, tech cost → cost model. Avoid five independent “×0.8” haircuts for the same effect. NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Five model-channel boxes: demand or choice, capacity K, price or cost, timing or launch, and probability. Examples map weather to capacity, acceptance to choice share, and technology cost to the cost model. A warning against stacking independent haircuts." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d2-title d2-desc">
@@ -341,7 +370,7 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">NASA-sponsored UAM studies = interacting constraints — not a universal five-haircut recipe.</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §3.</p>
+<p class="wdiag-note">From Week 9 §3. SVG upgrade of HTML #w09-channels.</p>
 </figure>
 ```
 

@@ -238,6 +238,25 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
 
 
 ```{=html}
+<figure class="wdiag" id="w03-toolchain" aria-labelledby="w03-toolchain-title">
+<p class="wdiag-cap" id="w03-toolchain-title"><strong>Cost → unit → contribution → cash (tool chain)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-row">
+<div class="wdiag-box"><strong>CAPEX</strong><br/>Aircraft, sites, systems</div>
+<div class="wdiag-box"><strong>OPEX</strong><br/>Crew, energy, MRO, fees</div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ choose a consistent unit</div>
+<div class="wdiag-box"><strong>Unit cost</strong> (e.g. CASK or cost per mission-km)</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Contribution</strong> = revenue − variable cost of served units</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Cash / breakeven screen</strong><br/>Cover fixed cost; then financing and downside (later weeks)</div>
+</div>
+<p class="wdiag-note">Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w03-toolchain-svg" aria-labelledby="w03-toolchain-svg-title">
 <p class="wdiag-cap" id="w03-toolchain-svg-title"><strong>Cost → unit → contribution → cash</strong> — CAPEX and OPEX → choose a consistent unit (CASK or mission-km) → contribution = revenue − variable cost of served units → cash/breakeven screen (cover fixed cost; financing and downside later). Lock the stack before polishing a CASK. Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Tool-chain flow from CAPEX and OPEX through unit cost and contribution to a cash or breakeven screen." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f2-title f2-desc">
@@ -272,7 +291,7 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cover fixed cost · then financing / downside</text>
 
 </svg>
-<p class="wdiag-note">From Week 3 §3.</p>
+<p class="wdiag-note">From Week 3 §3. SVG upgrade of HTML #w03-toolchain.</p>
 </figure>
 ```
 

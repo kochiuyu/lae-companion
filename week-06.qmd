@@ -94,6 +94,18 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 
 
 ```{=html}
+<figure class="wdiag" id="w06-arch" aria-labelledby="w06-arch-title">
+<p class="wdiag-cap" id="w06-arch-title"><strong>Architecture choice (roles)</strong></p>
+<div class="wdiag-stack cols-3">
+<div class="wdiag-box"><strong>Own / integrate</strong><br/>Control assets; bear more CAPEX and utilization risk.</div>
+<div class="wdiag-box"><strong>Contract / PPP</strong><br/>Share design, build, operate, or finance with public or private partners.</div>
+<div class="wdiag-box"><strong>Orchestrate</strong><br/>Platform coordinates parties; needs liquidity, trust, and governance.</div>
+</div>
+<p class="wdiag-note">Architecture changes risk allocation — it does not remove Cap. 448G permission needs (Week 7).</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w06-arch-svg" aria-labelledby="w06-arch-svg-title">
 <p class="wdiag-cap" id="w06-arch-svg-title"><strong>Architecture choice shifts risk — not Cap. 448G</strong> — Own/integrate (more CAPEX and utilization risk); Contract/PPP (share design–build–operate–finance); Orchestrate (platform needs liquidity, trust, governance). “Asset-light” is a slogan, not a risk transfer. Architecture does not remove Cap. 448G permission needs (Week 7).</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Three architecture cards: own or integrate, contract or PPP, and orchestrate, with a note that asset-light is not a risk transfer and Cap. 448G still applies." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e3-title e3-desc">
@@ -132,7 +144,7 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Architecture changes who bears risk — Cap. 448G permission needs remain (Week 7).</text>
 
 </svg>
-<p class="wdiag-note">From Week 6 §2.</p>
+<p class="wdiag-note">From Week 6 §2. SVG upgrade of HTML #w06-arch.</p>
 </figure>
 ```
 
@@ -290,6 +302,19 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 
 
 ```{=html}
+<figure class="wdiag" id="w06-pay" aria-labelledby="w06-pay-title">
+<p class="wdiag-cap" id="w06-pay-title"><strong>Who bears demand risk?</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box"><strong>Usage payment</strong><br/>Cash follows traffic / missions → operator (or SPV) bears more demand risk.</div>
+<div class="wdiag-box"><strong>Availability payment</strong><br/>Cash follows agreed readiness / service level → public sponsor often bears more demand risk.</div>
+</div>
+<p class="wdiag-arrow" aria-hidden="true">↕ hybrids exist</p>
+<div class="wdiag-box fact"><strong>Write the risk down</strong><br/>Payment design is a risk allocation, not a slogan.</div>
+<p class="wdiag-note">Classroom payment figures are illustrative — not CAD or government tariffs.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w06-pay-svg" aria-labelledby="w06-pay-svg-title">
 <p class="wdiag-cap" id="w06-pay-svg-title"><strong>Who bears demand risk?</strong> — Usage payment: cash follows traffic / missions → operator (or SPV) bears more demand risk. Availability payment: cash follows agreed readiness / service level → public sponsor often bears more demand risk; provider keeps performance risk via KPIs and deductions. Hybrids exist. Availability pays for readiness — not a free weather hedge. Classroom figures only — not CAD tariffs. Keep Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Two panels. Usage payment: traffic or missions lead to cash, so the operator or SPV bears more demand risk. Availability payment: agreed readiness leads to cash, so the public sponsor often bears more demand risk while the provider keeps performance risk. An arrow notes hybrids exist." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c10-title c10-desc">
@@ -337,7 +362,7 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
   <text x="360" y="364" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Classroom payment figures only — not CAD or government tariffs. Sandbox ≠ Sandbox X.</text>
 
 </svg>
-<p class="wdiag-note">From Week 6 §4 (usage vs availability).</p>
+<p class="wdiag-note">From Week 6 §4 (usage vs availability). SVG upgrade of HTML #w06-pay.</p>
 </figure>
 ```
 

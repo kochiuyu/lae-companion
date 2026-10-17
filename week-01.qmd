@@ -72,6 +72,25 @@ By the end of Week 1 you should be able to:
 
 
 ```{=html}
+<figure class="wdiag" id="w01-system" aria-labelledby="w01-system-title">
+<p class="wdiag-cap" id="w01-system-title"><strong>LAE as a system (roles)</strong></p>
+<div class="wdiag-flow">
+<div class="wdiag-box"><strong>Customers / missions</strong><br/>Need time savings, access, inspection, logistics, or public service.</div>
+<div class="wdiag-arrow" aria-hidden="true">↓</div>
+<div class="wdiag-box"><strong>Operators</strong><br/>Deliver the flight or mission under applicable permissions.</div>
+<div class="wdiag-arrow" aria-hidden="true">↓ spend on inputs</div>
+<div class="wdiag-row">
+<div class="wdiag-box"><strong>Aircraft</strong></div>
+<div class="wdiag-box"><strong>Sites / pads</strong></div>
+<div class="wdiag-box"><strong>Digital coordination</strong></div>
+<div class="wdiag-box"><strong>Insurance &amp; services</strong></div>
+</div>
+</div>
+<p class="wdiag-note">Roles only — not market shares or firm names. See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w01-system-svg" aria-labelledby="w01-system-svg-title">
 <p class="wdiag-cap" id="w01-system-svg-title"><strong>LAE as a system (roles)</strong> — customers/missions → operators (under applicable permissions) → aircraft, sites/pads, digital coordination, insurance &amp; services. Roles only — not market shares or firm names. Wide definition: not only “flying cars” or “drones.” See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="System roles flow from customers and missions through operators to four input boxes: aircraft, sites, digital coordination, and insurance and services." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f5-title f5-desc">
@@ -109,7 +128,7 @@ By the end of Week 1 you should be able to:
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Wide definition: not only “flying cars” or “drones” · see also How does LAE work?</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §1. Distinct from business-overview value-chain pay flow.</p>
+<p class="wdiag-note">From Week 1 §1. SVG upgrade of HTML #w01-system. Distinct from business-overview value-chain pay flow.</p>
 </figure>
 ```
 
@@ -532,6 +551,17 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 
 
 ```{=html}
+<figure class="wdiag" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
+<p class="wdiag-cap" id="w01-ohkf-title"><strong>Reading the OHKF HK$350bn figure</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box fact"><strong>What it is</strong><br/>Our Hong Kong Foundation (private think-tank) scenario projection for Hong Kong industry <em>value added</em> by 2050; supporting services are the majority in that report.</div>
+<div class="wdiag-box muted"><strong>What it is not</strong><br/>Not a government target; not operator revenue; not automatic GDP; not a single firm’s obtainable market.</div>
+</div>
+<p class="wdiag-note">Cite Key figures / Readings. Do not merge with Mainland scale totals.</p>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
 <p class="wdiag-cap" id="w01-ohkf-svg-title"><strong>Reading the OHKF HK$350bn figure</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue. Attribution: name OHKF, metric, geography, horizon. Sandbox selection ≠ market share. Twin discipline with Week 9 `#w09-ohkf-350`.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Two panels: what the OHKF HK$350bn figure is (Hong Kong industry value-added projection by 2050) and what it is not, plus an attribution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f7-title f7-desc">
@@ -561,7 +591,7 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
   <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cite Key figures / Readings · Sandbox ≠ market share</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §5. OHKF value-added projection only.</p>
+<p class="wdiag-note">From Week 1 §5. SVG upgrade of HTML #w01-ohkf. OHKF value-added projection only.</p>
 </figure>
 ```
 
