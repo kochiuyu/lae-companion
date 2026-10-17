@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+toc-depth: 2
 format:
   html:
     html-math-method: katex

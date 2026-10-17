@@ -29,7 +29,7 @@ A service creates **value** when it does at least one of these well:
 - enables a mission that other modes cannot do well.
 
 ```{=html}
-<figure class="wdiag" id="biz-four-value" aria-labelledby="biz-four-value-title">
+<figure class="wdiag wdiag-svg" id="biz-four-value" aria-labelledby="biz-four-value-title">
 <p class="wdiag-cap" id="biz-four-value-title"><strong>Four ways a service creates value</strong> — saves time; cuts cost or risk; improves access; or enables a mission other modes cannot do well. Still commercially hard without willingness to pay, real demand, utilization/load factor, and costs under control. Technology helps only when it improves <strong>full-service</strong> economics — not a flashy airframe alone.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e6-title e6-desc">
   <title id="e6-title">Four ways a service creates value</title>
@@ -101,6 +101,8 @@ Trial programmes help teams test under controlled conditions. They are **not** t
 .vchain-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
 </style>
 <figure class="vchain" id="lae-value-chain" aria-labelledby="vchain-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="vchain-cap" id="vchain-title"><strong>Value chain (simple picture)</strong> — course roles only. Arrows show the usual direction of value or payment — not volumes or market size.</p>
 <div class="vchain-flow">
 <div class="vchain-box pay"><strong>Customers / mission sponsors</strong><br/>Pay for flights, deliveries, inspections, or other missions — for example pay-per-use, subscription, availability payments, or mixed models.</div>
@@ -116,11 +118,12 @@ Trial programmes help teams test under controlled conditions. They are **not** t
 <div class="vchain-box pay"><strong>Public bodies (when involved)</strong><br/>May fund trials, shared infrastructure, or public-service missions (usage vs availability payments in partnership designs). Value can move toward operators or sites — not only as an operator cost.</div>
 </div>
 <p class="vchain-note">Based on Weeks 1–3, 5–7, and 12. Roles only — no firm names and no market-size (TAM/SAM) figures.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="biz-value-chain-svg" aria-labelledby="biz-value-chain-svg-title">
+<figure class="wdiag wdiag-svg" id="biz-value-chain-svg" aria-labelledby="biz-value-chain-svg-title">
 <p class="wdiag-cap" id="biz-value-chain-svg-title"><strong>Value chain (roles only)</strong> — customers/mission sponsors → operators → aircraft &amp; sites / enabling tech &amp; services / insurance &amp; finance ↔ public bodies when involved. Arrows show usual value or payment direction — not volumes or market size. No firm names; no TAM/SAM. Insurance does not remove operational or regulatory risk. Trials ≠ day-to-day approval; Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f4-title f4-desc">
   <title id="f4-title">Value chain (roles only)</title>

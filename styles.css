@@ -1249,7 +1249,20 @@ pre.mermaid + .fig-enlarge-hint {
 .wdiag-text-details[open] > .wdiag-cap,
 .wdiag-text-details[open] > .wdiag-flow,
 .wdiag-text-details[open] > .wdiag-stack,
-.wdiag-text-details[open] > .wdiag-note {
+.wdiag-text-details[open] > .wdiag-row,
+.wdiag-text-details[open] > .wdiag-note,
+.wdiag-text-details[open] > .wsvc-cap,
+.wdiag-text-details[open] > .wsvc-flow,
+.wdiag-text-details[open] > .wsvc-note,
+.wdiag-text-details[open] > .plab-cap,
+.wdiag-text-details[open] > .plab-grid,
+.wdiag-text-details[open] > .plab-note,
+.wdiag-text-details[open] > .phk-cap,
+.wdiag-text-details[open] > .phk-flow,
+.wdiag-text-details[open] > .phk-note,
+.wdiag-text-details[open] > .vchain-cap,
+.wdiag-text-details[open] > .vchain-flow,
+.wdiag-text-details[open] > .vchain-note {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
 }
@@ -1273,6 +1286,16 @@ pre.mermaid + .fig-enlarge-hint {
   }
 }
 
+
+
+/* Orient HTML twins (.wsvc/.plab/.phk/.vchain): denser when Text diagram collapsed */
+.wsvc:has(> .wdiag-text-details),
+.plab:has(> .wdiag-text-details),
+.phk:has(> .wdiag-text-details),
+.vchain:has(> .wdiag-text-details) {
+  margin: 0.45rem 0 0.55rem;
+  max-width: 42rem;
+}
 
 /* ============================================================
    Week pages (.page-week): readable prose measure; denser diagrams
@@ -1319,6 +1342,20 @@ body.page-week .wdiag.wdiag-text {
 body.page-prose #quarto-document-content,
 body.page-prose main.content {
   max-width: 48rem;
+}
+
+/* Slightly denser vertical rhythm for teaching diagrams (match .page-week) */
+body.page-prose .wdiag {
+  margin-top: 0.75rem;
+  margin-bottom: 1.05rem;
+}
+body.page-prose .wdiag.wdiag-svg {
+  margin-top: 0.55rem;
+  margin-bottom: 1rem;
+}
+body.page-prose .wdiag.wdiag-text {
+  margin-top: 0.35rem;
+  margin-bottom: 0.4rem;
 }
 
 @media (min-width: 992px) {

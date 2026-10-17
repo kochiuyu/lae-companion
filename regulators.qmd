@@ -26,7 +26,7 @@ In plain words (details and dates on [Official status](tracker.qmd) and [Timelin
 2. A **Shenzhen–Hong Kong / Greater Bay Area (GBA) cross-boundary corridor** is discussed in policy. On the evidence tracked here, **flights are not running on an operating corridor** as day-to-day service.
 
 ```{=html}
-<figure class="wdiag" id="reg-two-caveats" aria-labelledby="reg-two-caveats-title">
+<figure class="wdiag wdiag-svg" id="reg-two-caveats" aria-labelledby="reg-two-caveats-title">
 <p class="wdiag-cap" id="reg-two-caveats-title"><strong>Two things to keep straight</strong> — (1) Hong Kong has two different trial programmes: <strong>Regulatory Sandbox</strong> ≠ <strong>Sandbox X</strong> (do not mix counts). (2) A Shenzhen–Hong Kong / GBA cross-boundary corridor is discussed in policy; on the evidence tracked here, flights are <strong>not</strong> running as day-to-day operating service. Cite Official status / Timeline for dates.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d10-title d10-desc">
   <title id="d10-title">Two things to keep straight</title>
@@ -73,7 +73,7 @@ In plain words (details and dates on [Official status](tracker.qmd) and [Timelin
 | [**OFCA / Communications Authority**](glossary.qmd#hong-kong-institutions-and-law) | Spectrum licensing for the **1.4 GHz UAS (Private) Licence** (confined to LAE **Regulatory Sandbox** projects). CAD still approves relevant flight paths in that setting. |
 
 ```{=html}
-<figure class="wdiag" id="reg-hk-bodies" aria-labelledby="reg-hk-bodies-title">
+<figure class="wdiag wdiag-svg" id="reg-hk-bodies" aria-labelledby="reg-hk-bodies-title">
 <p class="wdiag-cap" id="reg-hk-bodies-title"><strong>Who decides what (Hong Kong)</strong> — Working Group (strategy; selects Sandbox / Sandbox X projects); TLB (policy bureau; Sandbox batches / Sandbox X modules); CAD (Cap. 448G SUA regulator; sandbox circulars); OFCA (1.4 GHz UAS Private Licence confined to Regulatory Sandbox). Keep Sandbox ≠ Sandbox X. U-space ≠ Hong Kong law. Mainland / EASA / FAA are comparators only.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e1-title e1-desc">
   <title id="e1-title">Who decides what (Hong Kong)</title>

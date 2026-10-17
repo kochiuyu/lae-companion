@@ -45,7 +45,7 @@ Heavier / passenger-oriented types sit above the SUA weight ceiling as **unconve
 Status rows: [Official status](tracker.qmd). Plain language: [What is LAE?](primer.qmd).
 
 ```{=html}
-<figure class="wdiag" id="faq-drone-sua-svg" aria-labelledby="faq-drone-sua-svg-title">
+<figure class="wdiag wdiag-svg" id="faq-drone-sua-svg" aria-labelledby="faq-drone-sua-svg-title">
 <p class="wdiag-cap" id="faq-drone-sua-svg-title"><strong>Drone ≠ SUA; no dedicated eVTOL / vertiport statute yet</strong> — everyday “drone” is <strong>not</strong> a Cap. 448G legal synonym. Hong Kong’s main light-unmanned label is <strong>small unmanned aircraft (SUA)</strong> under Cap. 448G (not more than <strong>150 kg</strong>). <strong>eVTOL</strong> and <strong>vertiport</strong> are industry labels; heavier / passenger-oriented types sit above the SUA ceiling as unconventional aircraft while rules are still being developed.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 320" role="img" aria-labelledby="n6-title n6-desc">
   <title id="n6-title">Drone ≠ SUA; no dedicated eVTOL / vertiport statute</title>
@@ -84,7 +84,7 @@ Do **not** treat them as one combined list.
 Plain wording: [Who decides what?](regulators.qmd#standing-caveats). Numbers: [Key numbers](key-figures.qmd).
 
 ```{=html}
-<figure class="wdiag" id="faq-sandbox-split-svg" aria-labelledby="faq-sandbox-split-svg-title">
+<figure class="wdiag wdiag-svg" id="faq-sandbox-split-svg" aria-labelledby="faq-sandbox-split-svg-title">
 <p class="wdiag-cap" id="faq-sandbox-split-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Hong Kong has two <strong>different</strong> trial programmes: an early <strong>Regulatory Sandbox</strong> (advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) and a later <strong>Sandbox X</strong> (complex / cross-boundary via <strong>CAD AC-017</strong>). Do <strong>not</strong> merge them into one list. Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. Cite <a href="key-figures.qmd">Key numbers</a> for counts — do not invent them here. U-space ≠ Hong Kong law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q5-title q5-desc">
   <title id="q5-title">Regulatory Sandbox ≠ Sandbox X</title>
@@ -132,7 +132,7 @@ About **HK$350 billion** by 2050 is an **Our Hong Kong Foundation** projection (
 See [Key numbers](key-figures.qmd) and [Official status](tracker.qmd).
 
 ```{=html}
-<figure class="wdiag" id="faq-two-facts-svg" aria-labelledby="faq-two-facts-svg-title">
+<figure class="wdiag wdiag-svg" id="faq-two-facts-svg" aria-labelledby="faq-two-facts-svg-title">
 <p class="wdiag-cap" id="faq-two-facts-svg-title"><strong>Two FAQ facts to keep straight</strong> — (1) <strong>Regulatory Sandbox ≠ Sandbox X</strong> (two different trial programmes — not one combined list). (2) Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> — on evidence tracked here, <strong>not</strong> day-to-day flying. Also: OHKF <strong>HK$350bn</strong> by 2050 is a private <strong>value-added</strong> projection — <strong>not</strong> a government number. See <a href="regulators.qmd">Who decides what?</a> · <a href="key-figures.qmd">Key numbers</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l4-title l4-desc">
   <title id="l4-title">Two FAQ facts to keep straight</title>

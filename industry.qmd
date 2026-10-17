@@ -3,6 +3,10 @@ title: "Business news"
 subtitle: "Dated company and industry items"
 as_of: "2026-10-17"
 page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+toc-depth: 2
 format:
   html:
     body-classes: "page-prose"
