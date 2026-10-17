@@ -64,6 +64,11 @@ By the end of Week 2 you should be able to:
 | Price & sharing | §§9–11 | Bertrand + scarce pads; co-opetition; global comparators |
 | Closing | §§12–13 | Synthesis; study checklist beyond the slides |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Structure (§1)](#1-why-market-structure-matters-in-lae) → [HHI / cost (§4)](#4-market-concentration-and-the-hhi-screen) → [Putting together (§12)](#12-putting-week-2-together) → [Self-check](#self-check)
+- **Moats & price:** [Barriers (§7)](#7-entry-barriers-a-nasa-style-checklist) → [Bertrand + pads (§9)](#9-price-competition-when-capacity-is-scarce) → [Co-opetition (§10)](#10-co-opetition-compete-on-service-share-the-roof)
+- **Exam close:** [Study checklist (§13)](#13-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -877,13 +882,14 @@ Pull the thread: define the market → segment logic → HHI with eyes open → 
 
 ## 12. Putting Week 2 together
 
-Define the market narrowly. Measure concentration only as a **screen** (HHI). Trace average cost to **fixed sites + utilization/density**. Treat NASA-style barriers and [**sunk costs**](glossary.qmd#sunk-cost) as the material of moats and **limit pricing**. Expect **Bertrand-style** pressure when capacity is loose; expect softer price wars when pads bind — without assuming profits. Use **co-opetition** when shared infrastructure beats duplication, with governance attached.
+- Define the market narrowly; use HHI only as a **screen**. Trace average cost to **fixed sites + utilization / density**, and treat NASA-style barriers and sunk costs as the material of moats and limit pricing.
+- Expect **Bertrand-style** pressure when capacity is loose and softer price wars when pads bind — without assuming profits. Use **co-opetition** when shared infrastructure beats duplication, with governance attached.
+- Keep **Sandbox ≠ Sandbox X**. Trial participation (38 of 72 / Sandbox X modules) is not proven dominance; do not claim GBA corridors as day-to-day service.
 
-Keep **Sandbox ≠ Sandbox X**, and never confuse trial participation (38 of 72 / Sandbox X modules) with proven dominance. Do not claim GBA corridors as day-to-day service.
-
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 13. Study checklist
 

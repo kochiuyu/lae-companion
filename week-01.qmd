@@ -65,6 +65,11 @@ By the end of Week 1 you should be able to:
 | Industry & rules | §§9–12 | Value chain; entry barriers; sandboxes; GBA caveat |
 | Closing | §§13–16 | Empty-seat unit cost; technology; synthesis; exam-style checklist |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Concepts (§1)](#1-what-is-the-low-altitude-economy) → [Tools (§6)](#6-value-of-time-and-net-present-value) → [Putting together (§15)](#15-putting-week-1-together) → [Self-check](#self-check)
+- **Industry & rules:** [Value chain (§9)](#9-the-lae-value-chain--who-creates-value-and-who-gets-paid) → [Sandboxes (§11)](#11-regulatory-sandboxes-in-hong-kong) → [Empty-seat / unit cost (§13)](#13-the-empty-seat-problem-and-unit-cost)
+- **Exam close:** [Study checklist (§16)](#16-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -1272,15 +1277,14 @@ Pull the thread: system definition → value → Hong Kong scale with correct at
 
 ## 15. Putting Week 1 together
 
-LAE is a **system**: aircraft, infrastructure, digital coordination, operators, customers, and supporting services. A service creates value when it saves time, cuts cost or risk, improves access, or enables a mission alternatives cannot do well. Commercial viability still hangs on willingness to pay, demand, utilization, load factor, operating cost, and investment cost.
+- Treat LAE as a **system** (aircraft, infrastructure, digital coordination, operators, customers, supporting services). Value comes from time, cost or risk, access, or mission fit — commercial viability still needs willingness to pay, demand, utilization, load factor, and cost.
+- Hong Kong / GBA advantages are **hypotheses** to test with evidence. Sandboxes speed controlled learning; they do not waive safety or compliance.
+- Keep **Sandbox ≠ Sandbox X**. Attribute **HK$350bn** only to OHKF (value added, Hong Kong, 2050). Keep ~1,000 m policy language separate from Cap. 448G flying limits.
 
-Hong Kong may hold advantages in selected high-value services and in connecting GBA capabilities — as a hypothesis to test with evidence. Regulatory sandboxes support controlled testing and faster learning; they do not waive safety or compliance. Technology matters when it improves the economics of the **full service**, not only the airframe.
-
-Keep **Sandbox ≠ Sandbox X**. Attribute **HK$350bn** only to OHKF (value added, Hong Kong, 2050). Do not claim cross-boundary corridors as day-to-day service. Keep ~1,000 m policy language separate from Cap. 448G flying limits.
-
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 16. Study checklist
 

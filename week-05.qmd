@@ -65,6 +65,11 @@ By the end of Week 5 you should be able to:
 | Allocation & network | §§8–10 | Scarce slots; hub / distributed / hybrid; HK–GBA hypotheses |
 | Closing | §§11–13 | Tool map; synthesis; study checklist beyond the slides |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Bottleneck & sites (§1)](#1-the-infrastructure-bottleneck) → [Capacity & cash (§4)](#4-throughput-reliability-and-breakeven-capacity-use) → [Putting together (§11)](#11-putting-week-5-together) → [Self-check](#self-check)
+- **Allocation:** [Scarce slots (§8)](#8-allocating-scarce-slots) → [Network form (§9)](#9-network-design-hub-distributed-hybrid)
+- **Exam close:** [Study checklist (§12)](#12-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -898,11 +903,14 @@ Pull the thread: bottleneck → archetypes → site cost → throughput and stag
 
 ## 11. Putting Week 5 together
 
-Infrastructure strategy balances safety, access, utilities, **reliable** capacity, cost, expandability, and community impact. Breakeven uses reliable capacity and contribution per movement — not paper maximums. Stage investment and fund the ramp-up. Model weather and maintenance through explicit capacity/demand/cost/recovery channels. Allocate scarce slots with transparent rules and priority protections; peak pricing is one tool among several. Choose hub, distributed, or hybrid on evidence, not slogan. Keep classroom “vertiport” language separate from Hong Kong statute — and keep Sandbox learning separate from permanent slot rights.
+- Infrastructure strategy balances safety, access, utilities, **reliable** capacity, cost, expandability, and community impact. Breakeven uses reliable capacity and contribution per movement — not paper maximums.
+- Stage investment and fund the ramp-up; model weather and maintenance through explicit capacity / demand / cost / recovery channels. Allocate scarce slots with transparent rules; peak pricing is one tool among several.
+- Keep classroom “vertiport” language separate from Hong Kong statute, and Sandbox learning separate from permanent slot rights.
 
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 12. Study checklist
 

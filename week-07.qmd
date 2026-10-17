@@ -66,6 +66,11 @@ By the end of Week 7 you should be able to:
 | Scale & pathways | §§7–9 | U-space/UTM; scorecard; harmonisation; phased roadmap |
 | Closing | §§10–11 | Tool map; synthesis; study checklist |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Strategy & readiness (§1)](#1-the-regulatory-strategy-meeting) → [HK frame & BVLOS (§3)](#3-hong-kong-s-risk-based-sua-frame-and-sandbox-x) → [Putting together (§11)](#11-putting-week-7-together) → [Self-check](#self-check)
+- **Approval & scale:** [Permission vs certification (§5)](#5-approval-permission-and-certification-do-not-conflate) → [U-space / UTM (§7)](#7-u-space-utm-and-coordination-cost) → [Roadmap (§9)](#9-phased-regulatory-roadmap)
+- **Exam close:** [Study checklist (§12)](#12-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -851,11 +856,14 @@ Pull the thread: readiness value → Hong Kong programme facts → BVLOS without
 
 ## 11. Putting Week 7 together
 
-Hong Kong regulates SUA through a risk-based Cap. 448G framework; advanced operations need prior permission and may face extra conditions. **Sandbox X** supports controlled testing and evidence — not a waiver or automatic commercial approval. Keep **Sandbox ≠ Sandbox X**, and keep **AC-013 ≠ AC-017**. Compliance capability creates value through readiness, learning, reliability, and credibility — not guaranteed monopoly protection. A safety case argues for a defined operation and may support approval and insurability without guaranteeing lower premiums. Digital traffic-management services may cut coordination cost and support scale, but **U-space ≠ Hong Kong law**, and oversight, cybersecurity, infrastructure, and governance still bind. A strong roadmap links each expansion in operating privilege to specified evidence, review, and risk controls — and feeds back into Week 6 contracts.
+- Cap. 448G is risk-based for SUA; advanced operations need prior permission. **Sandbox X** supports controlled testing and evidence — not a waiver or automatic commercial approval. Keep **Sandbox ≠ Sandbox X** and **AC-013 ≠ AC-017**.
+- Compliance capability creates value through readiness, learning, reliability, and credibility — not guaranteed monopoly protection. A safety case may support approval and insurability without guaranteeing lower premiums.
+- Digital traffic-management may cut coordination cost, but **U-space ≠ Hong Kong law**. A strong roadmap ties each expansion in privilege to evidence, review, and risk controls — and feeds Week 6 contracts.
 
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 12. Study checklist
 

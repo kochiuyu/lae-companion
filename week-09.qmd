@@ -60,6 +60,11 @@ By the end of Week 9 you should be able to:
 | Value added & equity | §§5–7 | OHKF HK\$350bn attribution; hedonic tool; distribution |
 | Close | §§8–10 | Integrated dashboard; synthesis; study checklist |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Commercial vs social (§1)](#1-from-commercial-value-to-social-value) → [Market funnel (§2)](#2-market-sizing) → [Putting together (§9)](#9-putting-week-9-together) → [Self-check](#self-check)
+- **Uncertainty & equity:** [Uncertainty (§4)](#4-uncertainty-scenarios-and-expected-value) → [HK$350bn / distribution (§5)](#5-the-hk-350-billion-projection--and-distributional-questions) → [Equity (§7)](#7-social-equity-and-distributional-analysis)
+- **Exam close:** [Study checklist (§10)](#10-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -809,11 +814,14 @@ Pull the thread: commercial vs social → funnel with capacity → one channel p
 
 ## 9. Putting Week 9 together
 
-Market size must be defined by service, corridor, customer, period, choice behaviour, and reliable capacity. **Revenue, contribution, profit, value added, and social benefit are different concepts.** Put constraints into explicit demand, capacity, price, cost, timing, or probability channels without double counting. Expected value is useful, but decision-makers also need probability of loss, downside cash needs, and key risk drivers. Hedonic analysis needs comparable data and careful identification — simple assumed property discounts are scenarios, not evidence. Social evaluation must consider total benefits and costs together with their distribution across users, communities, workers, taxpayers, and businesses. Attribute **HK\$350bn** only to OHKF as stated above.
+- Market size must be defined by service, corridor, customer, period, choice behaviour, and reliable capacity. **Revenue, contribution, profit, value added, and social benefit are different concepts.**
+- Put constraints into explicit demand, capacity, price, cost, timing, or probability channels without double counting. Expected value helps, but decision-makers also need downside cash needs and key risk drivers.
+- Social evaluation must weigh total benefits and costs **and** their distribution. Attribute **HK$350bn** only to OHKF as stated above.
 
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 10. Study checklist
 

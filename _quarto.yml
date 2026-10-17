@@ -26,6 +26,9 @@ project:
     - week-10.qmd
     - week-11.qmd
     - week-12.qmd
+    - weeks.qmd
+    - lectures.qmd
+    - notes-w1.qmd
     - formulas.qmd
     - tables.qmd
     - figures.qmd

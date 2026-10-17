@@ -66,6 +66,11 @@ By the end of Week 6 you should be able to:
 | Institutions & close | §§7–10 | Comparators; term-sheet principle; tool map; synthesis |
 | Checklist | §11 | Study checklist beyond the slides |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Architecture (§1)](#1-choosing-the-commercial-architecture) → [PPP / payments (§3)](#3-public--private-partnerships-ppp) → [Putting together (§10)](#10-putting-week-6-together) → [Self-check](#self-check)
+- **Flexibility & share:** [Staging / options (§5)](#5-contractual-flexibility-and-real-options) → [Co-opetition (§6)](#6-co-opetition-and-shared-facilities)
+- **Exam close:** [Study checklist (§11)](#11-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -799,11 +804,14 @@ Pull the thread: architecture → profit screen → PPP and payments → real op
 
 ## 10. Putting Week 6 together
 
-Asset ownership, service integration, and platforms mix **control, capital, capability, and risk** differently. A PPP is justified by value for money and long-term risk allocation — not by hunger for public money alone. Link [**availability**](glossary.qmd#availability-payment) payments to readiness and performance, with deductions and relief. Stage investment and write flexibility carefully. Share infrastructure only with governance that protects access, data, liability, and competition. Keep **Sandbox ≠ Sandbox X**, and do not treat trial participation as a commercial franchise or corridor operating claim.
+- Asset ownership, service integration, and platforms mix **control, capital, capability, and risk** differently. A PPP needs value for money and long-term risk allocation — not hunger for public money alone.
+- Link availability payments to readiness and performance; stage investment and write flexibility carefully. Share infrastructure only with governance that protects access, data, liability, and competition.
+- Keep **Sandbox ≠ Sandbox X**. Trial participation is not a commercial franchise or corridor operating claim.
 
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 11. Study checklist
 

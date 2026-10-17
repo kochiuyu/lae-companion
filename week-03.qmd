@@ -65,6 +65,11 @@ By the end of Week 3 you should be able to:
 | Risk & place | §§9–11 | Weather channels; mixed-revenue profit; HK–GBA hypotheses |
 | Closing | §§12–13 | Synthesis; study checklist beyond the slides |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Cost stack (§1)](#1-why-cost-and-revenue-structure-come-next) → [CASK / units (§4)](#4-unit-economics-cask-and-mission-kilometres) → [Putting together (§11)](#11-putting-week-3-together) → [Self-check](#self-check)
+- **Revenue & risk:** [Revenue management (§6)](#6-revenue-management-not-fill-every-seat) → [Breakeven (§7)](#7-breakeven-volume) → [Weather (§8)](#8-weather-downtime-and-risk-responses)
+- **Exam close:** [Study checklist (§12)](#12-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -965,11 +970,14 @@ Pull the thread: stack → unit metrics → revenue design → RM → breakeven 
 
 ## 11. Putting Week 3 together
 
-Separate **CAPEX**, recurring **fixed OPEX**, and **variable** cost before any unit metric. Choose **CASK** for passenger capacity offered and **mission-based** measures for cargo/public service. Breakeven needs a **consistent unit**, contribution margin, and a reality check against capacity and demand. Revenue management maximises **contribution**, not empty-seat guilt. Subscriptions, availability contracts, insurance, and liquidity **reshape** risk — none is a free guarantee. HK–GBA differences are hypotheses to test case by case. Sandbox learning and compliance lines are real when they appear in cash — they are still not a substitute for unit economics.
+- Separate **CAPEX**, recurring **fixed OPEX**, and **variable** cost before any unit metric. Use **CASK** for passenger capacity offered and **mission-based** measures for cargo / public service.
+- Breakeven needs a **consistent unit**, contribution margin, and a check against capacity and demand. Revenue management maximises **contribution**, not empty-seat guilt.
+- Subscriptions, availability contracts, insurance, and liquidity **reshape** risk — none is a free guarantee. Sandbox learning and compliance lines are real in cash, not substitutes for unit economics.
 
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 12. Study checklist
 

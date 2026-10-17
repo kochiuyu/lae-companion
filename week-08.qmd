@@ -65,6 +65,11 @@ By the end of Week 8 you should be able to:
 | Networks & digital | §§5–6 | Network effects; interoperability; OFCA / AC-017 facts |
 | Roadmap & close | §§7–10 | Phased integration NPV; tool map; synthesis; study checklist |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Conflict & capacity (§1)](#1-the-8-00-am-capacity-conflict) → [Congestion & mechanisms (§3)](#3-congestion-externalities) → [Putting together (§9)](#9-putting-week-8-together) → [Self-check](#self-check)
+- **Networks & roadmap:** [Network effects (§5)](#5-network-effects-and-shared-information) → [Digital coordination (§6)](#6-digital-coordination-and-interoperability) → [Integration roadmap (§7)](#7-airspace-integration-roadmap)
+- **Exam close:** [Study checklist (§10)](#10-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -731,11 +736,14 @@ Pull the thread: conflict → system bottleneck → congestion → slots → net
 
 ## 9. Putting Week 8 together
 
-Airspace capacity depends on the **complete operating system** — not an unsupported “drones per minute” number. Congestion pricing estimates external delay cost; queues, reservations, priority rules, and auctions serve different objectives. Auctions can reveal willingness to pay but need safeguards for safety, competition, linked resources, new entrants, and public-service access. Interoperability may reduce duplicate coordination and support scale — it does not make digital services free or automatically safe. Network participation creates benefits and costs; data quality, cybersecurity, governance, and congestion remain essential. A credible roadmap links each expansion in capacity or operating privilege to evidence, review, and a financially consistent decision gate. Keep **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**; do not invent corridor capacities; keep **OFCA Sandbox spectrum** separate from **AC-017 Sandbox X** cross-boundary permission.
+- Airspace capacity depends on the **complete operating system**, not an unsupported “drones per minute” number. Queues, reservations, priority rules, and auctions serve different objectives; auctions need safeguards for safety, competition, and public-service access.
+- Interoperability and network participation may reduce duplicate coordination — they do not make digital services free or automatically safe. A credible roadmap links each capacity expansion to evidence, review, and a financially consistent gate.
+- Keep **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**; keep **OFCA Sandbox spectrum** separate from **AC-017 Sandbox X** cross-boundary permission.
 
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 10. Study checklist
 

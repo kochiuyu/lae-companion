@@ -65,6 +65,11 @@ By the end of Week 4 you should be able to:
 | Acceptance & shocks | §§8–10 | AiRMOUR lens; scenario shocks; HK–GBA demand hypotheses |
 | Closing | §§11–13 | Tool map; synthesis; study checklist beyond the slides |
 
+**Suggested paths** (same-page anchors; scaffold only)
+
+- **Core:** [Choice & WTP (§1)](#1-would-customers-actually-choose-it) → [Funnel & GC (§4)](#4-a-four-step-travel-demand-frame-and-a-simple-funnel) → [Putting together (§12)](#12-putting-week-4-together) → [Self-check](#self-check)
+- **Response & shocks:** [Elasticity (§6)](#6-elasticity-of-demand) → [Acceptance (§8)](#8-public-acceptance-as-scenarios-airmour-lens) → [Scenarios (§9)](#9-scenario-analysis-and-shocks)
+- **Exam close:** [Study checklist (§13)](#13-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -184,8 +189,6 @@ A traditional transport-planning structure organises the work:
 NASA-sponsored UAM market studies use detailed demand models; the four-step structure itself is a **general transport-planning frame**, not a unique “NASA formula.” Primary document on this site: [Readings](#readings) (NASA *Urban Air Mobility Market Study* — NTRS 20190001472; UAM/AAM language for cross-checks, **not** an HKSAR demand forecast).
 
 ### Managerial demand funnel
-
-
 
 
 ```{=html}
@@ -741,11 +744,14 @@ Pull the thread: WTP → honest modelling limits → funnel and GC → elasticit
 
 ## 12. Putting Week 4 together
 
-Demand models produce **scenarios**, not certainties. Separate potential demand, capacity, flights, and passengers served. Use **generalized cost** for door-to-door comparison while treating mode choice as probabilistic. Use **elasticity** and **segmentation** carefully; check capacity and cost before celebrating revenue. Put **acceptance** and **shocks** in explicit, justified assumptions — never as invisible magic multipliers. Confront every demand headline with Week 3’s required activity and physical pad limits.
+- Demand models produce **scenarios**, not certainties. Separate potential demand, capacity, flights, and passengers served; use **generalized cost** for door-to-door comparison while treating mode choice as probabilistic.
+- Use **elasticity** and **segmentation** carefully; check capacity and cost before celebrating revenue. Put **acceptance** and **shocks** in explicit, justified assumptions.
+- Confront every demand headline with Week 3’s required activity and physical pad limits.
 
-The short checklist is in [Summary](#summary) above.
+Short checklist: [Summary](#summary).
 
 ---
+
 
 ## 13. Study checklist
 
