@@ -444,7 +444,7 @@ Use a base case, a downside and an upside, sensitivity checks, and probability r
 
 ### Monte Carlo (concept)
 
-A [**Monte Carlo**](glossary.qmd#monte-carlo) run draws uncertain inputs many times from chosen distributions and recalculates the model. You get a **range of outcomes**, not one forecast. Results depend on the distributions, correlations, model structure, and data quality. Correlated inputs matter — weather may hit capacity, demand, price, and cost together. Useful outputs include median [**NPV**](glossary.qmd#npv), downside percentiles, the chance of a cash shortfall, and the main risk drivers.
+A [**Monte Carlo**](glossary.qmd#monte-carlo) run draws uncertain inputs many times from chosen distributions and recalculates the model. You get a **distribution** (range) of outcomes, not one forecast. Results depend on the distributions, correlations, model structure, and data quality. Correlated inputs matter — weather may hit capacity, demand, price, and cost together. Useful outputs include median [**NPV**](glossary.qmd#npv), downside percentiles, the chance of a cash shortfall, and the main risk drivers.
 
 **Simulation does not make weak assumptions accurate; it makes their implications visible.**
 
@@ -887,7 +887,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 10
 
-Week 10 turns to **sustainability challenges in urban air operations**. We connect carbon, noise, and cleaner-technology cost to the social costs named this week — with metrics you can measure.
+Week 10 turns to **sustainability challenges in urban air operations**. We connect carbon, noise, and cleaner-technology cost to the social costs named this week — with measurable environmental metrics and abatement costs.
 
 **Preview question:** which environmental cost should the operator own first — and how do you measure it?
 

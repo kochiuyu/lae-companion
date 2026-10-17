@@ -33,18 +33,18 @@ LAE means services that use low-altitude airspace — not only the aircraft itse
 ## Objectives
 
 - Learn the economics and business strategy of LAE in Hong Kong and the GBA, with global AAM examples for comparison only.
-- Practise tools for demand, unit economics, sites, partnerships, regulation, airspace, sustainability, and risk.
+- Practise quantitative and managerial tools for demand, unit economics, infrastructure, partnerships, regulation, airspace, sustainability, and risk.
 - Put those tools together into one business or policy strategy (capstone) and into exam answers.
 
 ## Learning outcomes
 
 After this course, you should be able to:
 
-- Explain demand and supply for **urban air mobility** (city air services) in Hong Kong and the GBA, using simple economic tools and who is affected.
-- Size a market and judge an investment with basic cost–benefit thinking — without mixing revenue, value added, and social benefit.
+- Explain demand and supply for **urban air mobility** (city air services) in Hong Kong and the GBA, using simple economic tools and stakeholder analysis.
+- Size a market and judge an investment with basic cost–benefit thinking and market simulations — without mixing revenue, value added, and social benefit.
 - Discuss pricing, incentives, and congestion rules that support sustainability and public acceptance.
-- Map value-chain roles and the economics of regulation, using selected global cases (for example NASA, McKinsey, AiRMOUR) for comparison — not as Hong Kong law.
-- Build a clear business or policy strategy through scenarios and team work (capstone).
+- Review business frameworks, value-chain roles, and the economics of regulation, using selected global cases (for example NASA, McKinsey, AiRMOUR) for comparison — not as Hong Kong law.
+- Build a clear business or policy strategy — including policy evaluation and stakeholder engagement — through scenarios and team work (capstone).
 
 ## 12-week conceptual map
 
