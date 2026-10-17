@@ -552,14 +552,19 @@ main table,
 }
 
 /* ============================================================
-   Formula / KaTeX horizontal scroll on narrow screens (~768px)
-   Prevents page zoom when display math or wdiag math is wide
+   Formula / KaTeX: scroll wide display math (all widths);
+   do not squash with max-width on the inner .katex node
    ============================================================ */
+.katex-display,
+.MathJax_Display,
+span.math.display,
+div.math.display {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 @media (max-width: 768px) {
-  .katex-display,
-  .MathJax_Display,
-  span.math.display,
-  div.math.display,
   .quarto-figure .katex-display,
   .wdiag .katex-display,
   .wdiag-box,
@@ -567,11 +572,6 @@ main table,
     max-width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-  }
-
-  .katex-display > .katex,
-  .math.display > .katex {
-    max-width: 100%;
   }
 
   /* Keep display math from forcing body wider than the viewport */

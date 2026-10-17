@@ -196,11 +196,8 @@ In words: sum additional delay times value of delay across affected users, then 
 
 $$
 \begin{aligned}
-S_{\mathrm{delay}}
-&= \sum_j \left( D_j \times v_j \right) \\
-\mathrm{MCC}
-&= S_{\mathrm{delay}} \\
-&\quad + C_{\mathrm{other}}
+S_{\mathrm{delay}} &= \sum_j \left( D_j \times v_j \right) \\
+\mathrm{MCC} &= S_{\mathrm{delay}} + C_{\mathrm{other}}
 \end{aligned}
 $$
 
@@ -383,12 +380,7 @@ In words: incremental revenue from the slot, minus incremental operating cost, m
 
 
 $$
-\begin{aligned}
-B_{\max}
-&= R_{\Delta} \\
-&\quad - C_{\Delta} \\
-&\quad - \pi_{\mathrm{req}}
-\end{aligned}
+B_{\max} = R_{\Delta} - C_{\Delta} - \pi_{\mathrm{req}}
 $$
 
 
@@ -518,11 +510,7 @@ In words: subtract the cost of the interoperable process from the cost of the le
 
 
 $$
-\begin{aligned}
-S_{\mathrm{day}}
-&= C_{\mathrm{legacy}} \\
-&\quad - C_{\mathrm{interop}}
-\end{aligned}
+S_{\mathrm{day}} = C_{\mathrm{legacy}} - C_{\mathrm{interop}}
 $$
 
 
