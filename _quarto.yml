@@ -29,6 +29,7 @@ project:
     - week-12.qmd
     - formulas.qmd
     - tables.qmd
+    - figures.qmd
     - notes-w1.qmd
     - lectures.qmd
     - readings.qmd
@@ -92,6 +93,8 @@ website:
             text: Formulas
           - href: tables.qmd
             text: Tables
+          - href: figures.qmd
+            text: Figures
       - text: Official facts
         menu:
           - href: glossary.qmd

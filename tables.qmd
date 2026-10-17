@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Cheat sheet of **named teaching tables** copied from the week notes. Worked narrative and figures stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd). A Figures collection is not on this site yet.
+Cheat sheet of **named teaching tables** copied from the week notes. Worked narrative and figures stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd). Teaching diagrams are collected on [Figures](figures.qmd).
 
 - Keep **Sandbox ≠ Sandbox X**.
 - **U-space ≠ Hong Kong law.**
