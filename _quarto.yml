@@ -14,7 +14,6 @@ project:
     - glossary.qmd
     - tracker.qmd
     - dates.qmd
-    - weeks.qmd
     - week-01.qmd
     - week-02.qmd
     - week-03.qmd
@@ -30,8 +29,6 @@ project:
     - formulas.qmd
     - tables.qmd
     - figures.qmd
-    - notes-w1.qmd
-    - lectures.qmd
     - readings.qmd
     - news.qmd
     - industry.qmd

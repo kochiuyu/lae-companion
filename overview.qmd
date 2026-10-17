@@ -162,3 +162,4 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 ## Course materials on this site
 
 - **Teach** menu — one article per week (notes, slides, summary, readings)
+- Cheat sheets under Teach: [Formulas](formulas.qmd), [Tables](tables.qmd), [Figures](figures.qmd), [Readings](readings.qmd). Each week page ends with a short Self-check.
