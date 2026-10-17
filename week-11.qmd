@@ -17,7 +17,7 @@ format:
 
 **Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
 
-Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation.
+Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation (proceed / stage / redesign / reject).
 
 **Orient refreshers:**
 

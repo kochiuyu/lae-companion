@@ -75,15 +75,15 @@ By the end of Week 12 you should be able to:
 
 ## 1. The next horizon
 
-The final week asks how an LAE project moves from a controlled trial to a **repeatable operating system**. A larger network may create more useful connections — and more coordination, repositioning, infrastructure, and regulatory requirements. Growth should follow evidence on demand, reliable capacity, unit economics, safety, and stakeholder impact.
+The final week asks how an LAE project moves from a controlled trial to a **repeatable operating system** (a service you can run again and again under clear rules). A larger network may create more useful connections — and more coordination, repositioning, infrastructure, and regulatory requirements. Growth should follow evidence on demand, reliable capacity, unit economics, safety, and stakeholder impact.
 
-Which part of the value chain is most likely to create durable value — aircraft, operations, infrastructure, software, finance, or professional services — is an empirical question, not a slogan ([How does LAE work?](business-overview.qmd)).
+Which part of the value chain is most likely to create durable value — aircraft, operations, infrastructure, software, finance, or professional services — is an empirical question (settled by evidence), not a slogan ([How does LAE work?](business-overview.qmd)).
 
 **Connecting idea.** Week 11’s recommendation (proceed / stage / redesign / reject) is the input to Week 12’s network question: if you stage, which **node** or **link** earns the next gate — not “add twenty vertiports because $L$ looks large.”
 
 ---
 
-Section 1 set the horizon: from trial to repeatable system. **Corridors to networks** asks how node count raises possible links. That is screening math — **not** a forecast that every link flies.
+Section 1 set the horizon: from trial to repeatable system. **Corridors to networks** asks how node count raises possible links. That is screening math — **not** a forecast that every link will fly.
 
 ## 2. From corridors to [networks](glossary.qmd#network-effects)
 
@@ -135,7 +135,7 @@ A **network** links several origins, destinations, operators, and supporting fac
 - Cross-boundary services also require coordination on permissions, customs, immigration, quarantine, data, communications, liability, and emergency response.  
 - Empty repositioning, unbalanced demand, congestion, and duplicated infrastructure can offset network benefits.  
 
-**Managerial lesson:** count possible links first, then test which links are useful, serviceable, and commercially viable. Do **not** claim GBA corridors as day-to-day operating service on the evidence tracked here.
+**Classroom lesson:** count possible links first, then test which links are useful, serviceable, and commercially viable. Do **not** claim GBA corridors as day-to-day operating service on the evidence tracked here.
 
 ### Counting possible connections
 
@@ -202,7 +202,7 @@ Networks need coordination. **Digital coordination and governance** put net savi
 
 Digital systems can support planning, authorization, identification, traffic information, monitoring, and conflict management (Week 8 UTM / U-space discussion). **U-space is not Hong Kong law.** Automation may reduce repetitive manual work and improve consistency at higher volumes — operators and service providers still need defined responsibilities, qualified personnel, cybersecurity, assurance, incident response, and regulatory oversight. Human roles may change rather than disappear (exceptions, emergencies, degradation, accountability). Algorithmic decisions should be traceable, testable, secure, and subject to appropriate review.
 
-**Managerial lesson:** evaluate the complete socio-technical system, not simply the cost of an algorithm.
+**Classroom lesson:** evaluate the complete socio-technical system, not simply the cost of an algorithm.
 
 ### Digital-coordination business case
 
@@ -314,14 +314,14 @@ A **2025 Our Hong Kong Foundation** projection assigns a large share of potentia
 
 Hong Kong’s actual advantage must be tested through capability, cost, regulation, customer demand, access to regional markets, and competition. Manufacturing, operations, infrastructure, and services are **complementary** layers — not mutually exclusive. High value added does **not** imply high margin, low risk, or automatic market leadership.
 
-**Managerial lesson:** identify a specific service, customer problem, capability, revenue model, and defensible source of advantage.
+**Classroom lesson:** identify a specific service, customer problem, capability, revenue model, and defensible source of advantage.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-hk-roles-svg" aria-labelledby="w12-hk-roles-svg-title">
 <p class="wdiag-cap" id="w12-hk-roles-svg-title"><strong>Hong Kong service roles — test them</strong> — OHKF (2025) assigns a large share of potential <strong>2050</strong> LAE <strong>industry value added</strong> to supporting services (finance, leasing, insurance, professional, data assurance). That is a <strong>hypothesis to evaluate</strong>, not a predetermined outcome. Test capability, cost, regulation, demand, regional access, and rivalry. Name a specific service, customer problem, capability, revenue model, and advantage. <strong>OHKF HK$350bn = value-added projection only</strong> — not SOM, revenue, GDP, or a government target. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l2-title l2-desc">
   <title id="l2-title">Hong Kong service roles — test them</title>
-  <desc id="l2-desc">Our Hong Kong Foundation 2025 projection assigns a large share of potential 2050 LAE industry value added to supporting services. Hong Kong actual advantage must be tested through capability, cost, regulation, customer demand, regional access and competition. Managerial lesson: identify a specific service, customer problem, capability, revenue model and defensible source of advantage. OHKF figure is value-added projection only — not SOM, revenue, GDP or a government target. Sandbox is not Sandbox X.</desc>
+  <desc id="l2-desc">Our Hong Kong Foundation 2025 projection assigns a large share of potential 2050 LAE industry value added to supporting services. Hong Kong actual advantage must be tested through capability, cost, regulation, customer demand, regional access and competition. Classroom lesson: identify a specific service, customer problem, capability, revenue model and defensible source of advantage. OHKF figure is value-added projection only — not SOM, revenue, GDP or a government target. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
   <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Hong Kong service roles — test them</text>
   <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">OHKF services-layer share = hypothesis to evaluate</text>
@@ -423,7 +423,7 @@ Leasing **reallocates** risks between parties; it does not create a risk-free ma
 
 Controlled trials can generate evidence on aircraft performance, communications, navigation, weather, emergency response, infrastructure, simultaneous operations, and user feedback. Evidence may support local policy, procedures, assurance services, and commercial refinement. Transfer to another jurisdiction is **not** automatic — rules, environments, aircraft, routes, and acceptance differ. A credible exportable capability may include testing methods, data governance, assurance, training, technical integration, or professional advice. Claims of a global “gold standard” need external validation, reproducibility, interoperability, and recognition by relevant authorities.
 
-**Managerial lesson:** export validated methods and capabilities — not an assumption that one local rulebook will be universally adopted. Keep **Sandbox ≠ Sandbox X**; Sandbox X supports controlled testing and evidence collection — it does **not** bypass legal or safety requirements.
+**Classroom lesson:** export validated methods and capabilities — not an assumption that one local rulebook will be universally adopted. Keep **Sandbox ≠ Sandbox X**; Sandbox X supports controlled testing and evidence collection — it does **not** bypass legal or safety requirements.
 
 Mainland ATM rules drafts (e.g. CAAC consultation on Readings) remain **draft only** until promulgated — do not treat them as in-force Hong Kong or Mainland law. EASA SC-VTOL ([Readings](#readings)) is a **certification** comparator for passenger VTOL concepts — not a Hong Kong operating approval.
 

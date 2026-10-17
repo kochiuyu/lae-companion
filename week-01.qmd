@@ -313,11 +313,11 @@ Traditional scheduled aviation typically uses large, expensive aircraft, large c
 
 **Analogy used in class:** think less like a traditional airline network and more like a high-frequency network service for the sky — where waiting, access, and reliability matter as much as cruise speed.
 
-**Managerial implication:** a fast aircraft does not automatically create a valuable *service*.
+**Classroom implication:** a fast aircraft does not automatically create a valuable *service*.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-differs-svg" aria-labelledby="w01-differs-svg-title">
-<p class="wdiag-cap" id="w01-differs-svg-title"><strong>LAE is not a mini-airline</strong> — short-distance, high-frequency operations; an <strong>entire ecosystem</strong> (sites, charging, digital coordination, insurance, maintenance) — not only an airframe; different cost structures, operating models, and regulatory needs. <strong>Managerial implication:</strong> a fast aircraft does not automatically create a valuable *service*. Structural contrasts only — no invented Hong Kong fare data.</p>
+<p class="wdiag-cap" id="w01-differs-svg-title"><strong>LAE is not a mini-airline</strong> — short-distance, high-frequency operations; an <strong>entire ecosystem</strong> (sites, charging, digital coordination, insurance, maintenance) — not only an airframe; different cost structures, operating models, and regulatory needs. <strong>Classroom implication:</strong> a fast aircraft does not automatically create a valuable *service*. Structural contrasts only — no invented Hong Kong fare data.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i1-title i1-desc">
   <title id="i1-title">LAE is not a mini-airline</title>
   <desc id="i1-desc">How LAE differs from traditional aviation: short-distance high-frequency operations; an entire ecosystem of sites, charging, digital coordination, insurance and maintenance — not only an airframe; different cost structures, operating models and regulatory needs. A fast aircraft does not automatically create a valuable service. Structural contrasts only — no invented Hong Kong fare data.</desc>
@@ -462,7 +462,7 @@ An LAE service must solve a customer problem better than existing alternatives. 
 3. **Industrial inspection** — bridges, buildings, power assets, and remote sites with less disruption and risk.  
 4. **Emergency and public services** — medical delivery, emergency response, search and rescue, environmental monitoring.
 
-**Managerial question:** which applications create enough value to cover cost, risk, and regulatory requirements?
+**Classroom question:** which applications create enough value to cover cost, risk, and regulatory requirements?
 
 ### How to read each family economically
 
@@ -1028,7 +1028,7 @@ An [**externality**](glossary.qmd#externality) arises when an activity imposes c
 - **Government** balances innovation, safety, efficiency, and public interest.  
 - **Communities** care about noise, privacy, visual impact, and fair access to benefits.
 
-**Managerial challenge:** how can a service reach commercial scale while maintaining public acceptance?
+**Classroom challenge:** how can a service reach commercial scale while maintaining public acceptance?
 
 Acceptance is not only reputation. When communities or rules shrink the operating window, **fixed cost per flight** rises — the next classroom screen.
 
@@ -1216,7 +1216,7 @@ Treat technology as a lever on economics, not as an end in itself:
 - **UTM and communications** support coordination and scale in complex airspace.  
 - **Infrastructure** — charging, maintenance, landing sites, passenger processing — determines actual throughput.
 
-**Managerial lesson:** a technically impressive aircraft creates commercial value only when the **complete operating system** is safe, reliable, convenient, and affordable.
+**Classroom lesson:** a technically impressive aircraft creates commercial value only when the **complete operating system** is safe, reliable, convenient, and affordable.
 
 **Tie-back.** Technology that cuts boarding time raises $\Delta T$ and VOT-based willingness to pay ([§8.1](#81-door-to-door-friction-destroys-value)). Technology that raises daily flights lowers fixed cost per passenger ([§13](#13-the-empty-seat-problem-and-unit-cost)). Technology that only looks good on a poster does neither.
 

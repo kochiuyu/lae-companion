@@ -187,7 +187,7 @@ A traditional transport-planning structure organises the work:
 
 NASA-sponsored UAM market studies use detailed demand models; the four-step structure itself is a **general transport-planning frame**, not a unique “NASA formula.” Primary document on this site: [Readings](#readings) (NASA *Urban Air Mobility Market Study* — NTRS 20190001472; UAM/AAM language for cross-checks, **not** an HKSAR demand forecast).
 
-### Managerial demand funnel
+### Classroom demand funnel {#managerial-demand-funnel}
 
 In words: start from relevant trips, keep only the share on your corridor, then keep only the share that chooses your mode — that product is **potential** passenger-trips. Served trips cannot exceed available capacity.
 

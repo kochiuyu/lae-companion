@@ -17,7 +17,7 @@ format:
 
 **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
-Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and weigh **social** benefits and costs — not only whether the operator earns a contribution.
+Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **size** a defined use case, put **constraints** into the right model channels (one channel per barrier — no double counting), stress-test **uncertainty**, and weigh **social** benefits and costs — not only whether the operator earns a contribution.
 
 **Orient refreshers:**
 
@@ -83,7 +83,12 @@ A profitable service can still create social costs; an unprofitable service may 
 
 **Link back to Weeks 4–8.** Week 4 gave choice behaviour and willingness to pay. Weeks 5–6 gave site and facility costs. Week 7 gave the permission envelope (Cap. 448G; Sandbox ≠ Sandbox X). Week 8 gave scarce airspace allocation. Week 9 asks whether the commercial case that survived those screens also improves outcomes for users, neighbours, workers, and taxpayers — and how to size that case without inventing corridor data.
 
-**Connecting idea.** Contribution margin answers “can the operator cover variable cost?” Social benefit–cost answers “do total gains exceed total costs, including those outside the firm?” Distribution answers “who wins and who loses?” Keep the three questions separate even when one spreadsheet tries to hold all three.
+**Connecting idea — three lenses (keep them separate).**  
+1. **Contribution margin** answers: can the operator cover variable cost (then fixed cost)?  
+2. **Social benefit–cost** answers: do total gains exceed total costs, including costs outside the firm (externalities)?  
+3. **Distribution** answers: who wins and who loses?  
+
+Keep the three questions separate even when one spreadsheet tries to hold all three.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-two-lenses" aria-labelledby="w09-two-lenses-title">
@@ -359,7 +364,7 @@ NASA-sponsored UAM market work examined **interacting** constraints rather than 
 - public perception and community acceptance; and  
 - high near-term service cost and other economic constraints.  
 
-**Managerial lesson:** each constraint may affect demand, capacity, price, cost, timing, or probability of launch through a **different channel**.
+**Classroom lesson:** each constraint may affect demand, capacity, price, cost, timing, or probability of launch through a **different channel**.
 
 []{#t09-uam-constraints}
 | Constraint | Primary model channel |
@@ -616,7 +621,7 @@ Attribution discipline clears the projection. [**Hedonic valuation**](glossary.q
 
 ## 6. Hedonic valuation (illustrative tool)
 
-Hedonic analysis estimates how observable attributes are associated with market prices while controlling for other factors. For housing, attributes may include size, age, location, transport access, schools, amenities, and environmental conditions such as noise. A credible study needs many comparable transactions and a strategy for separating noise effects from other site characteristics. A simple difference between two homes does **not** establish the causal value of noise. Property-price effects capture capitalization in housing markets — not every health, annoyance, productivity, or distributional effect.
+Hedonic analysis estimates how observable attributes are linked to market prices while controlling for other factors. For housing, attributes may include size, age, location, transport access, schools, amenities, and environmental conditions such as noise. A credible study needs many comparable transactions and a way to separate noise effects from other site characteristics. A simple difference between two homes does **not** establish the causal value of noise. Property-price effects show how noise and access get **capitalized** into house prices (built into what buyers pay) — not every health, annoyance, productivity, or distributional effect.
 
 ### Illustrative specification
 
@@ -633,7 +638,7 @@ $$
 - $X_{i}$ — other property and neighbourhood characteristics  
 - $\beta$ — conditional association between noise and price; **causal** interpretation needs stronger research design  
 
-**Managerial use:** inform benefit-cost analysis and mitigation — do not decide community acceptance by property value alone.
+**Classroom use:** inform benefit-cost analysis and mitigation — do not decide community acceptance by property value alone.
 
 **Assumption (illustrative):** baseline apartment value = HK\$8M. Percentages below are **hypothetical**, not estimates for drone noise in Hong Kong.
 

@@ -76,13 +76,13 @@ By the end of Week 3 you should be able to:
 
 ## 1. Why cost and revenue structure come next
 
-A technically feasible LAE service is not automatically commercially viable. Managers must connect **asset cost**, **daily operations**, **capacity**, **demand**, **pricing**, and **risk**.
+A technically feasible LAE service is not automatically commercially viable. You must connect **asset cost**, **daily operations**, **capacity**, **demand**, **pricing**, and **risk**.
 
-Imagine two reviews of the same business case. One manager asks how charging time, maintenance, and turnaround cap daily missions. Another asks whether subscriptions or availability contracts could make revenue more predictable. Both questions sit inside this week's toolkit.
+Imagine two reviews of the same business case. One review asks how charging time, maintenance, and turnaround cap daily missions. Another asks whether subscriptions or availability contracts could make revenue more predictable. Both questions sit inside this week's toolkit.
 
 ### Link back to Week 2
 
-Week 2 showed that scarce pads and density drive **average total cost (ATC)**. Week 3 makes that precise for a spreadsheet: what is **investment**, what is **recurring spend**, what is the right **unit**, and how does the **revenue model** change who bears volume risk? The same pad that raised ATC when under-used now appears as CAPEX or site OPEX; the same density logic reappears as utilization in CASK and as missions in breakeven.
+Week 2 showed that scarce pads and density drive **average total cost (ATC)**. Week 3 makes that precise for a spreadsheet: what is **investment**, what is **recurring spend**, what is the right **unit**, and how does the **revenue model** change who bears volume risk? The same pad that raised ATC when under-used now appears as CAPEX or site OPEX. The same density logic reappears as utilization in CASK and as missions in breakeven.
 
 ::: {.callout-note appearance="simple"}
 **Sandbox note.** Trial programmes (first **Regulatory Sandbox**, **38 of 72** selected; later **Sandbox X**) generate learning and, for some operators, real compliance and insurance OPEX. They are **not** a cost forecast or a proof that commercial unit economics already work. Keep programmes separate ([Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats)).
@@ -90,7 +90,7 @@ Week 2 showed that scarce pads and density drive **average total cost (ATC)**. W
 
 ---
 
-Section 1 placed cost and revenue after market structure. Start with the **cost stack**. Ask three questions: what is capital, what recurs every day, and how those pieces become a rough daily economic cost.
+Section 1 placed cost and revenue after market structure. Start with the **cost stack** (the layered list of capital and operating costs). Ask three questions: what is capital, what recurs every day, and how those pieces become a rough daily economic cost.
 
 ## 2. CAPEX, OPEX, and a daily economic-cost sketch
 
@@ -103,7 +103,7 @@ Section 1 placed cost and revenue after market structure. Start with the **cost 
 | [**CAPEX**](glossary.qmd#capex-opex) (capital expenditure) | Investment in assets that provide benefits over several years | Aircraft, charging equipment, vertiport construction, major software platforms |
 | [**OPEX**](glossary.qmd#capex-opex) (operating expenditure) | Recurring spend to operate the service | Energy, maintenance, staff, insurance, site fees, communications, routine compliance |
 
-**Important nuance:** certification and approval expenditure is **not automatically CAPEX**. Accounting treatment depends on the nature of the spend and applicable rules. For managerial classroom work, keep a separate line for compliance / approval cash so you do not bury it inside “aircraft” or “OPEX” without thought.
+**Important nuance:** certification and approval expenditure is **not automatically CAPEX**. Accounting treatment depends on the nature of the spend and applicable rules. For classroom work, keep a separate line for compliance / approval cash so you do not bury it inside “aircraft” or “OPEX” without thought.
 
 Also separate, inside OPEX:
 
@@ -112,7 +112,7 @@ Also separate, inside OPEX:
 
 Glossary: [CAPEX / OPEX](glossary.qmd#business-and-economics).
 
-**Connecting idea.** The CAPEX / OPEX label answers an *accounting and cash-timing* question. The fixed / variable split answers a *managerial* question: what still burns cash if the fleet sits on the ground? Weather and demand shocks make that split non-negotiable. Mixing the two axes (“CAPEX is fixed, OPEX is variable”) is a common error — major software platforms can be CAPEX, and energy is OPEX but largely variable.
+**Connecting idea.** The CAPEX / OPEX label answers an *accounting and cash-timing* question. The fixed / variable split answers a *classroom / operating* question: what still burns cash if the fleet sits on the ground? Weather and demand shocks make that split non-negotiable. Mixing the two axes (“CAPEX is fixed, OPEX is variable”) is a common error — major software platforms can be CAPEX, and energy is OPEX but largely variable.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-cost-axes" aria-labelledby="w03-cost-axes-title">
@@ -471,7 +471,7 @@ A revenue model names the transaction. [**Revenue management**](glossary.qmd#rev
 - Holding capacity for later high-value demand can sometimes raise total contribution.  
 - Managers weigh price, booking time, segment, expected demand, cancellations, and capacity.
 
-**Managerial objective:** sell the right capacity to the right customer at the right time and price.
+**Classroom objective:** sell the right capacity to the right customer at the right time and price.
 
 A simple passenger-revenue identity — in words, seats offered times the share occupied by paying passengers times the average fare they pay:
 

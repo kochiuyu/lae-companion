@@ -17,7 +17,7 @@ format:
 
 **Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
 
-Week 6 designed partnerships and payment mechanisms. This week asks how **regulation** shapes competitive readiness, permissions, safety cases, and scalable coordination — and how those instruments rewrite the contracts you just drafted.
+Week 6 designed partnerships and payment mechanisms. This week asks how **regulation** shapes competitive readiness (how soon you can operate safely and lawfully), permissions, safety cases, and scalable coordination — and how those regulatory tools rewrite the contracts you just drafted.
 
 **Orient refreshers:**
 
@@ -77,28 +77,28 @@ By the end of Week 7 you should be able to:
 
 ## 1. The regulatory strategy meeting
 
-Imagine an operator preparing to test a complex drone route in Hong Kong. The operating team must explain the aircraft, route, people, procedures, communications, contingency measures, and data to be collected. The regulator must decide whether the proposed controls are **proportionate** to the operational risk.
+Imagine an operator preparing to test a complex drone route in Hong Kong. The operating team must explain the aircraft, route, people, procedures, communications, contingency measures, and data to be collected. The regulator must decide whether the proposed controls are **proportionate** (matched in strength) to the operational risk.
 
-Regulation can increase cost and delay — but it can also establish safety, trust, predictable market access, and credible evidence. For an early operator, the trade-off is often among faster approval, clearer requirements, and permission to test a more complex operation.
+Regulation can increase cost and delay — but it can also build safety, trust, predictable market access, and credible evidence. For an early operator, the trade-off is often among faster approval, clearer requirements, and permission to test a more complex operation.
 
 ### Link back to Week 6
 
-Week 6’s availability payments, KPIs, and change-in-law clauses **assume** some operating privilege exists. This week maps how that privilege is earned: Cap. 448G permission, Sandbox evidence, safety cases, and — for scale — digital coordination. A beautiful PPP term sheet does not replace prior CAD permission for advanced operations.
+Week 6’s availability payments, KPIs, and change-in-law clauses **assume** some operating privilege already exists. This week maps how that privilege is earned: Cap. 448G permission, Sandbox evidence, safety cases, and — for scale — digital coordination. A neat PPP term sheet does not replace prior CAD permission for advanced operations.
 
 ---
 
-Section 1 framed regulation as strategy, not paperwork. **Competitive readiness** asks two questions: what is earlier clearance worth, and what compliance capability must you build to earn it?
+Section 1 framed regulation as strategy, not paperwork. **Competitive readiness** asks two questions: what is earlier clearance (permission to operate) worth, and what compliance capability must you build to earn it?
 
 ## 2. Regulation and competitive readiness
 
-Regulatory capability may become a competitive advantage when a firm can demonstrate safe, reliable, and compliant operations more effectively than rivals:
+Regulatory capability may become a competitive advantage when a firm can show safe, reliable, and compliant operations more effectively than rivals:
 
 - Approval can require investment in people, procedures, engineering, testing, documentation, and monitoring.  
 - Evidence and operating experience may reduce uncertainty and improve credibility with customers, partners, investors, and insurers.  
-- Regulation does **not** grant an automatic monopoly, and approvals should not be treated as tools for excluding efficient competitors.  
+- Regulation does **not** grant an automatic monopoly, and approvals should not be treated as tools for shutting out efficient competitors.  
 - Clear, transparent, proportionate pathways can also **promote** entry.  
 
-**Managerial lesson:** build a **compliance capability**, not a strategy based on presumed regulatory protection.
+**Classroom lesson:** build a **compliance capability**, not a strategy based on presumed regulatory protection.
 
 **Connecting idea.** Readiness is not the same as Sandbox selection. Being one of the first-batch **38 of 72** (or later Sandbox X modules) is evidence about *trial participation* — not a commercial licence, exclusive route right, or permanent slot ([Key numbers](key-figures.qmd); Week 6 Readings issuer).
 
@@ -351,7 +351,7 @@ Advanced ops need clear language. **Approval, permission, and certification** ar
 | **Aircraft certification / airworthiness** | Passenger-carrying or larger unconventional aircraft may need a substantially different framework (trials for unconventional aircraft discussed under Cap. 448C provisions in official replies — see Glossary / regulators) |
 | **Infrastructure / site approval** | Landing sites and supporting facilities may involve planning, building, fire, land, environmental, and other requirements |
 
-**Managerial lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not a single generic “licence.” Week 5’s “no dedicated HK vertiport statute” caveat still bites here: site approvals may sit outside Cap. 448G alone.
+**Classroom lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not a single generic “licence.” Week 5’s “no dedicated HK vertiport statute” caveat still bites here: site approvals may sit outside Cap. 448G alone.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w07-four-gates" aria-labelledby="w07-four-gates-title">
@@ -618,7 +618,7 @@ Compare requirements, evidence, scope, transferability, cost, and predictability
 
 ### Regulatory-pathway scorecard
 
-| Dimension | Managerial question |
+| Dimension | Classroom question |
 |-----------|---------------------|
 | Clarity | Are requirements and decision points understandable? |
 | Proportionality | Are controls matched to operational risk? |

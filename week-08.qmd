@@ -17,7 +17,7 @@ format:
 
 **Slides (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
 
-Week 7 mapped permissions and safety cases. This week asks how **scarce low-altitude capacity** is allocated when demand exceeds what can be served safely — and how digital coordination supports integration without inventing corridor capacities.
+Week 7 mapped permissions and safety cases. This week asks how **scarce low-altitude capacity** is allocated when demand exceeds what can be served safely — and how digital coordination supports integration without inventing corridor capacities (do not invent throughput numbers the issuers have not published).
 
 **Orient refreshers:**
 
@@ -507,7 +507,7 @@ Week 7 introduced U-space (EU framework) and UTM as broader traffic-management l
 
 **[Interoperability](glossary.qmd#interoperability)** is the ability of authorized systems and organizations to exchange, interpret, and use information consistently. It may rely on common data models, interfaces, identity and access controls, service levels, and conformance testing. Shared standards can have public-good characteristics, but systems, operations, cybersecurity, and assurance remain costly. Open standards do **not** require unrestricted public access to operational data. Governance must address data minimization, confidentiality, liability, competition, resilience, vendor dependence, and incident response.
 
-**Managerial lesson:** technical compatibility is necessary but not sufficient; institutions and incentives must also align.
+**Classroom lesson:** technical compatibility is necessary but not sufficient; institutions and incentives must also align.
 
 ### Coordination-cost savings
 

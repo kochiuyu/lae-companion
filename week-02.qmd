@@ -75,15 +75,15 @@ By the end of Week 2 you should be able to:
 
 ## 1. Why market structure matters in LAE
 
-Week 1 asked whether a service might create value and cover cost. Week 2 asks a different managerial question: **in this corridor or segment, who has bargaining power — and why?**
+Week 1 asked whether a service might create value and cover cost. Week 2 asks a different classroom question: **in this corridor or segment, who has bargaining power — and why?**
 
 Imagine two operators in Hong Kong airspace. One pushes low prices on drone cargo to the New Territories; another locks scarce air-taxi access toward the airport. They are not only fighting for customers. In a dense city they also fight for **physical landing and handling space** — rooftops, pads, charging, and related access that cannot be duplicated cheaply.
 
-That fight does not look the same in every LAE application. Competition may differ by **service type**, **corridor**, and **infrastructure layer** (aircraft vs sites vs digital coordination vs supporting services). Roles and firm lists for Hong Kong / GBA sit on [How does LAE work?](business-overview.qmd) and [Companies & sectors](landscape.qmd); this week supplies the economic language to interpret them.
+That fight does not look the same in every LAE application. Competition may differ by **service type**, **corridor**, and **infrastructure layer** (aircraft vs sites vs digital coordination vs supporting services). Roles and firm lists for Hong Kong / GBA sit on [How does LAE work?](business-overview.qmd) and [Companies & sectors](landscape.qmd). This week gives the economic language to read those lists.
 
 ### Link back to Week 1
 
-Week 1’s empty-seat / utilization arithmetic already hinted that **fixed site cost ÷ flights** can dominate unit cost. Week 2 explains why that arithmetic becomes a **competitive** weapon: whoever controls scarce pads and dense routes may sustain a lower average cost — and may try to keep rivals from matching that density.
+Week 1’s empty-seat / utilization arithmetic already hinted that **fixed site cost ÷ flights** can dominate unit cost. Week 2 explains why that arithmetic becomes a **competitive** weapon: whoever controls scarce pads and dense routes may keep a lower average cost — and may try to stop rivals from matching that density.
 
 ::: {.callout-note appearance="simple"}
 **Sandbox note.** Participation in a Hong Kong trial programme (the early **Regulatory Sandbox** or later **Sandbox X**) is evidence about *testing under controlled conditions*. It does **not** by itself establish market dominance or commercial scale. Keep the two programmes separate: first-batch **38 of 72** vs Sandbox X module counts on [Key numbers](key-figures.qmd); standing caveats on [Who decides what?](regulators.qmd#standing-caveats).
@@ -91,7 +91,7 @@ Week 1’s empty-seat / utilization arithmetic already hinted that **fixed site 
 
 ---
 
-Section 1 asked why structure matters for LAE. Economists start with **market structure**: how many rivals there are, how different the products are, and how hard it is for new firms to enter. Only then does “dominance” make sense.
+Section 1 asked why structure matters for LAE. Economists start with **market structure**: how many rivals there are, how different the products are, and how hard it is for new firms to enter. Only then does talk of “dominance” make sense.
 
 ## 2. What economists mean by “market structure”
 
@@ -130,7 +130,7 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
 </figure>
 ```
 
-Before analysing flying taxis or drone corridors, label how competition is organised in a **defined market** (product + geography + customer type — for example “premium passenger trips on a named corridor,” not “all of LAE”).
+Before you analyse flying taxis or drone corridors, name how competition is organised in a **defined market** (product + geography + customer type — for example “premium passenger trips on a named corridor,” not “all of LAE”).
 
 Three classic structures (simplified):
 
@@ -140,21 +140,21 @@ Three classic structures (simplified):
 | **Oligopoly** | A small number of large players watch each other; one price cut can trigger responses. | A handful of mobile networks |
 | **Perfect competition** | Many small sellers of a homogeneous product; no one can raise price alone. | Many stalls selling the same simple item |
 
-**Core lesson for LAE:** there is no single market structure for the whole low-altitude economy. Last-mile logistics, passenger air taxis, industrial inspection, and emergency medical missions can look like different competitive games — even in the same city.
+**Core lesson for LAE:** there is no single market structure for the whole low-altitude economy. Last-mile logistics, passenger air taxis, industrial inspection, and emergency medical missions can look like different competitive games — even in the same city. Treat each as its own market until the evidence says otherwise.
 
 ### Who might compete?
 
-Depending on the market you define, rivals may include aircraft developers and manufacturers; transport and logistics operators; telecommunications and digital-platform providers; infrastructure providers (landing, charging, maintenance); and supporting-service providers (finance, leasing, insurance, certification, professional services). Always state **which layer** you are analysing before talking about “the LAE market.”
+Depending on the market you define, rivals may include aircraft developers and manufacturers; transport and logistics operators; telecommunications and digital-platform providers; infrastructure providers (landing, charging, maintenance); and supporting-service providers (finance, leasing, insurance, certification, professional services). Always say **which layer** you are analysing before you talk about “the LAE market.”
 
-**Connecting idea.** An OEM, a vertiport landlord, and a logistics operator can all be “competitors” only if you fuzz the market definition. Define the **product** (e.g. last-mile B2B parcels under 5 kg on a named corridor) and the **layer** (operator vs site owner). Otherwise HHI and “dominance” become meaningless.
+**Connecting idea.** An OEM, a vertiport landlord, and a logistics operator count as “competitors” only if you blur the market definition. Define the **product** (e.g. last-mile B2B parcels under 5 kg on a named corridor) and the **layer** (operator vs site owner). Otherwise HHI and “dominance” become meaningless.
 
 ---
 
-Structure labels (monopoly, oligopoly, competition) are empty until you name **which product and which layer** compete. LAE is not one market: logistics, inspection, passenger concepts, and emergency services follow different competitive logics.
+Structure labels (monopoly, oligopoly, competition) are empty until you name **which product and which layer** compete. LAE is not one market: logistics, inspection, passenger concepts, and emergency services follow different competitive logics (rules of rivalry).
 
 ## 3. Four segments — four competitive logics
 
-Class organises early LAE battles into four families (aligned with Week 1’s value families, but now with a competition lens):
+Class organises early LAE battles into four families (aligned with Week 1’s value families, but now with a competition lens — who rivals whom, and on what):
 
 1. **Last-mile logistics** — speed and cost rule; drones win when they beat road congestion on predictable B2B routes.  
 2. **Passenger air taxis** — time is the product; premium travellers may pay for minutes saved on congested corridors.  
@@ -215,7 +215,7 @@ Dated trial and operating examples (not market-share claims): [Use cases](usecas
 | Inspection | Project / contract markets | Certified capability, data/privacy | Less pure price war; quality and safety cases matter |
 | EMS / public | Often procurement / priority rules | Availability, response time | Willingness to pay high; access may be allocated, not auctioned |
 
-**Managerial implication:** do not import a “passenger oligopoly” story into an inspection tender, or a “logistics price war” story into an EMS availability contract (Week 6 payment design).
+**Classroom implication:** do not import a “passenger oligopoly” story into an inspection tender, or a “logistics price war” story into an EMS availability contract (Week 6 payment design).
 
 ---
 

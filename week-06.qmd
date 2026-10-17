@@ -17,7 +17,7 @@ format:
 
 **Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
 
-Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **commercial architecture** delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk when pads, demand, and weather are uncertain.
+Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **commercial architecture** (who owns what, and how the pieces fit) delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk when pads, demand, and weather are uncertain.
 
 **Orient refreshers:**
 
@@ -79,14 +79,14 @@ By the end of Week 6 you should be able to:
 
 Imagine two teams proposing the same LAE service. **Team A** wants to own aircraft, infrastructure, staff, and customer operations. **Team B** wants to coordinate specialist partners and sell an integrated outcome to the customer.
 
-Neither model is automatically superior:
+Neither model is automatically better:
 
-- Ownership can provide **control** but requires capital and operating capability.  
-- Coordination can provide **flexibility** but creates dependency, contracting, quality-control, and margin-sharing risks.  
+- Ownership can give **control**, but it needs capital and operating capability.  
+- Coordination can give **flexibility**, but it creates dependency, contracting, quality-control, and margin-sharing risks.  
 
 ### Link back to Weeks 3–5
 
-Week 3 separated CAPEX, fixed OPEX, and variable cost. Week 4 showed **served** demand can bind below funnel headlines. Week 5 asked which sites to build and how to stage them. Week 6 asks which capabilities to **own, contract, share, or buy as a service** — and who bears demand, weather, performance, and financing risk when those choices are written into contracts.
+Week 3 separated CAPEX, fixed OPEX, and variable cost. Week 4 showed **served** demand can bind below funnel headlines. Week 5 asked which sites to build and how to stage them. Week 6 asks which capabilities to **own, contract, share, or buy as a service** — and who bears demand, weather, performance, and financing risk when those choices are written into contracts. The architecture choice is a risk-allocation choice, not a slogan.
 
 ::: {.callout-note appearance="simple"}
 **Sandbox note.** First **Regulatory Sandbox** (**38 of 72** selected) and later **Sandbox X** are controlled trial settings. They are **not** a PPP template, not proof of a permanent commercial partnership, and not a corridor operating claim. Keep programmes separate ([Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); [Readings](#readings)).
@@ -94,7 +94,7 @@ Week 3 separated CAPEX, fixed OPEX, and variable cost. Week 4 showed **served** 
 
 ---
 
-Section 1 asked who owns risk in the commercial stack. **Three business-model archetypes** make that choice concrete. A monthly economic-profit screen keeps slogans from replacing cash.
+Section 1 asked who owns risk in the commercial stack. **Three business-model archetypes** make that choice concrete. A monthly economic-profit screen keeps slogans from replacing cash numbers.
 
 ## 2. Three business-model archetypes
 
@@ -229,16 +229,14 @@ Private archetypes still meet public assets. [**PPP**](glossary.qmd#ppp) (public
 
 ## 3. Public–private partnerships (PPP)
 
-A **PPP** is a **public–private partnership**: a long-term deal where the public and private sides share roles, money, and risk. It does **not** invent demand by itself.
-
-A **PPP** is a long-term arrangement in which a public authority and a private party allocate responsibilities and risks for delivering infrastructure or services ([Glossary · PPP](glossary.qmd#business-and-economics) — course term; **not** a substitute for a vertiport statute).
+A **[PPP](glossary.qmd#ppp)** (public–private partnership) is a long-term arrangement in which a public authority and a private party allocate responsibilities and risks — sharing roles, money, and risk — for delivering infrastructure or services ([Glossary · PPP](glossary.qmd#business-and-economics) — course term; **not** a substitute for a vertiport statute). It does **not** invent demand by itself.
 
 - It is **not** merely “government and business share cost and profit.”  
 - The private party may design, finance, build, operate, maintain, or integrate specified components.  
 - The public authority defines outcomes, procurement rules, affordability, safety, access, performance, and accountability.  
 - Payment may come from users, the authority, or both.  
 
-**Managerial test:** use a PPP only when long-term integration and risk allocation can create **better value for money** than conventional procurement or a normal service contract — not merely to chase public funding.
+**Classroom test — value for money:** use a PPP only when long-term integration and risk allocation can create **better value for money** (same or better outcomes for the public money spent) than conventional procurement or a normal service contract — not merely to chase public funding.
 
 **Connecting idea.** A PPP does **not** invent demand, create landing rights, or replace Cap. 448G permissions. It reallocates who pays for readiness, who bears volume risk, and who fixes performance failures — under procurement law and budget rules that still bind the public side. Week 5’s “no dedicated HK vertiport statute” caveat still applies: calling a site a PPP vertiport does not create that statute.
 

@@ -17,7 +17,7 @@ format:
 
 **Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
 
-Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs.
+Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities (costs and effects that spill onto others) — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs.
 
 **Orient refreshers:**
 
@@ -146,7 +146,7 @@ An **externality** arises when an activity affects third parties and those effec
 | **Climate and energy** | Operational electricity emissions, supply-chain emissions, peak-load requirements |
 | **Positive effects** | Time savings, safer inspection, emergency response, knowledge, network benefits |
 
-**Managerial lesson:** first identify and measure the impact; then compare prevention, mitigation, pricing, compensation, and operating restrictions.
+**Classroom lesson:** first identify and measure the impact; then compare prevention, mitigation, pricing, compensation, and operating restrictions.
 
 ### Pricing a noise externality (economic benchmark)
 
@@ -545,11 +545,11 @@ Inventories measure burdens. **Public acceptance by use case** asks whose consen
 
 ## 6. Public acceptance by use case
 
-**AiRMOUR** examined sustainable UAM through the lens of emergency medical services while also considering other applications ([Glossary · AiRMOUR](glossary.qmd) — closed EU research action; **not** a company or OEM brand). Acceptance may vary with perceived public benefit, urgency, safety, noise, privacy, fairness, trust, location, and available alternatives. Urgent medical applications may receive stronger support than some non-urgent applications — acceptance is **not** automatic or perfectly divided into two groups. Infrastructure maintenance, surveying, and environmental monitoring may also be viewed favourably in some contexts.
+**AiRMOUR** was a closed EU research action on sustainable urban air mobility (UAM). It looked mainly through the lens of emergency medical services, while also considering other applications ([Glossary · AiRMOUR](glossary.qmd) — **not** a company or OEM brand). Acceptance may vary with perceived public benefit, urgency, safety, noise, privacy, fairness, trust, location, and available alternatives. Urgent medical applications may receive stronger support than some non-urgent applications — acceptance is **not** automatic or perfectly divided into two groups. Infrastructure maintenance, surveying, and environmental monitoring may also be viewed favourably in some contexts.
 
-Local engagement and evidence are necessary before transferring European findings to Hong Kong. **Managerial lesson:** segment by use case and affected stakeholder; test assumptions rather than assigning universal acceptance scores (Week 9 distribution theme; EASA societal-acceptance study listed with Week 4 / Week 9 readings).
+Local engagement and evidence are necessary before transferring European findings to Hong Kong. **Classroom lesson:** segment by use case and affected stakeholder; test assumptions rather than assigning universal acceptance scores (Week 9 distribution theme; EASA societal-acceptance study listed with Week 4 / Week 9 readings).
 
-**Connecting idea.** Choice share $s$ in the Week 9 funnel is not the same as community acceptance of overflights. A high $s$ among travellers can coexist with low social licence among residents under the route — model both.
+**Connecting idea.** Choice share $s$ in the Week 9 funnel is not the same as community acceptance of overflights. A high $s$ among travellers can coexist with low **[social licence](glossary.qmd#social-license)** (continuing acceptance and trust among people affected by the route) among residents under the route — model both.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w10-accept-usecase-svg" aria-labelledby="w10-accept-usecase-svg-title">
@@ -599,7 +599,7 @@ Acceptance and equity meet funding. **Social licence and public-service commitme
 
 [**Social licence**](glossary.qmd#social-license) refers to continuing acceptance and trust among affected communities and stakeholders. It complements, but does **not** replace, legal approval. Ask who receives time savings, service improvements, employment, and business opportunities — and who bears noise, privacy, safety, land-use, and fiscal costs. Consider affordability, accessibility, geographic coverage, consultation, complaints, and remedies. Acceptance may change over time and cannot be purchased by one symbolic public-service commitment.
 
-**Managerial lesson:** build legitimacy through performance, transparency, participation, mitigation, and fair distribution of benefits and costs.
+**Classroom lesson:** build legitimacy through performance, transparency, participation, mitigation, and fair distribution of benefits and costs.
 
 ### Funding a public-service commitment
 

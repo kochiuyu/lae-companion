@@ -123,7 +123,7 @@ By the end of Week 5 you should be able to:
 
 Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
 
-**Managerial question:** which resource is most likely to bind — aircraft, landing capacity, charging, airspace access, or customer access? Week 4 demand forecasts only matter if sites can serve them.
+**Classroom question:** which resource is most likely to bind — aircraft, landing capacity, charging, airspace access, or customer access? Week 4 demand forecasts only matter if sites can serve them.
 
 ### Link back to Weeks 2–4
 
@@ -335,7 +335,7 @@ A chosen site still needs **throughput and reliability**. Breakeven capacity use
 
 **Reliability** — ability to deliver planned capacity when needed. Downtime cuts usable capacity and can create delays, diversions, refunds, or lost demand.
 
-**Managerial lesson:** prefer **reliable, serviceable capacity** over theoretical maximum throughput.
+**Classroom lesson:** prefer **reliable, serviceable capacity** over theoretical maximum throughput.
 
 ### Breakeven capacity use
 
