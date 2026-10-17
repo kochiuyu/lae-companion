@@ -5,7 +5,7 @@ as_of: "2026-10-17"
 toc: false
 ---
 
-Site for a 12-week low-altitude economy course — one page per week with notes, slides, and readings, plus supporting evidence.
+Site for a 12-week low-altitude economy course — one page per week with notes, readings, and a class-outline PDF, plus supporting evidence.
 
 **Start here (short path):** [What is LAE?](primer.qmd) · [Course overview](overview.qmd) · then [Week 1](week-01.qmd) · ([full Orient](howto.qmd))
 
@@ -27,7 +27,7 @@ Week map, primers, how the business works, FAQ, key numbers, and how to use this
 ::: {.hub-card}
 <p class="hub-card-title">Teach</p>
 
-Weekly lecture material — slides, notes, and readings. Each week ends with a short Self-check.
+Weekly lecture material — notes, readings, and a class-outline PDF. Each week ends with a short Self-check.
 
 - [Week 1: Intro](week-01.qmd)
 - [Week 2: Markets](week-02.qmd)

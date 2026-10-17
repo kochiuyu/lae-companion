@@ -8,6 +8,6 @@ format:
     body-classes: "page-prose"
 ---
 
-Soft redirect — Week 1 lecture notes now live on the **[Week 1](week-01.qmd)** article (summary, full notes, slides, and readings together).
+Soft redirect — Week 1 lecture notes now live on the **[Week 1](week-01.qmd)** article (summary, full notes, readings, and class-outline PDF together).
 
 Go to [Week 1](week-01.qmd).

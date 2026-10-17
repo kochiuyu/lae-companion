@@ -50,7 +50,7 @@ After this course, you should be able to:
 
 This map shows how the weeks build on each other. Week titles match the course schedule.
 
-Click a week to open its page (slides, notes, readings). If the titles feel heavy, start with [What is LAE?](primer.qmd) in the Orient menu.
+Click a week to open its page (notes, readings, class-outline PDF). If the titles feel heavy, start with [What is LAE?](primer.qmd) in the Orient menu.
 
 ```{=html}
 <style>
@@ -167,5 +167,5 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 
 ## Course materials on this site
 
-- **Teach** menu — one article per week (notes, slides, summary, readings). Each week page ends with a short Self-check (also collected under Review).
+- **Teach** menu — one article per week (notes, summary, readings, plus a class-outline PDF). Each week page ends with a short Self-check (also collected under Review).
 - **Review** menu — [Formulas](formulas.qmd), [Tables](tables.qmd), [Figures](figures.qmd), [Readings](readings.qmd), [Self-check](quizzes.qmd).

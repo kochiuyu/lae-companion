@@ -15,7 +15,7 @@ format:
 
 [Week 2 →](week-02.qmd)
 
-**Slides (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
+**Class outline (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
 
 **Orient refreshers** (if you are new to the topic):
 
@@ -27,14 +27,18 @@ format:
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - What “low-altitude economy” means in plain English, and how it differs from traditional aviation.
 - Jargon you will hear: LAE, UAM, and AAM (defined in §3).
 - Simple tools for value of time, generalized cost, and whether a service might be commercially viable.
 - Who sits in the ecosystem (who creates value, who gets paid) and why a regulatory sandbox matters for testing.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - LAE is a whole system: aircraft, infrastructure, digital systems, operators, customers, and supporting services.
 - A service creates value when it saves time, cuts cost or risk, improves access, or enables a mission that other modes cannot do well.
@@ -295,7 +299,7 @@ Before the tools, keep **scope labels** distinct so “drone,” “SUA,” and 
 
 Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under Cap. 448G (not more than **150 kg**). Weight classes run A1 → C (Category C, above 25 kg up to 150 kg, from **18 July 2025** — [Key numbers](key-figures.qmd)). Everyday “drone” speech is **not** a Cap. 448G synonym.
 
-**eVTOL** is an industry label. Hong Kong has **no dedicated eVTOL statute yet**. Heavier / passenger-oriented types sit above the SUA ceiling as **unconventional aircraft** pending rules ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [FAQ](faq.qmd)). When slides say “eVTOL,” treat it as a technology concept under discussion — not as a completed Hong Kong licensing category.
+**eVTOL** is an industry label. Hong Kong has **no dedicated eVTOL statute yet**. Heavier / passenger-oriented types sit above the SUA ceiling as **unconventional aircraft** pending rules ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [FAQ](faq.qmd)). When this note or the class outline says “eVTOL,” treat it as a technology concept under discussion — not as a completed Hong Kong licensing category.
 
 The exact altitude boundary also varies across jurisdictions. Mainland statistical / industrial-policy language for **低空经济** (low-altitude economy) is a separate frame. Do not treat it as the same metric as a Hong Kong value-added figure ([Glossary · Mainland](glossary.qmd#mainland-comparators)).
 
@@ -1265,7 +1269,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - **Orient:** [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Common questions](faq.qmd).  
 - **Evidence pages:** [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Timeline](dates.qmd) · [Glossary](glossary.qmd).  
-- **Slides:** [week01-introduction.pdf](slides/week01-introduction.pdf). Assessment logistics and submission stay on the teaching platform; the slide deck carries the Week 1 memo brief used in class.
+- **Class outline:** [week01-introduction.pdf](slides/week01-introduction.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics and submission stay on the teaching platform; the PDF also carries the Week 1 memo brief used in class.
 
 ### Main references
 

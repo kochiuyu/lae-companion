@@ -15,7 +15,7 @@ format:
 
 [← Week 9](week-09.qmd) · [Week 11 →](week-11.qmd)
 
-**Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
+**Class outline (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
 
 Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities (costs and effects that spill onto others) — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs.
 
@@ -27,14 +27,18 @@ Week 9 sized markets and social distribution; this week asks how to **measure an
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - Main environmental and social externalities of urban air operations (noise, privacy, greenhouse gases).
 - Policy responses: pricing, operating rules, standards, mitigation, and compensation.
 - Simple operational and life-cycle emissions thinking with clear boundaries.
 - Privacy governance, public acceptance by use case, equity commitments, and sustainability KPIs.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Address externalities with a mix of technology, standards, operating rules, pricing, compensation, and engagement.
 - Do not “price noise” by multiplying flights by decibels above an assumed threshold.
@@ -844,7 +848,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 9](week-09.qmd) · [Week 6](week-06.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
-- **Slides:** [week10-sustainability.pdf](slides/week10-sustainability.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 10 assignment brief used in class.
+- **Class outline:** [week10-sustainability.pdf](slides/week10-sustainability.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics stay on the teaching platform; the PDF also carries the Week 10 assignment brief used in class.
 
 ### Main references
 

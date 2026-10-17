@@ -89,8 +89,8 @@ Handy Glossary links when a term appears:
 
 ## Then Teach
 
-- **Teach** menu — one page per week (notes, slides PDF, summary, readings). Start with [Week 1](week-01.qmd).  
-- Slide PDFs are the class outline. The week page holds the fuller notes and readings.
+- **Teach** menu — one page per week (notes, summary, readings, plus a class-outline PDF). Start with [Week 1](week-01.qmd).  
+- Each week page is the main notes. The PDF is a shorter class outline — not a substitute for the note.
 - **Self-check** — short multiple-choice questions at the end of each week page (Weeks 1–12; private practice; nothing is stored). Example: [Week 1 · Self-check](week-01.qmd#self-check). All weeks also collected under Review: [Self-check](quizzes.qmd).
 
 ## Review

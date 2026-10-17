@@ -15,7 +15,7 @@ format:
 
 [← Week 4](week-04.qmd) · [Week 6 →](week-06.qmd)
 
-**Slides (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
+**Class outline (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
 
 Week 4 asked whether **customers would choose** the service. This week asks whether **sites and capacity** can support that demand — and who gets scarce slots when they cannot. Infrastructure is where Week 2’s pad scarcity, Week 3’s fixed cost, and Week 4’s served-trip logic meet on the ground.
 
@@ -28,14 +28,18 @@ Week 4 asked whether **customers would choose** the service. This week asks whet
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - Why infrastructure (not only aircraft) can be the binding bottleneck.
 - Vertiport archetypes, site-selection trade-offs, throughput, and reliability.
 - Breakeven activity, staged ramp-up, and planning for downtime.
 - How scarce slots might be allocated, and hub vs distributed vs hybrid networks.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Infrastructure strategy balances safety, access, utilities, reliable capacity, cost, expandability, and community impact.
 - Breakeven should use reliable capacity and contribution per movement — not a theoretical maximum.
@@ -64,7 +68,7 @@ By the end of Week 5 you should be able to:
 | Bottleneck & sites | §§1–3 | Why infrastructure binds; archetypes; multi-criteria site cost |
 | Capacity & cash | §§4–7 | Throughput / reliability; breakeven use; staged ramp-up; downtime return; CAPEX/OPEX |
 | Allocation & network | §§8–10 | Scarce slots; hub / distributed / hybrid; HK–GBA hypotheses |
-| Closing | §§10–11 | Tool map; synthesis; study checklist beyond the slides |
+| Closing | §§10–11 | Tool map; synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
@@ -912,7 +916,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 3](week-03.qmd) · [Week 4](week-04.qmd) · [Glossary · infrastructure](glossary.qmd#infrastructure) · [Landscape](landscape.qmd) · [Key numbers](key-figures.qmd).  
-- **Slides:** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 5 assignment brief used in class.
+- **Class outline:** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics stay on the teaching platform; the PDF also carries the Week 5 assignment brief used in class.
 
 ### Main references
 

@@ -15,7 +15,7 @@ format:
 
 [← Week 2](week-02.qmd) · [Week 4 →](week-04.qmd)
 
-**Slides (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
+**Class outline (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
 
 Week 2 asked **who competes** and why scarce pads and density matter for average cost. This week asks whether the **numbers** work: investment vs operating cost, the right unit, breakeven volume, how revenue models reshape who bears usage risk, and how weather downtime hits cash flow.
 
@@ -27,14 +27,18 @@ Week 2 asked **who competes** and why scarce pads and density matter for average
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - How to separate CAPEX, fixed OPEX, and activity-related variable cost.
 - Unit-cost measures you will use: [CASK](glossary.qmd#business-and-economics) and cost per mission-kilometre.
 - Breakeven volume and how price, load factor, and utilization move the numbers.
 - Revenue-model choices (pay-per-use, subscription, availability, complementary) and weather as a planning risk.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Always separate CAPEX, recurring fixed OPEX, and variable cost before talking about unit economics.
 - CASK is about passenger capacity offered; cargo and public-service work often need mission-based measures.
@@ -64,7 +68,7 @@ By the end of Week 3 you should be able to:
 | Unit measures | §§4–5 | CASK; mission-km; link back to Week 2 density |
 | Revenue & breakeven | §§6–8 | Revenue models; revenue management; breakeven and required activity |
 | Risk & place | §§9–11 | Weather channels; mixed-revenue profit; HK–GBA hypotheses |
-| Closing | §11 | Synthesis; study checklist beyond the slides |
+| Closing | §11 | Synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
@@ -974,7 +978,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Glossary · business and economics](glossary.qmd#business-and-economics) · [Week 2](week-02.qmd) · [How does LAE work?](business-overview.qmd) · [Key numbers](key-figures.qmd).  
-- **Slides:** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 3 assignment brief used in class.
+- **Class outline:** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics stay on the teaching platform; the PDF also carries the Week 3 assignment brief used in class.
 
 ### Main references
 

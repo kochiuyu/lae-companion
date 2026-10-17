@@ -15,7 +15,7 @@ format:
 
 [← Week 11](week-11.qmd)
 
-**Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
+**Class outline (PDF):** [week12-future.pdf](slides/week12-future.pdf)
 
 Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review.
 
@@ -27,14 +27,18 @@ Week 11 synthesized the capstone; this week looks ahead to **networks and servic
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - From corridors to networks: more nodes create possible links, not automatic demand or value.
 - Digital coordination as a business and governance question (cost, reliability, oversight).
 - Possible Hong Kong service roles: financing, leasing, insurance, professional services, data-enabled assurance.
 - Final review: reapply the course viability test and the five-step exam method.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Adding nodes raises possible connections; it does not guarantee viable demand or value.
 - Judge digital coordination by total system cost, reliability, oversight, and governance—not buzzwords.
@@ -654,7 +658,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 11](week-11.qmd) · [Week 9](week-09.qmd) · [Course overview](overview.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
-- **Slides:** [week12-future.pdf](slides/week12-future.pdf).
+- **Class outline:** [week12-future.pdf](slides/week12-future.pdf). This week page is the main notes; the PDF is the shorter class outline.
 
 ### Main references
 

@@ -15,7 +15,7 @@ format:
 
 [← Week 5](week-05.qmd) · [Week 7 →](week-07.qmd)
 
-**Slides (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
+**Class outline (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
 
 Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **commercial architecture** (who owns what, and how the pieces fit) delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk when pads, demand, and weather are uncertain.
 
@@ -28,14 +28,18 @@ Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **c
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - Three commercial architectures: asset-intensive, service-based, and platform-oriented.
 - When a public–private partnership might make sense—and what it does not fix.
 - Usage vs availability payments, risk allocation, and contractual flexibility / staging.
 - Sharing facilities (co-opetition) and negotiating a simple partnership term sheet.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Ownership, service integration, and platforms mix control, capital, capability, and risk differently.
 - A PPP is about value for money and long-term risk allocation—not just accessing public money.
@@ -65,7 +69,7 @@ By the end of Week 6 you should be able to:
 | Public deals & pay | §§3–4 | PPP value-for-money test; usage vs availability payments |
 | Flexibility & sharing | §§5–6 | Real options / staging; co-opetition and facility cost |
 | Institutions & close | §§7–10 | Comparators; term-sheet principle; tool map; synthesis |
-| Checklist | — | Study checklist beyond the slides |
+| Checklist | — | Study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
@@ -801,7 +805,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 5](week-05.qmd) · [How does LAE work?](business-overview.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics).  
-- **Slides:** [week06-partnerships.pdf](slides/week06-partnerships.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 6 assignment brief used in class.
+- **Class outline:** [week06-partnerships.pdf](slides/week06-partnerships.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics stay on the teaching platform; the PDF also carries the Week 6 assignment brief used in class.
 
 ### Main references
 

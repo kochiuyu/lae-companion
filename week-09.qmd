@@ -15,7 +15,7 @@ format:
 
 [← Week 8](week-08.qmd) · [Week 10 →](week-10.qmd)
 
-**Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
+**Class outline (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
 Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **size** a defined use case, put **constraints** into the right model channels (one channel per barrier — no double counting), stress-test **uncertainty**, and weigh **social** benefits and costs — not only whether the operator earns a contribution.
 
@@ -27,14 +27,18 @@ Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **si
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - How to size a market for a defined use case (funnel through capacity, revenue, contribution).
 - How constraints from UAM studies should enter the model without double counting.
 - Uncertainty tools: scenarios, sensitivity, and simple probability / downside views.
 - From commercial value to social value: who benefits, who bears costs, and illustrative hedonic thinking.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Market size must specify service, corridor, customer, period, choice behaviour, and reliable capacity.
 - Revenue, contribution, profit, value added, and social benefit are different concepts—do not mix them.
@@ -866,7 +870,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 8](week-08.qmd) · [Week 4](week-04.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
-- **Slides:** [week09-impact.pdf](slides/week09-impact.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 9 assignment brief used in class.
+- **Class outline:** [week09-impact.pdf](slides/week09-impact.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics stay on the teaching platform; the PDF also carries the Week 9 assignment brief used in class.
 
 ### Main references
 

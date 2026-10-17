@@ -15,7 +15,7 @@ format:
 
 [← Week 10](week-10.qmd) · [Week 12 →](week-12.qmd)
 
-**Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
+**Class outline (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
 
 Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation (proceed / stage / redesign / reject).
 
@@ -27,14 +27,18 @@ Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capa
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - How to connect every weekly tool into one coherent strategy (not separate homework answers).
 - The viability test: cash flow, [NPV](glossary.qmd#npv), breakeven, downside risk, and non-financial criteria.
 - Airport-corridor screening example, risk register, and decision gates.
 - How to give a clear 12-minute recommendation and a short executive deck.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Synthesis means a connected model—not a pile of independent weekly calculations.
 - Served activity is limited by both customer demand and reliable capacity.
@@ -659,7 +663,7 @@ Evidence needs a delivery format. **Presentation logistics** and the twelve-slid
 
 Deck order may change; logic should move from decision → evidence → implementation → risk → action.
 
-Assessment logistics and grading weights stay on the teaching platform; the slide deck carries the Week 11 deliverables brief used in class (presentation + executive memo).
+Assessment logistics and grading weights stay on the teaching platform; the class-outline PDF carries the Week 11 deliverables brief used in class (presentation + executive memo).
 
 ### One-page tool map (from cascade to recommendation)
 
@@ -720,7 +724,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 10](week-10.qmd) · [Course overview](overview.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
-- **Slides:** [week11-capstone.pdf](slides/week11-capstone.pdf).
+- **Class outline:** [week11-capstone.pdf](slides/week11-capstone.pdf). This week page is the main notes; the PDF is the shorter class outline.
 
 ### Main references
 

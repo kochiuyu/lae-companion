@@ -8,7 +8,7 @@ format:
     body-classes: "page-prose"
 ---
 
-Soft redirect — there is no Teach hub. Each week is its own article (notes, slides, summary, readings).
+Soft redirect — there is no Teach hub. Each week is its own article (notes, summary, readings, plus a class-outline PDF).
 
 Use the **Teach** menu, or jump:
 

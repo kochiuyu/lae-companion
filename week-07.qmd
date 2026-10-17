@@ -15,7 +15,7 @@ format:
 
 [← Week 6](week-06.qmd) · [Week 8 →](week-08.qmd)
 
-**Slides (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
+**Class outline (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
 
 Week 6 designed partnerships and payment mechanisms. This week asks how **regulation** shapes competitive readiness (how soon you can operate safely and lawfully), permissions, safety cases, and scalable coordination — and how those regulatory tools rewrite the contracts you just drafted.
 
@@ -28,14 +28,18 @@ Week 6 designed partnerships and payment mechanisms. This week asks how **regula
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - How regulation can be part of competitive strategy (value of earlier readiness).
 - Hong Kong’s risk-based approach for small unmanned aircraft and the role of [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).
 - Permissions for advanced operations (including BVLOS), safety cases, and compliance investment.
 - Digital traffic management (U-space/UTM) and building a phased regulatory roadmap.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Advanced operations need prior permission and may face extra conditions under a risk-based framework.
 - Sandbox X supports controlled testing and evidence—not a waiver of safety rules or automatic commercial approval.
@@ -865,7 +869,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 6](week-06.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
-- **Slides:** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 7 assignment brief used in class.
+- **Class outline:** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics stay on the teaching platform; the PDF also carries the Week 7 assignment brief used in class.
 
 ### Main references
 

@@ -15,7 +15,7 @@ format:
 
 [← Week 3](week-03.qmd) · [Week 5 →](week-05.qmd)
 
-**Slides (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
+**Class outline (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
 
 Week 3 asked what you must **charge** and how costs behave under utilization and weather. This week asks whether **enough customers would choose** the service at a viable price — and how to present that answer as transparent scenarios rather than a single “market size” claim.
 
@@ -27,14 +27,18 @@ Week 3 asked what you must **charge** and how costs behave under utilization and
 
 ## Summary {#summary}
 
-**Before you go**
+**Before class**
+
+*Skim these before the lecture — they preview what this week page covers.*
 
 - Whether customers would actually choose an LAE option versus other modes.
 - A simple demand funnel: potential trips → corridor/mode share → capacity constraints.
 - Willingness to pay, generalized cost, elasticity, and why customers are not all the same.
 - How to treat public acceptance and shocks as explicit scenarios—not a magic multiplier.
 
-**Takeaways**
+**After this note**
+
+*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
 
 - Demand models give evidence-based scenarios, not exact predictions.
 - Keep potential demand, available capacity, flights, and passengers actually served distinct.
@@ -64,7 +68,7 @@ By the end of Week 4 you should be able to:
 | Funnel & GC | §§4–5 | Four-step frame; managerial [funnel](glossary.qmd#demand-funnel); generalized cost door-to-door |
 | Price response | §§6–7 | Own- and cross-elasticity; heterogeneity and differentiated products |
 | Acceptance & shocks | §§8–10 | AiRMOUR lens; scenario shocks; HK–GBA demand hypotheses |
-| Closing | §§11–12 | Tool map; synthesis; study checklist beyond the slides |
+| Closing | §§11–12 | Tool map; synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
@@ -748,7 +752,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Readings {#readings}
 
 - **Course links:** [Week 1](week-01.qmd) · [Week 3](week-03.qmd) · [Week 5](week-05.qmd) · [Glossary](glossary.qmd) · [Key numbers](key-figures.qmd).  
-- **Slides:** [week04-demand.pdf](slides/week04-demand.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 4 assignment brief used in class.
+- **Class outline:** [week04-demand.pdf](slides/week04-demand.pdf). This week page is the main notes; the PDF is the shorter class outline. Assessment logistics stay on the teaching platform; the PDF also carries the Week 4 assignment brief used in class.
 
 ### Main references
 

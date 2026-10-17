@@ -8,7 +8,7 @@ format:
     body-classes: "page-prose"
 ---
 
-Soft redirect — slides and takeaways live on each **week article** (with notes and readings).
+Soft redirect — full notes, summary, and readings live on each **week article** (with an optional class-outline PDF).
 
 Use the **Teach** menu, or jump:
 
