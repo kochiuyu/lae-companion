@@ -652,6 +652,63 @@ Network choice needs a sequence. The **tool map** walks site screen → throughp
 | 9 | Hub, distributed, or hybrid — on **served** trips? | Network GC per trip |
 | 10 | Does Week 4 served demand cover Week 3 contribution needs at this site? | Go / redesign / wait |
 
+```{=html}
+<figure class="wdiag" id="w05-toolmap-svg" aria-labelledby="w05-toolmap-svg-title">
+<p class="wdiag-cap" id="w05-toolmap-svg-title"><strong>From site choice to slots</strong> — (1) what binds → (2) archetype → (3) criteria shortlist → (4) generalized site cost → (5) reliable K → (6) breakeven capacity use → (7) stage CAPEX/liquidity → (8) slot rules → (9) network on <strong>served</strong> trips → (10) Week 4 demand vs Week 3 contribution: go / redesign / wait. Site screen is <strong>not</strong> a safety verdict. No invented Hong Kong sites.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="Ten-step grid from bottleneck diagnosis through reliable capacity and slots to a go or redesign decision." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j3-title j3-desc">
+  <title id="j3-title">From site choice to slots</title>
+  <desc id="j3-desc">Ten-step Week 5 tool map from site choice to slots: bottleneck diagnosis; archetype; multi-criteria shortlist; generalized site cost screen; reliable daily capacity; breakeven capacity use; staging and liquidity; slot allocation rules; hub distributed or hybrid on served trips; Week 4 demand versus Week 3 contribution go redesign or wait. Site screen is not a safety verdict.</desc>
+  <rect x="12" y="12" width="696" height="196" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="28" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">From site choice to slots</text>
+  <text x="360" y="46" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Ten checks · site screen ≠ safety verdict</text>
+
+  <rect x="24" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="89" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">1 · What binds?</text>
+  <text x="89" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Bottleneck</text>
+
+  <rect x="162" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="227" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">2 · Archetype</text>
+  <text x="227" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Building/hub</text>
+
+  <rect x="300" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="365" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">3 · Criteria</text>
+  <text x="365" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Shortlist</text>
+
+  <rect x="438" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="503" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">4 · Site cost</text>
+  <text x="503" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">+ access burden</text>
+
+  <rect x="576" y="58" width="120" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="636" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">5 · Reliable K</text>
+  <text x="636" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Hours/weather</text>
+
+  <rect x="24" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="89" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">6 · Breakeven</text>
+  <text x="89" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Capacity use</text>
+
+  <rect x="162" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="227" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">7 · Stage</text>
+  <text x="227" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">CAPEX · cash</text>
+
+  <rect x="300" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="365" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">8 · Slots</text>
+  <text x="365" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Allocate rules</text>
+
+  <rect x="438" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="503" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">9 · Network</text>
+  <text x="503" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Served trips</text>
+
+  <rect x="576" y="118" width="120" height="48" rx="5" fill="#003366"/>
+  <text x="636" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#ffffff">10 · Decide</text>
+  <text x="636" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#ffffff">Go / redesign</text>
+
+  <text x="360" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">W4 served demand must cover W3 contribution at this site — or wait</text>
+
+</svg>
+<p class="wdiag-note">From Week 5 §10. New SVG beside the table. Complements #w05-site-screen-svg.</p>
+</figure>
+```
+
 ---
 
 Pull the thread: bottleneck → archetypes → site cost → throughput and staging → reliability → CAPEX/OPEX → slots and network — then refuse sandbox counts as vertiport capacity.

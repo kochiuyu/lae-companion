@@ -412,6 +412,40 @@ $$
 
 
 
+```{=html}
+<figure class="wdiag" id="w09-uncertainty-svg" aria-labelledby="w09-uncertainty-svg-title">
+<p class="wdiag-cap" id="w09-uncertainty-svg-title"><strong>Uncertainty — scenarios and expected value</strong> — use base, downside, and upside (plus sensitivity / ranges where justified). $E[\Pi]=\sum_s \Pr(s)\,\Pi_s$. Monte Carlo shows a <strong>distribution of outcomes</strong> — it does <strong>not</strong> make weak assumptions accurate; it makes their implications visible. Also check probability of loss and downside cash needs. Classroom numbers illustrative.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Three scenario cards for base downside and upside above an expected-value formula and a Monte Carlo caution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j5-title j5-desc">
+  <title id="j5-title">Uncertainty — scenarios and expected value</title>
+  <desc id="j5-desc">Use a base case, downside and upside scenarios, sensitivity analysis, and probability ranges where justified. Monte Carlo simulation samples uncertain inputs and recalculates the model to show a distribution of outcomes. Simulation does not make weak assumptions accurate; it makes their implications visible. Expected profit equals the sum over scenarios of probability times profit. Also look at probability of loss and downside cash needs.</desc>
+  <rect x="12" y="12" width="696" height="306" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Uncertainty — scenarios and expected value</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Make weak assumptions visible — do not pretend they are accurate</text>
+
+  <rect x="36" y="70" width="200" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="136" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Base</text>
+  <text x="136" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Central case</text>
+
+  <rect x="260" y="70" width="200" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Downside</text>
+  <text x="360" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Stress · loss risk</text>
+
+  <rect x="484" y="70" width="200" height="90" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="584" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Upside</text>
+  <text x="584" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">If demand holds</text>
+
+  <rect x="100" y="182" width="520" height="50" rx="8" fill="#003366"/>
+  <text x="360" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">E[Π] = Σ Pr(s) × Π_s</text>
+
+  <rect x="60" y="252" width="600" height="55" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="276" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Monte Carlo shows a distribution — not proof</text>
+  <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Also check Pr(loss) and downside cash needs</text>
+
+</svg>
+<p class="wdiag-note">From Week 9 §4. New SVG. Monte Carlo = concept only.</p>
+</figure>
+```
+
 Expected value is the probability-weighted average across scenarios. It does **not** reveal how severe the downside can be or whether the business has enough liquidity to survive it. Also examine probability of loss, worst credible cash shortfall, and a downside percentile (e.g. 10th). Required cash reserves depend on cash-flow timing, financing access, risk tolerance, and recovery plans — not expected value alone.
 
 **Assumption (illustrative):** annual cost = HK\$5M.
