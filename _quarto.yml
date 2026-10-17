@@ -95,6 +95,8 @@ website:
             text: Tables
           - href: figures.qmd
             text: Figures
+          - href: readings.qmd
+            text: Readings
       - text: Official facts
         menu:
           - href: glossary.qmd
