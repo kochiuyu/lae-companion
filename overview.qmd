@@ -161,7 +161,6 @@ Click a week to open its page (notes, readings, class-outline PDF). If the title
   <text x="360" y="302" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">If titles feel heavy, start with What is LAE? (primer) in Orient</text>
 
 </svg>
-<p class="wdiag-note">From overview “12-week conceptual map.” HTML #course-map kept for links.</p>
 </figure>
 ```
 

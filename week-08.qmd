@@ -23,7 +23,7 @@ Week 7 mapped permissions and safety cases. This week asks how **scarce low-alti
 
 - [Week 5](week-05.qmd) — scarce site slots  
 - [Week 7](week-07.qmd) — Cap. 448G, Sandbox X, U-space ≠ HK law  
-- [Who decides what?](regulators.qmd) — standing caveats  
+- [Who decides what?](regulators.qmd) — who regulates  
 - [Glossary · airspace](glossary.qmd#airspace-and-traffic) — UTM / U-space labels  
 
 ## Summary {#summary}
@@ -48,7 +48,7 @@ Week 7 mapped permissions and safety cases. This week asks how **scarce low-alti
 - A credible roadmap links each capacity or privilege expansion to evidence, review, and a financially consistent decision gate.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (delay externalities, bid screens, coordination savings, roadmap NPV). They are **illustrative assumptions for learning**, not published corridor capacities, CAD fees, UTM tariffs, or GBA forecasts. Absolute facts (**AC-017** = Sandbox X cross-boundary; **OFCA 1.4 GHz** confined to LAE Regulatory Sandbox; Cap. **448G** height bands; **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**) stay with issuers on [Key numbers](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd#standing-caveats).
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -96,7 +96,7 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-capacity-svg" aria-labelledby="w08-capacity-svg-title">
-<p class="wdiag-cap" id="w08-capacity-svg-title"><strong>Whole-system capacity (not drones-per-minute)</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set what can be served safely. Reliable capacity is whichever link binds first. It is not a published drones-per-minute number. Cap. 448G height bands ≠ ~1,000 m policy working description. Sandbox ≠ Sandbox X. Do not invent Harbour corridor capacity. OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</p>
+<p class="wdiag-cap" id="w08-capacity-svg-title"><strong>Whole-system capacity (not drones-per-minute)</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set what can be served safely. Reliable capacity is whichever link binds first. It is not a published drones-per-minute number. Cap. 448G height bands ≠ ~1,000 m policy working description. OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="cap8-title cap8-desc">
   <title id="cap8-title">Whole-system capacity (not drones-per-minute)</title>
   <desc id="cap8-desc">Whole-system capacity diagram. Four links jointly set safe capacity: route and separation, surveillance and command-and-control, weather and hours, and vertiport or charging. An arrow says whichever binds first sets reliable capacity K. Fact discipline: Cap. 448G height bands are not the about 1,000 metre policy working description; do not invent Harbour corridor capacity; Regulatory Sandbox is not Sandbox X; OFCA 1.4 gigahertz Sandbox confinement is not AC-017. Not a drones-per-minute claim. Classroom delay numbers later are teaching screens, not published CAD capacities.</desc>
@@ -139,13 +139,12 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
   <text x="360" y="300" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Fact discipline</text>
   <text x="360" y="318" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Cap. 448G height ≠ ~1,000 m policy band · Sandbox ≠ Sandbox X · no invented Harbour K</text>
 </svg>
-<p class="wdiag-note">From Week 8 §2. Distinct from #w08-bind-first (binding-link diagnose).</p>
 </figure>
 ```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-bind-first" aria-labelledby="w08-bind-first-title">
-<p class="wdiag-cap" id="w08-bind-first-title"><strong>Reliable capacity = whichever link binds first</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set safe capacity. Diagnose the binding resource before designing auctions or prices. Cap. 448G height bands ≠ ~1,000 m policy working description; Sandbox ≠ Sandbox X; do not invent Harbour corridor capacity.</p>
+<p class="wdiag-cap" id="w08-bind-first-title"><strong>Reliable capacity = whichever link binds first</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set safe capacity. Diagnose the binding resource before designing auctions or prices. Cap. 448G height bands ≠ ~1,000 m policy working description</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c8-title c8-desc">
   <title id="c8-title">Reliable capacity = whichever link binds first</title>
   <desc id="c8-desc">Four capacity links in a chain: route and separation, surveillance and command-and-control, weather and hours, and vertiport or charging. An arrow says whichever binds first sets reliable capacity K. A note says if pads bind first, a corridor auction allocates the wrong scarce resource. Keep Cap. 448G height bands separate from the about 1,000 metre policy working description, and Regulatory Sandbox separate from Sandbox X. No invented corridor capacity.</desc>
@@ -190,7 +189,6 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
   <text x="360" y="348" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Cap. 448G height bands ≠ ~1,000 m policy band · Sandbox ≠ Sandbox X · no invented Harbour K</text>
 
 </svg>
-<p class="wdiag-note">From Week 8 §2. Whole-system capacity — not drones-per-minute.</p>
 </figure>
 ```
 
@@ -278,7 +276,6 @@ Sum the extra delay imposed on **all** affected users, not only the next aircraf
   <text x="360" y="298" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No invented corridor K · Sandbox ≠ Sandbox X</text>
 </svg>
 
-<p class="wdiag-note">From Week 8 §3 congestion externalities. Classroom MCC only. New SVG.</p>
 </figure>
 ```
 
@@ -297,7 +294,7 @@ External delay cost ≈ $5 \times 200$ = **HK$1,000** (here $C_{\mathrm{other}}=
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-mcc-delay-svg" aria-labelledby="w08-mcc-delay-svg-title">
-<p class="wdiag-cap" id="w08-mcc-delay-svg-title"><strong>MCC delay · 5 min × HK$200/min → HK$1,000</strong> — Classroom: one extra operation delays three flights by <strong>5 min</strong> each. Delay values are <strong>HK$100 / 60 / 40</strong> per min. That totals <strong>HK$200/min</strong>. External delay ≈ 5×200 = <strong>HK$1,000</strong> when <em>C</em><sub>other</sub>=0. A peak charge near this may encourage a flexible operation to move — the response is not guaranteed. This screen excludes safety, environmental, and schedule-recovery costs. ≠ <code>#w08-mcc-svg</code> (formula chips). No invented corridor <em>K</em>. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w08-mcc-delay-svg-title"><strong>MCC delay · 5 min × HK$200/min → HK$1,000</strong> — Classroom: one extra operation delays three flights by <strong>5 min</strong> each. Delay values are <strong>HK$100 / 60 / 40</strong> per min. That totals <strong>HK$200/min</strong>. External delay ≈ 5×200 = <strong>HK$1,000</strong> when <em>C</em><sub>other</sub>=0. A peak charge near this may encourage a flexible operation to move — the response is not guaranteed. This screen excludes safety, environmental, and schedule-recovery costs. ≠ <code>#w08-mcc-svg</code> (formula chips)</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a1-title a1-desc">
   <title id="a1-title">MCC delay screen: five minutes times two hundred dollars per minute equals one thousand dollars external delay cost</title>
   <desc id="a1-desc">Classroom marginal congestion cost delay screen. One additional operation delays three other flights by five minutes each. Delay values one hundred, sixty, and forty Hong Kong dollars per minute; total two hundred per minute. External delay cost five times two hundred equals one thousand Hong Kong dollars when other incremental costs are zero. Peak charge near this amount may move a flexible operation; response is not guaranteed. Excludes safety, environmental, and schedule-recovery costs. Do not invent corridor capacity. Sandbox is not Sandbox X. Distinct from the MCC formula SVG.</desc>
@@ -327,7 +324,6 @@ External delay cost ≈ $5 \times 200$ = **HK$1,000** (here $C_{\mathrm{other}}=
   <text x="360" y="348" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · public missions may need priority ≠ pure WTP</text>
 </svg>
 
-<p class="wdiag-note">From Week 8 §3 MCC scenario after #w08-mcc-svg. Classroom only. New SVG. Distinct from formula SVG and #w08-bmax-svg.</p>
 </figure>
 ```
 
@@ -372,7 +368,6 @@ Externalities are why the rules matter. **Mechanism design and slot allocation**
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No linked slot → reject / reschedule — not an unsafe flight. Diagnose the bind first (Week 8 §2).</text>
 
 </svg>
-<p class="wdiag-note">From Week 8 §4.</p>
 </figure>
 ```
 
@@ -417,7 +412,7 @@ Operator B can afford a higher bid under these assumptions. Actual payment depen
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-bmax-svg" aria-labelledby="w08-bmax-svg-title">
-<p class="wdiag-cap" id="w08-bmax-svg-title"><strong>B_max · bid ≠ social priority</strong> — Classroom: <em>B</em>_max = <em>R</em>_Δ − <em>C</em>_Δ − π_req. Operator A: 2,000 − 1,200 − 300 = <strong>HK$500</strong>. Operator B: 2,000 − 600 − 300 = <strong>HK$1,100</strong>. Exercise ledger: cargo 800 − 400 − 100 = <strong>HK$300</strong>; passenger 2,000 − 600 − 400 = <strong>HK$1,000</strong>. A high bid ≠ high social value. Public-service displacement needs explicit rules. Not a CAD tariff. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w08-bmax-svg-title"><strong>B_max · bid ≠ social priority</strong> — Classroom: <em>B</em>_max = <em>R</em>_Δ − <em>C</em>_Δ − π_req. Operator A: 2,000 − 1,200 − 300 = <strong>HK$500</strong>. Operator B: 2,000 − 600 − 300 = <strong>HK$1,100</strong>. Exercise ledger: cargo 800 − 400 − 100 = <strong>HK$300</strong>; passenger 2,000 − 600 − 400 = <strong>HK$1,000</strong>. A high bid ≠ high social value. Public-service displacement needs explicit rules. Not a CAD tariff</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 380" role="img" aria-labelledby="x5-title x5-desc">
   <title id="x5-title">Maximum affordable slot payment: operator A five hundred versus B one thousand one hundred; cargo three hundred versus passenger one thousand</title>
   <desc id="x5-desc">Classroom B max equals incremental revenue minus incremental cost minus required contribution. Operator A: two thousand minus one thousand two hundred minus three hundred equals five hundred. Operator B: two thousand minus six hundred minus three hundred equals one thousand one hundred. Exercise ledger: cargo eight hundred minus four hundred minus one hundred equals three hundred; passenger two thousand minus six hundred minus four hundred equals one thousand. High bid is not social priority. Not a CAD tariff. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
@@ -447,7 +442,6 @@ Operator B can afford a higher bid under these assumptions. Actual payment depen
   <text x="360" y="338" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · no invented corridor K · safety/priority rules still bind</text>
 </svg>
 
-<p class="wdiag-note">From Week 8 §4 Maximum affordable slot payment + exercise ledger. New SVG. Toolmap step 5 names B_max but had no arithmetic SVG.</p>
 </figure>
 ```
 
@@ -465,7 +459,7 @@ Shared data does **not** automatically make a system safer — data quality, lat
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-network-svg" aria-labelledby="w08-network-svg-title">
-<p class="wdiag-cap" id="w08-network-svg-title"><strong>Network effects — value ↑ and load ↑</strong> — more compatible users can improve route planning, conflict detection, and coordination. The same growth can raise congestion, cybersecurity exposure, monitoring, and complexity. Shared data ≠ automatic safety (quality, latency, coverage, governance, operational use). Distinct from Week 12 links≠viable. No invented corridor <em>K</em>. U-space ≠ HK law. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w08-network-svg-title"><strong>Network effects — value ↑ and load ↑</strong> — more compatible users can improve route planning, conflict detection, and coordination. The same growth can raise congestion, cybersecurity exposure, monitoring, and complexity. Shared data ≠ automatic safety (quality, latency, coverage, governance, operational use). Distinct from Week 12 links≠viable</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r4-title r4-desc">
   <title id="r4-title">Network effects raise value and congestion; shared data is not automatic safety</title>
   <desc id="r4-desc">More compatible users can raise network value and also raise congestion, cybersecurity exposure, monitoring needs, and complexity. Shared data does not automatically make a system safer — data quality, latency, coverage, governance, and operational use matter. Do not invent corridor capacity. U-space is not Hong Kong law. Sandbox is not Sandbox X.</desc>
@@ -497,7 +491,6 @@ Shared data does **not** automatically make a system safer — data quality, lat
   <text x="360" y="331" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">No invented corridor K · U-space ≠ HK law · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 8 §5. Conceptual only · no invented corridor K. New SVG.</p>
 </figure>
 ```
 
@@ -545,7 +538,7 @@ Illustrative monthly saving HK$450,000 — only if reliability, security, and se
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-interop-svg" aria-labelledby="w08-interop-svg-title">
-<p class="wdiag-cap" id="w08-interop-svg-title"><strong>Interop monthly cost — HK$900k → HK$450k</strong> — Classroom: 1,000 ops/day · 30 days. Less-integrated cost HK$30/op → <strong>HK$900,000</strong>/mo. Interoperable fixed HK$12k + HK$3/op → <strong>HK$450,000</strong>/mo. The saving holds only if reliability, security, and service quality hold. Interop ≠ free. Not a HK UTM or EU U-space cost estimate. <strong>OFCA 1.4 GHz</strong> = Sandbox-confined. <strong>AC-017</strong> = Sandbox X only. U-space ≠ HK law. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w08-interop-svg-title"><strong>Interop monthly cost — HK$900k → HK$450k</strong> — Classroom: 1,000 ops/day · 30 days. Less-integrated cost HK$30/op → <strong>HK$900,000</strong>/mo. Interoperable fixed HK$12k + HK$3/op → <strong>HK$450,000</strong>/mo. The saving holds only if reliability, security, and service quality hold. Interop ≠ free. Not a HK UTM or EU U-space cost estimate. <strong>OFCA 1.4 GHz</strong> = Sandbox-confined. <strong>AC-017</strong> = Sandbox X only. U-space ≠ HK law</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t1-title t1-desc">
   <title id="t1-title">Interop monthly cost Hong Kong dollar 900 thousand down to 450 thousand</title>
   <desc id="t1-desc">Illustrative coordination costs for one thousand operations per day and thirty operating days per month. Less-integrated process costs thirty dollars per operation, or thirty thousand per day, nine hundred thousand per month. Interoperable process costs twelve thousand fixed plus three dollars per operation, or fifteen thousand per day, four hundred fifty thousand per month. Illustrative monthly saving four hundred fifty thousand only if reliability, security, and service quality hold. Not a Hong Kong UTM or European U-space cost estimate. OFCA 1.4 gigahertz band is Sandbox-confined. CAD AC-017 is Sandbox X only. U-space is not Hong Kong law. Sandbox is not Sandbox X. Do not invent corridor capacity.</desc>
@@ -572,7 +565,6 @@ Illustrative monthly saving HK$450,000 — only if reliability, security, and se
   <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">U-space ≠ HK law · Sandbox ≠ X · no invented corridor K</text>
 </svg>
 
-<p class="wdiag-note">From Week 8 §6. Classroom HK$900k → HK$450k only. New SVG.</p>
 </figure>
 ```
 
@@ -628,7 +620,7 @@ Attractive under these assumed cash flows. Probabilities, decision gates, termin
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-roadmap-svg" aria-labelledby="w08-roadmap-svg-title">
-<p class="wdiag-cap" id="w08-roadmap-svg-title"><strong>Roadmap NPV ≈ HK$29.8M</strong> — Classroom CF @ 10%: year 0 <strong>−HK$50M</strong>; year 1 <strong>+HK$10M</strong> (PV ≈ HK$9.1M); year 2 <strong>+HK$40M</strong> (PV ≈ HK$33.1M); year 3 <strong>+HK$50M</strong> (PV ≈ HK$37.6M). PV of future nets ≈ HK$79.8M. Roadmap NPV ≈ <strong>HK$29.8M</strong>. Positive NPV under assumptions ≠ a viable market. Not a HK–GBA forecast. No invented corridor <em>K</em>. U-space ≠ HK law. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w08-roadmap-svg-title"><strong>Roadmap NPV ≈ HK$29.8M</strong> — Classroom CF @ 10%: year 0 <strong>−HK$50M</strong>; year 1 <strong>+HK$10M</strong> (PV ≈ HK$9.1M); year 2 <strong>+HK$40M</strong> (PV ≈ HK$33.1M); year 3 <strong>+HK$50M</strong> (PV ≈ HK$37.6M). PV of future nets ≈ HK$79.8M. Roadmap NPV ≈ <strong>HK$29.8M</strong>. Positive NPV under assumptions ≠ a viable market. Not a HK–GBA forecast</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s4-title s4-desc">
   <title id="s4-title">Airspace-integration roadmap NPV about Hong Kong dollar 29.8 million under classroom cash flows</title>
   <desc id="s4-desc">Illustrative phased cash flows at ten percent discount: year zero minus fifty million, year one plus ten million, year two plus forty million, year three plus fifty million. Present values about minus fifty, plus nine point one, plus thirty-three point one, plus thirty-seven point six million. Roadmap NPV about twenty-nine point eight million. Positive NPV under assumptions does not prove the wider market is viable. Do not invent corridor capacity. U-space is not Hong Kong law. Sandbox is not Sandbox X.</desc>
@@ -660,7 +652,6 @@ Attractive under these assumed cash flows. Probabilities, decision gates, termin
   <text x="360" y="325" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">No invented corridor K · U-space ≠ HK law · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 8 §7. Classroom CF −50/+10/+40/+50 · NPV ≈ HK$29.8M only. New SVG.</p>
 </figure>
 ```
 
@@ -685,7 +676,7 @@ Roadmaps need a sequence. The **tool map** walks bottleneck → congestion cost 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-toolmap-svg" aria-labelledby="w08-toolmap-svg-title">
-<p class="wdiag-cap" id="w08-toolmap-svg-title"><strong>From bottleneck to roadmap</strong> — (1) what binds. (2) legal envelope. (3) peak-charge screen (<strong>not</strong> a tariff). (4) mechanism. (5) B_max. (6) package linked slots. (7) interoperability. (8) OFCA 1.4 GHz / AC-017 map. (9) phased gates. (10) <strong>Sandbox ≠ Sandbox X</strong>; <strong>U-space ≠ HK law</strong>; <strong>no invented corridor capacity</strong>. Whole-system capacity — not drones-per-minute.</p>
+<p class="wdiag-cap" id="w08-toolmap-svg-title"><strong>From bottleneck to roadmap</strong> — (1) what binds. (2) legal envelope. (3) peak-charge screen (<strong>not</strong> a tariff). (4) mechanism. (5) B_max. (6) package linked slots. (7) interoperability. (8) OFCA 1.4 GHz / AC-017 map. (9) phased gates. (10) <strong> </strong>; <strong>U-space ≠ HK law</strong>; <strong> </strong>. Whole-system capacity — not drones-per-minute.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k4-title k4-desc">
   <title id="k4-title">From bottleneck to roadmap</title>
   <desc id="k4-desc">Ten-step Week 8 tool map from bottleneck to roadmap: scarce resource diagnosis; Cap. 448G height RFZ and Sandbox rules; peak-charge screen not a tariff; mechanism choice; affordable payment; packaged linked slots; interoperability screen; OFCA 1.4 GHz or AC-017 programme map; phased roadmap gates; fact discipline keeping Sandbox separate from Sandbox X, U-space not Hong Kong law, and no invented corridor capacity.</desc>
@@ -737,7 +728,6 @@ Roadmaps need a sequence. The **tool map** walks bottleneck → congestion cost 
   <text x="360" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X · U-space ≠ HK law · no invented corridor K</text>
 
 </svg>
-<p class="wdiag-note">From Week 8 §8. New SVG. Complements #w08-bind-first.</p>
 </figure>
 ```
 

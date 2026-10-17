@@ -67,7 +67,6 @@ A service creates **value** when it does at least one of these well:
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Technology helps only when it improves full-service economics — not a flashy airframe alone.</text>
 
 </svg>
-<p class="wdiag-note">From business-overview “How value is created.” Roles/system continue in Week 1.</p>
 </figure>
 ```
 
@@ -124,7 +123,7 @@ Trial programmes help teams test under controlled conditions. They are **not** t
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="biz-value-chain-svg" aria-labelledby="biz-value-chain-svg-title">
-<p class="wdiag-cap" id="biz-value-chain-svg-title"><strong>Value chain (roles only)</strong> — customers/mission sponsors → operators → aircraft &amp; sites / enabling tech &amp; services / insurance &amp; finance ↔ public bodies when involved. Arrows show usual value or payment direction — not volumes or market size. No firm names; no TAM/SAM. Insurance does not remove operational or regulatory risk. Trials ≠ day-to-day approval; Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="biz-value-chain-svg-title"><strong>Value chain (roles only)</strong> — customers/mission sponsors → operators → aircraft &amp; sites / enabling tech &amp; services / insurance &amp; finance ↔ public bodies when involved. Arrows show usual value or payment direction — not volumes or market size. No firm names; no TAM/SAM. Insurance does not remove operational or regulatory risk. Trials ≠ day-to-day approval</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f4-title f4-desc">
   <title id="f4-title">Value chain (roles only)</title>
   <desc id="f4-desc">Simple LAE value chain. Customers or mission sponsors pay for missions. Operators run the service and spend on aircraft and sites, enabling tech and services, and insurance and finance. Public bodies when involved may fund trials, shared infrastructure, or public-service missions. Roles only — no firm names and no market-size figures. Trial programmes are not everyday commercial approval. Insurance does not remove operational or regulatory risk.</desc>
@@ -162,7 +161,6 @@ Trial programmes help teams test under controlled conditions. They are **not** t
   <text x="360" y="356" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No firm names · no TAM/SAM · trials ≠ day-to-day approval · Sandbox ≠ Sandbox X</text>
 
 </svg>
-<p class="wdiag-note">From business-overview value chain. SVG upgrade of HTML #lae-value-chain.</p>
 </figure>
 ```
 

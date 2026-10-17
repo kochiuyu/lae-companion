@@ -68,7 +68,6 @@ Status rows: [Official status](tracker.qmd). Plain language: [What is LAE?](prim
   <text x="360" y="282" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Rules still developing · Sandbox ≠ Sandbox X</text>
 </svg>
 
-<p class="wdiag-note">From FAQ §§2–3. Cap. 448G wording only. New SVG.</p>
 </figure>
 ```
 
@@ -111,7 +110,6 @@ Plain wording: [Who decides what?](regulators.qmd#standing-caveats). Numbers: [K
   <text x="360" y="325" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Cite Key numbers for counts · U-space ≠ HK law</text>
 </svg>
 
-<p class="wdiag-note">From FAQ §4. Sandbox ≠ Sandbox X; AC-013 ≠ AC-017. New SVG.</p>
 </figure>
 ```
 
@@ -157,7 +155,6 @@ See [Key numbers](key-figures.qmd) and [Official status](tracker.qmd).
   <text x="360" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">OHKF HK$350bn = value-added projection — not a gov number</text>
 
 </svg>
-<p class="wdiag-note">From FAQ §§4–6. New SVG. Site chrome with fact discipline.</p>
 </figure>
 ```
 

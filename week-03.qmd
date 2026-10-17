@@ -47,7 +47,7 @@ Week 2 asked **who competes** and why scarce pads and density matter for average
 - Subscriptions and similar contracts can reshape risk; none is a free or guaranteed hedge.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (asset costs, CASK, fares, missions, weather days). They are **illustrative assumptions for learning**, not current Hong Kong market quotations, operator filings, or forecasts. Absolute programme and reading facts (first Sandbox **38 of 72**, Sandbox X ≠ first Sandbox, NASA UAM study as **not** an HK government figure, CAAC delivery-trial guide as a comparator cost-line document) stay with issuers on [Key numbers](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats) / [Readings](#readings).
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -89,7 +89,7 @@ Imagine two reviews of the same business case. One review asks how charging time
 Week 2 showed that scarce pads and density drive **average total cost (ATC)**. Week 3 makes that precise for a spreadsheet: what is **investment**, what is **recurring spend**, what is the right **unit**, and how does the **revenue model** change who bears volume risk? The same pad that raised ATC when under-used now appears as CAPEX or site OPEX. The same density logic reappears as utilization in CASK and as missions in breakeven.
 
 ::: {.callout-note appearance="simple"}
-**Sandbox note.** Trial programmes (first **Regulatory Sandbox**, **38 of 72** selected; later **Sandbox X**) generate learning and, for some operators, real compliance and insurance OPEX. They are **not** a cost forecast or a proof that commercial unit economics already work. Keep programmes separate ([Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats)).
+**Trial programmes.** Keep the first Regulatory Sandbox and Sandbox X separate — see [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ---
@@ -166,7 +166,6 @@ Glossary: [CAPEX / OPEX](glossary.qmd#business-and-economics).
   <text x="360" y="366" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Energy is OPEX but mostly variable · platforms can be CAPEX · compliance is not automatic CAPEX</text>
 
 </svg>
-<p class="wdiag-note">From Week 3 §2 connecting idea. No new cost numbers on this figure.</p>
 </figure>
 ```
 
@@ -198,7 +197,7 @@ This spreads net asset cost across expected operating life and adds daily operat
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-invest-unit-svg" aria-labelledby="w03-invest-unit-svg-title">
-<p class="wdiag-cap" id="w03-invest-unit-svg-title"><strong>Invest → unit · A ≈HK$270 / B ≈HK$226 per mission</strong> — Classroom: 5-yr life; <strong>1,825</strong> days; OPEX <strong>HK$8,000/day</strong>; <strong>50</strong> missions/day. Case A <strong>HK$10M</strong> → daily ≈13,479 → ≈<strong>HK$270</strong>/mission. Case B <strong>HK$6M</strong> → ≈11,288 → ≈<strong>HK$226</strong>. Higher investment raises unit cost — utilization and OPEX remain equally important. ≠ <code>#w03-cask-util</code>. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w03-invest-unit-svg-title"><strong>Invest → unit · A ≈HK$270 / B ≈HK$226 per mission</strong> — Classroom: 5-yr life; <strong>1,825</strong> days; OPEX <strong>HK$8,000/day</strong>; <strong>50</strong> missions/day. Case A <strong>HK$10M</strong> → daily ≈13,479 → ≈<strong>HK$270</strong>/mission. Case B <strong>HK$6M</strong> → ≈11,288 → ≈<strong>HK$226</strong>. Higher investment raises unit cost — utilization and OPEX remain equally important. ≠ <code>#w03-cask-util</code></p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a8-title a8-desc">
   <title id="a8-title">Investment and unit cost: ten million yields about two hundred seventy per mission; six million about two hundred twenty-six</title>
   <desc id="a8-desc">Classroom investment level and unit cost. Five-year life; one thousand eight hundred twenty-five useful days; daily OPEX eight thousand Hong Kong dollars; fifty missions per operating day. Case A ten million investment: daily asset allocation about five thousand four hundred seventy-nine plus OPEX eight thousand equals thirteen thousand four hundred seventy-nine; cost per mission about two hundred seventy. Case B six million: allocation about three thousand two hundred eighty-eight; total eleven thousand two hundred eighty-eight; about two hundred twenty-six per mission. Higher investment raises unit cost; utilization and OPEX remain equally important. Sandbox is not Sandbox X. Distinct from CASK utilization SVG.</desc>
@@ -223,7 +222,6 @@ This spreads net asset cost across expected operating life and adds daily operat
   <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w03-cask-util · Week 2 density in different clothes · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 3 §2 Worked illustration (investment level and unit cost). Classroom only. New SVG.</p>
 </figure>
 ```
 
@@ -279,7 +277,6 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cover fixed cost · then financing / downside</text>
 
 </svg>
-<p class="wdiag-note">From Week 3 §3.</p>
 </figure>
 ```
 
@@ -370,7 +367,6 @@ Glossary: [CASK / CPMK](glossary.qmd#business-and-economics).
   <text x="360" y="344" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">If pads or charging cannot support 50 trips, the right panel is fiction.</text>
 
 </svg>
-<p class="wdiag-note">Classroom assumptions from Week 3 §4. Utilization is not a demand forecast.</p>
 </figure>
 ```
 
@@ -459,7 +455,6 @@ Match the model to the **value promised** and the party best able to manage the 
   <text x="360" y="292" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Availability ≠ invent demand · Sandbox ≠ Sandbox X</text>
 </svg>
 
-<p class="wdiag-note">From Week 3 §5. Availability ≠ invent demand. New SVG.</p>
 </figure>
 ```
 
@@ -522,7 +517,6 @@ Load factor is the share of available seats occupied by **paying** passengers. A
   <text x="360" y="316" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Right capacity · right customer · right time · right price</text>
 </svg>
 
-<p class="wdiag-note">From Week 3 §6. Load factor ≠ contribution goal. New SVG.</p>
 </figure>
 ```
 
@@ -576,7 +570,6 @@ Compare that target with physical capacity, operating hours, charging, maintenan
   <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Required activity ≠ automatic traffic forecast</text>
 
 </svg>
-<p class="wdiag-note">From Week 3 §7. New SVG. Formula as already on the page.</p>
 </figure>
 ```
 
@@ -593,7 +586,7 @@ Discounting sharply raises required volume — test whether that volume fits cap
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-price-be-svg" aria-labelledby="w03-price-be-svg-title">
-<p class="wdiag-cap" id="w03-price-be-svg-title"><strong>Price → breakeven · p=500 → 50 / p=200 → 200</strong> — Classroom: fixed <strong>HK$20,000/day</strong>; VC <strong>HK$100</strong>/mission. At <em>p</em>=500 → CM 400 → BE <strong>50</strong> missions/day. At <em>p</em>=200 → CM 100 → BE <strong>200</strong>. Discounting sharply raises required volume — test whether that volume fits <em>K</em> and demand. ≠ <code>#w03-breakeven-svg</code> (identity diagram). Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w03-price-be-svg-title"><strong>Price → breakeven · p=500 → 50 / p=200 → 200</strong> — Classroom: fixed <strong>HK$20,000/day</strong>; VC <strong>HK$100</strong>/mission. At <em>p</em>=500 → CM 400 → BE <strong>50</strong> missions/day. At <em>p</em>=200 → CM 100 → BE <strong>200</strong>. Discounting sharply raises required volume — test whether that volume fits <em>K</em> and demand. ≠ <code>#w03-breakeven-svg</code> (identity diagram)</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a3-title a3-desc">
   <title id="a3-title">Price and breakeven: five hundred dollars needs fifty missions; two hundred dollars needs two hundred missions</title>
   <desc id="a3-desc">Classroom price and breakeven. Fixed cost twenty thousand Hong Kong dollars per day; variable cost one hundred per mission. At revenue five hundred, contribution four hundred, breakeven fifty missions per day. At revenue two hundred, contribution one hundred, breakeven two hundred missions per day. Discounting sharply raises required volume — test whether that volume fits capacity and demand. Sandbox is not Sandbox X. Distinct from the breakeven identity diagram.</desc>
@@ -618,7 +611,6 @@ Discounting sharply raises required volume — test whether that volume fits cap
   <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w03-breakeven-svg · Sandbox ≠ X · no invented corridor K</text>
 </svg>
 
-<p class="wdiag-note">From Week 3 §7 Worked illustration (price and breakeven). Classroom only. New SVG. Twin to #w03-lf-be-svg (A7).</p>
 </figure>
 ```
 
@@ -635,7 +627,7 @@ Fractional passengers are averages across many flights. Higher load factor can c
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-lf-be-svg" aria-labelledby="w03-lf-be-svg-title">
-<p class="wdiag-cap" id="w03-lf-be-svg-title"><strong>LF → breakeven · 40% ≈29 / 90% ≈12 flights</strong> — Classroom: 4 seats; fare <strong>HK$500</strong>; <em>F</em>=<strong>HK$20,000/day</strong>; VC <strong>HK$100/flight</strong>. LF 40% → 1.6 pax · rev 800 · CM 700 → BE ≈<strong>29</strong> flights/day. LF 90% → 3.6 · 1,800 · 1,700 → ≈<strong>12</strong>. Fractional passengers are averages. Higher LF cuts required flights <em>if</em> fare and costs stay unchanged. ≠ <code>#w03-breakeven-svg</code>. Twin to <code>#w03-price-be-svg</code>. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w03-lf-be-svg-title"><strong>LF → breakeven · 40% ≈29 / 90% ≈12 flights</strong> — Classroom: 4 seats; fare <strong>HK$500</strong>; <em>F</em>=<strong>HK$20,000/day</strong>; VC <strong>HK$100/flight</strong>. LF 40% → 1.6 pax · rev 800 · CM 700 → BE ≈<strong>29</strong> flights/day. LF 90% → 3.6 · 1,800 · 1,700 → ≈<strong>12</strong>. Fractional passengers are averages. Higher LF cuts required flights <em>if</em> fare and costs stay unchanged. ≠ <code>#w03-breakeven-svg</code>. Twin to <code>#w03-price-be-svg</code></p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a7-title a7-desc">
   <title id="a7-title">Load factor and breakeven: forty percent needs about twenty-nine flights; ninety percent about twelve</title>
   <desc id="a7-desc">Classroom load factor and breakeven flights. Four seats; average fare five hundred Hong Kong dollars; fixed cost twenty thousand per day; variable cost one hundred per flight. At forty percent load factor: average one point six paying passengers; revenue eight hundred; contribution seven hundred; breakeven about twenty-nine flights per day. At ninety percent: three point six passengers; revenue one thousand eight hundred; contribution one thousand seven hundred; breakeven about twelve. Fractional passengers are averages. Higher load factor cuts required flights if fare and costs stay unchanged. Sandbox is not Sandbox X. Twin to price-breakeven SVG; distinct from identity diagram.</desc>
@@ -660,7 +652,6 @@ Fractional passengers are averages across many flights. Higher load factor can c
   <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w03-breakeven-svg · twin to #w03-price-be-svg · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 3 §7 Worked illustration (load factor and breakeven flights). Classroom only. New SVG.</p>
 </figure>
 ```
 
@@ -706,7 +697,7 @@ Subscriptions and reservation fees transfer risk **only if** customers accept th
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-weather-svg" aria-labelledby="w03-weather-svg-title">
-<p class="wdiag-cap" id="w03-weather-svg-title"><strong>Weather hits more than revenue</strong> — lost trips; continued fixed costs; disruption/penalties; recovery; future trust. A warning does <strong>not</strong> mechanically ground every operation. Respond with ops resilience, contracts, insurance/parametric cover, and liquidity — <strong>none are free</strong>. Subscriptions transfer risk only if customers accept. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w03-weather-svg-title"><strong>Weather hits more than revenue</strong> — lost trips; continued fixed costs; disruption/penalties; recovery; future trust. A warning does <strong>not</strong> mechanically ground every operation. Respond with ops resilience, contracts, insurance/parametric cover, and liquidity — <strong>none are free</strong>. Subscriptions transfer risk only if customers accept</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k3-title k3-desc">
   <title id="k3-title">Weather hits more than revenue</title>
   <desc id="k3-desc">Severe weather can hit an LAE business through lost trips and revenue; continued fixed costs; disruption and penalties; recovery costs; and lower future willingness to rely on the service. A weather warning does not mechanically ground every operation. Manage with operational resilience, contract design, insurance or parametric cover, and liquidity. None of these tools is free. Sandbox is not Sandbox X.</desc>
@@ -749,7 +740,6 @@ Subscriptions and reservation fees transfer risk **only if** customers accept th
   <text x="360" y="240" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Subscriptions transfer risk only if customers accept · Sandbox ≠ Sandbox X</text>
 
 </svg>
-<p class="wdiag-note">From Week 3 §8. New SVG. Weather ≠ auto-ground.</p>
 </figure>
 ```
 
@@ -781,7 +771,7 @@ Committed revenue may stabilise cash flow; the contract must still specify avail
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-grounded-days-svg" aria-labelledby="w03-grounded-days-svg-title">
-<p class="wdiag-cap" id="w03-grounded-days-svg-title"><strong>5 grounded days · loss HK$100k vs profit HK$25k</strong> — Classroom: 30-day month; <strong>25</strong> operating days; 50 missions/day; usage HK$500/mission; <em>F</em>=HK$600,000/month; VC=HK$100/mission; missions = 1,250. Pay-per-mission: revenue HK$625k → <strong>loss HK$100,000</strong>. Committed monthly revenue HK$750,000 → <strong>profit HK$25,000</strong> (before credits/premiums). Draft availability, refunds, credits, and weather. ≠ <code>#w03-weather-svg</code>. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w03-grounded-days-svg-title"><strong>5 grounded days · loss HK$100k vs profit HK$25k</strong> — Classroom: 30-day month; <strong>25</strong> operating days; 50 missions/day; usage HK$500/mission; <em>F</em>=HK$600,000/month; VC=HK$100/mission; missions = 1,250. Pay-per-mission: revenue HK$625k → <strong>loss HK$100,000</strong>. Committed monthly revenue HK$750,000 → <strong>profit HK$25,000</strong> (before credits/premiums). Draft availability, refunds, credits, and weather. ≠ <code>#w03-weather-svg</code></p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="z2-title z2-desc">
   <title id="z2-title">Five grounded days: pay-per-mission loses one hundred thousand; committed revenue profits twenty-five thousand</title>
   <desc id="z2-desc">Classroom five grounded days. Thirty-day month with twenty-five operating days; fifty missions per day; usage five hundred per mission; fixed six hundred thousand per month; variable one hundred per mission; one thousand two hundred fifty missions. Pay per mission only: revenue six hundred twenty-five thousand, result loss one hundred thousand. Committed monthly revenue seven hundred fifty thousand: profit twenty-five thousand before credits. Contract must specify availability, refunds, credits, and weather. Sandbox is not Sandbox X.</desc>
@@ -808,7 +798,6 @@ Committed revenue may stabilise cash flow; the contract must still specify avail
   <text x="360" y="366" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w03-weather-svg · Sandbox ≠ X · excludes tax / financing / credits</text>
 </svg>
 
-<p class="wdiag-note">From Week 3 §8 worked illustration (five grounded days). Classroom only. New SVG. Pairs with #w03-weather-svg (channels, no $).</p>
 </figure>
 ```
 
@@ -834,7 +823,7 @@ Compliance and trial rules can become real OPEX lines. For example, Mainland del
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-hk-gba-svg" aria-labelledby="w03-hk-gba-svg-title">
-<p class="wdiag-cap" id="w03-hk-gba-svg-title"><strong>HK vs GBA · cost &amp; revenue hypotheses</strong> — HK possibility: dense/constrained sites · premium/specialised demand · site/professional cost pressure · complex urban services · finance/logistics/services. Wider GBA possibility: varied sites · larger/diverse demand · cost varies by city · manufacturing/network scale · tech/production/ops. <strong>Strategic hypotheses, not universal facts</strong> — compare specific sites, routes, customers, regulations, partners. Sandbox ≠ Sandbox X (neither is a cost/revenue forecast). U-space ≠ HK law. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w03-hk-gba-svg-title"><strong>HK vs GBA · cost &amp; revenue hypotheses</strong> — HK possibility: dense/constrained sites · premium/specialised demand · site/professional cost pressure · complex urban services · finance/logistics/services. Wider GBA possibility: varied sites · larger/diverse demand · cost varies by city · manufacturing/network scale · tech/production/ops. <strong>Strategic hypotheses, not universal facts</strong> — compare specific sites, routes, customers, regulations, partners. U-space ≠ HK law</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u4-title u4-desc">
   <title id="u4-title">Hong Kong versus wider GBA cost and revenue hypotheses</title>
   <desc id="u4-desc">Two cards comparing Hong Kong dense premium services hypotheses with wider GBA scale and production hypotheses, a navy strip to compare specific sites routes and partners, and a gold-border strip that Sandbox is not Sandbox X, U-space is not Hong Kong law, and corridor capacity must not be invented.</desc>
@@ -861,7 +850,6 @@ Compliance and trial rules can become real OPEX lines. For example, Mainland del
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · U-space ≠ HK law · no invented corridor K</text>
 </svg>
 
-<p class="wdiag-note">From Week 3 §9. Dimension labels from live table only. Hypotheses not facts. New SVG.</p>
 </figure>
 ```
 
@@ -930,7 +918,6 @@ If step 6’s required activity exceeds step 4’s physical capacity, the model 
   <text x="360" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">If required activity &gt; physical capacity → model is inconsistent</text>
 
 </svg>
-<p class="wdiag-note">From Week 3 §10. New SVG. Complements #w03-toolchain-svg and #w03-breakeven-svg.</p>
 </figure>
 ```
 

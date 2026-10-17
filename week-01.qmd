@@ -21,7 +21,7 @@ format:
 
 - [What is LAE?](primer.qmd) — plain-English orientation  
 - [How does LAE work?](business-overview.qmd) — roles in the value chain  
-- [Who decides what?](regulators.qmd) — institutions and standing caveats  
+- [Who decides what?](regulators.qmd) — who regulates  
 
 **This week** defines LAE, introduces three tools — [**VOT**](glossary.qmd#value-of-time) (value of time), **generalized cost**, and [**NPV**](glossary.qmd#npv) (net present value) — maps who gets paid, and explains sandboxes. **Week 2** turns to market structure and competition.
 
@@ -47,7 +47,7 @@ format:
 - Technology matters when it improves the economics of the full service — not only the aircraft.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (fares, waiting times, cost shares). They are **illustrative assumptions for learning**, not current Hong Kong market data or forecasts. Absolute figures — Cap. 448G bands, OHKF **HK$350bn**, first-batch Sandbox **38 of 72**, Sandbox X module counts, UTM “from 2028” language — stay with their issuers on [Key numbers](key-figures.qmd) / [Readings](#readings) / [Official status](tracker.qmd).
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -118,7 +118,6 @@ By the end of Week 1 you should be able to:
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Wide definition: not only “flying cars” or “drones” · see also How does LAE work?</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §1. Distinct from business-overview value-chain pay flow.</p>
 </figure>
 ```
 
@@ -257,7 +256,6 @@ Keep the layers separate:
   </g>
 </svg>
 
-<p class="wdiag-note">Not a law map. Height to approximate scale. Sandbox ≠ Sandbox X is out of scope for this figure.</p>
 </figure>
 ```
 
@@ -352,7 +350,6 @@ Traditional scheduled aviation typically uses large, expensive aircraft, large c
   <text x="360" y="264" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Structural contrasts only — no invented Hong Kong fare data</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §2. New SVG. No invented HK fares.</p>
 </figure>
 ```
 
@@ -441,7 +438,6 @@ You will hear three acronyms constantly. Keep them **nested**, not interchangeab
   </g>
 </svg>
 
-<p class="wdiag-note">Course meanings from Week 1 §3. A GBA corridor in AAM-style talk is not proof of day-to-day service (§12).</p>
 </figure>
 ```
 
@@ -483,7 +479,7 @@ Icebreaker intuition from class (not a claim that either service is operating to
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-four-families-svg" aria-labelledby="w01-four-families-svg-title">
-<p class="wdiag-cap" id="w01-four-families-svg-title"><strong>Four families · different binding constraints</strong> — <strong>Cargo</strong>: time / reliability / access → payload, weather, sites, BVLOS. <strong>Passenger</strong>: door-to-door vs MTR / taxi / Airport Express → vertiport, load factor, noise, acceptance. <strong>Inspection</strong>: lower disruption vs manned access → safety case, data/privacy, repeatability. <strong>EMS / public</strong>: time-critical outcomes → priority rules, funding, acceptance. Not market-share claims. High EMS WTP ≠ unlimited pricing. Cite Use cases for examples only. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w01-four-families-svg-title"><strong>Four families · different binding constraints</strong> — <strong>Cargo</strong>: time / reliability / access → payload, weather, sites, BVLOS. <strong>Passenger</strong>: door-to-door vs MTR / taxi / Airport Express → vertiport, load factor, noise, acceptance. <strong>Inspection</strong>: lower disruption vs manned access → safety case, data/privacy, repeatability. <strong>EMS / public</strong>: time-critical outcomes → priority rules, funding, acceptance. Not market-share claims. High EMS WTP ≠ unlimited pricing. Cite Use cases for examples only</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u3-title u3-desc">
   <title id="u3-title">Four LAE value families: cargo, passenger, inspection, EMS — different binding constraints</title>
   <desc id="u3-desc">Four ways to create value. Cargo and logistics: time, reliability, access; binds on payload, weather, landing sites, BVLOS. Passenger mobility: door-to-door time versus MTR, taxi, Airport Express; binds on vertiport access, load factor, noise, acceptance. Inspection: lower disruption and risk; binds on safety case, data and privacy, repeatability. Emergency and public services: outcomes alternatives cannot match in time; binds on priority rules, funding, acceptance. Not market-share claims. High willingness to pay for EMS is not unlimited pricing. Cite Use cases for examples only. Sandbox is not Sandbox X.</desc>
@@ -524,7 +520,6 @@ Icebreaker intuition from class (not a claim that either service is operating to
   <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Not market share · cite Use cases · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 1 §4. Family labels / constraints from live table only. New SVG.</p>
 </figure>
 ```
 
@@ -540,7 +535,7 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
-<p class="wdiag-cap" id="w01-ohkf-svg-title"><strong>Reading the OHKF HK$350bn figure</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue. Attribution: name OHKF, metric, geography, horizon. Sandbox selection ≠ market share. Twin discipline with Week 9 `#w09-ohkf-350`.</p>
+<p class="wdiag-cap" id="w01-ohkf-svg-title"><strong>Reading the OHKF HK$350bn figure</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue. Attribution: name OHKF, metric, geography, horizon. Twin discipline with Week 9 `#w09-ohkf-350`.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f7-title f7-desc">
   <title id="f7-title">Reading the OHKF HK$350bn figure</title>
   <desc id="f7-desc">Our Hong Kong Foundation private think-tank scenario projects about HK$350 billion in Hong Kong LAE industry value added by 2050. What it is: industry value-added projection for Hong Kong. What it is not: not a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland scale totals. Value added subtracts intermediate inputs. Cite OHKF, metric, geography, and horizon. Sandbox selection is not market share.</desc>
@@ -568,7 +563,6 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
   <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cite Key numbers / Readings · Sandbox ≠ market share</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §5. OHKF value-added projection only.</p>
 </figure>
 ```
 
@@ -644,7 +638,7 @@ $$
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-vot-npv-svg" aria-labelledby="w01-vot-npv-svg-title">
-<p class="wdiag-cap" id="w01-vot-npv-svg-title"><strong>Three-step viability screen</strong> — (1) create value for customers (e.g. VOT × ΔT); (2) capture enough as operating profit (revenue − operating cost); (3) justify the initial investment (NPV). Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is <strong>not</strong> proof of NPV. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w01-vot-npv-svg-title"><strong>Three-step viability screen</strong> — (1) create value for customers (e.g. VOT × ΔT); (2) capture enough as operating profit (revenue − operating cost); (3) justify the initial investment (NPV). Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is <strong>not</strong> proof of NPV</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g3-title g3-desc">
   <title id="g3-title">Three-step viability screen</title>
   <desc id="g3-desc">Three-step viability screen from Week 1. Step 1: does the service create value for customers, for example via value of time times time saved. Step 2: can the operator capture enough of that value as annual operating profit equals revenue minus operating cost. Step 3: does the project justify the initial investment under net present value. Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is not proof of NPV.</desc>
@@ -682,7 +676,6 @@ $$
   <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">WTP needs capture; capture needs NPV — sandbox ≠ proof of NPV</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §6 three-step viability screen.</p>
 </figure>
 ```
 
@@ -746,7 +739,6 @@ All else equal, the customer prefers the option with **lower** generalized cost.
   <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Design the complete journey — access/wait can reverse the ranking</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §7. New SVG. Formula only as already on the page.</p>
 </figure>
 ```
 
@@ -846,7 +838,6 @@ The next two examples apply VOT and generalized cost. Figures are **illustrative
   <text x="56" y="366" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">(30 min → 10 min) — classroom illustration only, not market data.</text>
 </svg>
 
-<p class="wdiag-note">Classroom assumptions from §8.1 (Airport–Central air-taxi idea; VOT HK$1,000 per hour). A fast aircraft does not guarantee a valuable service.</p>
 </figure>
 ```
 
@@ -876,7 +867,7 @@ Under these simplified assumptions, **HK$275** makes the traveller indifferent. 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-ae-ceiling-svg" aria-labelledby="w01-ae-ceiling-svg-title">
-<p class="wdiag-cap" id="w01-ae-ceiling-svg-title"><strong>AE ceiling → max P = HK$275</strong> — Classroom VOT <strong>HK$10/min</strong>. Airport Express: ticket <strong>HK$115</strong> · 24 min → GC = 115 + 10×24 = <strong>HK$355</strong>. Air taxi 8 min: P + 10×8 = 355 → indifference <strong>max P = HK$275</strong>. Ceiling under stated assumptions — <strong>not</strong> a forecast. Waiting, access, reliability, comfort, and perceived safety still bind. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w01-ae-ceiling-svg-title"><strong>AE ceiling → max P = HK$275</strong> — Classroom VOT <strong>HK$10/min</strong>. Airport Express: ticket <strong>HK$115</strong> · 24 min → GC = 115 + 10×24 = <strong>HK$355</strong>. Air taxi 8 min: P + 10×8 = 355 → indifference <strong>max P = HK$275</strong>. Ceiling under stated assumptions — <strong>not</strong> a forecast. Waiting, access, reliability, comfort, and perceived safety still bind</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="v2-title v2-desc">
   <title id="v2-title">Airport Express generalized cost three hundred fifty-five implies air-taxi maximum fare two hundred seventy-five</title>
   <desc id="v2-desc">Classroom Airport Express screen. Value of time ten Hong Kong dollars per minute. Airport Express ticket one hundred fifteen plus ten times twenty-four minutes equals generalized cost three hundred fifty-five. Air taxi journey eight minutes: maximum price plus ten times eight equals three hundred fifty-five, so maximum price two hundred seventy-five. Ceiling under stated assumptions, not a forecast. Waiting, access, reliability, comfort, and perceived safety still bind. Sandbox is not Sandbox X. Do not invent corridor capacity.</desc>
@@ -901,7 +892,6 @@ Under these simplified assumptions, **HK$275** makes the traveller indifferent. 
   <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · no invented corridor K</text>
 </svg>
 
-<p class="wdiag-note">From Week 1 §8.2. Classroom 115+10×24=355 · P+80=355 → 275 only. New SVG.</p>
 </figure>
 ```
 
@@ -978,7 +968,7 @@ If all costs stayed unchanged, cutting the fare by HK$50 would turn a HK$30 marg
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-valuechain-svg" aria-labelledby="w01-valuechain-svg-title">
-<p class="wdiag-cap" id="w01-valuechain-svg-title"><strong>Create value ≠ capture it — ticket HK$300</strong> — Classroom allocation: vertiport <strong>HK$100</strong> · UTM/digital <strong>HK$20</strong> · insurance/financing <strong>HK$30</strong> · aircraft lease <strong>HK$50</strong> → partners <strong>HK$200</strong>; cash left HK$100; after energy HK$20 + M&amp;L HK$50 → operator margin <strong>HK$30</strong>. Contracts and bargaining power decide the split. UTM ≠ U-space (EU frame ≠ HK law). “From 2028” Smart LATMS = planning WATCH, not city-wide UTM today. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w01-valuechain-svg-title"><strong>Create value ≠ capture it — ticket HK$300</strong> — Classroom allocation: vertiport <strong>HK$100</strong> · UTM/digital <strong>HK$20</strong> · insurance/financing <strong>HK$30</strong> · aircraft lease <strong>HK$50</strong> → partners <strong>HK$200</strong>; cash left HK$100; after energy HK$20 + M&amp;L HK$50 → operator margin <strong>HK$30</strong>. Contracts and bargaining power decide the split. UTM ≠ U-space (EU frame ≠ HK law). “From 2028” Smart LATMS = planning WATCH, not city-wide UTM today</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u2-title u2-desc">
   <title id="u2-title">Ticket Hong Kong dollar 300 shared: partners 200 leave operator cash 100 and margin 30 — creating value is not capturing it</title>
   <desc id="u2-desc">Classroom ticket split. Passenger pays three hundred Hong Kong dollars. Partner payments two hundred: vertiport one hundred, UTM and digital twenty, insurance and financing thirty, aircraft lease fifty. Cash left for operator one hundred; after energy twenty and maintenance and labour fifty, operator margin thirty. Creating value does not guarantee capturing value. U-space is an EU frame, not Hong Kong law. Hong Kong Smart Low-altitude Traffic Management System progressive implementation from 2028 is planning language, not city-wide UTM today. Sandbox is not Sandbox X.</desc>
@@ -1019,7 +1009,6 @@ If all costs stayed unchanged, cutting the fare by HK$50 would turn a HK$30 marg
   <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">UTM ≠ U-space · 2028 = planning WATCH · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 1 §9. Classroom HK$300 ticket split only. UTM ≠ U-space; 2028 planning caveat. New SVG.</p>
 </figure>
 ```
 
@@ -1085,7 +1074,7 @@ Hong Kong has run more than one trial track. On this site you must **not** merge
 | Early **Regulatory Sandbox** | First-batch selection **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language may refer to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
 | Later **Sandbox X** | Distinct programme. Selected modules **36** so far (Updated PDFs): UTM **15** + unconventional aircraft **4** + shared platform **5** + others **12**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 36 module total ([Key numbers](key-figures.qmd) · [Official status](tracker.qmd)). |
 
-Citeable counts and issuers: [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what? · standing caveats](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Later weeks carry AC-013 (BVLOS in the first Regulatory Sandbox) and AC-017 (Sandbox X cross-boundary) — do not mix those circulars ([Week 7](week-07.qmd); [Week 8](week-08.qmd)).
+Citeable counts and issuers: [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what?](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Later weeks carry AC-013 (BVLOS in the first Regulatory Sandbox) and AC-017 (Sandbox X cross-boundary) — do not mix those circulars ([Week 7](week-07.qmd); [Week 8](week-08.qmd)).
 
 With programmes named correctly, summarise economically what a sandbox can change in the **entry-barrier** sum.
 
@@ -1125,8 +1114,8 @@ Hong Kong’s LAE development is closely connected with the wider GBA ecosystem:
 
 **Strategic question:** how can Hong Kong and other GBA cities combine complementary strengths rather than duplicate them?
 
-::: {.callout-important appearance="simple"}
-**Evidence caveat.** A Shenzhen–Hong Kong / GBA cross-boundary corridor appears in policy discussion, but on the evidence tracked on this site it is **not** flying as day-to-day operating corridor service. Treat corridor language as **planned / under discussion**, not as current operations ([Regulators · standing caveats](regulators.qmd#standing-caveats); [Official status](tracker.qmd); [What is LAE?](primer.qmd)). Sandbox X may include cross-boundary *trials* under AC-017 — trials are not the same as a scheduled corridor product.
+::: {.callout-note appearance="simple"}
+**Corridor language.** Planned or trial corridors are not day-to-day operating service — see [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ---
@@ -1188,7 +1177,6 @@ $$
   <text x="360" y="314" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Flying often with empty seats still leaves unit cost high</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §13. New SVG. Classroom arithmetic illustrative.</p>
 </figure>
 ```
 

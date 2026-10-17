@@ -47,7 +47,7 @@ Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capa
 - Clear presentation makes assumptions and trade-offs visible instead of hiding uncertainty.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples below (capacity-shock profits) use **illustrative assumptions for learning**, not Hong Kong weather downtime, corridor capacities, or deal terms. Absolute facts (Policy Address / Sandbox X framing, AC-017, Action Plan still **OPEN**) stay with issuers on [Readings](#readings) / [Official status](tracker.qmd). Keep **Sandbox ≠ Sandbox X**; do not invent approval dates.
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -143,7 +143,6 @@ Business-model components are connected through quantities, prices, capacity, co
   <text x="360" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Mitigation may raise cost but preserve access — keep ESG in the same path</text>
 
 </svg>
-<p class="wdiag-note">From Week 11 §2. New SVG. Pairs with #w11-viable-svg.</p>
 </figure>
 ```
 
@@ -151,7 +150,7 @@ Business-model components are connected through quantities, prices, capacity, co
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-viable-svg" aria-labelledby="w11-viable-svg-title">
-<p class="wdiag-cap" id="w11-viable-svg-title"><strong>Viability stack — same units all the way down</strong> — D and K in the same units → D_served = min{D, K} → Π_op = (p − v)·D_served − F → then CF_t / NPV, Pr(Π &lt; 0), and non-financial gates. Capacity-shock numbers in class are illustrative — not Hong Kong weather downtime. Keep Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w11-viable-svg-title"><strong>Viability stack — same units all the way down</strong> — D and K in the same units → D_served = min{D, K} → Π_op = (p − v)·D_served − F → then CF_t / NPV, Pr(Π &lt; 0), and non-financial gates. Capacity-shock numbers in class are illustrative — not Hong Kong weather downtime</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d6-title d6-desc">
   <title id="d6-title">Viability stack — same units all the way down</title>
   <desc id="d6-desc">Viability stack: demand D and reliable capacity K in the same units; served activity equals the minimum of D and K; operating profit equals price minus variable cost times served activity minus fixed cost; then cash flows, NPV, downside probability of loss, and non-financial gates. Capacity-shock tables in class are illustrative, not Hong Kong weather downtime.</desc>
@@ -179,7 +178,6 @@ Business-model components are connected through quantities, prices, capacity, co
   <text x="360" y="338" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Permission, safety, acceptance, Sandbox ≠ Sandbox X — not automatic pass</text>
 
 </svg>
-<p class="wdiag-note">From Week 11 §2.</p>
 </figure>
 ```
 
@@ -219,7 +217,7 @@ The capacity shock reduces served activity even though customer demand is unchan
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-cap-shock-svg" aria-labelledby="w11-cap-shock-svg-title">
-<p class="wdiag-cap" id="w11-cap-shock-svg-title"><strong>Capacity shock · K binds → Π → 0</strong> — Classroom: <em>D</em>=100 flights/day; <em>p</em>=600; <em>v</em>=100; <em>F</em>=HK$40,000/day. Base <em>K</em>=100 → min{100,100}=100 → Π = <strong>HK$10,000/day</strong>. Shock <em>K</em>=80 → min{100,80}=80 → Π = <strong>HK$0/day</strong>. Same demand; fixed cost remains. Raising marketing to lift <em>D</em> does nothing when <em>K</em> binds. Illustrative — not Hong Kong weather downtime. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w11-cap-shock-svg-title"><strong>Capacity shock · K binds → Π → 0</strong> — Classroom: <em>D</em>=100 flights/day; <em>p</em>=600; <em>v</em>=100; <em>F</em>=HK$40,000/day. Base <em>K</em>=100 → min{100,100}=100 → Π = <strong>HK$10,000/day</strong>. Shock <em>K</em>=80 → min{100,80}=80 → Π = <strong>HK$0/day</strong>. Same demand; fixed cost remains. Raising marketing to lift <em>D</em> does nothing when <em>K</em> binds. Illustrative — not Hong Kong weather downtime</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x1-title x1-desc">
   <title id="x1-title">Capacity shock: operating profit ten thousand per day falls to zero when reliable capacity eighty binds</title>
   <desc id="x1-desc">Classroom capacity shock. Demand one hundred flights per day, price six hundred, variable cost one hundred, fixed cost forty thousand per day. Base case served one hundred and operating profit ten thousand Hong Kong dollars per day. When reliable capacity falls to eighty, served is eighty and operating profit is zero per day. Same demand; K binds. Illustrative — not Hong Kong weather downtime. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
@@ -244,7 +242,6 @@ The capacity shock reduces served activity even though customer demand is unchan
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ HK weather downtime · Sandbox ≠ X · no invented corridor K</text>
 </svg>
 
-<p class="wdiag-note">From Week 11 §2 worked illustration (capacity shock). Classroom only. New SVG. Pairs with #w11-viable-svg.</p>
 </figure>
 ```
 
@@ -256,7 +253,7 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-blocks-svg" aria-labelledby="w11-blocks-svg-title">
-<p class="wdiag-cap" id="w11-blocks-svg-title"><strong>Six connected blocks</strong> — (1) problem, (2) demand &amp; K, (3) economics, (4) ops/infra, (5) partners/regulation, (6) impact/equity. Recommend proceed / stage / redesign / reject with conditions. Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
+<p class="wdiag-cap" id="w11-blocks-svg-title"><strong>Six connected blocks</strong> — (1) problem, (2) demand &amp; K, (3) economics, (4) ops/infra, (5) partners/regulation, (6) impact/equity. Recommend proceed / stage / redesign / reject with conditions. Action Plan OPEN where Official status says so.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e5-title e5-desc">
   <title id="e5-title">Six connected blocks</title>
   <desc id="e5-desc">Six capstone decision blocks: service and stakeholder problem; demand and capacity; economics and finance; infrastructure and operations; partnership and regulation; sustainability and distribution. Keep Sandbox separate from Sandbox X; do not invent corridor capacity; Action Plan remains OPEN where Official status says so.</desc>
@@ -296,7 +293,6 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
   <text x="360" y="344" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Action Plan OPEN where Official status says so</text>
 
 </svg>
-<p class="wdiag-note">From Week 11 §3.</p>
 </figure>
 ```
 
@@ -326,7 +322,7 @@ A coherent capstone should connect six decision blocks:
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-corridor-screen-svg" aria-labelledby="w11-corridor-screen-svg-title">
-<p class="wdiag-cap" id="w11-corridor-screen-svg-title"><strong>Airport-corridor screening · six-block chain</strong> — Illustrative: (1) <strong>Problem</strong> — time-sensitive airport door-to-door value vs alternative; (2) <strong>Demand</strong> — choice at fares under generalized cost + capacity; (3) <strong>Operations</strong> — aircraft, seats, LF, days, serviceable <em>K</em>; (4) <strong>Economics</strong> — contribution, <em>F</em>, BE, NPV, downside; (5) <strong>Regulation</strong> — permissions; Sandbox X / AC-013 only where relevant (keep distinct); (6) <strong>Impact</strong> — emissions, noise, privacy, access, public-service. Recommend proceed / stage / redesign / relocate / reject with conditions. No invented corridor <em>K</em>. AC-013 ≠ AC-017. Sandbox ≠ Sandbox X. U-space ≠ HK law. ~1000 m ≠ Cap. 448G. Near-overlap with <code>#w11-blocks-svg</code> — this is the <em>screening chain</em> table visualised.</p>
+<p class="wdiag-cap" id="w11-corridor-screen-svg-title"><strong>Airport-corridor screening · six-block chain</strong> — Illustrative: (1) <strong>Problem</strong> — time-sensitive airport door-to-door value vs alternative; (2) <strong>Demand</strong> — choice at fares under generalized cost + capacity; (3) <strong>Operations</strong> — aircraft, seats, LF, days, serviceable <em>K</em>; (4) <strong>Economics</strong> — contribution, <em>F</em>, BE, NPV, downside; (5) <strong>Regulation</strong> — permissions; Sandbox X / AC-013 only where relevant (keep distinct); (6) <strong>Impact</strong> — emissions, noise, privacy, access, public-service. Recommend proceed / stage / redesign / relocate / reject with conditions</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 460" role="img" aria-labelledby="z5-title z5-desc">
   <title id="z5-title">Airport-corridor screening: six blocks from problem through impact to a conditioned recommendation</title>
   <desc id="z5-desc">Illustrative airport-corridor screening chain. Six blocks: problem tests time-sensitive airport door-to-door value; demand estimates choice at fares under capacity; operations defines aircraft seats load factor and serviceable capacity; economics covers contribution breakeven NPV and downside; regulation uses Sandbox X or AC-013 only where relevant and keeps programmes distinct; impact covers emissions noise privacy access and public-service effects. Recommend proceed stage redesign relocate or reject with conditions. Do not invent published corridor capacities. AC-013 is not AC-017. Sandbox is not Sandbox X. U-space is not Hong Kong law.</desc>
@@ -371,7 +367,6 @@ A coherent capstone should connect six decision blocks:
   <text x="360" y="396" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">U-space ≠ HK law · ~1000 m ≠ Cap. 448G · ≠ #w11-blocks-svg alone</text>
 </svg>
 
-<p class="wdiag-note">From Week 11 §3 Airport-corridor screening (illustrative chain). New SVG. Screening chain ≠ published corridor K. Pairs with #w11-blocks-svg.</p>
 </figure>
 ```
 
@@ -391,7 +386,7 @@ A template without gates is a wish list. The **risk register and decision-gated 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-risk-channel" aria-labelledby="w11-risk-channel-title">
-<p class="wdiag-cap" id="w11-risk-channel-title"><strong>Each risk must hit a model channel</strong> — demand → choice share and price; weather → serviceable K; regulation → scope and timing; technology → cost and availability; community → route and operating conditions. A register row that never moves D, K, p, v, F, or launch timing is decoration. Do not assume fixed Sandbox X dates — keep Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w11-risk-channel-title"><strong>Each risk must hit a model channel</strong> — demand → choice share and price; weather → serviceable K; regulation → scope and timing; technology → cost and availability; community → route and operating conditions. A register row that never moves D, K, p, v, F, or launch timing is decoration. Do not assume fixed Sandbox X dates</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d7-title d7-desc">
   <title id="d7-title">Each risk must hit a model channel</title>
   <desc id="d7-desc">Five risks mapped to model channels: demand to choice share and price; weather to serviceable capacity; regulation to scope and timing; technology to cost and availability; community impact to route and operating conditions. A risk register row that never changes D, K, p, v, F, or launch timing is decoration. Do not assume fixed Sandbox X approval dates.</desc>
@@ -437,7 +432,6 @@ A template without gates is a wish list. The **risk register and decision-gated 
   <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Must move D, K, p, v, F, or launch timing — not fixed Sandbox X dates. Keep Sandbox ≠ Sandbox X.</text>
 
 </svg>
-<p class="wdiag-note">From Week 11 §4 risk table. AC-013 first-Sandbox BVLOS ≠ Sandbox X dates.</p>
 </figure>
 ```
 
@@ -467,7 +461,7 @@ A strong presentation answers all five without pretending that uncertainty has d
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-lenses-svg" aria-labelledby="w11-lenses-svg-title">
-<p class="wdiag-cap" id="w11-lenses-svg-title"><strong>Five decision-maker lenses</strong> — Operational credibility (safe/reliable delivery) · Commercial viability (demand, contribution, cash, financing) · Regulatory feasibility (pathway specific to aircraft and operation) · Public value (benefits, costs, access, distribution) · Decision quality (uncertainty, alternatives, revision conditions). Answer all five without pretending uncertainty has disappeared. ≠ <code>#w11-pitch-svg</code> (12-minute spine) / <code>#w11-weak-strong-svg</code>. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w11-lenses-svg-title"><strong>Five decision-maker lenses</strong> — Operational credibility (safe/reliable delivery) · Commercial viability (demand, contribution, cash, financing) · Regulatory feasibility (pathway specific to aircraft and operation) · Public value (benefits, costs, access, distribution) · Decision quality (uncertainty, alternatives, revision conditions). Answer all five without pretending uncertainty has disappeared. ≠ <code>#w11-pitch-svg</code> (12-minute spine) / <code>#w11-weak-strong-svg</code></p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 370" role="img" aria-labelledby="b4-title b4-desc">
   <title id="b4-title">Five decision-maker lenses: operational credibility, commercial viability, regulatory feasibility, public value, and decision quality</title>
   <desc id="b4-desc">Five decision-maker lenses from Week 11. Operational credibility asks whether the service can be delivered safely and reliably. Commercial viability asks whether demand, contribution, cash flow, and financing assumptions are credible. Regulatory feasibility asks whether the proposed pathway is specific to the aircraft and operation. Public value asks whether benefits, costs, access, and distribution are addressed. Decision quality asks whether the recommendation acknowledges uncertainty, alternatives, and conditions for revision. Assessors may represent investors, operators, regulators, public agencies, customers, or affected communities. Distinct from the twelve-minute pitch spine SVG. Sandbox is not Sandbox X. Do not invent corridor capacity.</desc>
@@ -510,7 +504,6 @@ A strong presentation answers all five without pretending that uncertainty has d
   <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w11-pitch-svg (12-min spine) · Sandbox ≠ X · no invented K</text>
 </svg>
 
-<p class="wdiag-note">From Week 11 §5 decision-maker lenses table. Concept SVG. New. Distinct from #w11-pitch-svg and #w11-weak-strong-svg.</p>
 </figure>
 ```
 
@@ -542,7 +535,7 @@ A strong analysis can still recommend **rejection or delay**. Credibility matter
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-weak-strong-svg" aria-labelledby="w11-weak-strong-svg-title">
-<p class="wdiag-cap" id="w11-weak-strong-svg-title"><strong>Weak vs strong evidence</strong> — Five contrasts from the live table: market size as forecast vs defined market + alternative; mixed units vs <em>D</em> checked against reliable <em>K</em>; repeated % haircuts vs one constraint → one channel; expected profit alone vs NPV / Pr(loss) / cash need; assumed approval-acceptance-insurance vs stated evidence, limitations, and gates. A strong analysis can still recommend <strong>rejection or delay</strong>. OHKF HK$350bn ≠ obtainable demand; electric ≠ zero life-cycle emissions. Sandbox ≠ Sandbox X. U-space ≠ HK law.</p>
+<p class="wdiag-cap" id="w11-weak-strong-svg-title"><strong>Weak vs strong evidence</strong> — Five contrasts from the live table: market size as forecast vs defined market + alternative; mixed units vs <em>D</em> checked against reliable <em>K</em>; repeated % haircuts vs one constraint → one channel; expected profit alone vs NPV / Pr(loss) / cash need; assumed approval-acceptance-insurance vs stated evidence, limitations, and gates. A strong analysis can still recommend <strong>rejection or delay</strong>. electric ≠ zero life-cycle emissions. U-space ≠ HK law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="x2-title x2-desc">
   <title id="x2-title">Weak versus strong evidence — five contrasts; reject or delay can be strong</title>
   <desc id="x2-desc">Five weak-to-strong evidence contrasts: market size versus defined market and alternative; unit confusion versus demand checked against capacity; repeated haircuts versus one-channel mapping; expected profit alone versus NPV loss probability and cash need; assumed approval versus stated evidence limitations and gates. A strong analysis can still recommend rejection or delay. OHKF three hundred fifty billion is not obtainable demand. Electric is not zero life-cycle emissions. Sandbox is not Sandbox X. U-space is not Hong Kong law.</desc>
@@ -579,13 +572,12 @@ A strong analysis can still recommend **rejection or delay**. Credibility matter
   <text x="360" y="386" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · U-space ≠ HK law · reject/delay can be strong</text>
 </svg>
 
-<p class="wdiag-note">From Week 11 §5 Weak vs strong evidence table (5 rows). New SVG. Distinct from #w11-pitch-svg (spine).</p>
 </figure>
 ```
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-pitch-svg" aria-labelledby="w11-pitch-svg-title">
-<p class="wdiag-cap" id="w11-pitch-svg-title"><strong>12-minute pitch → conditional recommend</strong> — Spine: <strong>Decision</strong> (≈2) · <strong>Evidence</strong> / quant case (≈4) · name which of <strong>D</strong> or <strong>K</strong> binds · <strong>Economics</strong> (contribution, breakeven, NPV, one sensitivity) · <strong>Risks</strong> + close (≈2+1) with stop conditions. Weak ≠ strong evidence. Reject / delay is a valid strong answer. OHKF HK$350bn ≠ obtainable demand; electric ≠ zero life-cycle emissions. Sandbox ≠ Sandbox X. U-space ≠ HK law. No invented corridor <em>K</em>. Action Plan OPEN where tracker says so.</p>
+<p class="wdiag-cap" id="w11-pitch-svg-title"><strong>12-minute pitch → conditional recommend</strong> — Spine: <strong>Decision</strong> (≈2) · <strong>Evidence</strong> / quant case (≈4) · name which of <strong>D</strong> or <strong>K</strong> binds · <strong>Economics</strong> (contribution, breakeven, NPV, one sensitivity) · <strong>Risks</strong> + close (≈2+1) with stop conditions. Weak ≠ strong evidence. Reject / delay is a valid strong answer. electric ≠ zero life-cycle emissions. U-space ≠ HK law</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u5-title u5-desc">
   <title id="u5-title">Twelve-minute pitch spine ending in a conditional recommendation</title>
   <desc id="u5-desc">Five segment cards for a twelve-minute pitch covering decision, evidence, demand versus capacity, economics, and risks, a gold-border strip for a conditional recommend that may reject or delay, a navy strip that OHKF three hundred fifty billion is not obtainable demand, and a gold-border guard strip.</desc>
@@ -625,7 +617,6 @@ A strong analysis can still recommend **rejection or delay**. Credibility matter
   <text x="360" y="324" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · U-space ≠ HK law · Action Plan OPEN</text>
 </svg>
 
-<p class="wdiag-note">From Week 11 §5. Pitch minutes from live table; D/K from §2. New SVG.</p>
 </figure>
 ```
 

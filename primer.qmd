@@ -94,7 +94,6 @@ That **1,000 metre** figure is a **policy working description** — a way offici
     <rect x="156" y="114" width="8" height="6" rx="1"/>
   </g>
 </svg>
-<p class="wdiag-note">Not a law map. Mainland altitude labels are a different scheme — see Glossary. Sandbox programmes are not shown here.</p>
 </figure>
 ```
 
@@ -108,7 +107,6 @@ Think of one finished job, not only one aircraft:
 - Other firms support the work — for example finance, insurance, training, and software platforms.
 
 That whole chain is what this course means by LAE. [Week 1](week-01.qmd) starts the same idea. The week map is on [Course overview](overview.qmd).
-
 
 ```{=html}
 <style>
@@ -142,7 +140,7 @@ That whole chain is what this course means by LAE. [Week 1](week-01.qmd) starts 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="lae-whole-service-svg" aria-labelledby="lae-whole-service-svg-title">
-<p class="wdiag-cap" id="lae-whole-service-svg-title"><strong>Whole service (simple picture)</strong> — craft → airspace &amp; sites → customers/mission sponsors → rules &amp; oversight. Pieces of one mission — <strong>not</strong> a law map. ~1,000 m is a Hong Kong <strong>working description</strong> for the economic field — <strong>not</strong> a Cap. 448G flying-height limit. Operators and support sit across the chain. Sandbox ≠ Sandbox X. Mainland 低空经济 scope ≠ Hong Kong scope.</p>
+<p class="wdiag-cap" id="lae-whole-service-svg-title"><strong>Whole service (simple picture)</strong> — craft → airspace &amp; sites → customers/mission sponsors → rules &amp; oversight. Pieces of one mission — <strong>not</strong> a law map. ~1,000 m is a Hong Kong <strong>working description</strong> for the economic field — <strong>not</strong> a Cap. 448G flying-height limit. Operators and support sit across the chain. Mainland 低空经济 scope ≠ Hong Kong scope.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g2-title g2-desc">
   <title id="g2-title">Whole service (simple picture)</title>
   <desc id="g2-desc">Pieces of one low-altitude mission: craft; airspace and sites including the Hong Kong about 1,000 metre working description which is not a Cap. 448G flying-height limit; customers or mission sponsors; rules and oversight. This is not a law map. Operators and support services sit across the chain. Sandbox is not Sandbox X.</desc>
@@ -172,7 +170,6 @@ That whole chain is what this course means by LAE. [Week 1](week-01.qmd) starts 
   <text x="360" y="348" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Operators &amp; support sit across · Sandbox ≠ Sandbox X · Mainland 低空经济 ≠ HK scope</text>
 
 </svg>
-<p class="wdiag-note">From primer. SVG upgrade of HTML #lae-whole-service. Week 1 opens the same idea.</p>
 </figure>
 ```
 
@@ -184,7 +181,6 @@ You will hear everyday words (such as “drone”) next to law or industry label
 
 - **Small unmanned aircraft (SUA)** — Hong Kong’s main legal label for light unmanned craft under [Cap. 448G](glossary.qmd#hong-kong-institutions-and-law). Cap. 448G covers unmanned aircraft **not more than 150 kg**. “Drone” in everyday speech is **not** a Cap. 448G legal synonym.
 - **eVTOL** — an industry label for **electric vertical take-off and landing** craft (aircraft that take off and land straight up and down, usually with electric power). Hong Kong has **no dedicated eVTOL statute yet**. Heavier or passenger types sit above the SUA weight ceiling. They are treated as **unconventional aircraft** while rules are still being developed ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [Official status](tracker.qmd)).
-
 
 ```{=html}
 <style>
@@ -214,7 +210,7 @@ You will hear everyday words (such as “drone”) next to law or industry label
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="lae-labels-svg" aria-labelledby="lae-labels-svg-title">
-<p class="wdiag-cap" id="lae-labels-svg-title"><strong>Labels at a glance</strong> — <strong>~1,000 m</strong> is a Hong Kong <strong>policy working description</strong> for the LAE field — <strong>not</strong> a Cap. 448G flying-height limit (ordinary bands: A1 100 ft AGL; A2 300 ft AGL unless CAD permission). <strong>SUA</strong> is Cap. 448G’s legal label; <strong>eVTOL</strong> is an industry label — not a Cap. 448G synonym. U-space is <strong>not</strong> Hong Kong law. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="lae-labels-svg-title"><strong>Labels at a glance</strong> — <strong>~1,000 m</strong> is a Hong Kong <strong>policy working description</strong> for the LAE field — <strong>not</strong> a Cap. 448G flying-height limit (ordinary bands: A1 100 ft AGL; A2 300 ft AGL unless CAD permission). <strong>SUA</strong> is Cap. 448G’s legal label; <strong>eVTOL</strong> is an industry label — not a Cap. 448G synonym. U-space is <strong>not</strong> Hong Kong law</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g4-title g4-desc">
   <title id="g4-title">Labels at a glance</title>
   <desc id="g4-desc">Three labels to keep separate. About 1,000 metres is a Hong Kong policy working description for the low-altitude economy field, not a Cap. 448G flying-height limit. Cap. 448G ordinary bands are Category A1 100 feet AGL and Category A2 300 feet AGL unless CAD grants permission. SUA is Hong Kong Cap. 448G small unmanned aircraft. eVTOL is an industry label for electric vertical take-off and landing craft, not a Cap. 448G synonym. U-space is not Hong Kong law. Sandbox is not Sandbox X.</desc>
@@ -251,7 +247,6 @@ You will hear everyday words (such as “drone”) next to law or industry label
   <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">U-space ≠ HK law · Sandbox ≠ Sandbox X · Glossary for the rest</text>
 
 </svg>
-<p class="wdiag-note">From primer labels. SVG upgrade of HTML #lae-labels. Mild overlap with Week 1 nested labels — keep light.</p>
 </figure>
 ```
 
@@ -271,7 +266,6 @@ This course focuses on **Hong Kong** and the **Greater Bay Area (GBA)** — the 
 Readings also use EU, US, and NASA-style examples for **comparison**. Those foreign frames are **not** Hong Kong law. See [Course overview](overview.qmd) and the week pages under **Teach**.
 
 Hong Kong already has an active policy track: a Working Group, trial programmes (**sandboxes**), Cap. 448G, and Advisory Circulars. The dated trail is on [Timeline](dates.qmd).
-
 
 ```{=html}
 <style>
@@ -302,7 +296,7 @@ Hong Kong already has an active policy track: a Working Group, trial programmes 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="lae-hk-gba-svg" aria-labelledby="lae-hk-gba-svg-title">
-<p class="wdiag-cap" id="lae-hk-gba-svg-title"><strong>Why Hong Kong / GBA</strong> — course home setting (Working Group, trials, Cap. 448G, Advisory Circulars). Keep <strong>Regulatory Sandbox ≠ Sandbox X</strong>. A Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> under discussion — on evidence tracked here, <strong>not</strong> day-to-day flying. Private forecasts ≠ government targets. See <a href="regulators.qmd">Who decides what?</a>.</p>
+<p class="wdiag-cap" id="lae-hk-gba-svg-title"><strong>Why Hong Kong / GBA</strong> — course home setting (Working Group, trials, Cap. 448G, Advisory Circulars). Keep <strong> </strong>. A Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> under discussion — on evidence tracked here, <strong>not</strong> day-to-day flying. Private forecasts ≠ government targets. See <a href="regulators.qmd">Who decides what?</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g5-title g5-desc">
   <title id="g5-title">Why Hong Kong / GBA</title>
   <desc id="g5-desc">Course setting: Hong Kong and the Greater Bay Area. Hong Kong already has a Working Group, trial programmes, Cap. 448G, and Advisory Circulars. Keep two sandboxes separate: early Regulatory Sandbox and later Sandbox X. A Shenzhen–Hong Kong or GBA cross-boundary corridor is a policy idea under discussion; on the evidence tracked on this site, flights are not running as day-to-day service. Large private forecasts are not government targets. Sandbox is not Sandbox X.</desc>
@@ -329,7 +323,6 @@ Hong Kong already has an active policy track: a Working Group, trial programmes 
   <text x="360" y="270" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Who regulates what → regulators page · private forecasts ≠ government targets</text>
 
 </svg>
-<p class="wdiag-note">From primer. SVG upgrade of HTML #lae-hk-gba. Complements #lae-two-sandboxes.</p>
 </figure>
 ```
 
@@ -375,7 +368,6 @@ Hong Kong already has an active policy track: a Working Group, trial programmes 
   <text x="340" y="290" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="600" fill="#003366">Not one combined list</text>
 </svg>
 
-<p class="wdiag-note">No project counts on this figure — do not merge lists. Counts and modules live on Official status / Key numbers.</p>
 </figure>
 ```
 

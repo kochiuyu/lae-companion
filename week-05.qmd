@@ -48,7 +48,7 @@ Week 4 asked whether **customers would choose** the service. This week asks whet
 - Hub, distributed, and hybrid networks trade facility cost, access, resilience, and connectivity.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (site costs, movements, fees, access minutes). They are **illustrative assumptions for learning**, not current Hong Kong site quotations, operator tariffs, or government capacity plans. **Vertiport** here is industry / classroom language — Hong Kong has **no dedicated vertiport statute yet** ([Glossary](glossary.qmd#infrastructure); [FAQ](faq.qmd)). Absolute reading facts (OHKF as **think-tank**; EASA prototype vertiport specs as **EU comparator**; HKSAR LCQ on spatial data / CSDI; Shenzhen statute Chapter 2 on infrastructure) stay with issuers on [Readings](#readings) / [Key numbers](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -82,7 +82,7 @@ By the end of Week 5 you should be able to:
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
-<p class="wdiag-cap" id="w05-bottleneck-svg-title"><strong>Diagnose which resource binds</strong> — pad/stand/gate; charging/energy; passenger/cargo process; airspace/procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind (and vice versa). No invented Harbour/GBA “drones per minute.” Trial sites ≠ permanent slots; Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w05-bottleneck-svg-title"><strong>Diagnose which resource binds</strong> — pad/stand/gate; charging/energy; passenger/cargo process; airspace/procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind (and vice versa). No invented Harbour/GBA “drones per minute.” Trial sites ≠ permanent slots</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f1-title f1-desc">
   <title id="f1-title">Diagnose which resource binds</title>
   <desc id="f1-desc">Four infrastructure resources that can bind: pad stand or gate; charging or energy; passenger or cargo process; airspace or procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind and vice versa. Do not invent drones-per-minute for Harbour or GBA corridors. Keep Sandbox separate from Sandbox X.</desc>
@@ -121,7 +121,6 @@ By the end of Week 5 you should be able to:
   <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Trial sites ≠ permanent slots · Sandbox ≠ Sandbox X</text>
 
 </svg>
-<p class="wdiag-note">From Week 5 §1. Complements Week 8 bind-first.</p>
 </figure>
 ```
 
@@ -136,7 +135,7 @@ Week 2 treated scarce pads as a source of competitive advantage and co-opetition
 Policy language in Hong Kong already names planning of facilities such as vertiports alongside spectrum, air route networks, and a smart low-altitude traffic-management system (Policy Address framing; status on [Official status](tracker.qmd) / [Timeline](dates.qmd)). That is **planning language**, not proof that a dedicated vertiport statute exists, and not proof that named corridors already operate as day-to-day commercial sites.
 
 ::: {.callout-note appearance="simple"}
-**Sandbox note.** First **Regulatory Sandbox** (**38 of 72** selected) and later **Sandbox X** may involve trial sites and procedures. Trial participation is **not** a permanent commercial slot right, a land-use approval for a permanent vertiport, or a capacity forecast ([Who decides what?](regulators.qmd#standing-caveats); [Key numbers](key-figures.qmd)). Keep **Sandbox ≠ Sandbox X**.
+**Trial programmes.** Keep the first Regulatory Sandbox and Sandbox X separate — see [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ---
@@ -200,7 +199,6 @@ Actual design depends on aircraft, operations, safety requirements, and local ap
   <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Labels organise cost / access / expandability — not Cap. 448G categories or zoning rights.</text>
 
 </svg>
-<p class="wdiag-note">From Week 5 §2 table. Labels are not Cap. 448G categories.</p>
 </figure>
 ```
 
@@ -260,7 +258,6 @@ A workable site balances:
   <text x="360" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">If safety, capacity, or service fails — reject the site</text>
 
 </svg>
-<p class="wdiag-note">From Week 5 §3. New SVG. Screening only.</p>
 </figure>
 ```
 
@@ -298,7 +295,7 @@ Under these assumptions the ground site looks cheaper. Actual choice still depen
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-site-cost-svg" aria-labelledby="w05-site-cost-svg-title">
-<p class="wdiag-cap" id="w05-site-cost-svg-title"><strong>Site cost · building HK$25k vs ground HK$7.5k/day</strong> — Classroom: <strong>100</strong> trips/day; VOT <strong>HK$15/min</strong>. Building: infra 5k + OPEX 8k + access burden 12k = <strong>HK$25,000</strong>/day. Ground: 1k + 2k + 4.5k = <strong>HK$7,500</strong>. Cheap land with weak access can wreck Week 4 mode share — access burden is paid by users, not the site owner. ≠ <code>#w05-archetypes</code> / <code>#w05-site-screen-svg</code> / <code>#w05-reliable-k-svg</code>. No invented HK sites. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w05-site-cost-svg-title"><strong>Site cost · building HK$25k vs ground HK$7.5k/day</strong> — Classroom: <strong>100</strong> trips/day; VOT <strong>HK$15/min</strong>. Building: infra 5k + OPEX 8k + access burden 12k = <strong>HK$25,000</strong>/day. Ground: 1k + 2k + 4.5k = <strong>HK$7,500</strong>. Cheap land with weak access can wreck Week 4 mode share — access burden is paid by users, not the site owner. ≠ <code>#w05-archetypes</code> / <code>#w05-site-screen-svg</code> / <code>#w05-reliable-k-svg</code>. No invented HK sites</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="a9-title a9-desc">
   <title id="a9-title">Generalized site cost: building twenty-five thousand per day versus ground seven thousand five hundred</title>
   <desc id="a9-desc">Classroom generalized site cost for two archetypes. One hundred passenger-trips per day; value of access time fifteen Hong Kong dollars per minute. Building-based: infrastructure five thousand, OPEX eight thousand, access burden twelve thousand, generalized site cost twenty-five thousand per day. Ground-based: infrastructure one thousand, OPEX two thousand, access burden four thousand five hundred, generalized site cost seven thousand five hundred. Cheap land with weak access can wreck Week 4 mode share. Access burden is paid by users, not the site owner. No invented Hong Kong sites. Sandbox is not Sandbox X. Distinct from archetype cards and five-screen SVG.</desc>
@@ -325,7 +322,6 @@ Under these assumptions the ground site looks cheaper. Actual choice still depen
   <text x="360" y="374" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w05-archetypes / site-screen / reliable-k · no invented HK sites</text>
 </svg>
 
-<p class="wdiag-note">From Week 5 §3 Worked illustration (two archetypes). Classroom only. New SVG.</p>
 </figure>
 ```
 
@@ -398,7 +394,6 @@ A higher-cost site needs more activity, higher contribution per movement, or com
   <text x="360" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Not % of clock hours · weather &amp; priority cut usable K</text>
 </svg>
 
-<p class="wdiag-note">From Week 5 §4. Classroom 75%/20% only. New SVG.</p>
 </figure>
 ```
 
@@ -449,7 +444,6 @@ Financing must cover the expected ramp-up shortfall **plus** contingency.
   <text x="360" y="312" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Full hub day-one = sunk-cost trap · staging ≠ Week 6 option math</text>
 </svg>
 
-<p class="wdiag-note">From Week 5 §5. Classroom HK$10M / HK$2M / HK$4M→HK$1M only. New SVG.</p>
 </figure>
 ```
 
@@ -488,7 +482,7 @@ The 20% cut is an **illustrative stress scenario**, not a claim about Hong Kong�
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-return-svg" aria-labelledby="w05-return-svg-title">
-<p class="wdiag-cap" id="w05-return-svg-title"><strong>Simple return under downtime stress</strong> — (adj. revenue − adj. OPEX) / investment. Classroom: investment <strong>HK$10M</strong>; revenue <strong>HK$4M</strong>; annual cost <strong>HK$2.5M</strong> → surplus <strong>HK$1.5M</strong> / <strong>15%</strong>; with illustrative <strong>20%</strong> revenue cut → surplus <strong>HK$0.7M</strong> / <strong>7%</strong>. Stress scenario ≠ claimed Hong Kong annual weather downtime. Rough screen ≠ full ROI or NPV. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w05-return-svg-title"><strong>Simple return under downtime stress</strong> — (adj. revenue − adj. OPEX) / investment. Classroom: investment <strong>HK$10M</strong>; revenue <strong>HK$4M</strong>; annual cost <strong>HK$2.5M</strong> → surplus <strong>HK$1.5M</strong> / <strong>15%</strong>; with illustrative <strong>20%</strong> revenue cut → surplus <strong>HK$0.7M</strong> / <strong>7%</strong>. Stress scenario ≠ claimed Hong Kong annual weather downtime. Rough screen ≠ full ROI or NPV</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r1-title r1-desc">
   <title id="r1-title">Simple return screen: 15 percent falls to 7 percent under downtime stress</title>
   <desc id="r1-desc">Simple return equals adjusted revenue minus adjusted operating cost, divided by initial investment. Classroom: investment Hong Kong dollar 10 million; revenue without disruption 4 million; annual cost 2.5 million. No downtime: surplus 1.5 million, return 15 percent. Under an illustrative 20 percent revenue cut: surplus 0.7 million, return 7 percent. The stress scenario is not a claim about Hong Kong annual weather downtime. Sandbox is not Sandbox X.</desc>
@@ -511,7 +505,6 @@ The 20% cut is an **illustrative stress scenario**, not a claim about Hong Kong�
   <text x="360" y="330" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Rough screen ≠ full ROI / NPV · Sandbox ≠ Sandbox X</text>
 </svg>
 
-<p class="wdiag-note">From Week 5 §6. Classroom HK$10M / HK$4M / HK$2.5M · 15%→7% only. New SVG.</p>
 </figure>
 ```
 
@@ -556,7 +549,7 @@ A higher-cost site must create enough extra demand, price, reliability, network 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-infra-cost-svg" aria-labelledby="w05-infra-cost-svg-title">
-<p class="wdiag-cap" id="w05-infra-cost-svg-title"><strong>Daily infrastructure cost — HK$15k vs HK$4k</strong> — (CAPEX − residual) ÷ useful days + daily OPEX. Classroom: higher-investment CAPEX <strong>HK$18.25M</strong> → daily economic cost <strong>HK$15,000</strong>; lower-investment CAPEX <strong>HK$3.65M</strong> → <strong>HK$4,000</strong> (10-year life, no residual, 3,650 days). Higher-cost site must earn extra demand / price / reliability / network value. Unit-cost screen ≠ cash flow or NPV. Digital/data layers ≠ funded vertiport statute. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w05-infra-cost-svg-title"><strong>Daily infrastructure cost — HK$15k vs HK$4k</strong> — (CAPEX − residual) ÷ useful days + daily OPEX. Classroom: higher-investment CAPEX <strong>HK$18.25M</strong> → daily economic cost <strong>HK$15,000</strong>; lower-investment CAPEX <strong>HK$3.65M</strong> → <strong>HK$4,000</strong> (10-year life, no residual, 3,650 days). Higher-cost site must earn extra demand / price / reliability / network value. Unit-cost screen ≠ cash flow or NPV. Digital/data layers ≠ funded vertiport statute</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r2-title r2-desc">
   <title id="r2-title">Daily infrastructure cost: higher site HK$15,000 versus lower HK$4,000</title>
   <desc id="r2-desc">Daily infrastructure cost equals CAPEX minus residual value over useful operating days, plus daily OPEX. Classroom: higher-investment CAPEX Hong Kong dollar 18.25 million yields daily economic cost 15 thousand; lower-investment CAPEX 3.65 million yields 4 thousand. Higher-cost site must earn the gap. Not a dedicated Hong Kong vertiport statute. Sandbox is not Sandbox X.</desc>
@@ -583,7 +576,6 @@ A higher-cost site must create enough extra demand, price, reliability, network 
   <text x="360" y="331" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Unit-cost screen ≠ NPV · Sandbox ≠ Sandbox X</text>
 </svg>
 
-<p class="wdiag-note">From Week 5 §7. Classroom HK$18.25M / HK$3.65M · HK$15k / HK$4k only. New SVG.</p>
 </figure>
 ```
 
@@ -633,7 +625,7 @@ Sandbox / Sandbox X participation does **not** create a permanent commercial slo
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-slots-svg" aria-labelledby="w05-slots-svg-title">
-<p class="wdiag-cap" id="w05-slots-svg-title"><strong>Scarce slots — four controls; revenue max ≠ goal</strong> — administrative · market · priority · operational controls. Illustrative peak fee: base <strong>HK$100</strong> + congestion <strong>HK$200</strong> × (requests / slots) → <strong>2/2 → HK$300</strong>; <strong>8/2 → HK$900</strong>. Design choice, <strong>not</strong> a Hong Kong tariff. Revenue maximisation alone is <strong>not</strong> the goal of scarce infrastructure allocation. Sandbox / Sandbox X ≠ permanent commercial slot right. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w05-slots-svg-title"><strong>Scarce slots — four controls; revenue max ≠ goal</strong> — administrative · market · priority · operational controls. Illustrative peak fee: base <strong>HK$100</strong> + congestion <strong>HK$200</strong> × (requests / slots) → <strong>2/2 → HK$300</strong>; <strong>8/2 → HK$900</strong>. Design choice, <strong>not</strong> a Hong Kong tariff. Revenue maximisation alone is <strong>not</strong> the goal of scarce infrastructure allocation</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 380" role="img" aria-labelledby="q2-title q2-desc">
   <title id="q2-title">Scarce slots — revenue maximisation is not the goal</title>
   <desc id="q2-desc">Four allocation controls: administrative, market-based, priority rules, and operational controls. Illustrative peak fee equals base Hong Kong dollar 100 plus congestion charge 200 times requests over available slots. Two requests over two slots equals 300; eight over two equals 900. Design choice, not a Hong Kong tariff. Revenue maximisation alone is not the goal. Sandbox is not Sandbox X and does not create a permanent commercial slot right. No invented corridor capacity.</desc>
@@ -665,7 +657,6 @@ Sandbox / Sandbox X participation does **not** create a permanent commercial slo
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No invented corridor K · Week 8 returns to congestion</text>
 </svg>
 
-<p class="wdiag-note">From Week 5 §8. Illustrative HK$100 / HK$200 only. New SVG.</p>
 </figure>
 ```
 
@@ -752,7 +743,6 @@ There is **no** universal “Hong Kong strategy” or “GBA strategy.” Config
   <text x="360" y="358" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Classroom check: concentrated ≈ HK$123.75 vs distributed ≈ HK$41.25 (4,000 served trips/day) — ranking can reverse</text>
 
 </svg>
-<p class="wdiag-note">From Week 5 §9 table and GC-per-trip worked illustration. Use served trips, not unconstrained demand.</p>
 </figure>
 ```
 
@@ -868,7 +858,6 @@ Network choice needs a sequence. The **tool map** walks site screen → throughp
   <text x="360" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">W4 served demand must cover W3 contribution at this site — or wait</text>
 
 </svg>
-<p class="wdiag-note">From Week 5 §10. New SVG beside the table. Complements #w05-site-screen-svg.</p>
 </figure>
 ```
 

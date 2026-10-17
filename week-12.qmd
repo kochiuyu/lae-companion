@@ -23,7 +23,7 @@ Week 11 synthesized the capstone; this week looks ahead to **networks and servic
 
 - [Course overview](overview.qmd) — course map  
 - [Week 11](week-11.qmd) — viability synthesis  
-- [Key numbers](key-figures.qmd) — Sandbox counts and caveats  
+- [Key numbers](key-figures.qmd) — sourced Sandbox counts  
 
 ## Summary {#summary}
 
@@ -47,7 +47,7 @@ Week 11 synthesized the capstone; this week looks ahead to **networks and servic
 - The goal is consistent judgment under operational, regulatory, financial, and social constraints.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers and projections.** Worked examples below (network links, insurance evidence cost, leasing cash flows, exam shock) use **illustrative assumptions for learning**. The OHKF **HK\$350bn** figure remains a private think-tank **value-added** projection for Hong Kong by 2050 — **not** a government number ([Week 9](week-09.qmd) · [Key numbers](key-figures.qmd)). CAAC ATM Rules on Readings are a **draft consultation**, not in force. Keep **Sandbox ≠ Sandbox X**; Sandbox X does **not** bypass legal or safety requirements.
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -128,7 +128,6 @@ A **corridor** is one link. A **network** is many links among many nodes. Adding
   <text x="360" y="352" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Do not claim GBA corridors as day-to-day operating service on evidence tracked here.</text>
 
 </svg>
-<p class="wdiag-note">From Week 12 §2.</p>
 </figure>
 ```
 
@@ -169,7 +168,7 @@ More nodes increase the option set; viable service grows only where demand, capa
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-count-links-svg" aria-labelledby="w12-count-links-svg-title">
-<p class="wdiag-cap" id="w12-count-links-svg-title"><strong>Count-links · 5→6 candidates / 20→≈29</strong> — Classroom: <em>L</em>=<em>N</em>(<em>N</em>−1)/2. Five nodes → 10 pairs → suppose <strong>6</strong> pass. Twenty nodes → 190 pairs → 15% pass → <strong>≈29</strong> candidates. Quadratic <em>options</em> ≠ viable services; screening rates illustrative ≠ GBA forecast. ≠ <code>#w12-network-svg</code> (concept). No invented corridor <em>K</em>. OHKF HK$350bn = value-added only. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w12-count-links-svg-title"><strong>Count-links · 5→6 candidates / 20→≈29</strong> — Classroom: <em>L</em>=<em>N</em>(<em>N</em>−1)/2. Five nodes → 10 pairs → suppose <strong>6</strong> pass. Twenty nodes → 190 pairs → 15% pass → <strong>≈29</strong> candidates. Quadratic <em>options</em> ≠ viable services; screening rates illustrative ≠ GBA forecast. ≠ <code>#w12-network-svg</code> (concept)</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a6-title a6-desc">
   <title id="a6-title">Count links: five nodes yield six candidates; twenty nodes about twenty-nine after screening</title>
   <desc id="a6-desc">Classroom counting possible connections. Five nodes: ten undirected pairs; suppose six pass screening to six candidate links. Twenty nodes: one hundred ninety pairs; fifteen percent pass yields about twenty-nine candidates. Quadratic options are not viable services; screening rates are illustrative, not a GBA forecast. Do not invent corridor capacity. OHKF three hundred fifty billion is value-added only. Sandbox is not Sandbox X. Distinct from the network concept SVG.</desc>
@@ -194,7 +193,6 @@ More nodes increase the option set; viable service grows only where demand, capa
   <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w12-network-svg · no invented K · OHKF 350bn = VA · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 12 §2 Counting possible connections. Classroom only. New SVG. Distinct from #w12-network-svg.</p>
 </figure>
 ```
 
@@ -226,7 +224,7 @@ Include software, communications, cybersecurity, certification, human oversight,
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-digital-svg" aria-labelledby="w12-digital-svg-title">
-<p class="wdiag-cap" id="w12-digital-svg-title"><strong>Digital coordination is socio-technical</strong> — evaluate the complete system, not simply algorithm cost. $S_{\mathrm{net}}=C_{\mathrm{legacy}}-C_{\mathrm{dig}}-C_{\mathrm{trans}}$. Include software, communications, cybersecurity, certification, <strong>human oversight</strong>, maintenance, provider fees, and exceptions. <strong>U-space ≠ Hong Kong law</strong>. Sandbox ≠ Sandbox X. Classroom symbols only.</p>
+<p class="wdiag-cap" id="w12-digital-svg-title"><strong>Digital coordination is socio-technical</strong> — evaluate the complete system, not simply algorithm cost. $S_{\mathrm{net}}=C_{\mathrm{legacy}}-C_{\mathrm{dig}}-C_{\mathrm{trans}}$. Include software, communications, cybersecurity, certification, <strong>human oversight</strong>, maintenance, provider fees, and exceptions. <strong>U-space ≠ Hong Kong law</strong></p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m4-title m4-desc">
   <title id="m4-title">Digital coordination is socio-technical</title>
   <desc id="m4-desc">Evaluate the complete socio-technical system, not simply the cost of an algorithm. Net saving equals legacy process cost minus digital recurring cost minus transition cost. Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees and exception handling. U-space is not Hong Kong law. Sandbox is not Sandbox X.</desc>
@@ -259,7 +257,6 @@ Include software, communications, cybersecurity, certification, human oversight,
   <text x="360" y="282" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Include oversight · cyber · exceptions · U-space ≠ HK law</text>
 
 </svg>
-<p class="wdiag-note">From Week 12 §3. New SVG. U-space ≠ HK law.</p>
 </figure>
 ```
 
@@ -279,7 +276,7 @@ Better evidence may support underwriting and risk management; premium reductions
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-risk-evidence-svg" aria-labelledby="w12-risk-evidence-svg-title">
-<p class="wdiag-cap" id="w12-risk-evidence-svg-title"><strong>Risk evidence · put $ in the same CF path</strong> — Classroom: annual premium without project-specific evidence <strong>HK$12.5M</strong>. Improved risk case: premium <strong>HK$9M</strong> + evidence/control <strong>HK$3M</strong> → total <strong>HK$12M</strong> → first-year save <strong>HK$0.5M</strong>. Premium reductions are <strong>not</strong> automatic. Put evidence cost and any credible premium change in the same cash-flow path (Week 8 roadmap NPV). Not an insurance quotation or a measured Sandbox X effect. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w12-risk-evidence-svg-title"><strong>Risk evidence · put $ in the same CF path</strong> — Classroom: annual premium without project-specific evidence <strong>HK$12.5M</strong>. Improved risk case: premium <strong>HK$9M</strong> + evidence/control <strong>HK$3M</strong> → total <strong>HK$12M</strong> → first-year save <strong>HK$0.5M</strong>. Premium reductions are <strong>not</strong> automatic. Put evidence cost and any credible premium change in the same cash-flow path (Week 8 roadmap NPV). Not an insurance quotation or a measured Sandbox X effect</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x3-title x3-desc">
   <title id="x3-title">Better risk evidence: premium twelve point five million versus nine million plus three million evidence cost saves zero point five million in year one</title>
   <desc id="x3-desc">Illustrative risk evidence. No demonstrated improvement: premium twelve point five million Hong Kong dollars, evidence cost zero, total twelve point five million. Improved risk case: premium nine million plus evidence and control cost three million equals total twelve million, first-year saving zero point five million. Premium reductions are not automatic. Not an insurance quotation or measured Sandbox X effect. Sandbox is not Sandbox X.</desc>
@@ -304,7 +301,6 @@ Better evidence may support underwriting and risk management; premium reductions
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ insurance quote · ≠ measured Sandbox X · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 12 §3 Value of better risk evidence (illustrative). Classroom only. New SVG.</p>
 </figure>
 ```
 
@@ -322,7 +318,7 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-hk-roles-svg" aria-labelledby="w12-hk-roles-svg-title">
-<p class="wdiag-cap" id="w12-hk-roles-svg-title"><strong>Hong Kong service roles — test them</strong> — OHKF (2025) assigns a large share of potential <strong>2050</strong> LAE <strong>industry value added</strong> to supporting services (finance, leasing, insurance, professional, data assurance). That is a <strong>hypothesis to evaluate</strong>, not a predetermined outcome. Test capability, cost, regulation, demand, regional access, and rivalry. Name a specific service, customer problem, capability, revenue model, and advantage. <strong>OHKF HK$350bn = value-added projection only</strong> — not SOM, revenue, GDP, or a government target. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w12-hk-roles-svg-title"><strong>Hong Kong service roles — test them</strong> — OHKF (2025) assigns a large share of potential <strong>2050</strong> LAE <strong>industry value added</strong> to supporting services (finance, leasing, insurance, professional, data assurance). That is a <strong>hypothesis to evaluate</strong>, not a predetermined outcome. Test capability, cost, regulation, demand, regional access, and rivalry. Name a specific service, customer problem, capability, revenue model, and advantage. <strong>OHKF HK$350bn = value-added projection only</strong> — not SOM, revenue, GDP, or a government target</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l2-title l2-desc">
   <title id="l2-title">Hong Kong service roles — test them</title>
   <desc id="l2-desc">Our Hong Kong Foundation 2025 projection assigns a large share of potential 2050 LAE industry value added to supporting services. Hong Kong actual advantage must be tested through capability, cost, regulation, customer demand, regional access and competition. Classroom lesson: identify a specific service, customer problem, capability, revenue model and defensible source of advantage. OHKF figure is value-added projection only — not SOM, revenue, GDP or a government target. Sandbox is not Sandbox X.</desc>
@@ -352,7 +348,6 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
   <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">OHKF HK$350bn = value-added projection only · ≠ SOM / GDP / gov target</text>
 
 </svg>
-<p class="wdiag-note">From Week 12 §4. New SVG. OHKF value-added projection only.</p>
 </figure>
 ```
 
@@ -394,7 +389,7 @@ Leasing **reallocates** risks between parties; it does not create a risk-free ma
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-leasing-svg" aria-labelledby="w12-leasing-svg-title">
-<p class="wdiag-cap" id="w12-leasing-svg-title"><strong>Lease HK$300k · risk reallocates ≠ vanishes</strong> — Classroom monthly: operator revenue after disruption <strong>HK$250k</strong> vs lease <strong>HK$300k</strong> → shortfall <strong>HK$50k</strong> (bears demand/operating risk). Lessor receipt 300k − financing/asset-management <strong>HK$150k</strong> → CF <strong>HK$150k</strong> before credit loss; <strong>default puts receipt and asset value at risk</strong>. Leasing reallocates risks; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual, recovery in this screen. OHKF HK$350bn = value-added projection only. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w12-leasing-svg-title"><strong>Lease HK$300k · risk reallocates ≠ vanishes</strong> — Classroom monthly: operator revenue after disruption <strong>HK$250k</strong> vs lease <strong>HK$300k</strong> → shortfall <strong>HK$50k</strong> (bears demand/operating risk). Lessor receipt 300k − financing/asset-management <strong>HK$150k</strong> → CF <strong>HK$150k</strong> before credit loss; <strong>default puts receipt and asset value at risk</strong>. Leasing reallocates risks; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual, recovery in this screen</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x4-title x4-desc">
   <title id="x4-title">Leasing reallocates risk: operator shortfall fifty thousand; lessor cash flow one hundred fifty thousand before credit loss</title>
   <desc id="x4-desc">Illustrative monthly lease three hundred thousand Hong Kong dollars. Operator revenue after disruption two hundred fifty thousand against lease three hundred thousand yields shortfall fifty thousand and bears demand and operating risk. Lessor contractual receipt three hundred thousand minus financing and asset-management one hundred fifty thousand yields cash flow one hundred fifty thousand before credit loss; default puts receipt and asset value at risk. Leasing reallocates risk; it does not vanish. OHKF three hundred fifty billion is value-added projection only. Sandbox is not Sandbox X.</desc>
@@ -419,7 +414,6 @@ Leasing **reallocates** risks between parties; it does not create a risk-free ma
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">OHKF HK$350bn = VA only · Sandbox ≠ X · ≠ risk-free margin</text>
 </svg>
 
-<p class="wdiag-note">From Week 12 §4 Leasing appraisal + illustrative monthly scenario. New SVG. Distinct from #w12-hk-roles-svg.</p>
 </figure>
 ```
 
@@ -478,7 +472,6 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
   <text x="130" y="346" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Recommend conditionally — proceed / pause / redesign / stop</text>
 
 </svg>
-<p class="wdiag-note">From Week 12 §5.</p>
 </figure>
 ```
 
@@ -542,7 +535,7 @@ In symbols: $\Pi_{\mathrm{op}} = (p - v - c_{\mathrm{noise}})\, D_{\mathrm{serve
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-exam-shock-svg" aria-labelledby="w12-exam-shock-svg-title">
-<p class="wdiag-cap" id="w12-exam-shock-svg-title"><strong>Exam shock · Π = HK$16,000/day</strong> — Classroom: <em>D</em>=200 flights/day; <em>K</em>=160 after disruption; <em>p</em>=500; <em>v</em>=100; <em>F</em>=HK$40,000/day; specified noise charge <em>c</em>_noise=HK$50/flight. Served min{200,160}=160 → contribution (500−100−50)×160 = HK$56,000 → operating profit <strong>HK$16,000/day</strong>. Still profitable under stated assumptions. Do not recommend visual masking as a noise remedy. Put regulatory delay in timing/probability — not a second haircut. Illustrative — not a current Hong Kong noise charge or capacity rule. Sandbox ≠ Sandbox X. U-space ≠ HK law. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w12-exam-shock-svg-title"><strong>Exam shock · Π = HK$16,000/day</strong> — Classroom: <em>D</em>=200 flights/day; <em>K</em>=160 after disruption; <em>p</em>=500; <em>v</em>=100; <em>F</em>=HK$40,000/day; specified noise charge <em>c</em>_noise=HK$50/flight. Served min{200,160}=160 → contribution (500−100−50)×160 = HK$56,000 → operating profit <strong>HK$16,000/day</strong>. Still profitable under stated assumptions. Do not recommend visual masking as a noise remedy. Put regulatory delay in timing/probability — not a second haircut. Illustrative — not a current Hong Kong noise charge or capacity rule. U-space ≠ HK law</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="y1-title y1-desc">
   <title id="y1-title">Exam shock: operating profit sixteen thousand per day with noise charge when capacity one hundred sixty binds</title>
   <desc id="y1-desc">Classroom exam shock. Demand two hundred flights per day, reliable capacity one hundred sixty after disruption, price five hundred, variable cost one hundred, fixed cost forty thousand per day, specified noise charge fifty per flight. Served one hundred sixty. Contribution fifty-six thousand. Operating profit sixteen thousand Hong Kong dollars per day. Illustrative — not a current Hong Kong noise charge or capacity rule. Sandbox is not Sandbox X. U-space is not Hong Kong law. No invented corridor capacity.</desc>
@@ -572,7 +565,6 @@ In symbols: $\Pi_{\mathrm{op}} = (p - v - c_{\mathrm{noise}})\, D_{\mathrm{serve
   <text x="360" y="352" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ HK noise charge / capacity rule · Sandbox ≠ X · U-space ≠ HK law · no corridor K</text>
 </svg>
 
-<p class="wdiag-note">From Week 12 §5 worked illustration (capacity and cost shock). Classroom only. New SVG. Pairs with #w12-exam-svg (five steps, no $).</p>
 </figure>
 ```
 

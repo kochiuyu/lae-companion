@@ -22,7 +22,7 @@ Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **si
 **Orient refreshers:**
 
 - [Week 4](week-04.qmd) — funnel demand vs capacity-served trips  
-- [Key numbers](key-figures.qmd) — OHKF projection caveats  
+- [Key numbers](key-figures.qmd) — sourced figures  
 - [Official status](tracker.qmd) — settled vs open  
 
 ## Summary {#summary}
@@ -47,7 +47,7 @@ Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **si
 - Social evaluation covers total benefits and costs and how they are distributed across groups.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers and the HK\$350bn figure.** Worked examples below use round figures (funnels, contribution, scenario profits, property-value arithmetic). They are **illustrative assumptions for learning**, not current corridor data or hedonic estimates for Hong Kong drone noise. The **HK\$350 billion** projection is an **Our Hong Kong Foundation** (OHKF) private think-tank figure for Hong Kong industry **value added** by **2050** — **not** a government number, not operator revenue, and not automatic GDP ([Key numbers](key-figures.qmd) · [Readings](#readings) · [Official status](tracker.qmd)).
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -125,7 +125,6 @@ Keep the three questions separate even when one spreadsheet tries to hold all th
   <text x="360" y="346" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Public policy asks the social question even when private NPV is clear.</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §1 connecting idea.</p>
 </figure>
 ```
 
@@ -163,7 +162,7 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-funnel-svg" aria-labelledby="w09-funnel-svg-title">
-<p class="wdiag-cap" id="w09-funnel-svg-title"><strong>Sizing funnel — TAM to served demand</strong> — TAM × eligibility e → SAM; × choice share s → D_pot; D_served = min{{D_pot, K}}. OHKF <strong>HK$350bn</strong> is a think-tank Hong Kong <strong>industry value-added</strong> projection by 2050 — <strong>not</strong> SOM, not operator revenue, not a government target. Classroom funnel numbers are illustrative. Sandbox selection ≠ market share.</p>
+<p class="wdiag-cap" id="w09-funnel-svg-title"><strong>Sizing funnel — TAM to served demand</strong> — TAM × eligibility e → SAM; × choice share s → D_pot; D_served = min{{D_pot, K}}. OHKF <strong>HK$350bn</strong> is a think-tank Hong Kong <strong>industry value-added</strong> projection by 2050 — <strong>not</strong> SOM, not operator revenue, not a government target. Classroom funnel numbers are illustrative</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g1-title g1-desc">
   <title id="g1-title">Sizing funnel — TAM to served demand</title>
   <desc id="g1-desc">Week 9 sizing funnel. Total addressable market times eligibility share gives serviceable available market. Times choice share gives potential demand. Served demand equals the minimum of potential demand and reliable capacity K. OHKF HK$350 billion is a think-tank Hong Kong industry value-added projection by 2050 — not serviceable obtainable market. Classroom funnel numbers are illustrative. Sandbox selection is not market share.</desc>
@@ -189,7 +188,6 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
   <text x="360" y="322" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Think-tank Hong Kong industry value-added projection by 2050 — not operator revenue</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §2.</p>
 </figure>
 ```
 
@@ -262,7 +260,7 @@ Fixed cost and investment remain to be covered. Excludes financing, tax, and dem
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-funnel-contrib-svg" aria-labelledby="w09-funnel-contrib-svg-title">
-<p class="wdiag-cap" id="w09-funnel-contrib-svg-title"><strong>Funnel → served 256/day → contrib ≈ HK$23.7M/yr</strong> — Classroom (not current corridor data): relevant trips 20,000/day → 10% eligible → <em>SAM</em>=2,000 → 15% share → <em>D</em>_pot=<strong>300</strong>; reliable capacity 80×4×80%=<strong>256</strong> → served min{300,256}=<strong>256</strong>. Fare HK$400; <em>v</em>=HK$120; 330 days → daily contribution <strong>HK$71,680</strong> ≈ annual <strong>HK$23.7M</strong>. If <em>K</em> binds, marketing to lift <em>s</em> does not raise <em>D</em>_served. OHKF <strong>HK$350bn</strong> = think-tank value-added projection only — not SOM / operator revenue. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w09-funnel-contrib-svg-title"><strong>Funnel → served 256/day → contrib ≈ HK$23.7M/yr</strong> — Classroom (not current corridor data): relevant trips 20,000/day → 10% eligible → <em>SAM</em>=2,000 → 15% share → <em>D</em>_pot=<strong>300</strong>; reliable capacity 80×4×80%=<strong>256</strong> → served min{300,256}=<strong>256</strong>. Fare HK$400; <em>v</em>=HK$120; 330 days → daily contribution <strong>HK$71,680</strong> ≈ annual <strong>HK$23.7M</strong>. If <em>K</em> binds, marketing to lift <em>s</em> does not raise <em>D</em>_served. OHKF <strong>HK$350bn</strong> = think-tank value-added projection only — not SOM / operator revenue</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="y5-title y5-desc">
   <title id="y5-title">Funnel to contribution: served two hundred fifty-six passenger-trips per day yields about twenty-three point seven million contribution per year</title>
   <desc id="y5-desc">Classroom funnel to contribution. Relevant trips twenty thousand per day; eligible ten percent gives SAM two thousand; choice share fifteen percent gives potential demand three hundred; reliable capacity two hundred fifty-six; served min of three hundred and two hundred fifty-six equals two hundred fifty-six. Fare four hundred, variable cost one hundred twenty, three hundred thirty operating days. Daily contribution seventy-one thousand six hundred eighty; annual about twenty-three point seven million Hong Kong dollars. If K binds, marketing to lift share does not raise served demand. OHKF three hundred fifty billion is value-added projection only, not SOM. Classroom only. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
@@ -302,7 +300,6 @@ Fixed cost and investment remain to be covered. Excludes financing, tax, and dem
   <text x="360" y="374" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">OHKF HK$350bn = VA only ≠ SOM · no invented corridor K · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 9 §2 worked illustration (funnel → contribution). Classroom only. New SVG. Pairs with #w09-funnel-svg (TAM→D_served symbols only).</p>
 </figure>
 ```
 
@@ -355,7 +352,6 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">NASA-sponsored UAM studies = interacting constraints — not a universal five-haircut recipe.</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §3.</p>
 </figure>
 ```
 
@@ -397,7 +393,7 @@ Technology and compliance costs enter the **cost** model rather than another rev
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-accept-k-svg" aria-labelledby="w09-accept-k-svg-title">
-<p class="wdiag-cap" id="w09-accept-k-svg-title"><strong>Accept 90% → 270 but K=256 binds → HK$33.8M</strong> — Classroom: <em>D</em><sub>pot</sub>=300; acceptance 90% → adjusted demand <strong>270</strong>; reliable <em>K</em>=<strong>256</strong> (week notes) → served min{270,256}=<strong>256</strong>. Fare HK$400; 330 days → annual revenue <strong>HK$33.8M</strong>. Acceptance haircut does <strong>not</strong> raise served trips when <em>K</em> binds. ≠ <code>#w09-channels-svg</code> (channel map) / <code>#w09-funnel-contrib-svg</code> (base funnel). No invented corridor <em>K</em>. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w09-accept-k-svg-title"><strong>Accept 90% → 270 but K=256 binds → HK$33.8M</strong> — Classroom: <em>D</em><sub>pot</sub>=300; acceptance 90% → adjusted demand <strong>270</strong>; reliable <em>K</em>=<strong>256</strong> (week notes) → served min{270,256}=<strong>256</strong>. Fare HK$400; 330 days → annual revenue <strong>HK$33.8M</strong>. Acceptance haircut does <strong>not</strong> raise served trips when <em>K</em> binds. ≠ <code>#w09-channels-svg</code> (channel map) / <code>#w09-funnel-contrib-svg</code> (base funnel)</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="b3-title b3-desc">
   <title id="b3-title">Acceptance ninety percent yields two hundred seventy demand but capacity two hundred fifty-six binds; annual revenue thirty-three point eight million</title>
   <desc id="b3-desc">Classroom constraint treatment. Potential demand three hundred passenger-trips per day. Acceptance scenario ninety percent of potential yields adjusted demand two hundred seventy. Reliable capacity K equals two hundred fifty-six trips per day from the week notes. Served trips equal min of two hundred seventy and two hundred fifty-six equals two hundred fifty-six. Annual revenue two hundred fifty-six times four hundred Hong Kong dollars times three hundred thirty days equals thirty-three point eight million. Acceptance haircut does not raise served trips when capacity binds. Do not invent corridor capacity. Distinct from channels concept and funnel contribution SVGs. Sandbox is not Sandbox X.</desc>
@@ -435,7 +431,6 @@ Technology and compliance costs enter the **cost** model rather than another rev
   <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w09-channels-svg / #w09-funnel-contrib-svg · no invented K · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 9 §3 constraint-treatment table (#t09-constraint-treatment). Classroom only. New SVG. K=256 from week notes — not invented.</p>
 </figure>
 ```
 
@@ -498,7 +493,6 @@ $$
   <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Also check Pr(loss) and downside cash needs</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §4. New SVG. Monte Carlo = concept only.</p>
 </figure>
 ```
 
@@ -518,7 +512,7 @@ Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **H
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-scenario-ev-svg" aria-labelledby="w09-scenario-ev-svg-title">
-<p class="wdiag-cap" id="w09-scenario-ev-svg-title"><strong>Scenario EV · E[Π] HK$2.2M · Pr(loss) 30%</strong> — Classroom: annual cost <strong>HK$5M</strong>. Strong 20% (rev 10M / Π 5M); Base 50% (8M / 3M); Weak 30% (4M / −1M). E[rev] <strong>HK$7.2M</strong>; E[Π] <strong>HK$2.2M</strong>; Pr(loss) <strong>30%</strong>. Positive expected profit can coexist with material loss probability — check downside cash. ≠ <code>#w09-uncertainty-svg</code> (concept). OHKF HK$350bn = value-added projection only. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<p class="wdiag-cap" id="w09-scenario-ev-svg-title"><strong>Scenario EV · E[Π] HK$2.2M · Pr(loss) 30%</strong> — Classroom: annual cost <strong>HK$5M</strong>. Strong 20% (rev 10M / Π 5M); Base 50% (8M / 3M); Weak 30% (4M / −1M). E[rev] <strong>HK$7.2M</strong>; E[Π] <strong>HK$2.2M</strong>; Pr(loss) <strong>30%</strong>. Positive expected profit can coexist with material loss probability — check downside cash. ≠ <code>#w09-uncertainty-svg</code> (concept)</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="a4-title a4-desc">
   <title id="a4-title">Scenario expected profit two point two million with thirty percent probability of loss</title>
   <desc id="a4-desc">Classroom scenario expected value. Annual cost five million Hong Kong dollars. Strong twenty percent: revenue ten million, profit five million. Base fifty percent: revenue eight million, profit three million. Weak thirty percent: revenue four million, profit minus one million. Expected revenue seven point two million; expected profit two point two million; probability of loss thirty percent. Positive expected profit can coexist with material loss probability. OHKF three hundred fifty billion is value-added projection only. Sandbox is not Sandbox X. Distinct from the uncertainty concept SVG.</desc>
@@ -554,7 +548,6 @@ Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **H
   <text x="360" y="364" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w09-uncertainty-svg · OHKF 350bn = VA only · Sandbox ≠ X</text>
 </svg>
 
-<p class="wdiag-note">From Week 9 §4 scenario / expected-value table. Classroom only. New SVG.</p>
 </figure>
 ```
 
@@ -615,7 +608,6 @@ Keep the attribution strict:
   <text x="360" y="334" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">who gains access · who gets jobs · who bears noise, privacy, land-use, fiscal cost</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §5. Cite Key numbers / Readings. Not realised cash.</p>
 </figure>
 ```
 
@@ -657,7 +649,7 @@ The arithmetic illustrates competing effects. Actual coefficients require local 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-hedonic-svg" aria-labelledby="w09-hedonic-svg-title">
-<p class="wdiag-cap" id="w09-hedonic-svg-title"><strong>Hedonic dial — noise vs access on HK$8M</strong> — classroom scenarios only: higher noise / limited access (−4% / 0%) → <strong>HK$7.68M</strong>; lower noise / useful access (−1% / +3%) → <strong>HK$8.16M</strong>. Percentages are <strong>hypothetical dials</strong>, not Hong Kong drone-noise coefficients. Property capitalization ≠ full social cost. Do <strong>not</strong> transfer aviation-noise β mechanically to drone / eVTOL. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w09-hedonic-svg-title"><strong>Hedonic dial — noise vs access on HK$8M</strong> — classroom scenarios only: higher noise / limited access (−4% / 0%) → <strong>HK$7.68M</strong>; lower noise / useful access (−1% / +3%) → <strong>HK$8.16M</strong>. Percentages are <strong>hypothetical dials</strong>, not Hong Kong drone-noise coefficients. Property capitalization ≠ full social cost. Do <strong>not</strong> transfer aviation-noise β mechanically to drone / eVTOL</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r5-title r5-desc">
   <title id="r5-title">Hedonic dial: noise versus access on an HK dollar 8 million baseline</title>
   <desc id="r5-desc">Illustrative hedonic scenarios on a Hong Kong dollar 8 million baseline apartment. Higher noise and limited access: noise minus 4 percent, access 0 percent, implies 7.68 million. Lower noise and useful access: noise minus 1 percent, access plus 3 percent, implies 8.16 million. Percentages are hypothetical classroom dials, not Hong Kong drone-noise coefficients. Do not transfer aviation-noise beta mechanically to drone or eVTOL operations. Sandbox is not Sandbox X.</desc>
@@ -681,7 +673,6 @@ The arithmetic illustrates competing effects. Actual coefficients require local 
   <text x="360" y="318" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Do not transfer aviation-noise β · Sandbox ≠ Sandbox X</text>
 </svg>
 
-<p class="wdiag-note">From Week 9 §6. Classroom HK$8M · −4%/0%→HK$7.68M · −1%/+3%→HK$8.16M only. New SVG.</p>
 </figure>
 ```
 
@@ -745,7 +736,6 @@ ESG reporting can support transparency, but a project should define **measurable
   <text x="360" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Define measurable outcomes · Weeks 6 &amp; 8 already encode distribution</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §7. New SVG beside the existing table.</p>
 </figure>
 ```
 
@@ -767,7 +757,7 @@ Do not use unexplained barrier toggles. Each scenario assumption should change a
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-dashboard-svg" aria-labelledby="w09-dashboard-svg-title">
-<p class="wdiag-cap" id="w09-dashboard-svg-title"><strong>Five-panel dashboard</strong> — Market (trips · <em>e</em> · <em>s</em>) · Capacity (flights · seats · days → reliable <em>K</em>) · Economics (<em>p</em> · <em>v</em> · fixed · Π<sub>var</sub>) · Uncertainty (ranges · correlations · E[Π] and Pr(Π &lt; 0)) · Social (benefits · costs · groups · who pays). Each scenario must change a <strong>named</strong> input — no unexplained barrier toggles. OHKF <strong>HK$350bn</strong> = think-tank industry <strong>value-added</strong> only (not SOM / revenue / GDP / gov target). No invented corridor <em>K</em>. Sandbox ≠ Sandbox X.</p>
+<p class="wdiag-cap" id="w09-dashboard-svg-title"><strong>Five-panel dashboard</strong> — Market (trips · <em>e</em> · <em>s</em>) · Capacity (flights · seats · days → reliable <em>K</em>) · Economics (<em>p</em> · <em>v</em> · fixed · Π<sub>var</sub>) · Uncertainty (ranges · correlations · E[Π] and Pr(Π &lt; 0)) · Social (benefits · costs · groups · who pays). Each scenario must change a <strong>named</strong> input — no unexplained barrier toggles. OHKF <strong>HK$350bn</strong> = think-tank industry <strong>value-added</strong> only (not SOM / revenue / GDP / gov target)</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s5-title s5-desc">
   <title id="s5-title">Five-panel integrated dashboard: market, capacity, economics, uncertainty, social</title>
   <desc id="s5-desc">Classroom integrated dashboard with five linked panels. Market: relevant trips, eligibility e, choice share s. Capacity: flights, capacity per flight, serviceable days to reliable K. Economics: price p, variable cost v, fixed cost, contribution. Uncertainty: ranges, distributions, correlations, expected profit and probability of loss. Social impact: benefits, costs, affected groups, mitigation and who pays. Each scenario must change a named model input. OHKF Hong Kong dollar 350 billion is think-tank industry value-added only. Do not invent corridor capacity. Sandbox is not Sandbox X.</desc>
@@ -807,7 +797,6 @@ Do not use unexplained barrier toggles. Each scenario assumption should change a
   <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">No invented corridor K · Sandbox ≠ Sandbox X</text>
 </svg>
 
-<p class="wdiag-note">From Week 9 §8. Five panel labels from page table only. New SVG.</p>
 </figure>
 ```
 
