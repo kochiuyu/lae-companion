@@ -6,7 +6,7 @@ as_of: "2026-10-15"
 
 Site for a 12-week low-altitude economy course — one page per week with notes, slides, and readings, plus supporting evidence.
 
-**Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · [How to use this site](howto.qmd) · then [Week 1](week-01.qmd)
+**Start here (short path):** [What is LAE?](primer.qmd) · [Course overview](overview.qmd) · then [Week 1](week-01.qmd) · ([full Orient](howto.qmd))
 
 ::: {.hub-grid}
 ::: {.hub-card}
