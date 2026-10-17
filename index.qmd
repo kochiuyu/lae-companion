@@ -45,12 +45,13 @@ Weekly lecture material — slides, notes, and readings. Each week ends with a s
 ::: {.hub-card}
 ## Review
 
-Formulas, tables, figures, and readings collected from the week notes.
+Formulas, tables, figures, readings, and Self-check quizzes collected from the week notes.
 
 - [Formulas](formulas.qmd)
 - [Tables](tables.qmd)
 - [Figures](figures.qmd)
 - [Readings](readings.qmd)
+- [Self-check](quizzes.qmd)
 :::
 
 ::: {.hub-card}

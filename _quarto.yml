@@ -30,6 +30,7 @@ project:
     - tables.qmd
     - figures.qmd
     - readings.qmd
+    - quizzes.qmd
     - news.qmd
     - industry.qmd
     - landscape.qmd
@@ -96,6 +97,8 @@ website:
             text: Figures
           - href: readings.qmd
             text: Readings
+          - href: quizzes.qmd
+            text: Self-check
       - text: Official facts
         menu:
           - href: glossary.qmd
