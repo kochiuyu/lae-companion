@@ -548,6 +548,51 @@ These are **not** simple rankings of “speed.” Each creates different evidenc
 
 **Connecting idea.** **U-space ≠ Hong Kong law.** Use it as a European comparator for how digital services and partnerships might be organised — not as a local operating rulebook. LegCo and TLB materials on [Readings](#readings) compare partnership models and Sandbox process; they do not convert Sandbox participation into a commercial franchise.
 
+```{=html}
+<figure class="wdiag" id="w06-institutions-svg" aria-labelledby="w06-institutions-svg-title">
+<p class="wdiag-cap" id="w06-institutions-svg-title"><strong>Institutions ≠ speed ranking</strong> — HK <strong>Sandbox X</strong> (controlled trials; distinct from earlier Regulatory Sandbox) · EU <strong>U-space</strong> (digital-service frame) · US <strong>FAA</strong> / interagency · <strong>GBA</strong> collaboration. Different evidence needs and entry risks — <strong>not</strong> a ranking of “who is fastest.” U-space ≠ HK law. Corridor ≠ day-to-day service. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t4-title t4-desc">
+  <title id="t4-title">Institutional comparators: Hong Kong Sandbox X, European U-space, United States FAA, GBA collaboration — not a speed ranking</title>
+  <desc id="t4-desc">Four institutional flavours. Hong Kong Sandbox X: controlled trials, distinct from the earlier Regulatory Sandbox. European U-space: digital-service frame for unmanned operations — not Hong Kong law. United States: FAA and interagency coordination of certification, operations, airspace, and community engagement. GBA collaboration: manufacturing, operating, testing, finance, and services across jurisdictions. These are not rankings of speed. Each creates different evidence needs and entry risks. Cross-boundary corridors are not day-to-day operating service. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Institutions ≠ speed ranking</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Different evidence / entry flavours · not “who is fastest”</text>
+  <rect x="28" y="68" width="155" height="130" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="105" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">HK Sandbox X</text>
+  <text x="105" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Controlled trials</text>
+  <text x="105" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Concepts · ops</text>
+  <text x="105" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Infra · EMS · XB</text>
+  <text x="105" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">≠ earlier Sandbox</text>
+  <rect x="198" y="68" width="155" height="130" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">EU U-space</text>
+  <text x="275" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Digital-service frame</text>
+  <text x="275" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Unmanned ops</text>
+  <text x="275" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Designated airspace</text>
+  <text x="275" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">≠ HK law</text>
+  <rect x="368" y="68" width="155" height="130" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">US · FAA</text>
+  <text x="445" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Interagency</text>
+  <text x="445" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Cert · ops · airspace</text>
+  <text x="445" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Infra · environment</text>
+  <text x="445" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Community</text>
+  <rect x="538" y="68" width="154" height="130" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="615" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">GBA collab.</text>
+  <text x="615" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Cross-jurisdiction</text>
+  <text x="615" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Make · operate · test</text>
+  <text x="615" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Finance · logistics</text>
+  <text x="615" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Professional svc</text>
+  <rect x="60" y="218" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="244" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Different evidence needs · not a “fastest” ranking</text>
+  <rect x="60" y="274" width="600" height="28" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Corridor ≠ day-to-day service · U-space ≠ HK law</text>
+  <rect x="60" y="314" width="600" height="26" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X · no invented corridor K</text>
+</svg>
+
+<p class="wdiag-note">From Week 6 §7. Labels from institutions table only. U-space ≠ HK law. Sandbox ≠ Sandbox X. New SVG.</p>
+</figure>
+```
+
 ---
 
 Comparators inform judgment. **Term-sheet thinking** assigns each risk to the party that can manage it best — the bridge from architecture to a defendable deal.

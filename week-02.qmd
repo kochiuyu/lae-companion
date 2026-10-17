@@ -606,6 +606,44 @@ Competitive strategy in this course is HK-first but GBA-aware:
 
 Hong Kong’s service-layer role is a **strategy to build**, not an automatic outcome (same theme as Week 1 / OHKF supporting-services framing — still a think-tank projection, not government GDP).
 
+```{=html}
+<figure class="wdiag" id="w02-hk-gba-svg" aria-labelledby="w02-hk-gba-svg-title">
+<p class="wdiag-cap" id="w02-hk-gba-svg-title"><strong>HK service-layer + GBA supply</strong> — HK: dense urban testing + finance / insurance / logistics / legal / professional services. GBA: aircraft, electronics, batteries, supply chains. Programme facts: first Sandbox <strong>38 of 72</strong>; Sandbox X <strong>33</strong> modules (“~10” testing ≠ 33). Trial ≠ dominance ≠ auto commercial approval. Corridor in policy talk ≠ day-to-day service. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>. OHKF services framing = hypothesis, not GDP.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t5-title t5-desc">
+  <title id="t5-title">Hong Kong service layer plus GBA supply chain; Sandbox X trials are not dominance</title>
+  <desc id="t5-desc">Hong Kong may contribute dense urban testing plus finance, insurance, logistics, legal, and professional services. GBA strengths often sit in aircraft, electronics, batteries, and supply chains. First Regulatory Sandbox batch thirty-eight of seventy-two. Sandbox X selected modules thirty-three so far. A Policy Address snapshot of about ten projects that had begun testing is not the same as thirty-three modules. Sandbox X trials are not dominance and not automatic commercial approval. A cross-boundary corridor in policy discussion is not day-to-day operating service. Sandbox is not Sandbox X. Do not invent corridor capacity. OHKF supporting-services framing is a think-tank hypothesis, not government GDP.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">HK service-layer + GBA supply</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Strategy to build · not an automatic outcome</text>
+  <rect x="36" y="68" width="310" height="110" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Hong Kong</text>
+  <text x="191" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Dense urban testing</text>
+  <text x="191" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Finance · insurance · logistics</text>
+  <text x="191" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Legal · professional services</text>
+  <rect x="374" y="68" width="310" height="110" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">GBA</text>
+  <text x="529" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Aircraft · electronics</text>
+  <text x="529" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Batteries · supply chains</text>
+  <text x="529" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Manufacturing scale</text>
+  <rect x="28" y="192" width="210" height="52" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox 38 of 72</text>
+  <text x="133" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">First Regulatory batch</text>
+  <rect x="255" y="192" width="210" height="52" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox X · 33 modules</text>
+  <text x="360" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">“~10” testing ≠ 33</text>
+  <rect x="482" y="192" width="210" height="52" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="587" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Trial ≠ dominance</text>
+  <text x="587" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">≠ auto commercial OK</text>
+  <rect x="60" y="260" width="600" height="32" rx="8" fill="#003366"/>
+  <text x="360" y="282" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Corridor in policy talk ≠ day-to-day operating service</text>
+  <rect x="60" y="306" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · no invented K · OHKF services = hypothesis</text>
+</svg>
+
+<p class="wdiag-note">From Week 2 §8. Programme counts 38/72 · 33 modules · “~10” ≠ 33 from absolute-facts table only. New SVG.</p>
+</figure>
+```
+
 ---
 
 Place and programmes set the institutional stage. When **capacity is scarce**, price competition need not look like textbook Bertrand — pad limits and ATC reshape who can undercut whom.
