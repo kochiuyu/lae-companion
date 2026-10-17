@@ -1,0 +1,1166 @@
+---
+title: "Tables"
+subtitle: "Teaching tables from the week notes"
+as_of: "2026-10-17"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+Cheat sheet of **named teaching tables** copied from the week notes. Worked narrative and figures stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd). A Figures collection is not on this site yet.
+
+- Keep **Sandbox ≠ Sandbox X**.
+- **U-space ≠ Hong Kong law.**
+- OHKF **HK$350bn** is a private think-tank **value-added** projection — not obtainable demand.
+- Do **not** invent corridor capacity $K$.
+
+## Jump by theme
+
+- [Competition](#week-02) · [Cost](#week-03) · [Demand / GC](#week-04)
+- [Infrastructure](#week-05) · [Partnerships](#week-06) · [Regulation / readiness](#week-07)
+- [Airspace / slots](#week-08) · [Market sizing / social](#week-09) · [Risk & sustainability](#week-10)
+- [Investment / viability](#week-11) · [Networks / leasing](#week-12) · [Scope / entry](#week-01)
+
+Week index: [W1](#week-01) · [W2](#week-02) · [W3](#week-03) · [W4](#week-04) · [W5](#week-05) · [W6](#week-06) · [W7](#week-07) · [W8](#week-08) · [W9](#week-09) · [W10](#week-10) · [W11](#week-11) · [W12](#week-12)
+
+## Week 1 — Scope, value, and unit economics {#week-01}
+
+Full notes: [Week 1](week-01.qmd) · 14 tables below.
+
+### Policy band vs flying limits {#t01-policy-band-vs-flying}
+
+| Layer | What it is | What it is not |
+|-------|------------|----------------|
+| ~1,000 m working description | Policy / economic framing of LAE | A Cap. 448G flying ceiling |
+| 100 ft / 300 ft AGL | Cap. 448G operating height bands (ordinary categories) | The same thing as the 1,000 m description |
+| Mainland 120 m / 300 m (真高) labels | Mainland airspace scheme (国令761) | Hong Kong Cap. 448G |
+
+Teaching table from the week notes. [Policy band vs flying limits](week-01.qmd#policy-band-vs-flying-limits)
+
+### Scope labels (keep them distinct) {#t01-scope-labels}
+
+| Layer | What it covers |
+|-------|----------------|
+| **Aircraft in discussion** | Unmanned aircraft (everyday speech: “drones”), helicopters, and **eVTOL** concepts — **electric vertical take-off and landing** craft |
+| **Physical infrastructure** | Take-off and landing sites (industry label: **vertiports**), charging, maintenance |
+| **Digital infrastructure** | Communications, traffic-management software, data platforms |
+| **Applications** | Logistics, inspection, emergency response, passenger transport, supporting finance and insurance |
+
+Teaching table from the week notes. [Scope labels (keep them distinct)](week-01.qmd#scope-labels-keep-them-distinct)
+
+### LAE, UAM, and AAM terms {#t01-lae-uam-aam}
+
+| Term | Meaning in this course |
+|------|-------------------------|
+| **LAE (low-altitude economy)** | The umbrella: economic activity in low-altitude airspace plus the supporting ecosystem. |
+| [**UAM (urban air mobility)**](glossary.qmd#uam) | A *subset*: moving people or cargo over short distances **inside** a dense city. |
+| [**AAM (advanced air mobility)**](glossary.qmd#aam) | A broader industry label for new aircraft connecting cities to suburbs or other corridors. |
+
+Teaching table from the week notes. [LAE, UAM, and AAM](week-01.qmd#3-lae-uam-and-aam)
+
+### Mission-family economics {#t01-mission-family-economics}
+
+| Family | Typical value created | Typical binding constraints (preview) |
+|--------|----------------------|--------------------------------------|
+| Cargo / logistics | Time, reliability, access where roads are slow or blocked | Payload, weather, landing sites, BVLOS / advanced-ops permission ([**BVLOS**](glossary.qmd#bvlos) = beyond visual line of sight) |
+| Passenger mobility | Door-to-door time vs MTR / taxi / Airport Express | Vertiport access, load factor, noise, public acceptance |
+| Inspection | Lower disruption and risk vs manned access | Safety case, data / privacy, repeatability |
+| Emergency / public | Outcomes that alternatives cannot match in time | Priority rules, funding (availability vs usage), acceptance |
+
+Teaching table from the week notes. [How to read each family economically](week-01.qmd#how-to-read-each-family-economically)
+
+### NPV result interpretation {#t01-npv-interpretation}
+
+| NPV result (under stated assumptions) | Interpretation |
+|---------------------------------------|----------------|
+| Positive | Project may be financially attractive |
+| Negative | Does not justify the investment |
+
+Teaching table from the week notes. [Net present value (NPV)](week-01.qmd#net-present-value-npv)
+
+### Door-to-door friction (smooth vs shock) {#t01-door-to-door-friction}
+
+| | Case A: smooth journey | Case B: friction shock |
+|--|------------------------|-------------------------|
+| Flight time | 10 minutes | 10 minutes |
+| Boarding and waiting | 5 minutes | 25 minutes |
+| Total journey | 15 minutes | 35 minutes |
+| Time saved vs a 45-minute alternative | 30 minutes = 0.5 h | 10 minutes ≈ 0.167 h |
+| Value of time saved | $1000\times 0.5 =$ **HK$500** | $1000\times 0.167 \approx$ **HK$167** |
+
+Teaching table from the week notes. [8.1 Door-to-door friction destroys value](week-01.qmd#8-1-door-to-door-friction-destroys-value)
+
+### Week 1 tools on one page {#t01-week1-tools-fit}
+
+| Tool | Answers | Feeds into |
+|------|---------|------------|
+| VOT × ΔT | How much time savings are *worth* | Willingness to pay; GC |
+| Generalized cost | Which mode wins on money + time | Maximum fare; demand sketches (Week 4) |
+| Ticket split | Who captures the fare | Operator margin; partner bargaining |
+| Cost per passenger | Fixed cost ÷ (flights × seats × load) | Fare floor before profit |
+| NPV | Whether investment is justified | Staging / sandbox learning (Week 6–7) |
+
+Teaching table from the week notes. [8.3 How the Week 1 tools fit on one page](week-01.qmd#8-3-how-the-week-1-tools-fit-on-one-page)
+
+### Roles in the LAE chain {#t01-roles}
+
+| Role | Plain meaning |
+|------|----------------|
+| [**OEM**](glossary.qmd#oem) | **Original equipment manufacturer** — produces the aircraft or key components. |
+| **Vertiport / sites** | Take-off, landing, passenger or cargo handling, charging, related ground operations (industry language; no dedicated Hong Kong vertiport statute yet). |
+| **UTM / U-space** | Digital services and procedures that support safe, efficient management of unmanned operations. **UTM** = unmanned aircraft system traffic management. **U-space** is an EU / industry frame, **not** Hong Kong law; Hong Kong’s Smart Low-altitude Traffic Management System is a **planned** programme (Policy Address language: progressive implementation from **2028**), not a statute yet ([Key figures](key-figures.qmd); [Glossary · airspace](glossary.qmd#airspace-and-traffic)). |
+| **Operator** | Provides the transport, logistics, inspection, or public service to the customer. |
+| **Customers / public agencies** | Pay for missions or sponsor public-service outcomes. |
+| **Supporting services** | Finance, leasing, insurance, certification, legal and professional services. |
+
+Teaching table from the week notes. [Roles](week-01.qmd#roles)
+
+### Illustrative unit economics (payments) {#t01-unit-economics-payments}
+
+| Payment | Amount |
+|---------|--------|
+| Vertiport fee | HK$100 |
+| UTM and digital services | HK$20 |
+| Insurance and financing | HK$30 |
+| Aircraft lease allocation | HK$50 |
+| **Partner payments** | **HK$200** |
+| Cash left for operator | HK$100 |
+| Energy | HK$20 |
+| Maintenance and labour | HK$50 |
+| **Operator margin** | **HK$30** |
+
+Teaching table from the week notes. [Illustrative unit economics (not market data)](week-01.qmd#illustrative-unit-economics-not-market-data)
+
+### Operating window and unit cost {#t01-operating-window-unit-cost}
+
+| | Wider window | Restricted window |
+|--|--------------|-------------------|
+| Flights per day | 50 | 20 |
+| Fixed cost per flight | HK$10,000 / 50 = **HK$200** | HK$10,000 / 20 = **HK$500** |
+
+Teaching table from the week notes. [Operating restrictions raise unit cost](week-01.qmd#operating-restrictions-raise-unit-cost)
+
+### Two Hong Kong programmes (keep separate) {#t01-two-hk-programmes}
+
+| Programme | How to treat it (issuer-backed counts) |
+|-----------|----------------------------------------|
+| Early **Regulatory Sandbox** | First-batch selection **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language may refer to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
+| Later **Sandbox X** | Distinct programme. Selected modules reported as **33** so far on TLB materials: UTM **15** + unconventional aircraft **4** + shared platform **5** + others **9**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 33 module total ([Key figures](key-figures.qmd)). |
+
+Teaching table from the week notes. [Keep two Hong Kong programmes separate](week-01.qmd#keep-two-hong-kong-programmes-separate)
+
+### Entry-barrier components {#t01-entry-barrier-components}
+
+| Component | Plain meaning |
+|-----------|----------------|
+| **Investment cost** | Aircraft, infrastructure, software, staff |
+| **Compliance cost** | Testing, documentation, professional services, approvals |
+| **Cost of delay** | Cash spent while waiting before wider operation |
+| **Uncertainty** | Technology, business model, or approval pathway may not work as expected |
+
+Teaching table from the week notes. [Entry barriers as a simple sum](week-01.qmd#entry-barriers-as-a-simple-sum)
+
+### Empty-seat drivers {#t01-empty-seat-drivers}
+
+| Driver | Meaning |
+|--------|---------|
+| **Utilization** | How frequently the aircraft flies |
+| **Capacity** | Seats available |
+| **Load factor** | Share of seats actually occupied |
+
+Teaching table from the week notes. [The empty-seat problem and unit cost](week-01.qmd#13-the-empty-seat-problem-and-unit-cost)
+
+### Load factor and unit cost (comparison) {#t01-load-factor-unit-cost}
+
+| | Case A: 10 flights, 50% load | Case B: 25 flights, 80% load |
+|--|------------------------------|------------------------------|
+| Paying passengers | $10\times 4\times 0.5 = 20$ | $25\times 4\times 0.8 = 80$ |
+| Fixed cost per passenger | HK$500 | HK$125 |
+| Variable cost per passenger | HK$50 | HK$31.25 |
+| **Total cost per passenger** | **HK$550** | **HK$156.25** |
+
+Teaching table from the week notes. [Illustrative comparison](week-01.qmd#illustrative-comparison)
+
+## Week 2 — Market structure and competition {#week-02}
+
+Full notes: [Week 2](week-02.qmd) · 9 tables below.
+
+### Market structures (plain meanings) {#t02-market-structures}
+
+| Structure | Plain meaning | Everyday analogy (not an LAE claim) |
+|-----------|---------------|-------------------------------------|
+| **Monopoly** | One provider serves the defined market. Pricing power is still limited by demand, regulation, and substitutes. | A single toll tunnel on a route |
+| **Oligopoly** | A small number of large players watch each other; one price cut can trigger responses. | A handful of mobile networks |
+| **Perfect competition** | Many small sellers of a homogeneous product; no one can raise price alone. | Many stalls selling the same simple item |
+
+Teaching table from the week notes. [What economists mean by “market structure”](week-02.qmd#2-what-economists-mean-by-market-structure)
+
+### Competitive logic by segment {#t02-competitive-logic-segment}
+
+| Segment | Likely rivalry style | Scarce asset often binding | Softens / intensifies price pressure |
+|---------|----------------------|----------------------------|--------------------------------------|
+| Last-mile logistics | Many routes; cost and reliability | Pads, BVLOS permission, weather windows | Homogeneous parcels → more Bertrand-like if capacity loose |
+| Passenger air taxis | Few corridors; brand and schedule | Vertiport slots, noise windows | Differentiation + pad caps can soften wars |
+| Inspection | Project / contract markets | Certified capability, data/privacy | Less pure price war; quality and safety cases matter |
+| EMS / public | Often procurement / priority rules | Availability, response time | Willingness to pay high; access may be allocated, not auctioned |
+
+Teaching table from the week notes. [Competitive logic by segment (textbook table)](week-02.qmd#competitive-logic-by-segment-textbook-table)
+
+### HHI worked shares {#t02-hhi-worked}
+
+| | Case A: four equal operators | Case B: one large, one small |
+|--|------------------------------|------------------------------|
+| Shares | 25%, 25%, 25%, 25% | 80%, 20% |
+| HHI | $4 \times 25^2 = \mathbf{2{,}500}$ | $80^2 + 20^2 = 6{,}400 + 400 = \mathbf{6{,}800}$ |
+
+Teaching table from the week notes. [Worked illustration (classroom shares)](week-02.qmd#worked-illustration-classroom-shares)
+
+### Rooftop rent and utilization {#t02-rooftop-rent-utilization}
+
+| | Low utilization (20 flights/day) | High utilization (200 flights/day) |
+|--|----------------------------------|--------------------------------------|
+| Fixed cost per flight | $33{,}333 / 20 =$ **HK$1,667** | $33{,}333 / 200 =$ **HK$167** |
+| + Marginal cost | HK$50 | HK$50 |
+| [**ATC**](glossary.qmd#atc-average-total-cost) (average total cost) | **HK$1,717** | **HK$217** |
+
+Teaching table from the week notes. [Worked illustration (rooftop rent)](week-02.qmd#worked-illustration-rooftop-rent)
+
+### Density trap (volume and ATC) {#t02-density-trap}
+
+| | Operator A: 20 flights/day | Operator B: 500 flights/day |
+|--|----------------------------|-----------------------------|
+| Fixed per flight | HK$2,500 | HK$100 |
+| + MC | HK$100 | HK$100 |
+| **Cost per flight** | **HK$2,600** | **HK$200** |
+
+Teaching table from the week notes. [Worked illustration (density trap)](week-02.qmd#worked-illustration-density-trap)
+
+### Limit price and shared pads {#t02-limit-price-shared-pads}
+
+| | High sunk entry (own pad build-out) | Lower sunk entry (shared pad access) |
+|--|--------------------------------------|--------------------------------------|
+| Sunk entry cost | HK$10,000,000 | HK$1,000,000 |
+| $AC_{\text{Entrant}}$ | $1{,}000 + 200 =$ **HK$1,200** | $100 + 200 =$ **HK$300** |
+| Example limit-style price | ~**HK$1,190** | ~**HK$290** |
+
+Teaching table from the week notes. [Worked illustration (limit price and shared pads)](week-02.qmd#worked-illustration-limit-price-and-shared-pads)
+
+### Absolute programme facts (no invented shares) {#t02-programme-facts}
+
+| Fact | Issuer-backed reading on this site |
+|------|-------------------------------------|
+| First Regulatory Sandbox batch **38 of 72** | [Key figures](key-figures.qmd) · GIA 20 Mar 2025 |
+| Sandbox X selected modules **33** so far (UTM 15 + unconventional 4 + shared platform 5 + others 9) | [Key figures](key-figures.qmd) · TLB |
+| “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 33 modules |
+| Trial ≠ dominance | [Who decides what? · standing caveats](regulators.qmd#standing-caveats) |
+
+Teaching table from the week notes. [Absolute programme facts (do not invent shares)](week-02.qmd#absolute-programme-facts-do-not-invent-shares)
+
+### Capacity vs price war {#t02-capacity-vs-price-war}
+
+| | Unconstrained fleets | Each limited to 30 flights/day (total 60 < 100) |
+|--|----------------------|--------------------------------------------------|
+| Logic | Undercutting can push $P$ toward **HK$100** | Neither can absorb all demand; price pressure **may** be weaker |
+| Lesson | Price war destroys margins | Scarcity can support margins — not a promise of $P =$ HK$500 |
+
+Teaching table from the week notes. [Worked illustration (capacity vs price war)](week-02.qmd#worked-illustration-capacity-vs-price-war)
+
+### Shared rooftop savings {#t02-shared-rooftop}
+
+| | Alone | Four operators share equally |
+|--|-------|------------------------------|
+| Fixed cost per operator | HK$100,000 | HK$25,000 |
+| If each flies 100 times/day | HK$1,000 rent/flight | HK$250 rent/flight |
+
+Teaching table from the week notes. [Worked illustration (shared rooftop)](week-02.qmd#worked-illustration-shared-rooftop)
+
+## Week 3 — Cost, revenue, and breakeven {#week-03}
+
+Full notes: [Week 3](week-03.qmd) · 10 tables below.
+
+### CAPEX vs OPEX {#t03-capex-vs-opex}
+
+| Label | Plain meaning | Typical LAE examples |
+|-------|---------------|----------------------|
+| [**CAPEX**](glossary.qmd#capex-opex) (capital expenditure) | Investment in assets that provide benefits over several years | Aircraft, charging equipment, vertiport construction, major software platforms |
+| [**OPEX**](glossary.qmd#capex-opex) (operating expenditure) | Recurring spend to operate the service | Energy, maintenance, staff, insurance, site fees, communications, routine compliance |
+
+Teaching table from the week notes. [CAPEX vs OPEX](week-03.qmd#capex-vs-opex)
+
+### Investment level and unit cost {#t03-investment-unit-cost}
+
+| | Case A: HK$10M investment | Case B: HK$6M investment |
+|--|----------------------------|---------------------------|
+| Daily asset allocation | $10\text{M}/1{,}825 \approx$ **HK$5,479** | $6\text{M}/1{,}825 \approx$ **HK$3,288** |
+| + Daily OPEX | HK$8,000 | HK$8,000 |
+| Total daily economic cost | HK$13,479 | HK$11,288 |
+| **Cost per mission** | $\approx$ **HK$270** | $\approx$ **HK$226** |
+
+Teaching table from the week notes. [Worked illustration (investment level and unit cost)](week-03.qmd#worked-illustration-investment-level-and-unit-cost)
+
+### Cost stack to unit economics (tool chain) {#t03-cost-stack-toolchain}
+
+| Question | Tool this week | Week 2 cousin |
+|----------|----------------|---------------|
+| What did we buy? | CAPEX / residual / useful days | Sunk site cost |
+| What burns if we fly zero? | Fixed OPEX | Fixed cost in ATC |
+| What rises with each mission? | Variable cost | Marginal cost |
+| Cost of capacity offered? | CASK | ATC at a given utilization |
+| How many units to survive? | Breakeven / required missions | Density needed to lower ATC |
+
+Teaching table from the week notes. [From cost stack to unit economics (tool chain)](week-03.qmd#3-from-cost-stack-to-unit-economics-tool-chain)
+
+### Utilization and CASK {#t03-utilization-cask}
+
+| | 10 trips/day | 50 trips/day |
+|--|--------------|--------------|
+| Available seat-km | $4 \times 10 \times 10 = 400$ | $4 \times 50 \times 10 = 2{,}000$ |
+| **CASK** | $12{,}000/400 =$ **HK$30** per seat-km | $12{,}000/2{,}000 =$ **HK$6** per seat-km |
+| Allocated cost of one seat on a 10 km trip | HK$300 | HK$60 |
+
+Teaching table from the week notes. [Worked illustration (utilization and CASK)](week-03.qmd#worked-illustration-utilization-and-cask)
+
+### Cost per mission-kilometre {#t03-mission-km-cost}
+
+| | 20 missions/day | 100 missions/day |
+|--|-----------------|------------------|
+| Mission-km | 160 | 800 |
+| Cost per mission-km | HK$75 | HK$15 |
+| Allocated cost per mission | **HK$600** | **HK$120** |
+
+Teaching table from the week notes. [Cost per mission-kilometre](week-03.qmd#cost-per-mission-kilometre)
+
+### Revenue models and usage risk {#t03-revenue-models}
+
+| Model | Revenue predictability (typical) | Who bears usage risk (typical) | Possible use |
+|-------|----------------------------------|--------------------------------|--------------|
+| **Pay per use** | Lower | Operator | Passenger trip, delivery, inspection |
+| **Subscription / membership** | Medium | Shared | Frequent users; priority or allowance |
+| **Availability-based contract** | Higher | Customer / shared | Public or critical readiness |
+| **Complementary services** | Varies | Varies | Data, analytics, maintenance, platform |
+
+Teaching table from the week notes. [Revenue models: more than one transaction type](week-03.qmd#5-revenue-models-more-than-one-transaction-type)
+
+### Price and breakeven missions {#t03-price-breakeven}
+
+| Revenue per mission | Contribution | Breakeven missions/day |
+|---------------------|--------------|-------------------------|
+| HK$500 | HK$400 | $20{,}000/400 =$ **50** |
+| HK$200 | HK$100 | $20{,}000/100 =$ **200** |
+
+Teaching table from the week notes. [Worked illustration (price and breakeven)](week-03.qmd#worked-illustration-price-and-breakeven)
+
+### Load factor and breakeven flights {#t03-load-factor-breakeven}
+
+| Load factor | Paying passengers (avg) | Revenue/flight | Contribution | Breakeven flights/day |
+|-------------|-------------------------|----------------|--------------|------------------------|
+| 40% | 1.6 | HK$800 | HK$700 | $\approx$ **29** |
+| 90% | 3.6 | HK$1,800 | HK$1,700 | $\approx$ **12** |
+
+Teaching table from the week notes. [Worked illustration (load factor and breakeven flights)](week-03.qmd#worked-illustration-load-factor-and-breakeven-flights)
+
+### Grounded days: pay-per-mission vs committed {#t03-grounded-days-revenue}
+
+| | Pay per mission only | Committed monthly revenue HK$750,000 |
+|--|----------------------|----------------------------------------|
+| Usage / contract revenue | HK$625,000 | HK$750,000 |
+| Variable cost | HK$125,000 | HK$125,000 |
+| Fixed cost | HK$600,000 | HK$600,000 |
+| **Result (before credits/premiums)** | **Loss HK$100,000** | **Profit HK$25,000** |
+
+Teaching table from the week notes. [Worked illustration (five grounded days)](week-03.qmd#worked-illustration-five-grounded-days)
+
+### Hong Kong and GBA cost/revenue hypotheses {#t03-hk-gba-cost-revenue}
+
+| Dimension | Hong Kong possibility | Wider GBA possibility |
+|-----------|----------------------|------------------------|
+| Site environment | Dense and constrained | More varied |
+| Customer base | Premium and specialised | Larger and more diverse |
+| Cost pressure | Site and professional costs | Varies by city and use case |
+| Scale opportunity | Complex urban services | Manufacturing and network scale |
+| Potential role | Finance, logistics, services | Technology, production, operations |
+
+Teaching table from the week notes. [Hong Kong and the GBA: cost and revenue hypotheses](week-03.qmd#9-hong-kong-and-the-gba-cost-and-revenue-hypotheses)
+
+## Week 4 — Demand, GC, and scenarios {#week-04}
+
+Full notes: [Week 4](week-04.qmd) · 8 tables below.
+
+### Airport service prices (classroom demand) {#t04-airport-service-prices}
+
+| Price | Quantity | Revenue |
+|-------|----------|---------|
+| HK$300 | $8{,}000 - 8(300) = 5{,}600$ | $300 \times 5{,}600 =$ **HK$1.68M** |
+| HK$500 | $8{,}000 - 8(500) = 4{,}000$ | $500 \times 4{,}000 =$ **HK$2.00M** |
+
+Teaching table from the week notes. [Worked illustration (airport service prices)](week-04.qmd#worked-illustration-airport-service-prices)
+
+### Demand vs capacity {#t04-demand-vs-capacity}
+
+| | Potential demand | Capacity-constrained service |
+|--|------------------|------------------------------|
+| Calculation | $20{,}000 \times 0.60 \times 0.35$ | 300 flights/day × 4 seats × 80% load |
+| Result | **4,200** passenger-trips/day | **960** passenger-trips/day |
+
+Teaching table from the week notes. [Worked illustration (demand vs capacity)](week-04.qmd#worked-illustration-demand-vs-capacity)
+
+### Taxi vs air-mobility (GC) {#t04-taxi-vs-air-gc}
+
+| | Ground taxi | Air-mobility service |
+|--|-------------|----------------------|
+| Fare | HK$350 | HK$800 |
+| Door-to-door time | 45 min | 12 min |
+| Other burden | HK$50 | HK$80 |
+| **GC** (**generalized cost** — fare plus time valued in money) | $350 + 15(45) + 50 =$ **HK$1,075** | $800 + 15(12) + 80 =$ **HK$1,060** |
+
+Teaching table from the week notes. [Worked illustration (taxi vs air-mobility)](week-04.qmd#worked-illustration-taxi-vs-air-mobility)
+
+### Discount, elasticity, and revenue {#t04-discount-elasticity-revenue}
+
+| Approx. $|E_d|$ | Approx. volume change | New volume | New revenue |
+|-----------------|----------------------|------------|-------------|
+| 0.5 | +10% | 110 | $400 \times 110 =$ **HK$44,000** |
+| 2.0 | +40% | 140 | $400 \times 140 =$ **HK$56,000** |
+
+Teaching table from the week notes. [Worked illustration (discount and revenue)](week-04.qmd#worked-illustration-discount-and-revenue)
+
+### Uniform vs differentiated offers {#t04-uniform-vs-differentiated}
+
+| | Uniform fare HK$500 | Differentiated offers |
+|--|---------------------|------------------------|
+| Volumes | Flexible-business 4,000; advance 2,000 | Flexible HK$800 → 3,800; restricted HK$300 → 3,500 |
+| **Revenue** | **HK$3.00M** | $800\times3{,}800 + 300\times3{,}500 =$ **HK$4.09M** |
+
+Teaching table from the week notes. [Worked illustration (uniform vs two products)](week-04.qmd#worked-illustration-uniform-vs-two-products)
+
+### Acceptance adjustment scenarios {#t04-acceptance-adjustment}
+
+| Scenario | Adjustment | Demand |
+|----------|------------|--------|
+| Higher acceptance | 0.9 | **3,780**/day |
+| Lower acceptance | 0.6 | **2,520**/day |
+
+Teaching table from the week notes. [Transparent acceptance adjustment](week-04.qmd#transparent-acceptance-adjustment)
+
+### Weekly capacity shock {#t04-weekly-capacity-shock}
+
+| | Normal week | 30% capacity loss |
+|--|-------------|-------------------|
+| Served trips | 100 | 70 |
+| Revenue | HK$50,000 | HK$35,000 |
+| Margin before variable cost | **HK$10,000** | **−HK$5,000** |
+
+Teaching table from the week notes. [Worked illustration (weekly capacity shock)](week-04.qmd#worked-illustration-weekly-capacity-shock)
+
+### Hong Kong and GBA demand hypotheses {#t04-hk-gba-demand}
+
+| Dimension | Hong Kong possibility | Wider GBA possibility |
+|-----------|----------------------|------------------------|
+| Trip patterns | Dense, complex, constrained | Diverse urban and regional |
+| Customer value | Time-sensitive, specialised | Larger and more varied |
+| Alternatives | Strong public transport | Varies substantially by city |
+| Scale | Limited local geography | Broader network potential |
+| Key question | Value per trip | Volume and network reach |
+
+Teaching table from the week notes. [Hong Kong and the GBA: demand hypotheses](week-04.qmd#10-hong-kong-and-the-gba-demand-hypotheses)
+
+## Week 5 — Sites, slots, and networks {#week-05}
+
+Full notes: [Week 5](week-05.qmd) · 10 tables below.
+
+### Three classroom vertiport archetypes {#t05-vertiport-archetypes}
+
+| Archetype | Plain idea | Typical trade-off |
+|-----------|------------|-------------------|
+| **Building-based** | Rooftop or elevated structure | Strong access; structural, safety, power, and circulation upgrades |
+| **Integrated hub** | Multiple pads/stands plus charging, processing, maintenance | High capability; high cost and complexity |
+| **Ground-based** | Available land site | Often easier to expand; may mean longer access to customers |
+
+Teaching table from the week notes. [Three classroom vertiport archetypes](week-05.qmd#2-three-classroom-vertiport-archetypes)
+
+### Two archetypes (site cost screen) {#t05-two-archetypes-site-cost}
+
+| | Building-based | Ground-based |
+|--|----------------|--------------|
+| Daily infrastructure allocation | HK$5,000 | HK$1,000 |
+| Daily OPEX | HK$8,000 | HK$2,000 |
+| Extra access time | 8 min | 3 min |
+| Access burden | $8 \times 15 \times 100 =$ HK$12,000 | $3 \times 15 \times 100 =$ HK$4,500 |
+| **Generalized site cost/day** | **HK$25,000** | **HK$7,500** |
+
+Teaching table from the week notes. [Worked illustration (two archetypes)](week-05.qmd#worked-illustration-two-archetypes)
+
+### Higher- vs lower-cost site {#t05-higher-lower-cost-site}
+
+| | Higher-cost site | Lower-cost site |
+|--|------------------|-----------------|
+| Fixed cost/day | HK$15,000 | HK$4,000 |
+| Breakeven use | $15{,}000/20{,}000 =$ **75%** | $4{,}000/20{,}000 =$ **20%** |
+
+Teaching table from the week notes. [Worked illustration](week-05.qmd#worked-illustration)
+
+### Funding the ramp-up {#t05-funding-ramp-up}
+
+| | Mature demand (80% use) | Year-1 ramp (20% use) |
+|--|-------------------------|------------------------|
+| Annual revenue | HK$4M | HK$1M |
+| Fixed operating cost | HK$2M | HK$2M |
+| **Operating result before other costs** | **Surplus HK$2M** | **Shortfall HK$1M** |
+
+Teaching table from the week notes. [Worked illustration (funding the ramp-up)](week-05.qmd#worked-illustration-funding-the-ramp-up)
+
+### Downtime stress {#t05-downtime-stress}
+
+| | No downtime | 20% revenue reduction |
+|--|-------------|------------------------|
+| Operating surplus | HK$1.5M | HK$0.7M |
+| **Simple return** | **15%** | **7%** |
+
+Teaching table from the week notes. [Worked illustration (downtime stress)](week-05.qmd#worked-illustration-downtime-stress)
+
+### Daily infrastructure cost (investment cases) {#t05-daily-infra-cost}
+
+| | Higher-investment | Lower-investment |
+|--|-------------------|------------------|
+| CAPEX | HK$18.25M | HK$3.65M |
+| Daily allocation | HK$5,000 | HK$1,000 |
+| Daily OPEX | HK$10,000 | HK$3,000 |
+| **Daily economic cost** | **HK$15,000** | **HK$4,000** |
+
+Teaching table from the week notes. [Daily infrastructure cost (economic sketch)](week-05.qmd#daily-infrastructure-cost-economic-sketch)
+
+### Illustrative peak slot fee {#t05-peak-slot-fee}
+
+| | 2 requests / 2 slots | 8 requests / 2 slots |
+|--|----------------------|----------------------|
+| Ratio | 1 | 4 |
+| **Fee** | $100 + 1(200) =$ **HK$300** | $100 + 4(200) =$ **HK$900** |
+
+Teaching table from the week notes. [Illustrative peak-pricing rule (design choice, not a regulation)](week-05.qmd#illustrative-peak-pricing-rule-design-choice-not-a-regulation)
+
+### Hub, distributed, hybrid network designs {#t05-network-designs}
+
+| Design | Possible strengths | Possible weaknesses |
+|--------|--------------------|---------------------|
+| **Concentrated hub** | Shared facilities, high throughput, connections, specialised services | Longer access; vulnerable to single-site disruption |
+| **Distributed** | Better customer access; resilience | Duplicated fixed cost; thinner activity per site |
+| **Hybrid** | Major hubs plus feeders / specialised sites | Coordination complexity |
+
+Teaching table from the week notes. [Network design: hub, distributed, hybrid](week-05.qmd#9-network-design-hub-distributed-hybrid)
+
+### GC per served trip (concentrated vs distributed) {#t05-gc-per-served-trip}
+
+| | Concentrated | Distributed |
+|--|--------------|-------------|
+| Daily network cost | HK$15,000 | HK$45,000 |
+| Cost per trip | HK$3.75 | HK$11.25 |
+| Access burden/trip | $8 \times 15 =$ HK$120 | $2 \times 15 =$ HK$30 |
+| **GC per trip** | **HK$123.75** | **HK$41.25** |
+
+Teaching table from the week notes. [Generalized cost per served trip](week-05.qmd#generalized-cost-per-served-trip)
+
+### Hong Kong and GBA infrastructure hypotheses {#t05-hk-gba-infra}
+
+| Dimension | Hong Kong possibility | Wider GBA possibility |
+|-----------|----------------------|------------------------|
+| Site environment | Dense and constrained | More varied |
+| Customer access | Strong value in central locations | Varies by city/corridor |
+| Infrastructure role | Integration and specialised services | Larger network / production scale |
+| Key question | Value per scarce site | Network coverage and volume |
+
+Teaching table from the week notes. [Hong Kong and GBA infrastructure hypotheses](week-05.qmd#hong-kong-and-gba-infrastructure-hypotheses)
+
+## Week 6 — Partnerships and payment design {#week-06}
+
+Full notes: [Week 6](week-06.qmd) · 7 tables below.
+
+### Three business-model archetypes {#t06-business-model-archetypes}
+
+| Archetype | Core idea | Typical exposure |
+|-----------|-----------|------------------|
+| **Asset-intensive operator** | Owns or finances major aircraft and infrastructure; controls more of the operating system | High capital and utilization risk; potentially greater control and value capture |
+| **Service integrator** | Promises an outcome (e.g. delivery availability, inspection coverage) while leasing assets or contracting operators | Lower asset ownership; high coordination and performance risk |
+| **Platform orchestrator** | Connects customers, operators, infrastructure, and data services | Fewer physical assets; software, cybersecurity, compliance, customer acquisition, and network risk |
+
+Teaching table from the week notes. [Three business-model archetypes](week-06.qmd#2-three-business-model-archetypes)
+
+### Three archetypes (worked comparison) {#t06-archetypes-worked}
+
+| | Asset-intensive | Service integrator | Platform |
+|--|-----------------|--------------------|----------|
+| Cash / internal OPEX | HK$200k | HK$100k | HK$150k |
+| Asset / software allocation | HK$333k | HK$0 | HK$33k |
+| Partner / operator payouts | HK$0 | HK$800k | HK$700k |
+| **Economic profit** | **HK$467k** | **HK$100k** | **HK$117k** |
+| Character | High capital & utilization exposure | Supplier dependency | Network & governance risk |
+
+Teaching table from the week notes. [Worked illustration (three archetypes)](week-06.qmd#worked-illustration-three-archetypes)
+
+### Payment design and risk {#t06-payment-design-risk}
+
+| | Usage-only (HK$1,000/mission) | Availability HK$650k + usage HK$200/mission |
+|--|-------------------------------|-----------------------------------------------|
+| Revenue | HK$300k | HK$710k |
+| Variable + fixed cost | HK$60k + HK$500k = HK$560k | HK$560k |
+| **Operating result** | **Loss HK$260k** | **Profit HK$150k** (before deductions) |
+
+Teaching table from the week notes. [Worked illustration (payment design and risk)](week-06.qmd#worked-illustration-payment-design-and-risk)
+
+### Value of staging (decision tree) {#t06-value-of-staging}
+
+| | Commit now | Pay HK$5M to wait, then decide |
+|--|------------|--------------------------------|
+| Favourable net | HK$50M | Invest later → HK$45M |
+| Unfavourable net | −HK$50M | Do not invest → −HK$5M |
+| **Expected value** | $0.5(50)+0.5(-50)=$ **HK$0** | $0.5(45)+0.5(-5)=$ **HK$20M** |
+
+Teaching table from the week notes. [Worked illustration (value of staging)](week-06.qmd#worked-illustration-value-of-staging)
+
+### Facility cost per movement {#t06-facility-cost-per-movement}
+
+| | 50 movements/day | 100 shared movements/day |
+|--|------------------|--------------------------|
+| Fixed per movement | HK$800 | HK$400 |
+| + Variable | HK$100 | HK$100 |
+| **Facility cost/movement** | **HK$900** | **HK$500** (~44% lower) |
+
+Teaching table from the week notes. [Facility cost per movement](week-06.qmd#facility-cost-per-movement)
+
+### Institutional approaches (comparators) {#t06-institutional-approaches}
+
+| Setting | Partnership / entry flavour (simplified) |
+|---------|------------------------------------------|
+| **Hong Kong — Sandbox X** (distinct from the earlier Regulatory Sandbox) | Controlled trials for project concepts, operations, infrastructure, emergency response, cross-boundary procedures |
+| **European U-space** | Regulatory and digital-service frame for unmanned operations in designated airspace |
+| **United States** | FAA / interagency coordination of certification, operations, airspace, infrastructure, environment, community engagement |
+| **GBA collaboration** | May combine manufacturing, operating, testing, finance, logistics, and professional services across jurisdictions |
+
+Teaching table from the week notes. [Institutional approaches (comparators)](week-06.qmd#7-institutional-approaches-comparators)
+
+### Term-sheet issues (authority vs operator) {#t06-term-sheet-issues}
+
+| Issue | Public authority typically wants | Operator typically wants |
+|-------|----------------------------------|--------------------------|
+| Service outcome | Reliable, affordable delivery of the mission | Clear, measurable scope |
+| Payment | Value for money; budget control | Bankable, predictable cash flow |
+| Performance | Strong KPIs and remedies | Controllable targets; fair relief |
+| Risk | Transfer where value improves | Accept only manageable, priced risk |
+| Flexibility | Ability to adapt the public service | Compensation for material changes |
+
+Teaching table from the week notes. [Term-sheet thinking (risk to the best party)](week-06.qmd#8-term-sheet-thinking-risk-to-the-best-party)
+
+## Week 7 — Regulation, trials, and readiness {#week-07}
+
+Full notes: [Week 7](week-07.qmd) · 10 tables below.
+
+### Value of earlier market readiness {#t07-earlier-readiness}
+
+| | Twelve-month lead | Six-month lead |
+|--|-------------------|----------------|
+| Contribution during lead | $12 \times 2$ = HK$24M | $6 \times 2$ = HK$12M |
+| Additional compliance cost | HK$15M | HK$15M |
+| **Net readiness value** | **HK$9M** | **−HK$3M** |
+
+Teaching table from the week notes. [Value of earlier market readiness](week-07.qmd#value-of-earlier-market-readiness)
+
+### SUA frame and Sandbox X (roles) {#t07-sua-sandbox-x-roles}
+
+| Programme | Role (simplified) |
+|-----------|-------------------|
+| **First Regulatory Sandbox** | Earlier batch of selected pilot projects (first batch **38 of 72** — issuer on Week 6 Readings / Official status) |
+| **Sandbox X** | Later programme for selected project concepts on predefined routes under controlled conditions; modules and testing counts on [Key figures](key-figures.qmd) |
+
+Teaching table from the week notes. [Hong Kong’s risk-based SUA frame and Sandbox X](week-07.qmd#3-hong-kong-s-risk-based-sua-frame-and-sandbox-x)
+
+### Value of a controlled trial {#t07-controlled-trial}
+
+| | No early trial | Controlled trial |
+|--|----------------|------------------|
+| Expected redesign / net | $0.40 \times 20$ = **HK$8M** expected redesign | Trial HK$5M; assume issue found before full investment → **illustrative net avoided cost HK$3M** |
+| Information timing | After larger commitment | Before scale-up |
+
+Teaching table from the week notes. [Value of a controlled trial](week-07.qmd#value-of-a-controlled-trial)
+
+### Approval, permission, and certification {#t07-approval-permission-cert}
+
+| Concept | What it typically addresses |
+|---------|----------------------------|
+| **SUA operating requirements and permission** | Cap. 448G: category and operational risk; advanced operations → prior CAD permission |
+| **Operator and pilot requirements** | Registration, training, assessment, equipment, records, insurance, operating conditions |
+| **Aircraft certification / airworthiness** | Passenger-carrying or larger unconventional aircraft may need a substantially different framework (trials for unconventional aircraft discussed under Cap. 448C provisions in official replies — see Glossary / regulators) |
+| **Infrastructure / site approval** | Landing sites and supporting facilities may involve planning, building, fire, land, environmental, and other requirements |
+
+Teaching table from the week notes. [Approval, permission, and certification (do not conflate)](week-07.qmd#5-approval-permission-and-certification-do-not-conflate)
+
+### Compliance investment appraisal {#t07-compliance-appraisal}
+
+| | 70% approval probability | 40% approval probability |
+|--|--------------------------|--------------------------|
+| Expected approved value | $0.70 \times 30$ = HK$21M | $0.40 \times 30$ = HK$12M |
+| Less compliance cost | HK$15M | HK$15M |
+| **Expected value before delay cost** | **HK$6M** | **−HK$3M** |
+
+Teaching table from the week notes. [Compliance investment appraisal](week-07.qmd#compliance-investment-appraisal)
+
+### Safety case and risk cost {#t07-safety-risk-cost}
+
+| | Without control | With control |
+|--|-----------------|--------------|
+| Three-year expected loss | HK$6M | HK$1.5M |
+| Control cost | — | HK$3M |
+| **Total / comparison** | HK$6M | HK$4.5M → **illustrative expected saving HK$1.5M** |
+
+Teaching table from the week notes. [The safety case and risk cost](week-07.qmd#6-the-safety-case-and-risk-cost)
+
+### U-space / UTM coordination cost {#t07-utm-coordination-cost}
+
+| | Mostly manual | Digital system with oversight |
+|--|---------------|-------------------------------|
+| Daily cost | 100 staff-hours × HK$300 = HK$30,000 | System HK$8,000 + oversight HK$7,000 = HK$15,000 |
+| **Monthly cost** | **HK$900,000** | **HK$450,000** |
+
+Teaching table from the week notes. [U-space, UTM, and coordination cost](week-07.qmd#7-u-space-utm-and-coordination-cost)
+
+### Comparing regulatory pathways {#t07-regulatory-pathways}
+
+| Setting | Flavour (simplified) |
+|---------|----------------------|
+| **Hong Kong** | Risk-based SUA framework; prior permission for advanced operations; controlled Sandbox X trials for more complex applications |
+| **European Union** | Harmonized UAS rules; U-space framework for designated airspace and certified service providers |
+| **United States** | Certification, operational approvals, airspace integration, infrastructure, and implementation planning under FAA / interagency programmes |
+| **Mainland China and the GBA** | Distinct national and local regulatory environment; route-specific and cross-boundary coordination |
+
+Teaching table from the week notes. [Comparing regulatory pathways (without false rankings)](week-07.qmd#8-comparing-regulatory-pathways-without-false-rankings)
+
+### Regulatory-pathway scorecard {#t07-pathway-scorecard}
+
+| Dimension | Managerial question |
+|-----------|---------------------|
+| Clarity | Are requirements and decision points understandable? |
+| Proportionality | Are controls matched to operational risk? |
+| Evidence pathway | Can testing generate useful evidence? |
+| Predictability | Are process, timing, and responsibilities credible? |
+| Scalability | Can the approval support expansion or repetition? |
+| Interoperability | Can evidence or approvals support other markets? |
+
+Teaching table from the week notes. [Regulatory-pathway scorecard](week-07.qmd#regulatory-pathway-scorecard)
+
+### Phased regulatory roadmap {#t07-phased-reg-roadmap}
+
+| Phase | Operating scope | Evidence collected | Expansion gate |
+|-------|-----------------|--------------------|----------------|
+| 1. Controlled test | Limited route, time, and payload | Communications, navigation, weather, procedures | Safety and reliability thresholds met |
+| 2. Extended trial | More operating conditions or users | Repeated performance and stakeholder feedback | Approved review and updated controls |
+| 3. Scaled operation | Wider route, frequency, or fleet | Ongoing monitoring and incident reporting | Continued compliance and periodic review |
+
+Teaching table from the week notes. [Phased regulatory roadmap](week-07.qmd#9-phased-regulatory-roadmap)
+
+## Week 8 — Congestion, slots, and roadmaps {#week-08}
+
+Full notes: [Week 8](week-08.qmd) · 6 tables below.
+
+### Marginal congestion cost (delay table) {#t08-mcc-delay}
+
+| Affected user | Delay value |
+|---------------|-------------|
+| Flight 1 | HK$100/min |
+| Flight 2 | HK$60/min |
+| Flight 3 | HK$40/min |
+| **Total** | **HK$200/min** |
+
+Teaching table from the week notes. [Marginal congestion cost (illustrative)](week-08.qmd#marginal-congestion-cost-illustrative)
+
+### Slot allocation mechanism families {#t08-slot-mechanism-families}
+
+| Family | Examples |
+|--------|----------|
+| **Administrative rules** | Schedules, rotation, first-come-first-served, historical rights, public-service priority |
+| **Posted prices** | Predictable peak and off-peak charges |
+| **Auctions** | Bids for scarce time windows or route access |
+| **Package allocation** | Linked departure, corridor, arrival, and charging reservations allocated together |
+
+Teaching table from the week notes. [Mechanism design and slot allocation](week-08.qmd#4-mechanism-design-and-slot-allocation)
+
+### Maximum affordable slot payment {#t08-bmax-slot}
+
+| | Operator A | Operator B |
+|--|------------|------------|
+| Incremental revenue | HK$2,000 | HK$2,000 |
+| Incremental cost | HK$1,200 | HK$600 |
+| Required contribution | HK$300 | HK$300 |
+| **Maximum affordable payment** | **HK$500** | **HK$1,100** |
+
+Teaching table from the week notes. [Maximum affordable slot payment](week-08.qmd#maximum-affordable-slot-payment)
+
+### Coordination-cost savings {#t08-coordination-cost-savings}
+
+| | Less-integrated | Interoperable digital |
+|--|-----------------|------------------------|
+| Daily cost | HK$30/op → HK$30,000 | Fixed/oversight HK$12,000 + HK$3/op → HK$15,000 |
+| **Monthly cost** | **HK$900,000** | **HK$450,000** |
+
+Teaching table from the week notes. [Coordination-cost savings](week-08.qmd#coordination-cost-savings)
+
+### Airspace-integration roadmap stages {#t08-airspace-roadmap-stages}
+
+| Stage | Scope | Gate idea |
+|-------|-------|-----------|
+| **1. Defined trials** | Limited routes, aircraft, times, users, contingency procedures | Safety and reliability thresholds met |
+| **2. Extended operations** | More conditions; repeated performance; interoperable services; stakeholder feedback | Approved review and updated controls |
+| **3. Scaled network** | Wider capacity only after thresholds met | Continued compliance; periodic review |
+
+Teaching table from the week notes. [Airspace-integration roadmap](week-08.qmd#7-airspace-integration-roadmap)
+
+### Phased roadmap NPV cash flows {#t08-roadmap-npv-cf}
+
+| Year | Net cash flow | Present value (approx.) |
+|------|---------------|-------------------------|
+| 0 | −HK$50M | −HK$50M |
+| 1 | HK$10M | HK$9.1M |
+| 2 | HK$40M | HK$33.1M |
+| 3 | HK$50M | HK$37.6M |
+| **PV of future nets / NPV** | | **HK$79.8M PV → roadmap NPV ≈ HK$29.8M** |
+
+Teaching table from the week notes. [Phased roadmap value](week-08.qmd#phased-roadmap-value)
+
+## Week 9 — Sizing, uncertainty, and equity {#week-09}
+
+Full notes: [Week 9](week-09.qmd) · 9 tables below.
+
+### Market-sizing labels (TAM / SAM / …) {#t09-market-sizing-labels}
+
+| Label | Meaning |
+|-------|---------|
+| **Potential market** | All relevant customers or trips within a clearly defined geography, period, and use case |
+| **Serviceable market** | Portion compatible with route, service level, willingness to pay, regulation, and infrastructure |
+| **Obtainable demand** | Portion the operator may realistically serve after competition and capacity constraints |
+
+Teaching table from the week notes. [Market sizing](week-09.qmd#2-market-sizing)
+
+### Funnel → contribution (steps) {#t09-funnel-contribution-steps}
+
+| Step | Figure |
+|------|--------|
+| Relevant trips | 20,000/day |
+| Eligible time-sensitive segment | 10% → $SAM = 2{,}000$ |
+| Expected choice share | 15% → $D_{\mathrm{pot}} =$ **300** passenger-trips/day |
+| Reliable capacity | 80 flights/day × 4 seats × 80% load = **256** |
+| **Served demand** | $\min\{300,256\}=$ **256** passenger-trips/day |
+
+Teaching table from the week notes. [Worked illustration (funnel → contribution)](week-09.qmd#t09-funnel-steps)
+
+### Funnel → contribution (daily / annual) {#t09-funnel-contribution-daily}
+
+| | Daily | Annual (≈) |
+|--|-------|-------------|
+| Revenue | $256 \times 400$ = HK\$102,400 | HK\$33.8M |
+| Variable cost | $256 \times 120$ = HK\$30,720 | HK\$10.1M |
+| **Contribution** | **HK\$71,680** | **≈ HK\$23.7M** |
+
+Teaching table from the week notes. [Worked illustration (funnel → contribution)](week-09.qmd#t09-funnel-daily)
+
+### UAM study constraints → model channels {#t09-uam-constraints-channels}
+
+| Constraint | Primary model channel |
+|------------|----------------------|
+| Regulatory delay | Launch date, cost, or probability |
+| Infrastructure scarcity | Reliable capacity and access |
+| Public acceptance | Choice share, hours, or route |
+| Weather | Serviceable capacity and reliability |
+| Technology maturity | Cost, payload, range, and downtime |
+| Competition | Price and operator choice share |
+
+Teaching table from the week notes. [Constraints from UAM market studies (no double counting)](week-09.qmd#t09-uam-constraints)
+
+### Constraint channels (treatment rules) {#t09-constraint-channel-treatment}
+
+| Channel | Treatment |
+|---------|-----------|
+| Reliable capacity | $K = 256$ trips/day |
+| Acceptance scenario | 90% of potential → adjusted demand 270 |
+| Served trips | $\min\{270,256\}=256$ |
+| Serviceable days | 330/year |
+| Annual revenue | $256 \times 400 \times 330$ = **HK\$33.8M** |
+
+Teaching table from the week notes. [Constraints from UAM market studies (no double counting)](week-09.qmd#t09-constraint-treatment)
+
+### Expected value and downside risk {#t09-expected-value-downside}
+
+| Scenario | Probability | Revenue | Profit |
+|----------|-------------|---------|--------|
+| Strong | 20% | HK\$10M | HK\$5M |
+| Base | 50% | HK\$8M | HK\$3M |
+| Weak | 30% | HK\$4M | −HK\$1M |
+
+Teaching table from the week notes. [Expected value and downside risk](week-09.qmd#expected-value-and-downside-risk)
+
+### Hedonic noise scenarios (illustrative) {#t09-hedonic-noise-scenarios}
+
+| Scenario | Assumed effects | Implied value |
+|----------|-----------------|---------------|
+| Higher noise, limited local access | Noise −4%; access 0% | $8\text{M}\times 0.96$ = **HK\$7.68M** |
+| Lower noise, useful local access | Noise −1%; access +3% | $8\text{M}\times 1.02$ = **HK\$8.16M** |
+
+Teaching table from the week notes. [Illustrative specification](week-09.qmd#illustrative-specification)
+
+### Social equity and distributional questions {#t09-social-equity}
+
+| Dimension | Questions |
+|-----------|-----------|
+| **Access** | Affordability, geographic coverage, accessibility, digital access, service availability |
+| **Exposure** | Noise, privacy, visual impact, safety risk, construction, land-use effects |
+| **Opportunity** | Jobs, training, procurement, entrepreneurship, supporting-service development |
+| **Public finance** | Subsidies, infrastructure spending, availability payments, alternative uses of public funds |
+| **Public services** | Emergency response and medical logistics may create broad benefits — evaluate against alternative delivery methods |
+
+Teaching table from the week notes. [Social equity and distributional analysis](week-09.qmd#7-social-equity-and-distributional-analysis)
+
+### Integrated dashboard (classroom) {#t09-integrated-dashboard}
+
+| Section | Inputs and outputs |
+|---------|-------------------|
+| Market | Relevant trips, eligibility $e$, choice share $s$ |
+| Capacity | Flights, capacity per flight, serviceable days → $K$ |
+| Economics | Price $p$, variable cost $v$, fixed cost, contribution $\Pi_{\mathrm{var}}$ |
+| Uncertainty | Ranges, distributions, correlations, $E[\Pi]$, $\Pr(\Pi < 0)$ |
+| Social impact | Benefits, costs, affected groups, mitigation and who pays |
+
+Teaching table from the week notes. [Integrated dashboard (classroom)](week-09.qmd#8-integrated-dashboard-classroom)
+
+## Week 10 — Externalities and sustainability {#week-10}
+
+Full notes: [Week 10](week-10.qmd) · 9 tables below.
+
+### Externality types {#t10-externality-types}
+
+| Type | Examples |
+|------|----------|
+| **Noise and visual effects** | Annoyance, sleep disturbance, amenity, land-use impacts |
+| **Privacy and data** | Excessive collection, surveillance concerns, security risk, loss of trust |
+| **Climate and energy** | Operational electricity emissions, supply-chain emissions, peak-load requirements |
+| **Positive effects** | Time savings, safer inspection, emergency response, knowledge, network benefits |
+
+Teaching table from the week notes. [Externalities](week-10.qmd#2-externalities)
+
+### Quieter technology (noise charge) {#t10-quieter-technology}
+
+| | Without upgrade | With upgrade |
+|--|-----------------|--------------|
+| Expected annual noise-related cost | HK\$1.5M | HK\$0.3M |
+| Upfront cost | — | HK\$3M |
+| Five-year undiscounted total | HK\$7.5M | HK\$4.5M |
+| **Illustrative five-year saving** | | **HK\$3M** |
+
+Teaching table from the week notes. [Worked illustration (quieter technology)](week-10.qmd#worked-illustration-quieter-technology)
+
+### Privacy-control cost {#t10-privacy-control-cost}
+
+| | Lower variable cost | Higher-assurance design |
+|--|---------------------|-------------------------|
+| Processing | HK\$4/op → HK\$200k | HK\$8/op → HK\$400k |
+| Fixed | HK\$600k | HK\$1M |
+| **Annual cost** | **HK\$800k** | **HK\$1.4M** |
+
+Teaching table from the week notes. [Privacy-control cost](week-10.qmd#privacy-control-cost)
+
+### Carbon cost scenarios (appraisal aid) {#t10-carbon-cost-scenarios}
+
+| Intensity | Annual emissions | Annual carbon cost |
+|-----------|------------------|--------------------|
+| 40 kg $\mathrm{CO}_{2}\mathrm{e}$/operation | $50{,}000 \times 40 = 2{,}000{,}000$ kg | **HK\$2M** |
+| 10 kg $\mathrm{CO}_{2}\mathrm{e}$/operation | $50{,}000 \times 10 = 500{,}000$ kg | **HK\$0.5M** |
+
+Teaching table from the week notes. [Carbon cost scenarios (appraisal aid — not a claimed CAD tax)](week-10.qmd#4-carbon-cost-scenarios-appraisal-aid-not-a-claimed-cad-tax)
+
+### GHG inventory vs life-cycle concepts {#t10-ghg-lca-concepts}
+
+| Concept | Focus |
+|---------|--------|
+| **Scope 1** | Direct emissions from sources owned or controlled by the reporting organization |
+| **Scope 2** | Indirect emissions associated with purchased electricity, steam, heat, or cooling |
+| **Scope 3** | Other indirect value-chain emissions (e.g. aircraft, batteries, infrastructure, maintenance, end-of-life) |
+| [**LCA**](glossary.qmd#lca) | Environmental impacts of a defined product or service across a specified life cycle and functional unit |
+
+Teaching table from the week notes. [GHG inventory and life-cycle assessment](week-10.qmd#5-ghg-inventory-and-life-cycle-assessment)
+
+### Operational electricity emissions {#t10-op-electricity-emissions}
+
+| Factor $f_{\mathrm{grid}}$ | Result $e_{\mathrm{op}}$ |
+|--------|--------|
+| 0.8 kg/kWh | **40 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** |
+| 0.2 kg/kWh | **10 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** |
+
+Teaching table from the week notes. [Electricity-related (operational) emissions](week-10.qmd#electricity-related-operational-emissions)
+
+### Life-cycle emissions per functional unit {#t10-lca-per-fu}
+
+| | Higher-carbon electricity | Lower-carbon electricity |
+|--|---------------------------|--------------------------|
+| Electricity | 40 kg | 10 kg |
+| Allocated embodied | 12 kg | 12 kg |
+| **Total** | **52 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** | **22 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** |
+
+Teaching table from the week notes. [Life-cycle emissions per functional unit](week-10.qmd#life-cycle-emissions-per-functional-unit)
+
+### Public-service commitment funding {#t10-public-service-funding}
+
+| | All commercial | Twenty priority slots |
+|--|----------------|----------------------|
+| Commercial contribution | $100 \times 400$ = HK\$40,000 | $80 \times 400$ = HK\$32,000 |
+| Public-service cost | — | $20 \times 100$ = HK\$2,000 |
+| **Net before fixed cost** | **HK\$40,000/day** | **HK\$30,000/day** |
+| Opportunity cost vs all-commercial | — | HK\$10,000/day |
+
+Teaching table from the week notes. [Funding a public-service commitment](week-10.qmd#funding-a-public-service-commitment)
+
+### Sustainability KPI design {#t10-sustainability-kpis}
+
+| Area | Example KPI | Boundary or denominator |
+|------|-------------|-------------------------|
+| Noise | Population-weighted exposure | Route, period, and noise metric |
+| Climate | kg $\mathrm{CO}_{2}\mathrm{e}$ / passenger-km | Life-cycle boundary and occupancy |
+| Privacy | Personal-data incidents | Operations and severity |
+| Equity | Service availability by area | Population, need, and affordability |
+| Governance | Complaints resolved on time | Defined process and deadline |
+
+Teaching table from the week notes. [Sustainability KPI design](week-10.qmd#8-sustainability-kpi-design)
+
+## Week 11 — Synthesis and recommendation {#week-11}
+
+Full notes: [Week 11](week-11.qmd) · 6 tables below.
+
+### Capacity shock (viability) {#t11-capacity-shock}
+
+| | Base case | Capacity shock ($K = 80$) |
+|--|-----------|--------------------------------------|
+| Served activity | $\min\{100,100\}=100$ | $\min\{100,80\}=80$ |
+| Operating profit | $(600-100)\times 100 - 40{,}000$ = **HK\$10,000/day** | $(600-100)\times 80 - 40{,}000$ = **HK\$0/day** |
+
+Teaching table from the week notes. [Worked illustration (capacity shock)](week-11.qmd#worked-illustration-capacity-shock)
+
+### Airport-corridor screening chain {#t11-airport-corridor-screening}
+
+| Block | Example reasoning |
+|-------|-------------------|
+| Problem | Test whether a time-sensitive airport segment values the proposed door-to-door service |
+| Demand | Estimate customer choice at alternative fares using generalized cost and capacity constraints |
+| Operations | Define aircraft, seats, load factor, operating days, turnaround, and serviceable capacity |
+| Economics | Contribution per passenger-trip, fixed cost, breakeven, NPV, downside cash need |
+| Regulation | Identify applicable permissions; use evidence-based **Sandbox X** or **AC-013** milestones **only where relevant** (keep programmes distinct) |
+| Impact | Life-cycle emissions, noise exposure, privacy controls, access, public-service effects |
+
+Teaching table from the week notes. [Airport-corridor screening (illustrative chain)](week-11.qmd#airport-corridor-screening-illustrative-chain)
+
+### Risk register and decision triggers {#t11-risk-register}
+
+| Risk | Model channel | Response | Decision trigger |
+|------|---------------|----------|------------------|
+| Demand | Choice share and price | Pilot and staged capacity | Minimum verified demand |
+| Weather | Serviceable capacity | Procedures and resilience | Reliability threshold |
+| Regulation | Scope and timing | Evidence plan and review | Permission or milestone |
+| Technology | Cost and availability | Test, redundancy, supplier plan | Performance threshold |
+| Community impact | Route and operating conditions | Mitigation and engagement | Exposure and complaint KPI |
+
+Teaching table from the week notes. [Risk register and decision-gated roadmap](week-11.qmd#4-risk-register-and-decision-gated-roadmap)
+
+### Decision-maker lenses {#t11-decision-maker-lenses}
+
+| Lens | Core question |
+|------|---------------|
+| **Operational credibility** | Can the service be delivered safely and reliably? |
+| **Commercial viability** | Are demand, contribution, cash flow, and financing assumptions credible? |
+| **Regulatory feasibility** | Is the proposed pathway specific to the aircraft and operation? |
+| **Public value** | Are benefits, costs, access, and distribution addressed? |
+| **Decision quality** | Does the recommendation acknowledge uncertainty, alternatives, and conditions for revision? |
+
+Teaching table from the week notes. [The decision-maker's lens](week-11.qmd#5-the-decision-maker-s-lens)
+
+### 12-minute decision pitch {#t11-twelve-minute-pitch}
+
+| Segment | Focus |
+|---------|--------|
+| **Decision and value proposition (≈2 min)** | Problem, recommendation, customer, use case, principal evidence |
+| **Integrated quantitative case (≈4 min)** | Demand, reliable capacity, contribution, breakeven, NPV, one clear sensitivity |
+| **Implementation and governance (≈3 min)** | Infrastructure, partners, regulatory pathway, responsibilities, decision gates |
+| **Risk and impact (≈2 min)** | Major downside, mitigation, residual risk, sustainability, distribution |
+| **Closing decision (≈1 min)** | Requested action, next milestone, funding or approval need, stop conditions |
+
+Teaching table from the week notes. [A 12-minute decision pitch](week-11.qmd#a-12-minute-decision-pitch)
+
+### Weak vs strong evidence {#t11-weak-vs-strong}
+
+| Weak case | Strong case |
+|-----------|-------------|
+| Uses total market size as forecast demand | Defines the market and competing alternative |
+| Confuses passenger-trips, flights, and seats | Checks demand against reliable capacity |
+| Applies repeated percentage haircuts | Maps each constraint to one model channel |
+| Reports expected profit without downside risk | Reports NPV, probability of loss, and cash need |
+| Assumes approval, acceptance, and insurance outcomes | States evidence, limitations, and decision gates |
+
+Teaching table from the week notes. [Weak vs strong evidence](week-11.qmd#weak-vs-strong-evidence)
+
+## Week 12 — Networks, leasing, and exam tools {#week-12}
+
+Full notes: [Week 12](week-12.qmd) · 5 tables below.
+
+### Counting possible connections {#t12-counting-connections}
+
+| | Five nodes | Twenty nodes |
+--|------------|--------------|
+| Possible pairs | $5\times4/2=10$ | $20\times19/2=190$ |
+| Screening | Suppose 6 pass | Suppose 15% pass → ≈29 |
+| **Candidate links** | **6** | **≈29** |
+
+Teaching table from the week notes. [Counting possible connections](week-12.qmd#counting-possible-connections)
+
+### Value of better risk evidence {#t12-better-risk-evidence}
+
+| | No demonstrated improvement | Improved risk case |
+|--|----------------------------|--------------------|
+| Premium | HK\$12.5M | HK\$9M (illustrative) |
+| Evidence / control cost | HK\$0 | HK\$3M |
+| **Total** | **HK\$12.5M** | **HK\$12M** (first-year saving HK\$0.5M) |
+
+Teaching table from the week notes. [Value of better risk evidence (illustrative)](week-12.qmd#value-of-better-risk-evidence-illustrative)
+
+### Leasing appraisal (operator vs lessor) {#t12-leasing-appraisal}
+
+| | Operator | Lessor |
+|--|----------|--------|
+| Situation | Revenue after disruption HK\$250k; lease HK\$300k | Contractual receipt HK\$300k; financing/asset-management HK\$150k |
+| Result | Shortfall HK\$50k before other costs; bears demand/operating risk | Cash flow HK\$150k before credit loss; **default puts receipt and asset value at risk** |
+
+Teaching table from the week notes. [Leasing appraisal (risk does not disappear)](week-12.qmd#leasing-appraisal-risk-does-not-disappear)
+
+### Quantitative toolkit recap {#t12-toolkit-recap}
+
+| Question type | Typical tools |
+|---------------|---------------|
+| Demand | Generalized cost, choice share, elasticity, market funnel |
+| Capacity | Reliable flights, seats/payload, operating days, bottlenecks |
+| Economics | Contribution, breakeven, unit cost, cash flow, NPV |
+| Uncertainty | Scenarios, sensitivity, expected value, probability of loss, liquidity need |
+| Allocation | Queues, reservations, priority, congestion charges, auctions |
+| Impact | Life-cycle emissions, noise exposure, privacy controls, distribution, KPIs |
+
+Teaching table from the week notes. [Quantitative toolkit recap](week-12.qmd#quantitative-toolkit-recap)
+
+### Capacity and cost shock (exam) {#t12-capacity-cost-shock}
+
+| Step | Result |
+|------|--------|
+| Served activity | $\min\{200,160\}=160$ |
+| Contribution | $(500-100-50)\times 160$ = HK\$56,000 |
+| Operating profit | $56{,}000-40{,}000$ = **HK\$16,000/day** |
+
+Teaching table from the week notes. [Worked illustration (capacity and cost shock)](week-12.qmd#worked-illustration-capacity-and-cost-shock)
+
+## Where else to look
+
+- [Formulas](formulas.qmd) — named teaching identities
+- [Glossary](glossary.qmd) — word definitions
+- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- Teach menu — week pages with full narrative and figures
+
+**Next:** [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

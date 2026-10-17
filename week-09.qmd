@@ -249,6 +249,7 @@ Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue
 
 **Illustrative airport-corridor assumptions** (not current data; not a published CAD capacity):
 
+[]{#t09-funnel-steps}
 | Step | Figure |
 |------|--------|
 | Relevant trips | 20,000/day |
@@ -259,6 +260,7 @@ Use passenger-trips, parcels, inspections, or missions **consistently**. Revenue
 
 With fare HK\$400, variable cost HK\$120 per passenger-trip, 330 operating days/year:
 
+[]{#t09-funnel-daily}
 | | Daily | Annual (≈) |
 |--|-------|-------------|
 | Revenue | $256 \times 400$ = HK\$102,400 | HK\$33.8M |
@@ -400,6 +402,7 @@ NASA-sponsored UAM market work examined **interacting** constraints rather than 
 
 **Managerial lesson:** each constraint may affect demand, capacity, price, cost, timing, or probability of launch through a **different channel**.
 
+[]{#t09-uam-constraints}
 | Constraint | Primary model channel |
 |------------|----------------------|
 | Regulatory delay | Launch date, cost, or probability |
@@ -413,6 +416,7 @@ Avoid multiplying arbitrary independent “haircuts” when the same effect is a
 
 **Base assumptions (illustrative):** $D_{\mathrm{pot}} = 300$ passenger-trips/day; fare HK\$400; 365 calendar days.
 
+[]{#t09-constraint-treatment}
 | Channel | Treatment |
 |---------|-----------|
 | Reliable capacity | $K = 256$ trips/day |
