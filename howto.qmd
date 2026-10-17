@@ -82,6 +82,7 @@ Handy Glossary links when a term appears:
 
 - **Teach** menu — one page per week (notes, slides PDF, summary, readings). Start with [Week 1](week-01.qmd).  
 - Slide PDFs are the class outline. The week page holds the fuller notes and readings.
+- [Formulas](formulas.qmd) — named teaching identities from the week notes (cheat sheet).
 
 ## Official facts
 

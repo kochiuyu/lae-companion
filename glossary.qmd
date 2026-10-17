@@ -871,7 +871,7 @@ Industry term for a lighter pad than a full vertiport; **not a Hong Kong statuto
 
 ## Business and economics
 
-Course economics vocabulary in plain English. Each term is short prose — define, then a brief course point or caveat when it earns its keep. Law and programme names live in the sections above — typology is by **section heading**. Worked numbers stay on **Teach**; citeable programme facts stay on [Key figures](key-figures.qmd) / [Official status](tracker.qmd).
+Course economics vocabulary in plain English. Each term is short prose — define, then a brief course point or caveat when it earns its keep. Law and programme names live in the sections above — typology is by **section heading**. Worked numbers stay on **Teach**; citeable programme facts stay on [Key figures](key-figures.qmd) / [Official status](tracker.qmd). Named teaching equations: [Formulas](formulas.qmd).
 
 **[AAM]{#aam}**
 

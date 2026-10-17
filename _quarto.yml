@@ -27,6 +27,7 @@ project:
     - week-10.qmd
     - week-11.qmd
     - week-12.qmd
+    - formulas.qmd
     - notes-w1.qmd
     - lectures.qmd
     - readings.qmd
@@ -86,6 +87,8 @@ website:
             text: Week 11
           - href: week-12.qmd
             text: Week 12
+          - href: formulas.qmd
+            text: Formulas
       - text: Official facts
         menu:
           - href: glossary.qmd
