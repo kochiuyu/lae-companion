@@ -1,0 +1,340 @@
+---
+title: "Readings"
+subtitle: "Documents listed on the week notes"
+as_of: "2026-10-17"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+Readings listed on each week page (Main + Supplementary).
+
+## Jump by theme
+
+- [Competition](#week-02) · [Cost](#week-03) · [Demand / GC](#week-04)
+- [Infrastructure](#week-05) · [Partnerships](#week-06) · [Regulation / readiness](#week-07)
+- [Airspace / slots](#week-08) · [Market sizing / social](#week-09) · [Risk & sustainability](#week-10)
+- [Investment / viability](#week-11) · [Networks / leasing](#week-12) · [Scope / entry](#week-01)
+
+Week index: [W1](#week-01) · [W2](#week-02) · [W3](#week-03) · [W4](#week-04) · [W5](#week-05) · [W6](#week-06) · [W7](#week-07) · [W8](#week-08) · [W9](#week-09) · [W10](#week-10) · [W11](#week-11) · [W12](#week-12)
+
+
+## Week 1 — Scope, value, and unit economics {#week-01}
+
+Full notes: [Week 1](week-01.qmd) · Readings section: [Week 1 · Readings](week-01.qmd#readings) · 6 listings below (2 main · 4 supplementary).
+
+### Main references {#r01-main}
+
+- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Working definition (generally below 1,000 m) and the Working Group.
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. ~HK$350 billion industry value-added projection for Hong Kong by 2050.
+
+### Supplementary references {#r01-supp}
+
+**Academic**
+
+- [Straubinger, A., Rothfeld, R., Shamiyeh, M., Büchter, K.-D., Kaiser, J., & Plötner, K. O. (2020). An overview of current research and developments in urban air mobility – Setting the scene for UAM introduction. *Journal of Air Transport Management*, 87, 101852. doi:10.1016/j.jairtraman.2020.101852](https://doi.org/10.1016/j.jairtraman.2020.101852) — Widely cited survey of UAM research streams; a good map of the field for week 1.
+
+- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — Ecosystem and history overview; use for definitions and the stakeholder map. **Caution:** do not reuse its market-forecast figures.
+
+**Official**
+
+- [[宋志勇 (中国民用航空局局长) (2025-01-03). 高质量发展通用航空和低空经济. CAAC website, 民航要闻.]{lang="zh-Hans"}](https://www.caac.gov.cn/XWZX/MHYW/202501/t20250103_226313.html) — CAAC head's own statement of how the Mainland regulator links general aviation and LAE. English gloss: Developing general aviation and the low-altitude economy with high quality.
+
+**Think-tank**
+
+- [[中国信息通信研究院知识产权与创新发展中心 & 中国互联网协会 (2024年12月). 《低空经济政策与产业生态研究报告（2024年）》. CAICT.]{lang="zh-Hans"}](https://www.caict.ac.cn/english/research/whitepapers/202504/P020250401513801693140.pdf) — Mainland definition of LAE (1,000 m, extendable to 3,000 m) and four-part industry ecosystem; contrasts with the HK framing. English gloss: Research Report on Low-Altitude Economy Policy and Industrial Ecosystem (2024).
+
+Week 1 readings on the notes page: [Week 1 · Readings](week-01.qmd#readings)
+
+## Week 2 — Market structure and competition {#week-02}
+
+Full notes: [Week 2](week-02.qmd) · Readings section: [Week 2 · Readings](week-02.qmd#readings) · 5 listings below (1 main · 4 supplementary).
+
+### Main references {#r02-main}
+
+- [2024 Policy Address, paras. 81–82](https://www.policyaddress.gov.hk/2024/en/p81.html) — HKSAR. Institutional map for Hong Kong LAE.
+
+### Supplementary references {#r02-supp}
+
+**Academic**
+
+- [Pons-Prats, J., Živojinović, T., & Kuljanin, J. (2022). On the understanding of the current status of urban air mobility development and its future prospects: Commuting in a flying vehicle as a new paradigm. *Transportation Research Part E*, 166, 102868. doi:10.1016/j.tre.2022.102868](https://doi.org/10.1016/j.tre.2022.102868) — Reviews players, vehicle types and development status; useful for mapping market structure.
+
+**Official**
+
+- [[深圳市人民代表大会常务委员会 (2023年12月29日通过；2024年2月1日起施行). 《深圳经济特区低空经济产业促进条例》, 公告第一二八号, 深圳市政府公报2024年第4期（总第1319期）.]{lang="zh-Hans"}](https://www.sz.gov.cn/zfgb/2024/gb1319/content/post_11127288.html) — Shenzhen's statute sets who coordinates what (industry vs transport bureaus) and how platforms and associations fit in: the institutional basis of competition in the GBA. English gloss: Shenzhen Special Economic Zone Regulations on Promoting the Low-Altitude Economy Industry.
+
+- [[国家发展和改革委员会 (2023-11). 《关于再次推广借鉴深圳综合改革试点创新举措和典型经验的通知》（发改体改〔2023〕1447号）.]{lang="zh-Hans"}](https://www.ndrc.gov.cn/xxgk/zcfb/tz/202311/t20231116_1361995.html) — NDRC notice spreading Shenzhen reform practices (including LAE) nationwide; evidence on policy diffusion that shapes market entry. English gloss: Notice on again promoting Shenzhen comprehensive-reform pilot innovations and typical experiences.
+
+**Think-tank**
+
+- [World Economic Forum, in collaboration with Kearney (July 2024). *Advanced Air Mobility: Shaping the Future of Aviation* (White Paper).](https://www3.weforum.org/docs/WEF_Advanced_Air_Mobility_2024.pdf) — Systematises AAM use cases and the actor landscape (in collaboration with Kearney).
+
+Week 2 readings on the notes page: [Week 2 · Readings](week-02.qmd#readings)
+
+## Week 3 — Cost structures and revenue management {#week-03}
+
+Full notes: [Week 3](week-03.qmd) · Readings section: [Week 3 · Readings](week-03.qmd#readings) · 5 listings below (1 main · 4 supplementary).
+
+### Main references {#r03-main}
+
+- [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. Official UAM market framing (not an HK government figure).
+
+### Supplementary references {#r03-supp}
+
+**Academic**
+
+- [Rajendran, S., & Srinivas, S. (2020). Air taxi service for urban mobility: A critical review of recent developments, future challenges, and opportunities. *Transportation Research Part E*, 143, 102090. doi:10.1016/j.tre.2020.102090](https://doi.org/10.1016/j.tre.2020.102090) — Covers air-taxi operations, pricing and fleet questions; a good bridge to cost and revenue modelling.
+
+- [Kellermann, R., Biehle, T., & Fischer, L. (2020). Drones for parcel and passenger transportation: A literature review. *Transportation Research Interdisciplinary Perspectives*, 4, 100088. doi:10.1016/j.trip.2019.100088](https://doi.org/10.1016/j.trip.2019.100088) — Parcel and passenger drone literature review; covers cost drivers and operating models.
+
+- [Garrow, L. A., German, B. J., & Leonard, C. E. (2021). Urban air mobility: A comprehensive review and comparative analysis with autonomous and electric ground transportation for informing future research. *Transportation Research Part C*, 132, 103377. doi:10.1016/j.trc.2021.103377](https://doi.org/10.1016/j.trc.2021.103377) — Compares UAM with autonomous and electric ground modes; useful for cost and competition benchmarks.
+
+**Official**
+
+- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — CAAC delivery-trial requirements (C2 link, record keeping, insurance, buffers) that turn directly into operating-cost lines. English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery.
+
+Week 3 readings on the notes page: [Week 3 · Readings](week-03.qmd#readings)
+
+## Week 4 — Demand modeling in urban air mobility {#week-04}
+
+Full notes: [Week 4](week-04.qmd) · Readings section: [Week 4 · Readings](week-04.qmd#readings) · 5 listings below (1 main · 4 supplementary).
+
+### Main references {#r04-main}
+
+- [NASA, *Urban Air Mobility Market Study*](https://ntrs.nasa.gov/citations/20190001472) — NTRS 20190001472. UAM / AAM market language for cross-checks with lecture models.
+
+### Supplementary references {#r04-supp}
+
+**Academic**
+
+- [Fu, M., Rothfeld, R., & Antoniou, C. (2019). Exploring Preferences for Transportation Modes in an Urban Air Mobility Environment: Munich Case Study. *Transportation Research Record*, 2673(10), 427–442. doi:10.1177/0361198119843858](https://doi.org/10.1177/0361198119843858) — Stated-preference mode-choice model for UAM (Munich); a template for demand estimation.
+
+- [Al Haddad, C., Chaniotakis, E., Straubinger, A., Plötner, K., & Antoniou, C. (2020). Factors affecting the adoption and use of urban air mobility. *Transportation Research Part A*, 132, 696–712. doi:10.1016/j.tra.2019.12.020](https://doi.org/10.1016/j.tra.2019.12.020) — Adoption factors from a survey; inputs for willingness-to-use assumptions.
+
+- [Doole, M., Ellerbroek, J., & Hoekstra, J. (2020). Estimation of traffic density from drone-based delivery in very low level urban airspace. *Journal of Air Transport Management*, 88, 101862. doi:10.1016/j.jairtraman.2020.101862](https://doi.org/10.1016/j.jairtraman.2020.101862) — Estimates delivery-drone traffic density from demand scenarios; links demand to airspace load.
+
+**Official**
+
+- [EASA. *Full Report – Study on the societal acceptance of Urban Air Mobility in Europe*. European Union Aviation Safety Agency (publication date not shown on landing page).](https://www.easa.europa.eu/en/full-report-study-societal-acceptance-urban-air-mobility-europe) — n.d. — European regulator's survey of public acceptance; demand-side constraint evidence.
+
+Week 4 readings on the notes page: [Week 4 · Readings](week-04.qmd#readings)
+
+## Week 5 — Infrastructure economics and management {#week-05}
+
+Full notes: [Week 5](week-05.qmd) · Readings section: [Week 5 · Readings](week-05.qmd#readings) · 6 listings below (1 main · 5 supplementary).
+
+### Main references {#r05-main}
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Segment structure (infra; education & research; application scenarios; supporting services).
+
+### Supplementary references {#r05-supp}
+
+**Academic**
+
+- [Schweiger, K., & Preis, L. (2022). Urban Air Mobility: Systematic Review of Scientific Publications and Regulations for Vertiport Design and Operations. *Drones*, 6(7), 179. doi:10.3390/drones6070179](https://doi.org/10.3390/drones6070179) — Systematic review of vertiport design and operations research and regulation.
+
+- [Vascik, P. D., & Hansman, R. J. (2018). Scaling Constraints for Urban Air Mobility Operations: Air Traffic Control, Ground Infrastructure, and Noise. *2018 Aviation Technology, Integration, and Operations Conference*, AIAA. doi:10.2514/6.2018-3849](https://doi.org/10.2514/6.2018-3849) — Shows how ATC, ground infrastructure and noise cap UAM scale; a classic infrastructure-bottleneck paper.
+
+**Official**
+
+- [EASA (24 March 2022). *Prototype Technical Design Specifications for Vertiports* (PTS-VPT-DSN).](https://www.easa.europa.eu/en/document-library/general-publications/prototype-technical-design-specifications-vertiports) — Regulator's prototype vertiport design specification; the official design constraint.
+
+- [HKSAR Government (25 June 2025). LCQ3: Developing low-altitude economy. Press release P2025062500305, info.gov.hk.](https://www.info.gov.hk/gia/general/202506/25/P2025062500305.htm) — HK government on 3D spatial data, the CSDI and a unified data-sharing platform as LAE infrastructure.
+
+- [[深圳市人民代表大会常务委员会 (2023年12月29日通过；2024年2月1日起施行). 《深圳经济特区低空经济产业促进条例》, 公告第一二八号, 深圳市政府公报2024年第4期（总第1319期）.]{lang="zh-Hans"}](https://www.sz.gov.cn/zfgb/2024/gb1319/content/post_11127288.html) — Chapter 2 (基础设施) sets out who plans, builds and runs physical and digital low-altitude infrastructure in Shenzhen. English gloss: Shenzhen Special Economic Zone Regulations on Promoting the Low-Altitude Economy Industry. *Also listed in [Week 2](week-02.qmd).*
+
+Week 5 readings on the notes page: [Week 5 · Readings](week-05.qmd#readings)
+
+## Week 6 — Strategic partnerships and business models {#week-06}
+
+Full notes: [Week 6](week-06.qmd) · Readings section: [Week 6 · Readings](week-06.qmd#readings) · 5 listings below (1 main · 4 supplementary).
+
+### Main references {#r06-main}
+
+- [news.gov.hk, first-batch Sandbox launch](https://www.news.gov.hk/eng/2025/03/20250320/20250320_141320_260.html) — 20 March 2025. Regulatory Sandbox: **38** of **72** selected.
+
+### Supplementary references {#r06-supp}
+
+**Official**
+
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — LegCo Research Office comparison of Shenzhen and US public-private, academia and insurance partnership models.
+
+- [Transport and Logistics Bureau, HKSAR (12 February 2025). LCQ3: Promoting development of low-altitude economy (reply to LegCo question).](https://www.tlb.gov.hk/eng/legislative/transport/replies/2025/20250212c.html) — Official HK account of the Sandbox process and cross-boundary interface with Mainland authorities. Chinese version: [[《立法會三題：推動低空經濟發展》]{lang="zh-Hant"}](https://www.tlb.gov.hk/tc/legislative/transport/replies/2025/20250212c.html).
+
+**Think-tank**
+
+- [World Economic Forum, in collaboration with Kearney (July 2024). *Advanced Air Mobility: Shaping the Future of Aviation* (White Paper).](https://www3.weforum.org/docs/WEF_Advanced_Air_Mobility_2024.pdf) — Shows ecosystem partnerships and roles across AAM. *Also listed in [Week 2](week-02.qmd).*
+
+**Industry**
+
+- [Hussain, A., & Silver, D. (26 January 2021). *Advanced air mobility*. Deloitte Insights.](https://www2.deloitte.com/us/en/insights/industry/aerospace-defense/advanced-air-mobility.html) — Consultancy view of AAM business models and ecosystem roles. Use it for structure only, not for numbers.
+
+Week 6 readings on the notes page: [Week 6 · Readings](week-06.qmd#readings)
+
+## Week 7 — Policy and regulation {#week-07}
+
+Full notes: [Week 7](week-07.qmd) · Readings section: [Week 7 · Readings](week-07.qmd#readings) · 6 listings below (2 main · 4 supplementary).
+
+### Main references {#r07-main}
+
+- [CAD, Small Unmanned Aircraft (Cap. 448G)](https://www.cad.gov.hk/english/sua.html) — Cap. 448G regulator page; full effect 1 December 2022; Category C ≤150 kg from July 2025.
+
+- [CAD AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) — 31 December 2025. BVLOS inside the first Regulatory Sandbox.
+
+### Supplementary references {#r07-supp}
+
+**Official**
+
+- [[国务院、中央军委 (2023-06-28 公布). 《无人驾驶航空器飞行管理暂行条例》（国令第761号）. 中国政府网.]{lang="zh-Hans"}](https://www.gov.cn/zhengce/content/202306/content_6888799.htm) — The Mainland's top-level UAS flight-management regulation; the national baseline next to HK's Cap. 448G. English gloss: Interim Regulations on the Flight Management of Unmanned Aircraft.
+
+- [EASA. *Special Condition for VTOL and Means of Compliance* (SC-VTOL; original issue 2 Jul 2019, page updated 18 Jul 2025).](https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-vtol) — EASA's certification basis for VTOL aircraft; the EU benchmark.
+
+- [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — A CAAC example of risk-based Specific-category approval (BVLOS delivery in populated areas). English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery. *Also listed in [Week 3](week-03.qmd).*
+
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Side-by-side HK, Shenzhen and US regulatory comparison table. *Also listed in [Week 6](week-06.qmd).*
+
+Week 7 readings on the notes page: [Week 7 · Readings](week-07.qmd#readings)
+
+## Week 8 — Airspace access and integration {#week-08}
+
+Full notes: [Week 8](week-08.qmd) · Readings section: [Week 8 · Readings](week-08.qmd#readings) · 7 listings below (2 main · 5 supplementary).
+
+### Main references {#r08-main}
+
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — 24 April 2026. Cross-boundary SUA permission inside Regulatory Sandbox X.
+
+- [OFCA, UAS (Private) Licence](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html) — 1430–1444 MHz; confined to LAE Regulatory Sandbox projects.
+
+### Supplementary references {#r08-supp}
+
+**Academic**
+
+- [Bauranov, A., & Rakas, J. (2021). Designing airspace for urban air mobility: A review of concepts and approaches. *Progress in Aerospace Sciences*, 125, 100726. doi:10.1016/j.paerosci.2021.100726](https://doi.org/10.1016/j.paerosci.2021.100726) — Review of UAM airspace design concepts (layers, corridors, free flight).
+
+- [Doole, M., Ellerbroek, J., & Hoekstra, J. (2020). Estimation of traffic density from drone-based delivery in very low level urban airspace. *Journal of Air Transport Management*, 88, 101862. doi:10.1016/j.jairtraman.2020.101862](https://doi.org/10.1016/j.jairtraman.2020.101862) — Quantifies traffic density in very low-level urban airspace. *Also listed in [Week 4](week-04.qmd).*
+
+**Official**
+
+- [Thipphavong, D. P., Apaza, R. D., Barmore, B. E., Battiste, V., Belcastro, C. M., et al. (2018). *Urban Air Mobility Airspace Integration Concepts and Considerations*. NASA NTRS 20180005218 (ARC-E-DAA-TN57126).](https://ntrs.nasa.gov/citations/20180005218) — NASA's multi-author airspace integration concepts paper.
+
+- [FAA (2020). *Unmanned Aircraft System (UAS) Traffic Management (UTM) Concept of Operations*, v2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/2022-08/UTM_ConOps_v2.pdf) — FAA's UTM concept of operations; a reference model for low-altitude traffic management.
+
+- [FAA (26 April 2023). *Urban Air Mobility (UAM) Concept of Operations*, Version 2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/Urban%20Air%20Mobility%20%28UAM%29%20Concept%20of%20Operations%202.0_0.pdf) — FAA UAM ConOps 2.0: corridors and the roles of PSUs and operators.
+
+Week 8 readings on the notes page: [Week 8 · Readings](week-08.qmd#readings)
+
+## Week 9 — Market sizing, barriers, uncertainty and social impact {#week-09}
+
+Full notes: [Week 9](week-09.qmd) · Readings section: [Week 9 · Readings](week-09.qmd#readings) · 5 listings below (1 main · 4 supplementary).
+
+### Main references {#r09-main}
+
+- [OHKF, *Taking Flight – Forging a Future for Hong Kong’s Low-Altitude Economy*](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83) — September 2025. Value-added metric and geography (Hong Kong only).
+
+### Supplementary references {#r09-supp}
+
+**Academic**
+
+- [Clothier, R. A., Greer, D. A., Greer, D. G., & Mehta, A. M. (2015). Risk Perception and the Public Acceptance of Drones. *Risk Analysis*, 35(6), 1167–1183. doi:10.1111/risa.12330](https://doi.org/10.1111/risa.12330) — Risk perception and public acceptance of drones; a social-impact barrier.
+
+- [Al Haddad, C., Chaniotakis, E., Straubinger, A., Plötner, K., & Antoniou, C. (2020). Factors affecting the adoption and use of urban air mobility. *Transportation Research Part A*, 132, 696–712. doi:10.1016/j.tra.2019.12.020](https://doi.org/10.1016/j.tra.2019.12.020) — Adoption barriers and uncertainty in uptake. *Also listed in [Week 4](week-04.qmd).*
+
+- [Cohen, A. P., Shaheen, S. A., & Farrar, E. M. (2021). Urban Air Mobility: History, Ecosystem, Market Potential, and Challenges. *IEEE Transactions on Intelligent Transportation Systems*, 22(9), 6074–6087. doi:10.1109/TITS.2021.3082767](https://doi.org/10.1109/TITS.2021.3082767) — *Also listed in [Week 1](week-01.qmd).*
+
+**Official**
+
+- [EASA. *Full Report – Study on the societal acceptance of Urban Air Mobility in Europe*. European Union Aviation Safety Agency (publication date not shown on landing page).](https://www.easa.europa.eu/en/full-report-study-societal-acceptance-urban-air-mobility-europe) — n.d. — Public acceptance, noise and safety concerns from the EU survey. *Also listed in [Week 4](week-04.qmd).*
+
+Week 9 readings on the notes page: [Week 9 · Readings](week-09.qmd#readings)
+
+## Week 10 — Sustainability challenges in urban air operations {#week-10}
+
+Full notes: [Week 10](week-10.qmd) · Readings section: [Week 10 · Readings](week-10.qmd#readings) · 5 listings below (1 main · 4 supplementary).
+
+### Main references {#r10-main}
+
+- [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Sandbox X and the commitment to formulate an Action Plan.
+
+### Supplementary references {#r10-supp}
+
+**Academic**
+
+- [Stolaroff, J. K., Samaras, C., O'Neill, E. R., Lubers, A., Mitchell, A. S., & Ceperley, D. (2018). Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery. *Nature Communications*, 9, 409. doi:10.1038/s41467-017-02411-5](https://doi.org/10.1038/s41467-017-02411-5) — Life-cycle energy and GHG of delivery drones compared with ground delivery.
+
+- [Kasliwal, A., Furbush, N. J., Gawron, J. H., McBride, J. R., Wallington, T. J., De Kleine, R. D., et al. (2019). Role of flying cars in sustainable mobility. *Nature Communications*, 10, 1555. doi:10.1038/s41467-019-09426-0](https://doi.org/10.1038/s41467-019-09426-0) — Life-cycle comparison of VTOL 'flying cars' with cars; the sustainability case and its limits.
+
+- [Vascik, P. D., & Hansman, R. J. (2018). Scaling Constraints for Urban Air Mobility Operations: Air Traffic Control, Ground Infrastructure, and Noise. *2018 Aviation Technology, Integration, and Operations Conference*, AIAA. doi:10.2514/6.2018-3849](https://doi.org/10.2514/6.2018-3849) — Noise as a scaling constraint. *Also listed in [Week 5](week-05.qmd).*
+
+**Official**
+
+- [Rizzi, S. A., Huff, D. L., Boyd, D. D., Bent, P., Henderson, B. S., et al. (October 2020). *Urban Air Mobility Noise: Current Practice, Gaps, and Recommendations*. NASA/TP-20205007433.](https://ntrs.nasa.gov/citations/20205007433) — NASA review of UAM noise practice, gaps and recommendations.
+
+Week 10 readings on the notes page: [Week 10 · Readings](week-10.qmd#readings)
+
+## Week 11 — Synthesis and capstone {#week-11}
+
+Full notes: [Week 11](week-11.qmd) · Readings section: [Week 11 · Readings](week-11.qmd#readings) · 6 listings below (2 main · 4 supplementary).
+
+### Main references {#r11-main}
+
+- [2025 Policy Address, paras. 153–157](https://www.policyaddress.gov.hk/2025/en/p153.html) — HKSAR. Action Plan commitment (text still OPEN) and Sandbox X framing. Same official text as [Week 10](week-10.qmd); not repeated here.
+
+- [CAD AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) — Cross-boundary guidance under Sandbox X.
+
+### Supplementary references {#r11-supp}
+
+**Academic**
+
+- [Straubinger, A., Rothfeld, R., Shamiyeh, M., Büchter, K.-D., Kaiser, J., & Plötner, K. O. (2020). An overview of current research and developments in urban air mobility – Setting the scene for UAM introduction. *Journal of Air Transport Management*, 87, 101852. doi:10.1016/j.jairtraman.2020.101852](https://doi.org/10.1016/j.jairtraman.2020.101852) — A broad framework to organise capstone arguments. *Also listed in [Week 1](week-01.qmd).*
+
+**Official**
+
+- [FAA (July 2023). *Advanced Air Mobility (AAM) Implementation Plan: Near-term (Innovate28) Focus with an Eye on the Future of AAM*, Version 1.0.](https://www.faa.gov/sites/faa.gov/files/AAM-I28-Implementation-Plan.pdf) — FAA's integrated near-term AAM plan; a model for structuring a capstone roadmap.
+
+- [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Ready-made HK, Shenzhen and US comparison for synthesis. *Also listed in [Week 6](week-06.qmd).*
+
+**Think-tank**
+
+- [[中国信息通信研究院知识产权与创新发展中心 & 中国互联网协会 (2024年12月). 《低空经济政策与产业生态研究报告（2024年）》. CAICT.]{lang="zh-Hans"}](https://www.caict.ac.cn/english/research/whitepapers/202504/P020250401513801693140.pdf) — Mainland ecosystem framing for GBA-facing capstones. English gloss: Research Report on Low-Altitude Economy Policy and Industrial Ecosystem (2024). *Also listed in [Week 1](week-01.qmd).*
+
+Week 11 readings on the notes page: [Week 11 · Readings](week-11.qmd#readings)
+
+## Week 12 — Future frontiers and final review {#week-12}
+
+Full notes: [Week 12](week-12.qmd) · Readings section: [Week 12 · Readings](week-12.qmd#readings) · 6 listings below (1 main · 5 supplementary).
+
+### Main references {#r12-main}
+
+- [CAAC, ATM Rules draft (consultation)](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) — published 11 August 2026; comments to 11 September 2026. Draft only; not in force.
+
+### Supplementary references {#r12-supp}
+
+**Academic**
+
+- [Pons-Prats, J., Živojinović, T., & Kuljanin, J. (2022). On the understanding of the current status of urban air mobility development and its future prospects: Commuting in a flying vehicle as a new paradigm. *Transportation Research Part E*, 166, 102868. doi:10.1016/j.tre.2022.102868](https://doi.org/10.1016/j.tre.2022.102868) — Future prospects of commuting by flying vehicle. *Also listed in [Week 2](week-02.qmd).*
+
+**Official**
+
+- [FAA (26 April 2023). *Urban Air Mobility (UAM) Concept of Operations*, Version 2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/Urban%20Air%20Mobility%20%28UAM%29%20Concept%20of%20Operations%202.0_0.pdf) — FAA's view of how UAM operations mature over time. *Also listed in [Week 8](week-08.qmd).*
+
+- [EASA. *Special Condition for VTOL and Means of Compliance* (SC-VTOL; original issue 2 Jul 2019, page updated 18 Jul 2025).](https://www.easa.europa.eu/en/document-library/product-certification-consultations/special-condition-vtol) — Live certification basis for passenger eVTOL (page updated July 2025). *Also listed in [Week 7](week-07.qmd).*
+
+- [FAA (July 2023). *Advanced Air Mobility (AAM) Implementation Plan: Near-term (Innovate28) Focus with an Eye on the Future of AAM*, Version 1.0.](https://www.faa.gov/sites/faa.gov/files/AAM-I28-Implementation-Plan.pdf) — FAA's 'eye on the future' section beyond 2028. *Also listed in [Week 11](week-11.qmd).*
+
+- [[宋志勇 (中国民用航空局局长) (2025-01-03). 高质量发展通用航空和低空经济. CAAC website, 民航要闻.]{lang="zh-Hans"}](https://www.caac.gov.cn/XWZX/MHYW/202501/t20250103_226313.html) — CAAC priorities for the next phase of LAE. English gloss: Developing general aviation and the low-altitude economy with high quality. *Also listed in [Week 1](week-01.qmd).*
+
+Week 12 readings on the notes page: [Week 12 · Readings](week-12.qmd#readings)
+
+## Where else to look
+
+- [Formulas](formulas.qmd) — named teaching identities
+- [Tables](tables.qmd) — named teaching tables
+- [Figures](figures.qmd) — teaching diagrams
+- [Glossary](glossary.qmd) — word definitions
+- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- Teach menu — week pages with full narrative, tables, and figures
+
+**Next:** [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

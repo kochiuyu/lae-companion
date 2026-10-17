@@ -1,0 +1,127 @@
+<!-- Site breadcrumbs from navbar groups (Orient / Teach / Review / Official facts / Updates).
+     Quarto native bread-crumbs need nested sidebar contents; this site uses navbar menus. -->
+<nav id="site-breadcrumbs" class="site-breadcrumbs" aria-label="Breadcrumb" hidden></nav>
+<script>
+(function () {
+  var GROUPS = {
+    Orient: {
+      "overview.html": "Course overview",
+      "primer.html": "What is LAE?",
+      "business-overview.html": "How does LAE work?",
+      "regulators.html": "Who decides what?",
+      "howto.html": "How to use this site",
+      "faq.html": "Common questions",
+      "key-figures.html": "Key figures"
+    },
+    Teach: {
+      "week-01.html": "Week 1",
+      "week-02.html": "Week 2",
+      "week-03.html": "Week 3",
+      "week-04.html": "Week 4",
+      "week-05.html": "Week 5",
+      "week-06.html": "Week 6",
+      "week-07.html": "Week 7",
+      "week-08.html": "Week 8",
+      "week-09.html": "Week 9",
+      "week-10.html": "Week 10",
+      "week-11.html": "Week 11",
+      "week-12.html": "Week 12"
+    },
+    Review: {
+      "formulas.html": "Formulas",
+      "tables.html": "Tables",
+      "figures.html": "Figures",
+      "readings.html": "Readings",
+      "quizzes.html": "Self-check"
+    },
+    "Official facts": {
+      "glossary.html": "Glossary",
+      "tracker.html": "Official status",
+      "landscape.html": "Companies & sectors"
+    },
+    Updates: {
+      "news.html": "Government news",
+      "industry.html": "Business news",
+      "usecases.html": "Use cases",
+      "dates.html": "Timeline"
+    }
+  };
+
+  function pageFile() {
+    var path = (location.pathname || "").replace(/\\/+$/, "");
+    var base = path.split("/").pop() || "index.html";
+    if (!base || base.indexOf(".") === -1) base = "index.html";
+    return base;
+  }
+
+  function findCrumb(file) {
+    if (file === "index.html") return null;
+    for (var group in GROUPS) {
+      if (Object.prototype.hasOwnProperty.call(GROUPS, group) && GROUPS[group][file]) {
+        return { group: group, label: GROUPS[group][file] };
+      }
+    }
+    return null;
+  }
+
+  function homeHref() {
+    var a = document.querySelector('.navbar a.navbar-brand, .navbar a[href$="index.html"], .navbar a[href="./"], .navbar a[href="/"]');
+    if (a && a.getAttribute("href")) return a.getAttribute("href");
+    // relative home from nested paths (none expected)
+    return "index.html";
+  }
+
+  function place() {
+    var file = pageFile();
+    var crumb = findCrumb(file);
+    var nav = document.getElementById("site-breadcrumbs");
+    if (!nav || !crumb) return;
+
+    var ol = document.createElement("ol");
+    ol.className = "breadcrumb mb-0";
+
+    function liLink(href, text) {
+      var li = document.createElement("li");
+      li.className = "breadcrumb-item";
+      var a = document.createElement("a");
+      a.href = href;
+      a.textContent = text;
+      li.appendChild(a);
+      return li;
+    }
+    function liCurrent(text) {
+      var li = document.createElement("li");
+      li.className = "breadcrumb-item active";
+      li.setAttribute("aria-current", "page");
+      li.textContent = text;
+      return li;
+    }
+
+    ol.appendChild(liLink(homeHref(), "Home"));
+    // Group is a label only (navbar dropdown has no landing page)
+    var groupLi = document.createElement("li");
+    groupLi.className = "breadcrumb-item";
+    groupLi.textContent = crumb.group;
+    ol.appendChild(groupLi);
+    ol.appendChild(liCurrent(crumb.label));
+
+    nav.appendChild(ol);
+    nav.hidden = false;
+
+    var main = document.getElementById("quarto-document-content");
+    if (!main) return;
+    var title = main.querySelector("header.quarto-title-block, .quarto-title, h1.title, h1");
+    if (title) {
+      title.insertAdjacentElement("beforebegin", nav);
+    } else {
+      main.insertBefore(nav, main.firstChild);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", place);
+  } else {
+    place();
+  }
+})();
+</script>

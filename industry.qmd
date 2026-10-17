@@ -1,0 +1,776 @@
+---
+title: "Business news"
+subtitle: "Dated company and industry items"
+as_of: "2026-10-15"
+page-layout: article
+---
+
+## Standing note
+
+Company and press claims on this page are not treated as government fact. Sandbox counts and corridor status live on [Official status](tracker.qmd). Item lines below focus on what is new.
+
+## How to read the tags
+
+- **Company-announced:** the company’s own claim.
+- **Independently reported:** a news outlet’s own reporting.
+- **Officially confirmed:** confirmed in a linked official release or document.
+
+## Timeline at a glance
+
+```{=html}
+<style>
+.itl{--ink:#1a1a1a;--navy:#003366;--gold:#C5A572;--amber:#9a5b00;--card:#fff;--line:#d9d4c7;--muted:#5f5f5f;margin:.75rem 0 1.25rem;font-size:.92rem}
+.itl-head{color:var(--muted);margin:0 0 .6rem}
+.itl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.9rem}
+.itl-card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:8px;padding:.2rem .9rem .6rem}
+.itl-card>summary{cursor:pointer;font-weight:600;color:var(--navy);padding:.5rem 0;list-style-position:outside}
+.itl-card>summary .n{font-weight:400;color:var(--muted);font-size:.82rem;margin-left:.35rem}
+.itl ol{list-style:none;margin:0;padding:0 0 0 1.1rem;position:relative}
+.itl ol::before{content:"";position:absolute;left:.3rem;top:.4rem;bottom:.4rem;width:1px;background:var(--line)}
+.itl li{position:relative;margin:0 0 .55rem;scroll-margin-top:80px;border-radius:6px}
+.itl li::before{content:"";position:absolute;left:-1.1rem;top:.45rem;width:.6rem;height:.6rem;border-radius:50%;background:var(--navy)}
+.itl li.st-open::before{background:#fff;border:2px solid var(--amber);width:.45rem;height:.45rem}
+.itl li>a{display:block;padding:.3rem .45rem;border-radius:6px;color:var(--ink);text-decoration:none;line-height:1.35}
+.itl li>a:hover{background:#f1eee6}
+.itl li>a:focus-visible{outline:2px solid var(--navy);outline-offset:1px;background:#f1eee6}
+.itl li:target{background:#fff3c4}
+.itl .chip{display:inline-block;font-size:.76rem;font-weight:600;padding:.05rem .5rem;border-radius:999px;background:#e6edf5;color:var(--navy);margin-right:.35rem;white-space:nowrap}
+.itl li.st-open .chip{background:#fbefdc;color:var(--amber)}
+.itl .badge{display:inline-block;font-size:.68rem;letter-spacing:.03em;text-transform:uppercase;padding:0 .4rem;border-radius:4px;border:1px solid currentColor;margin-left:.35rem;vertical-align:1px}
+.itl .b-off{color:#2f6b3a}.itl .b-ind{color:var(--navy)}.itl .b-co{color:#5f5f5f}.itl .b-open{color:var(--amber)}
+h3[id^="industry-20"],span.industry-item{scroll-margin-top:80px}
+a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap}
+@media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
+</style>
+<div class="itl" id="industry-timeline">
+<p class="itl-head"><strong>Business-news milestones (as of 15 Oct 2026)</strong> — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<div class="itl-grid">
+<details class="itl-card" open><summary>October 2026<span class="n">19 items</span></summary><ol>
+<li id="tl-ind-2026-10-14-volant"><a href="#industry-item-2026-10-14-volant"><span class="chip">14–15 Oct</span> · Volant–川航低空 50× VE25-100 (20 firm + 30 LOI)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-15-autoflight"><a href="#industry-item-2026-10-15-autoflight"><span class="chip">15 Oct</span> · AutoFlight–JC Aviation MoU 260 eVTOL + 10 SUNSHIP<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-14-dji-dock4"><a href="#industry-item-2026-10-14-dji-dock4"><span class="chip">14 Oct</span> · DJI Dock 4 + Matrice 5TD battery-swap dock launch<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-14-amazon-westborough"><a href="#industry-item-2026-10-14-amazon-westborough"><span class="chip">14 Oct</span> · Amazon Prime Air Westborough Congressional pause request<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-13-indy-heliport"><a href="#industry-item-2026-10-13-indy-heliport"><span class="chip">13 Oct</span> · Indianapolis Downtown Heliport FAA keeps open (AAM framing)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-09-dronevolt"><a href="#industry-item-2026-10-09-dronevolt"><span class="chip">9 Oct</span> · Drone Volt Hercules 100 heavy-lift unveil [late catch]<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-12-heart"><a href="#industry-item-2026-10-12-heart"><span class="chip">12 Oct</span> · Heart Aerospace FAA CLEEN Phase IV (ES-36 hybrid; company)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-12-vtech"><a href="#industry-item-2026-10-12-vtech"><span class="chip">12 Oct</span> · Virginia Tech Smart Airspace Electra+Textron trials<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-09-tcab"><a href="#industry-item-2026-10-09-tcab"><span class="chip">9 Oct</span> · TCab Tech–SIDEC MoU for E20 Malaysia exploration<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-09-zipline"><a href="#industry-item-2026-10-09-zipline"><span class="chip">8–9 Oct</span> · Zipline Round Rock / Austin-area consumer go-live<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-09-arrive"><a href="#industry-item-2026-10-09-arrive"><span class="chip">9 Oct</span> · Arrive AI–Modovolo autonomous handoff partnership<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-08-zhuhai-islands"><a href="#industry-item-2026-10-08-zhuhai-islands"><span class="chip">8 Oct</span> · Zhuhai three-party sea-island UAV livelihood-supply pilot<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-08-eplane"><a href="#industry-item-2026-10-08-eplane"><span class="chip">8 Oct</span> · ePlane–Noida International Airport eVTOL MoU<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-07-xunyi"><a href="#industry-item-2026-10-07-xunyi"><span class="chip">7 Oct</span> · Xunyi Hangzhou cross-Qiantang UAV route (company scale)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-07-a2z-bali"><a href="#industry-item-2026-10-07-a2z-bali"><span class="chip">7 Oct</span> · A2Z–Grab–SKYY Bali BVLOS food-delivery pilot<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-07-aeroberm"><a href="#industry-item-2026-10-07-aeroberm"><span class="chip">7 Oct</span> · Aeroberm–Foster Aviation UAE vertiport-kit partnership<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-07-beta"><a href="#industry-item-2026-10-07-beta"><span class="chip">7 Oct</span> · BETA Utah eIPP medical-cargo flights (company)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-06-eve"><a href="#industry-item-2026-10-06-eve"><span class="chip">6 Oct</span> · Eve Florida eVTOL summit; 2028 US demos (company timing)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-05-lianzhou"><a href="#industry-item-2026-10-05-lianzhou"><span class="chip">5 Oct</span> · Lianzhou Airport aviation open day; LAE test clients<span class="badge b-ind">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>September 2026<span class="n">3 items</span></summary><ol>
+<li id="tl-ind-2026-09-21-keeta"><a href="#industry-item-2026-09-21-keeta"><span class="chip">21 Sep</span> · Keeta Drone to Chung On Estate public housing<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-09-10-meituan-shanghai"><a href="#industry-item-2026-09-10-meituan-shanghai"><span class="chip">10 Sep</span> · Meituan Shanghai West Bund air network + McDonald’s route<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-09-10-mous"><a href="#industry-item-2026-09-10-mous"><span class="chip">10 Sep</span> · Belt and Road Summit LAE MoUs (MoUs, not binding)<span class="badge b-ind">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>August 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-ind-2026-08-28-ehang"><a href="#industry-item-2026-08-28-ehang"><span class="chip">28 Aug</span> · EHang EH216-S first public flight at Cyberport (Sandbox X)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-08-19-amazon"><a href="#industry-item-2026-08-19-amazon"><span class="chip">19 Aug</span> · Amazon Prime Air plan: nearly 500 US locales by end-2026<span class="badge b-co">Company</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>July 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-ind-2026-07-22-caac-list" class="st-open"><a href="#industry-item-2026-07-22-caac-list"><span class="chip">22 Jul</span> · Reported CAAC passenger-eVTOL compliance list (primary OPEN)<span class="badge b-open">OPEN</span></a></li>
+<li id="tl-ind-2026-07-06-dxb"><a href="#industry-item-2026-07-06-dxb"><span class="chip">6 Jul</span> · DXB vertiport (“VDX”) certification announced<span class="badge b-ind">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>June 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-ind-2026-06-30-joby-toyota"><a href="#industry-item-2026-06-30-joby-toyota"><span class="chip">30 Jun</span> · Joby–Toyota manufacturing JV (initial phase)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-06-04-ey-lalamove"><a href="#industry-item-2026-06-04-ey-lalamove"><span class="chip">4 Jun</span> · EY–Lalamove MoU on enterprise drone logistics<span class="badge b-co">Company</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>April 2026<span class="n">4 items</span></summary><ol>
+<li id="tl-ind-2026-04-30-lalamove"><a href="#industry-item-2026-04-30-lalamove"><span class="chip">30 Apr</span> · Lalamove / Future Yixin Sandbox HKSTP→InnoPark demo<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-04-15-sandbox-x"><a href="#industry-item-2026-04-15-sandbox-x"><span class="chip">15 Apr</span> · TLB first batch of four Sandbox X UCA projects<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2026-04-14-vertical"><a href="#industry-item-2026-04-14-vertical"><span class="chip">14 Apr</span> · Vertical Aerospace VX4 piloted two-way transition<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-04-11-feiyida"><a href="#industry-item-2026-04-11-feiyida"><span class="chip">11 Apr</span> · Feiyida Air low-altitude travel platform launch<span class="badge b-ind">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>March 2026<span class="n">3 items</span></summary><ol>
+<li id="tl-ind-2026-03-26-szhk" class="st-open"><a href="#industry-item-2026-03-26-szhk"><span class="chip">26 Mar</span> · SZ–HK cross-border logistics solution released (plans only)<span class="badge b-open">Plans</span></a></li>
+<li id="tl-ind-2026-03-05-aridge-batch"><a href="#industry-item-2026-03-05-aridge-batch"><span class="chip">5 Mar</span> · XPeng Land Aircraft Carrier batch trial (Guangzhou)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-03-09-eipp"><a href="#industry-item-2026-03-09-eipp"><span class="chip">9 Mar</span> · USDOT/FAA select eight eIPP projects<span class="badge b-off">Official</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>February 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-ind-2026-02-27-keeta"><a href="#industry-item-2026-02-27-keeta"><span class="chip">27 Feb</span> · Keeta Science Park–Ting Kok elderly meal route<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-02-11-hanyang"><a href="#industry-item-2026-02-11-hanyang"><span class="chip">11 Feb</span> · AutoFlight Hanyang order (12 eVTOLs; company figures)<span class="badge b-ind">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>January 2026<span class="n">2 items</span></summary><ol>
+<li id="tl-ind-2026-01-28-joby-raise"><a href="#industry-item-2026-01-28-joby-raise"><span class="chip">28 Jan</span> · Joby proposes ~US$1bn stock/notes offerings<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-01-19-versitech"><a href="#industry-item-2026-01-19-versitech"><span class="chip">19 Jan</span> · HKU Versitech joint low-altitude lab agreement<span class="badge b-ind">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>December 2025<span class="n">3 items</span></summary><ol>
+<li id="tl-ind-2025-12-28-ehang-vt35"><a href="#industry-item-2025-12-28-ehang-vt35"><span class="chip">28 Dec</span> · EHang VT35 first public flight in Hefei<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2025-12-19-meituan"><a href="#industry-item-2025-12-19-meituan"><span class="chip">19 Dec</span> · Meituan Drone “低空航网” air-network unveil<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2025-12-16-wisk"><a href="#industry-item-2025-12-16-wisk"><span class="chip">16 Dec</span> · Wisk Generation 6 first flight<span class="badge b-co">Company</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>November 2025<span class="n">3 items</span></summary><ol>
+<li id="tl-ind-2025-11-24-sandbox-x"><a href="#industry-item-2025-11-24-sandbox-x"><span class="chip">24 Nov</span> · Regulatory Sandbox X launched (GIA)<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2025-11-16-joby"><a href="#industry-item-2025-11-16-joby"><span class="chip">16 Nov</span> · RTA: Joby crewed eVTOL Margham–DWC test flight<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2025-11-13-archer-uae"><a href="#industry-item-2025-11-13-archer-uae"><span class="chip">13 Nov</span> · Archer Midnight UAE full-envelope campaign<span class="badge b-co">Company</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>October 2025<span class="n">2 items</span></summary><ol>
+<li id="tl-ind-2025-10-27-falcon"><a href="#industry-item-2025-10-27-falcon"><span class="chip">27 Oct</span> · Falcon Aviation orders 50 AutoFlight eVTOLs<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2025-10-12-aridge-dubai"><a href="#industry-item-2025-10-12-aridge-dubai"><span class="chip">12 Oct</span> · XPeng AeroHT / ARIDGE Dubai manned demo<span class="badge b-co">Company</span></a></li>
+</ol></details>
+</div></div>
+``````
+
+### October 2026 {#industry-2026-10}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-14-volant .industry-item}**14–15 Oct 2026 · 新华财经 / 川观新闻:** Volant (上海沃兰特) and Sichuan Airlines Low Altitude (川航低空) sign for 50 VE25-100 “Tianxing” passenger eVTOLs — **20 firm orders and 30 letters of intent** — at the Zigong Low-Altitude Economy Industry Conference (signing 14 Oct; Xinhua Finance 15 Oct). [Link](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html) · [川观新闻](https://cbgc.scol.com.cn/news/8057731) · [证券时报](https://www.stcn.com/article/detail/4218808.html)
+  - Tag: Independently reported
+  - What's new: Independently reported signing: before VE25-100 obtains a type certificate, parties will jointly pursue R&D testing and pilot operations and explore airport-shuttle / UAM / emergency / business / tourism scenarios in Sichuan–Chongqing; industry-fund co-investment language also attributed. Press restates company milestones (AC101/AC102 flights; Zigong base) — **company-origin, not upgraded**. Unit-price and “2000+意向订单” claims in exhibition coverage stay **company/press claims**. **This is a purchase agreement with a large LOI tranche**, not an issued TC, AOC, or scheduled passenger service.
+  - Status: Independently reported procurement signing (20 firm + 30 LOI); TC not issued; not scheduled passenger service.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「上海沃兰特航空科技股份有限公司（简称“沃兰特”）14日与四川航空集团低空经济投资管理有限责任公司（简称“川航低空”）签署协议，川航低空向沃兰特采购50架VE25-100天行客运eVTOL（电动垂直起降航空器），其中确定订单20架，意向订单30架。」]{lang="zh-Hans"} ([source](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html))
+
+  English (LAE-Intel translation): On the 14th, Shanghai Volant Aviation Technology Co., Ltd. (“Volant”) signed an agreement with Sichuan Airlines Group Low-Altitude Economy Investment Management Co., Ltd. (“Sichuan Airlines Low Altitude”) under which the latter will procure 50 VE25-100 “Tianxing” passenger eVTOLs — 20 firm orders and 30 letters of intent.
+  :::
+
+- []{#industry-item-2026-10-15-autoflight .industry-item}**15 Oct 2026 · AutoFlight newsroom:** AutoFlight (峰飞航空) and JC Aviation Pte. Ltd. (Singapore / Makrana Holdings aviation vertical) sign an MoU covering planned procurement of **260** AutoFlight eVTOL aircraft and **10** SUNSHIP water-based platforms, initially focused on India and Brazil. [Link](https://www.autoflight.com/en/news/autoflight-and-jc-aviation-sign-mou-to-accelerate-evtol-deployment-acr/) · [新华财经](https://www.cnfin.com/gs-lb/detail/20261015/4481107_1.html)
+  - Tag: Company-announced
+  - What's new: Company MoU: mix of V2000CG CarryAll cargo, V2000CGF firefighting, and V2000EM Prosperity passenger types between 2026–2031, plus 10 SUNSHIP platforms 2026–2029; **initial confirmed commitment** claimed for two V2000CG and one SUNSHIP, with broader procurement to follow subsequent purchase agreements. Collaboration language covers certification, fleet, training, MRO and local ops support. **MoU ≠ firm fleet backlog / AOC / EIS.** V2000CG CAAC TC claim remains company-announced (unchanged from Companies & sectors).
+  - Status: Company-announced MoU; MoU ≠ firm order / AOC / EIS; initial 2+1 is company claim.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-14-dji-dock4 .industry-item}**14 Oct 2026 · DJI media center:** DJI launches Dock 4, its first drone-in-a-box with ~25-second automated battery swap, paired with the new Matrice 5TD enterprise aircraft for DFR / inspection / security / survey framing. [Link](https://www.dji.com/media-center/announcements/dji-release-dock-4) · [DJI Enterprise Insights](https://enterprise-insights.dji.com/blog/dji-dock-4-battery-swapping-dock)
+  - Tag: Company-announced
+  - What's new: Company product launch: automatic battery swap in 25 seconds; turnaround framed as seconds vs ~30-minute recharge; Matrice 5TD single-flight endurance up to 59 minutes and multi-sensor / onboard-AI object-detection claims — **all company-announced specs**. Available through authorised DJI Enterprise dealers; no HK Sandbox award or CAAC passenger-eVTOL TC attached. Useful enabling-infrastructure product for continuous UAS ops — not a delivery-network go-live.
+  - Status: Company-announced product launch; specs company-origin; not a passenger eVTOL TC.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-14-amazon-westborough .industry-item}**14 Oct 2026 · WBUR / Reuters:** Massachusetts members of Congress write Amazon and the FAA seeking a site-specific environmental review and a pause before Prime Air deliveries from a planned Westborough / MetroWest Massachusetts distribution-centre hub. [Link](https://www.wbur.org/news/2026/10/14/amazon-drone-delivery-massachusetts-markey-trahan-mcgovern) · [FAA Part 135 package-delivery page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Tag: Independently reported
+  - What's new: Independently reported: Amazon has been aiming for end-2026 Prime Air service in a ~7.5-mile radius from Westborough (Shrewsbury, Northborough, parts of Grafton / Worcester / Sutton / Southborough) — **planning claims via press, not live ops**. Letter (Sens. Markey & Warren; Reps. McGovern & Trahan) cites historic town centre, biodiversity, and New England weather/daylight differences vs prior FAA EAs; Massachusetts is among states suing FAA over broader package-delivery environmental approach. Local planning-board launch-pad approval still pending. FAA Part 135 operator status for Amazon Prime Air remains officially confirmed on the FAA package-delivery page (Pendleton OR baseline 2020) — this item is **hub-authorisation friction**, not a new certificate.
+  - Status: Independently reported planning / political friction; hub not live; Part 135 operator existence officially listed on FAA page.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-13-indy-heliport .industry-item}**13 Oct 2026 · AVweb / Federal Register notice:** FAA reverses a prior closure/waiver path and requires Indianapolis Downtown Heliport (8A4) to remain available for public aviation use, citing AIP obligations and preservation of infrastructure for future eVTOL / AAM (determination / FR document dated 13 Oct). [Link](https://avweb.com/aviation-news/faa-reverses-indianapolis-heliport-closure/) · [Federal Register notice](https://www.federalregister.gov/documents/2026/10/13/2026-20859/notice-of-agency-determination-on-waiver-with-respect-to-land-indianapolis-downtown-heliport) · [Indiana AG statement](https://events.in.gov/event/after-intervening-on-behalf-of-the-states-interests-attorney-attorney-general-todd-rokita-announces-faa-decision-to-keep-indianapolis-heliport-open-for-aviation-uses)
+  - Tag: Independently reported
+  - What's new: Independently reported determination: Indianapolis Airport Authority cannot sell the 5.36-acre site for non-aviation redevelopment under the revised FAA stance; public-comment tally and Sweet Helicopters purchase offer noted in press. **Heliport retention ≠ eVTOL type certificate or scheduled air-taxi service.** Useful US infrastructure-preservation precedent; **does not create a Hong Kong vertiport statute**. Federal Register full HTML was CAPTCHA-blocked in the industry pass — treat FR cite as OPEN/blocked primary; AVweb + Indiana AG as secondary.
+  - Status: Independently reported FAA keep-open determination; not an eVTOL TC / scheduled service; not an HK vertiport statute.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-09-dronevolt .industry-item}**9 Oct 2026 (unveil) / 14 Oct 2026 (trade press) · Dronewatch Europe:** French manufacturer Drone Volt unveils Hercules 100 octocopter heavy-lift cargo drone at UAV Show Bordeaux — company specs up to 100 kg payload for 30 minutes — aimed at industrial logistics, emergency response and military resupply. [Link](https://www.dronewatch.eu/french-developed-hercules-100-cargo-drone-can-carry-100-kg-for-30-minutes/)
+  - Tag: Independently reported
+  - What's new: Late-catch product unveil just before the industry window; 14 Oct European trade press documents specs (MTOW 197 kg; winch to 80 kg; foldable arms; triple-redundant flight controls — **company-via-press**). No military order announced. Competes in the same heavy-lift segment as DJI FlyCart / FlyingBasket FB3 per press framing — comparisons not audited. Absent from the 13 Oct industry pass.
+  - Status: Independently reported product unveil; performance figures company-origin; no order announced.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-12-heart .industry-item}
+**12 Oct 2026 · Heart Aerospace newsroom:** Heart says FAA selected it for a USD 2.9 m CLEEN Phase IV award (matched by Heart to USD 5.8 m / 24 months) under Project HYPER to advance the ES-36 series-hybrid turbogenerator. [Link](https://www.heartaerospace.com/newsroom/faa-selects-heart-aerospace-for-2-9-million-cleen-award-to-advance-es-36-hybrid-propulsion-system) · [Urban Air Mobility News](https://www.urbanairmobilitynews.com/government-investment/faa-awards-heart-aerospace-more-funding-for-hybrid-propulsion-research/)
+  - Tag: Company-announced
+  - What's new: Company release dated 12 Oct: CLEEN funds development and testing of a megawatt-class turbogenerator in each of two ES-36 propulsion nacelles, extending range beyond battery-only; path is ground testing → demonstration flights on a pre-production ES-36 (company: first flight scheduled 2028). Builds on prior FAA FAST support for THEMIS hybrid propulsion-control architecture. Company restates ES-36 range targets and customer-commitment figures — company claims, not upgraded. This is an R&D / demonstration award as attributed by the company, **not** a type certificate or airline entry-into-service. Separate FAA CLEEN selection instrument for this line item not retrieved here — award details stay company-attributed.
+  - Status: Company-announced R&D award; ES-36 not type-certified; not scheduled passenger service.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-12-vtech .industry-item}**12 Oct 2026 · WDBJ7 (Roanoke):** Local TV reports Virginia Tech Mid-Atlantic Aviation Partnership (MAAP) Smart Airspace eIPP-linked trials of Electra EL2 hybrid-electric Ultra Short and Textron Aerosonde Mk. 4.7 at experimental vertiports in Southwest Virginia. [Link](https://www.wdbj7.com/2026/10/12/virginia-techs-smart-airspace-project-tests-electric-aircraft-southwest-virginia/)
+  - Tag: Independently reported
+  - What's new: Independently reported programme colour: FAA asked MAAP to test three vertiport scenarios (Blackstone airport, Roanoke airport, VTTI urban-style pad); flights described as summer 2026 under the programme. Aircraft operate under experimental licence — **not** full FAA type certification; passenger/cargo commercial service not live. Director comments on vertiport cost vs airports and rural healthcare / corridor use-cases are programme framing, not ops metrics. Project linked to federal eIPP / multi-state (PA-led) partnership. Does **not** create a Hong Kong vertiport statute comparator.
+  - Status: Independently reported experimental-licence trials; experimental ≠ type certificate / scheduled service.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-09-tcab .industry-item}**9 Oct 2026 · TCab Tech company page:** TCab Tech (时的科技) and Selangor Information Technology and Digital Economy Corporation (SIDEC) exchange an MoU to explore E20 five-seat tilt-rotor commercialisation pathways in Malaysia and Southeast Asia; E20 Malaysian debut showcase opens at IOI City Mall, Putrajaya. [Link](https://www.tcabtech.com/en/tcab-tech-sidec-mou-e20-evtol-commercialization-malaysia-southeast-asia/) · [eVTOL Insights](https://evtolinsights.com/tcab-tech-and-sidec-sign-mou-to-explore-e20-evtol-commercialisation-in-malaysia/) · [The Star](https://www.thestar.com.my/metro/metro-news/2026/10/10/sgor-eyes-electric-aviation)
+  - Tag: Company-announced
+  - What's new: Company says the MoU covers certification preparation, industry engagement and potential commercial applications (tourism / intercity / intracity framing); SIDEC to help coordinate with government agencies and CAAM; TCab plans a regional business centre in Malaysia. Company says E20 CAAC TC process has completed G-1 / G-2 / CP milestones — **not** an issued TC. CAAC–CAAM aviation-safety cooperation MoU (21 Sep 2026) is background only and does **not** approve E20 ops in Malaysia. **This is an MoU**, not a firm aircraft order, AOC, or service-entry date. Late catch relative to the 11 Oct industry pass.
+  - Status: MoU as announced by the company; MoU ≠ order / AOC / EIS; TC not achieved.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-09-zipline .industry-item}**8–9 Oct 2026 · Zipline newsroom / City of Round Rock:** Zipline begins Austin-metro consumer drone delivery from a hub at 3000 E. Palm Valley Blvd (Round Rock ETJ); municipal page confirms FAA Part 135 primacy and a ~3-mile service claim. [Link](https://www.zipline.com/newsroom/now-loading-zipline-brings-fast-autonomous-delivery-to-austin) · [City of Round Rock](https://www.roundrocktexas.gov/city-departments/administration/drone-delivery-in-round-rock/) · [FAA Part 135 package-delivery page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Tag: Company-announced
+  - What's new: Company Austin newsroom piece frames Round Rock as the first Austin location (8 Oct demo; 9 Oct First Flight early-access ordering reported). City of Round Rock confirms operations from the ETJ hub and that flight paths are FAA-regulated. FAA Part 135 package-delivery page already lists Zipline among approved UAS Part 135 operators (since 2022 Charlotte baseline) — Round Rock is a **new metro go-live**, not a new certificate. Cumulative delivery / early-access slot / quietness figures stay company-announced. Draft FAA EA for five Texas metros reported by trade press — **not** treated as a final Austin authorisation here. Late catch relative to the 11 Oct industry pass.
+  - Status: Company-announced metro go-live with municipal confirmation of hub / FAA primacy; Part 135 operator existence officially listed on FAA page (certificate existence, not this metro’s EA).
+  - Read instead: None.
+
+- []{#industry-item-2026-10-09-arrive .industry-item}**9 Oct 2026 · Arrive AI / Newswire:** Arrive AI and Modovolo announce a partnership to integrate Modovolo’s Lift drone with Arrive Point™ stations for unattended package delivery. [Link](https://www.newswire.com/news/arrive-ai-and-modovolo-partner-to-advance-autonomous-drone-delivery)
+  - Tag: Company-announced
+  - What's new: Arrive AI says the partners will develop end-to-end autonomous delivery in which a drone lowers a package into a secure Arrive Point™ with no ground pilot and no exposed doorstep drop. Path is integration development → test-bed at Arrive AI HQ → planned live deliveries in a designated Fishers, Indiana area subject to required regulatory approvals.
+  - Status: Partnership / product integration as announced by the company; service not live.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-08-zhuhai-islands .industry-item}**8 Oct 2026 · C114通信网 (China Unicom Zhuhai feature):** Zhuhai Agriculture Investment Holding Group, Guangdong Chaofei Technology and China Unicom Zhuhai sign a strategic cooperation for a sea-island UAV livelihood-supply / low-altitude logistics pilot framed around Zhuhai’s 262 islands. [Link](https://m.c114.com.cn/w84-1318768.html) · [C114 desktop](http://www.c114.com.cn/news/84/a1318768.html)
+  - Tag: Company-announced
+  - What's new: China Unicom Zhuhai says the three parties signed for a national sea-island UAV livelihood-supply pilot demonstration using a 5G + BeiDou digital base. Stated division of labour: Zhuhai Agriculture Investment Holding Group (municipal SOE) handles procurement, quality control, cold-chain storage and consolidation; Chaofei provides UAV logistics technology and operations; Unicom Zhuhai covers 5G along island routes and market take-off/landing points, BeiDou positioning, and low-altitude flight-supervision platform access. Traditional boat supply is described as >12 hours one-way and weather-vulnerable. Route count, aircraft type, payload and frequency are not published.
+  - Status: Signing / pilot-preparation as announced via the Unicom feature; not live commercial routes; no municipal official instrument retrieved this run.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，珠海市农业投资控股集团有限公司、广东超飞科技有限公司、中国联通珠海市分公司举行海岛无人机民生保供项目战略合作签约。中国联通珠海市分公司与市低空团队组建专项攻坚队伍，深度参与项目技术方案落地，依托5G+北斗数字底座，创新低空物流模式……」]{lang="zh-Hans"}
+
+  [「本次三方携手共建全国海岛无人机民生保供试点示范工程，构建可复制、可推广的低空物流助农兴农运营体系。……重点推进海岛航线、农贸市场起降点沿线5G网络覆盖，提供北斗定位服务、低空飞行监管平台接入支撑……」]{lang="zh-Hans"} ([source](https://m.c114.com.cn/w84-1318768.html))
+  :::
+
+- []{#industry-item-2026-10-08-eplane .industry-item}**8 Oct 2026 · Business Standard:** Ubifly Technologies (The ePlane Company) and Yamuna International Airport Pvt Ltd (Noida International Airport concessionaire) sign an MoU to develop vertiports, charging, SOPs and airspace integration for the e200X. [Link](https://www.business-standard.com/industry/news/eplane-noida-international-airport-evtol-vertiport-mou-e200x-126100800841_1.html) · [CNBC-TV18](https://www.cnbctv18.com/business/aviation/noida-international-airport-signs-deal-for-eplane-air-taxis-vertiports-and-charging-stations-20007518.htm)
+  - Tag: Independently reported
+  - What's new: Independent Indian business press reports an MoU under which the airport will allocate space for proof-of-concept trials, vertiports and charging stations and align procedures for eVTOL; ePlane will pursue DGCA / BCAS clearances and continue e200X prototyping and flight testing. Stated use cases include airport-to-airport transit, intra-city travel and emergency air ambulance. Company says e200X is in the DGCA type-certification pipeline and that it holds Design Organisation Approval for electric aircraft — company claims, not upgraded.
+  - Status: MoU independently reported; MoU ≠ firm infrastructure award or certified commercial service.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-07-xunyi .industry-item}**7 Oct 2026 · 浙江日报 / 浙江在线:** Zhejiang Daily interview with Xunyi (迅蚁) founder Zhang Lei on Hangzhou’s first cross-Qiantang instant-delivery UAV route. [Link](https://zjnews.zjol.com.cn/zjnews/202610/t20261007_31951269.shtml)
+  - Tag: Independently reported
+  - What's new: The interview describes a south-bank-to-Shangcheng receiving-point route (~10+ minutes, ~100 m AGL) as Hangzhou’s first low-altitude instant-delivery cross-river line. The founder says the route has logged more than 100 flights in a single trial month and that cargo mix is mainly business express, fresh goods, emergency medicines and digital accessories rather than restaurant takeaway. Cumulative company claims in the same piece (2,000+ routes / 800,000+ flights / 60+ city medical network / 300+ Hangzhou operating lines) and any “global first urban UAV logistics licence” framing are company-announced via the founder — not independently audited here.
+  - Status: Cross-river route ops colour independently reported via Zhejiang Daily; scale figures remain company claims.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「杭州钱塘江南岸，一架六旋翼无人机掠过江面，十多分钟后降落在上城区接收点。这是杭州首条低空即时配送跨江航线，也是少数已经实现常态化运营的低空物流线路。」]{lang="zh-Hans"}
+
+  [「试运行以来，这条航线单月累计飞行100多架次。……它运输的不全是大家印象里的外卖，大多以商务急件、生鲜、应急药品、数码配件为主。」]{lang="zh-Hans"} ([source](https://zjnews.zjol.com.cn/zjnews/202610/t20261007_31951269.shtml))
+  :::
+
+- []{#industry-item-2026-10-07-a2z-bali .industry-item}**7 Oct 2026 · AJOT / eVTOL Insights / DroneDJ:** A2Z says it is the technology partner for a Bali BVLOS food-delivery proof-of-concept with Grab Indonesia and SKYY Network. [Link](https://www.ajot.com/news/a2z-drone-delivery-chosen-as-technology-partner-for-indonesia-drone-delivery-trials) · [eVTOL Insights](https://evtolinsights.com/a2z-chosen-as-partner-for-commercial-drone-delivery-trials-in-indonesia/) · [DroneDJ](https://dronedj.com/2026/10/07/food-delivery-drone-bali-indonesia/)
+  - Tag: Company-announced
+  - What's new: A2Z says Grab and SKYY selected its Longtail Dual and AirDock autonomous charging docks for a BVLOS food-delivery trial between Café del Mar Bali and Nuanu Creative City; customers order via Grab; SKYY operates flights. Partners describe the trial as Indonesia’s first BVLOS food delivery under a DGCA certificate using SORA; route sits in controlled airspace associated with Ngurah Rai International Airport. Grab frames drones as a complement to driver-partners, not a replacement. DGCA certificate itself not retrieved on a regulator primary this run — not upgraded to Officially confirmed.
+  - Status: Company-announced pilot / tech-partner selection via trade press; DGCA primary not retrieved.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-07-aeroberm .industry-item}**7 Oct 2026 · Urban Air Mobility News:** Foster Aviation (Dubai) becomes Aeroberm™ (a Skyportz company) partner for UAE vertiport rollout; fractal-panel prototype planned for VertiExpo Dubai Dec 2026. [Link](https://www.urbanairmobilitynews.com/vertiports/aeroberm-foster-aviation-partner-to-deploy-vertiports-across-the-uae/) · [Aeroberm](https://www.aeroberm.com.au/)
+  - Tag: Company-announced
+  - What's new: The companies announce a strategic partnership under which Foster will work with UAE air-safety regulators and property developers to establish vertiport sites using Aeroberm’s fractal-panel deck (company claims on downwash dissipation / optional battery dunk tank — CFD with Swinburne, not independently verified here). A prototype is to be displayed at VertiExpo Dubai (14–16 Dec 2026) with advance orders taken for 2027 delivery.
+  - Status: Partnership / product-kit push as announced; not a named municipal vertiport award or certified network opening.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-07-beta .industry-item}**7 Oct 2026 · BETA Technologies IR:** BETA says it concluded five days of Utah eIPP flights with Alpine Air using ALIA CTOL for time-sensitive medical cargo. [Link](https://investors.beta.team/news-events/press-releases/detail/119/beta-completes-utah-eipp-operations-to-support-the-future-of-radiopharmaceutical-delivery-and-treatment)
+  - Tag: Company-announced
+  - What's new: BETA says the USDOT/FAA eIPP flights with UDOT, 47G and Alpine Air Express tested electric aircraft for radiopharmaceutical transport; FAA quote appears only in the company release.
+  - Status: eIPP operational demo as announced by the company; not a type certificate.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-06-eve .industry-item}**6 Oct 2026 · FlightGlobal via Defense Presswire:** Eve holds a Florida eVTOL ecosystem summit at SunTrax and says US demo flights are expected in 2028 before FAA certification. [Link](https://defensepresswire.com/2026/10/07/eve-plots-us-air-taxi-demos-despite-exclusion-from-pilot-programme/)
+  - Tag: Independently reported
+  - What's new: Independent coverage of the 6 Oct Florida Ecosystem Summit; Eve says it is excluded from eIPP as foreign-controlled and aims for Brazilian certification then FAA/EASA, with US demos in 2028 (company expectations).
+  - Status: Summit independently reported; 2028 demo/certification timing and LOI figures remain company-announced.
+  - Read instead: None.
+
+- **5 Oct 2026 · Wing newsroom:** Wing and Walmart say Denver and Seattle will join their drone-delivery network in 2027. [Link](https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network)
+  - Tag: Company-announced
+  - What's new: Wing says the partners will expand to Denver and Seattle metros in 2027, advancing a plan Wing claims toward more than 270 Walmart locations and over 40 million customers (company figures).
+  - Status: Planned 2027 expansion as announced by Wing; service not live in these metros.
+  - Read instead: None.
+
+- []{#industry-item-2026-10-05-lianzhou .industry-item}**5 Oct 2026 · 珠海特区报 / 观海融媒:** Lianzhou Airport’s first aviation theme open day draws holiday crowds; airport says it already hosts low-altitude test clients. [Link](https://pub-zhtb.hizh.cn/s/202610/05/AP6ac36f4de4b0858d47780f11.html) · [7 Oct follow-up](https://pub-zhtb.hizh.cn/a/202610/07/AP6ac63451e4b0858d47781f98.html)
+  - Tag: Independently reported
+  - What's new: Local press reports ~21,000 visitors by 7 Oct (including ~3,000 from Hong Kong/Macau) and quotes the airport that its low-altitude test base has served nine LAE firms; cross-province logistics routes described as plans.
+  - Status: Open-day and visitor counts independently reported via local press; logistics expansion remains a plan.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「中秋、国庆假期，珠海莲洲机场首次推出“逐梦蓝天·邂逅通航”航空专场开放日，3万平方米机坪变身“航空乐园”」]{lang="zh-Hans"}
+
+  [「截至10月7日，为期十天的活动共接待游客2.1万余人次，其中港澳游客3000余人次。」]{lang="zh-Hans"}
+
+  [「过去三年，该机场低空飞行测试验证基地一期投入使用，已为广东省航空航天装备研究院、小鹏汇天、珠海天晴等9家低空经济企业提供无人机测试业务。」]{lang="zh-Hans"} ([source](https://pub-zhtb.hizh.cn/a/202610/07/AP6ac63451e4b0858d47781f98.html))
+  :::
+
+- **5 Oct 2026 · China Daily Hong Kong:** Cross-reference: TLB and CAD officials describe “Sandbox Connect”, with Nansha as gateway — covered on Government news, not repeated here. [Link](https://www.chinadailyhk.com/hk/article/640531)
+  - Tag: Independently reported
+  - Status: Sandbox X cross-boundary results still OPEN (Official status).
+  - Read instead: [Government news, 5 Oct 2026](news.qmd)
+
+### September 2026 {#industry-2026-09}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-09-21-keeta .industry-item}**21 Sep 2026 · HK01; TastyMoney:** Cross-reference: Keeta Drone flies from HKSTP to a smart locker at Chung On Estate, Ma On Shan — covered on Government news. [Link](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630)
+  - Tag: Independently reported
+  - What's new: TastyMoney reports it is the first drone delivery into a Hong Kong public housing estate.
+  - Status: Regulatory Sandbox operations (not Sandbox X).
+  - Read instead: [Government news, 21 Sep 2026](news.qmd)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「這是無人機配送服務首次進入香港公共屋邨」]{lang="zh-Hant"} ([source](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630))
+
+  English (LAE-Intel translation): This is the first time a drone delivery service has entered a Hong Kong public housing estate
+  :::
+
+- **10 Sep 2026 · AutoFlight newsroom:** AutoFlight says 零界航空 will buy 30 V2000CG through a 皖江金租 finance lease. [Link](https://www.autoflight.com/zh/news/30evtol/)
+  - Tag: Company-announced
+  - What's new: AutoFlight says 5 aircraft are due this year, 2 of them delivered in September; its “first finance-lease eVTOL deal” framing is a company claim.
+  - Status: Purchase agreement as announced by the company; counts not independently confirmed.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「9月10日，峰飞航空与安徽天泽零界航空有限公司（简称“零界航空”）、皖江金融租赁股份有限公司（简称“皖江金租”）正式落实三方深度战略合作协议，其中包括零界航空与峰飞航空达成30架V2000CG凯瑞鸥的采购协议」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/30evtol/))
+
+  English (LAE-Intel translation): On 10 September, AutoFlight, Anhui Tianze Lingjie Aviation Co. ("Lingjie Aviation") and Wanjiang Financial Leasing Co. ("Wanjiang Leasing") formally implemented a three-party in-depth strategic co-operation agreement, including a purchase agreement between Lingjie Aviation and AutoFlight for 30 V2000CG CarryAll aircraft
+  :::
+
+- []{#industry-item-2026-09-10-mous .industry-item}**10 Sep 2026 · SCMP; GIA (9 Sep):** Cross-reference: LAE MoUs exchanged at the Belt and Road Summit — covered on Government news. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367033/hong-kong-signs-2-mous-greater-bay-area-partners-commercialise-aerial-technology)
+  - Tag: Independently reported
+  - What's new: SCMP reports 2 MoUs with GBA partners; the GIA release lists the Working Group among signatories of seven MoUs with overseas counterparts and does not confirm the two GBA MoUs.
+  - Status: MoUs, not binding agreements.
+  - Read instead: [Government news, Sep 2026](news.qmd); [GIA](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm)
+
+- []{#industry-item-2026-09-10-meituan-shanghai .industry-item}**10 Sep 2026 · Meituan newsroom; NBD; SCMP:** Meituan says its Shanghai West Bund low-altitude air network began commercial operations, with a McDonald’s brand-dedicated drone meal route. [Link](https://www.meituan.com/news/NN260911177010407) · [SCMP](https://www.scmp.com/tech/big-tech/article/3367482/cloudy-chance-big-macs-mcdonalds-and-meituan-launch-drone-route-shanghai)
+  - Tag: Company-announced
+  - What's new: Company says coverage includes Dream Center, Xuhui Riverside, Model Space and McDonald’s Longteng Avenue plaza; framed as Meituan’s second systematic city air network after Shenzhen. Brand counts and ~10-minute end-to-end timing are company figures. Municipal industry-scale targets on the same page are not carried.
+  - Status: Shanghai commercial operations as announced by Meituan; not a new Hong Kong route.
+  - Read instead: [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone); [19 Dec 2025 低空航网 unveil](#industry-item-2025-12-19-meituan)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「9月10日，美团无人机上海西岸低空航网正式投入运营，配送范围覆盖西岸梦中心、模速空间、麦当劳龙腾大道餐厅、徐汇滨江公共开放空间等核心区域。这是美团无人机继深圳之后，落地的第二张系统性城市航网。」]{lang="zh-Hans"}
+
+  [「当天，美团无人机与麦当劳合作的国内首条餐饮品牌专属无人机配送航线也同步上线。」]{lang="zh-Hans"} ([source](https://www.meituan.com/news/NN260911177010407))
+
+  English (LAE-Intel translation): On 10 September, Meituan Drone’s Shanghai West Bund low-altitude air network formally entered operation, with delivery coverage of West Bund Dream Center, Model Space, McDonald’s Longteng Avenue restaurant, Xuhui Riverside public open space and other core areas. This is Meituan Drone’s second systematic city air network after Shenzhen. / The same day, Meituan Drone and McDonald’s also launched China’s first restaurant-brand-dedicated drone delivery route.
+  :::
+
+- **4 Sep 2026 · 电商派:** Cross-reference: Meituan densifies its Shenzhen Longhua air network to 15 points — covered on Government news and Companies & sectors. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
+  - Tag: Independently reported
+  - Status: Point counts are company figures via press.
+  - Read instead: [Government news, 4 Sep 2026](news.qmd); [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone)
+
+### August 2026 {#industry-2026-08}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-08-28-ehang .industry-item}**28 Aug 2026 · EHang newsroom; SCMP:** EHang EH216-S completes its first public flight in Hong Kong, at Cyberport, under Sandbox X. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3365647/unmanned-electric-aircraft-makes-maiden-flight-hong-kong)
+  - Tag: Independently reported
+  - What's new: EHang says it is the first public flight demonstration since Sandbox X pilot projects started in mid-August (company statement).
+  - Status: A Sandbox X unconventional-aircraft project demonstration (KC Smart Mobility / Cyberport / EHang); not a passenger service.
+  - Read instead: [EHang (Chinese)](https://www.ehang.com/cn/news/1386.html); Official status: Sandbox X
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「其自主研发的EH216-S无人驾驶载人电动垂直起降（eVTOL）航空器在香港数码港成功完成公开首飞。」]{lang="zh-Hans"} ([source](https://www.ehang.com/cn/news/1386.html))
+
+  English (LAE-Intel translation): Its self-developed EH216-S pilotless passenger-carrying electric vertical take-off and landing (eVTOL) aircraft successfully completed its first public flight at Cyberport, Hong Kong.
+  :::
+
+- []{#industry-item-2026-08-19-amazon .industry-item}**19 Aug 2026 · About Amazon; Reuters:** Amazon says Prime Air plans to serve nearly 500 US cities and towns by year-end 2026, up from 11 operating sites. [Link](https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion) · [Reuters](https://www.reuters.com/business/amazon-plans-drone-delivery-expansion-about-500-us-locales-2026-08-19/)
+  - Tag: Company-announced
+  - What's new: Company lists current US metro sites and planned launches (including Atlanta and other metros) and notes Darlington, England as its first non-US customer location. Reach and package-volume figures are company-announced. Distinct from Wing–Walmart expansions already on this page.
+  - Status: Expansion plan as announced; not evidence that ~500 locales are already live.
+  - Read instead: None.
+
+- []{#industry-item-2026-08-10-vertical-financing .industry-item}**10 Aug 2026 · Vertical Aerospace:** Vertical announces about US$100m financing commitments (Mudrick note draws, underwritten equity units, Yorkville preferred) to advance Valo certification and commercialisation. [Link](https://vertical-aerospace.com/wp-content/uploads/2026/08/20260810-VA-Financing-Press-Release_v4.pdf)
+  - Tag: Company-announced
+  - What's new: Mudrick portion is described as a non-binding agreement in principle subject to definitive documents. The release also claims five Farnborough demonstration flights in five days, including public piloted transitions (company). Distinct from the April up-to-US$850m facilities package.
+  - Status: Financing commitments as announced; Mudrick piece not a closed definitive facility on the company’s own wording.
+  - Read instead: None.
+
+- []{#industry-item-2026-08-05-joby-q2 .industry-item}**5 Aug 2026 · Joby IR:** Cross-reference: Joby Q2 results restate Stage 5 Show & Verify progress, five aircraft flying and the Toyota manufacturing JV — company IR checkpoint, not a new launch. [Link](https://ir.jobyaviation.com/news-events/press-releases/detail/187/joby-reports-second-quarter-2026-financial-results)
+  - Tag: Company-announced
+  - Status: Stage 5 percentages, Dubai vertiport status and eIPP Texas passenger timing remain company expectations; not a type certificate or passenger launch.
+  - Read instead: [30 Jun 2026 Joby–Toyota JV](#industry-item-2026-06-30-joby-toyota); [Companies & sectors: Joby](landscape.qmd)
+
+- **3 Aug 2026 · Eve Air Mobility newsroom:** Eve says its engineering prototype completed a first partial transition flight. [Link](https://www.eveairmobility.com/eve-air-mobility-achieves-first-transition-flight-milestone-advancing-evtol-program-toward-wing-borne-flight/)
+  - Tag: Company-announced
+  - Status: Partial transition, not a full transition; not a type certificate.
+
+### July 2026 {#industry-2026-07}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-07-22-caac-list .industry-item}**22 Jul 2026 · CnEVPost; He Xiaopeng Weibo:** Press reports a CAAC proposed first-batch compliant-company list for civil passenger eVTOL airworthiness, naming XPeng’s Aridge, EHang, Volant and AutoFlight. [Link](https://cnevpost.com/2026/07/22/xpeng-aridge-certification-boost-evtol-compliance-list/)
+  - Tag: Independently reported
+  - What's new: Secondary coverage describes preferential handling (simplified procedures, priority, mutual recognition of phased tests). CnEVPost could not locate a CAAC primary PDF/HTML this run; He Xiaopeng Weibo is cited as company confirmation of Aridge’s inclusion.
+  - Status: Independently reported via press; **CAAC primary OPEN** — not upgraded to Officially confirmed. Not a type certificate for any named firm.
+  - Read instead: None.
+
+- **22 Jul 2026 · AutoFlight newsroom:** AutoFlight and SF Express sign a low-altitude transport framework agreement on the opening day of the 2026 International Low-altitude Economy Expo. [Link](https://www.autoflight.com/zh/news/sf-group/)
+  - Tag: Company-announced
+  - Status: Framework agreement; the page gives no volumes or routes.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「7月22日，2026国际低空经济博览会开幕首日，峰飞航空科技与顺丰正式签署低空运输合作框架协议。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/sf-group/))
+
+  English (LAE-Intel translation): On 22 July, the opening day of the 2026 International Low-altitude Economy Expo, AutoFlight and SF Express formally signed a low-altitude transport co-operation framework agreement.
+  :::
+
+- **13 Jul 2026 · 飞行汽车官网 (reprint of AutoFlight release):** AutoFlight, Satar Aviasi and Hong Kong’s Inno One Group sign an Indonesia strategic co-operation with 150-aircraft intent orders. [Link](https://www.feiauto.com/tt/1823.html)
+  - Tag: Company-announced
+  - What's new: Inno One Group (HK) Limited joins as leasing and asset partner, per the release.
+  - Status: Intent (意向) orders, not firm orders.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「三方就峰飞航空的2吨级无人驾驶货运机型V2000CG凯瑞鸥、V5000CGH天际龙等机型达成共计150架意向采购订单。」]{lang="zh-Hans"} ([source](https://www.feiauto.com/tt/1823.html))
+
+  English (LAE-Intel translation): The three parties reached intent purchase orders totalling 150 aircraft for AutoFlight models including the 2-tonne uncrewed cargo V2000CG CarryAll and the V5000CGH Tianjilong.
+  :::
+
+- []{#industry-item-2026-07-06-dxb .industry-item}**6 Jul 2026 · Aviation Week:** Aviation Week reports the GCAA and Skyports announced certification of the DXB vertiport (“VDX”) in Dubai. [Link](https://aviationweek.com/business-aviation/airports-fbos-suppliers/worlds-first-commercial-vertiport-certified-joby-ops)
+  - Tag: Independently reported
+  - Status: GCAA primary not retrieved; Hong Kong has no vertiport statute.
+
+### June 2026 {#industry-2026-06}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-06-30-joby-toyota .industry-item}**30 Jun 2026 · Joby IR; Toyota:** Joby and Toyota announce a joint venture as the initial phase of a strategic manufacturing alliance for electric air-taxi production readiness. [Link](https://ir.jobyaviation.com/news-events/press-releases/detail/183/joby-aviation-and-toyota-motor-corporation-launch-initial)
+  - Tag: Company-announced
+  - What's new: Alliance focuses on commercial-production groundwork and capacity for certification and demand (company). SEC materials describe JTAMPC ownership/board split; additional manufacturing/IP agreements remain to be negotiated.
+  - Status: JV launch as announced; not a type certificate and not a firm aircraft order.
+  - Read instead: [Companies & sectors: Joby](landscape.qmd)
+
+- **22 Jun 2026 · 人民财讯 via 证券时报网:** AutoFlight says its large eVTOLs feature in two of the four first-batch Sandbox X unconventional-aircraft projects. [Link](https://stcn.com/article/detail/3971515.html)
+  - Tag: Company-announced
+  - What's new: The TLB list (15 Apr 2026) shows AutoFlight as collaborator in projects 1 (AECOM) and 2 (China Travel Tours).
+  - Status: Selection officially listed by TLB; the company statement is its own.
+  - Read instead: [TLB list (EN)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「据峰飞航空消息，近期，峰飞航空入选香港低空经济“监管沙盒X”首批试点项目。」…「本次首批合计四个入选项目，其中有两个项目引入峰飞航空大型eVTOL。」]{lang="zh-Hans"} ([source](https://stcn.com/article/detail/3971515.html))
+
+  English (LAE-Intel translation): According to AutoFlight, it was recently selected for the first batch of Hong Kong's low-altitude economy "Regulatory Sandbox X" pilot projects. / Of the four projects selected in this first batch, two bring in AutoFlight's large eVTOLs.
+  :::
+
+- **11 Jun 2026 · AutoFlight newsroom:** AutoFlight says Indonesia’s DGCA issued a Validated Type Certificate for the V2000CG cargo eVTOL. [Link](https://www.autoflight.com/zh/news/sanji/)
+  - Tag: Company-announced
+  - Status: DGCA primary not retrieved; the “first overseas eVTOL VTC” framing is a company claim.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日峰飞航空科技V2000CG凯瑞鸥正式获得印度尼西亚民航局（DGCA）颁发的型号认可证（Validated Type Certificate，VTC），成为全球首款获得海外型号认可的eVTOL机型。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/sanji/))
+
+  English (LAE-Intel translation): Recently, AutoFlight's V2000CG CarryAll officially received a Validated Type Certificate (VTC) issued by the Directorate General of Civil Aviation (DGCA) of Indonesia, becoming the world's first eVTOL model to obtain an overseas type validation.
+  :::
+
+- []{#industry-item-2026-06-04-ey-lalamove .industry-item}**4 Jun 2026 · EY China newsroom:** EY member firms in Hong Kong and Lalamove sign an MoU to conceptualise enterprise logistics combining drone-enabled deliveries with Lalamove’s ground network. [Link](https://www.ey.com/en_cn/newsroom/2026/06/ey-advances-low-altitude-economy-ecosystem-through-mou-with-lalamove)
+  - Tag: Company-announced
+  - What's new: Explicitly an MoU — conceptualisation for large enterprise customers; no named pilot customer or launch date in the release. Complements Lalamove’s April Sandbox milestone without duplicating it. Chinese mirror OPEN.
+  - Status: MoU, not a binding service launch.
+  - Read instead: [30 Apr 2026 Lalamove Sandbox milestone](#industry-item-2026-04-30-lalamove); [Companies & sectors: Future Yixin](landscape.qmd#firm-future-yixin-aviation-technology-limited)
+
+### May 2026 {#industry-2026-05}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-05-28-electra .industry-item}**28 May 2026 · Electra.aero newsroom:** Electra says its hybrid-electric Ultra Short EL2 completed a first urban demonstration from Charleston’s Columbus Street Terminal pier. [Link](https://electra.aero/news/electra-completes-first-urban-flight-of-hybrid-electric-ultra-short-aircraft-in-downtown-charleston-signaling-a-new-era-of-regional-air-travel)
+  - Tag: Company-announced
+  - What's new: Company frames short takeoff/landing performance and a future EL9 regional-shuttle concept; notes eIPP participation. “Over 2,200 LOIs from 60+ commercial customers” are company-announced LOIs, not firm orders.
+  - Status: Urban demo as announced; not a type certificate.
+  - Read instead: None.
+
+- **21 May 2026 · AutoFlight newsroom:** AutoFlight says one V5000 and two V2000-series aircraft flew a mixed three-aircraft formation. [Link](https://www.autoflight.com/zh/news/mixed/)
+  - Tag: Company-announced
+  - Status: The V5000 “certification stage” claim is the company’s own; no CAAC primary retrieved.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「5月21日，峰飞航空科技成功完成由1架V5000天际龙与2架V2000系列机型组成的“混合三机编队”演示飞行。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/mixed/))
+
+  English (LAE-Intel translation): On 21 May, AutoFlight successfully completed a "mixed three-aircraft formation" demonstration flight made up of one V5000 Tianjilong and two V2000-series aircraft.
+  :::
+
+- **19 May 2026 · AutoFlight newsroom:** AutoFlight says it flew a 2-tonne eVTOL demo in Almaty and signed an MoU under which AAAG would buy 50 more aircraft. [Link](https://www.autoflight.com/zh/news/evtolaaag/)
+  - Tag: Company-announced
+  - Status: MoU, not a firm order.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「AAAG将再向峰飞航空采购50架V2000/V5000系列大型eVTOL机型，用于哈萨克斯坦及中亚其他地区的低空交通网络建设」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/evtolaaag/))
+
+  English (LAE-Intel translation): AAAG will purchase a further 50 large V2000/V5000-series eVTOL aircraft from AutoFlight for building low-altitude transport networks in Kazakhstan and other parts of Central Asia
+  :::
+
+- []{#industry-item-2026-05-18-bingex-hlid .industry-item}**18 May 2026 · BingEx / GlobeNewswire:** FlashEx subsidiary signs a strategic investment agreement with Hangzhou Low-Altitude Industry Development (HLID) to accelerate Hangzhou drone delivery. [Link](https://www.globenewswire.com/news-release/2026/05/18/3296366/0/en/BingEx-Secures-Strategic-Investment-from-HLID-to-Accelerate-Drone-Delivery.html)
+  - Tag: Company-announced
+  - What's new: Company restates Hangzhou network scale (sites, routes, paid orders, flights) as of end-April 2026; investment amount not disclosed. Follows the Oct 2025 Hangzhou commercial-pilot announcement.
+  - Status: Strategic investment agreement as announced; figures are company-announced.
+  - Read instead: [10 Oct 2025 FlashEx Hangzhou pilot](#industry-item-2025-10-10-bingex)
+
+- **7 May 2026 · Archer IR; Khaleej Times:** Archer says the UAE GCAA moved Midnight into a Restricted Type Certificate programme for initial UAE operations with Abu Dhabi Aviation. [Link](https://investors.archer.com/news/news-details/2026/UAE-Regulator-And-Archer-Move-To-Streamlined-Approach-for-Certifying-Midnight-in-the-UAE/default.aspx)
+  - Tag: Company-announced
+  - What's new: Khaleej Times reports the same.
+  - Status: An RTC programme entry is not an issued certificate; no GCAA primary retrieved.
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
+
+- **6 May 2026 · AutoFlight newsroom:** AutoFlight says Jining Hi-tech Changkong signed a strategic and bulk-purchase framework agreement; first V2000CGF firefighting variant delivered. [Link](https://www.autoflight.com/zh/news/jining/)
+  - Tag: Company-announced
+  - Status: Framework agreement; no unit count given.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「5月6日，峰飞航空科技宣布已与济宁高新长空智航发展有限公司（简称“高新长空”）正式签署战略合作及批量采购框架协议。」…「其中首架V2000CGF凯瑞鸥消防型已完成交付。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/jining/))
+
+  English (LAE-Intel translation): On 6 May, AutoFlight announced it had formally signed a strategic co-operation and bulk-purchase framework agreement with Jining Hi-tech Changkong Zhihang Development Co. ("Gaoxin Changkong"). / Of these, the first V2000CGF CarryAll firefighting variant has been delivered.
+  :::
+
+- []{#industry-item-2026-05-04-wisk-gen6-2 .industry-item}**4 May 2026 · Wisk Aero newsroom:** Wisk says a second Generation 6 aircraft completed first flight at Hollister, expanding dual-aircraft flight-test capacity. [Link](https://wisk.aero/newsroom/second-gen6-aircraft)
+  - Tag: Company-announced
+  - What's new: Expands the Gen 6 test fleet beyond the Dec 2025 first flight. Still no type certificate.
+  - Status: Flight-test expansion as announced by the company.
+  - Read instead: [16 Dec 2025 Wisk Gen 6 first flight](#industry-item-2025-12-16-wisk)
+
+### April 2026 {#industry-2026-04}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-04-30-lalamove .industry-item}**30 Apr 2026 · HKSTP; Lalamove / Future Yixin:** Lalamove showcases Regulatory Sandbox logistics results: a drone flies cargo from Hong Kong Science Park across Tolo Harbour to Tai Po InnoPark MARS rooftop. [Link](https://www.hkstp.org/en/park-life/news-and-events/news/Lalamove-Low-altitude-Economy-Regulatory-Sandbox-milestone-showcase)
+  - Tag: Independently reported
+  - What's new: HKSTP Chinese venue release quotes the demo before TLB/ITIB/LegCo/HKSTP witnesses under first-batch Sandbox with Future Yixin. Company claims >200 tests including >150 BVLOS, ~9 vs ~20 minutes, and up to ~40% lower per-delivery cost (company figures). Expansion to outlying islands / Northern Metropolis and SE Asia are aspirations, not launches. Distinct from Keeta Science Park–Tai Po elderly and Chung On routes. Official English none published (HKSTP Chinese-only page).
+  - Status: Sandbox milestone showcase independently reported via HKSTP; company cost/time claims not upgraded. Regulatory Sandbox (not Sandbox X).
+  - Read instead: [Companies & sectors: Future Yixin](landscape.qmd#firm-future-yixin-aviation-technology-limited)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「Lalamove 今日在運輸及物流局副局長廖振新先生、創新科技及工業局常任秘書長蔡傑銘先生……見證下，展示「低空經濟監管沙盒」物流配送的階段性成果：無人機由香港科學園載貨起飛，跨越吐露港及多棟建築物，最終精準降落到由香港科技園公司管理、大埔創新園醫療用品製造中心的天台」]{lang="zh-Hant"}
+
+  [「已進行超過200次無人機配送測試，包括逾150次載貨超視距（"BVLOS"）飛行……以現時航線為例，可將配送時間由傳統陸路交通的約20分鐘大減至約9分鐘……同時，單次配送成本降幅亦高達四成。」]{lang="zh-Hant"} ([source](https://www.hkstp.org/en/park-life/news-and-events/news/Lalamove-Low-altitude-Economy-Regulatory-Sandbox-milestone-showcase))
+
+  English (LAE-Intel translation): Today, witnessed by Under Secretary for Transport and Logistics Liu Chun-san, Permanent Secretary for Innovation, Technology and Industry Eddie Mak, and others, Lalamove showcased phased results of its Low-altitude Economy Regulatory Sandbox logistics deliveries: a drone took off with cargo from Hong Kong Science Park, crossed Tolo Harbour and multiple buildings, and landed precisely on the rooftop of the medical-supplies manufacturing centre (MARS) at Tai Po InnoPark managed by HKSTP. / More than 200 drone delivery tests have been conducted, including more than 150 cargo BVLOS flights… Taking the current route as an example, delivery time can be cut from about 20 minutes by conventional road transport to about 9 minutes… and the per-delivery cost reduction can reach as high as 40%.
+  :::
+
+- []{#industry-item-2026-04-20-vertical-financing .industry-item}**20 Apr 2026 · Vertical Aerospace:** Vertical says it closed remaining components of a financing package totaling up to US$850 million (Mudrick notes, Yorkville preferred equity, Yorkville equity line). [Link](https://vertical-aerospace.com/wp-content/uploads/2026/04/20260420-Press-Release-Financing-package_v1.pdf)
+  - Tag: Company-announced
+  - What's new: Facilities are conditional/tranche-based; certification target reiterated as 2028 (company). Distinct from the mid-April VX4 two-way transition already on this page and from the August ~US$100m commitments.
+  - Status: Financing package as announced; not a type certificate. Pre-order counts remain company-announced.
+  - Read instead: [14 Apr 2026 Vertical VX4 transition](#industry-item-2026-04-14-vertical)
+
+- **20 Apr 2026 · AutoFlight newsroom:** AutoFlight says it is among 22 firms in the latest OASES strategic-enterprise batch, signed in the presence of Financial Secretary Paul Chan. [Link](https://www.autoflight.com/zh/news/hong-kong/)
+  - Tag: Company-announced
+  - Status: OASES/GIA release for the batch not retrieved; official English OPEN.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「4月20日，峰飞航空科技亮相香港特区政府引进重点企业办公室（OASES，简称“引进办”）举办的签约仪式，在特区政府财政司司长陈茂波的见证下，峰飞航空科技成为引进办最新一批重点引进的22家企业之一。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/hong-kong/))
+
+  English (LAE-Intel translation): On 20 April, AutoFlight appeared at a signing ceremony held by the HKSAR Government's Office for Attracting Strategic Enterprises (OASES), and, witnessed by Financial Secretary Paul Chan, became one of the 22 enterprises in OASES's latest batch of strategic enterprises.
+  :::
+
+- []{#industry-item-2026-04-15-sandbox-x .industry-item}**15 Apr 2026 · Transport and Logistics Bureau:** TLB lists the first batch of four Sandbox X unconventional-aircraft pilot projects. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf)
+  - Tag: Officially confirmed
+  - What's new: AECOM/AutoFlight/Chun Wo; China Travel Tours/AutoFlight/GBA LAE Alliance/CMHK/Esri; Geosys/FLYCAMHK/DEVB; KC Smart Mobility/Cyberport/EHang. Implementation depends on applicants accepting approved conditions.
+  - Status: Sandbox X (not the Regulatory Sandbox).
+  - Read instead: Official status: Sandbox X
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “After review by the Working Group on Developing Low-altitude Economy (“WG”), a first batch of four UCA pilot projects will be included for implementation in Sandbox X.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf))
+
+  [「經發展低空經濟工作組（「工作組」）審核後，首批四個非傳統航空器試點項目將納入「監管沙盒 X」推展。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Sandbox_X_UCA_Applications_TC_15.4.2026_rev2.pdf))
+  :::
+
+- []{#industry-item-2026-04-15-skydrive-ado .industry-item}**15 Apr 2026 · SkyDrive Inc.:** SkyDrive says JCAB issued Approved Design Organization (ADO) Certificate No. 313 for aircraft design and post-design inspection — claimed as Japan’s first dedicated eVTOL ADO. [Link](https://skydrive.co.jp/en/news/18082/)
+  - Tag: Company-announced
+  - What's new: ADO is an organisation approval, not an aircraft type certificate. Company links it to streamlining the path to 2028 service (company timing).
+  - Status: Organisation approval as announced by the company; not a type certificate.
+  - Read instead: None.
+
+- []{#industry-item-2026-04-14-vertical .industry-item}**14 Apr 2026 · AeroTime:** AeroTime reports Vertical Aerospace’s VX4 flew a piloted two-way transition (vertical → wingborne → vertical) at Cotswold Airport. [Link](https://www.aerotime.aero/articles/vertical-aerospace-first-non-us-evtol-developer-two-way-transition-flight)
+  - Tag: Independently reported
+  - Status: Flight-test milestone; not a type certificate.
+
+- []{#industry-item-2026-04-11-feiyida .industry-item}**11 Apr 2026 · 珠海传媒 (hizh.cn):** Zhuhai firm Guangdong Feiyida Aviation launches the “飞易达Air” low-altitude travel platform, with cross-border helicopter services, at the Macao tourism expo. [Link](https://pub-static.hizh.cn/a/202604/12/AP69db9b4de4b09f2cace3801e.html)
+  - Tag: Independently reported
+  - Status: The “first platform” and “commercial operation” framing is the report’s, not verified.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「4月11日，在第十四届澳门国际旅游（产业）博览会期间，国内首个整合跨境直升机服务的低空出行平台——“飞易达Air”矩阵正式发布，标志着大湾区低空文旅从“概念验证”迈入“商业运营”新阶段。」]{lang="zh-Hans"} ([source](https://pub-static.hizh.cn/a/202604/12/AP69db9b4de4b09f2cace3801e.html))
+
+  English (LAE-Intel translation): On 11 April, during the 14th Macao International Travel (Industry) Expo, the "Feiyida Air" matrix, the first domestic low-altitude mobility platform integrating cross-border helicopter services, was officially launched, marking the move of GBA low-altitude cultural tourism from "proof of concept" to a new stage of "commercial operation".
+  :::
+
+### March 2026 {#industry-2026-03}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-03-26-szhk .industry-item}**26 Mar 2026 · 香港文匯報 (Wen Wei Po):** LSCM and CEPREI release a “Shenzhen–HK low-altitude cross-border logistics solution”; three priority cross-border drone routes named. [Link](https://www.wenweipo.com/a/202603/27/AP69c5cb01e4b0b49ad1b41cb6.html)
+  - Tag: Independently reported
+  - What's new: Reported plans: a SZ–HK cross-border logistics sandbox pilot and three routes to be tested first (Shekou–Tuen Mun, Man Kam To–Sheung Shui, inside the Loop).
+  - Status: Plans only; no cross-border flight evidenced in this item.
+  - Read instead: [21经济网](https://www.21jingji.com/article/20260328/herald/973b0ec1559dfb075e3c3f6bef7b5a1c.html); Official status: SZ–HK corridor
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「「深港低空跨境物流解決方案」正式發布，香港物流及供應鏈多元技術研發中心（LSCM）、工信部電子五所賽寶低空通航實驗室聯合披露關鍵進展：雙方已完成跨境數據互通、飛控平台對接等核心突破，計劃於2026年6月推出深港低空跨境物流監管沙盒試點」…「深圳將優先測試三條跨境無人機配送航線，包括蛇口—屯門航線、文錦渡—上水航線、河套合作區內部航線，預計將於年內啟航。」]{lang="zh-Hant"} ([source](https://www.wenweipo.com/a/202603/27/AP69c5cb01e4b0b49ad1b41cb6.html))
+
+  English (LAE-Intel translation): The "Shenzhen–Hong Kong Low-altitude Cross-border Logistics Solution" was officially released. LSCM and the CEPREI low-altitude aviation laboratory of MIIT's No. 5 Electronics Research Institute jointly disclosed key progress: the two sides have achieved core breakthroughs such as cross-border data interoperability and flight-control platform integration, and plan to launch a Shenzhen–Hong Kong low-altitude cross-border logistics regulatory sandbox pilot in June 2026. / Shenzhen will first test three cross-border drone delivery routes (Shekou–Tuen Mun, Man Kam To–Sheung Shui, and a route inside the Loop co-operation zone), expected to start within the year.
+  :::
+
+- **11 Mar 2026 · Joby Aviation newsroom:** Joby says N547JX, the first of its FAA-conforming TIA fleet, has begun flight testing. [Link](https://www.jobyaviation.com/news/joby-s-first-faa-conforming-aircraft-takes-flight)
+  - Tag: Company-announced
+  - Status: Not a type certificate.
+  - Read instead: [Companies & sectors: Joby](landscape.qmd)
+
+- []{#industry-item-2026-03-09-skydrive-gcp .industry-item}**9 Mar 2026 · SkyDrive Inc.:** SkyDrive says it reached agreement with Japan’s JCAB on the General Certification Plan for the SD-05 type-certification process. [Link](https://skydrive.co.jp/en/news/17834/)
+  - Tag: Company-announced
+  - What's new: Company frames the GCP agreement as a core certification step; remaining structure/systems/motor/noise plans still under review. Service target remains from 2028 (company). Not a type certificate.
+  - Status: Certification-plan agreement as announced by the company.
+  - Read instead: None.
+
+- []{#industry-item-2026-03-09-eipp .industry-item}**9 Mar 2026 · FAA newsroom:** USDOT/FAA select eight eVTOL Integration Pilot Program (eIPP) projects. [Link](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight)
+  - Tag: Officially confirmed
+  - Status: A programme pathway, not type certification of any aircraft.
+
+- []{#industry-item-2026-03-05-aridge-batch .industry-item}**5 Mar 2026 · Xinhua; Guangdong FAO:** Xinhua reports five Land Aircraft Carrier units rolled off in batch trial production in Guangzhou and completed multi-aircraft test flights. [Link](https://english.news.cn/20260306/c792c17d3300414b9cc66c3a7686089b/c.html) · [Guangdong FAO](https://en.gdfao.gov.cn/2026-03/06/c_1165537.htm)
+  - Tag: Independently reported
+  - What's new: Official English wire confirms batch trial production and same-day multi-aircraft flights at the Guangzhou facility. Distinct from the Oct 2025 Dubai demo/order event. Factory cadence and 2026 delivery timing remain company expectations.
+  - Status: Batch trial production independently reported via Xinhua; capacity/timing claims via company.
+  - Read instead: [12 Oct 2025 XPeng AeroHT / ARIDGE Dubai](#industry-item-2025-10-12-aridge-dubai)
+
+- []{#industry-item-2026-03-02-archer-moc .industry-item}**2 Mar 2026 · Archer Aviation IR:** In FY2025 results, Archer says it received final FAA acceptance of 100% of Midnight’s Means of Compliance. [Link](https://investors.archer.com/news/news-details/2026/Archer-Announces-Fourth-Quarter-and-Full-Year-2025-Results-US-and-UAE-Air-Taxi-Pilot-Programs-On-Track-for-2026/default.aspx)
+  - Tag: Company-announced
+  - What's new: Archer says completing MoC unlocks remaining certification plans and a path toward Type Inspection Authorization “as soon as this year” (company expectation). FAA newsroom primary for this MoC milestone was not retrieved.
+  - Status: Company-reported FAA process milestone — not a type certificate; not upgraded to Officially confirmed.
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
+
+- **Mar 2026 · SEC EDGAR Form 6-K Exhibit 99.1 (EHang):** EHang says it delivered 221 eVTOL units in 2025 (215 EH216 series, 6 VT35). [Link](https://www.sec.gov/Archives/edgar/data/1759783/000119312526103021/d67855dex991.htm)
+  - Tag: Company-announced
+  - Status: Company figures; an SEC furnishing is not regulator confirmation. Exact day not shown in the retrieved text.
+
+### February 2026 {#industry-2026-02}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-02-27-keeta .industry-item}**27 Feb 2026 · Keeta Drone blog; 香港商報; SCMP:** Keeta Drone opens a Science Park–Ting Kok Village elderly meal-delivery route with Hong Kong Children & Youth Services. [Link](https://www.keetadrone.com/blogs/news/meituan-drone-service-launches-science-park-tai-po-route-delivering-meals-to-elderly-living-alone-six-days-a-week)
+  - Tag: Independently reported
+  - What's new: SCMP reports service officially began on 2 Mar 2026; Hong Kong Commercial Daily reports about 15 elderly people served initially. Trip-time claims are the company’s.
+  - Status: Regulatory Sandbox route (not Sandbox X); official English OPEN.
+  - Read instead: [SCMP](https://www.scmp.com/video/hong-kong/3345836/keeta-launches-first-drone-meal-delivery-route-elderly-people-remote-rural-areas); [香港商報](https://www.hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html); [Companies & sectors: Kangaroo Limited](landscape.qmd#firm-kangaroo-limited-meituan-keeta-drone)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「Keeta Drone（美团无人机）与香港青少年服务处携手合作的“大埔汀角村无人机航线”今日（27日）正式启动，解决偏远乡郊长者送餐服务的三大困难，即路途远、人手缺及轮候长。」]{lang="zh-Hans"} ([source](https://www.keetadrone.com/blogs/news/meituan-drone-service-launches-science-park-tai-po-route-delivering-meals-to-elderly-living-alone-six-days-a-week))
+
+  English (LAE-Intel translation): The "Tai Po Ting Kok Village drone route", run jointly by Keeta Drone (Meituan Drone) and Hong Kong Children & Youth Services, was officially launched today (27th), addressing three difficulties of meal delivery to elderly people in remote rural areas: long distances, staff shortages and long waiting lists.
+  :::
+
+- **25 Feb 2026 · Joby IR (issued by Uber):** Uber and Joby show in-app booking for Joby air taxis in Dubai. [Link](https://ir.jobyaviation.com/news-events/press-releases/detail/173/get-ready-for-takeoff-with-uber-and-joby)
+  - Tag: Company-announced
+  - Status: Preview only; no passenger launch evidenced as of 7 Oct 2026.
+
+- []{#industry-item-2026-02-11-hanyang .industry-item}**11 Feb 2026 · 中证网 (via 投资观察界 reprint):** AutoFlight says Hanyang Investment & Development Group ordered 12 large eVTOLs, with a deposit paid. [Link](https://tzgcj.daiweicd.com/post/5618.html)
+  - Tag: Independently reported
+  - What's new: The report gives a contract total of RMB157m (company-announced).
+  - Status: Order count and value are company-announced.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「2月11日，峰飞航空宣布获得汉阳投资发展集团的12架大型eVTOL航空器采购订单并已收到预付款，订单合同总金额1.57亿元。」]{lang="zh-Hans"} ([source](https://tzgcj.daiweicd.com/post/5618.html))
+
+  English (LAE-Intel translation): On 11 February, AutoFlight announced it had received a purchase order for 12 large eVTOL aircraft from Hanyang Investment & Development Group and had received an advance payment; the total contract value is RMB157 million.
+  :::
+
+### January 2026 {#industry-2026-01}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-01-28-joby-raise .industry-item}**28 Jan 2026 · Joby Aviation newsroom:** Joby announces proposed offerings of convertible senior notes due 2032 and common stock with aggregate anticipated proceeds of US$1,000,000,000. [Link](https://www.jobyaviation.com/news/joby-aviation-announces-proposed-offerings-of-common-stock-and-convertible-senior-notes)
+  - Tag: Company-announced
+  - What's new: Company says net proceeds are intended for certification, manufacturing, commercial-operations preparation and general corporate purposes. Offerings are subject to market conditions.
+  - Status: Proposed offerings as announced; sizing is company-announced.
+  - Read instead: [Companies & sectors: Joby](landscape.qmd)
+
+- **21 Jan 2026 · Zipline newsroom:** Zipline says it passed 2 million deliveries and raised more than US$600m, and is expanding to Houston and Phoenix. [Link](https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix)
+  - Tag: Company-announced
+  - Status: Funding and delivery counts are company-announced.
+
+- []{#industry-item-2026-01-19-versitech .industry-item}**19 Jan 2026 · 香港文匯報 (Wen Wei Po):** HKU’s Versitech signs a joint low-altitude technology lab agreement with a tech firm, witnessed by STL, at the 2nd Low-Altitude Summit. [Link](https://www.wenweipo.com/a/202601/20/AP696e98a7e4b04d7d56cf55a5.html)
+  - Tag: Independently reported
+  - Status: Agreement signing; partner firm not named in the report. Official English OPEN.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「港大科橋有限公司與一間科創公司昨日在特區政府運輸及物流局局長陳美寶見證下，簽署建立聯合實驗室協議，研究及應用民用低空技術。」]{lang="zh-Hant"} ([source](https://www.wenweipo.com/a/202601/20/AP696e98a7e4b04d7d56cf55a5.html))
+
+  English (LAE-Intel translation): Versitech Limited (HKU) and a tech-innovation company yesterday, witnessed by Secretary for Transport and Logistics Mable Chan, signed an agreement to establish a joint laboratory to research and apply civil low-altitude technology.
+  :::
+
+- **11 Jan 2026 · Wing newsroom; TechCrunch:** Wing says it will add drone delivery at 150 more Walmart stores. [Link](https://wing.com/news/wing-walmart-expand-drone-delivery-coast-to-coast)
+  - Tag: Company-announced
+  - Status: Expansion as announced; store counts are company figures.
+  - Read instead: [TechCrunch](https://techcrunch.com/2026/01/11/wing-to-expand-drone-delivery-to-another-150-walmart-stores/)
+
+- **5 Jan 2026 · Meituan newsroom:** Meituan says it demonstrated its “低空航网” air-network model and products during the Premier’s Guangdong inspection (3–5 Jan). [Link](https://www.meituan.com/news/NN260106200001758)
+  - Tag: Company-announced
+  - What's new: Meituan says its first regularised Hong Kong route started operating in June 2025.
+  - Status: Route and order counts are company figures.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为适应市场需求，美团无人机于2025年12月推出了全新的“低空航网”运营模式，同步发布配套的第四代无人机长程版、智能接驳机场及第三代智能调度系统等多款核心自研产品，并在此次调研中进行了演示。」]{lang="zh-Hans"} ([source](https://www.meituan.com/news/NN260106200001758))
+
+  English (LAE-Intel translation): To meet market demand, Meituan Drone launched a new "low-altitude air network" operating model in December 2025, together with several core self-developed products including a long-range version of its fourth-generation drone, an intelligent docking airport and a third-generation intelligent dispatch system, and demonstrated them during this inspection visit.
+  :::
+
+### December 2025 {#industry-2025-12}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2025-12-28-ehang-vt35 .industry-item}**28 Dec 2025 · EHang newsroom:** EHang says the long-range compound-wing VT35 completed its first public flight at Feidong Bailong Airport, Hefei. [Link](https://www.ehang.com/news/1328.html)
+  - Tag: Company-announced
+  - What's new: Company frames the flight as validating medium- to long-range scenarios and deepening the Hefei partnership. Not a CAAC type certificate. Distinct from the Aug 2026 EH216-S Cyberport public flight and from FY2025 delivery counts.
+  - Status: Public flight demonstration as announced by the company.
+  - Read instead: [Companies & sectors: EHang](landscape.qmd#firm-ehang-holdings)
+
+- []{#industry-item-2025-12-19-meituan .industry-item}**19 Dec 2025 · 证券时报 / stcn.com:** Meituan Drone unveils its “低空航网” air-network model, a docking airport and a new-generation drone. [Link](https://www.stcn.com/article/detail/3552556.html)
+  - Tag: Independently reported
+  - What's new: Meituan VP Mao Yinian says the unit operates 65 routes across Shenzhen, Shanghai, Beijing, Hong Kong and Dubai and has completed 740,000 commercial orders.
+  - Status: Route and order counts are company-announced.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「12月19日，美团无人机发布多款产品，包括无人机低空航网、无人机智能接驳机场和最新一代无人机产品。美团副总裁、无人机业务部负责人毛一年透露，截至目前，美团无人机已在深圳、上海、北京以及中国香港和迪拜等城市运营65条航线，已经完成74万单商业订单」]{lang="zh-Hans"} ([source](https://www.stcn.com/article/detail/3552556.html))
+
+  English (LAE-Intel translation): On 19 December, Meituan Drone released several products, including a drone low-altitude air network, an intelligent drone docking airport and its latest-generation drone. Meituan Vice President and head of the drone business, Mao Yinian, disclosed that to date Meituan Drone operates 65 routes in cities including Shenzhen, Shanghai, Beijing, Hong Kong (China) and Dubai, and has completed 740,000 commercial orders
+  :::
+
+- []{#industry-item-2025-12-16-wisk .industry-item}**16 Dec 2025 · Wisk Aero newsroom:** Wisk says its Generation 6 autonomous eVTOL completed first vertical take-off, hover and stabilised flight at Hollister, California. [Link](https://wisk.aero/newsroom/wisk-completes-first-flight-of-generation-6-autonomous-evtol)
+  - Tag: Company-announced
+  - What's new: Boeing-owned Wisk frames Gen 6 as the subject of its FAA type-certification application, with launch markets named as Houston, Los Angeles and Miami (company). First flight is a hover/stability milestone, not a type certificate.
+  - Status: First-flight milestone as announced; not a type certificate.
+  - Read instead: None.
+
+- **9 Dec 2025 · Archer Aviation IR:** Archer says it completed phase one of its deal to control Hawthorne Airport, its planned Los Angeles air-taxi hub. [Link](https://investors.archer.com/news/news-details/2025/Archer-Completes-First-Phase-of-Transactions-to-Acquire-Control-of-Hawthorne-Airport/default.aspx)
+  - Tag: Company-announced
+  - What's new: Phase one covers the master lease and subleases.
+  - Status: Company transaction; not an operating air-taxi service.
+
+### November 2025 {#industry-2025-11}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2025-11-24-sandbox-x .industry-item}**24 Nov 2025 · 政府新聞公報 / GIA:** TLB launches Regulatory Sandbox X for more complex scenarios; UTM-demonstration applications open to 9 Jan 2026. [Link](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)
+  - Tag: Officially confirmed
+  - What's new: STL Mable Chan: Sandbox X handles more complex scenarios such as cross-boundary drones, passenger-carrying aircraft and integrated platforms. The Chinese release says 29 of the 38 first-batch Regulatory Sandbox projects had started.
+  - Status: Sandbox X is separate from the Regulatory Sandbox; cross-boundary results OPEN.
+  - Read instead: Official status: Regulatory Sandbox X
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The launch event of the low-altitude economy "Regulatory Sandbox X" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
+
+  [「首批「監管沙盒」共有38個項目獲選，已啟動的29個項目內容涵蓋緊急救援、物流配送、維修和安全檢查、監測、低空基建設施等多個領域及不同應用場景，為城市注入全新智慧動能。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+  :::
+
+- **22 Nov 2025 · AutoFlight newsroom:** AutoFlight launches “SUNSHIP”, a floating eVTOL take-off platform with solar-storage charging and dispatch. [Link](https://www.autoflight.com/zh/news/sea/)
+  - Tag: Company-announced
+  - Status: Product launch; efficiency claims not repeated. Hong Kong has no vertiport statute.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「峰飞航空自主研发的全球首个eVTOL零碳水上机场，作为水上移动空港与智慧指挥中枢，集成eVTOL起降平台、光储充能源保障、智能调度系统及通信配套等功能，可快速部署于江、河、湖、海等各类水域。」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/sea/))
+
+  English (LAE-Intel translation): AutoFlight's self-developed, world-first eVTOL zero-carbon water airport, serving as a floating mobile airport and smart command hub, integrates an eVTOL take-off/landing platform, solar-storage-charging energy supply, an intelligent dispatch system and communications, and can be rapidly deployed on rivers, lakes, seas and other waters.
+  :::
+
+- []{#industry-item-2025-11-16-joby .industry-item}**16 Nov 2025 · Roads and Transport Authority (RTA) Dubai:** RTA says Joby flew a crewed eVTOL 17 minutes from Margham to Al Maktoum International (DWC). [Link](https://www.rta.ae/wps/portal/rta/ae/home/news-and-media/all-news/NewsDetails/successful-first-crewed-electric-aerial-taxi-flight)
+  - Tag: Officially confirmed
+  - What's new: RTA says it was the first crewed eVTOL flight between two distinct UAE locations and that Skyports had completed 60% of the DXB vertiport.
+  - Status: Test flight; no passenger service evidenced.
+
+- []{#industry-item-2025-11-13-archer-uae .industry-item}**13 Nov 2025 · Archer Aviation IR:** Archer says Midnight completed an in-country UAE flight campaign covering vertical take-off, transition and wingborne flight, and that Launch Edition payments from Abu Dhabi Aviation have begun. [Link](https://investors.archer.com/news/news-details/2025/Archers-Midnight-Showcases-In-Country-eVTOL-Flight-Test-Campaign-in-UAE-as-Part-of-Its-Commercial-Launch-Edition-Program/default.aspx)
+  - Tag: Company-announced
+  - What's new: Company says tests at Al Ain / desert conditions were coordinated with GCAA, ITC and ADA. Distinct from the May 2026 UAE RTC pathway and from Hawthorne Airport control (Dec 2025) already on this page.
+  - Status: In-country flight campaign and Launch Edition payments as announced by the company; not a type certificate.
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
+
+- **3 Nov 2025 · BETA Technologies IR:** BETA says it priced its upsized IPO: 29,852,941 Class A shares at US$34.00. [Link](https://investors.beta.team/news-events/press-releases/detail/89/beta-technologies-inc-prices-upsized-initial-public-offering)
+  - Tag: Company-announced
+  - Status: IPO pricing as announced by the company.
+
+### October 2025 {#industry-2025-10}
+
+[↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2025-10-27-falcon .industry-item}**27 Oct 2025 · Falcon Aviation Services:** Falcon Aviation says it ordered 50 AutoFlight eVTOLs — 15 V2000CG CarryAll cargo and 35 V2000EM Prosperity passenger — with first deliveries targeted by end-2025 for ADNOC-related services. [Link](https://www.falconaviation.ae/2025/11/04/falcon-aviation-services-orders-50-evtol-aircraft-from-autoflight)
+  - Tag: Company-announced
+  - What's new: Emirati operator Falcon says the order was signed on 27 Oct 2025 with ADNOC representatives present. Cargo aircraft are described as first to be delivered; Prosperity remains in verification testing pending airworthiness for passenger roles (company framing). Distinct from later AutoFlight Kazakhstan/Indonesia/Hanyang/Jining/Lingjie/SF items already on this page.
+  - Status: Order as announced by the customer; passenger airworthiness still pending per Falcon’s own text. End-2025 delivery target is company timing.
+  - Read instead: None.
+
+- []{#industry-item-2025-10-12-aridge-dubai .industry-item}**12 Oct 2025 · Newsfile / XPENG AEROHT (ARIDGE); CarNewsChina:** XPeng AeroHT says it completed a public manned Land Aircraft Carrier demo in Dubai, secured 600 Middle East orders, and rebranded internationally as ARIDGE. [Link](https://www.newsfilecorp.com/release/271101/XPENG-AEROHT-Makes-Global-Breakthrough-with-First-Public-Manned-Flight-in-Dubai-and-Announces-Rebrand-to-ARIDGE) · [600-order wire](https://www.newsfilecorp.com/release/271102/ARIDGE-Secures-Record-600-Flying-Car-Orders-in-the-Middle-East-Following-Landmark-Dubai-Demonstration)
+  - Tag: Company-announced
+  - What's new: Company wires say purchase agreements were signed with UAE, Qatar and Kuwait counterparties after the Dubai event. Order counts and “largest overseas bulk order” framing are company-announced; ~7,000 global order-book and 2026 mass-production timing are company claims not independently audited.
+  - Status: Demo and order announcements as stated by the company.
+  - Read instead: [5 Mar 2026 Guangzhou batch trial (Xinhua)](#industry-item-2026-03-05-aridge-batch)
+
+- []{#industry-item-2025-10-10-bingex .industry-item}**10 Oct 2025 · BingEx / PR Newswire:** FlashEx says it partnered with Hangzhou to launch a city-wide low-altitude logistics network now in commercial pilot. [Link](https://www.prnewswire.com/apac/news-releases/from-road-to-sky-bingex-and-hangzhou-join-forces-to-launch-a-next-generation-urban-drone-network-302580520.html)
+  - Tag: Company-announced
+  - What's new: BingEx says first routes are live and frames an end-2025 aim for an initial city-wide Hangzhou network (company plan, not regulator confirmation). Safety slogans in the release are company claims.
+  - Status: Commercial pilot as announced by the company.
+  - Read instead: [18 May 2026 FlashEx–HLID investment](#industry-item-2026-05-18-bingex-hlid)
+

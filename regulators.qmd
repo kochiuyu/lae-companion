@@ -1,0 +1,143 @@
+---
+title: "Who decides what?"
+subtitle: "Regulator roles for LAE students"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+This page gives **one-line roles** only.
+
+- Instruments and status: [Official status](tracker.qmd) and [Timeline](dates.qmd)
+- Term definitions: [Glossary](glossary.qmd)
+
+**Comparators** (Mainland, EU, US) are for learning. They are **not** Hong Kong law.
+
+## Two things to keep straight {#standing-caveats}
+
+In plain words (details and dates on [Official status](tracker.qmd) and [Timeline](dates.qmd)):
+
+1. **Hong Kong has two different trial programmes** — the first **Regulatory Sandbox** and later **[Sandbox X](glossary.qmd#hong-kong-institutions-and-law)**. They are **not** the same list of projects. Do not mix their counts.
+2. A **Shenzhen–Hong Kong / Greater Bay Area (GBA) cross-boundary corridor** is discussed in policy. On the evidence tracked here, **flights are not running on an operating corridor** as day-to-day service.
+
+```{=html}
+<figure class="wdiag" id="reg-two-caveats" aria-labelledby="reg-two-caveats-title">
+<p class="wdiag-cap" id="reg-two-caveats-title"><strong>Two things to keep straight</strong> — (1) Hong Kong has two different trial programmes: <strong>Regulatory Sandbox</strong> ≠ <strong>Sandbox X</strong> (do not mix counts). (2) A Shenzhen–Hong Kong / GBA cross-boundary corridor is discussed in policy; on the evidence tracked here, flights are <strong>not</strong> running as day-to-day operating service. Cite Official status / Timeline for dates.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Two panels. Left: Regulatory Sandbox not equal to Sandbox X. Right: GBA corridor discussed in policy but not day-to-day operating service on evidence tracked here." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d10-title d10-desc">
+  <title id="d10-title">Two things to keep straight</title>
+  <desc id="d10-desc">Two standing caveats for Hong Kong LAE students. First: Hong Kong has two different trial programmes — the Regulatory Sandbox and later Sandbox X — not the same project list. Second: a Shenzhen–Hong Kong or GBA cross-boundary corridor is discussed in policy, but flights are not running as day-to-day operating service on the evidence tracked here.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="38" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Two things to keep straight</text>
+  <text x="360" y="56" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Orient caveats · details on Official status / Timeline</text>
+
+  <rect x="36" y="78" width="300" height="180" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="186" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">1 · Two trial programmes</text>
+  <rect x="56" y="128" width="120" height="70" rx="6" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="116" y="158" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Regulatory</text>
+  <text x="116" y="176" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox</text>
+  <text x="186" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#C5A572">≠</text>
+  <rect x="196" y="128" width="120" height="70" rx="6" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="256" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Sandbox X</text>
+  <text x="186" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Not the same project list</text>
+  <text x="186" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Do not mix counts</text>
+
+  <rect x="384" y="78" width="300" height="180" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="534" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">2 · Corridor talk ≠ ops</text>
+  <text x="534" y="148" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Shenzhen–Hong Kong / GBA</text>
+  <text x="534" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">cross-boundary corridor</text>
+  <text x="534" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">discussed in policy</text>
+  <text x="534" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Not day-to-day operating</text>
+  <text x="534" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">service on evidence here</text>
+
+  <rect x="36" y="282" width="648" height="56" rx="8" fill="#ffffff" stroke="#d9d4c7"/>
+  <text x="360" y="308" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Cite Official status / Timeline for dates and counts — this figure holds labels only.</text>
+  <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Comparators (Mainland, EU, US) are for learning — not Hong Kong law.</text>
+
+</svg>
+<p class="wdiag-note">From regulators.md standing caveats. Counts live on Official status / Key figures.</p>
+</figure>
+```
+
+## Hong Kong
+
+| Body | What it controls for this course |
+|------|----------------------------------|
+| [**Working Group on Developing Low-altitude Economy**](glossary.qmd#hong-kong-institutions-and-law) | Cross-government LAE strategy group (headed by the Deputy Financial Secretary; STL is Deputy Head). Selects Sandbox / Sandbox X projects. An Action Plan is still being formulated (text marked **OPEN**). |
+| [**TLB** (Transport and Logistics Bureau)](glossary.qmd#hong-kong-institutions-and-law) | Policy bureau. Supports the Working Group secretariat. Runs Sandbox pilot projects by batches. Publishes Sandbox X module communications. |
+| [**CAD** (Civil Aviation Department)](glossary.qmd#hong-kong-institutions-and-law) | Regulator for Cap. **448G** **SUA** (small unmanned aircraft). Issues sandbox Advisory Circulars. Designates restricted flying zones. Has a technical study role on the planned traffic-management system. |
+| [**OFCA / Communications Authority**](glossary.qmd#hong-kong-institutions-and-law) | Spectrum licensing for the **1.4 GHz UAS (Private) Licence** (confined to LAE **Regulatory Sandbox** projects). CAD still approves relevant flight paths in that setting. |
+
+```{=html}
+<figure class="wdiag" id="reg-hk-bodies" aria-labelledby="reg-hk-bodies-title">
+<p class="wdiag-cap" id="reg-hk-bodies-title"><strong>Who decides what (Hong Kong)</strong> — Working Group (strategy; selects Sandbox / Sandbox X projects); TLB (policy bureau; Sandbox batches / Sandbox X modules); CAD (Cap. 448G SUA regulator; sandbox circulars); OFCA (1.4 GHz UAS Private Licence confined to Regulatory Sandbox). Keep Sandbox ≠ Sandbox X. U-space ≠ Hong Kong law. Mainland / EASA / FAA are comparators only.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Four cards for Hong Kong bodies: Working Group, TLB, CAD, and OFCA with one-line roles. Note Sandbox not equal Sandbox X and U-space not Hong Kong law." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e1-title e1-desc">
+  <title id="e1-title">Who decides what (Hong Kong)</title>
+  <desc id="e1-desc">Four Hong Kong bodies for this course. Working Group on Developing Low-altitude Economy: cross-government strategy and Sandbox project selection. TLB: policy bureau and Sandbox batches. CAD: Cap. 448G SUA regulator and sandbox circulars. OFCA: 1.4 GHz UAS private licence spectrum confined to Regulatory Sandbox projects.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Who decides what (Hong Kong)</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">One-line roles for this course · not a full org chart</text>
+
+  <rect x="28" y="72" width="330" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="44" y="98" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Working Group (LAE)</text>
+  <text x="44" y="120" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Cross-government strategy</text>
+  <text x="44" y="140" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Selects Sandbox / Sandbox X projects</text>
+  <text x="44" y="158" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Action Plan still OPEN where marked</text>
+
+  <rect x="372" y="72" width="320" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="388" y="98" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">TLB</text>
+  <text x="388" y="120" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Policy bureau</text>
+  <text x="388" y="140" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Sandbox batches · Sandbox X modules</text>
+  <text x="388" y="158" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Supports Working Group secretariat</text>
+
+  <rect x="28" y="188" width="330" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="44" y="214" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">CAD</text>
+  <text x="44" y="236" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Cap. 448G SUA regulator</text>
+  <text x="44" y="256" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Sandbox Advisory Circulars</text>
+  <text x="44" y="274" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Restricted zones · UTM study role</text>
+
+  <rect x="372" y="188" width="320" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="388" y="214" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">OFCA / CA</text>
+  <text x="388" y="236" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">1.4 GHz UAS (Private) Licence</text>
+  <text x="388" y="256" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Spectrum confined to Regulatory</text>
+  <text x="388" y="274" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Sandbox projects (not AC-017 alone)</text>
+
+  <rect x="28" y="310" width="664" height="48" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X · U-space ≠ Hong Kong law</text>
+  <text x="360" y="350" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Mainland / EASA / FAA rows on this page are comparators only.</text>
+
+</svg>
+<p class="wdiag-note">From regulators Hong Kong table. One-line roles only.</p>
+</figure>
+```
+
+## Mainland (comparator)
+
+| Body | What it controls for this course |
+|------|----------------------------------|
+| [**CAAC**](glossary.qmd#mainland-comparators) | Civil Aviation Administration of China — responsible authority under **CCAR-92** for UAS operational safety. Publisher of ATM Rules Chapter 12 **draft** (not promulgated). |
+| [**Ministry of Transport**](glossary.qmd#mainland-comparators) | Promulgated **CCAR-92** (MOT Order 2024 No. 1; in force 1 Jan 2024). See Glossary diagram sources and [Official status](tracker.qmd). |
+| [**NDRC**](glossary.qmd#mainland-comparators) | Issued 发改低空〔2025〕**1676号** — a **statistical classification** of 低空经济 (low-altitude economy). Not an official national scale (规模) figure ([Official status](tracker.qmd)). |
+| [**Guangdong Provincial People’s Government General Office**](glossary.qmd#mainland-comparators) | Issued 粤府办〔2024〕**6号** (LAE action plan 2024–2026). GBA corridor language is a **policy aim**, not evidence of an operating Shenzhen–Hong Kong corridor ([Glossary](glossary.qmd#who-regulates-what); [Official status](tracker.qmd)). |
+
+Related Mainland instruments (status on Official status / Timeline): **国令761**, National Airspace Basic Classification, Civil Aviation Law (2025 revision).
+
+## EU / US (course comparators)
+
+These are **not** Hong Kong regulators. Use them for frameworks and readings — not for Hong Kong compliance claims.
+
+| Body | What students use it for here |
+|------|-------------------------------|
+| [**EASA**](glossary.qmd#eu-us-comparators) | EU Aviation Safety Agency — **U-space** framework as a comparator (**U-space is not Hong Kong law**); SC-VTOL / VTOL certification material; prototype vertiport design specs. Dated rows on [Timeline](dates.qmd); documents on the week pages under **Teach**. |
+| [**FAA**](glossary.qmd#eu-us-comparators) | US Federal Aviation Administration — UTM / UAM concepts of operations; Remote ID; powered-lift and AAM implementation plan as course comparators. Dated rows on [Timeline](dates.qmd); documents on the week pages under **Teach**. |
+
+[Course overview](overview.qmd) also names NASA, AiRMOUR, and other AAM frameworks as comparators — not decision-makers for Hong Kong flights.
+
+## Where to look next
+
+- Settled / OPEN / WATCH labels → [Official status](tracker.qmd)
+- Dated instruments and milestones → [Timeline](dates.qmd)
+- Term entries and “who regulates what” diagram → [Glossary](glossary.qmd)
+- Business side → [How does LAE work?](business-overview.qmd)
+- Plain-language scope → [What is LAE?](primer.qmd)

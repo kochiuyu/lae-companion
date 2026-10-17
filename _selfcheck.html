@@ -1,0 +1,198 @@
+<!-- Self-check MCQs: private practice on week pages.
+     Markup: .selfcheck > .selfcheck-q[data-correct="a|b|c|d"] with radios + .selfcheck-explain.
+     JS adds Check answer / Reset; ✓/✗ feedback; wraps option text so <em>/<strong> stay inline; no scores stored, no LMS. -->
+<script>
+(function () {
+  function feedbackEl(q) {
+    var fb = q.querySelector(":scope > .selfcheck-feedback");
+    if (!fb) {
+      fb = document.createElement("p");
+      fb.className = "selfcheck-feedback";
+      fb.setAttribute("aria-live", "polite");
+      fb.hidden = true;
+      q.appendChild(fb);
+    }
+    return fb;
+  }
+
+  function ensureActions(q) {
+    var actions = q.querySelector(":scope > .selfcheck-actions");
+    if (actions) return actions;
+    actions = document.createElement("div");
+    actions.className = "selfcheck-actions";
+    var check = document.createElement("button");
+    check.type = "button";
+    check.className = "selfcheck-check";
+    check.textContent = "Check answer";
+    var reset = document.createElement("button");
+    reset.type = "button";
+    reset.className = "selfcheck-reset";
+    reset.textContent = "Reset";
+    actions.appendChild(check);
+    actions.appendChild(reset);
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    if (explain) q.insertBefore(actions, explain);
+    else q.appendChild(actions);
+    return actions;
+  }
+
+  /* Wrap label children after the radio into one span so <em>/<strong> stay in
+     a single inline flow (CSS grid/flex would otherwise make each a cell). */
+  function wrapOptionText(label) {
+    if (!label || label.querySelector(":scope > .selfcheck-opt-text")) return;
+    var radio = label.querySelector(':scope > input[type="radio"]');
+    var wrap = document.createElement("span");
+    wrap.className = "selfcheck-opt-text";
+    var node = radio ? radio.nextSibling : label.firstChild;
+    while (node) {
+      var next = node.nextSibling;
+      if (!(node.nodeType === 1 && node.classList && node.classList.contains("selfcheck-mark"))) {
+        wrap.appendChild(node);
+      }
+      node = next;
+    }
+    if (wrap.childNodes.length) label.appendChild(wrap);
+  }
+
+  function clearMarks(q) {
+    q.querySelectorAll(".selfcheck-mark").forEach(function (el) {
+      el.remove();
+    });
+    q.querySelectorAll(".selfcheck-options > li").forEach(function (li) {
+      li.classList.remove("is-pick-ok", "is-pick-bad", "is-key");
+    });
+  }
+
+  function addMark(li, kind) {
+    if (!li) return;
+    var existing = li.querySelector(".selfcheck-mark");
+    if (existing) existing.remove();
+    var mark = document.createElement("span");
+    mark.className = "selfcheck-mark selfcheck-mark-" + kind;
+    mark.setAttribute("role", "img");
+    if (kind === "bad") {
+      mark.textContent = "✗";
+      mark.setAttribute("aria-label", "Incorrect");
+    } else {
+      mark.textContent = "✓";
+      mark.setAttribute("aria-label", "Correct");
+    }
+    var label = li.querySelector(":scope > label");
+    if (!label) {
+      li.appendChild(mark);
+      return;
+    }
+    wrapOptionText(label);
+    var text = label.querySelector(":scope > .selfcheck-opt-text");
+    if (text) text.appendChild(mark);
+    else label.appendChild(mark);
+  }
+
+  function markOptions(q, selected, correct, ok) {
+    clearMarks(q);
+    q.querySelectorAll('.selfcheck-options input[type="radio"]').forEach(function (r) {
+      var li = r.closest("li");
+      if (!li) return;
+      var val = (r.value || "").trim().toLowerCase();
+      if (val === correct) {
+        li.classList.add("is-key");
+        if (!ok || r !== selected) addMark(li, "key");
+      }
+      if (r === selected) {
+        if (ok) {
+          li.classList.add("is-pick-ok");
+          addMark(li, "ok");
+        } else {
+          li.classList.add("is-pick-bad");
+          addMark(li, "bad");
+        }
+      }
+    });
+  }
+
+  function clearState(q) {
+    q.classList.remove("is-correct", "is-incorrect", "is-checked");
+    clearMarks(q);
+    var fb = q.querySelector(":scope > .selfcheck-feedback");
+    if (fb) {
+      fb.hidden = true;
+      fb.textContent = "";
+      fb.className = "selfcheck-feedback";
+    }
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    if (explain) explain.hidden = true;
+    q.querySelectorAll('input[type="radio"]').forEach(function (r) {
+      r.disabled = false;
+    });
+  }
+
+  function checkOne(q) {
+    var correct = (q.getAttribute("data-correct") || "").trim().toLowerCase();
+    var selected = q.querySelector('input[type="radio"]:checked');
+    var fb = feedbackEl(q);
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    q.classList.add("is-checked");
+    q.classList.remove("is-correct", "is-incorrect");
+    clearMarks(q);
+
+    if (!selected) {
+      fb.hidden = false;
+      fb.className = "selfcheck-feedback selfcheck-feedback-warn";
+      fb.textContent = "Choose an option, then check again.";
+      if (explain) explain.hidden = true;
+      return;
+    }
+
+    var ok = selected.value.trim().toLowerCase() === correct;
+    q.classList.add(ok ? "is-correct" : "is-incorrect");
+    fb.hidden = false;
+    fb.className = "selfcheck-feedback " + (ok ? "selfcheck-feedback-ok" : "selfcheck-feedback-bad");
+    /* Unicode tick/cross + words so feedback is never icon-only */
+    fb.textContent = ok
+      ? "✓ Correct."
+      : "✗ Not quite — see the brief explanation below.";
+    markOptions(q, selected, correct, ok);
+    if (explain) explain.hidden = false;
+  }
+
+  function resetOne(q) {
+    q.querySelectorAll('input[type="radio"]').forEach(function (r) {
+      r.checked = false;
+      r.disabled = false;
+    });
+    clearState(q);
+  }
+
+  function bind(q) {
+    if (q.dataset.selfcheckBound === "1") return;
+    q.dataset.selfcheckBound = "1";
+    if (!q.getAttribute("role")) q.setAttribute("role", "group");
+    q.querySelectorAll(".selfcheck-options label").forEach(wrapOptionText);
+    var actions = ensureActions(q);
+    var checkBtn = actions.querySelector(".selfcheck-check");
+    var resetBtn = actions.querySelector(".selfcheck-reset");
+    if (checkBtn) {
+      checkBtn.addEventListener("click", function () {
+        checkOne(q);
+      });
+    }
+    if (resetBtn) {
+      resetBtn.addEventListener("click", function () {
+        resetOne(q);
+      });
+    }
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    if (explain) explain.hidden = true;
+  }
+
+  function run() {
+    document.querySelectorAll(".selfcheck-q").forEach(bind);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run);
+  } else {
+    run();
+  }
+})();
+</script>

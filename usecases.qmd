@@ -1,0 +1,717 @@
+---
+title: "Use cases"
+subtitle: "Dated trial and operating applications"
+as_of: "2026-10-11"
+page-layout: article
+---
+
+## Standing note
+
+Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating** (recurring public or commercial service). Sandbox counts and corridor status live on [Official status](tracker.qmd). Item lines below focus on the use case — they do not restate those baselines.
+
+## How to read the source tags
+
+- **Company-announced:** the company’s own claim.
+- **Independently reported:** a news outlet’s own reporting.
+- **Officially confirmed:** confirmed in a linked official release or document.
+
+**As of 11 Oct 2026:** 52 use-case items (38 trial · 14 operating), grouped by application below — newest first within each section.
+
+## By application
+
+```{=html}
+<style>
+.itl{--ink:#1a1a1a;--navy:#003366;--gold:#C5A572;--amber:#9a5b00;--card:#fff;--line:#d9d4c7;--muted:#5f5f5f;margin:.75rem 0 1.25rem;font-size:.92rem}
+.itl-head{color:var(--muted);margin:0 0 .6rem}
+.itl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.9rem}
+.itl-card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:8px;padding:.2rem .9rem .6rem}
+.itl-card>summary{cursor:pointer;font-weight:600;color:var(--navy);padding:.5rem 0;list-style-position:outside}
+.itl-card>summary .n{font-weight:400;color:var(--muted);font-size:.82rem;margin-left:.35rem}
+.itl ol{list-style:none;margin:0;padding:0 0 0 1.1rem;position:relative}
+.itl ol::before{content:"";position:absolute;left:.3rem;top:.4rem;bottom:.4rem;width:1px;background:var(--line)}
+.itl li{position:relative;margin:0 0 .55rem;scroll-margin-top:80px;border-radius:6px}
+.itl li::before{content:"";position:absolute;left:-1.1rem;top:.45rem;width:.6rem;height:.6rem;border-radius:50%;background:var(--navy)}
+.itl li.st-open::before{background:#fff;border:2px solid var(--amber);width:.45rem;height:.45rem}
+.itl li>a{display:block;padding:.3rem .45rem;border-radius:6px;color:var(--ink);text-decoration:none;line-height:1.35}
+.itl li>a:hover{background:#f1eee6}
+.itl li>a:focus-visible{outline:2px solid var(--navy);outline-offset:1px;background:#f1eee6}
+.itl li:target{background:#fff3c4}
+.itl .chip{display:inline-block;font-size:.76rem;font-weight:600;padding:.05rem .5rem;border-radius:999px;background:#e6edf5;color:var(--navy);margin-right:.35rem;white-space:nowrap}
+.itl li.st-open .chip{background:#fbefdc;color:var(--amber)}
+.itl .badge{display:inline-block;font-size:.68rem;letter-spacing:.03em;text-transform:uppercase;padding:0 .4rem;border-radius:4px;border:1px solid currentColor;margin-left:.35rem;vertical-align:1px}
+.itl .b-off{color:#2f6b3a}.itl .b-ind{color:var(--navy)}.itl .b-co{color:#5f5f5f}.itl .b-open{color:var(--amber)}
+.itl .b-op{color:#2f6b3a}.itl .b-tr{color:var(--amber)}
+h2[id^="uc-"],span.uc-item{scroll-margin-top:80px}
+a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap}
+@media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
+</style>
+<div class="itl" id="uc-by-app">
+<p class="itl-head"><strong>Use cases by application (as of 11 Oct 2026)</strong> — 52 items (38 trial · 14 operating). Prefer Officially confirmed and Independently reported.</p>
+<div class="itl-grid">
+<details class="itl-card" open><summary>Delivery<span class="n">18 items · 9 trial · 9 operating</span></summary><ol>
+<li id="tl-uc-2026-10-08-zhuhai" class="st-open"><a href="#uc-item-2026-10-08-zhuhai"><span class="chip">8 Oct 2026</span> · Zhuhai three-party sea-island UAV livelihood-supply signing<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2026-10-07-xunyi"><a href="#uc-item-2026-10-07-xunyi"><span class="chip">7 Oct 2026</span> · Xunyi Hangzhou cross-Qiantang instant-delivery UAV route<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-10-07-a2z" class="st-open"><a href="#uc-item-2026-10-07-a2z"><span class="chip">7 Oct 2026</span> · A2Z–Grab–SKYY Bali BVLOS food-delivery PoC<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2026-10-05-wing-walmart"><a href="#uc-item-2026-10-05-wing-walmart"><span class="chip">5 Oct 2026</span> · Wing × Walmart — Denver / Seattle 2027 expansion announce<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2026-09-21-keeta-chung-on" class="st-open"><a href="#uc-item-2026-09-21-keeta-chung-on"><span class="chip">21 Sep 2026</span> · Keeta Drone — Chung On Estate first public-housing delivery<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-09-10-meituan-mcd"><a href="#uc-item-2026-09-10-meituan-mcd"><span class="chip">10 Sep 2026</span> · Meituan × McDonald’s — Shanghai West Bund dedicated F&B route<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2026-09-09-meituan-longhua"><a href="#uc-item-2026-09-09-meituan-longhua"><span class="chip">9–10 Sep 2026</span> · Meituan Drone — Shenzhen Longhua air network to 15 points<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-09-03-wing-part135"><a href="#uc-item-2026-09-03-wing-part135"><span class="chip">3 Sep 2026</span> · Wing Aviation — FAA Part 135 package-delivery operator (ongoing)<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-08-13-wing-houston"><a href="#uc-item-2026-08-13-wing-houston"><span class="chip">13 Aug 2026</span> · FAA FONSI/ROD — Wing Houston package-delivery environmental decision<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-05-22-meituan-infra"><a href="#uc-item-2026-05-22-meituan-infra"><span class="chip">22 May 2026</span> · Meituan — drone-delivery infrastructure said to enter commercial use<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-04-29-zipline-houston" class="st-open"><a href="#uc-item-2026-04-29-zipline-houston"><span class="chip">29 Apr 2026</span> · Zipline — Houston early-access drone delivery<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-kangaroo" class="st-open"><a href="#uc-item-2026-03-31-tlb-kangaroo"><span class="chip">31 Mar 2026</span> · TLB list — Kangaroo / Keeta Science Park delivery routes<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-future-yixin" class="st-open"><a href="#uc-item-2026-03-31-tlb-future-yixin"><span class="chip">31 Mar 2026</span> · TLB list — Future Yixin Pak Shek Kok–Tai Po waterfront delivery<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-fame" class="st-open"><a href="#uc-item-2026-03-31-tlb-fame"><span class="chip">31 Mar 2026</span> · TLB list — Fame Faith / SF / HA — Cyberport to Cheung Chau<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-26-szhk-plans" class="st-open"><a href="#uc-item-2026-03-26-szhk-plans"><span class="chip">26 Mar 2026</span> · LSCM / CEPREI — SZ–HK cross-border logistics plans (no flight)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-02-27-keeta-ting-kok" class="st-open"><a href="#uc-item-2026-02-27-keeta-ting-kok"><span class="chip">27 Feb 2026</span> · Keeta Drone — Science Park–Ting Kok elderly meal route<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-01-21-zipline-2m"><a href="#uc-item-2026-01-21-zipline-2m"><span class="chip">21 Jan 2026</span> · Zipline — 2 million commercial deliveries; Houston / Phoenix expansion<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2025-12-19-meituan-airnet"><a href="#uc-item-2025-12-19-meituan-airnet"><span class="chip">19 Dec 2025</span> · Meituan Drone — “低空航网” air-network model unveil<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>Medical / emergency<span class="n">7 items · 6 trial · 1 operating</span></summary><ol>
+<li id="tl-uc-2026-10-07-beta" class="st-open"><a href="#uc-item-2026-10-07-beta"><span class="chip">7 Oct 2026</span> · BETA Utah eIPP medical-cargo demo<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-fsd" class="st-open"><a href="#uc-item-2026-03-31-tlb-fsd"><span class="chip">31 Mar 2026</span> · TLB list — FSD emergency / SAR SUA trials<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-cas" class="st-open"><a href="#uc-item-2026-03-31-tlb-cas"><span class="chip">31 Mar 2026</span> · TLB list — CAS / Esri Tai Tan Camp emergency / facilities surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-01-12-cad-sar-exercise" class="st-open"><a href="#uc-item-2026-01-12-cad-sar-exercise"><span class="chip">12 Jan 2026</span> · CAD multi-department maritime SAR exercise — FSD drone search<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2025-09-11-sf-cheung-chau-launch" class="st-open"><a href="#uc-item-2025-09-11-sf-cheung-chau-launch"><span class="chip">11–14 Sep 2025</span> · Fame Faith / SF / HA — Cyberport → Cheung Chau medical-supply launch<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2025-04-21-sz-fire-uav" class="st-open"><a href="#uc-item-2025-04-21-sz-fire-uav"><span class="chip">21 Apr 2025</span> · Shenzhen Emergency Management / Fire — high-rise UAV firefighting practical test<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2024-12-11-fsd-uast"><a href="#uc-item-2024-12-11-fsd-uast"><span class="chip">11 Dec 2024</span> · FSD Unmanned Aircraft System Team and mountain-SAR phone locator<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>Inspection / survey<span class="n">9 items · 8 trial · 1 operating</span></summary><ol>
+<li id="tl-uc-2026-06-29-towngas" class="st-open"><a href="#uc-item-2026-06-29-towngas"><span class="chip">29 Jun 2026</span> · Sandbox X Others — Towngas gas-utility LAE trial pathway<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-04-07-wsd-smart-drone"><a href="#uc-item-2026-04-07-wsd-smart-drone"><span class="chip">2–7 Apr 2026</span> · WSD — “Smart Drone / 智鷹勇” reservoir inspection and sampling<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-mtr" class="st-open"><a href="#uc-item-2026-03-31-tlb-mtr"><span class="chip">31 Mar 2026</span> · TLB list — MTR tunnel / station infrastructure surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-lands" class="st-open"><a href="#uc-item-2026-03-31-tlb-lands"><span class="chip">31 Mar 2026</span> · TLB list — Lands Department Sai Kung / Tai Po surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-highways" class="st-open"><a href="#uc-item-2026-03-31-tlb-highways"><span class="chip">31 Mar 2026</span> · TLB list — Highways Department highway / tunnel-approach surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-geosys" class="st-open"><a href="#uc-item-2026-03-31-tlb-geosys"><span class="chip">31 Mar 2026</span> · TLB list — Geosys reservoir / slope / works-site survey<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-clp" class="st-open"><a href="#uc-item-2026-03-31-tlb-clp"><span class="chip">31 Mar 2026</span> · TLB list — CLP overhead powerline infrastructure surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-cedd" class="st-open"><a href="#uc-item-2026-03-31-tlb-cedd"><span class="chip">31 Mar 2026</span> · TLB list — CEDD Tai Mong Tsai infrastructure surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2025-08-10-devb-nui-po-shan" class="st-open"><a href="#uc-item-2025-08-10-devb-nui-po-shan"><span class="chip">10 Aug 2025</span> · DEVB — Nui Po Shan Sandbox BVLOS site-management drones<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>Public service<span class="n">5 items · 3 trial · 2 operating</span></summary><ol>
+<li id="tl-uc-2026-03-31-tlb-csd" class="st-open"><a href="#uc-item-2026-03-31-tlb-csd"><span class="chip">31 Mar 2026</span> · TLB list — CSD Tong Fuk Correctional Institution surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-01-23-hkpf-phase2" class="st-open"><a href="#uc-item-2026-01-23-hkpf-phase2"><span class="chip">23 Jan 2026</span> · HKPF Pilot Scheme Phase 2 — Cheung Chau + Central (Peak)<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2025-08-29-sz-police-air-patrol"><a href="#uc-item-2025-08-29-sz-police-air-patrol"><span class="chip">29 Aug 2025</span> · Shenzhen Public Security — 常态化警用无人机 “空中巡” system<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2025-05-23-hkpf-phase1" class="st-open"><a href="#uc-item-2025-05-23-hkpf-phase1"><span class="chip">23 May 2025</span> · HKPF Pilot Scheme Phase 1 — Border District + Kowloon West<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2024-10-hkpf-cadre"><a href="#uc-item-2024-10-hkpf-cadre"><span class="chip">Oct 2024</span> · HKPF Force Drone Cadre and disciplined-services UAS functions<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>Tourism / entertainment<span class="n">4 items · 3 trial · 1 operating</span></summary><ol>
+<li id="tl-uc-2026-10-02-hung-hom" class="st-open"><a href="#uc-item-2026-10-02-hung-hom"><span class="chip">2 Oct 2026</span> · Hung Hom National Day drone show (2,026 drones)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-06-29-ocean-park" class="st-open"><a href="#uc-item-2026-06-29-ocean-park"><span class="chip">29 Jun 2026</span> · Sandbox X Others — Ocean Park visitor-attraction trial pathway<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-04-11-feiyida"><a href="#uc-item-2026-04-11-feiyida"><span class="chip">11 Apr 2026</span> · Feiyida Air — GBA low-altitude travel platform launch (Macau)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-03-31-tlb-shows" class="st-open"><a href="#uc-item-2026-03-31-tlb-shows"><span class="chip">31 Mar 2026</span> · TLB list — OWOWWW / DAMODA drone-show system trials<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>eVTOL passenger<span class="n">4 items · 4 trial · 0 operating</span></summary><ol>
+<li id="tl-uc-2026-08-28-ehang" class="st-open"><a href="#uc-item-2026-08-28-ehang"><span class="chip">28 Aug 2026</span> · EHang EH216-S first public flight at Cyberport (Sandbox X)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-04-15-sandbox-x-uca" class="st-open"><a href="#uc-item-2026-04-15-sandbox-x-uca"><span class="chip">15 Apr 2026</span> · Sandbox X first batch — four UCA / eVTOL pilot projects<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-03-09-eipp" class="st-open"><a href="#uc-item-2026-03-09-eipp"><span class="chip">9 Mar 2026</span> · FAA eIPP — eight project selections<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2025-11-16-joby-uae" class="st-open"><a href="#uc-item-2025-11-16-joby-uae"><span class="chip">16 Nov 2025</span> · Joby / RTA — first crewed point-to-point eVTOL flight in the UAE<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+</ol></details>
+<details class="itl-card" open><summary>Other<span class="n">5 items · 5 trial · 0 operating</span></summary><ol>
+<li id="tl-uc-2026-10-05-sandbox-connect" class="st-open"><a href="#uc-item-2026-10-05-sandbox-connect"><span class="chip">5 Oct 2026</span> · “Sandbox Connect” cross-jurisdictional trial framing<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-09-14-nansha" class="st-open"><a href="#uc-item-2026-09-14-nansha"><span class="chip">14 Sep 2026</span> · Nansha–Hong Kong bilateral-sandbox MoU<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-07-06-vdx" class="st-open"><a href="#uc-item-2026-07-06-vdx"><span class="chip">6–7 Jul 2026</span> · Dubai VDX vertiport — GCAA certification announce<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2025-12-31-ac013" class="st-open"><a href="#uc-item-2025-12-31-ac013"><span class="chip">31 Dec 2025</span> · CAD AC-013 — BVLOS SUA within the Regulatory Sandbox (enabler)<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2025-11-24-sandbox-x" class="st-open"><a href="#uc-item-2025-11-24-sandbox-x"><span class="chip">24 Nov 2025</span> · Regulatory Sandbox X launch — first-batch Sandbox projects already started<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+</ol></details>
+</div></div>
+```
+
+## Delivery {#uc-delivery}
+
+18 items · 9 trial · 9 operating
+
+[↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-08-zhuhai .uc-item}**8 Oct 2026 · C114 / China Unicom Zhuhai feature:** Zhuhai Agriculture Investment Holding, Guangdong Chaofei Technology and China Unicom Zhuhai sign strategic cooperation for a sea-island UAV livelihood-supply pilot framed around Zhuhai’s 262 islands. [C114](https://m.c114.com.cn/w84-1318768.html)
+  - Status: **Trial** · Domain: Delivery · Geography: GBA (Zhuhai)
+  - Tag: Company-announced
+  - What's happening: Signing / pilot-preparation via the Unicom feature. Stated division of labour and 5G + BeiDou framing are plans. Route count, aircraft type, payload and frequency are not published.
+  - Note: Strategic cooperation only — not live commercial island routes.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，珠海市农业投资控股集团有限公司、广东超飞科技有限公司、中国联通珠海市分公司举行海岛无人机民生保供项目战略合作签约。」]{lang="zh-Hans"} ([source](https://m.c114.com.cn/w84-1318768.html))
+  :::
+
+- []{#uc-item-2026-10-07-xunyi .uc-item}**7 Oct 2026 · 浙江日报 / 浙江在线:** Zhejiang Daily interview describes Hangzhou’s first cross-Qiantang instant-delivery UAV route as in regularised operation; founder says more than 100 flights in a single trial month. [浙江在线](https://zjnews.zjol.com.cn/zjnews/202610/t20261007_31951269.shtml)
+  - Status: **Operating** · Domain: Delivery · Geography: Mainland-other (Hangzhou)
+  - Tag: Independently reported
+  - What's happening: South-bank → Shangcheng receiving-point colour (~10+ minutes, ~100 m AGL). Cargo mix mainly business express, fresh goods, emergency medicines and digital accessories. Cumulative company scale claims in the same piece stay company-announced.
+  - Note: Operating tag follows independent “常态化运营” framing; monthly flight count attributed to the founder.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「试运行以来，这条航线单月累计飞行100多架次。……它运输的不全是大家印象里的外卖，大多以商务急件、生鲜、应急药品、数码配件为主。」]{lang="zh-Hans"} ([source](https://zjnews.zjol.com.cn/zjnews/202610/t20261007_31951269.shtml))
+  :::
+
+- []{#uc-item-2026-10-07-a2z .uc-item}**7 Oct 2026 · AJOT / DroneDJ:** Partners describe a BVLOS food-delivery proof-of-concept between Café del Mar Bali and Nuanu Creative City (Grab orders, SKYY flights). [AJOT](https://www.ajot.com/news/a2z-drone-delivery-chosen-as-technology-partner-for-indonesia-drone-delivery-trials) · [DroneDJ](https://dronedj.com/2026/10/07/food-delivery-drone-bali-indonesia/)
+  - Status: **Trial** · Domain: Delivery · Geography: Global (Indonesia / Bali)
+  - Tag: Company-announced
+  - What's happening: Company: Longtail Dual + AirDock; BVLOS in controlled airspace near Ngurah Rai. DGCA certificate claim not upgraded (primary not retrieved).
+  - Note: Partner-announced PoC — not upgraded to officially confirmed.
+  - Read instead: None.
+
+- []{#uc-item-2026-10-05-wing-walmart .uc-item}**5 Oct 2026 · Wing newsroom:** Wing and Walmart name Denver and Seattle for 2027 expansion of the existing drone-delivery network. [Wing](https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network)
+  - Status: **Operating** · Domain: Delivery · Geography: Global (US)
+  - Tag: Company-announced
+  - What's happening: Operating tag refers to current Part 135 / Walmart markets. Denver and Seattle are announced, not live. Company store/reach figures stay company-announced.
+  - Note: Expansion announce on an operating base.
+  - Read instead: [Companies & sectors](landscape.qmd) (Wing Aviation).
+
+- []{#uc-item-2026-09-21-keeta-chung-on .uc-item}**21 Sep 2026 · on.cc 東網; HK01:** Science Park → Chung On Estate (Song Wo House) smart locker; first drone delivery into a Hong Kong public housing estate under the Regulatory Sandbox. [on.cc](https://hk.on.cc/hk/bkn/cnt/finance/20260921/bkn-20260921161357730-0921_00842_001.html) · [HK01](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8)
+  - Status: **Trial** · Domain: Delivery · Geography: HK
+  - Tag: Independently reported
+  - What's happening: Keeta expands Sandbox meal delivery across Tolo Harbour. Company “scale-up / everyday ops” language does not remove the Sandbox frame.
+  - Note: Still Regulatory Sandbox — status stays trial.
+  - Read instead: [Official status](tracker.qmd) (Regulatory Sandbox); [Business news](industry.qmd#industry-item-2026-09-21-keeta).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「美團旗下美團無人機(Keeta Drone)開通香港科學園至沙田頌安村頌和樓航線，公司指，此為無人機配送服務首次進入公共屋村，無人機業務正由特定場景試點，轉向規模化、日常化營運。」]{lang="zh-Hant"} ([source](https://hk.on.cc/hk/bkn/cnt/finance/20260921/bkn-20260921161357730-0921_00842_001.html))
+  :::
+
+- []{#uc-item-2026-09-10-meituan-mcd .uc-item}**10 Sep 2026 · Meituan newsroom; 每日经济新闻; TechNode:** Dedicated restaurant-brand drone-delivery route at Shanghai Xuhui West Bund (Longteng Avenue McDonald’s → West Bund pickup). [Meituan](https://www.meituan.com/news/NN260911177010407) · [TechNode](https://technode.com/2026/09/11/meituan-and-mcdonalds-open-chinas-first-dedicated-drone-delivery-route-for-a-restaurant-brand/)
+  - Status: **Operating** · Domain: Delivery · Geography: Mainland-other (Shanghai)
+  - Tag: Company-announced
+  - What's happening: Brand-dedicated UAV route for McDonald’s orders. Route/time/payload figures in press stay attributed to company/press. Menu subset (~30 items) is channel colour, not a market-size claim.
+  - Note: Recurring public consumer delivery — tagged operating.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-09-10-meituan-shanghai).
+
+- []{#uc-item-2026-09-09-meituan-longhua .uc-item}**9–10 Sep 2026 · 龙华政府在线 / 深圳政府在线:** Longhua air network densified to 15 points; merchant drone radius described as ~3 km → ~5 km in local-government reprint. [深圳政府在线](https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976422.html) · [龙华政府在线](https://www.szlhq.gov.cn/zjlh/lhcy/content/post_12975088.html)
+  - Status: **Operating** · Domain: Delivery · Geography: GBA (Shenzhen Longhua)
+  - Tag: Officially confirmed
+  - What's happening: District/city government reprint of densification colour for a network said to have operated for half a year. Merchant/radius/time metrics are company-origin via official local reprint — not audited here.
+  - Note: Freshest GBA operating delivery densification colour adjacent to the live window.
+  - Read instead: [Companies & sectors](landscape.qmd) (Meituan Drone).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，美团无人机首次将单线程配送的轴辐式航线点位升级为航网节点，并入已运营半年的龙华区航网，将龙华区航网快速加密至15个点位。多数商家通过无人机送外卖的距离，已从原来的3公里延伸至5公里，无人机服务半径扩大约67%。」]{lang="zh-Hans"} ([source](https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976422.html))
+  :::
+
+- []{#uc-item-2026-09-03-wing-part135 .uc-item}**3 Sep 2026 · FAA — Package Delivery by Drone (Part 135):** FAA lists Wing among approved Part 135 UAS package-delivery operators; environmental decisions support metro delivery ops. [FAA](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Status: **Operating** · Domain: Delivery · Geography: Global (US)
+  - Tag: Officially confirmed
+  - What's happening: Official FAA advanced-ops confirmation of Wing’s Part 135 package-delivery pathway (page stamp Sep 2026). Walmart expansion announce builds on this base.
+  - Note: Certified operating spine.
+  - Read instead: [Companies & sectors](landscape.qmd) (Wing Aviation).
+
+### August 2026 {#uc-2026-08}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2026-08-13-wing-houston .uc-item}**13 Aug 2026 · FAA NEPA decision PDF:** FAA signs FONSI/Record of Decision for Wing Aviation proposed drone package delivery operations in Houston, TX. [FAA PDF](https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20260813_Wing_Houston_FONSI-ROD_Signed.pdf)
+  - Status: **Operating** · Domain: Delivery · Geography: Global (US — Houston)
+  - Tag: Officially confirmed
+  - What's happening: Environmental decision supporting Wing’s Houston Part 135 delivery pathway — official confirmation path for metro ops expansion.
+  - Note: Complements FAA Part 135 operator listing.
+  - Read instead: [Companies & sectors](landscape.qmd) (Wing Aviation).
+
+### July 2026 {#uc-2026-07}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2026-05-22-meituan-infra .uc-item}**22 May 2026 · Yicai Global:** Meituan says its drone-delivery infrastructure (M-Drone 4L Winch, M-Port 3, M-DaaS 3) has moved from testing into commercial operation and is recruiting partners. [Yicai](https://www.yicaiglobal.com/news/meituan-puts-drone-delivery-infrastructure-into-commercial-use)
+  - Status: **Operating** · Domain: Delivery · Geography: GBA / Mainland
+  - Tag: Independently reported
+  - What's happening: Infrastructure/commercial-status claims are company-announced via Yicai. Route/order totals in the same piece stay company figures.
+  - Note: Commercial infrastructure claim — company-origin metrics not audited.
+  - Read instead: [Companies & sectors](landscape.qmd) (Meituan Drone).
+
+### April 2026 {#uc-2026-04}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2026-04-29-zipline-houston .uc-item}**29 Apr 2026 · Zipline newsroom:** Zipline says early-access drone delivery began in a named Houston neighbourhood (Cypress) after the January expansion announce. [Zipline](https://www.zipline.com/newsroom/zipline-launches-early-access-drone-delivery-program-in-houston)
+  - Status: **Trial** · Domain: Delivery · Geography: Global (US — Houston)
+  - Tag: Company-announced
+  - What's happening: Early-access programme — not tagged as city-wide operating network.
+  - Note: Trial (early access).
+  - Read instead: None.
+
+- []{#uc-item-2026-03-31-tlb-kangaroo .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Official implemented-list confirmation of Kangaroo Limited (Meituan) drone-delivery routes HKSTP ↔ Tai Po Waterfront Park and HKSTP ↔ Ting Kok Village. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Delivery · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Underpins Keeta’s public meal trials. Still on the implemented Sandbox roster through the live window; no new HK company delivery route found after Chung On in the 20 Sep–11 Oct window.
+  - Note: Regulatory Sandbox trial.
+  - Read instead: [Official status](tracker.qmd) (Regulatory Sandbox).
+
+- []{#uc-item-2026-03-31-tlb-future-yixin .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Future Yixin Aviation Technology Limited Sandbox drone-delivery corridor on the Pak Shek Kok–Tai Po waterfront. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Delivery · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Third named HK delivery Sandbox route along the Tolo Harbour waterfront promenade/pier pair.
+  - Note: Regulatory Sandbox trial.
+  - Read instead: [Official status](tracker.qmd).
+
+- []{#uc-item-2026-03-31-tlb-fame .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Fame Faith Limited (S.F. Express HK + Hospital Authority St. John Hospital) Cyberport → Cheung Chau drone-delivery trial remains on the implemented list. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [news.gov.hk (Sep 2025 launch background)](https://www.news.gov.hk/eng/2025/09/20250911/20250911_153012_509.html)
+  - Status: **Trial** · Domain: Delivery · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Hospital / outlying-island medical-supply Sandbox trial. Sep 2025 launch colour is pre-window background; Mar 2026 list is the in-window official confirmation.
+  - Note: Continuing Sandbox trial.
+  - Read instead: [Official status](tracker.qmd) (Regulatory Sandbox).
+
+- []{#uc-item-2026-03-26-szhk-plans .uc-item}**26 Mar 2026 · 文匯報 / Wen Wei Po (via industry backfill):** SZ–HK low-altitude cross-border logistics solution unveiled; three priority cross-border drone routes named for testing — no flight evidenced. [Business news item](industry.qmd#industry-item-2026-03-26-szhk)
+  - Status: **Trial** · Domain: Delivery · Geography: HK / GBA
+  - Tag: Independently reported
+  - What's happening: Plans / intended Sandbox pilot timing only (Shekou–Tuen Mun, Man Kam To–Sheung Shui, Loop-area named). Tracker corridor status stays not evidenced.
+  - Note: Plans only — not operating corridor.
+  - Read instead: [Official status](tracker.qmd); [Business news](industry.qmd#industry-item-2026-03-26-szhk).
+
+- []{#uc-item-2026-02-27-keeta-ting-kok .uc-item}**27 Feb 2026 · 香港商報; Keeta; SCMP video:** First Hong Kong drone meal route aimed at elderly villagers in Ting Kok, under Regulatory Sandbox with Hong Kong Children & Youth Services. [香港商報](https://hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html) · [SCMP](https://www.scmp.com/video/hong-kong/3345836/keeta-launches-first-drone-meal-delivery-route-elderly-people-remote-rural-areas)
+  - Status: **Trial** · Domain: Delivery · Geography: HK
+  - Tag: Independently reported
+  - What's happening: HKSTP → Ting Kok Village meal-delivery trial. Company/press: ~5 km; ~13 minutes flight. Launch targets (~30 portions/day) are trial targets, not audited throughput. Matches Kangaroo Limited on the TLB list.
+  - Note: Regulatory Sandbox trial.
+  - Read instead: [Official status](tracker.qmd); [Business news](industry.qmd#industry-item-2026-02-27-keeta).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「傳統地面配送需要工作人員隨車，需要花費一個多小時；而無人機航線長約5公里、飛行時間是13分鐘，在運輸效率上非常有優勢。」]{lang="zh-Hant"} ([source](https://hkcd.com/hkcdweb/content/2026/02/27/content_8741958.html))
+  :::
+
+### January 2026 {#uc-2026-01}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2026-01-21-zipline-2m .uc-item}**21 Jan 2026 · Zipline newsroom / GlobeNewswire:** Zipline says it surpassed 2 million commercial deliveries and will expand operations to Houston and Phoenix. [Zipline](https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix)
+  - Status: **Operating** · Domain: Delivery · Geography: Global (US + prior networks)
+  - Tag: Company-announced
+  - What's happening: Cumulative commercial delivery milestone and named US metro expansions. 2 million figure and fundraising are company-announced. Existing commercial networks remain the operating base; Houston early-access followed later in Q2.
+  - Note: Operating base + expansion announce.
+  - Read instead: None.
+
+- []{#uc-item-2025-12-19-meituan-airnet .uc-item}**19 Dec 2025 · 证券时报 / stcn.com:** Meituan Drone unveils air-network operating model; VP quoted on 65 routes across Shenzhen, Shanghai, Beijing, Hong Kong and Dubai and 740,000 commercial orders (company figures). [证券时报](https://www.stcn.com/article/detail/3552556.html)
+  - Status: **Operating** · Domain: Delivery · Geography: GBA (Shenzhen-led; multi-city claim)
+  - Tag: Independently reported
+  - What's happening: Route/order totals are company-announced via press. Hong Kong portion of those routes is Sandbox-framed elsewhere and is not upgraded to city-wide commercial ops.
+  - Note: Operating GBA/multi-city claim with company metrics; HK remains Sandbox.
+  - Read instead: [Companies & sectors](landscape.qmd) (Meituan Drone); [Business news](industry.qmd#industry-item-2025-12-19-meituan).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「12月19日，美团无人机发布多款产品，包括无人机低空航网、无人机智能接驳机场和最新一代无人机产品。美团副总裁、无人机业务部负责人毛一年透露，截至目前，美团无人机已在深圳、上海、北京以及中国香港和迪拜等城市运营65条航线，已经完成74万单商业订单。」]{lang="zh-Hans"} ([source](https://www.stcn.com/article/detail/3552556.html))
+  :::
+
+### November 2025 {#uc-2025-11}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+## Medical / emergency {#uc-medical}
+
+7 items · 6 trial · 1 operating
+
+[↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-07-beta .uc-item}**7 Oct 2026 · BETA IR; UDOT:** BETA says it completed five days of Utah eIPP flights moving time-sensitive medical cargo / radiopharmaceuticals with Alpine Air using ALIA CTOL. [BETA](https://investors.beta.team/news-events/press-releases/detail/119/beta-completes-utah-eipp-operations-to-support-the-future-of-radiopharmaceutical-delivery-and-treatment) · [UDOT](https://connect.udot.utah.gov/2026/10/07/udot-takes-transportation-to-the-next-level-with-all-electric-aircraft-demonstration/)
+  - Status: **Trial** · Domain: Medical/emergency · Geography: Global (US — Utah)
+  - Tag: Company-announced
+  - What's happening: eIPP demonstration — not a type certificate and not scheduled commercial medical service. UDOT confirms demonstration framing.
+  - Note: Demo / programme pathway.
+  - Read instead: [Companies & sectors](landscape.qmd) (BETA).
+
+- []{#uc-item-2026-03-31-tlb-fsd .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Fire Services Department Sandbox emergency / search-and-rescue SUA trials at the Fire and Ambulance Services Academy and pre-defined rural areas. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Medical/emergency · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Emergency-services Sandbox trial pathway officially listed as implemented.
+  - Note: Sandbox emergency trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (FSD).
+
+- []{#uc-item-2026-03-31-tlb-cas .uc-item}**31 Mar 2026 · TLB implemented-list PDF; cas.gov.hk Smart CAS:** Esri China (Hong Kong) with CAS — emergency / search-and-rescue / facilities surveillance at Civil Aid Service Tai Tan Camp; CAS page also names Yuen Tun Camp patrol / hazard-detection goals. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [Smart CAS](https://www.cas.gov.hk/eng/about/smart_cas.html)
+  - Status: **Trial** · Domain: Medical/emergency · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Sandbox emergency/facilities trial on the implemented list.
+  - Note: Sandbox emergency trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (Esri China / Civil Aid Service).
+
+- []{#uc-item-2026-01-12-cad-sar-exercise .uc-item}**12 Jan 2026 · 大公文匯網 / TKWW:** CAD-led search-and-rescue exercise off Lantau (Wang Tong Wan / Chi Ma Wan area) with nine departments; FSD for the first time uses a drone to locate simulated survivors before surface rescue. [TKWW](https://www.tkww.hk/a/202601/12/AP6964dd22e4b0eb9195c1b1ab.html)
+  - Status: **Trial** · Domain: Medical/emergency · Geography: HK
+  - Tag: Independently reported
+  - What's happening: Independently reported multi-department exercise. FSD drone observation/search colour is exercise, not a new commercial route.
+  - Note: Exercise / trial — not a service launch.
+  - Read instead: [Companies & sectors](landscape.qmd) (Fire Services Department).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「民航處聯合多個政府部門及搜救單位今日（12日）於大嶼山芝麻灣半島望東灣附近海域，進行搜索及救援演練，消防處首次使用無人機搜尋以提升效率。……消防處出動無人機對事故現場進行觀測及搜尋，並找到3名生還者的位置」]{lang="zh-Hant"} ([source](https://www.tkww.hk/a/202601/12/AP6964dd22e4b0eb9195c1b1ab.html))
+  :::
+### December 2025 {#uc-2025-12}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2025-09-11-sf-cheung-chau-launch .uc-item}**11–14 Sep 2025 · news.gov.hk; Cyberport/SF press:** Sandbox medical-supply drone trial from Cyberport to St John Hospital, Cheung Chau — ~12 km BVLOS; ~18–20 minutes vs ~45–65 minutes by ferry/walk (feature figures). [news.gov.hk EN](https://www.news.gov.hk/eng/2025/09/20250911/20250911_153012_509.html) · [news.gov.hk 中文](https://www.news.gov.hk/chi/2025/09/20250911/20250911_153012_509.html) · [GIA](https://www.info.gov.hk/gia/general/202509/14/P2025091200681.htm)
+  - Status: **Trial** · Domain: Medical/emergency · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Pre-window launch event for the Fame Faith / SF / HA St John Hospital route later kept on the Mar 2026 TLB implemented list (separate card). Efficiency and antivenom-use colour stay feature/company framing — not upgraded to routine operating medical airlift.
+  - Note: Regulatory Sandbox trial launch; see also Mar 2026 TLB Fame Faith list card.
+  - Read instead: [Official status](tracker.qmd); this page — TLB Fame Faith / Cheung Chau (31 Mar 2026).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > One of the pilot routes runs from Cyberport to St John Hospital in Cheung Chau. … it takes about 45 to 65 minutes using current existing transportation, whereas the drone delivery just takes about 20 minutes for a 12-km flight from Cyberport to Cheung Chau.
+
+  ([source](https://www.news.gov.hk/eng/2025/09/20250911/20250911_153012_509.html))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「有速運公司與醫院管理局合作，採用無人機運送藥物，其中一條航線為數碼港至長洲醫院。……數碼港與長洲的距離約為12公里：「經過實際飛行測試，無人機由數碼港飛往長洲只需約20分鐘。」」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2025/09/20250911/20250911_153012_509.html))
+  :::
+
+### August 2025 {#uc-2025-08}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2025-04-21-sz-fire-uav .uc-item}**21 Apr 2025 · 深圳市应急管理局:** Shenzhen Safety Committee Office / Fire Rescue conduct ultra-high-rise building UAV firefighting practical tests; HK FSD officers attended as observers. [yjgl.sz.gov.cn](https://yjgl.sz.gov.cn/zwgk/xxgkml/qt/gzdt/content/post_12137327.html)
+  - Status: **Trial** · Domain: Medical/emergency · Geography: GBA (Shenzhen)
+  - Tag: Officially confirmed
+  - What's happening: Equipment practical testing — not a claim of citywide in-service high-rise UAV firefighting. GBA public-service test comparator.
+  - Note: Trial / practical test — not operating fire service.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「深圳市安委办（市应急管理局）、市消安委办（市消防救援支队）在龙岗区京基智慧科园组织开展超高层建筑无人机灭火救援实战测试……自2月份开始测试以来，已实测28家国内龙头企业的42款主战机型……香港消防处助理消防区长王德辉、高级消防队长詹德鹏……莅临指导。」]{lang="zh-Hans"} ([source](https://yjgl.sz.gov.cn/zwgk/xxgkml/qt/gzdt/content/post_12137327.html))
+  :::
+
+### December 2024 {#uc-2024-12}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2024-12-11-fsd-uast .uc-item}**11 Dec 2024 · Security Bureau LCQ; HKFSD Review 2023:** FSD’s dedicated UAS Team (established 2017) uses drones in firefighting and rescue; from 2023 Q3 a drone-mounted mobile-phone locator assisted mountain SAR (3 uses / 2 successful locations in 2023 per the Review). [LCQ EN](https://www.info.gov.hk/gia/general/202412/11/P2024121100235.htm) · [LCQ 中文](https://www.info.gov.hk/gia/general/202412/11/P2024121100234.htm) · [HKFSD Review 2023](https://www.hkfsd.gov.hk/images/review_23/tc_eng/08_to_move_with_the_times.pdf)
+  - Status: **Operating** · Domain: Medical/emergency · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Recurring departmental public-service capability, distinct from the later Regulatory Sandbox FSD Academy / rural-area trial on this page. Cite only stated uses (firefighting thermal monitoring; SAR search; phone-locator trials).
+  - Note: Operating public-service capability as stated in SB LCQ / FSD Review.
+  - Read instead: [Companies & sectors](landscape.qmd) (Fire Services Department).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > In 2017, the FSD established the Unmanned Aircraft System Team which uses drones in firefighting and rescue tasks. … The FSD has introduced a cutting-edge Mobile Phone Locator since the third quarter of 2023 … In 2023, the device was employed in three operations, resulting in successful location of missing persons in two of them.
+
+  ([source](https://www.info.gov.hk/gia/general/202412/11/P2024121100235.htm))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「消防處於二○一七年成立了無人飛行器系統小隊，應用無人機協助滅火及救援工作……消防處由二零二三年第三季起引入先進的手提電話定位儀……二零二三年，消防處曾於三次行動中使用該定位儀，其中兩次成功尋回失蹤人士。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202412/11/P2024121100234.htm))
+  :::
+
+### October 2024 {#uc-2024-10}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+## Inspection / survey {#uc-inspection}
+
+9 items · 8 trial · 1 operating
+
+[↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-06-29-towngas .uc-item}**29 Jun 2026 · TLB Sandbox X Others PDF:** Hong Kong & China Gas (Towngas) selected in Sandbox X “Others” first batch. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Selection list entry — scenario detail thin on the PDF. Not network-wide operating UAS inspection.
+  - Note: Selected applicant pathway.
+  - Read instead: [Companies & sectors](landscape.qmd) (Towngas).
+
+- []{#uc-item-2026-04-07-wsd-smart-drone .uc-item}**2–7 Apr 2026 · news.gov.hk:** WSD Mechanical Engineer describes a departmental “Smart Drone” (智鷹勇) with GNSS, visual + infrared cameras, and a descending water-sampling container for routine reservoir inspection and sampling. [news.gov.hk EN](https://www.news.gov.hk/eng/2026/04/20260402/20260402_160900_911.html) · [news.gov.hk 中文](https://www.news.gov.hk/chi/2026/04/20260402/20260402_160900_911.html)
+  - Status: **Operating** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Official feature on WSD’s in-service toolkit. Distinct from unmanned surface vessels (USV) water-quality craft and from Geosys Sandbox reservoir flights. Department time comparison (boat vs drone) is operational colour, not a cost table.
+  - Note: Operating departmental public-service inspection/sampling tool as described.
+  - Read instead: [Companies & sectors](landscape.qmd) (related WSD / Geosys reservoir colour).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > The drone we use is equipped with the satellite (system), so we can accurately take the sample we want. We can plan our route and plan the sampling point before we take the flight. It is also equipped with a high-resolution visual camera and an infrared camera. It helps us to do the routine inspection around the reservoir. … It is also equipped with a water sampling container. It flies over the water surface and drops down. Compared to traditional manual sampling through a boat, (the duration) is much faster.
+
+  ([source](https://www.news.gov.hk/eng/2026/04/20260402/20260402_160900_911.html))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「減輕工作負擔的好幫手，還有名為「智鷹勇」的無人機。……「智鷹勇」配備全球定位系統及衞星導航，準繩度達厘米級，並有熱成像鏡頭。它同時配備採集水樣本的系統，可低飛至非常接近水面，放下採樣器後收集一升水……若該署人員以傳統乘船方式，為整個水塘採集樣本，可能需時逾半個月，改用無人機收集數據，快至一至兩天便可完成。」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2026/04/20260402/20260402_160900_911.html))
+  :::
+### March 2026 {#uc-2026-03}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2026-03-31-tlb-mtr .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Traffic Control Technology (Hong Kong) / MTR Sandbox infrastructure surveillance inside selected MTR tunnel / station environments. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Rail-environment inspection trial on the implemented list.
+  - Note: Sandbox inspection trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (Traffic Control Technology / MTR).
+
+- []{#uc-item-2026-03-31-tlb-lands .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Lands Department Sandbox surveillance flights at Tso Wo Hang and Shap Sze Heung (Sai Kung) and Cheung Shue Tan (Tai Po). [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Official implemented-list entry for departmental land surveillance / survey under the Regulatory Sandbox.
+  - Note: Sandbox survey trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (Lands Department).
+
+- []{#uc-item-2026-03-31-tlb-highways .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Highways Department Sandbox infrastructure-surveillance flights on selected highway / tunnel-approach corridors. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Public-works inspection trial on the implemented Sandbox roster.
+  - Note: Sandbox inspection trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (Highways Department).
+
+- []{#uc-item-2026-03-31-tlb-geosys .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Geosys Hong Kong Sandbox infrastructure surveillance and survey flights at reservoirs, slopes, river monitoring and works sites. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Multi-site public-works / survey Sandbox trial on the implemented list.
+  - Note: Sandbox survey trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (Geosys).
+
+- []{#uc-item-2026-03-31-tlb-clp .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** CLP Sandbox infrastructure-surveillance flights over named overhead-powerline corridors (Sai Kung, Shing Mun, Ngau Tam Mei, etc.). [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Utility inspection trial under Regulatory Sandbox, listed as implemented by end Mar 2026.
+  - Note: Sandbox inspection trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (CLP).
+
+- []{#uc-item-2026-03-31-tlb-cedd .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** CEDD Sandbox infrastructure-surveillance project at Tai Mong Tsai, Sai Kung. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Official implemented-list entry. Complements DEVB Nui Po Shan / 12-site colour (Aug 2025) with a named CEDD site.
+  - Note: Sandbox inspection trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (CEDD).
+
+- []{#uc-item-2025-08-10-devb-nui-po-shan .uc-item}**10 Aug 2025 · news.gov.hk / info.gov.hk:** DEVB deploys BVLOS automated drones with docking-station battery swap at Nui Po Shan cavern sewage-works site under the Regulatory Sandbox; CEDD, DSD, ArchSD and WSD to apply the technology across 12 pilot sites. [news.gov.hk EN](https://www.news.gov.hk/eng/2025/08/20250808/20250808_145256_786.html) · [news.gov.hk 中文](https://www.news.gov.hk/chi/2025/08/20250808/20250808_145256_786.html) · [GIA](https://www.info.gov.hk/gia/general/202508/10/P2025080800734.htm)
+  - Status: **Trial** · Domain: Inspection/survey · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: One of the first Sandbox pilots for site management. Distinct from the Geosys reservoir/slope TLB list card, though thematically related. Labour-cost “cuts” language in the feature is qualitative — not a published saving figure.
+  - Note: Regulatory Sandbox trial.
+  - Read instead: [Official status](tracker.qmd); [Companies & sectors](landscape.qmd) (CEDD / Geosys collaborators).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > The Civil Engineering & Development Department, the Drainage Services Department, the Architectural Services Department and the Water Supplies Department will implement the technology across 12 pilot sites, including the Yuen Long Kam Tin River and reservoirs.
+
+  ([source](https://www.news.gov.hk/eng/2025/08/20250808/20250808_145256_786.html))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「土木工程拓展署、渠務署、建築署和水務署也會在12個不同場景測試無人機技術，包括管理元朗錦田河、水塘等。……無人機的荷載力達六公斤……採用超視距飛行技術……先進停機坪……自動更換電池，整個過程僅需約一分鐘。」]{lang="zh-Hant"} ([source](https://www.news.gov.hk/chi/2025/08/20250808/20250808_145256_786.html))
+  :::
+
+### May 2025 {#uc-2025-05}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+## Public service {#uc-public}
+
+5 items · 3 trial · 2 operating
+
+[↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-03-31-tlb-csd .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** CSD Sandbox infrastructure-surveillance project at Tong Fuk Correctional Institution (EMSD collaborator on list). [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [SB LCQ (department colour)](https://www.info.gov.hk/gia/general/202507/30/P2025073000346.htm)
+  - Status: **Trial** · Domain: Public service · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Official Sandbox implemented-list entry. Broader SB LCQ colour states CSD/ImmD use drones to inspect security facilities as publicly described — facility security inspection only, not upgraded beyond that text.
+  - Note: Sandbox public-service trial.
+  - Read instead: None.
+
+- []{#uc-item-2026-01-23-hkpf-phase2 .uc-item}**23 Jan 2026 · Hong Kong Police Force official pages:** Second phase of the Operational Deployment of Drones Pilot Scheme begins — automated docking patrols in Cheung Chau Division and Central District (Peak Sub-division); flexible high-altitude anti-crime patrols in selected districts of each Region. [Police EN](https://www.police.gov.hk/ppp_en/11_useful_info/ps_odd.html) · [Police 中文](https://www.police.gov.hk/ppp_tc/11_useful_info/ps_odd.html)
+  - Status: **Trial** · Domain: Public service · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Official Police pages state Phase 2 from 23 Jan 2026. Cite only stated patrol purposes — no covert-capability claim.
+  - Note: Trial Pilot Scheme Phase 2.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > The second phase of the Pilot Scheme will be implemented starting from 2026-01-23, in the Cheung Chau Division and the Central District (Peak Sub-division), as well as selected Districts in each Region. … Automated drone docking systems will be deployed for patrol tasks. Utilizing flight path planning to enable automatic patrol operations.
+
+  ([source](https://www.police.gov.hk/ppp_en/11_useful_info/ps_odd.html))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「第二階段先導計劃於2026年1月23日起，於長洲分區和中區警區（山頂分區）及各總區所選定的警區實施。……採用自動化無人機庫系統執行巡邏任務。透過系統制定飛行計劃，並按照預設巡邏路線自動執行飛行任務…」]{lang="zh-Hant"} ([source](https://www.police.gov.hk/ppp_tc/11_useful_info/ps_odd.html))
+  :::
+
+- []{#uc-item-2025-08-29-sz-police-air-patrol .uc-item}**29 Aug 2025 · 深圳政府在线 / 深圳市公安局:** Shenzhen Police describes a citywide police-UAV system with routine air-patrol segments and multi-scenario patrol / traffic / SAR uses — GBA public-service comparator. [深圳政府在线](https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12353331.html) · [深圳市公安局](https://ga.sz.gov.cn/gkmlpt/content/12/12120/post_12120236.html)
+  - Status: **Operating** · Domain: Public service · Geography: GBA (Shenzhen)
+  - Tag: Officially confirmed
+  - What's happening: Municipal PSB feature on “五位一体” patrol including “空中巡”. Fleet/hours figures in the piece are agency-announced via gov reprint — not independently audited. Cite only stated public scenarios. Not an HK operation.
+  - Note: Operating GBA public-service comparator as described by municipal sources.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「目前，深圳全市拥有警用无人机数量千余架，常态部署了280条空中巡段……日均巡航总时长逾600小时……在步巡、车巡、摩巡、视频巡的基础上，又完善“空中巡”举措……逐步形成“五位一体”的巡逻防控体系」]{lang="zh-Hans"} ([source](https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12353331.html))
+  :::
+
+- []{#uc-item-2025-05-23-hkpf-phase1 .uc-item}**23 May 2025 · police.gov.hk Offbeat; SB LCQ2 + annex:** Named Pilot Scheme starts 23 May 2025 — automated docking patrols in Border District and manual high-altitude anti-crime patrols in Kowloon West. LCQ: assisted detection of four cases / three arrests since May; annex lists HKPF fleet/task counts for H1 2025. [Offbeat](https://www.police.gov.hk/offbeat/1282/chi/9022.html) · [Police EN](https://www.police.gov.hk/ppp_en/11_useful_info/ps_odd.html) · [LCQ EN](https://www.info.gov.hk/gia/general/202507/30/P2025073000346.htm)
+  - Status: **Trial** · Domain: Public service · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Time-bounded Pilot Scheme with privacy signage and Advanced-Rating pilots. Cite only stated purposes (border path patrol; high-altitude anti-crime patrol; case-detection colour in LCQ). Fleet/task annex figures are officially published counts.
+  - Note: Trial Pilot Scheme — not upgraded beyond stated public purposes.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > Starting from 2025-05-23, the first phase of the pilot scheme was implemented in two trial locations: utilizing an automated drone docking system for patrols in the Border District … and conducting high-altitude patrols in the downtown areas of the Kowloon West Region through manual flight mode… Since the launch of the Pilot Scheme in May, the use of drones has assisted the Police in detecting four cases so far, with three persons arrested.
+
+  ([source](https://www.police.gov.hk/offbeat/1282/chi/9022.html))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「行動部大型活動科重點及搜查組於五月二十三日推出小型無人機行動調配先導計劃。……於邊界警區及西九龍總區兩個試點實施。邊界警區採用自動化無人機庫巡邏邊境路徑……西九龍總區則透過手動飛行模式於市區內高空巡邏……先導計劃自五月份推出至今已協助警方拘捕三人並偵破四宗案件。」]{lang="zh-Hant"} ([source](https://www.police.gov.hk/offbeat/1282/chi/9022.html))
+  :::
+
+### April 2025 {#uc-2025-04}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2024-10-hkpf-cadre .uc-item}**Oct 2024 · Security Bureau LCQ5:** HKPF formally established the Force Drone Cadre in October 2024 to assist Regions with flight missions; SB describes public uses across crime investigation, high-rise patrol, crowd/traffic management, rescue, and related disciplined-services roles. [LCQ EN](https://www.info.gov.hk/gia/general/202412/11/P2024121100235.htm) · [LCQ 中文](https://www.info.gov.hk/gia/general/202412/11/P2024121100234.htm)
+  - Status: **Operating** · Domain: Public service · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Official LegCo answer records the Cadre’s establishment and stated public functions. About 800 CAD Advanced-Rating operators across disciplined services as of Nov 2024 (SB figure). Do not imply covert surveillance beyond this public text. Precedes the May 2025 named Pilot Scheme.
+  - Note: Operating public-service capability as stated; cite only public LCQ purposes.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > In October this year, the HKPF formally established the Force Drone Cadre to assist all Regions in performing flight missions. As at November this year, there are a total of about 800 drone operators under the disciplined services who have been recognised by the Civil Aviation Department (CAD) with Advanced Rating…
+
+  ([source](https://www.info.gov.hk/gia/general/202412/11/P2024121100235.htm))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「警務處已於今年十月正式成立警察無人機隊，協助各總區執行警察飛行任務。截至今年十一月，各紀律部隊已有共約800名獲民航處認可「進階等級」的無人機操控員…」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202412/11/P2024121100234.htm))
+  :::
+
+## Tourism / entertainment {#uc-tourism}
+
+4 items · 3 trial · 1 operating
+
+[↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-02-hung-hom .uc-item}**2 Oct 2026 · RTHK; TVB News; Xinhua:** National Day drone performance over Victoria Harbour off Hung Hom; first of two planned sessions cancelled for thunderstorm, second flew. [RTHK](https://news.rthk.hk/rthk/ch/component/k2/1872482-20261002.htm) · [TVB](https://news.tvb.com/en/1198750-NationalDaydroneshowtonight)
+  - Status: **Trial** · Domain: Tourism/entertainment · Geography: HK
+  - Tag: Independently reported
+  - What's happening: Public festival one-off (~2,026 drones; ~15 minutes/session per organisers/press). Later October MDN windows remain event entertainment, not a year-round commercial attraction.
+  - Note: Event / one-off — tagged trial.
+  - Read instead: [Companies & sectors](landscape.qmd) (DAMODA / OWOWWW pathway).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「紅磡新海濱晚上舉行國慶無人機表演，吸引不少市民及旅客觀賞。……原定今晚有兩場無人機表演，現場因應天氣，首場表演取消，第二場表演則順利進行。」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1872482-20261002.htm))
+  :::
+
+### September 2026 {#uc-2026-09}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2026-06-29-ocean-park .uc-item}**29 Jun 2026 · TLB Sandbox X Others PDF:** Ocean Park Corporation selected for Sandbox X “Others” first batch. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_29.6.2026.pdf)
+  - Status: **Trial** · Domain: Tourism/entertainment · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Selection only — not labelled operating visitor drone service.
+  - Note: Selected applicant pathway.
+  - Read instead: [Companies & sectors](landscape.qmd) (Ocean Park).
+
+### May 2026 {#uc-2026-05}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2026-04-11-feiyida .uc-item}**11 Apr 2026 · 粤港澳大湾区门户网 / 南方+:** “飞易达Air” matrix of GBA intercity low-altitude routes and HK⇄Macau⇄Shenzhen helicopter cross-border products launched at the Macao tourism expo. [cnbayarea.org.cn](https://www.cnbayarea.org.cn/homepage/news/content/post_1323962.html)
+  - Status: **Operating** · Domain: Tourism/entertainment · Geography: GBA
+  - Tag: Independently reported
+  - What's happening: Conventional helicopter services — not eVTOL — but evidenced GBA low-altitude travel ops. Fare/timetable sheets not published; “helicopter + hotel” packages are marketing colour.
+  - Note: Operating tourism/helicopter platform as reported; not eVTOL passenger service.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-04-11-feiyida).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「覆盖深圳、珠海、广州、横琴等湾区城际低空快线，香港⇄澳门⇄深圳直升机跨境客运航线，覆盖香港、深圳、广州、珠海等湾区城市空中游览等多元产品，推出“直升机+酒店”低空度假套餐……飞易达Air小程序平台已初步构建覆盖大湾区核心城市和跨境的低空出行服务网络，成为国内首个平台上线直升机跨境产品」]{lang="zh-Hans"} ([source](https://www.cnbayarea.org.cn/homepage/news/content/post_1323962.html))
+  :::
+
+- []{#uc-item-2026-03-31-tlb-shows .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Sandbox drone-show system trials at Cyberport (OWOWWW/HighGreat) and China Merchants Wharf Pier (DAMODA). [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
+  - Status: **Trial** · Domain: Tourism/entertainment · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: System trials on the implemented list — not themselves a ticketed public festival (contrast Oct 2026 Hung Hom National Day show).
+  - Note: Sandbox entertainment-system trials.
+  - Read instead: [Companies & sectors](landscape.qmd) (OWOWWW; DAMODA).
+
+## eVTOL passenger {#uc-evtol}
+
+4 items · 4 trial · 0 operating
+
+[↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-08-28-ehang .uc-item}**28 Aug 2026 · EHang; Cyberport; SCMP:** Pilotless passenger-capable EH216-S completes first public demonstration at Cyberport waterfront under Sandbox X UCA (KC Smart Mobility / Cyberport / EHang). [EHang EN](https://www.ehang.com/news/1387.html) · [SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3365647/unmanned-electric-aircraft-makes-maiden-flight-hong-kong)
+  - Status: **Trial** · Domain: eVTOL passenger · Geography: HK
+  - Tag: Independently reported
+  - What's happening: Public demo / validation flights (28–30 Aug stated by company), not scheduled ticketed passenger service.
+  - Note: Sandbox X demo — not commercial passenger carriage.
+  - Read instead: [Official status](tracker.qmd) (Sandbox X UCA); [Business news](industry.qmd#industry-item-2026-08-28-ehang).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「其自主研发的EH216-S无人驾驶载人电动垂直起降（eVTOL）航空器在香港数码港成功完成公开首飞。作为香港特区政府自8月中旬启动低空经济“监管沙盒X”试点项目以来的首阶段首次公开飞行展示」]{lang="zh-Hans"} ([source](https://www.ehang.com/cn/news/1386.html))
+  :::
+
+- []{#uc-item-2026-04-15-sandbox-x-uca .uc-item}**15 Apr 2026 · TLB UCA applications PDF:** Working Group admits four UCA pilots: AECOM/AutoFlight; China Travel Tours/AutoFlight; Geosys/FLYCAMHK; KC Smart Mobility/Cyberport/EHang. [TLB EN](https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_UCA_Applications_EN_15.4.2026_rev2.pdf) · [TLB TC](https://www.tlb.gov.hk/tc/highlights/transport/List_of_Sandbox_X_UCA_Applications_TC_15.4.2026_rev2.pdf)
+  - Status: **Trial** · Domain: eVTOL passenger · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Official selection list. Selection ≠ completed passenger service. KC/Cyberport/EHang later flew the Aug 2026 public demo (separate item).
+  - Note: Sandbox X selection.
+  - Read instead: [Official status](tracker.qmd); [Government news](news.qmd#press-item-2026-04-15-uca).
+
+- []{#uc-item-2026-03-09-eipp .uc-item}**9 Mar 2026 · FAA / USDOT newsroom:** FAA unveils eight eIPP selections spanning multiple states to trial AAM / eVTOL operational concepts. [FAA](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight) · [eIPP explainer](https://www.faa.gov/newsroom/eipp-what-you-need-know)
+  - Status: **Trial** · Domain: eVTOL passenger · Geography: Global (US)
+  - Tag: Officially confirmed
+  - What's happening: Federal public–private programme pathway — not type certification of any aircraft and not scheduled passenger service.
+  - Note: Programme selection.
+  - Read instead: [Companies & sectors](landscape.qmd) (FAA eIPP partners).
+### February 2026 {#uc-2026-02}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2025-11-16-joby-uae .uc-item}**16 Nov 2025 · Dubai RTA; WAM:** RTA says Joby completed the first crewed eVTOL aerial-taxi flight between two distinct UAE locations (Margham → Al Maktoum / DWC, ~17 minutes). [RTA](https://www.rta.ae/wps/portal/rta/ae/home/news-and-media/all-news/NewsDetails/successful-first-crewed-electric-aerial-taxi-flight) · [WAM](https://www.wam.ae/en/article/bmqvxk4-rta-joby-complete-first-crewed-evtol-aerial-taxi)
+  - Status: **Trial** · Domain: eVTOL passenger · Geography: Global (UAE / Dubai)
+  - Tag: Officially confirmed
+  - What's happening: Crewed test flight during Dubai Airshow week. Passenger commercial service timing remains a programme / company target — not evidenced as operating service as of 11 Oct 2026.
+  - Note: Crewed demo / test — not operating air-taxi service.
+  - Read instead: [Companies & sectors](landscape.qmd) (Joby); [Business news](industry.qmd#industry-item-2025-11-16-joby).
+
+### September 2025 {#uc-2025-09}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+## Other {#uc-other}
+
+5 items · 5 trial · 0 operating
+
+[↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-05-sandbox-connect .uc-item}**5 Oct 2026 · China Daily Hong Kong:** Press describes “Sandbox Connect” as Hong Kong’s first cross-jurisdictional LAE trial under Sandbox X — results still OPEN; no flight evidenced. [China Daily HK](https://www.chinadailyhk.com/hk/article/640531)
+  - Status: **Trial** · Domain: Other · Geography: HK / GBA
+  - Tag: Independently reported
+  - What's happening: Press framing only. Do not treat as an operating Shenzhen–Hong Kong corridor.
+  - Note: Results OPEN; corridor not evidenced.
+  - Read instead: [Official status](tracker.qmd); [Government news](news.qmd#press-item-2026-10-05-sandbox-connect).
+
+- []{#uc-item-2026-09-14-nansha .uc-item}**14 Sep 2026 · Dayoo / Guangzhou Daily (via news backfill):** HKPC and GBA Advanced Technology Application Promotion Center exchange an MoU on a Nansha–Hong Kong bilateral low-altitude sandbox. [Government news item](news.qmd#press-item-2026-09-14-nansha)
+  - Status: **Trial** · Domain: Other · Geography: HK / GBA
+  - Tag: Independently reported
+  - What's happening: MoU / cooperation mechanism only — not TLB Sandbox X results and not evidenced corridor flights.
+  - Note: MoU ≠ flight.
+  - Read instead: [Official status](tracker.qmd); [Government news](news.qmd#press-item-2026-09-14-nansha).
+
+- []{#uc-item-2026-07-06-vdx .uc-item}**6–7 Jul 2026 · Skyports; WAM:** UAE GCAA and Skyports announce certification of VDX at Dubai International as a purpose-built commercial vertiport. [Skyports](https://skyports.net/post/uae-makes-global-aviation-history-with-certification-worlds-first-purpose-built-commercial-vertiport-skyports-infrastructure) · [WAM](https://www.wam.ae/en/article/c13o6tv-uae-makes-global-aviation-history-with-gcaa%E2%80%99s)
+  - Status: **Trial** · Domain: Other · Geography: Global (UAE)
+  - Tag: Company-announced
+  - What's happening: Facility certification ahead of air-taxi passenger service. Passenger eVTOL ops from VDX not evidenced. GCAA register primary not retrieved this run. Vertiport: no HK statute.
+  - Note: Certified infrastructure awaiting passenger service — tagged trial.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-07-06-dxb).
+
+### June 2026 {#uc-2026-06}
+
+[↑ Back to timeline](#uc-timeline){.uc-back}
+
+- []{#uc-item-2025-12-31-ac013 .uc-item}**31 Dec 2025 · CAD Advisory Circular AC-013:** CAD issues AC-013 on BVLOS SUA operations within the Regulatory Sandbox — permission pathway for more complex trial flights. [CAD SUA AC listing](https://www.cad.gov.hk/english/sua_ac.html)
+  - Status: **Trial** · Domain: Other · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Enabler of delivery/inspection BVLOS trials already on the TLB implemented list — not itself a flight event. Not evidence of any new commercial route.
+  - Note: Regulatory pathway enabler.
+  - Read instead: [Government news](news.qmd#press-item-2025-12-31-ac013); [Official status](tracker.qmd).
+
+- []{#uc-item-2025-11-24-sandbox-x .uc-item}**24 Nov 2025 · info.gov.hk GIA:** TLB launches Sandbox X for more complex scenarios; Chinese release says 29 of 38 first-batch Sandbox projects had started. [GIA EN](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm) · [GIA 中文](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm)
+  - Status: **Trial** · Domain: Other · Geography: HK
+  - Tag: Officially confirmed
+  - What's happening: Portfolio of active trials across emergency, logistics, inspection, monitoring and low-altitude infrastructure — not a single commercial service. Sandbox X is distinct from the first-batch Regulatory Sandbox.
+  - Note: Official launch / portfolio colour.
+  - Read instead: [Official status](tracker.qmd); [Who decides what?](regulators.qmd#standing-caveats).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="Official English"}
+  > The launch event of the low-altitude economy "Regulatory Sandbox X" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.
+
+  ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
+  :::
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「首批「監管沙盒」共有38個項目獲選，已啟動的29個項目內容涵蓋緊急救援、物流配送、維修和安全檢查、監測、低空基建設施等多個領域及不同應用場景」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
+  :::

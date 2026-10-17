@@ -1,0 +1,47 @@
+\ProvidesPackage{cuhkbeamer}[2026/04/08 CUHK Business School Beamer Customizations]
+
+% ====================== THEME & COLORS ======================
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% CUHK Business School Purple
+\definecolor{cuhkpurple}{HTML}{5C33AD}
+\setbeamercolor{structure}{fg=cuhkpurple}
+
+% Fix for Title Page Visibility in Madrid Theme
+\setbeamercolor{title}{bg=cuhkpurple, fg=white}
+\setbeamercolor{frametitle}{bg=cuhkpurple, fg=white}
+\setbeamercolor{item}{fg=cuhkpurple}
+
+% Custom Block Colors
+\definecolor{cuhkgold}{HTML}{FDB015}
+\definecolor{cuhklight}{HTML}{FFEEF1}
+\setbeamercolor{block title}{bg=cuhkgold, fg=cuhkpurple}
+\setbeamercolor{block body}{bg=cuhklight, fg=black}
+
+% Clean look
+\setbeamertemplate{navigation symbols}{} % remove navigation icons
+\setbeamertemplate{footline}[frame number] % simple page number footer
+
+% ====================== GLOBAL EQUATION SPACING FIX ======================
+% This removes the automatic extra blank lines above and below equations inside blocks
+\addtobeamertemplate{block begin}{}{%
+  \setlength{\abovedisplayskip}{0pt}%
+  \setlength{\belowdisplayskip}{0pt}%
+  \setlength{\abovedisplayshortskip}{0pt}%
+  \setlength{\belowdisplayshortskip}{0pt}%
+}
+
+% ====================== TOP ALIGNMENT FOR ALL SLIDES ======================
+\setbeamertemplate{frametitle}[default][center]
+
+\setbeamertemplate{enumerate items}[default]
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes}
+
+% for chemstry
+\usepackage{mhchem}
+
+% table
+\usepackage{tabularx}

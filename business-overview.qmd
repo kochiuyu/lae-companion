@@ -1,0 +1,190 @@
+---
+title: "How does LAE work?"
+subtitle: "How value is created, the value chain, and how sectors fit — for newcomers"
+as_of: "2026-10-11"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+This page is a short map of the **business** side of the low-altitude economy (LAE).
+
+- Firm lists stay on [Companies & sectors](landscape.qmd).
+- Weekly tools stay on the week pages under **Teach** (for example [Week 1](week-01.qmd)).
+- Definitions stay in the [Glossary](glossary.qmd).
+
+## How value is created
+
+LAE is a **system**, not only aircraft. The system includes craft, take-off and landing sites, digital traffic and coordination, operators, customers, and supporting services ([Week 1](week-01.qmd)).
+
+A service creates **value** when it does at least one of these well:
+
+- saves time;
+- cuts cost or risk;
+- improves access; or
+- enables a mission that other modes cannot do well.
+
+```{=html}
+<figure class="wdiag" id="biz-four-value" aria-labelledby="biz-four-value-title">
+<p class="wdiag-cap" id="biz-four-value-title"><strong>Four ways a service creates value</strong> — saves time; cuts cost or risk; improves access; or enables a mission other modes cannot do well. Still commercially hard without willingness to pay, real demand, utilization/load factor, and costs under control. Technology helps only when it improves <strong>full-service</strong> economics — not a flashy airframe alone.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Four cards: saves time, cuts cost or risk, improves access, and enables a mission. A strip notes commercial conditions and that technology must improve full-service economics." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e6-title e6-desc">
+  <title id="e6-title">Four ways a service creates value</title>
+  <desc id="e6-desc">A low-altitude economy service creates value when it does at least one of these well: saves time; cuts cost or risk; improves access; or enables a mission that other modes cannot do well. Technology helps only when it improves the economics of the full service.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Four ways a service creates value</text>
+  <text x="360" y="54" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">LAE is a system — not only aircraft</text>
+
+  <rect x="36" y="78" width="150" height="140" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="111" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Saves time</text>
+  <text x="111" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Door-to-door</text>
+  <text x="111" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">minutes matter</text>
+
+  <rect x="202" y="78" width="150" height="140" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="277" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Cuts cost</text>
+  <text x="277" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">or risk</text>
+  <text x="277" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Safer / cheaper</text>
+  <text x="277" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">than the alternative</text>
+
+  <rect x="368" y="78" width="150" height="140" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="443" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Improves</text>
+  <text x="443" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">access</text>
+  <text x="443" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Places hard to</text>
+  <text x="443" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">reach otherwise</text>
+
+  <rect x="534" y="78" width="150" height="140" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="609" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Enables a</text>
+  <text x="609" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">mission</text>
+  <text x="609" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Other modes</text>
+  <text x="609" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">cannot do well</text>
+
+  <rect x="36" y="246" width="648" height="90" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="276" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Still commercially hard unless…</text>
+  <text x="360" y="298" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">WTP · real demand · utilization / load factor · costs under control</text>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Technology helps only when it improves full-service economics — not a flashy airframe alone.</text>
+
+</svg>
+<p class="wdiag-note">From business-overview “How value is created.” Roles/system continue in Week 1.</p>
+</figure>
+```
+
+A service is still commercially hard unless customers are willing to pay, demand is real, aircraft and sites are used enough (**utilization** and **load factor**), and operating and investment costs stay under control.
+
+Technology helps only when it improves the **economics of the full service** — not when it only makes the aircraft look advanced ([Week 1](week-01.qmd); [Week 3](week-03.qmd)).
+
+In class, unit-cost language includes [CASK](glossary.qmd#business-and-economics) (**cost per available seat-kilometre** — cost of passenger capacity offered) and mission-based measures for cargo or public-service work ([Week 3](week-03.qmd); [Glossary](glossary.qmd#business-and-economics)).
+
+## Value chain
+
+This section names **roles** only — how value moves along the chain.
+
+It does **not** give market sizes, deal values, or firm names.
+
+Trial programmes help teams test under controlled conditions. They are **not** the same as everyday commercial approval ([Week 7](week-07.qmd)).
+
+```{=html}
+<style>
+.vchain{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--gold:#C5A572;--muted:#5f5f5f;margin:1rem 0 1.35rem;font-size:.9rem;max-width:40rem}
+.vchain-cap{color:var(--muted);margin:0 0 .65rem;font-size:.88rem;line-height:1.4}
+.vchain-flow{display:flex;flex-direction:column;gap:.4rem;align-items:stretch}
+.vchain-box{background:var(--beige);border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:8px;padding:.55rem .75rem;color:var(--ink);line-height:1.35}
+.vchain-box strong{color:var(--navy)}
+.vchain-box.pay{border-left-color:var(--gold);background:#fff}
+.vchain-arrow{text-align:center;color:var(--navy);font-size:1.1rem;line-height:1;user-select:none;font-weight:600}
+.vchain-row{display:grid;grid-template-columns:1fr;gap:.4rem}
+@media (min-width:560px){
+  .vchain-suppliers{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+}
+.vchain-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
+</style>
+<figure class="vchain" id="lae-value-chain" aria-labelledby="vchain-title">
+<p class="vchain-cap" id="vchain-title"><strong>Value chain (simple picture)</strong> — course roles only. Arrows show the usual direction of value or payment — not volumes or market size.</p>
+<div class="vchain-flow">
+<div class="vchain-box pay"><strong>Customers / mission sponsors</strong><br/>Pay for flights, deliveries, inspections, or other missions — for example pay-per-use, subscription, availability payments, or mixed models.</div>
+<div class="vchain-arrow" aria-hidden="true">↓ value for the mission</div>
+<div class="vchain-box"><strong>Operators</strong><br/>Run the service. They buy or contract aircraft, sites, traffic/tech, insurance, and training.</div>
+<div class="vchain-arrow" aria-hidden="true">↓ operator spend on inputs</div>
+<div class="vchain-suppliers">
+<div class="vchain-box"><strong>Aircraft &amp; sites</strong><br/>Airframes; take-off/landing and related infrastructure access.</div>
+<div class="vchain-box"><strong>Enabling tech &amp; services</strong><br/>Traffic/coordination platforms, connectivity, training, MRO-style work.</div>
+<div class="vchain-box"><strong>Insurance &amp; finance</strong><br/>Price risk and provide capital. They do <strong>not</strong> remove operational or regulatory risk.</div>
+</div>
+<div class="vchain-arrow" aria-hidden="true">↕ when public missions or shared infra</div>
+<div class="vchain-box pay"><strong>Public bodies (when involved)</strong><br/>May fund trials, shared infrastructure, or public-service missions (usage vs availability payments in partnership designs). Value can move toward operators or sites — not only as an operator cost.</div>
+</div>
+<p class="vchain-note">Based on Weeks 1–3, 5–7, and 12. Roles only — no firm names and no market-size (TAM/SAM) figures.</p>
+</figure>
+```
+
+```{=html}
+<figure class="wdiag" id="biz-value-chain-svg" aria-labelledby="biz-value-chain-svg-title">
+<p class="wdiag-cap" id="biz-value-chain-svg-title"><strong>Value chain (roles only)</strong> — customers/mission sponsors → operators → aircraft &amp; sites / enabling tech &amp; services / insurance &amp; finance ↔ public bodies when involved. Arrows show usual value or payment direction — not volumes or market size. No firm names; no TAM/SAM. Insurance does not remove operational or regulatory risk. Trials ≠ day-to-day approval; Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Value-chain diagram from customers through operators to three supplier groups, with public bodies linked when involved. Roles only, no market sizes." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f4-title f4-desc">
+  <title id="f4-title">Value chain (roles only)</title>
+  <desc id="f4-desc">Simple LAE value chain. Customers or mission sponsors pay for missions. Operators run the service and spend on aircraft and sites, enabling tech and services, and insurance and finance. Public bodies when involved may fund trials, shared infrastructure, or public-service missions. Roles only — no firm names and no market-size figures. Trial programmes are not everyday commercial approval. Insurance does not remove operational or regulatory risk.</desc>
+  <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Value chain (roles only)</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Direction of value / payment — not volumes or TAM</text>
+
+  <rect x="160" y="64" width="400" height="40" rx="6" fill="#C5A572"/>
+  <text x="360" y="90" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Customers / mission sponsors</text>
+
+  <text x="360" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ value for the mission</text>
+
+  <rect x="160" y="126" width="400" height="40" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="152" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Operators</text>
+
+  <text x="360" y="180" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ operator spend on inputs</text>
+
+  <rect x="36" y="190" width="210" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="141" y="220" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Aircraft &amp; sites</text>
+  <text x="141" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Airframes · pads</text>
+
+  <rect x="256" y="190" width="210" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="361" y="220" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Enabling tech</text>
+  <text x="361" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">&amp; services · MRO</text>
+
+  <rect x="476" y="190" width="210" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="581" y="220" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Insurance &amp;</text>
+  <text x="581" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">finance</text>
+
+  <text x="360" y="280" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↕ when public missions or shared infra</text>
+
+  <rect x="160" y="292" width="400" height="44" rx="6" fill="#C5A572"/>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Public bodies (when involved)</text>
+
+  <text x="360" y="356" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No firm names · no TAM/SAM · trials ≠ day-to-day approval · Sandbox ≠ Sandbox X</text>
+
+</svg>
+<p class="wdiag-note">From business-overview value chain. SVG upgrade of HTML #lae-value-chain.</p>
+</figure>
+```
+
+Named firms: [Companies & sectors](landscape.qmd).
+
+## How sectors fit
+
+[Companies & sectors](landscape.qmd) groups checked entries into eleven roles:
+
+| Role on that page | What it usually contributes |
+|-------------------|-----------------------------|
+| Aircraft and airframe makers | Vehicles and platforms |
+| Delivery and logistics | Cargo / last-mile style missions |
+| Inspection and surveying | Asset and site inspection missions |
+| Emergency and medical | Public-safety / medical transport trials |
+| Tourism and entertainment | Visitor / show / attraction flights |
+| eVTOL and passenger trials | Passenger-oriented trial activity (**eVTOL** = electric vertical take-off and landing) |
+| Infrastructure and vertiports | Sites, docking, planned logistics clusters (**vertiport** = industry word for a take-off/landing site) |
+| Enabling technology | UTM, connectivity, shared platforms (**UTM** = unmanned aircraft system traffic management) |
+| Insurance and finance | Risk transfer and capital products |
+| Tangible services | Hands-on flight / MRO / patrol services (**MRO** = maintenance, repair, and overhaul) |
+| Intangible services | Training, research, software-heavy services |
+
+Use the map and sector lists on [Companies & sectors](landscape.qmd) for who appears where. This page does not repeat firm names.
+
+## Where to go next
+
+- [Who decides what?](regulators.qmd) — regulator roles  
+- [Companies & sectors](landscape.qmd) — market map by sector  
+- **Teach** menu — especially [Week 1](week-01.qmd), [Week 2](week-02.qmd), [Week 3](week-03.qmd), [Week 6](week-06.qmd)  
+- [Week 1](week-01.qmd) · [What is LAE?](primer.qmd)

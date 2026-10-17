@@ -1,0 +1,783 @@
+---
+title: "Formulas"
+subtitle: "Teaching identities from the week notes"
+as_of: "2026-10-17"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+format:
+  html:
+    html-math-method: katex
+---
+
+Named teaching formulas from the week notes. Worked numeric examples stay on the week pages.
+
+## Jump by theme
+
+- [Cost](#week-03) · [Demand / GC](#week-04) · [Competition](#week-02)
+- [Infrastructure](#week-05) · [Partnerships](#week-06) · [Regulation / readiness](#week-07)
+- [Airspace / slots](#week-08) · [Risk & sustainability](#week-10) · [Investment / viability](#week-11)
+
+Week index: [W1](#week-01) · [W2](#week-02) · [W3](#week-03) · [W4](#week-04) · [W5](#week-05) · [W6](#week-06) · [W7](#week-07) · [W8](#week-08) · [W9](#week-09) · [W10](#week-10) · [W11](#week-11) · [W12](#week-12)
+
+## Week 1 — Value, GC, and entry {#week-01}
+
+Full notes: [Week 1](week-01.qmd) · 8 identities below.
+
+### Value of time saved {#w01-vot}
+
+$$
+\text{Value of time saved per trip} = \text{VOT} \times \Delta T
+$$
+
+Time saved on a trip valued at the customer’s value of time (VOT). [Value of time (VOT)](week-01.qmd#value-of-time-vot)
+
+### Net present value (NPV) {#w01-npv}
+
+$$
+\text{NPV} = -\text{Initial investment} + \text{Present value of future profits}
+$$
+
+Whether future cash, after costs and risk, justifies what must be spent today. [Net present value (NPV)](week-01.qmd#net-present-value-npv)
+
+### Annual operating profit {#w01-op-profit}
+
+$$
+\text{Annual operating profit} = \text{Annual revenue} - \text{Annual operating cost}
+$$
+
+Simple operating screen before discounting into NPV. [A three-step viability screen](week-01.qmd#a-three-step-viability-screen)
+
+### Generalized cost (short form) {#w01-gc}
+
+$$
+\text{Generalized cost} = \text{Ticket price} + \text{VOT} \times \text{Travel time}
+$$
+
+Money plus time in one comparable burden for mode choice. [7. Generalized cost and mode choice](week-01.qmd#7-generalized-cost-and-mode-choice)
+
+### Maximum fare against an alternative {#w01-pmax}
+
+$$
+P_{\max} = GC_A - \text{VOT}\times T_{\text{air}}
+$$
+
+Fare ceiling so air matches the alternative’s generalized cost. [How GC connects to VOT and to fare caps](week-01.qmd#how-gc-connects-to-vot-and-to-fare-caps)
+
+### Ticket-price decomposition {#w01-ticket-share}
+
+$$
+\begin{aligned}
+\text{Ticket price} =\ &\text{Aircraft cost} + \text{Vertiport fee} + \text{Energy} \\
+&+ \text{UTM fee} + \text{Maintenance and labour} \\
+&+ \text{Insurance and overhead} + \text{Operator margin}.
+\end{aligned}
+$$
+
+Teaching split of who gets paid inside one fare — not a tariff schedule. [How a ticket price might be shared](week-01.qmd#how-a-ticket-price-might-be-shared)
+
+### Entry-barrier sum {#w01-entry}
+
+$$
+\begin{aligned}
+\text{Entry barrier} =\ &\text{Investment cost} + \text{Compliance cost} \\
+&+ \text{Cost of delay} + \text{Uncertainty}.
+\end{aligned}
+$$
+
+What a sandbox can change economically: cost, delay, and uncertainty — not a waiver of safety. Keep Sandbox ≠ Sandbox X. [Entry barriers as a simple sum](week-01.qmd#entry-barriers-as-a-simple-sum)
+
+### Cost per passenger (unit cost) {#w01-unit-cost}
+
+$$
+\begin{aligned}
+\text{Cost per passenger}
+=\ &\text{Variable cost per passenger} \\
+&+ \frac{\text{Daily fixed cost}}{\text{Flights per day}\times\text{Seats per flight}\times\text{Load factor}}.
+\end{aligned}
+$$
+
+Fixed cost spread over filled seats; empty seats raise unit cost. [13. The empty-seat problem and unit cost](week-01.qmd#13-the-empty-seat-problem-and-unit-cost)
+
+## Week 2 — Competition, cost, and co-opetition {#week-02}
+
+Full notes: [Week 2](week-02.qmd) · 6 identities below.
+
+### Herfindahl–Hirschman Index (HHI) {#w02-hhi}
+
+$$
+HHI = \sum_{i=1}^{N} s_i^2
+$$
+
+Concentration score from market shares; higher means more uneven. [Herfindahl–Hirschman Index (HHI)](week-02.qmd#herfindahl-hirschman-index-hhi)
+
+### Average total cost per flight (ATC) {#w02-atc}
+
+$$
+\text{ATC} = \frac{\text{Fixed costs}}{\text{Number of flights}} + \text{Marginal cost}
+$$
+
+Fixed site cost spread over flights, plus marginal cost. [5. Fixed cost, marginal cost, and average cost per flight](week-02.qmd#5-fixed-cost-marginal-cost-and-average-cost-per-flight)
+
+### Average cost with density {#w02-density}
+
+$$
+\text{Average cost per flight} = \frac{\text{Fixed route costs}}{\text{Flights} \times \text{Density factor}} + \text{Marginal cost}
+$$
+
+More volume through the same corridor and sites spreads fixed route cost. [6. Economies of density (not bigger vehicles)](week-02.qmd#6-economies-of-density-not-bigger-vehicles)
+
+### Limit price / entrant average cost {#w02-limit}
+
+$$
+P_{\text{Limit}} \approx AC_{\text{Entrant}} = \frac{\text{Sunk entry cost}}{\text{Expected volume } Q} + MC
+$$
+
+Incumbent price low enough that entry looks unprofitable given sunk entry cost. [Limit pricing](week-02.qmd#limit-pricing)
+
+### Bertrand price under unconstrained capacity {#w02-bertrand}
+
+$$
+P = MC \quad \text{(unconstrained capacity, homogeneous product)}
+$$
+
+With homogeneous service and spare capacity, undercutting can push price toward marginal cost. [Bertrand intuition](week-02.qmd#bertrand-intuition)
+
+### Savings from sharing fixed infrastructure {#w02-share}
+
+$$
+\text{Savings per operator relative to going alone} = \frac{\text{Fixed infrastructure cost} \times (N-1)}{N}
+$$
+
+Split a shared fixed site cost among $N$ operators — only if access rules work. [10. Co-opetition: compete on service, share the roof](week-02.qmd#10-co-opetition-compete-on-service-share-the-roof)
+
+## Week 3 — Unit cost, revenue, and breakeven {#week-03}
+
+Full notes: [Week 3](week-03.qmd) · 7 identities below.
+
+### Daily economic cost {#w03-daily-econ}
+
+$$
+\text{Daily economic cost}
+=
+\frac{\text{Asset cost} - \text{Expected residual value}}{\text{Useful operating days}}
++ \text{Daily OPEX}
+$$
+
+Net asset cost spread over useful days, plus that day’s operating spend. [A simple daily economic-cost approximation](week-03.qmd#a-simple-daily-economic-cost-approximation)
+
+### CASK (cost per available seat-kilometre) {#w03-cask}
+
+$$
+CASK = \frac{\text{Operating cost for the period}}{\text{Available seats} \times \text{Kilometres flown}}
+$$
+
+Operating cost divided by seat-kilometres offered (sold or empty). [CASK (cost per available seat-kilometre)](week-03.qmd#cask-cost-per-available-seat-kilometre)
+
+### Cost per mission-kilometre {#w03-mission-km}
+
+$$
+\text{Cost per mission-km}
+=
+\frac{\text{Operating cost for the period}}{\text{Total mission-kilometres}}
+$$
+
+Unit cost for cargo, inspection, emergency, or public-service missions. [Cost per mission-kilometre](week-03.qmd#cost-per-mission-kilometre)
+
+### Revenue per flight {#w03-rev-flight}
+
+$$
+\text{Revenue per flight}
+=
+\text{Seats} \times \text{Load factor} \times \text{Average fare}
+$$
+
+Seats offered times share occupied times average fare — not “fill every seat.” [6. Revenue management (not “fill every seat”)](week-03.qmd#6-revenue-management-not-fill-every-seat)
+
+### Breakeven units {#w03-be}
+
+$$
+\text{Breakeven units}
+=
+\frac{\text{Fixed cost}}{\text{Revenue per unit} - \text{Variable cost per unit}}
+$$
+
+Volume needed before contribution covers fixed cost. [7. Breakeven volume](week-03.qmd#7-breakeven-volume)
+
+### Required missions per day {#w03-missions-day}
+
+$$
+\text{Required missions per day}
+=
+\frac{\text{Fixed daily cost}}{\text{Contribution margin per mission}}
+$$
+
+Daily activity target from fixed daily cost and contribution per mission. [7. Breakeven volume](week-03.qmd#7-breakeven-volume)
+
+### Profit under a mixed-revenue sketch {#w03-mixed-profit}
+
+$$
+\begin{aligned}
+\text{Profit} ={}& \text{Committed revenue} + \text{Usage revenue} + \text{Insurance payout} \\
+&- \text{Fixed cost} - \text{Variable cost} - \text{Premiums and service credits}
+\end{aligned}
+$$
+
+Committed + usage + insurance cash, minus fixed/variable cost and premiums/credits. [Profit under a mixed-revenue sketch](week-03.qmd#profit-under-a-mixed-revenue-sketch)
+
+## Week 4 — Demand, GC, and elasticity {#week-04}
+
+Full notes: [Week 4](week-04.qmd) · 9 identities below.
+
+### Linear demand (classroom) {#w04-linear}
+
+$$
+Q = a - bP
+$$
+
+Expected quantity falls linearly as price rises. [Linear demand (classroom form)](week-04.qmd#linear-demand-classroom-form)
+
+### Potential LAE passenger-trips {#w04-funnel}
+
+$$
+\text{Potential LAE passenger-trips}
+=
+\text{Relevant trips} \times \text{Corridor share} \times \text{Mode share}
+$$
+
+Relevant trips × corridor share × mode share — still before capacity. [Managerial demand funnel](week-04.qmd#managerial-demand-funnel)
+
+### Served passenger-trips (capacity screen) {#w04-served-funnel}
+
+$$
+\text{Served passenger-trips}
+=
+\min\{\text{Potential demand},\ \text{Available capacity}\}
+$$
+
+Served trips cannot exceed available capacity. [Managerial demand funnel](week-04.qmd#managerial-demand-funnel)
+
+### Generalized cost (door-to-door) {#w04-gc}
+
+$$
+GC = \text{Fare} + VOT \times \text{Door-to-door time} + \text{Other monetized burdens}
+$$
+
+Fare plus VOT × full door-to-door time, plus other monetized burdens. [5. Generalized cost and door-to-door comparison](week-04.qmd#5-generalized-cost-and-door-to-door-comparison)
+
+### Own-price elasticity {#w04-ed}
+
+$$
+E_d = \frac{\%\ \text{change in quantity demanded}}{\%\ \text{change in price}}
+$$
+
+How much quantity moves when your own price changes. [6. Elasticity of demand](week-04.qmd#6-elasticity-of-demand)
+
+### Total revenue across products {#w04-rev-sum}
+
+$$
+\text{Total revenue} = \sum_{i=1}^{n} P_i Q_i(P_i)
+$$
+
+Sum across products of each product’s price times its quantity. [7. Heterogeneity and differentiated products](week-04.qmd#7-heterogeneity-and-differentiated-products)
+
+### Scenario demand with acceptance {#w04-accept}
+
+$$
+\text{Scenario demand} = \text{Base demand} \times \text{Acceptance adjustment}
+$$
+
+Base demand times an explicit acceptance factor you defend. [Transparent acceptance adjustment](week-04.qmd#transparent-acceptance-adjustment)
+
+### Served quantity under shocks {#w04-qserved}
+
+$$
+Q_{\text{served}} = \min\{Q_{\text{demand}},\ Q_{\text{capacity}}\}
+$$
+
+Served activity is the minimum of demand and capacity. [9. Scenario analysis and shocks](week-04.qmd#9-scenario-analysis-and-shocks)
+
+### Revenue under served quantity {#w04-r}
+
+$$
+R = P \times Q_{\text{served}} + \text{Committed revenue} - \text{Refunds and credits}
+$$
+
+Price × served quantity, plus committed revenue, minus refunds and credits. [9. Scenario analysis and shocks](week-04.qmd#9-scenario-analysis-and-shocks)
+
+## Week 5 — Sites, capacity, and network cost {#week-05}
+
+Full notes: [Week 5](week-05.qmd) · 6 identities below.
+
+### Generalized site cost {#w05-site}
+
+$$
+\begin{aligned}
+\text{Generalized site cost}
+&= \text{Annualized infrastructure cost} \\
+&\quad + \text{Annual OPEX} \\
+&\quad + \text{Monetized access burden} \\
+&\quad + \text{Expected disruption cost}
+\end{aligned}
+$$
+
+Annualized build + OPEX + monetized access burden + expected disruption — a screening sum. [Generalized site cost (screening)](week-05.qmd#generalized-site-cost-screening)
+
+### Breakeven capacity use {#w05-be-cap}
+
+$$
+\begin{aligned}
+\text{Breakeven capacity use}
+&=
+\frac{\text{Fixed daily facility cost}}
+{\text{Reliable daily capacity}
+  \times \text{Contribution per movement}}
+\end{aligned}
+$$
+
+Share of reliable capacity that must be used to cover fixed facility cost. [Breakeven capacity use](week-05.qmd#breakeven-capacity-use)
+
+### Simple return screen {#w05-return}
+
+$$
+\begin{aligned}
+\text{Simple return}
+&=
+\frac{\text{Adjusted revenue}
+  - \text{Adjusted operating cost}}
+{\text{Initial investment}}
+\end{aligned}
+$$
+
+Rough return under reliability scenarios — not a full NPV. [6. Reliability scenarios (simple return screen)](week-05.qmd#6-reliability-scenarios-simple-return-screen)
+
+### Daily infrastructure cost {#w05-daily-infra}
+
+$$
+\begin{aligned}
+\text{Daily infrastructure cost}
+&=
+\frac{\text{CAPEX} - \text{Expected residual value}}
+{\text{Useful operating days}} \\
+&\quad + \text{Daily OPEX}
+\end{aligned}
+$$
+
+Net CAPEX spread over useful days, plus daily OPEX. [Daily infrastructure cost (economic sketch)](week-05.qmd#daily-infrastructure-cost-economic-sketch)
+
+### Illustrative peak slot fee {#w05-slot-fee}
+
+$$
+\begin{aligned}
+\text{Slot fee}
+&= \text{Base fee} \\
+&\quad + \text{Congestion charge}
+  \times
+  \left(
+    \frac{\text{Requests}}{\text{Available slots}}
+  \right)
+\end{aligned}
+$$
+
+Base fee plus a congestion term that rises with request pressure — teaching design, not a tariff. [Illustrative peak-pricing rule (design choice, not a regulation)](week-05.qmd#illustrative-peak-pricing-rule-design-choice-not-a-regulation)
+
+### Network cost bundle and GC per trip {#w05-gc-trip}
+
+$$
+\begin{aligned}
+\text{Network cost bundle}
+&= \text{Network fixed cost}
+  + \text{Network OPEX}
+  + \text{Disruption cost} \\
+\text{GC per trip}
+&= \frac{\text{Network cost bundle}}{\text{Served trips}}
+  + \text{Access burden per trip}
+\end{aligned}
+$$
+
+Network costs per served trip, plus access burden per trip. [Generalized cost per served trip](week-05.qmd#generalized-cost-per-served-trip)
+
+## Week 6 — Partnerships and payment rules {#week-06}
+
+Full notes: [Week 6](week-06.qmd) · 5 identities below.
+
+### Monthly economic profit {#w06-econ-profit}
+
+$$
+\begin{aligned}
+\text{Monthly economic profit}
+&= \text{Revenue} - \text{Cash OPEX} \\
+&\quad - \text{Monthly asset-cost allocation}
+  - \text{Partner payments}
+\end{aligned}
+$$
+
+Revenue minus cash OPEX, asset-cost allocation, and partner payments. [Monthly economic-profit screen](week-06.qmd#monthly-economic-profit-screen)
+
+### Usage-based revenue {#w06-ru}
+
+$$
+\begin{aligned}
+R_U &= p \times q
+\quad\text{(usage-based revenue)}
+\end{aligned}
+$$
+
+Price times quantity — volume risk sits with the operator. [4. Usage vs availability payments](week-06.qmd#4-usage-vs-availability-payments)
+
+### Availability-based component {#w06-ra}
+
+$$
+\begin{aligned}
+R_A &= A - D + u \times q
+\quad\text{(availability-based component)}
+\end{aligned}
+$$
+
+Readiness fee minus performance deductions, plus optional usage term. [4. Usage vs availability payments](week-06.qmd#4-usage-vs-availability-payments)
+
+### Expected project value (decision tree) {#w06-epv}
+
+$$
+\begin{aligned}
+\text{Expected project value}
+&=
+\sum_s \Pr(s)
+  \times \text{Payoff under the chosen action in state } s
+\end{aligned}
+$$
+
+Probability-weighted payoff of the action you would choose in each state. [Decision-tree screen](week-06.qmd#decision-tree-screen)
+
+### Shared facility cost per movement {#w06-facility}
+
+$$
+\begin{aligned}
+\text{Fixed cost per movement}
+&= \frac{\text{Fixed facility cost}}{\text{Total movements}} \\
+\text{Shared facility cost per movement}
+&= \text{Fixed cost per movement}
+  + \text{Variable facility cost per movement}
+\end{aligned}
+$$
+
+Allocated fixed facility cost per movement plus variable facility cost. [Facility cost per movement](week-06.qmd#facility-cost-per-movement)
+
+## Week 7 — Readiness, trials, and risk cost {#week-07}
+
+Full notes: [Week 7](week-07.qmd) · 7 identities below.
+
+### Net readiness value {#w07-readiness}
+
+$$
+\begin{aligned}
+\text{Net readiness value}
+&= \text{Contribution earned during the lead period} \\
+&\quad - \text{Additional compliance and launch cost}
+\end{aligned}
+$$
+
+Contribution during a lead window minus the extra compliance/launch cost that bought it. [Value of earlier market readiness](week-07.qmd#value-of-earlier-market-readiness)
+
+### Trial value {#w07-trial}
+
+$$
+\begin{aligned}
+\text{Trial value}
+&= \text{Expected avoided redesign and delay cost} \\
+&\quad + \text{Value of better information}
+  - \text{Trial cost}
+\end{aligned}
+$$
+
+Avoided redesign/delay plus information value, minus trial cost. [Value of a controlled trial](week-07.qmd#value-of-a-controlled-trial)
+
+### Compliance investment appraisal {#w07-comp}
+
+$$
+\begin{aligned}
+V_{\mathrm{appr}} &= \Pr(\text{approval}) \times V_{\mathrm{proj}} \\
+V_{\mathrm{net}} &= V_{\mathrm{appr}} - C_{\mathrm{comp}} \\
+V_{\mathrm{comp}} &= V_{\mathrm{net}} - C_{\mathrm{delay}}
+\end{aligned}
+$$
+
+Approval-probability × project value, then subtract compliance and delay cost. [Compliance investment appraisal](week-07.qmd#compliance-investment-appraisal)
+
+### Expected loss {#w07-eloss}
+
+$$
+\begin{aligned}
+\text{Expected loss}
+&= \sum_j \Pr(\text{event } j)
+  \times \text{Financial consequence}_j
+\end{aligned}
+$$
+
+Sum of probability times financial consequence across events. [6. The safety case and risk cost](week-07.qmd#6-the-safety-case-and-risk-cost)
+
+### Risk cost {#w07-risk-cost}
+
+$$
+\begin{aligned}
+\text{Risk cost}
+&= \text{Prevention and mitigation cost} \\
+&\quad + \text{Insurance cost}
+  + \text{Retained expected loss}
+\end{aligned}
+$$
+
+Prevention/mitigation + insurance + retained expected loss. [6. The safety case and risk cost](week-07.qmd#6-the-safety-case-and-risk-cost)
+
+### Daily coordination cost {#w07-coord}
+
+$$
+\begin{aligned}
+\text{Daily coordination cost}
+&= \text{Fixed system cost} \\
+&\quad + q \times \text{Variable digital cost} \\
+&\quad + h \times \text{Human oversight cost}
+\end{aligned}
+$$
+
+Fixed system + variable digital per operation + human oversight. **U-space ≠ Hong Kong law.** [7. U-space, UTM, and coordination cost](week-07.qmd#7-u-space-utm-and-coordination-cost)
+
+### Weighted pathway score {#w07-score}
+
+$$
+\begin{aligned}
+\text{Weighted score}
+&= \sum_k w_k s_k
+\end{aligned}
+$$
+
+Documented weights times pathway scores — not “approval time ÷ invented stringency.” [Regulatory-pathway scorecard](week-07.qmd#regulatory-pathway-scorecard)
+
+## Week 8 — Congestion, slots, and roadmap NPV {#week-08}
+
+Full notes: [Week 8](week-08.qmd) · 4 identities below.
+
+### Marginal congestion cost (MCC) {#w08-mcc}
+
+$$
+\begin{aligned}
+S_{\mathrm{delay}} &= \sum_j \left( D_j \times v_j \right) \\
+\mathrm{MCC} &= S_{\mathrm{delay}} + C_{\mathrm{other}}
+\end{aligned}
+$$
+
+External delay cost across affected users, plus other incremental costs. Do not invent corridor $K$. [Marginal congestion cost (illustrative)](week-08.qmd#marginal-congestion-cost-illustrative)
+
+### Maximum affordable slot payment {#w08-bmax}
+
+$$
+B_{\max} = R_{\Delta} - C_{\Delta} - \pi_{\mathrm{req}}
+$$
+
+Incremental revenue minus incremental cost minus required contribution. [Maximum affordable slot payment](week-08.qmd#maximum-affordable-slot-payment)
+
+### Coordination-cost saving {#w08-sday}
+
+$$
+S_{\mathrm{day}} = C_{\mathrm{legacy}} - C_{\mathrm{interop}}
+$$
+
+Daily net saving of interoperable process versus legacy coordination. [Coordination-cost savings](week-08.qmd#coordination-cost-savings)
+
+### Phased roadmap NPV {#w08-npv}
+
+$$
+\begin{aligned}
+\mathrm{CF}_{t}
+&= I_{t} - O_{t} \\
+\mathrm{NPV}
+&= \sum_{t=0}^{T}
+  \frac{\mathrm{CF}_{t}}{(1+r)^{t}}
+\end{aligned}
+$$
+
+Incremental cash flows discounted over the roadmap horizon. [Phased roadmap value](week-08.qmd#phased-roadmap-value)
+
+## Week 9 — Funnel, contribution, and scenarios {#week-09}
+
+Full notes: [Week 9](week-09.qmd) · 4 identities below.
+
+### Market funnel with capacity {#w09-funnel}
+
+$$
+\begin{aligned}
+SAM
+&= TAM \times e \\
+D_{\mathrm{pot}}
+&= SAM \times s \\
+D_{\mathrm{served}}
+&= \min\{D_{\mathrm{pot}},\, K\}
+\end{aligned}
+$$
+
+TAM → SAM → potential demand → served after capacity $K$. OHKF HK$350bn is **value-added only** — not obtainable demand. [Market funnel with capacity](week-09.qmd#market-funnel-with-capacity)
+
+### Daily revenue and contribution {#w09-contrib}
+
+$$
+\begin{aligned}
+R_{\mathrm{day}}
+&= D_{\mathrm{served}} \times p \\
+\Pi_{\mathrm{var}}
+&= R_{\mathrm{day}} - D_{\mathrm{served}} \times v
+\end{aligned}
+$$
+
+Served demand × price, then minus variable cost of served units. [Revenue and contribution](week-09.qmd#revenue-and-contribution)
+
+### Expected profit across scenarios {#w09-ev}
+
+$$
+\begin{aligned}
+E[\Pi]
+&= \sum_{s} \Pr(s)\, \Pi_{s}
+\end{aligned}
+$$
+
+Probability-weighted profit (or other payoff) across scenarios. [Expected value and downside risk](week-09.qmd#expected-value-and-downside-risk)
+
+### Hedonic log-price specification (illustrative) {#w09-hedonic}
+
+$$
+\begin{aligned}
+\ln(P_{i})
+&= \alpha + \beta N_{i} + \gamma A_{i} + \delta X_{i} + \varepsilon_{i}
+\end{aligned}
+$$
+
+Log price on noise and other attributes — classroom tool, not a Hong Kong estimate. [Illustrative specification](week-09.qmd#illustrative-specification)
+
+## Week 10 — Noise, privacy, emissions, and public service {#week-10}
+
+Full notes: [Week 10](week-10.qmd) · 5 identities below.
+
+### Efficient noise charge (benchmark) {#w10-noise}
+
+$$
+\begin{aligned}
+C^{*}_{\mathrm{noise}}
+&= \mathrm{MEC}_{\mathrm{noise}}
+\end{aligned}
+$$
+
+Economic benchmark: charge equals marginal external noise cost — not a published CAD tariff. [Pricing a noise externality (economic benchmark)](week-10.qmd#pricing-a-noise-externality-economic-benchmark)
+
+### Privacy-control cost {#w10-priv}
+
+$$
+\begin{aligned}
+C_{\mathrm{priv}}
+&= F_{\mathrm{gov}} + q \times v + A
+\end{aligned}
+$$
+
+Governance fixed cost + variable processing × volume + audit/incident cost. [Privacy-control cost](week-10.qmd#privacy-control-cost)
+
+### Operational electricity emissions {#w10-eop}
+
+$$
+\begin{aligned}
+e_{\mathrm{op}}
+&= E_{\mathrm{kWh}} \times f_{\mathrm{grid}}
+\end{aligned}
+$$
+
+kWh per operation times grid emissions factor. Electric ≠ zero life-cycle emissions. [Electricity-related (operational) emissions](week-10.qmd#electricity-related-operational-emissions)
+
+### Life-cycle emissions per functional unit {#w10-efu}
+
+$$
+\begin{aligned}
+e_{\mathrm{FU}}
+&= \frac{E_{\mathrm{v}} + E_{\mathrm{b}} + E_{\mathrm{i}} + E_{\mathrm{o}} + E_{\mathrm{e}}}{U}
+\end{aligned}
+$$
+
+Vehicle + battery + infrastructure + operations + end-of-life, divided by lifetime use. [Life-cycle emissions per functional unit](week-10.qmd#life-cycle-emissions-per-functional-unit)
+
+### Net contribution after public-service commitment {#w10-ps}
+
+$$
+\begin{aligned}
+\Pi_{\mathrm{net}}
+&= Q_{C}\, m_{C} + P_{\mathrm{PS}} - Q_{P}\, c_{P} - F
+\end{aligned}
+$$
+
+Commercial contribution + public-service payment − public-service cost − fixed cost. [Funding a public-service commitment](week-10.qmd#funding-a-public-service-commitment)
+
+## Week 11 — Viability recommendation {#week-11}
+
+Full notes: [Week 11](week-11.qmd) · 1 identities below.
+
+### Operating viability test {#w11-viability}
+
+$$
+\begin{aligned}
+D_{\mathrm{served}}
+&= \min\{D,\, K\} \\
+\Pi_{\mathrm{op}}
+&= (p - v)\, D_{\mathrm{served}} - F
+\end{aligned}
+$$
+
+Served activity is $\min\{D,K\}$; operating profit is contribution minus fixed cost. Week 12 reapplies the same identity under exam shocks. [The viability test](week-11.qmd#the-viability-test)
+
+## Week 12 — Networks, digital coordination, and leasing {#week-12}
+
+Full notes: [Week 12](week-12.qmd) · 3 identities below.
+
+### Possible undirected links {#w12-links}
+
+$$
+\begin{aligned}
+L
+&= \frac{N(N-1)}{2}
+\end{aligned}
+$$
+
+Counts possible pairs among $N$ nodes — not scheduled routes, demand, or network value. [Counting possible connections](week-12.qmd#counting-possible-connections)
+
+### Digital-coordination net saving {#w12-snet}
+
+$$
+\begin{aligned}
+S_{\mathrm{net}}
+&= C_{\mathrm{legacy}} - C_{\mathrm{dig}} - C_{\mathrm{trans}}
+\end{aligned}
+$$
+
+Legacy cost minus digital process cost minus transition cost. [Digital-coordination business case](week-12.qmd#digital-coordination-business-case)
+
+### Lessor leasing appraisal {#w12-lease}
+
+$$
+\begin{aligned}
+\mathrm{CF}_{L,t}
+&= R_{t} - F_{t} - M_{t} - I_{t} - L_{t} \\
+\mathrm{NPV}
+&= -P_{0}
+  + \sum_{t=1}^{T}
+    \frac{\mathrm{CF}_{L,t}}{(1+r)^{t}}
+  + \frac{V_{T}}{(1+r)^{T}}
+\end{aligned}
+$$
+
+Lease cash flows and residual value — leasing reallocates risk; it does not erase it. [Leasing appraisal (risk does not disappear)](week-12.qmd#leasing-appraisal-risk-does-not-disappear)
+
+## Where else to look
+
+- [Tables](tables.qmd) — named teaching tables
+- [Figures](figures.qmd) — teaching diagrams
+- [Readings](readings.qmd) — documents listed on the week notes
+- [Glossary · Business and economics](glossary.qmd#business-and-economics) — word definitions
+- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- Teach menu — week pages with worked examples
+
+**Next:** [Tables](tables.qmd) · [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

@@ -1,0 +1,23 @@
+---
+title: "Lectures"
+subtitle: "Moved — Teach is one page per week"
+as_of: "2026-10-11"
+page-layout: article
+---
+
+Slides and takeaways live on each **week article** (with notes and readings).
+
+Use the **Teach** menu, or jump:
+
+- [Week 1: Introduction to LAE](week-01.qmd)
+- [Week 2: LAE Market Structure and Competition](week-02.qmd)
+- [Week 3: Cost Structures and Revenue Management](week-03.qmd)
+- [Week 4: Demand Modeling in Urban Air Mobility](week-04.qmd)
+- [Week 5: Infrastructure Economics and Management](week-05.qmd)
+- [Week 6: LAE Strategic Partnerships and Business Models](week-06.qmd)
+- [Week 7: LAE Policy and Regulation](week-07.qmd)
+- [Week 8: Airspace Access and Integration](week-08.qmd)
+- [Week 9: Market Sizing, Barriers, Uncertainty and Social Impact](week-09.qmd)
+- [Week 10: Sustainability Challenges in Urban Air Operations](week-10.qmd)
+- [Week 11: Synthesis and Capstone Group Presentations](week-11.qmd)
+- [Week 12: LAE Future Frontiers and Final Review](week-12.qmd)

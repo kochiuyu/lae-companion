@@ -1,0 +1,619 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE ======================
+
+\begin{frame}
+  \title{Cost Structures and Revenue Management}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 3}
+  \titlepage
+\end{frame}
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+  \frametitle{Learning Objectives}
+  By the end of this class, you should be able to:
+  \begin{itemize}
+    \item \textbf{Distinguish} CAPEX from OPEX in an LAE business model.
+    \item \textbf{Calculate} simple unit-cost measures, including CASK and cost per mission-kilometre.
+    \item \textbf{Estimate} breakeven volume and explain how price, load factor, and utilization affect viability.
+    \item \textbf{Compare} pay-per-use, subscription, availability-based, and complementary revenue models.
+    \item \textbf{Evaluate} how weather downtime and cost differences across Hong Kong and the GBA affect business strategy.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+  \frametitle{Midnight in Kowloon: The Numbers Behind the Service}
+  \textbf{Imagine two managers reviewing an LAE business case.}
+  \begin{itemize}
+    \item \textbf{Manager A} asks how charging time, maintenance, and turnaround affect the number of daily missions.
+    \item \textbf{Manager B} asks whether subscriptions or availability-based contracts could make revenue more predictable.
+  \end{itemize}
+  \vspace{0.3cm}
+  A technically feasible service is not necessarily commercially viable.
+  \begin{itemize}
+    \item Managers must connect asset cost, daily operations, capacity, demand, pricing, and risk.
+    \item \textbf{Quick poll (2 min):} What is likely to be the most important cost driver for an LAE operator in Hong Kong?
+  \end{itemize}
+\end{frame}
+
+% ====================== Session 1 Title (after Icebreaker) ======================
+
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large CAPEX vs OPEX, Unit Economics \& Cost Drivers
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: CAPEX and OPEX}
+  \textbf{CAPEX: Investment in assets that provide benefits over several years}
+  \begin{itemize}
+    \item Examples: aircraft, charging equipment, vertiport construction, and major software systems.
+  \end{itemize}
+  \textbf{OPEX: Recurring expenditure required to operate the service}
+  \begin{itemize}
+    \item Examples: energy, maintenance, staff, insurance, site fees, communications, and routine compliance activities.
+  \end{itemize}
+  \vspace{0.2cm}
+  \textbf{Important distinction:} Certification and approval expenditure is not automatically CAPEX. Its accounting treatment depends on the nature of the expenditure and applicable accounting rules.
+\end{frame}
+
+% ====================== Slide 5: THE HK PREMIUM ======================
+\begin{frame}[t]
+  \frametitle{The ``Hong Kong Premium'': Potential Cost Drivers}
+  Why might an LAE service cost more to operate in Hong Kong?
+  \begin{itemize}
+    \item \textbf{Land and site adaptation:} Scarce sites, structural reinforcement, charging capacity, passenger access, and safety facilities may raise infrastructure cost.
+    \item \textbf{Complex operating environment:} Dense buildings, terrain, communications, weather, and interactions with existing airspace users may increase operating requirements.
+    \item \textbf{Labour and professional services:} Skilled staff, engineering, insurance, legal, and compliance support may be costly.
+    \item \textbf{Reliability requirements:} Redundancy, maintenance capability, backup systems, and contingency planning can add cost.
+  \end{itemize}
+  \textit{These are cost hypotheses to test. The size of any Hong Kong premium will depend on the application, site, and operating model.}
+\end{frame}
+
+% ====================== NEW SLIDE A: APPLIED TOOL - CAPEX + OPEX ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: Estimating Daily Economic Cost}
+  \begin{block}{A Simple Managerial Approximation}
+  \[
+    \text{Daily Economic Cost}
+    =
+    \frac{\text{Asset Cost}-\text{Expected Residual Value}}{\text{Useful Operating Days}}
+    +\text{Daily OPEX}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item This spreads the net asset cost across its expected operating life.
+    \item Daily OPEX includes both fixed operating costs and costs that vary with activity.
+    \item Financing cost, maintenance cycles, asset downtime, and residual value may require separate treatment in a full model.
+  \end{itemize}
+  \textit{This is an economic-cost approximation, not a complete accounting depreciation or cash-flow model.}
+\end{frame}
+
+% ====================== NEW SLIDE B: BACK-OF-THE-ENVELOPE (CAPEX + OPEX) ======================
+\begin{frame}[t,shrink=12]
+  \frametitle{Back-of-the-Envelope: How Asset and Site Cost Affect Unit Cost}
+  \textbf{Assumptions:} Five-year life, no residual value, daily OPEX of HK\$8,000, and 50 missions per operating day.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case A: HK\$10 Million Investment}
+      \begin{itemize}
+        \item Daily asset-cost allocation: HK\$10M / 1,825 $\approx$ HK\$5,479
+        \item Daily OPEX: HK\$8,000
+        \item Total daily economic cost: HK\$13,479
+        \item \textbf{Cost per mission: about HK\$270}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Case B: HK\$6 Million Investment}
+      \begin{itemize}
+        \item Daily asset-cost allocation: HK\$6M / 1,825 $\approx$ HK\$3,288
+        \item Daily OPEX: HK\$8,000
+        \item Total daily economic cost: HK\$11,288
+        \item \textbf{Cost per mission: about HK\$226}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \textit{Takeaway: Higher investment cost raises unit cost, but utilization and operating cost remain equally important.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis; not current market quotations.}
+\end{frame}
+
+
+% ====================== Slide 6: CONCEPT PRIMER 2 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: ``Unit Economics''}
+  Unit economics examines the revenue and cost associated with one meaningful unit of activity.
+  \begin{itemize}
+    \item Passenger service: per flight, available seat-kilometre, or paying passenger-trip.
+    \item Cargo or public-service operation: per mission, mission-kilometre, or kilogram delivered.
+  \end{itemize}
+  \vspace{0.25cm}
+  \begin{itemize}
+    \item \textbf{CASK}: Operating cost divided by available seat-kilometres. It measures the cost of capacity offered, whether seats are occupied or not.
+    \item \textbf{Cost per mission-kilometre}: A simple mission-based measure for comparing cargo, inspection, and public-service operations.
+  \end{itemize}
+  \textit{Different metrics answer different managerial questions and should be interpreted together with demand and service quality.}
+\end{frame}
+
+% ====================== Slide 7: STANDALONE FORMULA ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: Calculating CASK}
+  \begin{block}{Cost per Available Seat-Kilometre}
+  \[
+    CASK=\frac{\text{Operating Cost for the Period}}{\text{Available Seats}\times\text{Kilometres Flown}}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item Available seat-kilometres measure the passenger capacity offered, not the number of seats sold.
+    \item More productive aircraft use can spread some fixed operating costs over more seat-kilometres.
+    \item A low CASK does not guarantee profitability. The operator must also fill enough seats and earn sufficient revenue.
+    \item Turnaround, charging, maintenance, weather, route length, and available capacity all affect the measure.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 8: BACK-OF-ENVELOPE (CASK) ======================
+\begin{frame}[t,shrink=10]
+  \frametitle{Back-of-the-Envelope: How Utilization Affects CASK}
+  \textbf{Assumptions:} Four available seats and total operating cost of HK\$12,000 per day.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{10 Trips of 10 km}
+      \begin{itemize}
+        \item Available seat-km: $4\times10\times10=400$
+        \item $CASK=12{,}000/400$
+        \item \textbf{CASK = HK\$30 per seat-km}
+        \item Allocated cost of one available seat on a 10 km trip: HK\$300
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{50 Trips of 10 km}
+      \begin{itemize}
+        \item Available seat-km: $4\times50\times10=2{,}000$
+        \item $CASK=12{,}000/2{,}000$
+        \item \textbf{CASK = HK\$6 per seat-km}
+        \item Allocated cost of one available seat on a 10 km trip: HK\$60
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \textit{Takeaway: Higher utilization lowers CASK in this simplified example, but does not establish market demand or profitability.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis.}
+\end{frame}
+
+
+% ====================== NEW SLIDE: APPLIED TOOL - CPMK ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: Cost per Mission-Kilometre}
+  \begin{block}{A Mission-Based Cost Measure}
+  \[
+    \text{Cost per Mission-Km}
+    =
+    \frac{\text{Operating Cost for the Period}}{\text{Total Mission-Kilometres}}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item Useful for comparing cargo, inspection, emergency, or public-service operations.
+    \item Lower cost can come from reducing operating cost or increasing productive mission volume.
+    \item Longer missions mechanically create more mission-kilometres, so comparisons should consider route length, payload, service quality, and mission complexity.
+  \end{itemize}
+\end{frame}
+
+% ====================== NEW SLIDE: BACK-OF-THE-ENVELOPE - CPMK ======================
+\begin{frame}[t,shrink=10]
+  \frametitle{Back-of-the-Envelope: Mission Volume and Unit Cost}
+  \textbf{Assumptions:} Daily operating cost = HK\$12,000; average mission distance = 8 km.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{20 Missions per Day}
+      \begin{itemize}
+        \item Mission-km: $20\times8=160$
+        \item Cost per mission-km: HK\$75
+        \item \textbf{Allocated cost per mission: HK\$600}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{100 Missions per Day}
+      \begin{itemize}
+        \item Mission-km: $100\times8=800$
+        \item Cost per mission-km: HK\$15
+        \item \textbf{Allocated cost per mission: HK\$120}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \textit{Takeaway: Greater productive volume can reduce allocated unit cost, but capacity, demand, turnaround, and service requirements constrain volume.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis.}
+\end{frame}
+
+% ====================== Slide 9: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large Revenue Streams, Yield Management \& Breakeven
+  \end{center}
+\end{frame}
+
+% ====================== Slide 10: REVENUE DIVERSIFICATION ======================
+\begin{frame}[t]
+  \frametitle{Moving Beyond a Single Transaction}
+  LAE businesses may combine several revenue models:
+  \begin{enumerate}
+    \item \textbf{Pay per use:} The customer pays for each passenger trip, delivery, inspection, or mission.
+    \item \textbf{Subscription or membership:} The customer pays periodically for access, priority, discounts, or a defined service allowance.
+    \item \textbf{Availability-based contract:} A public agency or business pays for readiness and agreed service levels, with possible additional usage payments.
+    \item \textbf{Complementary services:} Data, analytics, maintenance, platform, or integration services may create additional revenue, subject to consent, data rights, privacy, and customer demand.
+  \end{enumerate}
+\end{frame}
+
+% ====================== NEW SLIDE: DESIGNING REVENUE STREAMS ======================
+% ====================== NEW SLIDE: DESIGNING REVENUE STREAMS ======================
+\begin{frame}[t]
+  \frametitle{Choosing a Revenue Model}
+  \begin{center}
+  \small
+  \begin{tabular}{l|ccc}
+    \textbf{Model} & Revenue predictability & Usage risk & Possible application\\
+    \hline
+    Pay per use & Lower & Operator & Passenger or delivery\\
+    Subscription & Medium & Shared & Frequent users\\
+    Availability contract & Higher & Customer / shared & Public or critical service\\
+    Complementary service & Varies & Varies & Data or platform support\\
+  \end{tabular}
+  \end{center}
+  \vspace{0.3cm}
+  \begin{itemize}
+    \item Match the revenue model to the value promised and the party best able to manage the risk.
+    \item A subscription is not guaranteed revenue unless customers accept the contract terms and continue paying.
+    \item Data does not generate revenue automatically. It requires useful information, data rights, customer demand, security, and privacy compliance.
+    \item Combining models may diversify revenue but also increases contractual and operational complexity.
+  \end{itemize}
+\end{frame}
+% ====================== Slide 11: YIELD MANAGEMENT ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: Revenue Management}
+  Revenue management allocates limited capacity and adjusts prices or conditions to improve total expected revenue.
+  \begin{itemize}
+    \item The objective is not simply to eliminate every empty seat.
+    \item Selling too cheaply may fill capacity while reducing total revenue.
+    \item Holding capacity for later high-value demand can sometimes be worthwhile.
+    \item Managers consider price, booking time, customer segment, expected demand, cancellation risk, and capacity.
+  \end{itemize}
+  \textbf{Managerial objective:} Sell the right capacity to the right customer at the right time and price.
+\end{frame}
+
+
+% ====================== Slide 12: BREAKEVEN EQUATION ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: The Breakeven Equation}
+  \begin{block}{One Service Unit}
+  \[
+    \text{Breakeven Units}
+    =
+    \frac{\text{Fixed Cost}}{\text{Revenue per Unit}-\text{Variable Cost per Unit}}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item The denominator is the \textbf{contribution margin per unit}.
+    \item The unit must be consistent: one flight, one passenger, one delivery, or one mission.
+    \item For passenger operations, revenue per flight depends on both average fare and paying passengers per flight.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 13: BREAKEVEN CALCULATION ======================
+\begin{frame}[t,shrink=10]
+  \frametitle{Back-of-the-Envelope: Price and Breakeven Volume}
+  \textbf{Assumptions:} Fixed cost = HK\$20,000/day; variable cost = HK\$100 per mission.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Revenue of HK\$500 per Mission}
+      \begin{itemize}
+        \item Contribution margin: HK\$400
+        \item Breakeven missions: $20{,}000/400$
+        \item \textbf{50 missions per day}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Revenue of HK\$200 per Mission}
+      \begin{itemize}
+        \item Contribution margin: HK\$100
+        \item Breakeven missions: $20{,}000/100$
+        \item \textbf{200 missions per day}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \textit{Takeaway: Discounting can sharply increase required volume. The manager must test whether the target fits available capacity and expected demand.}
+  \vfill
+  {\tiny Illustrative assumptions for classroom analysis.}
+\end{frame}
+
+% ====================== Slide 14: UTILIZATION RATE ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: Required Daily Activity}
+  \begin{block}{A Breakeven Activity Target}
+  \[
+    \text{Required Missions per Day}
+    =
+    \frac{\text{Fixed Daily Cost}}{\text{Contribution Margin per Mission}}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item Compare the required activity with physical capacity, operating hours, charging, maintenance, weather, and expected demand.
+    \item This is not the usual definition of a utilization rate. A utilization rate is normally actual productive use divided by available capacity or time.
+    \item Revenue management can improve contribution, but cannot create unlimited capacity or demand.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 15: YIELD MANAGEMENT AS THE TOOL ======================
+\begin{frame}[t]
+  \frametitle{Revenue Management and Revenue per Flight}
+  \begin{block}{A Simple Passenger-Revenue Relationship}
+  \[
+    \text{Revenue per Flight}
+    =
+    \text{Seats}\times\text{Load Factor}\times\text{Average Fare}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item Load factor is the proportion of available seats occupied by paying passengers.
+    \item Average fare should reflect discounts, customer mix, and booking conditions.
+    \item The objective is to improve total contribution, not merely to maximize load factor.
+  \end{itemize}
+\end{frame}
+
+
+% ====================== Slide 15: BACK-OF-THE-ENVELOPE (YIELD MANAGEMENT) ======================
+\begin{frame}[t,shrink=15]
+  \frametitle{Back-of-the-Envelope: Load Factor and Breakeven}
+  \textbf{Assumptions:} Four seats, average fare HK\$500, fixed cost HK\$20,000/day, and variable cost HK\$100/flight.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{40\% Load Factor}
+      \begin{itemize}
+        \item Expected paying passengers: $4\times40\%=1.6$
+        \item Revenue per flight: $1.6\times500=\text{HK\$800}$
+        \item Contribution: HK\$700
+        \item Breakeven: $20{,}000/700\approx\mathbf{29}$ flights/day
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{90\% Load Factor}
+      \begin{itemize}
+        \item Expected paying passengers: $4\times90\%=3.6$
+        \item Revenue per flight: $3.6\times500=\text{HK\$1,800}$
+        \item Contribution: HK\$1,700
+        \item Breakeven: $20{,}000/1{,}700\approx\mathbf{12}$ flights/day
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \textit{Takeaway: Higher load factor can reduce the required number of flights, provided fares and costs remain unchanged.}
+  \vfill
+  {\tiny Illustrative assumptions; fractional passengers represent an average across many flights.}
+\end{frame}
+
+% ====================== Slide 15: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Cost Sensitivities, Risk Hedging \& GBA Scale
+  \end{center}
+\end{frame}
+
+% ====================== Slide 16: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: Weather Downtime}
+  Severe weather can affect an LAE business through several channels:
+  \begin{itemize}
+    \item lost trips and revenue;
+    \item continued aircraft, site, staff, insurance, and financing costs;
+    \item customer disruption, refunds, and service-level penalties;
+    \item repositioning, inspection, maintenance, and recovery costs; and
+    \item lower customer willingness to rely on the service.
+  \end{itemize}
+  \textit{A warning signal does not mechanically determine every aviation operation. Actual restrictions depend on aircraft capability, location, operational approval, and prevailing conditions.}
+\end{frame}
+
+% ====================== Slide 17: CONCEPT PRIMER 5 ======================
+\begin{frame}[t]
+  \frametitle{Concept Primer: Managing Weather Risk}
+  Managers can combine operational, contractual, and financial responses:
+  \begin{itemize}
+    \item \textbf{Operational resilience:} Forecasting, spare capacity, alternative routes or modes, and recovery planning.
+    \item \textbf{Contract design:} Availability payments, minimum commitments, cancellation terms, service credits, and force-majeure provisions.
+    \item \textbf{Insurance or parametric cover:} A payment may be triggered by an agreed event or weather measure, subject to availability, exclusions, basis risk, and premium cost.
+    \item \textbf{Liquidity planning:} Cash reserves or committed financing to absorb temporary revenue shortfalls.
+  \end{itemize}
+  \textit{Subscriptions and reservation fees transfer risk only if customers accept the terms and receive a credible value proposition.}
+\end{frame}
+
+% ====================== Slide 18: STANDALONE FORMULA ======================
+\begin{frame}[t]
+  \frametitle{Applied Tool: Profit Under a Mixed-Revenue Model}
+  \begin{block}{A Simple Monthly Model}
+  \[
+  \begin{split}
+    \text{Profit}={}&\text{Committed Revenue}+\text{Usage Revenue}+\text{Insurance Payout}\\
+    &-\text{Fixed Cost}-\text{Variable Cost}-\text{Premiums and Service Credits}
+  \end{split}
+  \]
+  \end{block}
+  \begin{itemize}
+    \item Committed revenue may reduce exposure to flight volume, but often comes with availability or service obligations.
+    \item Downtime may save some variable cost while still creating refunds, credits, recovery costs, or reputational damage.
+    \item The objective is not to profit from disruption. It is to keep cash flow and service obligations manageable.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 19: BACK-OF-ENVELOPE (HEDGING) ======================
+\begin{frame}[t,shrink=15]
+  \frametitle{Back-of-the-Envelope: A Month with Five Grounded Days}
+  \textbf{Assumptions:} 30 days; 25 operating days; 50 missions/day; HK\$500 usage revenue; fixed cost HK\$600,000/month; variable cost HK\$100/mission.
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Pay per Mission}
+      \begin{itemize}
+        \item Missions: 1,250
+        \item Revenue: HK\$625,000
+        \item Variable cost: HK\$125,000
+        \item Fixed cost: HK\$600,000
+        \item \textbf{Operating loss: HK\$100,000}
+      \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Committed Monthly Revenue}
+      \begin{itemize}
+        \item Contract revenue: HK\$750,000
+        \item Variable cost: HK\$125,000
+        \item Fixed cost: HK\$600,000
+        \item \textbf{Operating profit before service credits: HK\$25,000}
+      \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \textit{Takeaway: Committed revenue may stabilize cash flow, but the contract must specify availability, refunds, service credits, and weather-related obligations.}
+  \vfill
+  {\tiny Illustrative assumptions; excludes taxes, financing, insurance premiums, recovery costs, and possible service credits.}
+\end{frame}
+
+% ====================== Slide 20: HK VS CHINA VARIATIONS ======================
+\begin{frame}[t]
+  \frametitle{Hong Kong and the GBA: Different Cost and Revenue Possibilities}
+  \begin{center}
+  \small
+  \begin{tabular}{l|cc}
+    \textbf{Dimension} & \textbf{Hong Kong possibility} & \textbf{Wider GBA possibility}\\
+    \hline
+    Site environment & Dense and constrained & More varied\\
+    Customer base & Premium and specialized & Larger and more diverse\\
+    Cost pressure & Site and professional costs & Varies by city and use case\\
+    Scale opportunity & Complex urban services & Manufacturing and network scale\\
+    Potential role & Finance, logistics, services & Technology, production, operations\\
+  \end{tabular}
+  \end{center}
+  \vspace{0.35cm}
+  \textit{These are strategic hypotheses rather than universal facts. Smart operators should compare specific sites, routes, customers, regulations, and partners.}
+\end{frame}
+
+% ====================== Slide 19: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+  \frametitle{In-Class Exercise: Spreadsheet Workshop}
+  
+  \textbf{Activity: Unit Economics \& Sensitivity Testing}
+  \begin{itemize}
+    \item \textbf{Format:} Groups of 4–5 (Laptops required)
+    \item \textbf{Scenario:} You are managing a new HK Airport Shuttle fleet.
+    \item \textbf{Task:} Using the provided Excel template:
+    \begin{enumerate}
+        \item Input the Base Case assumptions to find your Breakeven.
+        \item \textbf{Shock 1:} Increase Vertiport Rent by 20\%.
+        \item \textbf{Shock 2:} Simulate 3 days of Typhoon downtime.
+        \item How much do you have to raise ticket prices to survive?
+    \end{enumerate}
+    \item \textbf{Timing:} 15 minutes hands-on + 5 minute share-out.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 20: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+  \frametitle{Exercise Template (Visual)}
+  
+  \begin{center}
+      \textit{[Distribute digital Excel Spreadsheet to student groups]}
+      
+      \vspace{0.5cm}
+      
+      \textbf{The Dashboard View:} \\
+      \vspace{0.2cm}
+      Input: Fleet Size | Daily Rent | Electricity Cost | Ticket Price \\
+      Output: Daily Profit | Breakeven Flights | CASK \\
+      \vspace{0.5cm}
+      \textit{Watch how the "Daily Profit" box turns red the second you lower the utilisation rate!}
+  \end{center}
+\end{frame}
+
+% ====================== Slide 21: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+  \frametitle{Key Takeaways}
+  \begin{itemize}
+    \item Separate CAPEX, recurring fixed OPEX, and activity-related variable cost before calculating unit economics.
+    \item CASK measures the cost of passenger capacity offered; mission-based measures may be more useful for cargo and public-service applications.
+    \item Breakeven depends on a consistent unit, contribution margin, feasible capacity, and realistic demand.
+    \item Revenue management aims to improve total contribution, not simply maximize load factor.
+    \item Subscriptions, availability contracts, data services, insurance, and liquidity can reshape risk, but none provides a free or guaranteed hedge.
+    \item Hong Kong and other GBA cities may offer complementary cost, customer, technology, and service advantages.
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 22: ASSIGNMENT ======================
+\begin{frame}[t]
+  \frametitle{Week 3 Assignment Briefing}
+  \textbf{Cost and Revenue Model with Memo (maximum 1,200 words plus spreadsheet)}
+  \begin{itemize}
+    \item \textbf{Due:} Beginning of Week 4 (group assignment)
+    \item \textbf{Task:} Extend the Week 2 corridor or application into a simple operating model.
+    \item \textbf{Requirements:}
+    \begin{enumerate}
+      \item Separate investment cost, fixed OPEX, and variable cost.
+      \item Calculate one appropriate unit-cost metric and breakeven volume.
+      \item Model revenue per mission using price, capacity, and expected utilization or load factor.
+      \item Test three shocks: lower price, weather downtime, and higher compliance or infrastructure cost.
+      \item Recommend one operational, contractual, or financial risk response and discuss its limitation.
+    \end{enumerate}
+    \item \textbf{Grading focus:} Accurate and internally consistent model (40\%), transparent assumptions (30\%), actionable recommendation (20\%), professionalism (10\%).
+  \end{itemize}
+\end{frame}
+
+% ====================== Slide 23: PREVIEW WEEK 4 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 4}
+  
+  \begin{center}
+      \Large \textbf{Demand Modeling in Urban Air Mobility}
+  \end{center}
+  
+  \vspace{1cm}
+  \textbf{Preview question for next week:} \\
+  \textit{Now that we know exactly how much we HAVE to charge to survive... how do we mathematically prove that customers are actually willing to pay it?}
+\end{frame}
+
+% ====================== Slide 24: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \textbf{Pre-Class Readings Reminder (for Week 4):}
+  \begin{itemize}
+      \item \textit{McKinsey: Perspectives on AAM (Adoption patterns)}
+      \item \textit{NASA UAM Market Study (Trip generation \& Mode choice)}
+  \end{itemize}
+  
+  \vspace{1cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

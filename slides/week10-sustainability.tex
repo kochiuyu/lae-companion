@@ -1,0 +1,467 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE (REVISED) ======================
+\begin{frame}
+  \title{Sustainability Challenges in Urban Air Operations}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 10}
+  \titlepage
+\end{frame}
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Identify} major environmental and social externalities associated with urban air operations.
+\item \textbf{Compare} pricing, operating restrictions, standards, mitigation, and compensation as policy responses.
+\item \textbf{Calculate} simple operational and life-cycle greenhouse-gas indicators using transparent boundaries.
+\item \textbf{Evaluate} privacy and public-acceptance measures using necessity, proportionality, and stakeholder evidence.
+\item \textbf{Design} measurable sustainability KPIs and assess who benefits, who pays, and who bears residual impacts.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{Can an LAE Service Be Sustainable and Viable?}
+\textbf{Imagine a proposed electric-aircraft corridor near a dense urban community.}
+\begin{itemize}
+\item The service may reduce travel time or improve delivery and public-service performance.
+\item Electricity use, vehicle manufacturing, noise, visual effects, data collection, and infrastructure still create impacts.
+\end{itemize}
+\vspace{0.3cm}
+``Electric'' does not automatically mean zero-emission, quiet, private, equitable, or publicly accepted.
+\begin{itemize}
+\item \textbf{Quick poll (2 min):} Which issue is most likely to constrain your project: noise, privacy, greenhouse-gas emissions, energy demand, or unequal distribution of benefits?
+\end{itemize}
+\end{frame}
+
+% ====================== Session 1 Title Card ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Externalities, Pigovian Instruments \& Privacy Governance
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Externalities}
+An externality arises when an activity affects third parties and those effects are not fully reflected in the decision-maker's private costs or benefits.
+\begin{itemize}
+\item \textbf{Noise and visual effects}: annoyance, sleep disturbance, amenity, and land-use impacts.
+\item \textbf{Privacy and data}: excessive collection, surveillance concerns, security risk, and loss of trust.
+\item \textbf{Climate and energy}: operational electricity emissions, supply-chain emissions, and peak-load requirements.
+\item \textbf{Positive effects}: time savings, safer inspection, emergency response, knowledge, and network benefits.
+\end{itemize}
+\textbf{Managerial lesson:} First identify and measure the impact; then compare prevention, mitigation, pricing, compensation, and operating restrictions.
+\end{frame}
+
+% ====================== Slide 5: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Pricing a Noise Externality}
+\begin{block}{Economic Benchmark}
+\[
+\text{Efficient Charge per Operation}
+=\text{Marginal External Noise Cost}
+\]
+\end{block}
+\begin{itemize}
+\item Marginal external cost depends on exposure, time, location, number of affected people, baseline noise, event frequency, and health or amenity effects.
+\item Decibels are logarithmic; ``decibels above a limit'' should not automatically be multiplied by flights and a fixed monetary rate.
+\item Practical instruments may use certified noise categories, time-of-day charges, quotas, curfews, route restrictions, or performance standards.
+\item Charges should encourage quieter operations without implying that every impact can simply be paid for.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 6: BACK-OF-ENVELOPE (PIGOVIAN TAX) ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Appraising Quieter Technology}
+\textbf{Illustrative assumptions:} A quieter-technology upgrade costs HK\$3M and reduces expected annual noise charges, monitoring cost, and disruption by HK\$1.2M.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Without the Upgrade}
+\begin{itemize}
+\item Expected annual noise-related cost: HK\$1.5M
+\item Five-year undiscounted cost: HK\$7.5M
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{With the Upgrade}
+\begin{itemize}
+\item Upfront cost: HK\$3M
+\item Residual annual cost: HK\$0.3M
+\item Five-year undiscounted total: HK\$4.5M
+\item \textbf{Illustrative five-year saving: HK\$3M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The investment may be worthwhile under these assumptions. A complete appraisal should discount cash flows and test performance, maintenance, and demand effects.}
+\vfill{\tiny Illustrative figures; not Hong Kong noise limits, charges, or technology quotations.}
+\end{frame}
+
+% ====================== Slide 7: PRIVACY \& DATA ======================
+\begin{frame}[t]
+\frametitle{Privacy Governance for Onboard Cameras}
+Cameras may support navigation, inspection, security, or evidence collection, but privacy risk depends on what is captured, retained, linked, and used.
+\begin{itemize}
+\item Define a lawful and specific purpose before collecting personal data.
+\item Test necessity and proportionality and consider less intrusive alternatives.
+\item Minimize field of view, resolution, recording duration, identifiers, audio, and retention where they are not needed.
+\item Use access controls, encryption, logs, retention limits, deletion procedures, notices, and incident response.
+\item Onboard masking may be one control, but it is not universally required or sufficient by itself.
+\end{itemize}
+\textit{Hong Kong privacy guidance for drone cameras emphasizes avoiding excessive collection, notification, security, and responsible data handling.}
+\end{frame}
+
+% ====================== NEW SLIDE 7.5: PRIVACY EXTERNALITY & MASKING COST ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Privacy-Control Cost}
+\begin{block}{Annual Privacy-Control Cost}
+\[
+\text{Annual Cost}=\text{Fixed Governance and System Cost}
++q\times\text{Variable Processing Cost}
++\text{Audit and Incident Cost}
+\]
+\end{block}
+\begin{itemize}
+\item Fixed cost may include privacy-impact assessment, system design, notices, access controls, training, and vendor assurance.
+\item Variable cost may include secure processing, storage, communications, review, and deletion.
+\item The cost cannot be inferred from an unsupported percentage of flight operating cost.
+\item Compare controls using privacy effectiveness, safety compatibility, reliability, and total cost.
+\end{itemize}
+\end{frame}
+
+
+% ====================== Slide 8: BACK-OF-THE-ENVELOPE - PRIVACY MASKING COST ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Privacy-Control Cost}
+\textbf{Illustrative assumptions:} 50,000 operations/year; fixed privacy-system and governance cost HK\$600k/year.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Lower Variable Cost}
+\begin{itemize}
+\item Processing cost: HK\$4/operation
+\item Variable cost: HK\$200k
+\item Fixed cost: HK\$600k
+\item \textbf{Annual cost: HK\$800k}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Higher-Assurance Design}
+\begin{itemize}
+\item Processing cost: HK\$8/operation
+\item Variable cost: HK\$400k
+\item Fixed cost: HK\$1M
+\item \textbf{Annual cost: HK\$1.4M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The more expensive design is justified only if its additional controls materially improve privacy, security, or operational assurance.}
+\vfill{\tiny Illustrative assumptions; not a compliance quotation or claim that either design is legally sufficient.}
+\end{frame}
+
+% ====================== NEW SLIDE 8.5: CARBON EXTERNALITY - PIGOVIAN CARBON TAX ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Carbon-Cost Scenario}
+\textbf{Illustrative assumptions:} 50,000 operations/year and a carbon value of HK\$1 per kg $\mathrm{CO_2e}$.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{40 kg $\mathrm{CO_2e}$/Operation}
+\begin{itemize}
+\item Emissions: $50{,}000\times40=2{,}000{,}000$ kg
+\item \textbf{Annual carbon cost: HK\$2M}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{10 kg $\mathrm{CO_2e}$/Operation}
+\begin{itemize}
+\item Emissions: $50{,}000\times10=500{,}000$ kg
+\item \textbf{Annual carbon cost: HK\$0.5M}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: A carbon value can support investment appraisal, but this is not a claim that CAD imposes such a tax. Emissions factors and boundaries must be sourced.}
+\vfill{\tiny Illustrative carbon price and emissions intensities.}
+\end{frame}
+
+
+% ====================== Slide 8: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large Carbon Accounting, Life-Cycle Analysis \& Public Acceptance
+  \end{center}
+\end{frame}
+
+% ====================== Slide 9: CONCEPT PRIMER 2 - LIFE-CYCLE CARBON ACCOUNTING ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: GHG Inventory and Life-Cycle Assessment}
+Corporate GHG scopes and product life-cycle assessment answer related but different questions.
+\begin{itemize}
+\item \textbf{Scope 1}: Direct emissions from sources owned or controlled by the reporting organization.
+\item \textbf{Scope 2}: Indirect emissions associated with purchased electricity, steam, heat, or cooling.
+\item \textbf{Scope 3}: Other indirect value-chain emissions, potentially including aircraft, batteries, infrastructure, maintenance, and end-of-life activities.
+\item \textbf{Life-cycle assessment}: Evaluates environmental impacts of a defined product or service across a specified life cycle and functional unit.
+\end{itemize}
+\textit{An electric aircraft may have zero in-flight exhaust emissions while still having Scope 2 and Scope 3 emissions. Corporate scopes should not simply be added without checking boundaries and double counting.}
+\end{frame}
+
+% ====================== Slide 10: APPLIED TOOL - GRID CARBON INTENSITY (Scope 2) ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Electricity-Related Emissions}
+\begin{block}{Operational Electricity Emissions}
+\[
+\mathrm{CO_2e\ per\ operation}
+=\text{kWh consumed}\times\text{electricity emissions factor}
+\]
+\end{block}
+\begin{itemize}
+\item Match units carefully, such as kg $\mathrm{CO_2e}$/kWh.
+\item Include charging losses and relevant facility energy if they fall within the boundary.
+\item Distinguish location-based grid factors from market-based contractual claims where applicable.
+\item Compare modes using a consistent functional unit, such as passenger-km, tonne-km, or completed mission.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 11: BACK-OF-THE-ENVELOPE - DIRTY GRID ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Electricity Emissions}
+\textbf{Assumption:} 50 kWh of electricity per operation, including charging losses only if stated.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Factor: 0.8 kg/kWh}
+\begin{itemize}
+\item $50\times0.8$
+\item \textbf{40 kg $\mathrm{CO_2e}$/operation}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Factor: 0.2 kg/kWh}
+\begin{itemize}
+\item $50\times0.2$
+\item \textbf{10 kg $\mathrm{CO_2e}$/operation}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Electricity source matters, but these figures alone do not establish whether the service outperforms another transport mode. Occupancy, distance, infrastructure, and life-cycle emissions also matter.}
+\vfill{\tiny Illustrative factors; use current, sourced factors for an actual inventory.}
+\end{frame}
+
+% ====================== NEW SLIDE 12: APPLIED TOOL - FULL LIFE-CYCLE ANALYSIS ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Life-Cycle Emissions per Functional Unit}
+\begin{block}{Simplified Allocation}
+\[
+\text{Life-Cycle Emissions per Unit}
+=
+\frac{E_{vehicle}+E_{battery}+E_{infrastructure}+E_{operations}+E_{end\text{-}of\text{-}life}}
+{\text{Lifetime Functional Units}}
+\]
+\end{block}
+\begin{itemize}
+\item Functional units may be passenger-km, tonne-km, or completed service missions.
+\item State lifetime, utilization, replacement cycles, occupancy or payload, system boundary, and allocation method.
+\item Scope 3 is not a universal fixed percentage of total emissions.
+\item Compare alternatives using the same boundary and functional unit.
+\end{itemize}
+\end{frame}
+
+% ====================== NEW SLIDE 13: BACK-OF-THE-ENVELOPE - FULL LCA ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Allocating Embodied Emissions}
+\textbf{Illustrative assumptions:} Embodied aircraft, battery, and infrastructure emissions allocated at 12 kg $\mathrm{CO_2e}$ per operation.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Higher-Carbon Electricity}
+\begin{itemize}
+\item Electricity emissions: 40 kg
+\item Allocated embodied emissions: 12 kg
+\item \textbf{Total: 52 kg $\mathrm{CO_2e}$/operation}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Lower-Carbon Electricity}
+\begin{itemize}
+\item Electricity emissions: 10 kg
+\item Allocated embodied emissions: 12 kg
+\item \textbf{Total: 22 kg $\mathrm{CO_2e}$/operation}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Decarbonizing electricity reduces operational emissions, while embodied emissions remain sensitive to lifetime use and replacement assumptions.}
+\vfill{\tiny Illustrative allocation; not a comparative claim about jets or sustainable aviation fuel.}
+\end{frame}
+
+% ====================== Slide 14: CONCEPT PRIMER 3 - AiRMOUR PUBLIC ACCEPTANCE ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Public Acceptance and Use Cases}
+AiRMOUR examined sustainable UAM through the lens of emergency medical services while also considering other applications.
+\begin{itemize}
+\item Acceptance may vary with perceived public benefit, urgency, safety, noise, privacy, fairness, trust, location, and available alternatives.
+\item Urgent medical applications may receive stronger support than some non-urgent applications, but acceptance is not automatic or perfectly divided into two groups.
+\item Infrastructure maintenance, surveying, and environmental monitoring may also be viewed favourably in some contexts.
+\item Local engagement and evidence are necessary before transferring European findings to Hong Kong.
+\end{itemize}
+\textbf{Managerial lesson:} Segment by use case and affected stakeholder, then test assumptions rather than assigning universal acceptance scores.
+\end{frame}
+
+% ====================== Slide 13: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Equity, Social License \& In-Class Exercise
+  \end{center}
+\end{frame}
+
+% ====================== Slide 14: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Equity and Social Licence}
+Social licence refers to continuing acceptance and trust among affected communities and stakeholders. It complements, but does not replace, legal approval.
+\begin{itemize}
+\item Ask who receives time savings, service improvements, employment, and business opportunities.
+\item Ask who bears noise, privacy, safety, land-use, and fiscal costs.
+\item Consider affordability, accessibility, geographic coverage, consultation, complaints, and remedies.
+\item Acceptance may change over time and cannot be purchased by one symbolic public-service commitment.
+\end{itemize}
+\textbf{Managerial lesson:} Build legitimacy through performance, transparency, participation, mitigation, and fair distribution of benefits and costs.
+\end{frame}
+
+% ====================== Slide 15: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Funding a Public-Service Commitment}
+\begin{block}{Net Contribution}
+\[
+\text{Net Contribution}
+=Q_C m_C+\text{Public-Service Payment}
+-Q_P c_P-\text{Fixed Cost}
+\]
+\end{block}
+\begin{itemize}
+\item $Q_Cm_C$ is contribution from commercial services.
+\item $Q_Pc_P$ is the incremental cost of the public-service commitment.
+\item Funding may come from commercial cross-subsidy, public procurement, availability payment, philanthropy, or another transparent source.
+\item The arrangement should specify eligibility, service level, opportunity cost, accountability, and long-term affordability.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 16: BACK-OF-ENVELOPE (EQUITY) ======================
+\begin{frame}[t,shrink=11]
+\frametitle{Back-of-the-Envelope: Cost of a Public-Service Commitment}
+\textbf{Assumptions:} 100 daily slots; commercial contribution HK\$400/flight; public-service incremental cost HK\$100/flight.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{All Commercial Slots}
+\begin{itemize}
+\item 100 commercial flights
+\item \textbf{Contribution before fixed cost: HK\$40,000/day}
+\item No specified public-service capacity
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Twenty Priority Slots}
+\begin{itemize}
+\item Commercial contribution: $80\times400=\text{HK\$32,000}$
+\item Public-service cost: $20\times100=\text{HK\$2,000}$
+\item \textbf{Net before fixed cost: HK\$30,000/day}
+\item Opportunity cost relative to all-commercial case: HK\$10,000/day
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The commitment has a measurable cost. Whether it is justified and who should fund it require a public-value and distributional assessment.}
+\vfill{\tiny Illustrative assumptions; no claim that the commitment secures approval or acceptance.}
+\end{frame}
+
+% ====================== Slide 17: APPLIED TOOL - SUSTAINABILITY KPIs ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Sustainability KPI Design}
+\begin{center}\small
+\begin{tabular}{l|l|l}
+\textbf{Area} & \textbf{Example KPI} & \textbf{Boundary or denominator}\\
+\hline
+Noise & Population-weighted exposure & Route, period, and noise metric\\
+Climate & kg $\mathrm{CO_2e}$/passenger-km & Life-cycle boundary and occupancy\\
+Privacy & Personal-data incidents & Operations and severity\\
+Equity & Service availability by area & Population, need, and affordability\\
+Governance & Complaints resolved on time & Defined process and deadline\\
+\end{tabular}
+\end{center}
+\vspace{0.25cm}
+\begin{itemize}
+\item Define baseline, target, measurement method, frequency, owner, assurance, and corrective action.
+\item No universal CAD or investor requirement mandates the three ratios previously shown.
+\item A KPI tracks performance; it does not by itself prove profitability or social acceptance.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 18: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+\frametitle{In-Class Exercise: Sustainability Agreement}
+\textbf{Scenario:} A high-volume corridor is proposed near a residential area.
+\begin{itemize}
+\item \textbf{Roles:} Operator, community representatives, regulator, public-service customer, and data-protection adviser
+\item \textbf{Tasks:}
+\begin{enumerate}
+\item identify noise, privacy, climate, access, and distributional impacts;
+\item propose one prevention or mitigation measure for each material impact;
+\item estimate cost, effectiveness, beneficiary, payer, and residual impact;
+\item define five measurable KPIs and review triggers; and
+\item agree on complaints, incident, pause, and corrective-action procedures.
+\end{enumerate}
+\item \textbf{Timing:} 15 minutes plus 5-minute discussion.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 19: EXERCISE TEMPLATE ======================
+\begin{frame}[t]
+\frametitle{Exercise Template: Mitigation Scorecard}
+\begin{center}\small
+\begin{tabular}{l|l|l|l}
+\textbf{Impact} & \textbf{Measure} & \textbf{KPI} & \textbf{Payer}\\
+\hline
+Noise & Route, schedule, or technology & Exposure metric & To negotiate\\
+Privacy & Data minimization and security & Incident and retention metric & To negotiate\\
+Climate & Energy and utilization strategy & kg $\mathrm{CO_2e}$/functional unit & To negotiate\\
+Equity & Access or public-service design & Availability and affordability & To negotiate\\
+\end{tabular}
+\end{center}
+\vspace{0.3cm}
+\textit{Do not assume a 60 dB limit or a fixed number of free public-service flights. Define thresholds from evidence, regulation, operating context, and stakeholder agreement.}
+\end{frame}
+
+% ====================== Slide 20: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Externalities should be measured and addressed through a mix of technology, standards, operating rules, pricing, compensation, and engagement.
+\item Noise cannot be priced reliably by multiplying flights by decibels above an assumed threshold.
+\item Privacy governance requires lawful purpose, necessity, proportionality, minimization, security, transparency, retention control, and accountability.
+\item Corporate GHG scopes and life-cycle assessment require clear and consistent boundaries; electric operation does not imply zero life-cycle emissions.
+\item Public acceptance varies across use cases and stakeholders and cannot be reduced to a universal medical-versus-commercial split.
+\item Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 21: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 10 Assignment Briefing}
+\textbf{Sustainability and Social-Impact Plan (maximum 1,200 words plus KPI appendix)}
+\begin{itemize}
+\item \textbf{Due:} Beginning of Week 11 (group assignment)
+\item \textbf{Requirements:}
+\begin{enumerate}
+\item define the principal noise, privacy, climate, and distributional impacts;
+\item propose a mitigation hierarchy: avoid, reduce, manage, and compensate residual impacts;
+\item calculate operational electricity emissions and one life-cycle indicator with sourced factors;
+\item prepare a privacy-governance plan covering necessity, minimization, security, retention, notice, and incidents;
+\item evaluate one equity or public-service commitment, including cost, beneficiary, and payer; and
+\item define at least five KPIs with boundaries, baselines, targets, measurement methods, owners, and review triggers.
+\end{enumerate}
+\item \textbf{Grading focus:} Economic reasoning (25\%), environmental analysis (25\%), privacy and governance (20\%), equity and stakeholder analysis (20\%), professionalism (10\%).
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 22: PREVIEW WEEK 11 ======================
+\begin{frame}[t]
+  \frametitle{Preview of Week 11 \& Q\&A}
+  
+  \begin{center}
+      \Large \textbf{Synthesis \& Capstone Group Presentations}
+  \end{center}
+  
+  \vspace{0.5cm}
+  \textbf{Preview question for next week:} \\
+  \textit{How will you combine utility formulas, unit economics, infrastructure constraints, and sustainability into one master presentation that secures \$100M in venture funding?}
+  
+  \vspace{0.5cm}
+  \begin{center}
+      \textbf{Questions?} \\
+      \small (Final 15 minutes reserved for extended Q\&A)
+  \end{center}
+\end{frame}
+
+\end{document}

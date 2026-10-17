@@ -1,0 +1,532 @@
+\documentclass{beamer}
+
+\usepackage{cuhkbeamer}
+
+\begin{document}
+
+% ====================== Slide 1: TITLE SLIDE (REVISED) ======================
+\begin{frame}
+  \title{Infrastructure Economics and Management}
+  \author{Chiu Yu KO}
+  \institute{Low Altitude Economics}
+  \date{Week 5}
+  \titlepage
+\end{frame}
+
+% ====================== Slide 2: FORMAT & OBJECTIVES ======================
+\begin{frame}[t]
+\frametitle{Learning Objectives}
+By the end of this class, you should be able to:
+\begin{itemize}
+\item \textbf{Compare} different vertiport archetypes and identify the main site-selection trade-offs.
+\item \textbf{Estimate} how throughput, reliability, access time, and operating cost affect infrastructure viability.
+\item \textbf{Calculate} breakeven activity and evaluate a staged ramp-up under uncertain demand.
+\item \textbf{Assess} alternative methods for allocating scarce slots while protecting priority services.
+\item \textbf{Evaluate} hub, distributed, and hybrid network designs for Hong Kong and the wider GBA.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 3: ICEBREAKER ======================
+\begin{frame}[t]
+\frametitle{The Infrastructure Bottleneck}
+\textbf{Imagine planning a new LAE service in Hong Kong.}
+\begin{itemize}
+\item Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and sufficient throughput.
+\item A shortage of suitable infrastructure can constrain the entire service network.
+\end{itemize}
+\vspace{0.3cm}
+\textbf{Managerial question:} Which resource is most likely to become the binding constraint: aircraft, landing capacity, charging, airspace access, or customer access?
+\begin{itemize}
+\item \textbf{Quick poll (2 min):} What is the most important infrastructure bottleneck for your Week 4 use case?
+\end{itemize}
+\end{frame}
+
+% ====================== Session 1 Title Card ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 1}\\
+    \vspace{0.5cm}
+    \Large Vertiport Types, Site Selection \& Throughput Economics
+  \end{center}
+\end{frame}
+
+% ====================== Slide 4: CONCEPT PRIMER 1 (REVISED) ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Three Vertiport Archetypes}
+For managerial analysis, sites can be grouped into three broad archetypes:
+\begin{itemize}
+\item \textbf{Building-based site:} Uses an existing rooftop or elevated structure. It may offer strong access but require structural, safety, power, and circulation upgrades.
+\item \textbf{Integrated hub:} Provides multiple pads or stands together with charging, processing, maintenance, and passenger or cargo facilities.
+\item \textbf{Ground-based site:} Uses available land and may be easier to expand, but can create longer access time to major customer locations.
+\end{itemize}
+\textit{These are classroom archetypes rather than an official Hong Kong classification. Actual design depends on aircraft, operations, safety requirements, and local approval.}
+\end{frame}
+
+% ====================== Slide 5: SITE SELECTION ECONOMICS ======================
+\begin{frame}[t]
+\frametitle{Site Selection: A Multi-Criteria Decision}
+A suitable site must balance several considerations:
+\begin{itemize}
+\item \textbf{Safety and obstacle environment}: approach and departure paths, separation, downwash or outwash, emergency response, and surrounding uses.
+\item \textbf{Customer access}: total door-to-door time, transfers, elevators, walking, and accessibility.
+\item \textbf{Utilities and operations}: charging, communications, maintenance, storage, staffing, and recovery capability.
+\item \textbf{Capacity and expandability}: pads, parking or stands, turnaround time, operating hours, and future growth.
+\item \textbf{Cost and approval}: construction, adaptation, lease, environmental effects, community acceptance, and regulatory requirements.
+\end{itemize}
+\end{frame}
+
+
+% ====================== NEW SLIDE: APPLIED TOOL - GENERALIZED SITE COST ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Comparing Sites}
+\begin{block}{A Simple Annual Site-Cost Framework}
+\[
+\begin{split}
+\text{Generalized Site Cost}={}&\text{Annualized Infrastructure Cost}+\text{Annual OPEX}\\
+&+\text{Monetized Access Burden}+\text{Expected Disruption Cost}
+\end{split}
+\]
+\end{block}
+\begin{itemize}
+\item Infrastructure cost includes construction and major site adaptation, net of residual value where relevant.
+\item OPEX includes staffing, utilities, maintenance, insurance, communications, and recurring site costs.
+\item Access burden converts additional passenger or cargo access time into a comparable value.
+\item Disruption cost may reflect weather, maintenance, congestion, or other reliability risks.
+\end{itemize}
+\textit{Lower generalized cost is not automatically better if the site cannot meet safety, capacity, or service requirements.}
+\end{frame}
+
+% ====================== NEW SLIDE: BACK-OF-THE-ENVELOPE - SITE SELECTION ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: Comparing Two Site Archetypes}
+\textbf{Assumptions:} 100 passenger-trips per day and value of access time = HK\$15 per minute.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Building-Based Site}
+\begin{itemize}
+\item Daily infrastructure allocation: HK\$5,000
+\item Daily OPEX: HK\$8,000
+\item Extra access time: 8 minutes
+\item Access burden: $8\times15\times100=\text{HK\$12,000}$
+\item \textbf{Generalized site cost: HK\$25,000/day}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Ground-Based Site}
+\begin{itemize}
+\item Daily infrastructure allocation: HK\$1,000
+\item Daily OPEX: HK\$2,000
+\item Extra access time: 3 minutes
+\item Access burden: $3\times15\times100=\text{HK\$4,500}$
+\item \textbf{Generalized site cost: HK\$7,500/day}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: Under these assumptions, the ground site has lower generalized cost. Actual choice also depends on demand, safety, capacity, network value, and feasible access.}
+\vfill{\tiny Illustrative assumptions for classroom analysis; not current site quotations.}
+\end{frame}
+
+% ====================== Slide 6: CONCEPT PRIMER 2 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Throughput and Reliability}
+\textbf{Throughput} is the number of aircraft movements, passengers, or missions that a facility can process during a defined period.
+\begin{itemize}
+\item It depends on pads, stands, turnaround, charging, passenger processing, staffing, airspace, and operating procedures.
+\end{itemize}
+\textbf{Reliability} is the facility's ability to provide the planned capacity when required.
+\begin{itemize}
+\item Downtime reduces usable capacity and may create delays, diversions, refunds, or lost demand.
+\end{itemize}
+\textbf{Managerial lesson:} Theoretical maximum throughput is less useful than reliable, serviceable capacity under realistic conditions.
+\end{frame}
+
+% ====================== Slide 7: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Breakeven Capacity Use}
+\begin{block}{A Simple Facility Formula}
+\[
+\text{Breakeven Capacity Use}
+=
+\frac{\text{Fixed Daily Facility Cost}}
+{\text{Reliable Daily Capacity}\times\text{Contribution per Movement}}
+\]
+\end{block}
+\begin{itemize}
+\item Contribution per movement is the facility fee minus variable cost associated with that movement.
+\item Reliable capacity should reflect operating hours, turnaround, maintenance, weather, priority access, and other constraints.
+\item The result is the share of reliable capacity that must be sold to cover fixed facility cost.
+\item It is not equivalent to the percentage of hours in the day during which the facility must operate.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 8: BACK-OF-ENVELOPE (BREAKEVEN) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Breakeven Capacity Use}
+\textbf{Assumptions:} Reliable capacity = 100 movements/day; facility fee = HK\$200/movement; variable facility cost omitted.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Higher-Cost Site}
+\begin{itemize}
+\item Fixed cost: HK\$15,000/day
+\item Maximum fee revenue: HK\$20,000/day
+\item Breakeven use: $15{,}000/20{,}000$
+\item \textbf{75\% of reliable capacity}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Lower-Cost Site}
+\begin{itemize}
+\item Fixed cost: HK\$4,000/day
+\item Maximum fee revenue: HK\$20,000/day
+\item Breakeven use: $4{,}000/20{,}000$
+\item \textbf{20\% of reliable capacity}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: A higher-cost site requires more activity, a higher contribution per movement, or complementary revenue.}
+\vfill{\tiny Illustrative assumptions; excludes variable cost, time-of-day demand, and service mix.}
+\end{frame}
+
+% ====================== Slide 9: CONCEPT PRIMER 3 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Staged Ramp-Up}
+New infrastructure rarely reaches mature demand immediately.
+\begin{itemize}
+\item Early utilization may be limited by customer adoption, aircraft availability, approvals, operating experience, and network coverage.
+\item A staged plan links investment to evidence and milestones rather than building the full facility at once.
+\item Possible stages include a temporary or modular site, limited operating hours, selected users, and later expansion.
+\item The financial plan must include working capital and liquidity for early operating losses and contingencies.
+\end{itemize}
+\textbf{Managerial question:} Which investment is reversible or expandable if demand develops differently from the forecast?
+\end{frame}
+
+% ====================== Slide 10: BACK-OF-ENVELOPE (RAMP-UP) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Funding the Ramp-Up}
+\textbf{Assumptions:} Initial infrastructure investment = HK\$10 million; annual fixed operating cost = HK\$2 million. Other operating costs are omitted.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Mature-Demand Case}
+\begin{itemize}
+\item Facility use: 80\%
+\item Annual revenue: HK\$4 million
+\item Fixed operating cost: HK\$2 million
+\item \textbf{Operating surplus before other costs: HK\$2 million}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Year 1 Ramp-Up Case}
+\begin{itemize}
+\item Facility use: 20\%
+\item Annual revenue: HK\$1 million
+\item Fixed operating cost: HK\$2 million
+\item \textbf{Operating shortfall before other costs: HK\$1 million}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The financing plan must cover the expected ramp-up shortfall plus a contingency buffer.}
+\vfill{\tiny Illustrative assumptions; excludes variable cost, financing, depreciation, tax, and working-capital timing.}
+\end{frame}
+
+% ====================== Slide 11: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Reliability Scenario}
+\begin{block}{A Simple Annual Return Screen}
+\[
+\text{Simple Return}
+=
+\frac{\text{Adjusted Revenue}-\text{Adjusted Operating Cost}}
+{\text{Initial Investment}}
+\]
+\end{block}
+\begin{itemize}
+\item Adjusted revenue should reflect serviceable capacity, demand, cancellations, and pricing under the scenario.
+\item Some costs fall during downtime, while fixed cost, recovery cost, refunds, and service credits may remain or increase.
+\item Weather should be modelled from route- and aircraft-specific operating assumptions rather than a universal annual percentage.
+\item This simple return is not a full ROI or NPV analysis because it ignores timing, financing, tax, and residual value.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 12: BACK-OF-ENVELOPE (WEATHER HAIRCUT) ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: A Downtime Scenario}
+\textbf{Assumptions:} Initial investment = HK\$10 million; annual revenue without disruption = HK\$4 million; annual cost = HK\$2.5 million.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{No-Downtime Scenario}
+\begin{itemize}
+\item Operating surplus: HK\$1.5 million
+\item Simple return: $1.5/10$
+\item \textbf{15\%}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{20\% Revenue Reduction}
+\begin{itemize}
+\item Adjusted revenue: HK\$3.2 million
+\item Assumed cost: HK\$2.5 million
+\item Operating surplus: HK\$0.7 million
+\item \textbf{Simple return: 7\%}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The assumed disruption materially affects returns. A better model would separate capacity loss, demand loss, variable-cost savings, and recovery cost.}
+\vfill{\tiny The 20\% reduction is an illustrative stress scenario, not a claim about Hong Kong annual weather downtime.}
+\end{frame}
+
+% ====================== Slide 13: SESSION 2 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 2}\\
+    \vspace{0.5cm}
+    \Large CAPEX, OPEX and the Maintenance Money-Pit
+  \end{center}
+\end{frame}
+
+% ====================== Slide 14: CONCEPT PRIMER 4 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Infrastructure Investment}
+Vertiport investment may include:
+\begin{itemize}
+\item site acquisition or adaptation and structural works;
+\item touchdown, lift-off, safety, parking, and passenger or cargo areas;
+\item charging, energy storage, communications, lighting, security, and fire protection;
+\item access, circulation, accessibility, and integration with ground transport; and
+\item design, engineering, testing, approval, and contingency allowances.
+\end{itemize}
+\textit{Requirements depend on aircraft characteristics, operating concept, site conditions, and the applicable regulatory framework.}
+\end{frame}
+
+% ====================== Slide 15: CONCEPT PRIMER 5 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Infrastructure OPEX}
+Recurring facility cost may include:
+\begin{itemize}
+\item staffing, security, emergency response, and passenger or cargo processing;
+\item electricity, communications, software, monitoring, and data services;
+\item inspection, preventive maintenance, repairs, cleaning, and replacement reserves;
+\item lease payments, insurance, professional services, and recurring compliance activities; and
+\item disruption recovery, customer support, and service-level obligations.
+\end{itemize}
+\textbf{Managerial lesson:} Do not assume electricity is the dominant OPEX item. The cost mix depends on the site and operating model.
+\end{frame}
+
+% ====================== Slide 16: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Daily Infrastructure Cost}
+\begin{block}{A Simple Economic-Cost Approximation}
+\[
+\text{Daily Infrastructure Cost}
+=
+\frac{\text{CAPEX}-\text{Expected Residual Value}}{\text{Useful Operating Days}}
++\text{Daily OPEX}
+\]
+\end{block}
+\begin{itemize}
+\item The formula allocates net investment cost over the expected operating life.
+\item It is useful for unit-cost screening but is not identical to daily cash flow, accounting depreciation, mortgage payment, ROI, or NPV.
+\item A complete investment model should also consider financing, replacement cycles, tax, residual value, and the timing of cash flows.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 17: BACK-OF-ENVELOPE (DAILY BURDEN) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: Daily Infrastructure Cost}
+\textbf{Assumption:} Ten-year life and no residual value.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Higher-Investment Site}
+\begin{itemize}
+\item CAPEX: HK\$18.25 million
+\item Daily allocation: HK\$5,000
+\item Daily OPEX: HK\$10,000
+\item \textbf{Daily economic cost: HK\$15,000}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Lower-Investment Site}
+\begin{itemize}
+\item CAPEX: HK\$3.65 million
+\item Daily allocation: HK\$1,000
+\item Daily OPEX: HK\$3,000
+\item \textbf{Daily economic cost: HK\$4,000}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: A higher-cost site must create sufficient additional demand, price, reliability, network value, or complementary revenue to justify the difference.}
+\vfill{\tiny Illustrative assumptions; excludes financing, tax, residual value, and replacement cycles.}
+\end{frame}
+
+% ====================== Slide 18: SESSION 3 TITLE ======================
+\begin{frame}[c]
+  \begin{center}
+    \huge\color{cuhkpurple}\textbf{Session 3}\\
+    \vspace{0.5cm}
+    \Large Slot Allocation, EMS Priority \& GBA Scale
+  \end{center}
+\end{frame}
+
+% ====================== Slide 19: CONCEPT PRIMER 6 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Allocating Scarce Slots}
+When requests exceed safe and reliable capacity, managers need a transparent allocation rule.
+\begin{itemize}
+\item \textbf{Administrative allocation:} fixed schedules, permits, historic rights, rotation, or first-come-first-served.
+\item \textbf{Market-based allocation:} posted peak pricing or auctions where appropriate.
+\item \textbf{Priority rules:} emergency, public-service, safety, or other protected operations may receive priority under predefined procedures.
+\item \textbf{Operational controls:} reservations, buffers, delay management, diversions, and cancellation rules.
+\end{itemize}
+\textbf{Managerial objective:} Balance safety, efficiency, predictability, access, competition, and public-service obligations.
+\end{frame}
+
+% ====================== Slide 20: STANDALONE FORMULA ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: A Peak-Pricing Rule}
+\begin{block}{An Illustrative Posted-Price Rule}
+\[
+\text{Slot Fee}
+=
+\text{Base Fee}
++
+\text{Congestion Charge}\left(\frac{\text{Requests}}{\text{Available Slots}}\right)
+\]
+\end{block}
+\begin{itemize}
+\item The exact pricing function is a managerial design choice, not a standard regulatory formula.
+\item Peak charges may shift flexible demand, but only if operators can change timing, route, or facility.
+\item Pricing must be coordinated with safety limits, priority rules, competition policy, transparency, and access obligations.
+\item Revenue maximization should not be the only objective of scarce infrastructure allocation.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 21: BACK-OF-ENVELOPE (CONGESTION PRICING) ======================
+\begin{frame}[t,shrink=10]
+\frametitle{Back-of-the-Envelope: An Illustrative Peak Fee}
+\textbf{Assumptions:} Base fee = HK\$100 and an illustrative congestion parameter = HK\$200.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Two Requests, Two Slots}
+\begin{itemize}
+\item Demand-capacity ratio: $2/2=1$
+\item Fee: $100+1(200)$
+\item \textbf{HK\$300}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Eight Requests, Two Slots}
+\begin{itemize}
+\item Demand-capacity ratio: $8/2=4$
+\item Fee: $100+4(200)$
+\item \textbf{HK\$900}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The higher fee may shift flexible trips, but customer response must be estimated. Price alone does not identify which missions create the greatest social value.}
+\vfill{\tiny Illustrative pricing rule and assumptions; not a recommended tariff.}
+\end{frame}
+
+% ====================== Slide 22: HK VS GBA COMPARISON (REVISED) ======================
+\begin{frame}[t]
+\frametitle{Hong Kong and the GBA: Infrastructure Possibilities}
+\begin{center}\small
+\begin{tabular}{l|cc}
+\textbf{Dimension} & \textbf{Hong Kong possibility} & \textbf{Wider GBA possibility}\\
+\hline
+Site environment & Dense and constrained & More varied\\
+Customer access & Strong value in central locations & Varies by city and corridor\\
+Infrastructure role & Integration and specialized services & Larger network and production scale\\
+Likely design & Hub, distributed, or hybrid & Hub, distributed, or hybrid\\
+Key question & Value created per scarce site & Network coverage and volume\\
+\end{tabular}
+\end{center}
+\vspace{0.3cm}
+\textit{Network design should be based on route-specific demand, site feasibility, aircraft, regulation, and access rather than a predetermined Hong Kong or GBA model.}
+\end{frame}
+% ====================== Slide 23: CONCEPT PRIMER 7 ======================
+\begin{frame}[t]
+\frametitle{Concept Primer: Network Design}
+Should the network concentrate activity in a few hubs or distribute activity across many sites?
+\begin{itemize}
+\item \textbf{Concentrated hub network:} May support shared facilities, high throughput, connections, and specialized services, but can increase access time and vulnerability to disruption.
+\item \textbf{Distributed network:} May improve customer access and resilience, but can duplicate fixed cost and reduce activity at each site.
+\item \textbf{Hybrid network:} Combines major hubs with smaller feeder or specialized sites.
+\end{itemize}
+\textbf{Managerial lesson:} There is no universal ``Hong Kong strategy'' or ``GBA strategy.'' The best configuration depends on demand, geography, capacity, and service purpose.
+\end{frame}
+
+% ====================== NEW SLIDE: APPLIED TOOL - NETWORK DESIGN COST ======================
+\begin{frame}[t]
+\frametitle{Applied Tool: Comparing Network Designs}
+\begin{block}{Generalized Cost per Served Trip}
+\[
+\text{Generalized Cost per Trip}
+=
+\frac{\text{Network Fixed Cost}+\text{Network OPEX}+\text{Disruption Cost}}{\text{Served Trips}}
++\text{Access Burden per Trip}
+\]
+\end{block}
+\begin{itemize}
+\item Concentration may lower facility cost per trip but increase passenger or cargo access burden.
+\item Distribution may improve access and resilience while increasing duplicated cost.
+\item Served trips, not unconstrained forecast demand, should be used in the denominator.
+\item Compare service quality, reliability, expansion options, and network connections as well as cost.
+\end{itemize}
+\end{frame}
+
+% ====================== NEW SLIDE: BACK-OF-THE-ENVELOPE (NETWORK DESIGN) ======================
+\begin{frame}[t,shrink=12]
+\frametitle{Back-of-the-Envelope: Concentrated vs Distributed Network}
+\textbf{Assumptions:} 4,000 served passenger-trips/day and value of access time = HK\$15/minute.
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\begin{block}{Concentrated Network}
+\begin{itemize}
+\item Daily network cost: HK\$15,000
+\item Cost per trip: HK\$3.75
+\item Access burden: $8\times15=\text{HK\$120/trip}$
+\item \textbf{Generalized cost: HK\$123.75/trip}
+\end{itemize}\end{block}\end{column}
+\begin{column}{0.48\textwidth}\begin{block}{Distributed Network}
+\begin{itemize}
+\item Daily network cost: HK\$45,000
+\item Cost per trip: HK\$11.25
+\item Access burden: $2\times15=\text{HK\$30/trip}$
+\item \textbf{Generalized cost: HK\$41.25/trip}
+\end{itemize}\end{block}\end{column}
+\end{columns}
+\textit{Takeaway: The distributed design wins under these assumed volumes and access times. The result may reverse if demand, reliability, feasible sites, or network cost changes.}
+\vfill{\tiny Illustrative assumptions; 4,000 refers to passenger-trips, not flights.}
+\end{frame}
+
+% ====================== Slide 24: EXERCISE INSTRUCTIONS ======================
+\begin{frame}[t]
+\frametitle{In-Class Exercise: Infrastructure Viability Workshop}
+\textbf{Activity: Stress-Testing a Two-Pad Facility}
+\begin{itemize}
+\item \textbf{Format:} Groups of 4--5
+\item \textbf{Base task:} Estimate reliable daily capacity, contribution per movement, breakeven capacity use, and simple annual return.
+\item \textbf{Scenario 1:} Reduce serviceable capacity to reflect weather or maintenance downtime.
+\item \textbf{Scenario 2:} Reserve five daily slots for priority public-service use.
+\item \textbf{Decision:} Recommend a fee, availability payment, subsidy, or cost reduction that keeps the project viable without violating capacity or priority rules.
+\item \textbf{Timing:} 15 minutes plus 5-minute discussion.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 25: KEY TAKEAWAYS ======================
+\begin{frame}[t]
+\frametitle{Key Takeaways}
+\begin{itemize}
+\item Infrastructure strategy balances safety, customer access, utilities, reliable capacity, cost, expandability, and community impact.
+\item Breakeven should use reliable capacity and contribution per movement, not theoretical maximum activity or gross fees alone.
+\item Staged investment and liquidity planning reduce the risk of building ahead of demand.
+\item Weather and maintenance should be modelled through explicit capacity, demand, cost, and recovery assumptions.
+\item Scarce slots require transparent allocation and priority rules; peak pricing is only one possible mechanism.
+\item Hub, distributed, and hybrid networks each involve trade-offs between facility cost, access, resilience, and connectivity.
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 26: ASSIGNMENT ======================
+\begin{frame}[t]
+\frametitle{Week 5 Assignment Briefing}
+\textbf{Infrastructure Viability Model and Memo (maximum 1,200 words plus spreadsheet)}
+\begin{itemize}
+\item \textbf{Due:} Beginning of Week 6
+\item \textbf{Task:} Evaluate a building-based, ground-based, or integrated-hub archetype for your selected use case.
+\item \textbf{Requirements:}
+\begin{enumerate}
+\item Explain the site-selection criteria and define reliable daily capacity.
+\item Separate infrastructure investment, fixed OPEX, variable facility cost, and access burden.
+\item Calculate breakeven capacity use and a simple annual return.
+\item Model a staged ramp-up and one weather or maintenance scenario.
+\item Propose a slot-allocation rule that protects priority services.
+\item Compare the selected design with one alternative and recommend whether to build, stage, relocate, or reject the project.
+\end{enumerate}
+\end{itemize}
+\end{frame}
+
+% ====================== Slide 27: THANK YOU ======================
+\begin{frame}[t]
+  \frametitle{Thank You + Q\&A}
+  
+  \begin{center}
+      \textbf{Next Week Preview:} \\
+      \Large Public-Private Partnerships: Who pays for the chargers?
+  \end{center}
+\end{frame}
+
+\end{document}
