@@ -190,6 +190,37 @@ This spreads net asset cost across expected operating life and adds daily operat
 
 **Takeaway:** higher investment raises unit cost, but utilization and operating cost remain equally important. Cutting missions from 50 to 25 would roughly double cost per mission even if investment stayed at Case B — the Week 2 density lesson in different clothes.
 
+```{=html}
+<figure class="wdiag" id="w03-invest-unit-svg" aria-labelledby="w03-invest-unit-svg-title">
+<p class="wdiag-cap" id="w03-invest-unit-svg-title"><strong>Invest → unit · A ≈HK$270 / B ≈HK$226 per mission</strong> — Classroom: 5-yr life; <strong>1,825</strong> days; OPEX <strong>HK$8,000/day</strong>; <strong>50</strong> missions/day. Case A <strong>HK$10M</strong> → daily ≈13,479 → ≈<strong>HK$270</strong>/mission. Case B <strong>HK$6M</strong> → ≈11,288 → ≈<strong>HK$226</strong>. Higher investment raises unit cost — utilization and OPEX remain equally important. ≠ <code>#w03-cask-util</code>. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a8-title a8-desc">
+  <title id="a8-title">Investment and unit cost: ten million yields about two hundred seventy per mission; six million about two hundred twenty-six</title>
+  <desc id="a8-desc">Classroom investment level and unit cost. Five-year life; one thousand eight hundred twenty-five useful days; daily OPEX eight thousand Hong Kong dollars; fifty missions per operating day. Case A ten million investment: daily asset allocation about five thousand four hundred seventy-nine plus OPEX eight thousand equals thirteen thousand four hundred seventy-nine; cost per mission about two hundred seventy. Case B six million: allocation about three thousand two hundred eighty-eight; total eleven thousand two hundred eighty-eight; about two hundred twenty-six per mission. Higher investment raises unit cost; utilization and OPEX remain equally important. Sandbox is not Sandbox X. Distinct from CASK utilization SVG.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Invest → unit · A ≈HK$270 / B ≈HK$226 per mission</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">5-yr · 1,825 days · OPEX HK$8k/day · 50 missions/day</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Case A · HK$10M</text>
+  <text x="191" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Asset/day ≈ HK$5,479</text>
+  <text x="191" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">+ OPEX HK$8,000 → HK$13,479</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Cost per mission</text>
+  <text x="191" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">≈HK$270</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Case B · HK$6M</text>
+  <text x="529" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Asset/day ≈ HK$3,288</text>
+  <text x="529" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">+ OPEX HK$8,000 → HK$11,288</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Cost per mission</text>
+  <text x="529" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">≈HK$226</text>
+  <rect x="60" y="278" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Higher CAPEX raises unit cost — utilization &amp; OPEX still matter</text>
+  <rect x="60" y="334" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w03-cask-util · Week 2 density in different clothes · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 3 §2 Worked illustration (investment level and unit cost). Classroom only. New SVG.</p>
+</figure>
+```
+
 ### The “Hong Kong premium” as a hypothesis
 
 Why might an LAE service cost more to operate in Hong Kong? Class lists **hypotheses to test**, not proven universal mark-ups:
@@ -597,6 +628,37 @@ Compare that target with physical capacity, operating hours, charging, maintenan
 
 Discounting sharply raises required volume — test whether that volume fits capacity and demand.
 
+```{=html}
+<figure class="wdiag" id="w03-price-be-svg" aria-labelledby="w03-price-be-svg-title">
+<p class="wdiag-cap" id="w03-price-be-svg-title"><strong>Price → breakeven · p=500 → 50 / p=200 → 200</strong> — Classroom: fixed <strong>HK$20,000/day</strong>; VC <strong>HK$100</strong>/mission. At <em>p</em>=500 → CM 400 → BE <strong>50</strong> missions/day. At <em>p</em>=200 → CM 100 → BE <strong>200</strong>. Discounting sharply raises required volume — test whether that volume fits <em>K</em> and demand. ≠ <code>#w03-breakeven-svg</code> (identity diagram). Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a3-title a3-desc">
+  <title id="a3-title">Price and breakeven: five hundred dollars needs fifty missions; two hundred dollars needs two hundred missions</title>
+  <desc id="a3-desc">Classroom price and breakeven. Fixed cost twenty thousand Hong Kong dollars per day; variable cost one hundred per mission. At revenue five hundred, contribution four hundred, breakeven fifty missions per day. At revenue two hundred, contribution one hundred, breakeven two hundred missions per day. Discounting sharply raises required volume — test whether that volume fits capacity and demand. Sandbox is not Sandbox X. Distinct from the breakeven identity diagram.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Price → breakeven · p=500 → 50 / p=200 → 200</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">F=HK$20,000/day · VC HK$100/mission (classroom)</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Revenue HK$500/mission</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Contribution HK$400</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">20,000 ÷ 400</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Breakeven missions/day</text>
+  <text x="191" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#003366">50</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Revenue HK$200/mission</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Contribution HK$100</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">20,000 ÷ 100</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Breakeven missions/day</text>
+  <text x="529" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#003366">200</text>
+  <rect x="60" y="278" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Discounting sharply raises required volume — fit K and demand?</text>
+  <rect x="60" y="334" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w03-breakeven-svg · Sandbox ≠ X · no invented corridor K</text>
+</svg>
+
+<p class="wdiag-note">From Week 3 §7 Worked illustration (price and breakeven). Classroom only. New SVG. Twin to #w03-lf-be-svg (A7).</p>
+</figure>
+```
+
 ### Worked illustration (load factor and breakeven flights)
 
 **Assumptions (illustrative):** four seats; average fare HK$500; fixed cost HK$20,000/day; variable cost HK$100/**flight**.
@@ -607,6 +669,37 @@ Discounting sharply raises required volume — test whether that volume fits cap
 | 90% | 3.6 | HK$1,800 | HK$1,700 | $\approx$ **12** |
 
 Fractional passengers are averages across many flights. Higher load factor can cut required flights **if** fare and costs stay unchanged.
+
+```{=html}
+<figure class="wdiag" id="w03-lf-be-svg" aria-labelledby="w03-lf-be-svg-title">
+<p class="wdiag-cap" id="w03-lf-be-svg-title"><strong>LF → breakeven · 40% ≈29 / 90% ≈12 flights</strong> — Classroom: 4 seats; fare <strong>HK$500</strong>; <em>F</em>=<strong>HK$20,000/day</strong>; VC <strong>HK$100/flight</strong>. LF 40% → 1.6 pax · rev 800 · CM 700 → BE ≈<strong>29</strong> flights/day. LF 90% → 3.6 · 1,800 · 1,700 → ≈<strong>12</strong>. Fractional passengers are averages. Higher LF cuts required flights <em>if</em> fare and costs stay unchanged. ≠ <code>#w03-breakeven-svg</code>. Twin to <code>#w03-price-be-svg</code>. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a7-title a7-desc">
+  <title id="a7-title">Load factor and breakeven: forty percent needs about twenty-nine flights; ninety percent about twelve</title>
+  <desc id="a7-desc">Classroom load factor and breakeven flights. Four seats; average fare five hundred Hong Kong dollars; fixed cost twenty thousand per day; variable cost one hundred per flight. At forty percent load factor: average one point six paying passengers; revenue eight hundred; contribution seven hundred; breakeven about twenty-nine flights per day. At ninety percent: three point six passengers; revenue one thousand eight hundred; contribution one thousand seven hundred; breakeven about twelve. Fractional passengers are averages. Higher load factor cuts required flights if fare and costs stay unchanged. Sandbox is not Sandbox X. Twin to price-breakeven SVG; distinct from identity diagram.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">LF → breakeven · 40% ≈29 / 90% ≈12 flights</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">4 seats · fare HK$500 · F=HK$20k/day · VC HK$100/flight</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">LF 40%</text>
+  <text x="191" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">1.6 pax · rev HK$800</text>
+  <text x="191" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">CM HK$700</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Breakeven flights/day</text>
+  <text x="191" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#003366">≈29</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">LF 90%</text>
+  <text x="529" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">3.6 pax · rev HK$1,800</text>
+  <text x="529" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">CM HK$1,700</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Breakeven flights/day</text>
+  <text x="529" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#003366">≈12</text>
+  <rect x="60" y="278" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Higher LF cuts required flights if fare &amp; costs hold — fractional pax are averages</text>
+  <rect x="60" y="334" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w03-breakeven-svg · twin to #w03-price-be-svg · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 3 §7 Worked illustration (load factor and breakeven flights). Classroom only. New SVG.</p>
+</figure>
+```
 
 ### Sensitivity habit (classroom method)
 

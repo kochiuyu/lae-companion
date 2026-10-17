@@ -609,6 +609,39 @@ When policy or contracts force **sharing** of scarce pads, the incumbent’s “
 
 **Tool chain.** High sunk pad costs raise $AC_{\text{Entrant}}$ → higher possible $P_{\text{Limit}}$ → incumbent can charge more *while* watching entry. Shared-pad policy reverses that. Co-opetition ([§10](#10-co-opetition-compete-on-service-share-the-roof)) is one institutional way to lower sunk entry — if governance works.
 
+```{=html}
+<figure class="wdiag" id="w02-limit-price-svg" aria-labelledby="w02-limit-price-svg-title">
+<p class="wdiag-cap" id="w02-limit-price-svg-title"><strong>Limit price · high sunk HK$1,200 vs shared HK$300</strong> — Classroom: entrant <em>Q</em>=<strong>10,000</strong> flights; MC <strong>HK$200</strong>. Own-pad sunk <strong>HK$10M</strong> → <em>AC</em><sub>Entrant</sub> <strong>HK$1,200</strong> / limit-style ~<strong>HK$1,190</strong>. Shared-pad sunk <strong>HK$1M</strong> → <em>AC</em> <strong>HK$300</strong> / ~<strong>HK$290</strong>. Sharing shrinks the sunk moat — arithmetic is a screen, not proof of deterrence. ≠ <code>#w02-entry-svg</code> (NASA checklist). Sandbox ≠ Sandbox X. Trial ≠ dominance.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a2-title a2-desc">
+  <title id="a2-title">Limit price: high sunk entrant average cost twelve hundred, limit about eleven ninety; shared pad three hundred, limit about two ninety</title>
+  <desc id="a2-desc">Classroom limit price and shared pads. Entrant expects ten thousand flights; marginal cost two hundred Hong Kong dollars. High sunk own-pad build-out ten million yields entrant average cost one thousand two hundred and example limit-style price about one thousand one hundred ninety. Shared pad access sunk one million yields average cost three hundred and limit about two hundred ninety. Shared pads shrink the sunk-cost moat; arithmetic is a screen, not proof of deterrence. Sandbox is not Sandbox X. Trial is not dominance. Distinct from NASA entry checklist SVG.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Limit price · high sunk HK$1,200 vs shared HK$300</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Q=10,000 flights · MC HK$200 (classroom)</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">High sunk · own pad</text>
+  <text x="191" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Sunk HK$10,000,000</text>
+  <text x="191" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">AC_Entrant = 1,000 + 200</text>
+  <text x="191" y="170" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">AC_Entrant</text>
+  <text x="191" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">HK$1,200</text>
+  <text x="191" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Limit-style ≈ HK$1,190</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Lower sunk · shared pad</text>
+  <text x="529" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Sunk HK$1,000,000</text>
+  <text x="529" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">AC_Entrant = 100 + 200</text>
+  <text x="529" y="170" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">AC_Entrant</text>
+  <text x="529" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">HK$300</text>
+  <text x="529" y="230" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Limit-style ≈ HK$290</text>
+  <rect x="60" y="278" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Shared pads shrink the moat — screen ≠ proof of deterrence</text>
+  <rect x="60" y="334" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w02-entry-svg · Sandbox ≠ X · trial ≠ dominance</text>
+</svg>
+
+<p class="wdiag-note">From Week 2 §7 Worked illustration (limit price and shared pads). Classroom only. New SVG.</p>
+</figure>
+```
+
 ---
 
 Barrier checklists are general. Hong Kong’s answer to “learn before you scale” is the **sandbox track** — and GBA scale is a separate regional story. Keep programme names and corridor claims absolute.
@@ -808,6 +841,37 @@ $$
 Sharing is one of the fastest ways to survive extreme land costs — if the access rules work.
 
 **Link to limit pricing.** Shared pads cut sunk entry ([§7](#worked-illustration-limit-price-and-shared-pads)) and can raise Bertrand pressure ([§9](#9-price-competition-when-capacity-is-scarce)). Co-opetition is not “free money”: it trades a lower cost floor for harder price competition and governance cost.
+
+```{=html}
+<figure class="wdiag" id="w02-shared-roof-svg" aria-labelledby="w02-shared-roof-svg-title">
+<p class="wdiag-cap" id="w02-shared-roof-svg-title"><strong>Shared rooftop · HK$1,000 vs HK$250/flight</strong> — Classroom Kowloon rooftop <strong>HK$100,000/day</strong>. Alone: <strong>HK$1,000</strong> rent/flight (100 flights). Four-way share: <strong>HK$25,000</strong> each → <strong>HK$250</strong> rent/flight. Sharing survives extreme land cost only if access rules work — trades lower cost floor for harder price competition. ≠ <code>#w02-coop-svg</code> (concept). ≠ density-trap / ATC-util tables. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a5-title a5-desc">
+  <title id="a5-title">Shared rooftop: alone one thousand dollars rent per flight versus four-way share two hundred fifty</title>
+  <desc id="a5-desc">Classroom shared Kowloon rooftop. Site cost one hundred thousand Hong Kong dollars per day. Alone: fixed cost one hundred thousand; at one hundred flights, rent one thousand per flight. Four operators share equally: twenty-five thousand each; at one hundred flights each, rent two hundred fifty per flight. Sharing survives extreme land cost only if access rules work — trades lower cost floor for harder price competition. Sandbox is not Sandbox X. Distinct from co-opetition concept SVG and density-trap ATC.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Shared rooftop · HK$1,000 vs HK$250/flight</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Kowloon rooftop HK$100,000/day · 100 flights each (classroom)</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Alone</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Fixed HK$100,000/day</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">÷ 100 flights</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Rent per flight</text>
+  <text x="191" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">HK$1,000</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Four share equally</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Fixed HK$25,000 each</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">÷ 100 flights each</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Rent per flight</text>
+  <text x="529" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">HK$250</text>
+  <rect x="60" y="278" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Lower cost floor ↔ harder price competition — if access rules work</text>
+  <rect x="60" y="334" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w02-coop-svg · ≠ density-trap · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 2 §10 Worked illustration (shared rooftop). Classroom only. New SVG. Figure id #w02-shared-roof-svg (SHORTLIST).</p>
+</figure>
+```
 
 ---
 

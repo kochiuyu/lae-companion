@@ -182,6 +182,37 @@ More nodes increase the option set; viable service grows only where demand, capa
 
 **Connecting idea.** FAA UAM ConOps and AAM Implementation Plan ([Readings](#readings)) describe **maturation pathways** for US concepts of operations — they are comparators for structuring a network roadmap, not Hong Kong corridor licences.
 
+```{=html}
+<figure class="wdiag" id="w12-count-links-svg" aria-labelledby="w12-count-links-svg-title">
+<p class="wdiag-cap" id="w12-count-links-svg-title"><strong>Count-links · 5→6 candidates / 20→≈29</strong> — Classroom: <em>L</em>=<em>N</em>(<em>N</em>−1)/2. Five nodes → 10 pairs → suppose <strong>6</strong> pass. Twenty nodes → 190 pairs → 15% pass → <strong>≈29</strong> candidates. Quadratic <em>options</em> ≠ viable services; screening rates illustrative ≠ GBA forecast. ≠ <code>#w12-network-svg</code> (concept). No invented corridor <em>K</em>. OHKF HK$350bn = value-added only. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a6-title a6-desc">
+  <title id="a6-title">Count links: five nodes yield six candidates; twenty nodes about twenty-nine after screening</title>
+  <desc id="a6-desc">Classroom counting possible connections. Five nodes: ten undirected pairs; suppose six pass screening to six candidate links. Twenty nodes: one hundred ninety pairs; fifteen percent pass yields about twenty-nine candidates. Quadratic options are not viable services; screening rates are illustrative, not a GBA forecast. Do not invent corridor capacity. OHKF three hundred fifty billion is value-added only. Sandbox is not Sandbox X. Distinct from the network concept SVG.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Count-links · 5→6 candidates / 20→≈29</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">L = N(N−1)/2 · options ≠ viable services (classroom)</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Five nodes</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Pairs 5×4/2 = 10</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Screen: suppose 6 pass</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Candidate links</text>
+  <text x="191" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#003366">6</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Twenty nodes</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Pairs 20×19/2 = 190</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Screen: 15% pass</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Candidate links</text>
+  <text x="529" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#003366">≈29</text>
+  <rect x="60" y="278" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Quadratic options ≠ scheduled routes — screen each link</text>
+  <rect x="60" y="334" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w12-network-svg · no invented K · OHKF 350bn = VA · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 12 §2 Counting possible connections. Classroom only. New SVG. Distinct from #w12-network-svg.</p>
+</figure>
+```
+
 ---
 
 Networks need coordination. **Digital coordination and governance** put net savings and better risk evidence in the same [cash-flow](glossary.qmd#cash-flow) path as Week 8 roadmap NPV — or they are theatre.

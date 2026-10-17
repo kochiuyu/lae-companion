@@ -506,6 +506,48 @@ Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **H
 
 **Connecting idea.** Week 8’s phased roadmap $\mathrm{NPV}$ used $CF_{t}$ under a base path. Week 9 asks what happens when those cash flows are random: report $E[\Pi]$ **and** $\Pr(\Pi < 0)$, not only the mean that looks investable.
 
+```{=html}
+<figure class="wdiag" id="w09-scenario-ev-svg" aria-labelledby="w09-scenario-ev-svg-title">
+<p class="wdiag-cap" id="w09-scenario-ev-svg-title"><strong>Scenario EV · E[Π] HK$2.2M · Pr(loss) 30%</strong> — Classroom: annual cost <strong>HK$5M</strong>. Strong 20% (rev 10M / Π 5M); Base 50% (8M / 3M); Weak 30% (4M / −1M). E[rev] <strong>HK$7.2M</strong>; E[Π] <strong>HK$2.2M</strong>; Pr(loss) <strong>30%</strong>. Positive expected profit can coexist with material loss probability — check downside cash. ≠ <code>#w09-uncertainty-svg</code> (concept). OHKF HK$350bn = value-added projection only. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="a4-title a4-desc">
+  <title id="a4-title">Scenario expected profit two point two million with thirty percent probability of loss</title>
+  <desc id="a4-desc">Classroom scenario expected value. Annual cost five million Hong Kong dollars. Strong twenty percent: revenue ten million, profit five million. Base fifty percent: revenue eight million, profit three million. Weak thirty percent: revenue four million, profit minus one million. Expected revenue seven point two million; expected profit two point two million; probability of loss thirty percent. Positive expected profit can coexist with material loss probability. OHKF three hundred fifty billion is value-added projection only. Sandbox is not Sandbox X. Distinct from the uncertainty concept SVG.</desc>
+  <rect x="12" y="12" width="696" height="396" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Scenario EV · E[Π] HK$2.2M · Pr(loss) 30%</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Annual cost HK$5M (classroom)</text>
+  <rect x="28" y="64" width="216" height="160" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="136" y="88" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Strong · 20%</text>
+  <text x="136" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Revenue HK$10M</text>
+  <text x="136" y="134" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Profit</text>
+  <text x="136" y="162" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">HK$5M</text>
+  <text x="136" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Upside path</text>
+  <rect x="252" y="64" width="216" height="160" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="88" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Base · 50%</text>
+  <text x="360" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Revenue HK$8M</text>
+  <text x="360" y="134" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Profit</text>
+  <text x="360" y="162" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">HK$3M</text>
+  <text x="360" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Modal case</text>
+  <rect x="476" y="64" width="216" height="160" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="584" y="88" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Weak · 30%</text>
+  <text x="584" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Revenue HK$4M</text>
+  <text x="584" y="134" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Profit</text>
+  <text x="584" y="162" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#003366">−HK$1M</text>
+  <text x="584" y="196" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Loss path</text>
+  <rect x="60" y="244" width="280" height="56" rx="8" fill="#003366"/>
+  <text x="200" y="268" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#C5A572">E[rev] = HK$7.2M</text>
+  <text x="200" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#ffffff">E[Π] = HK$2.2M</text>
+  <rect x="380" y="244" width="280" height="56" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="520" y="268" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Probability of loss</text>
+  <text x="520" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Pr(loss) = 30%</text>
+  <rect x="60" y="318" width="600" height="64" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="342" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Positive E[Π] can coexist with material Pr(loss) — check downside cash</text>
+  <text x="360" y="364" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w09-uncertainty-svg · OHKF 350bn = VA only · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 9 §4 scenario / expected-value table. Classroom only. New SVG.</p>
+</figure>
+```
+
 ---
 
 Uncertainty tools are general. The [**HK$350bn**](glossary.qmd#industry-value-added) figure is an **Our Hong Kong Foundation (OHKF)** think-tank **value-added** projection by 2050. It is **not** government GDP, **not** your obtainable revenue, and **not** a TAM.
