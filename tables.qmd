@@ -11,12 +11,7 @@ format:
     html-math-method: katex
 ---
 
-Cheat sheet of **named teaching tables** copied from the week notes. Worked narrative and figures stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Teaching diagrams stay on [Figures](figures.qmd). Documents listed on the week notes stay on [Readings](readings.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
-
-- Keep **Sandbox ≠ Sandbox X**.
-- **U-space ≠ Hong Kong law.**
-- OHKF **HK$350bn** is a private think-tank **value-added** projection — not obtainable demand.
-- Do **not** invent corridor capacity $K$.
+Named teaching tables from the week notes.
 
 ## Jump by theme
 

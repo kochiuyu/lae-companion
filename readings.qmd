@@ -8,13 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Cheat sheet of **readings** listed on each week page (Main + Supplementary). Worked narrative, tables, and figures stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Named tables stay on [Tables](tables.qmd). Teaching diagrams stay on [Figures](figures.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
-
-- Keep **Sandbox ≠ Sandbox X**.
-- **U-space ≠ Hong Kong law.**
-- OHKF **HK$350bn** is a private think-tank **value-added** projection — not obtainable demand.
-- Do **not** invent corridor capacity $K$.
-
+Readings listed on each week page (Main + Supplementary).
 
 ## Jump by theme
 

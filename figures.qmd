@@ -8,13 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Index of **teaching diagrams** (`.wdiag`) from the week notes. Diagrams stay on the week pages. Worked narrative and tables stay on the week pages. Word definitions stay in the [Glossary](glossary.qmd). Named identities stay on [Formulas](formulas.qmd). Named tables stay on [Tables](tables.qmd). Documents listed on the week notes stay on [Readings](readings.qmd). Citeable programme numbers stay on [Key figures](key-figures.qmd).
-
-- Keep **Sandbox ≠ Sandbox X**.
-- **U-space ≠ Hong Kong law.**
-- OHKF **HK$350bn** is a private think-tank **value-added** projection — not obtainable demand.
-- Do **not** invent corridor capacity $K$.
-
+Index of **teaching diagrams** (`.wdiag`) from the week notes. Diagrams stay on the week pages.
 
 ## Jump by theme
 
