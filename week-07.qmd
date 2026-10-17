@@ -164,6 +164,22 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 ## 3. Hong Kong’s risk-based SUA frame and Sandbox X
 
 ```{=html}
+<figure class="wdiag wdiag-text" id="w07-sandbox" aria-labelledby="w07-sandbox-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
+<p class="wdiag-cap" id="w07-sandbox-title"><strong>Sandbox ≠ Sandbox X (keep programmes distinct)</strong></p>
+<div class="wdiag-stack cols-2">
+<div class="wdiag-box fact"><strong>Regulatory Sandbox</strong><br/>Controlled trials under the first Sandbox programme. Advanced / BVLOS pathways: see <strong>CAD AC-013</strong> (operation-specific evidence).</div>
+<div class="wdiag-box fact"><strong>Regulatory Sandbox X</strong><br/>Advanced / more complex trials (e.g. cross-boundary SUA permission pathways). Cross-boundary circular: <strong>CAD AC-017</strong>.</div>
+</div>
+<div class="wdiag-arrow" aria-hidden="true">≠</div>
+<div class="wdiag-box muted"><strong>Neither is a commercial franchise</strong><br/>Sandbox evidence ≠ day-to-day operating approval. <strong>U-space ≠ Hong Kong law.</strong> Action Plan language in the 2025 Policy Address stays with the issuer (OPEN on Official status where noted).</div>
+<p class="wdiag-note">Absolute programme labels — cite Readings / Key numbers / Who decides what?.</p>
+</details>
+</figure>
+```
+
+```{=html}
 <figure class="wdiag wdiag-svg" id="w07-sandbox-svg" aria-labelledby="w07-sandbox-svg-title">
 <p class="wdiag-cap" id="w07-sandbox-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Regulatory Sandbox (first programme; advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) ≠ Sandbox X (later complex trials; cross-boundary via <strong>CAD AC-017</strong>). Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. U-space ≠ Hong Kong law. Cite Key numbers for counts — do not invent them here.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e2-title e2-desc">
@@ -195,7 +211,7 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
   <text x="360" y="328" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">U-space ≠ Hong Kong law · corridor talk ≠ operating service · cite Key numbers for counts</text>
 
 </svg>
-<p class="wdiag-note">From Week 7 §3. Keep AC-013 ≠ AC-017.</p>
+<p class="wdiag-note">From Week 7 §3. SVG upgrade of HTML #w07-sandbox. Keep AC-013 ≠ AC-017.</p>
 </figure>
 ```
 
