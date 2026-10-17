@@ -1222,7 +1222,7 @@ Treat technology as a lever on economics, not as an end in itself:
 
 ---
 
-Pull the thread: system definition → value → Hong Kong scale with correct attribution → VOT / GC / NPV → who gets paid → sandboxes kept distinct → GBA caveat → empty-seat unit cost → technology as a lever.
+Pull the thread. Define the system. Trace value. State Hong Kong scale with correct attribution. Use VOT / GC / NPV. Ask who gets paid. Keep sandboxes distinct. Note the GBA caveat. Check empty-seat unit cost. Treat technology as a lever.
 
 ## 15. Putting Week 1 together
 

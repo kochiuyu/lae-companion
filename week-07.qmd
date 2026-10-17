@@ -52,7 +52,7 @@ Week 6 designed partnerships and payment mechanisms. This week asks how **regula
 By the end of Week 7 you should be able to:
 
 1. **Explain** Hong Kong’s risk-based framework for small unmanned aircraft and the role of Sandbox X.  
-2. **Identify** the evidence and permissions required for advanced operations, including BVLOS testing.  
+2. **Identify** the evidence and permissions required for advanced operations, including [**BVLOS**](glossary.qmd#bvlos) (beyond visual line of sight) testing.  
 3. **Evaluate** how safety assurance affects approval, liability, reliability, and insurability.  
 4. **Explain** how digital traffic-management services may support safe and scalable operations.  
 5. **Design** a phased regulatory roadmap that links operating privileges to evidence and performance.
@@ -823,7 +823,7 @@ Roadmaps need a sequence on one page. The **tool map** walks Cap. 448G facts →
 
 ---
 
-Pull the thread: readiness value → Hong Kong programme facts → BVLOS without conflation → safety case → UTM as comparator → pathway scorecard — keep Sandbox ≠ Sandbox X.
+Pull the thread. Measure readiness value. Keep Hong Kong programme facts straight. Treat BVLOS without conflation. Build the safety case. Use UTM only as a comparator. Use the pathway scorecard. Keep Sandbox ≠ Sandbox X.
 
 ## 11. Putting Week 7 together
 

@@ -706,7 +706,7 @@ If step 9 fails, fix price, cost, capacity, product design, or the corridor defi
 
 ---
 
-Pull the thread: WTP → honest modelling limits → funnel and GC → elasticity and segments → acceptance scenarios → shocks — then confront every headline with Week 3 required activity.
+Pull the thread. Start from WTP. Keep modelling limits honest. Use the funnel and generalized cost. Apply elasticity and segments. Write acceptance scenarios and shocks. Then confront every headline with Week 3 required activity.
 
 ## 12. Putting Week 4 together
 

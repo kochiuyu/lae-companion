@@ -52,7 +52,7 @@ By the end of Week 11 you should be able to:
 
 1. **Integrate** demand, capacity, unit economics, infrastructure, contracts, regulation, and sustainability into one coherent strategy.  
 2. **Check** that assumptions, units, and causal links remain consistent across the complete business model.  
-3. **Evaluate** viability using cash flow, NPV, breakeven, downside risk, and non-financial decision criteria.  
+3. **Evaluate** viability using cash flow, [**NPV**](glossary.qmd#npv) (net present value), breakeven, downside risk, and non-financial decision criteria.  
 4. **Present** a concise 12-minute recommendation supported by transparent evidence and sensitivity analysis.  
 5. **Defend** the proposal by explaining limitations, decision gates, and conditions under which the recommendation should change.
 
@@ -678,7 +678,7 @@ Assessment logistics and grading weights stay on the teaching platform; the slid
 
 ---
 
-Pull the thread: cascade → viability test → six-block template → gated risks → decision-maker evidence → rehearsed close — keep Sandbox ≠ Sandbox X and OHKF attribution intact.
+Pull the thread. Trace the cascade. Apply the viability test. Fill the six-block template. Gate the risks. Match evidence to the decision-maker. Rehearse the close. Keep Sandbox ≠ Sandbox X and OHKF attribution intact.
 
 ## 7. Putting Week 11 together
 

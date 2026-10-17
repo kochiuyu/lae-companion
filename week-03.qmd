@@ -932,7 +932,7 @@ If step 6’s required activity exceeds step 4’s physical capacity, the model 
 
 ---
 
-Pull the thread: stack → unit metrics → revenue design → RM → breakeven under downtime → place-specific hypotheses — then refuse sandbox participation as proof of unit economics.
+Pull the thread. Build the cost stack. Choose unit metrics. Design revenue. Apply revenue management. Check breakeven under downtime. State place-specific hypotheses. Then refuse sandbox participation as proof of unit economics.
 
 ## 11. Putting Week 3 together
 

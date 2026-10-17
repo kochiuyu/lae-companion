@@ -54,7 +54,7 @@ By the end of Week 9 you should be able to:
 2. **Distinguish** potential demand, serviceable demand, capacity, revenue, and value added.  
 3. **Stress-test** a business case using scenarios, sensitivity analysis, and simple probability models.  
 4. **Identify** who receives the benefits and who bears the costs of an LAE project.  
-5. **Explain** how hedonic analysis and benefit-cost analysis may inform noise, access, and equity decisions.
+5. **Explain** how [**hedonic valuation**](glossary.qmd#hedonic-valuation) (how attributes such as noise show up in prices) and benefit-cost analysis may inform noise, access, and equity decisions.
 
 ### How this week is organised
 
@@ -819,7 +819,7 @@ Do not use unexplained barrier toggles. Each scenario assumption should change a
 
 ---
 
-Pull the thread: commercial vs social → funnel with capacity → one channel per barrier → expected value → OHKF attribution → hedonics and equity — then refuse HK$350bn as your SAM.
+Pull the thread. Separate commercial from social value. Size the funnel with capacity. Map one channel per barrier. Use expected value. Attribute OHKF correctly. Apply hedonics and equity with care. Then refuse HK$350bn as your SAM.
 
 ## 9. Putting Week 9 together
 

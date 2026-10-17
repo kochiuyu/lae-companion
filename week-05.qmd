@@ -141,7 +141,7 @@ Section 1 named infrastructure as the bottleneck that can bind before aircraft d
 
 ## 2. Three classroom vertiport archetypes
 
-For managerial analysis (not an official Hong Kong classification):
+For classroom comparison (not an official Hong Kong classification):
 
 | Archetype | Plain idea | Typical trade-off |
 |-----------|------------|-------------------|
@@ -870,7 +870,7 @@ Network choice needs a sequence. The **tool map** walks site screen → throughp
 
 ---
 
-Pull the thread: bottleneck → archetypes → site cost → throughput and staging → reliability → CAPEX/OPEX → slots and network — then refuse sandbox counts as vertiport capacity.
+Pull the thread. Diagnose the bottleneck. Compare archetypes. Measure site cost. Plan throughput and staging. Check reliability. Separate CAPEX and OPEX. Allocate slots and think in network terms. Then refuse sandbox counts as vertiport capacity.
 
 ## 11. Putting Week 5 together
 
