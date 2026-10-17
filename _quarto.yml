@@ -86,7 +86,8 @@ website:
             text: Week 11
           - href: week-12.qmd
             text: Week 12
-          - text: "---"
+      - text: Review
+        menu:
           - href: formulas.qmd
             text: Formulas
           - href: tables.qmd
