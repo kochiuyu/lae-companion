@@ -766,6 +766,66 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
+
+---
+
+## Self-check {#self-check}
+
+Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
+
+```{=html}
+<div class="selfcheck" id="selfcheck-w08" data-week="08">
+  <p class="selfcheck-intro">Four questions from Week 8 learning objectives, the Study checklist, and named formulas (S<sub>delay</sub> / MCC, B<sub>max</sub>, S<sub>day</sub>). Capacity is a whole-system concept; <strong>Sandbox ≠ Sandbox X</strong>; <strong>U-space ≠ HK law</strong>.</p>
+
+  <fieldset class="selfcheck-q" id="sc-w08-q1" data-correct="b">
+    <legend class="selfcheck-stem">1. Safe operating capacity in Week 8 is…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w08-q1" value="a"> Only “drones per minute” on one pad.</label></li>
+      <li><label><input type="radio" name="sc-w08-q1" value="b"> A whole-system concept linking demand, sites, permissions, and allocation rules — separate Cap. 448G height bands from the ~1,000 m policy working description.</label></li>
+      <li><label><input type="radio" name="sc-w08-q1" value="c"> Equal to invented Harbour corridor capacity in these notes.</label></li>
+      <li><label><input type="radio" name="sc-w08-q1" value="d"> Identical to Sandbox X’s 33 modules.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–3. No invented Harbour corridor capacity. Height-band vs policy-band guard continues from Week 1.</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w08-q2" data-correct="a">
+    <legend class="selfcheck-stem">2. Marginal congestion cost (MCC) in the classroom sketch is…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w08-q2" value="a"> S<sub>delay</sub> = Σ (D<sub>j</sub> × v<sub>j</sub>), then MCC = S<sub>delay</sub> + C<sub>other</sub> — a delay externality aid for allocation design.</label></li>
+      <li><label><input type="radio" name="sc-w08-q2" value="b"> Always equal to the ticket fare.</label></li>
+      <li><label><input type="radio" name="sc-w08-q2" value="c"> A Cap. 448G mandatory noise fine schedule.</label></li>
+      <li><label><input type="radio" name="sc-w08-q2" value="d"> HHI computed from pad shares.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 4; <a href="formulas.qmd#w08-mcc">Formulas · MCC</a>. Compare queue / posted price / auction / package / priority on design criteria (Study checklist 5).</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w08-q3" data-correct="b">
+    <legend class="selfcheck-stem">3. An operator’s maximum affordable slot payment B<sub>max</sub> is…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w08-q3" value="a"> Always the social value of the flight.</label></li>
+      <li><label><input type="radio" name="sc-w08-q3" value="b"> B<sub>max</sub> = R<sub>Δ</sub> − C<sub>Δ</sub> − π<sub>req</sub> — incremental revenue minus incremental cost minus required contribution; a high bid ≠ high social value.</label></li>
+      <li><label><input type="radio" name="sc-w08-q3" value="c"> OFCA spectrum fees only.</label></li>
+      <li><label><input type="radio" name="sc-w08-q3" value="d"> Zero when linked slots fail — so the flight should proceed unsafe.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Study checklist 6–7; <a href="formulas.qmd#w08-bmax">Formulas · B<sub>max</sub></a>. Linked-slot failure → reject/reschedule, not unsafe flight.</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w08-q4" data-correct="b">
+    <legend class="selfcheck-stem">4. Which digital / programme statement matches Week 8?</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w08-q4" value="a"> U-space is Hong Kong law; OFCA 1.4 GHz Sandbox confinement may be ignored.</label></li>
+      <li><label><input type="radio" name="sc-w08-q4" value="b"> U-space ≠ HK law; S<sub>day</sub> = C<sub>legacy</sub> − C<sub>interop</sub>; cite OFCA 1.4 GHz Sandbox confinement and AC-017 Sandbox X scope correctly; keep Sandbox ≠ Sandbox X.</label></li>
+      <li><label><input type="radio" name="sc-w08-q4" value="c"> Network effects are identical to simple economies of scale.</label></li>
+      <li><label><input type="radio" name="sc-w08-q4" value="d"> Week 5 site slots and Week 7 permissions are unrelated to airspace allocation.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 8–12; <a href="formulas.qmd#w08-sday">Formulas · S<sub>day</sub></a>. Connect site slots and permissions to this week’s allocation.</div>
+  </fieldset>
+
+</div>
+```
+
+---
+
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (CAD AC-017 Sandbox X cross-boundary; OFCA 1.4 GHz UAS licence confined to LAE Regulatory Sandbox; academic UAM airspace reviews; NASA / FAA ConOps comparators).  

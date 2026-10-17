@@ -852,6 +852,66 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
+
+---
+
+## Self-check {#self-check}
+
+Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
+
+```{=html}
+<div class="selfcheck" id="selfcheck-w09" data-week="09">
+  <p class="selfcheck-intro">Four questions from Week 9 learning objectives, the Study checklist, and named formulas (SAM / D<sub>pot</sub> / D<sub>served</sub>, E[Π], hedonic sketch). OHKF <strong>HK$350bn</strong> = Hong Kong industry <em>value added</em> by 2050 (think-tank). <strong>Sandbox ≠ Sandbox X</strong>.</p>
+
+  <fieldset class="selfcheck-q" id="sc-w09-q1" data-correct="a">
+    <legend class="selfcheck-stem">1. A transparent market-size estimate in Week 9 starts by…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w09-q1" value="a"> Defining service, OD, customer, and period — then SAM = TAM × e, D<sub>pot</sub> = SAM × s, and D<sub>served</sub> with explicit capacity K.</label></li>
+      <li><label><input type="radio" name="sc-w09-q1" value="b"> Taking “all trips to the airport” as the market without a defined use case.</label></li>
+      <li><label><input type="radio" name="sc-w09-q1" value="c"> Equating TAM with served revenue.</label></li>
+      <li><label><input type="radio" name="sc-w09-q1" value="d"> Pasting Mainland 规模 totals as Hong Kong GDP.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 1–2; Study checklist 1–2; <a href="formulas.qmd#w09-funnel">Formulas · market funnel</a>. Separate revenue, contribution, profit, value added, and social benefit (Study checklist 3).</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w09-q2" data-correct="c">
+    <legend class="selfcheck-stem">2. When these notes quote about HK$350 billion in Week 9…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w09-q2" value="a"> It is an HKSAR binding spending commitment.</label></li>
+      <li><label><input type="radio" name="sc-w09-q2" value="b"> It equals one corridor’s ticket revenue today.</label></li>
+      <li><label><input type="radio" name="sc-w09-q2" value="c"> Attribute it to OHKF as Hong Kong LAE industry <em>value added</em> by 2050 (private think-tank) — not operator revenue and not automatic GDP.</label></li>
+      <li><label><input type="radio" name="sc-w09-q2" value="d"> It is a CAD carbon-tax forecast.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Study checklist 7; Learning objective 2; Key figures / Week 1 attribution rule reused. Distinct from operator revenue and social benefit.</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w09-q3" data-correct="d">
+    <legend class="selfcheck-stem">3. Stress-testing in Week 9 includes…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w09-q3" value="a"> One hidden multi-haircut that replaces scenarios.</label></li>
+      <li><label><input type="radio" name="sc-w09-q3" value="b"> Treating Sandbox selection counts as probability weights.</label></li>
+      <li><label><input type="radio" name="sc-w09-q3" value="c"> Assuming aviation-noise hedonic coefficients transfer mechanically to HK drones.</label></li>
+      <li><label><input type="radio" name="sc-w09-q3" value="d"> Scenario tables with E[Π] = Σ Pr(s) Π<sub>s</sub> and Pr(Π &lt; 0); Monte Carlo cannot fix weak distributions.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 3; Study checklist 5–6, 10; <a href="formulas.qmd#w09-ev">Formulas · E[Π]</a>. No mechanical transfer of aviation-noise coefficients (Study checklist 10).</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w09-q4" data-correct="b">
+    <legend class="selfcheck-stem">4. Hedonic analysis in the classroom sketch…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w09-q4" value="a"> Proves causation from any noise coefficient β automatically.</label></li>
+      <li><label><input type="radio" name="sc-w09-q4" value="b"> Uses an illustrative ln(P<sub>i</sub>) specification; β is not automatic causation — fill access / exposure / opportunity / fiscal / public-service rows and name who pays for mitigation.</label></li>
+      <li><label><input type="radio" name="sc-w09-q4" value="c"> Replaces Cap. 448G.</label></li>
+      <li><label><input type="radio" name="sc-w09-q4" value="d"> Is identical to CASK.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 4–5; Study checklist 8–9, 12; <a href="formulas.qmd#w09-hedonic">Formulas · hedonic</a>.</div>
+  </fieldset>
+
+</div>
+```
+
+---
+
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (OHKF *Taking Flight* value-added projection; Clothier et al. on drone acceptance; Al Haddad et al. / Cohen et al. on adoption and market potential; EASA societal-acceptance study).  

@@ -918,6 +918,66 @@ The short checklist is in [Summary](#summary) above.
 
 ---
 
+
+---
+
+## Self-check {#self-check}
+
+Private practice after the Study checklist. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
+
+```{=html}
+<div class="selfcheck" id="selfcheck-w02" data-week="02">
+  <p class="selfcheck-intro">Four questions from Week 2 learning objectives, the Study checklist, and named formulas (HHI, ATC, density, Bertrand / co-opetition). Keep <strong>Sandbox ≠ Sandbox X</strong>; corridor policy / trial ≠ day-to-day operating service.</p>
+
+  <fieldset class="selfcheck-q" id="sc-w02-q1" data-correct="d">
+    <legend class="selfcheck-stem">1. Before talking about “competition in LAE,” these notes first ask you to…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w02-q1" value="a"> Treat all LAE services as one city-wide market with a single HHI.</label></li>
+      <li><label><input type="radio" name="sc-w02-q1" value="b"> Use Sandbox X module counts as market shares.</label></li>
+      <li><label><input type="radio" name="sc-w02-q1" value="c"> Assume Bertrand P = MC always holds when pads are scarce.</label></li>
+      <li><label><input type="radio" name="sc-w02-q1" value="d"> Define a <em>narrow</em> market (product + geography + customer + layer) — LAE is not one market structure.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 1; Study checklist 1–2; §2–3. Four segments (logistics, air taxis, inspection, EMS) have different competitive logics. HHI is a screen on a defined market, not a city-wide LAE score. Sandbox counts are programme facts, not shares.</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w02-q2" data-correct="c">
+    <legend class="selfcheck-stem">2. The Herfindahl–Hirschman Index (HHI) in Week 2 is…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w02-q2" value="a"> The sum of firms’ market shares (percent), used as a binding legal threshold in Cap. 448G.</label></li>
+      <li><label><input type="radio" name="sc-w02-q2" value="b"> Average total cost per flight when utilization rises.</label></li>
+      <li><label><input type="radio" name="sc-w02-q2" value="c"> HHI = Σ s<sub>i</sub><sup>2</sup> from market shares — a concentration <em>screen</em>, not proof of dominance or a Cap. 448G test.</label></li>
+      <li><label><input type="radio" name="sc-w02-q2" value="d"> The same identity as economies of scale from bigger vehicles.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Named formula <a href="formulas.qmd#w02-hhi">Formulas · Week 2 · HHI</a>; Study checklist 3; §4. Higher HHI means more uneven shares. It does not prove market power alone. ATC and density are separate tools (§§5–6).</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w02-q3" data-correct="a">
+    <legend class="selfcheck-stem">3. Economies of density (Week 2) mean…</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w02-q3" value="a"> Spreading fixed route / site cost over more volume on the <em>same</em> corridor and sites — not the same thing as bigger vehicles.</label></li>
+      <li><label><input type="radio" name="sc-w02-q3" value="b"> Lower average cost mainly by flying larger vehicles (economies of scale).</label></li>
+      <li><label><input type="radio" name="sc-w02-q3" value="c"> That scarce pads never affect Bertrand price wars.</label></li>
+      <li><label><input type="radio" name="sc-w02-q3" value="d"> That entering the first Regulatory Sandbox automatically creates density.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Learning objective 2; Study checklist 5; §6; <a href="formulas.qmd#w02-density">Formulas · density</a>. Contrast with scale. Scarce pads can soften Bertrand wars (Study checklist 8; §9). Sandbox entry ≠ density proof.</div>
+  </fieldset>
+
+  <fieldset class="selfcheck-q" id="sc-w02-q4" data-correct="c">
+    <legend class="selfcheck-stem">4. Which statement matches the Week 2 sandbox / corridor guards?</legend>
+    <ul class="selfcheck-options">
+      <li><label><input type="radio" name="sc-w02-q4" value="a"> First-batch “38 of 72” and Sandbox X’s “33 modules” are interchangeable market-share statistics.</label></li>
+      <li><label><input type="radio" name="sc-w02-q4" value="b"> Sandbox participation proves Hong Kong firms dominate the GBA market.</label></li>
+      <li><label><input type="radio" name="sc-w02-q4" value="c"> Keep <strong>Sandbox ≠ Sandbox X</strong>; cite 38 of 72 and Sandbox X 33 modules separately; policy / trial corridors are not day-to-day operating service.</label></li>
+      <li><label><input type="radio" name="sc-w02-q4" value="d"> U-space rules in Hong Kong statute set the HHI screen.</label></li>
+    </ul>
+    <div class="selfcheck-explain" hidden>Study checklist 10–11; §8 Absolute programme facts. Learning objective 5: complementary capabilities ≠ trial as proof of dominance. U-space ≠ Hong Kong law (standing course guard).</div>
+  </fieldset>
+
+</div>
+```
+
+---
+
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) on this page (Policy Address institutional map; Shenzhen statute / NDRC diffusion as GBA entry context; WEF actor landscape).  
