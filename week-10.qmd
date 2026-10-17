@@ -328,6 +328,37 @@ A carbon value can support investment appraisal. **Illustrative assumptions:** 5
 
 This is **not** a claim that CAD imposes such a tax. Emissions factors and boundaries must be sourced.
 
+```{=html}
+<figure class="wdiag" id="w10-carbon-cost-svg" aria-labelledby="w10-carbon-cost-svg-title">
+<p class="wdiag-cap" id="w10-carbon-cost-svg-title"><strong>Carbon cost · 40 kg → HK$2M / 10 kg → HK$0.5M</strong> — Classroom: <strong>50,000</strong> ops/year × HK$1/kg CO₂e. Higher intensity <strong>40 kg</strong>/op → 2,000,000 kg → annual cost <strong>HK$2M</strong>. Lower intensity <strong>10 kg</strong>/op → 500,000 kg → <strong>HK$0.5M</strong>. Appraisal dial only — <strong>not</strong> a claimed CAD tax. Source factors and boundaries. ≠ <code>#w10-carbon-dial-svg</code> (formula + placeholders). Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="b1-title b1-desc">
+  <title id="b1-title">Carbon cost scenarios: forty kilograms yields two million dollars; ten kilograms yields half a million</title>
+  <desc id="b1-desc">Classroom carbon appraisal at fifty thousand operations per year and one Hong Kong dollar per kilogram of CO2e. Higher intensity forty kilograms per operation yields two million kilograms and annual carbon cost Hong Kong dollars two million. Lower intensity ten kilograms per operation yields five hundred thousand kilograms and annual carbon cost Hong Kong dollars zero point five million. This is an appraisal dial, not a claimed CAD carbon tax. Source emissions factors and boundaries. Distinct from the carbon dial formula SVG. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Carbon cost · 40 kg → HK$2M / 10 kg → HK$0.5M</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">50,000 ops/yr × HK$1/kg CO₂e (classroom appraisal dial)</text>
+  <rect x="36" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Higher intensity</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">40 kg CO₂e / operation</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">50,000 × 40 = 2,000,000 kg</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Annual carbon cost</text>
+  <text x="191" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">HK$2M</text>
+  <rect x="374" y="68" width="310" height="190" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Lower intensity</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">10 kg CO₂e / operation</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">50,000 × 10 = 500,000 kg</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Annual carbon cost</text>
+  <text x="529" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">HK$0.5M</text>
+  <rect x="60" y="278" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="304" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Appraisal dial only — NOT a claimed CAD carbon tax</text>
+  <rect x="60" y="334" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w10-carbon-dial-svg (formula) · source factors · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 10 §4 carbon cost scenarios table. Classroom only. New SVG. Distinct from #w10-carbon-dial-svg (formula).</p>
+</figure>
+```
+
 **Connecting idea.** Treat the carbon value as an **appraisal dial** (like Week 8’s illustrative peak charge), not as an invented Hong Kong aviation carbon levy. If a real carbon price or reporting rule applies, cite the issuer.
 
 ```{=html}
@@ -453,6 +484,37 @@ Match units carefully. Include charging losses and relevant facility energy if t
 
 Electricity source matters — these figures alone do not establish whether the service outperforms another transport mode. Occupancy, distance, infrastructure, and life-cycle emissions also matter. Use current, sourced factors for an actual inventory.
 
+```{=html}
+<figure class="wdiag" id="w10-grid-eop-svg" aria-labelledby="w10-grid-eop-svg-title">
+<p class="wdiag-cap" id="w10-grid-eop-svg-title"><strong>Grid → e_op · 50 kWh × 0.8/0.2 → 40 / 10 kg</strong> — Classroom: <em>E</em><sub>kWh</sub>=<strong>50</strong>; <em>e</em><sub>op</sub>=<em>E</em>×<em>f</em><sub>grid</sub>. <em>f</em>=0.8 kg/kWh → <strong>40 kg</strong> CO₂e/op; <em>f</em>=0.2 → <strong>10 kg</strong>/op. Electricity source matters — not a mode comparison claim alone. Classroom kWh factors illustrative; source factors for real inventories. ≠ <code>#w10-ghg-svg</code> (scopes vs LCA). Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="b2-title b2-desc">
+  <title id="b2-title">Grid factor to operational emissions: fifty kilowatt-hours times zero point eight yields forty kilograms; times zero point two yields ten</title>
+  <desc id="b2-desc">Classroom electricity-related operational emissions. Energy per operation equals fifty kilowatt-hours. With grid factor zero point eight kilograms per kilowatt-hour, e_op equals forty kilograms CO2e per operation. With grid factor zero point two, e_op equals ten kilograms per operation. Electricity source matters; these figures alone do not establish whether the service outperforms another mode. Classroom kilowatt-hour factors are illustrative. Distinct from scopes versus LCA SVG. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Grid → e_op · 50 kWh × 0.8/0.2 → 40 / 10 kg</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">e_op = E_kWh × f_grid · classroom E = 50 kWh/op</text>
+  <rect x="60" y="68" width="600" height="44" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">E_kWh = 50  →  e_op = 50 × f_grid</text>
+  <rect x="36" y="128" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">f_grid = 0.8 kg/kWh</text>
+  <text x="191" y="184" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">50 × 0.8</text>
+  <text x="191" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">e_op</text>
+  <text x="191" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#003366">40 kg/op</text>
+  <rect x="374" y="128" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">f_grid = 0.2 kg/kWh</text>
+  <text x="529" y="184" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">50 × 0.2</text>
+  <text x="529" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">e_op</text>
+  <text x="529" y="248" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#003366">10 kg/op</text>
+  <rect x="60" y="298" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="324" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Electricity source matters — not a mode-win claim alone</text>
+  <rect x="60" y="352" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="372" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w10-ghg-svg (scopes vs LCA) · classroom kWh only · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 10 §5 Electricity-related (operational) emissions table. Classroom only. New SVG. Distinct from #w10-ghg-svg.</p>
+</figure>
+```
+
 ### Life-cycle emissions per functional unit
 
 - $E_{\mathrm{v}}, E_{\mathrm{b}}, E_{\mathrm{i}}, E_{\mathrm{o}}, E_{\mathrm{e}}$ — vehicle, battery, infrastructure, operations, and end-of-life emissions in the chosen boundary  
@@ -479,6 +541,39 @@ State lifetime, utilization, replacement cycles, occupancy or payload, system bo
 | **Total** | **52 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** | **22 kg $\mathrm{CO}_{2}\mathrm{e}$/operation** |
 
 Decarbonizing electricity reduces operational emissions; embodied emissions remain sensitive to lifetime use and replacement assumptions. Not a comparative claim about jets or sustainable aviation fuel.
+
+```{=html}
+<figure class="wdiag" id="w10-lca-total-svg" aria-labelledby="w10-lca-total-svg-title">
+<p class="wdiag-cap" id="w10-lca-total-svg-title"><strong>LCA total · 40+12=52 vs 10+12=22 kg/op</strong> — Classroom: electricity + allocated embodied <strong>12 kg</strong> (teaching allocation — not a published factor). Higher-carbon grid → <strong>52 kg</strong> CO₂e/operation; lower-carbon → <strong>22 kg</strong>/op. Grid decarbonizes ops; embodied stays sensitive to lifetime use. Not a jets/SAF comparison claim. Do <strong>not</strong> add Scope totals to an LCA total without a boundary map. ≠ <code>#w10-ghg-svg</code> (scopes vs LCA). Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="b5-title b5-desc">
+  <title id="b5-title">Life-cycle totals: forty plus twelve equals fifty-two kilograms versus ten plus twelve equals twenty-two kilograms per operation</title>
+  <desc id="b5-desc">Classroom life-cycle emissions per functional unit. Higher-carbon electricity: operational forty kilograms plus allocated embodied twelve kilograms equals fifty-two kilograms CO2e per operation. Lower-carbon electricity: ten plus twelve equals twenty-two kilograms per operation. Embodied allocation is a teaching screen, not a published factor. Decarbonizing electricity reduces operational emissions; embodied emissions remain sensitive to lifetime use and replacement. Not a comparative claim about jets or sustainable aviation fuel. Do not add Scope totals to an LCA total without a boundary map. Distinct from scopes versus LCA SVG. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">LCA total · 40+12=52 vs 10+12=22 kg/op</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Electricity + allocated embodied 12 kg (classroom allocation)</text>
+  <rect x="36" y="68" width="310" height="200" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Higher-carbon electricity</text>
+  <text x="191" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Electricity  40 kg</text>
+  <text x="191" y="146" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Embodied    12 kg</text>
+  <text x="191" y="170" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">─────────────</text>
+  <text x="191" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Total / operation</text>
+  <text x="191" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">52 kg</text>
+  <rect x="374" y="68" width="310" height="200" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Lower-carbon electricity</text>
+  <text x="529" y="122" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Electricity  10 kg</text>
+  <text x="529" y="146" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Embodied    12 kg</text>
+  <text x="529" y="170" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">─────────────</text>
+  <text x="529" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Total / operation</text>
+  <text x="529" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#003366">22 kg</text>
+  <rect x="60" y="288" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="314" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Grid decarbonizes ops; embodied stays sensitive to lifetime use</text>
+  <rect x="60" y="344" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="364" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w10-ghg-svg · no Scope+LCA add · not jets/SAF claim · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 10 §5 Life-cycle emissions per functional unit table. Classroom only. New SVG. Distinct from #w10-ghg-svg.</p>
+</figure>
+```
 
 **Connecting idea.** Do not add [Scope 1+2+3](glossary.qmd#ghg-scopes) totals to an LCA total without a boundary map — that is the GHG analogue of Week 9’s double-counted barrier haircuts.
 

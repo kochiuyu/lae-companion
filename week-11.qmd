@@ -491,6 +491,55 @@ Assessors may represent investors, operators, regulators, public agencies, custo
 
 A strong presentation answers all five without pretending that uncertainty has disappeared.
 
+```{=html}
+<figure class="wdiag" id="w11-lenses-svg" aria-labelledby="w11-lenses-svg-title">
+<p class="wdiag-cap" id="w11-lenses-svg-title"><strong>Five decision-maker lenses</strong> — Operational credibility (safe/reliable delivery) · Commercial viability (demand, contribution, cash, financing) · Regulatory feasibility (pathway specific to aircraft and operation) · Public value (benefits, costs, access, distribution) · Decision quality (uncertainty, alternatives, revision conditions). Answer all five without pretending uncertainty has disappeared. ≠ <code>#w11-pitch-svg</code> (12-minute spine) / <code>#w11-weak-strong-svg</code>. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 370" role="img" aria-labelledby="b4-title b4-desc">
+  <title id="b4-title">Five decision-maker lenses: operational credibility, commercial viability, regulatory feasibility, public value, and decision quality</title>
+  <desc id="b4-desc">Five decision-maker lenses from Week 11. Operational credibility asks whether the service can be delivered safely and reliably. Commercial viability asks whether demand, contribution, cash flow, and financing assumptions are credible. Regulatory feasibility asks whether the proposed pathway is specific to the aircraft and operation. Public value asks whether benefits, costs, access, and distribution are addressed. Decision quality asks whether the recommendation acknowledges uncertainty, alternatives, and conditions for revision. Assessors may represent investors, operators, regulators, public agencies, customers, or affected communities. Distinct from the twelve-minute pitch spine SVG. Sandbox is not Sandbox X. Do not invent corridor capacity.</desc>
+  <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Five decision-maker lenses</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Answer all five — uncertainty does not disappear</text>
+  <rect x="28" y="68" width="130" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="93" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Operational</text>
+  <text x="93" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">credibility</text>
+  <text x="93" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Safe and</text>
+  <text x="93" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">reliable</text>
+  <text x="93" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">delivery?</text>
+  <rect x="170" y="68" width="130" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="235" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Commercial</text>
+  <text x="235" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">viability</text>
+  <text x="235" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Demand,</text>
+  <text x="235" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">contrib, cash,</text>
+  <text x="235" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">financing?</text>
+  <rect x="312" y="68" width="130" height="150" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="377" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Regulatory</text>
+  <text x="377" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">feasibility</text>
+  <text x="377" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Pathway</text>
+  <text x="377" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">specific to</text>
+  <text x="377" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">A/C + ops?</text>
+  <rect x="454" y="68" width="130" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="519" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Public</text>
+  <text x="519" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">value</text>
+  <text x="519" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Benefits,</text>
+  <text x="519" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">costs, access,</text>
+  <text x="519" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">distribution?</text>
+  <rect x="596" y="68" width="96" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="644" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Decision</text>
+  <text x="644" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">quality</text>
+  <text x="644" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">Uncertainty,</text>
+  <text x="644" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">alts, revise</text>
+  <text x="644" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#1a1a1a">conditions?</text>
+  <rect x="60" y="238" width="600" height="44" rx="8" fill="#003366"/>
+  <text x="360" y="266" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Investors · operators · regulators · agencies · communities</text>
+  <rect x="60" y="300" width="600" height="40" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ #w11-pitch-svg (12-min spine) · Sandbox ≠ X · no invented K</text>
+</svg>
+
+<p class="wdiag-note">From Week 11 §5 decision-maker lenses table. Concept SVG. New. Distinct from #w11-pitch-svg and #w11-weak-strong-svg.</p>
+</figure>
+```
+
 ### A 12-minute decision pitch
 
 | Segment | Focus |

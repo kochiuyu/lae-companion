@@ -318,7 +318,7 @@ Full notes: [Week 8](week-08.qmd) · 10 figures.
 
 ## Week 9 — Sizing, uncertainty, and equity {#week-09}
 
-Full notes: [Week 9](week-09.qmd) · 10 figures.
+Full notes: [Week 9](week-09.qmd) · 11 figures.
 
 <a id="f09-two-lenses"></a>
 - [Profit is not social net benefit](week-09.qmd#w09-two-lenses)
@@ -331,6 +331,9 @@ Full notes: [Week 9](week-09.qmd) · 10 figures.
 
 <a id="f09-channels"></a>
 - [One constraint → one model channel](week-09.qmd#w09-channels-svg)
+
+<a id="f09-accept-k"></a>
+- [Accept 90% → 270 but K=256 binds → HK$33.8M](week-09.qmd#w09-accept-k-svg)
 
 <a id="f09-uncertainty"></a>
 - [Uncertainty — scenarios and expected value](week-09.qmd#w09-uncertainty-svg)
@@ -352,7 +355,7 @@ Full notes: [Week 9](week-09.qmd) · 10 figures.
 
 ## Week 10 — Externalities and sustainability {#week-10}
 
-Full notes: [Week 10](week-10.qmd) · 9 figures.
+Full notes: [Week 10](week-10.qmd) · 12 figures.
 
 <a id="f10-ext"></a>
 - [Measure the impact, then pick instruments](week-10.qmd#w10-ext-svg)
@@ -363,11 +366,20 @@ Full notes: [Week 10](week-10.qmd) · 9 figures.
 <a id="f10-privacy"></a>
 - [Purpose → minimize → privacy-control cost](week-10.qmd#w10-privacy-svg)
 
+<a id="f10-carbon-cost"></a>
+- [Carbon cost · 40 kg → HK$2M / 10 kg → HK$0.5M](week-10.qmd#w10-carbon-cost-svg)
+
 <a id="f10-carbon-dial"></a>
 - [Carbon value is an appraisal dial](week-10.qmd#w10-carbon-dial-svg)
 
+<a id="f10-grid-eop"></a>
+- [Grid → e_op · 50 kWh × 0.8/0.2 → 40 / 10 kg](week-10.qmd#w10-grid-eop-svg)
+
 <a id="f10-ghg"></a>
 - [Scopes vs LCA — different questions](week-10.qmd#w10-ghg-svg)
+
+<a id="f10-lca-total"></a>
+- [LCA total · 52 vs 22 kg/op](week-10.qmd#w10-lca-total-svg)
 
 <a id="f10-accept-usecase"></a>
 - [Use-case acceptance ≠ traveller share $s$](week-10.qmd#w10-accept-usecase-svg)
@@ -383,7 +395,7 @@ Full notes: [Week 10](week-10.qmd) · 9 figures.
 
 ## Week 11 — Synthesis and recommendation {#week-11}
 
-Full notes: [Week 11](week-11.qmd) · 8 figures.
+Full notes: [Week 11](week-11.qmd) · 9 figures.
 
 <a id="f11-integrate"></a>
 - [One model path — integration](week-11.qmd#w11-integrate-svg)
@@ -405,6 +417,9 @@ Full notes: [Week 11](week-11.qmd) · 8 figures.
 
 <a id="f11-weak-strong"></a>
 - [Weak vs strong evidence](week-11.qmd#w11-weak-strong-svg)
+
+<a id="f11-lenses"></a>
+- [Five decision-maker lenses](week-11.qmd#w11-lenses-svg)
 
 <a id="f11-pitch"></a>
 - [12-minute pitch → conditional recommend](week-11.qmd#w11-pitch-svg)
