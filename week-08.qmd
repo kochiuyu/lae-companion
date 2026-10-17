@@ -384,6 +384,45 @@ Shared data does **not** automatically make a system safer — data quality, lat
 
 **Connecting idea.** Network effects can lock in a coordination platform the way Week 2 density locked in pad advantage. Interoperability standards and open interfaces are therefore competition policy as well as engineering — not only “IT efficiency.”
 
+```{=html}
+<figure class="wdiag" id="w08-network-svg" aria-labelledby="w08-network-svg-title">
+<p class="wdiag-cap" id="w08-network-svg-title"><strong>Network effects — value ↑ and load ↑</strong> — more compatible users can improve route planning, conflict detection, and coordination <strong>and</strong> raise congestion, cybersecurity exposure, monitoring, and complexity. Shared data ≠ automatic safety (quality, latency, coverage, governance, operational use). Distinct from Week 12 links≠viable. No invented corridor <em>K</em>. U-space ≠ HK law. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r4-title r4-desc">
+  <title id="r4-title">Network effects raise value and congestion; shared data is not automatic safety</title>
+  <desc id="r4-desc">More compatible users can raise network value and also raise congestion, cybersecurity exposure, monitoring needs, and complexity. Shared data does not automatically make a system safer — data quality, latency, coverage, governance, and operational use matter. Do not invent corridor capacity. U-space is not Hong Kong law. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Network effects · value ↑ and load ↑</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Compatible users · shared info · not auto-safety</text>
+  <rect x="28" y="68" width="320" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="188" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Can raise value</text>
+  <text x="188" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Route planning · conflict detect</text>
+  <text x="188" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Situational awareness · coordination</text>
+  <text x="188" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Common interfaces help</text>
+  <rect x="372" y="68" width="320" height="100" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="532" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Also raise load</text>
+  <text x="532" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Congestion · cyber exposure</text>
+  <text x="532" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Monitoring · system complexity</text>
+  <text x="532" y="156" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Lock-in risk if poor standard</text>
+  <rect x="60" y="188" width="600" height="48" rx="8" fill="#003366"/>
+  <text x="360" y="218" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Shared data ≠ automatic safety</text>
+  <rect x="28" y="252" width="210" height="48" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="133" y="272" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Quality · latency</text>
+  <text x="133" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Coverage · use</text>
+  <rect x="255" y="252" width="210" height="48" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="272" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Governance</text>
+  <text x="360" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Liability · access</text>
+  <rect x="482" y="252" width="210" height="48" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="587" y="272" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ scale alone</text>
+  <text x="587" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Standards ≠ free</text>
+  <rect x="60" y="316" width="600" height="22" rx="6" fill="#ffffff" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="360" y="331" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">No invented corridor K · U-space ≠ HK law · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 8 §5. Conceptual only · no invented corridor K. New SVG.</p>
+</figure>
+```
+
+
 ---
 
 Network value needs working pipes. **Digital coordination and interoperability** cover data, spectrum, and cross-boundary access — with absolute OFCA / Sandbox facts kept distinct from U-space.

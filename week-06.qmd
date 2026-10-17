@@ -500,6 +500,37 @@ Operator ticket cost still needs aircraft, staff, load factor, and contract data
 
 **Connecting idea.** Unit-cost savings from sharing evaporate if the co-opetition agreement lets the pad owner favour its own airline affiliate at peak (Week 2 limit-pricing / discrimination logic). Write access, priority, and information-firewall rules before celebrating the HK$500 line.
 
+```{=html}
+<figure class="wdiag" id="w06-facility-svg" aria-labelledby="w06-facility-svg-title">
+<p class="wdiag-cap" id="w06-facility-svg-title"><strong>Shared facility $/move — 50→100: HK$900→HK$500</strong> — fixed/M + variable. Classroom: fixed <strong>HK$40,000</strong>/day; variable <strong>HK$100</strong>/movement. At <strong>50</strong> moves: <strong>HK$900</strong>/move; at <strong>100</strong> shared: <strong>HK$500</strong>/move (~44% lower). Facility cost ≠ operator ticket. Movements ≠ seats. Write access / priority / information-firewall rules before celebrating the HK$500 line. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r3-title r3-desc">
+  <title id="r3-title">Shared facility cost per movement: HK$900 at 50 moves falls to HK$500 at 100</title>
+  <desc id="r3-desc">Shared facility cost per movement equals fixed facility cost over total movements plus variable cost per movement. Classroom: fixed Hong Kong dollar 40 thousand per day and variable 100 per movement. At 50 movements: 900 per movement. At 100 shared movements: 500 per movement, about 44 percent lower. Movements are not seats. Sharing is not free access — write access and priority rules first. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Shared $/move · 50→100: HK$900→HK$500</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Fixed/M + variable · facility cost ≠ operator ticket</text>
+  <rect x="60" y="68" width="600" height="32" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="89" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Fixed HK$40,000/day · variable HK$100/movement</text>
+  <rect x="36" y="114" width="310" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">50 movements/day</text>
+  <text x="191" y="166" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Fixed HK$800 + var HK$100</text>
+  <text x="191" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$900/move</text>
+  <rect x="374" y="114" width="310" height="120" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">100 shared moves/day</text>
+  <text x="529" y="166" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Fixed HK$400 + var HK$100</text>
+  <text x="529" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$500/move</text>
+  <text x="529" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">~44% lower unit cost</text>
+  <rect x="60" y="254" width="600" height="36" rx="8" fill="#003366"/>
+  <text x="360" y="278" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Write access / priority / firewall before celebrating HK$500</text>
+  <rect x="60" y="306" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="325" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Movements ≠ seats · sharing ≠ free access · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 6 §6. Classroom fixed HK$40k · var HK$100 · 50→HK$900 · 100→HK$500 only. New SVG.</p>
+</figure>
+```
+
+
 ---
 
 Facility math is local. **Institutional comparators** show how other places organise partnerships and access — still not Hong Kong law.
@@ -536,6 +567,48 @@ When negotiating (classroom exercise style), map at least:
 **Principle:** allocate each risk to the party best able to **control, absorb, mitigate, or insure** it — and price the transfer. Do not dump all risk on government or on the operator by default.
 
 A practical risk map for LAE term sheets often includes: demand / volume; weather and downtime; site access and slots; safety and liability; regulatory / change-in-law; charging and energy; data and cybersecurity; financing and FX. For each row, name the owner, the KPI or relief trigger, and the price of the transfer.
+
+```{=html}
+<figure class="wdiag" id="w06-termsheet-svg" aria-labelledby="w06-termsheet-svg-title">
+<p class="wdiag-cap" id="w06-termsheet-svg-title"><strong>Term-sheet — risk → best party + price</strong> — allocate each risk to who can control, absorb, mitigate, or insure it — and <strong>price</strong> the transfer. Public typically wants reliable mission / VfM / strong KPIs; operator wants clear scope / bankable cash / controllable targets. For each row (demand, weather, safety, regulatory…): name owner, KPI/relief, price. Do not dump all risk on government or operator by default. Term sheet ≠ Cap. 448G permission. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s1-title s1-desc">
+  <title id="s1-title">Term-sheet: allocate each risk to the best party and price the transfer</title>
+  <desc id="s1-desc">Allocate each risk to the party best able to control, absorb, mitigate, or insure it — and price the transfer. Public authority typically wants reliable mission outcomes, value for money, strong KPIs, and flexibility. Operator typically wants clear scope, bankable cash flow, controllable targets, and priced risk. A term sheet is not Cap. 448G permission. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Term-sheet · risk → best party + price</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Control · absorb · mitigate · insure — then price transfer</text>
+  <rect x="28" y="68" width="320" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="188" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Public authority wants</text>
+  <text x="188" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Reliable mission · VfM · budget</text>
+  <text x="188" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Strong KPIs · adapt service</text>
+  <text x="188" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Transfer where value improves</text>
+  <rect x="372" y="68" width="320" height="100" rx="8" fill="#003366"/>
+  <text x="532" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Operator wants</text>
+  <text x="532" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#F7F6F3">Clear scope · bankable cash</text>
+  <text x="532" y="136" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#F7F6F3">Controllable KPIs · fair relief</text>
+  <text x="532" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#C5A572">Accept only priced risk</text>
+  <rect x="28" y="184" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="105" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Demand / volume</text>
+  <text x="105" y="226" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Owner · KPI · $</text>
+  <rect x="198" y="184" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Weather / downtime</text>
+  <text x="275" y="226" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Owner · KPI · $</text>
+  <rect x="368" y="184" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Safety / liability</text>
+  <text x="445" y="226" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Owner · KPI · $</text>
+  <rect x="538" y="184" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="615" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Regulatory / law</text>
+  <text x="615" y="226" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Owner · KPI · $</text>
+  <rect x="60" y="260" width="600" height="36" rx="8" fill="#003366"/>
+  <text x="360" y="284" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Do not dump all risk on government or operator by default</text>
+  <rect x="60" y="310" width="600" height="26" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="328" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Term sheet ≠ Cap. 448G permission · Sandbox ≠ Sandbox X</text>
+</svg>
+
+<p class="wdiag-note">From Week 6 §8. Term sheet ≠ Cap. 448G permission. New SVG.</p>
+</figure>
+```
+
 
 ---
 
