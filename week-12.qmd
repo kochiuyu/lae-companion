@@ -267,6 +267,37 @@ Better evidence may support underwriting and risk management; premium reductions
 
 **Connecting idea.** An “insurance saving” that never appears in $\mathrm{CF}_{t}$ is theatre. Put evidence cost and any credible premium change in the same cash-flow path you used for Week 8 roadmap $\mathrm{NPV}$.
 
+```{=html}
+<figure class="wdiag" id="w12-risk-evidence-svg" aria-labelledby="w12-risk-evidence-svg-title">
+<p class="wdiag-cap" id="w12-risk-evidence-svg-title"><strong>Risk evidence · put $ in the same CF path</strong> — Classroom: annual premium without project-specific evidence <strong>HK$12.5M</strong>. Improved risk case: premium <strong>HK$9M</strong> + evidence/control <strong>HK$3M</strong> → total <strong>HK$12M</strong> → first-year save <strong>HK$0.5M</strong>. Premium reductions are <strong>not</strong> automatic. Put evidence cost and any credible premium change in the same cash-flow path (Week 8 roadmap NPV). Not an insurance quotation or a measured Sandbox X effect. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x3-title x3-desc">
+  <title id="x3-title">Better risk evidence: premium twelve point five million versus nine million plus three million evidence cost saves zero point five million in year one</title>
+  <desc id="x3-desc">Illustrative risk evidence. No demonstrated improvement: premium twelve point five million Hong Kong dollars, evidence cost zero, total twelve point five million. Improved risk case: premium nine million plus evidence and control cost three million equals total twelve million, first-year saving zero point five million. Premium reductions are not automatic. Not an insurance quotation or measured Sandbox X effect. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Risk evidence · put $ in the same CF path</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Premium cuts are not automatic (classroom)</text>
+  <rect x="36" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">No demonstrated improvement</text>
+  <text x="191" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Premium HK$12.5M</text>
+  <text x="191" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Evidence / control HK$0</text>
+  <text x="191" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Total Y1</text>
+  <text x="191" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$12.5M</text>
+  <rect x="374" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Improved risk case</text>
+  <text x="529" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Premium HK$9M (illustrative)</text>
+  <text x="529" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Evidence / control HK$3M</text>
+  <text x="529" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Total Y1</text>
+  <text x="529" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$12M</text>
+  <rect x="60" y="238" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="264" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">First-year save HK$0.5M · evidence cost + premium in same CF</text>
+  <rect x="60" y="296" width="600" height="36" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ insurance quote · ≠ measured Sandbox X · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 12 §3 Value of better risk evidence (illustrative). Classroom only. New SVG.</p>
+</figure>
+```
+
 ---
 
 Digital layers are general. **Hong Kong service roles** (including leasing and supporting services) ask where local capability might sit — sized with Week 9’s funnel, not OHKF totals as bookings.
@@ -356,6 +387,37 @@ Depreciation is an accounting allocation; residual value and cash expenditures b
 | Result | Shortfall HK\$50k before other costs; bears demand/operating risk | Cash flow HK\$150k before credit loss; **default puts receipt and asset value at risk** |
 
 Leasing **reallocates** risks between parties; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual value, and recovery cost in this classroom screen.
+
+```{=html}
+<figure class="wdiag" id="w12-leasing-svg" aria-labelledby="w12-leasing-svg-title">
+<p class="wdiag-cap" id="w12-leasing-svg-title"><strong>Lease HK$300k · risk reallocates ≠ vanishes</strong> — Classroom monthly: operator revenue after disruption <strong>HK$250k</strong> vs lease <strong>HK$300k</strong> → shortfall <strong>HK$50k</strong> (bears demand/operating risk). Lessor receipt 300k − financing/asset-management <strong>HK$150k</strong> → CF <strong>HK$150k</strong> before credit loss; <strong>default puts receipt and asset value at risk</strong>. Leasing reallocates risks; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual, recovery in this screen. OHKF HK$350bn = value-added projection only. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x4-title x4-desc">
+  <title id="x4-title">Leasing reallocates risk: operator shortfall fifty thousand; lessor cash flow one hundred fifty thousand before credit loss</title>
+  <desc id="x4-desc">Illustrative monthly lease three hundred thousand Hong Kong dollars. Operator revenue after disruption two hundred fifty thousand against lease three hundred thousand yields shortfall fifty thousand and bears demand and operating risk. Lessor contractual receipt three hundred thousand minus financing and asset-management one hundred fifty thousand yields cash flow one hundred fifty thousand before credit loss; default puts receipt and asset value at risk. Leasing reallocates risk; it does not vanish. OHKF three hundred fifty billion is value-added projection only. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Lease HK$300k · risk reallocates ≠ vanishes</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Illustrative monthly scenario (classroom)</text>
+  <rect x="36" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Operator</text>
+  <text x="191" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Revenue after disruption HK$250k</text>
+  <text x="191" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Lease payment HK$300k</text>
+  <text x="191" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Shortfall (before other costs)</text>
+  <text x="191" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$50k</text>
+  <rect x="374" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Lessor</text>
+  <text x="529" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Contractual receipt HK$300k</text>
+  <text x="529" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Financing / asset-mgmt HK$150k</text>
+  <text x="529" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">CF before credit loss</text>
+  <text x="529" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$150k</text>
+  <rect x="60" y="238" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="264" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Default puts receipt AND asset value at risk</text>
+  <rect x="60" y="296" width="600" height="36" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">OHKF HK$350bn = VA only · Sandbox ≠ X · ≠ risk-free margin</text>
+</svg>
+
+<p class="wdiag-note">From Week 12 §4 Leasing appraisal + illustrative monthly scenario. New SVG. Distinct from #w12-hk-roles-svg.</p>
+</figure>
+```
 
 ### From local evidence to transferable capability
 

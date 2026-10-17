@@ -229,6 +229,37 @@ The capacity shock reduces served activity even though customer demand is unchan
 
 **Connecting idea.** Raising marketing spend to lift $D$ does nothing when $K$ binds — the same diagnosis Week 9 used when $D_{\mathrm{pot}} > K$. In the pitch, say which lever is binding before you “solve” the wrong constraint.
 
+```{=html}
+<figure class="wdiag" id="w11-cap-shock-svg" aria-labelledby="w11-cap-shock-svg-title">
+<p class="wdiag-cap" id="w11-cap-shock-svg-title"><strong>Capacity shock · K binds → Π → 0</strong> — Classroom: <em>D</em>=100 flights/day; <em>p</em>=600; <em>v</em>=100; <em>F</em>=HK$40,000/day. Base <em>K</em>=100 → min{100,100}=100 → Π = <strong>HK$10,000/day</strong>. Shock <em>K</em>=80 → min{100,80}=80 → Π = <strong>HK$0/day</strong>. Same demand; fixed cost remains. Raising marketing to lift <em>D</em> does nothing when <em>K</em> binds. Illustrative — not Hong Kong weather downtime. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x1-title x1-desc">
+  <title id="x1-title">Capacity shock: operating profit ten thousand per day falls to zero when reliable capacity eighty binds</title>
+  <desc id="x1-desc">Classroom capacity shock. Demand one hundred flights per day, price six hundred, variable cost one hundred, fixed cost forty thousand per day. Base case served one hundred and operating profit ten thousand Hong Kong dollars per day. When reliable capacity falls to eighty, served is eighty and operating profit is zero per day. Same demand; K binds. Illustrative — not Hong Kong weather downtime. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Capacity shock · K binds → Π → 0</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">D=100 · p=600 · v=100 · F=40,000/day (classroom)</text>
+  <rect x="36" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Base case (K=100)</text>
+  <text x="191" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">min{100,100} = 100 served</text>
+  <text x="191" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">(600−100)×100 − 40,000</text>
+  <text x="191" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Operating profit</text>
+  <text x="191" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$10,000/day</text>
+  <rect x="374" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Shock (K=80)</text>
+  <text x="529" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">min{100,80} = 80 served</text>
+  <text x="529" y="140" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">(600−100)×80 − 40,000</text>
+  <text x="529" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Operating profit</text>
+  <text x="529" y="192" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$0/day</text>
+  <rect x="60" y="238" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="264" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Same D · K binds · lifting D (marketing) does nothing</text>
+  <rect x="60" y="296" width="600" height="36" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ HK weather downtime · Sandbox ≠ X · no invented corridor K</text>
+</svg>
+
+<p class="wdiag-note">From Week 11 §2 worked illustration (capacity shock). Classroom only. New SVG. Pairs with #w11-viable-svg.</p>
+</figure>
+```
+
 ---
 
 Viability rivets need a storyboard. The **integrated strategy template** gives six blocks — and an illustrative airport-corridor screen — so the pitch is a model, not a collage.
@@ -441,6 +472,49 @@ Use formulas only where they clarify the decision. The objective is a **defensib
 A strong analysis can still recommend **rejection or delay**. Credibility matters more than producing a favourable answer.
 
 **Connecting idea.** “HK\$350bn” (OHKF value-added projection from Week 9) is **not** your obtainable demand. “Electric” (Week 10) is **not** zero life-cycle emissions. Name the channel; refuse category errors in the pitch.
+
+```{=html}
+<figure class="wdiag" id="w11-weak-strong-svg" aria-labelledby="w11-weak-strong-svg-title">
+<p class="wdiag-cap" id="w11-weak-strong-svg-title"><strong>Weak vs strong evidence</strong> — Five contrasts from the live table: market size as forecast vs defined market + alternative; mixed units vs <em>D</em> checked against reliable <em>K</em>; repeated % haircuts vs one constraint → one channel; expected profit alone vs NPV / Pr(loss) / cash need; assumed approval-acceptance-insurance vs stated evidence, limitations, and gates. A strong analysis can still recommend <strong>rejection or delay</strong>. OHKF HK$350bn ≠ obtainable demand; electric ≠ zero life-cycle emissions. Sandbox ≠ Sandbox X. U-space ≠ HK law.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="x2-title x2-desc">
+  <title id="x2-title">Weak versus strong evidence — five contrasts; reject or delay can be strong</title>
+  <desc id="x2-desc">Five weak-to-strong evidence contrasts: market size versus defined market and alternative; unit confusion versus demand checked against capacity; repeated haircuts versus one-channel mapping; expected profit alone versus NPV loss probability and cash need; assumed approval versus stated evidence limitations and gates. A strong analysis can still recommend rejection or delay. OHKF three hundred fifty billion is not obtainable demand. Electric is not zero life-cycle emissions. Sandbox is not Sandbox X. U-space is not Hong Kong law.</desc>
+  <rect x="12" y="12" width="696" height="396" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Weak vs strong evidence</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Credibility &gt; favourable answer · reject/delay can be strong</text>
+  <rect x="28" y="62" width="320" height="28" rx="4" fill="#003366"/>
+  <text x="188" y="81" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Weak case</text>
+  <rect x="372" y="62" width="320" height="28" rx="4" fill="#003366"/>
+  <text x="532" y="81" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Strong case</text>
+  <rect x="28" y="100" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="188" y="123" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Market size as forecast D</text>
+  <rect x="372" y="100" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="532" y="123" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Define market + competing alt</text>
+  <rect x="28" y="142" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="188" y="165" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Trips / flights / seats mixed</text>
+  <rect x="372" y="142" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="532" y="165" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Check D against reliable K</text>
+  <rect x="28" y="184" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="188" y="207" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Repeated % haircuts</text>
+  <rect x="372" y="184" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="532" y="207" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">One constraint → one channel</text>
+  <rect x="28" y="226" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="188" y="249" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">E[Π] without downside</text>
+  <rect x="372" y="226" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="532" y="249" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">NPV · Pr(loss) · cash need</text>
+  <rect x="28" y="268" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="188" y="291" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Assumes approval / insurance</text>
+  <rect x="372" y="268" width="320" height="36" rx="6" fill="#F7F6F3" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="532" y="291" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Evidence · limits · gates</text>
+  <rect x="60" y="318" width="600" height="36" rx="8" fill="#003366"/>
+  <text x="360" y="342" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">OHKF HK$350bn ≠ obtainable D · electric ≠ zero LC</text>
+  <rect x="60" y="364" width="600" height="32" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="386" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · U-space ≠ HK law · reject/delay can be strong</text>
+</svg>
+
+<p class="wdiag-note">From Week 11 §5 Weak vs strong evidence table (5 rows). New SVG. Distinct from #w11-pitch-svg (spine).</p>
+</figure>
+```
 
 ```{=html}
 <figure class="wdiag" id="w11-pitch-svg" aria-labelledby="w11-pitch-svg-title">
