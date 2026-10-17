@@ -259,6 +259,39 @@ A trial can reveal whether routes, communications, infrastructure, procedures, a
 
 Value depends on whether the trial is **informative**. These are not official Sandbox X costs or timelines.
 
+```{=html}
+<figure class="wdiag" id="w07-trial-value-svg" aria-labelledby="w07-trial-value-svg-title">
+<p class="wdiag-cap" id="w07-trial-value-svg-title"><strong>Trial HK$5M vs 40%×HK$20M → net avoided HK$3M</strong> — Classroom: controlled trial costs <strong>HK$5M</strong>; without a trial, <strong>40%</strong> chance a <strong>HK$20M</strong> redesign is discovered after investment → expected redesign <strong>HK$8M</strong>. Informative trial finds the issue before scale-up → illustrative net avoided cost <strong>HK$3M</strong>. Trial value = learning before scale-up — not early monopoly. Not official Sandbox X costs or timelines. Sandbox ≠ Sandbox X. AC-013 ≠ AC-017. U-space ≠ HK law.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="y4-title y4-desc">
+  <title id="y4-title">Trial value: five million trial versus forty percent times twenty million redesign yields illustrative net avoided three million</title>
+  <desc id="y4-desc">Classroom controlled trial value. Trial costs five million Hong Kong dollars. Without a trial, forty percent chance a twenty million redesign is discovered after investment, expected redesign eight million. With an informative trial that finds the issue before full investment, illustrative net avoided cost is three million. Trial value is learning before scale-up, not early monopoly. Not official Sandbox X costs or timelines. Sandbox is not Sandbox X. AC-013 is not AC-017. U-space is not Hong Kong law.</desc>
+  <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Trial HK$5M vs 40%×HK$20M → net avoided HK$3M</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Illustrative · informative trial only (classroom)</text>
+  <rect x="36" y="68" width="310" height="170" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">No early trial</text>
+  <text x="191" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">40% × HK$20M redesign</text>
+  <text x="191" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">discovered after investment</text>
+  <text x="191" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Expected redesign</text>
+  <text x="191" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$8M</text>
+  <text x="191" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Information after larger commitment</text>
+  <rect x="374" y="68" width="310" height="170" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Controlled trial</text>
+  <text x="529" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Trial cost HK$5M</text>
+  <text x="529" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Issue found before scale-up</text>
+  <text x="529" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Illustrative net avoided</text>
+  <text x="529" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$3M</text>
+  <text x="529" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Information before scale-up</text>
+  <rect x="60" y="258" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="284" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Trial value = learning before scale-up — not early monopoly</text>
+  <rect x="60" y="316" width="600" height="44" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="344" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">≠ official Sandbox X costs/timelines · Sandbox ≠ X · AC-013 ≠ AC-017 · U-space ≠ HK law</text>
+</svg>
+
+<p class="wdiag-note">From Week 7 §3 Value of a controlled trial. Classroom only. New SVG. Distinct from #w07-readiness-svg (lead months).</p>
+</figure>
+```
+
 ---
 
 Sandbox learning is controlled. **BVLOS and advanced operations** raise the permission bar — and AC-013 vs AC-017 must not be merged into one “drone approval.”

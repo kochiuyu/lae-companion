@@ -269,6 +269,52 @@ Fixed cost and investment remain to be covered. Excludes financing, tax, and dem
 
 **Connecting idea.** If $K$ binds, raising marketing spend to lift $s$ does not raise $D_{\mathrm{served}}$. Diagnose whether the binding constraint is eligibility, choice, or capacity before spending on the wrong lever — the same bottleneck logic Week 5 and Week 8 used for pads and corridors.
 
+```{=html}
+<figure class="wdiag" id="w09-funnel-contrib-svg" aria-labelledby="w09-funnel-contrib-svg-title">
+<p class="wdiag-cap" id="w09-funnel-contrib-svg-title"><strong>Funnel → served 256/day → contrib ≈ HK$23.7M/yr</strong> — Classroom (not current corridor data): relevant trips 20,000/day → 10% eligible → <em>SAM</em>=2,000 → 15% share → <em>D</em>_pot=<strong>300</strong>; reliable capacity 80×4×80%=<strong>256</strong> → served min{300,256}=<strong>256</strong>. Fare HK$400; <em>v</em>=HK$120; 330 days → daily contribution <strong>HK$71,680</strong> ≈ annual <strong>HK$23.7M</strong>. If <em>K</em> binds, marketing to lift <em>s</em> does not raise <em>D</em>_served. OHKF <strong>HK$350bn</strong> = think-tank value-added projection only — not SOM / operator revenue. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="y5-title y5-desc">
+  <title id="y5-title">Funnel to contribution: served two hundred fifty-six passenger-trips per day yields about twenty-three point seven million contribution per year</title>
+  <desc id="y5-desc">Classroom funnel to contribution. Relevant trips twenty thousand per day; eligible ten percent gives SAM two thousand; choice share fifteen percent gives potential demand three hundred; reliable capacity two hundred fifty-six; served min of three hundred and two hundred fifty-six equals two hundred fifty-six. Fare four hundred, variable cost one hundred twenty, three hundred thirty operating days. Daily contribution seventy-one thousand six hundred eighty; annual about twenty-three point seven million Hong Kong dollars. If K binds, marketing to lift share does not raise served demand. OHKF three hundred fifty billion is value-added projection only, not SOM. Classroom only. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
+  <rect x="12" y="12" width="696" height="396" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Funnel → served 256/day → contrib ≈ HK$23.7M/yr</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">fare 400 · v 120 · 330 days (classroom · not current corridor data)</text>
+  <rect x="28" y="68" width="130" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="93" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Trips</text>
+  <text x="93" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">20,000</text>
+  <text x="93" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">/day</text>
+  <text x="168" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="182" y="68" width="130" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="247" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">SAM</text>
+  <text x="247" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">2,000</text>
+  <text x="247" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">10% eligible</text>
+  <text x="322" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="336" y="68" width="130" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="401" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">D_pot</text>
+  <text x="401" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">300</text>
+  <text x="401" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">×15% share</text>
+  <text x="476" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+  <rect x="490" y="68" width="202" height="88" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="591" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">D_served</text>
+  <text x="591" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">256</text>
+  <text x="591" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">min{300, K=256}</text>
+  <rect x="36" y="174" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Daily contribution</text>
+  <text x="191" y="224" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">(400−120)×256</text>
+  <text x="191" y="252" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">HK$71,680</text>
+  <rect x="374" y="174" width="310" height="100" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="529" y="200" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Annual (≈330 days)</text>
+  <text x="529" y="224" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">71,680 × 330</text>
+  <text x="529" y="252" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#003366">≈ HK$23.7M</text>
+  <rect x="60" y="292" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="318" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">If K binds, marketing to lift s does not raise D_served — diagnose the lever</text>
+  <rect x="60" y="348" width="600" height="40" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="374" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">OHKF HK$350bn = VA only ≠ SOM · no invented corridor K · Sandbox ≠ X</text>
+</svg>
+
+<p class="wdiag-note">From Week 9 §2 worked illustration (funnel → contribution). Classroom only. New SVG. Pairs with #w09-funnel-svg (TAM→D_served symbols only).</p>
+</figure>
+```
+
 ---
 
 Funnels invite laundry-list barriers. **UAM market-study constraints** must map to one model channel each — no double-counted haircuts on the same demand.
