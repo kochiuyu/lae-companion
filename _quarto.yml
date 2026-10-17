@@ -26,9 +26,6 @@ project:
     - week-10.qmd
     - week-11.qmd
     - week-12.qmd
-    - weeks.qmd
-    - lectures.qmd
-    - notes-w1.qmd
     - formulas.qmd
     - tables.qmd
     - figures.qmd
@@ -63,7 +60,7 @@ website:
           - href: faq.qmd
             text: Common questions
           - href: key-figures.qmd
-            text: Key figures
+            text: Key numbers
       - text: Teach
         menu:
           - href: week-01.qmd

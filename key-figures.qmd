@@ -1,5 +1,5 @@
 ---
-title: "Key figures"
+title: "Key numbers"
 subtitle: "Short sourced numbers for newcomers"
 as_of: "2026-10-11"
 page-layout: article

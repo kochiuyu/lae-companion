@@ -12,7 +12,7 @@ Site for a 12-week low-altitude economy course — one page per week with notes,
 ::: {.hub-card}
 ## Orient
 
-Week map, primers, how the business works, FAQ, key figures, and how to use this site.
+Week map, primers, how the business works, FAQ, key numbers, and how to use this site.
 
 - [Course overview](overview.qmd)
 - [What is LAE?](primer.qmd)
@@ -20,7 +20,7 @@ Week map, primers, how the business works, FAQ, key figures, and how to use this
 - [Who decides what?](regulators.qmd)
 - [How to use this site](howto.qmd)
 - [Common questions](faq.qmd)
-- [Key figures](key-figures.qmd)
+- [Key numbers](key-figures.qmd)
 :::
 
 ::: {.hub-card}
