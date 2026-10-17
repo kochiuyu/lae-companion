@@ -905,7 +905,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 3
 
-Week 3 turns to **cost structures and revenue management**: separating CAPEX, fixed OPEX, and variable cost; unit measures such as CASK; breakeven; and how weather and downtime reshape risk.
+Week 3 turns to **cost structures and revenue management**. We separate CAPEX, fixed OPEX, and variable cost; use unit measures such as CASK; find breakeven; and see how weather and downtime change risk.
 
 **Preview question:** how do you keep a business from failing when a multi-day storm grounds the fleet?
 

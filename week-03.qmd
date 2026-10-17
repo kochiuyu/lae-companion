@@ -994,7 +994,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 4
 
-Week 4 turns to **demand modeling in urban air mobility**: whether customers would actually choose an LAE option, funnels from potential trips to constrained capacity, willingness to pay and generalized cost, and treating public acceptance as explicit scenarios. Preview question: once you know what you must charge to survive, how do you show that customers might pay it?
+Week 4 turns to **demand modeling in urban air mobility**. Will customers actually choose an LAE option? We move from potential trips to capacity-limited demand, willingness to pay, and generalized cost — and treat public acceptance as explicit scenarios.
+
+**Preview question:** once you know what you must charge to survive, how do you show that customers might pay it?
 
 Continue: [Week 4](week-04.qmd) · [Course overview](overview.qmd).
 

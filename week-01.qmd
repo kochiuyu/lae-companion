@@ -580,9 +580,9 @@ That figure comes from **Our Hong Kong Foundation (OHKF)** (*Taking Flight: Forg
 
 ### Services-layer hypothesis
 
-Hong Kong’s possible comparative advantage is often framed as a **service layer** — finance and leasing, insurance and risk management, legal / certification / professional services, digital platforms, and international business development — sitting alongside GBA strengths in manufacturing, electronics, batteries, and large-scale testing.
+Hong Kong’s possible role is often framed as a **[service layer](glossary.qmd#supporting-services)** — finance and leasing, insurance and risk management, legal / certification / professional services, digital platforms, and international business development — beside GBA strengths in manufacturing, electronics, batteries, and large-scale testing.
 
-That is a **strategic proposition to evaluate**, not a predetermined outcome. OHKF’s emphasis on supporting services in the 2050 projection is consistent with that framing — but consistency with a think-tank narrative is not proof of comparative advantage. You still need capability, cost, regulation, demand, and competition evidence (Week 12 returns to leasing and service roles).
+Treat this as a **hypothesis to test**, not a settled fact. OHKF’s emphasis on supporting services in the [2050 value-added projection](glossary.qmd#industry-value-added) fits that framing — but a think-tank story is not proof of comparative advantage. You still need evidence on capability, cost, regulation, demand, and competition (Week 12 returns to leasing and service roles).
 
 ---
 
@@ -1302,9 +1302,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 2
 
-Week 2 turns to **market structure and competition**: how scarce infrastructure (for example limited landing capacity in dense districts), sunk costs, and route density shape rivalry and entry.
+Week 2 turns to **market structure and competition**. Scarce landing capacity, sunk costs, and route density shape who can enter and who can compete.
 
-**Preview question:** if a landing site can only handle a small number of movements at once, who gets access — and who is pushed out?
+**Preview question:** if a landing site can handle only a few movements at once, who gets access — and who is pushed out?
 
 Continue: [Week 2](week-02.qmd) · [Course overview](overview.qmd).
 

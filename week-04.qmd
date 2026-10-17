@@ -768,7 +768,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 5
 
-Week 5 turns to **infrastructure economics and management**: why sites (not only aircraft) can bind; vertiport archetypes and throughput; breakeven activity and staged investment; scarce slots. Preview question: how should these demand forecasts shape where expensive vertiports go in land-scarce Hong Kong?
+Week 5 turns to **infrastructure economics and management**. Sites — not only aircraft — can bind. We look at vertiport types and throughput, breakeven activity, staged investment, and scarce slots.
+
+**Preview question:** how should these demand forecasts shape where expensive vertiports go in land-scarce Hong Kong?
 
 Continue: [Week 5](week-05.qmd) · [Course overview](overview.qmd).
 

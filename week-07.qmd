@@ -896,7 +896,11 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 8
 
-Week 8 turns to **airspace access and integration**: how scarce low-altitude capacity is allocated, how digital services and procedures support safe coexistence, and what managers need when planning routes that share airspace with other users. Preview readings flagged in class include CAD AC-013 / Safety Requirements Document material and EASA Easy Access Rules for U-space (listed for preparation — verify against the teaching platform).
+Week 8 turns to **airspace access and integration**. Scarce low-altitude capacity must be shared safely; digital services and procedures support that coexistence.
+
+**Preview question:** what do managers need before planning a route that shares airspace with other users?
+
+**Preview readings** (verify on the teaching platform): CAD AC-013 / Safety Requirements Document material and EASA Easy Access Rules for U-space.
 
 Continue: [Week 8](week-08.qmd) · [Course overview](overview.qmd).
 

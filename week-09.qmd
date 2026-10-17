@@ -17,7 +17,7 @@ format:
 
 **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
-Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution.
+Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and weigh **social** benefits and costs — not only whether the operator earns a contribution.
 
 **Orient refreshers:**
 
@@ -434,17 +434,17 @@ Technology and compliance costs enter the **cost** model rather than another rev
 
 ---
 
-Even a clean funnel is uncertain. **Scenarios and expected value** (and Monte Carlo as a concept) replace one heroic base case with weighted outcomes and downside risk.
+Even a clean funnel is uncertain. **Scenarios and expected value** (and [**Monte Carlo**](glossary.qmd#monte-carlo) as a concept) replace one heroic base case with weighted outcomes and downside risk.
 
 ## 4. Uncertainty, scenarios, and expected value
 
-Uncertainty means important inputs and outcomes cannot be known precisely when a decision is made: demand and WTP; approval timing and operating conditions; weather and serviceable capacity; technology and maintenance; public acceptance and competition; prices, costs, and financing.
+**Uncertainty** means you cannot know key inputs and outcomes exactly when you decide: demand and [**willingness to pay (WTP)**](glossary.qmd#wtp); approval timing and operating conditions; weather and reliable capacity; technology and maintenance; public acceptance and competition; prices, costs, and financing.
 
-Use a base case, downside and upside scenarios, sensitivity analysis, and probability ranges where justified. Not every uncertainty is measurable or hedgeable.
+Use a base case, a downside and an upside, sensitivity checks, and probability ranges where the data support them. Not every uncertainty can be measured or hedged.
 
 ### Monte Carlo (concept)
 
-A Monte Carlo simulation repeatedly samples uncertain inputs from specified distributions and recalculates the model. It produces a **distribution** of outcomes rather than one forecast. Results depend on chosen distributions, correlations, model structure, and data quality. Correlated inputs matter — weather may affect capacity, demand, price, and cost simultaneously. Useful outputs include median NPV, downside percentiles, probability of a cash shortfall, and major risk drivers.
+A [**Monte Carlo**](glossary.qmd#monte-carlo) run draws uncertain inputs many times from chosen distributions and recalculates the model. You get a **range of outcomes**, not one forecast. Results depend on the distributions, correlations, model structure, and data quality. Correlated inputs matter — weather may hit capacity, demand, price, and cost together. Useful outputs include median [**NPV**](glossary.qmd#npv), downside percentiles, the chance of a cash shortfall, and the main risk drivers.
 
 **Simulation does not make weak assumptions accurate; it makes their implications visible.**
 
@@ -493,7 +493,7 @@ $$
 </figure>
 ```
 
-Expected value is the probability-weighted average across scenarios. It does **not** reveal how severe the downside can be or whether the business has enough liquidity to survive it. Also examine probability of loss, worst credible cash shortfall, and a downside percentile (e.g. 10th). Required cash reserves depend on cash-flow timing, financing access, risk tolerance, and recovery plans — not expected value alone.
+Expected value is the probability-weighted average across scenarios. It does **not** show how bad the downside can be, or whether the firm has enough cash to survive it. Also check the chance of loss, the worst credible cash shortfall, and a downside percentile (for example the 10th). Cash reserves depend on timing, financing access, risk tolerance, and recovery plans — not expected value alone.
 
 **Assumption (illustrative):** annual cost = HK\$5M.
 
@@ -887,7 +887,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 10
 
-Week 10 turns to **sustainability challenges in urban air operations**: carbon, noise, and the cost of cleaner technology — linking the social costs named this week to measurable environmental metrics and abatement costs.
+Week 10 turns to **sustainability challenges in urban air operations**. We connect carbon, noise, and cleaner-technology cost to the social costs named this week — with metrics you can measure.
+
+**Preview question:** which environmental cost should the operator own first — and how do you measure it?
 
 Continue: [Week 10](week-10.qmd) · [Course overview](overview.qmd).
 

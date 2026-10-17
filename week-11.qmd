@@ -747,7 +747,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 12
 
-Week 12 turns to **review, quantitative applications, and the final exam**: demonstrating integrated economic judgment across the course under time pressure. Preview question from class: how will you show this level of connected reasoning across all eleven weeks in the exam?
+Week 12 turns to **review, quantitative applications, and the final exam**. You show connected economic judgment across the course under time pressure.
+
+**Preview question:** how will you show this level of connected reasoning across all eleven weeks in the exam?
 
 Continue: [Week 12](week-12.qmd) · [Course overview](overview.qmd).
 

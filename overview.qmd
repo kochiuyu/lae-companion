@@ -32,19 +32,19 @@ LAE means services that use low-altitude airspace — not only the aircraft itse
 
 ## Objectives
 
-- Study LAE economics and business strategy in Hong Kong and the GBA, with global AAM comparators.
-- Build quantitative and managerial tools for demand, unit economics, infrastructure, partnerships, regulation, airspace, sustainability, and risk.
-- Combine those tools into a coherent business or policy strategy (capstone) and exam-ready analysis.
+- Learn the economics and business strategy of LAE in Hong Kong and the GBA, with global AAM examples for comparison only.
+- Practise tools for demand, unit economics, sites, partnerships, regulation, airspace, sustainability, and risk.
+- Put those tools together into one business or policy strategy (capstone) and into exam answers.
 
 ## Learning outcomes
 
 After this course, you should be able to:
 
-- Understand demand and supply in **urban air mobility** (city air services) with basic economic models and stakeholder analysis, focused on Hong Kong / GBA trends.
-- Estimate market sizes and judge investments with simple cost–benefit analysis and market simulations.
-- Explore pricing, economic incentives, and congestion management for sustainability and public acceptance.
-- Review business frameworks, value-chain roles, and regulatory economics, using global case studies from NASA, McKinsey, and AiRMOUR.
-- Develop strategies for market growth, policy evaluation, and stakeholder engagement through scenario discussions and team projects.
+- Explain demand and supply for **urban air mobility** (city air services) in Hong Kong and the GBA, using simple economic tools and who is affected.
+- Size a market and judge an investment with basic cost–benefit thinking — without mixing revenue, value added, and social benefit.
+- Discuss pricing, incentives, and congestion rules that support sustainability and public acceptance.
+- Map value-chain roles and the economics of regulation, using selected global cases (for example NASA, McKinsey, AiRMOUR) for comparison — not as Hong Kong law.
+- Build a clear business or policy strategy through scenarios and team work (capstone).
 
 ## 12-week conceptual map
 

@@ -809,7 +809,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 9
 
-Week 9 turns to the **economic and social impact of LAE**: jobs, productivity, distribution, environment, and public acceptance — asking whether low-altitude services improve outcomes for everyday users, not only whether operators can earn a contribution margin. Preview question from class: after eight weeks on how firms organise commercial models, does LAE actually make life better for citizens?
+Week 9 turns to the **economic and social impact of LAE**: jobs, productivity, who gains or bears costs, the environment, and public acceptance. The question is whether low-altitude services improve everyday life — not only whether operators earn a contribution margin.
+
+**Preview question:** after eight weeks on commercial models, does LAE actually make life better for citizens?
 
 Continue: [Week 9](week-09.qmd) · [Course overview](overview.qmd).
 

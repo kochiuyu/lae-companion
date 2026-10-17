@@ -832,7 +832,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 7
 
-Week 7 turns to **LAE policy and regulation**: how regulation can be part of competitive strategy; Hong Kong’s risk-based SUA approach and Sandbox X; permissions for advanced operations (including BVLOS); safety cases; and digital traffic management. Preview question: how will instruments such as operating restrictions and BVLOS rules rewrite the contracts designed this week?
+Week 7 turns to **LAE policy and regulation**. Regulation can shape who competes. We cover Hong Kong’s risk-based SUA approach, the Regulatory Sandbox and **Sandbox X** (keep them distinct — Sandbox ≠ Sandbox X), permissions for advanced operations including [**BVLOS**](glossary.qmd#bvlos) (beyond visual line of sight), safety cases, and digital traffic management.
+
+**Preview question:** how will operating restrictions and BVLOS rules rewrite the contracts designed this week?
 
 Continue: [Week 7](week-07.qmd) · [Course overview](overview.qmd).
 

@@ -874,7 +874,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 11
 
-Week 11 is **synthesis and capstone group presentations**: combining demand, unit economics, infrastructure, regulation, airspace allocation, market sizing, and sustainability into one coherent commercial and institutional case. Preview question from class: how will you integrate those building blocks into one master presentation?
+Week 11 is **synthesis and capstone group presentations**. You combine demand, unit economics, infrastructure, regulation, airspace, market sizing, and sustainability into one coherent commercial and institutional case.
+
+**Preview question:** how will you integrate those building blocks into one master presentation?
 
 Continue: [Week 11](week-11.qmd) · [Course overview](overview.qmd).
 

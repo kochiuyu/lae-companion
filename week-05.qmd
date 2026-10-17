@@ -933,7 +933,9 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ### Looking ahead to Week 6
 
-Week 6 turns to **strategic partnerships and business models**: asset-intensive vs service vs platform architectures; when a public–private partnership might make sense; usage vs availability payments; and co-opetition on shared facilities. Preview theme from the slides: who pays for the chargers?
+Week 6 turns to **strategic partnerships and business models**. Asset-heavy vs service vs platform designs; when a public–private partnership might help; usage vs availability payments; and co-opetition on shared facilities.
+
+**Preview question:** who pays for the chargers?
 
 Continue: [Week 6](week-06.qmd) · [Course overview](overview.qmd).
 
