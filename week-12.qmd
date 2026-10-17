@@ -63,13 +63,13 @@ By the end of Week 12 you should be able to:
 | Horizon & networks | §§1–2 | Growth under evidence; $L = N(N-1)/2$; screening ≠ forecast |
 | Digital & HK services | §§3–4 | Coordination net saving; leasing $\mathrm{CF}_{L}$ / [NPV](glossary.qmd#npv); transferable capability |
 | Exam method & judgment | §§5–6 | Five-step method; viability reapplied; toolkit; consistent judgment |
-| Close | §§7–8 | Synthesis; study checklist |
+| Close | §7 | Synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Horizon & networks (§1)](#1-the-next-horizon) → [Exam method (§5)](#5-final-review-five-step-exam-method) → [Putting together (§7)](#7-putting-week-12-together) → [Self-check](#self-check)
 - **Digital & roles:** [Digital coordination (§3)](#3-digital-coordination-and-governance) → [HK service roles (§4)](#4-possible-hong-kong-service-roles)
-- **Exam close:** [Study checklist (§8)](#8-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -680,7 +680,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 8. Study checklist
+## Study checklist {#study-checklist}
 
 1. Compute $L$ for two values of $N$; say why $L$ is not demand.  
 2. Screen a classroom share of links; refuse to treat the result as a GBA forecast.  

@@ -64,13 +64,13 @@ By the end of Week 10 you should be able to:
 | Privacy & carbon screens | §§3–4 | Camera governance cost; appraisal carbon value (not a CAD tax) |
 | GHG & LCA | §5 | Scopes vs LCA; electricity factor; embodied allocation |
 | Acceptance & equity | §§6–7 | AiRMOUR / use-case acceptance; social licence; public-service funding |
-| Close | §§8–10 | KPI design; synthesis; study checklist |
+| Close | §§8–9 | KPI design; synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Viability & externalities (§1)](#1-can-an-lae-service-be-sustainable-and-viable) → [Privacy & carbon (§3)](#3-privacy-governance-for-onboard-cameras) → [Putting together (§9)](#9-putting-week-10-together) → [Self-check](#self-check)
 - **GHG & licence:** [GHG / LCA (§5)](#5-ghg-inventory-and-life-cycle-assessment) → [Acceptance (§6)](#6-public-acceptance-by-use-case) → [Equity / funding (§7)](#7-equity-social-licence-and-funding-commitments)
-- **Exam close:** [Study checklist (§10)](#10-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -868,7 +868,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 10. Study checklist
+## Study checklist {#study-checklist}
 
 1. State why “electric” does not imply zero life-cycle emissions, quietness, privacy, or equity.  
 2. Define an externality; give one negative and one positive LAE example.  

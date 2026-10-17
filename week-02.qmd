@@ -63,13 +63,13 @@ By the end of Week 2 you should be able to:
 | Cost & concentration | §§4–6 | HHI screen; fixed vs marginal cost; economies of density |
 | Moats & place | §§7–8 | NASA-style barriers; sunk costs; limit pricing; HK / GBA |
 | Price & sharing | §§9–11 | Bertrand + scarce pads; co-opetition; global comparators |
-| Closing | §§12–13 | Synthesis; study checklist beyond the slides |
+| Closing | §12 | Synthesis; study checklist beyond the slides |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Structure (§1)](#1-why-market-structure-matters-in-lae) → [HHI / cost (§4)](#4-market-concentration-and-the-hhi-screen) → [Putting together (§12)](#12-putting-week-2-together) → [Self-check](#self-check)
 - **Moats & price:** [Barriers (§7)](#7-entry-barriers-a-nasa-style-checklist) → [Bertrand + pads (§9)](#9-price-competition-when-capacity-is-scarce) → [Co-opetition (§10)](#10-co-opetition-compete-on-service-share-the-roof)
-- **Exam close:** [Study checklist (§13)](#13-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -898,7 +898,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 13. Study checklist
+## Study checklist {#study-checklist}
 
 1. Define a **narrow market** (product + geography + customer + layer) before talking about competition.  
 2. Explain why LAE is **not one market structure**.  

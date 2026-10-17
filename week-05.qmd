@@ -64,13 +64,13 @@ By the end of Week 5 you should be able to:
 | Bottleneck & sites | §§1–3 | Why infrastructure binds; archetypes; multi-criteria site cost |
 | Capacity & cash | §§4–7 | Throughput / reliability; breakeven use; staged ramp-up; downtime return; CAPEX/OPEX |
 | Allocation & network | §§8–10 | Scarce slots; hub / distributed / hybrid; HK–GBA hypotheses |
-| Closing | §§11–13 | Tool map; synthesis; study checklist beyond the slides |
+| Closing | §§10–11 | Tool map; synthesis; study checklist beyond the slides |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Bottleneck & sites (§1)](#1-the-infrastructure-bottleneck) → [Capacity & cash (§4)](#4-throughput-reliability-and-breakeven-capacity-use) → [Putting together (§11)](#11-putting-week-5-together) → [Self-check](#self-check)
 - **Allocation:** [Scarce slots (§8)](#8-allocating-scarce-slots) → [Network form (§9)](#9-network-design-hub-distributed-hybrid)
-- **Exam close:** [Study checklist (§12)](#12-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -916,7 +916,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 12. Study checklist
+## Study checklist {#study-checklist}
 
 1. Name the likely **binding bottleneck** for a named mission (pads vs aircraft vs charging vs access).  
 2. Compare three **classroom archetypes** without treating them as HK statutory classes.  

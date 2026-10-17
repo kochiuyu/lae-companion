@@ -63,13 +63,13 @@ By the end of Week 11 you should be able to:
 | Whole system & viability | §§1–2 | Cascade logic; $D_{\mathrm{served}}$ and $\Pi_{\mathrm{op}}$; capacity shock |
 | Strategy & risk | §§3–4 | Six-block template; airport-corridor screen; risk register / gates |
 | Pitch & evidence | §§5–6 | Decision-maker lenses; 12-minute pitch; weak vs strong; deck + logistics |
-| Close | §§7–8 | Synthesis; study checklist |
+| Close | §7 | Synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Whole system (§1)](#1-seeing-the-whole-system) → [Strategy & risk (§3)](#3-integrated-strategy-template) → [Putting together (§7)](#7-putting-week-11-together) → [Self-check](#self-check)
 - **Pitch:** [Decision-maker lens (§5)](#5-the-decision-maker-s-lens) → [Deck / logistics (§6)](#6-presentation-logistics-and-feedback)
-- **Exam close:** [Study checklist (§8)](#8-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -734,7 +734,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 8. Study checklist
+## Study checklist {#study-checklist}
 
 1. Trace one assumption change through demand → capacity → cost → cash flow → legitimacy.  
 2. Compute $D_{\mathrm{served}}$ and $\Pi_{\mathrm{op}}$ for a capacity shock with fixed $D$.  

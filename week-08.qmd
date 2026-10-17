@@ -64,13 +64,13 @@ By the end of Week 8 you should be able to:
 | Conflict & capacity | §§1–2 | 8:00 AM conflict; whole-system bottleneck; HK height / Sandbox facts |
 | Congestion & mechanisms | §§3–4 | Delay externality; queues / prices / auctions; affordable bid |
 | Networks & digital | §§5–6 | Network effects; interoperability; OFCA / AC-017 facts |
-| Roadmap & close | §§7–10 | Phased integration NPV; tool map; synthesis; study checklist |
+| Roadmap & close | §§7–9 | Phased integration NPV; tool map; synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Conflict & capacity (§1)](#1-the-8-00-am-capacity-conflict) → [Congestion & mechanisms (§3)](#3-congestion-externalities) → [Putting together (§9)](#9-putting-week-8-together) → [Self-check](#self-check)
 - **Networks & roadmap:** [Network effects (§5)](#5-network-effects-and-shared-information) → [Digital coordination (§6)](#6-digital-coordination-and-interoperability) → [Integration roadmap (§7)](#7-airspace-integration-roadmap)
-- **Exam close:** [Study checklist (§10)](#10-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -801,7 +801,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 10. Study checklist
+## Study checklist {#study-checklist}
 
 1. State why capacity is a **whole-system** concept, not drones-per-minute.  
 2. Separate Cap. **448G** height bands from the ~**1,000 m** policy working description.  

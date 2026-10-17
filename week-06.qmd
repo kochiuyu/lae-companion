@@ -65,13 +65,13 @@ By the end of Week 6 you should be able to:
 | Public deals & pay | §§3–4 | PPP value-for-money test; usage vs availability payments |
 | Flexibility & sharing | §§5–6 | Real options / staging; co-opetition and facility cost |
 | Institutions & close | §§7–10 | Comparators; term-sheet principle; tool map; synthesis |
-| Checklist | §11 | Study checklist beyond the slides |
+| Checklist | — | Study checklist beyond the slides |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Architecture (§1)](#1-choosing-the-commercial-architecture) → [PPP / payments (§3)](#3-public--private-partnerships-ppp) → [Putting together (§10)](#10-putting-week-6-together) → [Self-check](#self-check)
 - **Flexibility & share:** [Staging / options (§5)](#5-contractual-flexibility-and-real-options) → [Co-opetition (§6)](#6-co-opetition-and-shared-facilities)
-- **Exam close:** [Study checklist (§11)](#11-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -820,7 +820,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 11. Study checklist
+## Study checklist {#study-checklist}
 
 1. Contrast ownership vs coordination on **control, capital, and dependency**.  
 2. Fill the three-archetype table and compute the **monthly economic-profit** screen.  

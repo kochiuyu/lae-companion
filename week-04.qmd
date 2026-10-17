@@ -64,13 +64,13 @@ By the end of Week 4 you should be able to:
 | Funnel & GC | §§4–5 | Four-step frame; managerial [funnel](glossary.qmd#demand-funnel); generalized cost door-to-door |
 | Price response | §§6–7 | Own- and cross-elasticity; heterogeneity and differentiated products |
 | Acceptance & shocks | §§8–10 | AiRMOUR lens; scenario shocks; HK–GBA demand hypotheses |
-| Closing | §§11–13 | Tool map; synthesis; study checklist beyond the slides |
+| Closing | §§11–12 | Tool map; synthesis; study checklist beyond the slides |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Choice & WTP (§1)](#1-would-customers-actually-choose-it) → [Funnel & GC (§4)](#4-a-four-step-travel-demand-frame-and-a-simple-funnel) → [Putting together (§12)](#12-putting-week-4-together) → [Self-check](#self-check)
 - **Response & shocks:** [Elasticity (§6)](#6-elasticity-of-demand) → [Acceptance (§8)](#8-public-acceptance-as-scenarios-airmour-lens) → [Scenarios (§9)](#9-scenario-analysis-and-shocks)
-- **Exam close:** [Study checklist (§13)](#13-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -757,7 +757,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 13. Study checklist
+## Study checklist {#study-checklist}
 
 1. State the commercial question: **enough customers at a viable price**, not “can it fly.”  
 2. Define WTP and sketch $Q=a-bP$; compute choke price $a/b$.  

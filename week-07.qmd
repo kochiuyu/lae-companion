@@ -71,7 +71,7 @@ By the end of Week 7 you should be able to:
 
 - **Core:** [Strategy & readiness (§1)](#1-the-regulatory-strategy-meeting) → [HK frame & BVLOS (§3)](#3-hong-kong-s-risk-based-sua-frame-and-sandbox-x) → [Putting together (§11)](#11-putting-week-7-together) → [Self-check](#self-check)
 - **Approval & scale:** [Permission vs certification (§5)](#5-approval-permission-and-certification-do-not-conflate) → [U-space / UTM (§7)](#7-u-space-utm-and-coordination-cost) → [Roadmap (§9)](#9-phased-regulatory-roadmap)
-- **Exam close:** [Study checklist (§12)](#12-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -869,7 +869,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 12. Study checklist
+## Study checklist {#study-checklist}
 
 1. Explain why regulation can raise cost **and** create readiness value.  
 2. Compute **net readiness value**; say when a shorter lead destroys it.  

@@ -65,13 +65,13 @@ By the end of Week 9 you should be able to:
 | Constraints | §3 | Map each barrier to one model channel; avoid double counting |
 | Uncertainty | §4 | Scenarios, [Monte Carlo](glossary.qmd#monte-carlo) concept, expected value and downside |
 | Value added & equity | §§5–7 | OHKF HK\$350bn attribution; hedonic tool; distribution |
-| Close | §§8–10 | Integrated dashboard; synthesis; study checklist |
+| Close | §§8–9 | Integrated dashboard; synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Commercial vs social (§1)](#1-from-commercial-value-to-social-value) → [Market funnel (§2)](#2-market-sizing) → [Putting together (§9)](#9-putting-week-9-together) → [Self-check](#self-check)
 - **Uncertainty & equity:** [Uncertainty (§4)](#4-uncertainty-scenarios-and-expected-value) → [HK$350bn / distribution (§5)](#5-the-hk-350-billion-projection--and-distributional-questions) → [Equity (§7)](#7-social-equity-and-distributional-analysis)
-- **Exam close:** [Study checklist (§10)](#10-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -880,7 +880,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 10. Study checklist
+## Study checklist {#study-checklist}
 
 1. Define a use case with service, OD, customer, and period — refuse “all trips to the airport” without relevance.  
 2. Compute $SAM$, $D_{\mathrm{pot}}$, and $D_{\mathrm{served}}$ with an explicit $K$.  

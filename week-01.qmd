@@ -64,13 +64,13 @@ By the end of Week 1 you should be able to:
 | Concepts | §§1–5 | What LAE is; jargon; value families; Hong Kong scale / HK$350bn attribution |
 | Tools | §§6–8 | VOT, NPV, generalized cost; classroom worked examples; how tools connect |
 | Industry & rules | §§9–12 | Value chain; entry barriers; sandboxes; GBA caveat |
-| Closing | §§13–16 | Empty-seat unit cost; technology; synthesis; exam-style checklist |
+| Closing | §§13–15 | Empty-seat unit cost; technology; synthesis; exam-style checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
 - **Core:** [Concepts (§1)](#1-what-is-the-low-altitude-economy) → [Tools (§6)](#6-value-of-time-and-net-present-value) → [Putting together (§15)](#15-putting-week-1-together) → [Self-check](#self-check)
 - **Industry & rules:** [Value chain (§9)](#9-the-lae-value-chain--who-creates-value-and-who-gets-paid) → [Sandboxes (§11)](#11-regulatory-sandboxes-in-hong-kong) → [Empty-seat / unit cost (§13)](#13-the-empty-seat-problem-and-unit-cost)
-- **Exam close:** [Study checklist (§16)](#16-study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+- **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
 
@@ -1293,7 +1293,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## 16. Study checklist
+## Study checklist {#study-checklist}
 
 Use this when reviewing — each item should be answerable in your own words with a formula or a cite:
 
