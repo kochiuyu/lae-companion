@@ -3,9 +3,12 @@ title: "Lectures"
 subtitle: "Moved — Teach is one page per week"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
-Slides and takeaways live on each **week article** (with notes and readings).
+Soft redirect — slides and takeaways live on each **week article** (with notes and readings).
 
 Use the **Teach** menu, or jump:
 

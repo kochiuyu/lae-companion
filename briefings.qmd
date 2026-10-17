@@ -3,8 +3,11 @@ title: "Weekly notes"
 subtitle: "Moved — use Official status"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
-Dated status items now live on **[Official status](tracker.qmd)** (live tracker). This old weekly-notes archive is not maintained here.
+Soft redirect — dated status items now live on **[Official status](tracker.qmd)** (live tracker). This old weekly-notes archive is not maintained here.
 
 Go to [Official status](tracker.qmd).

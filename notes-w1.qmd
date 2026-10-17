@@ -3,8 +3,11 @@ title: "Week 1 notes"
 subtitle: "Moved into the Week 1 article"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
-Week 1 lecture notes now live on the **[Week 1](week-01.qmd)** article page (summary, full notes, slides, and readings together).
+Soft redirect — Week 1 lecture notes now live on the **[Week 1](week-01.qmd)** article (summary, full notes, slides, and readings together).
 
 Go to [Week 1](week-01.qmd).

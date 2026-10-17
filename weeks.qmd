@@ -3,9 +3,12 @@ title: "Weeks"
 subtitle: "Moved — open a week directly"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
-There is no Teach hub. Each week is its own article page (notes, slides, summary, readings).
+Soft redirect — there is no Teach hub. Each week is its own article (notes, slides, summary, readings).
 
 Use the **Teach** menu, or jump:
 
