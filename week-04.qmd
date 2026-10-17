@@ -500,6 +500,43 @@ Model each channel explicitly — do not apply one unexplained “shock penalty�
 
 Responses can include reserves, flexible capacity, alternative modes, committed revenue, insurance, or revised pricing. Raising fare to HK$600 alone yields HK$42,000 only if all 70 customers still travel. Illustration excludes variable cost, refunds, credits, and demand response to the price change.
 
+```{=html}
+<figure class="wdiag" id="w04-shock-svg" aria-labelledby="w04-shock-svg-title">
+<p class="wdiag-cap" id="w04-shock-svg-title"><strong>Q_served = min; no magic shock penalty</strong> — demand, capacity, price/cost, and policy shocks must be modelled as separate channels. $Q_{\mathrm{served}}=\min\{Q_d,Q_k\}$. Classroom weekly capacity shock: normal <strong>100 trips · HK$50,000</strong> revenue vs <strong>30% capacity loss → 70 trips · HK$35,000</strong>. Do <strong>not</strong> apply one unexplained “shock penalty” to revenue.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 350" role="img" aria-label="Four shock channel cards flowing to Q served equals min of demand and capacity, with normal week versus 30 percent capacity loss classroom cards, and a strip saying no invisible shock penalty." aria-labelledby="p1-title p1-desc">
+  <title id="p1-title">Q_served = min; no magic shock penalty</title>
+  <desc id="p1-desc">Scenario shocks: demand, capacity, price or cost, and policy or acceptance. Served quantity equals the minimum of demand and capacity. Do not apply one unexplained shock penalty to revenue. Classroom weekly capacity shock: normal 100 trips and HK dollar 50,000 revenue versus 30 percent capacity loss with 70 trips and HK dollar 35,000 revenue. Illustrative trips only. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Q_served = min · no magic shock penalty</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Scenario analysis · classroom capacity shock</text>
+  <rect x="28" y="68" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="105" y="92" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Demand</text>
+  <text x="105" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Fewer travellers</text>
+  <rect x="198" y="68" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="92" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Capacity</text>
+  <text x="275" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Weather · rules</text>
+  <rect x="368" y="68" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="92" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Price / cost</text>
+  <text x="445" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Fares · energy</text>
+  <rect x="538" y="68" width="155" height="58" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="615" y="92" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Policy</text>
+  <text x="615" y="110" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Routes · trust</text>
+  <rect x="100" y="142" width="520" height="48" rx="8" fill="#003366"/>
+  <text x="360" y="172" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#ffffff">Q_served = min{Q_demand , Q_capacity}</text>
+  <rect x="36" y="208" width="300" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="186" y="236" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Normal week</text>
+  <text x="186" y="258" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">100 trips · HK$50,000 rev</text>
+  <rect x="384" y="208" width="300" height="70" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="534" y="236" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">30% capacity loss</text>
+  <text x="534" y="258" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">70 trips · HK$35,000 rev</text>
+  <rect x="60" y="296" width="600" height="30" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="316" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Model each channel · no invisible “shock penalty”</text>
+</svg>
+
+<p class="wdiag-note">From Week 4 §9. Classroom 30% capacity-loss only. New SVG.</p>
+</figure>
+```
+
 ---
 
 Scenarios need place. **Hong Kong and GBA demand hypotheses** ask where GC advantage and acceptance might differ — hypotheses about competition, not corridor bookings.

@@ -243,6 +243,42 @@ Cost cannot be inferred from an unsupported percentage of flight operating cost.
 
 The more expensive design is justified only if additional controls materially improve privacy, security, or operational assurance. Not a compliance quotation or claim that either design is legally sufficient.
 
+```{=html}
+<figure class="wdiag" id="w10-privacy-svg" aria-labelledby="w10-privacy-svg-title">
+<p class="wdiag-cap" id="w10-privacy-svg-title"><strong>Purpose → minimize → privacy-control cost</strong> — define a lawful specific purpose, minimize collection (FOV, retention, identifiers), then compute $C_{\mathrm{priv}} = F_{\mathrm{gov}} + q\cdot v + A$. Classroom: lower-variable design ≈ <strong>HK$800k/year</strong>; higher-assurance ≈ <strong>HK$1.4M</strong> (50,000 ops; A=0). Not a compliance quotation — verify current PCPD / regulator materials.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-label="Three steps purpose, minimize, and privacy-control cost formula, with two classroom cards showing about HK dollar 800 thousand versus 1.4 million per year, and a strip that this is not a compliance quote." aria-labelledby="n3-title n3-desc">
+  <title id="n3-title">Purpose → minimize → privacy-control cost</title>
+  <desc id="n3-desc">Privacy governance for onboard cameras: define lawful purpose, minimize collection, then compute annual privacy-control cost as fixed governance plus operations times variable cost plus audit. Classroom: lower-variable design about HK dollar 800 thousand per year versus higher-assurance about HK dollar 1.4 million. Not a compliance quotation. Verify current PCPD materials. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Purpose → minimize → privacy-control cost</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Onboard cameras · classroom C_priv only</text>
+  <rect x="36" y="68" width="200" height="72" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="136" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">1. Purpose</text>
+  <text x="136" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Lawful · specific · necessary</text>
+  <text x="248" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#9a9488">→</text>
+  <rect x="268" y="68" width="200" height="72" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="368" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">2. Minimize</text>
+  <text x="368" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">FOV · retention · identifiers</text>
+  <text x="480" y="108" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#9a9488">→</text>
+  <rect x="500" y="68" width="184" height="72" rx="8" fill="#003366"/>
+  <text x="592" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">3. C_priv</text>
+  <text x="592" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#F7F6F3">F_gov + q·v + A</text>
+  <rect x="36" y="158" width="300" height="88" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="186" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Lower-variable design</text>
+  <text x="186" y="212" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#1a1a1a">≈ HK$800k / year</text>
+  <text x="186" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">HK$4/op · fixed HK$600k · A=0</text>
+  <rect x="384" y="158" width="300" height="88" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="534" y="188" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Higher-assurance design</text>
+  <text x="534" y="212" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#1a1a1a">≈ HK$1.4M / year</text>
+  <text x="534" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">HK$8/op · fixed HK$1M · A=0</text>
+  <rect x="60" y="266" width="600" height="44" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Not a compliance quote · verify PCPD · Sandbox ≠ Sandbox X</text>
+</svg>
+
+<p class="wdiag-note">From Week 10 §3. Classroom HK$800k / HK$1.4M only. New SVG.</p>
+</figure>
+```
+
 **Connecting idea.** Privacy cost enters Week 6 OPEX and Week 9 contribution the same way compliance cost did in Week 7 — as an explicit channel, not a vague “ESG haircut” on revenue.
 
 ---
