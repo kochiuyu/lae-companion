@@ -926,13 +926,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) on this page (Policy Address institutional map; Shenzhen statute / NDRC diffusion as GBA entry context; WEF actor landscape).  
 - **Evidence pages:** [Companies & sectors](landscape.qmd) · [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Glossary](glossary.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week02-market-structure.pdf](slides/week02-market-structure.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 2 memo brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -959,7 +956,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [World Economic Forum, in collaboration with Kearney (July 2024). *Advanced Air Mobility: Shaping the Future of Aviation* (White Paper).](https://www3.weforum.org/docs/WEF_Advanced_Air_Mobility_2024.pdf) — Systematises AAM use cases and the actor landscape (in collaboration with Kearney).
 
-## Looking ahead to Week 3
+### Looking ahead to Week 3
 
 Week 3 turns to **cost structures and revenue management**: separating CAPEX, fixed OPEX, and variable cost; unit measures such as CASK; breakeven; and how weather and downtime reshape risk.
 

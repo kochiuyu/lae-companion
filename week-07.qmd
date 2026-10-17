@@ -897,13 +897,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (CAD Cap. 448G SUA page; AC-013 BVLOS in the first Regulatory Sandbox; 国令761; EASA SC-VTOL; CAAC logistics trial guide; LegCo IN10/2025).  
 - **Course links:** [Week 6](week-06.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 7 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -932,7 +929,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 - [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — A CAAC example of risk-based Specific-category approval (BVLOS delivery in populated areas). English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery. *Also listed in [Week 3](week-03.qmd).*
 - [Chung, K. (16 May 2025). *Promoting low-altitude economy in Shenzhen and the United States*. Information Note IN10/2025, Research Office, Legislative Council Secretariat, Hong Kong.](https://app7.legco.gov.hk/rpdb/en/uploads/2025/IN/IN10_2025_20250516_en.pdf) — Side-by-side HK, Shenzhen and US regulatory comparison table. *Also listed in [Week 6](week-06.qmd).*
 
-## Looking ahead to Week 8
+### Looking ahead to Week 8
 
 Week 8 turns to **airspace access and integration**: how scarce low-altitude capacity is allocated, how digital services and procedures support safe coexistence, and what managers need when planning routes that share airspace with other users. Preview readings flagged in class include CAD AC-013 / Safety Requirements Document material and EASA Easy Access Rules for U-space (listed for preparation — verify against the teaching platform).
 

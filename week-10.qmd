@@ -896,13 +896,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (2025 Policy Address ¶153–157 on Sandbox X / Action Plan; Stolaroff et al. and Kasliwal et al. on life-cycle GHG; Vascik & Hansman on noise as a scaling constraint; NASA UAM noise technical paper).  
 - **Course links:** [Week 9](week-09.qmd) · [Week 6](week-06.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
 - **Slides:** [week10-sustainability.pdf](slides/week10-sustainability.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 10 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -930,7 +927,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [Rizzi, S. A., Huff, D. L., Boyd, D. D., Bent, P., Henderson, B. S., et al. (October 2020). *Urban Air Mobility Noise: Current Practice, Gaps, and Recommendations*. NASA/TP-20205007433.](https://ntrs.nasa.gov/citations/20205007433) — NASA review of UAM noise practice, gaps and recommendations.
 
-## Looking ahead to Week 11
+### Looking ahead to Week 11
 
 Week 11 is **synthesis and capstone group presentations**: combining demand, unit economics, infrastructure, regulation, airspace allocation, market sizing, and sustainability into one coherent commercial and institutional case. Preview question from class: how will you integrate those building blocks into one master presentation?
 

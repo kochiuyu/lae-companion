@@ -708,13 +708,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (CAAC ATM Rules **draft** consultation — not in force; Pons-Prats et al. on UAM prospects; FAA UAM ConOps / AAM Implementation Plan; EASA SC-VTOL; CAAC leadership piece on general aviation and LAE).  
 - **Course links:** [Week 11](week-11.qmd) · [Week 9](week-09.qmd) · [Course overview](overview.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
 - **Slides:** [week12-future.pdf](slides/week12-future.pdf).
-
-## Readings {#readings}
 
 ### Main references
 
@@ -737,7 +734,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 - [FAA (July 2023). *Advanced Air Mobility (AAM) Implementation Plan: Near-term (Innovate28) Focus with an Eye on the Future of AAM*, Version 1.0.](https://www.faa.gov/sites/faa.gov/files/AAM-I28-Implementation-Plan.pdf) — FAA's 'eye on the future' section beyond 2028. *Also listed in [Week 11](week-11.qmd).*
 - [[宋志勇 (中国民用航空局局长) (2025-01-03). 高质量发展通用航空和低空经济. CAAC website, 民航要闻.]{lang="zh-Hans"}](https://www.caac.gov.cn/XWZX/MHYW/202501/t20250103_226313.html) — CAAC priorities for the next phase of LAE. English gloss: Developing general aviation and the low-altitude economy with high quality. *Also listed in [Week 1](week-01.qmd).*
 
-## End of the twelve-week sequence
+### End of the twelve-week sequence
 
 This page closes the Teach sequence. Return to [Course overview](overview.qmd) for the full map, or to [Week 11](week-11.qmd) for the capstone synthesis that this review builds on. Final exam logistics stay on the teaching platform.
 

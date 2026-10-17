@@ -829,13 +829,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (CAD AC-017 Sandbox X cross-boundary; OFCA 1.4 GHz UAS licence confined to LAE Regulatory Sandbox; academic UAM airspace reviews; NASA / FAA ConOps comparators).  
 - **Course links:** [Week 7](week-07.qmd) · [Week 5](week-05.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Glossary · airspace](glossary.qmd#airspace-and-traffic).  
 - **Slides:** [week08-airspace.pdf](slides/week08-airspace.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 8 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -861,7 +858,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 - [FAA (2020). *Unmanned Aircraft System (UAS) Traffic Management (UTM) Concept of Operations*, v2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/2022-08/UTM_ConOps_v2.pdf) — FAA's UTM concept of operations; a reference model for low-altitude traffic management.
 - [FAA (26 April 2023). *Urban Air Mobility (UAM) Concept of Operations*, Version 2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/Urban%20Air%20Mobility%20%28UAM%29%20Concept%20of%20Operations%202.0_0.pdf) — FAA UAM ConOps 2.0: corridors and the roles of PSUs and operators.
 
-## Looking ahead to Week 9
+### Looking ahead to Week 9
 
 Week 9 turns to the **economic and social impact of LAE**: jobs, productivity, distribution, environment, and public acceptance — asking whether low-altitude services improve outcomes for everyday users, not only whether operators can earn a contribution margin. Preview question from class: after eight weeks on how firms organise commercial models, does LAE actually make life better for citizens?
 

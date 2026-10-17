@@ -944,13 +944,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (OHKF segment structure — think-tank; vertiport academic reviews; EASA prototype vertiport specs as EU comparator; HKSAR LCQ on spatial data / CSDI; Shenzhen infra chapter).  
 - **Course links:** [Week 3](week-03.qmd) · [Week 4](week-04.qmd) · [Glossary · infrastructure](glossary.qmd#infrastructure) · [Landscape](landscape.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 5 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -969,7 +966,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 - [HKSAR Government (25 June 2025). LCQ3: Developing low-altitude economy. Press release P2025062500305, info.gov.hk.](https://www.info.gov.hk/gia/general/202506/25/P2025062500305.htm) — HK government on 3D spatial data, the CSDI and a unified data-sharing platform as LAE infrastructure.
 - [[深圳市人民代表大会常务委员会 (2023年12月29日通过；2024年2月1日起施行). 《深圳经济特区低空经济产业促进条例》, 公告第一二八号, 深圳市政府公报2024年第4期（总第1319期）.]{lang="zh-Hans"}](https://www.sz.gov.cn/zfgb/2024/gb1319/content/post_11127288.html) — Chapter 2 (基础设施) sets out who plans, builds and runs physical and digital low-altitude infrastructure in Shenzhen. English gloss: Shenzhen Special Economic Zone Regulations on Promoting the Low-Altitude Economy Industry. *Also listed in [Week 2](week-02.qmd).*
 
-## Looking ahead to Week 6
+### Looking ahead to Week 6
 
 Week 6 turns to **strategic partnerships and business models**: asset-intensive vs service vs platform architectures; when a public–private partnership might make sense; usage vs availability payments; and co-opetition on shared facilities. Preview theme from the slides: who pays for the chargers?
 

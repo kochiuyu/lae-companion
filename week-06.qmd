@@ -848,13 +848,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (first-batch Regulatory Sandbox **38 of 72**; LegCo note on Shenzhen/US partnership models; TLB LCQ on Sandbox process; WEF / Deloitte for ecosystem structure — not for numbers).  
 - **Course links:** [Week 5](week-05.qmd) · [How does LAE work?](business-overview.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics).  
 - **Slides:** [week06-partnerships.pdf](slides/week06-partnerships.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 6 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -881,7 +878,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [Hussain, A., & Silver, D. (26 January 2021). *Advanced air mobility*. Deloitte Insights.](https://www2.deloitte.com/us/en/insights/industry/aerospace-defense/advanced-air-mobility.html) — Consultancy view of AAM business models and ecosystem roles. Use it for structure only, not for numbers.
 
-## Looking ahead to Week 7
+### Looking ahead to Week 7
 
 Week 7 turns to **LAE policy and regulation**: how regulation can be part of competitive strategy; Hong Kong’s risk-based SUA approach and Sandbox X; permissions for advanced operations (including BVLOS); safety cases; and digital traffic management. Preview question: how will instruments such as operating restrictions and BVLOS rules rewrite the contracts designed this week?
 

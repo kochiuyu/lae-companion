@@ -1320,14 +1320,11 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) on this page.  
 - **Orient:** [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Common questions](faq.qmd).  
 - **Evidence pages:** [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Timeline](dates.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week01-introduction.pdf](slides/week01-introduction.pdf). Assessment logistics and submission stay on the teaching platform; the slide deck carries the Week 1 memo brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -1362,7 +1359,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [[中国信息通信研究院知识产权与创新发展中心 & 中国互联网协会 (2024年12月). 《低空经济政策与产业生态研究报告（2024年）》. CAICT.]{lang="zh-Hans"}](https://www.caict.ac.cn/english/research/whitepapers/202504/P020250401513801693140.pdf) — Mainland definition of LAE (1,000 m, extendable to 3,000 m) and four-part industry ecosystem; contrasts with the HK framing. English gloss: Research Report on Low-Altitude Economy Policy and Industrial Ecosystem (2024).
 
-## Looking ahead to Week 2
+### Looking ahead to Week 2
 
 Week 2 turns to **market structure and competition**: how scarce infrastructure (for example limited landing capacity in dense districts), sunk costs, and route density shape rivalry and entry.
 

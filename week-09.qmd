@@ -908,13 +908,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (OHKF *Taking Flight* value-added projection; Clothier et al. on drone acceptance; Al Haddad et al. / Cohen et al. on adoption and market potential; EASA societal-acceptance study).  
 - **Course links:** [Week 8](week-08.qmd) · [Week 4](week-04.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week09-impact.pdf](slides/week09-impact.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 9 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -938,7 +935,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [EASA. *Full Report – Study on the societal acceptance of Urban Air Mobility in Europe*. European Union Aviation Safety Agency (publication date not shown on landing page).](https://www.easa.europa.eu/en/full-report-study-societal-acceptance-urban-air-mobility-europe) — n.d. — Public acceptance, noise and safety concerns from the EU survey. *Also listed in [Week 4](week-04.qmd).*
 
-## Looking ahead to Week 10
+### Looking ahead to Week 10
 
 Week 10 turns to **sustainability challenges in urban air operations**: carbon, noise, and the cost of cleaner technology — linking the social costs named this week to measurable environmental metrics and abatement costs.
 

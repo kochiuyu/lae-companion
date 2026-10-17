@@ -785,13 +785,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (NASA UAM Market Study; stated-preference and adoption papers; EASA societal-acceptance report as EU comparator).  
 - **Course links:** [Week 1](week-01.qmd) · [Week 3](week-03.qmd) · [Week 5](week-05.qmd) · [Glossary](glossary.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week04-demand.pdf](slides/week04-demand.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 4 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -809,7 +806,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [EASA. *Full Report – Study on the societal acceptance of Urban Air Mobility in Europe*. European Union Aviation Safety Agency (publication date not shown on landing page).](https://www.easa.europa.eu/en/full-report-study-societal-acceptance-urban-air-mobility-europe) — n.d. — European regulator's survey of public acceptance; demand-side constraint evidence.
 
-## Looking ahead to Week 5
+### Looking ahead to Week 5
 
 Week 5 turns to **infrastructure economics and management**: why sites (not only aircraft) can bind; vertiport archetypes and throughput; breakeven activity and staged investment; scarce slots. Preview question: how should these demand forecasts shape where expensive vertiports go in land-scarce Hong Kong?
 

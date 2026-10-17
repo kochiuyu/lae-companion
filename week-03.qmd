@@ -1011,13 +1011,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) on this page (NASA UAM Market Study as official UAM framing — **not** an HK government figure; academic cost/operations reviews; CAAC delivery-trial guide as a cost-line comparator).  
 - **Course links:** [Glossary · business and economics](glossary.qmd#business-and-economics) · [Week 2](week-02.qmd) · [How does LAE work?](business-overview.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 3 assignment brief used in class.
-
-## Readings {#readings}
 
 ### Main references
 
@@ -1035,7 +1032,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [[中国民用航空局飞行标准司、航空器适航审定司、空管行业管理办公室 (2022-08-29). 《民用轻小型无人驾驶航空器物流配送试运行审定指南》, 信息通告 IB-TM-2022-05.]{lang="zh-Hans"}](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202209/P020220921337984338794.pdf) — CAAC delivery-trial requirements (C2 link, record keeping, insurance, buffers) that turn directly into operating-cost lines. English gloss: Guide to trial-operation certification of light/small civil UAS for logistics delivery.
 
-## Looking ahead to Week 4
+### Looking ahead to Week 4
 
 Week 4 turns to **demand modeling in urban air mobility**: whether customers would actually choose an LAE option, funnels from potential trips to constrained capacity, willingness to pay and generalized cost, and treating public acceptance as explicit scenarios. Preview question: once you know what you must charge to survive, how do you show that customers might pay it?
 

@@ -762,13 +762,10 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 ---
 
-## Further reading and course links
+## Readings {#readings}
 
-- **Documents for this week:** [Readings](#readings) (2025 Policy Address ¶153–157 / Action Plan OPEN + Sandbox X framing — same official text as Week 10; CAD AC-017; Straubinger et al. UAM overview; FAA AAM Implementation Plan as roadmap comparator; LegCo IN10/2025; CAICT ecosystem report for GBA-facing work).  
 - **Course links:** [Week 10](week-10.qmd) · [Course overview](overview.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
 - **Slides:** [week11-capstone.pdf](slides/week11-capstone.pdf).
-
-## Readings {#readings}
 
 ### Main references
 
@@ -793,7 +790,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 
 - [[中国信息通信研究院知识产权与创新发展中心 & 中国互联网协会 (2024年12月). 《低空经济政策与产业生态研究报告（2024年）》. CAICT.]{lang="zh-Hans"}](https://www.caict.ac.cn/english/research/whitepapers/202504/P020250401513801693140.pdf) — Mainland ecosystem framing for GBA-facing capstones. English gloss: Research Report on Low-Altitude Economy Policy and Industrial Ecosystem (2024). *Also listed in [Week 1](week-01.qmd).*
 
-## Looking ahead to Week 12
+### Looking ahead to Week 12
 
 Week 12 turns to **review, quantitative applications, and the final exam**: demonstrating integrated economic judgment across the course under time pressure. Preview question from class: how will you show this level of connected reasoning across all eleven weeks in the exam?
 

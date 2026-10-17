@@ -54,7 +54,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 
 ```{=html}
 <style>
-.omap{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--muted:#5f5f5f;margin:.75rem 0 1.25rem;font-size:.92rem}
+.omap{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--muted:#5f5f5f;margin:.75rem 0 .35rem;font-size:.92rem}
 .omap-cap{color:var(--muted);margin:0 0 .75rem;font-size:.88rem}
 .omap-flow{display:flex;flex-direction:column;gap:.55rem;align-items:stretch;max-width:52rem}
 .omap-stage{background:var(--beige);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:8px;padding:.55rem .85rem .7rem}
@@ -67,6 +67,8 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 .omap-stage .wk{display:inline-block;font-size:.76rem;font-weight:600;padding:.05rem .45rem;border-radius:999px;background:#e6edf5;color:var(--navy);margin-right:.4rem;white-space:nowrap}
 .omap-arrow{text-align:center;color:var(--navy);font-size:1.25rem;line-height:1;user-select:none}
 @media (max-width:640px){.omap{font-size:.88rem}}
+#course-map-svg{margin-top:.15rem}
+.omap-twin-note{color:var(--muted,#5f5f5f);font-size:.88rem;margin:.15rem 0 .35rem;max-width:52rem}
 </style>
 <div class="omap" id="course-map">
 <p class="omap-cap">Week topics from the course schedule / Readings, grouped by how the outline builds.</p>
@@ -108,6 +110,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 </section>
 </div>
 </div>
+<p class="omap-twin-note">Schematic twin of the clickable map above — stages only; week links stay in the HTML map.</p>
 ```
 
 ```{=html}
