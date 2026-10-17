@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -181,7 +182,7 @@ Class organises early LAE battles into four families (aligned with Week 1’s va
 Dated trial and operating examples (not market-share claims): [Use cases](usecases.qmd).
 
 ```{=html}
-<figure class="wdiag" id="w02-segments-svg" aria-labelledby="w02-segments-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-segments-svg" aria-labelledby="w02-segments-svg-title">
 <p class="wdiag-cap" id="w02-segments-svg-title"><strong>Four segments — four logics</strong> — last-mile logistics (speed/cost); passenger air taxis (time product); industrial inspection (reliability); EMS (high WTP when time/access bind). <strong>Not</strong> market-share claims. Do not import a passenger-oligopoly story into an inspection tender. EMS high WTP ≠ unlimited pricing power (budgets/procurement still bind). See <a href="usecases.qmd">Use cases</a> for dated examples only.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m2-title m2-desc">
   <title id="m2-title">Four segments — four logics</title>
@@ -272,7 +273,7 @@ Course glossary entry: [HHI](glossary.qmd) (course term).
 Case B is far more concentrated and may warrant closer examination of **entry** and **access to sites** — still without claiming that any real Hong Kong corridor has these shares. (Slide titles that say “Sandbox Dominance” are teaching labels for Case B’s *story* — they do **not** mean Sandbox selection equals market share.)
 
 ```{=html}
-<figure class="wdiag" id="w02-hhi-screen" aria-labelledby="w02-hhi-screen-title">
+<figure class="wdiag wdiag-svg" id="w02-hhi-screen" aria-labelledby="w02-hhi-screen-title">
 <p class="wdiag-cap" id="w02-hhi-screen-title"><strong>Uneven shares raise HHI — not Sandbox “dominance”</strong> — illustrative Case A (four equal 25% shares → HHI 2,500) vs Case B (80% / 20% → HHI 6,800). HHI is a screen only. Regulatory Sandbox or Sandbox X participation is not market-share evidence.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c2-title c2-desc">
   <title id="c2-title">Uneven shares raise HHI — not Sandbox dominance</title>
@@ -355,7 +356,7 @@ More flights **spread** the fixed charge. Low utilization makes each flight look
 | [**ATC**](glossary.qmd#atc-average-total-cost) (average total cost) | **HK$1,717** | **HK$217** |
 
 ```{=html}
-<figure class="wdiag" id="w02-atc-util" aria-labelledby="w02-atc-util-title">
+<figure class="wdiag wdiag-svg" id="w02-atc-util" aria-labelledby="w02-atc-util-title">
 <p class="wdiag-cap" id="w02-atc-util-title"><strong>Low flights make the pad expensive</strong> — illustrative rooftop lease ≈ HK$33,333 per day and marginal cost HK$50 per flight. At 20 flights/day, average total cost is about HK$1,717; at 200 flights/day it falls to about HK$217. Classroom arithmetic only — not a Hong Kong site quote.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c1-title c1-desc">
   <title id="c1-title">Low flights make the pad expensive</title>
@@ -497,7 +498,7 @@ Under these assumptions B has a much lower average cost. Whether 500 flights/day
 **Connecting idea.** Do not treat “500 flights/day” as a Hong Kong forecast. Use it only to see how steeply ATC falls with density *if* demand and pad rules allow it.
 
 ```{=html}
-<figure class="wdiag" id="w02-density-trap-svg" aria-labelledby="w02-density-trap-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-density-trap-svg" aria-labelledby="w02-density-trap-svg-title">
 <p class="wdiag-cap" id="w02-density-trap-svg-title"><strong>Density trap · pad HK$50k/day → ATC HK$2,600 vs HK$200</strong> — Classroom: fixed pad <strong>HK$50,000/day</strong>; MC <strong>HK$100/flight</strong>. Operator A <strong>20</strong> flights/day → fixed/flight HK$2,500 + 100 = <strong>HK$2,600</strong>/flight. Operator B <strong>500</strong> flights/day → fixed/flight HK$100 + 100 = <strong>HK$200</strong>/flight. Density can crush ATC <em>if</em> volume is allowed — <strong>500 flights/day ≠ HK forecast</strong>. Illustrative only. ≠ <code>#w02-density-svg</code> (conceptual loop). Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="z1-title z1-desc">
   <title id="z1-title">Density trap: twenty flights cost two thousand six hundred per flight; five hundred flights cost two hundred per flight</title>
@@ -542,7 +543,7 @@ NASA’s UAM market work (2018) is used in this course as a **practical checklis
 Importance varies by application and over time. Hong Kong’s institutional map (Working Group, TLB, CAD, OFCA) is on [Who decides what?](regulators.qmd); citeable programme status is on [Official status](tracker.qmd). Cap. **448G** risk-based SUA regulation and advanced-ops permissions (Week 7) are the local legal frame for light unmanned craft — distinct from US “Part 25”-style manned-aviation stories used only as comparators in Week 1.
 
 ```{=html}
-<figure class="wdiag" id="w02-entry-svg" aria-labelledby="w02-entry-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-entry-svg" aria-labelledby="w02-entry-svg-title">
 <p class="wdiag-cap" id="w02-entry-svg-title"><strong>Entry barriers (NASA-style checklist)</strong> — (1) regulatory/certification; (2) infrastructure availability; (3) public perception. NASA UAM (2018) used here as a <strong>practical checklist</strong> — <strong>not</strong> Hong Kong law. Sunk costs raise entrant average cost; shared pads can shrink an incumbent moat. Hong Kong sandboxes are a learn-before-scale track — <strong>Sandbox ≠ Sandbox X</strong>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i2-title i2-desc">
   <title id="i2-title">Entry barriers (NASA-style checklist)</title>
@@ -609,7 +610,7 @@ When policy or contracts force **sharing** of scarce pads, the incumbent’s “
 **Tool chain.** High sunk pad costs raise $AC_{\text{Entrant}}$ → higher possible $P_{\text{Limit}}$ → incumbent can charge more *while* watching entry. Shared-pad policy reverses that. Co-opetition ([§10](#10-co-opetition-compete-on-service-share-the-roof)) is one institutional way to lower sunk entry — if governance works.
 
 ```{=html}
-<figure class="wdiag" id="w02-limit-price-svg" aria-labelledby="w02-limit-price-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-limit-price-svg" aria-labelledby="w02-limit-price-svg-title">
 <p class="wdiag-cap" id="w02-limit-price-svg-title"><strong>Limit price · high sunk HK$1,200 vs shared HK$300</strong> — Classroom: entrant <em>Q</em>=<strong>10,000</strong> flights; MC <strong>HK$200</strong>. Own-pad sunk <strong>HK$10M</strong> → <em>AC</em><sub>Entrant</sub> <strong>HK$1,200</strong> / limit-style ~<strong>HK$1,190</strong>. Shared-pad sunk <strong>HK$1M</strong> → <em>AC</em> <strong>HK$300</strong> / ~<strong>HK$290</strong>. Sharing shrinks the sunk moat — arithmetic is a screen, not proof of deterrence. ≠ <code>#w02-entry-svg</code> (NASA checklist). Sandbox ≠ Sandbox X. Trial ≠ dominance.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a2-title a2-desc">
   <title id="a2-title">Limit price: high sunk entrant average cost twelve hundred, limit about eleven ninety; shared pad three hundred, limit about two ninety</title>
@@ -670,7 +671,7 @@ Competitive strategy in this course is HK-first but GBA-aware:
 Hong Kong’s service-layer role is a **strategy to build**, not an automatic outcome (same theme as Week 1 / OHKF supporting-services framing — still a think-tank projection, not government GDP).
 
 ```{=html}
-<figure class="wdiag" id="w02-hk-gba-svg" aria-labelledby="w02-hk-gba-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-hk-gba-svg" aria-labelledby="w02-hk-gba-svg-title">
 <p class="wdiag-cap" id="w02-hk-gba-svg-title"><strong>HK service-layer + GBA supply</strong> — HK: dense urban testing + finance / insurance / logistics / legal / professional services. GBA: aircraft, electronics, batteries, supply chains. Programme facts: first Sandbox <strong>38 of 72</strong>; Sandbox X <strong>33</strong> modules (“~10” testing ≠ 33). Trial ≠ dominance ≠ auto commercial approval. Corridor in policy talk ≠ day-to-day service. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>. OHKF services framing = hypothesis, not GDP.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t5-title t5-desc">
   <title id="t5-title">Hong Kong service layer plus GBA supply chain; Sandbox X trials are not dominance</title>
@@ -739,7 +740,7 @@ Capacity limits do **not** guarantee high prices or profits: allocation rules, r
 | Lesson | Price war destroys margins | Scarcity can support margins — not a promise of $P =$ HK$500 |
 
 ```{=html}
-<figure class="wdiag" id="w02-bertrand-svg" aria-labelledby="w02-bertrand-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-bertrand-svg" aria-labelledby="w02-bertrand-svg-title">
 <p class="wdiag-cap" id="w02-bertrand-svg-title"><strong>Scarce pads can soften price wars</strong> — with unconstrained capacity and a homogeneous product, Bertrand undercutting can push <em>P</em> toward <em>MC</em>. When pad rules leave <strong>total capacity below demand</strong>, neither firm can absorb the market by cutting price alone — scarcity <strong>may</strong> soften wars. Capacity limits do <strong>not</strong> guarantee high prices or profits. Classroom only (MC = HK$100; WTP up to HK$500; demand = 100).</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n2-title n2-desc">
   <title id="n2-title">Scarce pads can soften price wars</title>
@@ -786,7 +787,7 @@ Airlines sometimes compete for passengers while sharing lounges or codeshares. E
 **Co-opetition** only lowers unit cost if rules for **access, investment, control, congestion, data, liability, and competition law** are clear. Sharing without governance can recreate conflict. Week 6 deepens PPP / payment design; Week 8 deepens shared facility cost per movement.
 
 ```{=html}
-<figure class="wdiag" id="w02-coop-svg" aria-labelledby="w02-coop-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-coop-svg" aria-labelledby="w02-coop-svg-title">
 <p class="wdiag-cap" id="w02-coop-svg-title"><strong>Compete on service, share the roof</strong> — compete on vehicle, app, reliability, and brand; cooperate on scarce pads, charging, or digital coordination where duplication is ruinous. Classroom rooftop: alone <strong>HK$100,000/day</strong> vs four sharing <strong>HK$25,000</strong> each (100 flights → HK$1,000 vs HK$250 rent/flight). Sharing without clear rules for access, investment, control, congestion, data, liability, and competition law can recreate conflict — not free money.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m3-title m3-desc">
   <title id="m3-title">Compete on service, share the roof</title>
@@ -838,7 +839,7 @@ Sharing is one of the fastest ways to survive extreme land costs — if the acce
 **Link to limit pricing.** Shared pads cut sunk entry ([§7](#worked-illustration-limit-price-and-shared-pads)) and can raise Bertrand pressure ([§9](#9-price-competition-when-capacity-is-scarce)). Co-opetition is not “free money”: it trades a lower cost floor for harder price competition and governance cost.
 
 ```{=html}
-<figure class="wdiag" id="w02-shared-roof-svg" aria-labelledby="w02-shared-roof-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-shared-roof-svg" aria-labelledby="w02-shared-roof-svg-title">
 <p class="wdiag-cap" id="w02-shared-roof-svg-title"><strong>Shared rooftop · HK$1,000 vs HK$250/flight</strong> — Classroom Kowloon rooftop <strong>HK$100,000/day</strong>. Alone: <strong>HK$1,000</strong> rent/flight (100 flights). Four-way share: <strong>HK$25,000</strong> each → <strong>HK$250</strong> rent/flight. Sharing survives extreme land cost only if access rules work — trades lower cost floor for harder price competition. ≠ <code>#w02-coop-svg</code> (concept). ≠ density-trap / ATC-util tables. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a5-title a5-desc">
   <title id="a5-title">Shared rooftop: alone one thousand dollars rent per flight versus four-way share two hundred fifty</title>

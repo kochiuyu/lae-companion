@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -109,7 +110,7 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 ```
 
 ```{=html}
-<figure class="wdiag" id="w08-bind-first" aria-labelledby="w08-bind-first-title">
+<figure class="wdiag wdiag-svg" id="w08-bind-first" aria-labelledby="w08-bind-first-title">
 <p class="wdiag-cap" id="w08-bind-first-title"><strong>Reliable capacity = whichever link binds first</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set safe capacity. Diagnose the binding resource before designing auctions or prices. Cap. 448G height bands ≠ ~1,000 m policy working description; Sandbox ≠ Sandbox X; do not invent Harbour corridor capacity.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c8-title c8-desc">
   <title id="c8-title">Reliable capacity = whichever link binds first</title>
@@ -210,7 +211,7 @@ $$
 Sum the incremental delay imposed on **all** affected users, not only the next aircraft. Values may differ across passengers, cargo, aircraft, public services, and schedule commitments. The theoretically efficient charge equals marginal external cost — that cost is hard to observe precisely in real time, so a practical peak charge may use estimated bands and periodic review.
 
 ```{=html}
-<figure class="wdiag" id="w08-mcc-svg" aria-labelledby="w08-mcc-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-mcc-svg" aria-labelledby="w08-mcc-svg-title">
 <p class="wdiag-cap" id="w08-mcc-svg-title"><strong>Congestion cost is what you impose on others</strong> — marginal congestion cost sums additional delay × value of delay across affected users, then adds other incremental costs (MCC). Pricing is only one response; reservations, quotas, priority rules, rerouting, and capacity investment may also fit. Some public-service missions need <strong>explicit priority</strong> rather than willingness to pay. Classroom delay screens only — not published CAD capacities; do not invent corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m5-title m5-desc">
   <title id="m5-title">Congestion cost is what you impose on others</title>
@@ -264,7 +265,7 @@ External delay cost ≈ $5 \times 200$ = **HK$1,000** (here $C_{\mathrm{other}}=
 **Connecting idea.** A charge that ignores public-service priority will look “efficient” on willingness-to-pay and still violate Week 6 / Week 7 service obligations. Mechanism choice is not only price versus queue — it is which missions are allowed to bid at all.
 
 ```{=html}
-<figure class="wdiag" id="w08-mcc-delay-svg" aria-labelledby="w08-mcc-delay-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-mcc-delay-svg" aria-labelledby="w08-mcc-delay-svg-title">
 <p class="wdiag-cap" id="w08-mcc-delay-svg-title"><strong>MCC delay · 5 min × HK$200/min → HK$1,000</strong> — Classroom: one extra operation delays three flights by <strong>5 min</strong> each. Delay values <strong>HK$100 / 60 / 40</strong> per min → total <strong>HK$200/min</strong>. External delay ≈ 5×200 = <strong>HK$1,000</strong> (<em>C</em><sub>other</sub>=0). Peak charge near this may encourage a flexible op to move — response not guaranteed. Excludes safety, environmental, schedule-recovery. ≠ <code>#w08-mcc-svg</code> (formula chips). No invented corridor <em>K</em>. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a1-title a1-desc">
   <title id="a1-title">MCC delay screen: five minutes times two hundred dollars per minute equals one thousand dollars external delay cost</title>
@@ -404,7 +405,7 @@ Operator B can afford a higher bid under these assumptions. Actual payment depen
 **Exercise ledger (classroom):** cargo $B_{\max}$ = revenue − cost − contribution = $800 - 400 - 100$ = **HK$300**; passenger = $2000 - 600 - 400$ = **HK$1,000**. If priority public service is triggered, record who bears displacement cost and whether compensation, rescheduling, or reserved capacity applies.
 
 ```{=html}
-<figure class="wdiag" id="w08-bmax-svg" aria-labelledby="w08-bmax-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-bmax-svg" aria-labelledby="w08-bmax-svg-title">
 <p class="wdiag-cap" id="w08-bmax-svg-title"><strong>B_max · bid ≠ social priority</strong> — Classroom: <em>B</em>_max = <em>R</em>_Δ − <em>C</em>_Δ − π_req. Operator A: 2,000 − 1,200 − 300 = <strong>HK$500</strong>. Operator B: 2,000 − 600 − 300 = <strong>HK$1,100</strong>. Exercise ledger: cargo 800 − 400 − 100 = <strong>HK$300</strong>; passenger 2,000 − 600 − 400 = <strong>HK$1,000</strong>. High bid ≠ high social value; public-service displacement needs explicit rules. Not a CAD tariff. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 380" role="img" aria-labelledby="x5-title x5-desc">
   <title id="x5-title">Maximum affordable slot payment: operator A five hundred versus B one thousand one hundred; cargo three hundred versus passenger one thousand</title>
@@ -452,7 +453,7 @@ Shared data does **not** automatically make a system safer — data quality, lat
 **Connecting idea.** Network effects can lock in a coordination platform the way Week 2 density locked in pad advantage. Interoperability standards and open interfaces are therefore competition policy as well as engineering — not only “IT efficiency.”
 
 ```{=html}
-<figure class="wdiag" id="w08-network-svg" aria-labelledby="w08-network-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-network-svg" aria-labelledby="w08-network-svg-title">
 <p class="wdiag-cap" id="w08-network-svg-title"><strong>Network effects — value ↑ and load ↑</strong> — more compatible users can improve route planning, conflict detection, and coordination <strong>and</strong> raise congestion, cybersecurity exposure, monitoring, and complexity. Shared data ≠ automatic safety (quality, latency, coverage, governance, operational use). Distinct from Week 12 links≠viable. No invented corridor <em>K</em>. U-space ≠ HK law. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r4-title r4-desc">
   <title id="r4-title">Network effects raise value and congestion; shared data is not automatic safety</title>
@@ -535,7 +536,7 @@ Illustrative monthly saving HK$450,000 — only if reliability, security, and se
 **Connecting idea.** Mixing OFCA’s Sandbox-confined 1.4 GHz fact with AC-017’s Sandbox X cross-boundary pathway is the same category error as merging AC-013 and AC-017 in Week 7. Keep programmes and circulars separate when you design allocation and communications assumptions.
 
 ```{=html}
-<figure class="wdiag" id="w08-interop-svg" aria-labelledby="w08-interop-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-interop-svg" aria-labelledby="w08-interop-svg-title">
 <p class="wdiag-cap" id="w08-interop-svg-title"><strong>Interop monthly cost — HK$900k → HK$450k</strong> — Classroom: 1,000 ops/day · 30 days. Less-integrated HK$30/op → <strong>HK$900,000</strong>/mo; interoperable fixed HK$12k + HK$3/op → <strong>HK$450,000</strong>/mo. Saving only if reliability, security, and service quality hold. Interop ≠ free. Not a HK UTM or EU U-space cost estimate. <strong>OFCA 1.4 GHz</strong> = Sandbox-confined; <strong>AC-017</strong> = Sandbox X only. U-space ≠ HK law. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t1-title t1-desc">
   <title id="t1-title">Interop monthly cost Hong Kong dollar 900 thousand down to 450 thousand</title>
@@ -621,7 +622,7 @@ Include implementation cost in the year it occurs. Cash flows should reflect pro
 Attractive under these assumed cash flows. Probabilities, decision gates, terminal value, and cross-boundary dependencies still require analysis. Not a forecast of Hong Kong–GBA operations.
 
 ```{=html}
-<figure class="wdiag" id="w08-roadmap-svg" aria-labelledby="w08-roadmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-roadmap-svg" aria-labelledby="w08-roadmap-svg-title">
 <p class="wdiag-cap" id="w08-roadmap-svg-title"><strong>Roadmap NPV ≈ HK$29.8M</strong> — Classroom CF @ 10%: year 0 <strong>−HK$50M</strong>; year 1 <strong>+HK$10M</strong> (PV ≈ HK$9.1M); year 2 <strong>+HK$40M</strong> (PV ≈ HK$33.1M); year 3 <strong>+HK$50M</strong> (PV ≈ HK$37.6M). PV of future nets ≈ HK$79.8M → roadmap NPV ≈ <strong>HK$29.8M</strong>. Positive NPV under assumptions ≠ viable market. Not a HK–GBA forecast. No invented corridor <em>K</em>. U-space ≠ HK law. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s4-title s4-desc">
   <title id="s4-title">Airspace-integration roadmap NPV about Hong Kong dollar 29.8 million under classroom cash flows</title>
@@ -679,7 +680,7 @@ Roadmaps need a sequence. The **tool map** walks bottleneck → congestion cost 
 | 10 | Keep Sandbox ≠ Sandbox X; U-space ≠ HK law; no invented corridor capacity | Fact discipline |
 
 ```{=html}
-<figure class="wdiag" id="w08-toolmap-svg" aria-labelledby="w08-toolmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-toolmap-svg" aria-labelledby="w08-toolmap-svg-title">
 <p class="wdiag-cap" id="w08-toolmap-svg-title"><strong>From bottleneck to roadmap</strong> — (1) what binds → (2) legal envelope → (3) peak-charge screen (<strong>not</strong> a tariff) → (4) mechanism → (5) B_max → (6) package linked slots → (7) interoperability → (8) OFCA 1.4 GHz / AC-017 map → (9) phased gates → (10) <strong>Sandbox ≠ Sandbox X</strong>; <strong>U-space ≠ HK law</strong>; <strong>no invented corridor capacity</strong>. Whole-system capacity — not drones-per-minute.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k4-title k4-desc">
   <title id="k4-title">From bottleneck to roadmap</title>

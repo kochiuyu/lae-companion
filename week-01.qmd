@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -166,7 +167,7 @@ A student who conflates “LAE below 1,000 m” with “I may fly an SUA to 1,00
 Keep the layers separate:
 
 ```{=html}
-<figure class="wdiag" id="w01-altitude-layers" aria-labelledby="w01-altitude-layers-title">
+<figure class="wdiag wdiag-svg" id="w01-altitude-layers" aria-labelledby="w01-altitude-layers-title">
 <p class="wdiag-cap" id="w01-altitude-layers-title"><strong>Keep the layers separate</strong> — the ~1,000&nbsp;m working description is policy / economic framing of LAE, <em>not</em> a Cap.&nbsp;448G flying ceiling. Ordinary SUA bands: Category&nbsp;A1 at 100&nbsp;ft AGL (≈&nbsp;30&nbsp;m) and Category&nbsp;A2 at 300&nbsp;ft AGL (≈&nbsp;91&nbsp;m). Mainland 120&nbsp;m / 300&nbsp;m (真高) labels are a different scheme (国令761), not Hong Kong Cap.&nbsp;448G. Cite <a href="key-figures.qmd">Key numbers</a> · <a href="glossary.qmd#altitude-scale">Glossary · altitude</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" role="img" style="display:block;width:100%;max-width:42rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="b1-title b1-desc">
   <title id="b1-title">Keep the layers separate</title>
@@ -339,7 +340,7 @@ Traditional scheduled aviation typically uses large, expensive aircraft, large c
 **Managerial implication:** a fast aircraft does not automatically create a valuable *service*.
 
 ```{=html}
-<figure class="wdiag" id="w01-differs-svg" aria-labelledby="w01-differs-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-differs-svg" aria-labelledby="w01-differs-svg-title">
 <p class="wdiag-cap" id="w01-differs-svg-title"><strong>LAE is not a mini-airline</strong> — short-distance, high-frequency operations; an <strong>entire ecosystem</strong> (sites, charging, digital coordination, insurance, maintenance) — not only an airframe; different cost structures, operating models, and regulatory needs. <strong>Managerial implication:</strong> a fast aircraft does not automatically create a valuable *service*. Structural contrasts only — no invented Hong Kong fare data.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i1-title i1-desc">
   <title id="i1-title">LAE is not a mini-airline</title>
@@ -402,7 +403,7 @@ You will hear three acronyms constantly. Keep them **nested**, not interchangeab
 **Course focus:** start **Hong Kong-first**, then expand to the **Greater Bay Area (GBA)** — the city cluster that includes Hong Kong, Macao, and nearby Guangdong cities — and selected Mainland / global comparators. EU / US / NASA-style AAM materials are **comparators**, not Hong Kong law ([Who decides what?](regulators.qmd); [Course overview](overview.qmd)).
 
 ```{=html}
-<figure class="wdiag" id="w01-nested-labels" aria-labelledby="w01-nested-labels-title">
+<figure class="wdiag wdiag-svg" id="w01-nested-labels" aria-labelledby="w01-nested-labels-title">
 <p class="wdiag-cap" id="w01-nested-labels-title"><strong>Nested labels, not synonyms</strong> — <strong>LAE</strong> is the umbrella; <strong>UAM</strong> is a <em>subset</em> (people or cargo over short distances inside a dense city); <strong>AAM</strong> is a broader industry label (cities to suburbs or other corridors). Keep them nested, not interchangeable. EU / US / NASA-style AAM materials are comparators, not Hong Kong law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="b2-title b2-desc">
   <title id="b2-title">Nested labels, not synonyms</title>
@@ -501,7 +502,7 @@ Dated trial and operating examples on this site: [Use cases](usecases.qmd). Name
 Icebreaker intuition from class (not a claim that either service is operating today): an urgent medical delivery that avoids harbour road congestion, or a business-district–airport air link that cuts door-to-door time, both illustrate *why* LAE is discussed. Whether either is commercially or socially viable is exactly what Weeks 1–10 teach you to test.
 
 ```{=html}
-<figure class="wdiag" id="w01-four-families-svg" aria-labelledby="w01-four-families-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-four-families-svg" aria-labelledby="w01-four-families-svg-title">
 <p class="wdiag-cap" id="w01-four-families-svg-title"><strong>Four families · different binding constraints</strong> — <strong>Cargo</strong>: time / reliability / access → payload, weather, sites, BVLOS. <strong>Passenger</strong>: door-to-door vs MTR / taxi / Airport Express → vertiport, load factor, noise, acceptance. <strong>Inspection</strong>: lower disruption vs manned access → safety case, data/privacy, repeatability. <strong>EMS / public</strong>: time-critical outcomes → priority rules, funding, acceptance. Not market-share claims. High EMS WTP ≠ unlimited pricing. Cite Use cases for examples only. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u3-title u3-desc">
   <title id="u3-title">Four LAE value families: cargo, passenger, inspection, EMS — different binding constraints</title>
@@ -682,7 +683,7 @@ $$
 **Core lesson:** time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability.
 
 ```{=html}
-<figure class="wdiag" id="w01-vot-npv-svg" aria-labelledby="w01-vot-npv-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-vot-npv-svg" aria-labelledby="w01-vot-npv-svg-title">
 <p class="wdiag-cap" id="w01-vot-npv-svg-title"><strong>Three-step viability screen</strong> — (1) create value for customers (e.g. VOT × ΔT); (2) capture enough as operating profit (revenue − operating cost); (3) justify the initial investment (NPV). Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is <strong>not</strong> proof of NPV. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g3-title g3-desc">
   <title id="g3-title">Three-step viability screen</title>
@@ -758,7 +759,7 @@ All else equal, the customer prefers the option with **lower** generalized cost.
 **Design implication:** plan the **complete journey**, not only cruise time in the air. Week 4 returns to demand and mode choice ([Week 4](week-04.qmd)).
 
 ```{=html}
-<figure class="wdiag" id="w01-gc-svg" aria-labelledby="w01-gc-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-gc-svg" aria-labelledby="w01-gc-svg-title">
 <p class="wdiag-cap" id="w01-gc-svg-title"><strong>Generalized cost — door-to-door</strong> — GC = ticket price + VOT × travel time (in-vehicle, wait, board, transfer). Prefer <strong>lower</strong> GC. A faster mode can charge more <strong>only up to</strong> the value of time saved. Design the <strong>complete journey</strong>, not only cruise time — access/wait friction can reverse the ranking. Week 4 returns to demand and mode choice.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h1-title h1-desc">
   <title id="h1-title">Generalized cost — door-to-door</title>
@@ -824,7 +825,7 @@ The next two examples apply VOT and generalized cost. Figures are **illustrative
 | Value of time saved | $1000\times 0.5 =$ **HK$500** | $1000\times 0.167 \approx$ **HK$167** |
 
 ```{=html}
-<figure class="wdiag" id="w01-door-to-door" aria-labelledby="w01-door-to-door-title">
+<figure class="wdiag wdiag-svg" id="w01-door-to-door" aria-labelledby="w01-door-to-door-title">
 <p class="wdiag-cap" id="w01-door-to-door-title"><strong>Fast flight, slow door-to-door</strong> — illustrative Case&nbsp;A vs Case&nbsp;B from the table: the same 10-minute flight, but boarding/waiting 5 vs 25 minutes. Time saved vs a 45-minute alternative falls from 30 minutes (≈&nbsp;HK$500 at HK$1,000/hour) to about 10 minutes (≈&nbsp;HK$167). Not Hong Kong market data.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="b3-title b3-desc">
   <title id="b3-title">Fast flight, slow door-to-door</title>
@@ -922,7 +923,7 @@ Under these simplified assumptions, **HK$275** makes the traveller indifferent. 
 **Connecting idea.** $P=\text{HK\$275}$ is a **ceiling under stated assumptions**, not a forecast price. If partner payments alone claim HK$200 of a HK$300 ticket ([§9](#illustrative-unit-economics-not-market-data)), a fare near HK$275 may still leave a thin operator margin — connecting GC to value-chain capture.
 
 ```{=html}
-<figure class="wdiag" id="w01-ae-ceiling-svg" aria-labelledby="w01-ae-ceiling-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-ae-ceiling-svg" aria-labelledby="w01-ae-ceiling-svg-title">
 <p class="wdiag-cap" id="w01-ae-ceiling-svg-title"><strong>AE ceiling → max P = HK$275</strong> — Classroom VOT <strong>HK$10/min</strong>. Airport Express: ticket <strong>HK$115</strong> · 24 min → GC = 115 + 10×24 = <strong>HK$355</strong>. Air taxi 8 min: P + 10×8 = 355 → indifference <strong>max P = HK$275</strong>. Ceiling under stated assumptions — <strong>not</strong> a forecast. Waiting, access, reliability, comfort, and perceived safety still bind. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="v2-title v2-desc">
   <title id="v2-title">Airport Express generalized cost three hundred fifty-five implies air-taxi maximum fare two hundred seventy-five</title>
@@ -1026,7 +1027,7 @@ If all costs stayed unchanged, cutting the fare by HK$50 would turn a HK$30 marg
 **Connecting idea.** Compare this margin with the GC ceiling of HK$275 in §8.2. Under those two *separate* classroom setups, the operator is already near a knife-edge: customer indifference is not the same as a thick margin after partners are paid. Week 3’s revenue management and Week 6’s partnership payment design exist because this tension is structural.
 
 ```{=html}
-<figure class="wdiag" id="w01-valuechain-svg" aria-labelledby="w01-valuechain-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-valuechain-svg" aria-labelledby="w01-valuechain-svg-title">
 <p class="wdiag-cap" id="w01-valuechain-svg-title"><strong>Create value ≠ capture it — ticket HK$300</strong> — Classroom allocation: vertiport <strong>HK$100</strong> · UTM/digital <strong>HK$20</strong> · insurance/financing <strong>HK$30</strong> · aircraft lease <strong>HK$50</strong> → partners <strong>HK$200</strong>; cash left HK$100; after energy HK$20 + M&amp;L HK$50 → operator margin <strong>HK$30</strong>. Contracts and bargaining power decide the split. UTM ≠ U-space (EU frame ≠ HK law). “From 2028” Smart LATMS = planning WATCH, not city-wide UTM today. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u2-title u2-desc">
   <title id="u2-title">Ticket Hong Kong dollar 300 shared: partners 200 leave operator cash 100 and margin 30 — creating value is not capturing it</title>
@@ -1211,7 +1212,7 @@ $$
 **Core lesson:** operators need both frequent operations *and* sufficient demand. Flying often does not help if the aircraft repeatedly flies empty.
 
 ```{=html}
-<figure class="wdiag" id="w01-empty-seat-svg" aria-labelledby="w01-empty-seat-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-empty-seat-svg" aria-labelledby="w01-empty-seat-svg-title">
 <p class="wdiag-cap" id="w01-empty-seat-svg-title"><strong>Empty seats raise unit cost</strong> — cost per passenger = variable cost per passenger + daily fixed cost ÷ (flights per day × seats per flight × load factor). Utilization = how often it flies; load factor = share of seats filled. Need <strong>both</strong> frequent operations and sufficient demand — flying often with empty seats still leaves unit cost high. Classroom drivers only — not a Hong Kong fleet forecast.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h2-title h2-desc">
   <title id="h2-title">Empty seats raise unit cost</title>

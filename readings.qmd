@@ -6,6 +6,9 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
 Readings listed on each week page (Main + Supplementary).

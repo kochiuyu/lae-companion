@@ -6,6 +6,9 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
 This page explains the **low-altitude economy** in simple English. Use it before the week pages under **Teach**.

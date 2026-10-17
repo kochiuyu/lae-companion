@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -131,7 +132,7 @@ $$
 Under this particular linear model, HK$500 yields higher revenue. A **profit**-maximising price also needs cost and capacity (Week 3). If contribution margin is thin, the higher-revenue price can still lose money — or hit a pad/flight cap before 4,000 trips are served.
 
 ```{=html}
-<figure class="wdiag" id="w04-wtp-svg" aria-labelledby="w04-wtp-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-wtp-svg" aria-labelledby="w04-wtp-svg-title">
 <p class="wdiag-cap" id="w04-wtp-svg-title"><strong>WTP / demand — Q = 8,000 − 8P</strong> — Classroom linear model: HK$300 → Q <strong>5,600</strong> · revenue <strong>HK$1.68M</strong>; HK$500 → Q <strong>4,000</strong> · revenue <strong>HK$2.00M</strong>. Higher revenue is not higher profit — cost and capacity (Week 3/5) still bind. Not a Hong Kong forecast. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t3-title t3-desc">
   <title id="t3-title">Classroom demand Q equals 8000 minus 8P: price 300 yields revenue 1.68 million; price 500 yields 2.00 million</title>
@@ -317,7 +318,7 @@ The air option is slightly preferred under these assumptions. A small change in 
 **Connecting idea.** GC ranks *options for a traveller type*. It does not by itself give mode share, elasticity, or revenue. Use GC to stress-test whether your fare is even in the ballpark; use the funnel and capacity check to turn “might prefer” into “how many can we serve.”
 
 ```{=html}
-<figure class="wdiag" id="w04-gc-svg" aria-labelledby="w04-gc-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-gc-svg" aria-labelledby="w04-gc-svg-title">
 <p class="wdiag-cap" id="w04-gc-svg-title"><strong>Taxi GC vs air — VOT HK$15/min</strong> — Classroom: ground taxi fare <strong>HK$350</strong> · 45 min · other HK$50 → GC <strong>HK$1,075</strong>; air-mobility fare <strong>HK$800</strong> · 12 min · other HK$80 → GC <strong>HK$1,060</strong>. Air slightly preferred under these assumptions; a small wait / reliability / risk shift can reverse the ranking. GC ranks options for a traveller type — <strong>≠ mode share</strong>, elasticity, or revenue. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t2-title t2-desc">
   <title id="t2-title">Taxi generalized cost Hong Kong dollar 1,075 versus air mobility 1,060 at value of time 15 per minute</title>
@@ -367,7 +368,7 @@ Own-price elasticity is usually negative. Managers often quote the absolute valu
 **Caution:** emergency or public-service demand does **not** mean unlimited ability to charge — budgets, procurement, contracts, and policy still bind.
 
 ```{=html}
-<figure class="wdiag" id="w04-elasticity-svg" aria-labelledby="w04-elasticity-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-elasticity-svg" aria-labelledby="w04-elasticity-svg-title">
 <p class="wdiag-cap" id="w04-elasticity-svg-title"><strong>Elasticity and a price cut</strong> — |E_d| &lt; 1 inelastic; |E_d| &gt; 1 elastic. A discount can <strong>raise or lower</strong> revenue depending on response (classroom 20% cut illustration on the page). Emergency / public-service demand does <strong>not</strong> mean unlimited pricing power — budgets and contracts still bind. Profit also needs capacity and incremental cost (Week 3). Classroom arithmetic only.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h4-title h4-desc">
   <title id="h4-title">Elasticity and a price cut</title>
@@ -414,7 +415,7 @@ A discount can raise or lower revenue depending on response. Profit also needs c
 **Connecting idea.** Cross-elasticity to rail or taxi is often the real pricing story in Hong Kong corridors with strong public transport. Own-price elasticity measured in isolation (no alternatives in the survey) can understate switching when MTR or taxi quality changes.
 
 ```{=html}
-<figure class="wdiag" id="w04-discount-rev-svg" aria-labelledby="w04-discount-rev-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-discount-rev-svg" aria-labelledby="w04-discount-rev-svg-title">
 <p class="wdiag-cap" id="w04-discount-rev-svg-title"><strong>Discount → rev · |E|=0.5 → HK$44k / |E|=2.0 → HK$56k</strong> — Classroom: start <em>p</em>=<strong>HK$500</strong>; vol <strong>100</strong>; rev <strong>HK$50,000</strong>. 20% cut to <strong>HK$400</strong>. |E|=0.5 → vol 110 → rev <strong>HK$44,000</strong>. |E|=2.0 → vol 140 → <strong>HK$56,000</strong>. A discount can raise or lower revenue; if pads already bind at 100, elastic “+40% volume” never materialises. ≠ <code>#w04-elasticity-svg</code> (concept). Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a10-title a10-desc">
   <title id="a10-title">Discount and revenue: twenty percent cut can yield forty-four thousand or fifty-six thousand depending on elasticity</title>
@@ -474,7 +475,7 @@ $$
 Differentiation can raise revenue under assumed responses; still check cost, capacity, cannibalization, fairness, and implementation. Week 3 revenue management returns here: the goal is contribution, not filling every seat with the cheapest product.
 
 ```{=html}
-<figure class="wdiag" id="w04-hetero-svg" aria-labelledby="w04-hetero-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-hetero-svg" aria-labelledby="w04-hetero-svg-title">
 <p class="wdiag-cap" id="w04-hetero-svg-title"><strong>Uniform vs differentiated — HK$3.00M → HK$4.09M</strong> — Classroom airport corridor: uniform fare <strong>HK$500</strong> (flexible-business 4,000; advance 2,000) → revenue <strong>HK$3.00M</strong>. Differentiated: flexible <strong>HK$800</strong> → 3,800; restricted <strong>HK$300</strong> → 3,500 → revenue <strong>HK$4.09M</strong>. Still check cost, capacity, cannibalization, fairness, and lawful product attributes. Differentiation ≠ mode share. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u1-title u1-desc">
   <title id="u1-title">Uniform fare Hong Kong dollar 500 yields 3.00 million versus differentiated flexible 800 and restricted 300 yields 4.09 million</title>
@@ -540,7 +541,7 @@ The factor is an **analyst-defined scenario input**, not an official AiRMOUR coe
 **Connecting idea.** EASA’s European societal-acceptance study ([Readings](#readings)) is **comparator evidence**, not a Hong Kong survey. AiRMOUR’s EMS focus is a research lens, not a claim that Hong Kong medical missions already enjoy high acceptance or cleared corridors. Keep **Regulatory Sandbox ≠ Sandbox X**: trial participation is not a measured citywide acceptance rate.
 
 ```{=html}
-<figure class="wdiag" id="w04-acceptance-svg" aria-labelledby="w04-acceptance-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-acceptance-svg" aria-labelledby="w04-acceptance-svg-title">
 <p class="wdiag-cap" id="w04-acceptance-svg-title"><strong>Acceptance as an explicit scenario</strong> — scenario demand = base demand × an <strong>analyst-defined</strong> acceptance adjustment you must defend (no hidden haircuts). “Medical” does <strong>not</strong> imply full support. <strong>AiRMOUR</strong> / EASA societal-acceptance work are <strong>comparator</strong> lenses — <strong>not</strong> Hong Kong law or a Hong Kong survey. Estimate acceptance locally; use scenarios until stronger evidence exists.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i3-title i3-desc">
   <title id="i3-title">Acceptance as an explicit scenario</title>
@@ -612,7 +613,7 @@ Model each channel explicitly — do not apply one unexplained “shock penalty�
 Responses can include reserves, flexible capacity, alternative modes, committed revenue, insurance, or revised pricing. Raising fare to HK$600 alone yields HK$42,000 only if all 70 customers still travel. Illustration excludes variable cost, refunds, credits, and demand response to the price change.
 
 ```{=html}
-<figure class="wdiag" id="w04-shock-svg" aria-labelledby="w04-shock-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-shock-svg" aria-labelledby="w04-shock-svg-title">
 <p class="wdiag-cap" id="w04-shock-svg-title"><strong>Q_served = min; no magic shock penalty</strong> — demand, capacity, price/cost, and policy shocks must be modelled as separate channels. $Q_{\mathrm{served}}=\min\{Q_d,Q_k\}$. Classroom weekly capacity shock: normal <strong>100 trips · HK$50,000</strong> revenue vs <strong>30% capacity loss → 70 trips · HK$35,000</strong>. Do <strong>not</strong> apply one unexplained “shock penalty” to revenue.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 350" role="img" aria-labelledby="p1-title p1-desc">
   <title id="p1-title">Q_served = min; no magic shock penalty</title>
@@ -687,7 +688,7 @@ Hypotheses need a sequence. The **tool map** walks trips → WTP/GC → elastici
 If step 9 fails, fix price, cost, capacity, product design, or the corridor definition — do not silently inflate mode share.
 
 ```{=html}
-<figure class="wdiag" id="w04-toolmap-svg" aria-labelledby="w04-toolmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-toolmap-svg" aria-labelledby="w04-toolmap-svg-title">
 <p class="wdiag-cap" id="w04-toolmap-svg-title"><strong>From trips to cash (tool map)</strong> — (1) relevant trips → (2) OD/corridor → (3) mode share → (4) capacity → (5) served = min(potential, K) → (6) price/products → (7) acceptance → (8) shocks → (9) Week 3 breakeven. If step 9 fails, fix price, cost, capacity, product, or corridor — <strong>do not</strong> silently inflate mode share. Scenarios, not certainties.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h3-title h3-desc">
   <title id="h3-title">From trips to cash (tool map)</title>

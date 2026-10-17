@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -199,7 +200,7 @@ Ownership affects financing, residual value, utilization risk, and control. Cont
 An “asset-light” label does **not** guarantee higher profit or lower risk. Ranking depends on payouts, utilization, demand, liability, and investment needs. Confront the asset-intensive column with Week 5’s ramp-up liquidity: early utilization may not support the asset allocation line.
 
 ```{=html}
-<figure class="wdiag" id="w06-archetype-profit-svg" aria-labelledby="w06-archetype-profit-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-archetype-profit-svg" aria-labelledby="w06-archetype-profit-svg-title">
 <p class="wdiag-cap" id="w06-archetype-profit-svg-title"><strong>Same HK$1M revenue → profit 467k / 100k / 117k</strong> — Classroom: each model earns <strong>HK$1M</strong> monthly revenue (tax &amp; financing omitted). Asset-intensive: cash OPEX 200k + asset alloc. 333k → economic profit <strong>HK$467k</strong>. Service integrator: cash 100k + partner payouts 800k → <strong>HK$100k</strong>. Platform: cash 150k + software alloc. 33k + partner payouts 700k → <strong>HK$117k</strong>. “Asset-light” ≠ higher profit or lower risk — compare cash, allocation, partner payouts. Classroom only. Sandbox ≠ Sandbox X. Profit screen ≠ risk verdict.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="y2-title y2-desc">
   <title id="y2-title">Three archetypes: same one million revenue yields economic profit four hundred sixty-seven, one hundred, and one hundred seventeen thousand</title>
@@ -263,7 +264,7 @@ A **PPP** is a long-term arrangement in which a public authority and a private p
 Hong Kong’s trial programmes (first **Regulatory Sandbox** vs later **Sandbox X**) create controlled learning settings; they are **not** themselves a PPP template and must not be merged ([Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); first-batch **38 of 72** on [Readings](#readings)).
 
 ```{=html}
-<figure class="wdiag" id="w06-ppp-svg" aria-labelledby="w06-ppp-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-ppp-svg" aria-labelledby="w06-ppp-svg-title">
 <p class="wdiag-cap" id="w06-ppp-svg-title"><strong>PPP reallocates roles and risk — does not invent demand</strong> — a public–private partnership allocates who designs, finances, builds, operates, and who bears volume vs performance risk. It does <strong>not</strong> invent demand, create landing rights, or replace Cap. 448G permissions. Calling a site a “PPP vertiport” does <strong>not</strong> create a dedicated HK vertiport statute. Sandbox ≠ Sandbox X (learning settings, not a PPP template).</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="p3-title p3-desc">
   <title id="p3-title">PPP reallocates roles and risk — does not invent demand</title>
@@ -419,7 +420,7 @@ Usage-based models put more **volume risk** on the provider. Availability models
 Availability stabilises revenue but should depend on **readiness and performance**. Weather relief, deductions, and service obligations must be drafted explicitly. If deductions wipe HK$200k for missed KPIs, the “profit” column disappears — design $D$ with the same care as $A$.
 
 ```{=html}
-<figure class="wdiag" id="w06-pay-result-svg" aria-labelledby="w06-pay-result-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-pay-result-svg" aria-labelledby="w06-pay-result-svg-title">
 <p class="wdiag-cap" id="w06-pay-result-svg-title"><strong>Usage-only −260k vs A+usage +150k</strong> — Classroom: monthly fixed cost <strong>HK$500k</strong>; variable cost <strong>HK$200</strong>/mission; actual missions = <strong>300</strong>. Usage-only (HK$1,000/mission): revenue HK$300k − cost HK$560k → <strong>loss HK$260k</strong>. Availability HK$650k + usage HK$200/mission: revenue HK$710k − same cost → <strong>profit HK$150k</strong> (before deductions). Availability stabilises cash but deductions can wipe the “profit” column — design <em>D</em> with <em>A</em>. Classroom only. ≠ CAD tariff. Sandbox ≠ Sandbox X. Availability ≠ free weather hedge.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="y3-title y3-desc">
   <title id="y3-title">Payment design: usage-only loss two hundred sixty thousand versus availability plus usage profit one hundred fifty thousand</title>
@@ -493,7 +494,7 @@ Compare a rigid commitment with a staged or contingent decision. Flexibility cre
 Staging has value here because the decision occurs after uncertainty resolves. Timing, discounting, delay cost, and whether information truly resolves must still be modelled.
 
 ```{=html}
-<figure class="wdiag" id="w06-options-svg" aria-labelledby="w06-options-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-options-svg" aria-labelledby="w06-options-svg-title">
 <p class="wdiag-cap" id="w06-options-svg-title"><strong>Stage · expand · abandon — flexibility ≠ free</strong> — contractual real options (milestone gates, expansion after demand is proven, break clauses). Waiting has costs: option fees, delay, lost position, inflation, or expiring approvals. Classroom: commit now (HK$50M) expected value <strong>HK$0</strong> vs pay <strong>HK$5M</strong> to wait then decide → expected value <strong>HK$20M</strong>. Sandbox learning ≠ automatic expansion option.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 350" role="img" aria-labelledby="p2-title p2-desc">
   <title id="p2-title">Stage · expand · abandon — flexibility ≠ free</title>
@@ -573,7 +574,7 @@ Operator ticket cost still needs aircraft, staff, load factor, and contract data
 **Connecting idea.** Unit-cost savings from sharing evaporate if the co-opetition agreement lets the pad owner favour its own airline affiliate at peak (Week 2 limit-pricing / discrimination logic). Write access, priority, and information-firewall rules before celebrating the HK$500 line.
 
 ```{=html}
-<figure class="wdiag" id="w06-facility-svg" aria-labelledby="w06-facility-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-facility-svg" aria-labelledby="w06-facility-svg-title">
 <p class="wdiag-cap" id="w06-facility-svg-title"><strong>Shared facility $/move — 50→100: HK$900→HK$500</strong> — fixed/M + variable. Classroom: fixed <strong>HK$40,000</strong>/day; variable <strong>HK$100</strong>/movement. At <strong>50</strong> moves: <strong>HK$900</strong>/move; at <strong>100</strong> shared: <strong>HK$500</strong>/move (~44% lower). Facility cost ≠ operator ticket. Movements ≠ seats. Write access / priority / information-firewall rules before celebrating the HK$500 line. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r3-title r3-desc">
   <title id="r3-title">Shared facility cost per movement: HK$900 at 50 moves falls to HK$500 at 100</title>
@@ -621,7 +622,7 @@ These are **not** simple rankings of “speed.” Each creates different evidenc
 **Connecting idea.** **U-space ≠ Hong Kong law.** Use it as a European comparator for how digital services and partnerships might be organised — not as a local operating rulebook. LegCo and TLB materials on [Readings](#readings) compare partnership models and Sandbox process; they do not convert Sandbox participation into a commercial franchise.
 
 ```{=html}
-<figure class="wdiag" id="w06-institutions-svg" aria-labelledby="w06-institutions-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-institutions-svg" aria-labelledby="w06-institutions-svg-title">
 <p class="wdiag-cap" id="w06-institutions-svg-title"><strong>Institutions ≠ speed ranking</strong> — HK <strong>Sandbox X</strong> (controlled trials; distinct from earlier Regulatory Sandbox) · EU <strong>U-space</strong> (digital-service frame) · US <strong>FAA</strong> / interagency · <strong>GBA</strong> collaboration. Different evidence needs and entry risks — <strong>not</strong> a ranking of “who is fastest.” U-space ≠ HK law. Corridor ≠ day-to-day service. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t4-title t4-desc">
   <title id="t4-title">Institutional comparators: Hong Kong Sandbox X, European U-space, United States FAA, GBA collaboration — not a speed ranking</title>
@@ -686,7 +687,7 @@ When negotiating (classroom exercise style), map at least:
 A practical risk map for LAE term sheets often includes: demand / volume; weather and downtime; site access and slots; safety and liability; regulatory / change-in-law; charging and energy; data and cybersecurity; financing and FX. For each row, name the owner, the KPI or relief trigger, and the price of the transfer.
 
 ```{=html}
-<figure class="wdiag" id="w06-termsheet-svg" aria-labelledby="w06-termsheet-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-termsheet-svg" aria-labelledby="w06-termsheet-svg-title">
 <p class="wdiag-cap" id="w06-termsheet-svg-title"><strong>Term-sheet — risk → best party + price</strong> — allocate each risk to who can control, absorb, mitigate, or insure it — and <strong>price</strong> the transfer. Public typically wants reliable mission / VfM / strong KPIs; operator wants clear scope / bankable cash / controllable targets. For each row (demand, weather, safety, regulatory…): name owner, KPI/relief, price. Do not dump all risk on government or operator by default. Term sheet ≠ Cap. 448G permission. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s1-title s1-desc">
   <title id="s1-title">Term-sheet: allocate each risk to the best party and price the transfer</title>
@@ -747,7 +748,7 @@ Deal pieces need a sequence. The **tool map** walks archetype → PPP test → p
 | 10 | Keep Sandbox ≠ Sandbox X; no corridor-ops claim | Fact discipline |
 
 ```{=html}
-<figure class="wdiag" id="w06-toolmap-svg" aria-labelledby="w06-toolmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-toolmap-svg" aria-labelledby="w06-toolmap-svg-title">
 <p class="wdiag-cap" id="w06-toolmap-svg-title"><strong>From architecture to term sheet</strong> — (1) archetype → (2) profit screen → (3) PPP VfM → (4) payment design → (5) risk allocation → (6) real-options gates → (7) co-opetition → (8) access/charging → (9) Week 4 demand × Week 5 capacity reality check → (10) <strong>Sandbox ≠ Sandbox X</strong>; <strong>no corridor-ops claim</strong>. Profit screen is not a risk verdict.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j4-title j4-desc">
   <title id="j4-title">From architecture to term sheet</title>

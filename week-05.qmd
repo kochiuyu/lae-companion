@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -171,7 +172,7 @@ For managerial analysis (not an official Hong Kong classification):
 Actual design depends on aircraft, operations, safety requirements, and local approval. EASA’s prototype vertiport design specifications are an **EU comparator** design constraint on [Readings](#readings) — not Hong Kong law.
 
 ```{=html}
-<figure class="wdiag" id="w05-archetypes" aria-labelledby="w05-archetypes-title">
+<figure class="wdiag wdiag-svg" id="w05-archetypes" aria-labelledby="w05-archetypes-title">
 <p class="wdiag-cap" id="w05-archetypes-title"><strong>Three site types, three trade-offs</strong> — classroom vertiport archetypes: building-based (strong access; structure/safety/power upgrades), integrated hub (high capability; high cost and complexity), ground-based (often easier to expand; may mean longer customer access). Not Hong Kong statutory classes — no dedicated vertiport statute yet.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c6-title c6-desc">
   <title id="c6-title">Three site types, three trade-offs</title>
@@ -236,7 +237,7 @@ A workable site balances:
 - **Cost and approval** — construction/adaptation, lease, environment, community acceptance, regulatory requirements.
 
 ```{=html}
-<figure class="wdiag" id="w05-site-screen-svg" aria-labelledby="w05-site-screen-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-site-screen-svg" aria-labelledby="w05-site-screen-svg-title">
 <p class="wdiag-cap" id="w05-site-screen-svg-title"><strong>Site selection — five screens</strong> — safety/obstacles; customer access (Week 4 GC); utilities and operations; capacity and expandability; cost and approval. Lower <strong>generalized site cost</strong> is <strong>not</strong> automatically better if the site fails safety, capacity, or service requirements. Screening only — <strong>not</strong> a safety verdict. No invented Hong Kong sites.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j2-title j2-desc">
   <title id="j2-title">Site selection — five screens</title>
@@ -314,7 +315,7 @@ Under these assumptions the ground site looks cheaper. Actual choice still depen
 **Connecting idea.** Access burden is paid by **passengers or cargo shippers**, not automatically by the site owner. If you omit it from the site screen, you systematically favour remote cheap land and then wonder why demand fails to materialise.
 
 ```{=html}
-<figure class="wdiag" id="w05-site-cost-svg" aria-labelledby="w05-site-cost-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-site-cost-svg" aria-labelledby="w05-site-cost-svg-title">
 <p class="wdiag-cap" id="w05-site-cost-svg-title"><strong>Site cost · building HK$25k vs ground HK$7.5k/day</strong> — Classroom: <strong>100</strong> trips/day; VOT <strong>HK$15/min</strong>. Building: infra 5k + OPEX 8k + access burden 12k = <strong>HK$25,000</strong>/day. Ground: 1k + 2k + 4.5k = <strong>HK$7,500</strong>. Cheap land with weak access can wreck Week 4 mode share — access burden is paid by users, not the site owner. ≠ <code>#w05-archetypes</code> / <code>#w05-site-screen-svg</code> / <code>#w05-reliable-k-svg</code>. No invented HK sites. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="a9-title a9-desc">
   <title id="a9-title">Generalized site cost: building twenty-five thousand per day versus ground seven thousand five hundred</title>
@@ -388,7 +389,7 @@ Contribution per movement ≈ facility fee − variable facility cost for that m
 A higher-cost site needs more activity, higher contribution per movement, or complementary revenue. Confront the 75% figure with Week 4 **served** demand after acceptance and weather — not with unconstrained funnel headlines.
 
 ```{=html}
-<figure class="wdiag" id="w05-reliable-k-svg" aria-labelledby="w05-reliable-k-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-reliable-k-svg" aria-labelledby="w05-reliable-k-svg-title">
 <p class="wdiag-cap" id="w05-reliable-k-svg-title"><strong>Prefer reliable capacity over theoretical max</strong> — breakeven capacity use = fixed daily facility cost ÷ (reliable daily capacity × contribution per movement). Classroom: higher-cost site ≈ <strong>75%</strong> of reliable <em>K</em>; lower-cost ≈ <strong>20%</strong>. This is <strong>not</strong> “percent of hours in the day the facility must be open.” Weather, turnaround, and priority access cut usable capacity.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n4-title n4-desc">
   <title id="n4-title">Prefer reliable capacity over theoretical max</title>
@@ -444,7 +445,7 @@ New infrastructure rarely hits mature demand immediately. Early use may be limit
 Financing must cover the expected ramp-up shortfall **plus** contingency.
 
 ```{=html}
-<figure class="wdiag" id="w05-ramp-svg" aria-labelledby="w05-ramp-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-ramp-svg" aria-labelledby="w05-ramp-svg-title">
 <p class="wdiag-cap" id="w05-ramp-svg-title"><strong>Staged ramp vs full hub day-one</strong> — mature <strong>80% use</strong> can show a surplus while Year-1 <strong>20% use</strong> shows a shortfall (classroom: investment <strong>HK$10M</strong>; fixed OPEX <strong>HK$2M</strong>/yr; revenue <strong>HK$4M → HK$1M</strong>). Financing must cover the ramp shortfall <strong>plus</strong> contingency. Building the full integrated hub on day one converts demand uncertainty into a <strong>sunk-cost</strong> problem. Staging ≠ Week 6 option math (that returns later).</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q1-title q1-desc">
   <title id="q1-title">Staged ramp versus full hub day-one</title>
@@ -508,7 +509,7 @@ Adjusted revenue should reflect serviceable capacity, demand, cancellations, and
 The 20% cut is an **illustrative stress scenario**, not a claim about Hong Kong’s annual weather downtime. A better model separates capacity loss, demand loss, variable-cost savings, and recovery cost (Week 3–4 logic).
 
 ```{=html}
-<figure class="wdiag" id="w05-return-svg" aria-labelledby="w05-return-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-return-svg" aria-labelledby="w05-return-svg-title">
 <p class="wdiag-cap" id="w05-return-svg-title"><strong>Simple return under downtime stress</strong> — (adj. revenue − adj. OPEX) / investment. Classroom: investment <strong>HK$10M</strong>; revenue <strong>HK$4M</strong>; annual cost <strong>HK$2.5M</strong> → surplus <strong>HK$1.5M</strong> / <strong>15%</strong>; with illustrative <strong>20%</strong> revenue cut → surplus <strong>HK$0.7M</strong> / <strong>7%</strong>. Stress scenario ≠ claimed Hong Kong annual weather downtime. Rough screen ≠ full ROI or NPV. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r1-title r1-desc">
   <title id="r1-title">Simple return screen: 15 percent falls to 7 percent under downtime stress</title>
@@ -578,7 +579,7 @@ A higher-cost site must create enough extra demand, price, reliability, network 
 **Connecting idea.** Hong Kong public materials already discuss **spatial data / CSDI / data-sharing** as enabling infrastructure for LAE (HKSAR LCQ on [Readings](#readings)). That is evidence that **digital and data layers** sit beside physical pads — not evidence that physical vertiport CAPEX is already funded or that a dedicated vertiport statute exists. Shenzhen’s statute Chapter 2 ([Readings](#readings)) assigns planning / build / run roles for physical and digital low-altitude infrastructure in Shenzhen — **GBA comparator governance**, not Cap. 448G text.
 
 ```{=html}
-<figure class="wdiag" id="w05-infra-cost-svg" aria-labelledby="w05-infra-cost-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-infra-cost-svg" aria-labelledby="w05-infra-cost-svg-title">
 <p class="wdiag-cap" id="w05-infra-cost-svg-title"><strong>Daily infrastructure cost — HK$15k vs HK$4k</strong> — (CAPEX − residual) ÷ useful days + daily OPEX. Classroom: higher-investment CAPEX <strong>HK$18.25M</strong> → daily economic cost <strong>HK$15,000</strong>; lower-investment CAPEX <strong>HK$3.65M</strong> → <strong>HK$4,000</strong> (10-year life, no residual, 3,650 days). Higher-cost site must earn extra demand / price / reliability / network value. Unit-cost screen ≠ cash flow or NPV. Digital/data layers ≠ funded vertiport statute. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r2-title r2-desc">
   <title id="r2-title">Daily infrastructure cost: higher site HK$15,000 versus lower HK$4,000</title>
@@ -658,7 +659,7 @@ Higher fees may shift flexible trips; estimate response. Price alone does not id
 Sandbox / Sandbox X participation does **not** create a permanent commercial slot right ([Who decides what?](regulators.qmd#standing-caveats)).
 
 ```{=html}
-<figure class="wdiag" id="w05-slots-svg" aria-labelledby="w05-slots-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-slots-svg" aria-labelledby="w05-slots-svg-title">
 <p class="wdiag-cap" id="w05-slots-svg-title"><strong>Scarce slots — four controls; revenue max ≠ goal</strong> — administrative · market · priority · operational controls. Illustrative peak fee: base <strong>HK$100</strong> + congestion <strong>HK$200</strong> × (requests / slots) → <strong>2/2 → HK$300</strong>; <strong>8/2 → HK$900</strong>. Design choice, <strong>not</strong> a Hong Kong tariff. Revenue maximisation alone is <strong>not</strong> the goal of scarce infrastructure allocation. Sandbox / Sandbox X ≠ permanent commercial slot right. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 380" role="img" aria-labelledby="q2-title q2-desc">
   <title id="q2-title">Scarce slots — revenue maximisation is not the goal</title>
@@ -712,7 +713,7 @@ Slots are local; networks are not. **Hub, distributed, or hybrid** design change
 There is **no** universal “Hong Kong strategy” or “GBA strategy.” Configuration depends on demand, geography, capacity, and service purpose.
 
 ```{=html}
-<figure class="wdiag" id="w05-network-topo" aria-labelledby="w05-network-topo-title">
+<figure class="wdiag wdiag-svg" id="w05-network-topo" aria-labelledby="w05-network-topo-title">
 <p class="wdiag-cap" id="w05-network-topo-title"><strong>Hub, distributed, or hybrid — different GC stories</strong> — concentrated hub (shared facilities, longer access / single-site risk), distributed (better access and resilience; duplicated fixed cost), hybrid (hubs plus feeders; coordination complexity). GC per trip = (network cost bundle ÷ served trips) + access burden. Classroom check: concentrated ≈ HK$123.75 vs distributed ≈ HK$41.25 at 4,000 served trips/day — ranking can reverse. No universal Hong Kong or GBA template.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c9-title c9-desc">
   <title id="c9-title">Hub, distributed, or hybrid — different GC stories</title>
@@ -844,7 +845,7 @@ Network choice needs a sequence. The **tool map** walks site screen → throughp
 | 10 | Does Week 4 served demand cover Week 3 contribution needs at this site? | Go / redesign / wait |
 
 ```{=html}
-<figure class="wdiag" id="w05-toolmap-svg" aria-labelledby="w05-toolmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-toolmap-svg" aria-labelledby="w05-toolmap-svg-title">
 <p class="wdiag-cap" id="w05-toolmap-svg-title"><strong>From site choice to slots</strong> — (1) what binds → (2) archetype → (3) criteria shortlist → (4) generalized site cost → (5) reliable K → (6) breakeven capacity use → (7) stage CAPEX/liquidity → (8) slot rules → (9) network on <strong>served</strong> trips → (10) Week 4 demand vs Week 3 contribution: go / redesign / wait. Site screen is <strong>not</strong> a safety verdict. No invented Hong Kong sites.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j3-title j3-desc">
   <title id="j3-title">From site choice to slots</title>

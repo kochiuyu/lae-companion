@@ -6,6 +6,9 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
 This page is a short map of the **business** side of the low-altitude economy (LAE).

@@ -9,6 +9,7 @@ toc-title: "Sections"
 format:
   html:
     html-math-method: katex
+    body-classes: "page-prose"
 ---
 
 Named teaching formulas from the week notes. Worked numeric examples stay on the week pages.

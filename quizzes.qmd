@@ -6,6 +6,9 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
 Collected **Self-check** multiple-choice questions from Weeks 1–12 — the same questions as at the end of each week page. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.

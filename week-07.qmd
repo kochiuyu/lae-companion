@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -128,7 +129,7 @@ The lead period begins only when revenue-generating operation is **actually perm
 Early readiness has value only if the lead is long enough and commercially useful. It does **not** imply monopoly protection.
 
 ```{=html}
-<figure class="wdiag" id="w07-readiness-svg" aria-labelledby="w07-readiness-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-readiness-svg" aria-labelledby="w07-readiness-svg-title">
 <p class="wdiag-cap" id="w07-readiness-svg-title"><strong>Net readiness · lead ≠ monopoly</strong> — Classroom: monthly contribution after approval <strong>HK$2M</strong>; additional compliance <strong>HK$15M</strong>. <strong>12-month</strong> lead: 12×2 = HK$24M − 15 → net <strong>HK$9M</strong>. <strong>6-month</strong> lead: 6×2 = HK$12M − 15 → net <strong>−HK$3M</strong>. Early readiness has value only if the lead is long enough and commercially useful — not monopoly protection. Approval ≠ franchise. Readiness ≠ Sandbox selection (38/72). Sandbox ≠ Sandbox X. U-space ≠ HK law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="v1-title v1-desc">
   <title id="v1-title">Net readiness value: twelve-month lead nine million versus six-month lead minus three million</title>
@@ -262,7 +263,7 @@ A trial can reveal whether routes, communications, infrastructure, procedures, a
 Value depends on whether the trial is **informative**. These are not official Sandbox X costs or timelines.
 
 ```{=html}
-<figure class="wdiag" id="w07-trial-value-svg" aria-labelledby="w07-trial-value-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-trial-value-svg" aria-labelledby="w07-trial-value-svg-title">
 <p class="wdiag-cap" id="w07-trial-value-svg-title"><strong>Trial HK$5M vs 40%×HK$20M → net avoided HK$3M</strong> — Classroom: controlled trial costs <strong>HK$5M</strong>; without a trial, <strong>40%</strong> chance a <strong>HK$20M</strong> redesign is discovered after investment → expected redesign <strong>HK$8M</strong>. Informative trial finds the issue before scale-up → illustrative net avoided cost <strong>HK$3M</strong>. Trial value = learning before scale-up — not early monopoly. Not official Sandbox X costs or timelines. Sandbox ≠ Sandbox X. AC-013 ≠ AC-017. U-space ≠ HK law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="y4-title y4-desc">
   <title id="y4-title">Trial value: five million trial versus forty percent times twenty million redesign yields illustrative net avoided three million</title>
@@ -316,7 +317,7 @@ Under Hong Kong’s risk-based SUA regime, higher-risk advanced operations requi
 **Connecting idea.** Do **not** merge AC-013’s Sandbox BVLOS pathway with AC-017’s Sandbox X cross-boundary procedures. A Week 6 availability contract that assumes “BVLOS anywhere in the GBA” is writing fiction unless the permission map matches Cap. 448G + the relevant circular + approved conditions.
 
 ```{=html}
-<figure class="wdiag" id="w07-bvlos-docs-svg" aria-labelledby="w07-bvlos-docs-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-bvlos-docs-svg" aria-labelledby="w07-bvlos-docs-svg-title">
 <p class="wdiag-cap" id="w07-bvlos-docs-svg-title"><strong>BVLOS — do not merge the circulars</strong> — Cap. <strong>448G</strong> (SUA Order); <strong>AC-013</strong> (BVLOS permission <strong>within</strong> the first Regulatory Sandbox — not “anywhere”); <strong>AC-017</strong> (Sandbox X cross-boundary — distinct circular); <strong>SRD</strong> (ratings; standard vs advanced). Do <strong>not</strong> merge AC-013’s Sandbox BVLOS pathway with AC-017’s Sandbox X procedures. <strong>Sandbox ≠ Sandbox X</strong>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k2-title k2-desc">
   <title id="k2-title">BVLOS — do not merge the circulars</title>
@@ -375,7 +376,7 @@ Advanced ops need clear language. **Approval, permission, and certification** ar
 **Managerial lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not a single generic “licence.” Week 5’s “no dedicated HK vertiport statute” caveat still bites here: site approvals may sit outside Cap. 448G alone.
 
 ```{=html}
-<figure class="wdiag" id="w07-four-gates" aria-labelledby="w07-four-gates-title">
+<figure class="wdiag wdiag-svg" id="w07-four-gates" aria-labelledby="w07-four-gates-title">
 <p class="wdiag-cap" id="w07-four-gates-title"><strong>Four gates — do not conflate them</strong> — (1) Cap. 448G SUA operating permission (advanced ops need prior CAD permission; AC-013 ≠ AC-017), (2) operator and pilot requirements, (3) aircraft certification / airworthiness, (4) site and infrastructure approval. Build a map for the specific mission — not one generic “licence.” Keep Regulatory Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c7-title c7-desc">
   <title id="c7-title">Four gates — do not conflate them</title>
@@ -452,7 +453,7 @@ Compliance spend may be necessary for market access; it does not automatically c
 Assess compliance together with approval probability and project economics — not presumed monopoly revenue.
 
 ```{=html}
-<figure class="wdiag" id="w07-compliance-ev-svg" aria-labelledby="w07-compliance-ev-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-compliance-ev-svg" aria-labelledby="w07-compliance-ev-svg-title">
 <p class="wdiag-cap" id="w07-compliance-ev-svg-title"><strong>Compliance HK$15M · 70% EV +HK$6M / 40% −HK$3M</strong> — Classroom: compliance programme <strong>HK$15M</strong>; project value if approved <strong>HK$30M</strong>. 70% approval: 0.70×30 = HK$21M − 15 → EV before delay <strong>+HK$6M</strong>. 40% approval: 0.40×30 = HK$12M − 15 → EV before delay <strong>−HK$3M</strong>. Appraise with Pr(approval) — not presumed monopoly revenue. ≠ readiness / trial SVGs (same 15M family, different lens). Sandbox ≠ Sandbox X. AC-013 ≠ AC-017. U-space ≠ HK law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="z3-title z3-desc">
   <title id="z3-title">Compliance fifteen million: seventy percent approval expected value plus six million; forty percent minus three million</title>
@@ -527,7 +528,7 @@ Safety investment may reduce event probability or consequence. Premiums also dep
 Safety investment can create economic value when it reduces expected loss or enables operation; non-financial safety obligations remain binding. This is not an insurance quotation or an acceptable-risk threshold.
 
 ```{=html}
-<figure class="wdiag" id="w07-risk-cost-svg" aria-labelledby="w07-risk-cost-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-risk-cost-svg" aria-labelledby="w07-risk-cost-svg-title">
 <p class="wdiag-cap" id="w07-risk-cost-svg-title"><strong>Risk cost = prevention + insurance + retained EL</strong> — expected loss sums Pr × financial consequence; risk cost adds prevention/mitigation, insurance, and retained EL. Classroom control <strong>HK$3M</strong> cuts 3-year EL <strong>HK$6M → HK$1.5M</strong> (total <strong>HK$4.5M</strong>; illustrative saving <strong>HK$1.5M</strong>). Safety spend ≠ automatic cheaper premium. Not an insurance quotation or acceptable-risk threshold. Sandbox ≠ Sandbox X. U-space ≠ Hong Kong law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q3-title q3-desc">
   <title id="q3-title">Risk cost = prevention + insurance + retained expected loss</title>
@@ -575,7 +576,7 @@ Safety cases are local; digital traffic ideas are often foreign. **U-space / UTM
 Digital services can standardize information exchange and support higher volumes — they do **not** eliminate human oversight, certification, cybersecurity, infrastructure, or service-provider costs. Transaction costs include planning, authorization, coordination, information exchange, monitoring, and handling exceptions.
 
 ```{=html}
-<figure class="wdiag" id="w07-uspace-svg" aria-labelledby="w07-uspace-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-uspace-svg" aria-labelledby="w07-uspace-svg-title">
 <p class="wdiag-cap" id="w07-uspace-svg-title"><strong>U-space ≠ Hong Kong law</strong> — U-space is an EU / industry frame for digital unmanned-traffic services (authorisation, geo-awareness, network ID, traffic information). <strong>UTM</strong> is a broader label. Hong Kong’s smart low-altitude traffic-management system appears in planning language and Sandbox X UTM demos — treat as <strong>planned / trial</strong>, not a completed local U-space statute. Digital services do not erase oversight, certification, cybersecurity, or provider costs.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n1-title n1-desc">
   <title id="n1-title">U-space ≠ Hong Kong law</title>
@@ -669,7 +670,7 @@ $$
 The scorecard makes assumptions visible; it supports judgment rather than claiming one jurisdiction is universally fastest or best.
 
 ```{=html}
-<figure class="wdiag" id="w07-pathway-svg" aria-labelledby="w07-pathway-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-pathway-svg" aria-labelledby="w07-pathway-svg-title">
 <p class="wdiag-cap" id="w07-pathway-svg-title"><strong>Pathway scorecard ≠ false ranking</strong> — weighted score = Σ w_k s_k. Classroom weights: clarity <strong>25%</strong>, trial pathway <strong>20%</strong>, time/effort <strong>20%</strong>, scalability <strong>20%</strong>, transferability <strong>15%</strong>. Supports judgment — not “universally fastest.” U-space / 国令761 / EASA SC-VTOL = <strong>comparators</strong>, not Cap. 448G substitutes. U-space ≠ HK law. Sandbox ≠ Sandbox X. AC-013 ≠ AC-017. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s2-title s2-desc">
   <title id="s2-title">Pathway scorecard with transparent weights is not a fastest-jurisdiction ranking</title>
@@ -738,7 +739,7 @@ Classroom exercise style — evidence-based expansion:
 Data sharing should be necessary, proportionate, secure, and governed by clear rules — **not** offered as an informal exchange for faster approval. Each gate should rewrite Week 6 KPIs and Week 5 capacity assumptions if the evidence changes what you are allowed to fly.
 
 ```{=html}
-<figure class="wdiag" id="w07-roadmap-svg" aria-labelledby="w07-roadmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-roadmap-svg" aria-labelledby="w07-roadmap-svg-title">
 <p class="wdiag-cap" id="w07-roadmap-svg-title"><strong>Phased regulatory roadmap — test → trial → scale</strong> — Controlled test (limited route/time/payload) → Extended trial (more conditions/users) → Scaled operation (wider route/frequency/fleet). Each gate rewrites Week 6 KPIs and Week 5 capacity <em>K</em> before privilege expands. Evidence ≠ day-to-day approval. Sandbox ≠ Sandbox X. U-space ≠ HK law. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s3-title s3-desc">
   <title id="s3-title">Phased regulatory roadmap: controlled test to extended trial to scaled operation</title>
@@ -797,7 +798,7 @@ Roadmaps need a sequence on one page. The **tool map** walks Cap. 448G facts →
 | 10 | What privilege expands only after which gate? | Phased roadmap |
 
 ```{=html}
-<figure class="wdiag" id="w07-toolmap-svg" aria-labelledby="w07-toolmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w07-toolmap-svg" aria-labelledby="w07-toolmap-svg-title">
 <p class="wdiag-cap" id="w07-toolmap-svg-title"><strong>From Cap. 448G to roadmap</strong> — (1) category map → (2) AC-013 vs AC-017 vs other → (3) Sandbox or Sandbox X trial design (<strong>not</strong> a commercial licence) → (4) readiness value → (5) expected compliance value → (6) safety case for the <strong>defined</strong> operation → (7) risk cost → (8) UTM/oversight cost → (9) pathway scorecard → (10) privilege expands only after which gate. <strong>Sandbox ≠ Sandbox X</strong>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k1-title k1-desc">
   <title id="k1-title">From Cap. 448G to roadmap</title>

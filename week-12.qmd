@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -189,7 +190,7 @@ More nodes increase the option set; viable service grows only where demand, capa
 **Connecting idea.** FAA UAM ConOps and AAM Implementation Plan ([Readings](#readings)) describe **maturation pathways** for US concepts of operations — they are comparators for structuring a network roadmap, not Hong Kong corridor licences.
 
 ```{=html}
-<figure class="wdiag" id="w12-count-links-svg" aria-labelledby="w12-count-links-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-count-links-svg" aria-labelledby="w12-count-links-svg-title">
 <p class="wdiag-cap" id="w12-count-links-svg-title"><strong>Count-links · 5→6 candidates / 20→≈29</strong> — Classroom: <em>L</em>=<em>N</em>(<em>N</em>−1)/2. Five nodes → 10 pairs → suppose <strong>6</strong> pass. Twenty nodes → 190 pairs → 15% pass → <strong>≈29</strong> candidates. Quadratic <em>options</em> ≠ viable services; screening rates illustrative ≠ GBA forecast. ≠ <code>#w12-network-svg</code> (concept). No invented corridor <em>K</em>. OHKF HK$350bn = value-added only. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a6-title a6-desc">
   <title id="a6-title">Count links: five nodes yield six candidates; twenty nodes about twenty-nine after screening</title>
@@ -248,7 +249,7 @@ $$
 Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees, and exception handling. Savings depend on annual activity, reliability, integration complexity, and how much manual work is actually displaced. Marginal digital cost may be low — it is not generally zero. The preferred design must also meet safety, resilience, privacy, and accountability requirements (Week 10). This is the same spirit as Week 8’s $S_{\mathrm{day}}$ screen — now stated as a net figure after transition cost.
 
 ```{=html}
-<figure class="wdiag" id="w12-digital-svg" aria-labelledby="w12-digital-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-digital-svg" aria-labelledby="w12-digital-svg-title">
 <p class="wdiag-cap" id="w12-digital-svg-title"><strong>Digital coordination is socio-technical</strong> — evaluate the complete system, not simply algorithm cost. $S_{\mathrm{net}}=C_{\mathrm{legacy}}-C_{\mathrm{dig}}-C_{\mathrm{trans}}$. Include software, communications, cybersecurity, certification, <strong>human oversight</strong>, maintenance, provider fees, and exceptions. <strong>U-space ≠ Hong Kong law</strong>. Sandbox ≠ Sandbox X. Classroom symbols only.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m4-title m4-desc">
   <title id="m4-title">Digital coordination is socio-technical</title>
@@ -301,7 +302,7 @@ Better evidence may support underwriting and risk management; premium reductions
 **Connecting idea.** An “insurance saving” that never appears in $\mathrm{CF}_{t}$ is theatre. Put evidence cost and any credible premium change in the same cash-flow path you used for Week 8 roadmap $\mathrm{NPV}$.
 
 ```{=html}
-<figure class="wdiag" id="w12-risk-evidence-svg" aria-labelledby="w12-risk-evidence-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-risk-evidence-svg" aria-labelledby="w12-risk-evidence-svg-title">
 <p class="wdiag-cap" id="w12-risk-evidence-svg-title"><strong>Risk evidence · put $ in the same CF path</strong> — Classroom: annual premium without project-specific evidence <strong>HK$12.5M</strong>. Improved risk case: premium <strong>HK$9M</strong> + evidence/control <strong>HK$3M</strong> → total <strong>HK$12M</strong> → first-year save <strong>HK$0.5M</strong>. Premium reductions are <strong>not</strong> automatic. Put evidence cost and any credible premium change in the same cash-flow path (Week 8 roadmap NPV). Not an insurance quotation or a measured Sandbox X effect. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x3-title x3-desc">
   <title id="x3-title">Better risk evidence: premium twelve point five million versus nine million plus three million evidence cost saves zero point five million in year one</title>
@@ -344,7 +345,7 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
 **Managerial lesson:** identify a specific service, customer problem, capability, revenue model, and defensible source of advantage.
 
 ```{=html}
-<figure class="wdiag" id="w12-hk-roles-svg" aria-labelledby="w12-hk-roles-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-hk-roles-svg" aria-labelledby="w12-hk-roles-svg-title">
 <p class="wdiag-cap" id="w12-hk-roles-svg-title"><strong>Hong Kong service roles — test them</strong> — OHKF (2025) assigns a large share of potential <strong>2050</strong> LAE <strong>industry value added</strong> to supporting services (finance, leasing, insurance, professional, data assurance). That is a <strong>hypothesis to evaluate</strong>, not a predetermined outcome. Test capability, cost, regulation, demand, regional access, and rivalry. Name a specific service, customer problem, capability, revenue model, and advantage. <strong>OHKF HK$350bn = value-added projection only</strong> — not SOM, revenue, GDP, or a government target. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l2-title l2-desc">
   <title id="l2-title">Hong Kong service roles — test them</title>
@@ -418,7 +419,7 @@ Depreciation is an accounting allocation; residual value and cash expenditures b
 Leasing **reallocates** risks between parties; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual value, and recovery cost in this classroom screen.
 
 ```{=html}
-<figure class="wdiag" id="w12-leasing-svg" aria-labelledby="w12-leasing-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-leasing-svg" aria-labelledby="w12-leasing-svg-title">
 <p class="wdiag-cap" id="w12-leasing-svg-title"><strong>Lease HK$300k · risk reallocates ≠ vanishes</strong> — Classroom monthly: operator revenue after disruption <strong>HK$250k</strong> vs lease <strong>HK$300k</strong> → shortfall <strong>HK$50k</strong> (bears demand/operating risk). Lessor receipt 300k − financing/asset-management <strong>HK$150k</strong> → CF <strong>HK$150k</strong> before credit loss; <strong>default puts receipt and asset value at risk</strong>. Leasing reallocates risks; it does not create a risk-free margin. Excludes maintenance, insurance, tax, residual, recovery in this screen. OHKF HK$350bn = value-added projection only. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x4-title x4-desc">
   <title id="x4-title">Leasing reallocates risk: operator shortfall fifty thousand; lessor cash flow one hundred fifty thousand before credit loss</title>
@@ -591,7 +592,7 @@ In symbols: $\Pi_{\mathrm{op}} = (p - v - c_{\mathrm{noise}})\, D_{\mathrm{serve
 **Connecting idea.** If the examiner adds a regulatory delay, put it in **timing / probability of launch** — do not multiply another arbitrary revenue haircut on top of an already permission-conditioned $D$ (Week 9).
 
 ```{=html}
-<figure class="wdiag" id="w12-exam-shock-svg" aria-labelledby="w12-exam-shock-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-exam-shock-svg" aria-labelledby="w12-exam-shock-svg-title">
 <p class="wdiag-cap" id="w12-exam-shock-svg-title"><strong>Exam shock · Π = HK$16,000/day</strong> — Classroom: <em>D</em>=200 flights/day; <em>K</em>=160 after disruption; <em>p</em>=500; <em>v</em>=100; <em>F</em>=HK$40,000/day; specified noise charge <em>c</em>_noise=HK$50/flight. Served min{200,160}=160 → contribution (500−100−50)×160 = HK$56,000 → operating profit <strong>HK$16,000/day</strong>. Still profitable under stated assumptions. Do not recommend visual masking as a noise remedy. Put regulatory delay in timing/probability — not a second haircut. Illustrative — not a current Hong Kong noise charge or capacity rule. Sandbox ≠ Sandbox X. U-space ≠ HK law. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="y1-title y1-desc">
   <title id="y1-title">Exam shock: operating profit sixteen thousand per day with noise charge when capacity one hundred sixty binds</title>

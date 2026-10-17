@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -85,7 +86,7 @@ A profitable service can still create social costs; an unprofitable service may 
 **Connecting idea.** Contribution margin answers “can the operator cover variable cost?” Social benefit–cost answers “do total gains exceed total costs, including those outside the firm?” Distribution answers “who wins and who loses?” Keep the three questions separate even when one spreadsheet tries to hold all three.
 
 ```{=html}
-<figure class="wdiag" id="w09-two-lenses" aria-labelledby="w09-two-lenses-title">
+<figure class="wdiag wdiag-svg" id="w09-two-lenses" aria-labelledby="w09-two-lenses-title">
 <p class="wdiag-cap" id="w09-two-lenses-title"><strong>Profit is not social net benefit</strong> — commercial lens: can the operator cover variable cost (then fixed cost)? Social lens: do total gains exceed total costs for society, including externalities and who gains or bears burdens? A profitable service can still create social costs; an unprofitable service may create important public benefits.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d3-title d3-desc">
   <title id="d3-title">Profit is not social net benefit</title>
@@ -274,7 +275,7 @@ Fixed cost and investment remain to be covered. Excludes financing, tax, and dem
 **Connecting idea.** If $K$ binds, raising marketing spend to lift $s$ does not raise $D_{\mathrm{served}}$. Diagnose whether the binding constraint is eligibility, choice, or capacity before spending on the wrong lever — the same bottleneck logic Week 5 and Week 8 used for pads and corridors.
 
 ```{=html}
-<figure class="wdiag" id="w09-funnel-contrib-svg" aria-labelledby="w09-funnel-contrib-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-funnel-contrib-svg" aria-labelledby="w09-funnel-contrib-svg-title">
 <p class="wdiag-cap" id="w09-funnel-contrib-svg-title"><strong>Funnel → served 256/day → contrib ≈ HK$23.7M/yr</strong> — Classroom (not current corridor data): relevant trips 20,000/day → 10% eligible → <em>SAM</em>=2,000 → 15% share → <em>D</em>_pot=<strong>300</strong>; reliable capacity 80×4×80%=<strong>256</strong> → served min{300,256}=<strong>256</strong>. Fare HK$400; <em>v</em>=HK$120; 330 days → daily contribution <strong>HK$71,680</strong> ≈ annual <strong>HK$23.7M</strong>. If <em>K</em> binds, marketing to lift <em>s</em> does not raise <em>D</em>_served. OHKF <strong>HK$350bn</strong> = think-tank value-added projection only — not SOM / operator revenue. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="y5-title y5-desc">
   <title id="y5-title">Funnel to contribution: served two hundred fifty-six passenger-trips per day yields about twenty-three point seven million contribution per year</title>
@@ -429,7 +430,7 @@ Avoid multiplying arbitrary independent “haircuts” when the same effect is a
 Technology and compliance costs enter the **cost** model rather than another revenue haircut.
 
 ```{=html}
-<figure class="wdiag" id="w09-accept-k-svg" aria-labelledby="w09-accept-k-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-accept-k-svg" aria-labelledby="w09-accept-k-svg-title">
 <p class="wdiag-cap" id="w09-accept-k-svg-title"><strong>Accept 90% → 270 but K=256 binds → HK$33.8M</strong> — Classroom: <em>D</em><sub>pot</sub>=300; acceptance 90% → adjusted demand <strong>270</strong>; reliable <em>K</em>=<strong>256</strong> (week notes) → served min{270,256}=<strong>256</strong>. Fare HK$400; 330 days → annual revenue <strong>HK$33.8M</strong>. Acceptance haircut does <strong>not</strong> raise served trips when <em>K</em> binds. ≠ <code>#w09-channels-svg</code> (channel map) / <code>#w09-funnel-contrib-svg</code> (base funnel). No invented corridor <em>K</em>. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="b3-title b3-desc">
   <title id="b3-title">Acceptance ninety percent yields two hundred seventy demand but capacity two hundred fifty-six binds; annual revenue thirty-three point eight million</title>
@@ -504,7 +505,7 @@ $$
 
 
 ```{=html}
-<figure class="wdiag" id="w09-uncertainty-svg" aria-labelledby="w09-uncertainty-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-uncertainty-svg" aria-labelledby="w09-uncertainty-svg-title">
 <p class="wdiag-cap" id="w09-uncertainty-svg-title"><strong>Uncertainty — scenarios and expected value</strong> — use base, downside, and upside (plus sensitivity / ranges where justified). $E[\Pi]=\sum_s \Pr(s)\,\Pi_s$. Monte Carlo shows a <strong>distribution of outcomes</strong> — it does <strong>not</strong> make weak assumptions accurate; it makes their implications visible. Also check probability of loss and downside cash needs. Classroom numbers illustrative.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j5-title j5-desc">
   <title id="j5-title">Uncertainty — scenarios and expected value</title>
@@ -552,7 +553,7 @@ Expected revenue = $0.2(10)+0.5(8)+0.3(4)$ = **HK\$7.2M**. Expected profit = **H
 **Connecting idea.** Week 8’s phased roadmap $\mathrm{NPV}$ used $CF_{t}$ under a base path. Week 9 asks what happens when those cash flows are random: report $E[\Pi]$ **and** $\Pr(\Pi < 0)$, not only the mean that looks investable.
 
 ```{=html}
-<figure class="wdiag" id="w09-scenario-ev-svg" aria-labelledby="w09-scenario-ev-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-scenario-ev-svg" aria-labelledby="w09-scenario-ev-svg-title">
 <p class="wdiag-cap" id="w09-scenario-ev-svg-title"><strong>Scenario EV · E[Π] HK$2.2M · Pr(loss) 30%</strong> — Classroom: annual cost <strong>HK$5M</strong>. Strong 20% (rev 10M / Π 5M); Base 50% (8M / 3M); Weak 30% (4M / −1M). E[rev] <strong>HK$7.2M</strong>; E[Π] <strong>HK$2.2M</strong>; Pr(loss) <strong>30%</strong>. Positive expected profit can coexist with material loss probability — check downside cash. ≠ <code>#w09-uncertainty-svg</code> (concept). OHKF HK$350bn = value-added projection only. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="a4-title a4-desc">
   <title id="a4-title">Scenario expected profit two point two million with thirty percent probability of loss</title>
@@ -613,7 +614,7 @@ Keep the attribution strict:
 **Connecting idea.** Treating HK\$350bn as “the market” for a single operator’s SOM is a category error: value added ≠ revenue ≠ obtainable demand. Cite OHKF for the projection; size your use case with the funnel in §2.
 
 ```{=html}
-<figure class="wdiag" id="w09-ohkf-350" aria-labelledby="w09-ohkf-350-title">
+<figure class="wdiag wdiag-svg" id="w09-ohkf-350" aria-labelledby="w09-ohkf-350-title">
 <p class="wdiag-cap" id="w09-ohkf-350-title"><strong>HK$350bn is not “the market”</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not GDP, not operator revenue, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue ≠ obtainable demand; distribution still matters.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d1-title d1-desc">
   <title id="d1-title">HK$350bn is not “the market”</title>
@@ -693,7 +694,7 @@ The arithmetic illustrates competing effects. Actual coefficients require local 
 **Connecting idea.** A −4% “noise discount” in a classroom table is a **scenario dial**, not evidence. Clothier et al. and the EASA societal-acceptance study (see [Readings](#readings)) inform *perception* and acceptance barriers; they do not supply Hong Kong drone-noise hedonic $\beta$.
 
 ```{=html}
-<figure class="wdiag" id="w09-hedonic-svg" aria-labelledby="w09-hedonic-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-hedonic-svg" aria-labelledby="w09-hedonic-svg-title">
 <p class="wdiag-cap" id="w09-hedonic-svg-title"><strong>Hedonic dial — noise vs access on HK$8M</strong> — classroom scenarios only: higher noise / limited access (−4% / 0%) → <strong>HK$7.68M</strong>; lower noise / useful access (−1% / +3%) → <strong>HK$8.16M</strong>. Percentages are <strong>hypothetical dials</strong>, not Hong Kong drone-noise coefficients. Property capitalization ≠ full social cost. Do <strong>not</strong> transfer aviation-noise β mechanically to drone / eVTOL. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="r5-title r5-desc">
   <title id="r5-title">Hedonic dial: noise versus access on an HK dollar 8 million baseline</title>
@@ -743,7 +744,7 @@ ESG reporting can support transparency, but a project should define **measurable
 **Connecting idea.** Week 8’s public-service priority rules and Week 6’s availability payments already encode distributional choices. Equity analysis makes those choices explicit: who is protected, who pays, and what mitigation buys.
 
 ```{=html}
-<figure class="wdiag" id="w09-equity-svg" aria-labelledby="w09-equity-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-equity-svg" aria-labelledby="w09-equity-svg-title">
 <p class="wdiag-cap" id="w09-equity-svg-title"><strong>Who gains and who bears costs?</strong> — screen access, exposure, opportunity, public finance, and public services. Ask who receives each benefit and who bears each cost. An <strong>EMS label does not guarantee equity</strong> — define measurable outcomes. Week 6 availability payments and Week 8 public-service priority already encode distributional choices.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i4-title i4-desc">
   <title id="i4-title">Who gains and who bears costs?</title>
@@ -803,7 +804,7 @@ Pieces need one screen. The **integrated dashboard** and tool map walk definitio
 Do not use unexplained barrier toggles. Each scenario assumption should change a **specific** model input and include a source or justification.
 
 ```{=html}
-<figure class="wdiag" id="w09-dashboard-svg" aria-labelledby="w09-dashboard-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-dashboard-svg" aria-labelledby="w09-dashboard-svg-title">
 <p class="wdiag-cap" id="w09-dashboard-svg-title"><strong>Five-panel dashboard</strong> — Market (trips · <em>e</em> · <em>s</em>) · Capacity (flights · seats · days → reliable <em>K</em>) · Economics (<em>p</em> · <em>v</em> · fixed · Π<sub>var</sub>) · Uncertainty (ranges · correlations · E[Π] and Pr(Π &lt; 0)) · Social (benefits · costs · groups · who pays). Each scenario must change a <strong>named</strong> input — no unexplained barrier toggles. OHKF <strong>HK$350bn</strong> = think-tank industry <strong>value-added</strong> only (not SOM / revenue / GDP / gov target). No invented corridor <em>K</em>. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="s5-title s5-desc">
   <title id="s5-title">Five-panel integrated dashboard: market, capacity, economics, uncertainty, social</title>

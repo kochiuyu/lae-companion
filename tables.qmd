@@ -9,6 +9,7 @@ toc-title: "Sections"
 format:
   html:
     html-math-method: katex
+    body-classes: "page-prose"
 ---
 
 Named teaching tables from the week notes.

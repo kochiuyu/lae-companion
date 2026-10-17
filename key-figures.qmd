@@ -6,6 +6,9 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
 This page shows striking numbers only. Every figure links to its issuer.

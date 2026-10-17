@@ -6,6 +6,7 @@ page-layout: article
 toc: true
 toc-location: right
 toc-title: "On this page"
+toc-depth: 2
 format:
   html:
     html-math-method: katex
@@ -114,7 +115,7 @@ Glossary: [CAPEX / OPEX](glossary.qmd#business-and-economics).
 **Connecting idea.** The CAPEX / OPEX label answers an *accounting and cash-timing* question. The fixed / variable split answers a *managerial* question: what still burns cash if the fleet sits on the ground? Weather and demand shocks make that split non-negotiable. Mixing the two axes (“CAPEX is fixed, OPEX is variable”) is a common error — major software platforms can be CAPEX, and energy is OPEX but largely variable.
 
 ```{=html}
-<figure class="wdiag" id="w03-cost-axes" aria-labelledby="w03-cost-axes-title">
+<figure class="wdiag wdiag-svg" id="w03-cost-axes" aria-labelledby="w03-cost-axes-title">
 <p class="wdiag-cap" id="w03-cost-axes-title"><strong>Two questions, two axes — do not merge them</strong> — CAPEX vs OPEX answers accounting and cash timing; fixed vs variable answers what still burns cash at zero missions. Energy can be OPEX and mostly variable; major platforms can be CAPEX. Compliance spend is not automatically CAPEX.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c3-title c3-desc">
   <title id="c3-title">Two questions, two axes — do not merge them</title>
@@ -194,7 +195,7 @@ This spreads net asset cost across expected operating life and adds daily operat
 **Takeaway:** higher investment raises unit cost, but utilization and operating cost remain equally important. Cutting missions from 50 to 25 would roughly double cost per mission even if investment stayed at Case B — the Week 2 density lesson in different clothes.
 
 ```{=html}
-<figure class="wdiag" id="w03-invest-unit-svg" aria-labelledby="w03-invest-unit-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-invest-unit-svg" aria-labelledby="w03-invest-unit-svg-title">
 <p class="wdiag-cap" id="w03-invest-unit-svg-title"><strong>Invest → unit · A ≈HK$270 / B ≈HK$226 per mission</strong> — Classroom: 5-yr life; <strong>1,825</strong> days; OPEX <strong>HK$8,000/day</strong>; <strong>50</strong> missions/day. Case A <strong>HK$10M</strong> → daily ≈13,479 → ≈<strong>HK$270</strong>/mission. Case B <strong>HK$6M</strong> → ≈11,288 → ≈<strong>HK$226</strong>. Higher investment raises unit cost — utilization and OPEX remain equally important. ≠ <code>#w03-cask-util</code>. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a8-title a8-desc">
   <title id="a8-title">Investment and unit cost: ten million yields about two hundred seventy per mission; six million about two hundred twenty-six</title>
@@ -359,7 +360,7 @@ Glossary: [CASK / CPMK](glossary.qmd#business-and-economics).
 | Allocated cost of one seat on a 10 km trip | HK$300 | HK$60 |
 
 ```{=html}
-<figure class="wdiag" id="w03-cask-util" aria-labelledby="w03-cask-util-title">
+<figure class="wdiag wdiag-svg" id="w03-cask-util" aria-labelledby="w03-cask-util-title">
 <p class="wdiag-cap" id="w03-cask-util-title"><strong>More trips spread the same daily cost</strong> — illustrative four seats, operating cost HK$12,000/day, 10 km trips. At 10 trips/day, available seat-km = 400 and CASK = HK$30; at 50 trips/day, seat-km = 2,000 and CASK = HK$6. Lower CASK still needs demand and feasible turnaround.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c4-title c4-desc">
   <title id="c4-title">More trips spread the same daily cost</title>
@@ -443,7 +444,7 @@ Match the model to the **value promised** and the party best able to manage the 
 **Connecting idea.** Availability payments buy **readiness**, not necessarily high flight volume. That is attractive when public agencies value coverage on bad weather days — and expensive for the buyer if paid capacity sits idle. Pay-per-use looks “simple” until a multi-day storm zeros usage revenue while fixed OPEX continues (Session 3). Choose the model for the **risk you can actually manage**, not for the label that sounds modern.
 
 ```{=html}
-<figure class="wdiag" id="w03-revenue-models-svg" aria-labelledby="w03-revenue-models-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-revenue-models-svg" aria-labelledby="w03-revenue-models-svg-title">
 <p class="wdiag-cap" id="w03-revenue-models-svg-title"><strong>Four revenue models — who bears usage risk</strong> — pay per use (operator), subscription / membership (shared), availability-based contract (customer / shared), complementary services (varies). Match the model to the risk you can manage. Availability buys readiness — it does <strong>not</strong> invent demand. A subscription is not guaranteed cash.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-labelledby="n5-title n5-desc">
   <title id="n5-title">Four revenue models — who bears usage risk</title>
@@ -517,7 +518,7 @@ Load factor is the share of available seats occupied by **paying** passengers. A
 **Connecting idea.** Load factor links **CASK** (cost of seats offered) to **cash** (seats sold). High utilization that fills seats at wrecked fares can look good on a load-factor chart and still fail contribution. For cargo, replace “load factor × fare” with payload × price per kg or price per mission — same managerial idea, different unit.
 
 ```{=html}
-<figure class="wdiag" id="w03-rm-svg" aria-labelledby="w03-rm-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-rm-svg" aria-labelledby="w03-rm-svg-title">
 <p class="wdiag-cap" id="w03-rm-svg-title"><strong>Revenue = seats × load factor × average fare — fill ≠ contribution</strong> — revenue management improves <strong>total expected contribution</strong>, not merely empty-seat elimination. Maximising load factor alone is the wrong goal if fares collapse. High utilization that fills seats at wrecked fares can look good on a load-factor chart and still fail contribution. Cargo: payload × price per kg / mission — same idea, different unit.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-labelledby="p4-title p4-desc">
   <title id="p4-title">Revenue = seats times load factor times average fare — fill is not contribution</title>
@@ -584,7 +585,7 @@ $$
 Compare that target with physical capacity, operating hours, charging, maintenance, weather, and expected demand. This required-activity number is **not** the usual statistical “utilization rate” (actual use ÷ available capacity or time). Revenue management can improve contribution; it cannot invent unlimited capacity or demand.
 
 ```{=html}
-<figure class="wdiag" id="w03-breakeven-svg" aria-labelledby="w03-breakeven-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-breakeven-svg" aria-labelledby="w03-breakeven-svg-title">
 <p class="wdiag-cap" id="w03-breakeven-svg-title"><strong>Breakeven volume</strong> — breakeven units = fixed cost ÷ (revenue per unit − variable cost per unit). Denominator = <strong>contribution margin</strong> per unit. Daily form: required missions/day = fixed daily cost ÷ contribution margin per mission. Compare with capacity, hours, charging, weather, and demand — required activity is <strong>not</strong> an automatic traffic forecast. Classroom units only.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j1-title j1-desc">
   <title id="j1-title">Breakeven volume</title>
@@ -623,7 +624,7 @@ Compare that target with physical capacity, operating hours, charging, maintenan
 Discounting sharply raises required volume — test whether that volume fits capacity and demand.
 
 ```{=html}
-<figure class="wdiag" id="w03-price-be-svg" aria-labelledby="w03-price-be-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-price-be-svg" aria-labelledby="w03-price-be-svg-title">
 <p class="wdiag-cap" id="w03-price-be-svg-title"><strong>Price → breakeven · p=500 → 50 / p=200 → 200</strong> — Classroom: fixed <strong>HK$20,000/day</strong>; VC <strong>HK$100</strong>/mission. At <em>p</em>=500 → CM 400 → BE <strong>50</strong> missions/day. At <em>p</em>=200 → CM 100 → BE <strong>200</strong>. Discounting sharply raises required volume — test whether that volume fits <em>K</em> and demand. ≠ <code>#w03-breakeven-svg</code> (identity diagram). Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a3-title a3-desc">
   <title id="a3-title">Price and breakeven: five hundred dollars needs fifty missions; two hundred dollars needs two hundred missions</title>
@@ -665,7 +666,7 @@ Discounting sharply raises required volume — test whether that volume fits cap
 Fractional passengers are averages across many flights. Higher load factor can cut required flights **if** fare and costs stay unchanged.
 
 ```{=html}
-<figure class="wdiag" id="w03-lf-be-svg" aria-labelledby="w03-lf-be-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-lf-be-svg" aria-labelledby="w03-lf-be-svg-title">
 <p class="wdiag-cap" id="w03-lf-be-svg-title"><strong>LF → breakeven · 40% ≈29 / 90% ≈12 flights</strong> — Classroom: 4 seats; fare <strong>HK$500</strong>; <em>F</em>=<strong>HK$20,000/day</strong>; VC <strong>HK$100/flight</strong>. LF 40% → 1.6 pax · rev 800 · CM 700 → BE ≈<strong>29</strong> flights/day. LF 90% → 3.6 · 1,800 · 1,700 → ≈<strong>12</strong>. Fractional passengers are averages. Higher LF cuts required flights <em>if</em> fare and costs stay unchanged. ≠ <code>#w03-breakeven-svg</code>. Twin to <code>#w03-price-be-svg</code>. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 400" role="img" aria-labelledby="a7-title a7-desc">
   <title id="a7-title">Load factor and breakeven: forty percent needs about twenty-nine flights; ninety percent about twelve</title>
@@ -736,7 +737,7 @@ Subscriptions and reservation fees transfer risk **only if** customers accept th
 **Connecting idea.** Hong Kong policy language has noted industry work on LAE insurance products that draw on Regulatory Sandbox data ([Glossary](glossary.qmd) / Policy Address citations there). That is evidence that **insurance product design is an active theme** — not evidence that any named operator already has cheap parametric cover, nor that Sandbox participation equals commercial insurance readiness. Treat premiums, exclusions, and basis risk as first-class model inputs when you claim a hedge.
 
 ```{=html}
-<figure class="wdiag" id="w03-weather-svg" aria-labelledby="w03-weather-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-weather-svg" aria-labelledby="w03-weather-svg-title">
 <p class="wdiag-cap" id="w03-weather-svg-title"><strong>Weather hits more than revenue</strong> — lost trips; continued fixed costs; disruption/penalties; recovery; future trust. A warning does <strong>not</strong> mechanically ground every operation. Respond with ops resilience, contracts, insurance/parametric cover, and liquidity — <strong>none are free</strong>. Subscriptions transfer risk only if customers accept. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k3-title k3-desc">
   <title id="k3-title">Weather hits more than revenue</title>
@@ -813,7 +814,7 @@ Committed revenue can reduce exposure to flight volume but usually adds availabi
 Committed revenue may stabilise cash flow; the contract must still specify availability, refunds, credits, and weather obligations. Illustration excludes taxes, financing, premiums, recovery costs, and possible service credits.
 
 ```{=html}
-<figure class="wdiag" id="w03-grounded-days-svg" aria-labelledby="w03-grounded-days-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-grounded-days-svg" aria-labelledby="w03-grounded-days-svg-title">
 <p class="wdiag-cap" id="w03-grounded-days-svg-title"><strong>5 grounded days · loss HK$100k vs profit HK$25k</strong> — Classroom: 30-day month; <strong>25</strong> operating days; 50 missions/day; usage HK$500/mission; <em>F</em>=HK$600,000/month; VC=HK$100/mission; missions = 1,250. Pay-per-mission: revenue HK$625k → <strong>loss HK$100,000</strong>. Committed monthly revenue HK$750,000 → <strong>profit HK$25,000</strong> (before credits/premiums). Draft availability, refunds, credits, and weather. ≠ <code>#w03-weather-svg</code>. Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 420" role="img" aria-labelledby="z2-title z2-desc">
   <title id="z2-title">Five grounded days: pay-per-mission loses one hundred thousand; committed revenue profits twenty-five thousand</title>
@@ -866,7 +867,7 @@ Compliance and trial rules can become real OPEX lines — for example Mainland d
 **Connecting idea.** When you cite the NASA *Urban Air Mobility Market Study* ([Readings](#readings)), use it as **official UAM framing and constraint thinking** (legal, weather, infrastructure, acceptance shrink unconstrained markets). Do **not** paste its dollar or TAM figures into a Hong Kong business case as if they were local forecasts, and do not treat NASA as Hong Kong law or as an HKSAR government number.
 
 ```{=html}
-<figure class="wdiag" id="w03-hk-gba-svg" aria-labelledby="w03-hk-gba-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-hk-gba-svg" aria-labelledby="w03-hk-gba-svg-title">
 <p class="wdiag-cap" id="w03-hk-gba-svg-title"><strong>HK vs GBA · cost &amp; revenue hypotheses</strong> — HK possibility: dense/constrained sites · premium/specialised demand · site/professional cost pressure · complex urban services · finance/logistics/services. Wider GBA possibility: varied sites · larger/diverse demand · cost varies by city · manufacturing/network scale · tech/production/ops. <strong>Strategic hypotheses, not universal facts</strong> — compare specific sites, routes, customers, regulations, partners. Sandbox ≠ Sandbox X (neither is a cost/revenue forecast). U-space ≠ HK law. No invented corridor <em>K</em>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u4-title u4-desc">
   <title id="u4-title">Hong Kong versus wider GBA cost and revenue hypotheses</title>
@@ -918,7 +919,7 @@ Hypotheses need a sequence. The **one-page tool map** walks investment → unit 
 If step 6’s required activity exceeds step 4’s physical capacity, the model is inconsistent — fix price, cost, capacity, or the product before defending the case.
 
 ```{=html}
-<figure class="wdiag" id="w03-toolmap-svg" aria-labelledby="w03-toolmap-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-toolmap-svg" aria-labelledby="w03-toolmap-svg-title">
 <p class="wdiag-cap" id="w03-toolmap-svg-title"><strong>From investment to cash</strong> — (1) assets/life → (2) cost stack → (3) unit → (4) unit cost at realistic utilization → (5) contribution → (6) breakeven / required activity → (7) who bears volume risk → (8) weather open days + hedge costs. If step 6 required activity exceeds step 4 physical capacity, the model is <strong>inconsistent</strong> — fix price, cost, capacity, or product.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l1-title l1-desc">
   <title id="l1-title">From investment to cash</title>

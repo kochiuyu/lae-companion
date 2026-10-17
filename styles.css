@@ -146,10 +146,13 @@ div.callout-caution {
   padding: 0.85rem 1rem 1rem;
 }
 
-.hub-card h2 {
+.hub-card h2,
+.hub-card-title {
   margin: 0 0 0.4rem;
   font-size: 1.05rem;
   color: #003366;
+  font-weight: 600;
+  line-height: 1.35;
 }
 
 .hub-card p {
@@ -1299,8 +1302,10 @@ body.page-week .wdiag.wdiag-text {
 
 /* ============================================================
    Long article hubs (.page-prose): readable measure outside Teach.
-   body-classes: "page-prose" on glossary / news / industry / faq.
-   Skip landscape + tracker (table-heavy full layouts).
+   body-classes: "page-prose" on glossary / news / industry / faq
+   plus Orient (primer/overview/business/regulators/howto/key-figures)
+   and Review hubs (formulas/tables/figures/readings/quizzes).
+   Skip landscape + tracker + dates + home (full or table-heavy).
    ============================================================ */
 body.page-prose #quarto-document-content,
 body.page-prose main.content {
