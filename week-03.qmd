@@ -747,6 +747,39 @@ Compliance and trial rules can become real OPEX lines — for example Mainland d
 
 **Connecting idea.** When you cite the NASA *Urban Air Mobility Market Study* ([Readings](#readings)), use it as **official UAM framing and constraint thinking** (legal, weather, infrastructure, acceptance shrink unconstrained markets). Do **not** paste its dollar or TAM figures into a Hong Kong business case as if they were local forecasts, and do not treat NASA as Hong Kong law or as an HKSAR government number.
 
+```{=html}
+<figure class="wdiag" id="w03-hk-gba-svg" aria-labelledby="w03-hk-gba-svg-title">
+<p class="wdiag-cap" id="w03-hk-gba-svg-title"><strong>HK vs GBA · cost &amp; revenue hypotheses</strong> — HK possibility: dense/constrained sites · premium/specialised demand · site/professional cost pressure · complex urban services · finance/logistics/services. Wider GBA possibility: varied sites · larger/diverse demand · cost varies by city · manufacturing/network scale · tech/production/ops. <strong>Strategic hypotheses, not universal facts</strong> — compare specific sites, routes, customers, regulations, partners. Sandbox ≠ Sandbox X (neither is a cost/revenue forecast). U-space ≠ HK law. No invented corridor <em>K</em>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="u4-title u4-desc">
+  <title id="u4-title">Hong Kong versus wider GBA cost and revenue hypotheses</title>
+  <desc id="u4-desc">Two cards comparing Hong Kong dense premium services hypotheses with wider GBA scale and production hypotheses, a navy strip to compare specific sites routes and partners, and a gold-border strip that Sandbox is not Sandbox X, U-space is not Hong Kong law, and corridor capacity must not be invented.</desc>
+  <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">HK vs GBA · cost &amp; revenue hypotheses</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Strategic hypotheses · not universal facts</text>
+  <rect x="36" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
+  <text x="191" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Hong Kong</text>
+  <text x="191" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Dense / constrained sites</text>
+  <text x="191" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Premium / specialised demand</text>
+  <text x="191" y="158" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Site / professional cost pressure</text>
+  <text x="191" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Complex urban services</text>
+  <text x="191" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Finance · logistics · services</text>
+  <rect x="374" y="68" width="310" height="150" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="529" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Wider GBA</text>
+  <text x="529" y="118" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">More varied sites</text>
+  <text x="529" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Larger / diverse demand</text>
+  <text x="529" y="158" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Cost varies by city</text>
+  <text x="529" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Manufacturing / network scale</text>
+  <text x="529" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Tech · production · ops</text>
+  <rect x="60" y="238" width="600" height="40" rx="8" fill="#003366"/>
+  <text x="360" y="264" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Compare specific sites · routes · customers · partners</text>
+  <rect x="60" y="296" width="600" height="36" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · U-space ≠ HK law · no invented corridor K</text>
+</svg>
+
+<p class="wdiag-note">From Week 3 §9. Dimension labels from live table only. Hypotheses not facts. New SVG.</p>
+</figure>
+```
+
 ---
 
 Hypotheses need a sequence. The **one-page tool map** walks investment → unit cost → revenue → breakeven → capacity consistency so the spreadsheet cannot silently contradict itself.
