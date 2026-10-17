@@ -4,10 +4,6 @@ subtitle: "For a 12-week low-altitude economy course"
 as_of: "2026-10-15"
 ---
 
-**Course:** 12-week Low Altitude Economics  
-**Instructor:** Chiu Yu Ko  
-**First offering:** December 2026  
-
 Site for a 12-week low-altitude economy course — one page per week with notes, slides, and readings, plus supporting evidence.
 
 **Start here:** [Course overview](overview.qmd) · [What is LAE?](primer.qmd) · [How to use this site](howto.qmd) · then [Week 1](week-01.qmd)

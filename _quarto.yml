@@ -116,7 +116,7 @@ website:
           - href: dates.qmd
             text: Timeline
   page-footer:
-    left: "12-week LAE course"
+    left: "12-week LAE course · Chiu Yu Ko"
     right: "Updated 11 October 2026"
 
 format:
