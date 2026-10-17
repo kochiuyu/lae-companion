@@ -123,6 +123,7 @@ format:
       - _mobile-toc.html
       - _breadcrumbs.html
       - _lightbox.html
+      - _selfcheck.html
     toc: true
     toc-location: right
     toc-title: "Sections"

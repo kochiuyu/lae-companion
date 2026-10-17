@@ -1,0 +1,117 @@
+<!-- Self-check MCQs: private practice on week pages.
+     Markup: .selfcheck > .selfcheck-q[data-correct="a|b|c|d"] with radios + .selfcheck-explain.
+     JS adds Check answer / Reset; no scores stored, no LMS. -->
+<script>
+(function () {
+  function feedbackEl(q) {
+    var fb = q.querySelector(":scope > .selfcheck-feedback");
+    if (!fb) {
+      fb = document.createElement("p");
+      fb.className = "selfcheck-feedback";
+      fb.setAttribute("aria-live", "polite");
+      fb.hidden = true;
+      q.appendChild(fb);
+    }
+    return fb;
+  }
+
+  function ensureActions(q) {
+    var actions = q.querySelector(":scope > .selfcheck-actions");
+    if (actions) return actions;
+    actions = document.createElement("div");
+    actions.className = "selfcheck-actions";
+    var check = document.createElement("button");
+    check.type = "button";
+    check.className = "selfcheck-check";
+    check.textContent = "Check answer";
+    var reset = document.createElement("button");
+    reset.type = "button";
+    reset.className = "selfcheck-reset";
+    reset.textContent = "Reset";
+    actions.appendChild(check);
+    actions.appendChild(reset);
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    if (explain) q.insertBefore(actions, explain);
+    else q.appendChild(actions);
+    return actions;
+  }
+
+  function clearState(q) {
+    q.classList.remove("is-correct", "is-incorrect", "is-checked");
+    var fb = q.querySelector(":scope > .selfcheck-feedback");
+    if (fb) {
+      fb.hidden = true;
+      fb.textContent = "";
+      fb.className = "selfcheck-feedback";
+    }
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    if (explain) explain.hidden = true;
+    q.querySelectorAll('input[type="radio"]').forEach(function (r) {
+      r.disabled = false;
+    });
+  }
+
+  function checkOne(q) {
+    var correct = (q.getAttribute("data-correct") || "").trim().toLowerCase();
+    var selected = q.querySelector('input[type="radio"]:checked');
+    var fb = feedbackEl(q);
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    q.classList.add("is-checked");
+    q.classList.remove("is-correct", "is-incorrect");
+
+    if (!selected) {
+      fb.hidden = false;
+      fb.className = "selfcheck-feedback selfcheck-feedback-warn";
+      fb.textContent = "Choose an option, then check again.";
+      if (explain) explain.hidden = true;
+      return;
+    }
+
+    var ok = selected.value.trim().toLowerCase() === correct;
+    q.classList.add(ok ? "is-correct" : "is-incorrect");
+    fb.hidden = false;
+    fb.className = "selfcheck-feedback " + (ok ? "selfcheck-feedback-ok" : "selfcheck-feedback-bad");
+    fb.textContent = ok ? "Correct." : "Not quite — see the brief explanation below.";
+    if (explain) explain.hidden = false;
+  }
+
+  function resetOne(q) {
+    q.querySelectorAll('input[type="radio"]').forEach(function (r) {
+      r.checked = false;
+      r.disabled = false;
+    });
+    clearState(q);
+  }
+
+  function bind(q) {
+    if (q.dataset.selfcheckBound === "1") return;
+    q.dataset.selfcheckBound = "1";
+    if (!q.getAttribute("role")) q.setAttribute("role", "group");
+    var actions = ensureActions(q);
+    var checkBtn = actions.querySelector(".selfcheck-check");
+    var resetBtn = actions.querySelector(".selfcheck-reset");
+    if (checkBtn) {
+      checkBtn.addEventListener("click", function () {
+        checkOne(q);
+      });
+    }
+    if (resetBtn) {
+      resetBtn.addEventListener("click", function () {
+        resetOne(q);
+      });
+    }
+    var explain = q.querySelector(":scope > .selfcheck-explain");
+    if (explain) explain.hidden = true;
+  }
+
+  function run() {
+    document.querySelectorAll(".selfcheck-q").forEach(bind);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run);
+  } else {
+    run();
+  }
+})();
+</script>

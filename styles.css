@@ -901,3 +901,155 @@ pre.mermaid + .fig-enlarge-hint {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
 }
+
+/* ------------------------------------------------------------------
+   Self-check MCQs (private practice on week pages)
+   ------------------------------------------------------------------ */
+.selfcheck {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.1rem 0.85rem;
+  border: 1px solid #d9d4c7;
+  border-radius: 10px;
+  background: #F7F6F3;
+}
+
+.selfcheck-intro {
+  margin: 0 0 0.85rem;
+  font-size: 0.95rem;
+  color: #5f5f5f;
+}
+
+.selfcheck-q {
+  margin: 0 0 1rem;
+  padding: 0.85rem 0.95rem 0.75rem;
+  border: 1px solid #d9d4c7;
+  border-radius: 8px;
+  background: #fff;
+  border-left: 4px solid #C5A572;
+}
+
+.selfcheck-q:last-child {
+  margin-bottom: 0.15rem;
+}
+
+.selfcheck-q > legend,
+.selfcheck-q .selfcheck-stem {
+  display: block;
+  font-weight: 650;
+  color: #003366;
+  margin: 0 0 0.55rem;
+  padding: 0;
+  float: none;
+  width: auto;
+  font-size: 1.02rem;
+  line-height: 1.45;
+}
+
+.selfcheck-options {
+  list-style: none;
+  margin: 0 0 0.65rem;
+  padding: 0;
+}
+
+.selfcheck-options > li {
+  margin: 0.28rem 0;
+}
+
+.selfcheck-options label {
+  display: flex;
+  gap: 0.55rem;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 1.45;
+  color: #1a1a1a;
+}
+
+.selfcheck-options input[type="radio"] {
+  margin-top: 0.28rem;
+  flex-shrink: 0;
+}
+
+.selfcheck-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.35rem 0 0.25rem;
+}
+
+.selfcheck-actions button {
+  appearance: none;
+  border-radius: 6px;
+  border: 1px solid #003366;
+  background: #003366;
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  line-height: 1.3;
+}
+
+.selfcheck-actions button:hover,
+.selfcheck-actions button:focus-visible {
+  background: #00264d;
+  border-color: #00264d;
+  outline: none;
+}
+
+.selfcheck-actions .selfcheck-reset {
+  background: #fff;
+  color: #003366;
+}
+
+.selfcheck-actions .selfcheck-reset:hover,
+.selfcheck-actions .selfcheck-reset:focus-visible {
+  background: #F7F6F3;
+  color: #003366;
+  border-color: #003366;
+}
+
+.selfcheck-feedback {
+  margin: 0.45rem 0 0.15rem;
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.selfcheck-feedback-ok {
+  color: #1b5e20;
+}
+
+.selfcheck-feedback-bad {
+  color: #8a1c1c;
+}
+
+.selfcheck-feedback-warn {
+  color: #7a5a00;
+}
+
+.selfcheck-explain {
+  margin: 0.45rem 0 0;
+  padding: 0.55rem 0.7rem;
+  border-radius: 6px;
+  background: #F7F6F3;
+  border: 1px solid #d9d4c7;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+.selfcheck-q.is-correct {
+  border-left-color: #2e7d32;
+}
+
+.selfcheck-q.is-incorrect {
+  border-left-color: #b71c1c;
+}
+
+@media print {
+  .selfcheck-actions {
+    display: none !important;
+  }
+  .selfcheck-explain {
+    display: block !important;
+  }
+}
