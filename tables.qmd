@@ -15,7 +15,7 @@ format:
 
 Named teaching tables from the week notes.
 
-## Jump by theme
+<p class="hub-card-title">Jump by theme</p>
 
 - [Scope / entry](#week-01) · [Competition](#week-02) · [Cost](#week-03)
 - [Demand / GC](#week-04) · [Infrastructure](#week-05) · [Partnerships](#week-06)
@@ -144,7 +144,7 @@ Teaching table from the week notes. [Operating restrictions raise unit cost](wee
 | Programme | How to treat it (issuer-backed counts) |
 |-----------|----------------------------------------|
 | Early **Regulatory Sandbox** | First-batch selection **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language may refer to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
-| Later **Sandbox X** | Distinct programme. Selected modules reported as **33** so far on TLB materials: UTM **15** + unconventional aircraft **4** + shared platform **5** + others **9**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 33 module total ([Key numbers](key-figures.qmd)). |
+| Later **Sandbox X** | Distinct programme. Selected modules **36** so far (Updated PDFs): UTM **15** + unconventional aircraft **4** + shared platform **5** + others **12**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 36 module total ([Key numbers](key-figures.qmd) · [Official status](tracker.qmd)). |
 
 Teaching table from the week notes. [Keep two Hong Kong programmes separate](week-01.qmd#keep-two-hong-kong-programmes-separate)
 
@@ -249,8 +249,8 @@ Teaching table from the week notes. [Worked illustration (limit price and shared
 | Fact | Issuer-backed reading on this site |
 |------|-------------------------------------|
 | First Regulatory Sandbox batch **38 of 72** | [Key numbers](key-figures.qmd) · GIA 20 Mar 2025 |
-| Sandbox X selected modules **33** so far (UTM 15 + unconventional 4 + shared platform 5 + others 9) | [Key numbers](key-figures.qmd) · TLB |
-| “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 33 modules |
+| Sandbox X selected modules **36** so far (UTM 15 + unconventional 4 + shared platform 5 + others 12) | [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) |
+| “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 36 modules |
 | Trial ≠ dominance | [Who decides what? · standing caveats](regulators.qmd#standing-caveats) |
 
 Teaching table from the week notes. [Absolute programme facts (do not invent shares)](week-02.qmd#absolute-programme-facts-do-not-invent-shares)

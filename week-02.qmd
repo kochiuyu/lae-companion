@@ -660,8 +660,8 @@ Competitive strategy in this course is HK-first but GBA-aware:
 | Fact | Issuer-backed reading on this site |
 |------|-------------------------------------|
 | First Regulatory Sandbox batch **38 of 72** | [Key numbers](key-figures.qmd) · GIA 20 Mar 2025 |
-| Sandbox X selected modules **33** so far (UTM 15 + unconventional 4 + shared platform 5 + others 9) | [Key numbers](key-figures.qmd) · TLB |
-| “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 33 modules |
+| Sandbox X selected modules **36** so far (UTM 15 + unconventional 4 + shared platform 5 + others 12) | [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) |
+| “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 36 modules |
 | Trial ≠ dominance | [Who decides what? · standing caveats](regulators.qmd#standing-caveats) |
 
 ::: {.callout-important appearance="simple"}
@@ -672,10 +672,10 @@ Hong Kong’s service-layer role is a **strategy to build**, not an automatic ou
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w02-hk-gba-svg" aria-labelledby="w02-hk-gba-svg-title">
-<p class="wdiag-cap" id="w02-hk-gba-svg-title"><strong>HK service-layer + GBA supply</strong> — HK: dense urban testing + finance / insurance / logistics / legal / professional services. GBA: aircraft, electronics, batteries, supply chains. Programme facts: first Sandbox <strong>38 of 72</strong>; Sandbox X <strong>33</strong> modules (“~10” testing ≠ 33). Trial ≠ dominance ≠ auto commercial approval. Corridor in policy talk ≠ day-to-day service. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>. OHKF services framing = hypothesis, not GDP.</p>
+<p class="wdiag-cap" id="w02-hk-gba-svg-title"><strong>HK service-layer + GBA supply</strong> — HK: dense urban testing + finance / insurance / logistics / legal / professional services. GBA: aircraft, electronics, batteries, supply chains. Programme facts: first Sandbox <strong>38 of 72</strong>; Sandbox X <strong>36</strong> modules (“~10” testing ≠ 36). Trial ≠ dominance ≠ auto commercial approval. Corridor in policy talk ≠ day-to-day service. Sandbox ≠ Sandbox X. No invented corridor <em>K</em>. OHKF services framing = hypothesis, not GDP.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="t5-title t5-desc">
   <title id="t5-title">Hong Kong service layer plus GBA supply chain; Sandbox X trials are not dominance</title>
-  <desc id="t5-desc">Hong Kong may contribute dense urban testing plus finance, insurance, logistics, legal, and professional services. GBA strengths often sit in aircraft, electronics, batteries, and supply chains. First Regulatory Sandbox batch thirty-eight of seventy-two. Sandbox X selected modules thirty-three so far. A Policy Address snapshot of about ten projects that had begun testing is not the same as thirty-three modules. Sandbox X trials are not dominance and not automatic commercial approval. A cross-boundary corridor in policy discussion is not day-to-day operating service. Sandbox is not Sandbox X. Do not invent corridor capacity. OHKF supporting-services framing is a think-tank hypothesis, not government GDP.</desc>
+  <desc id="t5-desc">Hong Kong may contribute dense urban testing plus finance, insurance, logistics, legal, and professional services. GBA strengths often sit in aircraft, electronics, batteries, and supply chains. First Regulatory Sandbox batch thirty-eight of seventy-two. Sandbox X selected modules thirty-six so far (fifteen plus four plus five plus twelve). A Policy Address snapshot of about ten projects that had begun testing is not the same as thirty-six modules. Sandbox X trials are not dominance and not automatic commercial approval. A cross-boundary corridor in policy discussion is not day-to-day operating service. Sandbox is not Sandbox X. Do not invent corridor capacity. OHKF supporting-services framing is a think-tank hypothesis, not government GDP.</desc>
   <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
   <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">HK service-layer + GBA supply</text>
   <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Strategy to build · not an automatic outcome</text>
@@ -693,8 +693,8 @@ Hong Kong’s service-layer role is a **strategy to build**, not an automatic ou
   <text x="133" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox 38 of 72</text>
   <text x="133" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">First Regulatory batch</text>
   <rect x="255" y="192" width="210" height="52" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
-  <text x="360" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox X · 33 modules</text>
-  <text x="360" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">“~10” testing ≠ 33</text>
+  <text x="360" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox X · 36 modules</text>
+  <text x="360" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">“~10” testing ≠ 36</text>
   <rect x="482" y="192" width="210" height="52" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
   <text x="587" y="214" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Trial ≠ dominance</text>
   <text x="587" y="232" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">≠ auto commercial OK</text>
@@ -704,7 +704,7 @@ Hong Kong’s service-layer role is a **strategy to build**, not an automatic ou
   <text x="360" y="326" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Sandbox ≠ X · no invented K · OHKF services = hypothesis</text>
 </svg>
 
-<p class="wdiag-note">From Week 2 §8. Programme counts 38/72 · 33 modules · “~10” ≠ 33 from absolute-facts table only. New SVG.</p>
+<p class="wdiag-note">From Week 2 §8. Programme counts 38/72 · 36 modules · “~10” ≠ 36 from absolute-facts table only. New SVG.</p>
 </figure>
 ```
 
@@ -909,7 +909,7 @@ Short checklist: [Summary](#summary).
 7. Compute a teaching **limit price** and show how shared pads change it.  
 8. State Bertrand $P=MC$ under unconstrained capacity — and why **pad caps** may soften wars.  
 9. Explain **co-opetition**: what is shared, what stays competitive, what governance is required.  
-10. Keep **Sandbox ≠ Sandbox X**; cite **38 of 72** and Sandbox X **33** modules without inventing shares.  
+10. Keep **Sandbox ≠ Sandbox X**; cite **38 of 72** and Sandbox X **36** modules (15+4+5+12) without inventing shares.  
 11. State the **corridor caveat**: policy / trial ≠ day-to-day operating service.  
 12. Connect the chain: scarce pads → density → ATC → entry / limit price → Bertrand or co-opetition.
 

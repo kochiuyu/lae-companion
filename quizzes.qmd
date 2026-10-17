@@ -13,7 +13,7 @@ format:
 
 Collected **Self-check** multiple-choice questions from Weeks 1–12 — the same questions as at the end of each week page. Choose one option, tap **Check answer**, then **Reset** if you want another try. Nothing is stored or submitted — this is not the teaching-platform quiz.
 
-## Jump by theme
+<p class="hub-card-title">Jump by theme</p>
 
 - [Scope / entry](#week-01) · [Competition](#week-02) · [Cost](#week-03)
 - [Demand / GC](#week-04) · [Infrastructure](#week-05) · [Partnerships](#week-06)

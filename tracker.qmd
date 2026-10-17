@@ -5,16 +5,17 @@ as_of: "2026-10-17"
 toc: true
 toc-location: right
 toc-title: "Sections"
+toc-depth: 2
 page-layout: full
 ---
 
 Regulatory Sandbox ≠ Sandbox X.
 
-As of 15 October 2026.
+Board last checked 17 October 2026 (`as_of`).
 
 ## Status board
 
-Open, watch, and settled items as of 6 Oct 2026. Detailed source tables follow.
+Open, watch, and settled items on this board (last checked 17 October 2026). Detailed source tables follow. Row-level “checked …” dates stay as evidence stamps and are not rewritten here.
 
 ### Key to labels
 

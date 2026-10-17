@@ -171,6 +171,15 @@ div.callout-caution {
   margin: 0.15rem 0;
 }
 
+/* Review hub: Jump-by-theme demoted from H2 to .hub-card-title (pass 7) */
+body.page-prose p.hub-card-title {
+  margin: 0.85rem 0 0.4rem;
+  font-size: 1.05rem;
+  color: #003366;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
 /* Belt-and-suspenders: hide AnchorJS on hub-card titles if a heading
    ever returns inside .hub-card (Default 5 demoted titles to .hub-card-title). */
 .hub-card .anchorjs-link,

@@ -9,6 +9,7 @@ format:
 toc: true
 toc-location: right
 toc-title: "Sections"
+toc-depth: 2
 ---
 
 Term definitions and diagrams you can cite. Week notes link here on **first use**. Each term is a **bold heading** plus a short prose gloss (define, then explain or caveat when needed) — no What / Why / Watch-out labels. Spacing is uniform: blank line before every term and before every callout. Source type is shown by **section** (Hong Kong law, Mainland comparator, course economics, …). Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key numbers](key-figures.qmd).
@@ -352,7 +353,7 @@ English: “The Government received Regulatory Sandbox pilot project proposals f
 
 A **later, separate** Hong Kong trial programme launched 24 November 2025 (modules such as UTM, unconventional aircraft, shared platforms). CAD AC-017 covers cross-boundary operations in Sandbox X.
 
-Cross-boundary and advanced modules appear here — still trials, not day-to-day corridor service. **Sandbox X ≠ the first Regulatory Sandbox.** Do not add 38 and 33 into one “market share.” See [Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats).
+Cross-boundary and advanced modules appear here — still trials, not day-to-day corridor service. **Sandbox X ≠ the first Regulatory Sandbox.** Do not add 38 and 36 into one “market share.” Module batches are 15+4+5+12 = **36** on [Official status](tracker.qmd) (Updated PDFs). See [Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The launch event of the low-altitude economy \"Regulatory Sandbox X\" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))

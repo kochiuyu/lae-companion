@@ -3,6 +3,10 @@ title: "Government news"
 subtitle: "Dated government and regulatory items"
 as_of: "2026-10-17"
 page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+toc-depth: 2
 format:
   html:
     body-classes: "page-prose"
@@ -57,7 +61,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 <li id="tl-press-2026-09-16-policy-address" class="st-open"><a href="#press-item-2026-09-16-policy-address"><span class="chip">16 Sep</span> · Policy Address: Action Plan, cross-boundary trials, &gt;150 kg drafting<span class="badge b-open">OPEN</span></a></li>
 <li id="tl-press-2026-09-14-nansha" class="st-open"><a href="#press-item-2026-09-14-nansha"><span class="chip">14 Sep</span> · Nansha–Hong Kong bilateral-sandbox MoU<span class="badge b-open">MoU</span></a></li>
 <li id="tl-press-2026-09-10-stl-rthk"><a href="#press-item-2026-09-10-stl-rthk"><span class="chip">10 Sep</span> · STL: LAE applications entering regularisation stage<span class="badge b-ind">Indep.</span></a></li>
-<li id="tl-press-2026-09-10-bri"><a href="#press-item-2026-09-10-bri"><span class="chip">10 Sep</span> · Belt and Road LAE session; Sandbox X further 33 projects<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-press-2026-09-10-bri"><a href="#press-item-2026-09-10-bri"><span class="chip">10 Sep</span> · Belt and Road LAE session; Sandbox X further selected projects<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-10-hkust"><a href="#press-item-2026-09-10-hkust"><span class="chip">10 Sep</span> · HKUST LAE forum; standards Joint Statement of Intent<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-09-kazakhstan"><a href="#press-item-2026-09-09-kazakhstan"><span class="chip">9 Sep</span> · Hong Kong–Kazakhstan transport-lab MoU (LAE discussed)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-press-2026-09-02-szhk" class="st-open"><a href="#press-item-2026-09-02-szhk"><span class="chip">2 Sep</span> · Shenzhen port measures: SZ–HK low-altitude logistics (plans)<span class="badge b-open">Plans</span></a></li>
@@ -105,7 +109,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 </div></div>
 ```
 
-## 2026-10 {#press-2026-10}
+### 2026-10 {#press-2026-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -184,7 +188,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   [「首階段法例修訂工作已於2025年7月生效，包括擴大《小型無人機令》（第448G章）的規管範圍，以涵蓋重量超過25公斤至150公斤的丙類小型無人機，並於《1995 年飛航（香港）令》（第 448C 章）新增條文，為非傳統航空器在特定條件下的試飛提供法律依據。」…「民航處借鑑“監管沙盒”的實踐經驗及不同地區的良好做法，積極研究智能低空交通管理系統。」…「民航處已著手研究在《民航條例》（第448章）下，為重量超過150公斤的非傳統航空器訂立專門的附屬法例」…「全力爭取在2027年完成相關法例的草擬工作。」]{lang="zh-Hant"} ([source](https://bau.com.hk/web/article/1554875572736425984/web/content_1554875572736425984.html))
   :::
 
-## 2026-09 {#press-2026-09}
+### 2026-09 {#press-2026-09}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -272,8 +276,8 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 - []{#press-item-2026-09-10-bri .press-item}**10 Sep 2026 · China Daily Hong Kong:** Belt and Road Summit LAE standards session: DFS Michael Wong on sandbox approvals and Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/639379)
-  - What's new: Sandbox X’s further 33 selected projects; Hong Kong–Nansha MoU exchange on cross-boundary testing and standards.
-  - Status: 33 matches TLB module counts (15+4+5+9).
+  - What's new: Sandbox X further selected projects (module totals on Official status); Hong Kong–Nansha MoU exchange on cross-boundary testing and standards.
+  - Status: Sandbox X module totals are UTM **15** + unconventional **4** + shared **5** + others **12** = **36** on Official status (Updated PDFs; landing may still say nine).
   - Read instead: GIA releases on the session: [中文](https://www.info.gov.hk/gia/general/202609/11/P2026091100798.htm) · [English](https://www.info.gov.hk/gia/general/202609/11/P2026091100795.htm); Regulatory Sandbox X (TLB).
 
   ::: {.callout-note collapse="true" appearance="simple" title="中文官方來源 · Chinese official source"}
@@ -344,7 +348,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 
-## 2026-08 {#press-2026-08}
+### 2026-08 {#press-2026-08}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -372,7 +376,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   English (LAE-Intel translation): In light of actual developments in domestic civil aviation ATM, CAAC has revised the Civil Aviation Air Traffic Management Rules and formed a draft for public comment. … The deadline for feedback is 11 September 2026.
   :::
 
-## 2026-07 {#press-2026-07}
+### 2026-07 {#press-2026-07}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -387,7 +391,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   Chinese title block: OPEN — bilingual PDF; longer Chinese extract optional.
   :::
 
-## 2026-06 {#press-2026-06}
+### 2026-06 {#press-2026-06}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -414,7 +418,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 
-## 2026-05 {#press-2026-05}
+### 2026-05 {#press-2026-05}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -441,7 +445,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 
-## 2026-04 {#press-2026-04}
+### 2026-04 {#press-2026-04}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -519,7 +523,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 
 
-## 2026-03 {#press-2026-03}
+### 2026-03 {#press-2026-03}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -535,7 +539,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 
-## 2026-02 {#press-2026-02}
+### 2026-02 {#press-2026-02}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -559,7 +563,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   English (LAE-Intel translation): Under the civil aviation industry standards programme, the department has organised drafts of six CAAC industry standards, including the Guide on Procedures for Designating Feeder-Logistics Fixed-Wing UAS Routes (draft) and Low-Altitude Navigation Service Information Element Identification — Civil UAS (draft). … Comment period closes 28 February 2026.
   :::
 
-## 2026-01 {#press-2026-01}
+### 2026-01 {#press-2026-01}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -618,7 +622,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   English (LAE-Intel translation): Since the first-batch LAE Regulatory Sandbox projects were announced last March, 38 pilot projects were approved, and 32 have now been landed and are progressing… The Sandbox X programme launched at the end of last year… is intended to cover more difficult cross-boundary / cross-domain activities, including cross-boundary logistics and low-altitude passenger-carrying by unmanned aircraft… with a view to showing some cross-boundary trial scenarios and rule alignment in the Action Plan on Developing Low-Altitude Economy to be drafted within this year.
   :::
 
-## 2025-12 {#press-2025-12}
+### 2025-12 {#press-2025-12}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -679,7 +683,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 
-## 2025-11 {#press-2025-11}
+### 2025-11 {#press-2025-11}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
@@ -707,7 +711,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 
-## 2025-10 {#press-2025-10}
+### 2025-10 {#press-2025-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
