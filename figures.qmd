@@ -284,10 +284,7 @@ Full notes: [Week 7](week-07.qmd) · 11 figures.
 
 ## Week 8 — Congestion, slots, and roadmaps {#week-08}
 
-Full notes: [Week 8](week-08.qmd) · 10 figures.
-
-<a id="f08-capacity"></a>
-- [Whole-system capacity (not drones-per-minute)](week-08.qmd#w08-capacity)
+Full notes: [Week 8](week-08.qmd) · 9 figures.
 
 <a id="f08-bind-first"></a>
 - [Reliable capacity = whichever link binds first](week-08.qmd#w08-bind-first)

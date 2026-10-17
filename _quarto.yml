@@ -50,10 +50,10 @@ website:
         text: Home
       - text: Orient
         menu:
-          - href: overview.qmd
-            text: Course overview
           - href: primer.qmd
             text: What is LAE?
+          - href: overview.qmd
+            text: Course overview
           - href: business-overview.qmd
             text: How does LAE work?
           - href: regulators.qmd

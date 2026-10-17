@@ -110,7 +110,7 @@ Click a week to open its page (slides, notes, readings). If the titles feel heav
 ```{=html}
 <figure class="wdiag" id="course-map-svg" aria-labelledby="course-map-svg-title">
 <p class="wdiag-cap" id="course-map-svg-title"><strong>12-week conceptual map</strong> — Weeks 1–3 building blocks; Weeks 4–6 extend the use case; Weeks 7–10 add policy layers; Weeks 11–12 synthesize. Week titles match the course schedule. Schematic stages only — use the clickable HTML map for week links. If titles feel heavy, start with <a href="primer.qmd">What is LAE?</a>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="Four stage cards flowing from building blocks through extend and policy layers to synthesize for weeks 1–12." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e8-title e8-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e8-title e8-desc">
   <title id="e8-title">12-week conceptual map</title>
   <desc id="e8-desc">Four stages of the course outline. Weeks 1 to 3 building blocks. Weeks 4 to 6 extend the use case. Weeks 7 to 10 add policy layers. Weeks 11 to 12 synthesize. Week titles match the course schedule. Schematic teaching map — use the clickable HTML map for links.</desc>
   <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

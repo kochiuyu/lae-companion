@@ -91,7 +91,9 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 
 
 ```{=html}
-<figure class="wdiag" id="w08-capacity" aria-labelledby="w08-capacity-title">
+<figure class="wdiag wdiag-text" id="w08-capacity" aria-labelledby="w08-capacity-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w08-capacity-title"><strong>Whole-system capacity (not drones-per-minute)</strong></p>
 <div class="wdiag-row">
 <div class="wdiag-box"><strong>Route / separation</strong></div>
@@ -101,7 +103,8 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 </div>
 <div class="wdiag-arrow" aria-hidden="true">↓ whichever binds first sets reliable K</div>
 <div class="wdiag-box fact"><strong>Fact discipline</strong><br/>Cap. 448G height bands ≠ ~1,000 m policy working description. Do not invent Harbour corridor capacity. Keep Sandbox ≠ Sandbox X; OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</div>
-<p class="wdiag-note">Classroom delay and bid numbers later are teaching screens, not published CAD capacities.</p>
+<p class="wdiag-note">Classroom delay and bid numbers later are teaching screens, not published CAD capacities. HTML-only companion to the SVG below — no invented corridor <em>K</em>.</p>
+</details>
 </figure>
 ```
 

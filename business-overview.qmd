@@ -28,7 +28,7 @@ A service creates **value** when it does at least one of these well:
 ```{=html}
 <figure class="wdiag" id="biz-four-value" aria-labelledby="biz-four-value-title">
 <p class="wdiag-cap" id="biz-four-value-title"><strong>Four ways a service creates value</strong> — saves time; cuts cost or risk; improves access; or enables a mission other modes cannot do well. Still commercially hard without willingness to pay, real demand, utilization/load factor, and costs under control. Technology helps only when it improves <strong>full-service</strong> economics — not a flashy airframe alone.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Four cards: saves time, cuts cost or risk, improves access, and enables a mission. A strip notes commercial conditions and that technology must improve full-service economics." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e6-title e6-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e6-title e6-desc">
   <title id="e6-title">Four ways a service creates value</title>
   <desc id="e6-desc">A low-altitude economy service creates value when it does at least one of these well: saves time; cuts cost or risk; improves access; or enables a mission that other modes cannot do well. Technology helps only when it improves the economics of the full service.</desc>
   <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -119,7 +119,7 @@ Trial programmes help teams test under controlled conditions. They are **not** t
 ```{=html}
 <figure class="wdiag" id="biz-value-chain-svg" aria-labelledby="biz-value-chain-svg-title">
 <p class="wdiag-cap" id="biz-value-chain-svg-title"><strong>Value chain (roles only)</strong> — customers/mission sponsors → operators → aircraft &amp; sites / enabling tech &amp; services / insurance &amp; finance ↔ public bodies when involved. Arrows show usual value or payment direction — not volumes or market size. No firm names; no TAM/SAM. Insurance does not remove operational or regulatory risk. Trials ≠ day-to-day approval; Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Value-chain diagram from customers through operators to three supplier groups, with public bodies linked when involved. Roles only, no market sizes." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f4-title f4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f4-title f4-desc">
   <title id="f4-title">Value chain (roles only)</title>
   <desc id="f4-desc">Simple LAE value chain. Customers or mission sponsors pay for missions. Operators run the service and spend on aircraft and sites, enabling tech and services, and insurance and finance. Public bodies when involved may fund trials, shared infrastructure, or public-service missions. Roles only — no firm names and no market-size figures. Trial programmes are not everyday commercial approval. Insurance does not remove operational or regulatory risk.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -184,7 +184,10 @@ Use the map and sector lists on [Companies & sectors](landscape.qmd) for who app
 
 ## Where to go next
 
-- [Who decides what?](regulators.qmd) — regulator roles  
+**Full Orient next:** [Who decides what?](regulators.qmd) → [How to use this site](howto.qmd) → [Common questions](faq.qmd) → [Key numbers](key-figures.qmd)
+
+Also useful:
+
 - [Companies & sectors](landscape.qmd) — market map by sector  
 - **Teach** menu — especially [Week 1](week-01.qmd), [Week 2](week-02.qmd), [Week 3](week-03.qmd), [Week 6](week-06.qmd)  
 - [Week 1](week-01.qmd) · [What is LAE?](primer.qmd)

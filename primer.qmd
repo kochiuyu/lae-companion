@@ -21,7 +21,9 @@ That **1,000 metre** figure is a **policy working description** — a way offici
 ```{=html}
 <figure class="wdiag" id="lae-altitude-rulers" aria-labelledby="lae-altitude-rulers-title">
 <p class="wdiag-cap" id="lae-altitude-rulers-title"><strong>One sky, two rulers</strong> — ~1,000&nbsp;m is how Hong Kong policy talks about the LAE field. It is <em>not</em> a Cap.&nbsp;448G flying-height limit. Ordinary SUA bands sit much lower: Category&nbsp;A1 at 100&nbsp;ft AGL (≈&nbsp;30&nbsp;m) and Category&nbsp;A2 at 300&nbsp;ft AGL (≈&nbsp;91&nbsp;m). Full altitude entries: <a href="glossary.qmd#altitude-scale">Glossary · altitude scale</a>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 540" role="img" aria-label="Vertical height diagram. A Hong Kong policy band near 1,000 metres describes the low-altitude economy field. Cap. 448G ordinary flying bands sit much lower: Category A1 at 100 feet (about 30 metres) and Category A2 at 300 feet (about 91 metres) above ground level." style="display:block;width:100%;max-width:40rem;height:auto;margin:.35rem 0 .15rem">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 540" role="img" style="display:block;width:100%;max-width:40rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="a1-title a1-desc">
+  <title id="a1-title">One sky, two rulers</title>
+  <desc id="a1-desc">Vertical height diagram. A Hong Kong policy band near 1,000 metres describes the low-altitude economy field. Cap. 448G ordinary flying bands sit much lower: Category A1 at 100 feet (about 30 metres) and Category A2 at 300 feet (about 91 metres) above ground level.</desc>
   <defs>
     <linearGradient id="lae-a1-sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#dce8f4"/>
@@ -322,7 +324,7 @@ Hong Kong already has an active policy track: a Working Group, trial programmes 
 ```{=html}
 <figure class="wdiag" id="lae-two-sandboxes" aria-labelledby="lae-two-sandboxes-title">
 <p class="wdiag-cap" id="lae-two-sandboxes-title"><strong>Two trial rounds</strong> — Hong Kong ran an early <strong>Regulatory Sandbox</strong>, then a later programme called <strong>Sandbox X</strong>. Treat them as two different trial rounds — <em>not</em> one combined list. Checked counts: <a href="tracker.qmd">Official status</a>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" role="img" aria-label="Two separate panels labelled Regulatory Sandbox and Sandbox X with a not-equal mark between them. Hong Kong ran two different trial rounds, not one combined list." style="display:block;width:100%;max-width:40rem;height:auto;margin:.35rem 0 .15rem">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" role="img" style="display:block;width:100%;max-width:40rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="a3-title a3-desc">
   <title id="a3-title">Two trial rounds</title>
   <desc id="a3-desc">Two separate panels. Left: early Regulatory Sandbox. Right: later Sandbox X. A not-equal mark between them. Hong Kong ran two different trial rounds — not one combined list. Project counts are not shown.</desc>
 

@@ -136,6 +136,10 @@ These are **not** Hong Kong regulators. Use them for frameworks and readings —
 
 ## Where to look next
 
+**Full Orient next:** [How to use this site](howto.qmd) → [Common questions](faq.qmd) → [Key numbers](key-figures.qmd)
+
+Also useful:
+
 - Settled / OPEN / WATCH labels → [Official status](tracker.qmd)
 - Dated instruments and milestones → [Timeline](dates.qmd)
 - Term entries and “who regulates what” diagram → [Glossary](glossary.qmd)

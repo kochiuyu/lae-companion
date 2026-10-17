@@ -1,7 +1,7 @@
 ---
 title: "Low Altitude Economics"
 subtitle: "For a 12-week low-altitude economy course"
-as_of: "2026-10-15"
+as_of: "2026-10-17"
 ---
 
 Site for a 12-week low-altitude economy course — one page per week with notes, slides, and readings, plus supporting evidence.
@@ -14,8 +14,8 @@ Site for a 12-week low-altitude economy course — one page per week with notes,
 
 Week map, primers, how the business works, FAQ, key numbers, and how to use this site.
 
-- [Course overview](overview.qmd)
 - [What is LAE?](primer.qmd)
+- [Course overview](overview.qmd)
 - [How does LAE work?](business-overview.qmd)
 - [Who decides what?](regulators.qmd)
 - [How to use this site](howto.qmd)
