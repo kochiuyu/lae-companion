@@ -16,7 +16,7 @@ format:
 
 **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
-Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution. Links: [Week 4](week-04.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).
+Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution. Links: [Week 4](week-04.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).
 
 ## Summary {#summary}
 
@@ -36,7 +36,7 @@ Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size
 - Social evaluation covers total benefits and costs and how they are distributed across groups.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers and the HK\$350bn figure.** Worked examples below use round figures (funnels, contribution, scenario profits, property-value arithmetic). They are **illustrative assumptions for learning**, not current corridor data or hedonic estimates for Hong Kong drone noise. The **HK\$350 billion** projection is an **Our Hong Kong Foundation** (OHKF) private think-tank figure for Hong Kong industry **value added** by **2050** — **not** a government number, not operator revenue, and not automatic GDP ([Key figures](key-figures.qmd) · [Readings](#readings) · [Official status](tracker.qmd)).
+**Classroom numbers and the HK\$350bn figure.** Worked examples below use round figures (funnels, contribution, scenario profits, property-value arithmetic). They are **illustrative assumptions for learning**, not current corridor data or hedonic estimates for Hong Kong drone noise. The **HK\$350 billion** projection is an **Our Hong Kong Foundation** (OHKF) private think-tank figure for Hong Kong industry **value added** by **2050** — **not** a government number, not operator revenue, and not automatic GDP ([Key numbers](key-figures.qmd) · [Readings](#readings) · [Official status](tracker.qmd)).
 :::
 
 ## Learning objectives
@@ -147,7 +147,9 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 
 
 ```{=html}
-<figure class="wdiag" id="w09-funnel" aria-labelledby="w09-funnel-title">
+<figure class="wdiag wdiag-text" id="w09-funnel" aria-labelledby="w09-funnel-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w09-funnel-title"><strong>Funnel symbols (Week 9)</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box">TAM → eligibility e → SAM</div>
@@ -157,11 +159,12 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 <div class="wdiag-box fact">D_served = min{D_pot, K}</div>
 </div>
 <p class="wdiag-note">OHKF HK$350bn is think-tank Hong Kong value added by 2050 — not SOM. Classroom funnel numbers are illustrative.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w09-funnel-svg" aria-labelledby="w09-funnel-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-funnel-svg" aria-labelledby="w09-funnel-svg-title">
 <p class="wdiag-cap" id="w09-funnel-svg-title"><strong>Sizing funnel — TAM to served demand</strong> — TAM × eligibility e → SAM; × choice share s → D_pot; D_served = min{{D_pot, K}}. OHKF <strong>HK$350bn</strong> is a think-tank Hong Kong <strong>industry value-added</strong> projection by 2050 — <strong>not</strong> SOM, not operator revenue, not a government target. Classroom funnel numbers are illustrative. Sandbox selection ≠ market share.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Funnel from TAM through SAM and potential demand to served demand as the minimum of potential demand and capacity K, with a note that OHKF HK$350bn is not SOM." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g1-title g1-desc">
   <title id="g1-title">Sizing funnel — TAM to served demand</title>
@@ -318,7 +321,9 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 
 
 ```{=html}
-<figure class="wdiag" id="w09-channels" aria-labelledby="w09-channels-title">
+<figure class="wdiag wdiag-text" id="w09-channels" aria-labelledby="w09-channels-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w09-channels-title"><strong>One constraint → one model channel</strong></p>
 <div class="wdiag-stack cols-3">
 <div class="wdiag-box"><strong>Demand / choice</strong></div>
@@ -329,11 +334,12 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 <div class="wdiag-box muted"><strong>Avoid</strong><br/>Stacking independent “haircuts” for the same effect</div>
 </div>
 <p class="wdiag-note">NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w09-channels-svg" aria-labelledby="w09-channels-svg-title">
+<figure class="wdiag wdiag-svg" id="w09-channels-svg" aria-labelledby="w09-channels-svg-title">
 <p class="wdiag-cap" id="w09-channels-svg-title"><strong>One constraint → one model channel</strong> — demand/choice, capacity K, price/cost, timing/launch, probability. Map weather → serviceable K, acceptance → choice share, tech cost → cost model. Avoid five independent “×0.8” haircuts for the same effect. NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Five model-channel boxes: demand or choice, capacity K, price or cost, timing or launch, and probability. Examples map weather to capacity, acceptance to choice share, and technology cost to the cost model. A warning against stacking independent haircuts." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d2-title d2-desc">
   <title id="d2-title">One constraint → one model channel</title>
@@ -587,7 +593,7 @@ Uncertainty tools are general. The [**HK$350bn**](glossary.qmd#industry-value-ad
 
 ## 5. The HK\$350 billion projection — and distributional questions
 
-A **2025** report by **Our Hong Kong Foundation (OHKF)** projects that Hong Kong’s LAE-related industries could generate approximately **HK\$350 billion** in annual industry **value added** by **2050**, with **supporting services** contributing the majority ([Readings](#readings) · [Key figures](key-figures.qmd)).
+A **2025** report by **Our Hong Kong Foundation (OHKF)** projects that Hong Kong’s LAE-related industries could generate approximately **HK\$350 billion** in annual industry **value added** by **2050**, with **supporting services** contributing the majority ([Readings](#readings) · [Key numbers](key-figures.qmd)).
 
 Keep the attribution strict:
 
@@ -638,7 +644,7 @@ Keep the attribution strict:
   <text x="360" y="334" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">who gains access · who gets jobs · who bears noise, privacy, land-use, fiscal cost</text>
 
 </svg>
-<p class="wdiag-note">From Week 9 §5. Cite Key figures / Readings. Not realised cash.</p>
+<p class="wdiag-note">From Week 9 §5. Cite Key numbers / Readings. Not realised cash.</p>
 </figure>
 ```
 
@@ -898,7 +904,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (OHKF *Taking Flight* value-added projection; Clothier et al. on drone acceptance; Al Haddad et al. / Cohen et al. on adoption and market potential; EASA societal-acceptance study).  
-- **Course links:** [Week 8](week-08.qmd) · [Week 4](week-04.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
+- **Course links:** [Week 8](week-08.qmd) · [Week 4](week-04.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week09-impact.pdf](slides/week09-impact.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 9 assignment brief used in class.
 
 ## Readings {#readings}

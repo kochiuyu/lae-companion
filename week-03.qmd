@@ -42,7 +42,7 @@ Week 2 asked **who competes** and why scarce pads and density matter for average
 - Subscriptions and similar contracts can reshape risk; none is a free or guaranteed hedge.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (asset costs, CASK, fares, missions, weather days). They are **illustrative assumptions for learning**, not current Hong Kong market quotations, operator filings, or forecasts. Absolute programme and reading facts (first Sandbox **38 of 72**, Sandbox X ≠ first Sandbox, NASA UAM study as **not** an HK government figure, CAAC delivery-trial guide as a comparator cost-line document) stay with issuers on [Key figures](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats) / [Readings](#readings).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (asset costs, CASK, fares, missions, weather days). They are **illustrative assumptions for learning**, not current Hong Kong market quotations, operator filings, or forecasts. Absolute programme and reading facts (first Sandbox **38 of 72**, Sandbox X ≠ first Sandbox, NASA UAM study as **not** an HK government figure, CAAC delivery-trial guide as a comparator cost-line document) stay with issuers on [Key numbers](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats) / [Readings](#readings).
 :::
 
 ## Learning objectives
@@ -84,7 +84,7 @@ Imagine two reviews of the same business case. One manager asks how charging tim
 Week 2 showed that scarce pads and density drive **average total cost (ATC)**. Week 3 makes that precise for a spreadsheet: what is **investment**, what is **recurring spend**, what is the right **unit**, and how does the **revenue model** change who bears volume risk? The same pad that raised ATC when under-used now appears as CAPEX or site OPEX; the same density logic reappears as utilization in CASK and as missions in breakeven.
 
 ::: {.callout-note appearance="simple"}
-**Sandbox note.** Trial programmes (first **Regulatory Sandbox**, **38 of 72** selected; later **Sandbox X**) generate learning and, for some operators, real compliance and insurance OPEX. They are **not** a cost forecast or a proof that commercial unit economics already work. Keep programmes separate ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats)).
+**Sandbox note.** Trial programmes (first **Regulatory Sandbox**, **38 of 72** selected; later **Sandbox X**) generate learning and, for some operators, real compliance and insurance OPEX. They are **not** a cost forecast or a proof that commercial unit economics already work. Keep programmes separate ([Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats)).
 :::
 
 ---
@@ -243,7 +243,9 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
 
 
 ```{=html}
-<figure class="wdiag" id="w03-toolchain" aria-labelledby="w03-toolchain-title">
+<figure class="wdiag wdiag-text" id="w03-toolchain" aria-labelledby="w03-toolchain-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w03-toolchain-title"><strong>Cost → unit → contribution → cash (tool chain)</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-row">
@@ -258,11 +260,12 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
 <div class="wdiag-box"><strong>Cash / breakeven screen</strong><br/>Cover fixed cost; then financing and downside (later weeks)</div>
 </div>
 <p class="wdiag-note">Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w03-toolchain-svg" aria-labelledby="w03-toolchain-svg-title">
+<figure class="wdiag wdiag-svg" id="w03-toolchain-svg" aria-labelledby="w03-toolchain-svg-title">
 <p class="wdiag-cap" id="w03-toolchain-svg-title"><strong>Cost → unit → contribution → cash</strong> — CAPEX and OPEX → choose a consistent unit (CASK or mission-km) → contribution = revenue − variable cost of served units → cash/breakeven screen (cover fixed cost; financing and downside later). Lock the stack before polishing a CASK. Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Tool-chain flow from CAPEX and OPEX through unit cost and contribution to a cash or breakeven screen." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f2-title f2-desc">
   <title id="f2-title">Cost → unit → contribution → cash</title>
@@ -856,7 +859,7 @@ Cost and revenue tools are general. **Hong Kong and GBA hypotheses** ask which c
 | Scale opportunity | Complex urban services | Manufacturing and network scale |
 | Potential role | Finance, logistics, services | Technology, production, operations |
 
-These are **strategic hypotheses**, not universal facts. Compare specific sites, routes, customers, regulations, and partners. Keep trial programmes straight: **Regulatory Sandbox ≠ Sandbox X**; neither is a cost or revenue forecast ([Who decides what?](regulators.qmd#standing-caveats); [Key figures](key-figures.qmd)).
+These are **strategic hypotheses**, not universal facts. Compare specific sites, routes, customers, regulations, and partners. Keep trial programmes straight: **Regulatory Sandbox ≠ Sandbox X**; neither is a cost or revenue forecast ([Who decides what?](regulators.qmd#standing-caveats); [Key numbers](key-figures.qmd)).
 
 Compliance and trial rules can become real OPEX lines — for example Mainland delivery-trial guidance listed in [Readings](#readings) turns record-keeping, insurance, and link requirements into operating-cost items for operators who face those rules (comparator context, **not** Hong Kong Cap. 448G text).
 
@@ -1010,7 +1013,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) on this page (NASA UAM Market Study as official UAM framing — **not** an HK government figure; academic cost/operations reviews; CAAC delivery-trial guide as a cost-line comparator).  
-- **Course links:** [Glossary · business and economics](glossary.qmd#business-and-economics) · [Week 2](week-02.qmd) · [How does LAE work?](business-overview.qmd) · [Key figures](key-figures.qmd).  
+- **Course links:** [Glossary · business and economics](glossary.qmd#business-and-economics) · [Week 2](week-02.qmd) · [How does LAE work?](business-overview.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 3 assignment brief used in class.
 
 ## Readings {#readings}

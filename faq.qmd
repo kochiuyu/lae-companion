@@ -18,7 +18,7 @@ In Hong Kong it refers to economic activity in airspace generally below about **
 
 That height is a **policy working description** — a way to talk about the field. It is **not** a Cap. 448G flying-height limit.
 
-See [What is LAE?](primer.qmd) and [Key figures](key-figures.qmd).
+See [What is LAE?](primer.qmd) and [Key numbers](key-figures.qmd).
 
 ## 2. Is “drone” the same as SUA?
 
@@ -78,14 +78,14 @@ They are two **different** Hong Kong trial programmes:
 
 Do **not** treat them as one combined list.
 
-Plain wording: [Who decides what?](regulators.qmd#standing-caveats). Numbers: [Key figures](key-figures.qmd).
+Plain wording: [Who decides what?](regulators.qmd#standing-caveats). Numbers: [Key numbers](key-figures.qmd).
 
 ```{=html}
 <figure class="wdiag" id="faq-sandbox-split-svg" aria-labelledby="faq-sandbox-split-svg-title">
-<p class="wdiag-cap" id="faq-sandbox-split-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Hong Kong has two <strong>different</strong> trial programmes: an early <strong>Regulatory Sandbox</strong> (advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) and a later <strong>Sandbox X</strong> (complex / cross-boundary via <strong>CAD AC-017</strong>). Do <strong>not</strong> merge them into one list. Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. Cite <a href="key-figures.qmd">Key figures</a> for counts — do not invent them here. U-space ≠ Hong Kong law.</p>
+<p class="wdiag-cap" id="faq-sandbox-split-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Hong Kong has two <strong>different</strong> trial programmes: an early <strong>Regulatory Sandbox</strong> (advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) and a later <strong>Sandbox X</strong> (complex / cross-boundary via <strong>CAD AC-017</strong>). Do <strong>not</strong> merge them into one list. Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. Cite <a href="key-figures.qmd">Key numbers</a> for counts — do not invent them here. U-space ≠ Hong Kong law.</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="q5-title q5-desc">
   <title id="q5-title">Regulatory Sandbox ≠ Sandbox X</title>
-  <desc id="q5-desc">Hong Kong has two different trial programmes: an early Regulatory Sandbox and a later Sandbox X. Do not treat them as one combined list. Advanced BVLOS pathways in the first Sandbox include CAD AC-013; Sandbox X cross-boundary pathways include CAD AC-017. Neither is a commercial franchise. Cite Key figures for counts — do not invent them here. U-space is not Hong Kong law.</desc>
+  <desc id="q5-desc">Hong Kong has two different trial programmes: an early Regulatory Sandbox and a later Sandbox X. Do not treat them as one combined list. Advanced BVLOS pathways in the first Sandbox include CAD AC-013; Sandbox X cross-boundary pathways include CAD AC-017. Neither is a commercial franchise. Cite Key numbers for counts — do not invent them here. U-space is not Hong Kong law.</desc>
   <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
   <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X</text>
   <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">FAQ §4 · two trial programmes — not one list</text>
@@ -105,7 +105,7 @@ Plain wording: [Who decides what?](regulators.qmd#standing-caveats). Numbers: [K
   <rect x="60" y="250" width="600" height="40" rx="8" fill="#F7F6F3" stroke="#C5A572" stroke-width="1.5"/>
   <text x="360" y="276" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Neither is a commercial franchise · evidence ≠ day-to-day approval</text>
   <rect x="60" y="306" width="600" height="28" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
-  <text x="360" y="325" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Cite Key figures for counts · U-space ≠ HK law</text>
+  <text x="360" y="325" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Cite Key numbers for counts · U-space ≠ HK law</text>
 </svg>
 
 <p class="wdiag-note">From FAQ §4. Sandbox ≠ Sandbox X; AC-013 ≠ AC-017. New SVG.</p>
@@ -126,11 +126,11 @@ See [Who decides what?](regulators.qmd#standing-caveats) and [Official status](t
 
 About **HK$350 billion** by 2050 is an **Our Hong Kong Foundation** projection (a private think-tank figure). It is **not** an HKSAR government figure.
 
-See [Key figures](key-figures.qmd) and [Official status](tracker.qmd).
+See [Key numbers](key-figures.qmd) and [Official status](tracker.qmd).
 
 ```{=html}
 <figure class="wdiag" id="faq-two-facts-svg" aria-labelledby="faq-two-facts-svg-title">
-<p class="wdiag-cap" id="faq-two-facts-svg-title"><strong>Two FAQ facts to keep straight</strong> — (1) <strong>Regulatory Sandbox ≠ Sandbox X</strong> (two different trial programmes — not one combined list). (2) Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> — on evidence tracked here, <strong>not</strong> day-to-day flying. Also: OHKF <strong>HK$350bn</strong> by 2050 is a private <strong>value-added</strong> projection — <strong>not</strong> a government number. See <a href="regulators.qmd">Who decides what?</a> · <a href="key-figures.qmd">Key figures</a>.</p>
+<p class="wdiag-cap" id="faq-two-facts-svg-title"><strong>Two FAQ facts to keep straight</strong> — (1) <strong>Regulatory Sandbox ≠ Sandbox X</strong> (two different trial programmes — not one combined list). (2) Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> — on evidence tracked here, <strong>not</strong> day-to-day flying. Also: OHKF <strong>HK$350bn</strong> by 2050 is a private <strong>value-added</strong> projection — <strong>not</strong> a government number. See <a href="regulators.qmd">Who decides what?</a> · <a href="key-figures.qmd">Key numbers</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Two cards for Sandbox not equal Sandbox X and corridor not day-to-day flying, plus an OHKF value-added attribution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l4-title l4-desc">
   <title id="l4-title">Two FAQ facts to keep straight</title>
   <desc id="l4-desc">Hong Kong has two different trial programmes: an early Regulatory Sandbox and a later Sandbox X. Do not treat them as one combined list. A Shenzhen–Hong Kong or GBA cross-boundary corridor is discussed in policy; on the evidence tracked on this site it is not an operating corridor yet — not day-to-day service. The about HK$350 billion by 2050 figure is an Our Hong Kong Foundation value-added projection — not a government number.</desc>
@@ -191,4 +191,4 @@ Definitions: [Glossary](glossary.qmd).
 
 ---
 
-Next: [Key figures](key-figures.qmd) · back to [How to use this site](howto.qmd).
+Next: [Key numbers](key-figures.qmd) · back to [How to use this site](howto.qmd).

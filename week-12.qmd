@@ -16,7 +16,7 @@ format:
 
 **Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
 
-Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review. Links: [Course overview](overview.qmd) · [Week 11](week-11.qmd) · [Key figures](key-figures.qmd).
+Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review. Links: [Course overview](overview.qmd) · [Week 11](week-11.qmd) · [Key numbers](key-figures.qmd).
 
 ## Summary {#summary}
 
@@ -36,7 +36,7 @@ Week 11 synthesized the capstone; this week looks ahead to **networks and servic
 - The goal is consistent judgment under operational, regulatory, financial, and social constraints.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers and projections.** Worked examples below (network links, insurance evidence cost, leasing cash flows, exam shock) use **illustrative assumptions for learning**. The OHKF **HK\$350bn** figure remains a private think-tank **value-added** projection for Hong Kong by 2050 — **not** a government number ([Week 9](week-09.qmd) · [Key figures](key-figures.qmd)). CAAC ATM Rules on Readings are a **draft consultation**, not in force. Keep **Sandbox ≠ Sandbox X**; Sandbox X does **not** bypass legal or safety requirements.
+**Classroom numbers and projections.** Worked examples below (network links, insurance evidence cost, leasing cash flows, exam shock) use **illustrative assumptions for learning**. The OHKF **HK\$350bn** figure remains a private think-tank **value-added** projection for Hong Kong by 2050 — **not** a government number ([Week 9](week-09.qmd) · [Key numbers](key-figures.qmd)). CAAC ATM Rules on Readings are a **draft consultation**, not in force. Keep **Sandbox ≠ Sandbox X**; Sandbox X does **not** bypass legal or safety requirements.
 :::
 
 ## Learning objectives
@@ -84,7 +84,9 @@ A **corridor** is one link. A **network** is many links among many nodes. Adding
 
 
 ```{=html}
-<figure class="wdiag" id="w12-network" aria-labelledby="w12-network-title">
+<figure class="wdiag wdiag-text" id="w12-network" aria-labelledby="w12-network-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w12-network-title"><strong>Possible links ≠ viable service</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box">N nodes → L = N(N−1)/2 undirected pairs (or N(N−1) if directed)</div>
@@ -99,11 +101,12 @@ A **corridor** is one link. A **network** is many links among many nodes. Adding
 <div class="wdiag-box fact"><strong>Candidate services only where all pass</strong><br/>Do not claim GBA corridors as day-to-day operating service on evidence tracked here.</div>
 </div>
 <p class="wdiag-note">Screening rates in the worked table are classroom assumptions — not a GBA forecast.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w12-network-svg" aria-labelledby="w12-network-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-network-svg" aria-labelledby="w12-network-svg-title">
 <p class="wdiag-cap" id="w12-network-svg-title"><strong>Possible links ≠ viable service</strong> — N nodes create L = N(N−1)/2 possible pairs (or N(N−1) if directed). Screen each link for demand, reliable K, permission, and cost/acceptance. Candidate services only where all pass. Do not claim GBA corridors as day-to-day operating service on evidence tracked here. Screening rates in class are illustrative — not a GBA forecast.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Flow from N nodes and possible pairs down through four screens—demand, reliable capacity, permission, and cost or acceptance—to candidate services only where all pass. A note not to claim GBA corridors as day-to-day operating service." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d9-title d9-desc">
   <title id="d9-title">Possible links ≠ viable service</title>
@@ -457,7 +460,9 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
 
 
 ```{=html}
-<figure class="wdiag" id="w12-exam" aria-labelledby="w12-exam-title">
+<figure class="wdiag wdiag-text" id="w12-exam" aria-labelledby="w12-exam-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w12-exam-title"><strong>Five-step exam method</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box"><strong>1</strong> Define the decision &amp; alternative</div>
@@ -471,11 +476,12 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
 <div class="wdiag-box fact"><strong>5</strong> Recommend conditionally (proceed / pause / redesign / stop)</div>
 </div>
 <p class="wdiag-note">CAAC ATM Rules on Readings remain a draft consultation — not in force. U-space ≠ HK law.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w12-exam-svg" aria-labelledby="w12-exam-svg-title">
+<figure class="wdiag wdiag-svg" id="w12-exam-svg" aria-labelledby="w12-exam-svg-title">
 <p class="wdiag-cap" id="w12-exam-svg-title"><strong>Five-step exam method</strong> — (1) define the decision and alternative; (2) served activity min{D, K}; (3) viability with p, v, F and specified charges; (4) map each constraint once; (5) recommend conditionally (proceed / pause / redesign / stop). Use only tools that clarify the decision. U-space ≠ Hong Kong law; CAAC ATM Rules on Readings remain a draft consultation.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Five stacked exam steps from defining the decision to conditional recommendation of proceed, pause, redesign, or stop." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d8-title d8-desc">
   <title id="d8-title">Five-step exam method</title>
@@ -698,7 +704,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (CAAC ATM Rules **draft** consultation — not in force; Pons-Prats et al. on UAM prospects; FAA UAM ConOps / AAM Implementation Plan; EASA SC-VTOL; CAAC leadership piece on general aviation and LAE).  
-- **Course links:** [Week 11](week-11.qmd) · [Week 9](week-09.qmd) · [Course overview](overview.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).  
+- **Course links:** [Week 11](week-11.qmd) · [Week 9](week-09.qmd) · [Course overview](overview.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
 - **Slides:** [week12-future.pdf](slides/week12-future.pdf).
 
 ## Readings {#readings}

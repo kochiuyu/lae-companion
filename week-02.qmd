@@ -41,7 +41,7 @@ Week 1 built the LAE system and simple viability tools (VOT, generalized cost, u
 - Co-opetition can cut duplicated infrastructure cost if access, investment, and control rules are clear.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (shares, rents, flights, fares). They are **illustrative assumptions for learning**, not current Hong Kong market data, corridor forecasts, or named operators’ real costs. Absolute programme facts (first Sandbox **38 of 72**, Sandbox X module counts, corridor caveats) stay with issuers on [Key figures](key-figures.qmd) / [Official status](tracker.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (shares, rents, flights, fares). They are **illustrative assumptions for learning**, not current Hong Kong market data, corridor forecasts, or named operators’ real costs. Absolute programme facts (first Sandbox **38 of 72**, Sandbox X module counts, corridor caveats) stay with issuers on [Key numbers](key-figures.qmd) / [Official status](tracker.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -85,7 +85,7 @@ That fight does not look the same in every LAE application. Competition may diff
 Week 1’s empty-seat / utilization arithmetic already hinted that **fixed site cost ÷ flights** can dominate unit cost. Week 2 explains why that arithmetic becomes a **competitive** weapon: whoever controls scarce pads and dense routes may sustain a lower average cost — and may try to keep rivals from matching that density.
 
 ::: {.callout-note appearance="simple"}
-**Sandbox note.** Participation in a Hong Kong trial programme (the early **Regulatory Sandbox** or later **Sandbox X**) is evidence about *testing under controlled conditions*. It does **not** by itself establish market dominance or commercial scale. Keep the two programmes separate: first-batch **38 of 72** vs Sandbox X module counts on [Key figures](key-figures.qmd); standing caveats on [Who decides what?](regulators.qmd#standing-caveats).
+**Sandbox note.** Participation in a Hong Kong trial programme (the early **Regulatory Sandbox** or later **Sandbox X**) is evidence about *testing under controlled conditions*. It does **not** by itself establish market dominance or commercial scale. Keep the two programmes separate: first-batch **38 of 72** vs Sandbox X module counts on [Key numbers](key-figures.qmd); standing caveats on [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ---
@@ -96,7 +96,9 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
 
 
 ```{=html}
-<figure class="wdiag" id="w02-compete" aria-labelledby="w02-compete-title">
+<figure class="wdiag wdiag-text" id="w02-compete" aria-labelledby="w02-compete-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w02-compete-title"><strong>Who might compete (question map)</strong></p>
 <div class="wdiag-stack cols-2">
 <div class="wdiag-box"><strong>Same OD / same mission?</strong><br/>Substitute services compete for the same customer trip or payload.</div>
@@ -105,11 +107,12 @@ Section 1 asked why structure matters for LAE. Economists start with **market st
 <div class="wdiag-box fact"><strong>Discipline</strong><br/>Name the market before computing concentration. Classroom HHI shares are illustrative — not Hong Kong firm data.</div>
 </div>
 <p class="wdiag-note">Connects to Week 5 scarce sites and Week 8 airspace allocation.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w02-compete-svg" aria-labelledby="w02-compete-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-compete-svg" aria-labelledby="w02-compete-svg-title">
 <p class="wdiag-cap" id="w02-compete-svg-title"><strong>Who might compete — name the market first</strong> — same OD/mission; same scarce pad/slot; same corridor–time window. Discipline: name the market (product + geography + customer + layer) before concentration. Classroom HHI shares are illustrative — not Hong Kong firm data. Sandbox selection ≠ market share. Connects to Week 5 sites and Week 8 airspace.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Three question cards about same mission, same pad, and same corridor-time window, plus a discipline strip to name the market before concentration." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f3-title f3-desc">
   <title id="f3-title">Who might compete — name the market first</title>
@@ -410,7 +413,9 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
 
 
 ```{=html}
-<figure class="wdiag" id="w02-density" aria-labelledby="w02-density-title">
+<figure class="wdiag wdiag-text" id="w02-density" aria-labelledby="w02-density-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w02-density-title"><strong>Density feedback (conceptual)</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box"><strong>More flights on shared fixed cost</strong><br/>(pad rent, staffing, coordination)</div>
@@ -422,11 +427,12 @@ Fixed vs marginal cost sets the shape of ATC. **Economies of density** ask a rel
 <div class="wdiag-box muted"><strong>Not automatic monopoly</strong><br/>Entry, regulation, rival pads, and congestion can reverse the advantage.</div>
 </div>
 <p class="wdiag-note">Schematic teaching loop — not a forecast of any Hong Kong site.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w02-density-svg" aria-labelledby="w02-density-svg-title">
+<figure class="wdiag wdiag-svg" id="w02-density-svg" aria-labelledby="w02-density-svg-title">
 <p class="wdiag-cap" id="w02-density-svg-title"><strong>Density feedback — not automatic monopoly</strong> — more flights on shared fixed cost → lower average cost per flight (when utilization rises) → stronger position at that site if demand and permission hold. Entry, regulation, rival pads, and congestion can reverse the advantage. Schematic teaching loop — not a forecast of any Hong Kong site.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Vertical density loop from more flights on shared fixed cost to lower average cost to stronger site position, ending with a warning that this is not an automatic monopoly." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e7-title e7-desc">
   <title id="e7-title">Density feedback — not automatic monopoly</title>
@@ -652,8 +658,8 @@ Competitive strategy in this course is HK-first but GBA-aware:
 
 | Fact | Issuer-backed reading on this site |
 |------|-------------------------------------|
-| First Regulatory Sandbox batch **38 of 72** | [Key figures](key-figures.qmd) · GIA 20 Mar 2025 |
-| Sandbox X selected modules **33** so far (UTM 15 + unconventional 4 + shared platform 5 + others 9) | [Key figures](key-figures.qmd) · TLB |
+| First Regulatory Sandbox batch **38 of 72** | [Key numbers](key-figures.qmd) · GIA 20 Mar 2025 |
+| Sandbox X selected modules **33** so far (UTM 15 + unconventional 4 + shared platform 5 + others 9) | [Key numbers](key-figures.qmd) · TLB |
 | “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 33 modules |
 | Trial ≠ dominance | [Who decides what? · standing caveats](regulators.qmd#standing-caveats) |
 
@@ -922,7 +928,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) on this page (Policy Address institutional map; Shenzhen statute / NDRC diffusion as GBA entry context; WEF actor landscape).  
-- **Evidence pages:** [Companies & sectors](landscape.qmd) · [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Glossary](glossary.qmd) · [Key figures](key-figures.qmd).  
+- **Evidence pages:** [Companies & sectors](landscape.qmd) · [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Glossary](glossary.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week02-market-structure.pdf](slides/week02-market-structure.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 2 memo brief used in class.
 
 ## Readings {#readings}

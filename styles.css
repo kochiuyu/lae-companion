@@ -1188,3 +1188,110 @@ pre.mermaid + .fig-enlarge-hint {
     display: none !important;
   }
 }
+
+
+/* ============================================================
+   Twin diagrams (HTML + SVG): screen prefers SVG; HTML collapsed
+   Keep HTML bodies for self-contained notes / print / a11y.
+   Lightbox still binds .wdiag; SVG twin remains the enlarge target.
+   ============================================================ */
+.wdiag.wdiag-text {
+  margin: 0.45rem 0 0.55rem;
+  max-width: 42rem;
+}
+.wdiag.wdiag-svg {
+  margin: 0.75rem 0 1.25rem;
+}
+.wdiag-text-details {
+  margin: 0;
+  padding: 0;
+  border: 1px dashed #d9d4c7;
+  border-radius: 8px;
+  background: #fff;
+}
+.wdiag-text-details > summary.wdiag-text-sum {
+  cursor: pointer;
+  list-style: none;
+  color: #003366;
+  font-weight: 600;
+  font-size: 0.88rem;
+  padding: 0.45rem 0.75rem;
+  line-height: 1.35;
+}
+.wdiag-text-details > summary.wdiag-text-sum::-webkit-details-marker {
+  display: none;
+}
+.wdiag-text-details > summary.wdiag-text-sum::before {
+  content: "▸ ";
+  color: #C5A572;
+}
+.wdiag-text-details[open] > summary.wdiag-text-sum::before {
+  content: "▾ ";
+}
+.wdiag-text-details[open] {
+  padding-bottom: 0.55rem;
+}
+.wdiag-text-details[open] > summary.wdiag-text-sum {
+  border-bottom: 1px solid #d9d4c7;
+  margin-bottom: 0.45rem;
+}
+.wdiag-text-details[open] > .wdiag-cap,
+.wdiag-text-details[open] > .wdiag-flow,
+.wdiag-text-details[open] > .wdiag-stack,
+.wdiag-text-details[open] > .wdiag-note {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+/* Print: always show HTML text twin; keep SVG too (notes self-contained) */
+@media print {
+  .wdiag-text-details {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+  .wdiag-text-details > summary.wdiag-text-sum {
+    display: none !important;
+  }
+  /* Force closed <details> content visible when printing */
+  .wdiag-text-details > *:not(summary) {
+    display: block !important;
+  }
+  .wdiag.wdiag-text {
+    break-inside: avoid;
+  }
+}
+
+
+/* ============================================================
+   Week pages (.page-week): readable prose measure; denser diagrams
+   body-classes: "page-week" is set on week-01…week-12 front matter.
+   Litera full-layout pages are untouched (no .page-week there).
+   ============================================================ */
+body.page-week #quarto-document-content,
+body.page-week main.content {
+  max-width: 48rem;
+}
+
+/* Slightly denser vertical rhythm for teaching diagrams on week pages */
+body.page-week .wdiag {
+  margin-top: 0.75rem;
+  margin-bottom: 1.05rem;
+}
+body.page-week .wdiag.wdiag-svg {
+  margin-top: 0.55rem;
+  margin-bottom: 1rem;
+}
+body.page-week .wdiag.wdiag-text {
+  margin-top: 0.35rem;
+  margin-bottom: 0.4rem;
+}
+
+@media (min-width: 992px) {
+  /* Keep Litera sidebar layout usable; only cap the article column */
+  body.page-week.layout-article #quarto-document-content,
+  body.page-week #quarto-document-content {
+    max-width: 46rem;
+  }
+}
+

@@ -98,6 +98,6 @@ Full notes: [Week 12](week-12.qmd) · On-week Self-check: [Week 12 · Self-check
 - [Figures](figures.qmd) — teaching diagrams
 - [Readings](readings.qmd) — documents listed on the week notes
 - Teach menu — week pages (Self-check also at the end of each week)
-- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- [Key numbers](key-figures.qmd) — sourced HK programme numbers
 
 **Next:** [Formulas](formulas.qmd) · [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

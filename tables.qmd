@@ -107,7 +107,7 @@ Teaching table from the week notes. [8.3 How the Week 1 tools fit on one page](w
 |------|----------------|
 | [**OEM**](glossary.qmd#oem) | **Original equipment manufacturer** — produces the aircraft or key components. |
 | **Vertiport / sites** | Take-off, landing, passenger or cargo handling, charging, related ground operations (industry language; no dedicated Hong Kong vertiport statute yet). |
-| **UTM / U-space** | Digital services and procedures that support safe, efficient management of unmanned operations. **UTM** = unmanned aircraft system traffic management. **U-space** is an EU / industry frame, **not** Hong Kong law; Hong Kong’s Smart Low-altitude Traffic Management System is a **planned** programme (Policy Address language: progressive implementation from **2028**), not a statute yet ([Key figures](key-figures.qmd); [Glossary · airspace](glossary.qmd#airspace-and-traffic)). |
+| **UTM / U-space** | Digital services and procedures that support safe, efficient management of unmanned operations. **UTM** = unmanned aircraft system traffic management. **U-space** is an EU / industry frame, **not** Hong Kong law; Hong Kong’s Smart Low-altitude Traffic Management System is a **planned** programme (Policy Address language: progressive implementation from **2028**), not a statute yet ([Key numbers](key-figures.qmd); [Glossary · airspace](glossary.qmd#airspace-and-traffic)). |
 | **Operator** | Provides the transport, logistics, inspection, or public service to the customer. |
 | **Customers / public agencies** | Pay for missions or sponsor public-service outcomes. |
 | **Supporting services** | Finance, leasing, insurance, certification, legal and professional services. |
@@ -144,7 +144,7 @@ Teaching table from the week notes. [Operating restrictions raise unit cost](wee
 | Programme | How to treat it (issuer-backed counts) |
 |-----------|----------------------------------------|
 | Early **Regulatory Sandbox** | First-batch selection **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language may refer to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
-| Later **Sandbox X** | Distinct programme. Selected modules reported as **33** so far on TLB materials: UTM **15** + unconventional aircraft **4** + shared platform **5** + others **9**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 33 module total ([Key figures](key-figures.qmd)). |
+| Later **Sandbox X** | Distinct programme. Selected modules reported as **33** so far on TLB materials: UTM **15** + unconventional aircraft **4** + shared platform **5** + others **9**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 33 module total ([Key numbers](key-figures.qmd)). |
 
 Teaching table from the week notes. [Keep two Hong Kong programmes separate](week-01.qmd#keep-two-hong-kong-programmes-separate)
 
@@ -248,8 +248,8 @@ Teaching table from the week notes. [Worked illustration (limit price and shared
 
 | Fact | Issuer-backed reading on this site |
 |------|-------------------------------------|
-| First Regulatory Sandbox batch **38 of 72** | [Key figures](key-figures.qmd) · GIA 20 Mar 2025 |
-| Sandbox X selected modules **33** so far (UTM 15 + unconventional 4 + shared platform 5 + others 9) | [Key figures](key-figures.qmd) · TLB |
+| First Regulatory Sandbox batch **38 of 72** | [Key numbers](key-figures.qmd) · GIA 20 Mar 2025 |
+| Sandbox X selected modules **33** so far (UTM 15 + unconventional 4 + shared platform 5 + others 9) | [Key numbers](key-figures.qmd) · TLB |
 | “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 33 modules |
 | Trial ≠ dominance | [Who decides what? · standing caveats](regulators.qmd#standing-caveats) |
 
@@ -667,7 +667,7 @@ Teaching table from the week notes. [Value of earlier market readiness](week-07.
 | Programme | Role (simplified) |
 |-----------|-------------------|
 | **First Regulatory Sandbox** | Earlier batch of selected pilot projects (first batch **38 of 72** — issuer on Week 6 Readings / Official status) |
-| **Sandbox X** | Later programme for selected project concepts on predefined routes under controlled conditions; modules and testing counts on [Key figures](key-figures.qmd) |
+| **Sandbox X** | Later programme for selected project concepts on predefined routes under controlled conditions; modules and testing counts on [Key numbers](key-figures.qmd) |
 
 Teaching table from the week notes. [Hong Kong’s risk-based SUA frame and Sandbox X](week-07.qmd#3-hong-kong-s-risk-based-sua-frame-and-sandbox-x)
 
@@ -1160,7 +1160,7 @@ Teaching table from the week notes. [Worked illustration (capacity and cost shoc
 - [Figures](figures.qmd) — teaching diagrams
 - [Readings](readings.qmd) — documents listed on the week notes
 - [Glossary](glossary.qmd) — word definitions
-- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- [Key numbers](key-figures.qmd) — sourced HK programme numbers
 - Teach menu — week pages with full narrative and figures
 
 **Next:** [Figures](figures.qmd) · [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

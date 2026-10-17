@@ -43,7 +43,7 @@ Week 7 mapped permissions and safety cases. This week asks how **scarce low-alti
 - A credible roadmap links each capacity or privilege expansion to evidence, review, and a financially consistent decision gate.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (delay externalities, bid screens, coordination savings, roadmap NPV). They are **illustrative assumptions for learning**, not published corridor capacities, CAD fees, UTM tariffs, or GBA forecasts. Absolute facts (**AC-017** = Sandbox X cross-boundary; **OFCA 1.4 GHz** confined to LAE Regulatory Sandbox; Cap. **448G** height bands; **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**) stay with issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd#standing-caveats).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (delay externalities, bid screens, coordination savings, roadmap NPV). They are **illustrative assumptions for learning**, not published corridor capacities, CAD fees, UTM tariffs, or GBA forecasts. Absolute facts (**AC-017** = Sandbox X cross-boundary; **OFCA 1.4 GHz** confined to LAE Regulatory Sandbox; Cap. **448G** height bands; **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**) stay with issuers on [Key numbers](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -159,7 +159,7 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 
 Airspace capacity is **not** simply a fixed number of drones per minute. Safe capacity depends on route geometry, separation, aircraft performance, surveillance, communications, weather, contingency routes, human oversight, and interactions with other airspace users. Vertiport capacity, charging, passenger processing, and available stands may bind **before** the corridor itself. Demand above reliable capacity creates delay, displacement, cancellation, or the need for another route or time.
 
-Hong Kong facts to keep straight ([Key figures](key-figures.qmd) · [Glossary](glossary.qmd)):
+Hong Kong facts to keep straight ([Key numbers](key-figures.qmd) · [Glossary](glossary.qmd)):
 
 - Cap. **448G** operating height limits (e.g. Category A1 **100 ft** AGL; Category A2 **300 ft** AGL ≈ 91 m) are **not** the same as the policy working description of LAE as economic activities generally below about **1,000 m**.  
 - **Restricted flying zones** and HKAIP special-use airspace constrain where SUA may fly; cite current CAD notices/maps, not press maps.  
@@ -304,7 +304,9 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 
 
 ```{=html}
-<figure class="wdiag" id="w08-mech" aria-labelledby="w08-mech-title">
+<figure class="wdiag wdiag-text" id="w08-mech" aria-labelledby="w08-mech-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w08-mech-title"><strong>Allocation families (choose with criteria)</strong></p>
 <div class="wdiag-stack cols-2">
 <div class="wdiag-box"><strong>Administrative</strong><br/>Schedule, rotation, FCFS, public-service priority</div>
@@ -313,11 +315,12 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 <div class="wdiag-box"><strong>Packages</strong><br/>Linked pad + corridor + charging</div>
 </div>
 <p class="wdiag-note">High willingness to pay ≠ automatic social priority. Failure to obtain a linked slot → reject/reschedule, not unsafe flight.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w08-mech-svg" aria-labelledby="w08-mech-svg-title">
+<figure class="wdiag wdiag-svg" id="w08-mech-svg" aria-labelledby="w08-mech-svg-title">
 <p class="wdiag-cap" id="w08-mech-svg-title"><strong>Allocation families — choose with criteria</strong> — administrative (schedule, rotation, FCFS, public-service priority); posted prices (peak/off-peak); auctions (scarce windows — need safeguards); packages (linked pad + corridor + charging). High willingness to pay ≠ automatic social priority. No linked slot → reject/reschedule, not an unsafe flight.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Four allocation family cards: administrative, posted prices, auctions, and packages, with a note that high willingness to pay is not automatic social priority." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e4-title e4-desc">
   <title id="e4-title">Allocation families — choose with criteria</title>
@@ -490,7 +493,7 @@ Network value needs working pipes. **Digital coordination and interoperability**
 
 ## 6. Digital coordination and interoperability
 
-Week 7 introduced U-space (EU framework) and UTM as broader traffic-management labels. **U-space is not Hong Kong law** — do not write that Hong Kong “has U-space” ([Glossary · U-space](glossary.qmd#airspace-and-traffic)). Hong Kong’s traffic-management system remains a technical study / development topic on official pages; Sandbox X UTM demonstration modules are selected batches on [Key figures](key-figures.qmd), not a published city-wide capacity.
+Week 7 introduced U-space (EU framework) and UTM as broader traffic-management labels. **U-space is not Hong Kong law** — do not write that Hong Kong “has U-space” ([Glossary · U-space](glossary.qmd#airspace-and-traffic)). Hong Kong’s traffic-management system remains a technical study / development topic on official pages; Sandbox X UTM demonstration modules are selected batches on [Key numbers](key-figures.qmd), not a published city-wide capacity.
 
 **[Interoperability](glossary.qmd#interoperability)** is the ability of authorized systems and organizations to exchange, interpret, and use information consistently. It may rely on common data models, interfaces, identity and access controls, service levels, and conformance testing. Shared standards can have public-good characteristics, but systems, operations, cybersecurity, and assurance remain costly. Open standards do **not** require unrestricted public access to operational data. Governance must address data minimization, confidentiality, liability, competition, resilience, vendor dependence, and incident response.
 
@@ -776,7 +779,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (CAD AC-017 Sandbox X cross-boundary; OFCA 1.4 GHz UAS licence confined to LAE Regulatory Sandbox; academic UAM airspace reviews; NASA / FAA ConOps comparators).  
-- **Course links:** [Week 7](week-07.qmd) · [Week 5](week-05.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Glossary · airspace](glossary.qmd#airspace-and-traffic).  
+- **Course links:** [Week 7](week-07.qmd) · [Week 5](week-05.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Glossary · airspace](glossary.qmd#airspace-and-traffic).  
 - **Slides:** [week08-airspace.pdf](slides/week08-airspace.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 8 assignment brief used in class.
 
 ## Readings {#readings}

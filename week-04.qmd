@@ -42,7 +42,7 @@ Week 3 asked what you must **charge** and how costs behave under utilization and
 - Public acceptance and external shocks should enter through clear, justified assumptions.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (trips, fares, elasticities, acceptance factors). They are **illustrative assumptions for learning**, not survey results, corridor forecasts, or Hong Kong government demand projections. Absolute reading and programme facts (NASA UAM Market Study as **not** an HKSAR forecast; AiRMOUR as an EU project / guidebook lens; EASA societal-acceptance study as European comparator; first Sandbox **38 of 72** vs **Sandbox X**) stay with issuers on [Readings](#readings) / [Key figures](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (trips, fares, elasticities, acceptance factors). They are **illustrative assumptions for learning**, not survey results, corridor forecasts, or Hong Kong government demand projections. Absolute reading and programme facts (NASA UAM Market Study as **not** an HKSAR forecast; AiRMOUR as an EU project / guidebook lens; EASA societal-acceptance study as European comparator; first Sandbox **38 of 72** vs **Sandbox X**) stay with issuers on [Readings](#readings) / [Key numbers](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -192,7 +192,9 @@ NASA-sponsored UAM market studies use detailed demand models; the four-step stru
 
 
 ```{=html}
-<figure class="wdiag" id="w04-funnel" aria-labelledby="w04-funnel-title">
+<figure class="wdiag wdiag-text" id="w04-funnel" aria-labelledby="w04-funnel-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w04-funnel-title"><strong>Demand funnel with a capacity screen</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box"><strong>Relevant trips / missions</strong> (defined OD, customer, period)</div>
@@ -204,6 +206,7 @@ NASA-sponsored UAM market studies use detailed demand models; the four-step stru
 <div class="wdiag-box fact"><strong>Served activity</strong><br/>Cannot exceed what aircraft, sites, hours, weather, and permissions allow.</div>
 </div>
 <p class="wdiag-note">Do not invent published Hong Kong corridor volumes. Worked funnel numbers below are classroom assumptions.</p>
+</details>
 </figure>
 ```
 
@@ -241,7 +244,7 @@ The product is a **screening funnel**, not the full four-step model. Assignment 
 Potential demand may exceed capacity. The business model must separate customers who **want** to travel from customers the system can **serve**. Week 3’s required flights/day only works if the **served** column can cover contribution — not the unconstrained funnel headline.
 
 ```{=html}
-<figure class="wdiag" id="w04-funnel-svg" aria-labelledby="w04-funnel-svg-title">
+<figure class="wdiag wdiag-svg" id="w04-funnel-svg" aria-labelledby="w04-funnel-svg-title">
 <p class="wdiag-cap" id="w04-funnel-svg-title"><strong>Wanted trips can exceed what you can serve</strong> — relevant trips → serviceable demand → potential operator demand → served activity as min(potential, reliable capacity K). Classroom check: 20,000 × 60% × 35% → 4,200 potential; capacity screen → 960 served. Not a published Hong Kong corridor volume.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-label="A narrowing demand funnel from relevant trips to serviceable demand to potential operator demand to served activity limited by reliable capacity. Classroom check: 4,200 potential trips versus 960 served under a capacity screen." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c5-title c5-desc">
   <title id="c5-title">Wanted trips can exceed what you can serve</title>
@@ -784,7 +787,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (NASA UAM Market Study; stated-preference and adoption papers; EASA societal-acceptance report as EU comparator).  
-- **Course links:** [Week 1](week-01.qmd) · [Week 3](week-03.qmd) · [Week 5](week-05.qmd) · [Glossary](glossary.qmd) · [Key figures](key-figures.qmd).  
+- **Course links:** [Week 1](week-01.qmd) · [Week 3](week-03.qmd) · [Week 5](week-05.qmd) · [Glossary](glossary.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week04-demand.pdf](slides/week04-demand.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 4 assignment brief used in class.
 
 ## Readings {#readings}

@@ -42,7 +42,7 @@ format:
 - Technology matters when it improves the economics of the full service — not only the aircraft.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (fares, waiting times, cost shares). They are **illustrative assumptions for learning**, not current Hong Kong market data or forecasts. Absolute figures — Cap. 448G bands, OHKF **HK$350bn**, first-batch Sandbox **38 of 72**, Sandbox X module counts, UTM “from 2028” language — stay with their issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Official status](tracker.qmd).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (fares, waiting times, cost shares). They are **illustrative assumptions for learning**, not current Hong Kong market data or forecasts. Absolute figures — Cap. 448G bands, OHKF **HK$350bn**, first-batch Sandbox **38 of 72**, Sandbox X module counts, UTM “from 2028” language — stay with their issuers on [Key numbers](key-figures.qmd) / [Readings](#readings) / [Official status](tracker.qmd).
 :::
 
 ## Learning objectives
@@ -77,7 +77,9 @@ By the end of Week 1 you should be able to:
 
 
 ```{=html}
-<figure class="wdiag" id="w01-system" aria-labelledby="w01-system-title">
+<figure class="wdiag wdiag-text" id="w01-system" aria-labelledby="w01-system-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w01-system-title"><strong>LAE as a system (roles)</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box"><strong>Customers / missions</strong><br/>Need time savings, access, inspection, logistics, or public service.</div>
@@ -92,11 +94,12 @@ By the end of Week 1 you should be able to:
 </div>
 </div>
 <p class="wdiag-note">Roles only — not market shares or firm names. See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w01-system-svg" aria-labelledby="w01-system-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-system-svg" aria-labelledby="w01-system-svg-title">
 <p class="wdiag-cap" id="w01-system-svg-title"><strong>LAE as a system (roles)</strong> — customers/missions → operators (under applicable permissions) → aircraft, sites/pads, digital coordination, insurance &amp; services. Roles only — not market shares or firm names. Wide definition: not only “flying cars” or “drones.” See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="System roles flow from customers and missions through operators to four input boxes: aircraft, sites, digital coordination, and insurance and services." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f5-title f5-desc">
   <title id="f5-title">LAE as a system (roles)</title>
@@ -147,7 +150,7 @@ That definition is deliberately wide.
 
 ### Policy band vs flying limits
 
-In Hong Kong policy language, the working band is often described as airspace **generally below about 1,000 metres**. Issuers on this site include the 2024 Policy Address and LegCo paper CB(3)933/2024 ([Key figures](key-figures.qmd); [Readings](#readings)).
+In Hong Kong policy language, the working band is often described as airspace **generally below about 1,000 metres**. Issuers on this site include the 2024 Policy Address and LegCo paper CB(3)933/2024 ([Key numbers](key-figures.qmd); [Readings](#readings)).
 
 That **~1,000 m** figure is a **policy working description** of the *economic* field. It is **not** a Cap. 448G flying-height limit for small unmanned aircraft.
 
@@ -156,7 +159,7 @@ Cap. 448G sets operational height bands for ordinary categories:
 - **100 ft AGL** (Category A1)
 - **300 ft AGL ≈ 91 m** (Category A2)
 
-unless CAD grants permission (G.N. 1276 of 2022; [Key figures](key-figures.qmd)). **AGL** means above ground level.
+unless CAD grants permission (G.N. 1276 of 2022; [Key numbers](key-figures.qmd)). **AGL** means above ground level.
 
 A student who conflates “LAE below 1,000 m” with “I may fly an SUA to 1,000 m” has mixed two layers of law and policy.
 
@@ -164,7 +167,7 @@ Keep the layers separate:
 
 ```{=html}
 <figure class="wdiag" id="w01-altitude-layers" aria-labelledby="w01-altitude-layers-title">
-<p class="wdiag-cap" id="w01-altitude-layers-title"><strong>Keep the layers separate</strong> — the ~1,000&nbsp;m working description is policy / economic framing of LAE, <em>not</em> a Cap.&nbsp;448G flying ceiling. Ordinary SUA bands: Category&nbsp;A1 at 100&nbsp;ft AGL (≈&nbsp;30&nbsp;m) and Category&nbsp;A2 at 300&nbsp;ft AGL (≈&nbsp;91&nbsp;m). Mainland 120&nbsp;m / 300&nbsp;m (真高) labels are a different scheme (国令761), not Hong Kong Cap.&nbsp;448G. Cite <a href="key-figures.qmd">Key figures</a> · <a href="glossary.qmd#altitude-scale">Glossary · altitude</a>.</p>
+<p class="wdiag-cap" id="w01-altitude-layers-title"><strong>Keep the layers separate</strong> — the ~1,000&nbsp;m working description is policy / economic framing of LAE, <em>not</em> a Cap.&nbsp;448G flying ceiling. Ordinary SUA bands: Category&nbsp;A1 at 100&nbsp;ft AGL (≈&nbsp;30&nbsp;m) and Category&nbsp;A2 at 300&nbsp;ft AGL (≈&nbsp;91&nbsp;m). Mainland 120&nbsp;m / 300&nbsp;m (真高) labels are a different scheme (国令761), not Hong Kong Cap.&nbsp;448G. Cite <a href="key-figures.qmd">Key numbers</a> · <a href="glossary.qmd#altitude-scale">Glossary · altitude</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" role="img" aria-label="Vertical height diagram with three altitude layers. About 1,000 metres is a Hong Kong policy working description, not a Cap. 448G flying ceiling. Cap. 448G ordinary bands are Category A1 at 100 feet above ground level (about 30 metres) and Category A2 at 300 feet (about 91 metres). Mainland 120 metre and 300 metre true-height labels under 国令761 are a different airspace scheme, not Hong Kong Cap. 448G." style="display:block;width:100%;max-width:42rem;height:auto;margin:.35rem 0 .15rem">
   <title id="b1-title">Keep the layers separate</title>
   <desc id="b1-desc">Vertical height diagram with three Hong Kong and Mainland altitude layers. About 1,000 metres is a Hong Kong policy working description of the low-altitude economy field, not a Cap. 448G flying ceiling. Cap. 448G ordinary bands are Category A1 at 100 feet above ground level (about 30 metres) and Category A2 at 300 feet (about 91 metres). Mainland 120 metre and 300 metre true-height labels under 国令761 are a different airspace scheme, not Hong Kong Cap. 448G.</desc>
@@ -283,7 +286,7 @@ Keep the layers separate:
 | 100 ft / 300 ft AGL | Cap. 448G operating height bands (ordinary categories) | The same thing as the 1,000 m description |
 | Mainland 120 m / 300 m (真高) labels | Mainland airspace scheme (国令761) | Hong Kong Cap. 448G |
 
-Cite: [Key figures](key-figures.qmd) · [Glossary · altitude](glossary.qmd#altitude-scale) · [Official status](tracker.qmd).
+Cite: [Key numbers](key-figures.qmd) · [Glossary · altitude](glossary.qmd#altitude-scale) · [Official status](tracker.qmd).
 
 Altitude language frames the *field*. The economic unit of analysis is still a **completed mission** — who needs an outcome, who flies, and who gets paid.
 
@@ -313,7 +316,7 @@ Before the tools, keep **scope labels** distinct so “drone,” “SUA,” and 
 | **Digital infrastructure** | Communications, traffic-management software, data platforms |
 | **Applications** | Logistics, inspection, emergency response, passenger transport, supporting finance and insurance |
 
-Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under Cap. 448G (not more than **150 kg**). Weight classes run A1 → C (Category C, above 25 kg up to 150 kg, from **18 July 2025** — [Key figures](key-figures.qmd)). Everyday “drone” speech is **not** a Cap. 448G synonym.
+Hong Kong law’s main label for light unmanned craft is **small unmanned aircraft (SUA)** under Cap. 448G (not more than **150 kg**). Weight classes run A1 → C (Category C, above 25 kg up to 150 kg, from **18 July 2025** — [Key numbers](key-figures.qmd)). Everyday “drone” speech is **not** a Cap. 448G synonym.
 
 **eVTOL** is an industry label. Hong Kong has **no dedicated eVTOL statute yet**. Heavier / passenger-oriented types sit above the SUA ceiling as **unconventional aircraft** pending rules ([Glossary · vehicles](glossary.qmd#vehicles-and-operations); [FAQ](faq.qmd)). When slides say “eVTOL,” treat it as a technology concept under discussion — not as a completed Hong Kong licensing category.
 
@@ -556,18 +559,21 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 
 
 ```{=html}
-<figure class="wdiag" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
+<figure class="wdiag wdiag-text" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w01-ohkf-title"><strong>Reading the OHKF HK$350bn figure</strong></p>
 <div class="wdiag-stack cols-2">
 <div class="wdiag-box fact"><strong>What it is</strong><br/>Our Hong Kong Foundation (private think-tank) scenario projection for Hong Kong industry <em>value added</em> by 2050; supporting services are the majority in that report.</div>
 <div class="wdiag-box muted"><strong>What it is not</strong><br/>Not a government target; not operator revenue; not automatic GDP; not a single firm’s obtainable market.</div>
 </div>
-<p class="wdiag-note">Cite Key figures / Readings. Do not merge with Mainland scale totals.</p>
+<p class="wdiag-note">Cite Key numbers / Readings. Do not merge with Mainland scale totals.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
+<figure class="wdiag wdiag-svg" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
 <p class="wdiag-cap" id="w01-ohkf-svg-title"><strong>Reading the OHKF HK$350bn figure</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue. Attribution: name OHKF, metric, geography, horizon. Sandbox selection ≠ market share. Twin discipline with Week 9 `#w09-ohkf-350`.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Two panels: what the OHKF HK$350bn figure is (Hong Kong industry value-added projection by 2050) and what it is not, plus an attribution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f7-title f7-desc">
   <title id="f7-title">Reading the OHKF HK$350bn figure</title>
@@ -593,7 +599,7 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 
   <rect x="60" y="246" width="600" height="70" rx="8" fill="#003366"/>
   <text x="360" y="274" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Attribution: name OHKF · industry value added · Hong Kong · 2050</text>
-  <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cite Key figures / Readings · Sandbox ≠ market share</text>
+  <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cite Key numbers / Readings · Sandbox ≠ market share</text>
 
 </svg>
 <p class="wdiag-note">From Week 1 §5. SVG upgrade of HTML #w01-ohkf. OHKF value-added projection only.</p>
@@ -606,7 +612,7 @@ You will also see a private projection: that Hong Kong’s LAE-related industrie
 That figure comes from **Our Hong Kong Foundation (OHKF)** (*Taking Flight: Forging a Future for Hong Kong’s Low-Altitude Economy*, September 2025). It is a **think-tank projection**, **not** an HKSAR government number.
 
 ::: {.callout-important appearance="simple"}
-**Attribution rule.** When you quote **HK$350bn**, name **OHKF**, the metric (**industry value added**), the geography (**Hong Kong**), and the horizon (**2050**). Do not call it a government target, GDP, operator revenue, or a Mainland 规模 total. Cite: [Key figures](key-figures.qmd) · [Common questions](faq.qmd) · [Official status](tracker.qmd) · [Readings](#readings).
+**Attribution rule.** When you quote **HK$350bn**, name **OHKF**, the metric (**industry value added**), the geography (**Hong Kong**), and the horizon (**2050**). Do not call it a government target, GDP, operator revenue, or a Mainland 规模 total. Cite: [Key numbers](key-figures.qmd) · [Common questions](faq.qmd) · [Official status](tracker.qmd) · [Readings](#readings).
 :::
 
 **Why the metric matters.** **Value added** subtracts intermediate inputs. It is not the same as summing ticket revenue across operators. Week 9 returns to this distinction when market-sizing meets social impact ([Week 9](week-09.qmd)).
@@ -972,14 +978,14 @@ Concepts and tools are in place. This section asks **who makes what** along the 
 |------|----------------|
 | [**OEM**](glossary.qmd#oem) | **Original equipment manufacturer** — produces the aircraft or key components. |
 | **Vertiport / sites** | Take-off, landing, passenger or cargo handling, charging, related ground operations (industry language; no dedicated Hong Kong vertiport statute yet). |
-| **UTM / U-space** | Digital services and procedures that support safe, efficient management of unmanned operations. **UTM** = unmanned aircraft system traffic management. **U-space** is an EU / industry frame, **not** Hong Kong law; Hong Kong’s Smart Low-altitude Traffic Management System is a **planned** programme (Policy Address language: progressive implementation from **2028**), not a statute yet ([Key figures](key-figures.qmd); [Glossary · airspace](glossary.qmd#airspace-and-traffic)). |
+| **UTM / U-space** | Digital services and procedures that support safe, efficient management of unmanned operations. **UTM** = unmanned aircraft system traffic management. **U-space** is an EU / industry frame, **not** Hong Kong law; Hong Kong’s Smart Low-altitude Traffic Management System is a **planned** programme (Policy Address language: progressive implementation from **2028**), not a statute yet ([Key numbers](key-figures.qmd); [Glossary · airspace](glossary.qmd#airspace-and-traffic)). |
 | **Operator** | Provides the transport, logistics, inspection, or public service to the customer. |
 | **Customers / public agencies** | Pay for missions or sponsor public-service outcomes. |
 | **Supporting services** | Finance, leasing, insurance, certification, legal and professional services. |
 
 Roles-only money-and-value map (no firm names): [How does LAE work?](business-overview.qmd). Named organisations: [Companies & sectors](landscape.qmd).
 
-**Verified planning fact to keep attached to UTM:** progressive implementation of Hong Kong’s Smart Low-altitude Traffic Management System is described as **from 2028** in Policy Address language tracked on [Key figures](key-figures.qmd) (WATCH). That is a **target / planning statement**, not a claim that city-wide UTM already exists — and it is **not** the same as saying Hong Kong “has U-space.”
+**Verified planning fact to keep attached to UTM:** progressive implementation of Hong Kong’s Smart Low-altitude Traffic Management System is described as **from 2028** in Policy Address language tracked on [Key numbers](key-figures.qmd) (WATCH). That is a **target / planning statement**, not a claim that city-wide UTM already exists — and it is **not** the same as saying Hong Kong “has U-space.”
 
 ### How a ticket price might be shared
 
@@ -1102,7 +1108,7 @@ Aviation is extremely safety-regulated. Certifying a new type for routine public
 
 For startups and new mission designs, a multi-year wait before the first paying customer can exhaust capital. That tension motivates **controlled trial** programmes: test selected applications under approved routes and conditions, collect evidence, and reduce uncertainty *before* committing to full-scale deployment — without pretending that safety rules disappear.
 
-**Hong Kong pathway reminder.** Light unmanned operations sit under Cap. **448G** with a risk-based approach (full effect **1 December 2022**; Category C expansion **July 2025** — [Week 7 Readings](week-07.qmd) / [Key figures](key-figures.qmd)). That is a different legal track from traditional large-aircraft certification — but advanced operations still need prior CAD permission, and sandboxes still do not waive safety.
+**Hong Kong pathway reminder.** Light unmanned operations sit under Cap. **448G** with a risk-based approach (full effect **1 December 2022**; Category C expansion **July 2025** — [Week 7 Readings](week-07.qmd) / [Key numbers](key-figures.qmd)). That is a different legal track from traditional large-aircraft certification — but advanced operations still need prior CAD permission, and sandboxes still do not waive safety.
 
 ---
 
@@ -1126,9 +1132,9 @@ Hong Kong has run more than one trial track. On this site you must **not** merge
 | Programme | How to treat it (issuer-backed counts) |
 |-----------|----------------------------------------|
 | Early **Regulatory Sandbox** | First-batch selection **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language may refer to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
-| Later **Sandbox X** | Distinct programme. Selected modules reported as **33** so far on TLB materials: UTM **15** + unconventional aircraft **4** + shared platform **5** + others **9**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 33 module total ([Key figures](key-figures.qmd)). |
+| Later **Sandbox X** | Distinct programme. Selected modules reported as **33** so far on TLB materials: UTM **15** + unconventional aircraft **4** + shared platform **5** + others **9**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 33 module total ([Key numbers](key-figures.qmd)). |
 
-Citeable counts and issuers: [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what? · standing caveats](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Later weeks carry AC-013 (BVLOS in the first Regulatory Sandbox) and AC-017 (Sandbox X cross-boundary) — do not mix those circulars ([Week 7](week-07.qmd); [Week 8](week-08.qmd)).
+Citeable counts and issuers: [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Who decides what? · standing caveats](regulators.qmd#standing-caveats) · [FAQ](faq.qmd). Later weeks carry AC-013 (BVLOS in the first Regulatory Sandbox) and AC-017 (Sandbox X cross-boundary) — do not mix those circulars ([Week 7](week-07.qmd); [Week 8](week-08.qmd)).
 
 With programmes named correctly, summarise economically what a sandbox can change in the **entry-barrier** sum.
 
@@ -1316,7 +1322,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) on this page.  
-- **Orient:** [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Common questions](faq.qmd).  
+- **Orient:** [What is LAE?](primer.qmd) · [How does LAE work?](business-overview.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Common questions](faq.qmd).  
 - **Evidence pages:** [Official status](tracker.qmd) · [Use cases](usecases.qmd) · [Timeline](dates.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week01-introduction.pdf](slides/week01-introduction.pdf). Assessment logistics and submission stay on the teaching platform; the slide deck carries the Week 1 memo brief used in class.
 

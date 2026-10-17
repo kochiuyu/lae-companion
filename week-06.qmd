@@ -23,7 +23,7 @@ Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **c
 - [How does LAE work?](business-overview.qmd) — roles in the value chain  
 - [Week 5](week-05.qmd) — sites, scarce slots, staged infrastructure  
 - [Glossary · PPP](glossary.qmd#business-and-economics) — course term, not a statute  
-- [Key figures](key-figures.qmd) — Sandbox counts and caveats  
+- [Key numbers](key-figures.qmd) — Sandbox counts and caveats  
 
 ## Summary {#summary}
 
@@ -43,7 +43,7 @@ Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **c
 - Shared infrastructure can lower unit cost only if access, governance, congestion, data, liability, and competition are managed.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (monthly profits, availability fees, staging payoffs). They are **illustrative assumptions for learning**, not market benchmarks or named-deal terms. Absolute programme facts (first Regulatory Sandbox **38 of 72**; **Sandbox ≠ Sandbox X**; corridor not day-to-day operating service) stay with issuers on [Key figures](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats) / [Readings](#readings).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (monthly profits, availability fees, staging payoffs). They are **illustrative assumptions for learning**, not market benchmarks or named-deal terms. Absolute programme facts (first Regulatory Sandbox **38 of 72**; **Sandbox ≠ Sandbox X**; corridor not day-to-day operating service) stay with issuers on [Key numbers](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats) / [Readings](#readings).
 :::
 
 ## Learning objectives
@@ -88,7 +88,7 @@ Neither model is automatically superior:
 Week 3 separated CAPEX, fixed OPEX, and variable cost. Week 4 showed **served** demand can bind below funnel headlines. Week 5 asked which sites to build and how to stage them. Week 6 asks which capabilities to **own, contract, share, or buy as a service** — and who bears demand, weather, performance, and financing risk when those choices are written into contracts.
 
 ::: {.callout-note appearance="simple"}
-**Sandbox note.** First **Regulatory Sandbox** (**38 of 72** selected) and later **Sandbox X** are controlled trial settings. They are **not** a PPP template, not proof of a permanent commercial partnership, and not a corridor operating claim. Keep programmes separate ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); [Readings](#readings)).
+**Sandbox note.** First **Regulatory Sandbox** (**38 of 72** selected) and later **Sandbox X** are controlled trial settings. They are **not** a PPP template, not proof of a permanent commercial partnership, and not a corridor operating claim. Keep programmes separate ([Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); [Readings](#readings)).
 :::
 
 ---
@@ -99,7 +99,9 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 
 
 ```{=html}
-<figure class="wdiag" id="w06-arch" aria-labelledby="w06-arch-title">
+<figure class="wdiag wdiag-text" id="w06-arch" aria-labelledby="w06-arch-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w06-arch-title"><strong>Architecture choice (roles)</strong></p>
 <div class="wdiag-stack cols-3">
 <div class="wdiag-box"><strong>Own / integrate</strong><br/>Control assets; bear more CAPEX and utilization risk.</div>
@@ -107,11 +109,12 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 <div class="wdiag-box"><strong>Orchestrate</strong><br/>Platform coordinates parties; needs liquidity, trust, and governance.</div>
 </div>
 <p class="wdiag-note">Architecture changes risk allocation — it does not remove Cap. 448G permission needs (Week 7).</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w06-arch-svg" aria-labelledby="w06-arch-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-arch-svg" aria-labelledby="w06-arch-svg-title">
 <p class="wdiag-cap" id="w06-arch-svg-title"><strong>Architecture choice shifts risk — not Cap. 448G</strong> — Own/integrate (more CAPEX and utilization risk); Contract/PPP (share design–build–operate–finance); Orchestrate (platform needs liquidity, trust, governance). “Asset-light” is a slogan, not a risk transfer. Architecture does not remove Cap. 448G permission needs (Week 7).</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Three architecture cards: own or integrate, contract or PPP, and orchestrate, with a note that asset-light is not a risk transfer and Cap. 448G still applies." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e3-title e3-desc">
   <title id="e3-title">Architecture choice shifts risk — not Cap. 448G</title>
@@ -257,7 +260,7 @@ A **PPP** is a long-term arrangement in which a public authority and a private p
 
 **Connecting idea.** A PPP does **not** invent demand, create landing rights, or replace Cap. 448G permissions. It reallocates who pays for readiness, who bears volume risk, and who fixes performance failures — under procurement law and budget rules that still bind the public side. Week 5’s “no dedicated HK vertiport statute” caveat still applies: calling a site a PPP vertiport does not create that statute.
 
-Hong Kong’s trial programmes (first **Regulatory Sandbox** vs later **Sandbox X**) create controlled learning settings; they are **not** themselves a PPP template and must not be merged ([Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); first-batch **38 of 72** on [Readings](#readings)).
+Hong Kong’s trial programmes (first **Regulatory Sandbox** vs later **Sandbox X**) create controlled learning settings; they are **not** themselves a PPP template and must not be merged ([Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats); first-batch **38 of 72** on [Readings](#readings)).
 
 ```{=html}
 <figure class="wdiag" id="w06-ppp-svg" aria-labelledby="w06-ppp-svg-title">
@@ -307,7 +310,9 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 
 
 ```{=html}
-<figure class="wdiag" id="w06-pay" aria-labelledby="w06-pay-title">
+<figure class="wdiag wdiag-text" id="w06-pay" aria-labelledby="w06-pay-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w06-pay-title"><strong>Who bears demand risk?</strong></p>
 <div class="wdiag-stack cols-2">
 <div class="wdiag-box"><strong>Usage payment</strong><br/>Cash follows traffic / missions → operator (or SPV) bears more demand risk.</div>
@@ -316,11 +321,12 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 <p class="wdiag-arrow" aria-hidden="true">↕ hybrids exist</p>
 <div class="wdiag-box fact"><strong>Write the risk down</strong><br/>Payment design is a risk allocation, not a slogan.</div>
 <p class="wdiag-note">Classroom payment figures are illustrative — not CAD or government tariffs.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w06-pay-svg" aria-labelledby="w06-pay-svg-title">
+<figure class="wdiag wdiag-svg" id="w06-pay-svg" aria-labelledby="w06-pay-svg-title">
 <p class="wdiag-cap" id="w06-pay-svg-title"><strong>Who bears demand risk?</strong> — Usage payment: cash follows traffic / missions → operator (or SPV) bears more demand risk. Availability payment: cash follows agreed readiness / service level → public sponsor often bears more demand risk; provider keeps performance risk via KPIs and deductions. Hybrids exist. Availability pays for readiness — not a free weather hedge. Classroom figures only — not CAD tariffs. Keep Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Two panels. Usage payment: traffic or missions lead to cash, so the operator or SPV bears more demand risk. Availability payment: agreed readiness leads to cash, so the public sponsor often bears more demand risk while the provider keeps performance risk. An arrow notes hybrids exist." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c10-title c10-desc">
   <title id="c10-title">Who bears demand risk?</title>
@@ -844,7 +850,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (first-batch Regulatory Sandbox **38 of 72**; LegCo note on Shenzhen/US partnership models; TLB LCQ on Sandbox process; WEF / Deloitte for ecosystem structure — not for numbers).  
-- **Course links:** [Week 5](week-05.qmd) · [How does LAE work?](business-overview.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics).  
+- **Course links:** [Week 5](week-05.qmd) · [How does LAE work?](business-overview.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics).  
 - **Slides:** [week06-partnerships.pdf](slides/week06-partnerships.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 6 assignment brief used in class.
 
 ## Readings {#readings}

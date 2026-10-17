@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Term definitions and diagrams you can cite. Week notes link here on **first use**. Each term is a **bold heading** plus a short prose gloss (define, then explain or caveat when needed) — no What / Why / Watch-out labels. Spacing is uniform: blank line before every term and before every callout. Source type is shown by **section** (Hong Kong law, Mainland comparator, course economics, …). Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key figures](key-figures.qmd).
+Term definitions and diagrams you can cite. Week notes link here on **first use**. Each term is a **bold heading** plus a short prose gloss (define, then explain or caveat when needed) — no What / Why / Watch-out labels. Spacing is uniform: blank line before every term and before every callout. Source type is shown by **section** (Hong Kong law, Mainland comparator, course economics, …). Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key numbers](key-figures.qmd).
 
 ## At a glance
 
@@ -337,7 +337,7 @@ The person or organisation that **operates** the SUA under Cap. 448G (營運人)
 
 Hong Kong’s earlier controlled trial programme for selected LAE applications under approved conditions. Applications from 13 November 2024; **38 of 72** proposals selected (TLB/GIA, 20 March 2025). BVLOS in this programme is covered by CAD AC-013.
 
-Lets firms and agencies learn before full-scale deployment — an economic response to high entry barriers. First-batch selection **38 of 72** is **not** the same as later Sandbox X module counts. A sandbox does **not** waive safety. See [Key figures](key-figures.qmd).
+Lets firms and agencies learn before full-scale deployment — an economic response to high entry barriers. First-batch selection **38 of 72** is **not** the same as later Sandbox X module counts. A sandbox does **not** waive safety. See [Key numbers](key-figures.qmd).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The Government received Regulatory Sandbox pilot project proposals from 72 applicants, and after review by the Working Group on Developing LAE, 38 of them are among the first batch of pilot projects to be rolled out” ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm))
@@ -349,7 +349,7 @@ English: “The Government received Regulatory Sandbox pilot project proposals f
 
 A **later, separate** Hong Kong trial programme launched 24 November 2025 (modules such as UTM, unconventional aircraft, shared platforms). CAD AC-017 covers cross-boundary operations in Sandbox X.
 
-Cross-boundary and advanced modules appear here — still trials, not day-to-day corridor service. **Sandbox X ≠ the first Regulatory Sandbox.** Do not add 38 and 33 into one “market share.” See [Key figures](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats).
+Cross-boundary and advanced modules appear here — still trials, not day-to-day corridor service. **Sandbox X ≠ the first Regulatory Sandbox.** Do not add 38 and 33 into one “market share.” See [Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The launch event of the low-altitude economy \"Regulatory Sandbox X\" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
@@ -703,7 +703,7 @@ Pre-programmed recovery behaviour that sends the SUA to a home or safe site (e.g
 
 **Small unmanned aircraft** — Hong Kong Cap. 448G’s main legal label for unmanned aircraft **not more than 150 kg**, with weight classes A1 → C.
 
-Almost every “drone” discussion in this course must be checked against SUA rules (and whether the craft is above the SUA ceiling). Everyday “drone” is **not** a Cap. 448G synonym. Heavier / passenger concepts may sit as **unconventional aircraft** pending rules. See [Key figures](key-figures.qmd); [Week 1](week-01.qmd).
+Almost every “drone” discussion in this course must be checked against SUA rules (and whether the craft is above the SUA ceiling). Everyday “drone” is **not** a Cap. 448G synonym. Heavier / passenger concepts may sit as **unconventional aircraft** pending rules. See [Key numbers](key-figures.qmd); [Week 1](week-01.qmd).
 
 **Surveillance system (監察系統)**
 
@@ -785,7 +785,7 @@ Useful comparator when readings talk about digital traffic services and roles. *
 
 **Unmanned aircraft system traffic management** — industry language for digital services that help plan, authorize, and monitor unmanned flights.
 
-Coordination cost and shared information show up in Weeks 7–8 and in Sandbox X UTM modules. Hong Kong’s Smart Low-altitude Traffic Management System is **planned** (Policy Address language: progressive implementation from **2028**) — not a claim that city-wide UTM already exists. **U-space ≠ Hong Kong law.** See [Key figures](key-figures.qmd).
+Coordination cost and shared information show up in Weeks 7–8 and in Sandbox X UTM modules. Hong Kong’s Smart Low-altitude Traffic Management System is **planned** (Policy Address language: progressive implementation from **2028**) — not a claim that city-wide UTM already exists. **U-space ≠ Hong Kong law.** See [Key numbers](key-figures.qmd).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Enhance core infrastructure facilities by designating spectrum by the end of the year, as well as facilitating early planning and deployment of facilities such as vertiports, air route networks, satellite positioning, three-dimensional spatial data systems and a smart, low-altitude traffic-management system.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -833,7 +833,7 @@ English: “Enhance core infrastructure facilities by designating spectrum by th
 
 **[Interoperability / standards]{#interoperability}**
 
-Ability of authorized systems, organizations, vehicles, UTM/traffic services, and sites to **exchange, interpret, and use** information and procedures under a common rule set (data models, interfaces, identity/access, service levels, conformance testing). In Hong Kong course materials, treat this as **Policy Address infrastructure / digital-coordination language** and a Week 8 teaching concept — not a finished local statute that already mandates one LAE standard stack. Shared standards can cut duplicate interfaces and repeated manual coordination, but systems, cybersecurity, assurance, and governance still cost money; open standards do **not** mean unrestricted public access to operational data. **U-space ≠ Hong Kong law.** See [Week 8](week-08.qmd#digital-coordination-and-interoperability); [Key figures](key-figures.qmd) / [Official status](tracker.qmd) for PA wording.
+Ability of authorized systems, organizations, vehicles, UTM/traffic services, and sites to **exchange, interpret, and use** information and procedures under a common rule set (data models, interfaces, identity/access, service levels, conformance testing). In Hong Kong course materials, treat this as **Policy Address infrastructure / digital-coordination language** and a Week 8 teaching concept — not a finished local statute that already mandates one LAE standard stack. Shared standards can cut duplicate interfaces and repeated manual coordination, but systems, cybersecurity, assurance, and governance still cost money; open standards do **not** mean unrestricted public access to operational data. **U-space ≠ Hong Kong law.** See [Week 8](week-08.qmd#digital-coordination-and-interoperability); [Key numbers](key-figures.qmd) / [Official status](tracker.qmd) for PA wording.
 
 **Route network (PA) (航路網絡)**
 
@@ -871,7 +871,7 @@ Industry term for a lighter pad than a full vertiport; **not a Hong Kong statuto
 
 ## Business and economics
 
-Course economics vocabulary in plain English. Each term is short prose — define, then a brief course point or caveat when it earns its keep. Law and programme names live in the sections above — typology is by **section heading**. Worked numbers stay on **Teach**; citeable programme facts stay on [Key figures](key-figures.qmd) / [Official status](tracker.qmd). Named teaching equations: [Formulas](formulas.qmd).
+Course economics vocabulary in plain English. Each term is short prose — define, then a brief course point or caveat when it earns its keep. Law and programme names live in the sections above — typology is by **section heading**. Worked numbers stay on **Teach**; citeable programme facts stay on [Key numbers](key-figures.qmd) / [Official status](tracker.qmd). Named teaching equations: [Formulas](formulas.qmd).
 
 **[AAM]{#aam}**
 
@@ -1015,7 +1015,7 @@ Summarises how uneven shares look **after** you define product, place, and layer
 
 An accounting idea used by **Our Hong Kong Foundation (OHKF)** for about **HK$350 billion** of Hong Kong LAE industry value added by **2050** (September 2025 report). Supporting services are the majority in that projection.
 
-Scale talk needs a clear metric. Value added subtracts intermediate inputs — it is not the same as summing ticket revenue. This is a **think-tank projection**, **not** an HKSAR government number, **not** GDP, **not** your obtainable revenue, and **not** a Mainland 规模 total. Cite [Key figures](key-figures.qmd) / [Official status](tracker.qmd).
+Scale talk needs a clear metric. Value added subtracts intermediate inputs — it is not the same as summing ticket revenue. This is a **think-tank projection**, **not** an HKSAR government number, **not** GDP, **not** your obtainable revenue, and **not** a Mainland 规模 total. Cite [Key numbers](key-figures.qmd) / [Official status](tracker.qmd).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Based on the latest publicly available data, the industry value added of the LAE in Hong Kong will reach approximately HK\$ 350 billion in 2050, with the majority of value generated in supporting services.” ([source](https://ourhkfoundation.org.hk/en/events/%E3%80%8A%E6%8C%AF%E7%BF%85%E5%95%9F%E8%88%AA-%E2%80%94-%E9%96%8B%E5%89%B5%E9%A6%99%E6%B8%AF%E4%BD%8E%E7%A9%BA%E7%B6%93%E6%BF%9F%E6%96%B0%E6%9C%AA%E4%BE%86%E3%80%8B%E5%A0%B1%E5%91%8A%E7%99%BC%E5%B8%83%E6%9C%83))
@@ -1033,7 +1033,7 @@ Turns sustainability and equity promises into something you can review and corre
 
 **Low-altitude economy** — economic activity in low-altitude airspace plus the aircraft, sites, digital systems, operators, customers, and supporting services that deliver a **mission**.
 
-The course unit of analysis is a completed service outcome, not only an airframe. Hong Kong’s ~**1,000 m** working description is **policy / economic framing**, **not** a Cap. 448G flying-height limit (ordinary Cap. 448G bands include 100 ft / 300 ft AGL unless CAD permits otherwise). See [What is LAE?](primer.qmd); [Week 1](week-01.qmd); [Key figures](key-figures.qmd).
+The course unit of analysis is a completed service outcome, not only an airframe. Hong Kong’s ~**1,000 m** working description is **policy / economic framing**, **not** a Cap. 448G flying-height limit (ordinary Cap. 448G bands include 100 ft / 300 ft AGL unless CAD permits otherwise). See [What is LAE?](primer.qmd); [Week 1](week-01.qmd); [Key numbers](key-figures.qmd).
 
 **[LCA / life-cycle assessment]{#lca}**
 

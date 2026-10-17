@@ -43,7 +43,7 @@ Week 4 asked whether **customers would choose** the service. This week asks whet
 - Hub, distributed, and hybrid networks trade facility cost, access, resilience, and connectivity.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (site costs, movements, fees, access minutes). They are **illustrative assumptions for learning**, not current Hong Kong site quotations, operator tariffs, or government capacity plans. **Vertiport** here is industry / classroom language — Hong Kong has **no dedicated vertiport statute yet** ([Glossary](glossary.qmd#infrastructure); [FAQ](faq.qmd)). Absolute reading facts (OHKF as **think-tank**; EASA prototype vertiport specs as **EU comparator**; HKSAR LCQ on spatial data / CSDI; Shenzhen statute Chapter 2 on infrastructure) stay with issuers on [Readings](#readings) / [Key figures](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (site costs, movements, fees, access minutes). They are **illustrative assumptions for learning**, not current Hong Kong site quotations, operator tariffs, or government capacity plans. **Vertiport** here is industry / classroom language — Hong Kong has **no dedicated vertiport statute yet** ([Glossary](glossary.qmd#infrastructure); [FAQ](faq.qmd)). Absolute reading facts (OHKF as **think-tank**; EASA prototype vertiport specs as **EU comparator**; HKSAR LCQ on spatial data / CSDI; Shenzhen statute Chapter 2 on infrastructure) stay with issuers on [Readings](#readings) / [Key numbers](key-figures.qmd) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -77,7 +77,9 @@ By the end of Week 5 you should be able to:
 
 
 ```{=html}
-<figure class="wdiag" id="w05-bottleneck" aria-labelledby="w05-bottleneck-title">
+<figure class="wdiag wdiag-text" id="w05-bottleneck" aria-labelledby="w05-bottleneck-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w05-bottleneck-title"><strong>Diagnose which resource binds</strong></p>
 <div class="wdiag-stack cols-2">
 <div class="wdiag-box"><strong>Pad / stand / gate</strong><br/>Turnaround and parking</div>
@@ -88,11 +90,12 @@ By the end of Week 5 you should be able to:
 <div class="wdiag-arrow" aria-hidden="true" style="margin-top:.35rem">↓</div>
 <div class="wdiag-box fact"><strong>Allocate the scarce resource you actually have</strong><br/>A pad auction cannot fix an airspace bind (and vice versa).</div>
 <p class="wdiag-note">No invented “drones per minute” for Harbour or GBA corridors.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
+<figure class="wdiag wdiag-svg" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
 <p class="wdiag-cap" id="w05-bottleneck-svg-title"><strong>Diagnose which resource binds</strong> — pad/stand/gate; charging/energy; passenger/cargo process; airspace/procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind (and vice versa). No invented Harbour/GBA “drones per minute.” Trial sites ≠ permanent slots; Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Four resource cards flowing down to allocate the scarce resource you actually have, with a note against inventing corridor capacity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f1-title f1-desc">
   <title id="f1-title">Diagnose which resource binds</title>
@@ -148,7 +151,7 @@ Week 2 treated scarce pads as a source of competitive advantage and co-opetition
 Policy language in Hong Kong already names planning of facilities such as vertiports alongside spectrum, air route networks, and a smart low-altitude traffic-management system (Policy Address framing; status on [Official status](tracker.qmd) / [Timeline](dates.qmd)). That is **planning language**, not proof that a dedicated vertiport statute exists, and not proof that named corridors already operate as day-to-day commercial sites.
 
 ::: {.callout-note appearance="simple"}
-**Sandbox note.** First **Regulatory Sandbox** (**38 of 72** selected) and later **Sandbox X** may involve trial sites and procedures. Trial participation is **not** a permanent commercial slot right, a land-use approval for a permanent vertiport, or a capacity forecast ([Who decides what?](regulators.qmd#standing-caveats); [Key figures](key-figures.qmd)). Keep **Sandbox ≠ Sandbox X**.
+**Sandbox note.** First **Regulatory Sandbox** (**38 of 72** selected) and later **Sandbox X** may involve trial sites and procedures. Trial participation is **not** a permanent commercial slot right, a land-use approval for a permanent vertiport, or a capacity forecast ([Who decides what?](regulators.qmd#standing-caveats); [Key numbers](key-figures.qmd)). Keep **Sandbox ≠ Sandbox X**.
 :::
 
 ---
@@ -819,7 +822,7 @@ Distributed wins under these assumed volumes and access times; the ranking can r
 | Infrastructure role | Integration and specialised services | Larger network / production scale |
 | Key question | Value per scarce site | Network coverage and volume |
 
-Route-specific analysis beats predetermined templates. OHKF *Taking Flight* (infra / supporting-services segment structure) is a **think-tank** framing on [Readings](#readings) — not an HKSAR government figure ([Key figures](key-figures.qmd)). Do not treat OHKF’s ~HK$350bn value-added horizon as a vertiport CAPEX budget or as GDP.
+Route-specific analysis beats predetermined templates. OHKF *Taking Flight* (infra / supporting-services segment structure) is a **think-tank** framing on [Readings](#readings) — not an HKSAR government figure ([Key numbers](key-figures.qmd)). Do not treat OHKF’s ~HK$350bn value-added horizon as a vertiport CAPEX budget or as GDP.
 
 ---
 
@@ -943,7 +946,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (OHKF segment structure — think-tank; vertiport academic reviews; EASA prototype vertiport specs as EU comparator; HKSAR LCQ on spatial data / CSDI; Shenzhen infra chapter).  
-- **Course links:** [Week 3](week-03.qmd) · [Week 4](week-04.qmd) · [Glossary · infrastructure](glossary.qmd#infrastructure) · [Landscape](landscape.qmd) · [Key figures](key-figures.qmd).  
+- **Course links:** [Week 3](week-03.qmd) · [Week 4](week-04.qmd) · [Glossary · infrastructure](glossary.qmd#infrastructure) · [Landscape](landscape.qmd) · [Key numbers](key-figures.qmd).  
 - **Slides:** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 5 assignment brief used in class.
 
 ## Readings {#readings}

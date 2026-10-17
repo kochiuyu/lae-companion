@@ -11,7 +11,7 @@ toc-title: "Sections"
 **Course:** 12-week Low Altitude Economics · 2026–27  
 **Instructor:** Chiu Yu Ko
 
-**New here?** Start with [What is LAE?](primer.qmd). It explains the field in simple English. Then come back to this page for the week map.
+**New here?** **Short path:** [What is LAE?](primer.qmd) → this overview → [Week 1](week-01.qmd). The primer explains the field in simple English; this page is the week map. **Full Orient** (business, regulators, HowTo, FAQ, Key numbers) is on [How to use this site](howto.qmd#full-orient).
 
 Weekly lecture pages sit under **Teach** (for example [Week 1](week-01.qmd)).
 

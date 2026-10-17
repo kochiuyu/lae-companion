@@ -140,7 +140,9 @@ Business-model components are connected through quantities, prices, capacity, co
 
 
 ```{=html}
-<figure class="wdiag" id="w11-viable" aria-labelledby="w11-viable-title">
+<figure class="wdiag wdiag-text" id="w11-viable" aria-labelledby="w11-viable-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w11-viable-title"><strong>Viability stack (symbols)</strong></p>
 <div class="wdiag-flow">
 <div class="wdiag-box">D (demand) and K (reliable capacity) — same units</div>
@@ -152,11 +154,12 @@ Business-model components are connected through quantities, prices, capacity, co
 <div class="wdiag-box">CF_t / NPV, downside Pr(Π &lt; 0), non-financial gates</div>
 </div>
 <p class="wdiag-note">Capacity-shock table below is illustrative — not Hong Kong weather downtime.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w11-viable-svg" aria-labelledby="w11-viable-svg-title">
+<figure class="wdiag wdiag-svg" id="w11-viable-svg" aria-labelledby="w11-viable-svg-title">
 <p class="wdiag-cap" id="w11-viable-svg-title"><strong>Viability stack — same units all the way down</strong> — D and K in the same units → D_served = min{D, K} → Π_op = (p − v)·D_served − F → then CF_t / NPV, Pr(Π &lt; 0), and non-financial gates. Capacity-shock numbers in class are illustrative — not Hong Kong weather downtime. Keep Sandbox ≠ Sandbox X.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="A vertical viability stack from demand and reliable capacity to served activity as the minimum of the two, then operating profit, then cash flow NPV downside probability and non-financial gates." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d6-title d6-desc">
   <title id="d6-title">Viability stack — same units all the way down</title>
@@ -265,7 +268,9 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
 
 
 ```{=html}
-<figure class="wdiag" id="w11-blocks" aria-labelledby="w11-blocks-title">
+<figure class="wdiag wdiag-text" id="w11-blocks" aria-labelledby="w11-blocks-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w11-blocks-title"><strong>Six connected blocks</strong></p>
 <div class="wdiag-stack cols-3">
 <div class="wdiag-box"><strong>1 Problem</strong></div>
@@ -276,11 +281,12 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
 <div class="wdiag-box"><strong>6 Impact / equity</strong></div>
 </div>
 <p class="wdiag-note">Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w11-blocks-svg" aria-labelledby="w11-blocks-svg-title">
+<figure class="wdiag wdiag-svg" id="w11-blocks-svg" aria-labelledby="w11-blocks-svg-title">
 <p class="wdiag-cap" id="w11-blocks-svg-title"><strong>Six connected blocks</strong> — (1) problem, (2) demand &amp; K, (3) economics, (4) ops/infra, (5) partners/regulation, (6) impact/equity. Recommend proceed / stage / redesign / reject with conditions. Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Six numbered blocks in two rows covering problem, demand and capacity, economics, operations, partners and regulation, and impact and equity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e5-title e5-desc">
   <title id="e5-title">Six connected blocks</title>
@@ -752,7 +758,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (2025 Policy Address ¶153–157 / Action Plan OPEN + Sandbox X framing — same official text as Week 10; CAD AC-017; Straubinger et al. UAM overview; FAA AAM Implementation Plan as roadmap comparator; LegCo IN10/2025; CAICT ecosystem report for GBA-facing work).  
-- **Course links:** [Week 10](week-10.qmd) · [Course overview](overview.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd).  
+- **Course links:** [Week 10](week-10.qmd) · [Course overview](overview.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).  
 - **Slides:** [week11-capstone.pdf](slides/week11-capstone.pdf).
 
 ## Readings {#readings}

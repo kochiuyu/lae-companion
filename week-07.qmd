@@ -21,7 +21,7 @@ Week 6 designed partnerships and payment mechanisms. This week asks how **regula
 **Orient refreshers:**
 
 - [Who decides what?](regulators.qmd) — institutions and standing caveats  
-- [Key figures](key-figures.qmd) — Sandbox counts and programme facts  
+- [Key numbers](key-figures.qmd) — Sandbox counts and programme facts  
 - [Glossary](glossary.qmd) — Cap. 448G, BVLOS, Sandbox X, UTM  
 - [Week 6](week-06.qmd) — PPP, availability payments, staging  
 
@@ -43,7 +43,7 @@ Week 6 designed partnerships and payment mechanisms. This week asks how **regula
 - A strong roadmap ties each new operating privilege to specified evidence, review, and risk controls.
 
 ::: {.callout-note appearance="simple"}
-**Classroom numbers vs absolute facts.** Worked examples below use round figures (readiness value, trial cost, compliance expected value, coordination cost). They are **illustrative assumptions for learning**, not CAD fees, Sandbox X budgets, approval odds, or insurance quotes. Absolute facts (Cap. **448G**; first Sandbox **38 of 72**; **Sandbox ≠ Sandbox X**; **AC-013** = BVLOS in the first Regulatory Sandbox; **AC-017** = Sandbox X cross-boundary) stay with issuers on [Key figures](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd#standing-caveats).
+**Classroom numbers vs absolute facts.** Worked examples below use round figures (readiness value, trial cost, compliance expected value, coordination cost). They are **illustrative assumptions for learning**, not CAD fees, Sandbox X budgets, approval odds, or insurance quotes. Absolute facts (Cap. **448G**; first Sandbox **38 of 72**; **Sandbox ≠ Sandbox X**; **AC-013** = BVLOS in the first Regulatory Sandbox; **AC-017** = Sandbox X cross-boundary) stay with issuers on [Key numbers](key-figures.qmd) / [Readings](#readings) / [Who decides what?](regulators.qmd#standing-caveats).
 :::
 
 ## Learning objectives
@@ -99,7 +99,7 @@ Regulatory capability may become a competitive advantage when a firm can demonst
 
 **Managerial lesson:** build a **compliance capability**, not a strategy based on presumed regulatory protection.
 
-**Connecting idea.** Readiness is not the same as Sandbox selection. Being one of the first-batch **38 of 72** (or later Sandbox X modules) is evidence about *trial participation* — not a commercial licence, exclusive route right, or permanent slot ([Key figures](key-figures.qmd); Week 6 Readings issuer).
+**Connecting idea.** Readiness is not the same as Sandbox selection. Being one of the first-batch **38 of 72** (or later Sandbox X modules) is evidence about *trial participation* — not a commercial licence, exclusive route right, or permanent slot ([Key numbers](key-figures.qmd); Week 6 Readings issuer).
 
 ### Value of earlier market readiness
 
@@ -166,7 +166,9 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 
 
 ```{=html}
-<figure class="wdiag" id="w07-sandbox" aria-labelledby="w07-sandbox-title">
+<figure class="wdiag wdiag-text" id="w07-sandbox" aria-labelledby="w07-sandbox-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
 <p class="wdiag-cap" id="w07-sandbox-title"><strong>Sandbox ≠ Sandbox X (keep programmes distinct)</strong></p>
 <div class="wdiag-stack cols-2">
 <div class="wdiag-box fact"><strong>Regulatory Sandbox</strong><br/>Controlled trials under the first Sandbox programme. Advanced / BVLOS pathways: see <strong>CAD AC-013</strong> (operation-specific evidence).</div>
@@ -174,13 +176,14 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 </div>
 <div class="wdiag-arrow" aria-hidden="true">≠</div>
 <div class="wdiag-box muted"><strong>Neither is a commercial franchise</strong><br/>Sandbox evidence ≠ day-to-day operating approval. <strong>U-space ≠ Hong Kong law.</strong> Action Plan language in the 2025 Policy Address stays with the issuer (OPEN on Official status where noted).</div>
-<p class="wdiag-note">Absolute programme labels — cite Readings / Key figures / Who decides what?.</p>
+<p class="wdiag-note">Absolute programme labels — cite Readings / Key numbers / Who decides what?.</p>
+</details>
 </figure>
 ```
 
 ```{=html}
-<figure class="wdiag" id="w07-sandbox-svg" aria-labelledby="w07-sandbox-svg-title">
-<p class="wdiag-cap" id="w07-sandbox-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Regulatory Sandbox (first programme; advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) ≠ Sandbox X (later complex trials; cross-boundary via <strong>CAD AC-017</strong>). Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. U-space ≠ Hong Kong law. Cite Key figures for counts — do not invent them here.</p>
+<figure class="wdiag wdiag-svg" id="w07-sandbox-svg" aria-labelledby="w07-sandbox-svg-title">
+<p class="wdiag-cap" id="w07-sandbox-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Regulatory Sandbox (first programme; advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) ≠ Sandbox X (later complex trials; cross-boundary via <strong>CAD AC-017</strong>). Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. U-space ≠ Hong Kong law. Cite Key numbers for counts — do not invent them here.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Two panels labelled Regulatory Sandbox with AC-013 and Sandbox X with AC-017, separated by a not-equal mark. Neither is a commercial franchise." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e2-title e2-desc">
   <title id="e2-title">Sandbox ≠ Sandbox X</title>
   <desc id="e2-desc">Two separate Hong Kong trial programmes. Regulatory Sandbox: controlled trials under the first programme; advanced BVLOS pathways include CAD AC-013. Sandbox X: later advanced trials including cross-boundary pathways under CAD AC-017. Neither is a commercial franchise. Sandbox evidence is not day-to-day operating approval. U-space is not Hong Kong law.</desc>
@@ -207,7 +210,7 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
   <rect x="40" y="260" width="640" height="80" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
   <text x="360" y="288" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Neither is a commercial franchise</text>
   <text x="360" y="310" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Sandbox evidence ≠ day-to-day operating approval</text>
-  <text x="360" y="328" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">U-space ≠ Hong Kong law · corridor talk ≠ operating service · cite Key figures for counts</text>
+  <text x="360" y="328" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">U-space ≠ Hong Kong law · corridor talk ≠ operating service · cite Key numbers for counts</text>
 
 </svg>
 <p class="wdiag-note">From Week 7 §3. SVG upgrade of HTML #w07-sandbox. Keep AC-013 ≠ AC-017.</p>
@@ -215,14 +218,14 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 ```
 
 
-Under Cap. **448G**, small unmanned aircraft (SUA ≤ 150 kg) are regulated under a **risk-based** approach. The Order took full effect on **1 December 2022**; in **July 2025** the scope expanded to cover SUA weighing not more than 150 kg (Category C) — see [CAD SUA page](https://www.cad.gov.hk/english/sua.html) on [Readings](#readings) and [Key figures](key-figures.qmd). Advanced operations need **prior CAD permission** and may face additional conditions ([Who decides what?](regulators.qmd)).
+Under Cap. **448G**, small unmanned aircraft (SUA ≤ 150 kg) are regulated under a **risk-based** approach. The Order took full effect on **1 December 2022**; in **July 2025** the scope expanded to cover SUA weighing not more than 150 kg (Category C) — see [CAD SUA page](https://www.cad.gov.hk/english/sua.html) on [Readings](#readings) and [Key numbers](key-figures.qmd). Advanced operations need **prior CAD permission** and may face additional conditions ([Who decides what?](regulators.qmd)).
 
 **Keep two trial programmes distinct** ([regulators standing caveats](regulators.qmd#standing-caveats)):
 
 | Programme | Role (simplified) |
 |-----------|-------------------|
 | **First Regulatory Sandbox** | Earlier batch of selected pilot projects (first batch **38 of 72** — issuer on Week 6 Readings / Official status) |
-| **Sandbox X** | Later programme for selected project concepts on predefined routes under controlled conditions; modules and testing counts on [Key figures](key-figures.qmd) |
+| **Sandbox X** | Later programme for selected project concepts on predefined routes under controlled conditions; modules and testing counts on [Key numbers](key-figures.qmd) |
 
 **Sandbox X** supports testing of airspace management, flight operations, infrastructure, communications, and emergency response. Government and participants can collect evidence on safety, reliability, resilience, technical feasibility, and commercial viability. Cross-boundary trials may also examine coordination and customs, immigration, and quarantine procedures. Projects proceed progressively — routes, parameters, and timing subject to approved conditions.
 
@@ -896,7 +899,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 ## Further reading and course links
 
 - **Documents for this week:** [Readings](#readings) (CAD Cap. 448G SUA page; AC-013 BVLOS in the first Regulatory Sandbox; 国令761; EASA SC-VTOL; CAAC logistics trial guide; LegCo IN10/2025).  
-- **Course links:** [Week 6](week-06.qmd) · [Who decides what?](regulators.qmd) · [Key figures](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
+- **Course links:** [Week 6](week-06.qmd) · [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) · [Glossary](glossary.qmd).  
 - **Slides:** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf). Assessment logistics stay on the teaching platform; the slide deck carries the Week 7 assignment brief used in class.
 
 ## Readings {#readings}

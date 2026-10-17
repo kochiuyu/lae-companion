@@ -334,7 +334,7 @@ Week 12 readings on the notes page: [Week 12 · Readings](week-12.qmd#readings)
 - [Tables](tables.qmd) — named teaching tables
 - [Figures](figures.qmd) — teaching diagrams
 - [Glossary](glossary.qmd) — word definitions
-- [Key figures](key-figures.qmd) — sourced HK programme numbers
+- [Key numbers](key-figures.qmd) — sourced HK programme numbers
 - Teach menu — week pages with full narrative, tables, and figures
 
 **Next:** [Week 1](week-01.qmd) · [How to use this site](howto.qmd) · [Home](index.qmd)

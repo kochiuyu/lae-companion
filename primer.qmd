@@ -361,7 +361,7 @@ Hong Kong already has an active policy track: a Working Group, trial programmes 
   <text x="340" y="290" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="600" fill="#003366">Not one combined list</text>
 </svg>
 
-<p class="wdiag-note">No project counts on this figure — do not merge lists. Counts and modules live on Official status / Key figures.</p>
+<p class="wdiag-note">No project counts on this figure — do not merge lists. Counts and modules live on Official status / Key numbers.</p>
 </figure>
 ```
 
@@ -369,11 +369,16 @@ The boxes above are enough for a first pass. For regulator names, open [Who deci
 
 ## What to read next
 
-1. **[How does LAE work?](business-overview.qmd)** — value, who pays whom, and how sectors fit.  
-2. **[Who decides what?](regulators.qmd)** — who regulates what, in one-line roles.  
-3. **[Common questions](faq.qmd)** · **[Key figures](key-figures.qmd)** — short Q&As and sourced numbers.  
-4. **[How to use this site](howto.qmd)** — full Orient path, then Teach and Updates.
+**Short path:** this primer → [Course overview](overview.qmd) → [Week 1](week-01.qmd).
 
-Then open **Teach**: start with [Week 1](week-01.qmd).
+**Full Orient** (same first two steps, then continue):  
+
+1. **[Course overview](overview.qmd)** — week map (next on Short and Full).  
+2. **[How does LAE work?](business-overview.qmd)** — value, who pays whom, and how sectors fit.  
+3. **[Who decides what?](regulators.qmd)** — who regulates what, in one-line roles.  
+4. **[How to use this site](howto.qmd)** — HowTo, then FAQ and Key numbers on the Full list.  
+5. **[Common questions](faq.qmd)** · **[Key numbers](key-figures.qmd)** — short Q&As and sourced numbers.
+
+Then open **Teach**: start with [Week 1](week-01.qmd). Full path detail: [How to use this site](howto.qmd#full-orient).
 
 This site has no Blackboard or assessment admin. Course logistics stay on the teaching platform.
