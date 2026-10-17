@@ -734,7 +734,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Trace one assumption change through demand → capacity → cost → cash flow → legitimacy.  
 2. Compute $D_{\mathrm{served}}$ and $\Pi_{\mathrm{op}}$ for a capacity shock with fixed $D$.  

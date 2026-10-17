@@ -868,7 +868,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. State why “electric” does not imply zero life-cycle emissions, quietness, privacy, or equity.  
 2. Define an externality; give one negative and one positive LAE example.  

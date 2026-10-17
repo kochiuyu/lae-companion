@@ -757,7 +757,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. State the commercial question: **enough customers at a viable price**, not “can it fly.”  
 2. Define WTP and sketch $Q=a-bP$; compute choke price $a/b$.  

@@ -1293,7 +1293,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 Use this when reviewing — each item should be answerable in your own words with a formula or a cite:
 

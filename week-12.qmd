@@ -680,7 +680,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Compute $L$ for two values of $N$; say why $L$ is not demand.  
 2. Screen a classroom share of links; refuse to treat the result as a GBA forecast.  

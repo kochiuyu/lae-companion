@@ -983,7 +983,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Separate **CAPEX**, recurring **fixed OPEX**, and **variable** cost on one page before any unit metric.  
 2. Explain why certification cash is **not automatically CAPEX**.  

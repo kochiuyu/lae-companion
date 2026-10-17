@@ -869,7 +869,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Explain why regulation can raise cost **and** create readiness value.  
 2. Compute **net readiness value**; say when a shorter lead destroys it.  

@@ -880,7 +880,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Define a use case with service, OD, customer, and period — refuse “all trips to the airport” without relevance.  
 2. Compute $SAM$, $D_{\mathrm{pot}}$, and $D_{\mathrm{served}}$ with an explicit $K$.  

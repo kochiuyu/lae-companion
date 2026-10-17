@@ -801,7 +801,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. State why capacity is a **whole-system** concept, not drones-per-minute.  
 2. Separate Cap. **448G** height bands from the ~**1,000 m** policy working description.  

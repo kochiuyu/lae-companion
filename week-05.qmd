@@ -916,7 +916,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Name the likely **binding bottleneck** for a named mission (pads vs aircraft vs charging vs access).  
 2. Compare three **classroom archetypes** without treating them as HK statutory classes.  

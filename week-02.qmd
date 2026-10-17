@@ -898,7 +898,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Define a **narrow market** (product + geography + customer + layer) before talking about competition.  
 2. Explain why LAE is **not one market structure**.  

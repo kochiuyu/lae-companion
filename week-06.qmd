@@ -820,7 +820,7 @@ Short checklist: [Summary](#summary).
 ---
 
 
-## Study checklist {#study-checklist}
+### Study checklist {#study-checklist}
 
 1. Contrast ownership vs coordination on **control, capital, and dependency**.  
 2. Fill the three-archetype table and compute the **monthly economic-profit** screen.  

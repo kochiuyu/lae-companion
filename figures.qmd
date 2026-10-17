@@ -14,6 +14,8 @@ format:
 
 Teaching diagrams (`.wdiag`) from the week notes — **SVG on this page** for quick review. Week pages remain the full notes context (narrative, tables, worked numbers). Counts below are SVG teaching-diagram entries; where a week has an HTML companion, it appears here as a collapsed “Text diagram” and is not a separate count.
 
+**Source of truth:** the week page SVG. This hub is a **mirror** for review — if a caption or diagram drifts, edit the week first and report the mismatch. Weeks below open as an accordion (Week 1 expanded; others collapsed; print expands all).
+
 <p class="hub-card-title">Jump by theme</p>
 
 - [Scope / entry](#week-01) · [Competition](#week-02) · [Cost](#week-03)
@@ -25,8 +27,10 @@ Teaching diagrams (`.wdiag`) from the week notes — **SVG on this page** for qu
 
 Full notes: [Week 1](week-01.qmd) · 12 figures.
 
-### LAE as a system (roles) {#f01-system}
+<details class="fig-week-details" open>
+<summary class="fig-week-sum">Show Week 1 figures (12)</summary>
 
+<p class="fig-title" id="f01-system">LAE as a system (roles)</p>
 Open in [Week 1 notes](week-01.qmd#w01-system-svg).
 
 ```{=html}
@@ -93,8 +97,7 @@ Open in [Week 1 notes](week-01.qmd#w01-system-svg).
 </figure>
 ```
 
-### Keep the layers separate {#f01-altitude-layers}
-
+<p class="fig-title" id="f01-altitude-layers">Keep the layers separate</p>
 Open in [Week 1 notes](week-01.qmd#w01-altitude-layers).
 
 ```{=html}
@@ -212,8 +215,7 @@ Open in [Week 1 notes](week-01.qmd#w01-altitude-layers).
 </figure>
 ```
 
-### LAE is not a mini-airline {#f01-differs}
-
+<p class="fig-title" id="f01-differs">LAE is not a mini-airline</p>
 Open in [Week 1 notes](week-01.qmd#w01-differs-svg).
 
 ```{=html}
@@ -253,8 +255,7 @@ Open in [Week 1 notes](week-01.qmd#w01-differs-svg).
 </figure>
 ```
 
-### Nested labels, not synonyms {#f01-nested-labels}
-
+<p class="fig-title" id="f01-nested-labels">Nested labels, not synonyms</p>
 Open in [Week 1 notes](week-01.qmd#w01-nested-labels).
 
 ```{=html}
@@ -320,8 +321,7 @@ Open in [Week 1 notes](week-01.qmd#w01-nested-labels).
 </figure>
 ```
 
-### Four families · different binding constraints {#f01-four-families}
-
+<p class="fig-title" id="f01-four-families">Four families · different binding constraints</p>
 Open in [Week 1 notes](week-01.qmd#w01-four-families-svg).
 
 ```{=html}
@@ -371,8 +371,7 @@ Open in [Week 1 notes](week-01.qmd#w01-four-families-svg).
 </figure>
 ```
 
-### Reading the OHKF HK$350bn figure {#f01-ohkf}
-
+<p class="fig-title" id="f01-ohkf">Reading the OHKF HK$350bn figure</p>
 Open in [Week 1 notes](week-01.qmd#w01-ohkf-svg).
 
 ```{=html}
@@ -423,8 +422,7 @@ Open in [Week 1 notes](week-01.qmd#w01-ohkf-svg).
 </figure>
 ```
 
-### Three-step viability screen {#f01-vot-npv}
-
+<p class="fig-title" id="f01-vot-npv">Three-step viability screen</p>
 Open in [Week 1 notes](week-01.qmd#w01-vot-npv-svg).
 
 ```{=html}
@@ -471,8 +469,7 @@ Open in [Week 1 notes](week-01.qmd#w01-vot-npv-svg).
 </figure>
 ```
 
-### Generalized cost — door-to-door {#f01-gc}
-
+<p class="fig-title" id="f01-gc">Generalized cost — door-to-door</p>
 Open in [Week 1 notes](week-01.qmd#w01-gc-svg).
 
 ```{=html}
@@ -509,8 +506,7 @@ Open in [Week 1 notes](week-01.qmd#w01-gc-svg).
 </figure>
 ```
 
-### Fast flight, slow door-to-door {#f01-door-to-door}
-
+<p class="fig-title" id="f01-door-to-door">Fast flight, slow door-to-door</p>
 Open in [Week 1 notes](week-01.qmd#w01-door-to-door).
 
 ```{=html}
@@ -583,8 +579,7 @@ Open in [Week 1 notes](week-01.qmd#w01-door-to-door).
 </figure>
 ```
 
-### AE ceiling → max P = HK$275 {#f01-ae-ceiling}
-
+<p class="fig-title" id="f01-ae-ceiling">AE ceiling → max P = HK$275</p>
 Open in [Week 1 notes](week-01.qmd#w01-ae-ceiling-svg).
 
 ```{=html}
@@ -618,8 +613,7 @@ Open in [Week 1 notes](week-01.qmd#w01-ae-ceiling-svg).
 </figure>
 ```
 
-### Create value ≠ capture it — ticket HK$300 {#f01-valuechain}
-
+<p class="fig-title" id="f01-valuechain">Create value ≠ capture it — ticket HK$300</p>
 Open in [Week 1 notes](week-01.qmd#w01-valuechain-svg).
 
 ```{=html}
@@ -669,8 +663,7 @@ Open in [Week 1 notes](week-01.qmd#w01-valuechain-svg).
 </figure>
 ```
 
-### Empty seats raise unit cost {#f01-empty-seat}
-
+<p class="fig-title" id="f01-empty-seat">Empty seats raise unit cost</p>
 Open in [Week 1 notes](week-01.qmd#w01-empty-seat-svg).
 
 ```{=html}
@@ -707,13 +700,16 @@ Open in [Week 1 notes](week-01.qmd#w01-empty-seat-svg).
 <p class="wdiag-note">From Week 1 §13. New SVG. Classroom arithmetic illustrative.</p>
 </figure>
 ```
+</details>
 
 ## Week 2 — Market structure and competition {#week-02}
 
 Full notes: [Week 2](week-02.qmd) · 12 figures.
 
-### Who might compete — name the market first {#f02-compete}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 2 figures (12)</summary>
 
+<p class="fig-title" id="f02-compete">Who might compete — name the market first</p>
 Open in [Week 2 notes](week-02.qmd#w02-compete-svg).
 
 ```{=html}
@@ -767,8 +763,7 @@ Open in [Week 2 notes](week-02.qmd#w02-compete-svg).
 </figure>
 ```
 
-### Four segments — four logics {#f02-segments}
-
+<p class="fig-title" id="f02-segments">Four segments — four logics</p>
 Open in [Week 2 notes](week-02.qmd#w02-segments-svg).
 
 ```{=html}
@@ -814,8 +809,7 @@ Open in [Week 2 notes](week-02.qmd#w02-segments-svg).
 </figure>
 ```
 
-### Uneven shares raise HHI — not Sandbox “dominance” {#f02-hhi-screen}
-
+<p class="fig-title" id="f02-hhi-screen">Uneven shares raise HHI — not Sandbox “dominance”</p>
 Open in [Week 2 notes](week-02.qmd#w02-hhi-screen).
 
 ```{=html}
@@ -864,8 +858,7 @@ Open in [Week 2 notes](week-02.qmd#w02-hhi-screen).
 </figure>
 ```
 
-### Low flights make the pad expensive {#f02-atc-util}
-
+<p class="fig-title" id="f02-atc-util">Low flights make the pad expensive</p>
 Open in [Week 2 notes](week-02.qmd#w02-atc-util).
 
 ```{=html}
@@ -913,8 +906,7 @@ Open in [Week 2 notes](week-02.qmd#w02-atc-util).
 </figure>
 ```
 
-### Density feedback — not automatic monopoly {#f02-density}
-
+<p class="fig-title" id="f02-density">Density feedback — not automatic monopoly</p>
 Open in [Week 2 notes](week-02.qmd#w02-density-svg).
 
 ```{=html}
@@ -970,8 +962,7 @@ Open in [Week 2 notes](week-02.qmd#w02-density-svg).
 </figure>
 ```
 
-### Density trap · pad HK$50k/day → ATC HK$2,600 vs HK$200 {#f02-density-trap}
-
+<p class="fig-title" id="f02-density-trap">Density trap · pad HK$50k/day → ATC HK$2,600 vs HK$200</p>
 Open in [Week 2 notes](week-02.qmd#w02-density-trap-svg).
 
 ```{=html}
@@ -1005,8 +996,7 @@ Open in [Week 2 notes](week-02.qmd#w02-density-trap-svg).
 </figure>
 ```
 
-### Entry barriers (NASA-style checklist) {#f02-entry}
-
+<p class="fig-title" id="f02-entry">Entry barriers (NASA-style checklist)</p>
 Open in [Week 2 notes](week-02.qmd#w02-entry-svg).
 
 ```{=html}
@@ -1046,8 +1036,7 @@ Open in [Week 2 notes](week-02.qmd#w02-entry-svg).
 </figure>
 ```
 
-### Limit price · high sunk HK$1,200 vs shared HK$300 {#f02-limit-price}
-
+<p class="fig-title" id="f02-limit-price">Limit price · high sunk HK$1,200 vs shared HK$300</p>
 Open in [Week 2 notes](week-02.qmd#w02-limit-price-svg).
 
 ```{=html}
@@ -1083,8 +1072,7 @@ Open in [Week 2 notes](week-02.qmd#w02-limit-price-svg).
 </figure>
 ```
 
-### HK service-layer + GBA supply {#f02-hk-gba}
-
+<p class="fig-title" id="f02-hk-gba">HK service-layer + GBA supply</p>
 Open in [Week 2 notes](week-02.qmd#w02-hk-gba-svg).
 
 ```{=html}
@@ -1125,8 +1113,7 @@ Open in [Week 2 notes](week-02.qmd#w02-hk-gba-svg).
 </figure>
 ```
 
-### Scarce pads can soften price wars {#f02-bertrand}
-
+<p class="fig-title" id="f02-bertrand">Scarce pads can soften price wars</p>
 Open in [Week 2 notes](week-02.qmd#w02-bertrand-svg).
 
 ```{=html}
@@ -1157,8 +1144,7 @@ Open in [Week 2 notes](week-02.qmd#w02-bertrand-svg).
 </figure>
 ```
 
-### Compete on service, share the roof {#f02-coop}
-
+<p class="fig-title" id="f02-coop">Compete on service, share the roof</p>
 Open in [Week 2 notes](week-02.qmd#w02-coop-svg).
 
 ```{=html}
@@ -1192,8 +1178,7 @@ Open in [Week 2 notes](week-02.qmd#w02-coop-svg).
 </figure>
 ```
 
-### Shared rooftop · HK$1,000 vs HK$250/flight {#f02-shared-roof}
-
+<p class="fig-title" id="f02-shared-roof">Shared rooftop · HK$1,000 vs HK$250/flight</p>
 Open in [Week 2 notes](week-02.qmd#w02-shared-roof-svg).
 
 ```{=html}
@@ -1226,13 +1211,16 @@ Open in [Week 2 notes](week-02.qmd#w02-shared-roof-svg).
 <p class="wdiag-note">From Week 2 §10 Worked illustration (shared rooftop). Classroom only. New SVG. Figure id #w02-shared-roof-svg (SHORTLIST).</p>
 </figure>
 ```
+</details>
 
 ## Week 3 — Cost, revenue, and breakeven {#week-03}
 
 Full notes: [Week 3](week-03.qmd) · 13 figures.
 
-### Two questions, two axes — do not merge them {#f03-cost-axes}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 3 figures (13)</summary>
 
+<p class="fig-title" id="f03-cost-axes">Two questions, two axes — do not merge them</p>
 Open in [Week 3 notes](week-03.qmd#w03-cost-axes).
 
 ```{=html}
@@ -1287,8 +1275,7 @@ Open in [Week 3 notes](week-03.qmd#w03-cost-axes).
 </figure>
 ```
 
-### Invest → unit · A ≈HK$270 / B ≈HK$226 per mission {#f03-invest-unit}
-
+<p class="fig-title" id="f03-invest-unit">Invest → unit · A ≈HK$270 / B ≈HK$226 per mission</p>
 Open in [Week 3 notes](week-03.qmd#w03-invest-unit-svg).
 
 ```{=html}
@@ -1322,8 +1309,7 @@ Open in [Week 3 notes](week-03.qmd#w03-invest-unit-svg).
 </figure>
 ```
 
-### Cost → unit → contribution → cash {#f03-toolchain}
-
+<p class="fig-title" id="f03-toolchain">Cost → unit → contribution → cash</p>
 Open in [Week 3 notes](week-03.qmd#w03-toolchain-svg).
 
 ```{=html}
@@ -1387,8 +1373,7 @@ Open in [Week 3 notes](week-03.qmd#w03-toolchain-svg).
 </figure>
 ```
 
-### More trips spread the same daily cost {#f03-cask-util}
-
+<p class="fig-title" id="f03-cask-util">More trips spread the same daily cost</p>
 Open in [Week 3 notes](week-03.qmd#w03-cask-util).
 
 ```{=html}
@@ -1430,8 +1415,7 @@ Open in [Week 3 notes](week-03.qmd#w03-cask-util).
 </figure>
 ```
 
-### Four revenue models — who bears usage risk {#f03-revenue-models}
-
+<p class="fig-title" id="f03-revenue-models">Four revenue models — who bears usage risk</p>
 Open in [Week 3 notes](week-03.qmd#w03-revenue-models-svg).
 
 ```{=html}
@@ -1480,8 +1464,7 @@ Open in [Week 3 notes](week-03.qmd#w03-revenue-models-svg).
 </figure>
 ```
 
-### Revenue = seats × load factor × average fare — fill ≠ contribution {#f03-rm}
-
+<p class="fig-title" id="f03-rm">Revenue = seats × load factor × average fare — fill ≠ contribution</p>
 Open in [Week 3 notes](week-03.qmd#w03-rm-svg).
 
 ```{=html}
@@ -1521,8 +1504,7 @@ Open in [Week 3 notes](week-03.qmd#w03-rm-svg).
 </figure>
 ```
 
-### Breakeven volume {#f03-breakeven}
-
+<p class="fig-title" id="f03-breakeven">Breakeven volume</p>
 Open in [Week 3 notes](week-03.qmd#w03-breakeven-svg).
 
 ```{=html}
@@ -1553,8 +1535,7 @@ Open in [Week 3 notes](week-03.qmd#w03-breakeven-svg).
 </figure>
 ```
 
-### Price → breakeven · p=500 → 50 / p=200 → 200 {#f03-price-be}
-
+<p class="fig-title" id="f03-price-be">Price → breakeven · p=500 → 50 / p=200 → 200</p>
 Open in [Week 3 notes](week-03.qmd#w03-price-be-svg).
 
 ```{=html}
@@ -1588,8 +1569,7 @@ Open in [Week 3 notes](week-03.qmd#w03-price-be-svg).
 </figure>
 ```
 
-### LF → breakeven · 40% ≈29 / 90% ≈12 flights {#f03-lf-be}
-
+<p class="fig-title" id="f03-lf-be">LF → breakeven · 40% ≈29 / 90% ≈12 flights</p>
 Open in [Week 3 notes](week-03.qmd#w03-lf-be-svg).
 
 ```{=html}
@@ -1623,8 +1603,7 @@ Open in [Week 3 notes](week-03.qmd#w03-lf-be-svg).
 </figure>
 ```
 
-### Weather hits more than revenue {#f03-weather}
-
+<p class="fig-title" id="f03-weather">Weather hits more than revenue</p>
 Open in [Week 3 notes](week-03.qmd#w03-weather-svg).
 
 ```{=html}
@@ -1676,8 +1655,7 @@ Open in [Week 3 notes](week-03.qmd#w03-weather-svg).
 </figure>
 ```
 
-### 5 grounded days · loss HK$100k vs profit HK$25k {#f03-grounded-days}
-
+<p class="fig-title" id="f03-grounded-days">5 grounded days · loss HK$100k vs profit HK$25k</p>
 Open in [Week 3 notes](week-03.qmd#w03-grounded-days-svg).
 
 ```{=html}
@@ -1713,8 +1691,7 @@ Open in [Week 3 notes](week-03.qmd#w03-grounded-days-svg).
 </figure>
 ```
 
-### HK vs GBA · cost & revenue hypotheses {#f03-hk-gba}
-
+<p class="fig-title" id="f03-hk-gba">HK vs GBA · cost &amp; revenue hypotheses</p>
 Open in [Week 3 notes](week-03.qmd#w03-hk-gba-svg).
 
 ```{=html}
@@ -1750,8 +1727,7 @@ Open in [Week 3 notes](week-03.qmd#w03-hk-gba-svg).
 </figure>
 ```
 
-### From investment to cash {#f03-toolmap}
-
+<p class="fig-title" id="f03-toolmap">From investment to cash</p>
 Open in [Week 3 notes](week-03.qmd#w03-toolmap-svg).
 
 ```{=html}
@@ -1803,13 +1779,16 @@ Open in [Week 3 notes](week-03.qmd#w03-toolmap-svg).
 <p class="wdiag-note">From Week 3 §10. New SVG. Complements #w03-toolchain-svg and #w03-breakeven-svg.</p>
 </figure>
 ```
+</details>
 
 ## Week 4 — Demand, GC, and scenarios {#week-04}
 
 Full notes: [Week 4](week-04.qmd) · 9 figures.
 
-### WTP / demand — Q = 8,000 − 8P {#f04-wtp}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 4 figures (9)</summary>
 
+<p class="fig-title" id="f04-wtp">WTP / demand — Q = 8,000 − 8P</p>
 Open in [Week 4 notes](week-04.qmd#w04-wtp-svg).
 
 ```{=html}
@@ -1843,8 +1822,7 @@ Open in [Week 4 notes](week-04.qmd#w04-wtp-svg).
 </figure>
 ```
 
-### Wanted trips can exceed what you can serve {#f04-funnel}
-
+<p class="fig-title" id="f04-funnel">Wanted trips can exceed what you can serve</p>
 Open in [Week 4 notes](week-04.qmd#w04-funnel-svg).
 
 ```{=html}
@@ -1887,8 +1865,7 @@ Open in [Week 4 notes](week-04.qmd#w04-funnel-svg).
 </figure>
 ```
 
-### Taxi GC vs air — VOT HK$15/min {#f04-gc}
-
+<p class="fig-title" id="f04-gc">Taxi GC vs air — VOT HK$15/min</p>
 Open in [Week 4 notes](week-04.qmd#w04-gc-svg).
 
 ```{=html}
@@ -1922,8 +1899,7 @@ Open in [Week 4 notes](week-04.qmd#w04-gc-svg).
 </figure>
 ```
 
-### Elasticity and a price cut {#f04-elasticity}
-
+<p class="fig-title" id="f04-elasticity">Elasticity and a price cut</p>
 Open in [Week 4 notes](week-04.qmd#w04-elasticity-svg).
 
 ```{=html}
@@ -1960,8 +1936,7 @@ Open in [Week 4 notes](week-04.qmd#w04-elasticity-svg).
 </figure>
 ```
 
-### Discount → rev · |E|=0.5 → HK$44k / |E|=2.0 → HK$56k {#f04-discount-rev}
-
+<p class="fig-title" id="f04-discount-rev">Discount → rev · |E|=0.5 → HK$44k / |E|=2.0 → HK$56k</p>
 Open in [Week 4 notes](week-04.qmd#w04-discount-rev-svg).
 
 ```{=html}
@@ -1995,8 +1970,7 @@ Open in [Week 4 notes](week-04.qmd#w04-discount-rev-svg).
 </figure>
 ```
 
-### Uniform vs differentiated — HK$3.00M → HK$4.09M {#f04-hetero}
-
+<p class="fig-title" id="f04-hetero">Uniform vs differentiated — HK$3.00M → HK$4.09M</p>
 Open in [Week 4 notes](week-04.qmd#w04-hetero-svg).
 
 ```{=html}
@@ -2030,8 +2004,7 @@ Open in [Week 4 notes](week-04.qmd#w04-hetero-svg).
 </figure>
 ```
 
-### Acceptance as an explicit scenario {#f04-acceptance}
-
+<p class="fig-title" id="f04-acceptance">Acceptance as an explicit scenario</p>
 Open in [Week 4 notes](week-04.qmd#w04-acceptance-svg).
 
 ```{=html}
@@ -2066,8 +2039,7 @@ Open in [Week 4 notes](week-04.qmd#w04-acceptance-svg).
 </figure>
 ```
 
-### Q_served = min; no magic shock penalty {#f04-shock}
-
+<p class="fig-title" id="f04-shock">Q_served = min; no magic shock penalty</p>
 Open in [Week 4 notes](week-04.qmd#w04-shock-svg).
 
 ```{=html}
@@ -2107,8 +2079,7 @@ Open in [Week 4 notes](week-04.qmd#w04-shock-svg).
 </figure>
 ```
 
-### From trips to cash (tool map) {#f04-toolmap}
-
+<p class="fig-title" id="f04-toolmap">From trips to cash (tool map)</p>
 Open in [Week 4 notes](week-04.qmd#w04-toolmap-svg).
 
 ```{=html}
@@ -2165,13 +2136,16 @@ Open in [Week 4 notes](week-04.qmd#w04-toolmap-svg).
 <p class="wdiag-note">From Week 4 §11. New SVG beside the existing table.</p>
 </figure>
 ```
+</details>
 
 ## Week 5 — Sites, slots, and networks {#week-05}
 
 Full notes: [Week 5](week-05.qmd) · 11 figures.
 
-### Diagnose which resource binds {#f05-bottleneck}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 5 figures (11)</summary>
 
+<p class="fig-title" id="f05-bottleneck">Diagnose which resource binds</p>
 Open in [Week 5 notes](week-05.qmd#w05-bottleneck-svg).
 
 ```{=html}
@@ -2237,8 +2211,7 @@ Open in [Week 5 notes](week-05.qmd#w05-bottleneck-svg).
 </figure>
 ```
 
-### Three site types, three trade-offs {#f05-archetypes}
-
+<p class="fig-title" id="f05-archetypes">Three site types, three trade-offs</p>
 Open in [Week 5 notes](week-05.qmd#w05-archetypes).
 
 ```{=html}
@@ -2290,8 +2263,7 @@ Open in [Week 5 notes](week-05.qmd#w05-archetypes).
 </figure>
 ```
 
-### Site selection — five screens {#f05-site-screen}
-
+<p class="fig-title" id="f05-site-screen">Site selection — five screens</p>
 Open in [Week 5 notes](week-05.qmd#w05-site-screen-svg).
 
 ```{=html}
@@ -2338,8 +2310,7 @@ Open in [Week 5 notes](week-05.qmd#w05-site-screen-svg).
 </figure>
 ```
 
-### Site cost · building HK$25k vs ground HK$7.5k/day {#f05-site-cost}
-
+<p class="fig-title" id="f05-site-cost">Site cost · building HK$25k vs ground HK$7.5k/day</p>
 Open in [Week 5 notes](week-05.qmd#w05-site-cost-svg).
 
 ```{=html}
@@ -2375,8 +2346,7 @@ Open in [Week 5 notes](week-05.qmd#w05-site-cost-svg).
 </figure>
 ```
 
-### Prefer reliable capacity over theoretical max {#f05-reliable-k}
-
+<p class="fig-title" id="f05-reliable-k">Prefer reliable capacity over theoretical max</p>
 Open in [Week 5 notes](week-05.qmd#w05-reliable-k-svg).
 
 ```{=html}
@@ -2413,8 +2383,7 @@ Open in [Week 5 notes](week-05.qmd#w05-reliable-k-svg).
 </figure>
 ```
 
-### Staged ramp vs full hub day-one {#f05-ramp}
-
+<p class="fig-title" id="f05-ramp">Staged ramp vs full hub day-one</p>
 Open in [Week 5 notes](week-05.qmd#w05-ramp-svg).
 
 ```{=html}
@@ -2446,8 +2415,7 @@ Open in [Week 5 notes](week-05.qmd#w05-ramp-svg).
 </figure>
 ```
 
-### Simple return under downtime stress {#f05-return}
-
+<p class="fig-title" id="f05-return">Simple return under downtime stress</p>
 Open in [Week 5 notes](week-05.qmd#w05-return-svg).
 
 ```{=html}
@@ -2479,8 +2447,7 @@ Open in [Week 5 notes](week-05.qmd#w05-return-svg).
 </figure>
 ```
 
-### Daily infrastructure cost — HK$15k vs HK$4k {#f05-infra-cost}
-
+<p class="fig-title" id="f05-infra-cost">Daily infrastructure cost — HK$15k vs HK$4k</p>
 Open in [Week 5 notes](week-05.qmd#w05-infra-cost-svg).
 
 ```{=html}
@@ -2516,8 +2483,7 @@ Open in [Week 5 notes](week-05.qmd#w05-infra-cost-svg).
 </figure>
 ```
 
-### Scarce slots — four controls; revenue max ≠ goal {#f05-slots}
-
+<p class="fig-title" id="f05-slots">Scarce slots — four controls; revenue max ≠ goal</p>
 Open in [Week 5 notes](week-05.qmd#w05-slots-svg).
 
 ```{=html}
@@ -2558,8 +2524,7 @@ Open in [Week 5 notes](week-05.qmd#w05-slots-svg).
 </figure>
 ```
 
-### Hub, distributed, or hybrid — different GC stories {#f05-network-topo}
-
+<p class="fig-title" id="f05-network-topo">Hub, distributed, or hybrid — different GC stories</p>
 Open in [Week 5 notes](week-05.qmd#w05-network-topo).
 
 ```{=html}
@@ -2633,8 +2598,7 @@ Open in [Week 5 notes](week-05.qmd#w05-network-topo).
 </figure>
 ```
 
-### From site choice to slots {#f05-toolmap}
-
+<p class="fig-title" id="f05-toolmap">From site choice to slots</p>
 Open in [Week 5 notes](week-05.qmd#w05-toolmap-svg).
 
 ```{=html}
@@ -2693,13 +2657,16 @@ Open in [Week 5 notes](week-05.qmd#w05-toolmap-svg).
 <p class="wdiag-note">From Week 5 §10. New SVG beside the table. Complements #w05-site-screen-svg.</p>
 </figure>
 ```
+</details>
 
 ## Week 6 — Partnerships and payment design {#week-06}
 
 Full notes: [Week 6](week-06.qmd) · 10 figures.
 
-### Architecture choice shifts risk — not Cap. 448G {#f06-arch}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 6 figures (10)</summary>
 
+<p class="fig-title" id="f06-arch">Architecture choice shifts risk — not Cap. 448G</p>
 Open in [Week 6 notes](week-06.qmd#w06-arch-svg).
 
 ```{=html}
@@ -2760,8 +2727,7 @@ Open in [Week 6 notes](week-06.qmd#w06-arch-svg).
 </figure>
 ```
 
-### Same HK$1M revenue → profit 467k / 100k / 117k {#f06-archetype-profit}
-
+<p class="fig-title" id="f06-archetype-profit">Same HK$1M revenue → profit 467k / 100k / 117k</p>
 Open in [Week 6 notes](week-06.qmd#w06-archetype-profit-svg).
 
 ```{=html}
@@ -2807,8 +2773,7 @@ Open in [Week 6 notes](week-06.qmd#w06-archetype-profit-svg).
 </figure>
 ```
 
-### PPP reallocates roles and risk — does not invent demand {#f06-ppp}
-
+<p class="fig-title" id="f06-ppp">PPP reallocates roles and risk — does not invent demand</p>
 Open in [Week 6 notes](week-06.qmd#w06-ppp-svg).
 
 ```{=html}
@@ -2851,8 +2816,7 @@ Open in [Week 6 notes](week-06.qmd#w06-ppp-svg).
 </figure>
 ```
 
-### Who bears demand risk? {#f06-pay}
-
+<p class="fig-title" id="f06-pay">Who bears demand risk?</p>
 Open in [Week 6 notes](week-06.qmd#w06-pay-svg).
 
 ```{=html}
@@ -2923,8 +2887,7 @@ Open in [Week 6 notes](week-06.qmd#w06-pay-svg).
 </figure>
 ```
 
-### Usage-only −260k vs A+usage +150k {#f06-pay-result}
-
+<p class="fig-title" id="f06-pay-result">Usage-only −260k vs A+usage +150k</p>
 Open in [Week 6 notes](week-06.qmd#w06-pay-result-svg).
 
 ```{=html}
@@ -2960,8 +2923,7 @@ Open in [Week 6 notes](week-06.qmd#w06-pay-result-svg).
 </figure>
 ```
 
-### Stage · expand · abandon — flexibility ≠ free {#f06-options}
-
+<p class="fig-title" id="f06-options">Stage · expand · abandon — flexibility ≠ free</p>
 Open in [Week 6 notes](week-06.qmd#w06-options-svg).
 
 ```{=html}
@@ -2999,8 +2961,7 @@ Open in [Week 6 notes](week-06.qmd#w06-options-svg).
 </figure>
 ```
 
-### Shared facility $/move — 50→100: HK$900→HK$500 {#f06-facility}
-
+<p class="fig-title" id="f06-facility">Shared facility $/move — 50→100: HK$900→HK$500</p>
 Open in [Week 6 notes](week-06.qmd#w06-facility-svg).
 
 ```{=html}
@@ -3033,8 +2994,7 @@ Open in [Week 6 notes](week-06.qmd#w06-facility-svg).
 </figure>
 ```
 
-### Institutions ≠ speed ranking {#f06-institutions}
-
+<p class="fig-title" id="f06-institutions">Institutions ≠ speed ranking</p>
 Open in [Week 6 notes](week-06.qmd#w06-institutions-svg).
 
 ```{=html}
@@ -3082,8 +3042,7 @@ Open in [Week 6 notes](week-06.qmd#w06-institutions-svg).
 </figure>
 ```
 
-### Term-sheet — risk → best party + price {#f06-termsheet}
-
+<p class="fig-title" id="f06-termsheet">Term-sheet — risk → best party + price</p>
 Open in [Week 6 notes](week-06.qmd#w06-termsheet-svg).
 
 ```{=html}
@@ -3127,8 +3086,7 @@ Open in [Week 6 notes](week-06.qmd#w06-termsheet-svg).
 </figure>
 ```
 
-### From architecture to term sheet {#f06-toolmap}
-
+<p class="fig-title" id="f06-toolmap">From architecture to term sheet</p>
 Open in [Week 6 notes](week-06.qmd#w06-toolmap-svg).
 
 ```{=html}
@@ -3188,13 +3146,16 @@ Open in [Week 6 notes](week-06.qmd#w06-toolmap-svg).
 <p class="wdiag-note">From Week 6 §9. New SVG beside the table. Sandbox ≠ Sandbox X.</p>
 </figure>
 ```
+</details>
 
 ## Week 7 — Regulation, trials, and readiness {#week-07}
 
 Full notes: [Week 7](week-07.qmd) · 11 figures.
 
-### Net readiness · lead ≠ monopoly {#f07-readiness}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 7 figures (11)</summary>
 
+<p class="fig-title" id="f07-readiness">Net readiness · lead ≠ monopoly</p>
 Open in [Week 7 notes](week-07.qmd#w07-readiness-svg).
 
 ```{=html}
@@ -3228,8 +3189,7 @@ Open in [Week 7 notes](week-07.qmd#w07-readiness-svg).
 </figure>
 ```
 
-### Sandbox ≠ Sandbox X {#f07-sandbox}
-
+<p class="fig-title" id="f07-sandbox">Sandbox ≠ Sandbox X</p>
 Open in [Week 7 notes](week-07.qmd#w07-sandbox-svg).
 
 ```{=html}
@@ -3284,8 +3244,7 @@ Open in [Week 7 notes](week-07.qmd#w07-sandbox-svg).
 </figure>
 ```
 
-### Trial HK$5M vs 40%×HK$20M → net avoided HK$3M {#f07-trial-value}
-
+<p class="fig-title" id="f07-trial-value">Trial HK$5M vs 40%×HK$20M → net avoided HK$3M</p>
 Open in [Week 7 notes](week-07.qmd#w07-trial-value-svg).
 
 ```{=html}
@@ -3321,8 +3280,7 @@ Open in [Week 7 notes](week-07.qmd#w07-trial-value-svg).
 </figure>
 ```
 
-### BVLOS — do not merge the circulars {#f07-bvlos-docs}
-
+<p class="fig-title" id="f07-bvlos-docs">BVLOS — do not merge the circulars</p>
 Open in [Week 7 notes](week-07.qmd#w07-bvlos-docs-svg).
 
 ```{=html}
@@ -3369,8 +3327,7 @@ Open in [Week 7 notes](week-07.qmd#w07-bvlos-docs-svg).
 </figure>
 ```
 
-### Four gates — do not conflate them {#f07-four-gates}
-
+<p class="fig-title" id="f07-four-gates">Four gates — do not conflate them</p>
 Open in [Week 7 notes](week-07.qmd#w07-four-gates).
 
 ```{=html}
@@ -3417,8 +3374,7 @@ Open in [Week 7 notes](week-07.qmd#w07-four-gates).
 </figure>
 ```
 
-### Compliance HK$15M · 70% EV +HK$6M / 40% −HK$3M {#f07-compliance-ev}
-
+<p class="fig-title" id="f07-compliance-ev">Compliance HK$15M · 70% EV +HK$6M / 40% −HK$3M</p>
 Open in [Week 7 notes](week-07.qmd#w07-compliance-ev-svg).
 
 ```{=html}
@@ -3452,8 +3408,7 @@ Open in [Week 7 notes](week-07.qmd#w07-compliance-ev-svg).
 </figure>
 ```
 
-### Risk cost = prevention + insurance + retained EL {#f07-risk-cost}
-
+<p class="fig-title" id="f07-risk-cost">Risk cost = prevention + insurance + retained EL</p>
 Open in [Week 7 notes](week-07.qmd#w07-risk-cost-svg).
 
 ```{=html}
@@ -3492,8 +3447,7 @@ Open in [Week 7 notes](week-07.qmd#w07-risk-cost-svg).
 </figure>
 ```
 
-### U-space ≠ Hong Kong law {#f07-uspace}
-
+<p class="fig-title" id="f07-uspace">U-space ≠ Hong Kong law</p>
 Open in [Week 7 notes](week-07.qmd#w07-uspace-svg).
 
 ```{=html}
@@ -3525,8 +3479,7 @@ Open in [Week 7 notes](week-07.qmd#w07-uspace-svg).
 </figure>
 ```
 
-### Pathway scorecard ≠ false ranking {#f07-pathway}
-
+<p class="fig-title" id="f07-pathway">Pathway scorecard ≠ false ranking</p>
 Open in [Week 7 notes](week-07.qmd#w07-pathway-svg).
 
 ```{=html}
@@ -3577,8 +3530,7 @@ Open in [Week 7 notes](week-07.qmd#w07-pathway-svg).
 </figure>
 ```
 
-### Phased regulatory roadmap — test → trial → scale {#f07-roadmap}
-
+<p class="fig-title" id="f07-roadmap">Phased regulatory roadmap — test → trial → scale</p>
 Open in [Week 7 notes](week-07.qmd#w07-roadmap-svg).
 
 ```{=html}
@@ -3620,8 +3572,7 @@ Open in [Week 7 notes](week-07.qmd#w07-roadmap-svg).
 </figure>
 ```
 
-### From Cap. 448G to roadmap {#f07-toolmap}
-
+<p class="fig-title" id="f07-toolmap">From Cap. 448G to roadmap</p>
 Open in [Week 7 notes](week-07.qmd#w07-toolmap-svg).
 
 ```{=html}
@@ -3680,13 +3631,16 @@ Open in [Week 7 notes](week-07.qmd#w07-toolmap-svg).
 <p class="wdiag-note">From Week 7 §10. New SVG. Trial ≠ commercial licence.</p>
 </figure>
 ```
+</details>
 
 ## Week 8 — Congestion, slots, and roadmaps {#week-08}
 
 Full notes: [Week 8](week-08.qmd) · 10 figures.
 
-### Whole-system capacity (not drones-per-minute) {#f08-capacity}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 8 figures (10)</summary>
 
+<p class="fig-title" id="f08-capacity">Whole-system capacity (not drones-per-minute)</p>
 Open in [Week 8 notes](week-08.qmd#w08-capacity-svg).
 
 ```{=html}
@@ -3756,8 +3710,7 @@ Open in [Week 8 notes](week-08.qmd#w08-capacity-svg).
 </figure>
 ```
 
-### Reliable capacity = whichever link binds first {#f08-bind-first}
-
+<p class="fig-title" id="f08-bind-first">Reliable capacity = whichever link binds first</p>
 Open in [Week 8 notes](week-08.qmd#w08-bind-first).
 
 ```{=html}
@@ -3811,8 +3764,7 @@ Open in [Week 8 notes](week-08.qmd#w08-bind-first).
 </figure>
 ```
 
-### Congestion cost is what you impose on others {#f08-mcc}
-
+<p class="fig-title" id="f08-mcc">Congestion cost is what you impose on others</p>
 Open in [Week 8 notes](week-08.qmd#w08-mcc-svg).
 
 ```{=html}
@@ -3856,8 +3808,7 @@ Open in [Week 8 notes](week-08.qmd#w08-mcc-svg).
 </figure>
 ```
 
-### MCC delay · 5 min × HK$200/min → HK$1,000 {#f08-mcc-delay}
-
+<p class="fig-title" id="f08-mcc-delay">MCC delay · 5 min × HK$200/min → HK$1,000</p>
 Open in [Week 8 notes](week-08.qmd#w08-mcc-delay-svg).
 
 ```{=html}
@@ -3896,8 +3847,7 @@ Open in [Week 8 notes](week-08.qmd#w08-mcc-delay-svg).
 </figure>
 ```
 
-### Allocation families — choose with criteria {#f08-mech}
-
+<p class="fig-title" id="f08-mech">Allocation families — choose with criteria</p>
 Open in [Week 8 notes](week-08.qmd#w08-mech-svg).
 
 ```{=html}
@@ -3955,8 +3905,7 @@ Open in [Week 8 notes](week-08.qmd#w08-mech-svg).
 </figure>
 ```
 
-### B_max · bid ≠ social priority {#f08-bmax}
-
+<p class="fig-title" id="f08-bmax">B_max · bid ≠ social priority</p>
 Open in [Week 8 notes](week-08.qmd#w08-bmax-svg).
 
 ```{=html}
@@ -3995,8 +3944,7 @@ Open in [Week 8 notes](week-08.qmd#w08-bmax-svg).
 </figure>
 ```
 
-### Network effects — value ↑ and load ↑ {#f08-network}
-
+<p class="fig-title" id="f08-network">Network effects — value ↑ and load ↑</p>
 Open in [Week 8 notes](week-08.qmd#w08-network-svg).
 
 ```{=html}
@@ -4037,8 +3985,7 @@ Open in [Week 8 notes](week-08.qmd#w08-network-svg).
 </figure>
 ```
 
-### Interop monthly cost — HK$900k → HK$450k {#f08-interop}
-
+<p class="fig-title" id="f08-interop">Interop monthly cost — HK$900k → HK$450k</p>
 Open in [Week 8 notes](week-08.qmd#w08-interop-svg).
 
 ```{=html}
@@ -4074,8 +4021,7 @@ Open in [Week 8 notes](week-08.qmd#w08-interop-svg).
 </figure>
 ```
 
-### Roadmap NPV ≈ HK$29.8M {#f08-roadmap}
-
+<p class="fig-title" id="f08-roadmap">Roadmap NPV ≈ HK$29.8M</p>
 Open in [Week 8 notes](week-08.qmd#w08-roadmap-svg).
 
 ```{=html}
@@ -4116,8 +4062,7 @@ Open in [Week 8 notes](week-08.qmd#w08-roadmap-svg).
 </figure>
 ```
 
-### From bottleneck to roadmap {#f08-toolmap}
-
+<p class="fig-title" id="f08-toolmap">From bottleneck to roadmap</p>
 Open in [Week 8 notes](week-08.qmd#w08-toolmap-svg).
 
 ```{=html}
@@ -4177,13 +4122,16 @@ Open in [Week 8 notes](week-08.qmd#w08-toolmap-svg).
 <p class="wdiag-note">From Week 8 §8. New SVG. Complements #w08-bind-first.</p>
 </figure>
 ```
+</details>
 
 ## Week 9 — Sizing, uncertainty, and equity {#week-09}
 
 Full notes: [Week 9](week-09.qmd) · 11 figures.
 
-### Profit is not social net benefit {#f09-two-lenses}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 9 figures (11)</summary>
 
+<p class="fig-title" id="f09-two-lenses">Profit is not social net benefit</p>
 Open in [Week 9 notes](week-09.qmd#w09-two-lenses).
 
 ```{=html}
@@ -4221,8 +4169,7 @@ Open in [Week 9 notes](week-09.qmd#w09-two-lenses).
 </figure>
 ```
 
-### Sizing funnel — TAM to served demand {#f09-funnel}
-
+<p class="fig-title" id="f09-funnel">Sizing funnel — TAM to served demand</p>
 Open in [Week 9 notes](week-09.qmd#w09-funnel-svg).
 
 ```{=html}
@@ -4274,8 +4221,7 @@ Open in [Week 9 notes](week-09.qmd#w09-funnel-svg).
 </figure>
 ```
 
-### Funnel → served 256/day → contrib ≈ HK$23.7M/yr {#f09-funnel-contrib}
-
+<p class="fig-title" id="f09-funnel-contrib">Funnel → served 256/day → contrib ≈ HK$23.7M/yr</p>
 Open in [Week 9 notes](week-09.qmd#w09-funnel-contrib-svg).
 
 ```{=html}
@@ -4324,8 +4270,7 @@ Open in [Week 9 notes](week-09.qmd#w09-funnel-contrib-svg).
 </figure>
 ```
 
-### One constraint → one model channel {#f09-channels}
-
+<p class="fig-title" id="f09-channels">One constraint → one model channel</p>
 Open in [Week 9 notes](week-09.qmd#w09-channels-svg).
 
 ```{=html}
@@ -4393,8 +4338,7 @@ Open in [Week 9 notes](week-09.qmd#w09-channels-svg).
 </figure>
 ```
 
-### Accept 90% → 270 but K=256 binds → HK$33.8M {#f09-accept-k}
-
+<p class="fig-title" id="f09-accept-k">Accept 90% → 270 but K=256 binds → HK$33.8M</p>
 Open in [Week 9 notes](week-09.qmd#w09-accept-k-svg).
 
 ```{=html}
@@ -4441,8 +4385,7 @@ Open in [Week 9 notes](week-09.qmd#w09-accept-k-svg).
 </figure>
 ```
 
-### Uncertainty — scenarios and expected value {#f09-uncertainty}
-
+<p class="fig-title" id="f09-uncertainty">Uncertainty — scenarios and expected value</p>
 Open in [Week 9 notes](week-09.qmd#w09-uncertainty-svg).
 
 ```{=html}
@@ -4479,8 +4422,7 @@ Open in [Week 9 notes](week-09.qmd#w09-uncertainty-svg).
 </figure>
 ```
 
-### Scenario EV · E[Π] HK$2.2M · Pr(loss) 30% {#f09-scenario-ev}
-
+<p class="fig-title" id="f09-scenario-ev">Scenario EV · E[Π] HK$2.2M · Pr(loss) 30%</p>
 Open in [Week 9 notes](week-09.qmd#w09-scenario-ev-svg).
 
 ```{=html}
@@ -4525,8 +4467,7 @@ Open in [Week 9 notes](week-09.qmd#w09-scenario-ev-svg).
 </figure>
 ```
 
-### HK$350bn is not “the market” {#f09-ohkf-350}
-
+<p class="fig-title" id="f09-ohkf-350">HK$350bn is not “the market”</p>
 Open in [Week 9 notes](week-09.qmd#w09-ohkf-350).
 
 ```{=html}
@@ -4571,8 +4512,7 @@ Open in [Week 9 notes](week-09.qmd#w09-ohkf-350).
 </figure>
 ```
 
-### Hedonic dial — noise vs access on HK$8M {#f09-hedonic}
-
+<p class="fig-title" id="f09-hedonic">Hedonic dial — noise vs access on HK$8M</p>
 Open in [Week 9 notes](week-09.qmd#w09-hedonic-svg).
 
 ```{=html}
@@ -4605,8 +4545,7 @@ Open in [Week 9 notes](week-09.qmd#w09-hedonic-svg).
 </figure>
 ```
 
-### Who gains and who bears costs? {#f09-equity}
-
+<p class="fig-title" id="f09-equity">Who gains and who bears costs?</p>
 Open in [Week 9 notes](week-09.qmd#w09-equity-svg).
 
 ```{=html}
@@ -4653,8 +4592,7 @@ Open in [Week 9 notes](week-09.qmd#w09-equity-svg).
 </figure>
 ```
 
-### Five-panel dashboard {#f09-dashboard}
-
+<p class="fig-title" id="f09-dashboard">Five-panel dashboard</p>
 Open in [Week 9 notes](week-09.qmd#w09-dashboard-svg).
 
 ```{=html}
@@ -4702,13 +4640,16 @@ Open in [Week 9 notes](week-09.qmd#w09-dashboard-svg).
 <p class="wdiag-note">From Week 9 §8. Five panel labels from page table only. New SVG.</p>
 </figure>
 ```
+</details>
 
 ## Week 10 — Externalities and sustainability {#week-10}
 
 Full notes: [Week 10](week-10.qmd) · 12 figures.
 
-### Measure the impact, then pick instruments {#f10-ext}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 10 figures (12)</summary>
 
+<p class="fig-title" id="f10-ext">Measure the impact, then pick instruments</p>
 Open in [Week 10 notes](week-10.qmd#w10-ext-svg).
 
 ```{=html}
@@ -4780,8 +4721,7 @@ Open in [Week 10 notes](week-10.qmd#w10-ext-svg).
 </figure>
 ```
 
-### Quieter upgrade HK$3M → 5-yr save HK$3M {#f10-quieter}
-
+<p class="fig-title" id="f10-quieter">Quieter upgrade HK$3M → 5-yr save HK$3M</p>
 Open in [Week 10 notes](week-10.qmd#w10-quieter-svg).
 
 ```{=html}
@@ -4817,8 +4757,7 @@ Open in [Week 10 notes](week-10.qmd#w10-quieter-svg).
 </figure>
 ```
 
-### Purpose → minimize → privacy-control cost {#f10-privacy}
-
+<p class="fig-title" id="f10-privacy">Purpose → minimize → privacy-control cost</p>
 Open in [Week 10 notes](week-10.qmd#w10-privacy-svg).
 
 ```{=html}
@@ -4857,8 +4796,7 @@ Open in [Week 10 notes](week-10.qmd#w10-privacy-svg).
 </figure>
 ```
 
-### Carbon cost · 40 kg → HK$2M / 10 kg → HK$0.5M {#f10-carbon-cost}
-
+<p class="fig-title" id="f10-carbon-cost">Carbon cost · 40 kg → HK$2M / 10 kg → HK$0.5M</p>
 Open in [Week 10 notes](week-10.qmd#w10-carbon-cost-svg).
 
 ```{=html}
@@ -4892,8 +4830,7 @@ Open in [Week 10 notes](week-10.qmd#w10-carbon-cost-svg).
 </figure>
 ```
 
-### Carbon value is an appraisal dial {#f10-carbon-dial}
-
+<p class="fig-title" id="f10-carbon-dial">Carbon value is an appraisal dial</p>
 Open in [Week 10 notes](week-10.qmd#w10-carbon-dial-svg).
 
 ```{=html}
@@ -4926,8 +4863,7 @@ Open in [Week 10 notes](week-10.qmd#w10-carbon-dial-svg).
 </figure>
 ```
 
-### Grid → e_op · 50 kWh × 0.8/0.2 → 40 / 10 kg {#f10-grid-eop}
-
+<p class="fig-title" id="f10-grid-eop">Grid → e_op · 50 kWh × 0.8/0.2 → 40 / 10 kg</p>
 Open in [Week 10 notes](week-10.qmd#w10-grid-eop-svg).
 
 ```{=html}
@@ -4961,8 +4897,7 @@ Open in [Week 10 notes](week-10.qmd#w10-grid-eop-svg).
 </figure>
 ```
 
-### Scopes vs LCA — different questions {#f10-ghg}
-
+<p class="fig-title" id="f10-ghg">Scopes vs LCA — different questions</p>
 Open in [Week 10 notes](week-10.qmd#w10-ghg-svg).
 
 ```{=html}
@@ -5016,8 +4951,7 @@ Open in [Week 10 notes](week-10.qmd#w10-ghg-svg).
 </figure>
 ```
 
-### LCA total · 52 vs 22 kg/op {#f10-lca-total}
-
+<p class="fig-title" id="f10-lca-total">LCA total · 52 vs 22 kg/op</p>
 Open in [Week 10 notes](week-10.qmd#w10-lca-total-svg).
 
 ```{=html}
@@ -5053,8 +4987,7 @@ Open in [Week 10 notes](week-10.qmd#w10-lca-total-svg).
 </figure>
 ```
 
-### Use-case acceptance ≠ traveller share $s$ {#f10-accept-usecase}
-
+<p class="fig-title" id="f10-accept-usecase">Use-case acceptance ≠ traveller share $s$</p>
 Open in [Week 10 notes](week-10.qmd#w10-accept-usecase-svg).
 
 ```{=html}
@@ -5097,8 +5030,7 @@ Open in [Week 10 notes](week-10.qmd#w10-accept-usecase-svg).
 </figure>
 ```
 
-### Social licence ≠ legal approval {#f10-fund-ps}
-
+<p class="fig-title" id="f10-fund-ps">Social licence ≠ legal approval</p>
 Open in [Week 10 notes](week-10.qmd#w10-fund-ps-svg).
 
 ```{=html}
@@ -5135,8 +5067,7 @@ Open in [Week 10 notes](week-10.qmd#w10-fund-ps-svg).
 </figure>
 ```
 
-### Sustainability KPIs need owners {#f10-kpi}
-
+<p class="fig-title" id="f10-kpi">Sustainability KPIs need owners</p>
 Open in [Week 10 notes](week-10.qmd#w10-kpi-svg).
 
 ```{=html}
@@ -5182,8 +5113,7 @@ Open in [Week 10 notes](week-10.qmd#w10-kpi-svg).
 </figure>
 ```
 
-### From externality to KPI {#f10-toolmap}
-
+<p class="fig-title" id="f10-toolmap">From externality to KPI</p>
 Open in [Week 10 notes](week-10.qmd#w10-toolmap-svg).
 
 ```{=html}
@@ -5243,13 +5173,16 @@ Open in [Week 10 notes](week-10.qmd#w10-toolmap-svg).
 <p class="wdiag-note">From Week 10 §8 tool map. New SVG. Complements #w10-carbon-dial-svg and #w10-kpi-svg.</p>
 </figure>
 ```
+</details>
 
 ## Week 11 — Synthesis and recommendation {#week-11}
 
 Full notes: [Week 11](week-11.qmd) · 9 figures.
 
-### One model path — integration {#f11-integrate}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 11 figures (9)</summary>
 
+<p class="fig-title" id="f11-integrate">One model path — integration</p>
 Open in [Week 11 notes](week-11.qmd#w11-integrate-svg).
 
 ```{=html}
@@ -5292,8 +5225,7 @@ Open in [Week 11 notes](week-11.qmd#w11-integrate-svg).
 </figure>
 ```
 
-### Viability stack — same units all the way down {#f11-viable}
-
+<p class="fig-title" id="f11-viable">Viability stack — same units all the way down</p>
 Open in [Week 11 notes](week-11.qmd#w11-viable-svg).
 
 ```{=html}
@@ -5349,8 +5281,7 @@ Open in [Week 11 notes](week-11.qmd#w11-viable-svg).
 </figure>
 ```
 
-### Capacity shock · K binds → Π → 0 {#f11-cap-shock}
-
+<p class="fig-title" id="f11-cap-shock">Capacity shock · K binds → Π → 0</p>
 Open in [Week 11 notes](week-11.qmd#w11-cap-shock-svg).
 
 ```{=html}
@@ -5384,8 +5315,7 @@ Open in [Week 11 notes](week-11.qmd#w11-cap-shock-svg).
 </figure>
 ```
 
-### Six connected blocks {#f11-blocks}
-
+<p class="fig-title" id="f11-blocks">Six connected blocks</p>
 Open in [Week 11 notes](week-11.qmd#w11-blocks-svg).
 
 ```{=html}
@@ -5452,8 +5382,7 @@ Open in [Week 11 notes](week-11.qmd#w11-blocks-svg).
 </figure>
 ```
 
-### Airport-corridor screening · six-block chain {#f11-corridor-screen}
-
+<p class="fig-title" id="f11-corridor-screen">Airport-corridor screening · six-block chain</p>
 Open in [Week 11 notes](week-11.qmd#w11-corridor-screen-svg).
 
 ```{=html}
@@ -5507,8 +5436,7 @@ Open in [Week 11 notes](week-11.qmd#w11-corridor-screen-svg).
 </figure>
 ```
 
-### Each risk must hit a model channel {#f11-risk-channel}
-
+<p class="fig-title" id="f11-risk-channel">Each risk must hit a model channel</p>
 Open in [Week 11 notes](week-11.qmd#w11-risk-channel).
 
 ```{=html}
@@ -5563,8 +5491,7 @@ Open in [Week 11 notes](week-11.qmd#w11-risk-channel).
 </figure>
 ```
 
-### Weak vs strong evidence {#f11-weak-strong}
-
+<p class="fig-title" id="f11-weak-strong">Weak vs strong evidence</p>
 Open in [Week 11 notes](week-11.qmd#w11-weak-strong-svg).
 
 ```{=html}
@@ -5610,8 +5537,7 @@ Open in [Week 11 notes](week-11.qmd#w11-weak-strong-svg).
 </figure>
 ```
 
-### Five decision-maker lenses {#f11-lenses}
-
+<p class="fig-title" id="f11-lenses">Five decision-maker lenses</p>
 Open in [Week 11 notes](week-11.qmd#w11-lenses-svg).
 
 ```{=html}
@@ -5663,8 +5589,7 @@ Open in [Week 11 notes](week-11.qmd#w11-lenses-svg).
 </figure>
 ```
 
-### 12-minute pitch → conditional recommend {#f11-pitch}
-
+<p class="fig-title" id="f11-pitch">12-minute pitch → conditional recommend</p>
 Open in [Week 11 notes](week-11.qmd#w11-pitch-svg).
 
 ```{=html}
@@ -5712,13 +5637,16 @@ Open in [Week 11 notes](week-11.qmd#w11-pitch-svg).
 <p class="wdiag-note">From Week 11 §5. Pitch minutes from live table; D/K from §2. New SVG.</p>
 </figure>
 ```
+</details>
 
 ## Week 12 — Networks, leasing, and exam tools {#week-12}
 
 Full notes: [Week 12](week-12.qmd) · 8 figures.
 
-### Possible links ≠ viable service {#f12-network}
+<details class="fig-week-details">
+<summary class="fig-week-sum">Show Week 12 figures (8)</summary>
 
+<p class="fig-title" id="f12-network">Possible links ≠ viable service</p>
 Open in [Week 12 notes](week-12.qmd#w12-network-svg).
 
 ```{=html}
@@ -5782,8 +5710,7 @@ Open in [Week 12 notes](week-12.qmd#w12-network-svg).
 </figure>
 ```
 
-### Count-links · 5→6 candidates / 20→≈29 {#f12-count-links}
-
+<p class="fig-title" id="f12-count-links">Count-links · 5→6 candidates / 20→≈29</p>
 Open in [Week 12 notes](week-12.qmd#w12-count-links-svg).
 
 ```{=html}
@@ -5817,8 +5744,7 @@ Open in [Week 12 notes](week-12.qmd#w12-count-links-svg).
 </figure>
 ```
 
-### Digital coordination is socio-technical {#f12-digital}
-
+<p class="fig-title" id="f12-digital">Digital coordination is socio-technical</p>
 Open in [Week 12 notes](week-12.qmd#w12-digital-svg).
 
 ```{=html}
@@ -5860,8 +5786,7 @@ Open in [Week 12 notes](week-12.qmd#w12-digital-svg).
 </figure>
 ```
 
-### Risk evidence · put $ in the same CF path {#f12-risk-evidence}
-
+<p class="fig-title" id="f12-risk-evidence">Risk evidence · put $ in the same CF path</p>
 Open in [Week 12 notes](week-12.qmd#w12-risk-evidence-svg).
 
 ```{=html}
@@ -5895,8 +5820,7 @@ Open in [Week 12 notes](week-12.qmd#w12-risk-evidence-svg).
 </figure>
 ```
 
-### Hong Kong service roles — test them {#f12-hk-roles}
-
+<p class="fig-title" id="f12-hk-roles">Hong Kong service roles — test them</p>
 Open in [Week 12 notes](week-12.qmd#w12-hk-roles-svg).
 
 ```{=html}
@@ -5935,8 +5859,7 @@ Open in [Week 12 notes](week-12.qmd#w12-hk-roles-svg).
 </figure>
 ```
 
-### Lease HK$300k · risk reallocates ≠ vanishes {#f12-leasing}
-
+<p class="fig-title" id="f12-leasing">Lease HK$300k · risk reallocates ≠ vanishes</p>
 Open in [Week 12 notes](week-12.qmd#w12-leasing-svg).
 
 ```{=html}
@@ -5970,8 +5893,7 @@ Open in [Week 12 notes](week-12.qmd#w12-leasing-svg).
 </figure>
 ```
 
-### Five-step exam method {#f12-exam}
-
+<p class="fig-title" id="f12-exam">Five-step exam method</p>
 Open in [Week 12 notes](week-12.qmd#w12-exam-svg).
 
 ```{=html}
@@ -6038,8 +5960,7 @@ Open in [Week 12 notes](week-12.qmd#w12-exam-svg).
 </figure>
 ```
 
-### Exam shock · Π = HK$16,000/day {#f12-exam-shock}
-
+<p class="fig-title" id="f12-exam-shock">Exam shock · Π = HK$16,000/day</p>
 Open in [Week 12 notes](week-12.qmd#w12-exam-shock-svg).
 
 ```{=html}
@@ -6077,4 +5998,4 @@ Open in [Week 12 notes](week-12.qmd#w12-exam-shock-svg).
 <p class="wdiag-note">From Week 12 §5 worked illustration (capacity and cost shock). Classroom only. New SVG. Pairs with #w12-exam-svg (five steps, no $).</p>
 </figure>
 ```
-
+</details>

@@ -44,7 +44,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones (as of 15 Oct 2026)</strong> — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 17 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>October 2026<span class="n">6 items</span></summary><ol>
 <li id="tl-press-2026-10-15-caac-landing" class="st-open"><a href="#press-item-2026-10-15-caac-landing"><span class="chip">14–15 Oct</span> · CAAC draft medium/small UAS landing-site technical requirements<span class="badge b-open">DRAFT</span></a></li>
