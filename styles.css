@@ -171,6 +171,14 @@ div.callout-caution {
   margin: 0.15rem 0;
 }
 
+/* Belt-and-suspenders: hide AnchorJS on hub-card titles if a heading
+   ever returns inside .hub-card (Default 5 demoted titles to .hub-card-title). */
+.hub-card .anchorjs-link,
+.hub-card h2 .anchorjs-link,
+.hub-card h3 .anchorjs-link {
+  display: none !important;
+}
+
 /* Sticky TOC on desktop for long pages */
 @media (min-width: 992px) {
   #quarto-margin-sidebar nav,
@@ -1303,8 +1311,9 @@ body.page-week .wdiag.wdiag-text {
 /* ============================================================
    Long article hubs (.page-prose): readable measure outside Teach.
    body-classes: "page-prose" on glossary / news / industry / faq
-   plus Orient (primer/overview/business/regulators/howto/key-figures)
-   and Review hubs (formulas/tables/figures/readings/quizzes).
+   plus Orient (primer/overview/business/regulators/howto/key-figures),
+   Review hubs (formulas/tables/figures/readings/quizzes),
+   and Official-adjacent usecases.
    Skip landscape + tracker + dates + home (full or table-heavy).
    ============================================================ */
 body.page-prose #quarto-document-content,

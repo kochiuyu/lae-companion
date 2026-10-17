@@ -3,6 +3,9 @@ title: "Use cases"
 subtitle: "Dated trial and operating applications"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
 ## Standing note
