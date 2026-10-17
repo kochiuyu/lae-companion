@@ -340,7 +340,7 @@ Under Hong Kong’s risk-based SUA regime, higher-risk advanced operations requi
 
 ---
 
-Advanced ops need clear language. **Approval, permission, and certification** are different gates. If you mix them up, both the compliance plan and the NPV timing break.
+Advanced operations need clear language. **Approval, permission, and certification** are different gates. If you mix them up, both the compliance plan and the NPV timing break.
 
 ## 5. Approval, permission, and certification (do not conflate)
 
@@ -351,7 +351,7 @@ Advanced ops need clear language. **Approval, permission, and certification** ar
 | **Aircraft certification / airworthiness** | Passenger-carrying or larger unconventional aircraft may need a substantially different framework (trials for unconventional aircraft discussed under Cap. 448C provisions in official replies — see Glossary / regulators) |
 | **Infrastructure / site approval** | Landing sites and supporting facilities may involve planning, building, fire, land, environmental, and other requirements |
 
-**Classroom lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not a single generic “licence.” Week 5’s “no dedicated HK vertiport statute” caveat still bites here: site approvals may sit outside Cap. 448G alone.
+**Classroom lesson:** build a regulatory map for the **specific** aircraft, mission, route, and business model — not one generic “licence.” Week 5’s “no dedicated HK vertiport statute” caveat still applies here: site approvals may sit outside Cap. 448G alone.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w07-four-gates" aria-labelledby="w07-four-gates-title">

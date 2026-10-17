@@ -38,9 +38,9 @@ Week 4 asked whether **customers would choose** the service. This week asks whet
 **Takeaways**
 
 - Infrastructure strategy balances safety, access, utilities, reliable capacity, cost, expandability, and community impact.
-- Breakeven should use reliable capacity and contribution per movement—not theoretical maximum activity.
-- Staged investment and liquidity planning reduce the risk of building ahead of demand.
-- Scarce slots need transparent allocation and priority rules; peak pricing is only one option.
+- Breakeven should use reliable capacity and contribution per movement — not a theoretical maximum.
+- Staged investment and liquidity planning reduce the risk of building before demand arrives.
+- Scarce slots need clear allocation and priority rules; peak pricing is only one option.
 - Hub, distributed, and hybrid networks trade facility cost, access, resilience, and connectivity.
 
 ::: {.callout-note appearance="simple"}
@@ -400,11 +400,11 @@ A higher-cost site needs more activity, higher contribution per movement, or com
 
 ---
 
-Mature throughput is rarely day-one reality. **Staged ramp-up** protects liquidity when demand is uncertain — real-options thinking applied to pads and fit-out.
+Mature throughput is rarely ready on day one. **Staged ramp-up** protects cash on hand (liquidity) when demand is uncertain — real-options thinking applied to pads and fit-out.
 
 ## 5. Staged ramp-up and liquidity
 
-New infrastructure rarely hits mature demand immediately. Early use may be limited by adoption, aircraft availability, approvals, operating experience, and network coverage. A **staged plan** links investment to evidence and milestones (temporary/modular site, limited hours, selected users, later expansion). The financial plan needs working capital for early losses and contingencies.
+New infrastructure rarely reaches mature demand at once. Early use may be limited by adoption, aircraft availability, approvals, operating experience, and network coverage. A **staged plan** links investment to evidence and milestones (temporary or modular site, limited hours, selected users, later expansion). The financial plan needs working capital for early losses and contingencies.
 
 **Question:** which investment is reversible or expandable if demand differs from forecast?
 
@@ -449,7 +449,7 @@ Financing must cover the expected ramp-up shortfall **plus** contingency.
 </figure>
 ```
 
-**Connecting idea.** Staging is real-options thinking without the full option math (Week 6 returns to partnerships and payment design). Building the full integrated hub on day one converts demand uncertainty into a sunk-cost problem — the same sunk-cost logic Week 2 used for limit pricing, now applied to your own balance sheet.
+**Connecting idea.** Staging is real-options thinking without the full option math (Week 6 returns to partnerships and payment design). Building the full integrated hub on day one turns demand uncertainty into a sunk-cost problem — the same sunk-cost logic Week 2 used for limit pricing, now applied to your own balance sheet.
 
 ---
 
@@ -875,7 +875,7 @@ Pull the thread. Diagnose the bottleneck. Compare archetypes. Measure site cost.
 ## 11. Putting Week 5 together
 
 - Infrastructure strategy balances safety, access, utilities, **reliable** capacity, cost, expandability, and community impact. Breakeven uses reliable capacity and contribution per movement — not paper maximums.
-- Stage investment and fund the ramp-up; model weather and maintenance through explicit capacity / demand / cost / recovery channels. Allocate scarce slots with transparent rules; peak pricing is one tool among several.
+- Stage investment and fund the ramp-up. Model weather and maintenance through explicit capacity / demand / cost / recovery channels. Allocate scarce slots with clear rules; peak pricing is one tool among several.
 - Keep classroom “vertiport” language separate from Hong Kong statute, and Sandbox learning separate from permanent slot rights.
 
 Short checklist: [Summary](#summary).

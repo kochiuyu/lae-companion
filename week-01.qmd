@@ -580,9 +580,9 @@ That figure comes from **Our Hong Kong Foundation (OHKF)** (*Taking Flight: Forg
 
 ### Services-layer hypothesis
 
-Hong Kong’s possible role is often framed as a **[service layer](glossary.qmd#supporting-services)** — finance and leasing, insurance and risk management, legal / certification / professional services, digital platforms, and international business development — beside GBA strengths in manufacturing, electronics, batteries, and large-scale testing.
+Hong Kong’s possible role is often framed as a **[service layer](glossary.qmd#supporting-services)** — finance and leasing, insurance and risk management, legal / certification / professional services, digital platforms, and international business development — next to GBA strengths in manufacturing, electronics, batteries, and large-scale testing.
 
-Treat this as a **hypothesis to test**, not a settled fact. OHKF’s emphasis on supporting services in the [2050 value-added projection](glossary.qmd#industry-value-added) fits that framing — but a think-tank story is not proof of comparative advantage. You still need evidence on capability, cost, regulation, demand, and competition (Week 12 returns to leasing and service roles).
+Treat this as a **hypothesis to test**, not a settled fact. OHKF’s focus on supporting services in the [2050 value-added projection](glossary.qmd#industry-value-added) fits that framing — but a think-tank story is not proof of comparative advantage (being relatively better at something). You still need evidence on capability, cost, regulation, demand, and competition (Week 12 returns to leasing and service roles).
 
 ---
 
@@ -619,7 +619,7 @@ $$
 | Positive | Project may be financially attractive |
 | Negative | Does not justify the investment |
 
-NPV is not a guarantee — it is a disciplined way to organise cash, timing, and risk later in the course. Week 6’s staging / real-options logic and Week 9’s downside analysis refine what “under stated assumptions” means.
+NPV is not a guarantee — it is a careful way to organise cash, timing, and risk later in the course. Week 6’s staging / real-options logic and Week 9’s downside analysis refine what “under stated assumptions” means.
 
 Put VOT and NPV on one screen with a middle step — **capture** — so time savings are not mistaken for automatic profit.
 
@@ -1047,13 +1047,13 @@ Public acceptance is not only a communications issue. Operating limits change ut
 
 ---
 
-Even a clean ticket split fails if the product cannot enter. Aviation’s safety culture and certification timelines raise [**entry barriers**](glossary.qmd#entry-barrier); that is the economic reason controlled trial programmes exist — not a waiver of Cap. 448G or airworthiness duties.
+Even a clean ticket split fails if the product cannot enter. Aviation’s safety culture and certification timelines raise [**entry barriers**](glossary.qmd#entry-barrier). That is the economic reason controlled trial programmes exist — not a waiver of Cap. 448G or airworthiness duties.
 
 ## 10. Why new aviation products face high entry barriers
 
-Aviation is extremely safety-regulated. Certifying a new type for routine public use can take many years and very large compliance outlays under traditional manned-aviation pathways (class discussion often refers to stringent airworthiness regimes such as US “Part 25”-style certification as a *comparator*, not as Hong Kong SUA law).
+Aviation is heavily safety-regulated. Certifying a new type for everyday public use can take many years and cost a great deal under traditional manned-aviation pathways (class often names strict airworthiness regimes such as US “Part 25”-style certification as a *comparator*, not as Hong Kong SUA law).
 
-For startups and new mission designs, a multi-year wait before the first paying customer can exhaust capital. That tension motivates **controlled trial** programmes: test selected applications under approved routes and conditions, collect evidence, and reduce uncertainty *before* committing to full-scale deployment — without pretending that safety rules disappear.
+For startups and new mission designs, waiting years before the first paying customer can use up capital. That is why **controlled trial** programmes exist: test selected applications on approved routes and conditions, collect evidence, and cut uncertainty *before* full-scale deployment — without pretending that safety rules go away.
 
 **Hong Kong pathway reminder.** Light unmanned operations sit under Cap. **448G** with a risk-based approach (full effect **1 December 2022**; Category C expansion **July 2025** — [Week 7 Readings](week-07.qmd) / [Key numbers](key-figures.qmd)). That is a different legal track from traditional large-aircraft certification — but advanced operations still need prior CAD permission, and sandboxes still do not waive safety.
 

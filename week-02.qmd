@@ -144,7 +144,15 @@ Three classic structures (simplified):
 
 ### Who might compete?
 
-Depending on the market you define, rivals may include aircraft developers and manufacturers; transport and logistics operators; telecommunications and digital-platform providers; infrastructure providers (landing, charging, maintenance); and supporting-service providers (finance, leasing, insurance, certification, professional services). Always say **which layer** you are analysing before you talk about “the LAE market.”
+Depending on the market you define, rivals may include:
+
+- aircraft developers and manufacturers;
+- transport and logistics operators;
+- telecommunications and digital-platform providers;
+- infrastructure providers (landing, charging, maintenance); and
+- supporting-service providers (finance, leasing, insurance, certification, professional services).
+
+Always say **which layer** you are analysing before you talk about “the LAE market.”
 
 **Connecting idea.** An OEM, a vertiport landlord, and a logistics operator count as “competitors” only if you blur the market definition. Define the **product** (e.g. last-mile B2B parcels under 5 kg on a named corridor) and the **layer** (operator vs site owner). Otherwise HHI and “dominance” become meaningless.
 

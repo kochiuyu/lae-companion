@@ -373,7 +373,7 @@ A coherent capstone should connect six decision blocks:
 
 ---
 
-A template without gates is a wish list. The **risk register and decision-gated roadmap** bind each material risk to a model channel and a stop/expand trigger.
+A template without gates is a wish list. The **risk register and decision-gated roadmap** tie each material risk to a model channel and to a stop-or-expand trigger.
 
 ## 4. [Risk register](glossary.qmd#risk-register) and decision-gated roadmap
 
@@ -437,9 +437,9 @@ A template without gates is a wish list. The **risk register and decision-gated 
 </figure>
 ```
 
-Do **not** assume fixed Sandbox X approval dates. Under **AC-013**, BVLOS permission within the **first Regulatory Sandbox** context is operation-specific and requires supporting documents, flight and test plans, risk assessment, and mitigations ([Week 7](week-07.qmd)). **AC-017** covers cross-boundary SUA permission inside **Sandbox X** ([Readings](#readings)). Keep **Sandbox ≠ Sandbox X**. The Action Plan commitment in the 2025 Policy Address remains text **OPEN** on Official status — cite the issuer, do not invent a published plan.
+Do **not** assume fixed Sandbox X approval dates. Under **AC-013**, BVLOS permission in the **first Regulatory Sandbox** is specific to each operation. It needs supporting documents, flight and test plans, risk assessment, and mitigations ([Week 7](week-07.qmd)). **AC-017** covers cross-boundary SUA permission inside **Sandbox X** ([Readings](#readings)). Keep **Sandbox ≠ Sandbox X**. The Action Plan commitment in the 2025 Policy Address remains text **OPEN** on Official status — cite the issuer; do not invent a published plan.
 
-Phased gates echo Weeks 6–8: expand only when evidence, review, and risk controls justify it. Week 8’s roadmap $\mathrm{NPV}$ is the financial check on that staging story — not a substitute for the permission gate.
+Phased gates echo Weeks 6–8: expand only when evidence, review, and risk controls justify it. Week 8’s roadmap $\mathrm{NPV}$ is the financial check on that staging story — not a stand-in for the permission gate.
 
 **Connecting idea.** A risk register row that never changes $D$, $K$, $p$, $v$, $F$, or launch timing is decoration. Each material risk needs a model channel (Week 9) and a gate that can stop expansion (Week 8).
 

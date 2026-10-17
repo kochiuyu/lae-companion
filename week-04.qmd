@@ -170,7 +170,7 @@ Demand modelling uses evidence and **explicit assumptions** to estimate how many
 
 **Link to Week 3:** does forecast demand fit the price, capacity, and activity required to break even?
 
-**Connecting idea.** NASA-sponsored UAM market work distinguishes unconstrained and constrained markets: legal, weather, infrastructure, and acceptance shrink what a raw “trip potential” might suggest ([Glossary](glossary.qmd); [Readings](#readings)). Use that *logic* in class. Do **not** copy NASA dollar / TAM figures into a Hong Kong business case as local demand, and do not treat NASA as Hong Kong law or as an HKSAR government number.
+**Connecting idea.** NASA-sponsored UAM market work separates unconstrained and constrained markets: legal rules, weather, infrastructure, and acceptance shrink what raw “trip potential” might suggest ([Glossary](glossary.qmd); [Readings](#readings)). Use that *logic* in class. Do **not** copy NASA dollar / TAM figures into a Hong Kong business case as local demand. Do not treat NASA as Hong Kong law or as an HKSAR government number.
 
 ---
 
@@ -185,7 +185,7 @@ A traditional transport-planning structure organises the work:
 3. **Mode choice** — what share may choose LAE vs rail, taxi, bus, or car?  
 4. **Network assignment** — how trips use routes and facilities  
 
-NASA-sponsored UAM market studies use detailed demand models; the four-step structure itself is a **general transport-planning frame**, not a unique “NASA formula.” Primary document on this site: [Readings](#readings) (NASA *Urban Air Mobility Market Study* — NTRS 20190001472; UAM/AAM language for cross-checks, **not** an HKSAR demand forecast).
+NASA-sponsored UAM market studies use detailed demand models. The four-step structure itself is a **general transport-planning frame**, not a unique “NASA formula.” Primary document on this site: [Readings](#readings) (NASA *Urban Air Mobility Market Study* — NTRS 20190001472; UAM/AAM language for cross-checks, **not** an HKSAR demand forecast).
 
 ### Classroom demand funnel {#managerial-demand-funnel}
 
@@ -474,11 +474,11 @@ Differentiation can raise revenue under assumed responses; still check cost, cap
 
 ---
 
-Private WTP is not social licence. **Public acceptance** scenarios (AiRMOUR lens) adjust demand or operating windows when communities or rules push back — still not a measured Hong Kong citywide rate.
+Private WTP (willingness to pay) is not social licence. **Public acceptance** scenarios (AiRMOUR lens) adjust demand or operating windows when communities or rules push back — still not a measured Hong Kong citywide rate.
 
 ## 8. Public acceptance as scenarios (AiRMOUR lens)
 
-**AiRMOUR** was an EU-funded research and innovation project on sustainable urban air mobility with a strong emergency-medical focus. Its guidebook ties urban design, aviation safety, public acceptance, and integration management — treating acceptance as part of planning, not only a demand discount ([Readings](#readings) also list EASA societal-acceptance work as European comparator evidence).
+**AiRMOUR** was an EU-funded research and innovation project on sustainable urban air mobility. It focused strongly on emergency medical services. Its guidebook links urban design, aviation safety, public acceptance, and integration management — so acceptance is part of planning, not only a demand discount ([Readings](#readings) also list EASA societal-acceptance work as European comparator evidence).
 
 For Hong Kong applications:
 
@@ -503,7 +503,7 @@ The factor is an **analyst-defined scenario input**, not an official AiRMOUR coe
 | Higher acceptance | 0.9 | **3,780**/day |
 | Lower acceptance | 0.6 | **2,520**/day |
 
-**Connecting idea.** EASA’s European societal-acceptance study ([Readings](#readings)) is **comparator evidence**, not a Hong Kong survey. AiRMOUR’s EMS focus is a research lens, not a claim that Hong Kong medical missions already enjoy high acceptance or cleared corridors. Keep **Regulatory Sandbox ≠ Sandbox X**: trial participation is not a measured citywide acceptance rate.
+**Connecting idea.** EASA’s European societal-acceptance study ([Readings](#readings)) is **comparator evidence**, not a Hong Kong survey. AiRMOUR’s EMS (emergency medical) focus is a research lens, not a claim that Hong Kong medical missions already enjoy high acceptance or cleared corridors. Keep **Regulatory Sandbox ≠ Sandbox X**: trial participation is not a measured citywide acceptance rate.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w04-acceptance-svg" aria-labelledby="w04-acceptance-svg-title">

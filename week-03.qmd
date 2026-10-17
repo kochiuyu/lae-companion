@@ -824,9 +824,9 @@ Cost and revenue tools are general. **Hong Kong and GBA hypotheses** ask which c
 
 These are **strategic hypotheses**, not universal facts. Compare specific sites, routes, customers, regulations, and partners. Keep trial programmes straight: **Regulatory Sandbox ≠ Sandbox X**; neither is a cost or revenue forecast ([Who decides what?](regulators.qmd#standing-caveats); [Key numbers](key-figures.qmd)).
 
-Compliance and trial rules can become real OPEX lines — for example Mainland delivery-trial guidance listed in [Readings](#readings) turns record-keeping, insurance, and link requirements into operating-cost items for operators who face those rules (comparator context, **not** Hong Kong Cap. 448G text).
+Compliance and trial rules can become real OPEX lines. For example, Mainland delivery-trial guidance listed in [Readings](#readings) turns record-keeping, insurance, and link requirements into operating-cost items for operators who face those rules (comparator context, **not** Hong Kong Cap. 448G text).
 
-**Connecting idea.** When you cite the NASA *Urban Air Mobility Market Study* ([Readings](#readings)), use it as **official UAM framing and constraint thinking** (legal, weather, infrastructure, acceptance shrink unconstrained markets). Do **not** paste its dollar or TAM figures into a Hong Kong business case as if they were local forecasts, and do not treat NASA as Hong Kong law or as an HKSAR government number.
+**Connecting idea.** When you cite the NASA *Urban Air Mobility Market Study* ([Readings](#readings)), use it as **official UAM framing and constraint thinking**: legal rules, weather, infrastructure, and acceptance shrink what an unconstrained market would suggest. Do **not** paste its dollar or TAM figures into a Hong Kong business case as if they were local forecasts. Do not treat NASA as Hong Kong law or as an HKSAR government number.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-hk-gba-svg" aria-labelledby="w03-hk-gba-svg-title">

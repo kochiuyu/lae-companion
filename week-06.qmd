@@ -229,14 +229,14 @@ Private archetypes still meet public assets. [**PPP**](glossary.qmd#ppp) (public
 
 ## 3. Public–private partnerships (PPP)
 
-A **[PPP](glossary.qmd#ppp)** (public–private partnership) is a long-term arrangement in which a public authority and a private party allocate responsibilities and risks — sharing roles, money, and risk — for delivering infrastructure or services ([Glossary · PPP](glossary.qmd#business-and-economics) — course term; **not** a substitute for a vertiport statute). It does **not** invent demand by itself.
+A **[PPP](glossary.qmd#ppp)** (public–private partnership) is a long-term deal in which a public authority and a private party allocate responsibilities and risks — sharing roles, money, and risk — to deliver infrastructure or services ([Glossary · PPP](glossary.qmd#business-and-economics) — course term; **not** a substitute for a vertiport statute). It does **not** invent demand by itself.
 
 - It is **not** merely “government and business share cost and profit.”  
 - The private party may design, finance, build, operate, maintain, or integrate specified components.  
 - The public authority defines outcomes, procurement rules, affordability, safety, access, performance, and accountability.  
 - Payment may come from users, the authority, or both.  
 
-**Classroom test — value for money:** use a PPP only when long-term integration and risk allocation can create **better value for money** (same or better outcomes for the public money spent) than conventional procurement or a normal service contract — not merely to chase public funding.
+**Classroom test — value for money:** use a PPP only when long-term integration and risk allocation can create **better value for money** — meaning the same or better outcomes for the public money spent — than ordinary procurement or a normal service contract. Do not use a PPP only to chase public funding.
 
 **Connecting idea.** A PPP does **not** invent demand, create landing rights, or replace Cap. 448G permissions. It reallocates who pays for readiness, who bears volume risk, and who fixes performance failures — under procurement law and budget rules that still bind the public side. Week 5’s “no dedicated HK vertiport statute” caveat still applies: calling a site a PPP vertiport does not create that statute.
 
@@ -412,11 +412,11 @@ Availability stabilises revenue but should depend on **readiness and performance
 
 ---
 
-Payment design locks risk. **Contractual flexibility and real options** ask what staging, exit, and expansion rights are worth when demand is unclear.
+Payment design locks in risk. **Contractual flexibility and real options** ask what staging, exit, and expansion rights are worth when demand is unclear.
 
 ## 5. Contractual flexibility and real options
 
-A **real option** is managerial flexibility to change an investment decision as information arrives: delay, stage, expand after demand is proven, switch technology, or abandon. Contracts can preserve flexibility through milestone gates, extension rights, break clauses, change procedures, or phased commitments.
+A **real option** is the flexibility to change an investment decision as new information arrives: delay, stage, expand after demand is proven, switch technology, or abandon. Contracts can keep that flexibility through milestone gates, extension rights, break clauses, change procedures, or phased commitments.
 
 Not every flexible clause is freely exercisable — triggers, notice, compensation, approvals, and termination consequences must be specified. Regulatory change is usually handled through carefully drafted **change-in-law** and relief provisions, not a vague right to pause whenever rules change.
 
@@ -433,9 +433,9 @@ $$
 \end{aligned}
 $$
 
-Compare a rigid commitment with a staged or contingent decision. Flexibility creates value only if management can observe new information and respond. Waiting also has costs: option fees, delay, lost position, inflation, or expiring approvals. Conventional NPV can incorporate planned decisions; real-options thinking makes flexibility more explicit.
+Compare a rigid commitment with a staged or contingent decision. Flexibility creates value only if management can see new information and act on it. Waiting also has costs: option fees, delay, lost position, inflation, or expiring approvals. Ordinary NPV can include planned decisions; real-options thinking makes the value of flexibility clearer.
 
-**Connecting idea.** Week 5’s staged vertiport ramp-up is the same idea in infrastructure CAPEX. Week 6 writes it into **contracts**: milestone gates, expansion options, and break clauses. Sandbox learning can reduce uncertainty — it does not by itself create a contractual option to expand onto a permanent site.
+**Connecting idea.** Week 5’s staged vertiport ramp-up is the same idea applied to infrastructure CAPEX. Week 6 writes it into **contracts**: milestone gates, expansion options, and break clauses. Sandbox learning can reduce uncertainty — it does not by itself create a contractual right to expand onto a permanent site.
 
 ### Worked illustration (value of staging)
 
