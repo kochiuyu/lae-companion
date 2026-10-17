@@ -1,7 +1,7 @@
 ---
 title: "Week 1: Introduction to LAE"
 subtitle: "What LAE is, how value is created, and how to test viability"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -101,7 +101,7 @@ By the end of Week 1 you should be able to:
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-system-svg" aria-labelledby="w01-system-svg-title">
 <p class="wdiag-cap" id="w01-system-svg-title"><strong>LAE as a system (roles)</strong> — customers/missions → operators (under applicable permissions) → aircraft, sites/pads, digital coordination, insurance &amp; services. Roles only — not market shares or firm names. Wide definition: not only “flying cars” or “drones.” See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="System roles flow from customers and missions through operators to four input boxes: aircraft, sites, digital coordination, and insurance and services." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f5-title f5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f5-title f5-desc">
   <title id="f5-title">LAE as a system (roles)</title>
   <desc id="f5-desc">LAE as a system of roles. Customers or missions need time savings, access, inspection, logistics, or public service. Operators deliver the flight or mission under applicable permissions and spend on inputs: aircraft, sites or pads, digital coordination, and insurance and services. Roles only — not market shares or firm names.</desc>
   <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -341,7 +341,7 @@ Traditional scheduled aviation typically uses large, expensive aircraft, large c
 ```{=html}
 <figure class="wdiag" id="w01-differs-svg" aria-labelledby="w01-differs-svg-title">
 <p class="wdiag-cap" id="w01-differs-svg-title"><strong>LAE is not a mini-airline</strong> — short-distance, high-frequency operations; an <strong>entire ecosystem</strong> (sites, charging, digital coordination, insurance, maintenance) — not only an airframe; different cost structures, operating models, and regulatory needs. <strong>Managerial implication:</strong> a fast aircraft does not automatically create a valuable *service*. Structural contrasts only — no invented Hong Kong fare data.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-label="Three cards for short-distance high-frequency operations, whole ecosystem, and different cost operations and regulation, with a strip that a fast aircraft is not automatically a valuable service." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i1-title i1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i1-title i1-desc">
   <title id="i1-title">LAE is not a mini-airline</title>
   <desc id="i1-desc">How LAE differs from traditional aviation: short-distance high-frequency operations; an entire ecosystem of sites, charging, digital coordination, insurance and maintenance — not only an airframe; different cost structures, operating models and regulatory needs. A fast aircraft does not automatically create a valuable service. Structural contrasts only — no invented Hong Kong fare data.</desc>
   <rect x="12" y="12" width="696" height="286" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -575,7 +575,7 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
 <p class="wdiag-cap" id="w01-ohkf-svg-title"><strong>Reading the OHKF HK$350bn figure</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue. Attribution: name OHKF, metric, geography, horizon. Sandbox selection ≠ market share. Twin discipline with Week 9 `#w09-ohkf-350`.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Two panels: what the OHKF HK$350bn figure is (Hong Kong industry value-added projection by 2050) and what it is not, plus an attribution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f7-title f7-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f7-title f7-desc">
   <title id="f7-title">Reading the OHKF HK$350bn figure</title>
   <desc id="f7-desc">Our Hong Kong Foundation private think-tank scenario projects about HK$350 billion in Hong Kong LAE industry value added by 2050. What it is: industry value-added projection for Hong Kong. What it is not: not a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland scale totals. Value added subtracts intermediate inputs. Cite OHKF, metric, geography, and horizon. Sandbox selection is not market share.</desc>
   <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -684,7 +684,7 @@ $$
 ```{=html}
 <figure class="wdiag" id="w01-vot-npv-svg" aria-labelledby="w01-vot-npv-svg-title">
 <p class="wdiag-cap" id="w01-vot-npv-svg-title"><strong>Three-step viability screen</strong> — (1) create value for customers (e.g. VOT × ΔT); (2) capture enough as operating profit (revenue − operating cost); (3) justify the initial investment (NPV). Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is <strong>not</strong> proof of NPV. Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="Three cards in sequence: create value with VOT times time saved, capture as revenue minus cost, then justify investment with an NPV screen." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g3-title g3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g3-title g3-desc">
   <title id="g3-title">Three-step viability screen</title>
   <desc id="g3-desc">Three-step viability screen from Week 1. Step 1: does the service create value for customers, for example via value of time times time saved. Step 2: can the operator capture enough of that value as annual operating profit equals revenue minus operating cost. Step 3: does the project justify the initial investment under net present value. Time savings support willingness to pay, but fare, demand, costs, and investment determine financial viability. A sandbox may cut learning cost — it is not proof of NPV.</desc>
   <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -760,7 +760,7 @@ All else equal, the customer prefers the option with **lower** generalized cost.
 ```{=html}
 <figure class="wdiag" id="w01-gc-svg" aria-labelledby="w01-gc-svg-title">
 <p class="wdiag-cap" id="w01-gc-svg-title"><strong>Generalized cost — door-to-door</strong> — GC = ticket price + VOT × travel time (in-vehicle, wait, board, transfer). Prefer <strong>lower</strong> GC. A faster mode can charge more <strong>only up to</strong> the value of time saved. Design the <strong>complete journey</strong>, not only cruise time — access/wait friction can reverse the ranking. Week 4 returns to demand and mode choice.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Ticket price plus VOT times travel time combine into generalized cost, with a note to plan the complete door-to-door journey." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h1-title h1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h1-title h1-desc">
   <title id="h1-title">Generalized cost — door-to-door</title>
   <desc id="h1-desc">Generalized cost equals ticket price plus value of time times travel time. Customers compare money cost, time cost, and other factors such as reliability. All else equal they prefer lower generalized cost. A faster mode can charge more only up to the value of the time saved. Design implication: plan the complete journey, not only cruise time in the air.</desc>
   <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -1213,7 +1213,7 @@ $$
 ```{=html}
 <figure class="wdiag" id="w01-empty-seat-svg" aria-labelledby="w01-empty-seat-svg-title">
 <p class="wdiag-cap" id="w01-empty-seat-svg-title"><strong>Empty seats raise unit cost</strong> — cost per passenger = variable cost per passenger + daily fixed cost ÷ (flights per day × seats per flight × load factor). Utilization = how often it flies; load factor = share of seats filled. Need <strong>both</strong> frequent operations and sufficient demand — flying often with empty seats still leaves unit cost high. Classroom drivers only — not a Hong Kong fleet forecast.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Unit-cost formula strip above three drivers — utilization, seats, and load factor — with a core lesson that empty seats keep unit cost high." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h2-title h2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h2-title h2-desc">
   <title id="h2-title">Empty seats raise unit cost</title>
   <desc id="h2-desc">Cost per passenger equals variable cost per passenger plus daily fixed cost divided by flights per day times seats per flight times load factor. Utilization is how often the aircraft flies. Load factor is the share of seats filled. Operators need both frequent operations and sufficient demand. Flying often does not help if the aircraft repeatedly flies empty. Classroom illustration only.</desc>
   <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

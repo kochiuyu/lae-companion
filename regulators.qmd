@@ -25,7 +25,7 @@ In plain words (details and dates on [Official status](tracker.qmd) and [Timelin
 ```{=html}
 <figure class="wdiag" id="reg-two-caveats" aria-labelledby="reg-two-caveats-title">
 <p class="wdiag-cap" id="reg-two-caveats-title"><strong>Two things to keep straight</strong> — (1) Hong Kong has two different trial programmes: <strong>Regulatory Sandbox</strong> ≠ <strong>Sandbox X</strong> (do not mix counts). (2) A Shenzhen–Hong Kong / GBA cross-boundary corridor is discussed in policy; on the evidence tracked here, flights are <strong>not</strong> running as day-to-day operating service. Cite Official status / Timeline for dates.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Two panels. Left: Regulatory Sandbox not equal to Sandbox X. Right: GBA corridor discussed in policy but not day-to-day operating service on evidence tracked here." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d10-title d10-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d10-title d10-desc">
   <title id="d10-title">Two things to keep straight</title>
   <desc id="d10-desc">Two standing caveats for Hong Kong LAE students. First: Hong Kong has two different trial programmes — the Regulatory Sandbox and later Sandbox X — not the same project list. Second: a Shenzhen–Hong Kong or GBA cross-boundary corridor is discussed in policy, but flights are not running as day-to-day operating service on the evidence tracked here.</desc>
   <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -72,7 +72,7 @@ In plain words (details and dates on [Official status](tracker.qmd) and [Timelin
 ```{=html}
 <figure class="wdiag" id="reg-hk-bodies" aria-labelledby="reg-hk-bodies-title">
 <p class="wdiag-cap" id="reg-hk-bodies-title"><strong>Who decides what (Hong Kong)</strong> — Working Group (strategy; selects Sandbox / Sandbox X projects); TLB (policy bureau; Sandbox batches / Sandbox X modules); CAD (Cap. 448G SUA regulator; sandbox circulars); OFCA (1.4 GHz UAS Private Licence confined to Regulatory Sandbox). Keep Sandbox ≠ Sandbox X. U-space ≠ Hong Kong law. Mainland / EASA / FAA are comparators only.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Four cards for Hong Kong bodies: Working Group, TLB, CAD, and OFCA with one-line roles. Note Sandbox not equal Sandbox X and U-space not Hong Kong law." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e1-title e1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e1-title e1-desc">
   <title id="e1-title">Who decides what (Hong Kong)</title>
   <desc id="e1-desc">Four Hong Kong bodies for this course. Working Group on Developing Low-altitude Economy: cross-government strategy and Sandbox project selection. TLB: policy bureau and Sandbox batches. CAD: Cap. 448G SUA regulator and sandbox circulars. OFCA: 1.4 GHz UAS private licence spectrum confined to Regulatory Sandbox projects.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

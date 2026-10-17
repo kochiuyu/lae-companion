@@ -8,7 +8,7 @@ toc-location: right
 toc-title: "Sections"
 ---
 
-Index of **teaching diagrams** (`.wdiag`) from the week notes. Diagrams stay on the week pages.
+Index of **teaching diagrams** (`.wdiag`) from the week notes. Diagrams stay on the week pages. Counts below are SVG teaching-diagram entries; HTML companions exist as collapsed “Text diagram” disclosures and are not separate index rows.
 
 ## Jump by theme
 

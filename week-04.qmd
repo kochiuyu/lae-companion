@@ -1,7 +1,7 @@
 ---
 title: "Week 4: Demand Modeling in Urban Air Mobility"
 subtitle: "Whether customers choose LAE — funnels, generalized cost, and scenarios"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -246,7 +246,7 @@ Potential demand may exceed capacity. The business model must separate customers
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w04-funnel-svg" aria-labelledby="w04-funnel-svg-title">
 <p class="wdiag-cap" id="w04-funnel-svg-title"><strong>Wanted trips can exceed what you can serve</strong> — relevant trips → serviceable demand → potential operator demand → served activity as min(potential, reliable capacity K). Classroom check: 20,000 × 60% × 35% → 4,200 potential; capacity screen → 960 served. Not a published Hong Kong corridor volume.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-label="A narrowing demand funnel from relevant trips to serviceable demand to potential operator demand to served activity limited by reliable capacity. Classroom check: 4,200 potential trips versus 960 served under a capacity screen." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c5-title c5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c5-title c5-desc">
   <title id="c5-title">Wanted trips can exceed what you can serve</title>
   <desc id="c5-desc">A narrowing demand funnel. Relevant trips become serviceable demand after eligibility, then potential operator demand after mode choice, then served activity as the minimum of potential demand and reliable capacity. A classroom check shows 20,000 times 60 percent times 35 percent equals 4,200 potential trips, while a capacity screen yields 960 served. Not a published Hong Kong corridor volume.</desc>
   <rect x="12" y="12" width="696" height="406" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -369,7 +369,7 @@ Own-price elasticity is usually negative. Managers often quote the absolute valu
 ```{=html}
 <figure class="wdiag" id="w04-elasticity-svg" aria-labelledby="w04-elasticity-svg-title">
 <p class="wdiag-cap" id="w04-elasticity-svg-title"><strong>Elasticity and a price cut</strong> — |E_d| &lt; 1 inelastic; |E_d| &gt; 1 elastic. A discount can <strong>raise or lower</strong> revenue depending on response (classroom 20% cut illustration on the page). Emergency / public-service demand does <strong>not</strong> mean unlimited pricing power — budgets and contracts still bind. Profit also needs capacity and incremental cost (Week 3). Classroom arithmetic only.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Two panels comparing inelastic and elastic responses to a price cut, with a caution that emergency demand does not mean unlimited pricing power." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h4-title h4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h4-title h4-desc">
   <title id="h4-title">Elasticity and a price cut</title>
   <desc id="h4-desc">Own-price elasticity is percent change in quantity demanded over percent change in price. Absolute value less than one is inelastic; greater than one is elastic. A price cut can raise or lower revenue depending on response. Emergency or public-service demand does not mean unlimited ability to charge. Classroom illustration only. Cross-elasticity to rail or taxi often matters in Hong Kong corridors.</desc>
   <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -542,7 +542,7 @@ The factor is an **analyst-defined scenario input**, not an official AiRMOUR coe
 ```{=html}
 <figure class="wdiag" id="w04-acceptance-svg" aria-labelledby="w04-acceptance-svg-title">
 <p class="wdiag-cap" id="w04-acceptance-svg-title"><strong>Acceptance as an explicit scenario</strong> — scenario demand = base demand × an <strong>analyst-defined</strong> acceptance adjustment you must defend (no hidden haircuts). “Medical” does <strong>not</strong> imply full support. <strong>AiRMOUR</strong> / EASA societal-acceptance work are <strong>comparator</strong> lenses — <strong>not</strong> Hong Kong law or a Hong Kong survey. Estimate acceptance locally; use scenarios until stronger evidence exists.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="Base demand times acceptance adjustment branching to higher and lower acceptance scenarios, with comparator and medical caveats." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i3-title i3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i3-title i3-desc">
   <title id="i3-title">Acceptance as an explicit scenario</title>
   <desc id="i3-desc">Public acceptance may differ by mission, location, group, benefit, noise, privacy, safety, fairness, and trust. Medical use does not imply full support or free pricing. Scenario demand equals base demand times an analyst-defined acceptance adjustment that must be defended. AiRMOUR is an EU research lens for comparison — not Hong Kong law. EASA societal-acceptance evidence is comparator evidence, not a Hong Kong survey.</desc>
   <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -614,7 +614,7 @@ Responses can include reserves, flexible capacity, alternative modes, committed 
 ```{=html}
 <figure class="wdiag" id="w04-shock-svg" aria-labelledby="w04-shock-svg-title">
 <p class="wdiag-cap" id="w04-shock-svg-title"><strong>Q_served = min; no magic shock penalty</strong> — demand, capacity, price/cost, and policy shocks must be modelled as separate channels. $Q_{\mathrm{served}}=\min\{Q_d,Q_k\}$. Classroom weekly capacity shock: normal <strong>100 trips · HK$50,000</strong> revenue vs <strong>30% capacity loss → 70 trips · HK$35,000</strong>. Do <strong>not</strong> apply one unexplained “shock penalty” to revenue.</p>
-<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 350" role="img" aria-label="Four shock channel cards flowing to Q served equals min of demand and capacity, with normal week versus 30 percent capacity loss classroom cards, and a strip saying no invisible shock penalty." aria-labelledby="p1-title p1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 350" role="img" aria-labelledby="p1-title p1-desc">
   <title id="p1-title">Q_served = min; no magic shock penalty</title>
   <desc id="p1-desc">Scenario shocks: demand, capacity, price or cost, and policy or acceptance. Served quantity equals the minimum of demand and capacity. Do not apply one unexplained shock penalty to revenue. Classroom weekly capacity shock: normal 100 trips and HK dollar 50,000 revenue versus 30 percent capacity loss with 70 trips and HK dollar 35,000 revenue. Illustrative trips only. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -689,7 +689,7 @@ If step 9 fails, fix price, cost, capacity, product design, or the corridor defi
 ```{=html}
 <figure class="wdiag" id="w04-toolmap-svg" aria-labelledby="w04-toolmap-svg-title">
 <p class="wdiag-cap" id="w04-toolmap-svg-title"><strong>From trips to cash (tool map)</strong> — (1) relevant trips → (2) OD/corridor → (3) mode share → (4) capacity → (5) served = min(potential, K) → (6) price/products → (7) acceptance → (8) shocks → (9) Week 3 breakeven. If step 9 fails, fix price, cost, capacity, product, or corridor — <strong>do not</strong> silently inflate mode share. Scenarios, not certainties.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Nine-step grid from market definition through capacity and pricing to a Week 3 breakeven check, with a warning not to inflate mode share." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h3-title h3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="h3-title h3-desc">
   <title id="h3-title">From trips to cash (tool map)</title>
   <desc id="h3-desc">Nine-step Week 4 tool map from trips to cash. One: relevant trips. Two: OD or corridor. Three: mode share. Four: capacity offered. Five: served equals minimum of potential and capacity. Six: price and products. Seven: acceptance scenarios. Eight: weather or policy shocks. Nine: Week 3 breakeven check. If step nine fails, fix price, cost, capacity, product, or corridor — do not silently inflate mode share.</desc>
   <rect x="12" y="12" width="696" height="336" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

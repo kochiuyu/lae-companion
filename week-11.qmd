@@ -1,7 +1,7 @@
 ---
 title: "Week 11: Synthesis and Capstone Group Presentations"
 subtitle: "One connected model, a viability test, and a clear recommendation"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -16,7 +16,13 @@ format:
 
 **Slides (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
 
-Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation. Links: [Course overview](overview.qmd) · [Week 9](week-09.qmd) · [Week 10](week-10.qmd).
+Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation.
+
+**Orient refreshers:**
+
+- [Course overview](overview.qmd) — course map  
+- [Week 9](week-09.qmd) — market sizing and social value  
+- [Week 10](week-10.qmd) — externalities and KPIs  
 
 ## Summary {#summary}
 
@@ -99,7 +105,7 @@ Business-model components are connected through quantities, prices, capacity, co
 ```{=html}
 <figure class="wdiag" id="w11-integrate-svg" aria-labelledby="w11-integrate-svg-title">
 <p class="wdiag-cap" id="w11-integrate-svg-title"><strong>One model path — integration</strong> — hours cut → reliable K falls → served demand may fall and fixed cost per unit rise → price/load-factor responses follow. Mitigation may raise cost but preserve access. <strong>Integration rule:</strong> every important assumption appears <strong>once</strong> in the correct model channel — no contradictory units or double counting. Keep ESG in the same path as cash.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="Chain from operating-hour cuts through capacity and served demand to unit cost or price, with an integration-rule strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k5-title k5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k5-title k5-desc">
   <title id="k5-title">One model path — integration</title>
   <desc id="k5-desc">Integration means demand, capacity, cost, cash and legitimacy share one model path. Operating-hour restrictions cut reliable capacity; lower capacity may cut served demand and raise fixed cost per unit; price responses change choice and load factor; mitigation may raise cost but preserve access. Integration rule: every important assumption appears once in the correct model channel with no contradictory units.</desc>
   <rect x="12" y="12" width="696" height="256" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -161,7 +167,7 @@ Business-model components are connected through quantities, prices, capacity, co
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-viable-svg" aria-labelledby="w11-viable-svg-title">
 <p class="wdiag-cap" id="w11-viable-svg-title"><strong>Viability stack — same units all the way down</strong> — D and K in the same units → D_served = min{D, K} → Π_op = (p − v)·D_served − F → then CF_t / NPV, Pr(Π &lt; 0), and non-financial gates. Capacity-shock numbers in class are illustrative — not Hong Kong weather downtime. Keep Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="A vertical viability stack from demand and reliable capacity to served activity as the minimum of the two, then operating profit, then cash flow NPV downside probability and non-financial gates." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d6-title d6-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d6-title d6-desc">
   <title id="d6-title">Viability stack — same units all the way down</title>
   <desc id="d6-desc">Viability stack: demand D and reliable capacity K in the same units; served activity equals the minimum of D and K; operating profit equals price minus variable cost times served activity minus fixed cost; then cash flows, NPV, downside probability of loss, and non-financial gates. Capacity-shock tables in class are illustrative, not Hong Kong weather downtime.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -288,7 +294,7 @@ Viability rivets need a storyboard. The **integrated strategy template** gives s
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w11-blocks-svg" aria-labelledby="w11-blocks-svg-title">
 <p class="wdiag-cap" id="w11-blocks-svg-title"><strong>Six connected blocks</strong> — (1) problem, (2) demand &amp; K, (3) economics, (4) ops/infra, (5) partners/regulation, (6) impact/equity. Recommend proceed / stage / redesign / reject with conditions. Keep Sandbox ≠ Sandbox X; no invented corridor capacity; Action Plan OPEN where Official status says so.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Six numbered blocks in two rows covering problem, demand and capacity, economics, operations, partners and regulation, and impact and equity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e5-title e5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e5-title e5-desc">
   <title id="e5-title">Six connected blocks</title>
   <desc id="e5-desc">Six capstone decision blocks: service and stakeholder problem; demand and capacity; economics and finance; infrastructure and operations; partnership and regulation; sustainability and distribution. Keep Sandbox separate from Sandbox X; do not invent corridor capacity; Action Plan remains OPEN where Official status says so.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -424,7 +430,7 @@ A template without gates is a wish list. The **risk register and decision-gated 
 ```{=html}
 <figure class="wdiag" id="w11-risk-channel" aria-labelledby="w11-risk-channel-title">
 <p class="wdiag-cap" id="w11-risk-channel-title"><strong>Each risk must hit a model channel</strong> — demand → choice share and price; weather → serviceable K; regulation → scope and timing; technology → cost and availability; community → route and operating conditions. A register row that never moves D, K, p, v, F, or launch timing is decoration. Do not assume fixed Sandbox X dates — keep Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Five risks mapped with arrows to primary model channels: demand to choice share and price, weather to serviceable capacity, regulation to scope and timing, technology to cost and availability, community to route and operating conditions." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d7-title d7-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d7-title d7-desc">
   <title id="d7-title">Each risk must hit a model channel</title>
   <desc id="d7-desc">Five risks mapped to model channels: demand to choice share and price; weather to serviceable capacity; regulation to scope and timing; technology to cost and availability; community impact to route and operating conditions. A risk register row that never changes D, K, p, v, F, or launch timing is decoration. Do not assume fixed Sandbox X approval dates.</desc>
   <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

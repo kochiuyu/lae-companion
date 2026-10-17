@@ -1,7 +1,7 @@
 ---
 title: "Week 6: LAE Strategic Partnerships and Business Models"
 subtitle: "Who owns what, who pays whom, and how risk is shared"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -116,7 +116,7 @@ Section 1 asked who owns risk in the commercial stack. **Three business-model ar
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w06-arch-svg" aria-labelledby="w06-arch-svg-title">
 <p class="wdiag-cap" id="w06-arch-svg-title"><strong>Architecture choice shifts risk — not Cap. 448G</strong> — Own/integrate (more CAPEX and utilization risk); Contract/PPP (share design–build–operate–finance); Orchestrate (platform needs liquidity, trust, governance). “Asset-light” is a slogan, not a risk transfer. Architecture does not remove Cap. 448G permission needs (Week 7).</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Three architecture cards: own or integrate, contract or PPP, and orchestrate, with a note that asset-light is not a risk transfer and Cap. 448G still applies." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e3-title e3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e3-title e3-desc">
   <title id="e3-title">Architecture choice shifts risk — not Cap. 448G</title>
   <desc id="e3-desc">Three business-model architecture choices. Own or integrate: control assets and bear more CAPEX and utilization risk. Contract or PPP: share design, build, operate, or finance with partners. Orchestrate: a platform coordinates parties and needs liquidity, trust, and governance. Architecture changes risk allocation; it does not remove Cap. 448G permission needs.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -328,7 +328,7 @@ A PPP needs a payment rule. **Usage vs availability** payments decide who bears 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w06-pay-svg" aria-labelledby="w06-pay-svg-title">
 <p class="wdiag-cap" id="w06-pay-svg-title"><strong>Who bears demand risk?</strong> — Usage payment: cash follows traffic / missions → operator (or SPV) bears more demand risk. Availability payment: cash follows agreed readiness / service level → public sponsor often bears more demand risk; provider keeps performance risk via KPIs and deductions. Hybrids exist. Availability pays for readiness — not a free weather hedge. Classroom figures only — not CAD tariffs. Keep Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Two panels. Usage payment: traffic or missions lead to cash, so the operator or SPV bears more demand risk. Availability payment: agreed readiness leads to cash, so the public sponsor often bears more demand risk while the provider keeps performance risk. An arrow notes hybrids exist." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c10-title c10-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c10-title c10-desc">
   <title id="c10-title">Who bears demand risk?</title>
   <desc id="c10-desc">Two payment designs. Usage payment: cash follows traffic or missions, so the operator or SPV bears more demand risk. Availability payment: cash follows agreed readiness or service level, so the public sponsor often bears more demand risk while the provider keeps performance risk through KPIs and deductions. An arrow notes hybrids exist. Availability pays for readiness, not a free weather hedge.</desc>
   <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -495,7 +495,7 @@ Staging has value here because the decision occurs after uncertainty resolves. T
 ```{=html}
 <figure class="wdiag" id="w06-options-svg" aria-labelledby="w06-options-svg-title">
 <p class="wdiag-cap" id="w06-options-svg-title"><strong>Stage · expand · abandon — flexibility ≠ free</strong> — contractual real options (milestone gates, expansion after demand is proven, break clauses). Waiting has costs: option fees, delay, lost position, inflation, or expiring approvals. Classroom: commit now (HK$50M) expected value <strong>HK$0</strong> vs pay <strong>HK$5M</strong> to wait then decide → expected value <strong>HK$20M</strong>. Sandbox learning ≠ automatic expansion option.</p>
-<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 350" role="img" aria-label="Three option cards for stage expand and abandon, with commit-now expected value zero versus pay five million to wait expected value twenty million, and a strip that flexibility is not free." aria-labelledby="p2-title p2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 350" role="img" aria-labelledby="p2-title p2-desc">
   <title id="p2-title">Stage · expand · abandon — flexibility ≠ free</title>
   <desc id="p2-desc">Contractual real options: stage, expand after demand is proven, or abandon. Flexibility is not free — option fees, delay, lost position, inflation, or expiring approvals. Classroom: commit now expected value HK dollar zero versus pay HK dollar 5 million to wait then decide expected value HK dollar 20 million. Sandbox learning is not an automatic expansion option. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -749,7 +749,7 @@ Deal pieces need a sequence. The **tool map** walks archetype → PPP test → p
 ```{=html}
 <figure class="wdiag" id="w06-toolmap-svg" aria-labelledby="w06-toolmap-svg-title">
 <p class="wdiag-cap" id="w06-toolmap-svg-title"><strong>From architecture to term sheet</strong> — (1) archetype → (2) profit screen → (3) PPP VfM → (4) payment design → (5) risk allocation → (6) real-options gates → (7) co-opetition → (8) access/charging → (9) Week 4 demand × Week 5 capacity reality check → (10) <strong>Sandbox ≠ Sandbox X</strong>; <strong>no corridor-ops claim</strong>. Profit screen is not a risk verdict.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="Ten-step grid from architecture archetype through PPP and risk allocation to a fact-discipline step keeping sandboxes separate." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j4-title j4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j4-title j4-desc">
   <title id="j4-title">From architecture to term sheet</title>
   <desc id="j4-desc">Ten-step Week 6 tool map from architecture to term sheet: archetype; profit screen; PPP go/no-go; payment design; risk allocation; real-options gates; co-opetition boundary; access and charging rules; Week 4 and 5 reality check; fact discipline keeping Sandbox separate from Sandbox X and no corridor-ops claim.</desc>
   <rect x="12" y="12" width="696" height="246" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

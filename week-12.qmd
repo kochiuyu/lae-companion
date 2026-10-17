@@ -1,7 +1,7 @@
 ---
 title: "Week 12: LAE Future Frontiers and Final Review"
 subtitle: "Networks, services roles, and the course viability test"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -16,7 +16,13 @@ format:
 
 **Slides (PDF):** [week12-future.pdf](slides/week12-future.pdf)
 
-Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review. Links: [Course overview](overview.qmd) · [Week 11](week-11.qmd) · [Key numbers](key-figures.qmd).
+Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review.
+
+**Orient refreshers:**
+
+- [Course overview](overview.qmd) — course map  
+- [Week 11](week-11.qmd) — viability synthesis  
+- [Key numbers](key-figures.qmd) — Sandbox counts and caveats  
 
 ## Summary {#summary}
 
@@ -108,7 +114,7 @@ A **corridor** is one link. A **network** is many links among many nodes. Adding
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-network-svg" aria-labelledby="w12-network-svg-title">
 <p class="wdiag-cap" id="w12-network-svg-title"><strong>Possible links ≠ viable service</strong> — N nodes create L = N(N−1)/2 possible pairs (or N(N−1) if directed). Screen each link for demand, reliable K, permission, and cost/acceptance. Candidate services only where all pass. Do not claim GBA corridors as day-to-day operating service on evidence tracked here. Screening rates in class are illustrative — not a GBA forecast.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Flow from N nodes and possible pairs down through four screens—demand, reliable capacity, permission, and cost or acceptance—to candidate services only where all pass. A note not to claim GBA corridors as day-to-day operating service." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d9-title d9-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d9-title d9-desc">
   <title id="d9-title">Possible links ≠ viable service</title>
   <desc id="d9-desc">A network with N nodes creates L equals N times N minus 1 over 2 possible undirected pairs. Each link is screened for demand, reliable capacity K, permission, and cost or acceptance. Candidate services exist only where all screens pass. Do not claim GBA corridors as day-to-day operating service on evidence tracked here.</desc>
   <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -244,7 +250,7 @@ Include software, communications, cybersecurity, certification, human oversight,
 ```{=html}
 <figure class="wdiag" id="w12-digital-svg" aria-labelledby="w12-digital-svg-title">
 <p class="wdiag-cap" id="w12-digital-svg-title"><strong>Digital coordination is socio-technical</strong> — evaluate the complete system, not simply algorithm cost. $S_{\mathrm{net}}=C_{\mathrm{legacy}}-C_{\mathrm{dig}}-C_{\mathrm{trans}}$. Include software, communications, cybersecurity, certification, <strong>human oversight</strong>, maintenance, provider fees, and exceptions. <strong>U-space ≠ Hong Kong law</strong>. Sandbox ≠ Sandbox X. Classroom symbols only.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Three cost boxes subtracting to net saving S_net with a socio-technical caution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m4-title m4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m4-title m4-desc">
   <title id="m4-title">Digital coordination is socio-technical</title>
   <desc id="m4-desc">Evaluate the complete socio-technical system, not simply the cost of an algorithm. Net saving equals legacy process cost minus digital recurring cost minus transition cost. Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees and exception handling. U-space is not Hong Kong law. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="306" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -340,7 +346,7 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
 ```{=html}
 <figure class="wdiag" id="w12-hk-roles-svg" aria-labelledby="w12-hk-roles-svg-title">
 <p class="wdiag-cap" id="w12-hk-roles-svg-title"><strong>Hong Kong service roles — test them</strong> — OHKF (2025) assigns a large share of potential <strong>2050</strong> LAE <strong>industry value added</strong> to supporting services (finance, leasing, insurance, professional, data assurance). That is a <strong>hypothesis to evaluate</strong>, not a predetermined outcome. Test capability, cost, regulation, demand, regional access, and rivalry. Name a specific service, customer problem, capability, revenue model, and advantage. <strong>OHKF HK$350bn = value-added projection only</strong> — not SOM, revenue, GDP, or a government target. Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Supporting-services strip above three test screens and a gold box requiring a specific named service with OHKF value-added attribution." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l2-title l2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l2-title l2-desc">
   <title id="l2-title">Hong Kong service roles — test them</title>
   <desc id="l2-desc">Our Hong Kong Foundation 2025 projection assigns a large share of potential 2050 LAE industry value added to supporting services. Hong Kong actual advantage must be tested through capability, cost, regulation, customer demand, regional access and competition. Managerial lesson: identify a specific service, customer problem, capability, revenue model and defensible source of advantage. OHKF figure is value-added projection only — not SOM, revenue, GDP or a government target. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -483,7 +489,7 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-exam-svg" aria-labelledby="w12-exam-svg-title">
 <p class="wdiag-cap" id="w12-exam-svg-title"><strong>Five-step exam method</strong> — (1) define the decision and alternative; (2) served activity min{D, K}; (3) viability with p, v, F and specified charges; (4) map each constraint once; (5) recommend conditionally (proceed / pause / redesign / stop). Use only tools that clarify the decision. U-space ≠ Hong Kong law; CAAC ATM Rules on Readings remain a draft consultation.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Five stacked exam steps from defining the decision to conditional recommendation of proceed, pause, redesign, or stop." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d8-title d8-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d8-title d8-desc">
   <title id="d8-title">Five-step exam method</title>
   <desc id="d8-desc">Five exam steps: define the decision and alternative; find served activity as the minimum of demand and reliable capacity; calculate viability with price, variable cost, fixed cost and specified charges; map each constraint once; recommend conditionally with proceed, pause, redesign, or stop. CAAC ATM Rules on readings remain a draft consultation. U-space is not Hong Kong law.</desc>
   <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

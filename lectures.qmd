@@ -1,7 +1,7 @@
 ---
 title: "Lectures"
 subtitle: "Moved — Teach is one page per week"
-as_of: "2026-10-11"
+as_of: "2026-10-17"
 page-layout: article
 ---
 

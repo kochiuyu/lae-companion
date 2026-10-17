@@ -1,7 +1,7 @@
 ---
 title: "Week 7: LAE Policy and Regulation"
 subtitle: "Permissions, evidence, and phased market access"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -184,7 +184,7 @@ Readiness value is abstract until Hong Kong rules appear. Cap. 448G, the risk-ba
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w07-sandbox-svg" aria-labelledby="w07-sandbox-svg-title">
 <p class="wdiag-cap" id="w07-sandbox-svg-title"><strong>Sandbox ≠ Sandbox X</strong> — Regulatory Sandbox (first programme; advanced/BVLOS via <strong>CAD AC-013</strong> inside that Sandbox) ≠ Sandbox X (later complex trials; cross-boundary via <strong>CAD AC-017</strong>). Neither is a commercial franchise. Sandbox evidence ≠ day-to-day operating approval. U-space ≠ Hong Kong law. Cite Key numbers for counts — do not invent them here.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Two panels labelled Regulatory Sandbox with AC-013 and Sandbox X with AC-017, separated by a not-equal mark. Neither is a commercial franchise." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e2-title e2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e2-title e2-desc">
   <title id="e2-title">Sandbox ≠ Sandbox X</title>
   <desc id="e2-desc">Two separate Hong Kong trial programmes. Regulatory Sandbox: controlled trials under the first programme; advanced BVLOS pathways include CAD AC-013. Sandbox X: later advanced trials including cross-boundary pathways under CAD AC-017. Neither is a commercial franchise. Sandbox evidence is not day-to-day operating approval. U-space is not Hong Kong law.</desc>
   <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -318,7 +318,7 @@ Under Hong Kong’s risk-based SUA regime, higher-risk advanced operations requi
 ```{=html}
 <figure class="wdiag" id="w07-bvlos-docs-svg" aria-labelledby="w07-bvlos-docs-svg-title">
 <p class="wdiag-cap" id="w07-bvlos-docs-svg-title"><strong>BVLOS — do not merge the circulars</strong> — Cap. <strong>448G</strong> (SUA Order); <strong>AC-013</strong> (BVLOS permission <strong>within</strong> the first Regulatory Sandbox — not “anywhere”); <strong>AC-017</strong> (Sandbox X cross-boundary — distinct circular); <strong>SRD</strong> (ratings; standard vs advanced). Do <strong>not</strong> merge AC-013’s Sandbox BVLOS pathway with AC-017’s Sandbox X procedures. <strong>Sandbox ≠ Sandbox X</strong>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Four document cards for Cap. 448G, AC-013, AC-017, and SRD with a strip stating AC-013 is not AC-017 and Sandbox is not Sandbox X." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k2-title k2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k2-title k2-desc">
   <title id="k2-title">BVLOS — do not merge the circulars</title>
   <desc id="k2-desc">BVLOS means beyond visual line of sight. Document map: Cap. 448G SUA Order risk-based categories and permissions; AC-013 permission for SUA BVLOS within the first Regulatory Sandbox not anywhere; AC-017 Sandbox X cross-boundary guidance distinct circular; Safety Requirements Document for ratings and standard versus advanced operations. Do not merge AC-013 Sandbox BVLOS pathway with AC-017 Sandbox X cross-boundary procedures. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="266" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -377,7 +377,7 @@ Advanced ops need clear language. **Approval, permission, and certification** ar
 ```{=html}
 <figure class="wdiag" id="w07-four-gates" aria-labelledby="w07-four-gates-title">
 <p class="wdiag-cap" id="w07-four-gates-title"><strong>Four gates — do not conflate them</strong> — (1) Cap. 448G SUA operating permission (advanced ops need prior CAD permission; AC-013 ≠ AC-017), (2) operator and pilot requirements, (3) aircraft certification / airworthiness, (4) site and infrastructure approval. Build a map for the specific mission — not one generic “licence.” Keep Regulatory Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Four regulatory gates: Cap. 448G SUA permission, operator and pilot requirements, aircraft certification or airworthiness, and site or infrastructure approval. No single generic licence. Keep Regulatory Sandbox separate from Sandbox X." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c7-title c7-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c7-title c7-desc">
   <title id="c7-title">Four gates — do not conflate them</title>
   <desc id="c7-desc">Four regulatory gates for a specific mission. One: Cap. 448G SUA operating permission, with advanced operations needing prior CAD permission and AC-013 not the same as AC-017. Two: operator and pilot requirements. Three: aircraft certification or airworthiness. Four: site and infrastructure approvals outside Cap. 448G alone. There is no single generic licence. Keep Regulatory Sandbox separate from Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -577,7 +577,7 @@ Digital services can standardize information exchange and support higher volumes
 ```{=html}
 <figure class="wdiag" id="w07-uspace-svg" aria-labelledby="w07-uspace-svg-title">
 <p class="wdiag-cap" id="w07-uspace-svg-title"><strong>U-space ≠ Hong Kong law</strong> — U-space is an EU / industry frame for digital unmanned-traffic services (authorisation, geo-awareness, network ID, traffic information). <strong>UTM</strong> is a broader label. Hong Kong’s smart low-altitude traffic-management system appears in planning language and Sandbox X UTM demos — treat as <strong>planned / trial</strong>, not a completed local U-space statute. Digital services do not erase oversight, certification, cybersecurity, or provider costs.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Two panels with a not-equal mark: U-space EU industry services versus Hong Kong planned or trial smart low-altitude traffic management; strip notes digital does not erase oversight and Sandbox is not Sandbox X." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n1-title n1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n1-title n1-desc">
   <title id="n1-title">U-space ≠ Hong Kong law</title>
   <desc id="n1-desc">U-space is an EU and industry regulatory framework for digital services supporting unmanned aircraft — not Hong Kong law. UTM is a broader traffic-management label. Hong Kong smart low-altitude traffic management appears in planning language and Sandbox X UTM demos — treat as planned or trial infrastructure, not a completed local U-space statute. Digital services do not eliminate human oversight, certification, cybersecurity or provider costs. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="276" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -799,7 +799,7 @@ Roadmaps need a sequence on one page. The **tool map** walks Cap. 448G facts →
 ```{=html}
 <figure class="wdiag" id="w07-toolmap-svg" aria-labelledby="w07-toolmap-svg-title">
 <p class="wdiag-cap" id="w07-toolmap-svg-title"><strong>From Cap. 448G to roadmap</strong> — (1) category map → (2) AC-013 vs AC-017 vs other → (3) Sandbox or Sandbox X trial design (<strong>not</strong> a commercial licence) → (4) readiness value → (5) expected compliance value → (6) safety case for the <strong>defined</strong> operation → (7) risk cost → (8) UTM/oversight cost → (9) pathway scorecard → (10) privilege expands only after which gate. <strong>Sandbox ≠ Sandbox X</strong>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="Ten-step regulatory tool map from Cap. 448G category through trial design and safety case to phased gates." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k1-title k1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k1-title k1-desc">
   <title id="k1-title">From Cap. 448G to roadmap</title>
   <desc id="k1-desc">Ten-step Week 7 tool map from Cap. 448G to phased roadmap: category map; AC-013 versus AC-017 versus other; Sandbox or Sandbox X trial design not a commercial licence; readiness value; expected compliance value continue stage or stop; safety case for defined operation; risk cost; UTM oversight cost; pathway scorecard; privilege expands only after which gate. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="196" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

@@ -1,7 +1,7 @@
 ---
 title: "Week 9: Market Sizing, Barriers, Uncertainty and Social Impact"
 subtitle: "Sizing demand, stress-testing risk, and who gains or bears costs"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -16,7 +16,13 @@ format:
 
 **Slides (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
-Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution. Links: [Week 4](week-04.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).
+Weeks 4–8 built demand, capacity, and allocation; this week asks how to **size** a defined use case, put **constraints** into the right model channels, stress-test **uncertainty**, and evaluate **social** benefits and costs — not only operator contribution.
+
+**Orient refreshers:**
+
+- [Week 4](week-04.qmd) — funnel demand vs capacity-served trips  
+- [Key numbers](key-figures.qmd) — OHKF projection caveats  
+- [Official status](tracker.qmd) — settled vs open  
 
 ## Summary {#summary}
 
@@ -81,7 +87,7 @@ A profitable service can still create social costs; an unprofitable service may 
 ```{=html}
 <figure class="wdiag" id="w09-two-lenses" aria-labelledby="w09-two-lenses-title">
 <p class="wdiag-cap" id="w09-two-lenses-title"><strong>Profit is not social net benefit</strong> — commercial lens: can the operator cover variable cost (then fixed cost)? Social lens: do total gains exceed total costs for society, including externalities and who gains or bears burdens? A profitable service can still create social costs; an unprofitable service may create important public benefits.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Two side-by-side panels. Commercial lens asks whether the operator can cover variable and fixed cost. Social lens asks whether total gains exceed total costs for society. A strip notes profitable does not mean socially net positive." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d3-title d3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d3-title d3-desc">
   <title id="d3-title">Profit is not social net benefit</title>
   <desc id="d3-desc">Two appraisal lenses. Commercial contribution margin asks whether the operator can cover variable cost and then fixed cost. Social benefit-cost asks whether total gains exceed total costs for society, including externalities and distribution. A profitable service can still create social costs; an unprofitable service may create important public benefits.</desc>
   <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -166,7 +172,7 @@ Do **not** sum all trips to the airport unless they are genuinely relevant to th
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-funnel-svg" aria-labelledby="w09-funnel-svg-title">
 <p class="wdiag-cap" id="w09-funnel-svg-title"><strong>Sizing funnel — TAM to served demand</strong> — TAM × eligibility e → SAM; × choice share s → D_pot; D_served = min{{D_pot, K}}. OHKF <strong>HK$350bn</strong> is a think-tank Hong Kong <strong>industry value-added</strong> projection by 2050 — <strong>not</strong> SOM, not operator revenue, not a government target. Classroom funnel numbers are illustrative. Sandbox selection ≠ market share.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Funnel from TAM through SAM and potential demand to served demand as the minimum of potential demand and capacity K, with a note that OHKF HK$350bn is not SOM." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g1-title g1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g1-title g1-desc">
   <title id="g1-title">Sizing funnel — TAM to served demand</title>
   <desc id="g1-desc">Week 9 sizing funnel. Total addressable market times eligibility share gives serviceable available market. Times choice share gives potential demand. Served demand equals the minimum of potential demand and reliable capacity K. OHKF HK$350 billion is a think-tank Hong Kong industry value-added projection by 2050 — not serviceable obtainable market. Classroom funnel numbers are illustrative. Sandbox selection is not market share.</desc>
   <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -341,7 +347,7 @@ Funnels invite laundry-list barriers. **UAM market-study constraints** must map 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w09-channels-svg" aria-labelledby="w09-channels-svg-title">
 <p class="wdiag-cap" id="w09-channels-svg-title"><strong>One constraint → one model channel</strong> — demand/choice, capacity K, price/cost, timing/launch, probability. Map weather → serviceable K, acceptance → choice share, tech cost → cost model. Avoid five independent “×0.8” haircuts for the same effect. NASA-sponsored UAM studies examine interacting constraints — not a universal five-haircut recipe.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Five model-channel boxes: demand or choice, capacity K, price or cost, timing or launch, and probability. Examples map weather to capacity, acceptance to choice share, and technology cost to the cost model. A warning against stacking independent haircuts." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d2-title d2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d2-title d2-desc">
   <title id="d2-title">One constraint → one model channel</title>
   <desc id="d2-desc">Five model channels for constraints: demand or choice, capacity K, price or cost, timing or launch, and probability. Avoid stacking independent haircuts for the same effect. NASA-sponsored UAM studies examine interacting constraints, not a universal five-haircut recipe.</desc>
   <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -500,7 +506,7 @@ $$
 ```{=html}
 <figure class="wdiag" id="w09-uncertainty-svg" aria-labelledby="w09-uncertainty-svg-title">
 <p class="wdiag-cap" id="w09-uncertainty-svg-title"><strong>Uncertainty — scenarios and expected value</strong> — use base, downside, and upside (plus sensitivity / ranges where justified). $E[\Pi]=\sum_s \Pr(s)\,\Pi_s$. Monte Carlo shows a <strong>distribution of outcomes</strong> — it does <strong>not</strong> make weak assumptions accurate; it makes their implications visible. Also check probability of loss and downside cash needs. Classroom numbers illustrative.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Three scenario cards for base downside and upside above an expected-value formula and a Monte Carlo caution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j5-title j5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j5-title j5-desc">
   <title id="j5-title">Uncertainty — scenarios and expected value</title>
   <desc id="j5-desc">Use a base case, downside and upside scenarios, sensitivity analysis, and probability ranges where justified. Monte Carlo simulation samples uncertain inputs and recalculates the model to show a distribution of outcomes. Simulation does not make weak assumptions accurate; it makes their implications visible. Expected profit equals the sum over scenarios of probability times profit. Also look at probability of loss and downside cash needs.</desc>
   <rect x="12" y="12" width="696" height="306" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -609,7 +615,7 @@ Keep the attribution strict:
 ```{=html}
 <figure class="wdiag" id="w09-ohkf-350" aria-labelledby="w09-ohkf-350-title">
 <p class="wdiag-cap" id="w09-ohkf-350-title"><strong>HK$350bn is not “the market”</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not GDP, not operator revenue, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue ≠ obtainable demand; distribution still matters.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Central label OHKF about HK$350 billion value added by 2050, with a not-equal mark to four tiles: government target or revenue, GDP, operator revenue or SOM, and Mainland scale totals. Note that it is a private think-tank scenario, not realised cash." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d1-title d1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d1-title d1-desc">
   <title id="d1-title">HK$350bn is not “the market”</title>
   <desc id="d1-desc">Our Hong Kong Foundation projects about HK$350 billion in Hong Kong LAE industry value added by 2050. It is a private think-tank scenario projection, not a government target, not GDP, not operator revenue, and not a single firm SOM. Geography is Hong Kong only; do not merge with Mainland scale totals.</desc>
   <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -739,7 +745,7 @@ ESG reporting can support transparency, but a project should define **measurable
 ```{=html}
 <figure class="wdiag" id="w09-equity-svg" aria-labelledby="w09-equity-svg-title">
 <p class="wdiag-cap" id="w09-equity-svg-title"><strong>Who gains and who bears costs?</strong> — screen access, exposure, opportunity, public finance, and public services. Ask who receives each benefit and who bears each cost. An <strong>EMS label does not guarantee equity</strong> — define measurable outcomes. Week 6 availability payments and Week 8 public-service priority already encode distributional choices.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Five equity dimension cards — access, exposure, opportunity, public finance, public services — with a note that an EMS label is not automatic equity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i4-title i4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i4-title i4-desc">
   <title id="i4-title">Who gains and who bears costs?</title>
   <desc id="i4-desc">Five equity dimensions for social-impact assessment: access; exposure; opportunity; public finance; public services. Ask who receives each benefit and who bears each cost. An EMS label does not guarantee equitable outcomes — define measurable outcomes. Week 8 public-service priority and Week 6 availability payments already encode distributional choices.</desc>
   <rect x="12" y="12" width="696" height="266" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

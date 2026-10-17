@@ -1,7 +1,7 @@
 ---
 title: "Week 10: Sustainability Challenges in Urban Air Operations"
 subtitle: "Externalities, life-cycle emissions, privacy, and measurable KPIs"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -16,7 +16,13 @@ format:
 
 **Slides (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
 
-Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs. Links: [Week 9](week-09.qmd) · [Glossary](glossary.qmd) · [Who decides what?](regulators.qmd).
+Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs.
+
+**Orient refreshers:**
+
+- [Week 9](week-09.qmd) — sizing and social distribution  
+- [Glossary](glossary.qmd) — shared definitions  
+- [Who decides what?](regulators.qmd) — institutions and standing caveats  
 
 ## Summary {#summary}
 
@@ -113,7 +119,7 @@ An [**externality**](glossary.qmd#externality) is a cost or benefit that falls o
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w10-ext-svg" aria-labelledby="w10-ext-svg-title">
 <p class="wdiag-cap" id="w10-ext-svg-title"><strong>Measure the impact, then pick instruments</strong> — noise/visual, privacy/data, climate/energy → technology, standards/rules, pricing/charges, compensation/engage. Do not invent a noise charge as flights × dB × $. Carbon values in class are appraisal dials — not a claimed CAD tax.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Three impact boxes for noise or visual, privacy or data, and climate or energy, flowing down to four instrument boxes: technology, standards or rules, pricing or charges, and compensation or engage." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d5-title d5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d5-title d5-desc">
   <title id="d5-title">Measure the impact, then pick instruments</title>
   <desc id="d5-desc">Three impact families—noise or visual, privacy or data, and climate or energy—flow down to a mix of instruments: technology, standards or rules, pricing or charges, and compensation or engagement. Do not invent a noise charge as flights times decibels times dollars. Carbon values in class are appraisal dials, not a claimed CAD tax.</desc>
   <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -281,7 +287,7 @@ The more expensive design is justified only if additional controls materially im
 ```{=html}
 <figure class="wdiag" id="w10-privacy-svg" aria-labelledby="w10-privacy-svg-title">
 <p class="wdiag-cap" id="w10-privacy-svg-title"><strong>Purpose → minimize → privacy-control cost</strong> — define a lawful specific purpose, minimize collection (FOV, retention, identifiers), then compute $C_{\mathrm{priv}} = F_{\mathrm{gov}} + q\cdot v + A$. Classroom: lower-variable design ≈ <strong>HK$800k/year</strong>; higher-assurance ≈ <strong>HK$1.4M</strong> (50,000 ops; A=0). Not a compliance quotation — verify current PCPD / regulator materials.</p>
-<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-label="Three steps purpose, minimize, and privacy-control cost formula, with two classroom cards showing about HK dollar 800 thousand versus 1.4 million per year, and a strip that this is not a compliance quote." aria-labelledby="n3-title n3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-labelledby="n3-title n3-desc">
   <title id="n3-title">Purpose → minimize → privacy-control cost</title>
   <desc id="n3-desc">Privacy governance for onboard cameras: define lawful purpose, minimize collection, then compute annual privacy-control cost as fixed governance plus operations times variable cost plus audit. Classroom: lower-variable design about HK dollar 800 thousand per year versus higher-assurance about HK dollar 1.4 million. Not a compliance quotation. Verify current PCPD materials. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -367,7 +373,7 @@ This is **not** a claim that CAD imposes such a tax. Emissions factors and bound
 ```{=html}
 <figure class="wdiag" id="w10-carbon-dial-svg" aria-labelledby="w10-carbon-dial-svg-title">
 <p class="wdiag-cap" id="w10-carbon-dial-svg-title"><strong>Carbon value is an appraisal dial</strong> — ops/year × kg CO₂e per operation × $/kg can support investment appraisal (classroom intensities on the page). This is <strong>not</strong> a claim that CAD imposes such a tax. Treat like Week 8’s illustrative peak charge — then move to inventory (scopes ≠ LCA). Emissions factors and boundaries must be sourced.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="Appraisal formula strip with higher and lower intensity panels and a strong note that this is not a claimed CAD carbon tax." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j6-title j6-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j6-title j6-desc">
   <title id="j6-title">Carbon value is an appraisal dial</title>
   <desc id="j6-desc">A carbon value can support investment appraisal using illustrative intensities and a carbon value per kilogram. This is not a claim that CAD imposes such a tax. Treat the carbon value as an appraisal dial, like Week 8 illustrative peak charge, not as an invented Hong Kong levy. Emissions factors and boundaries must be sourced. Do not confuse with GHG scopes versus LCA later on the page.</desc>
   <rect x="12" y="12" width="696" height="326" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -419,7 +425,7 @@ A carbon value needs an inventory. **GHG scopes and LCA** answer different bound
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w10-ghg-svg" aria-labelledby="w10-ghg-svg-title">
 <p class="wdiag-cap" id="w10-ghg-svg-title"><strong>Scopes vs LCA — different questions</strong> — corporate Scopes 1–3 use an organisation boundary; product/service LCA uses a functional unit across vehicle, battery, infrastructure, operations, and end-of-life. <strong>Electric ≠ zero life-cycle emissions.</strong> Do not add Scope totals to an LCA total without a boundary map. Classroom kWh factors are illustrative.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Two panels comparing corporate greenhouse-gas scopes 1 to 3 with product life-cycle assessment. A strip states electric does not mean zero life-cycle emissions and warns against adding scope totals to an LCA total without a map." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d4-title d4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="d4-title d4-desc">
   <title id="d4-title">Scopes vs LCA — different questions</title>
   <desc id="d4-desc">Corporate greenhouse-gas scopes 1 to 3 use an organisation boundary: direct emissions, purchased energy, and other value-chain emissions. Product or service life-cycle assessment uses a functional unit across vehicle, battery, infrastructure, operations, and end-of-life. Electric does not mean zero life-cycle emissions. Do not add scopes totals to an LCA total without a boundary map.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -734,7 +740,7 @@ Define baseline, target, measurement method, frequency, owner, assurance, and co
 ```{=html}
 <figure class="wdiag" id="w10-kpi-svg" aria-labelledby="w10-kpi-svg-title">
 <p class="wdiag-cap" id="w10-kpi-svg-title"><strong>Sustainability KPIs need owners</strong> — noise, climate (kg CO₂e / passenger-km with LCA boundary), privacy, equity, governance. Define baseline, target, measurement method, frequency, <strong>owner</strong>, assurance, and corrective action. There is <strong>no</strong> universal CAD or investor LAE ESG score. Classroom mitigation scorecard only.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="Five KPI area cards for noise climate privacy equity and governance with a strip that there is no universal LAE ESG score." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l3-title l3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l3-title l3-desc">
   <title id="l3-title">Sustainability KPIs need owners</title>
   <desc id="l3-desc">Five sustainability KPI areas: noise with population-weighted exposure; climate with kilograms CO2e per passenger-kilometre and life-cycle boundary; privacy with personal-data incidents; equity with service availability by area; governance with complaints resolved on time. Define baseline, target, measurement method, frequency, owner, assurance and corrective action. There is no universal CAD or investor LAE ESG score.</desc>
   <rect x="12" y="12" width="696" height="246" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -792,7 +798,7 @@ Define baseline, target, measurement method, frequency, owner, assurance, and co
 ```{=html}
 <figure class="wdiag" id="w10-toolmap-svg" aria-labelledby="w10-toolmap-svg-title">
 <p class="wdiag-cap" id="w10-toolmap-svg-title"><strong>From externality to KPI</strong> — (1) impacts → (2) noise instrument → (3) privacy / C_priv → (4) carbon <strong>appraisal dial</strong> (<strong>not</strong> invented CAD tax) → (5) sourced grid factor → (6) LCA same boundary → (7) acceptance by use case → (8) funded public-service $ → (9) KPI row with owner → (10) <strong>Sandbox ≠ Sandbox X</strong>; cite Policy Address / Action Plan to <strong>issuer only</strong>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" aria-label="Ten-step sustainability tool map ending in fact discipline on sandboxes and issuer-only citations." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m1-title m1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m1-title m1-desc">
   <title id="m1-title">From externality to KPI</title>
   <desc id="m1-desc">Ten-step Week 10 tool map from externality to KPI: impact list; noise instrument screen; privacy controls; carbon value for appraisal only not invented CAD tax; scope 2 with sourced grid factor; LCA same boundary; acceptance by use case; funded public-service commitment; mitigation scorecard row; Sandbox not Sandbox X and cite Policy Address or Action Plan to issuer only.</desc>
   <rect x="12" y="12" width="696" height="226" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

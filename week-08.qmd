@@ -1,7 +1,7 @@
 ---
 title: "Week 8: Airspace Access and Integration"
 subtitle: "Scarce capacity, allocation rules, and digital coordination"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -108,7 +108,7 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 ```{=html}
 <figure class="wdiag" id="w08-bind-first" aria-labelledby="w08-bind-first-title">
 <p class="wdiag-cap" id="w08-bind-first-title"><strong>Reliable capacity = whichever link binds first</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set safe capacity. Diagnose the binding resource before designing auctions or prices. Cap. 448G height bands ≠ ~1,000 m policy working description; Sandbox ≠ Sandbox X; do not invent Harbour corridor capacity.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Four capacity links in a chain—route and separation, surveillance and command-and-control, weather and hours, vertiport or charging—with an arrow that whichever binds first sets reliable capacity K. Diagnose before allocating." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c8-title c8-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c8-title c8-desc">
   <title id="c8-title">Reliable capacity = whichever link binds first</title>
   <desc id="c8-desc">Four capacity links in a chain: route and separation, surveillance and command-and-control, weather and hours, and vertiport or charging. An arrow says whichever binds first sets reliable capacity K. A note says if pads bind first, a corridor auction allocates the wrong scarce resource. Keep Cap. 448G height bands separate from the about 1,000 metre policy working description, and Regulatory Sandbox separate from Sandbox X. No invented corridor capacity.</desc>
   <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -209,7 +209,7 @@ Sum the incremental delay imposed on **all** affected users, not only the next a
 ```{=html}
 <figure class="wdiag" id="w08-mcc-svg" aria-labelledby="w08-mcc-svg-title">
 <p class="wdiag-cap" id="w08-mcc-svg-title"><strong>Congestion cost is what you impose on others</strong> — marginal congestion cost sums additional delay × value of delay across affected users, then adds other incremental costs (MCC). Pricing is only one response; reservations, quotas, priority rules, rerouting, and capacity investment may also fit. Some public-service missions need <strong>explicit priority</strong> rather than willingness to pay. Classroom delay screens only — not published CAD capacities; do not invent corridor <em>K</em>.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Diagram equating sum of delay times value plus other costs to marginal congestion cost, with response chips for charge reserve quota priority and invest or reroute, and a note that public missions may need priority rather than pure willingness to pay." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m5-title m5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m5-title m5-desc">
   <title id="m5-title">Congestion cost is what you impose on others</title>
   <desc id="m5-desc">Marginal congestion cost sums additional delay times value of delay across affected users, then adds other incremental costs. Pricing is only one response. Some public-service missions need explicit priority rules rather than willingness to pay. Classroom delay numbers only. Do not invent corridor capacity. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -322,7 +322,7 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-mech-svg" aria-labelledby="w08-mech-svg-title">
 <p class="wdiag-cap" id="w08-mech-svg-title"><strong>Allocation families — choose with criteria</strong> — administrative (schedule, rotation, FCFS, public-service priority); posted prices (peak/off-peak); auctions (scarce windows — need safeguards); packages (linked pad + corridor + charging). High willingness to pay ≠ automatic social priority. No linked slot → reject/reschedule, not an unsafe flight.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Four allocation family cards: administrative, posted prices, auctions, and packages, with a note that high willingness to pay is not automatic social priority." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e4-title e4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="e4-title e4-desc">
   <title id="e4-title">Allocation families — choose with criteria</title>
   <desc id="e4-desc">Four slot allocation families: administrative rules such as schedule, rotation, first-come-first-served, or public-service priority; posted peak and off-peak prices; auctions for scarce windows with safeguards; and package allocation linking pad, corridor, and charging. High willingness to pay is not automatic social priority. Failure to obtain a linked slot means reject or reschedule, not an unsafe flight.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -678,7 +678,7 @@ Roadmaps need a sequence. The **tool map** walks bottleneck → congestion cost 
 ```{=html}
 <figure class="wdiag" id="w08-toolmap-svg" aria-labelledby="w08-toolmap-svg-title">
 <p class="wdiag-cap" id="w08-toolmap-svg-title"><strong>From bottleneck to roadmap</strong> — (1) what binds → (2) legal envelope → (3) peak-charge screen (<strong>not</strong> a tariff) → (4) mechanism → (5) B_max → (6) package linked slots → (7) interoperability → (8) OFCA 1.4 GHz / AC-017 map → (9) phased gates → (10) <strong>Sandbox ≠ Sandbox X</strong>; <strong>U-space ≠ HK law</strong>; <strong>no invented corridor capacity</strong>. Whole-system capacity — not drones-per-minute.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" aria-label="Ten-step airspace tool map ending in a fact-discipline strip on sandboxes, U-space, and corridor capacity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k4-title k4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k4-title k4-desc">
   <title id="k4-title">From bottleneck to roadmap</title>
   <desc id="k4-desc">Ten-step Week 8 tool map from bottleneck to roadmap: scarce resource diagnosis; Cap. 448G height RFZ and Sandbox rules; peak-charge screen not a tariff; mechanism choice; affordable payment; packaged linked slots; interoperability screen; OFCA 1.4 GHz or AC-017 programme map; phased roadmap gates; fact discipline keeping Sandbox separate from Sandbox X, U-space not Hong Kong law, and no invented corridor capacity.</desc>
   <rect x="12" y="12" width="696" height="226" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

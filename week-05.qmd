@@ -1,7 +1,7 @@
 ---
 title: "Week 5: Infrastructure Economics and Management"
 subtitle: "Sites, throughput, scarce slots, and network design"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -97,7 +97,7 @@ By the end of Week 5 you should be able to:
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
 <p class="wdiag-cap" id="w05-bottleneck-svg-title"><strong>Diagnose which resource binds</strong> — pad/stand/gate; charging/energy; passenger/cargo process; airspace/procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind (and vice versa). No invented Harbour/GBA “drones per minute.” Trial sites ≠ permanent slots; Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="Four resource cards flowing down to allocate the scarce resource you actually have, with a note against inventing corridor capacity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f1-title f1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f1-title f1-desc">
   <title id="f1-title">Diagnose which resource binds</title>
   <desc id="f1-desc">Four infrastructure resources that can bind: pad stand or gate; charging or energy; passenger or cargo process; airspace or procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind and vice versa. Do not invent drones-per-minute for Harbour or GBA corridors. Keep Sandbox separate from Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -173,7 +173,7 @@ Actual design depends on aircraft, operations, safety requirements, and local ap
 ```{=html}
 <figure class="wdiag" id="w05-archetypes" aria-labelledby="w05-archetypes-title">
 <p class="wdiag-cap" id="w05-archetypes-title"><strong>Three site types, three trade-offs</strong> — classroom vertiport archetypes: building-based (strong access; structure/safety/power upgrades), integrated hub (high capability; high cost and complexity), ground-based (often easier to expand; may mean longer customer access). Not Hong Kong statutory classes — no dedicated vertiport statute yet.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-label="Three side-by-side cards for classroom vertiport archetypes: building-based rooftop sites with strong access but upgrade needs; integrated hubs with high capability and high cost; ground-based sites that are often easier to expand but may have longer customer access." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c6-title c6-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c6-title c6-desc">
   <title id="c6-title">Three site types, three trade-offs</title>
   <desc id="c6-desc">Three classroom vertiport archetypes side by side. Building-based rooftop or elevated sites offer strong access but need structure, safety, power, and circulation upgrades. Integrated hubs add charging, processing, and maintenance at high cost and complexity. Ground-based land sites are often easier to expand but may mean longer customer access. Not Hong Kong statutory classes.</desc>
   <rect x="12" y="12" width="696" height="366" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -238,7 +238,7 @@ A workable site balances:
 ```{=html}
 <figure class="wdiag" id="w05-site-screen-svg" aria-labelledby="w05-site-screen-svg-title">
 <p class="wdiag-cap" id="w05-site-screen-svg-title"><strong>Site selection — five screens</strong> — safety/obstacles; customer access (Week 4 GC); utilities and operations; capacity and expandability; cost and approval. Lower <strong>generalized site cost</strong> is <strong>not</strong> automatically better if the site fails safety, capacity, or service requirements. Screening only — <strong>not</strong> a safety verdict. No invented Hong Kong sites.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Five site-selection screens — safety, access, utilities, capacity, and cost and approval — with a warning that lower generalized cost is not an automatic win." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j2-title j2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j2-title j2-desc">
   <title id="j2-title">Site selection — five screens</title>
   <desc id="j2-desc">A workable site balances five criteria: safety and obstacles; customer access; utilities and operations; capacity and expandability; cost and approval. Lower generalized site cost is not automatically better if the site fails safety, capacity, or service requirements. Screening only — not a safety verdict. No invented Hong Kong sites.</desc>
   <rect x="12" y="12" width="696" height="266" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -390,7 +390,7 @@ A higher-cost site needs more activity, higher contribution per movement, or com
 ```{=html}
 <figure class="wdiag" id="w05-reliable-k-svg" aria-labelledby="w05-reliable-k-svg-title">
 <p class="wdiag-cap" id="w05-reliable-k-svg-title"><strong>Prefer reliable capacity over theoretical max</strong> — breakeven capacity use = fixed daily facility cost ÷ (reliable daily capacity × contribution per movement). Classroom: higher-cost site ≈ <strong>75%</strong> of reliable <em>K</em>; lower-cost ≈ <strong>20%</strong>. This is <strong>not</strong> “percent of hours in the day the facility must be open.” Weather, turnaround, and priority access cut usable capacity.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Formula strip for breakeven capacity use as fixed cost over reliable capacity times contribution, with two classroom cards showing about 75 percent versus 20 percent of reliable capacity, and a note that this is not percent of clock hours." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n4-title n4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="n4-title n4-desc">
   <title id="n4-title">Prefer reliable capacity over theoretical max</title>
   <desc id="n4-desc">Prefer reliable, serviceable capacity over theoretical maximum throughput. Breakeven capacity use equals fixed daily facility cost divided by reliable daily capacity times contribution per movement. Classroom: higher-cost site needs about 75 percent of reliable capacity; lower-cost site about 20 percent. This is not percent of clock hours. Sandbox is not Sandbox X. No invented corridor capacity.</desc>
   <rect x="12" y="12" width="696" height="306" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -714,7 +714,7 @@ There is **no** universal “Hong Kong strategy” or “GBA strategy.” Config
 ```{=html}
 <figure class="wdiag" id="w05-network-topo" aria-labelledby="w05-network-topo-title">
 <p class="wdiag-cap" id="w05-network-topo-title"><strong>Hub, distributed, or hybrid — different GC stories</strong> — concentrated hub (shared facilities, longer access / single-site risk), distributed (better access and resilience; duplicated fixed cost), hybrid (hubs plus feeders; coordination complexity). GC per trip = (network cost bundle ÷ served trips) + access burden. Classroom check: concentrated ≈ HK$123.75 vs distributed ≈ HK$41.25 at 4,000 served trips/day — ranking can reverse. No universal Hong Kong or GBA template.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Three classroom network sketches. Concentrated hub with a central node and spokes. Distributed with several similar sites. Hybrid with a major hub plus feeder sites. A strip recalls generalized cost per trip equals network cost bundle divided by served trips plus access burden, with an illustrative concentrated versus distributed classroom check." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c9-title c9-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c9-title c9-desc">
   <title id="c9-title">Hub, distributed, or hybrid — different GC stories</title>
   <desc id="c9-desc">Three classroom network topologies. Concentrated hub: one central site with spokes — shared facilities and high throughput, but longer access and single-site disruption risk. Distributed: several similar sites — better customer access and resilience, but duplicated fixed cost. Hybrid: a major hub plus feeder or specialised sites — coordination complexity. A strip recalls generalized cost per trip equals network cost bundle divided by served trips plus access burden, with an illustrative classroom check of about HK$123.75 concentrated versus HK$41.25 distributed.</desc>
   <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -846,7 +846,7 @@ Network choice needs a sequence. The **tool map** walks site screen → throughp
 ```{=html}
 <figure class="wdiag" id="w05-toolmap-svg" aria-labelledby="w05-toolmap-svg-title">
 <p class="wdiag-cap" id="w05-toolmap-svg-title"><strong>From site choice to slots</strong> — (1) what binds → (2) archetype → (3) criteria shortlist → (4) generalized site cost → (5) reliable K → (6) breakeven capacity use → (7) stage CAPEX/liquidity → (8) slot rules → (9) network on <strong>served</strong> trips → (10) Week 4 demand vs Week 3 contribution: go / redesign / wait. Site screen is <strong>not</strong> a safety verdict. No invented Hong Kong sites.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="Ten-step grid from bottleneck diagnosis through reliable capacity and slots to a go or redesign decision." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j3-title j3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j3-title j3-desc">
   <title id="j3-title">From site choice to slots</title>
   <desc id="j3-desc">Ten-step Week 5 tool map from site choice to slots: bottleneck diagnosis; archetype; multi-criteria shortlist; generalized site cost screen; reliable daily capacity; breakeven capacity use; staging and liquidity; slot allocation rules; hub distributed or hybrid on served trips; Week 4 demand versus Week 3 contribution go redesign or wait. Site screen is not a safety verdict.</desc>
   <rect x="12" y="12" width="696" height="196" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

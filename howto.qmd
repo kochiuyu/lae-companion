@@ -1,7 +1,7 @@
 ---
 title: "How to use this site"
 subtitle: "A short path for first-time learners"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -40,7 +40,7 @@ Handy Glossary links when a term appears:
 ```{=html}
 <figure class="wdiag" id="howto-orient-svg" aria-labelledby="howto-orient-svg-title">
 <p class="wdiag-cap" id="howto-orient-svg-title"><strong>Full Orient — then Teach</strong> — follow Orient in order: primer → overview → business overview → regulators → this How-to → FAQ → Key numbers; then Teach week pages (start <a href="week-01.qmd">Week 1</a>). Keep <strong>Sandbox ≠ Sandbox X</strong>. Cap. 448G is Hong Kong’s SUA frame.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Seven Orient steps from primer through overview, howto and FAQ to key numbers, then a strip pointing to Teach week pages with Sandbox and Cap. 448G guards." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i5-title i5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i5-title i5-desc">
   <title id="i5-title">Full Orient — then Teach</title>
   <desc id="i5-desc">Follow the Orient menu in order: What is LAE primer; Course overview; How does LAE work business overview; Who decides what regulators; this howto page; Common questions FAQ; Key numbers. Keep Sandbox X separate from the earlier Regulatory Sandbox. Cap. 448G is Hong Kong SUA law. Then use the Teach menu for week pages.</desc>
   <rect x="12" y="12" width="696" height="236" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>

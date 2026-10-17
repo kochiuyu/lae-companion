@@ -1,7 +1,7 @@
 ---
 title: "Week 3: Cost Structures and Revenue Management"
 subtitle: "Unit economics, breakeven, and how revenue models reshape risk"
-as_of: "2026-10-12"
+as_of: "2026-10-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -116,7 +116,7 @@ Glossary: [CAPEX / OPEX](glossary.qmd#business-and-economics).
 ```{=html}
 <figure class="wdiag" id="w03-cost-axes" aria-labelledby="w03-cost-axes-title">
 <p class="wdiag-cap" id="w03-cost-axes-title"><strong>Two questions, two axes — do not merge them</strong> — CAPEX vs OPEX answers accounting and cash timing; fixed vs variable answers what still burns cash at zero missions. Energy can be OPEX and mostly variable; major platforms can be CAPEX. Compliance spend is not automatically CAPEX.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="A two-by-two grid with CAPEX and OPEX as columns and fixed versus variable as rows. Examples include aircraft and pads, recurring fixed OPEX such as site fees and insurance, and variable OPEX such as energy and wear. A warning not to treat CAPEX as fixed and OPEX as variable." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c3-title c3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c3-title c3-desc">
   <title id="c3-title">Two questions, two axes — do not merge them</title>
   <desc id="c3-desc">A two-by-two teaching grid. Columns are CAPEX and OPEX. Rows are fixed costs that burn at zero missions and variable costs that rise with activity. Examples: aircraft and pads under CAPEX; site fees and insurance as recurring fixed OPEX; energy and wear as variable OPEX. A warning strip says do not merge the axes into CAPEX is fixed and OPEX is variable.</desc>
   <rect x="12" y="12" width="696" height="376" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -267,7 +267,7 @@ CAPEX, OPEX, and a daily cost sketch answer “what does it take to stand ready?
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w03-toolchain-svg" aria-labelledby="w03-toolchain-svg-title">
 <p class="wdiag-cap" id="w03-toolchain-svg-title"><strong>Cost → unit → contribution → cash</strong> — CAPEX and OPEX → choose a consistent unit (CASK or mission-km) → contribution = revenue − variable cost of served units → cash/breakeven screen (cover fixed cost; financing and downside later). Lock the stack before polishing a CASK. Classroom arithmetic is illustrative unless a sourced factor is cited.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Tool-chain flow from CAPEX and OPEX through unit cost and contribution to a cash or breakeven screen." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f2-title f2-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f2-title f2-desc">
   <title id="f2-title">Cost → unit → contribution → cash</title>
   <desc id="f2-desc">Cost to cash tool chain: CAPEX and OPEX feed a consistent unit cost such as CASK or cost per mission-kilometre; then contribution equals revenue minus variable cost of served units; then a cash or breakeven screen covers fixed cost before financing and downside in later weeks. Classroom arithmetic is illustrative unless a sourced factor is cited.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -361,7 +361,7 @@ Glossary: [CASK / CPMK](glossary.qmd#business-and-economics).
 ```{=html}
 <figure class="wdiag" id="w03-cask-util" aria-labelledby="w03-cask-util-title">
 <p class="wdiag-cap" id="w03-cask-util-title"><strong>More trips spread the same daily cost</strong> — illustrative four seats, operating cost HK$12,000/day, 10 km trips. At 10 trips/day, available seat-km = 400 and CASK = HK$30; at 50 trips/day, seat-km = 2,000 and CASK = HK$6. Lower CASK still needs demand and feasible turnaround.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Two panels for CASK. At 10 trips per day, available seat-kilometres are 400 and CASK is HK$30. At 50 trips per day, available seat-kilometres are 2,000 and CASK is HK$6. Illustrative four-seat, HK$12,000 per day example." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c4-title c4-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="c4-title c4-desc">
   <title id="c4-title">More trips spread the same daily cost</title>
   <desc id="c4-desc">Two classroom panels for cost per available seat-kilometre. Four seats, daily operating cost HK$12,000, trips of 10 kilometres. At 10 trips per day, available seat-kilometres are 400 and CASK is HK$30. At 50 trips per day, available seat-kilometres are 2,000 and CASK is HK$6. Allocated cost of one seat on a 10 kilometre trip falls from about HK$300 to about HK$60. Illustrative only; utilization still needs demand and capacity.</desc>
   <rect x="12" y="12" width="696" height="356" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -445,7 +445,7 @@ Match the model to the **value promised** and the party best able to manage the 
 ```{=html}
 <figure class="wdiag" id="w03-revenue-models-svg" aria-labelledby="w03-revenue-models-svg-title">
 <p class="wdiag-cap" id="w03-revenue-models-svg-title"><strong>Four revenue models — who bears usage risk</strong> — pay per use (operator), subscription / membership (shared), availability-based contract (customer / shared), complementary services (varies). Match the model to the risk you can manage. Availability buys readiness — it does <strong>not</strong> invent demand. A subscription is not guaranteed cash.</p>
-<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-label="Four cards for pay per use, subscription, availability, and complementary services showing typical predictability and who bears usage risk, with a strip that availability does not invent demand." aria-labelledby="n5-title n5-desc">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 340" role="img" aria-labelledby="n5-title n5-desc">
   <title id="n5-title">Four revenue models — who bears usage risk</title>
   <desc id="n5-desc">Four LAE revenue models: pay per use with lower predictability and operator usage risk; subscription or membership with medium predictability and shared risk; availability-based contract with higher predictability and customer or shared risk; complementary services with varying predictability and risk. Match the model to the risk you can manage. Availability does not invent demand. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -586,7 +586,7 @@ Compare that target with physical capacity, operating hours, charging, maintenan
 ```{=html}
 <figure class="wdiag" id="w03-breakeven-svg" aria-labelledby="w03-breakeven-svg-title">
 <p class="wdiag-cap" id="w03-breakeven-svg-title"><strong>Breakeven volume</strong> — breakeven units = fixed cost ÷ (revenue per unit − variable cost per unit). Denominator = <strong>contribution margin</strong> per unit. Daily form: required missions/day = fixed daily cost ÷ contribution margin per mission. Compare with capacity, hours, charging, weather, and demand — required activity is <strong>not</strong> an automatic traffic forecast. Classroom units only.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Breakeven formula strip flowing to a required missions per day form, with a note to compare against capacity and demand." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j1-title j1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j1-title j1-desc">
   <title id="j1-title">Breakeven volume</title>
   <desc id="j1-desc">Breakeven units equal fixed cost divided by contribution margin per unit, where contribution margin is revenue per unit minus variable cost per unit. Equivalently, required missions per day equal fixed daily cost divided by contribution margin per mission. Compare the target with physical capacity, hours, charging, weather and expected demand. Classroom units only.</desc>
   <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -738,7 +738,7 @@ Subscriptions and reservation fees transfer risk **only if** customers accept th
 ```{=html}
 <figure class="wdiag" id="w03-weather-svg" aria-labelledby="w03-weather-svg-title">
 <p class="wdiag-cap" id="w03-weather-svg-title"><strong>Weather hits more than revenue</strong> — lost trips; continued fixed costs; disruption/penalties; recovery; future trust. A warning does <strong>not</strong> mechanically ground every operation. Respond with ops resilience, contracts, insurance/parametric cover, and liquidity — <strong>none are free</strong>. Subscriptions transfer risk only if customers accept. Sandbox ≠ Sandbox X.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="Five impact cards and four response tools for weather risk, with a note that warnings do not automatically ground every flight." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k3-title k3-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k3-title k3-desc">
   <title id="k3-title">Weather hits more than revenue</title>
   <desc id="k3-desc">Severe weather can hit an LAE business through lost trips and revenue; continued fixed costs; disruption and penalties; recovery costs; and lower future willingness to rely on the service. A weather warning does not mechanically ground every operation. Manage with operational resilience, contract design, insurance or parametric cover, and liquidity. None of these tools is free. Sandbox is not Sandbox X.</desc>
   <rect x="12" y="12" width="696" height="246" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
@@ -920,7 +920,7 @@ If step 6’s required activity exceeds step 4’s physical capacity, the model 
 ```{=html}
 <figure class="wdiag" id="w03-toolmap-svg" aria-labelledby="w03-toolmap-svg-title">
 <p class="wdiag-cap" id="w03-toolmap-svg-title"><strong>From investment to cash</strong> — (1) assets/life → (2) cost stack → (3) unit → (4) unit cost at realistic utilization → (5) contribution → (6) breakeven / required activity → (7) who bears volume risk → (8) weather open days + hedge costs. If step 6 required activity exceeds step 4 physical capacity, the model is <strong>inconsistent</strong> — fix price, cost, capacity, or product.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Eight-step cost-to-cash tool map ending with a consistency check against physical capacity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l1-title l1-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l1-title l1-desc">
   <title id="l1-title">From investment to cash</title>
   <desc id="l1-desc">Eight-step Week 3 tool map from investment to cash: daily asset allocation; cost stack; choose unit; unit cost at realistic utilization; contribution per unit; breakeven required activity; who bears volume risk; weather open days and hedge costs. If required activity exceeds physical capacity the model is inconsistent.</desc>
   <rect x="12" y="12" width="696" height="236" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
