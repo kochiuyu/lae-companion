@@ -91,6 +91,46 @@ Business-model components are connected through quantities, prices, capacity, co
 
 **Integration rule:** every important assumption should appear **once** in the correct model channel, with no contradictory units or double counting (Week 9 constraint-mapping lesson).
 
+```{=html}
+<figure class="wdiag" id="w11-integrate-svg" aria-labelledby="w11-integrate-svg-title">
+<p class="wdiag-cap" id="w11-integrate-svg-title"><strong>One model path — integration</strong> — hours cut → reliable K falls → served demand may fall and fixed cost per unit rise → price/load-factor responses follow. Mitigation may raise cost but preserve access. <strong>Integration rule:</strong> every important assumption appears <strong>once</strong> in the correct model channel — no contradictory units or double counting. Keep ESG in the same path as cash.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="Chain from operating-hour cuts through capacity and served demand to unit cost or price, with an integration-rule strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k5-title k5-desc">
+  <title id="k5-title">One model path — integration</title>
+  <desc id="k5-desc">Integration means demand, capacity, cost, cash and legitimacy share one model path. Operating-hour restrictions cut reliable capacity; lower capacity may cut served demand and raise fixed cost per unit; price responses change choice and load factor; mitigation may raise cost but preserve access. Integration rule: every important assumption appears once in the correct model channel with no contradictory units.</desc>
+  <rect x="12" y="12" width="696" height="256" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">One model path — integration</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Demand · capacity · cost · cash · legitimacy move together</text>
+
+  <rect x="60" y="72" width="120" height="50" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="120" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Hours cut</text>
+
+  <text x="200" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+
+  <rect x="220" y="72" width="120" height="50" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="280" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">K falls</text>
+
+  <text x="360" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+
+  <rect x="380" y="72" width="120" height="50" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="440" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Served ↓</text>
+
+  <text x="520" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" fill="#9a9488">→</text>
+
+  <rect x="540" y="72" width="120" height="50" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="600" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Unit cost ↑</text>
+  <text x="600" y="112" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">/ price</text>
+
+  <rect x="100" y="150" width="520" height="70" rx="8" fill="#003366"/>
+  <text x="360" y="180" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Integration rule</text>
+  <text x="360" y="202" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Each assumption once · correct channel · no double counting</text>
+
+  <text x="360" y="250" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Mitigation may raise cost but preserve access — keep ESG in the same path</text>
+
+</svg>
+<p class="wdiag-note">From Week 11 §2. New SVG. Pairs with #w11-viable-svg.</p>
+</figure>
+```
+
 ### The viability test
 
 

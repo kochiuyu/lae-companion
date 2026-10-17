@@ -565,6 +565,55 @@ Subscriptions and reservation fees transfer risk **only if** customers accept th
 
 **Connecting idea.** Hong Kong policy language has noted industry work on LAE insurance products that draw on Regulatory Sandbox data ([Glossary](glossary.qmd) / Policy Address citations there). That is evidence that **insurance product design is an active theme** — not evidence that any named operator already has cheap parametric cover, nor that Sandbox participation equals commercial insurance readiness. Treat premiums, exclusions, and basis risk as first-class model inputs when you claim a hedge.
 
+```{=html}
+<figure class="wdiag" id="w03-weather-svg" aria-labelledby="w03-weather-svg-title">
+<p class="wdiag-cap" id="w03-weather-svg-title"><strong>Weather hits more than revenue</strong> — lost trips; continued fixed costs; disruption/penalties; recovery; future trust. A warning does <strong>not</strong> mechanically ground every operation. Respond with ops resilience, contracts, insurance/parametric cover, and liquidity — <strong>none are free</strong>. Subscriptions transfer risk only if customers accept. Sandbox ≠ Sandbox X.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="Five impact cards and four response tools for weather risk, with a note that warnings do not automatically ground every flight." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="k3-title k3-desc">
+  <title id="k3-title">Weather hits more than revenue</title>
+  <desc id="k3-desc">Severe weather can hit an LAE business through lost trips and revenue; continued fixed costs; disruption and penalties; recovery costs; and lower future willingness to rely on the service. A weather warning does not mechanically ground every operation. Manage with operational resilience, contract design, insurance or parametric cover, and liquidity. None of these tools is free. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="246" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Weather hits more than revenue</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Warning ≠ automatic grounding · tools are not free</text>
+
+  <rect x="28" y="66" width="125" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="90" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Lost trips</text>
+  <text x="90" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">&amp; revenue</text>
+
+  <rect x="163" y="66" width="125" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="225" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Fixed costs</text>
+  <text x="225" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Still burn</text>
+
+  <rect x="298" y="66" width="125" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Disruption</text>
+  <text x="360" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Penalties</text>
+
+  <rect x="433" y="66" width="125" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="495" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Recovery</text>
+  <text x="495" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Inspect · MRO</text>
+
+  <rect x="568" y="66" width="125" height="70" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="630" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Trust</text>
+  <text x="630" y="116" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Next trip?</text>
+
+  <rect x="36" y="156" width="150" height="55" rx="6" fill="#003366"/>
+  <text x="111" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Ops resilience</text>
+
+  <rect x="202" y="156" width="150" height="55" rx="6" fill="#003366"/>
+  <text x="277" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Contracts</text>
+
+  <rect x="368" y="156" width="150" height="55" rx="6" fill="#003366"/>
+  <text x="443" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Insurance</text>
+
+  <rect x="534" y="156" width="150" height="55" rx="6" fill="#003366"/>
+  <text x="609" y="190" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#ffffff">Liquidity</text>
+
+  <text x="360" y="240" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Subscriptions transfer risk only if customers accept · Sandbox ≠ Sandbox X</text>
+
+</svg>
+<p class="wdiag-note">From Week 3 §8. New SVG. Weather ≠ auto-ground.</p>
+</figure>
+```
+
 ### Profit under a mixed-revenue sketch
 
 In words: add committed, usage, and any insurance cash; subtract fixed and variable operating cost plus premiums and service credits.
@@ -633,6 +682,56 @@ Hypotheses need a sequence. The **one-page tool map** walks investment → unit 
 | 8 | What if weather cuts open days? | Mixed-revenue profit + hedge costs |
 
 If step 6’s required activity exceeds step 4’s physical capacity, the model is inconsistent — fix price, cost, capacity, or the product before defending the case.
+
+```{=html}
+<figure class="wdiag" id="w03-toolmap-svg" aria-labelledby="w03-toolmap-svg-title">
+<p class="wdiag-cap" id="w03-toolmap-svg-title"><strong>From investment to cash</strong> — (1) assets/life → (2) cost stack → (3) unit → (4) unit cost at realistic utilization → (5) contribution → (6) breakeven / required activity → (7) who bears volume risk → (8) weather open days + hedge costs. If step 6 required activity exceeds step 4 physical capacity, the model is <strong>inconsistent</strong> — fix price, cost, capacity, or product.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Eight-step cost-to-cash tool map ending with a consistency check against physical capacity." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l1-title l1-desc">
+  <title id="l1-title">From investment to cash</title>
+  <desc id="l1-desc">Eight-step Week 3 tool map from investment to cash: daily asset allocation; cost stack; choose unit; unit cost at realistic utilization; contribution per unit; breakeven required activity; who bears volume risk; weather open days and hedge costs. If required activity exceeds physical capacity the model is inconsistent.</desc>
+  <rect x="12" y="12" width="696" height="236" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="28" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">From investment to cash</text>
+  <text x="360" y="46" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Eight checks · lock the stack before polishing CASK</text>
+
+  <rect x="28" y="60" width="155" height="52" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="105" y="82" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">1 · Assets / life</text>
+  <text x="105" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Daily allocation</text>
+
+  <rect x="198" y="60" width="155" height="52" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="82" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">2 · Cost stack</text>
+  <text x="275" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Fixed vs variable</text>
+
+  <rect x="368" y="60" width="155" height="52" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="82" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">3 · Unit</text>
+  <text x="445" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Seat-km / mission</text>
+
+  <rect x="538" y="60" width="155" height="52" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="615" y="82" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">4 · Unit cost</text>
+  <text x="615" y="98" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">At real util.</text>
+
+  <rect x="28" y="124" width="155" height="52" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="105" y="146" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">5 · Contribution</text>
+  <text x="105" y="162" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Rev − VC / unit</text>
+
+  <rect x="198" y="124" width="155" height="52" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="275" y="146" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">6 · Breakeven</text>
+  <text x="275" y="162" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Required activity</text>
+
+  <rect x="368" y="124" width="155" height="52" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="445" y="146" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">7 · Volume risk</text>
+  <text x="445" y="162" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Who bears it?</text>
+
+  <rect x="538" y="124" width="155" height="52" rx="5" fill="#003366"/>
+  <text x="615" y="146" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#ffffff">8 · Weather</text>
+  <text x="615" y="162" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#ffffff">Open days</text>
+
+  <rect x="50" y="196" width="620" height="40" rx="6" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">If required activity &gt; physical capacity → model is inconsistent</text>
+
+</svg>
+<p class="wdiag-note">From Week 3 §10. New SVG. Complements #w03-toolchain-svg and #w03-breakeven-svg.</p>
+</figure>
+```
 
 ---
 
