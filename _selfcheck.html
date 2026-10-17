@@ -1,6 +1,6 @@
 <!-- Self-check MCQs: private practice on week pages.
      Markup: .selfcheck > .selfcheck-q[data-correct="a|b|c|d"] with radios + .selfcheck-explain.
-     JS adds Check answer / Reset; no scores stored, no LMS. -->
+     JS adds Check answer / Reset; ✓/✗ feedback; no scores stored, no LMS. -->
 <script>
 (function () {
   function feedbackEl(q) {
@@ -36,8 +36,59 @@
     return actions;
   }
 
+  function clearMarks(q) {
+    q.querySelectorAll(".selfcheck-mark").forEach(function (el) {
+      el.remove();
+    });
+    q.querySelectorAll(".selfcheck-options > li").forEach(function (li) {
+      li.classList.remove("is-pick-ok", "is-pick-bad", "is-key");
+    });
+  }
+
+  function addMark(li, kind) {
+    if (!li) return;
+    var existing = li.querySelector(":scope > label > .selfcheck-mark, :scope > .selfcheck-mark");
+    if (existing) existing.remove();
+    var mark = document.createElement("span");
+    mark.className = "selfcheck-mark selfcheck-mark-" + kind;
+    mark.setAttribute("role", "img");
+    if (kind === "bad") {
+      mark.textContent = "✗";
+      mark.setAttribute("aria-label", "Incorrect");
+    } else {
+      mark.textContent = "✓";
+      mark.setAttribute("aria-label", "Correct");
+    }
+    var label = li.querySelector(":scope > label");
+    if (label) label.appendChild(mark);
+    else li.appendChild(mark);
+  }
+
+  function markOptions(q, selected, correct, ok) {
+    clearMarks(q);
+    q.querySelectorAll('.selfcheck-options input[type="radio"]').forEach(function (r) {
+      var li = r.closest("li");
+      if (!li) return;
+      var val = (r.value || "").trim().toLowerCase();
+      if (val === correct) {
+        li.classList.add("is-key");
+        if (!ok || r !== selected) addMark(li, "key");
+      }
+      if (r === selected) {
+        if (ok) {
+          li.classList.add("is-pick-ok");
+          addMark(li, "ok");
+        } else {
+          li.classList.add("is-pick-bad");
+          addMark(li, "bad");
+        }
+      }
+    });
+  }
+
   function clearState(q) {
     q.classList.remove("is-correct", "is-incorrect", "is-checked");
+    clearMarks(q);
     var fb = q.querySelector(":scope > .selfcheck-feedback");
     if (fb) {
       fb.hidden = true;
@@ -58,6 +109,7 @@
     var explain = q.querySelector(":scope > .selfcheck-explain");
     q.classList.add("is-checked");
     q.classList.remove("is-correct", "is-incorrect");
+    clearMarks(q);
 
     if (!selected) {
       fb.hidden = false;
@@ -71,7 +123,11 @@
     q.classList.add(ok ? "is-correct" : "is-incorrect");
     fb.hidden = false;
     fb.className = "selfcheck-feedback " + (ok ? "selfcheck-feedback-ok" : "selfcheck-feedback-bad");
-    fb.textContent = ok ? "Correct." : "Not quite — see the brief explanation below.";
+    /* Unicode tick/cross + words so feedback is never icon-only */
+    fb.textContent = ok
+      ? "✓ Correct."
+      : "✗ Not quite — see the brief explanation below.";
+    markOptions(q, selected, correct, ok);
     if (explain) explain.hidden = false;
   }
 
