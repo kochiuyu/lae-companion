@@ -3,6 +3,9 @@ title: "Common questions"
 subtitle: "Ten short answers for first-time learners"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 toc: true
 toc-location: right
 toc-title: "Questions"

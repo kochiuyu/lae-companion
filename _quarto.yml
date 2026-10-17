@@ -29,6 +29,7 @@ project:
     - weeks.qmd
     - lectures.qmd
     - notes-w1.qmd
+    - briefings.qmd
     - formulas.qmd
     - tables.qmd
     - figures.qmd

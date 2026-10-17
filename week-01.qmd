@@ -16,7 +16,7 @@ format:
 
 **Slides (PDF):** [week01-introduction.pdf](slides/week01-introduction.pdf)
 
-**If you are new to the topic**, start with:
+**Orient refreshers** (if you are new to the topic):
 
 - [What is LAE?](primer.qmd) — plain-English orientation  
 - [How does LAE work?](business-overview.qmd) — roles in the value chain  

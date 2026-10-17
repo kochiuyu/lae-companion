@@ -3,6 +3,9 @@ title: "Government news"
 subtitle: "Dated government and regulatory items"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 ---
 
 ## Standing note

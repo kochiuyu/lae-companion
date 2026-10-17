@@ -1295,3 +1295,21 @@ body.page-week .wdiag.wdiag-text {
   }
 }
 
+
+
+/* ============================================================
+   Long article hubs (.page-prose): readable measure outside Teach.
+   body-classes: "page-prose" on glossary / news / industry / faq.
+   Skip landscape + tracker (table-heavy full layouts).
+   ============================================================ */
+body.page-prose #quarto-document-content,
+body.page-prose main.content {
+  max-width: 48rem;
+}
+
+@media (min-width: 992px) {
+  body.page-prose.layout-article #quarto-document-content,
+  body.page-prose #quarto-document-content {
+    max-width: 46rem;
+  }
+}

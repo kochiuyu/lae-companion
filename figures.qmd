@@ -12,10 +12,10 @@ Index of **teaching diagrams** (`.wdiag`) from the week notes. Diagrams stay on 
 
 ## Jump by theme
 
-- [Competition](#week-02) · [Cost](#week-03) · [Demand / GC](#week-04)
-- [Infrastructure](#week-05) · [Partnerships](#week-06) · [Regulation / readiness](#week-07)
-- [Airspace / slots](#week-08) · [Market sizing / social](#week-09) · [Risk & sustainability](#week-10)
-- [Investment / viability](#week-11) · [Networks / leasing](#week-12) · [Scope / entry](#week-01)
+- [Scope / entry](#week-01) · [Competition](#week-02) · [Cost](#week-03)
+- [Demand / GC](#week-04) · [Infrastructure](#week-05) · [Partnerships](#week-06)
+- [Regulation / readiness](#week-07) · [Airspace / slots](#week-08) · [Market sizing / social](#week-09)
+- [Risk & sustainability](#week-10) · [Investment / viability](#week-11) · [Networks / leasing](#week-12)
 
 Week index: [W1](#week-01) · [W2](#week-02) · [W3](#week-03) · [W4](#week-04) · [W5](#week-05) · [W6](#week-06) · [W7](#week-07) · [W8](#week-08) · [W9](#week-09) · [W10](#week-10) · [W11](#week-11) · [W12](#week-12)
 

@@ -3,6 +3,9 @@ title: "Glossary"
 subtitle: "Terms and diagrams you can cite"
 as_of: "2026-10-17"
 page-layout: article
+format:
+  html:
+    body-classes: "page-prose"
 toc: true
 toc-location: right
 toc-title: "Sections"
