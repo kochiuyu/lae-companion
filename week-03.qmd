@@ -475,6 +475,34 @@ $$
 
 Compare that target with physical capacity, operating hours, charging, maintenance, weather, and expected demand. This required-activity number is **not** the usual statistical “utilization rate” (actual use ÷ available capacity or time). Revenue management can improve contribution; it cannot invent unlimited capacity or demand.
 
+```{=html}
+<figure class="wdiag" id="w03-breakeven-svg" aria-labelledby="w03-breakeven-svg-title">
+<p class="wdiag-cap" id="w03-breakeven-svg-title"><strong>Breakeven volume</strong> — breakeven units = fixed cost ÷ (revenue per unit − variable cost per unit). Denominator = <strong>contribution margin</strong> per unit. Daily form: required missions/day = fixed daily cost ÷ contribution margin per mission. Compare with capacity, hours, charging, weather, and demand — required activity is <strong>not</strong> an automatic traffic forecast. Classroom units only.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Breakeven formula strip flowing to a required missions per day form, with a note to compare against capacity and demand." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="j1-title j1-desc">
+  <title id="j1-title">Breakeven volume</title>
+  <desc id="j1-desc">Breakeven units equal fixed cost divided by contribution margin per unit, where contribution margin is revenue per unit minus variable cost per unit. Equivalently, required missions per day equal fixed daily cost divided by contribution margin per mission. Compare the target with physical capacity, hours, charging, weather and expected demand. Classroom units only.</desc>
+  <rect x="12" y="12" width="696" height="316" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Breakeven volume</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">One consistent unit · contribution in the denominator</text>
+
+  <rect x="80" y="72" width="560" height="70" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#003366">Breakeven units = FC ÷ (rev/unit − VC/unit)</text>
+  <text x="360" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Denominator = contribution margin per unit</text>
+
+  <text x="360" y="164" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ daily activity form</text>
+
+  <rect x="100" y="176" width="520" height="50" rx="8" fill="#003366"/>
+  <text x="360" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Required missions/day = fixed daily ÷ CM/mission</text>
+
+  <rect x="60" y="250" width="600" height="60" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="276" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Compare with capacity · hours · charging · weather · demand</text>
+  <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Required activity ≠ automatic traffic forecast</text>
+
+</svg>
+<p class="wdiag-note">From Week 3 §7. New SVG. Formula as already on the page.</p>
+</figure>
+```
+
 ### Worked illustration (price and breakeven)
 
 **Assumptions (illustrative):** fixed cost **HK$20,000/day**; variable cost **HK$100 per mission**.

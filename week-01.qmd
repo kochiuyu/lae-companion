@@ -331,6 +331,43 @@ Traditional scheduled aviation typically uses large, expensive aircraft, large c
 
 **Managerial implication:** a fast aircraft does not automatically create a valuable *service*.
 
+```{=html}
+<figure class="wdiag" id="w01-differs-svg" aria-labelledby="w01-differs-svg-title">
+<p class="wdiag-cap" id="w01-differs-svg-title"><strong>LAE is not a mini-airline</strong> — short-distance, high-frequency operations; an <strong>entire ecosystem</strong> (sites, charging, digital coordination, insurance, maintenance) — not only an airframe; different cost structures, operating models, and regulatory needs. <strong>Managerial implication:</strong> a fast aircraft does not automatically create a valuable *service*. Structural contrasts only — no invented Hong Kong fare data.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-label="Three cards for short-distance high-frequency operations, whole ecosystem, and different cost operations and regulation, with a strip that a fast aircraft is not automatically a valuable service." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="i1-title i1-desc">
+  <title id="i1-title">LAE is not a mini-airline</title>
+  <desc id="i1-desc">How LAE differs from traditional aviation: short-distance high-frequency operations; an entire ecosystem of sites, charging, digital coordination, insurance and maintenance — not only an airframe; different cost structures, operating models and regulatory needs. A fast aircraft does not automatically create a valuable service. Structural contrasts only — no invented Hong Kong fare data.</desc>
+  <rect x="12" y="12" width="696" height="286" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">LAE is not a mini-airline</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Short-haul · ecosystem · different cost structure</text>
+
+  <rect x="36" y="70" width="200" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="136" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Short-distance</text>
+  <text x="136" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">high-frequency</text>
+  <text x="136" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Inside / between</text>
+  <text x="136" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">cities</text>
+
+  <rect x="260" y="70" width="200" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Whole ecosystem</text>
+  <text x="360" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Sites · charging</text>
+  <text x="360" y="146" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">digital · insurance</text>
+  <text x="360" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Not airframe alone</text>
+
+  <rect x="484" y="70" width="200" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="584" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Cost · ops ·</text>
+  <text x="584" y="120" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">regulation</text>
+  <text x="584" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Not long-haul</text>
+  <text x="584" y="168" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">airline economics</text>
+
+  <rect x="60" y="214" width="600" height="70" rx="8" fill="#003366"/>
+  <text x="360" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">A fast aircraft ≠ a valuable service</text>
+  <text x="360" y="264" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Structural contrasts only — no invented Hong Kong fare data</text>
+
+</svg>
+<p class="wdiag-note">From Week 1 §2. New SVG. No invented HK fares.</p>
+</figure>
+```
+
 ### What “different cost structure” means in practice
 
 Three contrasts matter for later weeks:
