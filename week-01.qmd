@@ -535,20 +535,6 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 ### The HK$350 billion projection
 
 ```{=html}
-<figure class="wdiag wdiag-text" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w01-ohkf-title"><strong>Reading the OHKF HK$350bn figure</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box fact"><strong>What it is</strong><br/>Our Hong Kong Foundation (private think-tank) scenario projection for Hong Kong industry <em>value added</em> by 2050; supporting services are the majority in that report.</div>
-<div class="wdiag-box muted"><strong>What it is not</strong><br/>Not a government target; not operator revenue; not automatic GDP; not a single firm’s obtainable market.</div>
-</div>
-<p class="wdiag-note">Cite Key numbers / Readings. Do not merge with Mainland scale totals.</p>
-</details>
-</figure>
-```
-
-```{=html}
 <figure class="wdiag wdiag-svg" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
 <p class="wdiag-cap" id="w01-ohkf-svg-title"><strong>Reading the OHKF HK$350bn figure</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue. Attribution: name OHKF, metric, geography, horizon. Sandbox selection ≠ market share. Twin discipline with Week 9 `#w09-ohkf-350`.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="f7-title f7-desc">
@@ -578,7 +564,7 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
   <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cite Key numbers / Readings · Sandbox ≠ market share</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §5. SVG upgrade of HTML #w01-ohkf. OHKF value-added projection only.</p>
+<p class="wdiag-note">From Week 1 §5. OHKF value-added projection only.</p>
 </figure>
 ```
 

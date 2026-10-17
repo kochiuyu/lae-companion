@@ -189,25 +189,6 @@ NASA-sponsored UAM market studies use detailed demand models; the four-step stru
 
 ### Managerial demand funnel
 
-```{=html}
-<figure class="wdiag wdiag-text" id="w04-funnel" aria-labelledby="w04-funnel-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w04-funnel-title"><strong>Demand funnel with a capacity screen</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>Relevant trips / missions</strong> (defined OD, customer, period)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ eligibility</div>
-<div class="wdiag-box"><strong>Serviceable demand</strong></div>
-<div class="wdiag-arrow" aria-hidden="true">↓ choice share (price, GC, quality)</div>
-<div class="wdiag-box"><strong>Potential operator demand</strong></div>
-<div class="wdiag-arrow" aria-hidden="true">↓ min with reliable capacity K</div>
-<div class="wdiag-box fact"><strong>Served activity</strong><br/>Cannot exceed what aircraft, sites, hours, weather, and permissions allow.</div>
-</div>
-<p class="wdiag-note">Do not invent published Hong Kong corridor volumes. Worked funnel numbers below are classroom assumptions.</p>
-</details>
-</figure>
-```
-
 In words: start from relevant trips, keep only the share on your corridor, then keep only the share that chooses your mode — that product is **potential** passenger-trips. Served trips cannot exceed available capacity.
 
 $$
