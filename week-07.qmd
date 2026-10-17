@@ -431,15 +431,9 @@ In words: form expected approved value, then peel off compliance cost and delay 
 
 $$
 \begin{aligned}
-V_{\mathrm{appr}}
-&= \Pr(\text{approval}) \\
-&\quad \times V_{\mathrm{proj}} \\
-V_{\mathrm{net}}
-&= V_{\mathrm{appr}} \\
-&\quad - C_{\mathrm{comp}} \\
-V_{\mathrm{comp}}
-&= V_{\mathrm{net}} \\
-&\quad - C_{\mathrm{delay}}
+V_{\mathrm{appr}} &= \Pr(\text{approval}) \times V_{\mathrm{proj}} \\
+V_{\mathrm{net}} &= V_{\mathrm{appr}} - C_{\mathrm{comp}} \\
+V_{\mathrm{comp}} &= V_{\mathrm{net}} - C_{\mathrm{delay}}
 \end{aligned}
 $$
 
