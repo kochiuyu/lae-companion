@@ -68,6 +68,36 @@ About **HK$350 billion** by 2050 is an **Our Hong Kong Foundation** projection (
 
 See [Key figures](key-figures.qmd) and [Official status](tracker.qmd).
 
+```{=html}
+<figure class="wdiag" id="faq-two-facts-svg" aria-labelledby="faq-two-facts-svg-title">
+<p class="wdiag-cap" id="faq-two-facts-svg-title"><strong>Two FAQ facts to keep straight</strong> — (1) <strong>Regulatory Sandbox ≠ Sandbox X</strong> (two different trial programmes — not one combined list). (2) Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> — on evidence tracked here, <strong>not</strong> day-to-day flying. Also: OHKF <strong>HK$350bn</strong> by 2050 is a private <strong>value-added</strong> projection — <strong>not</strong> a government number. See <a href="regulators.qmd">Who decides what?</a> · <a href="key-figures.qmd">Key figures</a>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Two cards for Sandbox not equal Sandbox X and corridor not day-to-day flying, plus an OHKF value-added attribution strip." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l4-title l4-desc">
+  <title id="l4-title">Two FAQ facts to keep straight</title>
+  <desc id="l4-desc">Hong Kong has two different trial programmes: an early Regulatory Sandbox and a later Sandbox X. Do not treat them as one combined list. A Shenzhen–Hong Kong or GBA cross-boundary corridor is discussed in policy; on the evidence tracked on this site it is not an operating corridor yet — not day-to-day service. The about HK$350 billion by 2050 figure is an Our Hong Kong Foundation value-added projection — not a government number.</desc>
+  <rect x="12" y="12" width="696" height="266" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Two FAQ facts to keep straight</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Plus: OHKF HK$350bn ≠ government target</text>
+
+  <rect x="36" y="70" width="310" height="120" rx="8" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="191" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Sandbox ≠ Sandbox X</text>
+  <text x="191" y="132" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Two different trial</text>
+  <text x="191" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">programmes</text>
+  <text x="191" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Not one combined list</text>
+
+  <rect x="374" y="70" width="310" height="120" rx="8" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="529" y="104" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Corridor not flying</text>
+  <text x="529" y="132" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">Policy idea under</text>
+  <text x="529" y="150" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#1a1a1a">discussion</text>
+  <text x="529" y="174" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Not day-to-day service</text>
+
+  <rect x="80" y="214" width="560" height="50" rx="8" fill="#003366"/>
+  <text x="360" y="246" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">OHKF HK$350bn = value-added projection — not a gov number</text>
+
+</svg>
+<p class="wdiag-note">From FAQ §§4–6. New SVG. Site chrome with fact discipline.</p>
+</figure>
+```
+
 ## 7. Who decides what in Hong Kong?
 
 Short roles:

@@ -496,6 +496,49 @@ Define baseline, target, measurement method, frequency, owner, assurance, and co
 
 **Mitigation scorecard (classroom):** for each material impact (noise, privacy, climate, equity), record measure, KPI, and payer. Do **not** assume a 60 dB limit or a fixed number of free public-service flights. Define thresholds from evidence, regulation, operating context, and stakeholder agreement.
 
+```{=html}
+<figure class="wdiag" id="w10-kpi-svg" aria-labelledby="w10-kpi-svg-title">
+<p class="wdiag-cap" id="w10-kpi-svg-title"><strong>Sustainability KPIs need owners</strong> — noise, climate (kg CO₂e / passenger-km with LCA boundary), privacy, equity, governance. Define baseline, target, measurement method, frequency, <strong>owner</strong>, assurance, and corrective action. There is <strong>no</strong> universal CAD or investor LAE ESG score. Classroom mitigation scorecard only.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="Five KPI area cards for noise climate privacy equity and governance with a strip that there is no universal LAE ESG score." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="l3-title l3-desc">
+  <title id="l3-title">Sustainability KPIs need owners</title>
+  <desc id="l3-desc">Five sustainability KPI areas: noise with population-weighted exposure; climate with kilograms CO2e per passenger-kilometre and life-cycle boundary; privacy with personal-data incidents; equity with service availability by area; governance with complaints resolved on time. Define baseline, target, measurement method, frequency, owner, assurance and corrective action. There is no universal CAD or investor LAE ESG score.</desc>
+  <rect x="12" y="12" width="696" height="246" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Sustainability KPIs need owners</text>
+  <text x="360" y="50" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Baseline · target · method · frequency · owner · corrective action</text>
+
+  <rect x="28" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="90" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Noise</text>
+  <text x="90" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Exposure by</text>
+  <text x="90" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">route / period</text>
+
+  <rect x="163" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="225" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Climate</text>
+  <text x="225" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">kg CO₂e /</text>
+  <text x="225" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">pax-km · LCA</text>
+
+  <rect x="298" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Privacy</text>
+  <text x="360" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Data incidents</text>
+  <text x="360" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">+ severity</text>
+
+  <rect x="433" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="495" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Equity</text>
+  <text x="495" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Availability</text>
+  <text x="495" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">by area</text>
+
+  <rect x="568" y="66" width="125" height="100" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="630" y="100" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Governance</text>
+  <text x="630" y="124" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">Complaints</text>
+  <text x="630" y="142" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" fill="#5f5f5f">on time</text>
+
+  <rect x="60" y="190" width="600" height="50" rx="8" fill="#003366"/>
+  <text x="360" y="222" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#ffffff">No universal LAE ESG score — name boundary and owner</text>
+
+</svg>
+<p class="wdiag-note">From Week 10 §8. New SVG.</p>
+</figure>
+```
+
 ### One-page tool map (from externality to KPI)
 
 | Step | Ask | Output |
@@ -510,6 +553,64 @@ Define baseline, target, measurement method, frequency, owner, assurance, and co
 | 8 | $\Pi_{\mathrm{net}}$ with explicit $P_{\mathrm{PS}}$ and opportunity cost? | Funded public-service commitment |
 | 9 | KPI: baseline, owner, frequency, corrective action? | Mitigation scorecard row |
 | 10 | Sandbox ≠ Sandbox X; Policy Address / Action Plan cited to issuer only | Fact discipline |
+
+```{=html}
+<figure class="wdiag" id="w10-toolmap-svg" aria-labelledby="w10-toolmap-svg-title">
+<p class="wdiag-cap" id="w10-toolmap-svg-title"><strong>From externality to KPI</strong> — (1) impacts → (2) noise instrument → (3) privacy / C_priv → (4) carbon <strong>appraisal dial</strong> (<strong>not</strong> invented CAD tax) → (5) sourced grid factor → (6) LCA same boundary → (7) acceptance by use case → (8) funded public-service $ → (9) KPI row with owner → (10) <strong>Sandbox ≠ Sandbox X</strong>; cite Policy Address / Action Plan to <strong>issuer only</strong>.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" aria-label="Ten-step sustainability tool map ending in fact discipline on sandboxes and issuer-only citations." style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m1-title m1-desc">
+  <title id="m1-title">From externality to KPI</title>
+  <desc id="m1-desc">Ten-step Week 10 tool map from externality to KPI: impact list; noise instrument screen; privacy controls; carbon value for appraisal only not invented CAD tax; scope 2 with sourced grid factor; LCA same boundary; acceptance by use case; funded public-service commitment; mitigation scorecard row; Sandbox not Sandbox X and cite Policy Address or Action Plan to issuer only.</desc>
+  <rect x="12" y="12" width="696" height="226" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="28" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#003366">From externality to KPI</text>
+  <text x="360" y="46" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Measure · instrument · boundary · owner</text>
+
+  <rect x="24" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="89" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">1 · Impacts</text>
+  <text x="89" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Who is affected</text>
+
+  <rect x="162" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="227" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">2 · Noise tool</text>
+  <text x="227" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Charge/curfew</text>
+
+  <rect x="300" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="365" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">3 · Privacy</text>
+  <text x="365" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">C_priv channel</text>
+
+  <rect x="438" y="58" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="503" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">4 · Carbon</text>
+  <text x="503" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Appraisal dial</text>
+
+  <rect x="576" y="58" width="120" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="636" y="78" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">5 · Grid f</text>
+  <text x="636" y="94" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Sourced</text>
+
+  <rect x="24" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="89" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">6 · LCA</text>
+  <text x="89" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Same boundary</text>
+
+  <rect x="162" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="227" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">7 · Accept</text>
+  <text x="227" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">By use case</text>
+
+  <rect x="300" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="365" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">8 · Public $</text>
+  <text x="365" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Funded PS</text>
+
+  <rect x="438" y="118" width="130" height="48" rx="5" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="503" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#003366">9 · KPI row</text>
+  <text x="503" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#5f5f5f">Owner + fix</text>
+
+  <rect x="576" y="118" width="120" height="48" rx="5" fill="#003366"/>
+  <text x="636" y="138" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="10" font-weight="700" fill="#ffffff">10 · Facts</text>
+  <text x="636" y="154" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="9" fill="#ffffff">Cite issuer</text>
+
+  <rect x="40" y="182" width="640" height="40" rx="6" fill="#ffffff" stroke="#C5A572" stroke-width="2"/>
+  <text x="360" y="208" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#003366">Carbon dial ≠ claimed CAD tax · Sandbox ≠ Sandbox X</text>
+
+</svg>
+<p class="wdiag-note">From Week 10 §8 tool map. New SVG. Complements #w10-carbon-dial-svg and #w10-kpi-svg.</p>
+</figure>
+```
 
 ---
 
