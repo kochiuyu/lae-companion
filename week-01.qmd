@@ -76,29 +76,6 @@ By the end of Week 1 you should be able to:
 
 ## 1. What is the low-altitude economy?
 
-
-```{=html}
-<figure class="wdiag wdiag-text" id="w01-system" aria-labelledby="w01-system-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w01-system-title"><strong>LAE as a system (roles)</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>Customers / missions</strong><br/>Need time savings, access, inspection, logistics, or public service.</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>Operators</strong><br/>Deliver the flight or mission under applicable permissions.</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ spend on inputs</div>
-<div class="wdiag-row">
-<div class="wdiag-box"><strong>Aircraft</strong></div>
-<div class="wdiag-box"><strong>Sites / pads</strong></div>
-<div class="wdiag-box"><strong>Digital coordination</strong></div>
-<div class="wdiag-box"><strong>Insurance &amp; services</strong></div>
-</div>
-</div>
-<p class="wdiag-note">Roles only — not market shares or firm names. See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
-</details>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-system-svg" aria-labelledby="w01-system-svg-title">
 <p class="wdiag-cap" id="w01-system-svg-title"><strong>LAE as a system (roles)</strong> — customers/missions → operators (under applicable permissions) → aircraft, sites/pads, digital coordination, insurance &amp; services. Roles only — not market shares or firm names. Wide definition: not only “flying cars” or “drones.” See also <a href="business-overview.qmd">How does LAE work?</a>.</p>
@@ -137,10 +114,9 @@ By the end of Week 1 you should be able to:
   <text x="360" y="320" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Wide definition: not only “flying cars” or “drones” · see also How does LAE work?</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §1. SVG upgrade of HTML #w01-system. Distinct from business-overview value-chain pay flow.</p>
+<p class="wdiag-note">From Week 1 §1. Distinct from business-overview value-chain pay flow.</p>
 </figure>
 ```
-
 
 [**Low-altitude economy (LAE)**](glossary.qmd#lae) means economic activity that uses low-altitude airspace — together with the aircraft, physical sites, digital systems, operators, customers, and supporting services needed to deliver a mission.
 
@@ -558,21 +534,6 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
 
 ### The HK$350 billion projection
 
-
-```{=html}
-<figure class="wdiag wdiag-text" id="w01-ohkf" aria-labelledby="w01-ohkf-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w01-ohkf-title"><strong>Reading the OHKF HK$350bn figure</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box fact"><strong>What it is</strong><br/>Our Hong Kong Foundation (private think-tank) scenario projection for Hong Kong industry <em>value added</em> by 2050; supporting services are the majority in that report.</div>
-<div class="wdiag-box muted"><strong>What it is not</strong><br/>Not a government target; not operator revenue; not automatic GDP; not a single firm’s obtainable market.</div>
-</div>
-<p class="wdiag-note">Cite Key numbers / Readings. Do not merge with Mainland scale totals.</p>
-</details>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w01-ohkf-svg" aria-labelledby="w01-ohkf-svg-title">
 <p class="wdiag-cap" id="w01-ohkf-svg-title"><strong>Reading the OHKF HK$350bn figure</strong> — Our Hong Kong Foundation (2025) projects about <strong>HK$350 billion</strong> in Hong Kong LAE industry <strong>value added</strong> by <strong>2050</strong>. Private think-tank scenario — <strong>not</strong> a government target, not operator revenue, not automatic GDP, not a single-firm SOM, and not Mainland 规模 totals. Value added ≠ revenue. Attribution: name OHKF, metric, geography, horizon. Sandbox selection ≠ market share. Twin discipline with Week 9 `#w09-ohkf-350`.</p>
@@ -603,10 +564,9 @@ Why might LAE matter for Hong Kong? Low-altitude airspace adds a **third dimensi
   <text x="360" y="296" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#ffffff">Cite Key numbers / Readings · Sandbox ≠ market share</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §5. SVG upgrade of HTML #w01-ohkf. OHKF value-added projection only.</p>
+<p class="wdiag-note">From Week 1 §5. OHKF value-added projection only.</p>
 </figure>
 ```
-
 
 You will also see a private projection: that Hong Kong’s LAE-related industries could generate about **HK$350 billion** in annual **industry value added by 2050**, with a large share in supporting services.
 
@@ -636,11 +596,9 @@ Sections 1–5 defined the field. Sections 6–8 open the **quantitative toolkit
 
 Time-related benefit per trip:
 
-
 $$
 \text{Value of time saved per trip} = \text{VOT} \times \Delta T
 $$
-
 
 where $\Delta T$ is time saved relative to the best alternative (same time units as VOT).
 
@@ -652,11 +610,9 @@ Customer value is only step one. Investors still ask whether the **cash stream**
 
 **Net present value (NPV)** asks whether the future cash a project generates is enough to justify the investment made today, under stated assumptions:
 
-
 $$
 \text{NPV} = -\text{Initial investment} + \text{Present value of future profits}
 $$
-
 
 | NPV result (under stated assumptions) | Interpretation |
 |---------------------------------------|----------------|
@@ -722,7 +678,7 @@ $$
   <text x="360" y="294" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">WTP needs capture; capture needs NPV — sandbox ≠ proof of NPV</text>
 
 </svg>
-<p class="wdiag-note">From Week 1 §6 three-step viability screen. New SVG (no prior HTML twin).</p>
+<p class="wdiag-note">From Week 1 §6 three-step viability screen.</p>
 </figure>
 ```
 
@@ -748,11 +704,9 @@ When travellers choose among MTR, taxi, or a hypothetical air taxi, they conside
 
 Economists often combine money and time into [**generalized cost (GC)**](glossary.qmd#generalised-cost):
 
-
 $$
 \text{Generalized cost} = \text{Ticket price} + \text{VOT} \times \text{Travel time}
 $$
-
 
 All else equal, the customer prefers the option with **lower** generalized cost. A faster mode can charge more, but **only up to the value of the time it actually saves** on the full journey.
 
@@ -796,11 +750,9 @@ All else equal, the customer prefers the option with **lower** generalized cost.
 
 Rearrange the indifference condition. If the alternative mode has generalized cost $GC_A$ and the air option takes time $T_{\text{air}}$, the maximum fare that keeps the traveller indifferent (ignoring comfort and reliability) is:
 
-
 $$
 P_{\max} = GC_A - \text{VOT}\times T_{\text{air}}
 $$
-
 
 That is exactly the Airport Express screen in [§8.2](#82-finding-a-maximum-ticket-price-against-airport-express). Notice what is missing: waiting at the vertiport, access time to the pad, cancellation risk, and perceived safety. Adding friction raises $T_{\text{air}}$ or lowers effective VOT for the air option — which is why [§8.1](#81-door-to-door-friction-destroys-value) destroys value even when cruise time is unchanged.
 
@@ -904,19 +856,15 @@ The next two examples apply VOT and generalized cost. Figures are **illustrative
 
 **Airport Express (assumed for the exercise):** ticket HK$115; journey 24 minutes. (The HK$115 figure is used as a classroom anchor for the formula — treat it as part of the illustrative setup, not as a claim about every fare class or access journey.)
 
-
 $$
 GC_{\text{MTR}} = 115 + 10\times 24 = \mathbf{HK\$355}
 $$
 
-
 **Air taxi (assumed):** journey 8 minutes. Match the same generalized cost:
-
 
 $$
 P + 10\times 8 = 355 \implies P = \mathbf{HK\$275}
 $$
-
 
 Under these simplified assumptions, **HK$275** makes the traveller indifferent. Actual demand also depends on waiting, access, reliability, comfort, and perceived safety — none of which are in the short formula.
 
@@ -992,7 +940,6 @@ Roles-only money-and-value map (no firm names): [How does LAE work?](business-ov
 
 One teaching decomposition of an air-taxi fare:
 
-
 $$
 \begin{aligned}
 \text{Ticket price} =\ &\text{Aircraft cost} + \text{Vertiport fee} + \text{Energy} \\
@@ -1000,7 +947,6 @@ $$
 &+ \text{Insurance and overhead} + \text{Operator margin}.
 \end{aligned}
 $$
-
 
 Different participants may charge usage fees, lease payments, or service fees. The **operator** typically faces direct demand risk (attract customers; fill capacity). Infrastructure and platform providers may face less *direct* passenger risk, but they still depend on traffic volume and bear investment, technology, and regulatory risk.
 
@@ -1141,14 +1087,12 @@ With programmes named correctly, summarise economically what a sandbox can chang
 
 ### Entry barriers as a simple sum
 
-
 $$
 \begin{aligned}
 \text{Entry barrier} =\ &\text{Investment cost} + \text{Compliance cost} \\
 &+ \text{Cost of delay} + \text{Uncertainty}.
 \end{aligned}
 $$
-
 
 | Component | Plain meaning |
 |-----------|----------------|
@@ -1193,7 +1137,6 @@ Airlines amortise expensive aircraft across hundreds of seats. Many eVTOL concep
 
 [Unit cost](glossary.qmd#unit-cost):
 
-
 $$
 \begin{aligned}
 \text{Cost per passenger}
@@ -1201,7 +1144,6 @@ $$
 &+ \frac{\text{Daily fixed cost}}{\text{Flights per day}\times\text{Seats per flight}\times\text{Load factor}}.
 \end{aligned}
 $$
-
 
 | Driver | Meaning |
 |--------|---------|
@@ -1291,7 +1233,6 @@ Pull the thread: system definition → value → Hong Kong scale with correct at
 Short checklist: [Summary](#summary).
 
 ---
-
 
 ### Study checklist {#study-checklist}
 

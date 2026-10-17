@@ -90,25 +90,6 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 
 ## 2. The airspace bottleneck
 
-
-```{=html}
-<figure class="wdiag wdiag-text" id="w08-capacity" aria-labelledby="w08-capacity-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w08-capacity-title"><strong>Whole-system capacity (not drones-per-minute)</strong></p>
-<div class="wdiag-row">
-<div class="wdiag-box"><strong>Route / separation</strong></div>
-<div class="wdiag-box"><strong>Surveillance &amp; C2</strong></div>
-<div class="wdiag-box"><strong>Weather &amp; hours</strong></div>
-<div class="wdiag-box"><strong>Vertiport / charging</strong></div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ whichever binds first sets reliable K</div>
-<div class="wdiag-box fact"><strong>Fact discipline</strong><br/>Cap. 448G height bands ≠ ~1,000 m policy working description. Do not invent Harbour corridor capacity. Keep Sandbox ≠ Sandbox X; OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</div>
-<p class="wdiag-note">Classroom delay and bid numbers later are teaching screens, not published CAD capacities. Text twin of SVG <code>#w08-capacity-svg</code> — no invented corridor <em>K</em>.</p>
-</details>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-capacity-svg" aria-labelledby="w08-capacity-svg-title">
 <p class="wdiag-cap" id="w08-capacity-svg-title"><strong>Whole-system capacity (not drones-per-minute)</strong> — route/separation, surveillance &amp; C2, weather &amp; hours, and vertiport/charging jointly set what can be served safely. Reliable capacity is whichever link binds first — not a published drones-per-minute number. Cap. 448G height bands ≠ ~1,000 m policy working description; Sandbox ≠ Sandbox X; do not invent Harbour corridor capacity. OFCA 1.4 GHz Sandbox confinement ≠ AC-017.</p>
@@ -154,7 +135,7 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
   <text x="360" y="300" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#003366">Fact discipline</text>
   <text x="360" y="318" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Cap. 448G height ≠ ~1,000 m policy band · Sandbox ≠ Sandbox X · no invented Harbour K</text>
 </svg>
-<p class="wdiag-note">From Week 8 §2. SVG upgrade of HTML #w08-capacity. Distinct from #w08-bind-first (binding-link diagnose).</p>
+<p class="wdiag-note">From Week 8 §2. Distinct from #w08-bind-first (binding-link diagnose).</p>
 </figure>
 ```
 
@@ -209,7 +190,6 @@ Section 1 opened with an 8:00 AM conflict. Zoom out: the **airspace bottleneck**
 </figure>
 ```
 
-
 Airspace capacity is **not** simply a fixed number of drones per minute. Safe capacity depends on route geometry, separation, aircraft performance, surveillance, communications, weather, contingency routes, human oversight, and interactions with other airspace users. Vertiport capacity, charging, passenger processing, and available stands may bind **before** the corridor itself. Demand above reliable capacity creates delay, displacement, cancellation, or the need for another route or time.
 
 Hong Kong facts to keep straight ([Key numbers](key-figures.qmd) · [Glossary](glossary.qmd)):
@@ -248,14 +228,12 @@ In words: sum additional delay times value of delay across affected users, then 
 - $C_{\mathrm{other}}$ — other incremental costs  
 - $\mathrm{MCC}$ — marginal congestion cost  
 
-
 $$
 \begin{aligned}
 S_{\mathrm{delay}} &= \sum_j \left( D_j \times v_j \right) \\
 \mathrm{MCC} &= S_{\mathrm{delay}} + C_{\mathrm{other}}
 \end{aligned}
 $$
-
 
 Sum the incremental delay imposed on **all** affected users, not only the next aircraft. Values may differ across passengers, cargo, aircraft, public services, and schedule commitments. The theoretically efficient charge equals marginal external cost — that cost is hard to observe precisely in real time, so a practical peak charge may use estimated bands and periodic review.
 
@@ -355,23 +333,6 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
 
 ## 4. Mechanism design and slot allocation
 
-
-```{=html}
-<figure class="wdiag wdiag-text" id="w08-mech" aria-labelledby="w08-mech-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w08-mech-title"><strong>Allocation families (choose with criteria)</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Administrative</strong><br/>Schedule, rotation, FCFS, public-service priority</div>
-<div class="wdiag-box"><strong>Posted prices</strong><br/>Peak / off-peak charges</div>
-<div class="wdiag-box"><strong>Auctions</strong><br/>Bids for scarce windows — need safeguards</div>
-<div class="wdiag-box"><strong>Packages</strong><br/>Linked pad + corridor + charging</div>
-</div>
-<p class="wdiag-note">High willingness to pay ≠ automatic social priority. Failure to obtain a linked slot → reject/reschedule, not unsafe flight.</p>
-</details>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w08-mech-svg" aria-labelledby="w08-mech-svg-title">
 <p class="wdiag-cap" id="w08-mech-svg-title"><strong>Allocation families — choose with criteria</strong> — administrative (schedule, rotation, FCFS, public-service priority); posted prices (peak/off-peak); auctions (scarce windows — need safeguards); packages (linked pad + corridor + charging). High willingness to pay ≠ automatic social priority. No linked slot → reject/reschedule, not an unsafe flight.</p>
@@ -407,10 +368,9 @@ Externalities motivate design. **Mechanism design and slot allocation** ask how 
   <text x="360" y="340" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">No linked slot → reject / reschedule — not an unsafe flight. Diagnose the bind first (Week 8 §2).</text>
 
 </svg>
-<p class="wdiag-note">From Week 8 §4. SVG upgrade of HTML #w08-mech.</p>
+<p class="wdiag-note">From Week 8 §4.</p>
 </figure>
 ```
-
 
 Mechanism design asks how rules shape participants’ information, incentives, and outcomes:
 
@@ -432,11 +392,9 @@ In words: incremental revenue from the slot, minus incremental operating cost, m
 - $\pi_{\mathrm{req}}$ — required contribution  
 - $B_{\max}$ — maximum affordable payment  
 
-
 $$
 B_{\max} = R_{\Delta} - C_{\Delta} - \pi_{\mathrm{req}}
 $$
-
 
 Use incremental values associated with obtaining the slot — not total company revenue and OPEX. Required contribution may cover fixed cost, risk, or a target return. The rational bid also depends on auction rules, expected rival bids, alternative slots, and the risk that linked resources are unavailable. A high bid does **not** automatically imply high social value or justify excluding smaller operators.
 
@@ -539,7 +497,6 @@ Shared data does **not** automatically make a system safer — data quality, lat
 </figure>
 ```
 
-
 ---
 
 Network value needs working pipes. **Digital coordination and interoperability** cover data, spectrum, and cross-boundary access — with absolute OFCA / Sandbox facts kept distinct from U-space.
@@ -560,11 +517,9 @@ In words: subtract the cost of the interoperable process from the cost of the le
 - $C_{\mathrm{interop}}$ — cost of the interoperable process  
 - $S_{\mathrm{day}}$ — daily net saving  
 
-
 $$
 S_{\mathrm{day}} = C_{\mathrm{legacy}} - C_{\mathrm{interop}}
 $$
-
 
 Include fixed systems, usage fees, communications, human oversight, cybersecurity, integration, certification, and exception handling. Interoperability can reduce duplicate interfaces and repeated manual data entry — and may create migration cost, common dependencies, governance disputes, and switching risks. Do not assume API or digital-services cost is near zero.
 
@@ -617,7 +572,6 @@ Illustrative monthly saving HK$450,000 — only if reliability, security, and se
 </figure>
 ```
 
-
 ---
 
 Digital pieces mature over time. An **airspace-integration roadmap** stages evidence and investment — NPV of phasing, not a claim of corridor capacity.
@@ -644,7 +598,6 @@ In words: form year-$t$ net cash flow as inflow minus outflow, then discount and
 - $r$ — discount rate  
 - $\mathrm{NPV}$ — roadmap net present value  
 
-
 $$
 \begin{aligned}
 \mathrm{CF}_{t}
@@ -654,7 +607,6 @@ $$
   \frac{\mathrm{CF}_{t}}{(1+r)^{t}}
 \end{aligned}
 $$
-
 
 Include implementation cost in the year it occurs. Cash flows should reflect probability of reaching each phase, operating limits, demand, cost, and possible abandonment. Decision gates preserve flexibility to pause, redesign, or expand when evidence changes (Week 6 staging). A positive NPV under assumptions does **not** prove that the wider market is viable.
 
@@ -707,7 +659,6 @@ Attractive under these assumed cash flows. Probabilities, decision gates, termin
 <p class="wdiag-note">From Week 8 §7. Classroom CF −50/+10/+40/+50 · NPV ≈ HK$29.8M only. New SVG.</p>
 </figure>
 ```
-
 
 ---
 
@@ -800,7 +751,6 @@ Short checklist: [Summary](#summary).
 
 ---
 
-
 ### Study checklist {#study-checklist}
 
 1. State why capacity is a **whole-system** concept, not drones-per-minute.  
@@ -817,7 +767,6 @@ Short checklist: [Summary](#summary).
 12. Connect Week 5 site slots and Week 7 permissions to this week’s airspace allocation.
 
 ---
-
 
 ---
 

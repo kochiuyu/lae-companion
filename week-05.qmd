@@ -76,25 +76,6 @@ By the end of Week 5 you should be able to:
 
 ## 1. The infrastructure bottleneck
 
-
-```{=html}
-<figure class="wdiag wdiag-text" id="w05-bottleneck" aria-labelledby="w05-bottleneck-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w05-bottleneck-title"><strong>Diagnose which resource binds</strong></p>
-<div class="wdiag-stack cols-2">
-<div class="wdiag-box"><strong>Pad / stand / gate</strong><br/>Turnaround and parking</div>
-<div class="wdiag-box"><strong>Charging / energy</strong><br/>Dwell and power access</div>
-<div class="wdiag-box"><strong>Passenger / cargo process</strong><br/>Throughput on the ground</div>
-<div class="wdiag-box"><strong>Airspace / procedure</strong><br/>Separations and hours (Week 8)</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true" style="margin-top:.35rem">↓</div>
-<div class="wdiag-box fact"><strong>Allocate the scarce resource you actually have</strong><br/>A pad auction cannot fix an airspace bind (and vice versa).</div>
-<p class="wdiag-note">No invented “drones per minute” for Harbour or GBA corridors.</p>
-</details>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
 <p class="wdiag-cap" id="w05-bottleneck-svg-title"><strong>Diagnose which resource binds</strong> — pad/stand/gate; charging/energy; passenger/cargo process; airspace/procedure. Allocate the scarce resource you actually have — a pad auction cannot fix an airspace bind (and vice versa). No invented Harbour/GBA “drones per minute.” Trial sites ≠ permanent slots; Sandbox ≠ Sandbox X.</p>
@@ -136,10 +117,9 @@ By the end of Week 5 you should be able to:
   <text x="360" y="332" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Trial sites ≠ permanent slots · Sandbox ≠ Sandbox X</text>
 
 </svg>
-<p class="wdiag-note">From Week 5 §1. SVG upgrade of HTML #w05-bottleneck. Complements Week 8 bind-first.</p>
+<p class="wdiag-note">From Week 5 §1. Complements Week 8 bind-first.</p>
 </figure>
 ```
-
 
 Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
 
@@ -284,7 +264,6 @@ A workable site balances:
 
 In words: add annualized infrastructure cost, annual operating spend, the monetized burden of extra access time for users, and expected disruption cost — then treat the sum as a **screen**, not a safety verdict.
 
-
 $$
 \begin{aligned}
 \text{Generalized site cost}
@@ -294,7 +273,6 @@ $$
 &\quad + \text{Expected disruption cost}
 \end{aligned}
 $$
-
 
 Lower generalized cost is **not** automatically better if the site fails safety, capacity, or service requirements.
 
@@ -363,7 +341,6 @@ A chosen site still needs **throughput and reliability**. Breakeven capacity use
 
 In words: take fixed daily facility cost and divide by (reliable daily capacity times contribution earned per movement). The result is the **share of reliable capacity** that must be sold to cover fixed facility cost.
 
-
 $$
 \begin{aligned}
 \text{Breakeven capacity use}
@@ -373,7 +350,6 @@ $$
   \times \text{Contribution per movement}}
 \end{aligned}
 $$
-
 
 Contribution per movement ≈ facility fee − variable facility cost for that movement. Reliable capacity should reflect hours, turnaround, maintenance, weather, and priority access. This is **not** “percent of hours in the day the facility must be open.”
 
@@ -483,7 +459,6 @@ Staging changes when cash goes out. **Reliability scenarios** ask how downtime c
 
 In words: take scenario-adjusted revenue minus scenario-adjusted operating cost, then divide by initial investment — a rough screen, not a full NPV.
 
-
 $$
 \begin{aligned}
 \text{Simple return}
@@ -493,7 +468,6 @@ $$
 {\text{Initial investment}}
 \end{aligned}
 $$
-
 
 Adjusted revenue should reflect serviceable capacity, demand, cancellations, and pricing under the scenario. Some costs fall in downtime; fixed cost, recovery, refunds, and credits may remain or rise. Weather should be modelled from route- and aircraft-specific assumptions — **not** a universal annual percentage. This simple return is **not** full ROI or NPV (timing, financing, tax, residual value omitted).
 
@@ -551,7 +525,6 @@ Return screens need cost inputs. **Infrastructure CAPEX and OPEX** separate buil
 
 ### Daily infrastructure cost (economic sketch)
 
-
 $$
 \begin{aligned}
 \text{Daily infrastructure cost}
@@ -561,7 +534,6 @@ $$
 &\quad + \text{Daily OPEX}
 \end{aligned}
 $$
-
 
 Useful for unit-cost screening; not identical to cash flow, accounting depreciation, mortgage payment, ROI, or NPV.
 
@@ -611,7 +583,6 @@ A higher-cost site must create enough extra demand, price, reliability, network 
 </figure>
 ```
 
-
 ---
 
 When pads bind, [**slot allocation**](glossary.qmd#slot) decides who flies. Peak pricing and priority rules are design choices here — not a claim about any Hong Kong regulation.
@@ -631,7 +602,6 @@ When requests exceed safe, reliable capacity, managers need a **transparent** ru
 
 In words: start from a base fee, then add a congestion term that rises with how many requests compete for each available slot.
 
-
 $$
 \begin{aligned}
 \text{Slot fee}
@@ -643,7 +613,6 @@ $$
   \right)
 \end{aligned}
 $$
-
 
 Peak charges may shift flexible demand only if operators can change timing, route, or facility. Pricing must sit with safety limits, priority rules, competition policy, transparency, and access obligations. **Revenue maximisation alone is not the goal** of scarce infrastructure allocation.
 
@@ -787,7 +756,6 @@ There is **no** universal “Hong Kong strategy” or “GBA strategy.” Config
 
 In words: first bundle network fixed cost, OPEX, and disruption cost; divide that bundle by **served** trips; then add access burden per trip.
 
-
 $$
 \begin{aligned}
 \text{Network cost bundle}
@@ -799,7 +767,6 @@ $$
   + \text{Access burden per trip}
 \end{aligned}
 $$
-
 
 Use **served** trips (after capacity), not unconstrained forecast demand (Week 4).
 
@@ -915,7 +882,6 @@ Short checklist: [Summary](#summary).
 
 ---
 
-
 ### Study checklist {#study-checklist}
 
 1. Name the likely **binding bottleneck** for a named mission (pads vs aircraft vs charging vs access).  
@@ -932,7 +898,6 @@ Short checklist: [Summary](#summary).
 12. Keep **no dedicated HK vertiport statute**; **Sandbox ≠ Sandbox X**; OHKF / EASA / Shenzhen Chapter 2 as **comparators / think-tank / GBA law**, not Cap. 448G.
 
 ---
-
 
 ---
 

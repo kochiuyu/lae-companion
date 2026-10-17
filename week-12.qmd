@@ -89,29 +89,6 @@ Section 1 set the horizon: from trial to repeatable system. **Corridors to netwo
 
 A **corridor** is one link. A **network** is many links among many nodes. Adding nodes raises the *possible* number of connections — it does not guarantee that each link has demand or value.
 
-
-```{=html}
-<figure class="wdiag wdiag-text" id="w12-network" aria-labelledby="w12-network-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w12-network-title"><strong>Possible links ≠ viable service</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box">N nodes → L = N(N−1)/2 undirected pairs (or N(N−1) if directed)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓ screen each link</div>
-<div class="wdiag-row">
-<div class="wdiag-box">Demand</div>
-<div class="wdiag-box">Reliable K</div>
-<div class="wdiag-box">Permission</div>
-<div class="wdiag-box">Cost / acceptance</div>
-</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box fact"><strong>Candidate services only where all pass</strong><br/>Do not claim GBA corridors as day-to-day operating service on evidence tracked here.</div>
-</div>
-<p class="wdiag-note">Screening rates in the worked table are classroom assumptions — not a GBA forecast.</p>
-</details>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-network-svg" aria-labelledby="w12-network-svg-title">
 <p class="wdiag-cap" id="w12-network-svg-title"><strong>Possible links ≠ viable service</strong> — N nodes create L = N(N−1)/2 possible pairs (or N(N−1) if directed). Screen each link for demand, reliable K, permission, and cost/acceptance. Candidate services only where all pass. Do not claim GBA corridors as day-to-day operating service on evidence tracked here. Screening rates in class are illustrative — not a GBA forecast.</p>
@@ -147,10 +124,9 @@ A **corridor** is one link. A **network** is many links among many nodes. Adding
   <text x="360" y="352" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#1a1a1a">Do not claim GBA corridors as day-to-day operating service on evidence tracked here.</text>
 
 </svg>
-<p class="wdiag-note">From Week 12 §2. SVG upgrade of HTML #w12-network.</p>
+<p class="wdiag-note">From Week 12 §2.</p>
 </figure>
 ```
-
 
 A **network** links several origins, destinations, operators, and supporting facilities:
 
@@ -166,14 +142,12 @@ A **network** links several origins, destinations, operators, and supporting fac
 - $N$ — number of active nodes  
 - $L$ — number of possible undirected pairs  
 
-
 $$
 \begin{aligned}
 L
 &= \frac{N(N-1)}{2}
 \end{aligned}
 $$
-
 
 If direction matters, possible origin–destination links are $N(N-1)$. The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with $N$, not exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
 
@@ -237,14 +211,12 @@ Digital systems can support planning, authorization, identification, traffic inf
 - $C_{\mathrm{trans}}$ — transition / migration cost (amortize or place in year 0 as required)  
 - $S_{\mathrm{net}}$ — net saving relative to the legacy process  
 
-
 $$
 \begin{aligned}
 S_{\mathrm{net}}
 &= C_{\mathrm{legacy}} - C_{\mathrm{dig}} - C_{\mathrm{trans}}
 \end{aligned}
 $$
-
 
 Include software, communications, cybersecurity, certification, human oversight, maintenance, service-provider fees, and exception handling. Savings depend on annual activity, reliability, integration complexity, and how much manual work is actually displaced. Marginal digital cost may be low — it is not generally zero. The preferred design must also meet safety, resilience, privacy, and accountability requirements (Week 10). This is the same spirit as Week 8’s $S_{\mathrm{day}}$ screen — now stated as a net figure after transition cost.
 
@@ -393,7 +365,6 @@ Hong Kong’s actual advantage must be tested through capability, cost, regulati
 - $r$ — discount rate  
 - $\mathrm{NPV}$ — lessor net present value  
 
-
 $$
 \begin{aligned}
 \mathrm{CF}_{L,t}
@@ -405,7 +376,6 @@ $$
   + \frac{V_{T}}{(1+r)^{T}}
 \end{aligned}
 $$
-
 
 Depreciation is an accounting allocation; residual value and cash expenditures belong in the cash-flow appraisal. The lessor retains asset-value, financing, technology, maintenance, repossession, legal, and lessee-credit risks. Lease receipts are contractual — not risk-free.
 
@@ -465,28 +435,6 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
 
 ## 5. Final review: five-step exam method
 
-
-```{=html}
-<figure class="wdiag wdiag-text" id="w12-exam" aria-labelledby="w12-exam-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wdiag-cap" id="w12-exam-title"><strong>Five-step exam method</strong></p>
-<div class="wdiag-flow">
-<div class="wdiag-box"><strong>1</strong> Define the decision &amp; alternative</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>2</strong> Served activity min{D, K}</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>3</strong> Viability (p, v, F, specified charges)</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box"><strong>4</strong> Map each constraint once</div>
-<div class="wdiag-arrow" aria-hidden="true">↓</div>
-<div class="wdiag-box fact"><strong>5</strong> Recommend conditionally (proceed / pause / redesign / stop)</div>
-</div>
-<p class="wdiag-note">CAAC ATM Rules on Readings remain a draft consultation — not in force. U-space ≠ HK law.</p>
-</details>
-</figure>
-```
-
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-exam-svg" aria-labelledby="w12-exam-svg-title">
 <p class="wdiag-cap" id="w12-exam-svg-title"><strong>Five-step exam method</strong> — (1) define the decision and alternative; (2) served activity min{D, K}; (3) viability with p, v, F and specified charges; (4) map each constraint once; (5) recommend conditionally (proceed / pause / redesign / stop). Use only tools that clarify the decision. U-space ≠ Hong Kong law; CAAC ATM Rules on Readings remain a draft consultation.</p>
@@ -526,10 +474,9 @@ Roles and networks feed the exam. The **five-step exam method** (define → meas
   <text x="130" y="346" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Recommend conditionally — proceed / pause / redesign / stop</text>
 
 </svg>
-<p class="wdiag-note">From Week 12 §5. SVG upgrade of HTML #w12-exam.</p>
+<p class="wdiag-note">From Week 12 §5.</p>
 </figure>
 ```
-
 
 For an integrated LAE scenario:
 
@@ -551,7 +498,6 @@ Same symbols as Week 11 — rehearse them until the units are automatic:
 - $p, v, F$ — price, variable cost, fixed cost  
 - $\Pi_{\mathrm{op}}$ — operating profit  
 
-
 $$
 \begin{aligned}
 D_{\mathrm{served}}
@@ -560,7 +506,6 @@ D_{\mathrm{served}}
 &= (p - v)\, D_{\mathrm{served}} - F
 \end{aligned}
 $$
-
 
 Add any specified tax, fee, subsidy, or committed payment in the correct place (e.g. subtract a per-flight noise charge inside the contribution term, or add $P_{\mathrm{PS}}$ as in Week 10). Recalculate $D_{\mathrm{served}}$ when a shock changes demand or capacity. Then discuss regulation, safety, sustainability, and distributional effects (Week 11).
 
@@ -679,7 +624,6 @@ Short checklist: [Summary](#summary).
 
 ---
 
-
 ### Study checklist {#study-checklist}
 
 1. Compute $L$ for two values of $N$; say why $L$ is not demand.  
@@ -696,7 +640,6 @@ Short checklist: [Summary](#summary).
 12. Close with proceed / pause / redesign / stop **and** the evidence that would change the call.
 
 ---
-
 
 ---
 
