@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-17"
+as_of: "2026-10-18"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,15 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 17 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 18 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">19 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">25 items</span></summary><ol>
+<li id="tl-ind-2026-10-17-yesheng"><a href="#industry-item-2026-10-17-yesheng"><span class="chip">17 Oct</span> · 晔生航空 Canton Fair eVTOL debut; 130+ intent orders<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-17-subsidies"><a href="#industry-item-2026-10-17-subsidies"><span class="chip">17 Oct</span> · Mainland localities pause / repeal direct LAE subsidies<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-16-eipp"><a href="#industry-item-2026-10-16-eipp"><span class="chip">16 Oct</span> · FAA eIPP moves to “repeatable operations”<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-15-gcaa"><a href="#industry-item-2026-10-15-gcaa"><span class="chip">15 Oct</span> · UAE GCAA certification workshops at Joby and Archer<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-14-rongtong"><a href="#industry-item-2026-10-14-rongtong"><span class="chip">14–15 Oct</span> · 融通 Yangjiang–Wenchang cross-sea drone cargo trial first flight<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2026-10-14-lscm-lasa"><a href="#industry-item-2026-10-14-lscm-lasa"><span class="chip">14 Oct</span> · LSCM launches LASA services hub at Cyberport<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-14-volant"><a href="#industry-item-2026-10-14-volant"><span class="chip">14–15 Oct</span> · Volant–川航低空 50× VE25-100 (20 firm + 30 LOI)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-15-autoflight"><a href="#industry-item-2026-10-15-autoflight"><span class="chip">15 Oct</span> · AutoFlight–JC Aviation MoU 260 eVTOL + 10 SUNSHIP<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-14-dji-dock4"><a href="#industry-item-2026-10-14-dji-dock4"><span class="chip">14 Oct</span> · DJI Dock 4 + Matrice 5TD battery-swap dock launch<span class="badge b-co">Company</span></a></li>
@@ -129,6 +135,66 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ### October 2026 {#industry-2026-10}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-17-yesheng .industry-item}**17 Oct 2026 · 21世纪经济报道:** Guangzhou ultralight-eVTOL maker Yesheng Aviation (晔生航空) debuts four products at the 140th Canton Fair (Phase 1 opened 15 Oct) — two crewed ultralight eVTOLs, a compound-wing inspection drone under 25 kg, and an air-ground AI inspection robot — and the report says it signed 130+ intent orders on day one. [Link](https://www.21jingji.com/article/20261017/herald/3179fc164609510d6eab4783aa0a6782.html)
+  - Tag: Independently reported
+  - What's new: The orders are **intent orders (letter-of-intent class), not firm orders**. Order-value figures (over US$8 million on day one; US$27 million by day three) are company-stated via press, not audited. The chairman frames the tourism path as shows first, passenger flights later, subject to regulation. No CAAC type or production certificate evidenced; how the ultralight category is treated is not verified.
+  - Status: Independently reported trade-fair debut; intent orders only; no type certificate.
+  - Read instead: [Companies & sectors](landscape.qmd) (Aircraft and airframe makers).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「本届展会上，广州超轻型eVTOL企业晔生航空面向全球首发四款新品，开展首日即签下130多架意向订单、金额超800万美元，截至第三天，订单总金额已高达2700万美元」]{lang="zh-Hans"} ([source](https://www.21jingji.com/article/20261017/herald/3179fc164609510d6eab4783aa0a6782.html))
+
+  English (LAE-Intel translation): At this fair, Guangzhou ultralight-eVTOL company Yesheng Aviation debuted four new products globally, signing more than 130 intent orders worth over US$8 million on the first day; by the third day the total order value had reached US$27 million.
+  :::
+
+- []{#industry-item-2026-10-17-subsidies .industry-item}**17 Oct 2026 · 联合早报 (summarising 南方周末 / Southern Weekly):** Several Mainland local governments are suspending or repealing direct LAE subsidy documents: Hangzhou and Guangzhou’s Tianhe District announced plans in September, after earlier adjustments in Shaoxing and Shenzhen’s Guangming District. The report links this to national unified-market and fair-competition review, and notes that some localities continue subsidies. [Link](https://www.zaobao.com.sg/news/china/story20261017-9852163)
+  - Tag: Independently reported
+  - What's new: An economic-viability signal: business cases that depend on local subsidies face policy risk. The report names a Hangzhou Finance Bureau notice (8 Sep 2026) consulting on repeal of Hangzhou’s “21 measures” for low altitude. The local notices themselves were not opened — do not cite this as an official repeal.
+  - Status: Independently reported policy-economics context; local primaries not verified.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「《南方周末》星期六（10月17日）报道，今年9月，杭州、广州天河区先后宣布拟废止或暂停实施对低空经济产业进行财政补贴的政府文件。此前，浙江绍兴、深圳市光明区等地也陆续调整了低空经济直接奖补政策。」]{lang="zh-Hans"} ([source](https://www.zaobao.com.sg/news/china/story20261017-9852163))
+
+  English (LAE-Intel translation): Southern Weekly reported on Saturday (17 October) that in September Hangzhou and Guangzhou’s Tianhe District successively announced plans to repeal or suspend government documents providing fiscal subsidies to the low-altitude economy industry. Earlier, places such as Shaoxing in Zhejiang and Shenzhen’s Guangming District had also adjusted direct LAE reward-and-subsidy policies.
+  :::
+
+- []{#industry-item-2026-10-16-eipp .industry-item}**16 Oct 2026 · Aero-News Network:** In an interview, FAA eVTOL Integration Pilot Program (eIPP) director Tina Buelo says the programme now wants “repeatable operations” on regular schedules to gather data, with upcoming flights in Florida, New Mexico and New York–New Jersey. [Link](https://www.aero-news.net/index.cfm?do=main.textpost&id=24BAF1C9-F0B3-4371-93CD-055A41117451)
+  - Tag: Independently reported
+  - What's new: Demonstrations so far took place in Louisiana, Maryland, New Jersey, North Carolina, Pennsylvania, Texas, Utah and Virginia; all were piloted and carried cargo or medical supplies, except Elroy Air’s autonomous Chaparral cargo flights. Routine paid cargo or passenger service “remains a possibility later” in a programme slated for at least three years. This is a programme direction, **not** a commercial authorisation.
+  - Status: Independently reported programme direction; no paid service authorised.
+  - Read instead: [Companies & sectors](landscape.qmd) (eVTOL and passenger trials).
+
+- []{#industry-item-2026-10-15-gcaa .industry-item}**15 Oct 2026 · Aletihad News Center / Khaleej Times:** A UAE General Civil Aviation Authority (GCAA) delegation led by Eng. Aqeel Al Zarooni held separate sessions with Joby and Archer in California, reviewing aircraft certification, airworthiness and operational requirements for UAE air-taxi operations. [Link](https://en.aletihad.ae/news/uae/4699185/gcaa-reviews-air-taxi-certification-requirements-with-joby-a) · [Khaleej Times](https://www.khaleejtimes.com/business/uae-flying-taxis-regulator-visits-joby-and-archer-facilities-before-service-launch)
+  - Tag: Independently reported
+  - What's new: A regulator engagement step only — the reports state no UAE type-certificate validation, operator certificate or launch date. Joby and Archer’s FAA status is unchanged (special-class criteria only; no type certificate).
+  - Status: Independently reported (press of a GCAA statement); workshops only; no UAE certificate issued.
+  - Read instead: [Companies & sectors: Joby](landscape.qmd) · [Companies & sectors: Archer](landscape.qmd)
+
+- []{#industry-item-2026-10-14-rongtong .industry-item}**14–15 Oct 2026 · Yangjiang Municipal People’s Government (阳江市人民政府):** Trial first flight of a two-way Guangdong–Hainan drone cargo route from Yangjiang Heshan Airport toward Wenchang, Hainan (about 240 km), operated by 融通特种物流 (a subsidiary of the central state-owned group 中国融通); ceremony 14 Oct, government pages 15 Oct. [Link](https://www.yangjiang.gov.cn/yj/ywdt/yjyw/content/post_986878.html) · [Operator statements](https://www.yangjiang.gov.cn/yj/ywdt/xqdt/content/post_986887.html) · [Yangdong District](http://www.yangdong.gov.cn/xwzx/ydyw/content/post_986938.html)
+  - Tag: Officially confirmed
+  - What's new: The municipal government confirms the trial first flight. Operator statements reported on the government page — a fixed-wing drone carrying 500 kg in about 1 h 40 min; months of trial operation to establish costs and the operating model, then 2–3 daily round trips; further routes (Zhuhai–Wenchang in the first batch; Maoming, Zhanjiang and Wanning later) — are **plans and operator claims, not upgraded**. At the same event, Yangdong District signed a low-altitude economy strategic cooperation project with 广东汇天 (XPeng AeroHT) and several framework agreements — **no terms published; not orders**. Yangjiang is a Guangdong city outside the nine GBA mainland cities, and this is not a Shenzhen–Hong Kong corridor.
+  - Status: Officially confirmed trial first flight; performance and route plans are operator statements; not commercial operation.
+  - Read instead: [Companies & sectors](landscape.qmd) (Delivery and logistics).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「10月14日，广东阳江（合山）-海南（文昌）无人机跨海货物运输航线试运行首航仪式举行。随着第一架试航无人机从阳江合山机场出发，稳稳飞往海南文昌方向，验证了我市开辟粤琼低空物流通道的可行性，为后续低空物流商业化运营打下良好基础」]{lang="zh-Hans"} ([source](https://www.yangjiang.gov.cn/yj/ywdt/yjyw/content/post_986878.html))
+
+  English (LAE-Intel translation): On 14 October the trial-operation maiden-flight ceremony was held for the Guangdong Yangjiang (Heshan)–Hainan (Wenchang) UAS cross-sea cargo route. As the first trial UAS departed Yangjiang Heshan Airport toward Wenchang, Hainan, it verified the feasibility of the city opening a Guangdong–Hainan low-altitude logistics corridor, laying a foundation for subsequent commercial low-altitude logistics operations.
+  :::
+
+- []{#industry-item-2026-10-14-lscm-lasa .industry-item}**14 Oct 2026 (launch) / 15 Oct 2026 (press) · LSCM press release / 香港文匯報:** The Logistics and Supply Chain MultiTech R&D Centre (LSCM) launches the Hong Kong LAE International Services Accelerator Hub (LASA) at its Logistics Summit 2026 and signs MoUs with industry partners. [Link](https://www.lscm.hk/upload/release/57/download1/[For%20Immediate%20Release]%20LSCM%20Logistics%20Summit%202026%20-%20%2020%20Years%20of%20Striving%20Ahead%20Linking%20Minds,%20Empowering%20Innovation.pdf) · [中文](https://www.lscm.hk/upload/release/57/download2/%E3%80%90%E5%8D%B3%E6%99%82%E7%99%BC%E4%BD%88%E3%80%912026%20LSCM%20%E7%89%A9%E6%B5%81%E9%AB%98%E5%B3%B0%E6%9C%83%20%E3%80%8C%E5%A5%AE%E9%80%B2%E7%A0%94%E7%99%BC%E4%BA%8C%E5%8D%81%E8%BC%89%EF%BC%9A%E5%8C%AF%E8%81%9A%E6%99%BA%E6%85%A7%EF%BC%8C%E8%B3%A6%E8%83%BD%E5%89%B5%E6%96%B0%E3%80%8D.pdf) · [香港文匯報](https://www.wenweipo.com/a/202610/15/AP6acfe644e4b01d54a2872d5d.html)
+  - Tag: Company-announced
+  - What's new: LSCM describes a one-stop showcase, promotion and global-expansion platform: Cyberport airspace that it says suits large-drone and eVTOL testing; pre-sales field tests, airspace booking, live data, FPV experience and performance reports; plus business matching, financing, export credit insurance and after-sales support. **MoU terms are not published.** “Airspace booking” is LSCM’s service description — **not** a CAD permission or a new restricted flying zone; flights still need CAD / Sandbox permission. LSCM is separately listed by TLB as a Sandbox X Others applicant. This is not the press-reported “export demonstration zone” idea, and no government designation is evidenced.
+  - Status: Company-announced service-hub launch; MoUs labelled, terms unpublished; not a CAD permission.
+  - Read instead: [Companies & sectors](landscape.qmd) (Intangible services).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  English (LSCM release): “The key highlights of the Summit were the launch of the Hong Kong LAE International Services Accelerator Hub (LASA) and the signing of Memorandums of Understanding (MoUs) with industry partners to strengthen collaboration and accelerate the development of Hong Kong’s low-altitude economy, logistics industry, and innovation and technology.” ([source](https://www.lscm.hk/upload/release/57/download1/[For%20Immediate%20Release]%20LSCM%20Logistics%20Summit%202026%20-%20%2020%20Years%20of%20Striving%20Ahead%20Linking%20Minds,%20Empowering%20Innovation.pdf))
+
+  [「高峰會的亮點為「香港低空經濟國際服務中心」（ LASA）的啟動禮，LSCM 亦與多個合作夥伴簽署合作備忘錄（MoU），旨在進一步加強與各界的協作，共同推動香港的低空經濟、物流業及創新科技發展。」]{lang="zh-Hant"} ([source](https://www.lscm.hk/upload/release/57/download2/%E3%80%90%E5%8D%B3%E6%99%82%E7%99%BC%E4%BD%88%E3%80%912026%20LSCM%20%E7%89%A9%E6%B5%81%E9%AB%98%E5%B3%B0%E6%9C%83%20%E3%80%8C%E5%A5%AE%E9%80%B2%E7%A0%94%E7%99%BC%E4%BA%8C%E5%8D%81%E8%BC%89%EF%BC%9A%E5%8C%AF%E8%81%9A%E6%99%BA%E6%85%A7%EF%BC%8C%E8%B3%A6%E8%83%BD%E5%89%B5%E6%96%B0%E3%80%8D.pdf))
+  :::
 
 - []{#industry-item-2026-10-14-volant .industry-item}**14–15 Oct 2026 · 新华财经 / 川观新闻:** Volant (上海沃兰特) and Sichuan Airlines Low Altitude (川航低空) sign for 50 VE25-100 “Tianxing” passenger eVTOLs — **20 firm orders and 30 letters of intent** — at the Zigong Low-Altitude Economy Industry Conference (signing 14 Oct; Xinhua Finance 15 Oct). [Link](https://www.cnfin.com/gs-lb/detail/20261015/4481118_1.html) · [川观新闻](https://cbgc.scol.com.cn/news/8057731) · [证券时报](https://www.stcn.com/article/detail/4218808.html)
   - Tag: Independently reported

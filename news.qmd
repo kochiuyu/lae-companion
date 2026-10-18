@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-10-17"
+as_of: "2026-10-18"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,14 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 17 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 18 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">6 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">11 items</span></summary><ol>
+<li id="tl-press-2026-10-18-ss-drone-hubs"><a href="#press-item-2026-10-18-ss-drone-hubs"><span class="chip">18 Oct</span> · Secretary for Security: police fixed drone hubs ~20 → target 200<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-10-16-caac-ga-rules" class="st-open"><a href="#press-item-2026-10-16-caac-ga-rules"><span class="chip">16 Oct</span> · CAAC draft revisions of three manned general-aviation rules<span class="badge b-open">DRAFT</span></a></li>
+<li id="tl-press-2026-10-16-action-plan-press" class="st-open"><a href="#press-item-2026-10-16-action-plan-press"><span class="chip">16 Oct</span> · Press: Action Plan drafting “within this year” (text still OPEN)<span class="badge b-open">Press only</span></a></li>
+<li id="tl-press-2026-10-16-fsd-chung-yeung"><a href="#press-item-2026-10-16-fsd-chung-yeung"><span class="chip">16 Oct</span> · FSD deploys three drone systems for Chung Yeung hill-fire patrols<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-10-14-zengcheng-blood"><a href="#press-item-2026-10-14-zengcheng-blood"><span class="chip">14–15 Oct</span> · Guangzhou Zengcheng drone blood-delivery route first flight<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-15-caac-landing" class="st-open"><a href="#press-item-2026-10-15-caac-landing"><span class="chip">14–15 Oct</span> · CAAC draft medium/small UAS landing-site technical requirements<span class="badge b-open">DRAFT</span></a></li>
 <li id="tl-press-2026-10-11-sai-kung"><a href="#press-item-2026-10-11-sai-kung"><span class="chip">11 Oct</span> · CAD: Mainland eVTOL firms invited into Sandbox; cross-boundary pilots next<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-10-ftu-caac"><a href="#press-item-2026-10-10-ftu-caac"><span class="chip">10 Oct</span> · FTU–Guangzhou CAAC small multi-rotor VLOS licence course opens<span class="badge b-ind">Press</span></a></li>
@@ -112,6 +117,63 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ### 2026-10 {#press-2026-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-10-18-ss-drone-hubs .press-item}**18 Oct 2026 · 星島頭條 (Sing Tao):** Secretary for Security Tang Ping-keung, in a TV programme interview reported by Sing Tao, said there are about 20 fixed police drone hubs across Hong Kong, with a target of 200 to cover any area where needed, and that linking drones with the 「銳眼」 CCTV system will be studied. [Link](https://www.headline4hk.com/article/20261018/stheadline/3627349/)
+  - What's new: Official remarks via press on the scale of police drone hubs (about 20 now; target 200). The Secretary said drones have so far helped detect more than 70 crimes and 220 traffic offences — his figures as reported, not audited.
+  - Status: Press only (T4). No Security Bureau or Police text found; not a new instrument.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「在警務科技應用方面，鄧炳強表示現時全港設有約20個定點無人機庫，未來目標增加至200個，以實現全港任何有需要地區的覆蓋。他指出，無人機至今已協助發現逾70宗罪案及220宗交通違例事件」]{lang="zh-Hant"} ([source](https://www.headline4hk.com/article/20261018/stheadline/3627349/))
+
+  English (LAE-Intel translation): On policing technology, Tang Ping-keung said there are currently about 20 fixed drone hubs across Hong Kong, with a target of increasing to 200 to cover any area of Hong Kong where needed. He said drones have so far helped detect more than 70 crimes and 220 traffic offences.
+  :::
+
+- []{#press-item-2026-10-16-caac-ga-rules .press-item}**16 Oct 2026 · Civil Aviation Administration of China (飞行标准司):** CAAC seeks public comment on revised drafts of three manned general-aviation rules — the Civil Aircraft Pilot Certification Rules, the Commercial Non-Transport Operator Certification Rules, and the Civil Aircraft Pilot School Certification Rules; comments close **15 Nov 2026**. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261016_231880.html)
+  - What's new: Draft revisions of the Mainland general-aviation rule base. The operator rule’s revision note lists chapters including air tours (空中游览), which matters for Mainland tourism comparisons. LAE-Intel’s keyword scan of the three revision notes found no drone or eVTOL terms. Parallel WATCH item on Official status.
+  - Status: Draft / consultation only — not in force. **Not** drone-specific, **not** the still-draft ATM Rules, and **not** Hong Kong law.
+  - Read instead: [Official status](tracker.qmd) (CAAC general-aviation rules WATCH).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「为进一步夯实通航运行安全基础，有序衔接《民航法》有关制度安排，确保在安全托底基础上促进通航发展，民航局组织修订了《民用航空器驾驶员合格审定规则》《商业非运输运营人运行合格审定规则》《民用航空器驾驶员学校合格审定规则》等三部规章，现面向社会公开征求意见。……意见反馈截止时间为2026年11月15日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261016_231880.html))
+
+  English (LAE-Intel translation): To further consolidate the safety foundation of general-aviation operations, align in an orderly way with the relevant institutional arrangements of the Civil Aviation Law, and promote general-aviation development on the basis of a safety floor, CAAC has revised three rules — the Civil Aircraft Pilot Certification Rules, the Commercial Non-Transport Operator Certification Rules, and the Civil Aircraft Pilot School Certification Rules — and hereby solicits public comment. … The deadline for feedback is 15 November 2026.
+  :::
+
+- []{#press-item-2026-10-16-action-plan-press .press-item}**16 Oct 2026 · 人民财讯 / 证券时报 (also 東網 on.cc):** A press report citing unnamed sources says the HKSAR Government has begun drafting the Action Plan on Developing Low-Altitude Economy, will keep consulting, and expects to complete drafting within this year. It also reports a study with the Mainland on jointly setting up an international low-altitude economy cooperation organisation, and an LAE product export demonstration zone under discussion with industry. [Link](https://www.stcn.com/article/detail/4221778.html) · [東網](https://hk.on.cc/hk/bkn/cnt/finance/20261016/bkn-20261016152442403-1016_00842_001.html) · [export-zone report](https://www.stcn.com/article/detail/4221780.html)
+  - What's new: A press-reported drafting target. Reported actions include cross-boundary low-altitude logistics test flights as soon as possible, a gradually expanding GBA cross-boundary logistics network, research on low-altitude infrastructure, and a smart low-altitude traffic management system — all stated as intentions. No GIA, Transport and Logistics Bureau or LegCo text carries the year-end drafting target; the latest official wording is the Secretary for Transport and Logistics’ 2 Oct 2026 LegCo remark that the Working Group continues to formulate the plan.
+  - Status: Press only (T4). Not a government-published date. Action Plan text still OPEN.
+  - Read instead: [Official status](tracker.qmd) (Action Plan row).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「目前，香港特区政府已开展有关草拟工作，并会持续征询意见，预计在今年内完成草拟。……同时，推动研究与内地联合设立国际低空经济合作组织的工作。」]{lang="zh-Hans"} ([source](https://www.stcn.com/article/detail/4221778.html))
+
+  [「內媒周五(16日)報道，香港發展低空經濟工作小組全力制訂《發展低空經濟規劃行動綱領》，以健全規管架構、標準制定及基礎建置等。目前香港政府已進行有關草擬工作，將持續徵詢意見，料今年內完成草擬。」]{lang="zh-Hant"} ([source](https://hk.on.cc/hk/bkn/cnt/finance/20261016/bkn-20261016152442403-1016_00842_001.html))
+
+  English (LAE-Intel translation): “The HKSAR Government has begun the relevant drafting work and will continue to consult; drafting is expected to be completed within this year. … It is also pushing a study on jointly establishing, with the Mainland, an international low-altitude economy cooperation organisation.” / “Mainland media reported on Friday (16th) that Hong Kong’s Working Group on Developing Low-altitude Economy is fully formulating the Action Plan … drafting is expected to be completed within this year.”
+  :::
+
+- []{#press-item-2026-10-16-fsd-chung-yeung .press-item}**16 Oct 2026 · now.com / Metro Radio / The Standard / SCMP:** Ahead of the Chung Yeung holiday (17–19 Oct), the Fire Services Department (FSD) said it is patrolling 12 high-risk hill-fire sites and deploying three drone systems: vehicle-launched docked drones, real-time AI image analysis that flags suspected smoke, and a large drone (maximum take-off weight 150 kg, per now.com) that can carry 80 litres of water or tools to remote slopes. [The Standard](https://www.thestandard.com.hk/news/article/345706/Fire-services-steps-up-patrols-drone-deployment-for-Chung-Yeung-Festival) · [SCMP](https://www.scmp.com/news/hong-kong/society/article/3371201/ai-powered-drones-help-detect-hill-fires-during-chung-yeung-festival) · [now.com](https://hk.news.yahoo.com/%E9%87%8D%E9%99%BD%E7%AF%80-%E6%B6%88%E9%98%B2%E8%99%95%E9%A6%96%E6%AC%A1%E7%94%A8%E7%84%A1%E4%BA%BA%E6%A9%9F%E6%94%BE%E6%B0%B4%E5%BD%88-%E9%82%8A%E9%A3%9B%E9%82%8A%E7%94%A8ai%E8%AD%98%E5%88%A5%E5%B1%B1%E7%81%AB-%E8%AC%9D%E6%AC%A3%E6%A1%90%E5%A0%B1%E9%81%93-121228980.html) · [Metro Radio](https://www.metroradio.com.hk/News/details.aspx?CategoryName=&NewsId=20261016163041)
+  - What's new: A move from the 9 Oct Lion Rock exercise (first large-drone water-bomb drop, per GIA) to an operational festival deployment. FSD says it has 60 drones, 8 of them autonomous.
+  - Status: Press only (T4) of official FSD remarks; no GIA or FSD release found. Actual water-bomb drops during the holiday are not evidenced.
+  - Read instead: [Companies & sectors: Fire Services Department](landscape.qmd#firm-fire-services-department).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「偵測到火源後，就到這部大型無人機出動，最大起飛重量達150公斤，可運送滅火工具和80公升水到偏遠位置，減輕消防人員體力消耗。消防處目前有60部無人機，其中8部是無需人手遙控的自動無人機。」]{lang="zh-Hant"} ([source](https://hk.news.yahoo.com/%E9%87%8D%E9%99%BD%E7%AF%80-%E6%B6%88%E9%98%B2%E8%99%95%E9%A6%96%E6%AC%A1%E7%94%A8%E7%84%A1%E4%BA%BA%E6%A9%9F%E6%94%BE%E6%B0%B4%E5%BD%88-%E9%82%8A%E9%A3%9B%E9%82%8A%E7%94%A8ai%E8%AD%98%E5%88%A5%E5%B1%B1%E7%81%AB-%E8%AC%9D%E6%AC%A3%E6%A1%90%E5%A0%B1%E9%81%93-121228980.html))
+
+  English (LAE-Intel translation): Once a fire source is detected, this large drone is dispatched; with a maximum take-off weight of 150 kg it can carry firefighting tools and 80 litres of water to remote locations, reducing firefighters’ physical burden. FSD currently has 60 drones, 8 of which are autonomous drones that need no manual remote control.
+  :::
+
+- []{#press-item-2026-10-14-zengcheng-blood .press-item}**14–15 Oct 2026 · 广州日报 (Guangzhou Daily):** Guangzhou’s first route described as a “regularised” drone blood-transport route made its first flight on 14 Oct, carrying blood bags from the Zengcheng District Blood Station to Nanfang Hospital’s Zengcheng campus; the report says this saves about 50% of the time compared with ground transport. [Link](https://gzdaily.dayoo.com/pc/html/2026-10/15/content_873_916267.htm) · [羊城晚报, 18 Oct](https://ysln.ycwb.com/content/2026-10/18/content_54323147.html)
+  - What's new: A GBA medical-logistics first flight using a temperature-controlled box with real-time telemetry and a control platform that can monitor and take over. The drone operator is not named in coverage.
+  - Status: Press only (T4). First flight only — regular operations not yet evidenced. A domestic Guangzhou route, not cross-boundary.
+  - Read instead: [Companies & sectors](landscape.qmd) (Emergency and medical).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「昨日，增城区南部紧密型城市医疗集团正式揭牌。同日，广州市首个常态化无人机血液运输航线完成首飞——搭载血液包的无人机从增城区血站出发，精准降落南方医院增城院区，比地面交通节省约50%的时间。」]{lang="zh-Hans"} ([source](https://gzdaily.dayoo.com/pc/html/2026-10/15/content_873_916267.htm))
+
+  English (LAE-Intel translation): Yesterday the Zengcheng South close-knit urban medical group was formally inaugurated. The same day, Guangzhou’s first regularised UAS blood-transport route completed its first flight — a drone carrying blood bags left the Zengcheng District Blood Station and landed precisely at Nanfang Hospital’s Zengcheng campus, saving about 50% of the time compared with ground transport.
+  :::
 
 - []{#press-item-2026-10-15-caac-landing .press-item}**14–15 Oct 2026 · Civil Aviation Administration of China (民航局低空安全司):** CAAC opens public consultation on the draft *Technical Requirements for Medium and Small Unmanned Aircraft Take-off and Landing Sites* (《中小型无人驾驶航空器起降场地技术要求（征求意见稿）》); letter dated 14 Oct 2026; YJZJ listing 15 Oct 2026; comment close **13 Nov 2026**. [Link](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261015_231850.html)
   - What's new: Mainland technical-standard draft for medium/small UAS landing sites / low-altitude ground infrastructure. Parallel WATCH item on Official status. **Not** a final departmental 令; **not** a substitute for the still-draft ATM Rules; **not** a Hong Kong Cap. 448G / vertiport statute (Hong Kong still has no vertiport statute).
