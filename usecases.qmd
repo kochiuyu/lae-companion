@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-10-17"
+as_of: "2026-10-18"
 page-layout: article
 toc: true
 toc-location: right
@@ -22,7 +22,7 @@ Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating*
 - **Independently reported:** a news outlet’s own reporting.
 - **Officially confirmed:** confirmed in a linked official release or document.
 
-**Board last checked 17 Oct 2026** (`as_of`). Census: **52** use-case items (38 trial · 14 operating), grouped by application below — newest first within each section.
+**Board last checked 18 Oct 2026** (`as_of`). Census: **59** use-case items (42 trial · 17 operating), grouped by application below — newest first within each section.
 
 ## By application
 
@@ -53,13 +53,16 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="uc-by-app">
-<p class="itl-head"><strong>Use cases by application</strong> (board last checked 17 Oct 2026) — 52 items (38 trial · 14 operating). Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Use cases by application</strong> (board last checked 18 Oct 2026) — 59 items (42 trial · 17 operating). Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>Delivery<span class="n">18 items · 9 trial · 9 operating</span></summary><ol>
+<details class="itl-card" open><summary>Delivery<span class="n">21 items · 11 trial · 10 operating</span></summary><ol>
+<li id="tl-uc-2026-10-14-rongtong-yangjiang" class="st-open"><a href="#uc-item-2026-10-14-rongtong-yangjiang"><span class="chip">14 Oct 2026</span> · 融通特种物流 — Yangjiang–Wenchang cross-sea UAS cargo trial first flight<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-10-08-zipline-round-rock"><a href="#uc-item-2026-10-08-zipline-round-rock"><span class="chip">8–9 Oct 2026</span> · Zipline — Round Rock / Austin-area consumer drone delivery live<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-10-08-zhuhai" class="st-open"><a href="#uc-item-2026-10-08-zhuhai"><span class="chip">8 Oct 2026</span> · Zhuhai three-party sea-island UAV livelihood-supply signing<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-10-07-xunyi"><a href="#uc-item-2026-10-07-xunyi"><span class="chip">7 Oct 2026</span> · Xunyi Hangzhou cross-Qiantang instant-delivery UAV route<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-07-a2z" class="st-open"><a href="#uc-item-2026-10-07-a2z"><span class="chip">7 Oct 2026</span> · A2Z–Grab–SKYY Bali BVLOS food-delivery PoC<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-10-05-wing-walmart"><a href="#uc-item-2026-10-05-wing-walmart"><span class="chip">5 Oct 2026</span> · Wing × Walmart — Denver / Seattle 2027 expansion announce<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
+<li id="tl-uc-2026-09-30-yangpu" class="st-open"><a href="#uc-item-2026-09-30-yangpu"><span class="chip">30 Sep 2026</span> · Yangpu Port — maritime-anchorage UAV livelihood-supply first flight<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-09-21-keeta-chung-on" class="st-open"><a href="#uc-item-2026-09-21-keeta-chung-on"><span class="chip">21 Sep 2026</span> · Keeta Drone — Chung On Estate first public-housing delivery<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-09-10-meituan-mcd"><a href="#uc-item-2026-09-10-meituan-mcd"><span class="chip">10 Sep 2026</span> · Meituan × McDonald’s — Shanghai West Bund dedicated F&B route<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-09-09-meituan-longhua"><a href="#uc-item-2026-09-09-meituan-longhua"><span class="chip">9–10 Sep 2026</span> · Meituan Drone — Shenzhen Longhua air network to 15 points<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
@@ -75,7 +78,8 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 <li id="tl-uc-2026-01-21-zipline-2m"><a href="#uc-item-2026-01-21-zipline-2m"><span class="chip">21 Jan 2026</span> · Zipline — 2 million commercial deliveries; Houston / Phoenix expansion<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2025-12-19-meituan-airnet"><a href="#uc-item-2025-12-19-meituan-airnet"><span class="chip">19 Dec 2025</span> · Meituan Drone — “低空航网” air-network model unveil<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>Medical / emergency<span class="n">7 items · 6 trial · 1 operating</span></summary><ol>
+<details class="itl-card" open><summary>Medical / emergency<span class="n">8 items · 7 trial · 1 operating</span></summary><ol>
+<li id="tl-uc-2026-10-14-zengcheng-blood" class="st-open"><a href="#uc-item-2026-10-14-zengcheng-blood"><span class="chip">14 Oct 2026</span> · Guangzhou Zengcheng — first regularised UAS blood-transport route (first flight)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-07-beta" class="st-open"><a href="#uc-item-2026-10-07-beta"><span class="chip">7 Oct 2026</span> · BETA Utah eIPP medical-cargo demo<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-03-31-tlb-fsd" class="st-open"><a href="#uc-item-2026-03-31-tlb-fsd"><span class="chip">31 Mar 2026</span> · TLB list — FSD emergency / SAR SUA trials<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-03-31-tlb-cas" class="st-open"><a href="#uc-item-2026-03-31-tlb-cas"><span class="chip">31 Mar 2026</span> · TLB list — CAS / Esri Tai Tan Camp emergency / facilities surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
@@ -95,7 +99,9 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 <li id="tl-uc-2026-03-31-tlb-cedd" class="st-open"><a href="#uc-item-2026-03-31-tlb-cedd"><span class="chip">31 Mar 2026</span> · TLB list — CEDD Tai Mong Tsai infrastructure surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2025-08-10-devb-nui-po-shan" class="st-open"><a href="#uc-item-2025-08-10-devb-nui-po-shan"><span class="chip">10 Aug 2025</span> · DEVB — Nui Po Shan Sandbox BVLOS site-management drones<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>Public service<span class="n">5 items · 3 trial · 2 operating</span></summary><ol>
+<details class="itl-card" open><summary>Public service<span class="n">7 items · 3 trial · 4 operating</span></summary><ol>
+<li id="tl-uc-2026-10-16-fsd-chung-yeung"><a href="#uc-item-2026-10-16-fsd-chung-yeung"><span class="chip">16 Oct 2026</span> · FSD — Chung Yeung hill-fire drone deployment (AI smoke; 80 L water-bomb heavy drone)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-10-10-afcd-illegal-fishing"><a href="#uc-item-2026-10-10-afcd-illegal-fishing"><span class="chip">10–11 Oct 2026</span> · AFCD — UAS used against illegal fishing (official remarks via press)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-03-31-tlb-csd" class="st-open"><a href="#uc-item-2026-03-31-tlb-csd"><span class="chip">31 Mar 2026</span> · TLB list — CSD Tong Fuk Correctional Institution surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-01-23-hkpf-phase2" class="st-open"><a href="#uc-item-2026-01-23-hkpf-phase2"><span class="chip">23 Jan 2026</span> · HKPF Pilot Scheme Phase 2 — Cheung Chau + Central (Peak)<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2025-08-29-sz-police-air-patrol"><a href="#uc-item-2025-08-29-sz-police-air-patrol"><span class="chip">29 Aug 2025</span> · Shenzhen Public Security — 常态化警用无人机 “空中巡” system<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
@@ -108,7 +114,8 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 <li id="tl-uc-2026-04-11-feiyida"><a href="#uc-item-2026-04-11-feiyida"><span class="chip">11 Apr 2026</span> · Feiyida Air — GBA low-altitude travel platform launch (Macau)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-03-31-tlb-shows" class="st-open"><a href="#uc-item-2026-03-31-tlb-shows"><span class="chip">31 Mar 2026</span> · TLB list — OWOWWW / DAMODA drone-show system trials<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>eVTOL passenger<span class="n">4 items · 4 trial · 0 operating</span></summary><ol>
+<details class="itl-card" open><summary>eVTOL passenger<span class="n">5 items · 5 trial · 0 operating</span></summary><ol>
+<li id="tl-uc-2026-10-12-virginia-tech" class="st-open"><a href="#uc-item-2026-10-12-virginia-tech"><span class="chip">12 Oct 2026</span> · Virginia Tech Smart Airspace — Electra EL2 + Textron Aerosonde eIPP vertiport trials<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-08-28-ehang" class="st-open"><a href="#uc-item-2026-08-28-ehang"><span class="chip">28 Aug 2026</span> · EHang EH216-S first public flight at Cyberport (Sandbox X)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-04-15-sandbox-x-uca" class="st-open"><a href="#uc-item-2026-04-15-sandbox-x-uca"><span class="chip">15 Apr 2026</span> · Sandbox X first batch — four UCA / eVTOL pilot projects<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-03-09-eipp" class="st-open"><a href="#uc-item-2026-03-09-eipp"><span class="chip">9 Mar 2026</span> · FAA eIPP — eight project selections<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
@@ -126,9 +133,27 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Delivery {#uc-delivery}
 
-18 items · 9 trial · 9 operating
+21 items · 11 trial · 10 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-14-rongtong-yangjiang .uc-item}**14 Oct 2026 · 阳江市人民政府:** Fixed-wing UAS trial first flight on a ~240 km Guangdong–Hainan cargo route from Yangjiang Heshan Airport toward Wenchang; operator 融通特种物流. Prior unmanned-helicopter trial carried fish fry before National Day. [阳江市政府](https://www.yangjiang.gov.cn/yj/ywdt/yjyw/content/post_986878.html) · [阳江市政府 (详)](https://www.yangjiang.gov.cn/yj/ywdt/xqdt/content/post_986887.html)
+  - Status: **Trial** · Domain: Delivery · Geography: Mainland-other (Guangdong Yangjiang ↔ Hainan Wenchang; not a GBA city; not an SZ–HK corridor)
+  - Tag: Officially confirmed
+  - What's happening: Municipal-government published trial first flight. Operator plans several months of trial ops to establish costs, operating model and support, then 2–3 daily round trips (plan). First-batch routes Yangjiang–Wenchang and Zhuhai–Wenchang; further routes planned over five years. Payload / duration / daily round-trip figures are operator-stated.
+  - Note: Trial only — not tagged operating; not an SZ–HK corridor flight.
+  - Read instead: [Companies & sectors](landscape.qmd) (融通特种物流).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「接下来，公司计划通过为期几个月的试运行，摸清各类货物的运输成本、运营模式、保障方案等情况，后续安排每日两到三个往返的常态化物流运营航线，真正打通从粤港澳大湾区到海南岛的跨海上岛常态化物流航线。」]{lang="zh-Hans"} ([source](https://www.yangjiang.gov.cn/yj/ywdt/xqdt/content/post_986887.html))
+  :::
+
+- []{#uc-item-2026-10-08-zipline-round-rock .uc-item}**8–9 Oct 2026 · Zipline newsroom; City of Round Rock:** Consumer drone delivery begins from the 3000 E. Palm Valley Blvd hub (Round Rock ETJ); company claims ~3-mile eligibility. [Zipline](https://www.zipline.com/newsroom/now-loading-zipline-brings-fast-autonomous-delivery-to-austin) · [Round Rock](https://www.roundrocktexas.gov/city-departments/administration/drone-delivery-in-round-rock/) · [FAA Part 135](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+  - Status: **Operating** · Domain: Delivery · Geography: Global (US — Texas)
+  - Tag: Company-announced
+  - What's happening: New metro go-live on an existing FAA Part 135 certificate base. Municipal page confirms FAA primacy. Early-access / merchant / daily-volume figures stay company-announced where press states them — not upgraded. FAA package-delivery page re-checked 18 Oct 2026 (still lists Zipline; page stamp notes Last-Modified 17 Oct 2026 / content last updated 3 Sep 2026).
+  - Note: Operating metro go-live; Part 135 operator status officially confirmed on the FAA page.
+  - Read instead: [Companies & sectors](landscape.qmd) (Zipline).
 
 - []{#uc-item-2026-10-08-zhuhai .uc-item}**8 Oct 2026 · C114 / China Unicom Zhuhai feature:** Zhuhai Agriculture Investment Holding, Guangdong Chaofei Technology and China Unicom Zhuhai sign strategic cooperation for a sea-island UAV livelihood-supply pilot framed around Zhuhai’s 262 islands. [C114](https://m.c114.com.cn/w84-1318768.html)
   - Status: **Trial** · Domain: Delivery · Geography: GBA (Zhuhai)
@@ -165,6 +190,17 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
   - What's happening: Operating tag refers to current Part 135 / Walmart markets. Denver and Seattle are announced, not live. Company store/reach figures stay company-announced.
   - Note: Expansion announce on an operating base.
   - Read instead: [Companies & sectors](landscape.qmd) (Wing Aviation).
+
+- []{#uc-item-2026-09-30-yangpu .uc-item}**30 Sep 2026 · 南方+; People’s Daily Hainan Traditional Chinese reprint:** Trial first flight of UAV ship-supply to vessels at Yangpu Port anchorage — shore take-off, cross-sea flight, shipboard receipt in ~15 minutes. [南方+](https://static.nfnews.com/content/202609/30/c12868147.html) · [人民网海南](http://hi.people.com.cn/BIG5/n2/2026/1001/c231190-41713049.html)
+  - Status: **Trial** · Domain: Delivery · Geography: Mainland-other (Hainan — Yangpu / Danzhou; free-trade-port framing)
+  - Tag: Independently reported
+  - What's happening: Real-scene first flight for maritime anchorage material delivery (heat-relief / emergency medical supplies attributed). Parties named in coverage include Yangpu MSA, China General Aviation (中国通航), and local ship-agency partners. Follow-on language seeks regularised / standardised ops — not yet tagged operating. Not an SZ–HK corridor flight.
+  - Note: First flight only — “常态化” follow-on is plan.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「首飞现场，无人机带上船舶防暑物资、应急医疗物资，从洋浦港岸边出发，飞到海上锚地，对海上船舶空投物资。从岸边起飞、跨海飞行，再到船上完成签收，整套操作一气呵成，整个过程大概耗时15分钟。这也是洋浦第一次做海上锚地低空物资配送实景作业」]{lang="zh-Hans"} ([source](https://static.nfnews.com/content/202609/30/c12868147.html))
+  :::
 
 - []{#uc-item-2026-09-21-keeta-chung-on .uc-item}**21 Sep 2026 · on.cc 東網; HK01:** Science Park → Chung On Estate (Song Wo House) smart locker; first drone delivery into a Hong Kong public housing estate under the Regulatory Sandbox. [on.cc](https://hk.on.cc/hk/bkn/cnt/finance/20260921/bkn-20260921161357730-0921_00842_001.html) · [HK01](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60392252/keeta%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%A6%96%E9%A3%9B%E9%A6%AC%E9%9E%8D%E5%B1%B1%E9%A0%8C%E5%AE%89%E9%82%A8-%E5%85%A9%E5%B1%80%E9%95%B7%E9%A0%90%E5%91%8A%E9%A3%9B%E9%80%B2%E6%9B%B4%E5%A4%9A%E5%8C%97%E9%83%BD%E5%85%AC%E5%85%B1%E5%B1%8B%E9%82%A8)
   - Status: **Trial** · Domain: Delivery · Geography: HK
@@ -302,15 +338,26 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Medical / emergency {#uc-medical}
 
-7 items · 6 trial · 1 operating
+8 items · 7 trial · 1 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-14-zengcheng-blood .uc-item}**14 Oct 2026 · 广州日报; 羊城晚报:** Drone carries blood bags from Zengcheng District Blood Station to Nanfang Hospital Zengcheng campus — the area’s only blood-storage point — forming a “blood station → storage point → clinical terminal” air link; press calls the route 常态化. [广州日报](https://gzdaily.dayoo.com/pc/html/2026-10/15/content_873_916267.htm) · [羊城晚报](https://ysln.ycwb.com/content/2026-10/18/content_54323147.html)
+  - Status: **Trial** · Domain: Medical/emergency · Geography: GBA (Guangzhou Zengcheng)
+  - Tag: Independently reported
+  - What's happening: First flight of a route the press calls regularised; scheduled operations not yet evidenced → trial. Daily planned transports to free ambulances; emergency dispatch framed as capability. Operator / aircraft not named in coverage; district-government page OPEN. Press ~50% time-saving vs ground transport is not audited.
+  - Note: First flight / trial — not tagged operating despite “常态化” press label.
+  - Read instead: [Companies & sectors](landscape.qmd) (Zengcheng blood route).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「同日，广州市首个常态化无人机血液运输航线完成首飞——搭载血液包的无人机从增城区血站出发，精准降落南方医院增城院区，比地面交通节省约50%的时间。」]{lang="zh-Hans"} ([source](https://gzdaily.dayoo.com/pc/html/2026-10/15/content_873_916267.htm))
+  :::
 
 - []{#uc-item-2026-10-07-beta .uc-item}**7 Oct 2026 · BETA IR; UDOT:** BETA says it completed five days of Utah eIPP flights moving time-sensitive medical cargo / radiopharmaceuticals with Alpine Air using ALIA CTOL. [BETA](https://investors.beta.team/news-events/press-releases/detail/119/beta-completes-utah-eipp-operations-to-support-the-future-of-radiopharmaceutical-delivery-and-treatment) · [UDOT](https://connect.udot.utah.gov/2026/10/07/udot-takes-transportation-to-the-next-level-with-all-electric-aircraft-demonstration/)
   - Status: **Trial** · Domain: Medical/emergency · Geography: Global (US — Utah)
   - Tag: Company-announced
-  - What's happening: eIPP demonstration — not a type certificate and not scheduled commercial medical service. UDOT confirms demonstration framing.
-  - Note: Demo / programme pathway.
+  - What's happening: eIPP demonstration — not a type certificate and not scheduled commercial medical service. UDOT confirms demonstration framing. Programme framing seeks repeatable operations; demos remain piloted cargo/medical flights.
+  - Note: Demo / programme pathway — not commercial service / not type certificate.
   - Read instead: [Companies & sectors](landscape.qmd) (BETA).
 
 - []{#uc-item-2026-03-31-tlb-fsd .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** Fire Services Department Sandbox emergency / search-and-rescue SUA trials at the Fire and Ambulance Services Academy and pre-defined rural areas. [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
@@ -496,9 +543,31 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Public service {#uc-public}
 
-5 items · 3 trial · 2 operating
+7 items · 3 trial · 4 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-16-fsd-chung-yeung .uc-item}**16 Oct 2026 · now.com 新聞 (via Yahoo HK); 新城財經台; The Standard; SCMP:** FSD media briefing on Chung Yeung Festival (17–19 Oct) hill-fire drone deployment — vehicle-mounted automated docks for continuous patrol, real-time AI smoke flagging, and a heavy drone that can carry an 80-litre water device / tools to remote slopes; 12 high-risk sites patrolled with CAS. Press reports FSD stating 60 drones, 8 autonomous. [Yahoo / now.com](https://hk.news.yahoo.com/%E9%87%8D%E9%99%BD%E7%AF%80-%E6%B6%88%E9%98%B2%E8%99%95%E9%A6%96%E6%AC%A1%E7%94%A8%E7%84%A1%E4%BA%BA%E6%A9%9F%E6%94%BE%E6%B0%B4%E5%BD%88-%E9%82%8A%E9%A3%9B%E9%82%8A%E7%94%A8ai%E8%AD%98%E5%88%A5%E5%B1%B1%E7%81%AB-%E8%AC%9D%E6%AC%A3%E6%A1%90%E5%A0%B1%E9%81%93-121228980.html) · [新城](https://www.metroradio.com.hk/News/details.aspx?CategoryName=&NewsId=20261016163041) · [The Standard](https://www.thestandard.com.hk/news/article/345706/Fire-services-steps-up-patrols-drone-deployment-for-Chung-Yeung-Festival) · [SCMP](https://www.scmp.com/news/hong-kong/society/article/3371201/ai-powered-drones-help-detect-hill-fires-during-chung-yeung-festival) · [context GIA 9 Oct](https://www.info.gov.hk/gia/general/202610/09/P2026100900441.htm)
+  - Status: **Operating** · Domain: Public service · Geography: HK
+  - Tag: Independently reported
+  - What's happening: Upgrade from the 9 Oct Lion Rock exercise (GIA; first water-bomb drop — context only, not a separate census row) to an operational festival deployment announced by FSD. “Operating” refers to the drone surveillance / readiness deployment; actual water-bomb drops during the holiday are not evidenced. No GIA / FSD web release located for the 16 Oct briefing — cite only the reported official remarks.
+  - Note: Operating = surveillance/readiness deployment for the festival; water-bomb sorties during the holiday not evidenced.
+  - Read instead: [Companies & sectors](landscape.qmd) (Fire Services Department).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「無人機在電動車尾起飛，車輛配備兩套自動化無人機機場，可自動充電及起飛，支援無人機連續執勤超過48小時。……消防處目前有60部無人機，其中8部是無需人手遙控的自動無人機。」]{lang="zh-Hant"} ([source](https://hk.news.yahoo.com/%E9%87%8D%E9%99%BD%E7%AF%80-%E6%B6%88%E9%98%B2%E8%99%95%E9%A6%96%E6%AC%A1%E7%94%A8%E7%84%A1%E4%BA%BA%E6%A9%9F%E6%94%BE%E6%B0%B4%E5%BD%88-%E9%82%8A%E9%A3%9B%E9%82%8A%E7%94%A8ai%E8%AD%98%E5%88%A5%E5%B1%B1%E7%81%AB-%E8%AC%9D%E6%AC%A3%E6%A1%90%E5%A0%B1%E9%81%93-121228980.html))
+  :::
+
+- []{#uc-item-2026-10-10-afcd-illegal-fishing .uc-item}**10–11 Oct 2026 · 香港文匯報 / TKWW:** Press reports CAD Deputy Director-General / Working Group Project Facilitation Task Force co-convenor Chow Wing-hang stating that AFCD already uses drones to combat illegal fishing; future night patrols framed as a plan. [文匯報](https://www.wenweipo.com/a/202610/11/AP6acaa206e4b01d54a286a4d9.html) · [TKWW](https://www.tkww.hk/epaper/view/newsDetail/2108969991637438464.html)
+  - Status: **Operating** · Domain: Public service · Geography: HK
+  - Tag: Independently reported
+  - What's happening: Public official statement via press (no AFCD GIA retrieved). Night-patrol expansion = plan, not evidenced ops. Cite only the publicly reported official text; do not invent surveillance metrics.
+  - Note: Operating = stated existing AFCD illegal-fishing UAS use; night expansion is plan only. Not an AFCD primary.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「身為民航處副處長的周永恒介紹，無人機技術已在港廣泛應用，例如漁農自然護理署利用無人機打擊非法捕魚，未來計劃拓展至夜間巡查」]{lang="zh-Hant"} ([source](https://www.wenweipo.com/a/202610/11/AP6acaa206e4b01d54a286a4d9.html))
+  :::
 
 - []{#uc-item-2026-03-31-tlb-csd .uc-item}**31 Mar 2026 · TLB implemented-list PDF:** CSD Sandbox infrastructure-surveillance project at Tong Fuk Correctional Institution (EMSD collaborator on list). [TLB PDF](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) · [SB LCQ (department colour)](https://www.info.gov.hk/gia/general/202507/30/P2025073000346.htm)
   - Status: **Trial** · Domain: Public service · Geography: HK
@@ -625,9 +694,16 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## eVTOL passenger {#uc-evtol}
 
-4 items · 4 trial · 0 operating
+5 items · 5 trial · 0 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-12-virginia-tech .uc-item}**12 Oct 2026 · WDBJ7:** Experimental vertiport trials at Blackstone airport, Roanoke airport and VTTI urban-style pad under MAAP Smart Airspace / eIPP-linked programme; flights described as summer 2026. Hybrid-electric Electra EL2 and VTOL-transition Textron Aerosonde named by press. [WDBJ7](https://www.wdbj7.com/2026/10/12/virginia-techs-smart-airspace-project-tests-electric-aircraft-southwest-virginia/)
+  - Status: **Trial** · Domain: eVTOL passenger · Geography: Global (US — Virginia)
+  - Tag: Independently reported
+  - What's happening: Independently reported eIPP-linked experimental flights — not type certificate, not scheduled passenger service.
+  - Note: Experimental / programme pathway — not commercial passenger carriage.
+  - Read instead: [Companies & sectors](landscape.qmd) (FAA eIPP).
 
 - []{#uc-item-2026-08-28-ehang .uc-item}**28 Aug 2026 · EHang; Cyberport; SCMP:** Pilotless passenger-capable EH216-S completes first public demonstration at Cyberport waterfront under Sandbox X UCA (KC Smart Mobility / Cyberport / EHang). [EHang EN](https://www.ehang.com/news/1387.html) · [SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3365647/unmanned-electric-aircraft-makes-maiden-flight-hong-kong)
   - Status: **Trial** · Domain: eVTOL passenger · Geography: HK
