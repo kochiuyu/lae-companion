@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-18"
+as_of: "2026-10-20"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,13 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 18 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 20 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">25 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">29 items</span></summary><ol>
+<li id="tl-ind-2026-10-19-mofcom-ann49"><a href="#industry-item-2026-10-19-mofcom-ann49"><span class="chip">19 Oct</span> · MOFCOM Ann. 49 UAS dual-use export controls<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2026-10-19-archer-sfbay"><a href="#industry-item-2026-10-19-archer-sfbay"><span class="chip">19 Oct</span> · Archer Midnight SF Bay piloted ‘No Roads’ tour flights<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-19-wing-mount-laurel"><a href="#industry-item-2026-10-19-wing-mount-laurel"><span class="chip">19 Oct</span> · Wing–Walmart Mount Laurel NJ community demo<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-19-changsha-liantian"><a href="#industry-item-2026-10-19-changsha-liantian"><span class="chip">19 Oct</span> · Changsha Industrial College × 链田 straw-removal UAS-cluster signing<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-17-yesheng"><a href="#industry-item-2026-10-17-yesheng"><span class="chip">17 Oct</span> · 晔生航空 Canton Fair eVTOL debut; 130+ intent orders<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-17-subsidies"><a href="#industry-item-2026-10-17-subsidies"><span class="chip">17 Oct</span> · Mainland localities pause / repeal direct LAE subsidies<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-16-eipp"><a href="#industry-item-2026-10-16-eipp"><span class="chip">16 Oct</span> · FAA eIPP moves to “repeatable operations”<span class="badge b-ind">Indep.</span></a></li>
@@ -135,6 +139,42 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ### October 2026 {#industry-2026-10}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-19-mofcom-ann49 .industry-item}**19 Oct 2026 · Ministry of Commerce / GACC / CMC Equipment Development Department:** Announcement No. 49 of 2026 optimises and adjusts export-control measures on specified UAS-related dual-use items; Dual-Use Items Export Control List updated; **in force 18 Nov 2026**. [Primary](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html) · [Spokesperson Q&A](https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html) · [Xinhua](https://www.news.cn/20261019/56f2924cadd1470397f190e822193d98/c.html)
+  - Tag: Officially confirmed
+  - What's new: Binding Mainland trade-control update with an explicit in-force date. Affects exporters of UAS platforms, engines/motors/ESCs, high-EIRP radios, FCS / swarm / DAA software and technology, and counter-UAS technology above stated thresholds; registration-based facilitation for some categories and exhibition temporary exits. **Not** a CAAC type certificate, **not** an operating certificate, **not** Hong Kong law. Relevant to GBA manufacturers’ outbound compliance and Hong Kong “出海” / LASA framing — **no market-size figure**.
+  - Status: Officially confirmed; Mainland trade-control only; takes effect 18 Nov 2026.
+  - Read instead: [Official status](tracker.qmd) (MOFCOM Announcement 49) · [Government news](news.qmd#press-item-2026-10-19-mofcom-ann49)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「本公告自2026年11月18日起正式实施。《中华人民共和国两用物项出口管制清单》同步予以更新。」]{lang="zh-Hans"} ([source](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html))
+
+  English (LAE-Intel translation): This Announcement takes effect formally on 18 November 2026. The Dual-Use Items Export Control List of the People’s Republic of China is updated accordingly.
+  :::
+
+- []{#industry-item-2026-10-19-archer-sfbay .industry-item}**19 Oct 2026 · Archer Aviation IR / Business Wire:** Archer says Midnight completed several days of piloted San Francisco Bay Area flights from Oakland International Airport, capping the Northern California leg of its ‘No Roads’ tour; next stop framed as Los Angeles under eIPP preparation. [IR](https://www.investors.archer.com/news/news-details/2026/Archer-Completes-Historic-Electric-Air-Taxi-Flights-Over-San-Francisco-Bay/default.aspx) · [archer.com](https://archer.com/news/archer-completes-historic-electric-air-taxi-flights-over-san-francisco-bay)
+  - Tag: Company-announced
+  - What's new: Company-announced multi-city piloted demonstration in complex urban airspace near SFO / OAK / SJC. Company timing / speed / distance figures (for example about 10 min Oakland→SF Marina; 131 mph; 200+ miles) remain **company-announced — not audited**. **Special-class airworthiness criteria ≠ type certificate**; **tour flights ≠ commercial passenger service**; **eIPP preparation ≠ paid air-taxi authorisation**.
+  - Status: Company-announced demo / tour only; no type certificate; no commercial service.
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
+
+- []{#industry-item-2026-10-19-wing-mount-laurel .industry-item}**19 Oct 2026 · DroneXL:** Trade press reports a Wing–Walmart community demonstration of Wing delivery aircraft at Walmart Supercenter #5944 (934 Route 73, Mount Laurel, NJ), described as held the prior week; Wing’s Walmart page still lists Philadelphia as “Coming soon” and does not list New Jersey as of the article date. [Link](https://dronexl.co/2026/10/19/wing-walmart-drone-demo-mount-laurel-new-jersey/)
+  - Tag: Independently reported
+  - What's new: Independently reported **demo** evidence on the New Jersey side of the Delaware River — **not** a Part 135 network expansion announcement and **not** live Philadelphia service. June 2026 Philly framing and 2027 timing remain prior press. No nest / loading enclosure evidenced in the cited photos per DroneXL.
+  - Status: Independently reported community demo; Philly still “Coming soon”; demo ≠ live metro service.
+  - Read instead: [Companies & sectors: Wing Aviation](landscape.qmd)
+
+- []{#industry-item-2026-10-19-changsha-liantian .industry-item}**19 Oct 2026 · 长沙晚报 (掌上长沙):** Signing ceremony for a UAS-cluster intelligent sling-load system aimed at straw removal from southern paddy fields — Changsha Industrial College team (guided by Xiao Haihua; mentored by Academician Wang Yaonan’s team) with 湖南链田信息科技; the school says the student startup team won a **million-RMB-class industrial order** within a month of lab work. [Link](https://www.icswb.com/h/100104/20261019/1000358.html)
+  - Tag: Independently reported
+  - What's new: Independently reported **signing + order claim**. Cost-per-mu figures in the report (manual transfer 250–300 yuan → UAS-cluster “under 150 yuan”) are **party-stated via press — not audited**. **Signing / order ≠ operating network**; MoU-class collaboration language present (共建产学研实践基地). Not Hong Kong; not GBA core nine cities.
+  - Status: Independently reported signing / order claim; figures not audited; not an operating network.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「签约项目聚焦“面向秸秆离田的无人机集群‘一控多飞’智能吊运系统关键技术”，直指南方水田秸秆转运成本高、大型机械难下田的现实痛点——湖南水稻复种面积6000多万亩，传统人工转运每亩成本高达250至300元，而无人机集群调用有望将其压至150元以内。……仅一个月时间，由王耀南院士团队引领、该校肖海华老师指导的大学生创业团队就斩获了百万级产业订单。」]{lang="zh-Hans"} ([source](https://www.icswb.com/h/100104/20261019/1000358.html))
+
+  English (LAE-Intel translation): The signed project focuses on key technology for a UAS-cluster “one-operator, multi-aircraft” intelligent sling-load system for straw removal from fields, aimed at the high cost of straw transfer from southern paddies and the difficulty of putting large machinery into soft fields — Hunan’s rice multiple-cropping area exceeds 60 million mu; traditional manual transfer costs 250–300 yuan per mu, while UAS-cluster dispatch is expected to bring that under 150 yuan. … In only one month, the student startup team guided by teacher Xiao Haihua and mentored by Academician Wang Yaonan’s team won a million-RMB-class industrial order.
+  :::
 
 - []{#industry-item-2026-10-17-yesheng .industry-item}**17 Oct 2026 · 21世纪经济报道:** Guangzhou ultralight-eVTOL maker Yesheng Aviation (晔生航空) debuts four products at the 140th Canton Fair (Phase 1 opened 15 Oct) — two crewed ultralight eVTOLs, a compound-wing inspection drone under 25 kg, and an air-ground AI inspection robot — and the report says it signed 130+ intent orders on day one. [Link](https://www.21jingji.com/article/20261017/herald/3179fc164609510d6eab4783aa0a6782.html)
   - Tag: Independently reported

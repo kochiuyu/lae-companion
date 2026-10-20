@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-10-18"
+as_of: "2026-10-20"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,11 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 18 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 20 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">11 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">13 items</span></summary><ol>
+<li id="tl-press-2026-10-19-mofcom-ann49"><a href="#press-item-2026-10-19-mofcom-ann49"><span class="chip">19 Oct</span> · MOFCOM Ann. 49 dual-use UAS export controls (in force 18 Nov)<span class="badge b-off">Official</span></a></li>
+<li id="tl-press-2026-10-19-zigong-medical"><a href="#press-item-2026-10-19-zigong-medical"><span class="chip">19 Oct</span> · Zigong municipal medical UAS network (Xinhua feature)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-18-ss-drone-hubs"><a href="#press-item-2026-10-18-ss-drone-hubs"><span class="chip">18 Oct</span> · Secretary for Security: police fixed drone hubs ~20 → target 200<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-16-caac-ga-rules" class="st-open"><a href="#press-item-2026-10-16-caac-ga-rules"><span class="chip">16 Oct</span> · CAAC draft revisions of three manned general-aviation rules<span class="badge b-open">DRAFT</span></a></li>
 <li id="tl-press-2026-10-16-action-plan-press" class="st-open"><a href="#press-item-2026-10-16-action-plan-press"><span class="chip">16 Oct</span> · Press: Action Plan drafting “within this year” (text still OPEN)<span class="badge b-open">Press only</span></a></li>
@@ -117,6 +119,28 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ### 2026-10 {#press-2026-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-10-19-mofcom-ann49 .press-item}**19 Oct 2026 · Ministry of Commerce / General Administration of Customs / CMC Equipment Development Department (新华网 / MOFCOM spokesperson):** Joint Announcement No. 49 of 2026 optimises and adjusts export-control measures on specified unmanned-aircraft-related dual-use items; the Dual-Use Items Export Control List is updated; measures take effect **18 Nov 2026**. [Primary](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html) · [Spokesperson Q&A](https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html) · [Xinhua](https://www.news.cn/20261019/56f2924cadd1470397f190e822193d98/c.html)
+  - What's new: Binding Mainland trade-control update with an explicit in-force date. Xinhua / spokesperson framing: optimisation based on industry feedback; firm opposition to unmanned aircraft being used for non-peaceful purposes in violation of rules, while supporting Chinese enterprises in civil UAS international trade and cooperation. Parallel WATCH item on Official status.
+  - Status: Official (T1). **Mainland export-licence regime only** — creates **no** Hong Kong CAD permission and **does not** amend Cap. 448G. **Not** the CAAC ATM Rules final.
+  - Read instead: [Official status](tracker.qmd) (MOFCOM Announcement 49 WATCH).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「商务部会同海关总署、中央军委装备发展部19日联合发布公告，优化调整无人机相关物项出口管制措施。相关措施将于11月18日起正式实施。……本次对无人机出口管制措施的优化调整，就是基于业界反映的产业和技术最新情况，这充分反映中方坚决反对无人机被违规用于非和平目的，同时坚定支持中国企业在民用领域开展无人机国际贸易与合作。」]{lang="zh-Hans"} ([source](https://www.news.cn/20261019/56f2924cadd1470397f190e822193d98/c.html))
+
+  English (LAE-Intel translation): On the 19th, MOFCOM together with GACC and the CMC Equipment Development Department jointly issued an announcement optimising and adjusting export-control measures on unmanned-aircraft-related items. The measures take effect on 18 November. … This optimisation is based on industry feedback on the latest industrial and technical situation, reflecting China’s firm opposition to unmanned aircraft being used for non-peaceful purposes in violation of rules, while firmly supporting Chinese enterprises in conducting international UAS trade and cooperation in the civil domain.
+  :::
+
+- []{#press-item-2026-10-19-zigong-medical .press-item}**19 Oct 2026 · 新华网 (四川频道):** A Xinhua feature on Zigong’s low-altitude economy says the city has opened more than 30 low-altitude medical routes linking more than 20 medical institutions; medical drones have flown nearly 10,000 sorties and stand ready around the clock; next step framed as extending to township clinics (a “15-minute medical circle” **plan**). [Link](https://sc.news.cn/20261019/cb505c86eef24b0aad8d1bddaff727e4/c.html)
+  - What's new: Official-media snapshot of a Mainland municipal medical-UAS public-service network (route / sortie / 24-hour standby figures as claimed in the feature — not independently audited). Township “15-minute medical circle” is a plan. Local industrial-park output / 产值 goals in the same feature are excluded.
+  - Status: Press only (T4 official-media feature). Operating network **claim** via official media — not independently audited. **Not** a Shenzhen–Hong Kong corridor.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-zigong-municipal-medical-uas) (Emergency and medical).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「在医疗急救领域，自贡开通30余条低空医疗航线，串联全市20余个医疗机构。截至目前，医疗无人机累计飞行近万架次，24小时随时待命，搭建起守护生命的空中通道。下一步，自贡还计划把这条“空中生命线”延伸至乡镇卫生院，构建全市“15分钟医疗圈”」]{lang="zh-Hans"} ([source](https://sc.news.cn/20261019/cb505c86eef24b0aad8d1bddaff727e4/c.html))
+
+  English (LAE-Intel translation): In medical emergency response, Zigong has opened more than 30 low-altitude medical routes linking more than 20 medical institutions city-wide. To date medical drones have flown nearly 10,000 sorties and stand ready around the clock, building an aerial corridor to protect lives. Next, Zigong also plans to extend this “aerial lifeline” to township clinics and build a city-wide “15-minute medical circle.”
+  :::
 
 - []{#press-item-2026-10-18-ss-drone-hubs .press-item}**18 Oct 2026 · 星島頭條 (Sing Tao):** Secretary for Security Tang Ping-keung, in a TV programme interview reported by Sing Tao, said there are about 20 fixed police drone hubs across Hong Kong, with a target of 200 to cover any area where needed, and that linking drones with the 「銳眼」 CCTV system will be studied. [Link](https://www.headline4hk.com/article/20261018/stheadline/3627349/)
   - What's new: Official remarks via press on the scale of police drone hubs (about 20 now; target 200). The Secretary said drones have so far helped detect more than 70 crimes and 220 traffic offences — his figures as reported, not audited.

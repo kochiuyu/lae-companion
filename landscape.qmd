@@ -1,18 +1,18 @@
 ---
 title: "Companies & sectors"
 subtitle: "Who is in the market"
-as_of: "2026-10-18"
+as_of: "2026-10-20"
 page-layout: full
 toc: true
 toc-location: right
 toc-title: "Sections"
 ---
 
-Sources (board last checked 18 Oct 2026): 86 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
+Sources (board last checked 20 Oct 2026): 87 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 
 ## Companies & sectors at a glance
 
-**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks stay in the sector lists below but are omitted from the map. Marker colour = Hong Kong vs GBA — see legend. Click a pin for firm, sector(s), and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). **Counting rule:** one pin per unique HK/GBA firm — **55 pins** (44 Hong Kong + 11 GBA) from the HK/GBA subset of 82 entry rows.
+**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks stay in the sector lists below but are omitted from the map. Marker colour = Hong Kong vs GBA — see legend. Click a pin for firm, sector(s), and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). **Counting rule:** one pin per unique HK/GBA firm — **55 pins** (44 Hong Kong + 11 GBA) from the HK/GBA subset of 82 entry rows (of 87 total).
 
 ```{=html}
 <!-- Landscape at-a-glance map: Leaflet CDN, self-contained (no _quarto.yml change). GBA-focused (HK + Shenzhen/Guangzhou/Zhuhai); Global benchmarks omitted from map. -->
@@ -230,10 +230,10 @@ Sources (board last checked 18 Oct 2026): 86 entries across eleven sectors. Entr
   [「2017年以来，我局先后批复顺丰、京东等旗下公司在江西赣州、陕西全省、四川雅江、粤港澳大湾区等地开展无人机物流配送试点。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/JYTNDF/202211/t20221104_216304.html))
   :::
 
-- **Wing Aviation (Alphabet) · United States:** FAA Part 135 drone package-delivery air carrier; FAA publishes environmental decisions for Wing delivery operations in US metro areas. Company (with Walmart) announced planned 2027 expansion to Denver and Seattle metros — announced, not live in those metros; reach figures stay company-announced. [Link](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
+- **Wing Aviation (Alphabet) · United States:** FAA Part 135 drone package-delivery air carrier; FAA publishes environmental decisions for Wing delivery operations in US metro areas. Company (with Walmart) announced planned 2027 expansion to Denver and Seattle metros — announced, not live in those metros; reach figures stay company-announced. **19 Oct 2026:** DroneXL reports a Wing–Walmart community demo at Mount Laurel, NJ Walmart #5944; Philly still “Coming soon” on Wing’s Walmart page per that report — **demo ≠ live metro service**. [Link](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
   - Tag: Officially confirmed
-  - Status: Operating (FAA Part 135); Denver/Seattle 2027 expansion company-announced, not live
-  - Source: [FAA Part 135 package-delivery-by-drone page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone) · [Wing–Walmart 2026-10-05 (company)](https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network)
+  - Status: Operating (FAA Part 135); Denver/Seattle 2027 expansion company-announced, not live; Mount Laurel = community demo (independently reported)
+  - Source: [FAA Part 135 package-delivery-by-drone page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone) · [Wing–Walmart 2026-10-05 (company)](https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network) · [DroneXL 2026-10-19 (Mount Laurel demo)](https://dronexl.co/2026/10/19/wing-walmart-drone-demo-mount-laurel-new-jersey/)
 
 - **Zipline International Inc. · United States:** FAA Part 135 UAS package-delivery air carrier; consumer drone delivery expanding in US metros. Round Rock / Austin-area service began from a hub at 3000 E. Palm Valley Blvd (Round Rock ETJ) in early October 2026 per company newsroom and City of Round Rock information page. Cumulative delivery / mileage / municipality counts remain company-announced. [Link](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
   - Tag: Officially confirmed
@@ -350,6 +350,17 @@ Sources (board last checked 18 Oct 2026): 86 entries across eleven sectors. Entr
   English (LAE-Intel translation): The same day, Guangzhou’s first regularised UAS blood-transport route completed its first flight — a drone carrying blood bags left the Zengcheng District Blood Station and landed at Nanfang Hospital’s Zengcheng campus, saving about 50% of the time versus ground transport.
   :::
 
+- []{#firm-zigong-municipal-medical-uas .landscape-entry}**Zigong municipal medical UAS network · Mainland-other (Sichuan — Zigong):** Municipal public-service medical-UAS network — Xinhua feature (19 Oct 2026) says more than 30 low-altitude medical routes link more than 20 medical institutions; medical drones claimed nearly 10,000 cumulative sorties with 24-hour standby; township-clinic extension framed as a plan (“15-minute medical circle”). OEM / operator not named in the feature. Sortie and route counts are feature-stated — not independently audited. Local industrial-park 产值 / production goals in the same feature are excluded. **Not** a Shenzhen–Hong Kong corridor; outside GBA map scope (no pin). [Link](https://sc.news.cn/20261019/cb505c86eef24b0aad8d1bddaff727e4/c.html)
+  - Tag: Independently reported (official-media feature)
+  - Status: Operating (claimed via official media — not independently audited); township extension = plan
+  - Source: [新华网四川 2026-10-19](https://sc.news.cn/20261019/cb505c86eef24b0aad8d1bddaff727e4/c.html)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「在医疗急救领域，自贡开通30余条低空医疗航线，串联全市20余个医疗机构。截至目前，医疗无人机累计飞行近万架次，24小时随时待命，搭建起守护生命的空中通道。下一步，自贡还计划把这条“空中生命线”延伸至乡镇卫生院，构建全市“15分钟医疗圈”」]{lang="zh-Hans"} ([source](https://sc.news.cn/20261019/cb505c86eef24b0aad8d1bddaff727e4/c.html))
+
+  English (LAE-Intel translation): In medical emergency response, Zigong has opened more than 30 low-altitude medical routes linking more than 20 medical institutions city-wide. To date medical drones have flown nearly 10,000 sorties and stand ready around the clock. Next, Zigong also plans to extend this “aerial lifeline” to township clinics and build a city-wide “15-minute medical circle.”
+  :::
+
 ## Tourism and entertainment
 
 - []{#firm-owowww-creative-hong-kong-highgreat .landscape-entry}**OWOWWW Creative (Hong Kong) / HighGreat · Hong Kong:** Regulatory Sandbox drone-show system trials at Cyberport. [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-owowww-creative-hong-kong-highgreat"}
@@ -412,10 +423,10 @@ Sources (board last checked 18 Oct 2026): 86 entries across eleven sectors. Entr
   English: “U.S. Transportation Secretary Sean P. Duffy and the Federal Aviation Administration (FAA) today announced eight proposals were selected as part of the brand-new Advanced Air Mobility and Electric Vertical Takeoff and Landing (eVTOL) Integration Pilot Program (eIPP).” ([source](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight))
   :::
 
-- **Archer Aviation (eIPP / passenger programme) · United States:** US eVTOL passenger-programme participant; named eIPP industry partner on Port Authority NY/NJ, Texas, and Florida projects (urban air taxi / regional concepts). Cross-ref Aircraft and airframe makers for FAA special-class criteria (Model M001) — criteria ≠ issued type certificate; not HK ops. **15 Oct 2026:** a UAE GCAA delegation held separate certification / airworthiness workshops at Archer (press of a GCAA statement) — engagement only; no UAE certificate issued. [Link](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight)
+- **Archer Aviation (eIPP / passenger programme) · United States:** US eVTOL passenger-programme participant; named eIPP industry partner on Port Authority NY/NJ, Texas, and Florida projects (urban air taxi / regional concepts). Cross-ref Aircraft and airframe makers for FAA special-class criteria (Model M001) — criteria ≠ issued type certificate; not HK ops. **15 Oct 2026:** a UAE GCAA delegation held separate certification / airworthiness workshops at Archer (press of a GCAA statement) — engagement only; no UAE certificate issued. **19 Oct 2026:** Company IR — Midnight completed piloted San Francisco Bay Area flights from Oakland International Airport on the Northern California leg of the ‘No Roads’ tour; company speed/time/distance figures not audited; **tour / demo ≠ type certificate ≠ commercial passenger service**; LA eIPP preparation framed as next step — not paid ops. [Link](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight)
   - Tag: Officially confirmed
-  - Status: Trial / programme (eIPP partner; criteria ≠ issued TC; not HK ops)
-  - Source: [FAA eIPP eight selections](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight) · [FAA FR special-class criteria M001 (airframe primary)](https://www.federalregister.gov/documents/2024/05/24/2024-11192/airworthiness-criteria-special-class-airworthiness-criteria-for-the-archer-aviation-inc-model-m001) · [Aletihad 2026-10-15 (GCAA)](https://en.aletihad.ae/news/uae/4699185/gcaa-reviews-air-taxi-certification-requirements-with-joby-a)
+  - Status: Trial / programme (eIPP partner; criteria ≠ issued TC; not HK ops); SF Bay = company-announced tour / demo
+  - Source: [FAA eIPP eight selections](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight) · [FAA FR special-class criteria M001 (airframe primary)](https://www.federalregister.gov/documents/2024/05/24/2024-11192/airworthiness-criteria-special-class-airworthiness-criteria-for-the-archer-aviation-inc-model-m001) · [Aletihad 2026-10-15 (GCAA)](https://en.aletihad.ae/news/uae/4699185/gcaa-reviews-air-taxi-certification-requirements-with-joby-a) · [Archer IR 2026-10-19 (SF Bay ‘No Roads’)](https://www.investors.archer.com/news/news-details/2026/Archer-Completes-Historic-Electric-Air-Taxi-Flights-Over-San-Francisco-Bay/default.aspx)
 
 - **BETA Technologies (eIPP / passenger & cargo programme) · United States:** US electric aircraft programme participant named across multiple FAA eIPP selections (passenger, regional, cargo, and medical-response concepts among partner lists). Company says it completed Utah eIPP medical-cargo demo flights with Alpine Air (2026-10-07) — company-announced; FAA quote appears only in the company wire. Cross-ref Aircraft and airframe makers for FAA special conditions on Model H500A electric engines — engine special conditions ≠ aircraft type certificate; not HK ops. [Link](https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight)
   - Tag: Officially confirmed
@@ -571,7 +582,7 @@ Sources (board last checked 18 Oct 2026): 86 entries across eleven sectors. Entr
   English: “The FAA announces the special class airworthiness criteria for the Joby Aero, Inc. (Joby) Model JAS4-1 powered-lift. This document sets forth the airworthiness criteria the FAA finds to be appropriate and applicable for the powered-lift design.” ([source](https://www.federalregister.gov/documents/2024/03/08/2024-04690/airworthiness-criteria-special-class-airworthiness-criteria-for-the-joby-aero-inc-model-jas4-1))
   :::
 
-- **Archer Aviation (Model M001) · United States:** US eVTOL / powered-lift airframe developer; FAA published final special-class airworthiness criteria for Model M001 under 14 CFR 21.17(b) (certification **basis** — not an issued type certificate). Cross-ref eVTOL and passenger trials (eIPP partner). Product-SKU catalogue omitted beyond the model named in the FR notice. [Link](https://www.federalregister.gov/documents/2024/05/24/2024-11192/airworthiness-criteria-special-class-airworthiness-criteria-for-the-archer-aviation-inc-model-m001)
+- **Archer Aviation (Model M001) · United States:** US eVTOL / powered-lift airframe developer; FAA published final special-class airworthiness criteria for Model M001 under 14 CFR 21.17(b) (certification **basis** — not an issued type certificate). Cross-ref eVTOL and passenger trials (eIPP partner). Product-SKU catalogue omitted beyond the model named in the FR notice. **Note (20 Oct 2026):** SF Bay ‘No Roads’ piloted demos (company IR 19 Oct) do not change FAA special-class criteria status — criteria ≠ issued TC. [Link](https://www.federalregister.gov/documents/2024/05/24/2024-11192/airworthiness-criteria-special-class-airworthiness-criteria-for-the-archer-aviation-inc-model-m001)
   - Tag: Officially confirmed
   - Status: Trial / programme (FAA FR special-class criteria; criteria ≠ issued TC; not HK ops)
   - Source: [FAA FR special-class criteria M001](https://www.federalregister.gov/documents/2024/05/24/2024-11192/airworthiness-criteria-special-class-airworthiness-criteria-for-the-archer-aviation-inc-model-m001)

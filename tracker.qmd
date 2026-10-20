@@ -1,7 +1,7 @@
 ---
 title: "Official status"
 subtitle: "Official facts you may cite"
-as_of: "2026-10-18"
+as_of: "2026-10-20"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -11,11 +11,11 @@ page-layout: full
 
 Regulatory Sandbox ≠ Sandbox X.
 
-Board last checked 18 October 2026 (`as_of`).
+Board last checked 20 October 2026 (`as_of`).
 
 ## Status board
 
-Open, watch, and settled items on this board (last checked 18 October 2026). Detailed source tables follow. Row-level “checked …” dates stay as evidence stamps and are not rewritten here.
+Open, watch, and settled items on this board (last checked 20 October 2026). Detailed source tables follow. Row-level “checked …” dates stay as evidence stamps and are not rewritten here.
 
 ### Key to labels
 
@@ -29,7 +29,7 @@ Open, watch, and settled items on this board (last checked 18 October 2026). Det
 | Item | Status | Latest official word | Still not fact |
 |------|--------|----------------------|----------------|
 | Action Plan on Developing Low-Altitude Economy | [OPEN]{.status-chip .status-open} | Secretary for Transport and Logistics to LegCo, 2 Oct 2026: the Working Group 「繼續全力制訂」 the plan this year ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)). Policy Address ¶139, 16 Sep 2026: “will formulate” ([Ch. III](https://www.policyaddress.gov.hk/2026/en/chapter3.html)). Earlier target: drafting by end-2026 ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)). Press only, not a government text: 人民财讯 / 证券时报, 16 Oct 2026, citing unnamed sources, says drafting is expected to be completed within this year ([人民财讯](https://www.stcn.com/article/detail/4221778.html)); no GIA, TLB or LegCo document carries that target. | The published full text of the plan. |
-| Regulatory Sandbox X cross-boundary results | [OPEN]{.status-chip .status-open} | Transport and Logistics Bureau page, checked 18 Oct 2026: the Working Group “will announce the results in due course” ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). | Any results list. “Trial flights as early as possible” (Policy Address; Secretary for Transport and Logistics) and China Daily HK’s 5 Oct “Sandbox Connect” (Nansha gateway) framing are not results lists. |
+| Regulatory Sandbox X cross-boundary results | [OPEN]{.status-chip .status-open} | Transport and Logistics Bureau page, checked 20 Oct 2026: the Working Group “will announce the results in due course” ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). | Any results list. “Trial flights as early as possible” (Policy Address; Secretary for Transport and Logistics) and China Daily HK’s 5 Oct “Sandbox Connect” (Nansha gateway) framing are not results lists. |
 | Shenzhen–Hong Kong drone corridor | [OPEN]{.status-chip .status-open} (not evidenced) | Secretary for Commerce and Economic Development, 6 Oct 2026: the spectrum arrangement 「有助日後無人機跨境運作」, a forward-looking statement ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm)). | That a Shenzhen–Hong Kong drone corridor is operating. No joint route document and no new Greater Bay Area corridor approval were found (5 Sep note). |
 | Smart Low-altitude Traffic Management System | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: progressive rollout from 2028 ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); Policy Address annex indicator 34 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not in force. |
 | Law for unconventional aircraft over 150 kg (Cap. 448G follow-on) | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: complete drafting next year and submit it to LegCo ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); annex indicator 35: drafting complete within 2027 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not enacted; no Cap. 448G amending instrument. |
@@ -41,6 +41,7 @@ Open, watch, and settled items on this board (last checked 18 October 2026). Det
 | Mainland air traffic management rules, Chapter 12 (drones) | [WATCH]{.status-chip .status-watch} (draft) | Civil Aviation Administration of China: draft published 11 Aug 2026; comments closed 11 Sep 2026; still a 征求意见稿 (consultation draft) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)). | That it is promulgated. It is not the Art. 34 / Art. 225 implementing regulation. |
 | Mainland medium/small UAS take-off and landing site technical requirements | [WATCH]{.status-chip .status-watch} (draft) | Civil Aviation Administration of China (民航局低空安全司): 《中小型无人驾驶航空器起降场地技术要求（征求意见稿）》; letter dated 14 Oct 2026; YJZJ item 15 Oct 2026; comments close **13 Nov 2026** ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261015_231850.html)). | That it is a final 令 / published technical standard. It is **not** the ATM Rules draft, and **not** a Hong Kong Cap. 448G / vertiport statute. |
 | Mainland manned general-aviation rules: pilot, commercial non-transport operator, and pilot-school certification (three CCAR revisions) | [WATCH]{.status-chip .status-watch} (draft) | Civil Aviation Administration of China (飞行标准司): notice dated 16 Oct 2026 seeking comments on revised 《民用航空器驾驶员合格审定规则》《商业非运输运营人运行合格审定规则》《民用航空器驾驶员学校合格审定规则》; comments close **15 Nov 2026** ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261016_231880.html)). | That the rules are final. These are **manned general-aviation** rules (the operator rule includes an air-tour chapter, 空中游览); they are **not** drone-specific, **not** the ATM Rules draft, and **not** Hong Kong law. |
+| Mainland dual-use UAS export controls — MOFCOM / GACC / CMC Equipment Development Department Announcement No. 49 of 2026 | [WATCH]{.status-chip .status-watch} (published; in force **18 Nov 2026**) | Joint announcement dated **19 Oct 2026**; takes effect **18 Nov 2026**; updates the Dual-Use Items Export Control List for specified unmanned-aircraft-related items (platforms, engines/motors/ESCs, FCS / swarm / DAA software and technology, counter-UAS technology above stated thresholds; registration facilitation for some categories and exhibition temporary exits) ([MOFCOM](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html); [spokesperson Q&A](https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html); [Xinhua](https://www.news.cn/20261019/56f2924cadd1470397f190e822193d98/c.html)). | That it is Hong Kong law, Cap. 448G, CAD permission, or the CAAC ATM Rules final. It is **Mainland trade-control only**. |
 | Mainland civil aviation security background review rules (民用航空安全背景审查管理规定) | [WATCH]{.status-chip .status-watch} (draft) | Comment deadline 4 Sep 2026 passed; still a draft (13 Sep note) ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260821_231565.html)). | That the rules are final. |
 | Mainland national low-altitude economy scale under 1676号 | [OPEN]{.status-chip .status-open} | NDRC 发改低空〔2025〕1676号 (22 Dec 2025) is a statistical classification only ([gov.cn](https://www.gov.cn/zhengce/zhengceku/202512/content_7052866.htm)). | Any official national scale (规模) figure from the National Bureau of Statistics or NDRC. |
 | Hong Kong–Kazakhstan low-altitude MoU | [OPEN]{.status-chip .status-open} | Secretary for Transport and Logistics speech, 10 Sep 2026, attests the exchange on 9 Sep ([GIA](https://www.info.gov.hk/gia/general/202609/10/P2026091000666.htm)). | The full MoU document (20 Sep note). |
@@ -80,6 +81,12 @@ Open, watch, and settled items on this board (last checked 18 October 2026). Det
 **Mainland medium/small UAS take-off and landing site technical requirements** — [「为加快完善低空起降场地技术标准，推动低空基础设施有序发展，满足中小型无人驾驶航空器各类低空应用场景运行需要，民航局低空安全司组织编制了《中小型无人驾驶航空器起降场地技术要求（征求意见稿）》，现公开征求意见。请于2026年11月13日前将意见反馈编写组联系人。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261015_231850.html))
 
 English (LAE-Intel translation): “To accelerate improvement of technical standards for low-altitude take-off and landing sites, promote orderly development of low-altitude infrastructure, and meet operational needs across low-altitude application scenarios for medium and small unmanned aircraft, the Low-altitude Safety Department of CAAC has organised the drafting of the Technical Requirements for Medium and Small Unmanned Aircraft Take-off and Landing Sites (Draft for Comment), which is hereby issued for public comment. Please submit comments to the drafting-group contact by 13 November 2026.”
+:::
+
+::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+**MOFCOM Announcement No. 49 of 2026 (UAS dual-use export controls)** — [「根据《中华人民共和国出口管制法》《中华人民共和国对外贸易法》《中华人民共和国海关法》《中华人民共和国两用物项出口管制条例》等法律法规有关规定，为维护国家安全和利益，经国务院、中央军委批准，决定优化调整特定无人驾驶航空器相关物项的出口管制措施。……本公告自2026年11月18日起正式实施。《中华人民共和国两用物项出口管制清单》同步予以更新。」]{lang="zh-Hans"} ([source](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html))
+
+English (LAE-Intel translation): “Pursuant to the Export Control Law, Foreign Trade Law, Customs Law, Dual-Use Items Export Control Regulations and other laws and regulations, and with the approval of the State Council and the Central Military Commission, it has been decided to optimise and adjust export-control measures on specified unmanned-aircraft-related items in order to safeguard national security and interests. … This Announcement takes effect on 18 November 2026. The Dual-Use Items Export Control List is updated accordingly.”
 :::
 
 ## Source tables
@@ -199,6 +206,7 @@ UTM **15** / unconventional **4** / shared **5** remain as stated on the TLB lan
 | [CAAC ATM Rules (征求意见稿) — Ch.12 UAS](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html) | **Draft** **2026-08-11**; comments **closed 2026-09-11**; CAAC; **not** promulgated; not Art.34/225 decree | T1 |
 | [CAAC medium/small UAS landing-site technical requirements (征求意见稿)](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261015_231850.html) | **Draft** letter **2026-10-14** / YJZJ **2026-10-15**; comments close **2026-11-13**; 民航局低空安全司; **not** final 令; **not** ATM Rules; **not** HK vertiport statute | T1 |
 | [CAAC three general-aviation rules — pilot / commercial non-transport operator / pilot school (征求意见稿)](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261016_231880.html) | **Draft** notice **2026-10-16**; comments close **2026-11-15**; 飞行标准司; manned general aviation — **not** UAS-specific; **not** ATM Rules; **not** HK law | T1 |
+| [MOFCOM / GACC / CMC Equipment Development Department Announcement No. 49 of 2026 — dual-use UAS export-control optimisation](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html) | Dated **2026-10-19**; **in force 2026-11-18**; Mainland trade-control only — **not** HK Cap. 448G / CAD; **not** CAAC ATM Rules final | T1 |
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 / 原文 · Official English and Chinese / Chinese original"}
 **Civil Aviation Law (2025 revision), Order No. 65** — English: “Order of the President of the People\'s Republic of China (No. 65)”…“The Civil Aviation Law of the People\'s Republic of China, revised and adopted at the 19th Session of the Standing Committee of the Fourteenth National People\'s Congress of the People\'s Republic of China on December 27, 2025, is hereby promulgated and shall come into effect on July 1, 2026.” ([source](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html))\
@@ -219,6 +227,10 @@ English (LAE-Intel translation): “To accelerate improvement of technical stand
 **CAAC three general-aviation rules (征求意见稿)** — [「为进一步夯实通航运行安全基础，有序衔接《民航法》有关制度安排，确保在安全托底基础上促进通航发展，民航局组织修订了《民用航空器驾驶员合格审定规则》《商业非运输运营人运行合格审定规则》《民用航空器驾驶员学校合格审定规则》等三部规章，现面向社会公开征求意见。……意见反馈截止时间为2026年11月15日。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/HDJL/YJZJ/202610/t20261016_231880.html))
 
 English (LAE-Intel translation): “To further consolidate the safety foundation of general-aviation operations, align in an orderly way with the relevant institutional arrangements of the Civil Aviation Law, and promote general-aviation development on the basis of a safety floor, CAAC has revised three rules — the Civil Aircraft Pilot Certification Rules, the Commercial Non-Transport Operator Certification Rules, and the Civil Aircraft Pilot School Certification Rules — and hereby solicits public comment. … The deadline for feedback is 15 November 2026.”
+
+**MOFCOM Announcement No. 49 of 2026** — [「本公告自2026年11月18日起正式实施。《中华人民共和国两用物项出口管制清单》同步予以更新。」]{lang="zh-Hans"} ([source](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html))
+
+English (LAE-Intel translation): “This Announcement takes effect formally on 18 November 2026. The Dual-Use Items Export Control List of the People’s Republic of China is updated accordingly.”
 :::
 
 Law Art. 258 defers UAS rules to State Council/CMC.
