@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-10-18"
+as_of: "2026-10-22"
 page-layout: article
 toc: true
 toc-location: right
@@ -22,7 +22,7 @@ Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating*
 - **Independently reported:** a news outlet’s own reporting.
 - **Officially confirmed:** confirmed in a linked official release or document.
 
-**Board last checked 18 Oct 2026** (`as_of`). Census: **59** use-case items (42 trial · 17 operating), grouped by application below — newest first within each section.
+**Board last checked 22 Oct 2026** (`as_of`). Census: **61** use-case items (43 trial · 18 operating), grouped by application below — newest first within each section.
 
 ## By application
 
@@ -53,9 +53,10 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="uc-by-app">
-<p class="itl-head"><strong>Use cases by application</strong> (board last checked 18 Oct 2026) — 59 items (42 trial · 17 operating). Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Use cases by application</strong> (board last checked 22 Oct 2026) — 61 items (43 trial · 18 operating). Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>Delivery<span class="n">21 items · 11 trial · 10 operating</span></summary><ol>
+<details class="itl-card" open><summary>Delivery<span class="n">22 items · 11 trial · 11 operating</span></summary><ol>
+<li id="tl-uc-2026-10-21-wing-charlotte"><a href="#uc-item-2026-10-21-wing-charlotte"><span class="chip">21 Oct 2026</span> · Wing × Walmart — Charlotte metro consumer drone delivery (seven Supercenters)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-14-rongtong-yangjiang" class="st-open"><a href="#uc-item-2026-10-14-rongtong-yangjiang"><span class="chip">14 Oct 2026</span> · 融通特种物流 — Yangjiang–Wenchang cross-sea UAS cargo trial first flight<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-10-08-zipline-round-rock"><a href="#uc-item-2026-10-08-zipline-round-rock"><span class="chip">8–9 Oct 2026</span> · Zipline — Round Rock / Austin-area consumer drone delivery live<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-10-08-zhuhai" class="st-open"><a href="#uc-item-2026-10-08-zhuhai"><span class="chip">8 Oct 2026</span> · Zhuhai three-party sea-island UAV livelihood-supply signing<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
@@ -99,7 +100,8 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 <li id="tl-uc-2026-03-31-tlb-cedd" class="st-open"><a href="#uc-item-2026-03-31-tlb-cedd"><span class="chip">31 Mar 2026</span> · TLB list — CEDD Tai Mong Tsai infrastructure surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2025-08-10-devb-nui-po-shan" class="st-open"><a href="#uc-item-2025-08-10-devb-nui-po-shan"><span class="chip">10 Aug 2025</span> · DEVB — Nui Po Shan Sandbox BVLOS site-management drones<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>Public service<span class="n">7 items · 3 trial · 4 operating</span></summary><ol>
+<details class="itl-card" open><summary>Public service<span class="n">8 items · 4 trial · 4 operating</span></summary><ol>
+<li id="tl-uc-2026-10-21-lishui-jili" class="st-open"><a href="#uc-item-2026-10-21-lishui-jili"><span class="chip">21 Oct 2026</span> · Nanjing Lishui — 吉溧智控 municipal “一网统飞” UAS patrol / training platform<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-10-16-fsd-chung-yeung"><a href="#uc-item-2026-10-16-fsd-chung-yeung"><span class="chip">16 Oct 2026</span> · FSD — Chung Yeung hill-fire drone deployment (AI smoke; 80 L water-bomb heavy drone)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-10-afcd-illegal-fishing"><a href="#uc-item-2026-10-10-afcd-illegal-fishing"><span class="chip">10–11 Oct 2026</span> · AFCD — UAS used against illegal fishing (official remarks via press)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-03-31-tlb-csd" class="st-open"><a href="#uc-item-2026-03-31-tlb-csd"><span class="chip">31 Mar 2026</span> · TLB list — CSD Tong Fuk Correctional Institution surveillance<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
@@ -133,9 +135,16 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Delivery {#uc-delivery}
 
-21 items · 11 trial · 10 operating
+22 items · 11 trial · 11 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-21-wing-charlotte .uc-item}**21 Oct 2026 · Business North Carolina; DroneXL; Wing.com:** Wing and Walmart fly drone deliveries from seven Charlotte-area Walmart Supercenters (Charlotte, Gastonia, Concord, Kannapolis, Lincolnton, Shelby, Kings Mountain), offering groceries / household goods / OTC medicine with tether drop; two more Charlotte stores said due within a week. Wing.com/walmart lists Charlotte “Now serving”. [Business NC](https://businessnc.com/walmart-wing-making-drone-deliveries-a-reality/) · [DroneXL](https://dronexl.co/2026/10/21/wing-walmart-charlotte-drone-delivery-seven-stores/) · [Wing Walmart](https://wing.com/walmart)
+  - Status: **Operating** · Domain: Delivery · Geography: Global (US — North Carolina / Charlotte metro)
+  - Tag: Independently reported
+  - What's happening: Independently reported live metro service packaging earlier store-by-store starts. Distinct from the Mount Laurel NJ community demo and from the 5 Oct Denver / Seattle 2027 expansion announce on this page. Order weight cap (~2.5 lb), radius (~6 miles), free-delivery language and national store-count targets are press-/company-stated — not audited. Not a new Part 135 certificate. Not an SZ–HK corridor.
+  - Note: Operating metro packaging via local press + company “Now serving”; caps / free-delivery / store totals press-stated.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-10-21-wing-charlotte); [Companies & sectors](landscape.qmd) (Wing Aviation).
 
 - []{#uc-item-2026-10-14-rongtong-yangjiang .uc-item}**14 Oct 2026 · 阳江市人民政府:** Fixed-wing UAS trial first flight on a ~240 km Guangdong–Hainan cargo route from Yangjiang Heshan Airport toward Wenchang; operator 融通特种物流. Prior unmanned-helicopter trial carried fish fry before National Day. [阳江市政府](https://www.yangjiang.gov.cn/yj/ywdt/yjyw/content/post_986878.html) · [阳江市政府 (详)](https://www.yangjiang.gov.cn/yj/ywdt/xqdt/content/post_986887.html)
   - Status: **Trial** · Domain: Delivery · Geography: Mainland-other (Guangdong Yangjiang ↔ Hainan Wenchang; not a GBA city; not an SZ–HK corridor)
@@ -187,9 +196,9 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 - []{#uc-item-2026-10-05-wing-walmart .uc-item}**5 Oct 2026 · Wing newsroom:** Wing and Walmart name Denver and Seattle for 2027 expansion of the existing drone-delivery network. [Wing](https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network)
   - Status: **Operating** · Domain: Delivery · Geography: Global (US)
   - Tag: Company-announced
-  - What's happening: Operating tag refers to current Part 135 / Walmart markets. Denver and Seattle are announced, not live. Company store/reach figures stay company-announced.
-  - Note: Expansion announce on an operating base.
-  - Read instead: [Companies & sectors](landscape.qmd) (Wing Aviation).
+  - What's happening: Operating tag refers to current Part 135 / Walmart markets. Denver and Seattle are announced, not live. Company store/reach figures stay company-announced. Distinct from the 21 Oct Charlotte metro live packaging on this page.
+  - Note: Expansion announce on an operating base — not the Charlotte metro go-live.
+  - Read instead: [Companies & sectors](landscape.qmd) (Wing Aviation); [Charlotte metro](#uc-item-2026-10-21-wing-charlotte).
 
 - []{#uc-item-2026-09-30-yangpu .uc-item}**30 Sep 2026 · 南方+; People’s Daily Hainan Traditional Chinese reprint:** Trial first flight of UAV ship-supply to vessels at Yangpu Port anchorage — shore take-off, cross-sea flight, shipboard receipt in ~15 minutes. [南方+](https://static.nfnews.com/content/202609/30/c12868147.html) · [人民网海南](http://hi.people.com.cn/BIG5/n2/2026/1001/c231190-41713049.html)
   - Status: **Trial** · Domain: Delivery · Geography: Mainland-other (Hainan — Yangpu / Danzhou; free-trade-port framing)
@@ -543,9 +552,20 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Public service {#uc-public}
 
-7 items · 3 trial · 4 operating
+8 items · 4 trial · 4 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-21-lishui-jili .uc-item}**21 Oct 2026 · 南京市溧水区人民政府 / 溧水区融媒体中心:** District feature says 吉溧智控 (城发城运 × 永乐航空) has completed registration and entered physical operations; is building a district unified low-altitude dispatch platform (“一网统飞、一网统管、一飞多用”); describes a live rooftop river-patrol demo with AI work-order handoff, a CAAC-approved remote-pilot training camp (first cohort 30), and a youth drone base under construction. [溧水区政府](http://www.njls.gov.cn/jrs/syw/202610/t20261021_6022594.html)
+  - Status: **Trial** · Domain: Public service · Geography: Mainland-other (Jiangsu — Nanjing Lishui)
+  - Tag: Officially confirmed
+  - What's happening: Official district media describes emerging municipal UAS governance / multi-department patrol sharing. Platform is still being built (“正配合相关部门搭建”); patrol demo is evidenced in the feature but city-wide regularised multi-department ops are not yet proven → trial. Training / youth-base elements are capacity-building, not ops metrics. Not police surveillance beyond publicly described city-governance inspection; not an SZ–HK corridor.
+  - Note: Trial — district platform under build; patrol demo ≠ city-wide regularised multi-department ops.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，由溧水城建集团下属城发城运公司与永乐航空科技公司共同出资组建的吉溧智控公司完成注册登记，进入实体化运营。按照规划，公司将承担区级低空飞行统一调度平台的建设运营，推行“一网统飞、一网统管、一飞多用”的低空发展模式。……目前，吉溧智控正配合相关部门搭建区级“一网统飞”巡检平台，对接市级低空飞行服务体系，实现全域低空资源统一调度、统一管理、统一作业。」]{lang="zh-Hans"} ([source](http://www.njls.gov.cn/jrs/syw/202610/t20261021_6022594.html))
+  :::
 
 - []{#uc-item-2026-10-16-fsd-chung-yeung .uc-item}**16 Oct 2026 · now.com 新聞 (via Yahoo HK); 新城財經台; The Standard; SCMP:** FSD media briefing on Chung Yeung Festival (17–19 Oct) hill-fire drone deployment — vehicle-mounted automated docks for continuous patrol, real-time AI smoke flagging, and a heavy drone that can carry an 80-litre water device / tools to remote slopes; 12 high-risk sites patrolled with CAS. Press reports FSD stating 60 drones, 8 autonomous. [Yahoo / now.com](https://hk.news.yahoo.com/%E9%87%8D%E9%99%BD%E7%AF%80-%E6%B6%88%E9%98%B2%E8%99%95%E9%A6%96%E6%AC%A1%E7%94%A8%E7%84%A1%E4%BA%BA%E6%A9%9F%E6%94%BE%E6%B0%B4%E5%BD%88-%E9%82%8A%E9%A3%9B%E9%82%8A%E7%94%A8ai%E8%AD%98%E5%88%A5%E5%B1%B1%E7%81%AB-%E8%AC%9D%E6%AC%A3%E6%A1%90%E5%A0%B1%E9%81%93-121228980.html) · [新城](https://www.metroradio.com.hk/News/details.aspx?CategoryName=&NewsId=20261016163041) · [The Standard](https://www.thestandard.com.hk/news/article/345706/Fire-services-steps-up-patrols-drone-deployment-for-Chung-Yeung-Festival) · [SCMP](https://www.scmp.com/news/hong-kong/society/article/3371201/ai-powered-drones-help-detect-hill-fires-during-chung-yeung-festival) · [context GIA 9 Oct](https://www.info.gov.hk/gia/general/202610/09/P2026100900441.htm)
   - Status: **Operating** · Domain: Public service · Geography: HK
