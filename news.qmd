@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-10-20"
+as_of: "2026-10-22"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,11 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 20 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 22 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">13 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">15 items</span></summary><ol>
+<li id="tl-press-2026-10-20-guangzhou-ordinance"><a href="#press-item-2026-10-20-guangzhou-ordinance"><span class="chip">20–21 Oct</span> · Guangzhou municipal executive meeting studies LAE Ordinance implementation<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-10-20-xpeng-uae"><a href="#press-item-2026-10-20-xpeng-uae"><span class="chip">20–21 Oct</span> · XPENG AeroHT / ARIDGE X3-F UAE AAM sandbox module rolls off Guangzhou line<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-19-mofcom-ann49"><a href="#press-item-2026-10-19-mofcom-ann49"><span class="chip">19 Oct</span> · MOFCOM Ann. 49 dual-use UAS export controls (in force 18 Nov)<span class="badge b-off">Official</span></a></li>
 <li id="tl-press-2026-10-19-zigong-medical"><a href="#press-item-2026-10-19-zigong-medical"><span class="chip">19 Oct</span> · Zigong municipal medical UAS network (Xinhua feature)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-10-18-ss-drone-hubs"><a href="#press-item-2026-10-18-ss-drone-hubs"><span class="chip">18 Oct</span> · Secretary for Security: police fixed drone hubs ~20 → target 200<span class="badge b-ind">Press</span></a></li>
@@ -119,6 +121,28 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ### 2026-10 {#press-2026-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-10-20-guangzhou-ordinance .press-item}**21 Oct 2026 · 广州日报 via 广州市人民政府门户网站:** Mayor 孙志洋 chairs a municipal executive meeting (afternoon of **20 Oct**) for specialised study of 《广州市低空经济发展条例》 and high-quality LAE development; the meeting frames implementing the Ordinance as institutional support for facilities, industry and safety, and calls for using pilot space on airspace reform, industry fusion and operations-market promotion. [Link](https://www.gz.gov.cn/gzszfcwhy/2026n/zxcwhy/content/post_11061528.html)
+  - What's new: Municipal law-into-practice colour for an Ordinance already in force — **no new ordinance text** in this report. Useful GBA comparator for Hong Kong Action Plan / Cap. 448G amending work.
+  - Status: Press / municipal portal reprint (T2). **Creates no Hong Kong CAD permission** and **does not amend Cap. 448G**. Not a new ordinance promulgation.
+  - Read instead: [Official status](tracker.qmd) (Action Plan OPEN; Cap. 448G follow-on WATCH).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「10月20日下午，广州市市长孙志洋主持召开市政府常务会议，深入学习贯彻习近平法治思想，专题学习《广州市低空经济发展条例》，研究推动低空经济高质量发展工作。……会议强调，要把实施《条例》作为贯彻落实党中央决策部署、以安全为前提加快发展低空经济的具体行动……要着力推动先行先试，用足用好试点示范的制度空间，聚焦低空空域改革、产业融合发展、运营市场推广等关键领域，大胆探索、率先突破」]{lang="zh-Hans"} ([source](https://www.gz.gov.cn/gzszfcwhy/2026n/zxcwhy/content/post_11061528.html))
+
+  English (LAE-Intel translation): On the afternoon of 20 October, Guangzhou Mayor Sun Zhiyang chaired a municipal executive meeting for specialised study of the Guangzhou Low-Altitude Economy Development Ordinance and to research high-quality LAE development. … The meeting stressed that implementing the Ordinance should be treated as concrete action to accelerate LAE development on the premise of safety … and that the city should push ahead with first-mover pilots, make full use of pilot-demonstration institutional space, and focus breakthroughs on low-altitude airspace reform, industry fusion and operations-market promotion.
+  :::
+
+- []{#press-item-2026-10-20-xpeng-uae .press-item}**20–21 Oct 2026 · 新华社 / 中国新闻社 / ECNS:** First Land Aircraft Carrier flying-vehicle test module (X3-F) for the UAE advanced low-altitude / AAM regulatory sandbox rolls off the XPENG AeroHT (汇天 / ARIDGE) mass-production factory in Guangzhou; the Ruler of Ras Al Khaimah receives the test aircraft on site. Company via press: after first-batch delivery, sandbox trials under UAE CAA; next stage = product certification, inter-emirate routes, ops-system build-out. [中新社](https://www.chinanews.com/cj/2026/10-20/10718152.shtml) · [新华社](https://www.news.cn/world/20261021/5a51620998b742f28c61f2e5f65edba0/c.html) · [ECNS EN](https://english.news.cn/20261021/9bc29569875940a79ace87291215b4af/c.html)
+  - What's new: Official-wire coverage of a GBA OEM outbound sandbox delivery. **Sandbox / test aircraft ≠ commercial passenger service**; **≠ type certificate** in UAE or China; **≠ Hong Kong CAD permission**; **not** an SZ–HK corridor.
+  - Status: Press / official wire (T1/T2) of a company event. Trial / sandbox planned — not commercial air-taxi.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-10-20-xpeng-uae).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「首架投入阿联酋先进低空飞行监管示范区的陆地航母飞行器(X3-F)(下称“试验用机”)20日在广州小鹏汇天飞行汽车量产工厂(下称“工厂”)下线。……汇天表示，首批试验用机全部交付阿联酋后，将在阿联酋民航局监管下开展沙盒试运行。下一阶段，双方将围绕产品认证、跨酋长国航线规划与运营体系搭建推进具体工作」]{lang="zh-Hans"} ([source](https://www.chinanews.com/cj/2026/10-20/10718152.shtml))
+
+  English (LAE-Intel translation): The first Land Aircraft Carrier flying vehicle (X3-F) for the UAE advanced low-altitude flight regulatory demonstration zone (the “test aircraft”) rolled off the line on the 20th at XPENG AeroHT’s flying-car mass-production factory in Guangzhou. … AeroHT said that after the first batch of test aircraft is fully delivered to the UAE, sandbox trial operations will be conducted under UAE civil-aviation supervision. In the next stage the parties will advance product certification, inter-emirate route planning and operational-system build-out.
+  :::
 
 - []{#press-item-2026-10-19-mofcom-ann49 .press-item}**19 Oct 2026 · Ministry of Commerce / General Administration of Customs / CMC Equipment Development Department (新华网 / MOFCOM spokesperson):** Joint Announcement No. 49 of 2026 optimises and adjusts export-control measures on specified unmanned-aircraft-related dual-use items; the Dual-Use Items Export Control List is updated; measures take effect **18 Nov 2026**. [Primary](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html) · [Spokesperson Q&A](https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html) · [Xinhua](https://www.news.cn/20261019/56f2924cadd1470397f190e822193d98/c.html)
   - What's new: Binding Mainland trade-control update with an explicit in-force date. Xinhua / spokesperson framing: optimisation based on industry feedback; firm opposition to unmanned aircraft being used for non-peaceful purposes in violation of rules, while supporting Chinese enterprises in civil UAS international trade and cooperation. Parallel WATCH item on Official status.

@@ -1,7 +1,7 @@
 ---
 title: "Official status"
 subtitle: "Official facts you may cite"
-as_of: "2026-10-20"
+as_of: "2026-10-22"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -11,11 +11,11 @@ page-layout: full
 
 Regulatory Sandbox ≠ Sandbox X.
 
-Board last checked 20 October 2026 (`as_of`).
+Board last checked 22 October 2026 (`as_of`).
 
 ## Status board
 
-Open, watch, and settled items on this board (last checked 20 October 2026). Detailed source tables follow. Row-level “checked …” dates stay as evidence stamps and are not rewritten here.
+Open, watch, and settled items on this board (last checked 22 October 2026). Detailed source tables follow. Row-level “checked …” dates stay as evidence stamps and are not rewritten here.
 
 ### Key to labels
 
@@ -29,7 +29,7 @@ Open, watch, and settled items on this board (last checked 20 October 2026). Det
 | Item | Status | Latest official word | Still not fact |
 |------|--------|----------------------|----------------|
 | Action Plan on Developing Low-Altitude Economy | [OPEN]{.status-chip .status-open} | Secretary for Transport and Logistics to LegCo, 2 Oct 2026: the Working Group 「繼續全力制訂」 the plan this year ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)). Policy Address ¶139, 16 Sep 2026: “will formulate” ([Ch. III](https://www.policyaddress.gov.hk/2026/en/chapter3.html)). Earlier target: drafting by end-2026 ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)). Press only, not a government text: 人民财讯 / 证券时报, 16 Oct 2026, citing unnamed sources, says drafting is expected to be completed within this year ([人民财讯](https://www.stcn.com/article/detail/4221778.html)); no GIA, TLB or LegCo document carries that target. | The published full text of the plan. |
-| Regulatory Sandbox X cross-boundary results | [OPEN]{.status-chip .status-open} | Transport and Logistics Bureau page, checked 20 Oct 2026: the Working Group “will announce the results in due course” ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). | Any results list. “Trial flights as early as possible” (Policy Address; Secretary for Transport and Logistics) and China Daily HK’s 5 Oct “Sandbox Connect” (Nansha gateway) framing are not results lists. |
+| Regulatory Sandbox X cross-boundary results | [OPEN]{.status-chip .status-open} | Transport and Logistics Bureau page, checked 22 Oct 2026: the Working Group “will announce the results in due course” ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). | Any results list. “Trial flights as early as possible” (Policy Address; Secretary for Transport and Logistics) and China Daily HK’s 5 Oct “Sandbox Connect” (Nansha gateway) framing are not results lists. |
 | Shenzhen–Hong Kong drone corridor | [OPEN]{.status-chip .status-open} (not evidenced) | Secretary for Commerce and Economic Development, 6 Oct 2026: the spectrum arrangement 「有助日後無人機跨境運作」, a forward-looking statement ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/06/P2026100600265.htm)). | That a Shenzhen–Hong Kong drone corridor is operating. No joint route document and no new Greater Bay Area corridor approval were found (5 Sep note). |
 | Smart Low-altitude Traffic Management System | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: progressive rollout from 2028 ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); Policy Address annex indicator 34 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not in force. |
 | Law for unconventional aircraft over 150 kg (Cap. 448G follow-on) | [WATCH]{.status-chip .status-watch} | Secretary for Transport and Logistics, 2 Oct 2026: complete drafting next year and submit it to LegCo ([GIA, Chinese](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm)); annex indicator 35: drafting complete within 2027 ([annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)). | Not enacted; no Cap. 448G amending instrument. |

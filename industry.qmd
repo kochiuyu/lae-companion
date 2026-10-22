@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-20"
+as_of: "2026-10-22"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,13 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 20 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 22 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">29 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">33 items</span></summary><ol>
+<li id="tl-ind-2026-10-21-beta-market-survey"><a href="#industry-item-2026-10-21-beta-market-survey"><span class="chip">21 Oct</span> · FAA × BETA ALIA A250 — first eVTOL Special Airworthiness Market Survey Certificate<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2026-10-21-wing-charlotte"><a href="#industry-item-2026-10-21-wing-charlotte"><span class="chip">21 Oct</span> · Wing × Walmart Charlotte metro — seven Supercenters<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-21-amazon-tallahassee"><a href="#industry-item-2026-10-21-amazon-tallahassee"><span class="chip">20–21 Oct</span> · Amazon Prime Air Tallahassee — mid-November launch target (permit pending)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-20-xpeng-uae"><a href="#industry-item-2026-10-20-xpeng-uae"><span class="chip">20–21 Oct</span> · XPENG AeroHT / ARIDGE X3-F UAE AAM sandbox module rolls off Guangzhou line<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-19-mofcom-ann49"><a href="#industry-item-2026-10-19-mofcom-ann49"><span class="chip">19 Oct</span> · MOFCOM Ann. 49 UAS dual-use export controls<span class="badge b-off">Official</span></a></li>
 <li id="tl-ind-2026-10-19-archer-sfbay"><a href="#industry-item-2026-10-19-archer-sfbay"><span class="chip">19 Oct</span> · Archer Midnight SF Bay piloted ‘No Roads’ tour flights<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-10-19-wing-mount-laurel"><a href="#industry-item-2026-10-19-wing-mount-laurel"><span class="chip">19 Oct</span> · Wing–Walmart Mount Laurel NJ community demo<span class="badge b-ind">Indep.</span></a></li>
@@ -139,6 +143,36 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ### October 2026 {#industry-2026-10}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-21-beta-market-survey .industry-item}**21 Oct 2026 · FAA newsroom; BETA IR (Business Wire):** FAA awards BETA’s ALIA VTOL (A250) a Special Airworthiness Certificate for market surveys — described as the first such authorisation for an electric VTOL; enables flights with operators and key stakeholders and expands geographic scope subject to FAA limits. First authorised VTOL market-survey flight (20 Oct) covered about 34 nm in 20 minutes (Plattsburgh PBG → Burlington BTV) per company. [FAA](https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-announces-first-ever-special-airworthiness) · [BETA IR](https://investors.beta.team/news-events/press-releases/detail/121/beta-becomes-first-company-to-secure-landmark-faa-authorization-to-conduct-flight-operations-with-prospective-customers-in-electric-vtol-aircraft)
+  - Tag: Officially confirmed
+  - What's new: **Officially confirmed** U.S. airworthiness step beyond prior CTOL market-survey path. **Special airworthiness / market survey ≠ type certificate**; **≠ commercial paid passenger service**; **≠ eIPP paid ops authorisation**. Company payload / passenger-capacity / cost claims remain **company-announced — not audited**.
+  - Status: Officially confirmed (FAA); market-survey authorisation only — not a type certificate; not paid air-taxi.
+  - Read instead: [Companies & sectors: BETA](landscape.qmd)
+
+- []{#industry-item-2026-10-21-wing-charlotte .industry-item}**21 Oct 2026 · Business North Carolina; DroneXL; Wing.com:** Wing and Walmart now offer drone delivery from **seven** Charlotte-area Walmart Supercenters (Charlotte, Gastonia, Concord, Kannapolis, Lincolnton, Shelby, Kings Mountain), packaging prior store-by-store starts into one metro service; two more Charlotte stores said to come online within a week. Wing site lists Charlotte as “Now serving”. [Business NC](https://businessnc.com/walmart-wing-making-drone-deliveries-a-reality/) · [DroneXL](https://dronexl.co/2026/10/21/wing-walmart-charlotte-drone-delivery-seven-stores/) · [Wing Walmart](https://wing.com/walmart)
+  - Tag: Independently reported
+  - What's new: Independently reported **operating metro expansion** (not a community demo). Distinct from the 19 Oct Mount Laurel NJ **demo** (Philly still “Coming soon”). Order cap (~2.5 lb), radius (~6 miles), free-delivery language and “60 U.S. stores / >270 by end-2027” figures are **press- or company-stated — not audited**. **≠** new Part 135 certificate.
+  - Status: Independently reported operating metro packaging; company site corroborates “Now serving”; not a new air-operator certificate.
+  - Read instead: [Companies & sectors: Wing Aviation](landscape.qmd)
+
+- []{#industry-item-2026-10-21-amazon-tallahassee .industry-item}**20–21 Oct 2026 · WCTV; DroneXL (citing Tallahassee Democrat):** Amazon officials say the goal is MK30 drone deliveries from the Mahan Drive / Vineland Drive fulfillment center by **mid-November** for addresses within about 7.5 miles; fleet framed as up to 21 drones; structure housing drones still under permit review; FAA public environmental-review list had no Tallahassee entry when DroneXL checked on 21 Oct. [WCTV](https://www.wctv.tv/2026/10/21/amazons-drone-delivery-service-prepares-take-flight-tallahassee-aiming-lift-off-by-mid-november/) · [DroneXL](https://dronexl.co/2026/10/21/amazon-prime-air-tallahassee-mid-november-launch-mk30/)
+  - Tag: Independently reported
+  - What's new: Independently reported **pre-launch preparation**. **Mid-November target ≠ live service**; **pending permit / absent public FAA EA listing** per trade press — do **not** upgrade to operating. Payload (≤5 lb), fee and eligibility percentages remain **company-stated via local media**.
+  - Status: Independently reported prep only — not live; not entered as an operating use case.
+  - Read instead: [Companies & sectors: Amazon Prime Air](landscape.qmd)
+
+- []{#industry-item-2026-10-20-xpeng-uae .industry-item}**20–21 Oct 2026 · 中国新闻社; 新华社; ECNS:** First X3-F “陆地航母” test aircraft for the UAE advanced low-altitude / AAM regulatory sandbox rolls off the Guangzhou XPENG AeroHT (汇天 / ARIDGE) factory line; Ruler of Ras Al Khaimah receives the aircraft on site. Company via press: after first-batch delivery, sandbox trials under UAE CAA; next stage = product certification, inter-emirate routes, ops-system build-out. [中新社](https://www.chinanews.com/cj/2026/10-20/10718152.shtml) · [新华社](https://www.news.cn/world/20261021/5a51620998b742f28c61f2e5f65edba0/c.html) · [ECNS EN](https://english.news.cn/20261021/9bc29569875940a79ace87291215b4af/c.html)
+  - Tag: Independently reported
+  - What's new: Independently reported **GBA OEM outbound sandbox delivery**. **Sandbox / test aircraft ≠ commercial passenger service**; **≠ type certificate** in UAE or China; **≠ Hong Kong CAD permission**; **not** an SZ–HK corridor.
+  - Status: Independently reported; sandbox trial planned under UAE CAA — not commercial ops.
+  - Read instead: [Government news](news.qmd#press-item-2026-10-20-xpeng-uae)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「汇天表示，首批试验用机全部交付阿联酋后，将在阿联酋民航局监管下开展沙盒试运行。下一阶段，双方将围绕产品认证、跨酋长国航线规划与运营体系搭建推进具体工作，为个人低空飞行在中东的落地运营探路。」]{lang="zh-Hans"} ([source](https://www.chinanews.com/cj/2026/10-20/10718152.shtml))
+
+  English (LAE-Intel translation): AeroHT said that after the first batch of test aircraft is fully delivered to the UAE, sandbox trial operations will be conducted under UAE civil-aviation supervision. Next, the parties will advance product certification, inter-emirate route planning and operational-system build-out, exploring a path for personal low-altitude flight operations in the Middle East.
+  :::
 
 - []{#industry-item-2026-10-19-mofcom-ann49 .industry-item}**19 Oct 2026 · Ministry of Commerce / GACC / CMC Equipment Development Department:** Announcement No. 49 of 2026 optimises and adjusts export-control measures on specified UAS-related dual-use items; Dual-Use Items Export Control List updated; **in force 18 Nov 2026**. [Primary](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_7f1108392a314a2586e106b81b68f54f.html) · [Spokesperson Q&A](https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html) · [Xinhua](https://www.news.cn/20261019/56f2924cadd1470397f190e822193d98/c.html)
   - Tag: Officially confirmed
