@@ -993,7 +993,7 @@ A cost that does not change when you add one more flight or passenger in the sho
 
 The same lease spread over fewer flights means a higher cost per flight or per passenger. Curfews and pad limits that cut daily flights raise fixed cost per flight even if the aircraft is unchanged. “Fixed” depends on the time window. Over a longer horizon, leases and staff can become variable. Always state the period. See [Week 1](week-01.qmd).
 
-**[generalised cost]{#generalised-cost}**
+**[generalised cost]{#generalised-cost}** []{#generalized-cost}
 
 Money cost plus time valued at the traveller’s **value of time (VOT)**. Also written **generalized cost (GC)**.
 

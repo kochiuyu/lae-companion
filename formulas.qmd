@@ -345,9 +345,7 @@ $$
 \begin{aligned}
 \text{Simple return}
 &=
-\frac{\text{Adjusted revenue}
-  - \text{Adjusted operating cost}}
-{\text{Initial investment}}
+\frac{\text{Adjusted revenue} - \text{Adjusted operating cost}}{\text{Initial investment}}
 \end{aligned}
 $$
 
@@ -738,12 +736,11 @@ Full notes: [Week 12](week-12.qmd) · 3 identities below.
 
 $$
 \begin{aligned}
-L
-&= \frac{N(N-1)}{2}
+L &= \frac{N(N-1)}{2}
 \end{aligned}
 $$
 
-Counts possible pairs among $N$ nodes — not scheduled routes, demand, or network value. [Counting possible connections](week-12.qmd#counting-possible-connections)
+Counts possible pairs among $N$ nodes — not scheduled routes, demand, or network value. Grows **quadratically** (order $N^{2}$), not exponentially. [Counting possible connections](week-12.qmd#counting-possible-connections) · [Glossary · network effects](glossary.qmd#network-effects)
 
 ### Digital-coordination net saving {#w12-snet}
 

@@ -33,9 +33,9 @@ Week 7 mapped permissions and safety cases. This week asks how **scarce low-alti
 *Skim these before the lecture — they preview what this week page covers.*
 
 - Why safe capacity and demand collide (the morning capacity conflict).
-- Congestion as an externality and simple ways to think about delay cost.
+- Congestion as an [externality](glossary.qmd#externality) / [congestion externality](glossary.qmd#congestion-externality) and simple ways to think about delay cost.
 - Slot allocation options: queues, reservations, priority, peak pricing, auctions.
-- Digital coordination, interoperability, and a phased airspace-integration roadmap.
+- Digital coordination, [interoperability](glossary.qmd#interoperability), and a phased airspace-integration roadmap.
 
 **After this note**
 
@@ -67,13 +67,13 @@ By the end of Week 8 you should be able to:
 |------|----------|--------|
 | Conflict & capacity | §§1–2 | 8:00 AM conflict; whole-system bottleneck; HK height / Sandbox facts |
 | Congestion & mechanisms | §§3–4 | Delay externality; queues / prices / auctions; affordable bid |
-| Networks & digital | §§5–6 | Network effects; interoperability; OFCA / AC-017 facts |
+| Networks & digital | §§5–6 | [Network effects](glossary.qmd#network-effects); [interoperability](glossary.qmd#interoperability); OFCA / AC-017 facts |
 | Roadmap & close | §§7–9 | Phased integration NPV; tool map; synthesis; study checklist |
 
 **Suggested paths** (same-page anchors; scaffold only)
 
-- **Core:** [Conflict & capacity (§1)](#1-the-8-00-am-capacity-conflict) → [Congestion & mechanisms (§3)](#3-congestion-externalities) → [Putting together (§9)](#9-putting-week-8-together) → [Self-check](#self-check)
-- **Networks & roadmap:** [Network effects (§5)](#5-network-effects-and-shared-information) → [Digital coordination (§6)](#6-digital-coordination-and-interoperability) → [Integration roadmap (§7)](#7-airspace-integration-roadmap)
+- **Core:** [Conflict & capacity (§1)](#the-800-am-capacity-conflict) → [Congestion & mechanisms (§3)](#congestion-externalities) → [Putting together (§9)](#putting-week-8-together) → [Self-check](#self-check)
+- **Networks & roadmap:** [Network effects (§5)](#network-effects-and-shared-information) → [Digital coordination (§6)](#digital-coordination-and-interoperability) → [Integration roadmap (§7)](#airspace-integration-roadmap)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
@@ -614,7 +614,8 @@ Include implementation cost in the year it occurs. Cash flows should reflect pro
 | 1 | HK$10M | HK$9.1M |
 | 2 | HK$40M | HK$33.1M |
 | 3 | HK$50M | HK$37.6M |
-| **PV of future nets / NPV** | | **HK$79.8M PV → roadmap NPV ≈ HK$29.8M** |
+| **PV of future nets** | | **≈ HK$79.8M** |
+| **Roadmap NPV** | | **≈ HK$29.8M** |
 
 Attractive under these assumed cash flows. Probabilities, decision gates, terminal value, and cross-boundary dependencies still require analysis. Not a forecast of Hong Kong–GBA operations.
 
@@ -798,7 +799,7 @@ Private practice after the Study checklist. Choose one option, tap **Check answe
 **Official**
 
 - [Thipphavong, D. P., Apaza, R. D., Barmore, B. E., Battiste, V., Belcastro, C. M., et al. (2018). *Urban Air Mobility Airspace Integration Concepts and Considerations*. NASA NTRS 20180005218 (ARC-E-DAA-TN57126).](https://ntrs.nasa.gov/citations/20180005218) — NASA's multi-author airspace integration concepts paper.
-- [FAA (2020). *Unmanned Aircraft System (UAS) Traffic Management (UTM) Concept of Operations*, v2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/2022-08/UTM_ConOps_v2.pdf) — FAA's UTM concept of operations; a reference model for low-altitude traffic management.
+- [FAA (2020). *Unmanned Aircraft System (UAS) Traffic Management (UTM) Concept of Operations*, v2.0. Federal Aviation Administration.](https://www.nasa.gov/wp-content/uploads/2024/04/2020-03-faa-nextgen-utm-conops-v2-508-1.pdf) ([faa.gov PDF](https://www.faa.gov/sites/faa.gov/files/2022-08/UTM_ConOps_v2.pdf)) — FAA's UTM concept of operations; a reference model for low-altitude traffic management. Primary link is the same FAA ConOps v2.0 file on a NASA host (faa.gov PDF may return 403 from some networks, including parts of Mainland China).
 - [FAA (26 April 2023). *Urban Air Mobility (UAM) Concept of Operations*, Version 2.0. Federal Aviation Administration.](https://www.faa.gov/sites/faa.gov/files/Urban%20Air%20Mobility%20%28UAM%29%20Concept%20of%20Operations%202.0_0.pdf) — FAA UAM ConOps 2.0: corridors and the roles of PSUs and operators.
 
 ### Looking ahead to Week 9

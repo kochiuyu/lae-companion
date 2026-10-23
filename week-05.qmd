@@ -72,8 +72,8 @@ By the end of Week 5 you should be able to:
 
 **Suggested paths** (same-page anchors; scaffold only)
 
-- **Core:** [Bottleneck & sites (§1)](#1-the-infrastructure-bottleneck) → [Capacity & cash (§4)](#4-throughput-reliability-and-breakeven-capacity-use) → [Putting together (§11)](#11-putting-week-5-together) → [Self-check](#self-check)
-- **Allocation:** [Scarce slots (§8)](#8-allocating-scarce-slots) → [Network form (§9)](#9-network-design-hub-distributed-hybrid)
+- **Core:** [Bottleneck & sites (§1)](#the-infrastructure-bottleneck) → [Capacity & cash (§4)](#throughput-reliability-and-breakeven-capacity-use) → [Putting together (§11)](#putting-week-5-together) → [Self-check](#self-check)
+- **Allocation:** [Scarce slots (§8)](#allocating-scarce-slots) → [Network form (§9)](#network-design-hub-distributed-hybrid)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
@@ -461,9 +461,7 @@ $$
 \begin{aligned}
 \text{Simple return}
 &=
-\frac{\text{Adjusted revenue}
-  - \text{Adjusted operating cost}}
-{\text{Initial investment}}
+\frac{\text{Adjusted revenue} - \text{Adjusted operating cost}}{\text{Initial investment}}
 \end{aligned}
 $$
 

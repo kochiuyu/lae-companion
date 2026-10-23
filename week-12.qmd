@@ -71,8 +71,8 @@ By the end of Week 12 you should be able to:
 
 **Suggested paths** (same-page anchors; scaffold only)
 
-- **Core:** [Horizon & networks (§1)](#1-the-next-horizon) → [Exam method (§5)](#5-final-review-five-step-exam-method) → [Putting together (§7)](#7-putting-week-12-together) → [Self-check](#self-check)
-- **Digital & roles:** [Digital coordination (§3)](#3-digital-coordination-and-governance) → [HK service roles (§4)](#4-possible-hong-kong-service-roles)
+- **Core:** [Horizon & networks (§1)](#the-next-horizon) → [Exam method (§5)](#final-review-five-step-exam-method) → [Putting together (§7)](#putting-week-12-together) → [Self-check](#self-check)
+- **Digital & roles:** [Digital coordination (§3)](#digital-coordination-and-governance) → [HK service roles (§4)](#possible-hong-kong-service-roles)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
@@ -140,7 +140,9 @@ A **network** links several origins, destinations, operators, and supporting fac
 
 **Classroom lesson:** count possible links first, then test which links are useful, serviceable, and commercially viable. Do **not** claim GBA corridors as day-to-day operating service on the evidence tracked here.
 
-### Counting possible connections
+### Counting possible connections {#counting-possible-connections}
+
+Named identity on the hub: [Formulas · Week 12 undirected links](formulas.qmd#w12-links).
 
 - $N$ — number of active nodes  
 - $L$ — number of possible undirected pairs  
@@ -152,7 +154,7 @@ L
 \end{aligned}
 $$
 
-If direction matters, possible origin–destination links are $N(N-1)$. The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with $N$, not exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
+If direction matters, possible origin–destination links are $N(N-1)$. The formula counts **possibilities**, not scheduled routes, flights, demand, profit, or network value. Link counts grow **quadratically** with $N$ (order $N^{2}$), **not** exponentially. Each proposed link still needs demand, capacity, infrastructure, operating permission, and acceptable cost.
 
 **Illustrative expansion:**
 
@@ -198,7 +200,7 @@ More nodes increase the option set; viable service grows only where demand, capa
 
 ---
 
-Networks need coordination. **Digital coordination and governance** put net savings and better risk evidence in the same [cash-flow](glossary.qmd#cash-flow) path as Week 8 roadmap NPV — or they are theatre.
+Networks need coordination. **Digital coordination and governance** put net savings and better risk evidence in the same $\mathrm{CF}_{t}$ path as Week 8 roadmap [NPV](glossary.qmd#npv) — or they are theatre.
 
 ## 3. Digital coordination and governance
 
@@ -272,11 +274,11 @@ Include software, communications, cybersecurity, certification, human oversight,
 
 Better evidence may support underwriting and risk management; premium reductions are **not** automatic. Not an insurance quotation or a measured Sandbox X effect.
 
-**Connecting idea.** An “insurance saving” that never appears in $\mathrm{CF}_{t}$ is theatre. Put evidence cost and any credible premium change in the same cash-flow path you used for Week 8 roadmap $\mathrm{NPV}$.
+**Connecting idea.** An “insurance saving” that never appears in $\mathrm{CF}_{t}$ is theatre. Put evidence cost and any credible premium change in the same $\mathrm{CF}_{t}$ path you used for Week 8 roadmap $\mathrm{NPV}$.
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w12-risk-evidence-svg" aria-labelledby="w12-risk-evidence-svg-title">
-<p class="wdiag-cap" id="w12-risk-evidence-svg-title"><strong>Risk evidence · put $ in the same CF path</strong> — Classroom: annual premium without project-specific evidence <strong>HK$12.5M</strong>. Improved risk case: premium <strong>HK$9M</strong> + evidence/control <strong>HK$3M</strong> → total <strong>HK$12M</strong> → first-year save <strong>HK$0.5M</strong>. Premium reductions are <strong>not</strong> automatic. Put evidence cost and any credible premium change in the same cash-flow path (Week 8 roadmap NPV). Not an insurance quotation or a measured Sandbox X effect</p>
+<p class="wdiag-cap" id="w12-risk-evidence-svg-title"><strong>Risk evidence · put $ in the same CF path</strong> — Classroom: annual premium without project-specific evidence <strong>HK$12.5M</strong>. Improved risk case: premium <strong>HK$9M</strong> + evidence/control <strong>HK$3M</strong> → total <strong>HK$12M</strong> → first-year save <strong>HK$0.5M</strong>. Premium reductions are <strong>not</strong> automatic. Put evidence cost and any credible premium change in the same CF path (Week 8 roadmap NPV). Not an insurance quotation or a measured Sandbox X effect</p>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" viewBox="0 0 720 360" role="img" aria-labelledby="x3-title x3-desc">
   <title id="x3-title">Better risk evidence: premium twelve point five million versus nine million plus three million evidence cost saves zero point five million in year one</title>
   <desc id="x3-desc">Illustrative risk evidence. No demonstrated improvement: premium twelve point five million Hong Kong dollars, evidence cost zero, total twelve point five million. Improved risk case: premium nine million plus evidence and control cost three million equals total twelve million, first-year saving zero point five million. Premium reductions are not automatic. Not an insurance quotation or measured Sandbox X effect. Sandbox is not Sandbox X.</desc>

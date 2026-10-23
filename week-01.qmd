@@ -23,7 +23,7 @@ format:
 - [How does LAE work?](business-overview.qmd) — roles in the value chain  
 - [Who decides what?](regulators.qmd) — who regulates  
 
-**This week** defines LAE, introduces three tools — [**VOT**](glossary.qmd#value-of-time) (value of time), **generalized cost**, and [**NPV**](glossary.qmd#npv) (net present value) — maps who gets paid, and explains sandboxes. **Week 2** turns to market structure and competition.
+**This week** defines LAE, introduces three tools — [**VOT**](glossary.qmd#value-of-time) (value of time), [**generalized cost**](glossary.qmd#generalised-cost), and [**NPV**](glossary.qmd#npv) (net present value) — maps who gets paid, and explains sandboxes. **Week 2** turns to market structure and competition.
 
 ## Summary {#summary}
 
@@ -32,7 +32,7 @@ format:
 *Skim these before the lecture — they preview what this week page covers.*
 
 - What “low-altitude economy” means in plain English, and how it differs from traditional aviation.
-- Jargon you will hear: LAE, UAM, and AAM (defined in §3).
+- Jargon you will hear: [LAE](glossary.qmd#lae), [UAM](glossary.qmd#uam), and [AAM](glossary.qmd#aam) (defined in §3).
 - Simple tools for value of time, generalized cost, and whether a service might be commercially viable.
 - Who sits in the ecosystem (who creates value, who gets paid) and why a regulatory sandbox matters for testing.
 
@@ -72,8 +72,8 @@ By the end of Week 1 you should be able to:
 
 **Suggested paths** (same-page anchors; scaffold only)
 
-- **Core:** [Concepts (§1)](#1-what-is-the-low-altitude-economy) → [Tools (§6)](#6-value-of-time-and-net-present-value) → [Putting together (§15)](#15-putting-week-1-together) → [Self-check](#self-check)
-- **Industry & rules:** [Value chain (§9)](#9-the-lae-value-chain--who-creates-value-and-who-gets-paid) → [Sandboxes (§11)](#11-regulatory-sandboxes-in-hong-kong) → [Empty-seat / unit cost (§13)](#13-the-empty-seat-problem-and-unit-cost)
+- **Core:** [Concepts (§1)](#what-is-the-low-altitude-economy) → [Tools (§6)](#value-of-time-and-net-present-value) → [Putting together (§15)](#putting-week-1-together) → [Self-check](#self-check)
+- **Industry & rules:** [Value chain (§9)](#the-lae-value-chain-who-creates-value-and-who-gets-paid) → [Sandboxes (§11)](#regulatory-sandboxes-in-hong-kong) → [Empty-seat / unit cost (§13)](#the-empty-seat-problem-and-unit-cost)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
 ---
@@ -125,7 +125,7 @@ By the end of Week 1 you should be able to:
 
 That definition is deliberately wide.
 
-- If you only remember “flying cars,” you will miss most of the near-term economics: inspection, logistics, emergency response, and supporting services. OHKF projects those services as a large share of 2050 value added ([§5](#5-hong-kong-scale--and-how-to-read-the-hk350-billion-figure)).
+- If you only remember “flying cars,” you will miss most of the near-term economics: inspection, logistics, emergency response, and supporting services. OHKF projects those services as a large share of 2050 value added ([§5](#hong-kong-scale-and-how-to-read-the-hk350-billion-figure)).
 - If you only remember “drones,” you will miss passenger concepts, infrastructure, and digital traffic management. You will also blur everyday speech with Cap. 448G’s legal label **SUA** (small unmanned aircraft).
 
 ### Policy band vs flying limits
@@ -357,15 +357,15 @@ Traditional scheduled aviation typically uses large, expensive aircraft, large c
 
 Three contrasts matter for later weeks:
 
-1. [**Fixed cost**](glossary.qmd#fixed-cost) per passenger. A large jet spreads aircraft cost across hundreds of seats. Many eVTOL concepts under discussion have only a handful of seats (class examples often use four). Unit cost then rises sharply unless utilization and load factor are high ([§13](#13-the-empty-seat-problem-and-unit-cost)).  
-2. **Ground and digital share of cost.** Vertiport fees, charging, and traffic-management services can claim a large slice of a short-trip fare ([§9](#9-the-lae-value-chain--who-creates-value-and-who-gets-paid)).  
+1. [**Fixed cost**](glossary.qmd#fixed-cost) per passenger. A large jet spreads aircraft cost across hundreds of seats. Many eVTOL concepts under discussion have only a handful of seats (class examples often use four). Unit cost then rises sharply unless utilization and load factor are high ([§13](#the-empty-seat-problem-and-unit-cost)).  
+2. **Ground and digital share of cost.** Vertiport fees, charging, and traffic-management services can claim a large slice of a short-trip fare ([§9](#the-lae-value-chain-who-creates-value-and-who-gets-paid)).  
 3. **Operating-window sensitivity.** Noise or community limits that cut daily flights raise fixed cost per flight even if the aircraft is unchanged ([§9](#operating-restrictions-raise-unit-cost)).
 
 None of these require inventing Hong Kong fare data. They are structural reasons LAE economics look different from long-haul airline economics.
 
 ---
 
-Cost structure alone does not fix vocabulary. Policy papers, OEM decks, and Hong Kong readings mix **LAE**, **UAM**, and **AAM**. Before naming a use case, keep the nesting straight so you do not cite the wrong comparator as if it were Cap. 448G law.
+Cost structure alone does not fix vocabulary. Policy papers, OEM decks, and Hong Kong readings mix [**LAE**](glossary.qmd#lae), [**UAM**](glossary.qmd#uam), and [**AAM**](glossary.qmd#aam). Before naming a use case, keep the nesting straight so you do not cite the wrong comparator as if it were Cap. 448G law.
 
 ## 3. LAE, UAM, and AAM
 
@@ -445,7 +445,7 @@ You will hear three acronyms constantly. Keep them **nested**, not interchangeab
 
 - A **cargo SUA** trial under Cap. 448G may be LAE without being passenger UAM.  
 - A **city-centre passenger** concept is UAM inside LAE.  
-- An **inter-city corridor** concept is often discussed under AAM-style language — still not automatic Hong Kong law, and not the same as claiming a GBA corridor is already day-to-day service ([§12](#12-working-with-the-greater-bay-area)).  
+- An **inter-city corridor** concept is often discussed under AAM-style language — still not automatic Hong Kong law, and not the same as claiming a GBA corridor is already day-to-day service ([§12](#working-with-the-greater-bay-area)).  
 
 When a reading uses “UAM” or “AAM,” ask which part of the LAE umbrella it actually covers — and which Hong Kong legal pathway (SUA vs unconventional aircraft vs planned rules) would apply.
 
@@ -681,11 +681,11 @@ $$
 
 ### Connecting the three steps (worked intuition)
 
-Suppose door-to-door time savings are worth HK$500 per trip under a high VOT ([§8.1](#81-door-to-door-friction-destroys-value)). That is step 1 — **customer value**.
+Suppose door-to-door time savings are worth HK$500 per trip under a high VOT ([§8.1](#door-to-door-friction-destroys-value)). That is step 1 — **customer value**.
 
 Step 2 asks whether the operator can **charge** something related to that value *and* cover operating cost after paying partners (vertiport, energy, insurance — [§9](#illustrative-unit-economics-not-market-data)). If the fare is only HK$200 after partners take HK$200 of a HK$300 ticket, the operator’s margin can vanish under a small fare cut.
 
-Step 3 asks whether the **stream** of margins, after tax and risk, covers the upfront aircraft, site, and compliance investment (NPV). A sandbox may change step 3 by reducing delay and uncertainty ([§11](#11-regulatory-sandboxes-in-hong-kong)) — it does not invent positive margins.
+Step 3 asks whether the **stream** of margins, after tax and risk, covers the upfront aircraft, site, and compliance investment (NPV). A sandbox may change step 3 by reducing delay and uncertainty ([§11](#regulatory-sandboxes-in-hong-kong)) — it does not invent positive margins.
 
 ---
 
@@ -750,7 +750,7 @@ $$
 P_{\max} = GC_A - \text{VOT}\times T_{\text{air}}
 $$
 
-That is exactly the Airport Express screen in [§8.2](#82-finding-a-maximum-ticket-price-against-airport-express). Notice what is missing: waiting at the vertiport, access time to the pad, cancellation risk, and perceived safety. Adding friction raises $T_{\text{air}}$ or lowers effective VOT for the air option — which is why [§8.1](#81-door-to-door-friction-destroys-value) destroys value even when cruise time is unchanged.
+That is exactly the Airport Express screen in [§8.2](#finding-a-maximum-ticket-price-against-airport-express). Notice what is missing: waiting at the vertiport, access time to the pad, cancellation risk, and perceived safety. Adding friction raises $T_{\text{air}}$ or lowers effective VOT for the air option — which is why [§8.1](#door-to-door-friction-destroys-value) destroys value even when cruise time is unchanged.
 
 ---
 
@@ -1036,7 +1036,7 @@ Acceptance is not only reputation. When communities or rules shrink the operatin
 
 Public acceptance is not only a communications issue. Operating limits change utilization, unit costs, and commercial viability. Weeks 8–10 return to congestion, noise, privacy, and social impact.
 
-**Connection.** The same HK$10,000/day fixed cost reappears in the empty-seat unit-cost equation ([§13](#13-the-empty-seat-problem-and-unit-cost)). Restrictions that cut flights are economically equivalent to a utilization shock.
+**Connection.** The same HK$10,000/day fixed cost reappears in the empty-seat unit-cost equation ([§13](#the-empty-seat-problem-and-unit-cost)). Restrictions that cut flights are economically equivalent to a utilization shock.
 
 ---
 
@@ -1210,7 +1210,7 @@ Treat technology as a lever on economics, not as an end in itself:
 
 **Classroom lesson:** a technically impressive aircraft creates commercial value only when the **complete operating system** is safe, reliable, convenient, and affordable.
 
-**Tie-back.** Technology that cuts boarding time raises $\Delta T$ and VOT-based willingness to pay ([§8.1](#81-door-to-door-friction-destroys-value)). Technology that raises daily flights lowers fixed cost per passenger ([§13](#13-the-empty-seat-problem-and-unit-cost)). Technology that only looks good on a poster does neither.
+**Tie-back.** Technology that cuts boarding time raises $\Delta T$ and VOT-based willingness to pay ([§8.1](#door-to-door-friction-destroys-value)). Technology that raises daily flights lowers fixed cost per passenger ([§13](#the-empty-seat-problem-and-unit-cost)). Technology that only looks good on a poster does neither.
 
 ---
 

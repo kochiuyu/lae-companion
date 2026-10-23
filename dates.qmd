@@ -52,7 +52,7 @@ span.dates-item{display:inline-block;scroll-margin-top:80px}
 <li id="tl-hk-governance-2028-01-01" class="st-open"><a href="#date-2026-09-16-pa-annex-34-35"><span class="chip">PLANNED</span> · Smart Low-altitude Traffic Management System from 2028<span class="badge b-open">PLANNED</span></a></li>
 </ol></details>
 <details class="dtl-card" open><summary>HK · Regulatory Sandbox<span class="n">3 items</span></summary><ol>
-<li id="tl-hk-regulatory-sandbox-2024-11-13" class="st-est"><a href="#date-2024-11-12-working-group"><span class="chip">13 Nov 2024</span> · first-batch applications open<span class="badge b-est">Established</span></a></li>
+<li id="tl-hk-regulatory-sandbox-2024-11-13" class="st-est"><a href="#date-2024-11-13-sandbox-applications"><span class="chip">13 Nov 2024</span> · first-batch applications open<span class="badge b-est">Established</span></a></li>
 <li id="tl-hk-regulatory-sandbox-2025-03-20" class="st-est"><a href="#date-2025-03-20-sandbox-38-of-72"><span class="chip">20 Mar 2025</span> · 38 of 72 proposals selected<span class="badge b-est">Established</span></a></li>
 <li id="tl-hk-regulatory-sandbox-2025-12-31" class="st-est"><a href="#date-2025-12-31-cad-ac-013"><span class="chip">31 Dec 2025</span> · CAD AC-013 (BVLOS within the Sandbox)<span class="badge b-est">Established</span></a></li>
 </ol></details>
@@ -114,7 +114,7 @@ These dates created Hong Kong’s working definition, the drone statute, two tri
   [「低空經濟是指一般於1 000米以下空域進行的低空經濟活動，可用於救援、測量、送貨載客等範疇。」…「政府將成立「發展低空經濟工作組」，由財政司副司長任組長，制訂發展策略和跨部門行動計劃」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2024/tc/p81.html))
   :::
 
-- []{#date-2024-11-12-working-group .dates-item}2024-11-12 — Working Group first meeting. [source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm) [↑ Back to timeline](#tl-hk-governance-2024-11-12){.dates-back} [↑ Back to timeline](#tl-hk-regulatory-sandbox-2024-11-13){.dates-back}
+- []{#date-2024-11-12-working-group .dates-item}2024-11-12 — Working Group first meeting. [source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm) [↑ Back to timeline](#tl-hk-governance-2024-11-12){.dates-back}
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
   English: “The Chief Executive announced in the 2024 Policy Address to establish the Working Group on Developing Low-altitude Economy (the Working Group). The Deputy Financial Secretary, Mr Michael Wong, convened the first meeting as the Head of the Working Group today (November 12).” ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm))
@@ -122,7 +122,15 @@ These dates created Hong Kong’s working definition, the drone statute, two tri
   [「行政長官在二○二四年《施政報告》宣布成立「發展低空經濟工作組」（工作組），財政司副司長黃偉綸今日（十一月十二日）以組長身分召開工作組的首次會議。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
   :::
 
-- []{#date-2025-03-20-sandbox-38-of-72 .dates-item}2025-03-20 — Regulatory Sandbox 38 of 72. [source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm) [↑ Back to timeline](#tl-hk-regulatory-sandbox-2025-03-20){.dates-back}
+- []{#date-2024-11-13-sandbox-applications .dates-item}2024-11-13 — Regulatory Sandbox first-batch applications open. Same GIA as the Working Group first meeting: applications open from 13 Nov 2024 (deadline 31 Dec 2024). [source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm) [↑ Back to timeline](#tl-hk-regulatory-sandbox-2024-11-13){.dates-back}
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “In today’s meeting, the Working Group has also formulated the details of the Sandbox pilot projects, including eligibility and procedures for application, as well as factors for evaluating and prioritising applications. The Transport and Logistics Bureau will carry out the Sandbox pilot projects by batches. The first batch will be open for applications starting from tomorrow (November 13) with the deadline on December 31 this year.” ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm))
+
+  [「今日的會議上，工作組亦落實了「監管沙盒」試點項目的細節，包括申請資格及程序、審閱及訂立優次的考量等。運輸及物流局將以分批形式進行「監管沙盒」試點項目，首批於明日（十一月十三日）起接受申請，截止日期為今年十二月三十一日」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
+  :::
+
+- []{#date-2025-03-20-sandbox-38-of-72 .dates-item}2025-03-20 — Regulatory Sandbox — 38 of 72 proposals selected. [source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm) [↑ Back to timeline](#tl-hk-regulatory-sandbox-2025-03-20){.dates-back}
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
   English: “The Government received Regulatory Sandbox pilot project proposals from 72 applicants, and after review by the Working Group on Developing LAE, 38 of them are among the first batch of pilot projects to be rolled out” ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm))
