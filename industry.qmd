@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-22"
+as_of: "2026-10-25"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,14 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 22 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 25 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">33 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">38 items</span></summary><ol>
+<li id="tl-ind-2026-10-24-meituan-fenghua"><a href="#industry-item-2026-10-24-meituan-fenghua"><span class="chip">24 Oct</span> · 美团无人机 — Fenghua mountain takeaway first open<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-23-sf-panyu-nansha"><a href="#industry-item-2026-10-23-sf-panyu-nansha"><span class="chip">23–24 Oct</span> · 顺丰 — Panyu Huolong ↔ Nansha IFC regularised UAS trunk<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-23-archer-texas"><a href="#industry-item-2026-10-23-archer-texas"><span class="chip">23 Oct</span> · Archer — planned Texas Triangle Midnight networks<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-10-22-amazon-massdot"><a href="#industry-item-2026-10-22-amazon-massdot"><span class="chip">22 Oct</span> · Amazon Prime Air — MassDOT Westborough certificate letter<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-21-ehang-caam"><a href="#industry-item-2026-10-21-ehang-caam"><span class="chip">21–22 Oct</span> · EHang × CAAM — Malaysia AAM regulatory sandbox<span class="badge b-off">Official</span></a></li>
 <li id="tl-ind-2026-10-21-beta-market-survey"><a href="#industry-item-2026-10-21-beta-market-survey"><span class="chip">21 Oct</span> · FAA × BETA ALIA A250 — first eVTOL Special Airworthiness Market Survey Certificate<span class="badge b-off">Official</span></a></li>
 <li id="tl-ind-2026-10-21-wing-charlotte"><a href="#industry-item-2026-10-21-wing-charlotte"><span class="chip">21 Oct</span> · Wing × Walmart Charlotte metro — seven Supercenters<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-21-amazon-tallahassee"><a href="#industry-item-2026-10-21-amazon-tallahassee"><span class="chip">20–21 Oct</span> · Amazon Prime Air Tallahassee — mid-November launch target (permit pending)<span class="badge b-ind">Indep.</span></a></li>
@@ -143,6 +148,54 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ### October 2026 {#industry-2026-10}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-24-meituan-fenghua .industry-item}**24 Oct 2026 · 潮新闻 via 人民网浙江:** Meituan drone takeaway opens from Xikou Wuling Plaza to Dongshan Village (Ningbo Fenghua; 5A scenic mountain village): ~5.3 km straight line / ~10 min flight; overall delivery framed ~1 h → ~20 min; scan-to-collect at smart dock. [人民网浙江](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html)
+  - Tag: Independently reported
+  - What's new: Independently reported **Mainland-other first-route open** (mountain / scenic last-mile). District transport official frames Fenghua as supporting takeaway / agri / mountain-inspection pilots after H1 route planning. **First-day open ≠ densified operating mesh** (contrast Shenzhen Longhua). Time-saving figures **press-stated — not audited**. **≠ HK Sandbox**; **≠ SZ–HK corridor**.
+  - Status: Independently reported first-day open — sustained multi-day cadence not yet evidenced.
+  - Read instead: [Use cases](usecases.qmd#uc-item-2026-10-24-meituan-fenghua) · [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「让鲍女士赞不绝口的，正是当天正式首开的美团无人机外卖航线。这条从武岭广场至东山村的航线，直线距离仅5.3公里，飞行约10分钟，整体配送时间从原来的近1小时压缩至20分钟左右。」]{lang="zh-Hans"} ([source](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html))
+
+  English (LAE-Intel translation): What delighted Ms Bao was the Meituan drone takeaway route formally opened that day. The Wuling Plaza → Dongshan Village route is only 5.3 km straight-line, about 10 minutes in flight, compressing overall delivery time from nearly one hour to around 20 minutes.
+  :::
+
+- []{#industry-item-2026-10-23-sf-panyu-nansha .industry-item}**23–24 Oct 2026 · 21世纪经济报道 / 南方财经:** A Fengzhou FZ90 carries event props from Panyu Huolong to Nansha Yuexiu International Financial Center (~30 min), then handoff to an unmanned ground vehicle and a building delivery robot — framed as the formal opening (**23 Oct**) of a regularised Panyu–Nansha unmanned logistics route for livelihood goods, express and pharma cold-chain. Press: with this Guangzhou intra-city trunk, SF now runs **three** regularised unmanned logistics lines centred on Nansha (intra-Nansha; Dongguan Shatian ↔ Nansha IFC; Panyu Huolong ↔ Nansha IFC). [21经济网](https://www.21jingji.com/article/20261024/herald/69ee4cf329af2a979435705905a07556.html)
+  - Tag: Independently reported
+  - What's new: Independently reported **GBA operating logistics expansion**. Aircraft cited: ARK40/ARK80 (special airworthiness) and FZ90 (TC) — **press-stated**. Time saving “2–3 hours → ~30 min” **press-stated — not audited**. **Launch event ≠ audited daily cadence**. Bilateral Sandbox X / HKPC MoU mention in the same article is **prior MoU** — not a new HK commercial result. **≠ SZ–HK corridor**.
+  - Status: Independently reported regularised trunk opening; sortie rates beyond launch flight not audited.
+  - Read instead: [Use cases](usecases.qmd#uc-item-2026-10-23-sf-panyu-nansha) · [Companies & sectors: SF Fengyi](landscape.qmd#firm-sf-fengyi-sf-express-uas-logistics)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「10月23日下午，一架丰舟FZ90无人机带着活动道具从番禺化龙起飞。30分钟后，这架无人机稳稳降落在南沙越秀国际金融中心（以下简称“南沙IFC”）。随后，无人机上的活动道具由无人车接驳，再由楼宇配送机器人送货上楼，递到活动会场嘉宾手里。这标志着这条往返于番禺化龙与南沙IFC的无人物流航线正式通航。……加上这一广州市内专线（骨干航线：广州番禺化龙中转场—南沙IFC），顺丰已在南沙常态化运营3条无人物流线路」]{lang="zh-Hans"} ([source](https://www.21jingji.com/article/20261024/herald/69ee4cf329af2a979435705905a07556.html))
+
+  English (LAE-Intel translation): On the afternoon of 23 October, a Fengzhou FZ90 drone carrying event props took off from Panyu Huolong. Thirty minutes later it landed at Nansha Yuexiu International Financial Center (Nansha IFC). The props were then handed to an unmanned vehicle and a building delivery robot and brought upstairs to guests. This marks the formal opening of the Panyu Huolong ↔ Nansha IFC unmanned logistics route. … With this Guangzhou intra-city trunk (backbone: Guangzhou Panyu Huolong transfer yard — Nansha IFC), SF now regularly operates three unmanned logistics lines in/around Nansha.
+  :::
+
+- []{#industry-item-2026-10-23-archer-texas .industry-item}**23 Oct 2026 · Archer Aviation IR / newsroom:** Archer unveils planned electric Midnight air-taxi networks across Dallas–Fort Worth, Houston and Austin — linking major airports to business districts / Galveston / downtown hotel helipads; Midnight on static display at F1 United States Grand Prix Fan Zone / paddock (Austin, 22–25 Oct). [archer.com](https://archer.com/news/archer-unveils-texas-air-taxi-networks-across-houston-dallas-and-austin) · [IR](https://www.investors.archer.com/news/news-details/2026/Archer-Unveils-Texas-Air-Taxi-Networks-Across-Houston-Dallas-and-Austin/default.aspx)
+  - Tag: Company-announced
+  - What's new: **Company-announced network plans** under the Texas eIPP framing. ACES charging consortium (Archer / BETA / Macquarie) partnership with TxDOT cited for interoperable charging. **Planned networks ≠ type certificate**; **≠ FAA commercial passenger authorisation**; **≠ paid air-taxi**. 10–20 minute hop / traffic-time claims are **company marketing**. Distinct from prior SF Bay ‘No Roads’ tour.
+  - Status: Company-announced plans only — not a type certificate; not paid air-taxi.
+  - Read instead: [Companies & sectors: Archer](landscape.qmd)
+
+- []{#industry-item-2026-10-22-amazon-massdot .industry-item}**22 Oct 2026 · DroneXL; Boston Globe (of MassDOT Aeronautics letter):** MassDOT tells Amazon it cannot establish or operate a Prime Air takeoff-and-landing area in Westborough (or elsewhere in Massachusetts) without a certificate of approval under M.G.L. c. 90 § 39B / 702 CMR 5; the division has **no** notification or request for review from Amazon; at least one public hearing required before any decision. [DroneXL](https://dronexl.co/2026/10/22/massdot-amazon-prime-air-westborough-certificate-no-application/) · [MassDOT letter PDF](https://cdn.dronexl.co/wp-content/uploads/2026/10/massdot-aeronautics-letter-amazon-prime-air-2026-10-22-redacted.pdf) · [Boston Globe](https://www.bostonglobe.com/2026/10/22/business/massdot-demands-public-safety-review-before-amazon-drone-delivery-takes-off-westborough/)
+  - Tag: Independently reported
+  - What's new: Independently reported **material update** to the Westborough / MetroWest pause track (prior Congressional letter 14 Oct). **Not** a Tallahassee update — Tallahassee mid-November target from 20–21 Oct coverage **unchanged / not re-listed**. Westborough still **not live**. Distinct from Tallahassee prep.
+  - Status: Independently reported of official MassDOT letter; hub not live; not entered as an operating use case.
+  - Read instead: [Companies & sectors: Amazon Prime Air](landscape.qmd)
+
+- []{#industry-item-2026-10-21-ehang-caam .industry-item}**21–22 Oct 2026 · EHang IR; CAAM news release; 第一财经:** EHang and the Civil Aviation Authority of Malaysia (CAAM) announce sandbox cooperation to examine safety, technical and regulatory considerations for proposed advanced air mobility in Malaysia’s low-altitude economy (airworthiness, operational safety, personnel competency, maintenance); EH216-S displayed at Transport Expo Asia 2026 (Kuala Lumpur, 20–22 Oct). [EHang IR](https://ir.ehang.com/news-releases/news-release-details/ehang-and-caam-announce-sandbox-cooperation-advanced-air/) · [CAAM PDF](https://www.caam.gov.my/wp-content/uploads/2026/10/NR-CAAM-EHang-Announce-Sandbox-Cooperation-on-Advanced-Air-Mobility.pdf) · [Yicai](https://www.yicai.com/brief/103403870.html)
+  - Tag: Company-announced; Officially confirmed (CAAM)
+  - What's new: **Company-announced** + **officially confirmed** (CAAM) overseas regulatory sandbox / MoU-class cooperation. Follows EHang sandbox tracks in Thailand, Sri Lanka, Vietnam and Hong Kong (company framing). **Sandbox cooperation ≠ commercial passenger service**; **≠ type certificate in Malaysia**; **≠ HK CAD permission**.
+  - Status: Officially confirmed sandbox / MoU-class cooperation — not commercial ops; not Malaysia TC.
+  - Read instead: [Companies & sectors: EHang Holdings](landscape.qmd#firm-ehang-holdings)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「10月22日，亿航智能宣布，将与马来西亚民航局（CAAM）开展沙盒合作，围绕公司拟在马来西亚低空经济领域探索的先进空中交通应用，共同研究相关安全、技术及监管要求。据悉，此次合作是亿航智能继泰国、斯里兰卡、越南及中国香港之后，在海外市场推进的又一项低空沙盒监管合作」]{lang="zh-Hans"} ([source](https://www.yicai.com/brief/103403870.html))
+
+  English (LAE-Intel translation): On 22 October, EHang announced it will conduct sandbox cooperation with CAAM to jointly study safety, technical and regulatory requirements for the company’s proposed advanced air mobility applications in Malaysia’s low-altitude economy. This is another overseas low-altitude sandbox regulatory cooperation after Thailand, Sri Lanka, Vietnam and Hong Kong, China.
+  :::
 
 - []{#industry-item-2026-10-21-beta-market-survey .industry-item}**21 Oct 2026 · FAA newsroom; BETA IR (Business Wire):** FAA awards BETA’s ALIA VTOL (A250) a Special Airworthiness Certificate for market surveys — described as the first such authorisation for an electric VTOL; enables flights with operators and key stakeholders and expands geographic scope subject to FAA limits. First authorised VTOL market-survey flight (20 Oct) covered about 34 nm in 20 minutes (Plattsburgh PBG → Burlington BTV) per company. [FAA](https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-announces-first-ever-special-airworthiness) · [BETA IR](https://investors.beta.team/news-events/press-releases/detail/121/beta-becomes-first-company-to-secure-landmark-faa-authorization-to-conduct-flight-operations-with-prospective-customers-in-electric-vtol-aircraft)
   - Tag: Officially confirmed

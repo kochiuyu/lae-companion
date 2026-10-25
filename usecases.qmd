@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-10-22"
+as_of: "2026-10-25"
 page-layout: article
 toc: true
 toc-location: right
@@ -22,7 +22,7 @@ Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating*
 - **Independently reported:** a news outlet’s own reporting.
 - **Officially confirmed:** confirmed in a linked official release or document.
 
-**Board last checked 22 Oct 2026** (`as_of`). Census: **61** use-case items (43 trial · 18 operating), grouped by application below — newest first within each section.
+**Board last checked 25 Oct 2026** (`as_of`). Census: **64** use-case items (44 trial · 20 operating), grouped by application below — newest first within each section.
 
 ## By application
 
@@ -53,9 +53,11 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="uc-by-app">
-<p class="itl-head"><strong>Use cases by application</strong> (board last checked 22 Oct 2026) — 61 items (43 trial · 18 operating). Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Use cases by application</strong> (board last checked 25 Oct 2026) — 64 items (44 trial · 20 operating). Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>Delivery<span class="n">22 items · 11 trial · 11 operating</span></summary><ol>
+<details class="itl-card" open><summary>Delivery<span class="n">24 items · 12 trial · 12 operating</span></summary><ol>
+<li id="tl-uc-2026-10-24-meituan-fenghua" class="st-open"><a href="#uc-item-2026-10-24-meituan-fenghua"><span class="chip">24 Oct 2026</span> · 美团无人机 — Fenghua mountain takeaway first open<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-uc-2026-10-23-sf-panyu-nansha"><a href="#uc-item-2026-10-23-sf-panyu-nansha"><span class="chip">23 Oct 2026</span> · 顺丰 — Panyu Huolong ↔ Nansha IFC regularised UAS logistics trunk<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-21-wing-charlotte"><a href="#uc-item-2026-10-21-wing-charlotte"><span class="chip">21 Oct 2026</span> · Wing × Walmart — Charlotte metro consumer drone delivery (seven Supercenters)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-14-rongtong-yangjiang" class="st-open"><a href="#uc-item-2026-10-14-rongtong-yangjiang"><span class="chip">14 Oct 2026</span> · 融通特种物流 — Yangjiang–Wenchang cross-sea UAS cargo trial first flight<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-10-08-zipline-round-rock"><a href="#uc-item-2026-10-08-zipline-round-rock"><span class="chip">8–9 Oct 2026</span> · Zipline — Round Rock / Austin-area consumer drone delivery live<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
@@ -79,7 +81,8 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 <li id="tl-uc-2026-01-21-zipline-2m"><a href="#uc-item-2026-01-21-zipline-2m"><span class="chip">21 Jan 2026</span> · Zipline — 2 million commercial deliveries; Houston / Phoenix expansion<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2025-12-19-meituan-airnet"><a href="#uc-item-2025-12-19-meituan-airnet"><span class="chip">19 Dec 2025</span> · Meituan Drone — “低空航网” air-network model unveil<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>Medical / emergency<span class="n">8 items · 7 trial · 1 operating</span></summary><ol>
+<details class="itl-card" open><summary>Medical / emergency<span class="n">9 items · 7 trial · 2 operating</span></summary><ol>
+<li id="tl-uc-2026-10-19-zigong-medical"><a href="#uc-item-2026-10-19-zigong-medical"><span class="chip">19 Oct 2026</span> · Zigong — municipal medical UAS network (30+ routes; ~10k sorties claimed)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-14-zengcheng-blood" class="st-open"><a href="#uc-item-2026-10-14-zengcheng-blood"><span class="chip">14 Oct 2026</span> · Guangzhou Zengcheng — first regularised UAS blood-transport route (first flight)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-07-beta" class="st-open"><a href="#uc-item-2026-10-07-beta"><span class="chip">7 Oct 2026</span> · BETA Utah eIPP medical-cargo demo<span class="badge b-tr">Trial</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-03-31-tlb-fsd" class="st-open"><a href="#uc-item-2026-03-31-tlb-fsd"><span class="chip">31 Mar 2026</span> · TLB list — FSD emergency / SAR SUA trials<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
@@ -135,9 +138,31 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Delivery {#uc-delivery}
 
-22 items · 11 trial · 11 operating
+24 items · 12 trial · 12 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-24-meituan-fenghua .uc-item}**24 Oct 2026 · 潮新闻 via 人民网浙江:** Meituan drone takeaway opens from Xikou Wuling Plaza to Dongshan Village (Ningbo Fenghua; 5A scenic mountain village): ~5.3 km / ~10 min flight; scan-to-collect; overall delivery framed ~1 h → ~20 min. [人民网浙江](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html)
+  - Status: **Trial** · Domain: Delivery · Geography: Mainland-other (Zhejiang — Ningbo Fenghua)
+  - Tag: Independently reported
+  - What's happening: Independently reported **first-day route open** with an experience-user delivery. District transport official frames Fenghua as supporting takeaway / agri / mountain-inspection pilots after H1 route planning. **Sustained multi-day commercial cadence not yet evidenced** → **trial** (contrast densified Shenzhen Longhua operating snapshot). Time figures press-stated. **Not** HK Sandbox; **not** SZ–HK.
+  - Note: First-day open ≠ densified mesh; not entered as operating.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-10-24-meituan-fenghua); [Companies & sectors](landscape.qmd#firm-meituan-drone).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「让鲍女士赞不绝口的，正是当天正式首开的美团无人机外卖航线。这条从武岭广场至东山村的航线，直线距离仅5.3公里，飞行约10分钟，整体配送时间从原来的近1小时压缩至20分钟左右。」]{lang="zh-Hans"} ([source](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html))
+  :::
+
+- []{#uc-item-2026-10-23-sf-panyu-nansha .uc-item}**23 Oct 2026 · 21世纪经济报道 / 南方财经 (report 24 Oct):** Fengzhou FZ90 carries event props from Panyu Huolong to Nansha Yuexiu International Financial Center (~30 min); handoff to unmanned vehicle and building robot; route framed as formally open for livelihood goods, express and pharma cold-chain; SF’s third regularised Nansha-centred unmanned logistics line. [21经济网](https://www.21jingji.com/article/20261024/herald/69ee4cf329af2a979435705905a07556.html)
+  - Status: **Operating** · Domain: Delivery · Geography: GBA (Guangzhou Panyu ↔ Nansha)
+  - Tag: Independently reported
+  - What's happening: Independently reported **GBA logistics route opening** with prior intra-Nansha and Dongguan Shatian–Nansha IFC lines also cited as already regularised. Launch-day ceremony flight is evidenced; **post-launch daily cadence not audited** — “operating” follows the press “常态化运营” framing for the three-line Nansha network, with the usual caveat that sortie rates remain unverified. Aircraft: ARK40/ARK80 (special airworthiness) and FZ90 (TC) per press. **Not** an SZ–HK corridor; Sandbox X / HKPC bilateral MoU mention in the same article is prior MoU, not this route.
+  - Note: Operating tag follows press regularisation framing; cadence beyond launch not audited; ≠ SZ–HK corridor.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-10-23-sf-panyu-nansha); [Companies & sectors](landscape.qmd#firm-sf-fengyi-sf-express-uas-logistics).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「10月23日下午，一架丰舟FZ90无人机带着活动道具从番禺化龙起飞。30分钟后，这架无人机稳稳降落在南沙越秀国际金融中心（以下简称“南沙IFC”）。……这标志着这条往返于番禺化龙与南沙IFC的无人物流航线正式通航。……加上这一广州市内专线（骨干航线：广州番禺化龙中转场—南沙IFC），顺丰已在南沙常态化运营3条无人物流线路」]{lang="zh-Hans"} ([source](https://www.21jingji.com/article/20261024/herald/69ee4cf329af2a979435705905a07556.html))
+  :::
 
 - []{#uc-item-2026-10-21-wing-charlotte .uc-item}**21 Oct 2026 · Business North Carolina; DroneXL; Wing.com:** Wing and Walmart fly drone deliveries from seven Charlotte-area Walmart Supercenters (Charlotte, Gastonia, Concord, Kannapolis, Lincolnton, Shelby, Kings Mountain), offering groceries / household goods / OTC medicine with tether drop; two more Charlotte stores said due within a week. Wing.com/walmart lists Charlotte “Now serving”. [Business NC](https://businessnc.com/walmart-wing-making-drone-deliveries-a-reality/) · [DroneXL](https://dronexl.co/2026/10/21/wing-walmart-charlotte-drone-delivery-seven-stores/) · [Wing Walmart](https://wing.com/walmart)
   - Status: **Operating** · Domain: Delivery · Geography: Global (US — North Carolina / Charlotte metro)
@@ -347,9 +372,23 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Medical / emergency {#uc-medical}
 
-8 items · 7 trial · 1 operating
+9 items · 7 trial · 2 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+
+- []{#uc-item-2026-10-19-zigong-medical .uc-item}**19 Oct 2026 · 新华网 (四川频道):** A Xinhua feature on Zigong’s low-altitude economy says the city has opened more than 30 low-altitude medical routes linking more than 20 medical institutions; medical drones have flown nearly 10,000 sorties and stand ready around the clock; next step framed as extending to township clinics (a “15-minute medical circle” **plan**). [Link](https://sc.news.cn/20261019/cb505c86eef24b0aad8d1bddaff727e4/c.html)
+  - Status: **Operating** · Domain: Medical/emergency · Geography: Mainland-other (Sichuan — Zigong)
+  - Tag: Independently reported
+  - What's happening: Official-media account of a municipal medical-UAS network already flying. Route / sortie / 24-hour standby figures are feature claims — not independently audited. Township-clinic extension and “15-minute medical circle” are **plans**. OEM / operator names not given. Local industrial 产值 / production targets in the same feature are excluded. **Not** an SZ–HK corridor.
+  - Note: Operating network claim via official media — not independently audited; township extension = plan.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-zigong-municipal-medical-uas); [Government news](news.qmd#press-item-2026-10-19-zigong-medical).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「在医疗急救领域，自贡开通30余条低空医疗航线，串联全市20余个医疗机构。截至目前，医疗无人机累计飞行近万架次，24小时随时待命，搭建起守护生命的空中通道。下一步，自贡还计划把这条“空中生命线”延伸至乡镇卫生院，构建全市“15分钟医疗圈”」]{lang="zh-Hans"} ([source](https://sc.news.cn/20261019/cb505c86eef24b0aad8d1bddaff727e4/c.html))
+
+  English (LAE-Intel translation): In medical emergency response, Zigong has opened more than 30 low-altitude medical routes linking more than 20 medical institutions city-wide. To date medical drones have flown nearly 10,000 sorties and stand ready around the clock, building an aerial corridor to protect lives. Next, Zigong also plans to extend this “aerial lifeline” to township clinics and build a city-wide “15-minute medical circle.”
+  :::
 
 - []{#uc-item-2026-10-14-zengcheng-blood .uc-item}**14 Oct 2026 · 广州日报; 羊城晚报:** Drone carries blood bags from Zengcheng District Blood Station to Nanfang Hospital Zengcheng campus — the area’s only blood-storage point — forming a “blood station → storage point → clinical terminal” air link; press calls the route 常态化. [广州日报](https://gzdaily.dayoo.com/pc/html/2026-10/15/content_873_916267.htm) · [羊城晚报](https://ysln.ycwb.com/content/2026-10/18/content_54323147.html)
   - Status: **Trial** · Domain: Medical/emergency · Geography: GBA (Guangzhou Zengcheng)
