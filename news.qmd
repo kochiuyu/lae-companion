@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-10-25"
+as_of: "2026-10-27"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,10 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 25 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 27 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">17 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">18 items</span></summary><ol>
+<li id="tl-press-2026-10-25-cas-sandbox"><a href="#press-item-2026-10-25-cas-sandbox"><span class="chip">25 Oct</span> · Civil Aid Service — Sandbox drone patrol / hill-fire / AED plan<span class="badge b-off">Official</span></a></li>
 <li id="tl-press-2026-10-23-guangdong-sti"><a href="#press-item-2026-10-23-guangdong-sti"><span class="chip">22–23 Oct</span> · Guangdong STI opens 2026–2027 “低空与商业航天” R&amp;D special<span class="badge b-off">Official</span></a></li>
 <li id="tl-press-2026-10-23-wuhan-ordinance" class="st-open"><a href="#press-item-2026-10-23-wuhan-ordinance"><span class="chip">21–23 Oct</span> · Wuhan seeks comment on 《低空经济促进条例（草案）》<span class="badge b-open">DRAFT</span></a></li>
 <li id="tl-press-2026-10-20-guangzhou-ordinance"><a href="#press-item-2026-10-20-guangzhou-ordinance"><span class="chip">20–21 Oct</span> · Guangzhou municipal executive meeting studies LAE Ordinance implementation<span class="badge b-ind">Press</span></a></li>
@@ -123,6 +124,17 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ### 2026-10 {#press-2026-10}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-10-25-cas-sandbox .press-item}**25 Oct 2026 · Civil Aid Service / 民安隊 (GIA):** At Mountaineering Safety Promotion Day / Emergency Response Experience Day 2026 in Tsuen Wan, CAS Chief Staff Officer Leung Kwun-hong said CAS already uses drones in daily mountain-rescue work and will, under the Low-altitude Economy Regulatory Sandbox, pilot drones for patrols, hill-fire detection, and delivery of mountain-area equipment or emergency supplies such as automated external defibrillators. [GIA EN](https://www.info.gov.hk/gia/general/202610/25/P2026102300506.htm) · [GIA ZH](https://www.info.gov.hk/gia/general/202610/25/P2026102300501.htm) · [RTHK](https://news.rthk.hk/rthk/ch/component/k2/1875257-20261025.htm) · [大公報](https://www.tkww.hk/epaper/view/newsDetail/2114422907257098240.html)
+  - What's new: Official CAS Sandbox **pilot plan** for public-service UAS roles (patrol / hill-fire / AED–kit delivery). Plan / trial framing — **creates no Cap.448G permission**; **≠** commercial delivery; **≠** AED flights already flying (no timetable / fleet / site / named operator in the GIA).
+  - Status: Official (T1 GIA). Plan / trial — not an operating AED / fire network.
+  - Read instead: [Use cases](usecases.qmd#uc-item-2026-10-25-cas-sandbox) · [Official status](tracker.qmd) (Sandbox ≠ Sandbox X).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「梁冠康說，為提升民安隊山嶺搜救工作的效率和持續優化作業流程，該隊已積極在日常工作及行動中使用無人機。其中，民安隊將會透過低空經濟監管沙盒計劃，試行以無人機進行巡邏、偵測山火、以及試驗以無人機運送山嶺裝備或急救器材，例如自動體外心臟除顫器等。此舉可令救援人員更有效把握黃金救援時機。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202610/25/P2026102300501.htm))
+
+  English (LAE-Intel translation): Leung Kwun-hong said that to improve the efficiency of CAS mountain-rescue work and continuously optimise procedures, the Service has been actively using drones in daily work and operations. Among other steps, CAS will, through the Low-altitude Economy Regulatory Sandbox scheme, pilot the use of drones for patrols and hill-fire detection, and trial using drones to deliver mountain equipment or first-aid kit such as automated external defibrillators, so that rescuers can seize the golden hour more effectively.
+  :::
 
 - []{#press-item-2026-10-23-guangdong-sti .press-item}**22–23 Oct 2026 · 广东省科学技术厅:** Notice 粤科函资字〔2026〕1724号 (dated **22 Oct**; portal post **23 Oct**) opens applications for the 2026–2027 Guangdong Key-Area R&D Plan special on “低空与商业航天” (low-altitude and commercial space); online apply **23 Oct → 23 Nov 2026 17:00**; competent authorities’ review/recommendation closes **3 Dec 2026 17:00**. HK/Macao higher-education institutions and research institutes may lead. [Link](https://gdstc.gd.gov.cn/pro/tzgg_if/content/post_4970077.html)
   - What's new: Provincial STI project call with an open window through late November. Guide is an attachment on the 阳光政务平台 (portal says guide “不得转载发布” — not republished here).

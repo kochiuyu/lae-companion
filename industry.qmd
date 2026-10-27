@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-10-25"
+as_of: "2026-10-27"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,11 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 25 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 27 Oct 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>October 2026<span class="n">38 items</span></summary><ol>
+<details class="itl-card" open><summary>October 2026<span class="n">40 items</span></summary><ol>
+<li id="tl-ind-2026-10-26-amazon-markham"><a href="#industry-item-2026-10-26-amazon-markham"><span class="chip">26 Oct</span> · Amazon Prime Air — Markham IL / Chicago south-suburb MK30 flying<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-10-25-zipline-charlotte-towers"><a href="#industry-item-2026-10-25-zipline-charlotte-towers"><span class="chip">25 Oct</span> · Zipline — Charlotte General Drive four charging-tower permits<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-24-meituan-fenghua"><a href="#industry-item-2026-10-24-meituan-fenghua"><span class="chip">24 Oct</span> · 美团无人机 — Fenghua mountain takeaway first open<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-23-sf-panyu-nansha"><a href="#industry-item-2026-10-23-sf-panyu-nansha"><span class="chip">23–24 Oct</span> · 顺丰 — Panyu Huolong ↔ Nansha IFC regularised UAS trunk<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-23-archer-texas"><a href="#industry-item-2026-10-23-archer-texas"><span class="chip">23 Oct</span> · Archer — planned Texas Triangle Midnight networks<span class="badge b-co">Company</span></a></li>
@@ -148,6 +150,18 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ### October 2026 {#industry-2026-10}
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
+
+- []{#industry-item-2026-10-26-amazon-markham .industry-item}**26 Oct 2026 · NBC 5 Chicago / DroneXL (CBS Chicago ~13–14 Oct):** About **21** Amazon MK30 drones are operating from the Markham (Illinois) fulfillment center (IGQ1) into Chicago south suburbs (Homewood residents filmed descents; one believes he received a package). NBC says Amazon has **not** called the broader rollout “official”; Village of Homewood has told residents the service launched. FAA environmental index (DroneXL check through **27 Oct**) still shows Chicago as **draft** EA with comment closed 14 Aug and **no** final decision posted. [NBC 5](https://www.nbcchicago.com/news/local/amazon-drone-deliveries-whir-to-live-over-chicago-suburbs/4007558/) · [DroneXL](https://dronexl.co/2026/10/26/amazon-drones-fly-markham-chicago-suburbs-faa-draft/) · [CBS Chicago](https://www.cbsnews.com/chicago/news/amazon-prime-air-drones-south-suburbs/)
+  - Tag: Independently reported
+  - What's new: Independently reported **live US delivery ops** at Markham / Chicago south suburbs. Payload / range (~5 lb; ~8 miles company / ~7.5 miles FAA draft) and “&lt;$5 per delivery” cost are **company-stated via press** — not audited. **≠ Westborough** (MassDOT certificate still absent); **≠ Tallahassee** mid-November prep; Matteson / West Chicago draft hubs **not** evidenced flying. Authorisation instrument for Markham flights **not** named on the public FAA index per DroneXL.
+  - Status: Independently reported operating logistics expansion; daily sortie rates not audited; FAA Chicago EA still draft.
+  - Read instead: [Use cases](usecases.qmd#uc-item-2026-10-26-amazon-markham) · [Companies & sectors: Amazon Prime Air](landscape.qmd)
+
+- []{#industry-item-2026-10-25-zipline-charlotte-towers .industry-item}**25 Oct 2026 · Axios Charlotte / Focal News:** Zipline has begun City of Charlotte permitting for **four** drone charging towers on a half-acre General Drive site near Carowinds; company spokesperson says early permitting stage and no additional local partners to announce; Advocate Health prescription / lab / medical-supply deliveries still framed for **2027**. [Axios](https://www.axios.com/local/charlotte/2026/10/25/walmart-wing-zipline-drone-delivery) · [Focal News](https://focalnews.org/charlotte-nc/local/drone-deliveries-spread-across-charlotte-region-as-zipline-seeks-tower-permits)
+  - Tag: Independently reported
+  - What's new: Independently reported **infrastructure permitting step** in a metro where Wing×Walmart is already operating. **Permit filing ≠ operating hub**; **≠** paid consumer delivery in Charlotte by Zipline. Round Rock / Austin consumer ops remain the live Zipline US snapshot. Uber Eats / “1 million food deliveries/day by end-2029” targets in the same articles are **third-party / company ambition — not upgraded**.
+  - Status: Independently reported early permit; not an operating Charlotte hub.
+  - Read instead: [Companies & sectors: Zipline](landscape.qmd) · [Use cases: Zipline Round Rock](usecases.qmd) (live ops — not these towers).
 
 - []{#industry-item-2026-10-24-meituan-fenghua .industry-item}**24 Oct 2026 · 潮新闻 via 人民网浙江:** Meituan drone takeaway opens from Xikou Wuling Plaza to Dongshan Village (Ningbo Fenghua; 5A scenic mountain village): ~5.3 km straight line / ~10 min flight; overall delivery framed ~1 h → ~20 min; scan-to-collect at smart dock. [人民网浙江](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html)
   - Tag: Independently reported
