@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-10-27"
+as_of: "2026-10-29"
 page-layout: article
 toc: true
 toc-location: right
@@ -22,7 +22,7 @@ Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating*
 - **Independently reported:** a news outlet’s own reporting.
 - **Officially confirmed:** confirmed in a linked official release or document.
 
-**Board last checked 27 Oct 2026** (`as_of`). Census: **66** use-case items (45 trial · 21 operating), grouped by application below — newest first within each section.
+**Board last checked 29 Oct 2026** (`as_of`). Census: **67** use-case items (46 trial · 21 operating), grouped by application below — newest first within each section.
 
 ## By application
 
@@ -53,9 +53,10 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="uc-by-app">
-<p class="itl-head"><strong>Use cases by application</strong> (board last checked 27 Oct 2026) — 66 items (45 trial · 21 operating). Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Use cases by application</strong> (board last checked 29 Oct 2026) — 67 items (46 trial · 21 operating). Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>Delivery<span class="n">25 items · 12 trial · 13 operating</span></summary><ol>
+<details class="itl-card" open><summary>Delivery<span class="n">26 items · 13 trial · 13 operating</span></summary><ol>
+<li id="tl-uc-2026-10-27-hangzhou-mixc-yunyi"><a href="#uc-item-2026-10-27-hangzhou-mixc-yunyi"><span class="chip">27 Oct 2026</span> · Hangzhou MixC North low-altitude delivery pad opens<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-26-amazon-markham"><a href="#uc-item-2026-10-26-amazon-markham"><span class="chip">26 Oct 2026</span> · Amazon Prime Air — Markham IL / Chicago south-suburb MK30 flying<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-24-meituan-fenghua" class="st-open"><a href="#uc-item-2026-10-24-meituan-fenghua"><span class="chip">24 Oct 2026</span> · 美团无人机 — Fenghua mountain takeaway first open<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-23-sf-panyu-nansha"><a href="#uc-item-2026-10-23-sf-panyu-nansha"><span class="chip">23 Oct 2026</span> · 顺丰 — Panyu Huolong ↔ Nansha IFC regularised UAS logistics trunk<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
@@ -140,9 +141,20 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Delivery {#uc-delivery}
 
-25 items · 12 trial · 13 operating
+26 items · 13 trial · 13 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-10-27-hangzhou-mixc-yunyi .uc-item}**27 Oct 2026 · 都市快报 / 浙江在线 / 杭州日报 digital (10-28):** Hangzhou’s first compound commercial-complex low-altitude delivery take-off/landing site — **城北万象低空云驿** — opens; ceremony drone carries gift packages MixC North → Hangzhou East Station MixC; 杭州低空产业发展有限公司 + 华润万象. Press frames dual-level pad for 常态化 logistics; 闪送 mini-program auto-match and ~3 km / ~10 min / ~30% claims are **operator-/press-stated**. [浙江在线](https://zjnews.zjol.com.cn/zjnews/202610/t20261028_31994207.shtml) · [都市快报 digital](https://hzdaily.hangzhou.com.cn/dskb/2026/10/28/article_detail_2_20261028A141.html) · [杭州政协网](https://www.hzzx.gov.cn/content/2026-10/28/content_9357639.htm)
+  - Status: **Trial** · Domain: Delivery · Geography: Mainland-other (Hangzhou)
+  - Tag: Independently reported
+  - What's happening: Independently reported **pad go-live with evidenced opening-day gift flight**. Post-opening daily 闪送 cadence **not audited** → **trial** (first-open). Distinct from Xunyi cross-Qiantang trunk. Year-end “20+ public pads” = forward plan. **≠** eVTOL passenger; **≠** SZ–HK corridor.
+  - Note: Prep/ceremony ≠ full densified ops; keep AFCD and other backfill items on this page even when dropped from live ≤12.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-10-27-hangzhou-mixc-yunyi); [Companies & sectors](landscape.qmd#firm-hangzhou-mixc-yunyi).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「10月27日，一架搭载着定制logo伴手礼的无人机从杭州城北万象城广场平稳升空。旋翼声起，首单伴手礼朝杭州东站万象汇方向飞去。这一飞，宣告杭州市首个复合式商业综合体低空配送起降点——杭州城北万象低空云驿正式启用……目前，城北万象低空云驿可辐射周边3公里左右的商圈，空中配送时长约10分钟，时效比地面运输提高约30%。“使用时，只需在微信打开闪送小程序正常下单，后台就会自动匹配空中运力，实现无感运输。”」]{lang="zh-Hans"} ([source](https://zjnews.zjol.com.cn/zjnews/202610/t20261028_31994207.shtml))
+  :::
 
 - []{#uc-item-2026-10-26-amazon-markham .uc-item}**26 Oct 2026 · NBC 5 Chicago / DroneXL (CBS Chicago ~13–14 Oct):** About 21 MK30 drones fly from Amazon’s Markham (Illinois) fulfillment center (IGQ1) into Chicago south suburbs (Homewood residents filmed descents; one believes he received a package). NBC says Amazon has not called the broader rollout official; FAA Chicago EA still draft with no decision posted (DroneXL check through 27 Oct). [NBC 5](https://www.nbcchicago.com/news/local/amazon-drone-deliveries-whir-to-live-over-chicago-suburbs/4007558/) · [DroneXL](https://dronexl.co/2026/10/26/amazon-drones-fly-markham-chicago-suburbs-faa-draft/) · [CBS Chicago](https://www.cbsnews.com/chicago/news/amazon-prime-air-drones-south-suburbs/)
   - Status: **Operating** · Domain: Delivery · Geography: Global (US — Illinois / Chicago south suburbs)
