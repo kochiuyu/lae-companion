@@ -1,7 +1,7 @@
 ---
 title: "Key numbers"
 subtitle: "Short sourced numbers for newcomers"
-as_of: "2026-10-17"
+as_of: "2026-11-01"
 page-layout: article
 toc: true
 toc-location: right
@@ -58,9 +58,9 @@ Keep **Regulatory Sandbox** and **Sandbox X** separate. Do not add their counts 
 ```{=html}
 <div class="kfig"><div class="kfig-grid">
 <div class="kfig-card"><span class="num">38 of 72</span><span class="label">First <strong>Regulatory Sandbox</strong> — first batch of pilot projects selected from applications.</span><span class="src">Issuer: <a href="https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm">GIA, 20 Mar 2025</a> · Official status</span></div>
-<div class="kfig-card"><span class="num">36</span><span class="label"><strong>Sandbox X</strong> selected modules so far: UTM 15 + unconventional aircraft 4 + shared platform 5 + others 12 (15+4+5+12). Separate from the Sandbox 38. Others <strong>12</strong> follows TLB Updated PDFs (as at Oct 2026); landing text may still say nine — see Official status.</span><span class="src">Issuer: <a href="https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_12.10.2026.pdf">TLB Others Updated PDF</a> · <a href="tracker.qmd">Official status</a></span></div>
+<div class="kfig-card"><span class="num">38</span><span class="label"><strong>Sandbox X</strong> selected modules so far: UTM 15 + unconventional aircraft 4 + shared platform 6 + others 13 (15+4+6+13). Separate from the Sandbox 38. Others <strong>13</strong> / Shared <strong>6</strong> follow live TLB Updated PDFs (Others <code>_14.10.2026</code>, Shared <code>_27.10.2026</code>, UTM <code>_29.10.2026</code>; checked 1 Nov 2026) — see Official status.</span><span class="src">Issuer: <a href="https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Other_Applications_EN_14.10.2026.pdf">TLB Others Updated PDF</a> · <a href="https://www.tlb.gov.hk/eng/highlights/transport/List_of_Sandbox_X_Shared_Platform_Applications_EN_27.10.2026.pdf">Shared</a> · <a href="https://www.tlb.gov.hk/eng/highlights/transport/List_of_Selected_Sandbox_X_UTM_Applications_EN_29.10.2026.pdf">UTM</a> · <a href="tracker.qmd">Official status</a></span></div>
 <div class="kfig-card"><span class="num">&gt;140</span><span class="label">Regularised Regulatory Sandbox projects approved (Policy Address figure) — <strong>not</strong> the same as the first-batch 38.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶137</a></span></div>
-<div class="kfig-card"><span class="num">~10</span><span class="label">Sandbox X projects that had begun testing (Policy Address snapshot) — <strong>not</strong> the same as the 36 module total.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶137</a></span></div>
+<div class="kfig-card"><span class="num">~10</span><span class="label">Sandbox X projects that had begun testing (Policy Address snapshot) — <strong>not</strong> the same as the 38 module total.</span><span class="src">Issuer: <a href="https://www.policyaddress.gov.hk/2026/en/chapter3.html">2026 Policy Address ¶137</a></span></div>
 </div></div>
 ```
 

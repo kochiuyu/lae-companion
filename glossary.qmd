@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 subtitle: "Terms and diagrams you can cite"
-as_of: "2026-10-17"
+as_of: "2026-11-01"
 page-layout: article
 format:
   html:
@@ -349,16 +349,16 @@ English: “The Government received Regulatory Sandbox pilot project proposals f
 
 A **later, separate** Hong Kong trial programme launched 24 November 2025 (modules such as UTM, unconventional aircraft, shared platforms). CAD AC-017 covers cross-boundary operations in Sandbox X.
 
-Cross-boundary and advanced modules appear here — still trials, not day-to-day corridor service. **Sandbox X ≠ the first Regulatory Sandbox.** Do not add 38 and 36 into one “market share.” Module batches are 15+4+5+12 = **36** on [Official status](tracker.qmd) (Updated PDFs). See [Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats).
+Cross-boundary and advanced modules appear here — still trials, not day-to-day corridor service. **Sandbox X ≠ the first Regulatory Sandbox.** Do not add the first-batch **38** and the Sandbox X module total **38** into one “market share.” Module batches are 15+4+6+13 = **38** on [Official status](tracker.qmd) (Updated PDFs). See [Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The launch event of the low-altitude economy \"Regulatory Sandbox X\" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
 
 [「低空經濟「監管沙盒X」啟動禮今日（十一月二十四日）舉行，旨在進一步推動香港的低空經濟發展，並探索創新應用場景。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
 
-English: “(i) 15 pilot projects under the UTM system demonstrations module, (ii) a first batch of four pilot projects under the unconventional aircraft module; (iii) a first batch of five pilot projects under the multiple applications/users shared-platform module; and (iv) a first batch of nine pilot projects under the others module have been selected for implementation in phases.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html))
+English: “(i) 15 pilot projects under the UTM system demonstrations module, (ii) a first batch of four pilot projects under the unconventional aircraft module; (iii) six pilot projects under the multiple applications/users shared-platform module; and (iv) 13 pilot projects under the others module have been selected for implementation in phases.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html))
 
-[「經發展低空經濟工作組審閱後，已選定(i) 15個UTM系統演示試點項目；(ii) 首批四個非傳統航空器試點項目；(iii) 首批五個多場景／多用戶共享平台試點項目，以及(iv) 首批九個其他試點項目予以分階段推行。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
+[「經發展低空經濟工作組審閱後，已選定(i) 15個UTM系統演示試點項目；(ii) 首批四個非傳統航空器試點項目；(iii) 六個多場景／多用戶共享平台試點項目，以及(iv) 13個其他試點項目予以分階段推行。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
 :::
 
 **Secretary for Transport and Logistics (STL) (運輸及物流局局長)**

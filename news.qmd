@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-10-29"
+as_of: "2026-11-01"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,7 +44,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 29 Oct 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 1 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>October 2026<span class="n">18 items</span></summary><ol>
 <li id="tl-press-2026-10-25-cas-sandbox"><a href="#press-item-2026-10-25-cas-sandbox"><span class="chip">25 Oct</span> · Civil Aid Service — Sandbox drone patrol / hill-fire / AED plan<span class="badge b-off">Official</span></a></li>
@@ -423,7 +423,7 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 - []{#press-item-2026-09-10-bri .press-item}**10 Sep 2026 · China Daily Hong Kong:** Belt and Road Summit LAE standards session: DFS Michael Wong on sandbox approvals and Sandbox X. [Link](https://www.chinadailyhk.com/hk/article/639379)
   - What's new: Sandbox X further selected projects (module totals on Official status); Hong Kong–Nansha MoU exchange on cross-boundary testing and standards.
-  - Status: Sandbox X module totals are UTM **15** + unconventional **4** + shared **5** + others **12** = **36** on Official status (Updated PDFs; landing may still say nine).
+  - Status: Sandbox X module totals are UTM **15** + unconventional **4** + shared **6** + others **13** = **38** on Official status (Updated PDFs: Others `_14.10.2026`, Shared `_27.10.2026`, UTM `_29.10.2026`).
   - Read instead: GIA releases on the session: [中文](https://www.info.gov.hk/gia/general/202609/11/P2026091100798.htm) · [English](https://www.info.gov.hk/gia/general/202609/11/P2026091100795.htm); Regulatory Sandbox X (TLB).
 
   ::: {.callout-note collapse="true" appearance="simple" title="中文官方來源 · Chinese official source"}
@@ -455,9 +455,9 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   :::
 
 - **4 Sep 2026 · 电商派:** Meituan upgrades Shenzhen Longhua drone-delivery hub-and-spoke points into mesh nodes (15 points). [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
-  - What's new: Typical merchant delivery reach extended from about 3 km to 5 km; Nanshan expansion underway.
-  - Status: Shenzhen commercial operations; no Official status counterpart.
-  - Read instead: None.
+  - What's new: Typical merchant delivery reach extended from about 3 km to 5 km; Nanshan expansion underway. **Update (29 Oct 2026 · [龙华政府在线](https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_13045514.html)):** district feature says Meituan now has **26** air-network points in Longhua and flew about **280,000** sorties there in Jan–Sep 2026 (+40% year on year; volume already above full-year 2025) — district press of operator figures; not audited.
+  - Status: Shenzhen commercial operations; no Official status counterpart. Sep item remains the densification-to-15 baseline; 26-point figure is a later district refresh.
+  - Read instead: [Use cases](usecases.qmd#uc-item-2026-09-09-meituan-longhua); [Companies & sectors](landscape.qmd#firm-meituan-drone).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「9月4日消息，美团无人机在深圳首次将单线程配送的轴辐式航线点位升级为航网节点，并入已运营半年的龙华区航网，将龙华区航网快速加密至15个点位，多数商家通过无人机能配送外卖的距离，已从原来的3公里延伸至5公里，无人机服务半径扩大约67%。」…「这种“既有点位升级+新点部署”的方式，也将在南山区航网继续推进。」]{lang="zh-Hans"} ([source](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt))
