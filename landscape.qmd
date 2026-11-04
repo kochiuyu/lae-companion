@@ -1,14 +1,14 @@
 ---
 title: "Companies & sectors"
 subtitle: "Who is in the market"
-as_of: "2026-11-01"
+as_of: "2026-11-03"
 page-layout: full
 toc: true
 toc-location: right
 toc-title: "Sections"
 ---
 
-Sources (board last checked 1 Nov 2026): 93 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
+Sources (board last checked 3 Nov 2026): 93 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 
 ## Companies & sectors at a glance
 

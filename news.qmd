@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-11-01"
+as_of: "2026-11-03"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,8 +44,11 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 1 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 3 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
+<details class="itl-card" open><summary>November 2026<span class="n">1 item</span></summary><ol>
+<li id="tl-press-2026-11-03-sz-apec-control"><a href="#press-item-2026-11-03-sz-apec-control"><span class="chip">3 Nov</span> · Shenzhen 市政府 — temporary low-altitude flight control (APEC window 7–21 Nov)<span class="badge b-off">Official</span></a></li>
+</ol></details>
 <details class="itl-card" open><summary>October 2026<span class="n">18 items</span></summary><ol>
 <li id="tl-press-2026-10-25-cas-sandbox"><a href="#press-item-2026-10-25-cas-sandbox"><span class="chip">25 Oct</span> · Civil Aid Service — Sandbox drone patrol / hill-fire / AED plan<span class="badge b-off">Official</span></a></li>
 <li id="tl-press-2026-10-23-guangdong-sti"><a href="#press-item-2026-10-23-guangdong-sti"><span class="chip">22–23 Oct</span> · Guangdong STI opens 2026–2027 “低空与商业航天” R&amp;D special<span class="badge b-off">Official</span></a></li>
@@ -120,6 +123,25 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 </ol></details>
 </div></div>
 ```
+
+### 2026-11 {#press-2026-11}
+
+[↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-11-03-sz-apec-control .press-item}**3 Nov 2026 · 深圳市人民政府 (via 「深圳发布」 / 南方网; 東網):** 《关于加强低空飞行管控的通告》 — phased temporary ban on low-altitude aircraft and airborne objects for the APEC security window: **7 Nov 00:00–10 Nov 24:00** Futian + Nanshan; **11 Nov 00:00–21 Nov 24:00** city-wide (excluding Shenzhen–Shantou Special Cooperation Zone / 深汕特别合作区). Special flights (security, emergency rescue, met, police, broadcast, radio monitoring, **logistics**) require prior departmental approval. Effective **7–21 Nov 2026**. Native `sz.gov.cn` HTML for this exact notice **OPEN**. [南方网](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml) · [21经济网](https://www.21jingji.com/article/20261103/herald/a00aac2ad1a8279691af98efee718b86.html) · [澎湃号·政务](https://www.thepaper.cn/newsDetail_forward_34393953) · [東網](https://hk.on.cc/hk/bkn/cnt/news/20261103/bkn-20261103110642503-1103_00822_001.html)
+  - What's new: Official municipal temporary UAS / GA / airborne-object control ahead of APEC Leaders’ Meeting in Shenzhen. Affects civilian UAS including logistics (special tasks only with prior approval). GBA comparator — **not** Hong Kong Cap. 448G / CAD / Action Plan / Sandbox X.
+  - Status: Official (T1/T2 municipal 通告 via 「深圳发布」 reprints; independently corroborated by 東網). Temporary — **not** a permanent RFZ statute; **≠** evidenced SZ–HK corridor flight; **does not** invent Meituan/SF sortie interruption.
+  - Read instead: [Official status](tracker.qmd) (Shenzhen APEC temporary control WATCH) · [Use cases](usecases.qmd#uc-item-2026-09-09-meituan-longhua) (Longhua annotate only).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「二、管控时段和区域
+  2026年11月7日0时至11月10日24时，福田区、南山区行政区域。
+  2026年11月11日0时至11月21日24时，深圳全市区域（不含深汕特别合作区）。
+  …管控时段和区域内，禁止单位、组织和个人使用低空航空器、升空物实施飞行活动。涉及安全保障、应急救援、气象探测、警务执勤、电视转播、无线电监测、物流运输等特殊飞行任务的，依法报相关部门批准后方可飞行。…本通告自2026年11月7日起实施，有效期至2026年11月21日。
+  深圳市人民政府　2026年11月3日」]{lang="zh-Hans"} ([source](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml))
+
+  English (LAE-Intel translation): Control periods and areas: from 00:00 on 7 November 2026 to 24:00 on 10 November, Futian and Nanshan administrative districts; from 00:00 on 11 November to 24:00 on 21 November, the whole Shenzhen municipality (excluding the Shenzhen–Shantou Special Cooperation Zone). During the control periods and within the control areas, units, organisations and individuals are prohibited from using low-altitude aircraft or airborne objects for flight activities. Special flight tasks involving security assurance, emergency rescue, meteorological observation, police duty, television broadcast, radio monitoring, logistics transport, etc., may fly only after reporting to and obtaining approval from the relevant departments in accordance with law. This notice takes effect from 7 November 2026 and remains valid until 21 November 2026. Shenzhen Municipal People’s Government, 3 November 2026.
+  :::
 
 ### 2026-10 {#press-2026-10}
 
