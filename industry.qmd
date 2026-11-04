@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-11-01"
+as_of: "2026-11-04"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,7 +50,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 1 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 4 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>October 2026<span class="n">46 items</span></summary><ol>
 <li id="tl-ind-2026-10-31-amazon-westborough-withdrawn"><a href="#industry-item-2026-10-31-amazon-westborough-withdrawn"><span class="chip">31 Oct</span> · Amazon Prime Air — Westborough MA launch-site application withdrawn (never live)<span class="badge b-ind">Indep.</span></a></li>
@@ -100,10 +100,19 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 <li id="tl-ind-2026-10-06-eve"><a href="#industry-item-2026-10-06-eve"><span class="chip">6 Oct</span> · Eve Florida eVTOL summit; 2028 US demos (company timing)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-05-lianzhou"><a href="#industry-item-2026-10-05-lianzhou"><span class="chip">5 Oct</span> · Lianzhou Airport aviation open day; LAE test clients<span class="badge b-ind">Indep.</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>September 2026<span class="n">3 items</span></summary><ol>
+<details class="itl-card" open><summary>September 2026<span class="n">12 items</span></summary><ol>
+<li id="tl-ind-2026-09-28-matternet-m3"><a href="#industry-item-2026-09-28-matternet-m3"><span class="chip">28 Sep</span> · Matternet unveils M3; Dave’s Hot Chicken + Apian launch partners (service H2 2027)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-09-26-skyla-moon"><a href="#industry-item-2026-09-26-skyla-moon"><span class="chip">26 Sep</span> · SKYLA × Moon Aero — 30 V30 overseas pre-sale (Hangzhou Digital Trade Expo)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-09-24-amazon-cleveland"><a href="#industry-item-2026-09-24-amazon-cleveland"><span class="chip">24 Sep</span> · Amazon Prime Air — Cleveland / North Randall OH go-live<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-09-21-keeta"><a href="#industry-item-2026-09-21-keeta"><span class="chip">21 Sep</span> · Keeta Drone to Chung On Estate public housing<span class="badge b-ind">Indep.</span></a></li>
-<li id="tl-ind-2026-09-10-meituan-shanghai"><a href="#industry-item-2026-09-10-meituan-shanghai"><span class="chip">10 Sep</span> · Meituan Shanghai West Bund air network + McDonald’s route<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-09-17-skydrive-verty"><a href="#industry-item-2026-09-17-skydrive-verty"><span class="chip">17 Sep</span> · SkyDrive × Verty MoU — SD-05 Korea path (target 2028)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-09-16-keeta-dubai"><a href="#industry-item-2026-09-16-keeta-dubai"><span class="chip">16 Sep</span> · Keeta Drone — Dubai Silicon Central Mall hub ops<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-09-11-zipline-texas-ea"><a href="#industry-item-2026-09-11-zipline-texas-ea"><span class="chip">11 Sep</span> · FAA Draft EA — Zipline Texas multi-metro package delivery<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2026-09-10-autoflight"><a href="#industry-item-2026-09-10-autoflight"><span class="chip">10 Sep</span> · AutoFlight × 零界 × 皖江金租 — 30× V2000CG finance lease<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-09-10-mous"><a href="#industry-item-2026-09-10-mous"><span class="chip">10 Sep</span> · Belt and Road Summit LAE MoUs (MoUs, not binding)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-09-10-meituan-shanghai"><a href="#industry-item-2026-09-10-meituan-shanghai"><span class="chip">10 Sep</span> · Meituan Shanghai West Bund air network + McDonald’s route<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-09-04-meituan-longhua"><a href="#industry-item-2026-09-04-meituan-longhua"><span class="chip">4–10 Sep</span> · Meituan Longhua densify to 15 points (municipal reprint)<span class="badge b-off">Official</span></a></li>
+<li id="tl-ind-2026-09-02-hatcher-pengcheng"><a href="#industry-item-2026-09-02-hatcher-pengcheng"><span class="chip">2 Sep</span> · Hatcher × Pengcheng Linghang LOI — GBA cross-border drone logistics<span class="badge b-co">Company</span></a></li>
 </ol></details>
 <details class="itl-card" open><summary>August 2026<span class="n">2 items</span></summary><ol>
 <li id="tl-ind-2026-08-28-ehang"><a href="#industry-item-2026-08-28-ehang"><span class="chip">28 Aug</span> · EHang EH216-S first public flight at Cyberport (Sandbox X)<span class="badge b-ind">Indep.</span></a></li>
@@ -541,6 +550,32 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 
 [↑ Back to timeline](#industry-timeline){.industry-back}
 
+- []{#industry-item-2026-09-28-matternet-m3 .industry-item}**28 Sep 2026 · Matternet / GlobeNewswire:** Matternet unveils its next-generation M3 autonomous delivery platform (Aircraft / Dock / Portal) and names Dave’s Hot Chicken (US) and Apian (UK NHS network) as initial launch partners; commercial service targeted for the second half of 2027. [Link](https://investor.matternet.com/news-events/press-releases/detail/120/matternet-unveils-m3-its-next-generation-autonomous-drone-delivery-platform)
+  - Tag: Company-announced
+  - What's new: Company product unveil building on FAA Type- and Production-Certified M2. Specs (about 11 lb / 10-mile class) and manufacturing plans are company targets under a forward-looking-statements disclaimer. **Service target H2 2027 — not a September go-live.** Adjacent 21 Sep OTCQB securities listing is excluded from this page.
+  - Status: Platform unveil + named partners as announced; commercial service targeted H2 2027; not operating evidence in Sep 2026.
+  - Read instead: None.
+
+- []{#industry-item-2026-09-26-skyla-moon .industry-item}**26 Sep 2026 · SKYLA / 蓝色向量:** SKYLA says it signed a **pre-sale** order for 30× SKYLA V30 with Singapore’s Moon Aero during the 5th Global Digital Trade Expo in Hangzhou — framed as its first overseas pre-sale — and 60 pre-sale orders in total at the expo. [Link](https://www.skyla-aviation.com/LatestUpdates/113)
+  - Tag: Company-announced
+  - What's new: Company figures: Moon Aero 30; expo total 60; cumulative “over 100” since a July 2026 global debut — **all company-announced**. Kazakhstan local-government strategic cooperation claimed in the same materials is MoU-class and not treated as a firm order here. Pre-sale ≠ firm backlog with disclosed deposits; deposit / cancellation / certification contingencies **OPEN**. Not a type certificate, delivery, or operating passenger service.
+  - Status: **Pre-sale / strategic** as announced by the company; never upgraded to firm backlog or EIS.
+  - Read instead: None.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「展会期间， SKYLA 与新加坡航空运营企业 Moon Aero 正式签署 SKYLA V30 飞机预售订单 30 架，达成首批海外预售订单。」]{lang="zh-Hans"}
+
+  [「展会期间， SKYLA V30 共签署 60 架预售订单。自 2026 年 7 月全球首发以来，SKYLA V30 累计预售订单已超百架。」]{lang="zh-Hans"} ([source](https://www.skyla-aviation.com/LatestUpdates/113))
+
+  English (LAE-Intel translation): During the expo, SKYLA formally signed a SKYLA V30 aircraft pre-sale order for 30 units with Singapore aviation operator Moon Aero, achieving its first overseas pre-sale order. / During the expo, SKYLA V30 signed a total of 60 pre-sale orders. Since its July 2026 global debut, cumulative SKYLA V30 pre-sale orders have exceeded 100 units.
+  :::
+
+- []{#industry-item-2026-09-24-amazon-cleveland .industry-item}**24 Sep 2026 · Crain’s Cleveland / WKYC / DroneXL:** Local and trade press report Amazon Prime Air began drone deliveries from the North Randall (CLE2) fulfillment center — first Ohio site — on a ~7.5-mile daylight radius for items under ~5 lb that fit a large shoebox. [DroneXL](https://dronexl.co/2026/09/25/amazon-prime-air-cleveland-north-randall-ohio-launch/) · [WKYC](https://www.wkyc.com/article/life/shopping/amazon-prime-air-drone-delivery-cleveland-north-randall-fulfillment-center-shipping-service/95-30036b2c-e18d-488a-aadf-ae4cc71259d7) · [Prior plan 19 Aug](https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion)
+  - Tag: Independently reported
+  - What's new: Metro go-live on the existing Part 135 base, aligning with Amazon’s **19 Aug 2026** expansion announce that named Cleveland among next metros (already on August Business news). Fleet size, fee schedule and “first package” anecdotes remain press / company-via-press. **OPEN:** no About Amazon newsroom post dated ~24 Sep retrieved in the Sep backfill — keep Independently reported until a company primary is found.
+  - Status: Operating metro go-live as independently reported; AboutAmazon primary for 24 Sep still OPEN.
+  - Read instead: [19 Aug 2026 Amazon expansion plan](#industry-item-2026-08-19-amazon)
+
 - []{#industry-item-2026-09-21-keeta .industry-item}**21 Sep 2026 · HK01; TastyMoney:** Cross-reference: Keeta Drone flies from HKSTP to a smart locker at Chung On Estate, Ma On Shan — covered on Government news. [Link](https://www.tastymoney.hk/%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E/111630)
   - Tag: Independently reported
   - What's new: TastyMoney reports it is the first drone delivery into a Hong Kong public housing estate.
@@ -553,15 +588,34 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   English (LAE-Intel translation): This is the first time a drone delivery service has entered a Hong Kong public housing estate
   :::
 
-- **10 Sep 2026 · AutoFlight newsroom:** AutoFlight says 零界航空 will buy 30 V2000CG through a 皖江金租 finance lease. [Link](https://www.autoflight.com/zh/news/30evtol/)
+- []{#industry-item-2026-09-17-skydrive-verty .industry-item}**17 Sep 2026 · SkyDrive Inc.:** SkyDrive signs an MoU with Korea’s Verty to prepare SD-05 commercial deployment in South Korea by **2028**, including a joint feasibility study on flight safety, infrastructure, scenic routes (incl. Jeju) and Seoul-metro inter-city paths. [EN](https://skydrive.co.jp/en/news/72971/) · [JP](https://skydrive.co.jp/news/72092/)
   - Tag: Company-announced
-  - What's new: AutoFlight says 5 aircraft are due this year, 2 of them delivered in September; its “first finance-lease eVTOL deal” framing is a company claim.
-  - Status: Purchase agreement as announced by the company; counts not independently confirmed.
+  - What's new: **MoU**, not an aircraft order, type certificate, AOC, or 2026 service. Verty’s aim to be Korea’s first eVTOL AOC holder is a company/Verty claim. 2028 is a target, not a certified service date; SD-05 remains in type certification.
+  - Status: MoU as announced; MoU ≠ order / TC / AOC / EIS; target commercial deployment 2028.
+  - Read instead: None.
+
+- []{#industry-item-2026-09-16-keeta-dubai .industry-item}**16 Sep 2026 · Keeta Drone newsroom:** Keeta says Silicon Central Mall partners as a Dubai drone food-delivery hub, with service commenced for eligible Dubai Silicon Oasis areas; orders via the Keeta app to lockers at RIT / Emirates Building; selected DSO areas use drone + rider last mile. [Link](https://www.keetadrone.com/blogs/news/keeta-drone-resumes-drone-delivery-operations-in-dubai)
+  - Tag: Company-announced
+  - What's new: Company-framed resume/launch of Dubai F&B aerial delivery. DCAA approval is a **company claim** — DCAA instrument text not opened (**OPEN**). Merchant roster and coverage radii remain company framing. Useful global benchmark beside Hong Kong Regulatory Sandbox ops — not a Hong Kong route.
+  - Status: Commercial ops as company-announced; DCAA primary OPEN.
+  - Read instead: None.
+
+- []{#industry-item-2026-09-11-zipline-texas-ea .industry-item}**11 Sep 2026 · U.S. FAA (NEPA Draft Environmental Assessment):** FAA posts a Draft EA for a Zipline OpSpecs amendment to begin commercial drone package delivery in multiple Texas metros. [Draft EA PDF](https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20260911_Zipline_Texas_Metros_Draft_EA_CLEAN_ADA_Signed.pdf) · [FAA NEPA index](https://www.faa.gov/uas/advanced_operations/nepa_and_drones)
+  - Tag: Officially confirmed
+  - What's new: Regulatory-pathway document for expanding Zipline Part 135 package delivery into additional Texas metros (secondary press summaries name Houston, San Antonio, Austin, Amarillo, El Paso and large daily-volume ceilings). **Draft EA ≠ approval ≠ go-live.** Comment window reported ~30 days (to ~11 Oct 2026 in secondary round-ups). Daily delivery / charger / dropbox maxima in secondary press are **proposal figures inside the EA**, not achieved ops. Final EA / FONSI / OpSpecs decision date still **OPEN**.
+  - Status: Draft environmental review for commercial expansion — not operating evidence in those metros from this instrument alone.
+  - Read instead: [8–9 Oct Zipline Round Rock / Austin go-live](#industry-item-2026-10-09-zipline)
+
+- []{#industry-item-2026-09-10-autoflight .industry-item}**10 Sep 2026 · AutoFlight newsroom; CAAC News (11 Sep):** AutoFlight says 零界航空 will buy 30 V2000CG through a 皖江金租 finance lease; 《中国民航报》/中国民航网 independently reports the same transaction as the first tonne-class eVTOL deal in China completed via finance lease. [AutoFlight](https://www.autoflight.com/zh/news/30evtol/) · [中国民航网](http://www.caacnews.com.cn/1/10/202609/t20260911_1397215.html) · [中证网](https://www.cs.com.cn/ssgs/01/2026/09/11/detail_2026091110038606.html)
+  - Tag: Company-announced (+ Independently reported corroboration)
+  - What's new: AutoFlight says 5 aircraft are due in 2026, 2 of them in September — **company schedule language**. CAAC News repeats the 30-aircraft finance-lease framing and “全国首例” label — outlet framing, not an audited delivery receipt. Actual September delivery/handover with a separate acceptance primary remains **OPEN**.
+  - Status: Purchase / finance-lease agreement as announced; delivery counts not independently audited; Sept delivery receipts OPEN.
+  - Read instead: None.
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
-  [「9月10日，峰飞航空与安徽天泽零界航空有限公司（简称“零界航空”）、皖江金融租赁股份有限公司（简称“皖江金租”）正式落实三方深度战略合作协议，其中包括零界航空与峰飞航空达成30架V2000CG凯瑞鸥的采购协议」]{lang="zh-Hans"} ([source](https://www.autoflight.com/zh/news/30evtol/))
+  [「9月10日，峰飞航空与安徽天泽零界航空科技有限公司（简称“零界航空”）、皖江金融租赁股份有限公司（简称“皖江金租”）正式落实三方深度战略合作协议，其中包括30架V2000CG凯瑞鸥eVTOL…的采购协议。本次采购订单采用了融资租赁交易模式…是全国首例通过融资租赁方式完成的吨级eVTOL交易。」]{lang="zh-Hans"} ([source](http://www.caacnews.com.cn/1/10/202609/t20260911_1397215.html))
 
-  English (LAE-Intel translation): On 10 September, AutoFlight, Anhui Tianze Lingjie Aviation Co. ("Lingjie Aviation") and Wanjiang Financial Leasing Co. ("Wanjiang Leasing") formally implemented a three-party in-depth strategic co-operation agreement, including a purchase agreement between Lingjie Aviation and AutoFlight for 30 V2000CG CarryAll aircraft
+  English (LAE-Intel translation): On 10 September, AutoFlight, Anhui Tianze Lingjie Aviation Technology Co. (“Lingjie Aviation”) and Wanjiang Financial Leasing Co. (“Wanjiang Leasing”) formally implemented a three-party in-depth strategic co-operation agreement, including a purchase agreement for 30 V2000CG CarryAll eVTOLs. The purchase uses a finance-lease structure… and is the first tonne-class eVTOL transaction in China completed via finance lease (CAAC News framing).
   :::
 
 - []{#industry-item-2026-09-10-mous .industry-item}**10 Sep 2026 · SCMP; GIA (9 Sep):** Cross-reference: LAE MoUs exchanged at the Belt and Road Summit — covered on Government news. [Link](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367033/hong-kong-signs-2-mous-greater-bay-area-partners-commercialise-aerial-technology)
@@ -570,10 +624,10 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
   - Status: MoUs, not binding agreements.
   - Read instead: [Government news, Sep 2026](news.qmd); [GIA](https://www.info.gov.hk/gia/general/202609/09/P2026090900707.htm)
 
-- []{#industry-item-2026-09-10-meituan-shanghai .industry-item}**10 Sep 2026 · Meituan newsroom; NBD; SCMP:** Meituan says its Shanghai West Bund low-altitude air network began commercial operations, with a McDonald’s brand-dedicated drone meal route. [Link](https://www.meituan.com/news/NN260911177010407) · [SCMP](https://www.scmp.com/tech/big-tech/article/3367482/cloudy-chance-big-macs-mcdonalds-and-meituan-launch-drone-route-shanghai)
-  - Tag: Company-announced
-  - What's new: Company says coverage includes Dream Center, Xuhui Riverside, Model Space and McDonald’s Longteng Avenue plaza; framed as Meituan’s second systematic city air network after Shenzhen. Brand counts and ~10-minute end-to-end timing are company figures. Municipal industry-scale targets on the same page are not carried.
-  - Status: Shanghai commercial operations as announced by Meituan; not a new Hong Kong route.
+- []{#industry-item-2026-09-10-meituan-shanghai .industry-item}**10 Sep 2026 · Meituan newsroom; NBD; SCMP; shanghai.gov.cn reprint (22 Sep):** Meituan says its Shanghai West Bund low-altitude air network began commercial operations, with a McDonald’s brand-dedicated drone meal route; a 上海市政府门户 reprint of 《解放日报》 later describes the network as fully commercial after nearly half a month. [Meituan](https://www.meituan.com/news/NN260911177010407) · [SCMP](https://www.scmp.com/tech/big-tech/article/3367482/cloudy-chance-big-macs-mcdonalds-and-meituan-launch-drone-route-shanghai) · [shanghai.gov.cn](https://www.shanghai.gov.cn/nw4411/20260922/352b7cf263b4445da4e003986c8b1b69.html)
+  - Tag: Company-announced (+ Independently reported / municipal portal reprint)
+  - What's new: Company says coverage includes Dream Center, Xuhui Riverside, Model Space and McDonald’s Longteng Avenue plaza; framed as Meituan’s second systematic city air network after Shenzhen. Municipal reprint adds ~20 chain F&B brands, weekend single-day orders over 100, and “全国首条滨水低空配送航网” framing — press/company figures. Do **not** auto-upgrade to Officially confirmed solely because shanghai.gov.cn hosted a Liberated Daily story (news reprint, not a regulatory approval). Municipal industry-scale targets (e.g. 500亿元 class) are not carried. Not a Hong Kong route.
+  - Status: Shanghai commercial operations as announced by Meituan, with municipal-portal reprint corroboration; not a new Hong Kong route.
   - Read instead: [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone); [19 Dec 2025 低空航网 unveil](#industry-item-2025-12-19-meituan)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
@@ -581,13 +635,42 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 
   [「当天，美团无人机与麦当劳合作的国内首条餐饮品牌专属无人机配送航线也同步上线。」]{lang="zh-Hans"} ([source](https://www.meituan.com/news/NN260911177010407))
 
-  English (LAE-Intel translation): On 10 September, Meituan Drone’s Shanghai West Bund low-altitude air network formally entered operation, with delivery coverage of West Bund Dream Center, Model Space, McDonald’s Longteng Avenue restaurant, Xuhui Riverside public open space and other core areas. This is Meituan Drone’s second systematic city air network after Shenzhen. / The same day, Meituan Drone and McDonald’s also launched China’s first restaurant-brand-dedicated drone delivery route.
+  [「昨天，运营近半个月后，美团无人机位于上海的首张低空航网——上海西岸低空航网全面进入商用阶段。目前，该航网内已有近20家连锁餐饮品牌接入…成为全国首条滨水低空配送航网。」]{lang="zh-Hans"}
+
+  [「周末单日订单超过100单，最快约10分钟送达。」]{lang="zh-Hans"} ([source](https://www.shanghai.gov.cn/nw4411/20260922/352b7cf263b4445da4e003986c8b1b69.html))
+
+  English (LAE-Intel translation): On 10 September, Meituan Drone’s Shanghai West Bund low-altitude air network formally entered operation… / Yesterday, after nearly half a month of operations, Meituan Drone’s first Shanghai low-altitude air network — the Shanghai West Bund low-altitude air network — fully entered the commercial stage. Nearly 20 chain F&B brands are now connected… framed as the nation’s first waterfront low-altitude delivery air network. Weekend single-day orders exceed 100, with fastest delivery about 10 minutes.
   :::
 
-- **4 Sep 2026 · 电商派:** Cross-reference: Meituan densifies its Shenzhen Longhua air network to 15 points — covered on Government news and Companies & sectors. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
-  - Tag: Independently reported
-  - Status: Point counts are company figures via press.
-  - Read instead: [Government news, 4 Sep 2026](news.qmd); [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone)
+- []{#industry-item-2026-09-04-meituan-longhua .industry-item}**4–10 Sep 2026 · 深圳政府在线 / 龙华区; 电商派:** Meituan’s Shenzhen Longhua air network densifies to **15** points (mesh upgrade from hub-and-spoke), with merchant reach framed as ~3 km → ~5 km; Nanshan mesh expansion also noted on municipal pages. [sz.gov.cn](https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976422.html) · [龙华区](https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_12973728.html) · [电商派](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt)
+  - Tag: Officially confirmed (municipal portal feature of an operating commercial densification; point counts remain operator figures)
+  - What's new: Municipal/district pages describe upgrading single-thread hub-and-spoke points into air-network nodes and merging them into the Longhua network that had operated for about half a year, densifying to 15 points; merchant count 48 → 95 and M-Port 3 / Nanshan mesh colour appear in the same programme narrative — **operator figures via municipal reprint**. Do **not** back-date the later 29 Oct Longhua 26-point / ~280k Jan–Sep sortie update into this September card.
+  - Status: Densification as described by municipal portal; point counts operator-origin; not a new Hong Kong route.
+  - Read instead: [Government news, 4 Sep 2026](news.qmd); [Companies & sectors: Meituan Drone](landscape.qmd#firm-meituan-drone); [Use cases](usecases.qmd)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，美团无人机首次将单线程配送的轴辐式航线点位升级为航网节点，并入已运营半年的龙华区航网，将龙华区航网快速加密至15个点位。多数商家通过无人机送外卖的距离，已从原来的3公里延伸至5公里，无人机服务半径扩大约67%。」]{lang="zh-Hans"} ([source](https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976422.html))
+
+  English (LAE-Intel translation): Recently, Meituan Drone for the first time upgraded single-thread hub-and-spoke route points into air-network nodes, merged them into the Longhua District air network that had operated for half a year, and quickly densified the Longhua air network to 15 points. For most merchants, drone takeaway reach extended from about 3 km to 5 km, expanding the drone service radius by about 67%.
+  :::
+
+- []{#industry-item-2026-09-02-hatcher-pengcheng .industry-item}**2 Sep 2026 · Hatcher Group Limited (HKEX GEM 8365) voluntary announcement:** Hong Kong Cross-Border Aviation Technology enters a non-binding strategic investment **letter of intent** with 深圳市鹏城领航低空产业有限公司 (Pengcheng Linghang) on a GBA cross-border drone logistics framework. [EN PDF](https://www1.hkexnews.hk/listedco/listconews/gem/2026/0902/2026090202379.pdf) · [中文 PDF](https://www1.hkexnews.hk/listedco/listconews/gem/2026/0902/2026090202380_c.pdf)
+  - Tag: Company-announced
+  - What's new: HKEX discloses LOI framework language: after product finalisation and airworthiness, Pengcheng Linghang **purchase commitment of 2,000 units**; Pengcheng to lead **≥ RMB 2 billion** financing; 8-year leasing/ops entrustment language; formal investment agreement intended within 3 months of the LOI. Board emphasises the LOI is **not legally binding** and transactions may not materialise. 2,000 units and RMB 2bn remain contingent LOI commitments — **not** booked backlog. Not evidenced SZ–HK corridor ops; not a Cap.448G change. LOI → definitive agreement still **OPEN** (watch subsequent HKEX).
+  - Status: **LOI / non-binding** — never upgraded to firm order or operating corridor.
+  - Read instead: [Official status](tracker.qmd) (SZ–HK corridor still OPEN)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「香港跨境通與深圳市鵬城領航低空產業有限公司（「鵬城領航」）已簽訂戰略投資意向書（「意向書」）」]{lang="zh-Hant"}
+
+  [「待商用無人機產品完成定型並具備商業供貨條件（持有適航認證）後，鵬城領航承諾將…統一採購合計2,000台機型」]{lang="zh-Hant"}
+
+  [「引入不少於人民幣20億元的資金」]{lang="zh-Hant"}
+
+  [「董事會謹此強調，意向書並不具備法律效力，且其項下擬定的交易未必一定會進行。」]{lang="zh-Hant"} ([source](https://www1.hkexnews.hk/listedco/listconews/gem/2026/0902/2026090202380_c.pdf))
+
+  English (keyed from HKEX EN): Hong Kong Cross-Border and Shenzhen Pengcheng Linghang Low-Altitude Industry Co., Ltd. … have entered into a strategic investment letter of intent (the “Letter of Intent”) … Pengcheng Linghang undertakes to procure a total of 2,000 units … introducing no less than RMB2 billion in funds … The Board emphasises that the Letter of Intent is not legally binding and the transactions contemplated thereunder may not necessarily materialise.
+  :::
 
 ### August 2026 {#industry-2026-08}
 
