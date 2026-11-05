@@ -1,14 +1,14 @@
 ---
 title: "Companies & sectors"
 subtitle: "Who is in the market"
-as_of: "2026-11-03"
+as_of: "2026-11-05"
 page-layout: full
 toc: true
 toc-location: right
 toc-title: "Sections"
 ---
 
-Sources (board last checked 3 Nov 2026): 93 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
+Sources (board last checked 5 Nov 2026): 93 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 
 ## Companies & sectors at a glance
 
@@ -223,10 +223,10 @@ Sources (board last checked 3 Nov 2026): 93 entries across eleven sectors. Entri
   - Status: Trial / Regulatory Sandbox
   - Source: [TLB implemented list (end Mar 2026)](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf)
 
-- []{#firm-meituan-drone .landscape-entry}**Meituan Drone · Shenzhen (Longhua):** Company via trade press says it densified Shenzhen Longhua drone-delivery points into a mesh network (to 15 points) and is expanding in Nanshan — densification counts are company-via-press. **24 Oct 2026:** 人民网浙江 / 潮新闻 — Meituan drone takeaway first open Fenghua (Ningbo) Wuling Plaza → Dongshan Village (~5.3 km / ~10 min); **first-day mountain scenic route ≠ densified Longhua-style mesh**; time-saving figures press-stated. **2026-10-29 (龙华政府在线 district feature):** Meituan now has **26** air-network points in Longhua and flew about **280,000** sorties there in Jan–Sep 2026 (+40% year on year; volume already above full-year 2025) — **district press of operator figures; not audited**; cluster output-value figures in the same article excluded. [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt) · [Fenghua 2026-10-24](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-meituan-drone"}
+- []{#firm-meituan-drone .landscape-entry}**Meituan Drone · Shenzhen (Longhua):** Company via trade press says it densified Shenzhen Longhua drone-delivery points into a mesh network (to 15 points) and is expanding in Nanshan — densification counts are company-via-press. **24 Oct 2026:** 人民网浙江 / 潮新闻 — Meituan drone takeaway first open Fenghua (Ningbo) Wuling Plaza → Dongshan Village (~5.3 km / ~10 min); **first-day mountain scenic route ≠ densified Longhua-style mesh**; time-saving figures press-stated. **2026-10-29 (龙华政府在线 district feature):** Meituan now has **26** air-network points in Longhua and flew about **280,000** sorties there in Jan–Sep 2026 (+40% year on year; volume already above full-year 2025) — **district press of operator figures; not audited**; cluster output-value figures in the same article excluded. **Annotate (5 Nov 2026):** Shenzhen APEC temporary low-altitude control (市政府 通告 **3 Nov 2026**): Futian + Nanshan **7 Nov 00:00–10 Nov 24:00**; city-wide excl. 深汕 **11 Nov 00:00–21 Nov 24:00**; logistics only with prior departmental approval — **do not invent** ops halt. See [Official status](tracker.qmd) · [Government news](news.qmd#press-item-2026-11-03-sz-apec-control). [Link](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt) · [Fenghua 2026-10-24](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html) · [南方网 APEC 通告](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-meituan-drone"}
   - Tag: Independently reported
-  - Status: Operating (Longhua company/press claim); Fenghua = trial / first open (independently reported)
-  - Source: [电商派 trade press, 2026-09-04](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt) · [人民网浙江 2026-10-24 (Fenghua)](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html) · [龙华政府在线 2026-10-29](https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_13045514.html)
+  - Status: Operating (Longhua company/press claim); Fenghua = trial / first open (independently reported); APEC temporary control environment — annotate only; do not invent ops halt
+  - Source: [电商派 trade press, 2026-09-04](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt) · [人民网浙江 2026-10-24 (Fenghua)](http://zj.people.com.cn/n2/2026/1024/c186327-41731569.html) · [龙华政府在线 2026-10-29](https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_13045514.html) · [南方网 (APEC 通告 reprint)](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
   [「9月4日消息，美团无人机在深圳首次将单线程配送的轴辐式航线点位升级为航网节点，并入已运营半年的龙华区航网，将龙华区航网快速加密至15个点位，多数商家通过无人机能配送外卖的距离，已从原来的3公里延伸至5公里，无人机服务半径扩大约67%。」]{lang="zh-Hans"} ([source](https://pai-nextjs.s5.pai.com.cn/news/01m1nj0dkp2z3bn29c14skp0xt))\

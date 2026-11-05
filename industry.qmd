@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-11-04"
+as_of: "2026-11-05"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,7 +50,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 4 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 5 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>October 2026<span class="n">46 items</span></summary><ol>
 <li id="tl-ind-2026-10-31-amazon-westborough-withdrawn"><a href="#industry-item-2026-10-31-amazon-westborough-withdrawn"><span class="chip">31 Oct</span> · Amazon Prime Air — Westborough MA launch-site application withdrawn (never live)<span class="badge b-ind">Indep.</span></a></li>
