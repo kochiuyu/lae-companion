@@ -1474,3 +1474,16 @@ body.page-prose p.fig-title {
     margin-right: 0 !important;
   }
 }
+
+/* Orient decorative illustrations (assets/orient-illustrations) */
+.orient-illust {
+  display: block;
+  width: min(100%, 15rem);
+  height: auto;
+  margin: .35rem 0 .85rem;
+  border-radius: 12px;
+}
+.hub-card .orient-illust {
+  width: min(100%, 12.5rem);
+  margin: .15rem 0 .55rem;
+}

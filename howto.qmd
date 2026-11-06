@@ -11,6 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
+![How to use this site](assets/orient-illustrations/howto-short-path.svg){.orient-illust}
+
+
 A few steps only.
 
 - Full definitions: [Glossary](glossary.qmd)

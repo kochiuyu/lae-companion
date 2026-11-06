@@ -15,6 +15,7 @@ Optional: [LAE 101 videos](videos.qmd) — ten ~2-minute YouTube intros.
 ::: {.hub-card}
 <p class="hub-card-title">Orient</p>
 
+![Orient](assets/orient-illustrations/home-orient.svg){.orient-illust}
 Week map, primers, how the business works, FAQ, key numbers, short videos, and how to use this site.
 
 - [What is LAE?](primer.qmd)
@@ -30,6 +31,7 @@ Week map, primers, how the business works, FAQ, key numbers, short videos, and h
 ::: {.hub-card}
 <p class="hub-card-title">Teach</p>
 
+![Teach](assets/orient-illustrations/home-teach.svg){.orient-illust}
 Weekly lecture material — notes, readings, and a class-outline PDF. Each week ends with a short Self-check.
 
 - [Week 1: Intro](week-01.qmd)
@@ -49,6 +51,7 @@ Weekly lecture material — notes, readings, and a class-outline PDF. Each week 
 ::: {.hub-card}
 <p class="hub-card-title">Review</p>
 
+![Review](assets/orient-illustrations/home-review.svg){.orient-illust}
 Formulas, tables, figures, readings, and Self-check quizzes collected from the week notes.
 
 - [Formulas](formulas.qmd)
@@ -61,6 +64,7 @@ Formulas, tables, figures, readings, and Self-check quizzes collected from the w
 ::: {.hub-card}
 <p class="hub-card-title">Official facts</p>
 
+![Official facts](assets/orient-illustrations/home-official.svg){.orient-illust}
 Terms, checked status, and who is in the market (firms and sectors).
 
 - [Glossary](glossary.qmd)
@@ -71,6 +75,7 @@ Terms, checked status, and who is in the market (firms and sectors).
 ::: {.hub-card}
 <p class="hub-card-title">Updates</p>
 
+![Updates](assets/orient-illustrations/home-updates.svg){.orient-illust}
 Dated government and business news, trial and operating use cases, and the timeline.
 
 - [Government news](news.qmd)

@@ -11,6 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
+![What is LAE?](assets/orient-illustrations/primer-what-is-lae.svg){.orient-illust}
+
+
 This page explains the **low-altitude economy** in simple English. Use it before the week pages under **Teach**.
 
 Optional short videos: [LAE 101](videos.qmd) (playlist on YouTube), starting with [Lesson 1 · The Sky Economy](https://www.youtube.com/watch?v=1RBcnocVRxs).

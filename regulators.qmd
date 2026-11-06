@@ -11,6 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
+![Who decides what?](assets/orient-illustrations/regulators-who-decides.svg){.orient-illust}
+
+
 This page gives **one-line roles** only.
 
 - Instruments and status: [Official status](tracker.qmd) and [Timeline](dates.qmd)

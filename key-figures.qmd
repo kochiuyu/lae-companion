@@ -11,6 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
+![Key numbers](assets/orient-illustrations/key-numbers.svg){.orient-illust}
+
+
 This page shows striking numbers only. Every figure links to its issuer.
 
 - Full status and wording: [Official status](tracker.qmd)

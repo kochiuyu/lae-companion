@@ -11,6 +11,9 @@ toc-location: right
 toc-title: "Questions"
 ---
 
+![Common questions](assets/orient-illustrations/faq-common-questions.svg){.orient-illust}
+
+
 Quick answers. Longer explanations sit on the linked Orient and Official facts pages.
 
 ## 1. What does “LAE” mean in Hong Kong?

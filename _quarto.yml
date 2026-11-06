@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - slides/
+    - assets/
   render:
     - index.qmd
     - overview.qmd

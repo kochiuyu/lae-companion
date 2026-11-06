@@ -11,6 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
+![Course overview](assets/orient-illustrations/overview-week-map.svg){.orient-illust}
+
+
 **Course:** 12-week Low Altitude Economics · 2026–27  
 **Instructor:** Chiu Yu Ko
 

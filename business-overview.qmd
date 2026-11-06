@@ -11,6 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
+![How does LAE work?](assets/orient-illustrations/business-value-chain.svg){.orient-illust}
+
+
 This page is a short map of the **business** side of the low-altitude economy (LAE).
 
 - Firm lists stay on [Companies & sectors](landscape.qmd).
