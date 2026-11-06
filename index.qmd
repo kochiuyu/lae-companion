@@ -9,11 +9,13 @@ Site for a 12-week low-altitude economy course — one page per week with notes,
 
 **Start here (short path):** [What is LAE?](primer.qmd) · [Course overview](overview.qmd) · then [Week 1](week-01.qmd) · ([full Orient](howto.qmd))
 
+Optional: [LAE 101 videos](videos.qmd) — ten ~2-minute YouTube intros.
+
 ::: {.hub-grid}
 ::: {.hub-card}
 <p class="hub-card-title">Orient</p>
 
-Week map, primers, how the business works, FAQ, key numbers, and how to use this site.
+Week map, primers, how the business works, FAQ, key numbers, short videos, and how to use this site.
 
 - [What is LAE?](primer.qmd)
 - [Course overview](overview.qmd)
@@ -22,6 +24,7 @@ Week map, primers, how the business works, FAQ, key numbers, and how to use this
 - [How to use this site](howto.qmd)
 - [Common questions](faq.qmd)
 - [Key numbers](key-figures.qmd)
+- [LAE 101 videos](videos.qmd)
 :::
 
 ::: {.hub-card}

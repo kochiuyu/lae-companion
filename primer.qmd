@@ -13,6 +13,8 @@ format:
 
 This page explains the **low-altitude economy** in simple English. Use it before the week pages under **Teach**.
 
+Optional short videos: [LAE 101](videos.qmd) (playlist on YouTube), starting with [Lesson 1 · The Sky Economy](https://www.youtube.com/watch?v=1RBcnocVRxs).
+
 Harder words and legal names appear here too. When you see a new term, this page says what it means the first time. Longer definitions sit in the [Glossary](glossary.qmd). Checked programme facts sit on [Official status](tracker.qmd).
 
 ## A whole service, not only a vehicle

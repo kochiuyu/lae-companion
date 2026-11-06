@@ -1,0 +1,49 @@
+---
+title: "LAE 101 videos"
+subtitle: "Ten short YouTube intros to the low-altitude economy"
+as_of: "2026-11-06"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "Sections"
+format:
+  html:
+    body-classes: "page-prose"
+---
+
+Ten short videos (~2 minutes each) that introduce the low-altitude economy before the week notes under **Teach**. They are companions to [What is LAE?](primer.qmd), not a substitute for Official status or the dated Updates pages.
+
+**Playlist:** [LAE 101 on YouTube](https://www.youtube.com/playlist?list=PLAKvksGy83tk)
+
+```{=html}
+<div class="ratio ratio-16x9" style="max-width:40rem;margin:.75rem 0 1rem">
+<iframe
+  src="https://www.youtube.com/embed/videoseries?list=PLAKvksGy83tk"
+  title="LAE 101 video playlist"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  loading="lazy"
+  style="width:100%;aspect-ratio:16/9;border:0;border-radius:8px"></iframe>
+</div>
+```
+
+## Lessons
+
+| # | Topic | Length | Watch |
+|---:|:---|---:|:---|
+| 01 | The Sky Economy | 2:14 | [Lesson 1](https://www.youtube.com/watch?v=1RBcnocVRxs) |
+| 02 | Drone Tech | 2:26 | [Lesson 2](https://www.youtube.com/watch?v=Wma4RnkCGU4) |
+| 03 | Flying Taxi | 2:06 | [Lesson 3](https://www.youtube.com/watch?v=S1cFRO2l8PY) |
+| 04 | Smart Skyports | 2:02 | [Lesson 4](https://www.youtube.com/watch?v=X4J0E0pIDIo) |
+| 05 | Air Traffic AI | 2:07 | [Lesson 5](https://www.youtube.com/watch?v=gxgC5Qk9u_A) |
+| 06 | Safe Skies | 2:23 | [Lesson 6](https://www.youtube.com/watch?v=1ZudeJtICh4) |
+| 07 | Delivery | 2:05 | [Lesson 7](https://www.youtube.com/watch?v=gO81rYGc3Zo) |
+| 08 | Rescue | 2:06 | [Lesson 8](https://www.youtube.com/watch?v=cqihjaEHSWY) |
+| 09 | New Horizon | 2:17 | [Lesson 9](https://www.youtube.com/watch?v=9UXioQYRTb0) |
+| 10 | Sky Revolution | 2:20 | [Lesson 10](https://www.youtube.com/watch?v=1hKZKD4pgEg) |
+
+## How to use these
+
+- New to the course? Watch **Lesson 1**, then read [What is LAE?](primer.qmd) and the [Course overview](overview.qmd).
+- Prefer reading first? Use the short path on Home, then come back here for a quick visual pass.
+- Programme facts and dated evidence stay on [Official status](tracker.qmd) and the Updates pages — not in these videos.
