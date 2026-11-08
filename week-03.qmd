@@ -1,7 +1,7 @@
 ---
 title: "Week 3: Cost Structures and Revenue Management"
 subtitle: "Unit economics, breakeven, and how revenue models reshape risk"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,38 +17,7 @@ format:
 
 **Class outline (PDF):** [week03-cost-revenue.pdf](slides/week03-cost-revenue.pdf)
 
-Week 2 asked **who competes** and why scarce pads and density matter for average cost. This week asks whether the **numbers** work: investment vs operating cost, the right unit, breakeven volume, how revenue models reshape who bears usage risk, and how weather downtime hits cash flow.
-
-**Orient refreshers:**
-
-- [Glossary · CASK / CAPEX / OPEX](glossary.qmd#business-and-economics) — definitions used below  
-- [How does LAE work?](business-overview.qmd) — roles that own different cost lines  
-- [Week 2](week-02.qmd) — density, ATC, and scarce sites that feed this week's unit costs  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- How to separate CAPEX, fixed OPEX, and activity-related variable cost.
-- Unit-cost measures you will use: [CASK](glossary.qmd#business-and-economics) and cost per mission-kilometre.
-- Breakeven volume and how price, load factor, and utilization move the numbers.
-- Revenue-model choices (pay-per-use, subscription, availability, complementary) and weather as a planning risk.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Always separate CAPEX, recurring fixed OPEX, and variable cost before talking about unit economics.
-- CASK is about passenger capacity offered; cargo and public-service work often need mission-based measures.
-- Breakeven needs a consistent unit, contribution margin, realistic capacity, and realistic demand.
-- Revenue management aims to improve total contribution—not just fill every seat.
-- Subscriptions and similar contracts can reshape risk; none is a free or guaranteed hedge.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** turn Week 2's density and scarce-site questions into a cost and revenue model. Start with [§1](#why-cost-and-revenue-structure-come-next); use the [summary](#summary) and [self-check](#self-check) after reading.
 
 ## Learning objectives
 
@@ -60,21 +29,27 @@ By the end of Week 3 you should be able to:
 4. **Compare** pay-per-use, subscription, availability-based, and complementary revenue models.  
 5. **Evaluate** how weather downtime and cost differences across Hong Kong and the GBA affect strategy — without treating any hedge as free or guaranteed.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
-| Cost stack | §§1–3 | Why cost/revenue next; CAPEX / OPEX / daily economic cost; HK premium as hypothesis |
-| Unit measures | §§4–5 | CASK; mission-km; link back to Week 2 density |
-| Revenue & breakeven | §§6–8 | Revenue models; revenue management; breakeven and required activity |
-| Risk & place | §§9–11 | Weather channels; mixed-revenue profit; HK–GBA hypotheses |
-| Closing | §11 | Synthesis; study checklist |
+| Cost stack | §§1–3 | Why cost and revenue follow Week 2; CAPEX / OPEX; daily cost and tool chain |
+| Unit measures | §4 | CASK and mission-kilometres |
+| Revenue & breakeven | §§5–7 | Revenue models, revenue management, breakeven and required activity |
+| Risk & place | §§8–9 | Weather, mixed-revenue profit, and HK–GBA hypotheses |
+| Closing | §§10–11 | Tool map, synthesis, and study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
-- **Core:** [Cost stack (§1)](#1-why-cost-and-revenue-structure-come-next) → [CASK / units (§4)](#4-unit-economics-cask-and-mission-kilometres) → [Putting together (§11)](#11-putting-week-3-together) → [Self-check](#self-check)
-- **Revenue & risk:** [Revenue management (§6)](#6-revenue-management-not-fill-every-seat) → [Breakeven (§7)](#7-breakeven-volume) → [Weather (§8)](#8-weather-downtime-and-risk-responses)
+- **Core:** [Cost stack (§1)](#why-cost-and-revenue-structure-come-next) → [CASK / units (§4)](#unit-economics-cask-and-mission-kilometres) → [Putting together (§11)](#putting-week-3-together) → [Self-check](#self-check)
+- **Revenue & risk:** [Revenue management (§6)](#revenue-management-not-fill-every-seat) → [Breakeven (§7)](#breakeven-volume) → [Weather (§8)](#weather-downtime-and-risk-responses)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Glossary · CASK / CAPEX / OPEX](glossary.qmd#business-and-economics) · [How does LAE work?](business-overview.qmd) · [Week 2](week-02.qmd).
+
+:::
 
 ---
 
@@ -83,6 +58,10 @@ By the end of Week 3 you should be able to:
 A technically feasible LAE service is not automatically commercially viable. You must connect **asset cost**, **daily operations**, **capacity**, **demand**, **pricing**, and **risk**.
 
 Imagine two reviews of the same business case. One review asks how charging time, maintenance, and turnaround cap daily missions. Another asks whether subscriptions or availability contracts could make revenue more predictable. Both questions sit inside this week's toolkit.
+
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples use round figures for learning, not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
+:::
 
 ### Link back to Week 2
 
@@ -666,6 +645,8 @@ Class exercises often shock one input at a time — for example higher site rent
 
 Do not treat an in-class “airport shuttle” spreadsheet as a real Hong Kong operator model; it is a teaching dashboard for shocks.
 
+**Slide exercise:** in groups, model a hypothetical airport shuttle, then raise vertiport rent by **20%** and test **three typhoon downtime days**. Recalculate daily profit, breakeven flights, and CASK; ask what ticket price would restore viability. The slides call for a spreadsheet template distributed in class; use the [class outline](slides/week03-cost-revenue.pdf) for the full exercise and assignment brief.
+
 ---
 
 Breakeven on a clear-weather day is incomplete. **Weather downtime** hits revenue, fixed OPEX, and sometimes contracts at once — so risk responses belong in the same workbook as CASK.
@@ -931,7 +912,15 @@ Pull the thread. Build the cost stack. Choose unit metrics. Design revenue. Appl
 - Breakeven needs a **consistent unit**, contribution margin, and a check against capacity and demand. Revenue management maximises **contribution**, not empty-seat guilt.
 - Subscriptions, availability contracts, insurance, and liquidity **reshape** risk — none is a free guarantee. Sandbox learning and compliance lines are real in cash, not substitutes for unit economics.
 
-Short checklist: [Summary](#summary).
+---
+
+## Summary {#summary}
+
+- Separate CAPEX, recurring fixed OPEX, and activity-related variable cost before calculating a unit measure.
+- CASK measures passenger capacity offered; mission-based measures suit cargo and public-service work.
+- Breakeven requires a consistent unit, contribution margin, feasible capacity, and credible demand.
+- Revenue management seeks total contribution, not simply a full vehicle.
+- Subscriptions, availability contracts, insurance, and liquidity can reshape risk; none is a free or guaranteed hedge.
 
 ---
 
@@ -949,8 +938,6 @@ Short checklist: [Summary](#summary).
 10. Run a one-shock **sensitivity** (rent, downtime, or fare) and restate required activity.  
 11. List weather loss channels and four response families; name at least one **limitation** of each hedge.  
 12. Keep **Sandbox ≠ Sandbox X**; treat NASA UAM framing and CAAC trial guidance as **comparators / readings**, not HK cost quotes.
-
----
 
 ---
 
