@@ -14,7 +14,7 @@ format:
 **Course:** 12-week Low Altitude Economics · 2026–27  
 **Instructor:** Chiu Yu Ko
 
-**New here?** Read [What is LAE?](primer.qmd), use this page to see the week map, then start [Week 1](week-01.qmd). That is enough to begin. The other [Orient topics](howto.qmd#look-up-more-when-needed) are there when you need them.
+This is page 3 of the [Orient route](howto.qmd#complete-orient-before-week-1). Read [What is LAE?](primer.qmd) first, use this page to see the week map, then continue to [How does LAE work?](business-overview.qmd). Complete all Orient pages before Week 1.
 
 Weekly lecture pages sit under **Teach** (for example [Week 1](week-01.qmd)).
 
@@ -168,3 +168,5 @@ Click a week to open its page (notes, readings, class-outline PDF). If the title
 
 - **Teach** menu — one article per week (notes, summary, readings, plus a class-outline PDF). Each week page ends with a short Self-check (also collected under Review).
 - **Review** menu — [Formulas](formulas.qmd), [Tables](tables.qmd), [Figures](figures.qmd), [Readings](readings.qmd), [Self-check](quizzes.qmd).
+
+**Next in Orient:** [How does LAE work?](business-overview.qmd).

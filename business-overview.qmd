@@ -11,7 +11,7 @@ format:
     body-classes: "page-prose"
 ---
 
-This page is a short map of the **business** side of the low-altitude economy (LAE).
+This is page 4 of the [Orient route](howto.qmd#complete-orient-before-week-1). It is a short map of the **business** side of the low-altitude economy (LAE).
 
 Take the hypothetical medical-sample delivery from [What is LAE?](primer.qmd). A hospital might pay an operator for a reliable delivery. The operator would need an aircraft, take-off and landing sites, coordination, and support services. The business question is whether the payment covers all those inputs and the risks. This is a classroom example, not an operating route or a price claim.
 
@@ -192,10 +192,10 @@ Use the map and sector lists on [Companies & sectors](landscape.qmd) for who app
 
 ## Where to go next
 
-**Ready for class?** Start [Week 1](week-01.qmd). If you want another Orient topic, [choose one here](howto.qmd#look-up-more-when-needed).
+**Next in Orient:** [Who decides what?](regulators.qmd). Complete the [full Orient route](howto.qmd#complete-orient-before-week-1) before Week 1.
 
 Also useful:
 
 - [Companies & sectors](landscape.qmd) — market map by sector  
-- **Teach** menu — especially [Week 1](week-01.qmd), [Week 2](week-02.qmd), [Week 3](week-03.qmd), [Week 6](week-06.qmd)  
-- [Week 1](week-01.qmd) · [What is LAE?](primer.qmd)
+- After Orient, the **Teach** menu — especially [Week 1](week-01.qmd), [Week 2](week-02.qmd), [Week 3](week-03.qmd), [Week 6](week-06.qmd)  
+- [What is LAE?](primer.qmd)

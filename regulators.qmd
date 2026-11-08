@@ -11,7 +11,7 @@ format:
     body-classes: "page-prose"
 ---
 
-This page gives **one-line roles** only.
+This is page 5 of the [Orient route](howto.qmd#complete-orient-before-week-1). It gives **one-line roles** only.
 
 - Instruments and status: [Official status](tracker.qmd) and [Timeline](dates.qmd)
 - Term definitions: [Glossary](glossary.qmd)
@@ -139,7 +139,7 @@ These are **not** Hong Kong regulators. Use them for frameworks and readings —
 
 ## Where to look next
 
-**Ready for class?** Start [Week 1](week-01.qmd). The other [Orient topics](howto.qmd#look-up-more-when-needed) are optional.
+**Next in Orient:** [Common questions](faq.qmd). Complete the [full Orient route](howto.qmd#complete-orient-before-week-1) before Week 1.
 
 Also useful:
 

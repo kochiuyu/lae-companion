@@ -1,6 +1,6 @@
 ---
 title: "How to use this site"
-subtitle: "A short path for first-time learners"
+subtitle: "The full Orient route for first-time learners"
 as_of: "2026-10-17"
 page-layout: article
 toc: true
@@ -11,23 +11,24 @@ format:
     body-classes: "page-prose"
 ---
 
-## Start with three pages
+## Complete Orient before Week 1
 
-1. [What is LAE?](primer.qmd) — understand one low-altitude service and the words used for it.
-2. [Course overview](overview.qmd) — see what the course covers and how the weeks connect.
-3. [Week 1](week-01.qmd) — begin the lecture notes.
+Read all eight Orient pages in this order. Watch the ten short lessons on the video page, then begin the weekly notes.
 
-**That is enough to begin.** You can open the other Orient pages whenever a question comes up.
+1. **How to use this site** — you are here; see how the sections fit together.
+2. [What is LAE?](primer.qmd) — understand one low-altitude service and the words used for it.
+3. [Course overview](overview.qmd) — see what the course covers and how the weeks connect.
+4. [How does LAE work?](business-overview.qmd) — see the business side of a service.
+5. [Who decides what?](regulators.qmd) — learn the regulator roles and key cautions.
+6. [Common questions](faq.qmd) — read the ten short answers.
+7. [Key numbers](key-figures.qmd) — distinguish sourced figures from classroom examples.
+8. [LAE 101 videos](videos.qmd) — watch all ten short lessons.
 
-## Look up more when needed
-
-- **Who creates value and who gets paid?** [How does LAE work?](business-overview.qmd)
-- **Who makes the rules in Hong Kong?** [Who decides what?](regulators.qmd)
-- **Need a quick answer?** [Common questions](faq.qmd)
-- **Need a sourced figure?** [Key numbers](key-figures.qmd)
-- **Prefer a brief introduction on video?** [LAE 101 videos](videos.qmd)
+**After page 8:** start [Week 1](week-01.qmd). From there, follow the weekly lecture notes under **Teach**.
 
 For a term or a dated programme claim, use the [Glossary](glossary.qmd) or [Official status](tracker.qmd).
+
+**Next in Orient:** [What is LAE?](primer.qmd).
 
 ## Then Teach
 

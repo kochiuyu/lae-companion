@@ -8,15 +8,11 @@ toc: false
 Explore how low-altitude services work, who pays for them, and what it takes to make them viable. This companion to a 12-week course has weekly notes, readings, practice questions, and a class-outline PDF for each week.
 
 ::: {.start-here}
-**New to the topic? Start here.**
+**New to the topic? Complete Orient before Week 1.**
 
-1. [What is LAE?](primer.qmd) — get the basic idea through one service example.
-2. [Course overview](overview.qmd) — see how the 12 weeks fit together.
-3. [Week 1](week-01.qmd) — begin the course notes.
+Start with [How to use this site](howto.qmd). It lists all eight Orient pages in order, including the ten short videos. After you finish them, begin [Week 1](week-01.qmd).
 
-[Start learning: What is LAE?](primer.qmd){.start-cta}
-
-Need more background? [Choose an Orient topic](howto.qmd#look-up-more-when-needed) when a question comes up. Prefer video? Try the ten [LAE 101 videos](videos.qmd), about two minutes each.
+[Start Orient: How to use this site](howto.qmd){.start-cta}
 :::
 
 ::: {.hub-grid}
@@ -26,11 +22,11 @@ Need more background? [Choose an Orient topic](howto.qmd#look-up-more-when-neede
 ![Orient](assets/orient-illustrations/home-orient.svg){.orient-illust}
 Week map, primers, how the business works, FAQ, key numbers, short videos, and how to use this site.
 
+- [How to use this site](howto.qmd)
 - [What is LAE?](primer.qmd)
 - [Course overview](overview.qmd)
 - [How does LAE work?](business-overview.qmd)
 - [Who decides what?](regulators.qmd)
-- [How to use this site](howto.qmd)
 - [Common questions](faq.qmd)
 - [Key numbers](key-figures.qmd)
 - [LAE 101 videos](videos.qmd)

@@ -11,7 +11,7 @@ toc-location: right
 toc-title: "Questions"
 ---
 
-Use this page when a question comes up. You do not need to read all ten answers before [Week 1](week-01.qmd). Longer explanations sit on the linked Orient and Official facts pages.
+This is page 6 of the [Orient route](howto.qmd#complete-orient-before-week-1). Read all ten short answers before Week 1. Longer explanations sit on the linked Orient and Official facts pages.
 
 ## 1. What does “LAE” mean in Hong Kong?
 
@@ -178,7 +178,7 @@ Firm lists: [Companies & sectors](landscape.qmd).
 
 ## 9. Where are lectures and readings?
 
-Use the **Teach** menu: one page per week (notes, summary, readings, plus a class-outline PDF). Start with [Week 1](week-01.qmd).
+After completing Orient, use the **Teach** menu: one page per week (notes, summary, readings, plus a class-outline PDF). Start with [Week 1](week-01.qmd).
 
 Week map: [Course overview](overview.qmd).  
 Path tip: [How to use this site](howto.qmd).
@@ -191,4 +191,4 @@ Definitions: [Glossary](glossary.qmd).
 
 ---
 
-Continue with [Week 1](week-01.qmd), or [choose another Orient topic](howto.qmd#look-up-more-when-needed). For sourced figures, use [Key numbers](key-figures.qmd).
+**Next in Orient:** [Key numbers](key-figures.qmd).

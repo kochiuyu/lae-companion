@@ -11,7 +11,7 @@ format:
     body-classes: "page-prose"
 ---
 
-Use this page when you need a sourced number. It is a reference page, not a prerequisite for [Week 1](week-01.qmd). Every figure links to its issuer.
+This is page 7 of the [Orient route](howto.qmd#complete-orient-before-week-1). Read the labels and sources so you can distinguish reported figures, projections, and classroom examples. Every figure links to its issuer.
 
 - Full status and wording: [Official status](tracker.qmd)
 - Diagrams: [Glossary](glossary.qmd)
@@ -80,4 +80,4 @@ Keep **Regulatory Sandbox** and **Sandbox X** separate. Do not add their counts 
 - [Glossary](glossary.qmd) — altitude and weight diagrams  
 - [Timeline](dates.qmd) — dated instruments  
 
-**Next:** [Week 1](week-01.qmd), [Home](index.qmd), or [another Orient topic](howto.qmd#look-up-more-when-needed).
+**Next in Orient:** [LAE 101 videos](videos.qmd). Watch the ten short lessons before Week 1.

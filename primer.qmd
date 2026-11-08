@@ -11,9 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
-This page explains the **low-altitude economy** in simple English. Read the service example first; the diagrams and legal labels give you more detail when you need it. Then see the [course overview](overview.qmd) and start [Week 1](week-01.qmd).
+This is page 2 of the [Orient route](howto.qmd#complete-orient-before-week-1). It explains the **low-altitude economy** in simple English. Read the service example first, then use the diagrams and legal labels for more detail. Continue to the [course overview](overview.qmd).
 
-Optional short videos: [LAE 101](videos.qmd) (playlist on YouTube), starting with [Lesson 1 · The Sky Economy](https://www.youtube.com/watch?v=1RBcnocVRxs).
+The [LAE 101 videos](videos.qmd) come at the end of Orient, after the reading pages.
 
 Harder words and legal names appear here too. When you see a new term, this page says what it means the first time. Longer definitions sit in the [Glossary](glossary.qmd). Checked programme facts sit on [Official status](tracker.qmd).
 
@@ -381,8 +381,6 @@ The boxes above are enough for a first pass. For regulator names, open [Who deci
 
 ## What to read next
 
-**Next:** [Course overview](overview.qmd) → [Week 1](week-01.qmd). Those are the only pages you need before starting the weekly notes.
-
-For a question along the way, choose an [optional Orient topic](howto.qmd#look-up-more-when-needed): business, regulators, common questions, key numbers, or short videos.
+**Next in Orient:** [Course overview](overview.qmd). Follow the [full eight-page route](howto.qmd#complete-orient-before-week-1) before Week 1.
 
 This site has no Blackboard or assessment admin. Course logistics stay on the teaching platform.

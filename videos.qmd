@@ -11,7 +11,7 @@ format:
     body-classes: "page-prose"
 ---
 
-These ten short videos (~2 minutes each) are optional introductions. Watch one when a visual explanation helps, then use [What is LAE?](primer.qmd) and the [course overview](overview.qmd) to start reading. Programme facts remain on Official status and the dated Updates pages.
+This is page 8, the last step of the [Orient route](howto.qmd#complete-orient-before-week-1). Watch all ten short videos (~2 minutes each), then start Week 1. Programme facts remain on Official status and the dated Updates pages.
 
 **Playlist:** [LAE 101 on YouTube](https://www.youtube.com/playlist?list=PLAKvksGy83tk)
 
@@ -44,6 +44,7 @@ These ten short videos (~2 minutes each) are optional introductions. Watch one w
 
 ## How to use these
 
-- New to the course? Watch **Lesson 1**, then read [What is LAE?](primer.qmd) and the [Course overview](overview.qmd).
-- Prefer reading first? Use the short path on Home, then come back here for a quick visual pass.
+- Watch Lessons 1–10 in order after the seven Orient reading pages.
 - Programme facts and dated evidence stay on [Official status](tracker.qmd) and the Updates pages — not in these videos.
+
+**Orient complete. Next:** [Week 1](week-01.qmd).
