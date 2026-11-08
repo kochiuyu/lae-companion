@@ -1,7 +1,7 @@
 ---
 title: "LAE 101 videos"
 subtitle: "Ten short YouTube intros to the low-altitude economy"
-as_of: "2026-11-06"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -12,6 +12,8 @@ format:
 ---
 
 This is page 8, the last step of the [Orient route](howto.qmd#complete-orient-before-week-1). Watch all ten short videos (~2 minutes each), then start Week 1. Programme facts remain on Official status and the dated Updates pages.
+
+The lessons are being released daily. If a link still says **Private video**, read its summary below and return when the video becomes available. Watch all ten before moving to Week 1.
 
 **Playlist:** [LAE 101 on YouTube](https://www.youtube.com/playlist?list=PLAKvksGy83tk)
 
@@ -29,18 +31,16 @@ This is page 8, the last step of the [Orient route](howto.qmd#complete-orient-be
 
 ## Lessons
 
-| # | Topic | Length | Watch |
-|---:|:---|---:|:---|
-| 01 | The Sky Economy | 2:14 | [Lesson 1](https://www.youtube.com/watch?v=1RBcnocVRxs) |
-| 02 | Drone Tech | 2:26 | [Lesson 2](https://www.youtube.com/watch?v=Wma4RnkCGU4) |
-| 03 | Flying Taxi | 2:06 | [Lesson 3](https://www.youtube.com/watch?v=S1cFRO2l8PY) |
-| 04 | Smart Skyports | 2:02 | [Lesson 4](https://www.youtube.com/watch?v=X4J0E0pIDIo) |
-| 05 | Air Traffic AI | 2:07 | [Lesson 5](https://www.youtube.com/watch?v=gxgC5Qk9u_A) |
-| 06 | Safe Skies | 2:23 | [Lesson 6](https://www.youtube.com/watch?v=1ZudeJtICh4) |
-| 07 | Delivery | 2:05 | [Lesson 7](https://www.youtube.com/watch?v=gO81rYGc3Zo) |
-| 08 | Rescue | 2:06 | [Lesson 8](https://www.youtube.com/watch?v=cqihjaEHSWY) |
-| 09 | New Horizon | 2:17 | [Lesson 9](https://www.youtube.com/watch?v=9UXioQYRTb0) |
-| 10 | Sky Revolution | 2:20 | [Lesson 10](https://www.youtube.com/watch?v=1hKZKD4pgEg) |
+1. **The Sky Economy** (2:14) — Defines LAE and introduces delivery drones, electric air taxis, and other low-altitude uses. [Watch Lesson 1](https://www.youtube.com/watch?v=1RBcnocVRxs).
+2. **Drone Tech** (2:26) — Compares drone designs and explains lift, sensors, professional uses, and current limits. [Watch Lesson 2](https://www.youtube.com/watch?v=Wma4RnkCGU4).
+3. **Flying Taxi** (2:06) — Explains electric vertical-take-off aircraft, possible services, and barriers such as batteries, landing sites, and regulation. [Watch Lesson 3](https://www.youtube.com/watch?v=S1cFRO2l8PY).
+4. **Smart Skyports** (2:02) — Shows the landing pads, terminals, charging, maintenance, and digital links a vertiport would need. [Watch Lesson 4](https://www.youtube.com/watch?v=X4J0E0pIDIo).
+5. **Air Traffic AI** (2:07) — Introduces unmanned traffic management: planning routes, detecting conflicts, responding to weather, and coordinating with conventional air traffic control. [Watch Lesson 5](https://www.youtube.com/watch?v=gxgC5Qk9u_A).
+6. **Safe Skies** (2:23) — Discusses the safety rules behind operations, including registration, approved flight areas, insurance, and flights beyond visual line of sight. [Watch Lesson 6](https://www.youtube.com/watch?v=1ZudeJtICh4).
+7. **Delivery** (2:05) — Follows a drone delivery from a hub to a landing point and considers payload, range, time, and regional trials. [Watch Lesson 7](https://www.youtube.com/watch?v=gO81rYGc3Zo).
+8. **Rescue** (2:06) — Explores emergency medical delivery and the use of thermal imaging for searches, fires, and floods. [Watch Lesson 8](https://www.youtube.com/watch?v=cqihjaEHSWY).
+9. **New Horizon** (2:17) — Surveys uses beyond delivery: precision agriculture, infrastructure inspection, and aerial tourism. [Watch Lesson 9](https://www.youtube.com/watch?v=9UXioQYRTb0).
+10. **Sky Revolution** (2:20) — Pulls together market projections, the Greater Bay Area ecosystem, and careers in engineering, operations, AI, and policy. [Watch Lesson 10](https://www.youtube.com/watch?v=1hKZKD4pgEg).
 
 ## How to use these
 
