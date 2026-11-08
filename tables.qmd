@@ -1,7 +1,7 @@
 ---
 title: "Tables"
 subtitle: "Teaching tables from the week notes"
-as_of: "2026-11-01"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -144,7 +144,7 @@ Teaching table from the week notes. [Operating restrictions raise unit cost](wee
 | Programme | How to treat it (issuer-backed counts) |
 |-----------|----------------------------------------|
 | Early **Regulatory Sandbox** | First-batch selection **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language may refer to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
-| Later **Sandbox X** | Distinct programme. Selected modules **38** so far (Updated PDFs): UTM **15** + unconventional aircraft **4** + shared platform **6** + others **13**. A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as the 38 module total ([Key numbers](key-figures.qmd) · [Official status](tracker.qmd)). |
+| Later **Sandbox X** | Distinct programme. **38 selected pilot projects** across the reported modules: UTM **15** + unconventional aircraft **4** + shared platform **6** + others **13** ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html), as at 8 Nov 2026). A Policy Address snapshot of “~10” projects that had begun testing is a different measure. |
 
 Teaching table from the week notes. [Keep two Hong Kong programmes separate](week-01.qmd#keep-two-hong-kong-programmes-separate)
 
@@ -192,7 +192,7 @@ Full notes: [Week 2](week-02.qmd) · 9 tables below.
 | **Oligopoly** | A small number of large players watch each other; one price cut can trigger responses. | A handful of mobile networks |
 | **Perfect competition** | Many small sellers of a homogeneous product; no one can raise price alone. | Many stalls selling the same simple item |
 
-Teaching table from the week notes. [What economists mean by “market structure”](week-02.qmd#2-what-economists-mean-by-market-structure)
+Teaching table from the week notes. [What economists mean by “market structure”](week-02.qmd#what-economists-mean-by-market-structure)
 
 ### Competitive logic by segment {#t02-competitive-logic-segment}
 
@@ -249,8 +249,8 @@ Teaching table from the week notes. [Worked illustration (limit price and shared
 | Fact | Issuer-backed reading on this site |
 |------|-------------------------------------|
 | First Regulatory Sandbox batch **38 of 72** | [Key numbers](key-figures.qmd) · GIA 20 Mar 2025 |
-| Sandbox X selected modules **38** so far (UTM 15 + unconventional 4 + shared platform 6 + others 13) | [Key numbers](key-figures.qmd) · [Official status](tracker.qmd) |
-| “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as 38 modules |
+| Sandbox X **38 selected pilot projects** across the reported modules (UTM 15 + unconventional 4 + shared platform 6 + others 13) | [TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) · as at 8 Nov 2026 |
+| “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as the 38 selected projects |
 | Trial ≠ dominance | [Who decides what? · standing caveats](regulators.qmd#standing-caveats) |
 
 Teaching table from the week notes. [Absolute programme facts (do not invent shares)](week-02.qmd#absolute-programme-facts-do-not-invent-shares)
