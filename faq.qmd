@@ -11,10 +11,7 @@ toc-location: right
 toc-title: "Questions"
 ---
 
-![Common questions](assets/orient-illustrations/faq-common-questions.svg){.orient-illust}
-
-
-Quick answers. Longer explanations sit on the linked Orient and Official facts pages.
+Use this page when a question comes up. You do not need to read all ten answers before [Week 1](week-01.qmd). Longer explanations sit on the linked Orient and Official facts pages.
 
 ## 1. What does “LAE” mean in Hong Kong?
 
@@ -194,4 +191,4 @@ Definitions: [Glossary](glossary.qmd).
 
 ---
 
-Next: [Key numbers](key-figures.qmd) · back to [How to use this site](howto.qmd).
+Continue with [Week 1](week-01.qmd), or [choose another Orient topic](howto.qmd#look-up-more-when-needed). For sourced figures, use [Key numbers](key-figures.qmd).

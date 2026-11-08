@@ -11,7 +11,7 @@ format:
     body-classes: "page-prose"
 ---
 
-Ten short videos (~2 minutes each) that introduce the low-altitude economy before the week notes under **Teach**. They are companions to [What is LAE?](primer.qmd), not a substitute for Official status or the dated Updates pages.
+These ten short videos (~2 minutes each) are optional introductions. Watch one when a visual explanation helps, then use [What is LAE?](primer.qmd) and the [course overview](overview.qmd) to start reading. Programme facts remain on Official status and the dated Updates pages.
 
 **Playlist:** [LAE 101 on YouTube](https://www.youtube.com/playlist?list=PLAKvksGy83tk)
 

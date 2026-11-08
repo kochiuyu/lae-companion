@@ -16,7 +16,7 @@ Explore how low-altitude services work, who pays for them, and what it takes to 
 
 [Start learning: What is LAE?](primer.qmd){.start-cta}
 
-Want more background first? Follow the [full Orient path](howto.qmd). Prefer video? Try the ten [LAE 101 videos](videos.qmd), about two minutes each.
+Need more background? [Choose an Orient topic](howto.qmd#look-up-more-when-needed) when a question comes up. Prefer video? Try the ten [LAE 101 videos](videos.qmd), about two minutes each.
 :::
 
 ::: {.hub-grid}

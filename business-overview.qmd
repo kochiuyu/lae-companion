@@ -11,10 +11,9 @@ format:
     body-classes: "page-prose"
 ---
 
-![How does LAE work?](assets/orient-illustrations/business-value-chain.svg){.orient-illust}
-
-
 This page is a short map of the **business** side of the low-altitude economy (LAE).
+
+Take the hypothetical medical-sample delivery from [What is LAE?](primer.qmd). A hospital might pay an operator for a reliable delivery. The operator would need an aircraft, take-off and landing sites, coordination, and support services. The business question is whether the payment covers all those inputs and the risks. This is a classroom example, not an operating route or a price claim.
 
 - Firm lists stay on [Companies & sectors](landscape.qmd).
 - Weekly tools stay on the week pages under **Teach** (for example [Week 1](week-01.qmd)).
@@ -82,6 +81,8 @@ In class, unit-cost language includes [CASK](glossary.qmd#business-and-economics
 ## Value chain
 
 This section names **roles** only — how value moves along the chain.
+
+In the sample-delivery example, the **hospital is the mission sponsor**, the **operator delivers the service**, and the **aircraft, site, and support providers supply inputs**. The operator may pay those providers from the mission payment; contracts decide the actual split.
 
 It does **not** give market sizes, deal values, or firm names.
 
@@ -191,7 +192,7 @@ Use the map and sector lists on [Companies & sectors](landscape.qmd) for who app
 
 ## Where to go next
 
-**Full Orient next:** [Who decides what?](regulators.qmd) → [How to use this site](howto.qmd) → [Common questions](faq.qmd) → [Key numbers](key-figures.qmd)
+**Ready for class?** Start [Week 1](week-01.qmd). If you want another Orient topic, [choose one here](howto.qmd#look-up-more-when-needed).
 
 Also useful:
 

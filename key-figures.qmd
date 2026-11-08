@@ -11,10 +11,7 @@ format:
     body-classes: "page-prose"
 ---
 
-![Key numbers](assets/orient-illustrations/key-numbers.svg){.orient-illust}
-
-
-This page shows striking numbers only. Every figure links to its issuer.
+Use this page when you need a sourced number. It is a reference page, not a prerequisite for [Week 1](week-01.qmd). Every figure links to its issuer.
 
 - Full status and wording: [Official status](tracker.qmd)
 - Diagrams: [Glossary](glossary.qmd)
@@ -83,4 +80,4 @@ Keep **Regulatory Sandbox** and **Sandbox X** separate. Do not add their counts 
 - [Glossary](glossary.qmd) — altitude and weight diagrams  
 - [Timeline](dates.qmd) — dated instruments  
 
-**Next:** [Common questions](faq.qmd) · [Home](index.qmd) · Teach: [Week 1](week-01.qmd)
+**Next:** [Week 1](week-01.qmd), [Home](index.qmd), or [another Orient topic](howto.qmd#look-up-more-when-needed).

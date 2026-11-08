@@ -11,13 +11,10 @@ format:
     body-classes: "page-prose"
 ---
 
-![Course overview](assets/orient-illustrations/overview-week-map.svg){.orient-illust}
-
-
 **Course:** 12-week Low Altitude Economics · 2026–27  
 **Instructor:** Chiu Yu Ko
 
-**New here?** **Short path:** [What is LAE?](primer.qmd) → this overview → [Week 1](week-01.qmd). The primer explains the field in simple English; this page is the week map. **Full Orient** (business, regulators, HowTo, FAQ, Key numbers) is on [How to use this site](howto.qmd#full-orient).
+**New here?** Read [What is LAE?](primer.qmd), use this page to see the week map, then start [Week 1](week-01.qmd). That is enough to begin. The other [Orient topics](howto.qmd#look-up-more-when-needed) are there when you need them.
 
 Weekly lecture pages sit under **Teach** (for example [Week 1](week-01.qmd)).
 

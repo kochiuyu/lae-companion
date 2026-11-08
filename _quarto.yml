@@ -53,6 +53,8 @@ website:
         text: Home
       - text: Orient
         menu:
+          - href: howto.qmd
+            text: How to use this site
           - href: primer.qmd
             text: What is LAE?
           - href: overview.qmd
@@ -61,8 +63,6 @@ website:
             text: How does LAE work?
           - href: regulators.qmd
             text: Who decides what?
-          - href: howto.qmd
-            text: How to use this site
           - href: faq.qmd
             text: Common questions
           - href: key-figures.qmd
