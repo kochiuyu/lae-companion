@@ -56,7 +56,7 @@ $$
 \text{Generalized cost} = \text{Ticket price} + \text{VOT} \times \text{Travel time}
 $$
 
-Money plus time in one comparable burden for mode choice. [7. Generalized cost and mode choice](week-01.qmd#7-generalized-cost-and-mode-choice)
+Money plus time in one comparable burden for mode choice. [7. Generalized cost and mode choice](week-01.qmd#generalized-cost-and-mode-choice)
 
 ### Maximum fare against an alternative {#w01-pmax}
 
@@ -99,7 +99,7 @@ $$
 \end{aligned}
 $$
 
-Fixed cost spread over filled seats; empty seats raise unit cost. [13. The empty-seat problem and unit cost](week-01.qmd#13-the-empty-seat-problem-and-unit-cost)
+Fixed cost spread over filled seats; empty seats raise unit cost. [13. The empty-seat problem and unit cost](week-01.qmd#the-empty-seat-problem-and-unit-cost)
 
 ## Week 2 — Competition, cost, and co-opetition {#week-02}
 
@@ -111,7 +111,7 @@ $$
 HHI = \sum_{i=1}^{N} s_i^2
 $$
 
-Concentration score from market shares; higher means more uneven. [Herfindahl–Hirschman Index (HHI)](week-02.qmd#herfindahl-hirschman-index-hhi)
+Concentration score from market shares; higher means more uneven. [Herfindahl–Hirschman Index (HHI)](week-02.qmd#herfindahlhirschman-index-hhi)
 
 ### Average total cost per flight (ATC) {#w02-atc}
 
@@ -119,7 +119,7 @@ $$
 \text{ATC} = \frac{\text{Fixed costs}}{\text{Number of flights}} + \text{Marginal cost}
 $$
 
-Fixed site cost spread over flights, plus marginal cost. [5. Fixed cost, marginal cost, and average cost per flight](week-02.qmd#5-fixed-cost-marginal-cost-and-average-cost-per-flight)
+Fixed site cost spread over flights, plus marginal cost. [5. Fixed cost, marginal cost, and average cost per flight](week-02.qmd#fixed-cost-marginal-cost-and-average-cost-per-flight)
 
 ### Average cost with density {#w02-density}
 
@@ -127,7 +127,7 @@ $$
 \text{Average cost per flight} = \frac{\text{Fixed route costs}}{\text{Flights} \times \text{Density factor}} + \text{Marginal cost}
 $$
 
-More volume through the same corridor and sites spreads fixed route cost. [6. Economies of density (not bigger vehicles)](week-02.qmd#6-economies-of-density-not-bigger-vehicles)
+More volume through the same corridor and sites spreads fixed route cost. [6. Economies of density (not bigger vehicles)](week-02.qmd#economies-of-density-not-bigger-vehicles)
 
 ### Limit price / entrant average cost {#w02-limit}
 
@@ -151,7 +151,7 @@ $$
 \text{Savings per operator relative to going alone} = \frac{\text{Fixed infrastructure cost} \times (N-1)}{N}
 $$
 
-Split a shared fixed site cost among $N$ operators — only if access rules work. [10. Co-opetition: compete on service, share the roof](week-02.qmd#10-co-opetition-compete-on-service-share-the-roof)
+Split a shared fixed site cost among $N$ operators — only if access rules work. [10. Co-opetition: compete on service, share the roof](week-02.qmd#co-opetition-compete-on-service-share-the-roof)
 
 ## Week 3 — Unit cost, revenue, and breakeven {#week-03}
 
@@ -194,7 +194,7 @@ $$
 \text{Seats} \times \text{Load factor} \times \text{Average fare}
 $$
 
-Seats offered times share occupied times average fare — not “fill every seat.” [6. Revenue management (not “fill every seat”)](week-03.qmd#6-revenue-management-not-fill-every-seat)
+Seats offered times share occupied times average fare — not “fill every seat.” [6. Revenue management (not “fill every seat”)](week-03.qmd#revenue-management-not-fill-every-seat)
 
 ### Breakeven units {#w03-be}
 
@@ -204,7 +204,7 @@ $$
 \frac{\text{Fixed cost}}{\text{Revenue per unit} - \text{Variable cost per unit}}
 $$
 
-Volume needed before contribution covers fixed cost. [7. Breakeven volume](week-03.qmd#7-breakeven-volume)
+Volume needed before contribution covers fixed cost. [7. Breakeven volume](week-03.qmd#breakeven-volume)
 
 ### Required missions per day {#w03-missions-day}
 
@@ -214,7 +214,7 @@ $$
 \frac{\text{Fixed daily cost}}{\text{Contribution margin per mission}}
 $$
 
-Daily activity target from fixed daily cost and contribution per mission. [7. Breakeven volume](week-03.qmd#7-breakeven-volume)
+Daily activity target from fixed daily cost and contribution per mission. [7. Breakeven volume](week-03.qmd#breakeven-volume)
 
 ### Profit under a mixed-revenue sketch {#w03-mixed-profit}
 
@@ -265,7 +265,7 @@ $$
 GC = \text{Fare} + VOT \times \text{Door-to-door time} + \text{Other monetized burdens}
 $$
 
-Fare plus VOT × full door-to-door time, plus other monetized burdens. [5. Generalized cost and door-to-door comparison](week-04.qmd#5-generalized-cost-and-door-to-door-comparison)
+Fare plus VOT × full door-to-door time, plus other monetized burdens. [5. Generalized cost and door-to-door comparison](week-04.qmd#generalized-cost-and-door-to-door-comparison)
 
 ### Own-price elasticity {#w04-ed}
 
@@ -273,7 +273,7 @@ $$
 E_d = \frac{\%\ \text{change in quantity demanded}}{\%\ \text{change in price}}
 $$
 
-How much quantity moves when your own price changes. [6. Elasticity of demand](week-04.qmd#6-elasticity-of-demand)
+How much quantity moves when your own price changes. [6. Elasticity of demand](week-04.qmd#elasticity-of-demand)
 
 ### Total revenue across products {#w04-rev-sum}
 
@@ -281,7 +281,7 @@ $$
 \text{Total revenue} = \sum_{i=1}^{n} P_i Q_i(P_i)
 $$
 
-Sum across products of each product’s price times its quantity. [7. Heterogeneity and differentiated products](week-04.qmd#7-heterogeneity-and-differentiated-products)
+Sum across products of each product’s price times its quantity. [7. Heterogeneity and differentiated products](week-04.qmd#heterogeneity-and-differentiated-products)
 
 ### Scenario demand with acceptance {#w04-accept}
 
@@ -297,7 +297,7 @@ $$
 Q_{\text{served}} = \min\{Q_{\text{demand}},\ Q_{\text{capacity}}\}
 $$
 
-Served activity is the minimum of demand and capacity. [9. Scenario analysis and shocks](week-04.qmd#9-scenario-analysis-and-shocks)
+Served activity is the minimum of demand and capacity. [9. Scenario analysis and shocks](week-04.qmd#scenario-analysis-and-shocks)
 
 ### Revenue under served quantity {#w04-r}
 
@@ -305,7 +305,7 @@ $$
 R = P \times Q_{\text{served}} + \text{Committed revenue} - \text{Refunds and credits}
 $$
 
-Price × served quantity, plus committed revenue, minus refunds and credits. [9. Scenario analysis and shocks](week-04.qmd#9-scenario-analysis-and-shocks)
+Price × served quantity, plus committed revenue, minus refunds and credits. [9. Scenario analysis and shocks](week-04.qmd#scenario-analysis-and-shocks)
 
 ## Week 5 — Sites, capacity, and network cost {#week-05}
 
@@ -349,7 +349,7 @@ $$
 \end{aligned}
 $$
 
-Rough return under reliability scenarios — not a full NPV. [6. Reliability scenarios (simple return screen)](week-05.qmd#6-reliability-scenarios-simple-return-screen)
+Rough return under reliability scenarios — not a full NPV. [6. Reliability scenarios (simple return screen)](week-05.qmd#reliability-scenarios-simple-return-screen)
 
 ### Daily infrastructure cost {#w05-daily-infra}
 
@@ -423,7 +423,7 @@ R_U &= p \times q
 \end{aligned}
 $$
 
-Price times quantity — volume risk sits with the operator. [4. Usage vs availability payments](week-06.qmd#4-usage-vs-availability-payments)
+Price times quantity — volume risk sits with the operator. [4. Usage vs availability payments](week-06.qmd#usage-vs-availability-payments)
 
 ### Availability-based component {#w06-ra}
 
@@ -434,7 +434,7 @@ R_A &= A - D + u \times q
 \end{aligned}
 $$
 
-Readiness fee minus performance deductions, plus optional usage term. [4. Usage vs availability payments](week-06.qmd#4-usage-vs-availability-payments)
+Readiness fee minus performance deductions, plus optional usage term. [4. Usage vs availability payments](week-06.qmd#usage-vs-availability-payments)
 
 ### Expected project value (decision tree) {#w06-epv}
 
@@ -514,7 +514,7 @@ $$
 \end{aligned}
 $$
 
-Sum of probability times financial consequence across events. [6. The safety case and risk cost](week-07.qmd#6-the-safety-case-and-risk-cost)
+Sum of probability times financial consequence across events. [6. The safety case and risk cost](week-07.qmd#the-safety-case-and-risk-cost)
 
 ### Risk cost {#w07-risk-cost}
 
@@ -527,7 +527,7 @@ $$
 \end{aligned}
 $$
 
-Prevention/mitigation + insurance + retained expected loss. [6. The safety case and risk cost](week-07.qmd#6-the-safety-case-and-risk-cost)
+Prevention/mitigation + insurance + retained expected loss. [6. The safety case and risk cost](week-07.qmd#the-safety-case-and-risk-cost)
 
 ### Daily coordination cost {#w07-coord}
 
@@ -540,7 +540,7 @@ $$
 \end{aligned}
 $$
 
-Fixed system + variable digital per operation + human oversight. **U-space ≠ Hong Kong law.** [7. U-space, UTM, and coordination cost](week-07.qmd#7-u-space-utm-and-coordination-cost)
+Fixed system + variable digital per operation + human oversight. **U-space ≠ Hong Kong law.** [7. U-space, UTM, and coordination cost](week-07.qmd#u-space-utm-and-coordination-cost)
 
 ### Weighted pathway score {#w07-score}
 
