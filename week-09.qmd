@@ -1,7 +1,7 @@
 ---
 title: "Week 9: Market Sizing, Barriers, Uncertainty and Social Impact"
 subtitle: "Sizing demand, stress-testing risk, and who gains or bears costs"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,38 +17,7 @@ format:
 
 **Class outline (PDF):** [week09-impact.pdf](slides/week09-impact.pdf)
 
-Weeks 4–8 covered demand, capacity, and allocation. This week asks how to **size** a defined use case, put **constraints** into the right model channels (one channel per barrier — no double counting), stress-test **uncertainty**, and weigh **social** benefits and costs — not only whether the operator earns a contribution.
-
-**Orient refreshers:**
-
-- [Week 4](week-04.qmd) — funnel demand vs capacity-served trips  
-- [Key numbers](key-figures.qmd) — sourced figures  
-- [Official status](tracker.qmd) — settled vs open  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- How to size a market for a defined use case (funnel through capacity, revenue, contribution).
-- How constraints from UAM studies should enter the model without double counting.
-- Uncertainty tools: scenarios, sensitivity, and simple probability / downside views.
-- From commercial value to social value: who benefits, who bears costs, and illustrative hedonic thinking.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Market size must specify service, corridor, customer, period, choice behaviour, and reliable capacity.
-- Revenue, contribution, profit, value added, and social benefit are different concepts—do not mix them.
-- Put constraints into explicit demand, capacity, price, cost, timing, or probability channels.
-- Expected value helps, but also look at probability of loss, downside cash needs, and key risk drivers.
-- Social evaluation covers total benefits and costs and how they are distributed across groups.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** size a defined LAE market through reliable capacity, test uncertainty, then ask who gains and who bears the social costs. Start with [§1](#from-commercial-value-to-social-value); use the [summary](#summary) and [self-check](#self-check) after reading. Worked numbers are classroom examples, not current Hong Kong market data.
 
 ## Learning objectives
 
@@ -60,7 +29,9 @@ By the end of Week 9 you should be able to:
 4. **Identify** who receives the benefits and who bears the costs of an LAE project.  
 5. **Explain** how [**hedonic valuation**](glossary.qmd#hedonic-valuation) (how attributes such as noise show up in prices) and benefit-cost analysis may inform noise, access, and equity decisions.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -71,11 +42,15 @@ By the end of Week 9 you should be able to:
 | Value added & equity | §§5–7 | OHKF HK\$350bn attribution; hedonic tool; distribution |
 | Close | §§8–9 | Integrated dashboard; synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
-- **Core:** [Commercial vs social (§1)](#1-from-commercial-value-to-social-value) → [Market funnel (§2)](#2-market-sizing) → [Putting together (§9)](#9-putting-week-9-together) → [Self-check](#self-check)
-- **Uncertainty & equity:** [Uncertainty (§4)](#4-uncertainty-scenarios-and-expected-value) → [HK$350bn / distribution (§5)](#5-the-hk-350-billion-projection--and-distributional-questions) → [Equity (§7)](#7-social-equity-and-distributional-analysis)
+- **Core:** [Commercial vs social (§1)](#from-commercial-value-to-social-value) → [Market funnel (§2)](#market-sizing) → [Putting together (§9)](#putting-week-9-together) → [Self-check](#self-check)
+- **Uncertainty & equity:** [Uncertainty (§4)](#uncertainty-scenarios-and-expected-value) → [HK$350bn / distribution (§5)](#the-hk350-billion-projection-and-distributional-questions) → [Equity (§7)](#social-equity-and-distributional-analysis)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Week 4](week-04.qmd) · [Key numbers](key-figures.qmd) · [Official status](tracker.qmd).
+
+:::
 
 ---
 
@@ -745,6 +720,8 @@ Pieces need one screen. The **integrated dashboard** and tool map walk definitio
 
 ## 8. Integrated dashboard (classroom)
 
+**Slide exercise — market, risk, and social impact:** in a group using the spreadsheet template, define relevant trips, eligibility, choice share, and reliable capacity. Calculate served demand, revenue, variable cost, and contribution. Vary at least three uncertain inputs; report expected profit and the probability of loss. Name one benefit and one cost for each major stakeholder group, then test a mitigation and say who pays. The class format is 15 minutes plus 5 minutes of discussion.
+
 | Section | Inputs and outputs |
 |---------|-------------------|
 | Market | Relevant trips, eligibility $e$, choice share $s$ |
@@ -826,6 +803,18 @@ Pull the thread. Separate commercial from social value. Size the funnel with cap
 - Social evaluation must weigh total benefits and costs **and** their distribution. Attribute **HK$350bn** only to OHKF as stated above.
 
 Short checklist: [Summary](#summary).
+
+---
+
+## Summary {#summary}
+
+- Define market size by service, corridor, customer, time period, choice behaviour, and reliable capacity. Potential trips and served trips differ when capacity binds.
+- Keep revenue, contribution, profit, industry value added, and social benefit distinct. The OHKF HK$350 billion figure is a think-tank value-added projection by 2050, not this project’s obtainable market.
+- Put each constraint into a named demand, capacity, price, cost, timing, or probability input without counting the same barrier twice.
+- Expected profit can be positive while loss remains likely. Test downside cash needs and the inputs that drive them.
+- Social appraisal asks who receives benefits, who bears noise, access, fiscal, or other costs, and whether mitigation changes that distribution. Hedonic estimates need local evidence and careful interpretation.
+
+For sourced programme figures and status, use [Key numbers](key-figures.qmd) and [Who decides what?](regulators.qmd#standing-caveats).
 
 ---
 
