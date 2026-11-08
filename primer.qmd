@@ -14,7 +14,7 @@ format:
 ![What is LAE?](assets/orient-illustrations/primer-what-is-lae.svg){.orient-illust}
 
 
-This page explains the **low-altitude economy** in simple English. Use it before the week pages under **Teach**.
+This page explains the **low-altitude economy** in simple English. Read the service example first; the diagrams and legal labels give you more detail when you need it. Then see the [course overview](overview.qmd) and start [Week 1](week-01.qmd).
 
 Optional short videos: [LAE 101](videos.qmd) (playlist on YouTube), starting with [Lesson 1 · The Sky Economy](https://www.youtube.com/watch?v=1RBcnocVRxs).
 
@@ -22,7 +22,87 @@ Harder words and legal names appear here too. When you see a new term, this page
 
 ## A whole service, not only a vehicle
 
-In Hong Kong, the **low-altitude economy (LAE)** means business and other paid activity that uses airspace generally below about **1,000 metres**.
+Imagine a medical sample needs to reach a hospital quickly. In a possible low-altitude service, a customer requests the delivery, an operator arranges a flight, an aircraft carries the sample, and take-off sites and traffic coordination make the journey possible. The customer pays for a **reliable delivery**, not for the aircraft itself. This is an example to explain the idea, not a claim that the route operates today.
+
+The **low-altitude economy (LAE)** is the business activity around services like that: aircraft, sites, operators, customers, and the firms that support them. In Hong Kong policy, the field is generally described as using airspace below about **1,000 metres**.
+
+Think of one finished job, not only one aircraft:
+
+- Someone needs a delivery, an inspection, a medical transfer, or a similar task.
+- An **operator** flies the aircraft or runs the flight.
+- The aircraft needs a place to take off and land.
+- Someone helps coordinate traffic and communications.
+- **Customers** (or **mission sponsors**) pay for the result.
+- Other firms support the work — for example finance, insurance, training, and software platforms.
+
+That whole chain is what this course means by LAE. [Week 1](week-01.qmd) starts the same idea. The week map is on [Course overview](overview.qmd).
+
+```{=html}
+<style>
+.wsvc{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--gold:#C5A572;--muted:#5f5f5f;margin:1rem 0 1.35rem;font-size:.9rem;max-width:40rem}
+.wsvc-cap{color:var(--muted);margin:0 0 .65rem;font-size:.88rem;line-height:1.4}
+.wsvc-flow{display:flex;flex-direction:column;gap:.4rem;align-items:stretch}
+.wsvc-box{background:var(--beige);border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:8px;padding:.55rem .75rem;color:var(--ink);line-height:1.35}
+.wsvc-box strong{color:var(--navy)}
+.wsvc-box a{color:var(--navy);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.wsvc-box.rules{border-left-color:var(--gold);background:#fff}
+.wsvc-arrow{text-align:center;color:var(--navy);font-size:1.1rem;line-height:1;user-select:none;font-weight:600}
+.wsvc-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
+</style>
+<figure class="wsvc" id="lae-whole-service" aria-labelledby="wsvc-title">
+<details class="wdiag-text-details">
+<summary class="wdiag-text-sum">Text diagram</summary>
+<p class="wsvc-cap" id="wsvc-title"><strong>Whole service (simple picture)</strong> — the pieces of one mission. This is not a law map. Formal terms live in the Glossary.</p>
+<div class="wsvc-flow">
+<div class="wsvc-box"><strong>Craft</strong><br/>The aircraft that flies the mission. Light unmanned types often fall under <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G / SUA</a>. Heavier or passenger-oriented types are discussed as <a href="glossary.qmd#vehicles-and-operations">eVTOL / unconventional aircraft</a>. Hong Kong has <strong>no dedicated eVTOL law yet</strong>.</div>
+<div class="wsvc-arrow" aria-hidden="true">↓ needs place and airspace</div>
+<div class="wsvc-box"><strong>Airspace &amp; sites</strong><br/>The low-altitude working band (<a href="glossary.qmd#altitude-scale">about 1,000 m as a policy description</a>). Take-off and landing sites (industry word: <a href="glossary.qmd#infrastructure">vertiports</a>). Traffic labels such as <a href="glossary.qmd#airspace-and-traffic">UTM / U-space</a> — <strong>U-space is not Hong Kong law</strong>.</div>
+<div class="wsvc-arrow" aria-hidden="true">↓ delivers a result for</div>
+<div class="wsvc-box"><strong>Customers / mission sponsors</strong><br/>Who needs the job done, and who pays for that result. Business detail: <a href="business-overview.qmd">How does LAE work?</a>.</div>
+<div class="wsvc-arrow" aria-hidden="true">↓ under</div>
+<div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and with which permissions. Short roles: <a href="regulators.qmd">Who decides what?</a>. Checked status: Official status.</div>
+</div>
+<p class="wsvc-note">Operators and support services (finance, insurance, training, platforms) sit across this chain. Week 1 opens the same idea.</p>
+</details>
+</figure>
+```
+
+```{=html}
+<figure class="wdiag wdiag-svg" id="lae-whole-service-svg" aria-labelledby="lae-whole-service-svg-title">
+<p class="wdiag-cap" id="lae-whole-service-svg-title"><strong>Whole service (simple picture)</strong> — craft → airspace &amp; sites → customers/mission sponsors → rules &amp; oversight. Pieces of one mission — <strong>not</strong> a law map. ~1,000 m is a Hong Kong <strong>working description</strong> for the economic field — <strong>not</strong> a Cap. 448G flying-height limit. Operators and support sit across the chain. Mainland 低空经济 scope ≠ Hong Kong scope.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g2-title g2-desc">
+  <title id="g2-title">Whole service (simple picture)</title>
+  <desc id="g2-desc">Pieces of one low-altitude mission: craft; airspace and sites including the Hong Kong about 1,000 metre working description which is not a Cap. 448G flying-height limit; customers or mission sponsors; rules and oversight. This is not a law map. Operators and support services sit across the chain. Sandbox is not Sandbox X.</desc>
+  <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
+  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Whole service (simple picture)</text>
+  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Pieces of one mission · not a law map</text>
+
+  <rect x="200" y="68" width="320" height="44" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Craft</text>
+
+  <text x="360" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ needs place and airspace</text>
+
+  <rect x="160" y="138" width="400" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
+  <text x="360" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Airspace &amp; sites</text>
+  <text x="360" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">~1,000 m working band ≠ Cap. 448G height limits</text>
+
+  <text x="360" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ delivers a result for</text>
+
+  <rect x="160" y="216" width="400" height="40" rx="6" fill="#C5A572"/>
+  <text x="360" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Customers / mission sponsors</text>
+
+  <text x="360" y="274" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ under</text>
+
+  <rect x="160" y="284" width="400" height="40" rx="6" fill="#003366"/>
+  <text x="360" y="310" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Rules &amp; oversight</text>
+
+  <text x="360" y="348" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Operators &amp; support sit across · Sandbox ≠ Sandbox X · Mainland 低空经济 ≠ HK scope</text>
+
+</svg>
+</figure>
+```
+
+### What the 1,000-metre figure means
 
 That **1,000 metre** figure is a **policy working description** — a way officials and analysts talk about the field. It is **not** the same thing as a flying-height limit in Hong Kong’s main drone law, Cap. 448G ([Glossary · altitude scale](glossary.qmd#altitude-scale); [Official status](tracker.qmd)).
 
@@ -98,82 +178,6 @@ That **1,000 metre** figure is a **policy working description** — a way offici
     <ellipse cx="160" cy="120" rx="9" ry="4"/>
     <rect x="156" y="114" width="8" height="6" rx="1"/>
   </g>
-</svg>
-</figure>
-```
-
-Think of one finished job, not only one aircraft:
-
-- Someone needs a delivery, an inspection, a medical transfer, or a similar task.
-- An **operator** flies the aircraft or runs the flight.
-- The aircraft needs a place to take off and land.
-- Someone helps coordinate traffic and communications.
-- **Customers** (or **mission sponsors**) pay for the result.
-- Other firms support the work — for example finance, insurance, training, and software platforms.
-
-That whole chain is what this course means by LAE. [Week 1](week-01.qmd) starts the same idea. The week map is on [Course overview](overview.qmd).
-
-```{=html}
-<style>
-.wsvc{--ink:#1a1a1a;--navy:#003366;--beige:#F7F6F3;--line:#d9d4c7;--gold:#C5A572;--muted:#5f5f5f;margin:1rem 0 1.35rem;font-size:.9rem;max-width:40rem}
-.wsvc-cap{color:var(--muted);margin:0 0 .65rem;font-size:.88rem;line-height:1.4}
-.wsvc-flow{display:flex;flex-direction:column;gap:.4rem;align-items:stretch}
-.wsvc-box{background:var(--beige);border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:8px;padding:.55rem .75rem;color:var(--ink);line-height:1.35}
-.wsvc-box strong{color:var(--navy)}
-.wsvc-box a{color:var(--navy);font-weight:600;text-decoration:underline;text-underline-offset:2px}
-.wsvc-box.rules{border-left-color:var(--gold);background:#fff}
-.wsvc-arrow{text-align:center;color:var(--navy);font-size:1.1rem;line-height:1;user-select:none;font-weight:600}
-.wsvc-note{margin:.55rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.4}
-</style>
-<figure class="wsvc" id="lae-whole-service" aria-labelledby="wsvc-title">
-<details class="wdiag-text-details">
-<summary class="wdiag-text-sum">Text diagram</summary>
-<p class="wsvc-cap" id="wsvc-title"><strong>Whole service (simple picture)</strong> — the pieces of one mission. This is not a law map. Formal terms live in the Glossary.</p>
-<div class="wsvc-flow">
-<div class="wsvc-box"><strong>Craft</strong><br/>The aircraft that flies the mission. Light unmanned types often fall under <a href="glossary.qmd#hong-kong-institutions-and-law">Cap. 448G / SUA</a>. Heavier or passenger-oriented types are discussed as <a href="glossary.qmd#vehicles-and-operations">eVTOL / unconventional aircraft</a>. Hong Kong has <strong>no dedicated eVTOL law yet</strong>.</div>
-<div class="wsvc-arrow" aria-hidden="true">↓ needs place and airspace</div>
-<div class="wsvc-box"><strong>Airspace &amp; sites</strong><br/>The low-altitude working band (<a href="glossary.qmd#altitude-scale">about 1,000 m as a policy description</a>). Take-off and landing sites (industry word: <a href="glossary.qmd#infrastructure">vertiports</a>). Traffic labels such as <a href="glossary.qmd#airspace-and-traffic">UTM / U-space</a> — <strong>U-space is not Hong Kong law</strong>.</div>
-<div class="wsvc-arrow" aria-hidden="true">↓ delivers a result for</div>
-<div class="wsvc-box"><strong>Customers / mission sponsors</strong><br/>Who needs the job done, and who pays for that result. Business detail: <a href="business-overview.qmd">How does LAE work?</a>.</div>
-<div class="wsvc-arrow" aria-hidden="true">↓ under</div>
-<div class="wsvc-box rules"><strong>Rules &amp; oversight</strong><br/>Who may fly what, where, and with which permissions. Short roles: <a href="regulators.qmd">Who decides what?</a>. Checked status: Official status.</div>
-</div>
-<p class="wsvc-note">Operators and support services (finance, insurance, training, platforms) sit across this chain. Week 1 opens the same idea.</p>
-</details>
-</figure>
-```
-
-```{=html}
-<figure class="wdiag wdiag-svg" id="lae-whole-service-svg" aria-labelledby="lae-whole-service-svg-title">
-<p class="wdiag-cap" id="lae-whole-service-svg-title"><strong>Whole service (simple picture)</strong> — craft → airspace &amp; sites → customers/mission sponsors → rules &amp; oversight. Pieces of one mission — <strong>not</strong> a law map. ~1,000 m is a Hong Kong <strong>working description</strong> for the economic field — <strong>not</strong> a Cap. 448G flying-height limit. Operators and support sit across the chain. Mainland 低空经济 scope ≠ Hong Kong scope.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g2-title g2-desc">
-  <title id="g2-title">Whole service (simple picture)</title>
-  <desc id="g2-desc">Pieces of one low-altitude mission: craft; airspace and sites including the Hong Kong about 1,000 metre working description which is not a Cap. 448G flying-height limit; customers or mission sponsors; rules and oversight. This is not a law map. Operators and support services sit across the chain. Sandbox is not Sandbox X.</desc>
-  <rect x="12" y="12" width="696" height="346" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="1"/>
-  <text x="360" y="34" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#003366">Whole service (simple picture)</text>
-  <text x="360" y="52" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#5f5f5f">Pieces of one mission · not a law map</text>
-
-  <rect x="200" y="68" width="320" height="44" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
-  <text x="360" y="96" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Craft</text>
-
-  <text x="360" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ needs place and airspace</text>
-
-  <rect x="160" y="138" width="400" height="48" rx="6" fill="#F7F6F3" stroke="#d9d4c7"/>
-  <text x="360" y="160" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#003366">Airspace &amp; sites</text>
-  <text x="360" y="178" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">~1,000 m working band ≠ Cap. 448G height limits</text>
-
-  <text x="360" y="206" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ delivers a result for</text>
-
-  <rect x="160" y="216" width="400" height="40" rx="6" fill="#C5A572"/>
-  <text x="360" y="242" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Customers / mission sponsors</text>
-
-  <text x="360" y="274" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="12" fill="#9a9488">↓ under</text>
-
-  <rect x="160" y="284" width="400" height="40" rx="6" fill="#003366"/>
-  <text x="360" y="310" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Rules &amp; oversight</text>
-
-  <text x="360" y="348" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5f5f5f">Operators &amp; support sit across · Sandbox ≠ Sandbox X · Mainland 低空经济 ≠ HK scope</text>
-
 </svg>
 </figure>
 ```

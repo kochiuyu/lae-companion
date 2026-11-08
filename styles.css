@@ -130,6 +130,40 @@ div.callout-caution {
   padding-left: 0.75rem;
 }
 
+/* First-time learner route on Home */
+.start-here {
+  max-width: 44rem;
+  margin: 1.2rem 0 1.6rem;
+  padding: 1.15rem 1.35rem;
+  background: #f7f6f3;
+  border-left: 4px solid #003366;
+  border-radius: 8px;
+}
+
+.start-here ol {
+  margin: 0.55rem 0 1rem;
+  padding-left: 1.4rem;
+}
+
+.start-here li { margin: 0.35rem 0; }
+
+.start-cta {
+  display: inline-block;
+  padding: 0.6rem 0.95rem;
+  border-radius: 6px;
+  background: #003366;
+  color: #fff !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.start-cta:hover,
+.start-cta:focus-visible {
+  background: #174d82;
+  color: #fff !important;
+  text-decoration: underline;
+}
+
 /* Home hub cards */
 .hub-grid {
   display: grid;

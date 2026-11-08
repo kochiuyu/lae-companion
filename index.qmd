@@ -5,11 +5,19 @@ as_of: "2026-11-05"
 toc: false
 ---
 
-Site for a 12-week low-altitude economy course — one page per week with notes, readings, and a class-outline PDF, plus supporting evidence.
+Explore how low-altitude services work, who pays for them, and what it takes to make them viable. This companion to a 12-week course has weekly notes, readings, practice questions, and a class-outline PDF for each week.
 
-**Start here (short path):** [What is LAE?](primer.qmd) · [Course overview](overview.qmd) · then [Week 1](week-01.qmd) · ([full Orient](howto.qmd))
+::: {.start-here}
+**New to the topic? Start here.**
 
-Optional: [LAE 101 videos](videos.qmd) — ten ~2-minute YouTube intros.
+1. [What is LAE?](primer.qmd) — get the basic idea through one service example.
+2. [Course overview](overview.qmd) — see how the 12 weeks fit together.
+3. [Week 1](week-01.qmd) — begin the course notes.
+
+[Start learning: What is LAE?](primer.qmd){.start-cta}
+
+Want more background first? Follow the [full Orient path](howto.qmd). Prefer video? Try the ten [LAE 101 videos](videos.qmd), about two minutes each.
+:::
 
 ::: {.hub-grid}
 ::: {.hub-card}
