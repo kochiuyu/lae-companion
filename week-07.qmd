@@ -1,7 +1,7 @@
 ---
 title: "Week 7: LAE Policy and Regulation"
 subtitle: "Permissions, evidence, and phased market access"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,39 +17,7 @@ format:
 
 **Class outline (PDF):** [week07-policy-regulation.pdf](slides/week07-policy-regulation.pdf)
 
-Week 6 designed partnerships and payment mechanisms. This week asks how **regulation** shapes competitive readiness (how soon you can operate safely and lawfully), permissions, safety cases, and scalable coordination — and how those regulatory tools rewrite the contracts you just drafted.
-
-**Orient refreshers:**
-
-- [Who decides what?](regulators.qmd) — who regulates  
-- [Key numbers](key-figures.qmd) — Sandbox counts and programme facts  
-- [Glossary](glossary.qmd) — Cap. 448G, BVLOS, Sandbox X, UTM  
-- [Week 6](week-06.qmd) — PPP, availability payments, staging  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- How regulation can be part of competitive strategy (value of earlier readiness).
-- Hong Kong’s risk-based approach for small unmanned aircraft and the role of [Sandbox X](glossary.qmd#hong-kong-institutions-and-law).
-- Permissions for advanced operations (including BVLOS), safety cases, and compliance investment.
-- Digital traffic management (U-space/UTM) and building a phased regulatory roadmap.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Advanced operations need prior permission and may face extra conditions under a risk-based framework.
-- Sandbox X supports controlled testing and evidence—not a waiver of safety rules or automatic commercial approval.
-- A safety case is an evidence-based argument for a defined operation; it may aid approval and insurability without guaranteeing cheaper premiums.
-- Digital traffic-management services can cut coordination cost and support scale, but still need oversight, cybersecurity, and governance.
-- A strong roadmap ties each new operating privilege to specified evidence, review, and risk controls.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** trace how a proposed operation moves from regulatory readiness to permission, safety evidence, and a phased route to scale. Start with [§1](#the-regulatory-strategy-meeting); use the [summary](#summary) and [self-check](#self-check) after reading. Worked numbers are classroom examples, not current Hong Kong market data.
 
 ## Learning objectives
 
@@ -61,7 +29,9 @@ By the end of Week 7 you should be able to:
 4. **Explain** how digital traffic-management services may support safe and scalable operations.  
 5. **Design** a phased regulatory roadmap that links operating privileges to evidence and performance.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -71,11 +41,15 @@ By the end of Week 7 you should be able to:
 | Scale & pathways | §§7–9 | U-space/UTM; scorecard; harmonisation; phased roadmap |
 | Closing | §§10–11 | Tool map; synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
-- **Core:** [Strategy & readiness (§1)](#1-the-regulatory-strategy-meeting) → [HK frame & BVLOS (§3)](#3-hong-kong-s-risk-based-sua-frame-and-sandbox-x) → [Putting together (§11)](#11-putting-week-7-together) → [Self-check](#self-check)
-- **Approval & scale:** [Permission vs certification (§5)](#5-approval-permission-and-certification-do-not-conflate) → [U-space / UTM (§7)](#7-u-space-utm-and-coordination-cost) → [Roadmap (§9)](#9-phased-regulatory-roadmap)
+- **Core:** [Strategy & readiness (§1)](#the-regulatory-strategy-meeting) → [HK frame & BVLOS (§3)](#hong-kongs-risk-based-sua-frame-and-sandbox-x) → [Putting together (§11)](#putting-week-7-together) → [Self-check](#self-check)
+- **Approval & scale:** [Permission vs certification (§5)](#approval-permission-and-certification-do-not-conflate) → [U-space / UTM (§7)](#u-space-utm-and-coordination-cost) → [Roadmap (§9)](#phased-regulatory-roadmap)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Who decides what?](regulators.qmd) · [Key numbers](key-figures.qmd) · [Glossary](glossary.qmd) · [Week 6](week-06.qmd).
+
+:::
 
 ---
 
@@ -691,7 +665,7 @@ Comparison needs sequencing. A **phased regulatory roadmap** stages evidence and
 
 ## 9. Phased regulatory roadmap
 
-Classroom exercise style — evidence-based expansion:
+**Slide exercise:** an operator proposes a drone-delivery route near a residential area in Sha Tin. Take the operator, regulator, public-agency customer, or community role. Define the service value and affected people; identify operating and community risks; propose initial route, time, payload, weather, monitoring, and contingency conditions; state the evidence needed before expansion; and agree a pause, review, and incident-response rule. The class format is 15 minutes plus 5 minutes of discussion. Use the three-phase roadmap below to record the gates.
 
 | Phase | Operating scope | Evidence collected | Expansion gate |
 |-------|-----------------|--------------------|----------------|
@@ -825,6 +799,18 @@ Pull the thread. Measure readiness value. Keep Hong Kong programme facts straigh
 - Digital traffic-management may cut coordination cost, but **U-space ≠ Hong Kong law**. A strong roadmap ties each expansion in privilege to evidence, review, and risk controls — and feeds Week 6 contracts.
 
 Short checklist: [Summary](#summary).
+
+---
+
+## Summary {#summary}
+
+- Earlier regulatory readiness can have commercial value, but a lead is neither guaranteed nor a monopoly.
+- Hong Kong’s small unmanned aircraft rules are risk-based; controlled Sandbox X trials gather evidence without waiving safety duties or granting automatic commercial approval. Keep the earlier Regulatory Sandbox and Sandbox X distinct.
+- Match permissions, operator and pilot duties, aircraft certification, and site requirements to the proposed operation. A safety case argues for defined controls with evidence; it does not prove zero risk or guarantee lower insurance premiums.
+- Compliance and safety investment depend on approval probability, project value, and risk reduction. The worked figures are classroom scenarios.
+- Digital traffic management may reduce coordination cost, but U-space is a European comparator, not Hong Kong law. Expand operating privileges only through evidence, review, and risk controls.
+
+For sourced programme figures and status, use [Key numbers](key-figures.qmd) and [Who decides what?](regulators.qmd#standing-caveats).
 
 ---
 
