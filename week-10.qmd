@@ -1,7 +1,7 @@
 ---
 title: "Week 10: Sustainability Challenges in Urban Air Operations"
 subtitle: "Externalities, life-cycle emissions, privacy, and measurable KPIs"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,38 +17,7 @@ format:
 
 **Class outline (PDF):** [week10-sustainability.pdf](slides/week10-sustainability.pdf)
 
-Week 9 sized markets and social distribution; this week asks how to **measure and manage** environmental and social externalities (costs and effects that spill onto others) — noise, privacy, greenhouse gases, equity — with transparent boundaries and KPIs.
-
-**Orient refreshers:**
-
-- [Week 9](week-09.qmd) — sizing and social distribution  
-- [Glossary](glossary.qmd) — shared definitions  
-- [Who decides what?](regulators.qmd) — who regulates  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- Main environmental and social externalities of urban air operations (noise, privacy, greenhouse gases).
-- Policy responses: pricing, operating rules, standards, mitigation, and compensation.
-- Simple operational and life-cycle emissions thinking with clear boundaries.
-- Privacy governance, public acceptance by use case, equity commitments, and sustainability KPIs.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Address externalities with a mix of technology, standards, operating rules, pricing, compensation, and engagement.
-- Do not “price noise” by multiplying flights by decibels above an assumed threshold.
-- Privacy needs lawful purpose, necessity, proportionality, minimization, security, transparency, retention control, and accountability.
-- Electric operation is not zero life-cycle emissions; GHG scopes and LCA need consistent boundaries.
-- Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** measure and manage noise, privacy, greenhouse-gas emissions, and equity impacts with clear boundaries and measurable KPIs. Start with [§1](#can-an-lae-service-be-sustainable-and-viable); use the [summary](#summary) and [self-check](#self-check) after reading. Worked numbers are classroom examples, not current Hong Kong market data.
 
 ## Learning objectives
 
@@ -60,7 +29,9 @@ By the end of Week 10 you should be able to:
 4. **Evaluate** privacy and public-acceptance measures using necessity, proportionality, and stakeholder evidence.  
 5. **Design** measurable sustainability KPIs and assess who benefits, who pays, and who bears residual impacts.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -70,11 +41,15 @@ By the end of Week 10 you should be able to:
 | Acceptance & equity | §§6–7 | AiRMOUR / use-case acceptance; social licence; public-service funding |
 | Close | §§8–9 | KPI design; synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
-- **Core:** [Viability & externalities (§1)](#1-can-an-lae-service-be-sustainable-and-viable) → [Privacy & carbon (§3)](#3-privacy-governance-for-onboard-cameras) → [Putting together (§9)](#9-putting-week-10-together) → [Self-check](#self-check)
-- **GHG & licence:** [GHG / LCA (§5)](#5-ghg-inventory-and-life-cycle-assessment) → [Acceptance (§6)](#6-public-acceptance-by-use-case) → [Equity / funding (§7)](#7-equity-social-licence-and-funding-commitments)
+- **Core:** [Viability & externalities (§1)](#can-an-lae-service-be-sustainable-and-viable) → [Privacy & carbon (§3)](#privacy-governance-for-onboard-cameras) → [Putting together (§9)](#putting-week-10-together) → [Self-check](#self-check)
+- **GHG & licence:** [GHG / LCA (§5)](#ghg-inventory-and-life-cycle-assessment) → [Acceptance (§6)](#public-acceptance-by-use-case) → [Equity / funding (§7)](#equity-social-licence-and-funding-commitments)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Week 9](week-09.qmd) · [Glossary](glossary.qmd) · [Who decides what?](regulators.qmd).
+
+:::
 
 ---
 
@@ -663,7 +638,7 @@ Keep **Sandbox ≠ Sandbox X** when citing trial programmes; Action Plan languag
 
 ---
 
-Commitments need metrics. [**Sustainability KPI**](glossary.qmd#kpi) design** ties noise, privacy, carbon, and equity to boundaries, owners, and corrective action — then the tool map closes the loop.
+Commitments need metrics. [**Sustainability KPI**](glossary.qmd#kpi) design ties noise, privacy, carbon, and equity to boundaries, owners, and corrective action — then the tool map closes the loop.
 
 ## 8. Sustainability KPI design
 
@@ -678,6 +653,26 @@ Commitments need metrics. [**Sustainability KPI**](glossary.qmd#kpi) design** ti
 Define baseline, target, measurement method, frequency, owner, assurance, and corrective action. There is **no** universal CAD or investor requirement that mandates a fixed trio of ratios invented in class. A KPI tracks performance — it does not by itself prove profitability or social acceptance.
 
 **Mitigation scorecard (classroom):** for each material impact (noise, privacy, climate, equity), record measure, KPI, and payer. Do **not** assume a 60 dB limit or a fixed number of free public-service flights. Define thresholds from evidence, regulation, operating context, and stakeholder agreement.
+
+### In-class exercise: sustainability agreement
+
+The slide scenario is a **high-volume corridor near a residential area**. In a group, take the roles of operator, community representatives, regulator, public-service customer, and data-protection adviser. Allow 15 minutes, then 5 minutes for discussion.
+
+1. Identify the noise, privacy, climate, access, and distributional impacts.
+2. Propose one prevention or mitigation measure for each material impact.
+3. For each measure, estimate cost and effectiveness; name its beneficiary, payer, and residual impact.
+4. Define five measurable KPIs and review triggers.
+5. Agree how complaints, incidents, pauses, and corrective actions will work.
+
+Use the slide's scorecard as a starting point; choose thresholds from evidence rather than assuming a universal limit.
+
+| Impact | Possible measure | KPI to define | Payer to agree |
+|--------|------------------|---------------|----------------|
+| Noise | Route, schedule, or technology | Exposure metric | To negotiate |
+| Privacy | Data minimization and security | Incident and retention metric | To negotiate |
+| Climate | Energy and utilization strategy | kg $\mathrm{CO}_{2}\mathrm{e}$ per functional unit | To negotiate |
+| Equity | Access or public-service design | Availability and affordability | To negotiate |
+| Governance | Complaints and response process | Complaints resolved on time | To negotiate |
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w10-kpi-svg" aria-labelledby="w10-kpi-svg-title">
@@ -795,16 +790,23 @@ Define baseline, target, measurement method, frequency, owner, assurance, and co
 
 ---
 
-Pull the thread. Measure externalities. Design for privacy. Treat carbon as an appraisal dial. Keep GHG and LCA boundaries distinct. Separate acceptance from licence. Fund equity commitments. Set KPIs with owners. Electric remains necessary but not sufficient.
+Pull the thread. Measure externalities. Design for privacy. Treat carbon as an appraisal dial. Keep GHG and LCA boundaries distinct. Separate acceptance from licence. Fund equity commitments. Set KPIs with owners. Electric alone is not sufficient.
 
 ## 9. Putting Week 10 together
 
 - Address externalities with a mix of technology, standards, operating rules, pricing, compensation, and engagement — not a single “noise × flights” shortcut. Privacy needs lawful purpose, necessity, proportionality, minimization, security, and accountability.
 - Corporate GHG scopes and LCA need clear boundaries; **electric operation does not imply zero life-cycle emissions**. Acceptance varies by use case; equity commitments and KPIs need measurable outcomes, funding, review, and corrective action.
 
-Short checklist: [Summary](#summary).
-
 ---
+
+## Summary {#summary}
+
+- Address externalities with a mix of technology, standards, operating rules, pricing, compensation, and engagement. Do not price noise by multiplying flights by decibels above an assumed threshold.
+- Privacy needs lawful purpose, necessity, proportionality, minimization, security, transparency, retention control, and accountability.
+- Electric operation is not zero life-cycle emissions; keep corporate GHG scopes and life-cycle assessment boundaries clear and consistent.
+- Public acceptance varies by use case and stakeholder. Equity commitments and KPIs need measurable outcomes, transparent funding, review, and corrective action.
+
+**Classroom numbers:** Worked examples use round figures for learning. Sourced programme figures stay on [Key numbers](key-figures.qmd) and [Who decides what?](regulators.qmd#standing-caveats).
 
 ### Study checklist {#study-checklist}
 
@@ -820,8 +822,6 @@ Short checklist: [Summary](#summary).
 10. Compute $\Pi_{\mathrm{net}}$ for a public-service slot commitment; name who pays.  
 11. Fill one mitigation-scorecard row (measure, KPI, payer) without inventing a 60 dB rule.  
 12. Keep **Sandbox ≠ Sandbox X**; cite 2025 Policy Address Action Plan / Sandbox X language only to the issuer.
-
----
 
 ---
 
