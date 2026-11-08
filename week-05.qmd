@@ -1,7 +1,7 @@
 ---
 title: "Week 5: Infrastructure Economics and Management"
 subtitle: "Sites, throughput, scarce slots, and network design"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,39 +17,7 @@ format:
 
 **Class outline (PDF):** [week05-infrastructure.pdf](slides/week05-infrastructure.pdf)
 
-Week 4 asked whether **customers would choose** the service. This week asks whether **sites and capacity** can support that demand — and who gets scarce slots when they cannot. Infrastructure is where Week 2’s pad scarcity, Week 3’s fixed cost, and Week 4’s served-trip logic meet on the ground.
-
-**Orient refreshers:**
-
-- [Glossary · vertiport / infrastructure](glossary.qmd#infrastructure) — classroom vs statutory language  
-- [Week 3](week-03.qmd) — CAPEX / OPEX and contribution  
-- [Week 4](week-04.qmd) — funnel demand vs capacity-served trips  
-- [Companies & sectors](landscape.qmd) — named organisations (not site-share claims)  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- Why infrastructure (not only aircraft) can be the binding bottleneck.
-- Vertiport archetypes, site-selection trade-offs, throughput, and reliability.
-- Breakeven activity, staged ramp-up, and planning for downtime.
-- How scarce slots might be allocated, and hub vs distributed vs hybrid networks.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Infrastructure strategy balances safety, access, utilities, reliable capacity, cost, expandability, and community impact.
-- Breakeven should use reliable capacity and contribution per movement — not a theoretical maximum.
-- Staged investment and liquidity planning reduce the risk of building before demand arrives.
-- Scarce slots need clear allocation and priority rules; peak pricing is only one option.
-- Hub, distributed, and hybrid networks trade facility cost, access, resilience, and connectivity.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** test whether sites and reliable capacity can serve the demand estimated in Week 4, then decide how to allocate scarce slots. Start with [§1](#the-infrastructure-bottleneck); use the [summary](#summary) and [self-check](#self-check) after reading.
 
 ## Learning objectives
 
@@ -61,24 +29,38 @@ By the end of Week 5 you should be able to:
 4. **Assess** methods for allocating scarce slots while protecting priority services.  
 5. **Evaluate** hub, distributed, and hybrid network designs for Hong Kong and the wider GBA as hypotheses, not predetermined templates.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
 | Bottleneck & sites | §§1–3 | Why infrastructure binds; archetypes; multi-criteria site cost |
 | Capacity & cash | §§4–7 | Throughput / reliability; breakeven use; staged ramp-up; downtime return; CAPEX/OPEX |
-| Allocation & network | §§8–10 | Scarce slots; hub / distributed / hybrid; HK–GBA hypotheses |
+| Allocation & network | §§8–9 | Scarce slots; hub / distributed / hybrid; HK–GBA hypotheses |
 | Closing | §§10–11 | Tool map; synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
 - **Core:** [Bottleneck & sites (§1)](#the-infrastructure-bottleneck) → [Capacity & cash (§4)](#throughput-reliability-and-breakeven-capacity-use) → [Putting together (§11)](#putting-week-5-together) → [Self-check](#self-check)
 - **Allocation:** [Scarce slots (§8)](#allocating-scarce-slots) → [Network form (§9)](#network-design-hub-distributed-hybrid)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
 
+**Refreshers:** [Glossary · vertiport / infrastructure](glossary.qmd#infrastructure) · [Week 3](week-03.qmd) · [Week 4](week-04.qmd) · [Companies & sectors](landscape.qmd).
+
+:::
+
 ---
 
 ## 1. The infrastructure bottleneck
+
+Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
+
+**Classroom question:** which resource is most likely to bind — aircraft, landing capacity, charging, airspace access, or customer access? Week 4 demand forecasts only matter if sites can serve them.
+
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples use round figures for learning, not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
+:::
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w05-bottleneck-svg" aria-labelledby="w05-bottleneck-svg-title">
@@ -123,10 +105,6 @@ By the end of Week 5 you should be able to:
 </svg>
 </figure>
 ```
-
-Imagine planning a new LAE service in Hong Kong. Aircraft may be available, but the service also needs a safe operating site, power, communications, passenger or cargo access, maintenance support, and enough **throughput**. A shortage of suitable infrastructure can constrain the whole network.
-
-**Classroom question:** which resource is most likely to bind — aircraft, landing capacity, charging, airspace access, or customer access? Week 4 demand forecasts only matter if sites can serve them.
 
 ### Link back to Weeks 2–4
 
@@ -784,6 +762,8 @@ Distributed wins under these assumed volumes and access times; the ranking can r
 
 Route-specific analysis beats predetermined templates. OHKF *Taking Flight* (infra / supporting-services segment structure) is a **think-tank** framing on [Readings](#readings) — not an HKSAR government figure ([Key numbers](key-figures.qmd)). Do not treat OHKF’s ~HK$350bn value-added horizon as a vertiport CAPEX budget or as GDP.
 
+**Slide exercise:** stress-test a hypothetical **two-pad facility**. Estimate reliable daily capacity, contribution per movement, breakeven capacity use, and a simple annual return. Then reduce serviceable capacity for weather or maintenance and reserve **five daily slots** for priority public service. Recommend a fee, availability payment, subsidy, or cost reduction that keeps the project viable while respecting capacity and priority rules. The [class outline](slides/week05-infrastructure.pdf) has the full exercise and assignment brief.
+
 ---
 
 Network choice needs a sequence. The **tool map** walks site screen → throughput → ramp-up → slots so “build it and they will come” cannot skip cash and capacity.
@@ -869,7 +849,15 @@ Pull the thread. Diagnose the bottleneck. Compare archetypes. Measure site cost.
 - Stage investment and fund the ramp-up. Model weather and maintenance through explicit capacity / demand / cost / recovery channels. Allocate scarce slots with clear rules; peak pricing is one tool among several.
 - Keep classroom “vertiport” language separate from Hong Kong statute, and Sandbox learning separate from permanent slot rights.
 
-Short checklist: [Summary](#summary).
+---
+
+## Summary {#summary}
+
+- Balance safety, access, utilities, reliable capacity, cost, expansion, and community impact in site decisions.
+- Use reliable capacity and contribution per movement for breakeven, not a theoretical maximum.
+- Stage investment and plan liquidity while demand ramps up; model downtime explicitly.
+- State clear slot allocation and priority rules; peak pricing is one possible tool.
+- Compare hub, distributed, and hybrid networks on facility cost, access, resilience, and connectivity.
 
 ---
 
@@ -887,8 +875,6 @@ Short checklist: [Summary](#summary).
 10. Design a scarce-slot rule set (admin / market / priority / ops) and state peak-pricing limits.  
 11. Compare hub vs distributed **GC per served trip**; say when the ranking reverses.  
 12. Keep **no dedicated HK vertiport statute**; **Sandbox ≠ Sandbox X**; OHKF / EASA / Shenzhen Chapter 2 as **comparators / think-tank / GBA law**, not Cap. 448G.
-
----
 
 ---
 
