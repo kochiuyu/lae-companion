@@ -99,8 +99,8 @@ That whole chain is what this course means by LAE. [Week 1](week-01.qmd) starts 
 </figure>
 ```
 
-### What the 1,000-metre figure means
-
+### What the 1,000-metre figure means
+
 That **1,000 metre** figure is a **policy working description** — a way officials and analysts talk about the field. It is **not** the same thing as a flying-height limit in Hong Kong’s main drone law, Cap. 448G ([Glossary · altitude scale](glossary.qmd#altitude-scale); [Official status](tracker.qmd)).
 
 ```{=html}
@@ -302,7 +302,7 @@ Hong Kong already has an active policy track: a Working Group, trial programmes 
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="lae-hk-gba-svg" aria-labelledby="lae-hk-gba-svg-title">
-<p class="wdiag-cap" id="lae-hk-gba-svg-title"><strong>Why Hong Kong / GBA</strong> — course home setting (Working Group, trials, Cap. 448G, Advisory Circulars). Keep <strong> </strong>. A Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> under discussion — on evidence tracked here, <strong>not</strong> day-to-day flying. Private forecasts ≠ government targets. See <a href="regulators.qmd">Who decides what?</a>.</p>
+<p class="wdiag-cap" id="lae-hk-gba-svg-title"><strong>Why Hong Kong / GBA</strong> — course home setting (Working Group, trials, Cap. 448G, Advisory Circulars). Keep <strong>Sandbox and Sandbox X separate</strong>. A Shenzhen–Hong Kong / GBA corridor is a <strong>policy idea</strong> under discussion — on evidence tracked here, <strong>not</strong> day-to-day flying. Private forecasts ≠ government targets. See <a href="regulators.qmd">Who decides what?</a>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="g5-title g5-desc">
   <title id="g5-title">Why Hong Kong / GBA</title>
   <desc id="g5-desc">Course setting: Hong Kong and the Greater Bay Area. Hong Kong already has a Working Group, trial programmes, Cap. 448G, and Advisory Circulars. Keep two sandboxes separate: early Regulatory Sandbox and later Sandbox X. A Shenzhen–Hong Kong or GBA cross-boundary corridor is a policy idea under discussion; on the evidence tracked on this site, flights are not running as day-to-day service. Large private forecasts are not government targets. Sandbox is not Sandbox X.</desc>

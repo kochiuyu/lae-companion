@@ -1,7 +1,7 @@
 ---
 title: "Formulas"
 subtitle: "Teaching identities from the week notes"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -713,7 +713,7 @@ Commercial contribution + public-service payment − public-service cost − fix
 
 ## Week 11 — Viability recommendation {#week-11}
 
-Full notes: [Week 11](week-11.qmd) · 1 identities below.
+Full notes: [Week 11](week-11.qmd) · 1 identity below.
 
 ### Operating viability test {#w11-viability}
 

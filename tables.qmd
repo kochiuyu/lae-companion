@@ -144,7 +144,7 @@ Teaching table from the week notes. [Operating restrictions raise unit cost](wee
 | Programme | How to treat it (issuer-backed counts) |
 |-----------|----------------------------------------|
 | Early **Regulatory Sandbox** | First-batch selection **38 of 72** projects (GIA, 20 Mar 2025). Later Policy Address language may refer to larger counts of regularised projects — those are **different** snapshots, not a substitute for the first-batch figure. |
-| Later **Sandbox X** | Distinct programme. **38 selected pilot projects** across the reported modules: UTM **15** + unconventional aircraft **4** + shared platform **6** + others **13** ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html), as at 8 Nov 2026). A Policy Address snapshot of “~10” projects that had begun testing is a different measure. |
+| Later **Sandbox X** | Distinct programme. As at 8 Nov 2026, **38** selected projects across the listed modules: UTM **15** + unconventional aircraft **4** + shared platform **6** + others **13** ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)). A Policy Address snapshot of “~10” projects that had begun testing is **not** the same as this 38-project selection count ([Key numbers](key-figures.qmd) · [Official status](tracker.qmd)). |
 
 Teaching table from the week notes. [Keep two Hong Kong programmes separate](week-01.qmd#keep-two-hong-kong-programmes-separate)
 
@@ -249,9 +249,9 @@ Teaching table from the week notes. [Worked illustration (limit price and shared
 | Fact | Issuer-backed reading on this site |
 |------|-------------------------------------|
 | First Regulatory Sandbox batch **38 of 72** | [Key numbers](key-figures.qmd) · GIA 20 Mar 2025 |
-| Sandbox X **38 selected pilot projects** across the reported modules (UTM 15 + unconventional 4 + shared platform 6 + others 13) | [TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) · as at 8 Nov 2026 |
+| Sandbox X **38 selected pilot projects** across the reported modules (UTM 15 + unconventional 4 + shared platform 6 + others 13) | [TLB's Sandbox X list](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html) · as at 8 Nov 2026 |
 | “~10” Sandbox X projects that had begun testing | Policy Address snapshot — **not** the same as the 38 selected projects |
-| Trial ≠ dominance | [Who decides what? · standing caveats](regulators.qmd#standing-caveats) |
+| Trial ≠ dominance | [Who decides what?](regulators.qmd#standing-caveats) |
 
 Teaching table from the week notes. [Absolute programme facts (do not invent shares)](week-02.qmd#absolute-programme-facts-do-not-invent-shares)
 
@@ -733,7 +733,7 @@ Teaching table from the week notes. [Comparing regulatory pathways (without fals
 
 ### Regulatory-pathway scorecard {#t07-pathway-scorecard}
 
-| Dimension | Managerial question |
+| Dimension | Classroom question |
 |-----------|---------------------|
 | Clarity | Are requirements and decision points understandable? |
 | Proportionality | Are controls matched to operational risk? |
@@ -818,7 +818,8 @@ Teaching table from the week notes. [Airspace-integration roadmap](week-08.qmd#a
 | 1 | HK$10M | HK$9.1M |
 | 2 | HK$40M | HK$33.1M |
 | 3 | HK$50M | HK$37.6M |
-| **PV of future nets / NPV** | | **HK$79.8M PV → roadmap NPV ≈ HK$29.8M** |
+| **PV of future nets** | | **≈ HK$79.8M** |
+| **Roadmap NPV** | | **≈ HK$29.8M** |
 
 Teaching table from the week notes. [Phased roadmap value](week-08.qmd#phased-roadmap-value)
 
@@ -928,7 +929,7 @@ Teaching table from the week notes. [Integrated dashboard (classroom)](week-09.q
 
 ## Week 10 — Externalities and sustainability {#week-10}
 
-Full notes: [Week 10](week-10.qmd) · 9 tables below.
+Full notes: [Week 10](week-10.qmd) · 10 tables below.
 
 ### Externality types {#t10-externality-types}
 
@@ -1023,6 +1024,18 @@ Teaching table from the week notes. [Funding a public-service commitment](week-1
 | Governance | Complaints resolved on time | Defined process and deadline |
 
 Teaching table from the week notes. [Sustainability KPI design](week-10.qmd#sustainability-kpi-design)
+
+### In-class mitigation scorecard {#t10-mitigation-scorecard}
+
+| Impact | Possible measure | KPI to define | Payer to agree |
+|--------|------------------|---------------|----------------|
+| Noise | Route, schedule, or technology | Exposure metric | To negotiate |
+| Privacy | Data minimization and security | Incident and retention metric | To negotiate |
+| Climate | Energy and utilization strategy | kg $\mathrm{CO}_{2}\mathrm{e}$ per functional unit | To negotiate |
+| Equity | Access or public-service design | Availability and affordability | To negotiate |
+| Governance | Complaints and response process | Complaints resolved on time | To negotiate |
+
+Teaching table from the week notes. [In-class exercise: sustainability agreement](week-10.qmd#in-class-exercise-sustainability-agreement)
 
 ## Week 11 — Synthesis and recommendation {#week-11}
 

@@ -733,7 +733,7 @@ Use the slide's scorecard as a starting point; choose thresholds from evidence r
 
 ```{=html}
 <figure class="wdiag wdiag-svg" id="w10-toolmap-svg" aria-labelledby="w10-toolmap-svg-title">
-<p class="wdiag-cap" id="w10-toolmap-svg-title"><strong>From externality to KPI</strong> — (1) impacts. (2) noise instrument. (3) privacy / C_priv. (4) carbon <strong>appraisal dial</strong> (<strong>not</strong> invented CAD tax). (5) sourced grid factor. (6) LCA same boundary. (7) acceptance by use case. (8) funded public-service $. (9) KPI row with owner. (10) <strong> </strong>; cite Policy Address / Action Plan to <strong>issuer only</strong>.</p>
+<p class="wdiag-cap" id="w10-toolmap-svg-title"><strong>From externality to KPI</strong> — (1) impacts. (2) noise instrument. (3) privacy / C_priv. (4) carbon <strong>appraisal dial</strong> (<strong>not</strong> invented CAD tax). (5) sourced grid factor. (6) LCA same boundary. (7) acceptance by use case. (8) funded public-service $. (9) KPI row with owner. (10) <strong>Sandbox ≠ Sandbox X</strong>; cite Policy Address / Action Plan to <strong>issuer only</strong>.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" style="display:block;width:100%;max-width:44rem;height:auto;margin:.35rem 0 .15rem" aria-labelledby="m1-title m1-desc">
   <title id="m1-title">From externality to KPI</title>
   <desc id="m1-desc">Ten-step Week 10 tool map from externality to KPI: impact list; noise instrument screen; privacy controls; carbon value for appraisal only not invented CAD tax; scope 2 with sourced grid factor; LCA same boundary; acceptance by use case; funded public-service commitment; mitigation scorecard row; Sandbox not Sandbox X and cite Policy Address or Action Plan to issuer only.</desc>
