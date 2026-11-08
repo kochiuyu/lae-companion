@@ -48,10 +48,6 @@ By the end of Week 1 you should be able to:
 
 :::
 
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
-
 ---
 
 ## 1. What is the low-altitude economy?
@@ -557,6 +553,10 @@ Hong Kong’s possible role is often framed as a **[service layer](glossary.qmd#
 Treat this as a **hypothesis to test**, not a settled fact. OHKF’s focus on supporting services in the [2050 value-added projection](glossary.qmd#industry-value-added) fits that framing — but a think-tank story is not proof of comparative advantage (being relatively better at something). You still need evidence on capability, cost, regulation, demand, and competition (Week 12 returns to leasing and service roles).
 
 ---
+
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
+:::
 
 ## 6. Value of time and net present value
 
