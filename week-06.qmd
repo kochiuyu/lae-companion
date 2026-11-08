@@ -1,7 +1,7 @@
 ---
 title: "Week 6: LAE Strategic Partnerships and Business Models"
 subtitle: "Who owns what, who pays whom, and how risk is shared"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,39 +17,7 @@ format:
 
 **Class outline (PDF):** [week06-partnerships.pdf](slides/week06-partnerships.pdf)
 
-Weeks 3–5 built **costs**, **demand**, and **sites**. This week asks which **commercial architecture** (who owns what, and how the pieces fit) delivers the service — own, integrate, or orchestrate — and how **contracts and partnerships** allocate risk when pads, demand, and weather are uncertain.
-
-**Orient refreshers:**
-
-- [How does LAE work?](business-overview.qmd) — roles in the value chain  
-- [Week 5](week-05.qmd) — sites, scarce slots, staged infrastructure  
-- [Glossary · PPP](glossary.qmd#business-and-economics) — course term, not a statute  
-- [Key numbers](key-figures.qmd) — sourced Sandbox counts  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- Three commercial architectures: asset-intensive, service-based, and platform-oriented.
-- When a public–private partnership might make sense—and what it does not fix.
-- Usage vs availability payments, risk allocation, and contractual flexibility / staging.
-- Sharing facilities (co-opetition) and negotiating a simple partnership term sheet.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Ownership, service integration, and platforms mix control, capital, capability, and risk differently.
-- A PPP is about value for money and long-term risk allocation—not just accessing public money.
-- Availability payments should link to measurable readiness and performance, with clear deductions and relief.
-- Assign each risk to the party best able to manage it.
-- Shared infrastructure can lower unit cost only if access, governance, congestion, data, liability, and competition are managed.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** choose who owns, integrates, or coordinates an LAE service, then design payments and risk sharing for the partnership. Start with [§1](#choosing-the-commercial-architecture); use the [summary](#summary) and [self-check](#self-check) after reading. The worked numbers are classroom examples, not current Hong Kong market data.
 
 ## Learning objectives
 
@@ -61,7 +29,9 @@ By the end of Week 6 you should be able to:
 4. **Allocate** demand, weather, operational, regulatory, and financing risks to the parties best able to manage them.  
 5. **Evaluate** phased investment and contractual flexibility under uncertain market development.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -71,11 +41,15 @@ By the end of Week 6 you should be able to:
 | Institutions & close | §§7–10 | Comparators; term-sheet principle; tool map; synthesis |
 | Checklist | — | Study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
-- **Core:** [Architecture (§1)](#1-choosing-the-commercial-architecture) → [PPP / payments (§3)](#3-public--private-partnerships-ppp) → [Putting together (§10)](#10-putting-week-6-together) → [Self-check](#self-check)
-- **Flexibility & share:** [Staging / options (§5)](#5-contractual-flexibility-and-real-options) → [Co-opetition (§6)](#6-co-opetition-and-shared-facilities)
+- **Core:** [Architecture (§1)](#choosing-the-commercial-architecture) → [PPP / payments (§3)](#publicprivate-partnerships-ppp) → [Putting together (§10)](#putting-week-6-together) → [Self-check](#self-check)
+- **Flexibility & share:** [Staging / options (§5)](#contractual-flexibility-and-real-options) → [Co-opetition (§6)](#co-opetition-and-shared-facilities)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [How does LAE work?](business-overview.qmd) · [Week 5](week-05.qmd) · [Glossary · PPP](glossary.qmd#business-and-economics) · [Key numbers](key-figures.qmd).
+
+:::
 
 ---
 
@@ -621,6 +595,8 @@ Comparators inform judgment. **Term-sheet thinking** assigns each risk to the pa
 
 ## 8. Term-sheet thinking (risk to the best party)
 
+**Slide exercise:** a public authority wants a drone service for municipal bridge inspections. In government and operator teams, draft five term-sheet points: scope and service period; usage, availability, or hybrid payment; two measurable KPIs with deductions or incentives; weather, demand, regulatory, and performance risk owners; and one phased-expansion, change, or termination provision. The class format is 15 minutes of negotiation and 5 minutes of discussion. Use the matrix below to test whether each side could accept the deal.
+
 When negotiating (classroom exercise style), map at least:
 
 | Issue | Public authority typically wants | Operator typically wants |
@@ -762,6 +738,18 @@ Pull the thread. Choose the architecture. Run the profit screen. Design PPP and 
 - Keep **Sandbox ≠ Sandbox X**. Trial participation is not a commercial franchise or corridor operating claim.
 
 Short checklist: [Summary](#summary).
+
+---
+
+## Summary {#summary}
+
+- Ownership, service integration, and platforms trade off control, capital, capability, and risk; the economic-profit screen alone does not settle the choice.
+- A PPP needs better value for money and credible long-term risk allocation, not simply public funding.
+- Availability payments need measurable readiness and performance, deductions, and fair relief; usage payments expose the provider more directly to volume.
+- Staging and contractual flexibility can add value, but waiting also costs money or opportunity.
+- Shared facilities can lower unit cost when access, congestion, data, liability, and competition are governed. Put risk ownership, KPIs, and the price of transfer into the term sheet.
+
+**Classroom figures** are illustrative. For sourced programme counts and status, use [Key numbers](key-figures.qmd) and [Who decides what?](regulators.qmd#standing-caveats).
 
 ---
 
