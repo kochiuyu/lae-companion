@@ -52,7 +52,7 @@
   };
 
   function pageFile() {
-    var path = (location.pathname || "").replace(/\\/+$/, "");
+    var path = (location.pathname || "").replace(/\/+$/, "");
     var base = path.split("/").pop() || "index.html";
     if (!base || base.indexOf(".") === -1) base = "index.html";
     return base;

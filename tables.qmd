@@ -55,7 +55,7 @@ Teaching table from the week notes. [Scope labels (keep them distinct)](week-01.
 | [**UAM (urban air mobility)**](glossary.qmd#uam) | A *subset*: moving people or cargo over short distances **inside** a dense city. |
 | [**AAM (advanced air mobility)**](glossary.qmd#aam) | A broader industry label for new aircraft connecting cities to suburbs or other corridors. |
 
-Teaching table from the week notes. [LAE, UAM, and AAM](week-01.qmd#3-lae-uam-and-aam)
+Teaching table from the week notes. [LAE, UAM, and AAM](week-01.qmd#lae-uam-and-aam)
 
 ### Mission-family economics {#t01-mission-family-economics}
 
@@ -87,7 +87,7 @@ Teaching table from the week notes. [Net present value (NPV)](week-01.qmd#net-pr
 | Time saved vs a 45-minute alternative | 30 minutes = 0.5 h | 10 minutes ≈ 0.167 h |
 | Value of time saved | $1000\times 0.5 =$ **HK$500** | $1000\times 0.167 \approx$ **HK$167** |
 
-Teaching table from the week notes. [8.1 Door-to-door friction destroys value](week-01.qmd#8-1-door-to-door-friction-destroys-value)
+Teaching table from the week notes. [8.1 Door-to-door friction destroys value](week-01.qmd#door-to-door-friction-destroys-value)
 
 ### Week 1 tools on one page {#t01-week1-tools-fit}
 
@@ -99,7 +99,7 @@ Teaching table from the week notes. [8.1 Door-to-door friction destroys value](w
 | Cost per passenger | Fixed cost ÷ (flights × seats × load) | Fare floor before profit |
 | NPV | Whether investment is justified | Staging / sandbox learning (Week 6–7) |
 
-Teaching table from the week notes. [8.3 How the Week 1 tools fit on one page](week-01.qmd#8-3-how-the-week-1-tools-fit-on-one-page)
+Teaching table from the week notes. [8.3 How the Week 1 tools fit on one page](week-01.qmd#how-the-week-1-tools-fit-on-one-page)
 
 ### Roles in the LAE chain {#t01-roles}
 
@@ -167,7 +167,7 @@ Teaching table from the week notes. [Entry barriers as a simple sum](week-01.qmd
 | **Capacity** | Seats available |
 | **Load factor** | Share of seats actually occupied |
 
-Teaching table from the week notes. [The empty-seat problem and unit cost](week-01.qmd#13-the-empty-seat-problem-and-unit-cost)
+Teaching table from the week notes. [The empty-seat problem and unit cost](week-01.qmd#the-empty-seat-problem-and-unit-cost)
 
 ### Load factor and unit cost (comparison) {#t01-load-factor-unit-cost}
 
@@ -307,7 +307,7 @@ Teaching table from the week notes. [Worked illustration (investment level and u
 | Cost of capacity offered? | CASK | ATC at a given utilization |
 | How many units to survive? | Breakeven / required missions | Density needed to lower ATC |
 
-Teaching table from the week notes. [From cost stack to unit economics (tool chain)](week-03.qmd#3-from-cost-stack-to-unit-economics-tool-chain)
+Teaching table from the week notes. [From cost stack to unit economics (tool chain)](week-03.qmd#from-cost-stack-to-unit-economics-tool-chain)
 
 ### Utilization and CASK {#t03-utilization-cask}
 
@@ -338,7 +338,7 @@ Teaching table from the week notes. [Cost per mission-kilometre](week-03.qmd#cos
 | **Availability-based contract** | Higher | Customer / shared | Public or critical readiness |
 | **Complementary services** | Varies | Varies | Data, analytics, maintenance, platform |
 
-Teaching table from the week notes. [Revenue models: more than one transaction type](week-03.qmd#5-revenue-models-more-than-one-transaction-type)
+Teaching table from the week notes. [Revenue models: more than one transaction type](week-03.qmd#revenue-models-more-than-one-transaction-type)
 
 ### Price and breakeven missions {#t03-price-breakeven}
 
@@ -379,7 +379,7 @@ Teaching table from the week notes. [Worked illustration (five grounded days)](w
 | Scale opportunity | Complex urban services | Manufacturing and network scale |
 | Potential role | Finance, logistics, services | Technology, production, operations |
 
-Teaching table from the week notes. [Hong Kong and the GBA: cost and revenue hypotheses](week-03.qmd#9-hong-kong-and-the-gba-cost-and-revenue-hypotheses)
+Teaching table from the week notes. [Hong Kong and the GBA: cost and revenue hypotheses](week-03.qmd#hong-kong-and-the-gba-cost-and-revenue-hypotheses)
 
 ## Week 4 — Demand, GC, and scenarios {#week-04}
 
@@ -461,7 +461,7 @@ Teaching table from the week notes. [Worked illustration (weekly capacity shock)
 | Scale | Limited local geography | Broader network potential |
 | Key question | Value per trip | Volume and network reach |
 
-Teaching table from the week notes. [Hong Kong and the GBA: demand hypotheses](week-04.qmd#10-hong-kong-and-the-gba-demand-hypotheses)
+Teaching table from the week notes. [Hong Kong and the GBA: demand hypotheses](week-04.qmd#hong-kong-and-the-gba-demand-hypotheses)
 
 ## Week 5 — Sites, slots, and networks {#week-05}
 
@@ -475,7 +475,7 @@ Full notes: [Week 5](week-05.qmd) · 10 tables below.
 | **Integrated hub** | Multiple pads/stands plus charging, processing, maintenance | High capability; high cost and complexity |
 | **Ground-based** | Available land site | Often easier to expand; may mean longer access to customers |
 
-Teaching table from the week notes. [Three classroom vertiport archetypes](week-05.qmd#2-three-classroom-vertiport-archetypes)
+Teaching table from the week notes. [Three classroom vertiport archetypes](week-05.qmd#three-classroom-vertiport-archetypes)
 
 ### Two archetypes (site cost screen) {#t05-two-archetypes-site-cost}
 
@@ -545,7 +545,7 @@ Teaching table from the week notes. [Illustrative peak-pricing rule (design choi
 | **Distributed** | Better customer access; resilience | Duplicated fixed cost; thinner activity per site |
 | **Hybrid** | Major hubs plus feeders / specialised sites | Coordination complexity |
 
-Teaching table from the week notes. [Network design: hub, distributed, hybrid](week-05.qmd#9-network-design-hub-distributed-hybrid)
+Teaching table from the week notes. [Network design: hub, distributed, hybrid](week-05.qmd#network-design-hub-distributed-hybrid)
 
 ### GC per served trip (concentrated vs distributed) {#t05-gc-per-served-trip}
 
@@ -581,7 +581,7 @@ Full notes: [Week 6](week-06.qmd) · 7 tables below.
 | **Service integrator** | Promises an outcome (e.g. delivery availability, inspection coverage) while leasing assets or contracting operators | Lower asset ownership; high coordination and performance risk |
 | **Platform orchestrator** | Connects customers, operators, infrastructure, and data services | Fewer physical assets; software, cybersecurity, compliance, customer acquisition, and network risk |
 
-Teaching table from the week notes. [Three business-model archetypes](week-06.qmd#2-three-business-model-archetypes)
+Teaching table from the week notes. [Three business-model archetypes](week-06.qmd#three-business-model-archetypes)
 
 ### Three archetypes (worked comparison) {#t06-archetypes-worked}
 
@@ -634,7 +634,7 @@ Teaching table from the week notes. [Facility cost per movement](week-06.qmd#fac
 | **United States** | FAA / interagency coordination of certification, operations, airspace, infrastructure, environment, community engagement |
 | **GBA collaboration** | May combine manufacturing, operating, testing, finance, logistics, and professional services across jurisdictions |
 
-Teaching table from the week notes. [Institutional approaches (comparators)](week-06.qmd#7-institutional-approaches-comparators)
+Teaching table from the week notes. [Institutional approaches (comparators)](week-06.qmd#institutional-approaches-comparators)
 
 ### Term-sheet issues (authority vs operator) {#t06-term-sheet-issues}
 
@@ -646,7 +646,7 @@ Teaching table from the week notes. [Institutional approaches (comparators)](wee
 | Risk | Transfer where value improves | Accept only manageable, priced risk |
 | Flexibility | Ability to adapt the public service | Compensation for material changes |
 
-Teaching table from the week notes. [Term-sheet thinking (risk to the best party)](week-06.qmd#8-term-sheet-thinking-risk-to-the-best-party)
+Teaching table from the week notes. [Term-sheet thinking (risk to the best party)](week-06.qmd#term-sheet-thinking-risk-to-the-best-party)
 
 ## Week 7 — Regulation, trials, and readiness {#week-07}
 
@@ -669,7 +669,7 @@ Teaching table from the week notes. [Value of earlier market readiness](week-07.
 | **First Regulatory Sandbox** | Earlier batch of selected pilot projects (first batch **38 of 72** — issuer on Week 6 Readings / Official status) |
 | **Sandbox X** | Later programme for selected project concepts on predefined routes under controlled conditions; modules and testing counts on [Key numbers](key-figures.qmd) |
 
-Teaching table from the week notes. [Hong Kong’s risk-based SUA frame and Sandbox X](week-07.qmd#3-hong-kong-s-risk-based-sua-frame-and-sandbox-x)
+Teaching table from the week notes. [Hong Kong’s risk-based SUA frame and Sandbox X](week-07.qmd#hong-kongs-risk-based-sua-frame-and-sandbox-x)
 
 ### Value of a controlled trial {#t07-controlled-trial}
 
@@ -689,7 +689,7 @@ Teaching table from the week notes. [Value of a controlled trial](week-07.qmd#va
 | **Aircraft certification / airworthiness** | Passenger-carrying or larger unconventional aircraft may need a substantially different framework (trials for unconventional aircraft discussed under Cap. 448C provisions in official replies — see Glossary / regulators) |
 | **Infrastructure / site approval** | Landing sites and supporting facilities may involve planning, building, fire, land, environmental, and other requirements |
 
-Teaching table from the week notes. [Approval, permission, and certification (do not conflate)](week-07.qmd#5-approval-permission-and-certification-do-not-conflate)
+Teaching table from the week notes. [Approval, permission, and certification (do not conflate)](week-07.qmd#approval-permission-and-certification-do-not-conflate)
 
 ### Compliance investment appraisal {#t07-compliance-appraisal}
 
@@ -709,7 +709,7 @@ Teaching table from the week notes. [Compliance investment appraisal](week-07.qm
 | Control cost | — | HK$3M |
 | **Total / comparison** | HK$6M | HK$4.5M → **illustrative expected saving HK$1.5M** |
 
-Teaching table from the week notes. [The safety case and risk cost](week-07.qmd#6-the-safety-case-and-risk-cost)
+Teaching table from the week notes. [The safety case and risk cost](week-07.qmd#the-safety-case-and-risk-cost)
 
 ### U-space / UTM coordination cost {#t07-utm-coordination-cost}
 
@@ -718,7 +718,7 @@ Teaching table from the week notes. [The safety case and risk cost](week-07.qmd#
 | Daily cost | 100 staff-hours × HK$300 = HK$30,000 | System HK$8,000 + oversight HK$7,000 = HK$15,000 |
 | **Monthly cost** | **HK$900,000** | **HK$450,000** |
 
-Teaching table from the week notes. [U-space, UTM, and coordination cost](week-07.qmd#7-u-space-utm-and-coordination-cost)
+Teaching table from the week notes. [U-space, UTM, and coordination cost](week-07.qmd#u-space-utm-and-coordination-cost)
 
 ### Comparing regulatory pathways {#t07-regulatory-pathways}
 
@@ -729,7 +729,7 @@ Teaching table from the week notes. [U-space, UTM, and coordination cost](week-0
 | **United States** | Certification, operational approvals, airspace integration, infrastructure, and implementation planning under FAA / interagency programmes |
 | **Mainland China and the GBA** | Distinct national and local regulatory environment; route-specific and cross-boundary coordination |
 
-Teaching table from the week notes. [Comparing regulatory pathways (without false rankings)](week-07.qmd#8-comparing-regulatory-pathways-without-false-rankings)
+Teaching table from the week notes. [Comparing regulatory pathways (without false rankings)](week-07.qmd#comparing-regulatory-pathways-without-false-rankings)
 
 ### Regulatory-pathway scorecard {#t07-pathway-scorecard}
 
@@ -752,7 +752,7 @@ Teaching table from the week notes. [Regulatory-pathway scorecard](week-07.qmd#r
 | 2. Extended trial | More operating conditions or users | Repeated performance and stakeholder feedback | Approved review and updated controls |
 | 3. Scaled operation | Wider route, frequency, or fleet | Ongoing monitoring and incident reporting | Continued compliance and periodic review |
 
-Teaching table from the week notes. [Phased regulatory roadmap](week-07.qmd#9-phased-regulatory-roadmap)
+Teaching table from the week notes. [Phased regulatory roadmap](week-07.qmd#phased-regulatory-roadmap)
 
 ## Week 8 — Congestion, slots, and roadmaps {#week-08}
 
@@ -778,7 +778,7 @@ Teaching table from the week notes. [Marginal congestion cost (illustrative)](we
 | **Auctions** | Bids for scarce time windows or route access |
 | **Package allocation** | Linked departure, corridor, arrival, and charging reservations allocated together |
 
-Teaching table from the week notes. [Mechanism design and slot allocation](week-08.qmd#4-mechanism-design-and-slot-allocation)
+Teaching table from the week notes. [Mechanism design and slot allocation](week-08.qmd#mechanism-design-and-slot-allocation)
 
 ### Maximum affordable slot payment {#t08-bmax-slot}
 
@@ -808,7 +808,7 @@ Teaching table from the week notes. [Coordination-cost savings](week-08.qmd#coor
 | **2. Extended operations** | More conditions; repeated performance; interoperable services; stakeholder feedback | Approved review and updated controls |
 | **3. Scaled network** | Wider capacity only after thresholds met | Continued compliance; periodic review |
 
-Teaching table from the week notes. [Airspace-integration roadmap](week-08.qmd#7-airspace-integration-roadmap)
+Teaching table from the week notes. [Airspace-integration roadmap](week-08.qmd#airspace-integration-roadmap)
 
 ### Phased roadmap NPV cash flows {#t08-roadmap-npv-cf}
 
@@ -834,7 +834,7 @@ Full notes: [Week 9](week-09.qmd) · 9 tables below.
 | **Serviceable market** | Portion compatible with route, service level, willingness to pay, regulation, and infrastructure |
 | **Obtainable demand** | Portion the operator may realistically serve after competition and capacity constraints |
 
-Teaching table from the week notes. [Market sizing](week-09.qmd#2-market-sizing)
+Teaching table from the week notes. [Market sizing](week-09.qmd#market-sizing)
 
 ### Funnel → contribution (steps) {#t09-funnel-contribution-steps}
 
@@ -912,7 +912,7 @@ Teaching table from the week notes. [Illustrative specification](week-09.qmd#ill
 | **Public finance** | Subsidies, infrastructure spending, availability payments, alternative uses of public funds |
 | **Public services** | Emergency response and medical logistics may create broad benefits — evaluate against alternative delivery methods |
 
-Teaching table from the week notes. [Social equity and distributional analysis](week-09.qmd#7-social-equity-and-distributional-analysis)
+Teaching table from the week notes. [Social equity and distributional analysis](week-09.qmd#social-equity-and-distributional-analysis)
 
 ### Integrated dashboard (classroom) {#t09-integrated-dashboard}
 
@@ -924,7 +924,7 @@ Teaching table from the week notes. [Social equity and distributional analysis](
 | Uncertainty | Ranges, distributions, correlations, $E[\Pi]$, $\Pr(\Pi < 0)$ |
 | Social impact | Benefits, costs, affected groups, mitigation and who pays |
 
-Teaching table from the week notes. [Integrated dashboard (classroom)](week-09.qmd#8-integrated-dashboard-classroom)
+Teaching table from the week notes. [Integrated dashboard (classroom)](week-09.qmd#integrated-dashboard-classroom)
 
 ## Week 10 — Externalities and sustainability {#week-10}
 
@@ -939,7 +939,7 @@ Full notes: [Week 10](week-10.qmd) · 9 tables below.
 | **Climate and energy** | Operational electricity emissions, supply-chain emissions, peak-load requirements |
 | **Positive effects** | Time savings, safer inspection, emergency response, knowledge, network benefits |
 
-Teaching table from the week notes. [Externalities](week-10.qmd#2-externalities)
+Teaching table from the week notes. [Externalities](week-10.qmd#externalities)
 
 ### Quieter technology (noise charge) {#t10-quieter-technology}
 
@@ -969,7 +969,7 @@ Teaching table from the week notes. [Privacy-control cost](week-10.qmd#privacy-c
 | 40 kg $\mathrm{CO}_{2}\mathrm{e}$/operation | $50{,}000 \times 40 = 2{,}000{,}000$ kg | **HK\$2M** |
 | 10 kg $\mathrm{CO}_{2}\mathrm{e}$/operation | $50{,}000 \times 10 = 500{,}000$ kg | **HK\$0.5M** |
 
-Teaching table from the week notes. [Carbon cost scenarios (appraisal aid — not a claimed CAD tax)](week-10.qmd#4-carbon-cost-scenarios-appraisal-aid-not-a-claimed-cad-tax)
+Teaching table from the week notes. [Carbon cost scenarios (appraisal aid — not a claimed CAD tax)](week-10.qmd#carbon-cost-scenarios-appraisal-aid-not-a-claimed-cad-tax)
 
 ### GHG inventory vs life-cycle concepts {#t10-ghg-lca-concepts}
 
@@ -980,7 +980,7 @@ Teaching table from the week notes. [Carbon cost scenarios (appraisal aid — no
 | **Scope 3** | Other indirect value-chain emissions (e.g. aircraft, batteries, infrastructure, maintenance, end-of-life) |
 | [**LCA**](glossary.qmd#lca) | Environmental impacts of a defined product or service across a specified life cycle and functional unit |
 
-Teaching table from the week notes. [GHG inventory and life-cycle assessment](week-10.qmd#5-ghg-inventory-and-life-cycle-assessment)
+Teaching table from the week notes. [GHG inventory and life-cycle assessment](week-10.qmd#ghg-inventory-and-life-cycle-assessment)
 
 ### Operational electricity emissions {#t10-op-electricity-emissions}
 
@@ -1022,7 +1022,7 @@ Teaching table from the week notes. [Funding a public-service commitment](week-1
 | Equity | Service availability by area | Population, need, and affordability |
 | Governance | Complaints resolved on time | Defined process and deadline |
 
-Teaching table from the week notes. [Sustainability KPI design](week-10.qmd#8-sustainability-kpi-design)
+Teaching table from the week notes. [Sustainability KPI design](week-10.qmd#sustainability-kpi-design)
 
 ## Week 11 — Synthesis and recommendation {#week-11}
 
@@ -1060,7 +1060,7 @@ Teaching table from the week notes. [Airport-corridor screening (illustrative ch
 | Technology | Cost and availability | Test, redundancy, supplier plan | Performance threshold |
 | Community impact | Route and operating conditions | Mitigation and engagement | Exposure and complaint KPI |
 
-Teaching table from the week notes. [Risk register and decision-gated roadmap](week-11.qmd#4-risk-register-and-decision-gated-roadmap)
+Teaching table from the week notes. [Risk register and decision-gated roadmap](week-11.qmd#risk-register-and-decision-gated-roadmap)
 
 ### Decision-maker lenses {#t11-decision-maker-lenses}
 
@@ -1072,7 +1072,7 @@ Teaching table from the week notes. [Risk register and decision-gated roadmap](w
 | **Public value** | Are benefits, costs, access, and distribution addressed? |
 | **Decision quality** | Does the recommendation acknowledge uncertainty, alternatives, and conditions for revision? |
 
-Teaching table from the week notes. [The decision-maker's lens](week-11.qmd#5-the-decision-maker-s-lens)
+Teaching table from the week notes. [The decision-maker's lens](week-11.qmd#the-decision-makers-lens)
 
 ### 12-minute decision pitch {#t11-twelve-minute-pitch}
 
