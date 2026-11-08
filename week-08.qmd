@@ -1,7 +1,7 @@
 ---
 title: "Week 8: Airspace Access and Integration"
 subtitle: "Scarce capacity, allocation rules, and digital coordination"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,39 +17,7 @@ format:
 
 **Class outline (PDF):** [week08-airspace.pdf](slides/week08-airspace.pdf)
 
-Week 7 mapped permissions and safety cases. This week asks how **scarce low-altitude capacity** is allocated when demand exceeds what can be served safely — and how digital coordination supports integration without inventing corridor capacities (do not invent throughput numbers the issuers have not published).
-
-**Orient refreshers:**
-
-- [Week 5](week-05.qmd) — scarce site slots  
-- [Week 7](week-07.qmd) — Cap. 448G, Sandbox X, U-space ≠ HK law  
-- [Who decides what?](regulators.qmd) — who regulates  
-- [Glossary · airspace](glossary.qmd#airspace-and-traffic) — UTM / U-space labels  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- Why safe capacity and demand collide (the morning capacity conflict).
-- Congestion as an [externality](glossary.qmd#externality) / [congestion externality](glossary.qmd#congestion-externality) and simple ways to think about delay cost.
-- Slot allocation options: queues, reservations, priority, peak pricing, auctions.
-- Digital coordination, [interoperability](glossary.qmd#interoperability), and a phased airspace-integration roadmap.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Airspace capacity depends on the whole operating system—not an unsupported “drones per minute” number.
-- Congestion pricing estimates external delay cost; queues, reservations, priority, and auctions serve different goals.
-- Auctions can reveal willingness to pay but need safeguards for safety, competition, new entrants, and public-service access.
-- Interoperability can cut duplicate coordination and support scale; it is not free or automatically safe.
-- A credible roadmap links each capacity or privilege expansion to evidence, review, and a financially consistent decision gate.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** identify which part of the operating system limits safe capacity, then compare ways to allocate scarce slots and coordinate more flights. Start with [§1](#the-800-am-capacity-conflict); use the [summary](#summary) and [self-check](#self-check) after reading. Worked numbers are classroom examples, not published Hong Kong corridor capacities.
 
 ## Learning objectives
 
@@ -61,7 +29,9 @@ By the end of Week 8 you should be able to:
 4. **Evaluate** how digital coordination and interoperability affect cost, safety, and scalability.  
 5. **Design** a phased airspace-integration roadmap with explicit evidence and decision gates.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -70,11 +40,15 @@ By the end of Week 8 you should be able to:
 | Networks & digital | §§5–6 | [Network effects](glossary.qmd#network-effects); [interoperability](glossary.qmd#interoperability); OFCA / AC-017 facts |
 | Roadmap & close | §§7–9 | Phased integration NPV; tool map; synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
 - **Core:** [Conflict & capacity (§1)](#the-800-am-capacity-conflict) → [Congestion & mechanisms (§3)](#congestion-externalities) → [Putting together (§9)](#putting-week-8-together) → [Self-check](#self-check)
 - **Networks & roadmap:** [Network effects (§5)](#network-effects-and-shared-information) → [Digital coordination (§6)](#digital-coordination-and-interoperability) → [Integration roadmap (§7)](#airspace-integration-roadmap)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Week 5](week-05.qmd) · [Week 7](week-07.qmd) · [Who decides what?](regulators.qmd) · [Glossary · airspace](glossary.qmd#airspace-and-traffic).
+
+:::
 
 ---
 
@@ -407,6 +381,8 @@ Use incremental values associated with obtaining the slot — not total company 
 | **Maximum affordable payment** | **HK$500** | **HK$1,100** |
 
 Operator B can afford a higher bid under these assumptions. Actual payment depends on auction design and competing bids — not necessarily “one dollar above A.” Commercial slots remain subject to safety, priority, and competition rules.
+
+**Slide exercise — allocating a scarce slot:** disruption reduces three planned corridors to one available commercial slot. In commercial-operator, public-service customer, airspace-manager, and community roles, calculate each operator’s maximum affordable payment; choose an allocation rule and its objective; apply any predefined public-service priority; decide what happens to cancelled or displaced flights; and assess efficiency, fairness, competition, and daily breakeven. The class format is 15 minutes plus 5 minutes of discussion.
 
 **Exercise ledger (classroom):** cargo $B_{\max}$ = revenue − cost − contribution = $800 - 400 - 100$ = **HK$300**; passenger = $2000 - 600 - 400$ = **HK$1,000**. If priority public service is triggered, record who bears displacement cost and whether compensation, rescheduling, or reserved capacity applies.
 
@@ -743,6 +719,18 @@ Pull the thread. Start from the capacity conflict. Find the system bottleneck. P
 - Keep **Sandbox ≠ Sandbox X**; **U-space ≠ Hong Kong law**; keep **OFCA Sandbox spectrum** separate from **AC-017 Sandbox X** cross-boundary permission.
 
 Short checklist: [Summary](#summary).
+
+---
+
+## Summary {#summary}
+
+- Safe airspace capacity depends on routes, separation, communications, weather, sites, charging, permissions, and dispatch together; an unsupported “drones per minute” claim cannot stand in for that system.
+- Congestion calculations estimate delay imposed on others. Queues, reservations, priority rules, prices, auctions, and linked-slot packages serve different aims.
+- A maximum affordable bid is an operator’s private limit, not proof of social priority. Protect safety, public-service access, competition, and new entrants in the allocation rule.
+- Network participation and interoperable digital coordination can lower duplicate work, but they also need data quality, oversight, cybersecurity, and governance.
+- Expand an airspace network through evidence and review gates, with cash flows that reflect each stage. The classroom NPV is not a Hong Kong–GBA forecast.
+
+For sourced programme figures and status, use [Key numbers](key-figures.qmd) and [Who decides what?](regulators.qmd#standing-caveats).
 
 ---
 
