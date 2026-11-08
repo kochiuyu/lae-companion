@@ -1,7 +1,7 @@
 ---
 title: "Week 11: Synthesis and Capstone Group Presentations"
 subtitle: "One connected model, a viability test, and a clear recommendation"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,38 +17,7 @@ format:
 
 **Class outline (PDF):** [week11-capstone.pdf](slides/week11-capstone.pdf)
 
-Weeks 1–10 built the toolkit; this week asks how to **integrate** demand, capacity, economics, infrastructure, partnerships, regulation, and sustainability into **one coherent strategy** — and how to present a defensible recommendation (proceed / stage / redesign / reject).
-
-**Orient refreshers:**
-
-- [Course overview](overview.qmd) — course map  
-- [Week 9](week-09.qmd) — market sizing and social value  
-- [Week 10](week-10.qmd) — externalities and KPIs  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- How to connect every weekly tool into one coherent strategy (not separate homework answers).
-- The viability test: cash flow, [NPV](glossary.qmd#npv), breakeven, downside risk, and non-financial criteria.
-- Airport-corridor screening example, risk register, and decision gates.
-- How to give a clear 12-minute recommendation and a short executive deck.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Synthesis means a connected model—not a pile of independent weekly calculations.
-- Served activity is limited by both customer demand and reliable capacity.
-- Judge viability with contribution, cash flow, NPV, downside risk, and non-financial criteria together.
-- A credible recommendation states evidence, limitations, residual risks, and when you would change course.
-- Clear presentation makes assumptions and trade-offs visible instead of hiding uncertainty.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** connect demand, reliable capacity, economics, infrastructure, partnerships, regulation, and sustainability into one decision. Start with [§1](#seeing-the-whole-system); for your presentation, use the [12-minute pitch](#a-12-minute-decision-pitch) and [twelve-slide deck](#twelve-slide-executive-deck-template). Review the [summary](#summary) and [self-check](#self-check) afterward. Worked numbers are classroom examples, not current Hong Kong market data.
 
 ## Learning objectives
 
@@ -60,7 +29,9 @@ By the end of Week 11 you should be able to:
 4. **Present** a concise 12-minute recommendation supported by transparent evidence and sensitivity analysis.  
 5. **Defend** the proposal by explaining limitations, decision gates, and conditions under which the recommendation should change.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -69,11 +40,15 @@ By the end of Week 11 you should be able to:
 | Pitch & evidence | §§5–6 | Decision-maker lenses; 12-minute pitch; weak vs strong; deck + logistics |
 | Close | §7 | Synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
-- **Core:** [Whole system (§1)](#1-seeing-the-whole-system) → [Strategy & risk (§3)](#3-integrated-strategy-template) → [Putting together (§7)](#7-putting-week-11-together) → [Self-check](#self-check)
-- **Pitch:** [Decision-maker lens (§5)](#5-the-decision-maker-s-lens) → [Deck / logistics (§6)](#6-presentation-logistics-and-feedback)
+- **Core:** [Whole system (§1)](#seeing-the-whole-system) → [Strategy & risk (§3)](#integrated-strategy-template) → [Putting together (§7)](#putting-week-11-together) → [Self-check](#self-check)
+- **Pitch:** [Decision-maker lens (§5)](#the-decision-makers-lens) → [Deck / logistics (§6)](#presentation-logistics-and-feedback)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Course overview](overview.qmd) · [Week 9](week-09.qmd) · [Week 10](week-10.qmd).
+
+:::
 
 ---
 
@@ -88,7 +63,7 @@ A strong capstone does more than collect ten weeks of separate calculations:
 
 **Synthesis** means tracing how one changed assumption affects the rest of the model. Ask which assumption in your project creates the largest cascade if it changes.
 
-**Connecting idea.** If noise mitigation raises $C_{\mathrm{priv}}$ or fixed cost (Week 10) and a curfew cuts reliable capacity $K$ (Week 8), both effects must hit the **same** [cash-flow](glossary.qmd#cash-flow) path — not two independent “ESG slides” that never change $\Pi_{\mathrm{op}}$ or $\mathrm{NPV}$.
+**Connecting idea.** If privacy controls raise $C_{\mathrm{priv}}$, noise mitigation raises fixed cost (Week 10), or a curfew cuts reliable capacity $K$ (Week 8), each effect must hit the **same** [cash-flow](glossary.qmd#cash-flow) path — not independent “ESG slides” that never change $\Pi_{\mathrm{op}}$ or $\mathrm{NPV}$.
 
 ---
 
@@ -681,9 +656,16 @@ Pull the thread. Trace the cascade. Apply the viability test. Fill the six-block
 - Judge viability through contribution, cash flow, NPV, downside risk, and non-financial criteria together. A credible recommendation states evidence, limitations, residual risks, and conditions for changing course.
 - Keep absolute facts with issuers; keep **Sandbox ≠ Sandbox X**.
 
-Short checklist: [Summary](#summary).
-
 ---
+
+## Summary {#summary}
+
+- Synthesis means one connected model: served activity is limited by both customer demand and reliable capacity.
+- Judge viability with contribution, cash flow, [NPV](glossary.qmd#npv), downside risk, and non-financial criteria together. Put each constraint in its correct model channel without double counting.
+- A credible recommendation states its evidence, limitations, residual risks, decision gates, and conditions for changing course.
+- Clear presentation makes assumptions and trade-offs visible rather than hiding uncertainty.
+
+**Classroom numbers:** Worked examples use round figures for learning. Sourced programme figures stay on [Key numbers](key-figures.qmd) and [Who decides what?](regulators.qmd#standing-caveats).
 
 ### Study checklist {#study-checklist}
 
@@ -699,8 +681,6 @@ Short checklist: [Summary](#summary).
 10. Distinguish OHKF value added, operator revenue, and social benefit (Week 9).  
 11. Put one Week 10 externality ($C_{\mathrm{priv}}$, $e_{\mathrm{op}}$, or noise mitigation) into the cash-flow or capacity channel.  
 12. Recommend proceed / stage / redesign / relocate / **reject** with evidence — rejection can be the rigorous answer.
-
----
 
 ---
 
