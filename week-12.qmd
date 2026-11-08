@@ -1,7 +1,7 @@
 ---
 title: "Week 12: LAE Future Frontiers and Final Review"
-subtitle: "Networks, services roles, and the course viability test"
-as_of: "2026-10-17"
+subtitle: "Networks, service roles, and the course viability test"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,38 +17,7 @@ format:
 
 **Class outline (PDF):** [week12-future.pdf](slides/week12-future.pdf)
 
-Week 11 synthesized the capstone; this week looks ahead to **networks and service roles**, then **reapplies** the course viability test for final review.
-
-**Orient refreshers:**
-
-- [Course overview](overview.qmd) — course map  
-- [Week 11](week-11.qmd) — viability synthesis  
-- [Key numbers](key-figures.qmd) — sourced Sandbox counts  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- From corridors to networks: more nodes create possible links, not automatic demand or value.
-- Digital coordination as a business and governance question (cost, reliability, oversight).
-- Possible Hong Kong service roles: financing, leasing, insurance, professional services, data-enabled assurance.
-- Final review: reapply the course viability test and the five-step exam method.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Adding nodes raises possible connections; it does not guarantee viable demand or value.
-- Judge digital coordination by total system cost, reliability, oversight, and governance—not buzzwords.
-- Hong Kong roles in services and assurance still carry risk; leasing and similar plays do not make risk disappear.
-- Reapply the viability test to integrated quantitative scenarios before recommending a path.
-- The goal is consistent judgment under operational, regulatory, financial, and social constraints.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** screen which network links could become viable services, assess digital coordination and Hong Kong service roles, then practise a conditional decision. Start with [§1](#the-next-horizon); for revision, use the [five-step exam method](#final-review-five-step-exam-method) and its [worked shock](#worked-illustration-capacity-and-cost-shock). Review the [summary](#summary) and [self-check](#self-check) afterward. Worked numbers are classroom examples, not current Hong Kong market data.
 
 ## Learning objectives
 
@@ -60,7 +29,9 @@ By the end of Week 12 you should be able to:
 4. **Apply** the course viability test to integrated quantitative scenarios.  
 5. **Develop** recommendations that remain consistent with operational, regulatory, financial, and social constraints.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -69,11 +40,15 @@ By the end of Week 12 you should be able to:
 | Exam method & judgment | §§5–6 | Five-step method; viability reapplied; toolkit; consistent judgment |
 | Close | §7 | Synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
 - **Core:** [Horizon & networks (§1)](#the-next-horizon) → [Exam method (§5)](#final-review-five-step-exam-method) → [Putting together (§7)](#putting-week-12-together) → [Self-check](#self-check)
 - **Digital & roles:** [Digital coordination (§3)](#digital-coordination-and-governance) → [HK service roles (§4)](#possible-hong-kong-service-roles)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Course overview](overview.qmd) · [Week 11](week-11.qmd) · [Key numbers](key-figures.qmd).
+
+:::
 
 ---
 
@@ -618,9 +593,16 @@ Pull the thread. Set the horizon. Screen the network. Keep digital NPV disciplin
 - Hong Kong roles in services and assurance still carry risk; leasing and similar plays do not make risk disappear. Reapply the viability test before recommending a path.
 - Keep absolute facts with issuers; keep **Sandbox ≠ Sandbox X**.
 
-Short checklist: [Summary](#summary).
-
 ---
+
+## Summary {#summary}
+
+- Adding nodes raises possible connections; it does not guarantee viable demand or value.
+- Judge digital coordination by total system cost, reliability, oversight, and governance.
+- Hong Kong service and assurance roles still carry risk; leasing does not make risk disappear.
+- Reapply the viability test to quantitative scenarios before recommending a path. Keep units and constraints consistent across operational, regulatory, financial, and social questions.
+
+**Classroom numbers:** Worked examples use round figures for learning. Sourced programme figures stay on [Key numbers](key-figures.qmd) and [Who decides what?](regulators.qmd#standing-caveats).
 
 ### Study checklist {#study-checklist}
 
@@ -636,8 +618,6 @@ Short checklist: [Summary](#summary).
 10. Map one constraint to a single channel (no multi-haircut).  
 11. Run the five-step exam method on a past Week 11 use case.  
 12. Close with proceed / pause / redesign / stop **and** the evidence that would change the call.
-
----
 
 ---
 
