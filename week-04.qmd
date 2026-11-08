@@ -1,7 +1,7 @@
 ---
 title: "Week 4: Demand Modeling in Urban Air Mobility"
 subtitle: "Whether customers choose LAE — funnels, generalized cost, and scenarios"
-as_of: "2026-10-17"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -17,38 +17,7 @@ format:
 
 **Class outline (PDF):** [week04-demand.pdf](slides/week04-demand.pdf)
 
-Week 3 asked what you must **charge** and how costs behave under utilization and weather. This week asks whether **enough customers would choose** the service at a viable price — and how to present that answer as transparent scenarios rather than a single “market size” claim.
-
-**Orient refreshers:**
-
-- [Week 1 · generalized cost](week-01.qmd#7-generalized-cost-and-mode-choice) — VOT, GC, and fare ceilings  
-- [Week 3](week-03.qmd) — contribution, capacity, and required activity  
-- [Glossary · business and economics](glossary.qmd#business-and-economics) — shared definitions  
-
-## Summary {#summary}
-
-**Before class**
-
-*Skim these before the lecture — they preview what this week page covers.*
-
-- Whether customers would actually choose an LAE option versus other modes.
-- A simple demand funnel: potential trips → corridor/mode share → capacity constraints.
-- Willingness to pay, generalized cost, elasticity, and why customers are not all the same.
-- How to treat public acceptance and shocks as explicit scenarios—not a magic multiplier.
-
-**After this note**
-
-*The main ideas this week page should leave you with. Check them after you finish the note (or after class).*
-
-- Demand models give evidence-based scenarios, not exact predictions.
-- Keep potential demand, available capacity, flights, and passengers actually served distinct.
-- Generalized cost compares whole journeys; mode choice stays heterogeneous and probabilistic.
-- Elasticity helps with pricing, but revenue and profit also depend on capacity and cost.
-- Public acceptance and external shocks should enter through clear, justified assumptions.
-
-::: {.callout-note appearance="simple"}
-**Classroom numbers.** Worked examples use round figures for learning — not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
-:::
+**This week:** test whether enough customers would choose an LAE service at a viable price. Start with [§1](#would-customers-actually-choose-it); use the [summary](#summary) and [self-check](#self-check) after reading.
 
 ## Learning objectives
 
@@ -60,7 +29,9 @@ By the end of Week 4 you should be able to:
 4. **Incorporate** public acceptance as a transparent scenario assumption rather than a fixed universal multiplier.  
 5. **Stress-test** demand and revenue under weather, capacity, and policy scenarios.
 
-### How this week is organised
+::: {.callout-note collapse="true" title="Study route and section map"}
+
+**How this week is organised**
 
 | Part | Sections | Focus |
 |------|----------|--------|
@@ -70,11 +41,15 @@ By the end of Week 4 you should be able to:
 | Acceptance & shocks | §§8–10 | AiRMOUR lens; scenario shocks; HK–GBA demand hypotheses |
 | Closing | §§11–12 | Tool map; synthesis; study checklist |
 
-**Suggested paths** (same-page anchors; scaffold only)
+**Suggested paths** (same-page anchors)
 
-- **Core:** [Choice & WTP (§1)](#1-would-customers-actually-choose-it) → [Funnel & GC (§4)](#4-a-four-step-travel-demand-frame-and-a-simple-funnel) → [Putting together (§12)](#12-putting-week-4-together) → [Self-check](#self-check)
-- **Response & shocks:** [Elasticity (§6)](#6-elasticity-of-demand) → [Acceptance (§8)](#8-public-acceptance-as-scenarios-airmour-lens) → [Scenarios (§9)](#9-scenario-analysis-and-shocks)
+- **Core:** [Choice & WTP (§1)](#would-customers-actually-choose-it) → [Funnel & GC (§4)](#a-four-step-travel-demand-frame-and-a-simple-funnel) → [Putting together (§12)](#putting-week-4-together) → [Self-check](#self-check)
+- **Response & shocks:** [Elasticity (§6)](#elasticity-of-demand) → [Acceptance (§8)](#public-acceptance-as-scenarios-airmour-lens) → [Scenarios (§9)](#scenario-analysis-and-shocks)
 - **Exam close:** [Study checklist](#study-checklist) → [Self-check](#self-check) → [Summary](#summary)
+
+**Refreshers:** [Week 1 · generalized cost](week-01.qmd#generalized-cost-and-mode-choice) · [Week 3](week-03.qmd) · [Glossary · business and economics](glossary.qmd#business-and-economics).
+
+:::
 
 ---
 
@@ -84,11 +59,15 @@ Imagine a proposed airport air-mobility service in Hong Kong. The aircraft may b
 
 The commercial question is not only whether the service can fly. It is whether **enough customers will choose it at a viable price** — linking back to Week 3 breakeven volume and contribution.
 
+::: {.callout-note appearance="simple"}
+**Classroom numbers.** Worked examples use round figures for learning, not current Hong Kong market data. Sourced programme figures stay on [Key numbers](key-figures.qmd) · [Who decides what?](regulators.qmd#standing-caveats).
+:::
+
 Factors that often matter: price, door-to-door time, reliability, convenience, and public confidence. Rankings differ by customer and trip purpose.
 
 ### Link back to Week 3 (and Week 1)
 
-Week 3 produced a **required activity** number (missions or flights per day to cover fixed cost). Week 4 asks whether **demand at a viable price** can deliver that activity — after capacity binds. Week 1 already showed that friction and access time can destroy $\Delta T$ even when cruise is fast ([generalized cost](week-01.qmd#7-generalized-cost-and-mode-choice)). This week puts those ideas into a demand-modelling toolkit.
+Week 3 produced a **required activity** number (missions or flights per day to cover fixed cost). Week 4 asks whether **demand at a viable price** can deliver that activity — after capacity binds. Week 1 already showed that friction and access time can destroy $\Delta T$ even when cruise is fast ([generalized cost](week-01.qmd#generalized-cost-and-mode-choice)). This week puts those ideas into a demand-modelling toolkit.
 
 ::: {.callout-note appearance="simple"}
 **Corridor language.** Planned or trial corridors are not day-to-day operating service — see [Who decides what?](regulators.qmd#standing-caveats).
@@ -472,6 +451,10 @@ Differentiation can raise revenue under assumed responses; still check cost, cap
 
 ---
 
+**Slide exercise:** in groups, price two products on a hypothetical airport shuttle corridor: a flexible business offer and a tourist offer. Use the class spreadsheet to change segment prices, observe the assumed elasticity response and total volume, then seek the highest total revenue. Check capacity, contribution, and fairness before treating that revenue as a viable business result. The [class outline](slides/week04-demand.pdf) has the full exercise and assignment brief; its spreadsheet is distributed in class.
+
+---
+
 Private WTP (willingness to pay) is not social licence. **Public acceptance** scenarios (AiRMOUR lens) adjust demand or operating windows when communities or rules push back — still not a measured Hong Kong citywide rate.
 
 ## 8. Public acceptance as scenarios (AiRMOUR lens)
@@ -709,7 +692,15 @@ Pull the thread. Start from WTP. Keep modelling limits honest. Use the funnel an
 - Use **elasticity** and **segmentation** carefully; check capacity and cost before celebrating revenue. Put **acceptance** and **shocks** in explicit, justified assumptions.
 - Confront every demand headline with Week 3’s required activity and physical pad limits.
 
-Short checklist: [Summary](#summary).
+---
+
+## Summary {#summary}
+
+- Demand modelling gives evidence-based scenarios, not exact predictions.
+- Keep potential passenger demand, available seats and flights, and passengers served distinct.
+- Generalized cost compares complete journeys; customers and their mode choices differ.
+- Elasticity and product offers help assess pricing, but revenue and profit also depend on capacity and cost.
+- Put public acceptance and external shocks in explicit, justified assumptions.
 
 ---
 
@@ -727,8 +718,6 @@ Short checklist: [Summary](#summary).
 10. Run a capacity shock and recompute revenue with $Q_{\text{served}}=\min\{Q_d,Q_c\}$.  
 11. Link served demand to Week 3 **breakeven / required activity**.  
 12. Keep **Sandbox ≠ Sandbox X**; treat NASA / AiRMOUR / EASA as **comparators**, not HK demand quotes.
-
----
 
 ---
 
