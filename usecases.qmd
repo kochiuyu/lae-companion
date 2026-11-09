@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-11-05"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -22,7 +22,7 @@ Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating*
 - **Independently reported:** a news outlet’s own reporting.
 - **Officially confirmed:** confirmed in a linked official release or document.
 
-**Board last checked 5 Nov 2026** (`as_of`). Census: **68** use-case items (46 trial · 22 operating), grouped by application below — newest first within each section.
+**Board last checked 8 Nov 2026** (`as_of`). Census: **68** use-case items (46 trial · 22 operating), grouped by application below — newest first within each section.
 
 ## By application
 
@@ -53,7 +53,7 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="uc-by-app">
-<p class="itl-head"><strong>Use cases by application</strong> (board last checked 5 Nov 2026) — 68 items (46 trial · 22 operating). Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Use cases by application</strong> (board last checked 8 Nov 2026) — 68 items (46 trial · 22 operating). Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
 <details class="itl-card" open><summary>Delivery<span class="n">27 items · 13 trial · 14 operating</span></summary><ol>
 <li id="tl-uc-2026-10-30-amazon-nampa"><a href="#uc-item-2026-10-30-amazon-nampa"><span class="chip">30 Oct 2026</span> · Amazon Prime Air — Nampa ID / Boise-metro drone delivery live<span class="badge b-op">Operating</span></a></li>
@@ -71,7 +71,7 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 <li id="tl-uc-2026-09-30-yangpu" class="st-open"><a href="#uc-item-2026-09-30-yangpu"><span class="chip">30 Sep 2026</span> · Yangpu Port — maritime-anchorage UAV livelihood-supply first flight<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-09-21-keeta-chung-on" class="st-open"><a href="#uc-item-2026-09-21-keeta-chung-on"><span class="chip">21 Sep 2026</span> · Keeta Drone — Chung On Estate first public-housing delivery<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-09-10-meituan-mcd"><a href="#uc-item-2026-09-10-meituan-mcd"><span class="chip">10 Sep 2026</span> · Meituan × McDonald’s — Shanghai West Bund dedicated F&B route<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
-<li id="tl-uc-2026-09-09-meituan-longhua"><a href="#uc-item-2026-09-09-meituan-longhua"><span class="chip">9–10 Sep 2026</span> · Meituan Drone — Shenzhen Longhua air network to 15 points<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
+<li id="tl-uc-2026-09-09-meituan-longhua"><a href="#uc-item-2026-09-09-meituan-longhua"><span class="chip">9–10 Sep 2026</span> · Meituan Drone — Shenzhen Longhua air network to 15 points (company pause 11–21 Nov)<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-09-03-wing-part135"><a href="#uc-item-2026-09-03-wing-part135"><span class="chip">3 Sep 2026</span> · Wing Aviation — FAA Part 135 package-delivery operator (ongoing)<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-08-13-wing-houston"><a href="#uc-item-2026-08-13-wing-houston"><span class="chip">13 Aug 2026</span> · FAA FONSI/ROD — Wing Houston package-delivery environmental decision<span class="badge b-op">Operating</span><span class="badge b-off">Official</span></a></li>
 <li id="tl-uc-2026-05-22-meituan-infra"><a href="#uc-item-2026-05-22-meituan-infra"><span class="chip">22 May 2026</span> · Meituan — drone-delivery infrastructure said to enter commercial use<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
@@ -288,7 +288,8 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
   - What's happening: District/city government reprint of densification colour for a network said to have operated for half a year. Merchant/radius/time metrics are company-origin via official local reprint — not audited here.
   - Note: Freshest GBA operating delivery densification colour adjacent to the live window.
   - Update (29 Oct 2026 · [龙华政府在线](https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_13045514.html)): district feature says Meituan now has **26** air-network points in Longhua and flew about **280,000** sorties there in Jan–Sep 2026 (+40% year on year; volume already above full-year 2025) — district press of operator figures; not audited.
-  - Annotate (3 Nov 2026; refreshed 5 Nov 2026 · Shenzhen 市政府 《关于加强低空飞行管控的通告》): Futian + Nanshan **7 Nov 00:00–10 Nov 24:00**; city-wide excl. 深汕 from **11 Nov 00:00–21 Nov 24:00**; default ban on low-altitude aircraft / airborne objects; logistics transport may fly **only after** prior departmental approval. Longhua sits inside the city-wide window (from 11 Nov). **Do not invent** sortie interruption, pause duration, or approval outcomes — status remains **operating** pending operator/official-of-operator evidence. [南方网](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml) · [Official status](tracker.qmd) · [Government news](news.qmd#press-item-2026-11-03-sz-apec-control)
+  - Annotate (3 Nov 2026; refreshed 5 Nov 2026 · Shenzhen 市政府 《关于加强低空飞行管控的通告》): Futian + Nanshan **7 Nov 00:00–10 Nov 24:00**; city-wide excl. 深汕 from **11 Nov 00:00–21 Nov 24:00**; default ban on low-altitude aircraft / airborne objects; logistics transport may fly **only after** prior departmental approval. Longhua sits inside the city-wide window (from 11 Nov); Futian + Nanshan phase **in force since 7 Nov**. [南方网](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml) · [Official status](tracker.qmd) · [Government news](news.qmd#press-item-2026-11-03-sz-apec-control)
+  - Annotate (8 Nov 2026 · company notice via 羊城晚报·羊城派, 7 Nov): Meituan Drone says its **Shenzhen** drone-delivery service **suspends 11–21 Nov**, with resumption to be notified later; routes in other cities are unaffected (so Hong Kong Keeta / Sandbox items are **not** covered by this notice). Whether Futian / Nanshan routes flew during 7–10 Nov is **not stated**. Status stays **operating as of 8 Nov 2026**, with a **scheduled company-announced pause from 11 Nov**. [羊城派](https://ycpai.ycwb.com/content/ikimvjjtkl/content_54341319.html) · [Government news](news.qmd#press-item-2026-11-07-meituan-sz-pause)
   - Read instead: [Companies & sectors](landscape.qmd) (Meituan Drone).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}

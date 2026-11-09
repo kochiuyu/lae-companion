@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 subtitle: "Terms and diagrams you can cite"
-as_of: "2026-11-01"
+as_of: "2026-11-08"
 page-layout: article
 format:
   html:
@@ -47,7 +47,7 @@ flowchart LR
         UCA["Over-150 kg<br/>unconventional-aircraft law<br/>PLANNED: drafting within 2027"]
         TMS["Smart Low-altitude<br/>Traffic Management System<br/>PLANNED: from 2028"]
         CAP["Cap. 448G<br/>SUA Order"]
-        GN["G.N. 5936<br/>restricted flying zones<br/>effective 26 Sep 2026"]
+        GN["G.N. 7132<br/>Sandbox restricted flying zones<br/>effective 7 Nov 2026"]
         AC13["AC-013<br/>BVLOS in Sandbox"]
         AC17["AC-017<br/>cross-boundary<br/>in Sandbox X"]
         LIC["1.4 GHz UAS<br/>(Private) Licence<br/>27 Oct 2025"]
@@ -93,7 +93,7 @@ flowchart LR
     style ML fill:#f8f6f1,stroke:#7a6a4f,color:#5a4a2f
 ```
 
-Sources (as of 6 Oct 2026): Working Group led by the Deputy Financial Secretary ([2024 Policy Address ¶82](https://www.policyaddress.gov.hk/2024/en/p81.html)); Secretary for Transport and Logistics as Deputy Head, and TLB carrying out Sandbox pilot projects by batches ([GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)); Working Group selection of Sandbox projects ([GIA, 20 Mar 2025](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)) and Sandbox X projects ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)); Sandbox X launch ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)); Action Plan still being formulated ([STL to LegCo, 2 Oct 2026, Chinese only](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm); [2026 Policy Address ¶139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)); TLB indicators 34–35 ([PA Annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)); CAD technical study on the traffic management system, and Sandbox X cross-boundary trial flights “as soon as practicable” ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); CAD as Cap. 448G regulator ([CAD](https://www.cad.gov.hk/english/sua.html); [Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); [G.N. 5936](https://www.cad.gov.hk/documents/G.N.5936_E.pdf); [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf); 1.4 GHz licence, CAD flight-path approval and Sandbox-only use ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)); Civil Aviation Law and Art. 258 ([CAAC](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html); [CAAC English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html)); [国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm); CCAR-92 and §92.5 ([Ministry of Transport](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html)); ATM Rules draft ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)); 粤府办〔2024〕6号 and its Greater Bay Area corridor aim ([Guangdong](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html)).
+Sources (as of 6 Oct 2026): Working Group led by the Deputy Financial Secretary ([2024 Policy Address ¶82](https://www.policyaddress.gov.hk/2024/en/p81.html)); Secretary for Transport and Logistics as Deputy Head, and TLB carrying out Sandbox pilot projects by batches ([GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)); Working Group selection of Sandbox projects ([GIA, 20 Mar 2025](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)) and Sandbox X projects ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)); Sandbox X launch ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)); Action Plan still being formulated ([STL to LegCo, 2 Oct 2026, Chinese only](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm); [2026 Policy Address ¶139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)); TLB indicators 34–35 ([PA Annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)); CAD technical study on the traffic management system, and Sandbox X cross-boundary trial flights “as soon as practicable” ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); CAD as Cap. 448G regulator ([CAD](https://www.cad.gov.hk/english/sua.html); [Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); [G.N. 7132](https://www.cad.gov.hk/documents/G.N.7132_E.pdf) (supersedes [G.N. 5936](https://www.cad.gov.hk/documents/G.N.5936_E.pdf) from 7 Nov 2026); [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf); 1.4 GHz licence, CAD flight-path approval and Sandbox-only use ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)); Civil Aviation Law and Art. 258 ([CAAC](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html); [CAAC English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html)); [国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm); CCAR-92 and §92.5 ([Ministry of Transport](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html)); ATM Rules draft ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)); 粤府办〔2024〕6号 and its Greater Bay Area corridor aim ([Guangdong](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html)).
 
 Dashed boxes and dashed arrows (OPEN, PLANNED, DRAFT) are not yet established. Solid arrows are relationships stated in the sources above. Corridor and Sandbox status: [Official status](tracker.qmd).
 
@@ -763,7 +763,7 @@ HKAIP special-use airspace types (禁區／限制區／危險區). Sandbox BVLOS
 
 **restricted flying zone (限制飛行區)**
 
-CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2.
+CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2. Two kinds of designation sit under Cap. 448G s.19: the Director-General of Civil Aviation designates Sandbox-pilot zones under s.19(1) (e.g. [G.N. 7132](https://www.cad.gov.hk/documents/G.N.7132_E.pdf)), and the Secretary for Security designates security-site zones under s.19(3) (e.g. [G.N. 7133](https://www.cad.gov.hk/documents/G.N.7133_E.pdf)). Both are Gazette designations, not amendments to Cap. 448G.
 
 **Smart low-altitude traffic management (智能低空交通管理系統)**
 

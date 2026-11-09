@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-11-05"
+as_of: "2026-11-08"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,8 +50,14 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 5 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 8 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
+<details class="itl-card" open><summary>November 2026<span class="n">4 items</span></summary><ol>
+<li id="tl-ind-2026-11-08-hubei-gov-drone-brigade"><a href="#industry-item-2026-11-08-hubei-gov-drone-brigade"><span class="chip">8 Nov</span> · Hubei government-affairs drone brigade + linkage platform (湖北大数据集团 / 湖北机场集团)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-11-07-meituan-sz-pause"><a href="#industry-item-2026-11-07-meituan-sz-pause"><span class="chip">7 Nov</span> · 美团无人机 — Shenzhen drone delivery paused 11–21 Nov (APEC control)<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-11-07-dji-flycart200-luzhou"><a href="#industry-item-2026-11-07-dji-flycart200-luzhou"><span class="chip">4–7 Nov</span> · DJI FlyCart200 cargo-drone agent project — Luzhou first public test flight<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-11-06-wing-fort-worth"><a href="#industry-item-2026-11-06-wing-fort-worth"><span class="chip">6 Nov</span> · Wing — up to US$125m Fort Worth drone factory (company claims)<span class="badge b-co">Company</span></a></li>
+</ol></details>
 <details class="itl-card" open><summary>October 2026<span class="n">46 items</span></summary><ol>
 <li id="tl-ind-2026-10-31-amazon-westborough-withdrawn"><a href="#industry-item-2026-10-31-amazon-westborough-withdrawn"><span class="chip">31 Oct</span> · Amazon Prime Air — Westborough MA launch-site application withdrawn (never live)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-10-30-amazon-nampa"><a href="#industry-item-2026-10-30-amazon-nampa"><span class="chip">30 Oct</span> · Amazon Prime Air — Nampa ID / Boise-metro drone delivery live<span class="badge b-ind">Indep.</span></a></li>
@@ -161,6 +167,50 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 </ol></details>
 </div></div>
 ``````
+
+### November 2026 {#industry-2026-11}
+
+- []{#industry-item-2026-11-08-hubei-gov-drone-brigade .industry-item}**8 Nov 2026 · 中国新闻网 (Wuhan):** The Hubei Provincial Government-Affairs Drone Brigade (湖北省政务领域无人机大队) is established and the Hubei Government-Affairs Drone Linkage Application Platform (湖北政务无人机联动应用平台) launched in Wuhan. Hosted by the Digital Hubei "One Map" task force (数智湖北"一张图"建设工作专班); organised (承办) by **湖北大数据集团** (Hubei Big Data Group) and **湖北机场集团** (Hubei Airport Group); the provincial Public Security Department handles flight-safety risk control. [中新网](https://www.chinanews.com.cn/sh/2026/11-08/10728390.shtml)
+  - Tag: Independently reported
+  - What's new: A Mainland **public-service fleet-pooling** model: from each body building and using its own drones (自建自用) to jointly built and shared fleets (共建共用). Press says the platform has connected **13,000+** drones and **120+** AI recognition algorithms, with first applications in water resources and housing / construction — press claims, **not audited**; "connected" drones ≠ operating aircraft. Comparator only; not Hong Kong.
+  - Status: Launch (8 Nov); operating cadence not evidenced.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-hubei-gov-drone-brigade)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「湖北省政务领域无人机大队成立暨湖北政务无人机联动应用平台发布仪式8日在武汉举行……本次活动由数智湖北"一张图"建设工作专班主办，湖北大数据集团、湖北机场集团承办。」…「据介绍，湖北政务无人机联动应用平台目前累计接入无人机1.3万余架，能力仓库沉淀AI识别算法120多项，首批应用覆盖水利、住建等部门的场景」]{lang="zh-Hans"} ([source](https://www.chinanews.com.cn/sh/2026/11-08/10728390.shtml))
+
+  English (LAE-Intel translation): The establishment of the Hubei Provincial Government-Affairs Drone Brigade and launch of the Hubei Government-Affairs Drone Linkage Application Platform were held in Wuhan on the 8th … hosted by the Digital Hubei "One Map" construction task force, organised by Hubei Big Data Group and Hubei Airport Group. Reportedly, the platform has so far connected more than 13,000 drones, accumulated more than 120 AI recognition algorithms, and its first applications cover water-resources and housing-and-construction scenarios.
+  :::
+
+- []{#industry-item-2026-11-07-meituan-sz-pause .industry-item}**7 Nov 2026 · 羊城晚报·羊城派 (reporting a 「美团无人机」 notice):** Meituan Drone says its **Shenzhen** drone-delivery service will suspend operations **11–21 Nov**, with resumption to be notified later; routes in other cities are unaffected. [羊城派](https://ycpai.ycwb.com/content/ikimvjjtkl/content_54341319.html)
+  - Tag: Company-announced (via independent press)
+  - What's new: Operator-announced service pause linked to the Shenzhen APEC temporary low-altitude control (municipal notice, 3 Nov). The economic effect is **not quantified** by the source; whether Futian / Nanshan routes flew during 7–10 Nov is **not stated**.
+  - Status: Scheduled company pause 11–21 Nov; Hong Kong Keeta / Sandbox routes not covered by the notice.
+  - Read instead: [Government news](news.qmd#press-item-2026-11-03-sz-apec-control) · [Use cases](usecases.qmd#uc-item-2026-09-09-meituan-longhua) · [Companies & sectors](landscape.qmd#firm-meituan-drone)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「深圳美团无人机配送服务将于11月11日-11月21日暂停运营，恢复运营时间需等后续通知。其他城市航线不受本次调整影响。」]{lang="zh-Hans"} ([source](https://ycpai.ycwb.com/content/ikimvjjtkl/content_54341319.html))
+
+  English (LAE-Intel translation): Meituan's Shenzhen drone delivery service will suspend operations from 11 to 21 November; resumption time to be notified later. Routes in other cities are unaffected by this adjustment.
+  :::
+
+- []{#industry-item-2026-11-07-dji-flycart200-luzhou .industry-item}**7 Nov 2026 · 中新网四川 (photos via 江阳区融媒体中心):** First public test flight in Luzhou of a DJI **FlyCart200** cargo drone on **4 Nov**, from a rooftop in Fanhuali, Luzhou High-tech Zone; the article says this marks Luzhou's first DJI cargo-drone project landing in Jiangyang District. [中新网四川](https://www.sc.chinanews.com.cn/shouye/2026-11-07/251808.html)
+  - Tag: Independently reported
+  - What's new: Technicians quoted say single-aircraft max payload **200 kg**, four-aircraft cooperative lift up to **600 kg**, and **40 km** video-link range — **capability claims**, not certification or permission. A "project agent" (项目代理人) frames uses as mountain logistics, emergency supply and forest fire; the operating entity is not named.
+  - Status: Local agent / distributor project test flight — **not** a DJI corporate announcement.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-dji-shenzhen)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「11月4日，在泸州高新区繁华里一幢楼顶……这是大疆FlyCart200型运载无人机在泸州的首次公开试飞，标志着泸州首个大疆运载无人机项目正式落地江阳区。」…「据技术人员介绍，FlyCart200单机最大载重200公斤，四机协同最大载重可达600公斤」]{lang="zh-Hans"} ([source](https://www.sc.chinanews.com.cn/shouye/2026-11-07/251808.html))
+
+  English (LAE-Intel translation): On 4 November, on a rooftop in Fanhuali, Luzhou High-tech Zone … this was the first public test flight of the DJI FlyCart200 cargo drone in Luzhou, marking the formal landing of Luzhou's first DJI cargo-drone project in Jiangyang District. According to technicians, a single FlyCart200 can carry up to 200 kg, and four aircraft cooperating up to 600 kg.
+  :::
+
+- []{#industry-item-2026-11-06-wing-fort-worth .industry-item}**6 Nov 2026 · Fort Worth Report:** Wing Aviation officials announce an investment of up to **US$125m** over two years in a Fort Worth, Texas drone-manufacturing factory. [Fort Worth Report](https://fortworthreport.org/2026/11/06/wing-aviation-to-invest-125m-into-fort-worth-drone-manufacturing-factory/)
+  - Tag: Company-announced (independently reported announcement)
+  - What's new: Company claims via the report: 15,000 sq ft facility; up to 100 jobs; "tens of thousands of drones annually"; ~70 Walmart locations served and more than 1 million home deliveries this year; Walmart partnership to expand to 270+ stores in seven new markets — **not audited**. Manufacturing investment is an **economic / industrial** claim; the article's link to the FAA's forthcoming BVLOS framework is **not** a new legal permission. Wing's own release not opened.
+  - Status: Company-announced plan; no factory output evidenced.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-wing-aviation) · [Use cases: Wing Charlotte](usecases.qmd#uc-item-2026-10-21-wing-charlotte)
 
 ### October 2026 {#industry-2026-10}
 
