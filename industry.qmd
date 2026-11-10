@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-11-08"
+as_of: "2026-11-10"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,12 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 8 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 10 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">4 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">7 items</span></summary><ol>
+<li id="tl-ind-2026-11-09-keeta-astana"><a href="#industry-item-2026-11-09-keeta-astana"><span class="chip">9 Nov</span> · Keeta Drone × Astana — MoU, “solution provider” entry into Central Asia (plan)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-11-09-meituan-dalian-shahekou"><a href="#industry-item-2026-11-09-meituan-dalian-shahekou"><span class="chip">9 Nov</span> · Meituan Drone × Dalian Shahekou — low-altitude MoU, first Northeast China project (plan)<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-11-09-zipline-walmart-300"><a href="#industry-item-2026-11-09-zipline-walmart-300"><span class="chip">5–9 Nov</span> · Zipline — Walmart +300 sites (plan); reported US$1.5bn round<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-11-08-hubei-gov-drone-brigade"><a href="#industry-item-2026-11-08-hubei-gov-drone-brigade"><span class="chip">8 Nov</span> · Hubei government-affairs drone brigade + linkage platform (湖北大数据集团 / 湖北机场集团)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-07-meituan-sz-pause"><a href="#industry-item-2026-11-07-meituan-sz-pause"><span class="chip">7 Nov</span> · 美团无人机 — Shenzhen drone delivery paused 11–21 Nov (APEC control)<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-11-07-dji-flycart200-luzhou"><a href="#industry-item-2026-11-07-dji-flycart200-luzhou"><span class="chip">4–7 Nov</span> · DJI FlyCart200 cargo-drone agent project — Luzhou first public test flight<span class="badge b-ind">Indep.</span></a></li>
@@ -169,6 +172,36 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ``````
 
 ### November 2026 {#industry-2026-11}
+
+- []{#industry-item-2026-11-09-keeta-astana .industry-item}**9 Nov 2026 · 观点网:** Meituan Drone’s overseas brand KeetaDrone enters the Central Asian market under a “solution provider” model, signing a **memorandum of cooperation (MoU, labelled)** with a local Kazakh partner and the Astana city government. [观点网](https://www.guandian.cn/article/20261109/625185.html)
+  - Tag: Independently reported
+  - What's new: Meituan will export technology and operations capability to the local partner and train a localised operations team — an asset-light model in which Meituan licenses technology and know-how instead of operating the route itself. **No** route, fleet or start date is stated; the partner is **not named**.
+  - Status: MoU (plan) — **not** an operation.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-meituan-drone)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，美团无人机海外品牌KeetaDrone以"解决方案提供商"模式正式进入中亚市场。」…「美团与哈萨克斯坦当地合作伙伴及阿斯塔纳市政府签署合作备忘录，以战略合作伙伴身份参与当地低空配送体系建设。」…「美团将向本地合作伙伴输出技术与运营能力，并培养本土化运营团队。」]{lang="zh-Hans"} ([source](https://www.guandian.cn/article/20261109/625185.html))
+
+  English (LAE-Intel translation): Recently, Meituan Drone's overseas brand KeetaDrone formally entered the Central Asian market under a "solution provider" model. Meituan signed a memorandum of cooperation with a local partner in Kazakhstan and the Astana city government, taking part as a strategic partner in building the local low-altitude delivery system. Meituan will export technology and operations capability to the local partner and train a localised operations team.
+  :::
+
+- []{#industry-item-2026-11-09-meituan-dalian-shahekou .industry-item}**9 Nov 2026 · 科技日报, reprinted by 新华网:** 深圳美团低空物流科技有限公司 signs a low-altitude economy **MoU (labelled)** with 大连市沙河口区人民政府; 大连市沙河口建设投资集团 and 大连云智航科技有限公司 sign separate cooperation agreements with Meituan Drone at the same time. [新华网](https://www.news.cn/tech/20261109/b948ad5595e8431380e7ae9597920b0f/c.html)
+  - Tag: Independently reported
+  - What's new: The report calls this Meituan Drone’s first cooperation project in Northeast China. Planned scenes are instant delivery, medical delivery and industrial-sample transfer; the first Xinghai Bay route is **to be opened**, so it is **not operating**. A commercial agreement — not legal permission and not demonstrated capability in Dalian.
+  - Status: MoU / agreements (plan); no route opened.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-dalian-yunzhihang) · [Use cases](usecases.qmd#uc-item-2026-09-09-meituan-longhua) (annotate only)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，大连市沙河口区人民政府与深圳美团低空物流科技有限公司签署低空经济合作备忘录，大连市沙河口建设投资集团、大连云智航科技有限公司同步与美团无人机签署合作协议。这是美团无人机在东北地区布局的首个合作项目。」…「据悉，各方将加快起降场地建设、空域对接和场景试点，尽快开通星海湾首条低空配送航线，在商圈、医院、滨海文旅等场景跑通商业化闭环。」]{lang="zh-Hans"} ([source](https://www.news.cn/tech/20261109/b948ad5595e8431380e7ae9597920b0f/c.html))
+
+  English (LAE-Intel translation): Recently, the Shahekou District People's Government of Dalian signed a low-altitude economy cooperation memorandum with Shenzhen Meituan Low-Altitude Logistics Technology Co., and Dalian Shahekou Construction Investment Group and Dalian Yunzhihang Technology Co. signed cooperation agreements with Meituan Drone at the same time. This is Meituan Drone's first cooperation project in Northeast China. … The parties will speed up building take-off/landing sites, airspace coordination and scene pilots, open the first low-altitude delivery route at Xinghai Bay as soon as possible, and close the commercial loop in business districts, hospitals and coastal tourism.
+  :::
+
+- []{#industry-item-2026-11-09-zipline-walmart-300 .industry-item}**5–9 Nov 2026 · Walmart corporate newsroom (5 Nov); DroneDJ (9 Nov):** Walmart announces “a new multi-year agreement with Zipline to add 300 drone delivery sites nationwide, with the potential to expand”, and says its drone program has “completed more than 2 million deliveries to date”. [Walmart](https://corporate.walmart.com/news/2026/11/walmart-expands-drone-delivery-network-with-zipline) DroneDJ reports Zipline “has raised $1.5 billion at a $21.5 billion post-money valuation”, led by Paradigm, WCM Investment Management and Layer Global, for US manufacturing expansion and hiring. [DroneDJ](https://dronedj.com/2026/11/09/zipline-drone-delivery-funding-valuation/) · Axios (9 Nov) independently mentions the round and the 300-site deal ([Axios](https://www.axios.com/2026/11/09/alphabets-wing-makes-125-million-manufacturing-bet-on-drone-delivery))
+  - Tag: Company-announced (Walmart agreement); funding independently reported (company-stated figures)
+  - What's new: 300 sites is a **plan**; it does not show capability or permission at those sites (FAA Part 135 status per site is not stated). The funding figures are company financing, **not** market size; a post-money valuation is an investor price for a company, not a market size. Zipline’s own funding release was not opened.
+  - Status: Company-announced plan; funding press-reported.
+  - Read instead: [Companies & sectors](landscape.qmd) (Zipline) · [Use cases: Zipline Round Rock](usecases.qmd#uc-item-2026-10-08-zipline-round-rock) (live ops — not these sites)
 
 - []{#industry-item-2026-11-08-hubei-gov-drone-brigade .industry-item}**8 Nov 2026 · 中国新闻网 (Wuhan):** The Hubei Provincial Government-Affairs Drone Brigade (湖北省政务领域无人机大队) is established and the Hubei Government-Affairs Drone Linkage Application Platform (湖北政务无人机联动应用平台) launched in Wuhan. Hosted by the Digital Hubei "One Map" task force (数智湖北"一张图"建设工作专班); organised (承办) by **湖北大数据集团** (Hubei Big Data Group) and **湖北机场集团** (Hubei Airport Group); the provincial Public Security Department handles flight-safety risk control. [中新网](https://www.chinanews.com.cn/sh/2026/11-08/10728390.shtml)
   - Tag: Independently reported

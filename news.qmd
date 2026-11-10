@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-11-08"
+as_of: "2026-11-10"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,13 +44,15 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 8 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 10 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">5 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">7 items</span></summary><ol>
+<li id="tl-press-2026-11-08-gba-drone-skills-contest"><a href="#press-item-2026-11-08-gba-drone-skills-contest"><span class="chip">8 Nov</span> · First GBA drone-application skills contest final, Hengqin (HK VTC and Macao DSAL co-host)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-11-07-meituan-sz-pause"><a href="#press-item-2026-11-07-meituan-sz-pause"><span class="chip">7 Nov</span> · Meituan Drone notice: Shenzhen drone delivery paused 11–21 Nov (APEC control)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-11-06-gn7132-7133"><a href="#press-item-2026-11-06-gn7132-7133"><span class="chip">6–7 Nov</span> · G.N. 7132 Sandbox-pilot restricted flying zones (28→33) and G.N. 7133 Tai Po gas plant zone effective<span class="badge b-off">CAD</span></a></li>
 <li id="tl-press-2026-11-06-szdrc-szhk-prestudy" class="st-open"><a href="#press-item-2026-11-06-szdrc-szhk-prestudy"><span class="chip">6 Nov</span> · Shenzhen DRC tender: SZ–HK cross-border drone-logistics pre-research (plan stage)<span class="badge b-open">Plans</span></a></li>
 <li id="tl-press-2026-11-06-uca150-press" class="st-open"><a href="#press-item-2026-11-06-uca150-press"><span class="chip">6 Nov</span> · Press: DS(TL) says drafting of over-150 kg law has begun (no bill text)<span class="badge b-open">Press only</span></a></li>
+<li id="tl-press-2026-11-04-gd-drc-investment-service"><a href="#press-item-2026-11-04-gd-drc-investment-service"><span class="chip">4 Nov</span> · Guangdong DRC — LAE enterprise investment-service notice (facilitation; no permission)<span class="badge b-off">Official</span></a></li>
 <li id="tl-press-2026-11-03-sz-apec-control"><a href="#press-item-2026-11-03-sz-apec-control"><span class="chip">3 Nov</span> · Shenzhen 市政府 — temporary low-altitude flight control (APEC window 7–21 Nov; in force since 7 Nov)<span class="badge b-off">Official</span></a></li>
 </ol></details>
 <details class="itl-card" open><summary>October 2026<span class="n">18 items</span></summary><ol>
@@ -132,6 +134,17 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
+- []{#press-item-2026-11-08-gba-drone-skills-contest .press-item}**8 Nov 2026 (report 9 Nov) · 科技日报 (reporter 龙跃梅):** The 2026 Guangdong–Hong Kong–Macao Greater Bay Area Drone Application Technology Vocational Skills Competition final concludes in Hengqin, with 24 teams from Guangdong’s 21 prefecture-level-and-above cities plus Hengqin, Hong Kong and Macao. Co-hosts named: Guangdong Department of Human Resources and Social Security, Guangdong Federation of Trade Unions, Zhuhai Municipal People’s Government, Hengqin Guangdong-Macao In-Depth Cooperation Zone Executive Committee, Hong Kong Vocational Training Council (HK VTC) and Macao SAR Government Labour Affairs Bureau. [科技日报](https://www.stdaily.com/web/gdxw/2026-11/09/content_610952.html)
+  - What's new: Three-jurisdiction cooperation on **skills certification** (Macao certificates issued alongside). This concerns labour and skills, **not** airspace permission. Team and track counts are press figures, not audited. The report says the smart-logistics track used real routes in regular operation at the Zhuhai Tangjiagang drone-logistics base; that 常态化 claim comes from a competition article only and is not treated as an operating fact.
+  - Status: Press report (T4); official co-hosts named but no host release was opened. Not a Hong Kong instrument.
+  - Read instead: [Official status](tracker.qmd) for official counts.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「11月8日下午，2026年粤港澳大湾区无人机应用技术职业技能大赛总决赛在横琴圆满落下帷幕。来自全省21个地级以上市以及横琴、香港、澳门的24支代表队同台竞技」…「由广东省人力资源和社会保障厅、广东省总工会、珠海市人民政府、横琴粤澳深度合作区执行委员会、香港职业训练局、澳门特别行政区政府劳工事务局联合主办。」…「智慧物流赛道根据珠海唐家港无人机物流运营基地常态化运营的真实航线开展」]{lang="zh-Hans"} ([source](https://www.stdaily.com/web/gdxw/2026-11/09/content_610952.html))
+
+  English (LAE-Intel translation): On the afternoon of 8 November, the 2026 GBA Drone Application Technology Vocational Skills Competition final concluded in Hengqin, with 24 teams from Guangdong's 21 prefecture-level-and-above cities plus Hengqin, Hong Kong and Macao. … Co-hosted by the Guangdong Department of Human Resources and Social Security, the Guangdong Federation of Trade Unions, Zhuhai Municipal People's Government, the Hengqin Guangdong-Macao In-Depth Cooperation Zone Executive Committee, Hong Kong's Vocational Training Council and the Macao SAR Government Labour Affairs Bureau. … The smart-logistics track was run on real routes in regular operation at the Zhuhai Tangjiagang drone-logistics operating base.
+  :::
+
 - []{#press-item-2026-11-07-meituan-sz-pause .press-item}**7 Nov 2026 · 羊城晚报·羊城派 (reporting a 「美团无人机」 notice):** Meituan Drone says its **Shenzhen** drone-delivery service will suspend operations **11–21 Nov 2026**, with resumption to be notified later; routes in other cities are unaffected. [羊城派](https://ycpai.ycwb.com/content/ikimvjjtkl/content_54341319.html)
   - What's new: An operator-announced pause during the city-wide phase of the Shenzhen APEC temporary control (below). The notice does **not** say whether Futian / Nanshan routes flew during 7–10 Nov. The article's "10 Futian routes" figure is press / operator display, not audited.
   - Status: Company-announced (via independent press). Not a government instrument; Hong Kong Keeta / Sandbox routes are **not** covered by this notice.
@@ -171,6 +184,17 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
   - What's new: A press report of an official's remark on the over-150 kg legislation pipeline. No bill text or GIA, TLB or LegCo document was found for this remark. The article's line that cross-jurisdiction routes have started in the Greater Bay Area is journalist framing and **not** evidence of an SZ–HK corridor flight.
   - Status: Press only (T4). Not a bill date. Chinese version not located (**OPEN**).
   - Read instead: [Official status](tracker.qmd) (law for unconventional aircraft over 150 kg).
+
+- []{#press-item-2026-11-04-gd-drc-investment-service .press-item}**4 Nov 2026 · 广东省发展和改革委员会 (低空经济发展处); reposted 9 Nov by 广州市海珠区发展和改革局:** LAE enterprise investment-service notice inviting LAE enterprises to Guangdong. The DRC says it will work with local departments and parks to help enterprises connect on airspace approval, airworthiness certification, test-flight verification, scene opening, funds and talent, and that the notice is only information release and matching service, not an investment offer. [Guangdong DRC](https://drc.gd.gov.cn/ywtz/content/post_4975198.html)
+  - What's new: A provincial **facilitation** notice (T2, GBA Guangdong). It is **not** a legal permission, confers no airspace, and is not a subsidy or approval. The infrastructure counts it cites (70 general-aviation airports, >5,500 take-off/landing points, 12.7万 5G-A base stations) are provincial self-reported claims, not audited; its market-share and industry-scale lines are not used as course numbers.
+  - Status: Official notice (provincial government, T2). Not Hong Kong Cap. 448G / CAD / Action Plan / Sandbox X.
+  - Read instead: [Official status](tracker.qmd) (Guangdong DRC notice, WATCH).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「协同属地发展改革部门及园区，协助企业对接空域审批、适航取证、试飞验证、场景开放、资金基金、人才引育等事项，推动项目尽快落地见效。」…「本次投资服务通知仅为信息发布与对接服务，不构成投资合作要约，不收取任何费用，企业自愿参与、自主协商合作事项。」]{lang="zh-Hans"} ([source](https://drc.gd.gov.cn/ywtz/content/post_4975198.html))
+
+  English (LAE-Intel translation): [We will] work with local development-and-reform departments and parks to help enterprises connect on airspace approval, airworthiness certification, test-flight verification, scene opening, funds, and talent, so that projects land quickly. … This investment-service notice is only information release and matching service; it does not constitute an offer of investment cooperation, charges no fee, and enterprises participate voluntarily and negotiate cooperation independently.
+  :::
 
 - []{#press-item-2026-11-03-sz-apec-control .press-item}**3 Nov 2026 · 深圳市人民政府 (via 「深圳发布」 / 南方网; 東網):** 《关于加强低空飞行管控的通告》 — phased temporary ban on low-altitude aircraft and airborne objects for the APEC security window: **7 Nov 00:00–10 Nov 24:00** Futian + Nanshan; **11 Nov 00:00–21 Nov 24:00** city-wide (excluding Shenzhen–Shantou Special Cooperation Zone / 深汕特别合作区). Special flights (security, emergency rescue, met, police, broadcast, radio monitoring, **logistics**) require prior departmental approval. Effective **7–21 Nov 2026**. Native `sz.gov.cn` HTML for this exact notice **OPEN**. [南方网](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml) · [21经济网](https://www.21jingji.com/article/20261103/herald/a00aac2ad1a8279691af98efee718b86.html) · [澎湃号·政务](https://www.thepaper.cn/newsDetail_forward_34393953) · [東網](https://hk.on.cc/hk/bkn/cnt/news/20261103/bkn-20261103110642503-1103_00822_001.html)
   - What's new: Official municipal temporary UAS / GA / airborne-object control ahead of APEC Leaders’ Meeting in Shenzhen. Affects civilian UAS including logistics (special tasks only with prior approval). GBA comparator — **not** Hong Kong Cap. 448G / CAD / Action Plan / Sandbox X.

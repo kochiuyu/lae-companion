@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-11-08"
+as_of: "2026-11-10"
 page-layout: article
 toc: true
 toc-location: right
@@ -215,6 +215,7 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
   - Tag: Company-announced
   - What's happening: New metro go-live on an existing FAA Part 135 certificate base. Municipal page confirms FAA primacy. Early-access / merchant / daily-volume figures stay company-announced where press states them — not upgraded. FAA package-delivery page re-checked 18 Oct 2026 (still lists Zipline; page stamp notes Last-Modified 17 Oct 2026 / content last updated 3 Sep 2026).
   - Note: Operating metro go-live; Part 135 operator status officially confirmed on the FAA page.
+  - Annotate (10 Nov 2026 · Walmart newsroom, company-announced, 5 Nov): a multi-year agreement to add **300** Zipline drone-delivery sites nationwide; Walmart says its drone program has completed more than 2 million deliveries (company claim). This is a **plan** for new sites and does not change this row’s status. [Walmart](https://corporate.walmart.com/news/2026/11/walmart-expands-drone-delivery-network-with-zipline) · [Business news](industry.qmd#industry-item-2026-11-09-zipline-walmart-300)
   - Read instead: [Companies & sectors](landscape.qmd) (Zipline).
 
 - []{#uc-item-2026-10-08-zhuhai .uc-item}**8 Oct 2026 · C114 / China Unicom Zhuhai feature:** Zhuhai Agriculture Investment Holding, Guangdong Chaofei Technology and China Unicom Zhuhai sign strategic cooperation for a sea-island UAV livelihood-supply pilot framed around Zhuhai’s 262 islands. [C114](https://m.c114.com.cn/w84-1318768.html)
@@ -290,6 +291,7 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
   - Update (29 Oct 2026 · [龙华政府在线](https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_13045514.html)): district feature says Meituan now has **26** air-network points in Longhua and flew about **280,000** sorties there in Jan–Sep 2026 (+40% year on year; volume already above full-year 2025) — district press of operator figures; not audited.
   - Annotate (3 Nov 2026; refreshed 5 Nov 2026 · Shenzhen 市政府 《关于加强低空飞行管控的通告》): Futian + Nanshan **7 Nov 00:00–10 Nov 24:00**; city-wide excl. 深汕 from **11 Nov 00:00–21 Nov 24:00**; default ban on low-altitude aircraft / airborne objects; logistics transport may fly **only after** prior departmental approval. Longhua sits inside the city-wide window (from 11 Nov); Futian + Nanshan phase **in force since 7 Nov**. [南方网](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml) · [Official status](tracker.qmd) · [Government news](news.qmd#press-item-2026-11-03-sz-apec-control)
   - Annotate (8 Nov 2026 · company notice via 羊城晚报·羊城派, 7 Nov): Meituan Drone says its **Shenzhen** drone-delivery service **suspends 11–21 Nov**, with resumption to be notified later; routes in other cities are unaffected (so Hong Kong Keeta / Sandbox items are **not** covered by this notice). Whether Futian / Nanshan routes flew during 7–10 Nov is **not stated**. Status stays **operating as of 8 Nov 2026**, with a **scheduled company-announced pause from 11 Nov**. [羊城派](https://ycpai.ycwb.com/content/ikimvjjtkl/content_54341319.html) · [Government news](news.qmd#press-item-2026-11-07-meituan-sz-pause)
+  - Annotate (10 Nov 2026 · 科技日报 via 新华网, 9 Nov): Meituan Drone’s Shenzhen pause is due to begin **11 Nov** (company notice; no resumption notice found). Separately, 深圳美团低空物流科技有限公司 signed a **Dalian MoU (labelled)** with 大连市沙河口区人民政府; the Xinghai Bay route is **planned, not opened**, so it is **not** a use case. [新华网](https://www.news.cn/tech/20261109/b948ad5595e8431380e7ae9597920b0f/c.html) · [Business news](industry.qmd#industry-item-2026-11-09-meituan-dalian-shahekou)
   - Read instead: [Companies & sectors](landscape.qmd) (Meituan Drone).
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
