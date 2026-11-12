@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-11-10"
+as_of: "2026-11-12"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,11 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 10 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 12 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">7 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">9 items</span></summary><ol>
+<li id="tl-ind-2026-11-11-keeta-dubai-dso"><a href="#industry-item-2026-11-11-keeta-dubai-dso"><span class="chip">11 Nov</span> · Keeta Drone — Dubai Silicon Oasis HQ delivery route<span class="badge b-co">Company</span></a></li>
+<li id="tl-ind-2026-11-11-ehang-sri-lanka"><a href="#industry-item-2026-11-11-ehang-sri-lanka"><span class="chip">11 Nov</span> · EHang EH216-S — Sri Lanka CAA test licence, Colombo Port City (test only)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-09-keeta-astana"><a href="#industry-item-2026-11-09-keeta-astana"><span class="chip">9 Nov</span> · Keeta Drone × Astana — MoU, “solution provider” entry into Central Asia (plan)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-09-meituan-dalian-shahekou"><a href="#industry-item-2026-11-09-meituan-dalian-shahekou"><span class="chip">9 Nov</span> · Meituan Drone × Dalian Shahekou — low-altitude MoU, first Northeast China project (plan)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-09-zipline-walmart-300"><a href="#industry-item-2026-11-09-zipline-walmart-300"><span class="chip">5–9 Nov</span> · Zipline — Walmart +300 sites (plan); reported US$1.5bn round<span class="badge b-co">Company</span></a></li>
@@ -172,6 +174,18 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ``````
 
 ### November 2026 {#industry-2026-11}
+
+- []{#industry-item-2026-11-11-keeta-dubai-dso .industry-item}**11 Nov 2026 · Construction Business News ME (company release):** Keeta Drone (Meituan) opens a drone-delivery route to the Dubai Silicon Oasis (DSO) headquarters office complex, inaugurated with DIEZ / DSO representatives; orders from participating food-and-beverage outlets land at a designated collection point. [CBNME](https://www.cbnme.com/logistics-news/keeta-drone-brings-on-demand-food-delivery-to-dubai-silicon-oasis/)
+  - Tag: Company-announced
+  - What's new: The route builds on existing DSO points (RIT Dubai campus, Emirates residential towers). The company says service runs daily 09:00–21:00, that operations are approved by the Dubai Civil Aviation Authority (DCAA), and that it serves ">1,000 professionals" and has made ">1 million drone deliveries globally". These are **company claims, not audited**; the DCAA approval was not verified on a DCAA page.
+  - Status: Company-announced operation; a single-collection-point, closed-campus model. Not a Hong Kong item.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-meituan-drone) · [Use cases](usecases.qmd#uc-item-2026-11-11-keeta-dubai-dso)
+
+- []{#industry-item-2026-11-11-ehang-sri-lanka .industry-item}**11 Nov 2026 · The Lanka Leader; CounterPoint (both citing the Civil Aviation Authority of Sri Lanka):** The CAA announced a licence for EHang to **begin testing** the two-seat pilotless EH216-S at Colombo Port City; a demonstration flight on 11 Nov carried the Ports and Aviation Minister and Deputy Minister. [Lanka Leader](https://lankaleader.lk/news/2026-11-11-173924-sri-lanka-stages-first-pilotless-passenger-drone-demonstration-in-colombo) · [CounterPoint](https://www.counterpoint.lk/lanka-allows-ehang-to-test-autonomous-passenger-aircraft/)
+  - Tag: Independently reported
+  - What's new: Testing is planned over about six months (Deputy Minister: about five months) **before** any decision on commercial passenger services. No CAA page was opened, so this is not treated as officially confirmed. EHang's own release was not readable.
+  - Status: **Test licence only — not commercial approval.** "Tested in about two dozen countries" is a minister's remark via press, not audited. EH216-S commercial licensing remains China only (CAAC type certificate, 2023).
+  - Read instead: [Companies & sectors](landscape.qmd#firm-ehang-holdings) · [Use cases](usecases.qmd#uc-item-2026-11-11-ehang-colombo)
 
 - []{#industry-item-2026-11-09-keeta-astana .industry-item}**9 Nov 2026 · 观点网:** Meituan Drone’s overseas brand KeetaDrone enters the Central Asian market under a “solution provider” model, signing a **memorandum of cooperation (MoU, labelled)** with a local Kazakh partner and the Astana city government. [观点网](https://www.guandian.cn/article/20261109/625185.html)
   - Tag: Independently reported

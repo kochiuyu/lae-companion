@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-11-10"
+as_of: "2026-11-12"
 page-layout: article
 toc: true
 toc-location: right
@@ -22,7 +22,7 @@ Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating*
 - **Independently reported:** a news outlet’s own reporting.
 - **Officially confirmed:** confirmed in a linked official release or document.
 
-**Board last checked 8 Nov 2026** (`as_of`). Census: **68** use-case items (46 trial · 22 operating), grouped by application below — newest first within each section.
+**Board last checked 12 Nov 2026** (`as_of`). Census: **70** use-case items (47 trial · 23 operating), grouped by application below — newest first within each section.
 
 ## By application
 
@@ -53,9 +53,10 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="uc-by-app">
-<p class="itl-head"><strong>Use cases by application</strong> (board last checked 8 Nov 2026) — 68 items (46 trial · 22 operating). Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Use cases by application</strong> (board last checked 12 Nov 2026) — 70 items (47 trial · 23 operating). Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>Delivery<span class="n">27 items · 13 trial · 14 operating</span></summary><ol>
+<details class="itl-card" open><summary>Delivery<span class="n">28 items · 13 trial · 15 operating</span></summary><ol>
+<li id="tl-uc-2026-11-11-keeta-dubai-dso"><a href="#uc-item-2026-11-11-keeta-dubai-dso"><span class="chip">11 Nov 2026</span> · Keeta Drone — Dubai Silicon Oasis HQ delivery route<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-10-30-amazon-nampa"><a href="#uc-item-2026-10-30-amazon-nampa"><span class="chip">30 Oct 2026</span> · Amazon Prime Air — Nampa ID / Boise-metro drone delivery live<span class="badge b-op">Operating</span></a></li>
 <li id="tl-uc-2026-10-27-hangzhou-mixc-yunyi"><a href="#uc-item-2026-10-27-hangzhou-mixc-yunyi"><span class="chip">27 Oct 2026</span> · Hangzhou MixC North low-altitude delivery pad opens<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-26-amazon-markham"><a href="#uc-item-2026-10-26-amazon-markham"><span class="chip">26 Oct 2026</span> · Amazon Prime Air — Markham IL / Chicago south-suburb MK30 flying<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
@@ -123,7 +124,8 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 <li id="tl-uc-2026-04-11-feiyida"><a href="#uc-item-2026-04-11-feiyida"><span class="chip">11 Apr 2026</span> · Feiyida Air — GBA low-altitude travel platform launch (Macau)<span class="badge b-op">Operating</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-03-31-tlb-shows" class="st-open"><a href="#uc-item-2026-03-31-tlb-shows"><span class="chip">31 Mar 2026</span> · TLB list — OWOWWW / DAMODA drone-show system trials<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
 </ol></details>
-<details class="itl-card" open><summary>eVTOL passenger<span class="n">5 items · 5 trial · 0 operating</span></summary><ol>
+<details class="itl-card" open><summary>eVTOL passenger<span class="n">6 items · 6 trial · 0 operating</span></summary><ol>
+<li id="tl-uc-2026-11-11-ehang-colombo" class="st-open"><a href="#uc-item-2026-11-11-ehang-colombo"><span class="chip">11 Nov 2026</span> · EHang EH216-S — Colombo Port City test programme (Sri Lanka CAA test licence)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-10-12-virginia-tech" class="st-open"><a href="#uc-item-2026-10-12-virginia-tech"><span class="chip">12 Oct 2026</span> · Virginia Tech Smart Airspace — Electra EL2 + Textron Aerosonde eIPP vertiport trials<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-08-28-ehang" class="st-open"><a href="#uc-item-2026-08-28-ehang"><span class="chip">28 Aug 2026</span> · EHang EH216-S first public flight at Cyberport (Sandbox X)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-04-15-sandbox-x-uca" class="st-open"><a href="#uc-item-2026-04-15-sandbox-x-uca"><span class="chip">15 Apr 2026</span> · Sandbox X first batch — four UCA / eVTOL pilot projects<span class="badge b-tr">Trial</span><span class="badge b-off">Official</span></a></li>
@@ -142,9 +144,15 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Delivery {#uc-delivery}
 
-27 items · 13 trial · 14 operating
+28 items · 13 trial · 15 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-11-11-keeta-dubai-dso .uc-item}**11 Nov 2026 · Construction Business News ME (company release):** Keeta Drone inaugurates a route serving the Dubai Silicon Oasis (DSO) headquarters office complex; orders from participating food-and-beverage outlets land at a designated collection point inside the complex. [CBNME](https://www.cbnme.com/logistics-news/keeta-drone-brings-on-demand-food-delivery-to-dubai-silicon-oasis/)
+  - Status: **Operating** · Domain: Delivery · Geography: Global (UAE — Dubai)
+  - Tag: Company-announced
+  - What's happening: The company says the service runs daily 09:00–21:00 with operations approved by the Dubai Civil Aviation Authority (DCAA), and that it has operated in DSO for more than a year (RIT Dubai campus, residential towers). “Operating” follows the **company’s** statement of daily service; DCAA approval and cadence are **not** independently verified; “>1,000 professionals” and “>1 million deliveries globally” are company claims, not audited.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-11-11-keeta-dubai-dso); [Companies & sectors](landscape.qmd#firm-meituan-drone).
 
 - []{#uc-item-2026-10-30-amazon-nampa .uc-item}**30 Oct 2026 · KTVB (Idaho):** Amazon tells KTVB Prime Air is live from its Nampa fulfillment center (5295 E. Franklin Road), covering Nampa and parts of nearby cities including a portion of Boise — Idaho’s first Prime Air city. [KTVB](https://www.ktvb.com/article/news/local/amazon-starts-drone-deliveries-nampa-part-boise-idaho/277-e865a55f-94cf-4d9f-892d-2c5ee128a52f) · [FAA Part 135 page](https://www.faa.gov/uas/advanced_operations/package_delivery_drone)
   - Status: **Operating** · Domain: Delivery · Geography: Global (US — Idaho)
@@ -799,9 +807,15 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## eVTOL passenger {#uc-evtol}
 
-5 items · 5 trial · 0 operating
+6 items · 6 trial · 0 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+- []{#uc-item-2026-11-11-ehang-colombo .uc-item}**11 Nov 2026 · The Lanka Leader; CounterPoint (both citing the Civil Aviation Authority of Sri Lanka):** The CAA announced a licence for EHang to begin testing the two-seat pilotless EH216-S; a three-minute demonstration flight at Colombo Port City carried the Ports and Aviation Minister and Deputy Minister as first passengers. [Lanka Leader](https://lankaleader.lk/news/2026-11-11-173924-sri-lanka-stages-first-pilotless-passenger-drone-demonstration-in-colombo) · [CounterPoint](https://www.counterpoint.lk/lanka-allows-ehang-to-test-autonomous-passenger-aircraft/)
+  - Status: **Trial** · Domain: eVTOL passenger · Geography: Global (Sri Lanka)
+  - Tag: Independently reported
+  - What's happening: Testing is planned over about six months (Deputy Minister: about five months) **before** any decision on commercial passenger services. **Not** commercial operation; no fares, route network or operating metrics stated.
+  - Read instead: [Business news](industry.qmd#industry-item-2026-11-11-ehang-sri-lanka); [Companies & sectors](landscape.qmd#firm-ehang-holdings).
 
 - []{#uc-item-2026-10-12-virginia-tech .uc-item}**12 Oct 2026 · WDBJ7:** Experimental vertiport trials at Blackstone airport, Roanoke airport and VTTI urban-style pad under MAAP Smart Airspace / eIPP-linked programme; flights described as summer 2026. Hybrid-electric Electra EL2 and VTOL-transition Textron Aerosonde named by press. [WDBJ7](https://www.wdbj7.com/2026/10/12/virginia-techs-smart-airspace-project-tests-electric-aircraft-southwest-virginia/)
   - Status: **Trial** · Domain: eVTOL passenger · Geography: Global (US — Virginia)

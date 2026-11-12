@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-11-10"
+as_of: "2026-11-12"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,11 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 10 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 12 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">7 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">9 items</span></summary><ol>
+<li id="tl-press-2026-11-12-sz-apec-prd-claim"><a href="#press-item-2026-11-12-sz-apec-prd-claim"><span class="chip">12 Nov</span> · Press: Shenzhen APEC control now city-wide; claim of synchronised controls in four PRD cities (press only)<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-11-11-tko-drone-pilot-suggestion" class="st-open"><a href="#press-item-2026-11-11-tko-drone-pilot-suggestion"><span class="chip">11 Nov</span> · Sai Kung district councillor suggests a future TKO InnoPark drone-delivery pilot (suggestion only)<span class="badge b-open">Press only</span></a></li>
 <li id="tl-press-2026-11-08-gba-drone-skills-contest"><a href="#press-item-2026-11-08-gba-drone-skills-contest"><span class="chip">8 Nov</span> · First GBA drone-application skills contest final, Hengqin (HK VTC and Macao DSAL co-host)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-11-07-meituan-sz-pause"><a href="#press-item-2026-11-07-meituan-sz-pause"><span class="chip">7 Nov</span> · Meituan Drone notice: Shenzhen drone delivery paused 11–21 Nov (APEC control)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-11-06-gn7132-7133"><a href="#press-item-2026-11-06-gn7132-7133"><span class="chip">6–7 Nov</span> · G.N. 7132 Sandbox-pilot restricted flying zones (28→33) and G.N. 7133 Tai Po gas plant zone effective<span class="badge b-off">CAD</span></a></li>
@@ -133,6 +135,28 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ### 2026-11 {#press-2026-11}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-11-12-sz-apec-prd-claim .press-item}**12 Nov 2026 · droneworldcongress.com:** A feature restates the Shenzhen 市政府 通告 of 3 Nov: Futian and Nanshan 7–10 Nov, then the whole city (excluding 深汕特别合作区) **11–21 Nov**. It also claims that relevant areas of Dongguan, Guangzhou, Zhuhai and Huizhou apply flight bans over the same period, and describes Shenzhen Power Supply Bureau drone inspection. [droneworldcongress.com](http://www.droneworldcongress.com/zh-CN/NewDetails/1553)
+  - What's new: The city-wide phase is now running. The Shenzhen 通告 is an official instrument read via reprint (see [Official status](tracker.qmd)); the **Pearl River Delta city controls are press-only** — no Dongguan, Guangzhou, Zhuhai or Huizhou notice was opened, so they are not treated as fact. The article's police-drone use is not carried (no official text). Economic effect on delivery: see the Meituan pause (7 Nov, company-announced).
+  - Status: Press report (T4). Not a Hong Kong instrument; not evidence of an SZ–HK corridor.
+  - Read instead: [Official status](tracker.qmd) for the control's status.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「11月7日至10日，福田、南山两区禁飞；11月11日至21日，范围扩大到全市（不含深汕特别合作区）。」…「考虑到飞行器可以跨区域飞行，珠三角多地同步划定管控区域。东莞、广州、珠海、惠州的相关片区，在同一时间段配套实施禁飞，形成跨城联防。」…「深圳供电局搭建空天地巡检体系，用无人机协同巡检变电站与输电线路。」]{lang="zh-Hans"} ([source](http://www.droneworldcongress.com/zh-CN/NewDetails/1553))
+
+  English (LAE-Intel translation): From 7 to 10 November, flying is banned in Futian and Nanshan; from 11 to 21 November the scope expands to the whole city (excluding the Shenzhen-Shanwei Special Cooperation Zone). … Because aircraft can fly across districts, several Pearl River Delta cities have designated control areas at the same time: relevant areas of Dongguan, Guangzhou, Zhuhai and Huizhou are applying flight bans over the same period, forming cross-city joint defence. … Shenzhen Power Supply Bureau has built an air-space-ground inspection system, using drones to inspect substations and transmission lines.
+  :::
+
+- []{#press-item-2026-11-11-tko-drone-pilot-suggestion .press-item}**11 Nov 2026 · 大公報 (reporter 張騰):** Sai Kung District Councillor Cheung Mei-hung suggests that, after a test accumulates road data and operating experience, the Government could study further LAE pilots in the district, such as drone delivery of documents and takeaway food. The article's main subject is DiDi's autonomous-**vehicle** pilot at TKO InnoPark. [大公報](https://epaper.tkww.hk/a/202611/11/AP6af37e8ee4b0bcb39b18ac27.html)
+  - What's new: A **district councillor's suggestion**, reported from a Transport Department paper to Sai Kung District Council (the paper itself was not opened). No government plan, no legal permission, no Sandbox application and no capability evidence. No English release was located.
+  - Status: Press report (T4); suggestion only.
+  - Read instead: [Official status](tracker.qmd) for Sandbox status.
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「西貢區區議員張美雄表示……他建議，待測試累積一定道路數據及運作經驗後，政府可研究在區內進一步開展低空經濟試點，例如以無人機配送文件、外賣等。」]{lang="zh-Hant"} ([source](https://epaper.tkww.hk/a/202611/11/AP6af37e8ee4b0bcb39b18ac27.html))
+
+  English (LAE-Intel translation): Sai Kung District Councillor Cheung Mei-hung said … he suggested that, after the test accumulates road data and operating experience, the Government could study further LAE pilots in the district, such as drone delivery of documents and takeaway food.
+  :::
 
 - []{#press-item-2026-11-08-gba-drone-skills-contest .press-item}**8 Nov 2026 (report 9 Nov) · 科技日报 (reporter 龙跃梅):** The 2026 Guangdong–Hong Kong–Macao Greater Bay Area Drone Application Technology Vocational Skills Competition final concludes in Hengqin, with 24 teams from Guangdong’s 21 prefecture-level-and-above cities plus Hengqin, Hong Kong and Macao. Co-hosts named: Guangdong Department of Human Resources and Social Security, Guangdong Federation of Trade Unions, Zhuhai Municipal People’s Government, Hengqin Guangdong-Macao In-Depth Cooperation Zone Executive Committee, Hong Kong Vocational Training Council (HK VTC) and Macao SAR Government Labour Affairs Bureau. [科技日报](https://www.stdaily.com/web/gdxw/2026-11/09/content_610952.html)
   - What's new: Three-jurisdiction cooperation on **skills certification** (Macao certificates issued alongside). This concerns labour and skills, **not** airspace permission. Team and track counts are press figures, not audited. The report says the smart-logistics track used real routes in regular operation at the Zhuhai Tangjiagang drone-logistics base; that 常态化 claim comes from a competition article only and is not treated as an operating fact.
