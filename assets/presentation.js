@@ -114,6 +114,17 @@
   printDeck.setAttribute('aria-hidden', 'true');
   document.body.append(printDeck);
   const get = selector => dialog.querySelector(selector);
+  const typesetMath = element => {
+    if (!window.katex) return;
+    for (const math of element.querySelectorAll('.math')) {
+      if (math.querySelector('.katex')) continue;
+      const tex = math.textContent.trim();
+      if (tex) window.katex.render(tex, math, {
+        displayMode: math.classList.contains('display'), throwOnError: false,
+        macros: [], fleqn: false
+      });
+    }
+  };
   const chooser = get('#lae-slide-choice');
   frames.forEach((frame, index) => {
     const option = document.createElement('option');
@@ -136,6 +147,8 @@
     get('.lae-slide-title').textContent = frame.title;
     get('.lae-slide-body').replaceChildren(...frame.nodes.map(clean));
     get('.lae-notes-body').replaceChildren(...frame.notes.map(clean));
+    typesetMath(get('.lae-slide-body'));
+    typesetMath(get('.lae-notes-body'));
     get('.lae-slide-counter').textContent = `${current + 1} / ${frames.length}`;
     chooser.value = String(current);
     get('[data-prev]').disabled = current === 0;
@@ -184,6 +197,7 @@
       page.append(heading, ...frame.nodes.map(clean));
       return page;
     }));
+    typesetMath(printDeck);
     document.body.classList.add('lae-printing');
     window.print();
   });
@@ -199,6 +213,8 @@
   const params = new URLSearchParams(location.search);
   if (params.get('present') === '1') {
     const index = frames.findIndex(frame => frame.id === params.get('slide'));
-    open(index < 0 ? 0 : index);
+    const initial = index < 0 ? 0 : index;
+    if (document.readyState === 'complete') open(initial);
+    else document.addEventListener('DOMContentLoaded', () => open(initial), {once: true});
   }
 })();
