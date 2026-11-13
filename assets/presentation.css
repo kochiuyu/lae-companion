@@ -1,0 +1,50 @@
+.lae-present-launch { margin: .5rem 0 1.4rem; padding: .55rem 1rem; border: 1px solid #4b2675; border-radius: .35rem; background: #4b2675; color: #fff; font-weight: 700; cursor: pointer; }
+.lae-present-launch:hover, .lae-present-launch:focus-visible { background: #351851; color: #fff; }
+.lae-presentation { position: fixed; inset: 0; width: 100vw; max-width: none; height: 100dvh; max-height: none; margin: 0; padding: 0; border: 0; background: #f7f5fa; color: #21172f; overflow: hidden; }
+.lae-presentation::backdrop { background: #21172f; }
+.lae-presentation[open] { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr) auto; }
+.lae-present-toolbar, .lae-present-controls { display: flex; align-items: center; gap: .7rem; padding: .65rem 1rem; background: #fff; box-shadow: 0 1px 7px #24172f20; z-index: 1; }
+.lae-present-toolbar { border-bottom: 1px solid #ddd3e8; }
+.lae-present-toolbar select { flex: 1; min-width: 0; max-width: 44rem; padding: .35rem; }
+.lae-slide-counter { margin-left: auto; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.lae-present-toolbar button, .lae-present-controls button { border: 1px solid #563475; border-radius: .3rem; background: #fff; color: #351851; padding: .4rem .7rem; cursor: pointer; }
+.lae-present-toolbar button:hover, .lae-present-controls button:hover { background: #eee7f5; }
+.lae-present-toolbar button:focus-visible, .lae-present-controls button:focus-visible, .lae-present-toolbar select:focus-visible { outline: 3px solid #ba8b27; outline-offset: 2px; }
+.lae-present-controls { justify-content: space-between; border-top: 1px solid #ddd3e8; flex-wrap: wrap; }
+.lae-present-controls > div { display: flex; flex-wrap: wrap; gap: .5rem; }
+.lae-present-controls button:disabled { opacity: .45; cursor: default; }
+.lae-present-layout { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
+.lae-presentation.show-notes .lae-present-layout { grid-template-columns: minmax(0, 2fr) minmax(17rem, 1fr); }
+.lae-slide { min-width: 0; min-height: 0; overflow: auto; margin: 2.5vh 3vw; padding: clamp(1.5rem, 3vw, 3rem); border-radius: .65rem; background: #fff; box-shadow: 0 12px 35px #2b193c22; font-size: clamp(1.1rem, 1.65vw, 1.7rem); line-height: 1.45; }
+.lae-slide-title { margin: 0 0 1.25rem; color: #4b2675; font-size: clamp(1.65rem, 2.8vw, 2.8rem); line-height: 1.2; }
+.lae-slide-body { max-width: 72rem; margin-inline: auto; }
+.lae-slide-body > * { margin-block: .5em 1em; }
+.lae-slide-body figure, .lae-slide-body svg, .lae-slide-body img { max-width: 100%; height: auto; }
+.lae-slide-body table { font-size: .7em; }
+.lae-slide-body pre, .lae-slide-body .table-responsive, .lae-slide-body table { max-width: 100%; overflow-x: auto; }
+.lae-slide-body .callout { font-size: .8em; }
+.lae-slide-hint { position: sticky; bottom: -.1rem; display: block; width: max-content; max-width: 100%; margin: 1rem auto -.8rem; padding: .2rem .65rem; border-radius: 1rem; background: #4b2675; color: #fff; font-size: .72rem; }
+.lae-slide-hint[hidden] { display: none; }
+.lae-present-notes { min-width: 0; min-height: 0; overflow: auto; padding: 1.3rem; border-left: 1px solid #ddd3e8; background: #fdfcff; font-size: 1rem; line-height: 1.5; }
+.lae-present-notes[hidden] { display: none; }
+.lae-present-notes h3 { margin-top: 0; color: #4b2675; }
+.lae-present-notes table, .lae-present-notes figure { max-width: 100%; overflow-x: auto; }
+.lae-print-deck { display: none; }
+@media (max-width: 800px) {
+  .lae-presentation.show-notes .lae-present-layout { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) minmax(7rem, 35%); }
+  .lae-slide { margin: .5rem; padding: 1rem; font-size: 1.05rem; }
+  .lae-slide-title { font-size: 1.45rem; }
+  .lae-present-notes { border-left: 0; border-top: 1px solid #ddd3e8; }
+  .lae-present-toolbar label { display: none; }
+  .lae-present-controls { padding: .4rem; gap: .35rem; }
+  .lae-present-controls button { padding: .3rem .45rem; font-size: .8rem; }
+}
+@media print {
+  body.lae-printing > :not(.lae-print-deck) { display: none !important; }
+  body.lae-printing > .lae-print-deck { display: block !important; }
+  .lae-print-slide { min-height: 100vh; padding: 1cm; overflow: visible; break-after: page; font-size: 1.35rem; }
+  .lae-print-slide h2 { color: #4b2675; font-size: 2rem; }
+  .lae-print-slide figure, .lae-print-slide svg, .lae-print-slide img { max-width: 100%; max-height: 70vh; }
+  .lae-print-slide table { font-size: .75rem; }
+  @page { size: landscape; margin: 0; }
+}

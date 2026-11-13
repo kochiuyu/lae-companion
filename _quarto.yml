@@ -142,6 +142,7 @@ format:
       - _breadcrumbs.html
       - _lightbox.html
       - _selfcheck.html
+      - _presentation.html
     toc: true
     toc-location: right
     toc-title: "Sections"
