@@ -1196,6 +1196,17 @@ Pull the thread. Define the system. Trace value. State Hong Kong scale with corr
 - Hong Kong / GBA advantages are **hypotheses** to test with evidence. Sandboxes speed controlled learning; they do not waive safety or compliance.
 - Keep **Sandbox ≠ Sandbox X**. Attribute **HK$350bn** only to OHKF (value added, Hong Kong, 2050). Keep ~1,000 m policy language separate from Cap. 448G flying limits.
 
+### In-class exercise: Map the Money
+
+In groups of four or five, choose a **hypothetical Hong Kong airport shuttle** or **hospital medical-delivery** service. Spend 10 minutes drawing its value and money flows, then allow 5 minutes to share one important conflict or assumption. The old class slide asks:
+
+1. Who are the key players in this service's value chain?
+2. How does money move from the customer or sponsor to each player?
+3. What does each player want, and where might their incentives conflict?
+4. How could a controlled sandbox trial help the service learn, without removing safety duties?
+
+Keep the route and payments hypothetical; the exercise does not establish that either service operates commercially in Hong Kong.
+
 ---
 
 ## Summary {#summary}
