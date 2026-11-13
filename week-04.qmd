@@ -451,7 +451,7 @@ Differentiation can raise revenue under assumed responses; still check cost, cap
 
 ---
 
-**Slide exercise:** in groups, price two products on a hypothetical airport shuttle corridor: a flexible business offer and a tourist offer. Use the class spreadsheet to change segment prices, observe the assumed elasticity response and total volume, then seek the highest total revenue. Check capacity, contribution, and fairness before treating that revenue as a viable business result. The [class outline](slides/week04-demand.pdf) has the full exercise and assignment brief; its spreadsheet is distributed in class.
+Apply this distinction in the [in-class pricing exercise](#in-class-exercise-the-pricing-sweet-spot). Its spreadsheet is distributed in class; confirm assessment details on the teaching platform.
 
 ---
 
@@ -691,6 +691,21 @@ Pull the thread. Start from WTP. Keep modelling limits honest. Use the funnel an
 - Demand models produce **scenarios**, not certainties. Separate potential demand, capacity, flights, and passengers served; use **generalized cost** for door-to-door comparison while treating mode choice as probabilistic.
 - Use **elasticity** and **segmentation** carefully; check capacity and cost before celebrating revenue. Put **acceptance** and **shocks** in explicit, justified assumptions.
 - Confront every demand headline with Week 3’s required activity and physical pad limits.
+
+### In-class exercise: The Pricing Sweet Spot
+
+In groups of four or five, use a **hypothetical Hong Kong airport shuttle** and allow 15 minutes for a two-segment pricing test, followed by 5 minutes of discussion. The old slide distinguishes business travellers from tourists; it supplies a spreadsheet template in class, not observed Hong Kong demand data.
+
+1. Set a base price and a separate offer for each segment.
+2. State an elasticity assumption for each group and calculate how each offer changes volume.
+3. Compare total revenue, then apply capacity and incremental cost before recommending a price.
+4. Explain which assumption would most change the decision.
+
+| Dashboard input | Dashboard output |
+|-----------------|------------------|
+| Base price; business and tourist offers; segment response assumptions | Segment volumes; total revenue; capacity-limited served demand; contribution after incremental cost |
+
+An inelastic segment need not receive a discount merely because a spreadsheet permits one. Check the result against the worked discount example in [§6](#elasticity-of-demand) and Week 3's breakeven test.
 
 ---
 
