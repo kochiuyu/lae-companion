@@ -15,12 +15,19 @@
 .lae-present-controls button:disabled { opacity: .45; cursor: default; }
 .lae-present-layout { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
 .lae-presentation.show-notes .lae-present-layout { grid-template-columns: minmax(0, 2fr) minmax(17rem, 1fr); }
-.lae-slide { min-width: 0; min-height: 0; overflow: auto; margin: 2.5vh 3vw; padding: clamp(1.5rem, 3vw, 3rem); border-radius: .65rem; background: #fff; box-shadow: 0 12px 35px #2b193c22; font-size: clamp(1.1rem, 1.65vw, 1.7rem); line-height: 1.45; }
+.lae-slide { min-width: 0; min-height: 0; overflow: auto; margin: 1vh 2vw; padding: clamp(1rem, 2vw, 2rem); border-radius: .65rem; background: #fff; box-shadow: 0 12px 35px #2b193c22; font-size: clamp(1.1rem, 1.65vw, 1.7rem); line-height: 1.45; }
+.lae-slide:focus { outline: none; }
 .lae-slide-title { margin: 0 0 1.25rem; color: #4b2675; font-size: clamp(1.65rem, 2.8vw, 2.8rem); line-height: 1.2; }
 .lae-slide-body { max-width: 72rem; margin-inline: auto; }
 .lae-slide-body > * { margin-block: .5em 1em; }
+.lae-slide-body > .lae-slide-context { font-size: .9em; }
+.lae-slide-body > .lae-slide-takeaway { font-size: .85em; border-top: 1px solid #e4dbea; padding-top: .7em; }
+.lae-slide-body > p:has(.math.display) .math.display { font-size: 1.25em; }
 .lae-slide-body figure, .lae-slide-body svg, .lae-slide-body img { max-width: 100%; height: auto; }
-.lae-slide-body table { font-size: .7em; }
+.lae-slide-body .wdiag { width: 100%; max-width: 64rem; margin-inline: auto; }
+.lae-slide-body .wdiag svg { width: 100%; max-width: 57rem !important; margin-inline: auto !important; }
+.lae-presentation .fig-enlarge-hint { display: none !important; }
+.lae-slide-body table { font-size: .78em; }
 .lae-slide-body pre, .lae-slide-body .table-responsive, .lae-slide-body table { max-width: 100%; overflow-x: auto; }
 .lae-slide-body .callout { font-size: .8em; }
 .lae-slide-hint { position: sticky; bottom: -.1rem; display: block; width: max-content; max-width: 100%; margin: 1rem auto -.8rem; padding: .2rem .65rem; border-radius: 1rem; background: #4b2675; color: #fff; font-size: .72rem; }

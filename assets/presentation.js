@@ -40,9 +40,45 @@
   };
   const plainTitle = section => section.querySelector(':scope > h2, :scope > h3')?.textContent.trim() || 'Lesson';
   const contentChildren = section => direct(section, ':not(h2):not(h3):not(section):not(script):not(style)');
-  const visual = node => node.matches('figure,table,.table-responsive,.cell,.quarto-figure,.callout,.wdiag,.wtable') ||
-    (node.matches('p') && !!node.querySelector('.math.display'));
+  const visual = node => node.matches('figure,table,.table-responsive,.cell,.quarto-figure,.wdiag,.wtable');
   const linkOnly = node => node.matches('p') && node.children.length === 1 && node.firstElementChild.matches('a');
+  const readable = node => node?.matches('p') && !node.querySelector('.math.display') && !linkOnly(node) && node.textContent.trim().length > 12;
+  const brief = (node, className) => {
+    const copy = clean(node);
+    copy.classList.add(className);
+    const text = node.textContent.replace(/\s+/g, ' ').trim();
+    if (text.length > 320) {
+      const sentence = text.match(/^.{60,280}?[.!?](?=\s|$)/)?.[0];
+      copy.replaceChildren(document.createTextNode(sentence || `${text.slice(0, 250).replace(/\s+\S*$/, '')}…`));
+    }
+    return copy;
+  };
+  const nearby = (node, direction) => {
+    let sibling = node[direction];
+    for (let checked = 0; sibling && checked < 4; checked++, sibling = sibling[direction]) {
+      if (readable(sibling)) return sibling;
+    }
+    return null;
+  };
+  const listChunks = list => {
+    const total = list.children.length;
+    const groups = Math.ceil(total / 5);
+    const base = Math.floor(total / groups);
+    const extra = total % groups;
+    let start = 0;
+    return Array.from({length: groups}, (_, group) => {
+      const size = base + (group < extra ? 1 : 0);
+      const copy = clean(list);
+      [...copy.children].forEach((item, index) => {
+        if (index < start || index >= start + size) item.remove();
+      });
+      if (copy.tagName === 'OL') copy.start = (list.start || 1) + start;
+      const chunk = {node: copy, start: start + 1};
+      start += size;
+      return chunk;
+    });
+  };
+  const firstItems = list => listChunks(list)[0].node;
   const addSection = section => {
     const title = plainTitle(section);
     const children = contentChildren(section);
@@ -51,30 +87,36 @@
     const opening = [];
     const firstParagraph = prose.find(node => node.matches('p') && !node.querySelector('.math.display'));
     const firstList = prose.find(node => node.matches('ul,ol'));
-    if (firstParagraph) opening.push(clean(firstParagraph));
-    if (firstList) {
-      const list = clean(firstList);
-      [...list.children].slice(4).forEach(item => item.remove());
-      opening.push(list);
-    }
+    const formulas = children.filter(node => node.matches('p') && node.querySelector('.math.display'));
+    const openingFormula = formulas[0] && children.indexOf(formulas[0]) <= 3 ? formulas[0] : null;
+    [firstParagraph, firstList, openingFormula].filter(Boolean)
+      .sort((a, b) => children.indexOf(a) - children.indexOf(b))
+      .forEach(node => opening.push(node === firstList ? firstItems(node) : clean(node)));
     if (!opening.length) {
       const topics = direct(section, 'section.level3').map(child => plainTitle(child));
-      if (topics.length) {
+      if (topics.length > 1) {
         const list = document.createElement('ul');
         topics.forEach(text => { const li = document.createElement('li'); li.textContent = text; list.append(li); });
         opening.push(list);
       }
     }
-    if (opening.length) frames.push({id: section.id, title, source: section, nodes: opening, notes});
-    if (firstList && firstList.children.length > 4) {
-      for (let start = 4; start < firstList.children.length; start += 4) {
-        const list = clean(firstList);
-        [...list.children].forEach((item, index) => { if (index < start || index >= start + 4) item.remove(); });
-        if (list.tagName === 'OL') list.start = start + 1;
-        frames.push({id: `${section.id}-points-${start + 1}`, title: `${title} · continued`,
-          source: section, nodes: [list], notes});
-      }
-    }
+    const mergeOpening = opening.length === 1 && opening[0].textContent.trim().length < 90 && children.some(visual);
+    if (opening.length && !mergeOpening) frames.push({id: section.id, title, source: section, nodes: opening, notes});
+    if (firstList) listChunks(firstList).slice(1).forEach(({node, start}) => {
+      frames.push({id: `${section.id}-points-${start}`, title: `${title} · continued`,
+        source: section, nodes: [node], notes});
+    });
+    formulas.filter(node => node !== openingFormula).forEach((node, index) => {
+      const nodes = [];
+      const lead = nearby(node, 'previousElementSibling');
+      if (lead) nodes.push(brief(lead, 'lae-slide-context'));
+      nodes.push(clean(node));
+      const next = node.nextElementSibling;
+      if (next?.matches('ul,ol') && next.children.length) nodes.push(firstItems(next));
+      else if (readable(next) && next !== lead) nodes.push(brief(next, 'lae-slide-takeaway'));
+      frames.push({id: `${section.id}-equation-${index + 1}`, title: `${title} · equation`,
+        source: section, nodes, notes});
+    });
     let activity = 0;
     for (const node of children.filter(child => child.matches('p') &&
       /^\s*(slide exercise|exercise ledger|class exercise)\s*[:—-]/i.test(child.textContent))) {
@@ -86,11 +128,40 @@
     let number = 0;
     for (const node of children.filter(visual)) {
       number++;
-      const label = node.querySelector('figcaption,caption')?.textContent.trim() ||
-        (node.matches('.callout') ? node.querySelector('.callout-title')?.textContent.trim() : '') ||
-        `${title} · visual ${number}`;
-      frames.push({id: `${section.id}-visual-${number}`, title: label, source: section,
-        nodes: [clean(node)], notes});
+      const caption = node.querySelector('figcaption,caption')?.textContent.trim();
+      const kind = node.matches('table,.table-responsive,.wtable') ? 'table' : 'diagram';
+      const shortTitle = title.replace(/^\d+(?:\.\d+)?\.\s*/, '')
+        .replace(/^One-page tool map \((.+)\)$/, 'Tool map: $1');
+      const label = caption?.length < 75 ? caption : `${shortTitle} · ${kind}`;
+      const table = kind === 'table' ? (node.matches('table') ? node : node.querySelector('table')) : null;
+      const rows = [...(table?.querySelectorAll('tbody > tr') || [])];
+      const tallSvg = node.matches('.wdiag-svg') ? node.querySelector('svg[viewBox]') : null;
+      const bounds = tallSvg?.viewBox.baseVal;
+      const parts = rows.length > 6 ? Math.ceil(rows.length / 5) : bounds?.height >= 450 ? 2 : 1;
+      for (let part = 0; part < parts; part++) {
+        const artwork = clean(node);
+        if (artwork.matches('.wdiag-svg')) artwork.querySelector('.wdiag-cap')?.remove();
+        if (parts > 1 && table) {
+          const body = artwork.matches('table') ? artwork.querySelector('tbody') : artwork.querySelector('table tbody');
+          const start = part * 5;
+          [...body.children].forEach((row, index) => {
+            if (index < start || index >= start + 5) row.remove();
+          });
+        }
+        if (parts === 2 && tallSvg) {
+          const top = bounds.y + (part ? bounds.height * .43 : 0);
+          artwork.querySelector('svg').setAttribute('viewBox',
+            `${bounds.x} ${top} ${bounds.width} ${bounds.height * .57}`);
+        }
+        const nodes = [artwork];
+        if (mergeOpening && number === 1 && part === 0) nodes.unshift(clean(opening[0]));
+        const next = node.nextElementSibling;
+        if (kind === 'table' && rows.length <= 3 && readable(next)) nodes.push(brief(next, 'lae-slide-takeaway'));
+        else if (next?.matches('.callout-important')) nodes.push(brief(next, 'lae-slide-takeaway'));
+        frames.push({id: `${section.id}-visual-${number}${part ? `-part-${part + 1}` : ''}`,
+          title: parts > 1 ? `${shortTitle} · ${part + 1} of ${parts}` : label,
+          source: section, nodes, notes});
+      }
     }
     direct(section, 'section.level3').forEach(addSection);
   };
