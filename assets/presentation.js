@@ -66,6 +66,23 @@
       }
     }
     if (opening.length) frames.push({id: section.id, title, source: section, nodes: opening, notes});
+    if (firstList && firstList.children.length > 4) {
+      for (let start = 4; start < firstList.children.length; start += 4) {
+        const list = clean(firstList);
+        [...list.children].forEach((item, index) => { if (index < start || index >= start + 4) item.remove(); });
+        if (list.tagName === 'OL') list.start = start + 1;
+        frames.push({id: `${section.id}-points-${start + 1}`, title: `${title} · continued`,
+          source: section, nodes: [list], notes});
+      }
+    }
+    let activity = 0;
+    for (const node of children.filter(child => child.matches('p') &&
+      /^\s*(slide exercise|exercise ledger|class exercise)\s*[:—-]/i.test(child.textContent))) {
+      if (node === firstParagraph) continue;
+      activity++;
+      frames.push({id: `${section.id}-activity-${activity}`, title: `${title} · activity`,
+        source: section, nodes: [clean(node)], notes});
+    }
     let number = 0;
     for (const node of children.filter(visual)) {
       number++;
