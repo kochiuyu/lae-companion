@@ -818,6 +818,15 @@ Pull the thread. Define the market. Use segment logic. Apply HHI with eyes open.
 
 The slides include a **high-price / low-price** game for groups of four or five. Two teams act as operators on a hypothetical Northern Metropolis delivery corridor. Using the handout's payoff matrix, choose a price, ask what happens if the other team undercuts you, then discuss how a single scarce landing pad changes the result. The slide allocates 15 minutes for group work and five minutes for discussion; it does not supply numerical payoffs, so do not invent them. The [class outline](slides/week02-market-structure.pdf) also carries the Week 2 memo brief; confirm submission details on the teaching platform.
 
+The old slide's **qualitative** payoff prompt can be used without the handout:
+
+| Team A / Team B | B chooses high price | B chooses low price |
+|-----------------|----------------------|---------------------|
+| A chooses high price | Both retain healthier margins if demand is shared. | B may take more demand; ask whether B's margin survives the cut. |
+| A chooses low price | A may take more demand; ask whether A's margin survives the cut. | Both face thinner margins; capacity and costs still bind. |
+
+This is a discussion matrix, not a numerical profit forecast. If only one landing pad is available, ask who can actually serve the extra demand before predicting a price-war winner.
+
 **Decision chain:** Define the market → screen concentration with HHI → trace site costs and density → test entry barriers → examine price and capacity → decide whether sharing reduces cost. Use the separate sandbox counts as programme context, never as market shares or proof of commercial service.
 
 ## Summary {#summary}
