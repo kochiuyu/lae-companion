@@ -25,7 +25,7 @@ Search a name or idea, or browse A–Z. [Reference diagrams](#reference-diagrams
   <ul id="glossary-results" class="glossary-links" hidden></ul>
   <details id="glossary-browse"><summary>Browse all terms A–Z <span id="glossary-count"></span></summary><div id="glossary-all"></div></details>
 </div>
-<script defer src="assets/glossary.js?v=reference-20261114"></script>
+<script defer src="assets/glossary.js?v=reference-20261114b"></script>
 ```
 
 Quick jumps: [LAE](#lae) · [SUA](#sua) · [VLOS](#vlos) · [BVLOS](#bvlos) · [eVTOL](#evtol) · [UTM](#utm) · [Regulatory Sandbox](#regulatory-sandbox) · [Sandbox X](#sandbox-x) · [generalised cost](#generalised-cost) · [NPV](#npv).

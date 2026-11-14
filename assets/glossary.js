@@ -62,7 +62,11 @@
     results.replaceChildren();
     results.hidden = !query;
     if (!query) { status.textContent = `${terms.length} terms. Type to search or browse all A–Z.`; return; }
-    const matches = terms.filter(term => term.search.includes(query));
+    const rank = term => {
+      const name = normalize(term.label);
+      return name === query ? 0 : name.startsWith(query) ? 1 : name.includes(query) ? 2 : 3;
+    };
+    const matches = terms.filter(term => term.search.includes(query)).sort((a, b) => rank(a) - rank(b));
     results.append(...matches.slice(0, 30).map(link));
     status.textContent = matches.length ? `${matches.length} matching term${matches.length === 1 ? '' : 's'}${matches.length > 30 ? '; showing the first 30' : ''}.` : 'No matching terms. Try another word or browse A–Z.';
   };
