@@ -104,8 +104,7 @@
         opening.push(list);
       }
     }
-    const mergeOpening = opening.length === 1 && opening[0].textContent.trim().length < 90 && children.some(visual);
-    if (opening.length && !mergeOpening) frames.push({id: section.id, title, source: section, nodes: opening, notes});
+    if (opening.length) frames.push({id: section.id, title, source: section, nodes: opening, notes});
     if (firstList) listChunks(firstList).slice(1).forEach(({node, start}) => {
       frames.push({id: `${section.id}-points-${start}`, title: `${title} · continued`,
         source: section, nodes: [node], notes});
@@ -141,7 +140,7 @@
       const rows = [...(table?.querySelectorAll('tbody > tr') || [])];
       const tallSvg = node.matches('.wdiag-svg') ? node.querySelector('svg[viewBox]') : null;
       const bounds = tallSvg?.viewBox.baseVal;
-      const parts = rows.length > 6 ? Math.ceil(rows.length / 5) : 1;
+      const parts = rows.length > 12 ? Math.ceil(rows.length / 5) : 1;
       for (let part = 0; part < parts; part++) {
         let artwork = clean(node);
         if (artwork.matches('.wdiag-svg')) artwork.querySelector('.wdiag-cap')?.remove();
@@ -162,7 +161,6 @@
           });
         }
         const nodes = [artwork];
-        if (mergeOpening && number === 1 && part === 0) nodes.unshift(clean(opening[0]));
         const next = node.nextElementSibling;
         if (kind === 'table' && rows.length <= 3 && readable(next)) nodes.push(brief(next, 'lae-slide-takeaway'));
         else if (next?.matches('.callout-important')) nodes.push(brief(next, 'lae-slide-takeaway'));
@@ -174,6 +172,17 @@
     direct(section, 'section.level3').forEach(addSection);
   };
   sections.forEach(addSection);
+  for (let index = 0; index < frames.length - 1;) {
+    const lead = frames[index];
+    const next = frames[index + 1];
+    const shortProse = lead.nodes.length > 0 && lead.nodes.every(node =>
+      node.matches('p') && !node.querySelector('.math.display')) &&
+      lead.nodes.reduce((length, node) => length + node.textContent.trim().length, 0) <= 450;
+    if (shortProse && (lead.source === next.source || lead.source.contains(next.source))) {
+      next.nodes.unshift(...lead.nodes);
+      frames.splice(index, 1);
+    } else index++;
+  }
   if (!frames.length) return;
   const courseTitle = document.querySelector('#title-block-header h1')?.textContent.trim() || 'LAE lesson';
   const subtitle = document.querySelector('#title-block-header .subtitle')?.textContent.trim() || '';

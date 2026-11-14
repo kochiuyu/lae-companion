@@ -655,11 +655,9 @@ $$
 
 ### Connecting the three steps (worked intuition)
 
-Suppose door-to-door time savings are worth HK$500 per trip under a high VOT ([§8.1](#door-to-door-friction-destroys-value)). That is step 1 — **customer value**.
-
-Step 2 asks whether the operator can **charge** something related to that value *and* cover operating cost after paying partners (vertiport, energy, insurance — [§9](#illustrative-unit-economics-not-market-data)). If the fare is only HK$200 after partners take HK$200 of a HK$300 ticket, the operator’s margin can vanish under a small fare cut.
-
-Step 3 asks whether the **stream** of margins, after tax and risk, covers the upfront aircraft, site, and compliance investment (NPV). A sandbox may change step 3 by reducing delay and uncertainty ([§11](#regulatory-sandboxes-in-hong-kong)) — it does not invent positive margins.
+1. **Create customer value.** Suppose door-to-door time savings are worth HK$500 per trip under a high VOT ([§8.1](#door-to-door-friction-destroys-value)).
+2. **Capture value.** The operator must charge for some of that value *and* cover operating cost after paying partners (vertiport, energy, insurance — [§9](#illustrative-unit-economics-not-market-data)). If partners take HK$200 of a HK$300 ticket, the operator receives HK$100 before its own costs; a small fare cut can erase its margin.
+3. **Justify investment.** The stream of margins, after tax and risk, must cover upfront aircraft, site, and compliance investment (NPV). A sandbox may reduce delay and uncertainty ([§11](#regulatory-sandboxes-in-hong-kong)); it does not invent positive margins.
 
 ---
 
