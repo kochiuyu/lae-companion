@@ -1,14 +1,14 @@
 ---
 title: "How to use this site"
 subtitle: "The full Orient route for first-time learners"
-as_of: "2026-10-17"
+as_of: "2026-11-14"
 page-layout: article
 toc: true
 toc-location: right
 toc-title: "Sections"
 format:
   html:
-    body-classes: "page-prose"
+    body-classes: "page-prose page-orient"
 ---
 
 ## Complete Orient before Week 1
@@ -62,3 +62,75 @@ Formulas, tables, figures, readings, and Self-check quizzes collected from the w
 - [Timeline](dates.qmd) — dated instruments and milestones  
 
 This site has no Blackboard admin. Course logistics stay on the teaching platform.
+
+## Orient briefing
+
+Orient prepares you to read the weekly lessons as a complete service and to check each claim against its source. The eight-page route moves through three questions:
+
+- What mission creates value, and how would the full service deliver it?
+- Who pays, who decides, and what evidence supports a number or programme claim?
+- What should you ask after the videos before opening Week 1?
+
+### 1. Start with the route
+
+Orient builds the vocabulary and source habits needed before Week 1. Work through all eight pages in order, then begin the weekly lessons.
+
+- Read [What is LAE?](primer.qmd), [Course overview](overview.qmd), and [How does LAE work?](business-overview.qmd) to understand the service and its economics.
+- Use [Who decides what?](regulators.qmd), [Common questions](faq.qmd), and [Key numbers](key-figures.qmd) to check claims.
+- Watch the ten short [LAE 101 videos](videos.qmd), then open [Week 1](week-01.qmd).
+
+### 2. Define a complete LAE service
+
+The low-altitude economy is a system that delivers a mission, not merely an aircraft. A medical-sample delivery is a classroom example, not a claim that a particular route operates.
+
+- Name the customer and the outcome they need.
+- Identify the operator, aircraft, take-off and landing sites, digital coordination, and support services.
+- Ask what improves against the existing alternative: time, cost, risk, access, or a mission that was hard to perform. [Read the primer](primer.qmd).
+
+### 3. See the twelve-week course arc
+
+The course tests whether an LAE service can work commercially, fit Hong Kong policy and regulation, and earn public acceptance. The focus is Hong Kong and the Greater Bay Area; global AAM material is used for comparison.
+
+- Weeks 1–3 establish the market and unit economics.
+- Weeks 4–10 add demand, sites, partnerships, regulation, airspace, and social impact.
+- Weeks 11–12 combine the tools into a conditioned strategy and final review. [See the week map](overview.qmd#week-conceptual-map).
+
+### 4. Follow value and payment
+
+A fast aircraft is not automatically a valuable service. The operator must deliver an outcome that someone values enough to fund, while paying for the full chain of inputs and risk.
+
+- Value may come from time saved, lower cost or risk, better access, or an otherwise difficult mission.
+- Trace who pays the operator and who supplies aircraft, sites, coordination, insurance, and other services.
+- Compare the payment with costs and capacity, then ask who bears the downside. [See the business map](business-overview.qmd).
+
+### 5. Know who decides what
+
+Hong Kong institutions have different roles. The Working Group sets cross-government direction; TLB handles policy and trial programmes; CAD regulates small unmanned aircraft; OFCA handles the specified spectrum licence.
+
+- A policy programme is not flight permission.
+- The first Regulatory Sandbox and Sandbox X are separate programmes.
+- Mainland, EU, and US frameworks are comparators, not Hong Kong law. [See the regulator roles](regulators.qmd).
+
+### 6. Ask what a claim actually says
+
+Before repeating a headline, check its legal label, programme, place, date, and issuer. The Common questions page explains frequent confusions.
+
+- Everyday “drone” speech is not identical to the legal SUA category under Cap. 448G.
+- A discussed Shenzhen–Hong Kong corridor is not evidence of day-to-day operating flights.
+- A projection from a think tank is not a government target. [Check the common questions](faq.qmd).
+
+### 7. Read the numbers with their labels
+
+Numbers describe different things. Keep a policy description, a flying limit, a trial count, and a projection in their own categories. The Key numbers page links each figure to its issuer.
+
+- About 1,000 m describes the Hong Kong LAE policy field; ordinary Cap. 448G A1/A2 limits are 100/300 ft AGL.
+- The first Sandbox selected 38 projects from 72 applications; Sandbox X has 38 selected modules. These are separate counts.
+- OHKF’s HK$350 billion is a 2050 Hong Kong industry value-added projection, not a government figure. [Check the figures and issuers](key-figures.qmd).
+
+### 8. Watch, question, then begin Week 1
+
+The ten short [LAE 101 videos](videos.qmd) introduce aircraft, sites, traffic coordination, safety, delivery, rescue, and other uses. Treat them as introductions; use [Official status](tracker.qmd) for dated programme facts.
+
+- For each video, identify the customer problem and one operational constraint.
+- Bring one question about demand, cost, permission, or public acceptance to class.
+- Start [Week 1](week-01.qmd) with a complete mission rather than a vehicle alone.

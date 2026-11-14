@@ -1,13 +1,14 @@
-/* The weekly HTML is the teaching source. This view uses its sections, visuals and prose. */
+/* The lesson HTML is the teaching source. This view uses its sections, visuals and prose. */
 (() => {
   'use strict';
-  if (!document.body.classList.contains('page-week') || typeof HTMLDialogElement === 'undefined' || !('showModal' in HTMLDialogElement.prototype)) return;
+  const isOrient = document.body.classList.contains('page-orient');
+  if ((!document.body.classList.contains('page-week') && !isOrient) || typeof HTMLDialogElement === 'undefined' || !('showModal' in HTMLDialogElement.prototype)) return;
   const page = document.getElementById('quarto-document-content');
   if (!page) return;
   const excluded = new Set(['self-check', 'readings']);
   const direct = (element, selector) => [...element.children].filter(child => child.matches(selector));
   const sections = [...page.querySelectorAll('section.level2')].filter(section =>
-    !section.closest('section.level3') && !excluded.has(section.id));
+    !section.closest('section.level3') && (isOrient ? section.id === 'orient-briefing' : !excluded.has(section.id)));
   if (!sections.length) return;
 
   const frames = [];
@@ -178,10 +179,10 @@
   cover.className = 'lae-cover';
   const label = document.createElement('p');
   label.className = 'lae-cover-label';
-  label.textContent = week ? `LAE Course · Week ${week[1]}` : 'LAE Course';
+  label.textContent = isOrient ? 'LAE Course · Orient' : week ? `LAE Course · Week ${week[1]}` : 'LAE Course';
   const heading = document.createElement('h2');
   heading.className = 'lae-cover-heading';
-  heading.textContent = week ? week[2] : courseTitle;
+  heading.textContent = isOrient ? 'Orient' : week ? week[2] : courseTitle;
   cover.append(label, heading);
   if (subtitle) {
     const subheading = document.createElement('p');
@@ -195,7 +196,7 @@
   const launch = document.createElement('button');
   launch.type = 'button';
   launch.className = 'lae-present-launch';
-  launch.textContent = 'Present lesson';
+  launch.textContent = isOrient ? 'Present Orient' : 'Present lesson';
   const pdf = [...page.querySelectorAll('a[href$=".pdf"]')].find(a => a.getAttribute('href').startsWith('slides/'));
   (pdf?.closest('p') || page.querySelector('h1') || page).insertAdjacentElement('afterend', launch);
 
