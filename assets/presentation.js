@@ -41,7 +41,7 @@
   };
   const plainTitle = section => {
     const title = section.querySelector(':scope > h2, :scope > h3')?.textContent.trim() || 'Lesson';
-    return isOrient ? title.replace(/^\d+\.\s*/, '') : title;
+    return title.replace(/^\d+(?:\.\d+)*\.\s*/, '');
   };
   const contentChildren = section => direct(section, ':not(h2):not(h3):not(section):not(script):not(style)');
   const visual = node => node.matches('figure,table,.table-responsive,.cell,.quarto-figure,.wdiag,.wtable');
