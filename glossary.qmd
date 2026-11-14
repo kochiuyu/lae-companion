@@ -491,6 +491,12 @@ Mainland national airspace classification labels (2023 release); **not Hong Kong
 [「为充分利用国家空域资源，规范空域划设和管理使用，国家空管委组织制定了《国家空域基础分类方法》，现予以发布。」]{lang="zh-Hans"} ([source](https://www.caac.gov.cn/XXGK/XXGK/TZTG/202312/t20231221_222397.html))
 :::
 
+**[GBA / Greater Bay Area]{#gba}**
+
+The regional frame linking Hong Kong and Macao with nine cities in Guangdong ([HKSAR GBA overview](https://www.bayarea.gov.hk/en/about/overview.html)). In this course it is a setting for comparing supply chains, customers, regulation, and possible cross-boundary services — **not** one jurisdiction with a single aviation rulebook.
+
+A policy aim for a Shenzhen–Hong Kong corridor does not establish that a regular route is operating. Check the issuer, date, and jurisdiction of each claim. See [Official status](tracker.qmd#greater-bay-area); [Week 1](week-01.qmd#working-with-the-greater-bay-area).
+
 **Guangdong Provincial People's Government General Office (广东省人民政府办公厅)**
 
 Issuer of 粤府办〔2024〕6号 — 《广东省推动低空经济高质量发展行动方案（2024—2026年）》 (21 May 2024). On this site the Greater Bay Area corridor language in that plan is treated as a **policy aim**, not evidence that a Shenzhen–Hong Kong corridor is operating. Mainland / GBA comparator — **not Hong Kong law**. See also 粤府办〔2024〕6号 (粤府办 series; sibling letter-series 粤办函〔2025〕268号 is not 粤府办); Official status (Greater Bay Area); Timeline; Glossary Who regulates what diagram. [粤府办〔2024〕6号](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html).
@@ -723,7 +729,13 @@ Person who manipulates the flight controls of a SUA during flight under Cap. 448
 
 Pre-programmed recovery behaviour that sends the SUA to a home or safe site (e.g. after C2-link loss); incorrect RTH settings are a containment hazard. CAD AC-013 §14.1.
 
-**Specific Operations Risk Assessment (SORA) (特定運行風險評估)**
+**[safety case]{#safety-case}**
+
+A structured argument, backed by evidence, that the hazards of a **defined operation** are understood and adequately controlled. It connects the aircraft, route, environment, people, procedures, and emergency responses to specific risks and mitigations.
+
+A safety case for one trial route does not establish that a different route or commercial service is safe, nor does it prove zero risk or replace a required permission. Update it when the operating conditions change. See [SORA](#sora); [Week 7](week-07.qmd#the-safety-case-and-risk-cost).
+
+**[Specific Operations Risk Assessment (SORA) (特定運行風險評估)]{#sora}**
 
 **SORA** (特定運行風險評估) — a structured method to argue ground and air risk for advanced / BVLOS-style operations; AC-013 App. B names it. CAD AC-013_C App. B.
 
@@ -863,6 +875,12 @@ English: “Enhance core infrastructure facilities by designating spectrum by th
 
 Ability of authorized systems, organizations, vehicles, UTM/traffic services, and sites to **exchange, interpret, and use** information and procedures under a common rule set (data models, interfaces, identity/access, service levels, conformance testing). In Hong Kong course materials, treat this as **Policy Address infrastructure / digital-coordination language** and a Week 8 teaching concept — not a finished local statute that already mandates one LAE standard stack. Shared standards can cut duplicate interfaces and repeated manual coordination, but systems, cybersecurity, assurance, and governance still cost money; open standards do **not** mean unrestricted public access to operational data. **U-space ≠ Hong Kong law.** See [Week 8](week-08.qmd#digital-coordination-and-interoperability); [Key numbers](key-figures.qmd) / [Official status](tracker.qmd) for PA wording.
 
+**[reliable capacity]{#reliable-capacity}**
+
+The movements or passengers a service can **dependably deliver** in a stated period after allowing for charging, turnaround, maintenance, weather, staffing, and applicable operating limits. It can be well below the maximum suggested by the number of aircraft or pads.
+
+Use reliable capacity when testing demand and breakeven; name the assumptions and the period. A full booking list is not evidence that every trip can be flown. See [Throughput](#throughput); [Week 5](week-05.qmd#throughput-reliability-and-breakeven-capacity-use).
+
 **Route network (PA) (航路網絡)**
 
 Policy Address planning label (航路網絡) for a low-altitude route network. Naming it in the PA is **not** proof that city-wide corridors already operate. 2025 PA ¶154.
@@ -913,6 +931,12 @@ An explicit scenario factor applied to a demand estimate to explore how public a
 
 Say whose acceptance is being considered and why: travellers who might buy, residents under a route, and public agencies can react differently. Do not multiply by an adjustment if the same effect is already built into mode share or generalized cost. See [Social license](#social-license); [Week 4](week-04.qmd#transparent-acceptance-adjustment).
 
+**[asset-light model]{#asset-light-model}**
+
+A business model that owns fewer aircraft or sites and buys more capability from partners. It can reduce upfront investment while increasing partner payments and dependence on contracts, data, access, and performance.
+
+Compare cash needs, contribution, control, and retained liability; “asset-light” does not mean low risk or high profit. See [platform / FaaS](#platform-faas); [Week 6](week-06.qmd#three-business-model-archetypes).
+
 **[ASK / available capacity unit]{#ask}**
 
 Capacity you **offer** (seat-km or payload-km), used as the denominator in CASK / CPMK.
@@ -930,6 +954,12 @@ Shows how **fixed cost** spreads when utilization or density rises on the same c
 Payment for **readiness** of a service or asset, even when usage is low.
 
 Public or partner deals often buy “be ready to fly” for emergency or sparse routes, not only pay-per-trip. Availability pay does **not** prove there is commercial demand. Contrast [usage payment](#usage-payment). See [Week 6](week-06.qmd).
+
+**[benefit-cost analysis]{#benefit-cost-analysis}**
+
+A comparison of the gains and costs of an option against a stated alternative over a stated period. For a public decision, the boundary can include users, residents, and taxpayers as well as the operator.
+
+Show which effects are monetized and which remain qualitative; avoid counting a time saving both as a fare benefit and as a separate social benefit. A privately profitable route need not have positive [social net benefit](#social-net-benefit). See [Week 9](week-09.qmd#social-equity-and-distributional-analysis).
 
 **[Bertrand competition]{#bertrand}**
 
@@ -955,6 +985,12 @@ Turns a cost stack into a volume target you can compare with capacity and demand
 
 Mixing them hides whether a problem is “too expensive to build” or “too expensive to run every day.” Label the period. Some costs look fixed in a week and variable over a year. See [Week 3](week-03.qmd).
 
+**[capacity constraint]{#capacity-constraint}**
+
+A limit on the output a service can actually deliver: aircraft, sites, airspace slots, crew, charging, weather windows, or permission can be the bottleneck. Demand above that limit is **unserved demand**, not sales.
+
+Identify the binding constraint before forecasting revenue or cutting price. Adding aircraft does not raise served trips when pad slots still bind. See [reliable capacity](#reliable-capacity); [Week 4](week-04.qmd#managerial-demand-funnel).
+
 **[cash flow]{#cash-flow}**
 
 Money in minus money out in a period.
@@ -966,6 +1002,12 @@ NPV and staging decisions need cash timing, not only accounting profit labels. S
 **CASK** = cost per available seat-kilometre; **CPMK** = cost per available payload-kilometre — cost of **capacity offered**.
 
 Compares unit cost when seats or payload-km are the natural unit (passenger vs cargo / mission). Lecture CASK numbers are **not** Hong Kong market data. See [Week 3](week-03.qmd).
+
+**[CO2e / carbon dioxide equivalent]{#co2e}**
+
+A common unit for expressing different greenhouse gases as an amount of carbon dioxide with comparable warming effect under a stated method ([US EPA definition](https://www3.epa.gov/ghgreporting/help/tool2014/definitions/co2e.html)). A value in **kg CO2e per operation** is not the same as **kg CO2e per passenger-kilometre**.
+
+State the emissions boundary, factor, and denominator before comparing services. The Week 10 classroom factors are illustrations, not measured Hong Kong fleet emissions. See [functional unit](#functional-unit); [Week 10](week-10.qmd#ghg-inventory-and-life-cycle-assessment).
 
 **[contribution margin]{#contribution-margin}**
 
@@ -991,17 +1033,35 @@ A step-down from relevant trips → choice → **served** demand under capacity.
 
 Name each filter before applying it: relevant trips, eligible corridor or mission share, willingness to choose the service, then reliable capacity. If 300 customers would choose a flight but only 256 can be carried, served demand is 256 under those assumptions. A larger marketing funnel does not raise served trips while capacity remains binding. These are classroom quantities, not a published corridor forecast. See [TAM](#tam), [SAM](#sam), [SOM](#som), and [Week 9](week-09.qmd).
 
+**[decision gate]{#decision-gate}**
+
+A pre-stated condition for continuing, changing, or stopping a project after new evidence arrives. A trial might move to the next stage only if its safety, reliability, demand, and cash thresholds are met.
+
+State the measure, threshold, decision owner, and next action **before** treating a pilot as proof of scale. A gate makes a [real option](#real-options) actionable; it does not grant regulatory permission. See [Week 7](week-07.qmd#phased-regulatory-roadmap); [Week 11](week-11.qmd#risk-register-and-decision-gated-roadmap).
+
 **[discount rate]{#discount-rate}**
 
 The rate used to turn future cash into present value in NPV.
 
 Higher rates punish distant cash — important when certification and sandboxes delay launch. Always state the rate; it is an assumption, not a law of nature. See [NPV](#npv).
 
+**[distributional analysis]{#distributional-analysis}**
+
+An examination of **who receives each benefit and who bears each cost**, not only whether the total is positive. For LAE, compare users, people under routes, operators, public-service customers, and taxpayers by access, noise, privacy, risk, and funding.
+
+An emergency-service label does not by itself establish equity. Report the affected groups and measurable outcomes alongside [social net benefit](#social-net-benefit). See [Week 9](week-09.qmd#social-equity-and-distributional-analysis); [Week 10](week-10.qmd#equity-social-licence-and-funding-commitments).
+
 **[economies of density]{#economies-of-density}**
 
 Average cost falls as more flights share the **same** corridor or vertiport (not only “bigger aircraft”).
 
 Density can look like a moat when sites are scarce. Density needs allowed volume — demand, pads, and rules can bind first. See [Week 2](week-02.qmd).
+
+**[economic profit]{#economic-profit}**
+
+Revenue minus the **economic cost** of the resources used, including an allocation for invested assets where the model requires one. It answers a different question from cash left in the bank this month.
+
+State how aircraft or software investment, partner payouts, tax, and financing are treated before comparing business models. A positive monthly profit screen does not pay an upfront build bill or remove a ramp-up liquidity gap. See [cash flow](#cash-flow); [Week 6](week-06.qmd#three-business-model-archetypes).
 
 **[elasticity of demand]{#elasticity-of-demand}**
 
@@ -1021,11 +1081,35 @@ A cost or benefit that falls on others and is not fully priced into the private 
 
 Communities and rules can shrink the operating window even when a fare looks fine. Put externalities in cash flow or capacity limits — not only in an ESG footnote. See [Week 10](week-10.qmd).
 
+**[EMS / emergency medical services]{#ems}**
+
+Medical or emergency-response work where timing, access, and reliability may be especially valuable. In LAE teaching examples, the possible aerial service is a **mission** within a wider health or emergency system, not a claim that every urgent task needs an aircraft.
+
+High value of time does not mean unlimited willingness or ability to pay; budgets, procurement, clinical need, permissions, and alternatives still matter. See [Week 2](week-02.qmd#four-segments-four-competitive-logics); [Use cases](usecases.qmd#uc-medical).
+
+**[expected loss]{#expected-loss}**
+
+The probability of a harmful event multiplied by its consequence in a simple risk screen, summed across relevant events if the model calls for it. It is an **average over possibilities**, not the worst case or the cash needed after a severe incident.
+
+State the event, exposure, probability basis, consequence, and controls. A low expected loss does not excuse an unacceptable single-event outcome. See [safety case](#safety-case); [Week 7](week-07.qmd#the-safety-case-and-risk-cost).
+
+**[expected value]{#expected-value}**
+
+A probability-weighted average of scenario outcomes: multiply each outcome by its probability and add them. For example, expected profit can be positive even when one plausible scenario makes a large loss.
+
+Use only probabilities you can defend, and inspect downside cash needs separately. The average is not a promise about the result of one project. See [scenario analysis](#scenario-analysis); [Week 9](week-09.qmd#uncertainty-scenarios-and-expected-value).
+
 **[fixed cost]{#fixed-cost}**
 
 A cost that does not change when you add one more flight or passenger in the short run (classroom example: a daily aircraft lease).
 
 The same lease spread over fewer flights means a higher cost per flight or per passenger. Curfews and pad limits that cut daily flights raise fixed cost per flight even if the aircraft is unchanged. “Fixed” depends on the time window. Over a longer horizon, leases and staff can become variable. Always state the period. See [Week 1](week-01.qmd).
+
+**[functional unit]{#functional-unit}**
+
+The common unit used to compare environmental impacts between services, such as one passenger-kilometre, one tonne-kilometre, or one completed mission. It defines what the emissions figure is **per**.
+
+Choose a unit that reflects the same service outcome and boundary for both alternatives. A per-flight figure can mislead if one option carries more passengers or travels a different distance. See [LCA](#lca); [Week 10](week-10.qmd#life-cycle-emissions-per-functional-unit).
 
 **[generalised cost]{#generalised-cost}** []{#generalized-cost}
 
@@ -1075,6 +1159,12 @@ Assessment of impacts across the full life of a product or service.
 
 “Electric in flight” is not the same as low impact from manufacture to disposal. Do not add GHG Scope 1+2+3 totals to an LCA total without a boundary map. See [Week 10](week-10.qmd).
 
+**[leasing]{#leasing}**
+
+Paying for the use of an aircraft or other asset over time instead of buying it outright. Leasing changes the timing and ownership of cash flows, but someone must still bear maintenance, downtime, payment, and end-of-term value risks.
+
+Specify who owns the asset, who operates it, who pays during grounded periods, and who receives the [residual value](#residual-value). A lease does not make a weak service viable by itself. See [Week 12](week-12.qmd#leasing-appraisal-risk-does-not-disappear).
+
 **[limit pricing]{#limit-pricing}**
 
 Pricing or related tactics aimed at deterring entry.
@@ -1087,11 +1177,35 @@ Traffic carried divided by capacity offered (seats or payload filled ÷ seats or
 
 An illustrative four-seat aircraft carrying three paying passengers has a 75% passenger load factor on that flight. The measure says **how full** the offered capacity is, not how often the aircraft flies. High utilization with low load factor can still leave too few paying units to cover costs; both measures matter. For cargo, define the payload capacity and what “filled” means before using the ratio. See [utilization](#utilization); [Week 1](week-01.qmd); [Week 3](week-03.qmd).
 
+**[liquidity]{#liquidity}**
+
+Cash or committed financing available to meet payments when they fall due. A project can have a positive long-run NPV yet run out of cash during construction, slow demand ramp-up, or weather downtime.
+
+Show the largest plausible shortfall and its timing, not only annual profit. Borrowing or availability payments may help, but their conditions and cost belong in the model. See [cash flow](#cash-flow); [Week 5](week-05.qmd#staged-ramp-up-and-liquidity).
+
 **[marginal cost]{#marginal-cost}**
 
 Extra cost of one more unit of output (one more flight or passenger, as defined).
 
 Short-run pricing floors and congestion logic start from marginal cost — but ATC still includes fixed cost. Pricing at marginal cost can bankrupt a high-fixed-cost LAE service. See [Week 2](week-02.qmd).
+
+**[marginal congestion cost]{#marginal-congestion-cost}**
+
+The extra delay or other burden that **one more movement imposes on everyone else** using a busy pad or airspace segment. It is different from the entrant's own waiting cost.
+
+It helps test slot rules or an illustrative charge, but estimating it requires a defined bottleneck, period, and response to extra traffic. The Week 8 calculation is a classroom screen, not a Hong Kong fee. See [congestion externality](#congestion-externality); [Week 8](week-08.qmd#marginal-congestion-cost-illustrative).
+
+**[market segmentation]{#market-segmentation}**
+
+Dividing potential customers into groups with materially different needs, budgets, alternatives, or willingness to pay. A time-critical medical mission and a leisure passenger trip should not share one assumed demand curve.
+
+Define the segment before estimating its size or price response; avoid counting the same trip in several segments. See [demand funnel](#demand-funnel); [Week 4](week-04.qmd#heterogeneity-and-differentiated-products).
+
+**[mechanism design]{#mechanism-design}**
+
+Designing rules that determine how scarce capacity is assigned and how users respond to those rules. For a pad, possible classroom mechanisms include a queue, priority class, posted fee, or auction.
+
+Judge a rule by safety, access, predictability, efficiency, and incentives; the highest bid is not automatically the best public-service allocation. These are design options, not asserted Hong Kong slot rules. See [slot](#slot); [Week 8](week-08.qmd#mechanism-design-and-slot-allocation).
 
 **[mode choice]{#mode-choice}**
 
@@ -1099,11 +1213,23 @@ Which travel or delivery option a customer picks (for example MTR vs taxi vs air
 
 Air wins only if door-to-door generalized cost (and acceptance) beat alternatives. Mode share is an outcome, not an input you may invent. See [Week 4](week-04.qmd).
 
+**[mode share]{#mode-share}**
+
+The fraction of trips in a defined market and period using one transport option. It is an **outcome** of price, time, reliability, access, preferences, and the available alternatives, subject to capacity.
+
+Do not assign a convenient share to make a revenue forecast work. State the market denominator and evidence, then distinguish the share that would choose an option from trips actually served. See [mode choice](#mode-choice); [Week 4](week-04.qmd#managerial-demand-funnel).
+
 **[Monte Carlo]{#monte-carlo}**
 
 Many random draws from uncertain inputs to show a range of outcomes (and downside risk).
 
 Replaces one heroic base case when demand, weather, and approval timing are uncertain. Concept tool in Week 9 — not a claim that any Hong Kong operator published a Monte Carlo. See [Week 9](week-09.qmd).
+
+**[MRO / maintenance, repair, and overhaul]{#mro}**
+
+Hands-on work that keeps aircraft and related equipment serviceable through inspection, repair, parts, and maintenance planning. It is one possible LAE supporting-service role, distinct from manufacturing an aircraft or selling a flight.
+
+For a business case, identify the skills, facilities, certification or approval requirements that actually apply, and the volume needed to support the service. Do not infer a local MRO market size from an industry value-added projection. See [How sectors fit](business-overview.qmd#how-sectors-fit); [Week 3](week-03.qmd).
 
 **[network effects]{#network-effects}**
 
@@ -1153,17 +1279,41 @@ Asset-light slogans change who holds aircraft risk — they do not remove it. �
 
 Vertiports and public-service missions often need shared investment rules. A PPP does **not** invent demand and is **not** a substitute for a Hong Kong vertiport statute (none dedicated yet). See [Week 6](week-06.qmd).
 
+**[public-service commitment]{#public-service-commitment}**
+
+A specified amount or standard of service reserved for a public purpose, such as priority emergency flights or access for an underserved area. It uses capacity and may displace commercial contribution even when no fare is charged.
+
+Name the beneficiary, quantity or response standard, priority rule, incremental cost, and **funding source**. A commitment is neither free nor a substitute for legal permission or community acceptance. See [opportunity cost](#opportunity-cost); [Week 10](week-10.qmd#funding-a-public-service-commitment).
+
 **[real options]{#real-options}**
 
 The value of flexibility to wait, stage, expand, or exit when uncertainty is high.
 
 For example, an operator might fund a small pilot site and expand only if verified demand and permissions clear explicit thresholds. The first stage buys information and preserves a choice; it also costs money and may delay benefits. Option value needs a real decision gate and plausible alternatives, not a vague “we might expand.” See [risk register](#risk-register); [Week 5](week-05.qmd); [Week 6](week-06.qmd).
 
+**[reliability]{#reliability}**
+
+The ability to deliver a promised service under the conditions and period stated. Measure it with a defined denominator, such as completed missions divided by scheduled missions, and specify how weather cancellations or diversions count.
+
+Reliability affects both [reliable capacity](#reliable-capacity) and customer demand; assuming every planned flight occurs overstates both. Avoid treating a single good-weather trial as year-round performance. See [Week 3](week-03.qmd#weather-downtime-and-risk-responses); [Week 5](week-05.qmd#throughput-reliability-and-breakeven-capacity-use).
+
+**[residual value]{#residual-value}**
+
+The value an aircraft or other asset is expected to retain at the end of a project or lease. It may be reduced by wear, technology change, resale restrictions, or a thin secondary market.
+
+State who receives it and when; do not use an optimistic resale value to hide weak operating cash flow. See [leasing](#leasing); [Week 12](week-12.qmd#leasing-appraisal-risk-does-not-disappear).
+
 **[revenue management]{#revenue-management}**
 
 Allocating scarce capacity and adjusting prices or conditions to improve **expected contribution** — not “fill every seat.”
 
 Empty seats on small aircraft are expensive; mix and fare rules matter. High load factor at a low fare can still miss contribution. See [Week 3](week-03.qmd).
+
+**[risk allocation]{#risk-allocation}**
+
+Assigning each contract risk to the party best able to control, reduce, bear, or insure it, with the transfer reflected in price and contract terms. Weather, demand, site access, safety, data, and regulatory change do not all belong to the same party by default.
+
+For each risk, specify an owner, response, relief or payment trigger, and what happens if it occurs. Moving a risk on paper does not remove its economic cost. See [term sheet](#term-sheet); [Week 6](week-06.qmd#term-sheet-thinking-risk-to-the-best-party).
 
 **[risk register]{#risk-register}**
 
@@ -1177,11 +1327,23 @@ For example, a weather risk should lower serviceable capacity in a scenario, nam
 
 Define the geography, use case, eligibility, and time period of those filters. SAM sits between a broad TAM and the trips that might actually choose and be served by an operator. It is **not** the OHKF HK$350bn value-added projection. See [TAM](#tam); [SOM](#som); [Week 9](week-09.qmd).
 
+**[scenario analysis]{#scenario-analysis}**
+
+Recalculating an entire case under **coherent sets of assumptions**, such as a base, downside, and upside case. A weather scenario might lower flights, raise disruption cost, and later reduce repeat demand.
+
+Show the changed inputs and resulting profit, cash, or NPV; do not apply one unexplained percentage to every line. Scenarios describe possibilities, not probabilities unless those are separately justified. See [sensitivity analysis](#sensitivity-analysis); [Week 4](week-04.qmd#scenario-analysis-and-shocks); [Week 9](week-09.qmd#uncertainty-scenarios-and-expected-value).
+
 **[Scope 1 / 2 / 3]{#ghg-scopes}**
 
-GHG inventory categories: direct (1), purchased energy (2), and other indirect value-chain (3).
+**GHG** means **greenhouse gas**. A corporate GHG inventory groups emissions as direct (Scope 1), purchased-energy related (Scope 2), and other indirect value-chain emissions (Scope 3).
 
 Keeps “electric aircraft” claims honest about whose emissions count. Do not casually add Scopes to an LCA total without boundaries. See [Week 10](week-10.qmd).
+
+**[sensitivity analysis]{#sensitivity-analysis}**
+
+Changing one key assumption at a time, or over a stated range, to see how strongly the result moves. It helps identify whether fare, utilization, downtime, site cost, or approval timing drives the decision.
+
+Keep units and the model boundary fixed while changing the input. It tests robustness; it does not give a probability or replace a coherent [scenario analysis](#scenario-analysis). See [Week 3](week-03.qmd#sensitivity-habit-classroom-method); [Week 9](week-09.qmd#uncertainty-scenarios-and-expected-value).
 
 **[slot]{#slot}**
 
@@ -1219,6 +1381,12 @@ Finance, insurance, professional services, platforms, and related layers — the
 
 Hong Kong’s possible role is often framed as a **service layer** beside GBA manufacturing — as a hypothesis to test. OHKF emphasis is not proof of comparative advantage. See [Industry value-added](#industry-value-added).
 
+**[term sheet]{#term-sheet}**
+
+A short outline of the proposed commercial deal before full contract drafting: scope, payment, performance measures, access, risk ownership, relief, and exit. It reveals whether both sides mean the same thing by “ready,” “available,” or “on time.”
+
+Record who bears volume and downtime risk and what each transfer costs. A term sheet is a negotiating tool, **not** a CAD operating permission. See [risk allocation](#risk-allocation); [Week 6](week-06.qmd#term-sheet-thinking-risk-to-the-best-party).
+
 **[TAM]{#tam}**
 
 **Total addressable market** — the broadest relevant set of trips or customers before tight filters.
@@ -1254,6 +1422,12 @@ Shifts volume risk toward the party that depends on traffic. Usage pay can leave
 How intensively an asset is used (for example flights per day).
 
 Higher utilization spreads fixed cost over more flights. Utilization is not load factor. You can fly often with empty seats. See [Week 1](week-01.qmd).
+
+**[value for money]{#value-for-money}**
+
+Whether a proposed service delivers its specified outcomes at a justified **whole-life cost and risk**, compared with feasible alternatives. In a public-service deal, a low headline price may be poor value if reliability, access, or retained public risk is worse.
+
+State the comparison option and whose costs and benefits count. Do not infer value for money from a PPP label, a positive operator profit, or a technology demonstration alone. See [PPP](#ppp); [Week 6](week-06.qmd#publicprivate-partnerships-ppp).
 
 **[Value chain]{#value-chain}**
 
