@@ -39,7 +39,10 @@
     copy.querySelectorAll('script,button,input,textarea,select,.anchorjs-link,.quarto-figure-center > .lightbox').forEach(item => item.remove());
     return copy;
   };
-  const plainTitle = section => section.querySelector(':scope > h2, :scope > h3')?.textContent.trim() || 'Lesson';
+  const plainTitle = section => {
+    const title = section.querySelector(':scope > h2, :scope > h3')?.textContent.trim() || 'Lesson';
+    return isOrient ? title.replace(/^\d+\.\s*/, '') : title;
+  };
   const contentChildren = section => direct(section, ':not(h2):not(h3):not(section):not(script):not(style)');
   const visual = node => node.matches('figure,table,.table-responsive,.cell,.quarto-figure,.wdiag,.wtable');
   const linkOnly = node => node.matches('p') && node.children.length === 1 && node.firstElementChild.matches('a');
