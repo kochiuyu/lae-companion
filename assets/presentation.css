@@ -26,6 +26,24 @@
 .lae-slide-body figure, .lae-slide-body svg, .lae-slide-body img { max-width: 100%; height: auto; }
 .lae-slide-body .wdiag { width: 100%; max-width: 64rem; margin-inline: auto; }
 .lae-slide-body .wdiag svg { width: 100%; max-width: 57rem !important; margin-inline: auto !important; }
+.lae-slide:has(.lae-slide-tall-diagram) { display: flex; flex-direction: column; }
+.lae-slide:has(.lae-slide-tall-diagram) .lae-slide-body { flex: 1; min-height: 0; width: 100%; }
+.lae-slide-body .lae-slide-tall-diagram { height: 100%; margin-block: 0; }
+.lae-slide-body .lae-slide-tall-diagram svg { display: block !important; width: auto !important; height: 100% !important; max-width: 100% !important; margin-inline: auto !important; }
+.lae-slide-altitude { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+.lae-altitude-card { min-width: 0; padding: 1.4rem; border: 2px solid #ddd3e8; border-top-width: .6rem; border-radius: .6rem; background: #faf9fc; }
+.lae-altitude-policy { border-top-color: #b28a48; }
+.lae-altitude-hk { border-top-color: #003366; }
+.lae-altitude-mainland { border-top-color: #7a6a4f; }
+.lae-altitude-tag { display: block; font-weight: 700; font-size: .8em; }
+.lae-altitude-card strong { display: block; margin: 1.1rem 0 .6rem; color: #003366; font-size: clamp(1.7rem, 3vw, 3.1rem); line-height: 1.15; white-space: nowrap; }
+.lae-altitude-card p { min-height: 4.5em; margin: 0; }
+.lae-altitude-card b { display: block; border-top: 1px solid #cfc4d9; padding-top: .7em; color: #5b2d70; }
+.lae-corridor-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.lae-corridor-grid > div { padding: 1rem; border: 2px solid #ddd3e8; border-radius: .6rem; background: #faf9fc; }
+.lae-corridor-grid b, .lae-corridor-grid span { display: block; }
+.lae-corridor-grid b { margin-bottom: .4rem; color: #003366; font-size: 1.15em; }
+.lae-corridor-decision { margin: 1rem 0 0; padding: .8rem 1rem; border-radius: .5rem; background: #003366; color: white; }
 .lae-presentation .fig-enlarge-hint { display: none !important; }
 .lae-slide-body table { font-size: .78em; }
 .lae-slide-body pre, .lae-slide-body .table-responsive, .lae-slide-body table { max-width: 100%; overflow-x: auto; }
@@ -38,6 +56,9 @@
 .lae-present-notes table, .lae-present-notes figure { max-width: 100%; overflow-x: auto; }
 .lae-print-deck { display: none; }
 @media (max-width: 800px) {
+  .lae-slide-altitude { grid-template-columns: 1fr; margin-top: .5rem; }
+  .lae-altitude-card p { min-height: 0; }
+  .lae-corridor-grid { grid-template-columns: 1fr; }
   .lae-presentation.show-notes .lae-present-layout { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) minmax(7rem, 35%); }
   .lae-slide { margin: .5rem; padding: 1rem; font-size: 1.05rem; }
   .lae-slide-title { font-size: 1.45rem; }

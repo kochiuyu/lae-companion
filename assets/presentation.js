@@ -137,21 +137,25 @@
       const rows = [...(table?.querySelectorAll('tbody > tr') || [])];
       const tallSvg = node.matches('.wdiag-svg') ? node.querySelector('svg[viewBox]') : null;
       const bounds = tallSvg?.viewBox.baseVal;
-      const parts = rows.length > 6 ? Math.ceil(rows.length / 5) : bounds?.height >= 450 ? 2 : 1;
+      const parts = rows.length > 6 ? Math.ceil(rows.length / 5) : 1;
       for (let part = 0; part < parts; part++) {
-        const artwork = clean(node);
+        let artwork = clean(node);
         if (artwork.matches('.wdiag-svg')) artwork.querySelector('.wdiag-cap')?.remove();
+        if (node.id === 'w01-altitude-layers') {
+          artwork = document.createElement('div');
+          artwork.className = 'lae-slide-altitude';
+          artwork.innerHTML = `<div class="lae-altitude-card lae-altitude-policy"><span class="lae-altitude-tag">Hong Kong policy</span><strong>~1,000 m</strong><p>Working description of the low-altitude economy.</p><b>Not an SUA flying ceiling</b></div><div class="lae-altitude-card lae-altitude-hk"><span class="lae-altitude-tag">Hong Kong · Cap. 448G</span><strong>100 / 300 ft</strong><p>Ordinary SUA bands: A1 at 100 ft AGL; A2 at 300 ft AGL.</p><b>Higher only with CAD permission</b></div><div class="lae-altitude-card lae-altitude-mainland"><span class="lae-altitude-tag">Mainland scheme</span><strong>120 / 300 m</strong><p>True-height labels under a different airspace scheme.</p><b>Not Hong Kong Cap. 448G</b></div>`;
+        } else if (node.id === 'w11-corridor-screen-svg') {
+          artwork = document.createElement('div');
+          artwork.className = 'lae-slide-corridor';
+          artwork.innerHTML = `<div class="lae-corridor-grid"><div><b>1 · Problem</b><span>Does airport door-to-door time beat the alternative?</span></div><div><b>2 · Demand</b><span>Choice at each fare, after generalized cost and capacity.</span></div><div><b>3 · Operations</b><span>Aircraft, seats, load factor, days → serviceable capacity.</span></div><div><b>4 · Economics</b><span>Contribution, fixed cost, break-even, NPV, downside.</span></div><div><b>5 · Regulation</b><span>Permissions and evidence; use Sandbox X or AC-013 only if relevant.</span></div><div><b>6 · Impact</b><span>Emissions, noise, privacy, access, public service.</span></div></div><p class="lae-corridor-decision"><strong>Recommendation:</strong> proceed, stage, redesign, relocate, or reject — state the conditions that would change the decision.</p>`;
+        } else if (bounds?.height >= 450) artwork.classList.add('lae-slide-tall-diagram');
         if (parts > 1 && table) {
           const body = artwork.matches('table') ? artwork.querySelector('tbody') : artwork.querySelector('table tbody');
           const start = part * 5;
           [...body.children].forEach((row, index) => {
             if (index < start || index >= start + 5) row.remove();
           });
-        }
-        if (parts === 2 && tallSvg) {
-          const top = bounds.y + (part ? bounds.height * .43 : 0);
-          artwork.querySelector('svg').setAttribute('viewBox',
-            `${bounds.x} ${top} ${bounds.width} ${bounds.height * .57}`);
         }
         const nodes = [artwork];
         if (mergeOpening && number === 1 && part === 0) nodes.unshift(clean(opening[0]));
@@ -283,7 +287,8 @@
   });
   const params = new URLSearchParams(location.search);
   if (params.get('present') === '1') {
-    const index = frames.findIndex(frame => frame.id === params.get('slide'));
+    const requested = params.get('slide')?.replace(/-part-[2-9]\d*$/, '');
+    const index = frames.findIndex(frame => frame.id === requested);
     const initial = index < 0 ? 0 : index;
     if (document.readyState === 'complete') open(initial);
     else document.addEventListener('DOMContentLoaded', () => open(initial), {once: true});
