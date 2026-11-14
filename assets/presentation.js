@@ -171,6 +171,26 @@
   };
   sections.forEach(addSection);
   if (!frames.length) return;
+  const courseTitle = document.querySelector('#title-block-header h1')?.textContent.trim() || 'LAE lesson';
+  const subtitle = document.querySelector('#title-block-header .subtitle')?.textContent.trim() || '';
+  const week = courseTitle.match(/^Week\s+(\d+)\s*:\s*(.+)$/i);
+  const cover = document.createElement('div');
+  cover.className = 'lae-cover';
+  const label = document.createElement('p');
+  label.className = 'lae-cover-label';
+  label.textContent = week ? `LAE Course · Week ${week[1]}` : 'LAE Course';
+  const heading = document.createElement('h2');
+  heading.className = 'lae-cover-heading';
+  heading.textContent = week ? week[2] : courseTitle;
+  cover.append(label, heading);
+  if (subtitle) {
+    const subheading = document.createElement('p');
+    subheading.className = 'lae-cover-subtitle';
+    subheading.textContent = subtitle;
+    cover.append(subheading);
+  }
+  frames.unshift({id: 'title', title: courseTitle, cover: true, source: sections[0],
+    nodes: [cover], notes: contentChildren(sections[0]).map(clean)});
 
   const launch = document.createElement('button');
   launch.type = 'button';
@@ -219,7 +239,8 @@
   const show = index => {
     current = Math.max(0, Math.min(frames.length - 1, index));
     const frame = frames[current];
-    get('.lae-slide-title').textContent = frame.title;
+    get('.lae-slide').classList.toggle('is-cover', !!frame.cover);
+    get('.lae-slide-title').textContent = frame.cover ? '' : frame.title;
     get('.lae-slide-body').replaceChildren(...frame.nodes.map(clean));
     get('.lae-notes-body').replaceChildren(...frame.notes.map(clean));
     typesetMath(get('.lae-slide-body'));
@@ -267,9 +288,12 @@
     printDeck.replaceChildren(...frames.map(frame => {
       const page = document.createElement('section');
       page.className = 'lae-print-slide';
-      const heading = document.createElement('h2');
-      heading.textContent = frame.title;
-      page.append(heading, ...frame.nodes.map(clean));
+      if (frame.cover) { page.classList.add('lae-print-cover'); page.append(...frame.nodes.map(clean)); }
+      else {
+        const heading = document.createElement('h2');
+        heading.textContent = frame.title;
+        page.append(heading, ...frame.nodes.map(clean));
+      }
       return page;
     }));
     typesetMath(printDeck);
