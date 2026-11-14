@@ -50,6 +50,7 @@
 .lae-corridor-decision { margin: 1rem 0 0; padding: .8rem 1rem; border-radius: .5rem; background: #003366; color: white; }
 .lae-presentation .fig-enlarge-hint { display: none !important; }
 .lae-slide-body table { font-size: 1em; overflow-wrap: anywhere; }
+.lae-slide-body table colgroup col, .lae-print-slide table colgroup col { width: auto !important; }
 .lae-slide-body pre, .lae-slide-body .table-responsive, .lae-slide-body table { max-width: 100%; overflow-x: auto; }
 .lae-slide-body .callout { font-size: 1em; }
 .lae-slide-hint { position: sticky; bottom: -.1rem; display: block; width: max-content; max-width: 100%; margin: 1rem auto -.8rem; padding: .2rem .65rem; border-radius: 1rem; background: #4b2675; color: #fff; font-size: .72rem; }
