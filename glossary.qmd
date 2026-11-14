@@ -17,7 +17,7 @@ toc-depth: 2
 Search a name or idea, or browse A–Z. [Reference diagrams](#reference-diagrams) are below the index.
 
 ```{=html}
-<link rel="stylesheet" href="assets/glossary.css?v=reference-20261114">
+<link rel="stylesheet" href="assets/glossary.css?v=value-map-20261114">
 <div class="glossary-finder" id="glossary-finder">
   <label for="glossary-search">Search this glossary</label>
   <input id="glossary-search" type="search" autocomplete="off" placeholder="Try BVLOS, cost, Sandbox, or vertiport" aria-controls="glossary-results">
@@ -918,6 +918,25 @@ Industry term for a lighter pad than a full vertiport; **not a Hong Kong statuto
 ## Business and economics
 
 Economics terms describe different parts of the same service: a customer must choose it, capacity must serve them, and the revenue must cover costs over time. Use the linked weekly pages for worked calculations; [Formulas](formulas.qmd) collects the teaching equations. Check dated figures on [Key numbers](key-figures.qmd) and [Official status](tracker.qmd).
+
+```{=html}
+<figure class="glossary-value-map" aria-labelledby="glossary-value-map-title">
+  <figcaption id="glossary-value-map-title"><strong>From possible trips to a decision</strong><span>A course map of the filters and appraisals; no box is a Hong Kong market forecast.</span></figcaption>
+  <div class="gvm-pair">
+    <div class="gvm-card"><strong>Would choose the service</strong><span>Relevant trips → eligible trips → choice after price, door-to-door cost, alternatives, and acceptance.</span></div>
+    <div class="gvm-card"><strong>Could be delivered reliably</strong><span>Aircraft, sites, slots, crew, weather, and permissions set serviceable capacity.</span></div>
+  </div>
+  <div class="gvm-arrow" aria-hidden="true">↓ compare the two</div>
+  <div class="gvm-card gvm-result"><strong>Served trips</strong><span>The smaller of potential choice and reliable capacity. Unserved interest is not revenue.</span></div>
+  <div class="gvm-arrow" aria-hidden="true">↓ test both outcomes</div>
+  <div class="gvm-pair">
+    <div class="gvm-card gvm-private"><strong>Private case</strong><span>Served trips × contribution per trip → cash timing and investment → NPV.</span></div>
+    <div class="gvm-card gvm-social"><strong>Social case</strong><span>User and public benefits − noise, privacy, emissions, and fiscal costs → social net benefit; check who gains and who pays.</span></div>
+  </div>
+</figure>
+```
+
+Read [demand funnel](#demand-funnel), [reliable capacity](#reliable-capacity), [contribution margin](#contribution-margin), [NPV](#npv), and [social net benefit](#social-net-benefit) for definitions. The two final boxes can give different answers; a positive private NPV does not establish a positive social case. See [Week 9](week-09.qmd) and [Week 10](week-10.qmd) for worked contexts.
 
 **[AAM]{#aam}**
 

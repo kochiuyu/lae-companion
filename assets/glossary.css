@@ -13,4 +13,20 @@
 .glossary-finder .glossary-letter h3 { margin: .5rem 0; color: #4b2675; }
 #quarto-document-content .glossary-term { margin: 1.7rem 0 .4rem; padding-top: .8rem; border-top: 1px solid #e4dfd5; scroll-margin-top: 5rem; font-size: 1.1em; }
 #quarto-document-content .glossary-term:has(:target), #quarto-document-content .glossary-term:target { background: #fff3cc; }
-@media (max-width: 640px) { .glossary-finder .glossary-links { grid-template-columns: 1fr; } }
+.glossary-value-map { box-sizing: border-box; max-width: 58rem; margin: 1.5rem 0; padding: 1.1rem; border: 1px solid #d9d4c7; border-radius: .6rem; background: #f8f7f4; }
+.glossary-value-map figcaption { margin-bottom: .9rem; }
+.glossary-value-map figcaption strong, .glossary-value-map figcaption span { display: block; }
+.glossary-value-map figcaption strong { color: #003366; font-size: 1.1em; }
+.glossary-value-map figcaption span { color: #514a5a; }
+.glossary-value-map .gvm-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+.glossary-value-map .gvm-card { min-width: 0; padding: .85rem 1rem; border: 1px solid #a8b7c9; border-radius: .45rem; background: #fff; overflow-wrap: anywhere; }
+.glossary-value-map .gvm-card strong, .glossary-value-map .gvm-card span { display: block; }
+.glossary-value-map .gvm-card strong { margin-bottom: .2rem; color: #003366; }
+.glossary-value-map .gvm-arrow { padding: .35rem 0; text-align: center; color: #514a5a; font-weight: 700; }
+.glossary-value-map .gvm-result { max-width: 31rem; margin: auto; border-color: #54816c; background: #edf7f1; }
+.glossary-value-map .gvm-private { background: #f4f7fb; }
+.glossary-value-map .gvm-social { border-color: #9b8052; background: #fbf7ed; }
+@media (max-width: 640px) {
+  .glossary-finder .glossary-links, .glossary-value-map .gvm-pair { grid-template-columns: 1fr; }
+  .glossary-value-map { padding: .8rem; }
+}
