@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 subtitle: "Terms and diagrams you can cite"
-as_of: "2026-11-08"
+as_of: "2026-11-14"
 page-layout: article
 format:
   html:
@@ -12,11 +12,29 @@ toc-title: "Sections"
 toc-depth: 2
 ---
 
-Term definitions and diagrams you can cite. Week notes link here on **first use**. Each term is a **bold heading** plus a short prose gloss (define, then explain or caveat when needed) — no What / Why / Watch-out labels. Spacing is uniform: blank line before every term and before every callout. Source type is shown by **section** (Hong Kong law, Mainland comparator, course economics, …). Large projections (e.g. HK$350bn) are attributed on [Official status](tracker.qmd) and [Key numbers](key-figures.qmd).
+## Find a term
 
-## At a glance
+Search a name or idea, or browse A–Z. [Reference diagrams](#reference-diagrams) are below the index.
 
-Captions list sources; entries start at [Hong Kong institutions and law](#hong-kong-institutions-and-law); also [Mainland comparators](#mainland-comparators) and [EU / US comparators](#eu-us-comparators).
+```{=html}
+<link rel="stylesheet" href="assets/glossary.css?v=reference-20261114">
+<div class="glossary-finder" id="glossary-finder">
+  <label for="glossary-search">Search this glossary</label>
+  <input id="glossary-search" type="search" autocomplete="off" placeholder="Try BVLOS, cost, Sandbox, or vertiport" aria-controls="glossary-results">
+  <p id="glossary-status" role="status" aria-live="polite">Loading term index…</p>
+  <ul id="glossary-results" class="glossary-links" hidden></ul>
+  <details id="glossary-browse"><summary>Browse all terms A–Z <span id="glossary-count"></span></summary><div id="glossary-all"></div></details>
+</div>
+<script defer src="assets/glossary.js?v=reference-20261114"></script>
+```
+
+Quick jumps: [LAE](#lae) · [SUA](#sua) · [VLOS](#vlos) · [BVLOS](#bvlos) · [eVTOL](#evtol) · [UTM](#utm) · [Regulatory Sandbox](#regulatory-sandbox) · [Sandbox X](#sandbox-x) · [generalised cost](#generalised-cost) · [NPV](#npv).
+
+Entries give definitions, examples, and common distinctions for this course. For dated programme status and figures, see [Official status](tracker.qmd) and [Key numbers](key-figures.qmd).
+
+## Reference diagrams {#reference-diagrams}
+
+These maps compare institutions, height and weight limits, permissions, and term families. Read their captions for sources; use the search above to jump directly to an individual definition. Entries begin at [Hong Kong institutions and law](#hong-kong-institutions-and-law), followed by [Mainland comparators](#mainland-comparators), [EU / US comparators](#eu-us-comparators), [Vehicles and operations](#vehicles-and-operations), [Airspace and traffic](#airspace-and-traffic), [Infrastructure](#infrastructure), and [Business and economics](#business-and-economics).
 
 ### Who regulates what
 
@@ -47,7 +65,7 @@ flowchart LR
         UCA["Over-150 kg<br/>unconventional-aircraft law<br/>PLANNED: drafting within 2027"]
         TMS["Smart Low-altitude<br/>Traffic Management System<br/>PLANNED: from 2028"]
         CAP["Cap. 448G<br/>SUA Order"]
-        GN["G.N. 7132<br/>Sandbox restricted flying zones<br/>effective 7 Nov 2026"]
+        GN["G.N. 5936<br/>restricted flying zones<br/>effective 26 Sep 2026"]
         AC13["AC-013<br/>BVLOS in Sandbox"]
         AC17["AC-017<br/>cross-boundary<br/>in Sandbox X"]
         LIC["1.4 GHz UAS<br/>(Private) Licence<br/>27 Oct 2025"]
@@ -93,7 +111,7 @@ flowchart LR
     style ML fill:#f8f6f1,stroke:#7a6a4f,color:#5a4a2f
 ```
 
-Sources (as of 6 Oct 2026): Working Group led by the Deputy Financial Secretary ([2024 Policy Address ¶82](https://www.policyaddress.gov.hk/2024/en/p81.html)); Secretary for Transport and Logistics as Deputy Head, and TLB carrying out Sandbox pilot projects by batches ([GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)); Working Group selection of Sandbox projects ([GIA, 20 Mar 2025](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)) and Sandbox X projects ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)); Sandbox X launch ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)); Action Plan still being formulated ([STL to LegCo, 2 Oct 2026, Chinese only](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm); [2026 Policy Address ¶139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)); TLB indicators 34–35 ([PA Annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)); CAD technical study on the traffic management system, and Sandbox X cross-boundary trial flights “as soon as practicable” ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); CAD as Cap. 448G regulator ([CAD](https://www.cad.gov.hk/english/sua.html); [Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); [G.N. 7132](https://www.cad.gov.hk/documents/G.N.7132_E.pdf) (supersedes [G.N. 5936](https://www.cad.gov.hk/documents/G.N.5936_E.pdf) from 7 Nov 2026); [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf); 1.4 GHz licence, CAD flight-path approval and Sandbox-only use ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)); Civil Aviation Law and Art. 258 ([CAAC](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html); [CAAC English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html)); [国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm); CCAR-92 and §92.5 ([Ministry of Transport](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html)); ATM Rules draft ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)); 粤府办〔2024〕6号 and its Greater Bay Area corridor aim ([Guangdong](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html)).
+Sources (as of 6 Oct 2026): Working Group led by the Deputy Financial Secretary ([2024 Policy Address ¶82](https://www.policyaddress.gov.hk/2024/en/p81.html)); Secretary for Transport and Logistics as Deputy Head, and TLB carrying out Sandbox pilot projects by batches ([GIA, 12 Nov 2024](https://www.info.gov.hk/gia/general/202411/12/P2024111200260.htm)); Working Group selection of Sandbox projects ([GIA, 20 Mar 2025](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm)) and Sandbox X projects ([TLB](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html)); Sandbox X launch ([GIA, 24 Nov 2025](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm)); Action Plan still being formulated ([STL to LegCo, 2 Oct 2026, Chinese only](https://www.info.gov.hk/gia/general/202610/02/P2026100200677.htm); [2026 Policy Address ¶139](https://www.policyaddress.gov.hk/2026/en/chapter3.html)); TLB indicators 34–35 ([PA Annex](https://gia.info.gov.hk/general/202609/16/P2026091600270_557059_1_1789541487116.pdf)); CAD technical study on the traffic management system, and Sandbox X cross-boundary trial flights “as soon as practicable” ([TLB LegCo reply, 24 Jun 2026](https://www.tlb.gov.hk/eng/legislative/transport/replies/2026/20260624a.html)); CAD as Cap. 448G regulator ([CAD](https://www.cad.gov.hk/english/sua.html); [Cap. 448G](https://www.elegislation.gov.hk/hk/cap448G)); [G.N. 5936](https://www.cad.gov.hk/documents/G.N.5936_E.pdf); [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf); [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf); 1.4 GHz licence, CAD flight-path approval and Sandbox-only use ([OFCA](https://www.ofca.gov.hk/en/industry_focus/industry_focus/uas_private_licence/index.html)); Civil Aviation Law and Art. 258 ([CAAC](https://www.caac.gov.cn/XXGK/XXGK/FLFG/202512/t20251227_229597.html); [CAAC English](https://www.caac.gov.cn/English/News/202512/t20251230_229616.html)); [国令761](https://www.gov.cn/zhengce/zhengceku/202306/content_6888800.htm); CCAR-92 and §92.5 ([Ministry of Transport](https://xxgk.mot.gov.cn/2020/jigou/fgs/202401/t20240103_3980642.html)); ATM Rules draft ([CAAC](https://www.caac.gov.cn/HDJL/YJZJ/202608/t20260811_231462.html)); 粤府办〔2024〕6号 and its Greater Bay Area corridor aim ([Guangdong](https://www.gd.gov.cn/gkmlpt/content/4/4427/post_4427812.html)).
 
 Dashed boxes and dashed arrows (OPEN, PLANNED, DRAFT) are not yet established. Solid arrows are relationships stated in the sources above. Corridor and Sandbox status: [Official status](tracker.qmd).
 
@@ -551,6 +569,16 @@ EU aviation safety agency used as a **course comparator**. Site evidence: SC-VTO
 
 US aviation authority used as a **course comparator**. Site evidence: Remote ID final rule (Federal Register publication 15 Jan 2021); UAM Concept of Operations v2.0 (26 Apr 2023); UTM Concept of Operations and AAM Implementation Plan on Readings; Integration of Powered-Lift final rule (powered-lift is the FAA category closest to many eVTOL designs). Do **not** confuse the US Remote ID rule with this Glossary’s **Remote ID** entry (CAD AC-017 §8.2). See also UTM; eVTOL; Timeline (United States); Readings. Timeline / Readings / Course overview.
 
+**[NASA (National Aeronautics and Space Administration)]{#nasa}**
+
+U.S. government agency responsible for science and technology related to air and space; opened **1 Oct 1958**. Its UAM research is a **course comparator**, not Hong Kong law or a local demand forecast. Keep NASA market-study scenarios separate from Hong Kong programme facts. See [NASA UAM market study constraints](#nasa-uam-market-study-constraints); [Readings](readings.qmd). [What Is NASA?](https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-nasa-grades-5-8/); [About](https://www.nasa.gov/about/).
+
+**[NASA UAM market study constraints]{#nasa-uam-market-study-constraints}**
+
+In NASA UAM market-study framing, legal, weather, infrastructure, and acceptance barriers shrink an unconstrained market into a constrained one (NASA 2018). An unconstrained estimate is a hypothetical upper frame, not obtainable bookings or revenue.
+
+Use the distinction when screening a Hong Kong use case, then replace comparator assumptions with local evidence on demand, rules, weather, sites, and capacity. The NASA figures are **not** Hong Kong law or a local forecast. See [unconstrained versus constrained market](#unconstrained-versus-constrained-market); [Week 9](week-09.qmd).
+
 ## Vehicles and operations
 
 **300 ft AGL operating limit (飛行高度不高於地面以上 300 呎)**
@@ -571,15 +599,15 @@ SUA flies without the remote pilot being able to intervene; **not allowed** for 
 
 **[BVLOS (超視距操作)]{#bvlos}**
 
-**Beyond visual line of sight** — flying when the remote pilot cannot see the aircraft with their own eyes.
+**Beyond visual line of sight** — an operation outside the required continuous, unaided visual contact with the aircraft. A camera feed or map position does not turn a BVLOS flight into VLOS.
 
-Many useful logistics and inspection missions need BVLOS; it sits behind a higher permission bar than simple VLOS. Do not merge AC-013 (BVLOS in the first Regulatory Sandbox) with AC-017 (Sandbox X cross-boundary). Keep **Sandbox ≠ Sandbox X**. See [Week 7](week-07.qmd).
+For example, a delivery route that continues beyond the pilot's view needs a different safety case from a nearby inspection kept in sight. The operator must address air and ground risk, communications, containment, monitoring, and contingencies; BVLOS is not just a longer range. CAD's [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) covers BVLOS in the first Regulatory Sandbox. [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) covers cross-boundary operations in Sandbox X. Keep the programmes distinct. See [VLOS](#vlos); [Week 7](week-07.qmd).
 
 **C2 link (指揮和與控制數據鏈路)**
 
 Command-and-control communications link between the remote pilot / ground systems and the SUA. CAD AC-013 §5.5; AC-017 §5.
 
-**Category A1 / A2 / B / C (甲一類 / 甲二類 / 乙類 / 丙類)**
+**[Category A1 / A2 / B / C (甲一類 / 甲二類 / 乙類 / 丙類)]{#sua-categories}**
 
 Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G s.2, s.3(2) (Cat C expansion 2025-07-18).
 
@@ -627,7 +655,7 @@ Operation beyond simple VLOS but still using visual observers or procedures — 
 
 Industry label for **electric vertical take-off and landing** craft (take off and land roughly straight up and down, usually with electric power).
 
-Passenger and some cargo concepts in slides are often eVTOL-shaped — few seats, high fixed cost per passenger unless utilization is high. Hong Kong has **no dedicated eVTOL statute yet**. Treat eVTOL as a technology concept under discussion, not a finished local licensing category. See [Week 1](week-01.qmd).
+The label describes a vehicle concept, **not** a service, market, or Hong Kong licence. A passenger trip would also need suitable sites, energy, maintenance, route access, a customer, and an operating pathway. Few seats can make fixed cost per passenger high unless utilization and load factor are strong. Hong Kong has **no dedicated eVTOL statute yet**; heavier or passenger concepts must be considered against the applicable aircraft pathway rather than assumed to fit Cap. 448G's SUA categories. See [SUA](#sua); [Vertiport](#vertiport); [Week 1](week-01.qmd).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Improve civil aviation legislation and regulatory framework, including formulating dedicated legislation for unconventional aircraft weighing over 150 kilograms, to lay the foundation for developing the standardisation of the low-altitude economy.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -703,7 +731,7 @@ Pre-programmed recovery behaviour that sends the SUA to a home or safe site (e.g
 
 **Small unmanned aircraft** — Hong Kong Cap. 448G’s main legal label for unmanned aircraft **not more than 150 kg**, with weight classes A1 → C.
 
-Almost every “drone” discussion in this course must be checked against SUA rules (and whether the craft is above the SUA ceiling). Everyday “drone” is **not** a Cap. 448G synonym. Heavier / passenger concepts may sit as **unconventional aircraft** pending rules. See [Key numbers](key-figures.qmd); [Week 1](week-01.qmd).
+Start with the craft's weight and operation, then check the category, flying area, altitude, pilot requirements, and any required permission. A small camera drone and a heavier cargo SUA can both fall under this Order but face different requirements. Everyday “drone” is **not** a precise Cap. 448G synonym; UAS refers to the aircraft **and** its associated control system. Heavier / passenger concepts may sit outside the SUA ceiling. See [Category A1 / A2 / B / C](#sua-categories); [Key numbers](key-figures.qmd); [CAD's SUA overview](https://www.cad.gov.hk/english/sua_overview_categorisation.html).
 
 **Surveillance system (監察系統)**
 
@@ -729,7 +757,7 @@ Person at the same location as the remote pilot who keeps unaided visual contact
 
 **Visual line of sight** — the remote pilot (or required observers, when rules say so) can see the aircraft during the flight.
 
-Baseline for simpler SUA operations; BVLOS is the step beyond. VLOS is not the same as “we have cameras on board.” Legal VLOS is about human visual contact under Cap. 448G / ACs as applicable.
+The point is continued human awareness of the aircraft's position and surroundings so conflicts can be noticed. Watching only a camera or tracking icon is not VLOS. VLOS is a baseline for simpler SUA operations, but a VLOS flight can still require CAD permission if another operating condition makes it an advanced operation. See [BVLOS](#bvlos); [Line of sight and permissions](#line-of-sight-and-permissions).
 
 **VTOL**
 
@@ -763,7 +791,7 @@ HKAIP special-use airspace types (禁區／限制區／危險區). Sandbox BVLOS
 
 **restricted flying zone (限制飛行區)**
 
-CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2. Two kinds of designation sit under Cap. 448G s.19: the Director-General of Civil Aviation designates Sandbox-pilot zones under s.19(1) (e.g. [G.N. 7132](https://www.cad.gov.hk/documents/G.N.7132_E.pdf)), and the Secretary for Security designates security-site zones under s.19(3) (e.g. [G.N. 7133](https://www.cad.gov.hk/documents/G.N.7133_E.pdf)). Both are Gazette designations, not amendments to Cap. 448G.
+CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2.
 
 **Smart low-altitude traffic management (智能低空交通管理系統)**
 
@@ -783,9 +811,9 @@ Useful comparator when readings talk about digital traffic services and roles. *
 
 **[UTM]{#utm}**
 
-**Unmanned aircraft system traffic management** — industry language for digital services that help plan, authorize, and monitor unmanned flights.
+**Unmanned aircraft system traffic management** — a coordinated set of digital services, procedures, and information exchanges that helps operators plan flights, share intent, identify conflicts, and monitor changing airspace conditions. It complements aviation traffic services; it is not simply a tracking map or a single app. This is the broad [FAA UTM concept](https://www.faa.gov/uas/advanced_operations/traffic_management), used here as a comparator.
 
-Coordination cost and shared information show up in Weeks 7–8 and in Sandbox X UTM modules. Hong Kong’s Smart Low-altitude Traffic Management System is **planned** (Policy Address language: progressive implementation from **2028**) — not a claim that city-wide UTM already exists. **U-space ≠ Hong Kong law.** See [Key numbers](key-figures.qmd).
+In a busy corridor, shared flight intent and constraints can reduce manual coordination, but data quality, interoperability, and operator responsibility still matter. Hong Kong’s Smart Low-altitude Traffic Management System is **planned** (Policy Address language: progressive implementation from **2028**) — not a claim that city-wide UTM already exists. **U-space ≠ Hong Kong law.** See [Week 8](week-08.qmd); [Key numbers](key-figures.qmd).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Enhance core infrastructure facilities by designating spectrum by the end of the year, as well as facilitating early planning and deployment of facilities such as vertiports, air route networks, satellite positioning, three-dimensional spatial data systems and a smart, low-altitude traffic-management system.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -851,13 +879,13 @@ Policy Address infrastructure item (三維空間數據系統) for 3D spatial dat
 
 How many movements, passengers, or missions a facility can process in a period.
 
-Breakeven capacity use and slot design need a throughput number, not only a pretty site map. Design capacity is not the same as reliable throughput after weather and acceptance limits. See [Week 5](week-05.qmd).
+State both the **unit** and **period**: flights per hour, passengers per day, or missions per year are different measures. A pad with a short turnaround might have high theoretical movements, yet charging, weather, noise limits, or staffing can reduce reliable throughput. Breakeven and slot design need the reliable figure, not only a site map. See [slot](#slot); [Week 5](week-05.qmd).
 
 **[Vertiport (起降場)]{#vertiport}**
 
 Industry word for a take-off and landing site for advanced craft (plus related ground handling).
 
-Site cost, throughput, and slots often bind before aircraft do (Week 5). Hong Kong has **no dedicated vertiport statute yet**. “Vertiport” in class is a managerial label, not an official local classification. See [Week 5](week-05.qmd).
+The site may need more than a landing pad: passenger or cargo access, charging, turnaround space, maintenance arrangements, safety procedures, and digital coordination. Its useful capacity depends on the slowest bottleneck, not only the number of painted landing spots. Site cost, throughput, and slots can bind before aircraft do. Hong Kong has **no dedicated vertiport statute yet**. “Vertiport” in class is a managerial label, not an official local classification. See [Throughput](#throughput); [Week 5](week-05.qmd).
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Enhance core infrastructure facilities by designating spectrum by the end of the year, as well as facilitating early planning and deployment of facilities such as vertiports, air route networks, satellite positioning, three-dimensional spatial data systems and a smart, low-altitude traffic-management system.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -871,13 +899,19 @@ Industry term for a lighter pad than a full vertiport; **not a Hong Kong statuto
 
 ## Business and economics
 
-Course economics vocabulary in plain English. Each term is short prose — define, then a brief course point or caveat when it earns its keep. Law and programme names live in the sections above — typology is by **section heading**. Worked numbers stay on **Teach**; citeable programme facts stay on [Key numbers](key-figures.qmd) / [Official status](tracker.qmd). Named teaching equations: [Formulas](formulas.qmd).
+Economics terms describe different parts of the same service: a customer must choose it, capacity must serve them, and the revenue must cover costs over time. Use the linked weekly pages for worked calculations; [Formulas](formulas.qmd) collects the teaching equations. Check dated figures on [Key numbers](key-figures.qmd) and [Official status](tracker.qmd).
 
 **[AAM]{#aam}**
 
 **Advanced air mobility** — a broad industry label for new aircraft concepts that may link cities, suburbs, or corridors.
 
 Readings use AAM as a **comparator** frame next to Hong Kong-first LAE and city **UAM**. AAM language is **not** Hong Kong law. Nesting: LAE (umbrella) ⊃ UAM (in-city) ; AAM is broader industry talk. See [Week 1](week-01.qmd).
+
+**[acceptance adjustment]{#acceptance-adjustment}**
+
+An explicit scenario factor applied to a demand estimate to explore how public acceptance might change uptake. For example, a factor of 0.8 means the scenario keeps 80% of the stated base demand; it is **not** a measured Hong Kong acceptance rate.
+
+Say whose acceptance is being considered and why: travellers who might buy, residents under a route, and public agencies can react differently. Do not multiply by an adjustment if the same effect is already built into mode share or generalized cost. See [Social license](#social-license); [Week 4](week-04.qmd#transparent-acceptance-adjustment).
 
 **[ASK / available capacity unit]{#ask}**
 
@@ -937,7 +971,7 @@ Compares unit cost when seats or payload-km are the natural unit (passenger vs c
 
 Revenue minus variable cost (before fixed cost).
 
-Shows whether an extra trip helps pay the lease — the heart of revenue management and breakeven. Positive contribution can still lose money after fixed cost. See [Week 3](week-03.qmd).
+State the unit: **per passenger**, **per flight**, and **per mission** contribution are not interchangeable. For an illustrative fare of HK$500 and HK$120 of variable cost per passenger, contribution is HK$380 per passenger before fixed cost. Partner fees that vary with each trip belong in the variable-cost side of that calculation. Positive contribution can still leave an overall loss after leases, site costs, and other fixed expenses. See [breakeven volume](#breakeven-volume); [Week 3](week-03.qmd).
 
 **[co-opetition]{#co-opetition}**
 
@@ -955,7 +989,7 @@ Private flight decisions can ignore spillover delay, so queues grow too far. Cla
 
 A step-down from relevant trips → choice → **served** demand under capacity.
 
-Stops “huge TAM” slides from skipping pads, weather, and acceptance. Unconstrained funnel headlines are not obtainable revenue. See [Week 4](week-04.qmd) / [Week 9](week-09.qmd).
+Name each filter before applying it: relevant trips, eligible corridor or mission share, willingness to choose the service, then reliable capacity. If 300 customers would choose a flight but only 256 can be carried, served demand is 256 under those assumptions. A larger marketing funnel does not raise served trips while capacity remains binding. These are classroom quantities, not a published corridor forecast. See [TAM](#tam), [SAM](#sam), [SOM](#som), and [Week 9](week-09.qmd).
 
 **[discount rate]{#discount-rate}**
 
@@ -995,9 +1029,9 @@ The same lease spread over fewer flights means a higher cost per flight or per p
 
 **[generalised cost]{#generalised-cost}** []{#generalized-cost}
 
-Money cost plus time valued at the traveller’s **value of time (VOT)**. Also written **generalized cost (GC)**.
+Money cost plus time valued at the traveller’s **value of time (VOT)** and any other justified burden expressed in money. Also written **generalized cost (GC)**. A classroom form is **fare + VOT × full door-to-door time + other monetized burdens**.
 
-Compares air options with MTR, taxi, or Airport Express on one scale — door-to-door, not cruise time only. A GC fare ceiling is not a forecast price. Waiting and access can destroy the time advantage. See [Week 1](week-01.qmd) / [Week 4](week-04.qmd).
+Use the same time units and include access, waiting, transfer, and reliability when they differ between options. Compare an air option with MTR, taxi, or Airport Express on the **complete trip**, not cruise time alone. A GC-based fare ceiling is an indifference calculation for stated assumptions; it does not predict how many people will buy. Do not count the same delay once in time and again in a separate penalty. See [Value of time](#value-of-time); [Week 1](week-01.qmd); [Week 4](week-04.qmd).
 
 **[hedonic valuation]{#hedonic-valuation}**
 
@@ -1033,7 +1067,7 @@ Turns sustainability and equity promises into something you can review and corre
 
 **Low-altitude economy** — economic activity in low-altitude airspace plus the aircraft, sites, digital systems, operators, customers, and supporting services that deliver a **mission**.
 
-The course unit of analysis is a completed service outcome, not only an airframe. Hong Kong’s ~**1,000 m** working description is **policy / economic framing**, **not** a Cap. 448G flying-height limit (ordinary Cap. 448G bands include 100 ft / 300 ft AGL unless CAD permits otherwise). See [What is LAE?](primer.qmd); [Week 1](week-01.qmd); [Key numbers](key-figures.qmd).
+The course unit of analysis is a completed service outcome, not only an airframe. A medical-sample mission, for example, needs a paying or sponsoring customer, an operator, an aircraft, suitable sites, coordination, and support services; the example does not assert that a particular route operates. Hong Kong’s ~**1,000 m** working description is **policy / economic framing**, **not** a Cap. 448G flying-height limit (ordinary Cap. 448G bands include 100 ft / 300 ft AGL unless CAD permits otherwise). See [What is LAE?](primer.qmd); [Week 1](week-01.qmd); [Key numbers](key-figures.qmd).
 
 **[LCA / life-cycle assessment]{#lca}**
 
@@ -1051,7 +1085,7 @@ Shared pads and sunk site costs change whether limit pricing is feasible. Classr
 
 Traffic carried divided by capacity offered (seats or payload filled ÷ seats or payload available).
 
-Flying often does not help if the aircraft repeatedly flies empty. Load factor is not utilization (how often you fly). You need both. See [Week 1](week-01.qmd) / [Week 3](week-03.qmd).
+An illustrative four-seat aircraft carrying three paying passengers has a 75% passenger load factor on that flight. The measure says **how full** the offered capacity is, not how often the aircraft flies. High utilization with low load factor can still leave too few paying units to cover costs; both measures matter. For cargo, define the payload capacity and what “filled” means before using the ratio. See [utilization](#utilization); [Week 1](week-01.qmd); [Week 3](week-03.qmd).
 
 **[marginal cost]{#marginal-cost}**
 
@@ -1079,9 +1113,9 @@ Shared information and coordination platforms can tip toward one standard. More 
 
 **[NPV / net present value]{#npv}**
 
-Whether future cash from a project is worth what you must invest today, after adjusting for timing (and, when stated, risk).
+The present value of future net cash flows **minus** the investment required today. Future cash is discounted because its timing matters; the calculation needs a stated horizon, discount rate, and cash-flow boundary.
 
-Used as a **screen**: positive NPV under clear assumptions means “might justify investment”; negative means “does not, under those assumptions.” NPV is not a forecast guarantee. A sandbox that cuts delay can improve the *distribution* of NPVs — it does not invent positive margins after partners are paid. See [Week 1](week-01.qmd).
+Use NPV to compare options on the same basis: build now, stage investment, or wait for evidence. A positive result under clear assumptions can support investment; a negative result challenges it under those assumptions. It is **not** a forecast guarantee. An approval delay shifts cash later and can lower NPV even if the eventual fare and cost per trip stay the same. See [discount rate](#discount-rate); [cash flow](#cash-flow); [Week 1](week-01.qmd).
 
 **[OEM]{#oem}**
 
@@ -1094,6 +1128,12 @@ Ticket money is shared along the chain; OEM cost is one slice, not the whole far
 Revenue minus operating cost for a period (state what is in or out).
 
 Bridges “customers get value” to “the operator can capture enough to survive.” Define the line items. Partner fees can erase a fat headline fare. See [Week 1](week-01.qmd).
+
+**[opportunity cost]{#opportunity-cost}**
+
+The value of the best feasible alternative forgone when a scarce resource is used. It may not appear as an invoice: assigning a peak pad slot to one mission can displace another mission that would have generated value.
+
+Name the displaced option and keep its unit and period consistent with the decision. For a public-service allocation, compare the public benefit with the commercial contribution forgone and any other social costs; do not call the foregone ticket price the full opportunity cost. See [slot](#slot); [social net benefit](#social-net-benefit); [Week 10](week-10.qmd).
 
 **[Pigovian instrument]{#pigovian-instrument}**
 
@@ -1117,7 +1157,7 @@ Vertiports and public-service missions often need shared investment rules. A PPP
 
 The value of flexibility to wait, stage, expand, or exit when uncertainty is high.
 
-Staging a vertiport or fleet beats betting the full CAPEX on day one. Option value needs a real decision gate — not a vague “we might expand.” See [Week 5](week-05.qmd) / [Week 6](week-06.qmd).
+For example, an operator might fund a small pilot site and expand only if verified demand and permissions clear explicit thresholds. The first stage buys information and preserves a choice; it also costs money and may delay benefits. Option value needs a real decision gate and plausible alternatives, not a vague “we might expand.” See [risk register](#risk-register); [Week 5](week-05.qmd); [Week 6](week-06.qmd).
 
 **[revenue management]{#revenue-management}**
 
@@ -1129,13 +1169,13 @@ Empty seats on small aircraft are expensive; mix and fare rules matter. High loa
 
 A table of material risks with a model channel, a response, and a decision trigger / gate.
 
-Capstone and exam answers need risks that change $D$, $K$, cost, or timing — not decoration. A row that never changes the cash-flow path is not a real control. See [Week 11](week-11.qmd).
+For example, a weather risk should lower serviceable capacity in a scenario, name an operating response, and say what reliability threshold would pause expansion. The register links a risk to demand, capacity, cost, or timing so the investment case changes when evidence changes. A list of worries without owners, measures, or decisions is not a control. See [real options](#real-options); [Week 11](week-11.qmd).
 
 **[SAM]{#sam}**
 
 **Serviceable available market** — the part of the broad market you could realistically serve under stated filters.
 
-Sits between a wide TAM and what capacity can actually serve. SAM is **not** the OHKF HK$350bn figure. See [TAM](#tam); [Week 9](week-09.qmd).
+Define the geography, use case, eligibility, and time period of those filters. SAM sits between a broad TAM and the trips that might actually choose and be served by an operator. It is **not** the OHKF HK$350bn value-added projection. See [TAM](#tam); [SOM](#som); [Week 9](week-09.qmd).
 
 **[Scope 1 / 2 / 3]{#ghg-scopes}**
 
@@ -1155,6 +1195,18 @@ Ongoing acceptance and trust among affected communities (also written **social l
 
 Legal permission can exist while routes still fail locally on noise or privacy. Traveller choice share is not the same as resident acceptance under the route. See [Week 10](week-10.qmd).
 
+**[social net benefit]{#social-net-benefit}**
+
+Benefits to society minus costs to society for a stated option and period. This is broader than an operator's profit: users' time savings, access or public-service gains, emissions, noise, privacy burdens, and distribution can matter even when no ticket price captures them.
+
+An air service might be privately profitable but socially costly, or commercially weak but valuable as a funded emergency capability. State whose gains and losses count, the comparison option, and which effects are monetized versus described separately. See [externality](#externality); [Week 9](week-09.qmd); [Week 10](week-10.qmd).
+
+**[SOM]{#som}**
+
+**Serviceable obtainable market** — the part of the serviceable market an operator could plausibly win under stated competition, price, access, and capacity assumptions. It is an operator-level planning estimate, not the size of the whole industry.
+
+Separate **potential choice** from **served demand**: an operator cannot sell more trips than its reliable aircraft, sites, and permissions can deliver. A share assumption needs evidence from alternatives and customer behaviour. OHKF's HK$350bn industry value-added projection is neither one firm's SOM nor its revenue. See [TAM](#tam); [SAM](#sam); [demand funnel](#demand-funnel); [Week 9](week-09.qmd).
+
 **[sunk cost]{#sunk-cost}**
 
 Cost already spent that cannot be recovered.
@@ -1171,7 +1223,7 @@ Hong Kong’s possible role is often framed as a **service layer** beside GBA ma
 
 **Total addressable market** — the broadest relevant set of trips or customers before tight filters.
 
-Useful as a starting funnel step — dangerous as a revenue claim. TAM is **not** OHKF HK$350bn and not obtainable demand. See [Week 9](week-09.qmd).
+Specify the market boundary and period before counting. TAM is a starting point for eligibility and choice filters, **not** a revenue claim or the number an aircraft can carry. It is **not** OHKF HK$350bn. See [SAM](#sam); [SOM](#som); [Week 9](week-09.qmd).
 
 **[UAM]{#uam}**
 
@@ -1189,7 +1241,7 @@ Stops unconstrained dollar slides from being pasted into a Hong Kong case. NASA 
 
 Cost per meaningful unit (per passenger, per flight, per mission-km). Often variable cost plus fixed cost spread over utilization × seats × load factor.
 
-Empty-seat economics: few seats mean fixed cost per passenger explodes unless utilization and load factor are high. State the unit. See [Week 1](week-01.qmd) / [Week 3](week-03.qmd).
+Empty-seat economics: few seats mean fixed cost per passenger rises sharply unless utilization and load factor are high. A per-flight cost and a per-passenger cost answer different questions; do not divide by seats offered when you mean passengers carried. State the unit, time period, and treatment of partner fees. See [ASK](#ask); [load factor](#load-factor); [Week 1](week-01.qmd); [Week 3](week-03.qmd).
 
 **[usage payment]{#usage-payment}**
 
@@ -1221,7 +1273,7 @@ Cost that rises with output (for example energy per flight).
 
 Contribution margin = revenue − variable cost; then fixed cost must still be covered. Mis-labeling fixed costs as variable flatters short-run pricing. See [Week 3](week-03.qmd).
 
-**[value-added versus 规模 (规模 (Mainland side only))]{#value-added-versus-guimo}**
+**[value-added versus Mainland 规模]{#value-added-versus-guimo}**
 
 OHKF-style industry **value-added** is not the same metric as Mainland **规模** (scale) totals.
 
@@ -1238,14 +1290,4 @@ Starting point for demand curves and fare design — still not a Hong Kong forec
 Revenue per traffic unit (for example per passenger-km or payload-km).
 
 Pairs with CASK-style cost metrics in unit-economics talk. High yield on tiny volume may not cover fixed cost. See [Week 3](week-03.qmd).
-
-**[NASA (National Aeronautics and Space Administration)]{#nasa}**
-
-U.S. government agency responsible for science and technology related to air and space; opened **1 Oct 1958**. Course / Readings comparator — **not Hong Kong law**. Institution bio only — do **not** copy UAM market-study unconstrained/constrained dollar figures or TAM from this card; those stay on the separate Course rows below. See also NASA UAM market study constraints; unconstrained versus constrained market; Readings; Timeline. [What Is NASA?](https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-nasa-grades-5-8/); [About](https://www.nasa.gov/about/).
-
-**[NASA UAM market study constraints]{#nasa-uam-market-study-constraints}**
-
-In NASA UAM market-study framing, legal, weather, infrastructure, and acceptance barriers shrink an unconstrained market into a constrained one (NASA 2018).
-
-Teaches students not to paste unconstrained dollar / TAM figures into a Hong Kong case. Comparator study only — **not** Hong Kong law and not a local forecast. See also [NASA](#nasa); [unconstrained versus constrained market](#unconstrained-versus-constrained-market).
 
