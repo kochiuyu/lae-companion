@@ -66,7 +66,7 @@
   };
   const listChunks = list => {
     const total = list.children.length;
-    const groups = Math.ceil(total / 5);
+    const groups = Math.ceil(total / 7);
     const base = Math.floor(total / groups);
     const extra = total % groups;
     let start = 0;
