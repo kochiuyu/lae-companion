@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-11-12"
+as_of: "2026-11-15"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,11 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 12 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 15 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">9 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">11 items</span></summary><ol>
+<li id="tl-press-2026-11-13-hk-temp-rfz"><a href="#press-item-2026-11-13-hk-temp-rfz"><span class="chip">13 Nov</span> · HKPF / CAD: temporary RFZs 17–20 Nov for the Shenzhen APEC Leaders’ Meeting<span class="badge b-off">GIA</span></a></li>
+<li id="tl-press-2026-11-13-fs-insurance"><a href="#press-item-2026-11-13-fs-insurance"><span class="chip">13 Nov</span> · Financial Secretary restates “at least 15 insurers” offer unmanned-aircraft products<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-11-12-sz-apec-prd-claim"><a href="#press-item-2026-11-12-sz-apec-prd-claim"><span class="chip">12 Nov</span> · Press: Shenzhen APEC control now city-wide; claim of synchronised controls in four PRD cities (press only)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-11-11-tko-drone-pilot-suggestion" class="st-open"><a href="#press-item-2026-11-11-tko-drone-pilot-suggestion"><span class="chip">11 Nov</span> · Sai Kung district councillor suggests a future TKO InnoPark drone-delivery pilot (suggestion only)<span class="badge b-open">Press only</span></a></li>
 <li id="tl-press-2026-11-08-gba-drone-skills-contest"><a href="#press-item-2026-11-08-gba-drone-skills-contest"><span class="chip">8 Nov</span> · First GBA drone-application skills contest final, Hengqin (HK VTC and Macao DSAL co-host)<span class="badge b-ind">Press</span></a></li>
@@ -135,6 +137,22 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ### 2026-11 {#press-2026-11}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-11-13-hk-temp-rfz .press-item}**13 Nov 2026 · GIA (Hong Kong Police Force / Civil Aviation Department):** The Police Force and CAD remind the public that, in connection with the 33rd APEC Economic Leaders’ Meeting in Shenzhen, temporary restricted flying zones will be established in Hong Kong from 12.01am on 17 Nov to 11.59pm on 20 Nov 2026. [GIA EN](https://www.info.gov.hk/gia/general/202611/13/P2026111300539.htm) · [GIA ZH](https://www.info.gov.hk/gia/general/202611/13/P2026111300534.htm) · Annex 1 / Zone A [EN](https://gia.info.gov.hk/general/202611/13/P2026111300539_557617_1_1794563320550.pdf) · [中文](https://gia.info.gov.hk/general/202611/13/P2026111300534_557615_1_1794563469918.pdf) · Annex 2 / Zone B [EN](https://gia.info.gov.hk/general/202611/13/P2026111300539_557618_1_1794563320559.pdf) · [中文](https://gia.info.gov.hk/general/202611/13/P2026111300534_557616_1_1794563469929.pdf)
+  - What's new: **Zone A** (northern New Territories) prohibits unmanned aircraft except with special permission from HKPF and CAD, together with paragliding, airships, kites, captive balloons and mass release of balloons (official Annex 1 map). **Zone B** is territory-wide for helicopters and light aircraft except the Government Flying Service; the GIA text does **not** extend the unmanned-aircraft prohibition beyond Zone A — not a territory-wide drone ban. Time-limited restriction; not a Cap. 448G amending order; no Gazette G.N. or AIP Supplement number in the GIA text; not listed on CAD `sua_new`. No official statement that any Sandbox or commercial SUA route is paused. RTHK (13 Nov 22:53 HKT) restates the two-zone split consistently; prefer this official text.
+  - Status: Official (T1).
+  - Read instead: [Official status](tracker.qmd) · [Timeline](dates.qmd#date-2026-11-17-temp-rfz-apec)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+  English: “The Hong Kong Police Force (HKPF) and the Civil Aviation Department (CAD) today (November 13) remind members of the public that in connection with the 33rd Asia-Pacific Economic Cooperation Economic Leaders’ Meeting to be held in Shenzhen, temporary restricted flying zones (RFZs) will be established in Hong Kong from 12.01am on November 17 to 11.59pm on November 20” ([source](https://www.info.gov.hk/gia/general/202611/13/P2026111300539.htm))
+
+  [「警務處及民航處今日（十一月十三日）提醒市民，為配合將於深圳舉行的亞太經合組織第三十三次領導人非正式會議，香港將於十一月十七日凌晨零時零一分至十一月二十日晚上十一時五十九分期間，就下列飛行活動設立「臨時限制飛行區」：」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202611/13/P2026111300534.htm))
+  :::
+
+- []{#press-item-2026-11-13-fs-insurance .press-item}**13 Nov 2026 · GIA (Financial Secretary, Asian Insurance Forum 2026; English only):** The Financial Secretary restates that “at least 15 insurers also offer products for unmanned aircraft, supporting the low-altitude economy.” [GIA EN](https://www.info.gov.hk/gia/general/202611/13/P2026111300414.htm)
+  - What's new: Official restatement of the figure already in the 2026 Policy Address. **Not** a new legal permission, **not** a new official headcount, and **not** a new statute. A Chinese press paraphrase appeared in 文匯報 on 14 Nov; prefer this official English text (no official Chinese release was published).
+  - Status: Official (T1). Restatement only.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-hong-kong-lae-insurance-market-15) for the Policy Address insurance row.
 
 - []{#press-item-2026-11-12-sz-apec-prd-claim .press-item}**12 Nov 2026 · droneworldcongress.com:** A feature restates the Shenzhen 市政府 通告 of 3 Nov: Futian and Nanshan 7–10 Nov, then the whole city (excluding 深汕特别合作区) **11–21 Nov**. It also claims that relevant areas of Dongguan, Guangzhou, Zhuhai and Huizhou apply flight bans over the same period, and describes Shenzhen Power Supply Bureau drone inspection. [droneworldcongress.com](http://www.droneworldcongress.com/zh-CN/NewDetails/1553)
   - What's new: The city-wide phase is now running. The Shenzhen 通告 is an official instrument read via reprint (see [Official status](tracker.qmd)); the **Pearl River Delta city controls are press-only** — no Dongguan, Guangzhou, Zhuhai or Huizhou notice was opened, so they are not treated as fact. The article's police-drone use is not carried (no official text). Economic effect on delivery: see the Meituan pause (7 Nov, company-announced).

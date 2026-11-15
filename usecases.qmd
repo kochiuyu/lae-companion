@@ -1,7 +1,7 @@
 ---
 title: "Use cases"
 subtitle: "Dated trial and operating applications"
-as_of: "2026-11-12"
+as_of: "2026-11-15"
 page-layout: article
 toc: true
 toc-location: right
@@ -22,7 +22,7 @@ Item tags are **Trial** (sandbox, demo, one-off, MoU or signing) or **Operating*
 - **Independently reported:** a news outlet’s own reporting.
 - **Officially confirmed:** confirmed in a linked official release or document.
 
-**Board last checked 12 Nov 2026** (`as_of`). Census: **70** use-case items (47 trial · 23 operating), grouped by application below — newest first within each section.
+**Board last checked 15 Nov 2026** (`as_of`). Census: **71** use-case items (48 trial · 23 operating), grouped by application below — newest first within each section.
 
 ## By application
 
@@ -53,9 +53,10 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="uc-by-app">
-<p class="itl-head"><strong>Use cases by application</strong> (board last checked 12 Nov 2026) — 70 items (47 trial · 23 operating). Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Use cases by application</strong> (board last checked 15 Nov 2026) — 71 items (48 trial · 23 operating). Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>Delivery<span class="n">28 items · 13 trial · 15 operating</span></summary><ol>
+<details class="itl-card" open><summary>Delivery<span class="n">29 items · 14 trial · 15 operating</span></summary><ol>
+<li id="tl-uc-2026-11-13-yuefan-chengdu" class="st-open"><a href="#uc-item-2026-11-13-yuefan-chengdu"><span class="chip">13 Nov 2026</span> · 越凡创新 — Chengdu air-ground delivery, first public run (新川之心公园)<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-uc-2026-11-11-keeta-dubai-dso"><a href="#uc-item-2026-11-11-keeta-dubai-dso"><span class="chip">11 Nov 2026</span> · Keeta Drone — Dubai Silicon Oasis HQ delivery route<span class="badge b-op">Operating</span><span class="badge b-co">Company</span></a></li>
 <li id="tl-uc-2026-10-30-amazon-nampa"><a href="#uc-item-2026-10-30-amazon-nampa"><span class="chip">30 Oct 2026</span> · Amazon Prime Air — Nampa ID / Boise-metro drone delivery live<span class="badge b-op">Operating</span></a></li>
 <li id="tl-uc-2026-10-27-hangzhou-mixc-yunyi"><a href="#uc-item-2026-10-27-hangzhou-mixc-yunyi"><span class="chip">27 Oct 2026</span> · Hangzhou MixC North low-altitude delivery pad opens<span class="badge b-tr">Trial</span><span class="badge b-ind">Indep.</span></a></li>
@@ -144,9 +145,22 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
 
 ## Delivery {#uc-delivery}
 
-28 items · 13 trial · 15 operating
+29 items · 14 trial · 15 operating
 
 [↑ Back to applications](#uc-by-app){.uc-back}
+
+
+- []{#uc-item-2026-11-13-yuefan-chengdu .uc-item}**13 Nov 2026 · 新华网 (event “近日”):** Chengdu High-tech Zone firm 越凡创新 completed the first public operation of an air-ground delivery system at 新川之心公园: drone 享递Air, interchange node 越凡空驿, and indoor/outdoor delivery robot 享递Ultra, demonstrating merchant pick-up, aerial transport, automatic interchange and ground drop-off. [新华网](https://sc.news.cn/20261113/52e6adfe8aca408993b291fdf9b77bc6/c.html)
+  - Status: **Trial** · Domain: Delivery · Geography: Mainland-other (Chengdu)
+  - Tag: Independently reported
+  - What's happening: First public run. The exact flight day is not given. No regulator approval is cited. Not a regular service. The article’s “907亿元” industry-scale figure is excluded (market-size / off-scope).
+  - Read instead: [Business news](industry.qmd#industry-item-2026-11-13-yuefan-chengdu); [Companies & sectors](landscape.qmd#firm-yuefan-chuangxin).
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，在成都高新区新川之心公园，由成都高新区企业“越凡创新”自主研发的具身智能空地一体配送系统完成首次公开运行。无人机“享递Air”、智能接驳节点“越凡空驿”与室内外一体配送机器人“享递Ultra”协同运行，展示了从商户取货、空中运输、自动接驳到地面交付的全流程无人化配送能力。」]{lang="zh-Hans"} ([source](https://sc.news.cn/20261113/52e6adfe8aca408993b291fdf9b77bc6/c.html))
+
+  English (LAE-Intel translation): “Recently, at Xinchuan Heart Park in Chengdu High-tech Zone, the embodied-intelligence air-ground delivery system independently developed by High-tech Zone firm 越凡创新 completed its first public operation. The 享递Air drone, the 越凡空驿 interchange node and the 享递Ultra indoor/outdoor delivery robot operated together, demonstrating a fully unmanned delivery chain from merchant pick-up and aerial transport through automatic interchange to ground drop-off.”
+  :::
 
 - []{#uc-item-2026-11-11-keeta-dubai-dso .uc-item}**11 Nov 2026 · Construction Business News ME (company release):** Keeta Drone inaugurates a route serving the Dubai Silicon Oasis (DSO) headquarters office complex; orders from participating food-and-beverage outlets land at a designated collection point inside the complex. [CBNME](https://www.cbnme.com/logistics-news/keeta-drone-brings-on-demand-food-delivery-to-dubai-silicon-oasis/)
   - Status: **Operating** · Domain: Delivery · Geography: Global (UAE — Dubai)
@@ -224,6 +238,7 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
   - What's happening: New metro go-live on an existing FAA Part 135 certificate base. Municipal page confirms FAA primacy. Early-access / merchant / daily-volume figures stay company-announced where press states them — not upgraded. FAA package-delivery page re-checked 18 Oct 2026 (still lists Zipline; page stamp notes Last-Modified 17 Oct 2026 / content last updated 3 Sep 2026).
   - Note: Operating metro go-live; Part 135 operator status officially confirmed on the FAA page.
   - Annotate (10 Nov 2026 · Walmart newsroom, company-announced, 5 Nov): a multi-year agreement to add **300** Zipline drone-delivery sites nationwide; Walmart says its drone program has completed more than 2 million deliveries (company claim). This is a **plan** for new sites and does not change this row’s status. [Walmart](https://corporate.walmart.com/news/2026/11/walmart-expands-drone-delivery-network-with-zipline) · [Business news](industry.qmd#industry-item-2026-11-09-zipline-walmart-300)
+  - Annotate (15 Nov 2026 · FAA Draft EA, November 2026, first captured this run): a **proposed** Part 135 OpSpecs amendment for commercial drone package delivery in Phoenix and Tucson; comments 6 Nov–7 Dec. Proposed maxima (65,000 deliveries a day in each metro) are **ceilings, not operations**. This Texas operating row is unchanged. [FAA draft EA](https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20261104_Zipline_Arizona_Metros_Draft_EA_508.pdf) · [Business news](industry.qmd#industry-item-2026-11-06-zipline-az-ea)
   - Read instead: [Companies & sectors](landscape.qmd) (Zipline).
 
 - []{#uc-item-2026-10-08-zhuhai .uc-item}**8 Oct 2026 · C114 / China Unicom Zhuhai feature:** Zhuhai Agriculture Investment Holding, Guangdong Chaofei Technology and China Unicom Zhuhai sign strategic cooperation for a sea-island UAV livelihood-supply pilot framed around Zhuhai’s 262 islands. [C114](https://m.c114.com.cn/w84-1318768.html)
@@ -299,6 +314,7 @@ a.uc-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:nowrap
   - Update (29 Oct 2026 · [龙华政府在线](https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_13045514.html)): district feature says Meituan now has **26** air-network points in Longhua and flew about **280,000** sorties there in Jan–Sep 2026 (+40% year on year; volume already above full-year 2025) — district press of operator figures; not audited.
   - Annotate (3 Nov 2026; refreshed 5 Nov 2026 · Shenzhen 市政府 《关于加强低空飞行管控的通告》): Futian + Nanshan **7 Nov 00:00–10 Nov 24:00**; city-wide excl. 深汕 from **11 Nov 00:00–21 Nov 24:00**; default ban on low-altitude aircraft / airborne objects; logistics transport may fly **only after** prior departmental approval. Longhua sits inside the city-wide window (from 11 Nov); Futian + Nanshan phase **in force since 7 Nov**. [南方网](https://news.southcn.com/node_54a44f01a2/09b776ba47.shtml) · [Official status](tracker.qmd) · [Government news](news.qmd#press-item-2026-11-03-sz-apec-control)
   - Annotate (8 Nov 2026 · company notice via 羊城晚报·羊城派, 7 Nov): Meituan Drone says its **Shenzhen** drone-delivery service **suspends 11–21 Nov**, with resumption to be notified later; routes in other cities are unaffected (so Hong Kong Keeta / Sandbox items are **not** covered by this notice). Whether Futian / Nanshan routes flew during 7–10 Nov is **not stated**. Status stays **operating as of 8 Nov 2026**, with a **scheduled company-announced pause from 11 Nov**. [羊城派](https://ycpai.ycwb.com/content/ikimvjjtkl/content_54341319.html) · [Government news](news.qmd#press-item-2026-11-07-meituan-sz-pause)
+  - Annotate (15 Nov 2026 · Reuters via The Standard, 13 Nov 13:25 HKT): independently confirms the company-announced Shenzhen pause is **in effect** for 10 days from 11 Nov, with **no resumption date**; other-city routes unaffected. Reuters registration / flight-hour totals in that piece are **not** used. Shenzhen APEC city-wide control (excl. 深汕) still runs to 21 Nov. Status left as **operating** with the pause annotation. [The Standard](https://www.thestandard.com.hk/china/article/348421/Food-arrives-by-drone-in-APEC-host-Shenzhen-as-China-expands-low-altitude-economy)
   - Annotate (10 Nov 2026 · 科技日报 via 新华网, 9 Nov): Meituan Drone’s Shenzhen pause is due to begin **11 Nov** (company notice; no resumption notice found). Separately, 深圳美团低空物流科技有限公司 signed a **Dalian MoU (labelled)** with 大连市沙河口区人民政府; the Xinghai Bay route is **planned, not opened**, so it is **not** a use case. [新华网](https://www.news.cn/tech/20261109/b948ad5595e8431380e7ae9597920b0f/c.html) · [Business news](industry.qmd#industry-item-2026-11-09-meituan-dalian-shahekou)
   - Read instead: [Companies & sectors](landscape.qmd) (Meituan Drone).
 

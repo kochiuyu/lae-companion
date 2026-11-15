@@ -805,6 +805,8 @@ HKAIP special-use airspace types (禁區／限制區／危險區). Sandbox BVLOS
 
 CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2.
 
+The 13 Nov 2026 GIA reminder of temporary RFZs for the Shenzhen APEC Leaders’ Meeting (in force 17–20 Nov) uses two maps that are **not** the same prohibition set: **Zone A** covers unmanned aircraft (and specified unpowered / tethered activities) in the northern New Territories; **Zone B** covers helicopters and light aircraft (except the Government Flying Service) over a territory-wide map. These are time-limited restrictions, not a Cap. 448G amending order and not part of the G.N. 7132 / 7133 standing series. See [Official status](tracker.qmd) and [Timeline](dates.qmd#date-2026-11-17-temp-rfz-apec).
+
 **Smart low-altitude traffic management (智能低空交通管理系統)**
 
 Policy-Address label for the planned digital traffic-management layer of low-altitude infrastructure; Hong Kong system still **planned**, not a statute. 2024 PA LAE infra slide; 2025 PA ¶154.

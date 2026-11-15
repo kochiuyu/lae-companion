@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-11-12"
+as_of: "2026-11-15"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,11 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 12 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 15 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">9 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">12 items</span></summary><ol>
+<li id="tl-ind-2026-11-14-w5000"><a href="#industry-item-2026-11-14-w5000"><span class="chip">14 Nov</span> · 白鲸航线 W5000 — technical-validation test flight, Inner Mongolia<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-11-13-yuefan-chengdu"><a href="#industry-item-2026-11-13-yuefan-chengdu"><span class="chip">13 Nov</span> · 越凡创新 — first public air-ground delivery run, Chengdu (trial)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-11-keeta-dubai-dso"><a href="#industry-item-2026-11-11-keeta-dubai-dso"><span class="chip">11 Nov</span> · Keeta Drone — Dubai Silicon Oasis HQ delivery route<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-11-11-ehang-sri-lanka"><a href="#industry-item-2026-11-11-ehang-sri-lanka"><span class="chip">11 Nov</span> · EHang EH216-S — Sri Lanka CAA test licence, Colombo Port City (test only)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-09-keeta-astana"><a href="#industry-item-2026-11-09-keeta-astana"><span class="chip">9 Nov</span> · Keeta Drone × Astana — MoU, “solution provider” entry into Central Asia (plan)<span class="badge b-ind">Indep.</span></a></li>
@@ -61,6 +63,7 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 <li id="tl-ind-2026-11-08-hubei-gov-drone-brigade"><a href="#industry-item-2026-11-08-hubei-gov-drone-brigade"><span class="chip">8 Nov</span> · Hubei government-affairs drone brigade + linkage platform (湖北大数据集团 / 湖北机场集团)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-07-meituan-sz-pause"><a href="#industry-item-2026-11-07-meituan-sz-pause"><span class="chip">7 Nov</span> · 美团无人机 — Shenzhen drone delivery paused 11–21 Nov (APEC control)<span class="badge b-co">Company</span></a></li>
 <li id="tl-ind-2026-11-07-dji-flycart200-luzhou"><a href="#industry-item-2026-11-07-dji-flycart200-luzhou"><span class="chip">4–7 Nov</span> · DJI FlyCart200 cargo-drone agent project — Luzhou first public test flight<span class="badge b-ind">Indep.</span></a></li>
+<li id="tl-ind-2026-11-06-zipline-az-ea"><a href="#industry-item-2026-11-06-zipline-az-ea"><span class="chip">6 Nov</span> · Zipline — FAA draft EA for Phoenix and Tucson (proposed OpSpecs amendment)<span class="badge b-off">Official</span></a></li>
 <li id="tl-ind-2026-11-06-wing-fort-worth"><a href="#industry-item-2026-11-06-wing-fort-worth"><span class="chip">6 Nov</span> · Wing — up to US$125m Fort Worth drone factory (company claims)<span class="badge b-co">Company</span></a></li>
 </ol></details>
 <details class="itl-card" open><summary>October 2026<span class="n">46 items</span></summary><ol>
@@ -175,6 +178,30 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 
 ### November 2026 {#industry-2026-11}
 
+- []{#industry-item-2026-11-14-w5000 .industry-item}**14 Nov 2026 · 科技日报 (22:29):** 白鲸航线’s W5000 unmanned cargo aeroplane completed a technical-validation test flight of about 30 minutes (climb, level flight, turns, descent and approach/landing) at Otog Front Banner General Aviation Airport in Inner Mongolia, after a take-off run of about 600 m. [科技日报](https://www.stdaily.com/web/gdxw/2026-11/14/content_613282.html)
+  - Tag: Independently reported
+  - What's new: Company-stated figures via the report — effective payload 5 tonnes, cargo volume over 65 m³, range 2,600 km, “tonne-km cost 60%+ lower” than a comparable crewed freighter, **835 意向订单** (intent orders, **not** confirmed contracts), and a commercial-service target of **end-2027** — are **not audited** and are not course figures. Airworthiness work is described as in progress. The “全球最大业载” superlative is press/company wording and is **not** treated as fact.
+  - Status: A single technical-validation test flight. Legal permission for commercial service is **not** granted by a test flight; economics remain company claims and a 2027 timetable.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-baijing-hangxian)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「11月14日，由白鲸航线研发制造的全球最大的无人货运飞机W5000，在内蒙古鄂托克前旗通用机场成功完成技术验证试飞。……据了解，W5000目前意向订单已达835架，预计2027年底正式投入商业运营。机型迭代、适航取证等各项工作正在稳步推进。」]{lang="zh-Hans"} ([source](https://www.stdaily.com/web/gdxw/2026-11/14/content_613282.html))
+
+  English (LAE-Intel translation): “On 14 November, the W5000 unmanned cargo aircraft, developed and manufactured by 白鲸航线, successfully completed a technical-validation test flight at Otog Front Banner General Aviation Airport in Inner Mongolia. … It is understood that intended orders for the W5000 have reached 835 aircraft, with formal commercial operations targeted for the end of 2027. Work on type iteration and airworthiness certification is proceeding steadily.”
+  :::
+
+- []{#industry-item-2026-11-13-yuefan-chengdu .industry-item}**13 Nov 2026 · 新华网 (16:18):** Chengdu High-tech Zone firm 越凡创新 completed the first public operation of an “embodied-intelligence” air-ground delivery system at 新川之心公园 (the exact flight day is not given — the report says 近日 / recently): drone 享递Air, interchange node 越凡空驿, and indoor/outdoor delivery robot 享递Ultra, demonstrating merchant pick-up, aerial transport, automatic interchange and ground drop-off. [新华网](https://sc.news.cn/20261113/52e6adfe8aca408993b291fdf9b77bc6/c.html)
+  - Tag: Independently reported
+  - What's new: A public demonstration / trial. No regulator approval is cited. Not an operating service. The article’s “907亿元” 2025 industry-scale figure for the zone’s AI and robotics sector is market-size / off-scope and is not used.
+  - Status: Trial / first public run. Not regular service.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-yuefan-chuangxin) · [Use cases](usecases.qmd#uc-item-2026-11-13-yuefan-chengdu)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「近日，在成都高新区新川之心公园，由成都高新区企业“越凡创新”自主研发的具身智能空地一体配送系统完成首次公开运行。无人机“享递Air”、智能接驳节点“越凡空驿”与室内外一体配送机器人“享递Ultra”协同运行，展示了从商户取货、空中运输、自动接驳到地面交付的全流程无人化配送能力。」]{lang="zh-Hans"} ([source](https://sc.news.cn/20261113/52e6adfe8aca408993b291fdf9b77bc6/c.html))
+
+  English (LAE-Intel translation): “Recently, at Xinchuan Heart Park in Chengdu High-tech Zone, the embodied-intelligence air-ground delivery system independently developed by High-tech Zone firm 越凡创新 completed its first public operation. The 享递Air drone, the 越凡空驿 interchange node and the 享递Ultra indoor/outdoor delivery robot operated together, demonstrating a fully unmanned delivery chain from merchant pick-up and aerial transport through automatic interchange to ground drop-off.”
+  :::
+
 - []{#industry-item-2026-11-11-keeta-dubai-dso .industry-item}**11 Nov 2026 · Construction Business News ME (company release):** Keeta Drone (Meituan) opens a drone-delivery route to the Dubai Silicon Oasis (DSO) headquarters office complex, inaugurated with DIEZ / DSO representatives; orders from participating food-and-beverage outlets land at a designated collection point. [CBNME](https://www.cbnme.com/logistics-news/keeta-drone-brings-on-demand-food-delivery-to-dubai-silicon-oasis/)
   - Tag: Company-announced
   - What's new: The route builds on existing DSO points (RIT Dubai campus, Emirates residential towers). The company says service runs daily 09:00–21:00, that operations are approved by the Dubai Civil Aviation Authority (DCAA), and that it serves ">1,000 professionals" and has made ">1 million drone deliveries globally". These are **company claims, not audited**; the DCAA approval was not verified on a DCAA page.
@@ -252,6 +279,13 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 
   English (LAE-Intel translation): On 4 November, on a rooftop in Fanhuali, Luzhou High-tech Zone … this was the first public test flight of the DJI FlyCart200 cargo drone in Luzhou, marking the formal landing of Luzhou's first DJI cargo-drone project in Jiangyang District. According to technicians, a single FlyCart200 can carry up to 200 kg, and four aircraft cooperating up to 600 kg.
   :::
+
+
+- []{#industry-item-2026-11-06-zipline-az-ea .industry-item}**6 Nov 2026 · FAA (Draft Environmental Assessment, November 2026; first captured 15 Nov):** The FAA has published a draft EA on Zipline’s proposal to amend its Part 135 Operations Specifications so it can begin commercial drone package delivery in the Phoenix and Tucson, Arizona metro areas. Public comments run from Friday 6 Nov to 5:00 p.m. Central Time, Monday 7 Dec 2026. [FAA draft EA PDF](https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20261104_Zipline_Arizona_Metros_Draft_EA_508.pdf)
+  - Tag: Officially confirmed
+  - What's new: Proposed maxima in Table 2.2-1 are **ceilings in a draft EA — not approvals, not forecasts, and not operating volumes**: Phoenix 65 chargers / 1,300 dropboxes / 65,000 deliveries a day / 195,000 transits a day (max); Tucson the same; total 130 / 2,600 / 130,000 / 390,000. The EA states that each delivery comprises three transits (Charger→Dropbox, Dropbox→customer, customer→Charger). Zipline already holds a Part 135 certificate and a 49 U.S.C. § 44807 exemption; what is sought here is an OpSpecs amendment for these areas. Official PDF filename `20261104`; PDF created 6 Nov 2026. A 14 Nov trade-press piece flagged it; this is the first routine capture (not opened on the 8 / 10 / 12 Nov runs).
+  - Status: **Legal permission** for Arizona operations is **not** granted until (at least) a final EA and an OpSpecs amendment. Do not use 65,000 / 130,000 as if they were current volumes.
+  - Read instead: [Companies & sectors](landscape.qmd) (Zipline) · [Use cases](usecases.qmd#uc-item-2026-10-08-zipline-round-rock)
 
 - []{#industry-item-2026-11-06-wing-fort-worth .industry-item}**6 Nov 2026 · Fort Worth Report:** Wing Aviation officials announce an investment of up to **US$125m** over two years in a Fort Worth, Texas drone-manufacturing factory. [Fort Worth Report](https://fortworthreport.org/2026/11/06/wing-aviation-to-invest-125m-into-fort-worth-drone-manufacturing-factory/)
   - Tag: Company-announced (independently reported announcement)
