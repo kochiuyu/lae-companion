@@ -1,7 +1,7 @@
 ---
 title: "Timeline"
 subtitle: "Official instruments and milestones"
-as_of: "2026-11-15"
+as_of: "2026-11-17"
 toc: true
 toc-location: right
 toc-title: "Sections"
@@ -38,7 +38,7 @@ span.dates-item{display:inline-block;scroll-margin-top:80px}
 @media (max-width:480px){.dtl-grid{grid-template-columns:1fr}.dtl{font-size:.88rem}}
 </style>
 <div class="dtl" id="dates-timeline">
-<p class="dtl-head"><strong>Official LAE milestones, Hong Kong first (as of 15 Nov 2026)</strong> — select an item to jump to its row.</p>
+<p class="dtl-head"><strong>Official LAE milestones, Hong Kong first (as of 17 Nov 2026)</strong> — select an item to jump to its row.</p>
 <div class="dtl-grid">
 <details class="dtl-card" open><summary>HK · Cap. 448G<span class="n">5 items</span></summary><ol>
 <li id="tl-hk-cap-448g-2022-12-01" class="st-est"><a href="#date-2022-12-01-cap448g"><span class="chip">1 Dec 2022</span> · Cap. 448G takes full effect<span class="badge b-est">Established</span></a></li>
@@ -48,7 +48,7 @@ span.dates-item{display:inline-block;scroll-margin-top:80px}
 <li id="tl-hk-cap-448g-2026-11-07" class="st-est"><a href="#date-2026-11-07-gn-7132"><span class="chip">7 Nov 2026</span> · G.N. 7132 Sandbox restricted flying zones (33) effective<span class="badge b-est">Established</span></a></li>
 </ol></details>
 <details class="dtl-card" open><summary>HK · Temporary RFZs<span class="n">1 item</span></summary><ol>
-<li id="tl-hk-temp-rfz-2026-11-17" class="st-open"><a href="#date-2026-11-17-temp-rfz-apec"><span class="chip">17–20 Nov 2026</span> · Temporary RFZs for the Shenzhen APEC Leaders’ Meeting (Zone A NT North SUA; Zone B territory-wide helicopters / light aircraft except GFS)<span class="badge b-open">Announced</span></a></li>
+<li id="tl-hk-temp-rfz-2026-11-17" class="st-est"><a href="#date-2026-11-17-temp-rfz-apec"><span class="chip">17–20 Nov 2026</span> · Temporary RFZs for the Shenzhen APEC Leaders’ Meeting (Zone A NT North SUA; Zone B territory-wide helicopters / light aircraft except GFS)<span class="badge b-est">In force</span></a></li>
 </ol></details>
 <details class="dtl-card" open><summary>HK · Governance<span class="n">4 items</span></summary><ol>
 <li id="tl-hk-governance-2024-11-12" class="st-est"><a href="#date-2024-11-12-working-group"><span class="chip">12 Nov 2024</span> · Working Group first meeting<span class="badge b-est">Established</span></a></li>
@@ -237,7 +237,7 @@ These dates created Hong Kong’s working definition, the drone statute, two tri
   [「本公告作出的指定將於2026年11月7日開始實施，全日生效，並同時取代2026年第5936號政府公告內作出的指定。」…「2026年10月30日　民航處處長黃嘉華」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/G.N.7132_C.pdf))
   :::
 
-- []{#date-2026-11-17-temp-rfz-apec .dates-item}2026-11-17 — Temporary restricted flying zones for the Shenzhen APEC Economic Leaders’ Meeting (in force 12.01am 17 Nov to 11.59pm 20 Nov 2026; announced by GIA 13 Nov). Hong Kong Police Force and Civil Aviation Department reminder: **Zone A** (Annex 1) prohibits unmanned aircraft in the northern New Territories except with special permission from HKPF and CAD, together with paragliding, airships, kites, captive balloons and mass release of balloons (official map: a shaded polygon from Deep Bay to Ping Chau, including Plover Cove Reservoir, Crooked Island and Double Island; southern edge north of Ma Wan / Tsing Yi and of the Kowloon urban area; High Island Reservoir lies outside the shaded area; no extractable coordinate schedule). **Zone B** (Annex 2) prohibits helicopters and light aircraft, except the Government Flying Service, over a territory-wide map (essentially the whole of Hong Kong plus a surrounding maritime buffer). Zone B does not, in the GIA text, extend the unmanned-aircraft prohibition beyond Zone A — not a territory-wide drone ban. Time-limited restriction; **not** a Cap. 448G amending order and **not** a standing Gazette RFZ in the G.N. 7132 / 7133 series. AIP Supplement number not stated; CAD says SUA details have been uploaded to eSUA (portal not opened in the packet). Temporary RFZs do not appear on CAD `sua_new`. No official statement that any Sandbox or commercial SUA route is paused. [GIA EN](https://www.info.gov.hk/gia/general/202611/13/P2026111300539.htm) · [GIA ZH](https://www.info.gov.hk/gia/general/202611/13/P2026111300534.htm) [↑ Back to timeline](#tl-hk-temp-rfz-2026-11-17){.dates-back}
+- []{#date-2026-11-17-temp-rfz-apec .dates-item}2026-11-17 — Temporary restricted flying zones for the Shenzhen APEC Economic Leaders’ Meeting (in force 12.01am 17 Nov to 11.59pm 20 Nov 2026; announced by GIA 13 Nov). **Now in force** as of 17 Nov (same 13 Nov GIA instrument; not a new designation). Hong Kong Police Force and Civil Aviation Department reminder: **Zone A** (Annex 1) prohibits unmanned aircraft in the northern New Territories except with special permission from HKPF and CAD, together with paragliding, airships, kites, captive balloons and mass release of balloons (official map: a shaded polygon from Deep Bay to Ping Chau, including Plover Cove Reservoir, Crooked Island and Double Island; southern edge north of Ma Wan / Tsing Yi and of the Kowloon urban area; High Island Reservoir lies outside the shaded area; no extractable coordinate schedule). **Zone B** (Annex 2) prohibits helicopters and light aircraft, except the Government Flying Service, over a territory-wide map (essentially the whole of Hong Kong plus a surrounding maritime buffer). Zone B does not, in the GIA text, extend the unmanned-aircraft prohibition beyond Zone A — not a territory-wide drone ban. Time-limited restriction; **not** a Cap. 448G amending order and **not** a standing Gazette RFZ in the G.N. 7132 / 7133 series. AIP Supplement number not stated; CAD says SUA details have been uploaded to eSUA (portal not opened in the packet). Temporary RFZs do not appear on CAD `sua_new`. No official statement that any Sandbox or commercial SUA route is paused. [GIA EN](https://www.info.gov.hk/gia/general/202611/13/P2026111300539.htm) · [GIA ZH](https://www.info.gov.hk/gia/general/202611/13/P2026111300534.htm) [↑ Back to timeline](#tl-hk-temp-rfz-2026-11-17){.dates-back}
 
   ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
   English: “The Hong Kong Police Force (HKPF) and the Civil Aviation Department (CAD) today (November 13) remind members of the public that in connection with the 33rd Asia-Pacific Economic Cooperation Economic Leaders’ Meeting to be held in Shenzhen, temporary restricted flying zones (RFZs) will be established in Hong Kong from 12.01am on November 17 to 11.59pm on November 20” ([source](https://www.info.gov.hk/gia/general/202611/13/P2026111300539.htm))

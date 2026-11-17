@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-11-15"
+as_of: "2026-11-17"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,11 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 15 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 17 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">11 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">13 items</span></summary><ol>
+<li id="tl-press-2026-11-17-td-sandbox-x-parking"><a href="#press-item-2026-11-17-td-sandbox-x-parking"><span class="chip">17 Nov</span> · RTHK: Transport Department describes a Sandbox X brownfield-parking survey pilot (BVLOS + AI)<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-11-17-ce-almac"><a href="#press-item-2026-11-17-ce-almac"><span class="chip">17 Nov</span> · Chief Executive at ALMAC restates Five-Year Plan low-altitude-hub aim and sandbox “trials to services” path<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-11-13-hk-temp-rfz"><a href="#press-item-2026-11-13-hk-temp-rfz"><span class="chip">13 Nov</span> · HKPF / CAD: temporary RFZs 17–20 Nov for the Shenzhen APEC Leaders’ Meeting<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-11-13-fs-insurance"><a href="#press-item-2026-11-13-fs-insurance"><span class="chip">13 Nov</span> · Financial Secretary restates “at least 15 insurers” offer unmanned-aircraft products<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-11-12-sz-apec-prd-claim"><a href="#press-item-2026-11-12-sz-apec-prd-claim"><span class="chip">12 Nov</span> · Press: Shenzhen APEC control now city-wide; claim of synchronised controls in four PRD cities (press only)<span class="badge b-ind">Press</span></a></li>
@@ -137,6 +139,22 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 ### 2026-11 {#press-2026-11}
 
 [↑ Back to timeline](#press-timeline){.press-back}
+
+- []{#press-item-2026-11-17-td-sandbox-x-parking .press-item}**17 Nov 2026 · 香港電台中文新聞 (14:59 HKT):** RTHK reports that the Transport Department’s Strategic Projects Division attended a low-altitude-economy Sandbox event and, on the department’s social-media page, described a 「監管沙盒X」 pilot using beyond-visual-line-of-sight unmanned aircraft plus AI image analysis to survey parking on scattered brownfield sites and private temporary car parks in the New Territories and remote areas. [RTHK](https://news.rthk.hk/rthk/ch/component/k2/1878123-20261117.htm)
+  - What's new: A **trial / pilot** description, not evidence of a regular operating survey service, and not a new legal permission. No GIA or td.gov.hk release was located. The native TD social post is **OPEN** (not independently opened). TD is not named as an applicant on the latest Sandbox X Others list (14.10.2026, 13 projects). TD is named as a collaborator on Shared Platform item 5 (Traffic Control Technology (Hong Kong) / MTR / Highways Department / Transport Department, 27.10.2026 PDF), which does not describe a brownfield-parking scenario — **do not assume they are the same project**. Qualitative “saves manpower and time / more accurate” claims are TD’s as reported; no sortie, coverage, cost figures or named sites are stated. Official counts stay on [Official status](tracker.qmd) (Sandbox X **15 / 4 / 6 / 13** unchanged).
+  - Status: Press report (T4). Cites a TD social-media post that was not independently opened. Not a new legal instrument.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-transport-department-brownfield-parking) · [Use cases](usecases.qmd#uc-item-2026-11-17-td-brownfield-parking)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「運輸署表示，策略專案部人員出席低空經濟監管沙盒活動，並介紹運輸署參與的試點項目，利用無人機配合AI技術，更好掌握棕地泊車情況。 署方在社交網頁表示，現時新界及偏遠地區的棕地和私人臨時停車場分散，傳統實地泊車調查需要大量人手和時間，所得數據亦受制於現場條件。在這個「監管沙盒X」項目下，以無人機在操作員視線範圍外飛行，擴大覆蓋範圍，配合AI影像分析技術，更有系統地掌握個別地區的泊車實況。 署方又說，超視距無人機有助解決棕地分散偏遠、難以逐個覆蓋的問題；而AI影像分析則將航拍取得的資料轉化為實用的泊車數據，減少人手調查的誤差，不但省人手、省時間，數據亦更精準、更全面。」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1878123-20261117.htm))
+
+  English (LAE-Intel translation): The Transport Department said staff of the Strategic Projects Division attended a low-altitude economy regulatory-sandbox event and introduced a pilot project in which the Department is participating, using unmanned aircraft together with AI technology to get a better grasp of brownfield parking conditions. The Department said on its social-media page that brownfield sites and private temporary car parks in the New Territories and remote areas are currently scattered; traditional on-site parking surveys require large amounts of manpower and time, and the data obtained are also constrained by on-site conditions. Under this ‘Regulatory Sandbox X’ project, unmanned aircraft fly beyond the operator’s visual line of sight to expand coverage and, together with AI image-analysis technology, more systematically capture actual parking conditions in individual areas. The Department also said that beyond-visual-line-of-sight unmanned aircraft help address the problem that brownfield sites are scattered and remote and hard to cover one by one; AI image analysis then turns the aerial-photography data into usable parking data, reducing error from manual surveys, saving manpower and time, and making the data more accurate and more comprehensive.
+  :::
+
+- []{#press-item-2026-11-17-ce-almac .press-item}**17 Nov 2026 · GIA (Chief Executive, 16th Asian Logistics, Maritime and Aviation Conference; English only):** The Chief Executive restates that “the Five-Year Plan calls for Hong Kong to become the Asia-Pacific hub for innovative low-altitude applications,” that “our regulatory sandbox tests cargo delivery safely in real conditions,” and that this “will guide legislative review and infrastructure planning, as we move from trials to services.” [GIA EN](https://www.info.gov.hk/gia/general/202611/17/P2026111700207.htm)
+  - What's new: Official restatement of the First Five-Year Plan formulation already on [Timeline](dates.qmd#date-2026-09-16-five-year-plan). **Not** a new legal instrument, **not** a new sandbox list, **not** a timetable for the unconventional-aircraft / over-150 kg legislation, and **not** a new dates milestone. No official Chinese release was published. Other figures in the same speech (export growth, airport cargo, maritime green-fuel operations) are not LAE and are not used here.
+  - Status: Official (T1). Restatement only.
+  - Read instead: [Official status](tracker.qmd) · [Timeline](dates.qmd#date-2026-09-16-five-year-plan)
 
 - []{#press-item-2026-11-13-hk-temp-rfz .press-item}**13 Nov 2026 · GIA (Hong Kong Police Force / Civil Aviation Department):** The Police Force and CAD remind the public that, in connection with the 33rd APEC Economic Leaders’ Meeting in Shenzhen, temporary restricted flying zones will be established in Hong Kong from 12.01am on 17 Nov to 11.59pm on 20 Nov 2026. [GIA EN](https://www.info.gov.hk/gia/general/202611/13/P2026111300539.htm) · [GIA ZH](https://www.info.gov.hk/gia/general/202611/13/P2026111300534.htm) · Annex 1 / Zone A [EN](https://gia.info.gov.hk/general/202611/13/P2026111300539_557617_1_1794563320550.pdf) · [中文](https://gia.info.gov.hk/general/202611/13/P2026111300534_557615_1_1794563469918.pdf) · Annex 2 / Zone B [EN](https://gia.info.gov.hk/general/202611/13/P2026111300539_557618_1_1794563320559.pdf) · [中文](https://gia.info.gov.hk/general/202611/13/P2026111300534_557616_1_1794563469929.pdf)
   - What's new: **Zone A** (northern New Territories) prohibits unmanned aircraft except with special permission from HKPF and CAD, together with paragliding, airships, kites, captive balloons and mass release of balloons (official Annex 1 map). **Zone B** is territory-wide for helicopters and light aircraft except the Government Flying Service; the GIA text does **not** extend the unmanned-aircraft prohibition beyond Zone A — not a territory-wide drone ban. Time-limited restriction; not a Cap. 448G amending order; no Gazette G.N. or AIP Supplement number in the GIA text; not listed on CAD `sua_new`. No official statement that any Sandbox or commercial SUA route is paused. RTHK (13 Nov 22:53 HKT) restates the two-zone split consistently; prefer this official text.

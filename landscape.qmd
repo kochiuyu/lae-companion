@@ -1,18 +1,18 @@
 ---
 title: "Companies & sectors"
 subtitle: "Who is in the market"
-as_of: "2026-11-15"
+as_of: "2026-11-17"
 page-layout: full
 toc: true
 toc-location: right
 toc-title: "Sections"
 ---
 
-Sources (board last checked 15 Nov 2026): 97 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
+Sources (board last checked 17 Nov 2026): 98 entries across eleven sectors. Entries are checked against the cited page. Company claims are not treated as fact.
 
 ## Companies & sectors at a glance
 
-**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks stay in the sector lists below but are omitted from the map. Marker colour = Hong Kong vs GBA — see legend. Click a pin for firm, sector(s), and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). **Counting rule:** one pin per unique HK/GBA firm — **62 pins** (49 Hong Kong + 13 GBA) from the HK/GBA subset of 86 entry rows (of 97 total).
+**GBA-focused map** of unique Hong Kong and Greater Bay Area firms on this page (dual-sector listings collapsed to one pin). US/EU and other Global benchmarks stay in the sector lists below but are omitted from the map. Marker colour = Hong Kong vs GBA — see legend. Click a pin for firm, sector(s), and source tag. Pins at the same cited city share that city's centroid and cluster until expanded. Coordinates are city centroids of the cited place label only (never street addresses). **Counting rule:** one pin per unique HK/GBA firm — **62 pins** (49 Hong Kong + 13 GBA) from the HK/GBA subset of 87 entry rows (of 98 total).
 
 ```{=html}
 <!-- Landscape at-a-glance map: Leaflet CDN, self-contained (no _quarto.yml change). GBA-focused (HK + Shenzhen/Guangzhou/Zhuhai); Global benchmarks omitted from map. -->
@@ -290,6 +290,14 @@ Sources (board last checked 15 Nov 2026): 97 entries across eleven sectors. Entr
   :::
 
 ## Inspection and surveying
+
+- []{#firm-transport-department-brownfield-parking .landscape-entry}**Transport Department (Strategic Projects Division) · Hong Kong:** RTHK (17 Nov) reports that TD described a **Sandbox X** pilot using **beyond-visual-line-of-sight** unmanned aircraft and AI image analysis to survey parking on scattered brownfield sites and private temporary car parks in the New Territories and remote areas, citing a TD social-media post (the post itself is **OPEN** — not independently opened). A trial / briefing only; no named sites or operations metrics are given. TD is not an applicant on the Sandbox X Others list (14.10.2026). TD is a named collaborator on Shared Platform item 5 (Traffic Control Technology (Hong Kong) / MTR / Highways Department / Transport Department, 27.10.2026 PDF), which does **not** describe a brownfield-parking scenario — not assumed to be the same project. No map pin (no named site was cited). [RTHK](https://news.rthk.hk/rthk/ch/component/k2/1878123-20261117.htm) · [Government news](news.qmd#press-item-2026-11-17-td-sandbox-x-parking) · [Use cases](usecases.qmd#uc-item-2026-11-17-td-brownfield-parking)
+  - Tag: Independently reported
+  - Status: Trial / Sandbox X (list-linkage OPEN)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「運輸署表示，策略專案部人員出席低空經濟監管沙盒活動，並介紹運輸署參與的試點項目，利用無人機配合AI技術，更好掌握棕地泊車情況。 署方在社交網頁表示，現時新界及偏遠地區的棕地和私人臨時停車場分散，傳統實地泊車調查需要大量人手和時間，所得數據亦受制於現場條件。在這個「監管沙盒X」項目下，以無人機在操作員視線範圍外飛行，擴大覆蓋範圍，配合AI影像分析技術，更有系統地掌握個別地區的泊車實況。 署方又說，超視距無人機有助解決棕地分散偏遠、難以逐個覆蓋的問題；而AI影像分析則將航拍取得的資料轉化為實用的泊車數據，減少人手調查的誤差，不但省人手、省時間，數據亦更精準、更全面。」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1878123-20261117.htm))
+  :::
 
 - []{#firm-clp-power-hong-kong .landscape-entry}**CLP Power Hong Kong · Hong Kong:** Regulatory Sandbox infrastructure surveillance over overhead powerlines (Sai Kung, Shing Mun and other CLP corridors). [Link](https://www.tlb.gov.hk/eng/highlights/transport/List_of_project_implemented_(by_end_of_Mar_2026)_EN_rev.pdf) [Show on map](#landscape-glance-map){.landscape-show-on-map data-pin="pin-clp-power-hong-kong"}
   - Tag: Officially confirmed
