@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 subtitle: "Terms and diagrams you can cite"
-as_of: "2026-11-14"
+as_of: "2026-11-20"
 page-layout: article
 format:
   html:
@@ -587,6 +587,14 @@ Use the distinction when screening a Hong Kong use case, then replace comparator
 
 ## Vehicles and operations
 
+When an entry cites an Advisory Circular:
+
+- Advisory Circulars are official CAD guidance, not Cap. 448G itself. A citation to AC-013 or AC-017 is not a statutory definition.
+- [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) (31 December 2025; official Chinese [AC-013_C](https://www.cad.gov.hk/documents/AC-013_C.pdf), same date) is advisory material for BVLOS in the first [Regulatory Sandbox](#regulatory-sandbox). [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) (24 April 2026) is advisory material for cross-boundary operations in [Sandbox X](#sandbox-x). Keep those programmes distinct. Do not generalise either circular to every flight.
+- Official Chinese text of AC-017 was not located as a separate CAD file. AC-017 sentences use the English circular only and are not given an invented Chinese form.
+- Roles may be distinct without a claim that different people must hold them.
+- These entries do not teach procedures, settings, methods, formulas, product names, or safety guarantees. They do not invent an empty-weight definition, a C2/licence equivalence, or a general Hong Kong Remote ID mandate.
+
 **300 ft AGL operating limit (飛行高度不高於地面以上 300 呎)**
 
 Maximum flying altitude for Category A2 SUA (and exempted Category A1 models flown to Category A2 requirements): 300 ft above ground level; Category A1's limit is 100 ft. Higher only with CAD permission under Cap. 448G s.37. G.N. 1276 of 2022; SRD §7.4.1; CAD AC-013 §6.1.
@@ -609,9 +617,15 @@ SUA flies without the remote pilot being able to intervene; **not allowed** for 
 
 For example, a delivery route that continues beyond the pilot's view needs a different safety case from a nearby inspection kept in sight. The operator must address air and ground risk, communications, containment, monitoring, and contingencies; BVLOS is not just a longer range. CAD's [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) covers BVLOS in the first Regulatory Sandbox. [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) covers cross-boundary operations in Sandbox X. Keep the programmes distinct. See [VLOS](#vlos); [Week 7](week-07.qmd).
 
-**C2 link (指揮和與控制數據鏈路)**
+**[C2 link (指揮和與控制數據鏈路)]{#c2-link}**
 
-Command-and-control communications link between the remote pilot / ground systems and the SUA. CAD AC-013 §5.5; AC-017 §5.
+A **C2 link** is the command-and-control communications link between the remote pilot or the ground systems and the SUA. That one-line picture is course wording; Cap. 448G does not define the term. Official Chinese in AC-013 is **指揮和與控制數據鏈路**. The link is a communications path, not the [remote pilot](#remote-pilot), and not a recovery behaviour such as [return-to-home](#return-to-home). UAS in this glossary is the aircraft plus its control station and links; the C2 link is the command-and-control communications link in that picture.
+
+What the cited paragraphs actually regulate is coverage and integrity, not radio type or licence. In first-sandbox BVLOS material, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §5.5 tells the operator to ensure the adequacy of mobile-radio and GNSS signal strength, coverage and integrity for the Command and Control Link (“C2 link”) throughout the intended operating areas and/or flight routes, including emergency landing sites. In Sandbox X cross-boundary material, [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) §5, headed “Network Coverage,” says the same for the Command and Control Link throughout the intended operating areas and/or flight routes. AC-017 does not use the abbreviation “C2.”
+
+Loss of the C2 link is given only as an example circumstance in the [return-to-home](#return-to-home) entry. Neither circular says that return-to-home always follows a lost link, and incorrect return-to-home settings are themselves a containment hazard. This entry does not specify a radio type, a network, a frequency, or a licence.
+
+CAD AC-013 §5.5; AC-017 §5. See [remote pilot](#remote-pilot); [return-to-home](#return-to-home); UAS; [BVLOS](#bvlos); Advisory Circular.
 
 **[Category A1 / A2 / B / C (甲一類 / 甲二類 / 乙類 / 丙類)]{#sua-categories}**
 
@@ -627,9 +641,13 @@ English: “The amendments to the Small Unmanned Aircraft (SUA) Order (Cap. 448G
 
 Built-up area where BVLOS routes that raise ground risk should normally be avoided unless justified to CAD. CAD AC-013 §5.2; Cap. 448G operating context.
 
-**Containment**
+**[Containment]{#containment}**
 
-Keeping the SUA entirely inside the pre-defined sandbox operating areas or routes by technology and/or procedures. CAD AC-013 §4.3(d), §5.3.
+**Containment** means keeping the SUA entirely inside the pre-defined sandbox operating areas or routes by technology and/or procedures. In first-sandbox BVLOS material, that wording restates “technologies or operational limitation” in [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §4.3(d) and §5.3. It is the overall task of keeping the aircraft inside, not a single device. Official Chinese of §4.3(d) does not use a single one-word equivalent of “containment”; this entry does not invent one.
+
+It is not only a [geo-fence](#geo-fence), which is one example means of confinement. It is not [geo-awareness](#geo-awareness), and it is not an enclosed area. It is also not only [return-to-home](#return-to-home): incorrect return-to-home settings are themselves a containment hazard. For [BVLOS](#bvlos), the operator must address containment among other issues — air and ground risk, communications, monitoring, and contingencies.
+
+CAD AC-013 §4.3(d), §5.3. See [geo-fence / geo-fencing](#geo-fence); [geo-awareness](#geo-awareness); [return-to-home](#return-to-home); [BVLOS](#bvlos).
 
 **Cross-boundary SUA operation (跨境小型無人機操作 / 跨境操作)**
 
@@ -639,9 +657,15 @@ SUA flight that is **not** wholly within Hong Kong; Cap. 448G treats it as an ad
 
 Default operating requirement to fly SUA only in daylight hours unless a relevant permission is obtained. Cap. 448G / SRD; CAD AC-013 §6.1.
 
-**Detect and avoid (探測與避障)**
+**[Detect and avoid (探測與避障)]{#detect-and-avoid}**
 
-Capability to see, sense or detect conflicting traffic or other hazards and take appropriate action — concept only, no product brand. CAD AC-013 §2.3.
+**Detect and avoid** is the capability to see, sense or detect conflicting traffic or other hazards and take appropriate action. Official Chinese in AC-013 is **探測與避障**. It is a capability, not a named product, not a person, and not a claim that collisions cannot happen.
+
+A [visual observer](#visual-observer) is a crew role. A surveillance system is a neighboring means, or alternative compliance, for monitoring during higher-risk BVLOS. This glossary does not treat those terms as detect-and-avoid products or as a required method. Air risk is the risk of collision or conflict with other airspace users; this entry does not say that the capability removes that risk.
+
+The definition is from [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §2.3, first-sandbox BVLOS material. If a proposed [Sandbox X](#sandbox-x) cross-boundary operation involves [BVLOS](#bvlos), [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) §2.4 says AC-013 shall also be observed, including “the detect and avoid system adopted.” That is a programme cross-reference, not a product, a method, or a rule for every flight. This entry does not describe sensors or the form of the “appropriate action.”
+
+CAD AC-013 §2.3; AC-017 §2.4 (Sandbox X, only if BVLOS is involved). See [visual observer](#visual-observer); Surveillance system; Air risk; [BVLOS](#bvlos).
 
 **docking station (無人機機庫)**
 
@@ -669,9 +693,13 @@ English: “Improve civil aviation legislation and regulatory framework, includi
 [「完善民航法例及規管框架，為重量超過150公斤的「非傳統飛行器」制訂專用法例，為低空經濟標準化發展奠下基礎。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
 
-**Fail-safe mechanism (失效安全機制)**
+**[Fail-safe mechanism (失效安全機制)]{#fail-safe-mechanism}**
 
-Design or procedure that puts the SUA into a safer state after a failure (失效安全機制) — required thinking in sandbox equipment and contingency plans. CAD AC-013_C App. A §3.7.
+A **fail-safe mechanism** is a design or procedure that puts the SUA into a safer state after a failure. Official Chinese: **失效安全機制**. The aim is a safer state after something has already gone wrong, not a claim of zero risk. It is not automatically the same as [return-to-home](#return-to-home) or [flight termination](#flight-termination). Those are separately defined terms.
+
+In first-sandbox operations-manual guidance, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) Appendix A §3.7 says the fail-safe mechanism shall include a flight-termination function that could stop the operation in an emergency. In the same circular, §14.1 tells the operator and remote pilot to determine suitable responses and a fail-safe mechanism for emergency scenarios. In Sandbox X material, [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) §6.1 tells the remote pilot to determine a suitable response and fail-safe mechanism for emergency during operation, and gives loss of command and control link only as an example. This entry does not name a device or method.
+
+CAD AC-013 App. A §3.7, §14.1; AC-017 §6.1 (Sandbox X). See [return-to-home](#return-to-home); [flight termination](#flight-termination); [safety case](#safety-case).
 
 **Flight critical system (飛行關鍵系統)**
 
@@ -681,21 +709,39 @@ System whose failure could be catastrophic or stop the SUA sustaining flight (e.
 
 Required safety-system record of flight data; AC-013 requires retention (with other safety-system info) for six months and accessibility in Hong Kong for advanced operations. Cap. 448G s.13; CAD AC-013 §10.1.
 
-**Flight termination (飛行終止 / 終止飛行)**
+**[Flight termination (飛行終止 / 終止飛行)]{#flight-termination}**
 
-Procedure or system that ends the flight as soon as practicable in an emergency. CAD AC-013 §9.4.
+**Flight termination** is a system, procedure or function that allows the remote pilot to terminate the flight as soon as practicable in an emergency. The point is to end the flight, not to continue it, and not to send the aircraft home. Official Chinese in AC-013 uses **飛行終止** / **終止飛行**.
+
+In first-sandbox BVLOS material, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §9.4 places that function as one limb of a broader emergency recovery capability. It is not [return-to-home](#return-to-home), and it is not [fail-safe mechanism](#fail-safe-mechanism) as a whole, though first-sandbox operations-manual guidance says a fail-safe mechanism shall include a flight-termination function. This glossary does not describe a method for how the flight is ended.
+
+CAD AC-013 §9.4; App. A §3.7 (fail-safe relationship only). See [return-to-home](#return-to-home); [fail-safe mechanism](#fail-safe-mechanism).
 
 **Flyaway (飛失)**
 
 Loss of effective control or unintended departure of the SUA (飛失) — a contingency AC-013 expects operators to plan and report for. CAD AC-013_C §14.1(f).
 
-**Geo-awareness (適飛空域辨識)**
+**[Geo-awareness (適飛空域辨識)]{#geo-awareness}**
 
-SUA safety-system function that supports awareness of geographical limits; required with flight log under Cap. 448G s.13 / AC-013. Cap. 448G s.13; CAD AC-013 §10.1.
+**Geo-awareness** is a SUA safety-system function that supports awareness of geographical limits. Official CAD Chinese for the pair is **飛行記錄和適飛空域辨識功能**, not 「地理感知」 or 「地理意識」. It helps with noticing those limits. It is not the boundary itself, and it is not the whole job of keeping the aircraft inside an area.
 
-**Geo-fence / geo-fencing (電子圍欄)**
+It is not a [geo-fence](#geo-fence), and it is not [containment](#containment). GNSS is satellite positioning used for SUA navigation and geo-awareness; that does not make geo-awareness simply a satellite signal.
 
-Electronic or procedural boundary that keeps the SUA inside pre-defined sandbox operating areas or flight routes. CAD AC-013 §5.3, App. A §3.6.
+Cap. 448G s.13 itself does not use the words “geo-awareness” or “flight log.” It lists four safety-system functions. CAD’s Safety Requirements Document (SRD) Issue 2 maps s.13(1)(a)–(b) — real-time indication of location, altitude and speed to the remote pilot, and real-time alerts about flying restrictions set in the safety system — to geo-awareness (§6.3.1), and maps s.13(1)(c)–(d) — recording that information and the date and time of the record — to the flight log system (§6.4.1).
+
+The hook for those functions is the safety-system duty in s.11(1)(d). That duty is not universal. It does not apply to a flight wholly within an enclosed area (s.11(2)(a)). Subdivision 1 of Division 2, which includes s.11, does not apply to a category A1 aircraft in respect of a flight that meets s.10. SRD §6.1.1 states the same enclosed-area carve-out and names Category A2, B, C, and all categories used for advanced operations. [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §10.1 restates the flight-log and geo-awareness functions for first-sandbox BVLOS. The same word also appears in [U-space](#u-space) comparator material, which is not Hong Kong law.
+
+Cap. 448G s.10, s.11(1)(d), s.11(2)(a), s.13; SRD Issue 2 §6.1.1, §6.3.1, §6.4.1; CAD AC-013 §10.1 (first-sandbox restatement). See Flight log; [geo-fence / geo-fencing](#geo-fence); [containment](#containment); GNSS; [U-space](#u-space).
+
+**[Geo-fence / geo-fencing (電子圍欄)]{#geo-fence}**
+
+A **geo-fence** is an electronic or procedural boundary that keeps the SUA inside pre-defined sandbox operating areas or flight routes. Official Chinese: **電子圍欄**. The fence can be electronic or procedural — not only a line drawn on a screen.
+
+In first-sandbox BVLOS material, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §5.3 gives a geo-fence as one example means (“such as” / 「例如」) of confining the SUA within those pre-defined areas or routes, alongside waypoint operation, through technologies or operational limitation. In Sandbox X material, [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) §9.2(c) says a flight plan shall at least include a geo-fencing boundary. Neither sentence is a general Hong Kong geo-fence mandate, and this entry does not teach how to set or maintain a fence.
+
+It is not [geo-awareness](#geo-awareness). It is not [containment](#containment) as a whole. It is not the same idea as an enclosed area, which is a Cap. 448G / SRD concept of a physically enclosed (fenced or similarly bounded) area used when classifying where SUA may fly with lower risk to outsiders.
+
+CAD AC-013 §5.3, App. A §3.6; AC-017 §9.2(c) (Sandbox X flight-plan content). See [geo-awareness](#geo-awareness); [containment](#containment); Enclosed area.
 
 **Ground risk (地面風險)**
 
@@ -713,21 +759,45 @@ Maximum certified take-off weight; Cap. 448G categories and Mainland UAS rules k
 
 Operator document setting organisation, procedures, emergency response and maintenance for the proposed advanced / sandbox operation. CAD AC-013 App. A; AC-017 §9.1.
 
-**payload (載荷)**
+**[payload (載荷)]{#payload}**
 
-Mass or cargo carried for the mission — distinct from empty weight or **MTOW**. Mission economics and category rules both care which mass you mean. Course.
+**Payload** is the mass or cargo carried for the mission. It is distinct from empty weight and from **MTOW**, the maximum certified take-off weight. This course glossary has no standalone definition of empty weight, and this entry does not invent one.
 
-**Remote ID**
+Cap. 448G [categories](#sua-categories) A1, A2, B and C, and the 150 kg small-unmanned-aircraft ceiling, use a defined “weight,” not a loosely labelled “payload.” Under s.3(1), an unmanned aircraft is a small unmanned aircraft in respect of a flight if its weight does not exceed 150 kg at all times during the flight. Under s.3(3), everything installed in, carried by or attached to the aircraft is to be taken into account. That 150 kg figure is the aircraft-weight ceiling for being a small unmanned aircraft, not a payload-capacity limit. Cap. 448G itself does not use the word “payload,” 「載荷」, or 「有效負載」.
 
-Continuous broadcast of SUA identity and geographic position so aircraft in the air can be identified. CAD AC-017 §8.2.
+CAD’s Safety Requirements Document (SRD) Issue 2 §2.2.2 gives “battery, fuel or payload” as official examples of that counted mass, including items such as cameras, lens filters, rotor blade guards, stickers, and lights. Official Chinese in the SRD uses **有效負載**; official Chinese in AC-013 uses **載荷**. In first-sandbox BVLOS material only, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §9.2 restates that the weight of the SUA including payload shall not exceed 150 kg at all times during the flight.
 
-**Remote pilot (遙控駕駛員)**
+Both mission economics and category rules depend on which mass you mean. In course economics, [CPMK](#cask-cpmk) is cost per available payload-kilometre, [ASK / available capacity](#ask) may be counted in payload-km, and yield can be stated per payload-km. For cargo [load factor](#load-factor), define the payload capacity and what “filled” means before using the ratio. Classroom cost figures on Week 3 are not Hong Kong market data and are not repeated here. What the aircraft may carry can also be a separate legal question from the mass you count; see Dangerous goods (SUA), which is a carriage rule, not a mass term.
 
-Person who manipulates the flight controls of a SUA during flight under Cap. 448G. Cap. 448G; CAD AC-013 §7.
+Cap. 448G s.3; SRD Issue 2 §2.2.2; CAD AC-013 §9.2 (first-sandbox BVLOS restatement only). See MTOW; [Category A1 / A2 / B / C](#sua-categories); [CASK / CPMK](#cask-cpmk); [load factor](#load-factor); [ASK / available capacity unit](#ask); [Week 3](week-03.qmd).
 
-**Return-to-home (自動返航 / 返航點)**
+**[Remote ID]{#remote-id}**
 
-Pre-programmed recovery behaviour that sends the SUA to a home or safe site (e.g. after C2-link loss); incorrect RTH settings are a containment hazard. CAD AC-013 §14.1.
+**Remote ID**, in this glossary, is the [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) §8.2 operator duty for [Sandbox X](#sandbox-x) cross-boundary operations: the operator shall ensure the continuous broadcast of remote identification of the SUA in flight, with information such as the identification and geographic position of the SUA, to allow SUA in the skies to be identified. The “such as” qualifier is in the circular.
+
+This is not a demonstrated general Hong Kong mandate, and it is not Cap. 448G. Do **not** confuse it with the United States Remote ID final rule (Federal Register publication 15 January 2021; 86 FR 4390), which is a [FAA](#eu-us-comparators) course comparator on Timeline. It is also not AC-017 §8.1 electronic detection of the SUA and nearby air traffic, and it is not [detect and avoid](#detect-and-avoid). This entry does not describe a broadcast method.
+
+CAD AC-017 §8.2. See [FAA](#eu-us-comparators); [Sandbox X](#sandbox-x); [detect and avoid](#detect-and-avoid); [Timeline](dates.qmd).
+
+**[Remote pilot (遙控駕駛員)]{#remote-pilot}**
+
+A **remote pilot** is, under Cap. 448G s.2, the natural person who operates the small unmanned aircraft for the flight. Official Chinese: **遙控駕駛員**. Under s.4, a person operates the aircraft by operating its flight controls manually, or, when the aircraft flies automatically, by monitoring its course and remaining able to intervene and change that course.
+
+The role is distinct from the **operator** (營運人), the person or organisation that operates the SUA under Cap. 448G, and from the **responsible person** (負責人), who has duties such as registration and labelling alongside the remote pilot. Those are distinct roles. That is not a claim that three different people must hold them.
+
+A remote pilot certificate is issued under Cap. 448G after required training or assessment for registered remote pilots. Advanced Rating is assigned with that certificate for more demanding operations; CAD AC-013 requires it for Sandbox BVLOS remote pilots. Standard Rating is the baseline rating for standard operations. Supporting crew are people who assist the remote pilot without necessarily manipulating the flight controls — an AC-013 crew role for advanced or sandbox operations. A [visual observer](#visual-observer) is a different defined role and does not replace the remote pilot.
+
+In automatic operation, the SUA follows pre-determined routes, but the remote pilot must still be able to intervene for unforeseen events. Autonomous operation, in which the remote pilot cannot intervene, is **not allowed** for Sandbox BVLOS under AC-013.
+
+Cap. 448G s.2, s.4; CAD AC-013 §7 (sandbox responsibilities, not the definition). See Operator (SUA); Responsible person; Remote pilot certificate; Advanced Rating; Standard Rating; Supporting crew; [visual observer](#visual-observer); Automatic operation; Autonomous operation.
+
+**[Return-to-home (自動返航 / 返航點)]{#return-to-home}**
+
+**Return-to-home** is a pre-programmed recovery behaviour that sends the SUA to a home or safe site. Official Chinese in AC-013 includes **自動返航**. In first-sandbox BVLOS material, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §6.7 gives returning to home position in case of loss of [C2 link](#c2-link) only as an instance (“For instance” / 「例如」) of a pre-programmed emergency course of action. That is an example, not a rule that return-to-home always follows a lost link, and not a promise that the flight has been made safe.
+
+It is not [flight termination](#flight-termination), which ends the flight as soon as practicable in an emergency, and it is not [fail-safe mechanism](#fail-safe-mechanism) as a whole. Incorrect return-to-home settings are a [containment](#containment) hazard in the existing glossary wording. This entry does not teach how to set a home point, and it does not reconcile the English and official Chinese of AC-013 §14.1(e).
+
+CAD AC-013 §6.7, §14.1. See [C2 link](#c2-link); [flight termination](#flight-termination); [containment](#containment); [fail-safe mechanism](#fail-safe-mechanism).
 
 **[safety case]{#safety-case}**
 
@@ -761,9 +831,13 @@ Common label for the aircraft alone; prefer **SUA** when citing Cap. 448G and **
 
 Any person other than an involved person; drives ground-risk planning for BVLOS. CAD AC-013 §2.5.2.
 
-**Visual observer (視像觀察員)**
+**[Visual observer (視像觀察員)]{#visual-observer}**
 
-Person at the same location as the remote pilot who keeps unaided visual contact with the SUA and communicates to help avoid collision. CAD AC-013 §2.6.1; official Chinese form 視像觀察員 in [G.N. 1276 ¶(2)](https://www.cad.gov.hk/documents/G.N.1276_C.pdf) and CAD AC-013_C §2.6.1.
+A **visual observer** is a person at the same location as the [remote pilot](#remote-pilot) who keeps unaided visual contact with the SUA and communicates to help avoid collision. In [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §2.6.1, that person is chosen by the remote pilot, has good eyesight, and is capable of communicating timely and effectively with the remote pilot to avoid collision. The watch is unaided — with the person’s own eyes, not only through a camera, other than corrective lenses and sunglasses. Official Chinese form: **視像觀察員**.
+
+Watching only a camera feed, or watching from a different site, is not what this term means in this glossary. Watching only a camera or tracking icon is also not [VLOS](#vlos). [EVLOS] is described separately as an operation beyond simple VLOS that still uses visual observers or procedures, with sight kept by the remote pilot and/or a visual observer at a **different** location, and it is not routinely permitted. This role does not replace the remote pilot, and this entry does not say that every flight needs a visual observer.
+
+CAD AC-013 §2.6.1; official Chinese form 視像觀察員 in [G.N. 1276 ¶(2)](https://www.cad.gov.hk/documents/G.N.1276_C.pdf) and CAD AC-013_C §2.6.1. See [remote pilot](#remote-pilot); [VLOS](#vlos); [BVLOS](#bvlos); EVLOS; [Line of sight and permissions](#line-of-sight-and-permissions).
 
 **[VLOS (視線內操作)]{#vlos}**
 
