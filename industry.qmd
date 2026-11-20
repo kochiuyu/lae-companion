@@ -1,7 +1,7 @@
 ---
 title: "Business news"
 subtitle: "Dated company and industry items"
-as_of: "2026-11-17"
+as_of: "2026-11-19"
 page-layout: article
 toc: true
 toc-location: right
@@ -50,9 +50,10 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="industry-timeline">
-<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 17 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
+<p class="itl-head"><strong>Business-news milestones</strong> (board last checked 19 Nov 2026) — skim, then jump to the dated item. Prefer Officially confirmed and Independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">12 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">13 items</span></summary><ol>
+<li id="tl-ind-2026-11-17-hkpc-uom"><a href="#industry-item-2026-11-17-hkpc-uom"><span class="chip">17 Nov</span> · HKPC — UOM Demonstration Centre opens (Sandbox X shared-platform staged results)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-14-w5000"><a href="#industry-item-2026-11-14-w5000"><span class="chip">14 Nov</span> · 白鲸航线 W5000 — technical-validation test flight, Inner Mongolia<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-13-yuefan-chengdu"><a href="#industry-item-2026-11-13-yuefan-chengdu"><span class="chip">13 Nov</span> · 越凡创新 — first public air-ground delivery run, Chengdu (trial)<span class="badge b-ind">Indep.</span></a></li>
 <li id="tl-ind-2026-11-11-keeta-dubai-dso"><a href="#industry-item-2026-11-11-keeta-dubai-dso"><span class="chip">11 Nov</span> · Keeta Drone — Dubai Silicon Oasis HQ delivery route<span class="badge b-co">Company</span></a></li>
@@ -177,6 +178,18 @@ a.industry-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:
 ``````
 
 ### November 2026 {#industry-2026-11}
+
+- []{#industry-item-2026-11-17-hkpc-uom .industry-item}**17 Nov 2026 · The Standard (18:00 HKT); 香港商報; 香港01; IT PRO (18 Nov):** The Hong Kong Productivity Council, jointly with the Working Group on Developing Low-altitude Economy and with Digital Policy Office support, opened an Unmanned Aircraft Operation Management (UOM) Demonstration Centre and presented staged results of the Sandbox X “Multiple applications/users shared-platform.” [The Standard](https://www.thestandard.com.hk/news/article/348774/New-super-brain-to-coordinate-Hong-Kong-government-drone-operations) · [香港商報](https://www.hkcd.com/hkcdweb/content/2026/11/17/content_8785849.html) · [香港01](https://www.hk01.com/%E7%A7%91%E6%8A%80%E6%96%B0%E8%81%9E/60411866/%E7%84%A1%E4%BA%BA%E6%A9%9F%E4%BB%BB%E5%8B%99%E7%AE%A1%E7%90%86%E5%B1%95%E7%A4%BA%E4%B8%AD%E5%BF%83%E6%8F%AD%E5%B9%95-%E5%8A%A9%E6%94%BF%E5%BA%9C%E9%83%A8%E9%96%80%E5%81%B5%E6%B8%AC%E5%B1%B1%E7%81%AB-%E7%9B%A3%E6%B8%AC%E8%88%B9%E9%9A%BB%E5%81%9C%E6%B3%8A) · [IT PRO](https://itpromag.com/2026/11/18/hkpc-56/) · [China Daily HK](https://www.chinadailyhk.com/hk/article/642830)
+  - Tag: Independently reported
+  - What's new: Press describes a “一網統飛 / One-Network Unified Flight” model coordinating supplier platforms, equipment and services for government tasking, and a “one flight, multiple applications” data path subject to permissions. HK01 and China Daily name China Telecom, China Mobile Hong Kong, and Yunsheng Intelligent (云圣智能) as participating technology providers. Example public-service scenarios in the press are vendor or press descriptions, not audited operating metrics. **Not** a new Sandbox X selection (published lists remain **15 / 4 / 6 / 13**); **not** a GIA instrument; **not** evidence of Shenzhen–Hong Kong corridor flights (press only restates that cross-boundary logistics work is being advanced). No MoU or LOI is announced in the opened texts. A press-attributed Deputy Financial Secretary remark that “more than 20 government departments” take part is **not** upgraded to officially confirmed and is not a GIA figure. China Daily’s “more than 160 pilot projects” attribution and a China Mobile staff claim of more than a thousand flights are **not** used.
+  - Status: Staged demonstration-centre opening / shared-platform results. Not a list update and not a regular operating public-service network.
+  - Read instead: [Companies & sectors](landscape.qmd#firm-hong-kong-productivity-council-hkpc-uom) · [Use cases](usecases.qmd#uc-item-2026-11-17-hkpc-uom) · [Government news](news.qmd#press-item-2026-11-17-hkpc-uom)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「生產力局主席陳祖恒表示，低空經濟的價值不是「飛得多」，而是「飛得好、飛得準同飛得有效益」。他形容UOM中心是香港低空經濟的「超級大腦」，整合了無人機系統、人工智能、數據分析及數碼管理平台等技術，將不同無人機的平台、供應商及應用系統連接。當政府部門提出工作要求時，UOM中心便會協調合適的平台及裝置，減少重複配置設備及系統，有助提升作業效率、促進跨部門協作，並提高整體資源運用效益。」]{lang="zh-Hant"} ([source](https://www.hkcd.com/hkcdweb/content/2026/11/17/content_8785849.html))
+
+  English (LAE-Intel translation): “HKPC Chairman Sunny Tan said the value of the low-altitude economy is not ‘flying more,’ but ‘flying well, flying accurately, and flying with effectiveness.’ He described the UOM Centre as the ‘super brain’ of Hong Kong’s low-altitude economy, integrating unmanned-aircraft systems, artificial intelligence, data analytics and digital management platforms, and connecting different unmanned-aircraft platforms, suppliers and application systems. When a government department puts forward a work request, the UOM Centre coordinates a suitable platform and equipment, reducing duplicated deployment of devices and systems, which he said helps raise operational efficiency, promote cross-departmental collaboration, and improve overall resource-use effectiveness.”
+  :::
 
 - []{#industry-item-2026-11-14-w5000 .industry-item}**14 Nov 2026 · 科技日报 (22:29):** 白鲸航线’s W5000 unmanned cargo aeroplane completed a technical-validation test flight of about 30 minutes (climb, level flight, turns, descent and approach/landing) at Otog Front Banner General Aviation Airport in Inner Mongolia, after a take-off run of about 600 m. [科技日报](https://www.stdaily.com/web/gdxw/2026-11/14/content_613282.html)
   - Tag: Independently reported

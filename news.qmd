@@ -1,7 +1,7 @@
 ---
 title: "Government news"
 subtitle: "Dated government and regulatory items"
-as_of: "2026-11-17"
+as_of: "2026-11-19"
 page-layout: article
 toc: true
 toc-location: right
@@ -44,9 +44,11 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 @media (max-width:640px){.itl-grid{grid-template-columns:1fr}.itl{font-size:.88rem}}
 </style>
 <div class="itl" id="press-timeline">
-<p class="itl-head"><strong>Government news milestones</strong> (board last checked 17 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
+<p class="itl-head"><strong>Government news milestones</strong> (board last checked 19 Nov 2026) — skim, then jump to the dated item. Prefer government / regulatory and independently reported.</p>
 <div class="itl-grid">
-<details class="itl-card" open><summary>November 2026<span class="n">13 items</span></summary><ol>
+<details class="itl-card" open><summary>November 2026<span class="n">15 items</span></summary><ol>
+<li id="tl-press-2026-11-17-rfz-arrest"><a href="#press-item-2026-11-17-rfz-arrest"><span class="chip">17 Nov</span> · RTHK: Police arrest at Nam Sang Wai for unauthorised SUA in the temporary RFZ<span class="badge b-ind">Press</span></a></li>
+<li id="tl-press-2026-11-17-hkpc-uom"><a href="#press-item-2026-11-17-hkpc-uom"><span class="chip">17 Nov</span> · Press: HKPC opens UOM Demonstration Centre (Sandbox X shared-platform staged results)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-11-17-td-sandbox-x-parking"><a href="#press-item-2026-11-17-td-sandbox-x-parking"><span class="chip">17 Nov</span> · RTHK: Transport Department describes a Sandbox X brownfield-parking survey pilot (BVLOS + AI)<span class="badge b-ind">Press</span></a></li>
 <li id="tl-press-2026-11-17-ce-almac"><a href="#press-item-2026-11-17-ce-almac"><span class="chip">17 Nov</span> · Chief Executive at ALMAC restates Five-Year Plan low-altitude-hub aim and sandbox “trials to services” path<span class="badge b-off">GIA</span></a></li>
 <li id="tl-press-2026-11-13-hk-temp-rfz"><a href="#press-item-2026-11-13-hk-temp-rfz"><span class="chip">13 Nov</span> · HKPF / CAD: temporary RFZs 17–20 Nov for the Shenzhen APEC Leaders’ Meeting<span class="badge b-off">GIA</span></a></li>
@@ -140,9 +142,31 @@ a.press-back{font-size:.82rem;font-weight:400;margin-left:.45rem;white-space:now
 
 [↑ Back to timeline](#press-timeline){.press-back}
 
+- []{#press-item-2026-11-17-rfz-arrest .press-item}**17 Nov 2026 · 香港電台中文新聞 (21:59 HKT):** RTHK reports that Police arrested a 40-year-old man at Nam Sang Wai, Yuen Long, on suspicion of operating a small unmanned aircraft to take photographs without authorisation inside the temporary restricted flying zone established by the Commissioner of Police in connection with the 2026 APEC-related meetings, contrary to the Small Unmanned Aircraft Order. Officers of the New Territories North Region Police Tactical Unit made the arrest during a patrol, according to the report. [RTHK](https://news.rthk.hk/rthk/ch/component/k2/1878182-20261117.htm)
+  - What's new: Reported enforcement of the existing 13 Nov GIA instrument, which remains in force until 11.59pm on 20 Nov 2026. **Not** a new RFZ, **not** a Cap. 448G amending order, and **not** evidence that a named Sandbox or commercial route was paused. No GIA or HKPF page for the arrest was located on the 17–19 Nov GIA day lists. Recaps that add nationality or a clock time beyond the RTHK wording are not used. Official counts and the two-zone split stay on [Official status](tracker.qmd).
+  - Status: Press report (T4) of a Police statement. Not a new legal instrument.
+  - Read instead: [Official status](tracker.qmd) · [Timeline](dates.qmd#date-2026-11-17-temp-rfz-apec)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「一名40歲非華裔男子涉嫌在未獲授權下，於警務處處長就2026年亞太區經濟合作組織相關會議設立的臨時限制飛行區，操作小型無人機拍攝，涉嫌違反《小型無人機令》被捕。 警方表示，新界北總區機動部隊人員，在元朗南生圍巡邏期間，發現有關男子在未獲授權下於禁飛區內操作小型無人機拍攝。 警方再次提醒市民，本周二凌晨起，直至本周五晚上11時59分，整個新界北部空域均列為臨時限制飛行區，不得進行飛行活動，包括無人機、滑翔傘、飛艇、風箏、繫留氣球，及放飛大量氣球；在同一時段，除政府飛行服務隊外，所有直升機及小型飛機不得在設立的全港臨時限制飛行區範圍內進行任何飛行活動。」]{lang="zh-Hant"} ([source](https://news.rthk.hk/rthk/ch/component/k2/1878182-20261117.htm))
+
+  English (LAE-Intel translation): “A 40-year-old non-ethnic-Chinese man was arrested on suspicion of operating a small unmanned aircraft to take photographs without authorisation in the temporary restricted flying zone established by the Commissioner of Police in connection with the 2026 APEC-related meetings, suspected of contravening the Small Unmanned Aircraft Order. Police said that during a patrol at Nam Sang Wai, Yuen Long, officers of the New Territories North Region Police Tactical Unit found the man operating a small unmanned aircraft inside the restricted flying zone without authorisation. Police again reminded the public that from the early hours of Tuesday until 11.59 pm on Friday, the entire northern New Territories airspace is a temporary restricted flying zone in which flying activities — including unmanned aircraft, paragliders, airships, kites, tethered balloons, and the release of large numbers of balloons — must not be conducted; in the same period, except for the Government Flying Service, no helicopter or light aircraft may conduct any flying activity within the territory-wide temporary restricted flying zone that has been established.”
+  :::
+
+- []{#press-item-2026-11-17-hkpc-uom .press-item}**17 Nov 2026 · The Standard (18:00 HKT); 香港商報; 香港01; IT PRO (18 Nov):** Press reports that the Hong Kong Productivity Council, jointly with the Working Group on Developing Low-altitude Economy and with Digital Policy Office support, opened an Unmanned Aircraft Operation Management (UOM) Demonstration Centre and presented staged results of the Sandbox X “Multiple applications/users shared-platform.” [The Standard](https://www.thestandard.com.hk/news/article/348774/New-super-brain-to-coordinate-Hong-Kong-government-drone-operations) · [香港商報](https://www.hkcd.com/hkcdweb/content/2026/11/17/content_8785849.html) · [香港01](https://www.hk01.com/%E7%A7%91%E6%8A%80%E6%96%B0%E8%81%9E/60411866/%E7%84%A1%E4%BA%BA%E6%A9%9F%E4%BB%BB%E5%8B%99%E7%AE%A1%E7%90%86%E5%B1%95%E7%A4%BA%E4%B8%AD%E5%BF%83%E6%8F%AD%E5%B9%95-%E5%8A%A9%E6%94%BF%E5%BA%9C%E9%83%A8%E9%96%80%E5%81%B5%E6%B8%AC%E5%B1%B1%E7%81%AB-%E7%9B%A3%E6%B8%AC%E8%88%B9%E9%9A%BB%E5%81%9C%E6%B3%8A) · [IT PRO](https://itpromag.com/2026/11/18/hkpc-56/)
+  - What's new: Press describes a “One-Network Unified Flight” (一網統飛) model that coordinates suppliers’ platforms, equipment and services when a department submits a task, and a “one flight, multiple applications” data path subject to permissions. Named technology participants in opened press include China Telecom, China Mobile Hong Kong, and Yunsheng Intelligent (云圣智能). Example public-service scenarios in the press (hill-fire detection, typhoon-shelter monitoring, tunnel and waterfront-park inspection, brownfield vehicle detection) are vendor or press descriptions, not audited regular services. The 17 Nov Transport Department brownfield-parking briefing already on this page took place at this event; list-linkage of that pilot remains OPEN. **Not** a new legal instrument; published Sandbox X lists remain **15 / 4 / 6 / 13**. No GIA or official hkpc.org press-release page was retrieved. A press-attributed Deputy Financial Secretary remark that “more than 20 government departments” take part is **not** a GIA figure. A China Daily attribution of “more than 160 pilot projects” is uncorroborated in the other opened texts and is **not** used.
+  - Status: Press report (T4). Official-adjacent activity, not a new instrument and not a list change.
+  - Read instead: [Official status](tracker.qmd) · [Business news](industry.qmd#industry-item-2026-11-17-hkpc-uom) · [Companies & sectors](landscape.qmd#firm-hong-kong-productivity-council-hkpc-uom) · [Use cases](usecases.qmd#uc-item-2026-11-17-hkpc-uom)
+
+  ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
+  [「由香港生產力促進局（生產力局）與香港特區政府發展低空經濟工作組聯合舉辦，並獲數字政策辦公室支持的「低空經濟監管沙盒X－『AI城市管理・一網統飛HKPC任務管理展示中心』成果巡禮」今日（17日）圓滿舉行。活動匯聚政府部門、業界、科研機構及技術夥伴代表，共同見證「無人機任務管理展示中心」（UOM中心）正式開幕。」]{lang="zh-Hant"} ([source](https://www.hkcd.com/hkcdweb/content/2026/11/17/content_8785849.html))
+
+  English (LAE-Intel translation): “Jointly organised by the Hong Kong Productivity Council (HKPC) and the HKSAR Government’s Working Group on Developing Low-altitude Economy, and supported by the Digital Policy Office, the ‘Low-altitude Economy Regulatory Sandbox X — “AI City Management · One-Network Unified Flight HKPC Task Management Demonstration Centre” results event’ was held today (the 17th). The event brought together representatives of government departments, industry, research institutions and technology partners to witness the formal opening of the Unmanned Aircraft Operation Management (UOM) Centre.”
+  :::
+
 - []{#press-item-2026-11-17-td-sandbox-x-parking .press-item}**17 Nov 2026 · 香港電台中文新聞 (14:59 HKT):** RTHK reports that the Transport Department’s Strategic Projects Division attended a low-altitude-economy Sandbox event and, on the department’s social-media page, described a 「監管沙盒X」 pilot using beyond-visual-line-of-sight unmanned aircraft plus AI image analysis to survey parking on scattered brownfield sites and private temporary car parks in the New Territories and remote areas. [RTHK](https://news.rthk.hk/rthk/ch/component/k2/1878123-20261117.htm)
   - What's new: A **trial / pilot** description, not evidence of a regular operating survey service, and not a new legal permission. No GIA or td.gov.hk release was located. The native TD social post is **OPEN** (not independently opened). TD is not named as an applicant on the latest Sandbox X Others list (14.10.2026, 13 projects). TD is named as a collaborator on Shared Platform item 5 (Traffic Control Technology (Hong Kong) / MTR / Highways Department / Transport Department, 27.10.2026 PDF), which does not describe a brownfield-parking scenario — **do not assume they are the same project**. Qualitative “saves manpower and time / more accurate” claims are TD’s as reported; no sortie, coverage, cost figures or named sites are stated. Official counts stay on [Official status](tracker.qmd) (Sandbox X **15 / 4 / 6 / 13** unchanged).
-  - Status: Press report (T4). Cites a TD social-media post that was not independently opened. Not a new legal instrument.
+  - Status: Press report (T4). Cites a TD social-media post that was not independently opened. Not a new legal instrument. The 17 Nov briefing was at the HKPC UOM Demonstration Centre opening (see the 17 Nov UOM item on this page); native TD post and list-linkage remain OPEN.
   - Read instead: [Companies & sectors](landscape.qmd#firm-transport-department-brownfield-parking) · [Use cases](usecases.qmd#uc-item-2026-11-17-td-brownfield-parking)
 
   ::: {.callout-note collapse="true" appearance="simple" title="原文 · Chinese original"}
