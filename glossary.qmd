@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 subtitle: "Terms and diagrams you can cite"
-as_of: "2026-11-20"
+as_of: "2026-11-21"
 page-layout: article
 format:
   html:
@@ -293,41 +293,73 @@ English: “We will formulate the Action Plan on Developing Low-Altitude Economy
 [「我們會制訂「發展低空經濟規劃行動綱領」，透過制度創新與技術突破，令香港成為低空創新應用的核心樞紐」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
 
-**advanced operations (進階操作)**
+**[advanced operations (進階操作)]{#advanced-operations}**
 
-SUA operations that require prior CAD permission under Cap. 448G (as distinct from ordinary permitted flying). Cap. 448G / CAD.
+**Advanced operations** is a CAD / Safety Requirements Document (SRD) classification of higher-risk SUA flying, not a phrase defined in Cap. 448G. Official Chinese in the SRD is **進階操作**. The statutory hooks are the duty to comply with operating requirements (s.15), those requirements including that the flight is wholly within Hong Kong (s.16(1A)), the restricted-flying-zone rule (s.18), and a permission under s.37. This entry does not put the words “advanced operations” into the mouth of the Order.
+
+In the SRD, operations of Category A1 or A2 SUA that stay within the applicable operating requirements are **standard operations**. Advanced operations are, in substance, Category B or C flights; Category A1 or A2 flights that exceed the applicable operating requirements (except a flight wholly within an [enclosed area](#enclosed-area)); flights in a restricted flying zone (except wholly within an enclosed area); or carriage of dangerous goods. Those operations require prior CAD permission under s.37, which the SRD and [AC-002](https://www.cad.gov.hk/documents/AC-002_E.pdf) call an Advanced Operations Permission (AOP / **進階操作許可**). AOP is the supporting permission, not the operation type itself.
+
+[AC-002](https://www.cad.gov.hk/documents/AC-002_E.pdf) (24 April 2026) also lists [cross-boundary SUA operation](#cross-boundary-sua-operation) among advanced operations, citing “section 16(1)(1A)” in the circular’s own form; the Order’s provision is s.16(1A). The July 2025 SRD §8.1.1 list does not include a cross-boundary item. This entry quotes both lists and does not treat them as identical. The label **進階操作** is not the same thing as Sandbox X’s official description as an 「進階版」 programme.
+
+Cap. 448G ss.15, 16, 16(1A), 18, 37; SRD Issue 2 §§2.4.1–2.4.2, 8.1.1; CAD AC-002 §§1.2, 2.2. See Advanced Operations Permission; [enclosed area](#enclosed-area); [Category A1 / A2 / B / C](#sua-categories); [cross-boundary SUA operation](#cross-boundary-sua-operation); [Regulatory Sandbox X](#sandbox-x).
 
 **Advanced Operations Permission (進階操作許可)**
 
 CAD permission under Cap. 448G s.37 to conduct an advanced operation (e.g. Sandbox BVLOS or Sandbox X cross-boundary). Cap. 448G s.37; CAD AC-013 §4.2; AC-017.
 
-**Advanced Rating (進階等級)**
+**[Advanced Rating (進階等級)]{#advanced-rating}**
 
-Rating assigned with a remote pilot certificate for more demanding SUA operations; AC-013 requires it for Sandbox BVLOS remote pilots. Cap. 448G; CAD AC-013 §8.1–8.2.
+Cap. 448G does not define the labels “Advanced Rating” or “Standard Rating.” The Order uses a generic **rating** / **等級**, assigned under s.32 and specified on the [remote pilot certificate](#remote-pilot-certificate). Under s.11(1)(f), unless an exception applies, the remote pilot’s rating must permit the type of flight operation.
 
-**Advisory Circular (小型無人機通告)**
+The labels, and what each permits, are published in the [Safety Requirements Document](#srd) §5.1: **standard rating** / **標準等級** for standard operations; **advanced rating (A/B)** / **進階等級（甲／乙）** for advanced operations involving Category A or B SUA; and **advanced rating (C)** / **進階等級（丙）** for advanced operations involving Category C SUA. A standard rating is assigned on completion of remote-pilot registration. Advanced ratings are tied to advanced operations and have an additional SRD training-and-assessment pathway, or an alternative means of compliance; this entry does not teach that pathway or invent hours or pass marks.
 
-CAD guidance document (e.g. AC-013 Sandbox BVLOS; AC-017 Sandbox X cross-boundary) — guidance, not Cap. 448G itself. CAD ACs.
+Standard Rating remains a separate live card and is contrast only, not a second concept rewritten here.
+
+Cap. 448G ss.2, 11(1)(f), 32; SRD Issue 2 §5.1. See Standard Rating; [remote pilot certificate](#remote-pilot-certificate); [remote pilot](#remote-pilot); [Safety Requirements Document (SRD)](#srd).
+
+**[Advisory Circular (小型無人機通告)]{#advisory-circular}**
+
+An **Advisory Circular** is official CAD guidance on specific SUA operations or related regulatory and/or safety requirements, not Cap. 448G itself and not subsidiary legislation. Official Chinese: **小型無人機通告**. The [Safety Requirements Document](#srd) §1.2.3 states that Advisory Circulars or Safety Notices are issued to provide that guidance, and points to AC-001 for the current list of documents. Individual circulars say they should, or shall, be read in conjunction with the SUA Order, the SRD, and other CAD SUA documents (for example [AC-002](https://www.cad.gov.hk/documents/AC-002_E.pdf) §1.4 and [AC-016](https://www.cad.gov.hk/documents/AC-016.pdf) §10.2).
+
+Examples already on this glossary include [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) for BVLOS in the first [Regulatory Sandbox](#regulatory-sandbox) and [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) for cross-boundary operations in [Sandbox X](#sandbox-x). Those circulars have their own stated scopes and are not a rule copied onto every flight. This entry does not treat an Advisory Circular as if it amended the Order, and it does not teach how to apply for a permission.
+
+SRD Issue 2 §1.2.3; CAD AC-002 §§1.3–1.4; AC-016 §10.2. See [Small Unmanned Aircraft Order, Cap. 448G](#cap-448g); [Safety Requirements Document (SRD)](#srd); [CAD](#cad).
 
 **ATMD (CAD)**
 
 CAD Air Traffic Management Division; AC-017 normally requires time-slot requests ≥5 working days before Sandbox X cross-boundary flights. CAD AC-017 §4.3.
 
-**CAD (民航處)**
+**[CAD (民航處)]{#cad}**
 
-Hong Kong Civil Aviation Department — Cap. 448G regulator and issuer of sandbox Advisory Circulars. Cap. 448G; CAD.
+**CAD** is the Civil Aviation Department. Official Chinese: **民航處**. On its official Welcome page, CAD states a regulatory role in aviation safety and a role in providing air navigation services for flights at the Hong Kong International Airport and in the Hong Kong Flight Information Region. The Department is headed by the Director-General of Civil Aviation / **民航處處長**. In Cap. 448G, “Director” / **處長** means the Director-General of Civil Aviation. Many of the Order’s powers — including issuing the [Safety Requirements Document](#srd), assigning ratings, granting permission under s.37, and designating a [restricted flying zone](#restricted-flying-zone) in the interests of aviation safety — are conferred on the Director.
+
+CAD is not the Transport and Logistics Bureau (TLB / 運輸及物流局), and it is not the Working Group on Developing Low-altitude Economy (發展低空經濟工作組). A government announcement of 12 November 2024 records that the Working Group’s Head is the Deputy Financial Secretary, that the Secretary for Transport and Logistics is the Deputy Head, and that TLB will carry out the Sandbox pilot projects by batches. This entry does not invent an organisation chart beyond those official pages.
+
+CAD Welcome and Organisation pages; Cap. 448G s.2; GIA, 12 November 2024. See [Small Unmanned Aircraft Order, Cap. 448G](#cap-448g); [Advisory Circular](#advisory-circular); TLB; Working Group on Developing Low-altitude Economy.
 
 **Cap. 448C pathway (《1995年飛航（香港）令》（第448C章）)**
 
 Air Navigation (Hong Kong) Order 1995 — used with Cap. 448G when heavier / unconventional trial flying needs provisions outside the SUA Order alone. Cap. 448C; 2024–2025 PA LAE legislative track.
 
-**Dangerous goods (SUA) (危險品)**
+**[Dangerous goods (SUA) (危險品)]{#dangerous-goods}**
 
-Goods or substances within Cap. 295 as applied by Cap. 448G; SUA must not carry them in flight unless permission is obtained. Cap. 448G; Cap. 295; CAD AC-013 §6.6.
+For a [SUA](#sua) flight, **dangerous goods** is a Cap. 448G defined term. Official Chinese: **危險品**. Under s.2, it means any of the goods or substances to which the Dangerous Goods Ordinance (Cap. 295) applies under s.3 of that Ordinance, **but not** those used as or forming part of the aircraft’s power source, those necessary to be carried to comply with s.11(1)(d) (the safety system), or those otherwise necessary for the aircraft to be fit for flying. Under s.20, a person must not cause or permit a small unmanned aircraft to carry any dangerous goods during a flight unless they are carried in accordance with a permission granted under s.37. s.37(1)(d) is the corresponding application hook.
 
-**Enclosed area (圍封範圍 / 圍封區域)**
+Cap. 295 s.2 points to what that Ordinance applies to under its s.3. Section 3(1) lists application classes (explosives, gases, flammable liquids or solids, and so on), plus a residual regulation-made class. That is the statutory scope hook, not a cargo, packing, or handling list, and this entry does not invent one.
 
-Cap. 448G / SRD concept of an **enclosed** (fenced or similarly bounded) area — 圍封範圍 / 圍封區域 — used when classifying where SUA may fly with lower risk to outsiders. Cap. 448G via AC-002_C / SRD (tc).
+[AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §6.6 restates a permission bar for first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) only, and its footnote shortens Cap. 448G s.2: it does not repeat the power-source, safety-system, and fitness-to-fly exclusions. Do not generalise that circular to every flight, and do not treat the footnote as the full statutory definition. Dangerous goods is a carriage rule, not a mass term, and is not the SUA Order as a whole.
+
+Cap. 448G ss.2, 20, 37(1)(d); Cap. 295 ss.2–3 (application classes only). See [payload](#payload); Small Unmanned Aircraft Order, Cap. 448G; [SUA](#sua).
+
+**[Enclosed area (圍封範圍 / 圍封區域)]{#enclosed-area}**
+
+An **enclosed area** is a statutory, physical concept. Under Cap. 448G s.6, a flight is within an enclosed area if the area is surrounded on all sides by fixed or movable walls, ceiling, structures or other barriers that effectively prevent the aircraft from leaving the area during the flight. Official Chinese in the Order is **圍封範圍**. AC-002 Chinese once writes **圍封區域**; both forms are quoted here and are not reconciled.
+
+That concept has legal effects. The duty to comply with operating requirements does not apply if the flight is wholly within an enclosed area (s.15(2)(a)), and the restricted-flying-zone permission requirement likewise does not apply in that case (s.18(2)). The SRD and AC-002 repeat the same carve-out when classifying [advanced operations](#advanced-operations).
+
+An enclosed area is not a [geo-fence](#geo-fence), and it is not [containment](#containment). Those are not synonyms for this physical enclosure. This entry does not say that every indoor space meets s.6, or that only indoor rooms can, beyond the words of the section, and it does not teach how to build or certify a barrier.
+
+Cap. 448G ss.2, 6, 15(2)(a), 18(2). See [advanced operations](#advanced-operations); [geo-fence / geo-fencing](#geo-fence); [containment](#containment).
 
 **HKCA 1072**
 
@@ -347,15 +379,19 @@ English: “The insurance industry has set up a task force to develop low-altitu
 
 Spectrum licensing authority for the UAS (Private) Licence (with the Communications Authority). OFCA / CA.
 
-**Operator (SUA) (營運人)**
+**[Operator (SUA) (營運人)]{#sua-operator}**
 
-The person or organisation that **operates** the SUA under Cap. 448G (營運人) — a role distinct from the remote pilot and the responsible person. CAD AC-013_C §1.3.
+Cap. 448G does not define “operator,” “SUA operator,” or 「營運人」。 The Order’s defined roles in s.2 are the [remote pilot](#remote-pilot) (遙控駕駛員), the natural person who operates the aircraft for the flight, and the **responsible person** (負責人), the person named as such under s.25(5)(a). “Operate” itself is explained in s.4.
+
+CAD circulars, in permission and programme settings, use **applicant/SUA operator (“operator”)** / **申請人／小型無人機營運人（營運人）**. That is CAD usage, not a statutory definition. [AC-002](https://www.cad.gov.hk/documents/AC-002_E.pdf) also distinguishes the accountability of an Advanced Operations Permission holder from the duties of the remote pilot and the responsible person. Those are distinct roles. That is not a claim that different people must hold them.
+
+Cap. 448G ss.2, 4, 25(5)(a); CAD AC-013 §1.3 (first-sandbox usage); AC-002 §§2.1, 5.1.1. See [remote pilot](#remote-pilot); Responsible person; Advanced Operations Permission.
 
 **[Regulatory Sandbox (監管沙盒)]{#regulatory-sandbox}**
 
-Hong Kong’s earlier controlled trial programme for selected LAE applications under approved conditions. Applications from 13 November 2024; **38 of 72** proposals selected (TLB/GIA, 20 March 2025). BVLOS in this programme is covered by CAD AC-013.
+The **Regulatory Sandbox** is Hong Kong’s earlier official trial programme for selected low-altitude-economy pilot projects. Official Chinese: **監管沙盒**. A government announcement on 20 March 2025 recorded 72 applications and 38 first-batch projects, after review by the Working Group on Developing LAE. The Transport and Logistics Bureau programme page later records 33 of those projects implemented as of 31 March 2026. Those figures are official programme counts, not legal thresholds.
 
-Lets firms and agencies learn before full-scale deployment — an economic response to high entry barriers. First-batch selection **38 of 72** is **not** the same as later Sandbox X module counts. A sandbox does **not** waive safety. See [Key numbers](key-figures.qmd).
+This programme is not [Regulatory Sandbox X](#sandbox-x). Do not add the first-batch **38** to later Sandbox X module counts. [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) is CAD’s circular for [BVLOS](#bvlos) permission within the context of this Regulatory Sandbox. The Sandbox is a programme, not a rule for every SUA flight, and it does not replace Cap. 448G.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The Government received Regulatory Sandbox pilot project proposals from 72 applicants, and after review by the Working Group on Developing LAE, 38 of them are among the first batch of pilot projects to be rolled out” ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000179.htm))
@@ -363,21 +399,23 @@ English: “The Government received Regulatory Sandbox pilot project proposals f
 [「政府共接獲由72個申請者提交的「監管沙盒」試點項目申請，經發展低空經濟工作組審閱後，其中38項成為首批推展的試點項目」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202503/20/P2025032000178.htm))
 :::
 
+GIA, 20 March 2025; TLB programme page (33 implemented as of 31 March 2026); CAD AC-013 (first-sandbox BVLOS permission material). See [Regulatory Sandbox X](#sandbox-x); [BVLOS](#bvlos); [Key numbers](key-figures.qmd).
+
 **[Regulatory Sandbox X (監管沙盒 X / 監管沙盒X)]{#sandbox-x}**
 
-A **later, separate** Hong Kong trial programme launched 24 November 2025 (modules such as UTM, unconventional aircraft, shared platforms). CAD AC-017 covers cross-boundary operations in Sandbox X.
+**Regulatory Sandbox X** is a later, separate official trial programme. The official long form is “Low-altitude Economy Regulatory Sandbox X (‘Sandbox X’)” / 「低空經濟監管沙盒X（監管沙盒X）」. The Transport and Logistics Bureau page records that the Government rolled it out in November 2025, covering five modules: UTM system demonstrations, unconventional aircraft, cross-boundary applications, multiple applications/users shared-platform, and other technically more complex scenarios. The Chinese page also describes it as an 「進階版」 sandbox; that programme label is not the same thing as [advanced operations](#advanced-operations) / 「進階操作」.
 
-Cross-boundary and advanced modules appear here — still trials, not day-to-day corridor service. **Sandbox X ≠ the first Regulatory Sandbox.** Do not add the first-batch **38** and the Sandbox X module total **38** into one “market share.” Module batches are 15+4+6+13 = **38** on [Official status](tracker.qmd) (Updated PDFs). See [Key numbers](key-figures.qmd); [Who decides what?](regulators.qmd#standing-caveats).
+As at the application deadline of 28 February 2026, more than 100 applications were received. After evaluation by the Working Group on Developing Low-altitude Economy, the page records 15 UTM projects, a first batch of four unconventional-aircraft projects, six shared-platform projects, and 13 projects under the others module, for implementation in phases. Remaining applications, including cross-boundary results, are still to be announced in due course. This entry does not treat those published counts as a completed cross-boundary list, and it does not claim an operating Shenzhen–Hong Kong corridor flight.
+
+**Sandbox X ≠ the first [Regulatory Sandbox](#regulatory-sandbox).** Do not add the first-batch **38** and these module counts into one total. [AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) covers [cross-boundary SUA operations](#cross-boundary-sua-operation) within this programme only. The unconventional-aircraft module includes unmanned aircraft weighing more than 150 kg, which sit outside the SUA Order’s [category](#sua-categories) ceiling.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-English: “The launch event of the low-altitude economy \"Regulatory Sandbox X\" was held today (November 24), with an aim to further promoting the development of low-altitude economy in Hong Kong and exploring innovative applications.” ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400912.htm))
-
-[「低空經濟「監管沙盒X」啟動禮今日（十一月二十四日）舉行，旨在進一步推動香港的低空經濟發展，並探索創新應用場景。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202511/24/P2025112400779.htm))
-
 English: “(i) 15 pilot projects under the UTM system demonstrations module, (ii) a first batch of four pilot projects under the unconventional aircraft module; (iii) six pilot projects under the multiple applications/users shared-platform module; and (iv) 13 pilot projects under the others module have been selected for implementation in phases.” ([source](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html))
 
 [「經發展低空經濟工作組審閱後，已選定(i) 15個UTM系統演示試點項目；(ii) 首批四個非傳統航空器試點項目；(iii) 六個多場景／多用戶共享平台試點項目，以及(iv) 13個其他試點項目予以分階段推行。」]{lang="zh-Hant"} ([source](https://www.tlb.gov.hk/tc/highlights/transport/low-altitude.html))
 :::
+
+TLB programme page; CAD AC-017 (Sandbox X cross-boundary permission material). See [Regulatory Sandbox](#regulatory-sandbox); [cross-boundary SUA operation](#cross-boundary-sua-operation); [advanced operations](#advanced-operations); [Key numbers](key-figures.qmd); [Official status](tracker.qmd).
 
 **Secretary for Transport and Logistics (STL) (運輸及物流局局長)**
 
@@ -389,21 +427,35 @@ English: Secretary for Transport and Logistics — Principal Official directory 
 [「運輸及物流局局長 — 香港特別行政區問責制主要官員，掌管運輸及物流局；現任局長為陳美寶女士, JP（2024年12月5日獲委任）。與「運輸及物流局」（決策局本身）不同。」]{lang="zh-Hant"} (LAE-Intel gloss from GovHK / TLB org materials; [繁體目錄](https://www.gov.hk/tc/about/govdirectory/po/stl.htm))
 :::
 
-**Remote pilot certificate (遙控駕駛員證書)**
+**[Remote pilot certificate (遙控駕駛員證書)]{#remote-pilot-certificate}**
 
-Certificate issued under Cap. 448G after required training/assessment for registered remote pilots. Cap. 448G; CAD AC-013 §8.
+A **remote pilot certificate** is a statutory instrument. Cap. 448G s.2 defines it as a certificate issued under s.29(4)(a), 30(5)(a), 32(6) or 33(7). Official Chinese: **遙控駕駛員證書**. A person who has attained 14 years of age may apply to be registered as a remote pilot (s.29(1)). On registration, the Director must issue the certificate and specify the validity period of the registration, which must not exceed three years (s.29(4)–(5)). When a [rating](#advanced-rating) is assigned or renewed, the Director issues a remote pilot certificate specifying the rating. That is the same certificate instrument, not a second statutory document. The [Safety Requirements Document](#srd) says an electronic certificate is issued upon successful registration.
 
-**Responsible person (負責人)**
+Unless an exception applies, s.11(1)(e)–(f) requires that the [remote pilot](#remote-pilot) is a registered remote pilot and that the rating permits the type of flight. Those limbs do not apply if the flight is wholly within an enclosed area (s.11(2)). The SRD §4.1.3 says remote pilots for Standard Category A1 Operations are not required to register. That is the SRD’s Standard Category A1 exception, not a general claim that no certificate is needed for every flight. This entry does not invent training hours or pass marks.
 
-Person responsible for the SUA under Cap. 448G (registration/labelling and compliance duties alongside the remote pilot). Cap. 448G.
+Cap. 448G ss.2, 11(1)(e)–(f), 11(2), 29, 32(6), 33(7); SRD Issue 2 §4.1. See [remote pilot](#remote-pilot); [Advanced Rating](#advanced-rating); Standard Rating; [Safety Requirements Document (SRD)](#srd).
 
-**Safety Requirements Document (SRD) (《安全規定文件》 / 《小型無人機安全規定文件》)**
+**[Responsible person (負責人)]{#responsible-person}**
 
-CAD document issued under Cap. 448G s.63 setting detailed SUA safety requirements; ACs are read with the Order and the SRD. Cap. 448G s.63; CAD AC-013 §18.2; AC-017 §11.2.
+The **responsible person** is defined in Cap. 448G s.2 as the person named under s.25(5)(a) as the responsible person of the aircraft. Official Chinese: **負責人**. A person may apply to register an unmanned aircraft; if the applicant is a natural person, the person must have attained 18 years of age (s.25(1)–(2)). On registering the aircraft, the Director must name the applicant as the responsible person (s.25(5)(a)).
 
-**Small Unmanned Aircraft Order, Cap. 448G (《小型無人機令》（第448G章）)**
+The role is distinct from the [remote pilot](#remote-pilot) (遙控駕駛員), the natural person who operates the aircraft for the flight, and from the **operator** (營運人). Cap. 448G does not define “SUA operator”; CAD circulars use that label in permission or programme settings. Those are distinct roles. That is not a claim that different people must hold them. This entry does not teach how to register an aircraft.
 
-Hong Kong statute for small unmanned aircraft. Full effect 1 December 2022; Category C up to 150 kg from 18 July 2025.
+Cap. 448G ss.2, 25(1)–(2), 25(5)(a). See [remote pilot](#remote-pilot); Operator (SUA); [Remote pilot certificate](#remote-pilot-certificate).
+
+**[Safety Requirements Document (SRD) (《安全規定文件》 / 《小型無人機安全規定文件》)]{#srd}**
+
+The **Safety Requirements Document** is issued by the Director under Cap. 448G s.63 to provide guidance on the operation of the Order, including guidance on how to comply with it. Official Chinese: **安全規定文件** / 《小型無人機安全規定文件》. Under s.63(4), the document is **not** subsidiary legislation. Under s.64, a person does not incur criminal liability only because the person has contravened a provision of the SRD; the document may, however, be admitted in legal proceedings where the court is satisfied that it is relevant. The SRD’s own §1.2.1 restates the s.63 purpose and adds that compliance with the SRD does not confer immunity from legal obligations in Hong Kong.
+
+The English Issue 2 Record of Issue is **18 July 2025**. The Chinese 第二版 issue date is **25 July 2025**. The Chinese text states that it is a translation and that the English version prevails if the texts conflict. Those dates are not silently merged here. [Advisory Circulars](#advisory-circular) are to be read with the Order and the SRD. This entry does not treat SRD paragraphs as offence-creating provisions, and it does not copy later chapters as operating procedures.
+
+Cap. 448G ss.63–64; SRD Issue 2 §1.2.1 and Record of Issue. See [Small Unmanned Aircraft Order, Cap. 448G](#cap-448g); [Advisory Circular](#advisory-circular); [CAD](#cad).
+
+**[Small Unmanned Aircraft Order, Cap. 448G (《小型無人機令》（第448G章）)]{#cap-448g}**
+
+Cap. 448G is the **Small Unmanned Aircraft Order** / **《小型無人機令》**, subsidiary legislation made by the Chief Executive in Council under the Civil Aviation Ordinance (Cap. 448) ss.2A and 12. On the face of the Order, commencement is 1 June 2022. [CAD](#cad)’s official SUA page also states that the Order “took full effect on 1 December 2022.” Both official wordings are quoted; they are not silently merged here.
+
+The Order applies to a [small unmanned aircraft](#sua). Under s.3(1), an unmanned aircraft is a small unmanned aircraft in respect of a flight if its weight does not exceed 150 kg at all times during the flight. Under s.3(3), everything installed in, carried by or attached to the aircraft is to be taken into account. That 150 kg figure is the SUA ceiling, not a payload-capacity limit, and not the course’s roughly 1,000-metre low-altitude-economy band. The Order is not a statute for craft above that ceiling; see [unconventional aircraft](#unconventional-aircraft). This entry is not a section-by-section commentary.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Under the SUA Order that took full effect on 1 December 2022, SUA operations are regulated under a risk-based approach.”…“In July 2025, the scope of the SUA Order was expanded to cover SUA weighing not more than 150kg.” ([source](https://www.cad.gov.hk/english/sua.html))
@@ -411,21 +463,29 @@ English: “Under the SUA Order that took full effect on 1 December 2022, SUA op
 [「法例已於2022年12月1日全面實施，以風險為本的模式規管小型無人機的操作」…「於2025年7月， 《小型無人機令》的規管制度擴闊至重量不超過150公斤的小型無人機。」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/chinese/sua.html))
 :::
 
+Cap. 448G enacting words, ss.1, 3(1), 3(3); CAD SUA landing pages; SRD Issue 2 §1.1.1 (restatement). See [SUA](#sua); [Category A1 / A2 / B / C](#sua-categories); [unconventional aircraft](#unconventional-aircraft); [Safety Requirements Document (SRD)](#srd).
+
 **Standard Rating (標準等級)**
 
 Baseline remote-pilot rating under the Safety Requirements Document (標準等級), contrasted with **Advanced Rating** for more demanding SUA operations. CAD SRD (tc) §5.1.1.
 
-**Supporting crew (輔助人員)**
+**[Supporting crew (輔助人員)]{#supporting-crew}**
 
-People who assist the remote pilot (輔助人員) without necessarily manipulating the flight controls — an AC-013 crew role for advanced / sandbox operations. CAD AC-013_C §4.3(b), §8.4.
+**Supporting crew** is not a Cap. 448G defined term. In CAD [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf), official Chinese **輔助人員**, they are additional personnel assisting around the [remote pilot](#remote-pilot) in first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) operations. Before those operations, the operator is to establish the minimum number of remote pilot and supporting crew for the safe operations, and all supporting crew and involved persons are to be trained or briefed specifically for the BVLOS operations and emergency procedures. That is not a universal crew minimum, staffing chart, or prescribed division of labour, and AC-013 must not be generalised to every flight.
+
+Supporting crew is not automatically the [visual observer](#visual-observer). [AC-003](https://www.cad.gov.hk/documents/AC-003_E.pdf) §4.2, in the night-operations permission circular, distinguishes the chosen visual observer from “additional supporting crew.” Roles may be distinct without a claim that different people must hold them. This entry does not teach how to staff or brief a crew.
+
+CAD AC-013 §§4.3(b)–(c), 8.4 (first-Sandbox BVLOS only; do not generalise); AC-003 §4.2 (contrast only). See [remote pilot](#remote-pilot); [visual observer](#visual-observer); [Involved person](#involved-person); Operator (SUA).
 
 **TLB (運輸及物流局)**
 
 Transport and Logistics Bureau — the policy **bureau** (not the Principal Official). Supports the Working Group secretariat and LAE sandbox communications. See also Secretary for Transport and Logistics (STL). TLB / WG materials; [TLB organisation](https://www.tlb.gov.hk/eng/aboutus/organisation/index.html).
 
-**Unconventional aircraft (非傳統飛行器)**
+**[Unconventional aircraft (非傳統飛行器)]{#unconventional-aircraft}**
 
-Policy language for craft **above** the Cap. 448G SUA ceiling (above 150 kg) for which dedicated rules are intended; legislation is still **OPEN**. 2025 PA ¶154.
+**Unconventional aircraft** is official Policy Address language for craft above the [Cap. 448G](#cap-448g) 150 kg small-unmanned-aircraft ceiling, not a regime already in the SUA Order. Dedicated legislation remains **OPEN**: no statute or bill number was found in the instruments opened for the evidence packet. This entry stays inside dated Policy Address wording and does not treat future-legislation language as if it were already in force.
+
+The 2025 Policy Address (para. 154) speaks of formulating dedicated legislation for unconventional aircraft weighing over 150 kilograms. Official Chinese in that 2025 text is **「非傳統飛行器」**. The 2026 Policy Address (paras. 138–139) speaks of beginning the drafting of legislation for unconventional aircraft weighing over 150 kg, and official Chinese in the 2026 texts is **非傳統航空器**. Those two official Chinese forms are both quoted; they are not silently unified here. The 2026 Policy Address example “manned aircraft weighing over 150 kilograms” / 「重量超過150公斤的載人飛行器」 is an illustration in that policy wording, not a statutory definition. The official 2026 Policy Address annex, Indicators for Specified Tasks, item 35, assigns to TLB: “Complete the drafting of the relevant legislation for unconventional aircraft weighing over 150 kg within 2027.” That is a specified-task indicator, not an enacted law. The 2026 Policy Address says the Government will formulate the Action Plan; the Action Plan official text remains OPEN.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Improve civil aviation legislation and regulatory framework, including formulating dedicated legislation for unconventional aircraft weighing over 150 kilograms, to lay the foundation for developing the standardisation of the low-altitude economy.” ([source](https://www.policyaddress.gov.hk/2025/en/p153.html))
@@ -433,13 +493,29 @@ English: “Improve civil aviation legislation and regulatory framework, includi
 [「完善民航法例及規管框架，為重量超過150公斤的「非傳統飛行器」制訂專用法例，為低空經濟標準化發展奠下基礎。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2025/tc/p153.html))
 :::
 
+::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
+English (2026 Policy Address, paras. 138–139): “The IA and the industry will fully support the regulatory framework for unconventional aircraft (e.g. manned aircraft weighing over 150 kilograms) to be established by the Government.” “The Government will formulate the Action Plan on Developing Low-Altitude Economy, including the following actions: … (iii) Begin drafting legislation for unconventional aircraft weighing over 150 kilograms.” ([source](https://www.policyaddress.gov.hk/2026/public/pdf/policy/policy-full_en.pdf))
+
+[「保監局與業界將全力支援政府擬為非傳統航空器（例如重量超過150公斤的載人飛行器）制訂的規管框架。」「政府會制訂「發展低空經濟規劃行動綱領」，行動包括：… (iii) 為重量超過 150 公斤的非傳統航空器，開展法例草擬工作。」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/public/pdf/policy/policy-full_tc.pdf))
+
+English (2026 Policy Address Annex, Indicators for Specified Tasks, item 35): “Complete the drafting of the relevant legislation for unconventional aircraft weighing over 150 kg within 2027. (TLB)” ([source](https://www.policyaddress.gov.hk/2026/public/pdf/policy/policy-annex_en.pdf))
+
+[「在 2027 年完成為重量超過 150 公斤的非傳統航空器制訂相關法例的草擬工作。（運輸及物流局）」]{lang="zh-Hant"} ([source](https://www.policyaddress.gov.hk/2026/public/pdf/policy/policy-annex_tc.pdf))
+:::
+
+2025 Policy Address para. 154; 2026 Policy Address paras. 138–139 and Annex indicator 35; contrast Cap. 448G s.3(1). See [Small Unmanned Aircraft Order, Cap. 448G](#cap-448g); [SUA](#sua); TLB.
+
 **Unmanned Aircraft Office (CAD) (無人駕駛飛機組)**
 
 CAD unit that handles small unmanned aircraft matters (無人駕駛飛機組) — the contact point named in sandbox ACs. CAD AC-013_C §18.3.
 
-**Working Group on Developing Low-altitude Economy (發展低空經濟工作組)**
+**[Working Group on Developing Low-altitude Economy (發展低空經濟工作組)]{#working-group}**
 
-Cross-government group headed by the Deputy Financial Secretary; first meeting 2024-11-12. 2024 PA ¶82; GIA 2024-11-12.
+The **Working Group on Developing Low-altitude Economy** is a government coordinating body. Official Chinese: **「發展低空經濟工作組」**. It is not CAD, a [Regulatory Sandbox](#regulatory-sandbox) or [Sandbox X](#sandbox-x) programme, or a flying permission.
+
+The 2024 Policy Address (para. 82) states that the Government will establish the Working Group, led by the Deputy Financial Secretary, to formulate development strategies and inter-departmental action plans. The GIA of 12 November 2024 records that the Deputy Financial Secretary convened the first meeting as Head, that the Secretary for Transport and Logistics is the Deputy Head, and that the Transport and Logistics Bureau will carry out Sandbox pilot projects by batches. This entry does not invent an organisation chart beyond those official pages, and it does not treat personal names as the definition of the Group.
+
+The Working Group is not named in the 2025 or 2026 official full Policy Address texts opened for the evidence packet. The Action Plan official text remains **OPEN**. The 2025 Policy Address (para. 154) and the 2026 Policy Address (para. 139) say the Government “will formulate” the Action Plan on Developing Low-Altitude Economy. Official Chinese in the 2026 text is **「發展低空經濟規劃行動綱領」**. That wording is not a substitute for the Plan itself, and coordinating or “trial flights as early as possible” language is not an evidenced operating Shenzhen–Hong Kong corridor flight.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “The Government will establish the Working Group on Developing Low-altitude Economy. Led by the Deputy Financial Secretary, it will formulate development strategies and inter-departmental action plans” ([source](https://www.policyaddress.gov.hk/2024/en/p81.html))
@@ -450,6 +526,8 @@ English: “The Chief Executive announced in the 2024 Policy Address to establis
 
 [「行政長官在二○二四年《施政報告》宣布成立「發展低空經濟工作組」（工作組），財政司副司長黃偉綸今日（十一月十二日）以組長身分召開工作組的首次會議。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202411/12/P2024111200288.htm))
 :::
+
+2024 Policy Address para. 82; GIA, 12 November 2024. See CAD; TLB; Secretary for Transport and Logistics (STL); Action Plan on Developing Low-Altitude Economy; [Regulatory Sandbox](#regulatory-sandbox).
 
 ## Mainland comparators
 
@@ -595,21 +673,43 @@ When an entry cites an Advisory Circular:
 - Roles may be distinct without a claim that different people must hold them.
 - These entries do not teach procedures, settings, methods, formulas, product names, or safety guarantees. They do not invent an empty-weight definition, a C2/licence equivalence, or a general Hong Kong Remote ID mandate.
 
-**300 ft AGL operating limit (飛行高度不高於地面以上 300 呎)**
+**[300 ft AGL operating limit (飛行高度不高於地面以上 300 呎)]{#300-ft-agl}**
 
-Maximum flying altitude for Category A2 SUA (and exempted Category A1 models flown to Category A2 requirements): 300 ft above ground level; Category A1's limit is 100 ft. Higher only with CAD permission under Cap. 448G s.37. G.N. 1276 of 2022; SRD §7.4.1; CAD AC-013 §6.1.
+The legal operating-requirement limit is a **specified flying altitude**, not a figure written into Cap. 448G itself. Under s.16(1)(c), the flying altitude of the aircraft must be “not higher than the specified flying altitude.” The Director specifies that parameter by Gazette notice under s.17(2).
 
-**Air risk (空中風險)**
+[G.N. 1276](https://www.cad.gov.hk/documents/G.N.1276_E.pdf) (signed 18 March 2022; in force 1 June 2022) specifies **100 ft** above ground level for category A1 and **300 ft** above ground level for category A2. That is not a universal 300 ft rule: the standard A1 limit is 100 ft. Official Chinese in the Gazette uses **尺** (地面以上 100 尺 / 300 尺); the SRD and AC-013 Chinese use **呎**. Both are quoted; they are not reconciled here. The same notice defines “above ground level” as the altitude from a point on the ground, including the earth’s surface or water surface, referenced from the closest point of the ground.
 
-Risk of collision or conflict with other airspace users during the SUA flight. CAD AC-013 §4.3(f).
+The duty to comply with that operating requirement does not apply if the flight is wholly within an [enclosed area](#enclosed-area) (s.15(2)(a)), and a permission under s.37 may authorise operation without complying with any or all of the operating requirements (s.15(2)(b)). [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §6.1’s 300 ft wording is first-sandbox BVLOS shorthand; it does not override the Gazette’s 100 ft A1 / 300 ft A2 split, and it is not a rule for every flight.
 
-**Automatic operation (自動操作)**
+This legal limit is not the course’s roughly 1,000-metre low-altitude-economy band, which is policy / economic framing, not a Cap. 448G or G.N. 1276 flying-altitude rule. No opened statute or Gazette in the evidence packet sets a 1,000-metre legal altitude limit.
 
-SUA follows pre-determined routes, but the remote pilot must still be able to intervene for unforeseen events. CAD AC-013 §2.1.
+Cap. 448G ss.16(1)(c), 16(2), 17(2), 15(2), 37(1)(b); G.N. 1276 para. (3) and footnote 2; SRD Issue 2 §7.4.1. See [Category A1 / A2 / B / C](#sua-categories); [enclosed area](#enclosed-area); [advanced operations](#advanced-operations).
 
-**Autonomous operation (自主操作)**
+**[Air risk (空中風險)]{#air-risk}**
 
-SUA flies without the remote pilot being able to intervene; **not allowed** for Sandbox BVLOS under AC-013. CAD AC-013 §2.2, §6.7.
+**Air risk** is not a Cap. 448G defined term. In CAD [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §4.3(f), official Chinese **空中風險**, it is one of the “two main risks associated with the operations,” paired with but distinct from [ground risk](#ground-risk), that the operator is to assess for severity and probability in a first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) safety risk assessment. That is a kind of harm or exposure involving other airspace users, not a risk-assessment method and not a [safety case](#safety-case) argument. AC-013 must not be generalised to every flight.
+
+Air risk is not the [detect and avoid](#detect-and-avoid) capability already taught as T21. In the same circular, detect-and-avoid is defined as a capability, not as the risk, and this entry does not say that the capability removes air risk. This entry does not invent scores, classes, distances, or a flying or separation procedure.
+
+CAD AC-013 §4.3(f) (first-Sandbox BVLOS only; do not generalise). See [Ground risk](#ground-risk); [detect and avoid](#detect-and-avoid); [safety case](#safety-case); [Specific Operations Risk Assessment (SORA)](#sora); [BVLOS](#bvlos).
+
+**[Automatic operation (自動操作)]{#automatic-operation}**
+
+Under Cap. 448G s.4, a person “operates” a small unmanned aircraft either by operating its flight controls manually, or, when the aircraft **flies automatically**, by monitoring its course and remaining able to intervene and change that course at any time during the flight. Official Chinese in the Order is **自動飛行**. The Order does not define, and does not use, the label “automatic operation.”
+
+In first-sandbox BVLOS material, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §2.1 defines **Automatic Operation** / **自動操作** as an operation in which the SUA follows pre-determined flight routes set before starting the flight, and says it is essential that the [remote pilot](#remote-pilot) can take control and intervene in unforeseen, unprogrammed events. That definition is guidance in that programme, not a statutory definition.
+
+Automatic operation is not [autonomous operation](#autonomous-operation). The distinction is whether the remote pilot remains able to intervene. This entry does not teach how to programme a route or take over the controls.
+
+Cap. 448G s.4; CAD AC-013 §2.1 (first-sandbox BVLOS definition). See [autonomous operation](#autonomous-operation); [remote pilot](#remote-pilot).
+
+**[Autonomous operation (自主操作)]{#autonomous-operation}**
+
+In first-sandbox BVLOS material, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §2.2 defines **Autonomous Operation** / **自主操作** as an operation in which the SUA operates without the [remote pilot](#remote-pilot) being able to intervene. The same circular’s §6.7 says “Autonomous operation is not allowed” / 「不得進行自主操作」 in that permission setting. The remote pilot must be able to maintain control during normal operations, except for a pre-programmed emergency course of action; [return-to-home](#return-to-home) after loss of the C2 link is given only as an instance, not as a guarantee.
+
+Cap. 448G does not use the word “autonomous” or 「自主操作」, and it does not contain a section saying “autonomous operation is not allowed.” Section 4 is the general meaning of “operate,” including the duty to remain able to intervene when the aircraft flies automatically; it is not a labelled statutory ban under this name. This entry does not generalise the AC-013 prohibition into a blanket Cap. 448G ban, and it does not teach how any system is to be designed.
+
+CAD AC-013 §2.2, §6.7 (first-sandbox BVLOS); Cap. 448G s.4 (meaning of “operate” only). See [automatic operation](#automatic-operation); [remote pilot](#remote-pilot); [return-to-home](#return-to-home).
 
 **[BVLOS (超視距操作)]{#bvlos}**
 
@@ -629,17 +729,21 @@ CAD AC-013 §5.5; AC-017 §5. See [remote pilot](#remote-pilot); [return-to-home
 
 **[Category A1 / A2 / B / C (甲一類 / 甲二類 / 乙類 / 丙類)]{#sua-categories}**
 
-Weight-based SUA classes under Cap. 448G; Category C covers above 25 kg up to 150 kg (from 2025-07-18). Cap. 448G s.2, s.3(2) (Cat C expansion 2025-07-18).
+These are weight-based classes of small unmanned aircraft under Cap. 448G s.3, classified **in respect of a flight**, not as a permanent property of a hull. Official Chinese: **甲一類、甲二類、乙類、丙類**. An unmanned aircraft is a small unmanned aircraft in respect of a flight if its weight does not exceed 150 kg at all times during the flight. Within that ceiling: category A1 does not exceed 250 g at all times; A2 does not exceed 7 kg at all times but exceeds 250 g at any time; B does not exceed 25 kg at all times but exceeds 7 kg at any time; and C exceeds 25 kg at any time. Category C carries the source note L.N. 82 of 2025 in the verified published version last updated 18.7.2025.
 
-::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
-English: “The amendments to the Small Unmanned Aircraft (SUA) Order (Cap. 448G) serve to extend the existing regulatory regime to cover SUA weighing over 25 kilograms but not exceeding 150kg.”…“The Small Unmanned Aircraft (Amendment) Order 2025 and the Air Navigation (Hong Kong) Order 1995 (Amendment) Order 2025 will come into effect tomorrow (July 18) to facilitate the development of the low-altitude economy.” ([source](https://www.info.gov.hk/gia/general/202507/17/P2025071700590.htm))
+Under s.3(3), everything installed in, carried by or attached to the aircraft is to be taken into account. That counted mass is statutory “weight,” not a loosely labelled [payload](#payload). The 150 kg figure is the small-unmanned-aircraft ceiling, not a payload-capacity limit. This course glossary has no official empty-weight definition, and this entry does not invent one. These SUA categories do not apply to aircraft above 150 kg; the [Sandbox X](#sandbox-x) unconventional-aircraft module, which includes unmanned aircraft weighing more than 150 kg, is a different programme, outside the SUA Order.
 
-[「修訂《小型無人機令》（第448G章）旨在擴闊現行規管制度，以涵蓋重量超過25公斤但不超過150公斤的小型無人機。」…「《2025年小型無人機（修訂）令》和《2025年〈1995年飛航（香港）令〉（修訂）令》，將於明日（七月十八日）生效，以推動低空經濟的發展。」]{lang="zh-Hant"} ([source](https://www.info.gov.hk/gia/general/202507/17/P2025071700589.htm))
-:::
+Cap. 448G s.3(1)–(3); SRD Issue 2 §2.2 (restatement). See [payload](#payload); MTOW; [300 ft AGL operating limit](#300-ft-agl); [Regulatory Sandbox X](#sandbox-x).
 
-**Congested area (人口稠密區域 / 人口密集區域)**
+**[Congested area (人口稠密區域 / 人口密集區域)]{#congested-area}**
 
-Built-up area where BVLOS routes that raise ground risk should normally be avoided unless justified to CAD. CAD AC-013 §5.2; Cap. 448G operating context.
+“Congested area” is **not** a defined term in Cap. 448G or in G.N. 1276. This entry does not invent a statutory definition, and it does not invent official Chinese such as 「擠迫地區」. The Order’s related mechanism is s.16(1)(e)–(f): specified horizontal distances from any person not involved in the flight, and from any vehicle, vessel or structure not under the remote pilot’s control. G.N. 1276 specifies those distances by category; it does not use the phrase “congested area,” and this entry does not teach how to measure them.
+
+The closest official wording found is in the [Safety Requirements Document](#srd) §7.6.4, which is guidance: the remote pilot **should avoid** “Flying over populated and congested areas.” Official Chinese of that limb is **飛越人煙稠密的區域**. That “should avoid” sentence is not upgraded into a statutory prohibition under the name “congested area.”
+
+A congested area is not an enclosed area (圍封範圍), which is a defined physical enclosure in s.6. This heading’s live Chinese forms remain course wording; they are not presented here as a statutory Chinese term.
+
+Cap. 448G ss.16(1)(e)–(f), 17(2); G.N. 1276; SRD Issue 2 §7.6.4. See Enclosed area; [Safety Requirements Document (SRD)](#srd).
 
 **[Containment]{#containment}**
 
@@ -649,13 +753,25 @@ It is not only a [geo-fence](#geo-fence), which is one example means of confinem
 
 CAD AC-013 §4.3(d), §5.3. See [geo-fence / geo-fencing](#geo-fence); [geo-awareness](#geo-awareness); [return-to-home](#return-to-home); [BVLOS](#bvlos).
 
-**Cross-boundary SUA operation (跨境小型無人機操作 / 跨境操作)**
+**[Cross-boundary SUA operation (跨境小型無人機操作 / 跨境操作)]{#cross-boundary-sua-operation}**
 
-SUA flight that is **not** wholly within Hong Kong; Cap. 448G treats it as an advanced operation needing CAD permission — AC-017 covers Sandbox X cross-boundary (no person on board). Cap. 448G s.16(1A); CAD AC-017.
+Under Cap. 448G s.16(1A), it is an operating requirement that the flight is wholly within Hong Kong. The SRD names a flight that does not meet that requirement — that is, a flight partly within Hong Kong and partly outside Hong Kong — as **cross-boundary operations** / **跨境操作**. The statutory hook is the wholly-within-Hong Kong requirement, not a defined phrase in the Order itself.
 
-**Daylight-only default (只限日間時間操作)**
+[AC-017](https://www.cad.gov.hk/documents/AC-017.pdf) treats those operations as [advanced operations](#advanced-operations) requiring s.37 permission, and sets requirements for that permission only within the context of [Regulatory Sandbox X](#sandbox-x), for an applicant who intends to operate without carrying any person on board. For the part of the flight within Hong Kong, other SUA Order requirements apply; for the part outside Hong Kong, the circular tells the operator to comply with the rules of the relevant local authorities. Official Chinese of AC-017 was not located.
 
-Default operating requirement to fly SUA only in daylight hours unless a relevant permission is obtained. Cap. 448G / SRD; CAD AC-013 §6.1.
+This entry does not claim a published Sandbox X cross-boundary result, or an operating Shenzhen–Hong Kong corridor flight. Those remain unannounced on the official programme page opened for the evidence packet.
+
+Cap. 448G s.16(1A); SRD Issue 2 glossary; CAD AC-017 §§1.2–1.3, 2.1 (Sandbox X). See [advanced operations](#advanced-operations); [Regulatory Sandbox X](#sandbox-x).
+
+**[Daylight-only default (只限日間時間操作)]{#daylight-only-default}**
+
+The **daylight-only default** is a time-of-operation operating requirement, not [VLOS](#vlos) or [BVLOS](#bvlos), a height limit, or a restricted flying zone. Under Cap. 448G s.16(1)(a), the aircraft is “not operated for the flight at the specified hours of a day.” Those hours are specified by the Director under s.17(2) by Gazette notice; s.17(5) says such a notice is not subsidiary legislation.
+
+G.N. 1276 paragraph (1) specifies that the aircraft is not operated at “hours other than daylight hours.” It defines daylight hours as “the time from half an hour before sunrise until half an hour after sunset (both points of time exclusive),” with sunrise and sunset determined at surface level. Official Chinese in the Gazette: **日間時間**. That is the opened Gazette parameter, not an invented sunrise/sunset or lux formula. This heading’s live Chinese form remains course wording; it is not presented here as a second official definition.
+
+Night flying is not a blanket prohibition. Under s.15(2)(b), the duty to comply with operating requirements does not apply if the aircraft is operated in accordance with a s.37 permission. CAD [AC-003](https://www.cad.gov.hk/documents/AC-003_E.pdf) (18 July 2025) is the permission circular for operations “outside daylight hours or at night,” and says those phrases are used interchangeably in that circular. AC-003 is not itself the Order, and this entry does not teach how to apply for a permission. [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §6.1 mentions daylight hours only in first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) guidance and must not be narrated as the definition or generalised to every flight.
+
+Cap. 448G ss.16(1)(a), 17(2), 17(5), 15(2)(b), 37(1)(b); G.N. 1276 paragraph (1); CAD AC-003 (permission pathway only). See [VLOS](#vlos); [BVLOS](#bvlos); Enclosed area.
 
 **[Detect and avoid (探測與避障)]{#detect-and-avoid}**
 
@@ -667,9 +783,11 @@ The definition is from [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) �
 
 CAD AC-013 §2.3; AC-017 §2.4 (Sandbox X, only if BVLOS is involved). See [visual observer](#visual-observer); Surveillance system; Air risk; [BVLOS](#bvlos).
 
-**docking station (無人機機庫)**
+**[docking station (無人機機庫)]{#docking-station}**
 
-Ground unit for automated launch, recovery, charging or swapping of small unmanned aircraft; CAD AC-016 addresses hangar/dock-style SUA operations — **not** a vertiport statute. CAD AC-016; industry usage.
+A **docking station**, in CAD [AC-016](https://www.cad.gov.hk/documents/AC-016.pdf) §2.4, is an **Unmanned Aircraft Docking Station**: a ground facility where [SUA](#sua) may normally take-off, land, recharge (or swap batteries), and execute automatic SUA operations. Official Chinese in AC-016: **無人機機庫**. AC-016 (26 January 2026) is guidelines and a s.37 permission pathway, from an aviation-safety perspective, where specified operating requirements under the Order cannot be met. It is to be read with the Order and the [SRD](#srd), and it is not a building code. This entry does not teach how to install or operate a dock.
+
+A docking station is not a [vertiport](#vertiport). No Hong Kong vertiport statute was found in the instruments opened for the evidence packet. Policy Address language about planning vertiports / 「起降場」 is planning language, not that statute, and is not a definition of a docking station.
 
 ::: {.callout-note collapse="true" appearance="simple" title="官方中英文本 · Official English and Chinese"}
 English: “Guidelines and Permission for Small Unmanned Aircraft Operations Using Unmanned Aircraft Docking Station” ([source](https://www.cad.gov.hk/documents/AC-016.pdf))
@@ -677,9 +795,17 @@ English: “Guidelines and Permission for Small Unmanned Aircraft Operations Usi
 [「使用無人機機庫進行小型無人機操作的指引及許可」]{lang="zh-Hant"} ([source](https://www.cad.gov.hk/documents/AC-016_C.pdf))
 :::
 
-**EVLOS (延伸視線操作)**
+CAD AC-016 title, §§1.3, 2.4, 10.1–10.2. See [Vertiport](#vertiport); [Advisory Circular](#advisory-circular); [Small Unmanned Aircraft Order, Cap. 448G](#cap-448g).
 
-Operation beyond simple VLOS but still using visual observers or procedures — not BVLOS. CAD / Cap. 448G practice.
+**[EVLOS (延伸視線操作)]{#evlos}**
+
+**EVLOS** (Extended Visual Line of Sight) is not a Cap. 448G defined term. Official Chinese in CAD [AC-004](https://www.cad.gov.hk/documents/AC-004_E.pdf): **延伸視線操作**. The statutory hook is s.16(1)(b) — a visual line of sight “in a specified way” — plus the s.15(2)(b) / s.37 permission exception. G.N. 1276 paragraph (2) specifies that VLOS way as the [remote pilot](#remote-pilot) and/or a [visual observer](#visual-observer) who is at the **same** location as the remote pilot.
+
+AC-004 (18 July 2025), *Permission for Small Unmanned Aircraft Extended Visual Line of Sight Operations*, is the precise permission circular, not the Order. In AC-004 §2.3, with a visual observer’s assistance, an SUA “may be operated within EVLOS in which VLOS is maintained by” the remote pilot and/or a visual observer “who is at a **different** location from the remote pilot.” “EVLOS operations are not routinely permitted.” That is official CAD advisory-circular wording and a s.37 permission pathway, not a statutory definition. This entry does not promote the live paraphrase “CAD / Cap. 448G practice,” and it does not treat the looser SRD restatement as the definition.
+
+EVLOS is not [VLOS](#vlos), not [BVLOS](#bvlos), and not the visual observer as a person. This entry does not teach observer-placement or flying procedures, and it does not teach how to apply for a permission.
+
+Cap. 448G ss.15, 16(1)(b), 37(1)(b); G.N. 1276 paragraph (2); CAD AC-004 §§1.2–2.4. See [VLOS](#vlos); [BVLOS](#bvlos); [visual observer](#visual-observer); [remote pilot](#remote-pilot).
 
 **[eVTOL (電動垂直起降飛行器)]{#evtol}**
 
@@ -701,13 +827,23 @@ In first-sandbox operations-manual guidance, [AC-013](https://www.cad.gov.hk/doc
 
 CAD AC-013 App. A §3.7, §14.1; AC-017 §6.1 (Sandbox X). See [return-to-home](#return-to-home); [flight termination](#flight-termination); [safety case](#safety-case).
 
-**Flight critical system (飛行關鍵系統)**
+**[Flight critical system (飛行關鍵系統)]{#flight-critical-system}**
 
-System whose failure could be catastrophic or stop the SUA sustaining flight (e.g. flight control, propulsion, navigation). CAD AC-013 §2.4.
+**Flight critical system** is not a Cap. 448G defined term. In CAD [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §2.4, official Chinese **飛行關鍵系統**, it means “a system, the failure of which could have a catastrophic effect on the SUA and/or affects the SUA ability to sustain its flight.” Examples given are the flight control system, propulsion system, and navigation system. That wording is first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) guidance only and must not be generalised to every flight.
 
-**Flight log (飛行記錄)**
+A flight critical system is not the [fail-safe mechanism](#fail-safe-mechanism), not the [C2 link](#c2-link) alone, and not [flight termination](#flight-termination). This entry does not invent a technical standard, certification test, redundancy requirement, or failure probability.
 
-Required safety-system record of flight data; AC-013 requires retention (with other safety-system info) for six months and accessibility in Hong Kong for advanced operations. Cap. 448G s.13; CAD AC-013 §10.1.
+CAD AC-013 §2.4 (first-Sandbox BVLOS only; do not generalise). See [fail-safe mechanism](#fail-safe-mechanism); [C2 link](#c2-link); [flight termination](#flight-termination).
+
+**[Flight log (飛行記錄)]{#flight-log}**
+
+**Flight log** is not a Cap. 448G defined term. The Order never uses that label. What the Order requires is a **safety system** / **安全系統**. Under s.13, that system’s specified functions include recording the aircraft’s geographical location, flying altitude and flying speed during the flight, and recording the date and time of that information. CAD guidance, including the Safety Requirements Document §6.4, uses “flight log” / **飛行記錄** as technical language for those s.13 recording functions. A notebook is not, by itself, that statutory record.
+
+Under s.14(1), for a flight that is not wholly within an enclosed area, the information recorded by the safety system must be kept for six months beginning on the date the flight begins. Under s.14(1A), for a flight in accordance with a s.37 permission, that information must be kept for six months **and** “must be accessible in Hong Kong by an authorized officer.” Those two limbs are not the same rule, and the access-in-Hong-Kong limb is not a duty for every flight. [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §10.1 restates flight-log wording for first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) only and must not be generalised to every flight.
+
+A flight log is not a [Remote ID](#remote-id) broadcast, not [remote-pilot](#remote-pilot) registration, and not a [safety case](#safety-case) argument. This entry does not teach a logging checklist or how to keep records.
+
+Cap. 448G ss.11(1)(d), 13, 14(1), 14(1A); SRD Issue 2 §6.4. See [Remote ID](#remote-id); [safety case](#safety-case); [geo-awareness](#geo-awareness); Enclosed area.
 
 **[Flight termination (飛行終止 / 終止飛行)]{#flight-termination}**
 
@@ -717,9 +853,13 @@ In first-sandbox BVLOS material, [AC-013](https://www.cad.gov.hk/documents/AC-01
 
 CAD AC-013 §9.4; App. A §3.7 (fail-safe relationship only). See [return-to-home](#return-to-home); [fail-safe mechanism](#fail-safe-mechanism).
 
-**Flyaway (飛失)**
+**[Flyaway (飛失)]{#flyaway}**
 
-Loss of effective control or unintended departure of the SUA (飛失) — a contingency AC-013 expects operators to plan and report for. CAD AC-013_C §14.1(f).
+**Flyaway** is not a Cap. 448G defined term. In the opened CAD texts, official Chinese is **飛失**. It is treated as an unwanted emergency event, not [containment](#containment), [return-to-home](#return-to-home), or a [fail-safe mechanism](#fail-safe-mechanism). In [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §14.1(f), first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) only, flyaway is listed among emergency scenarios for which the operator and remote pilot are to determine suitable responses and fail-safe mechanisms. That circular must not be generalised to every flight.
+
+The Safety Requirements Document §11.1.2(c) treats “Flyaway or loss of command and control datalink” as a reportable occurrence **where** that flyaway or loss “resulted in an event that was potentially prejudicial to the safety of other airspace users or third parties.” That wording does not make every lost [C2 link](#c2-link) a flyaway, and this entry does not generalise a reporting duty as if it covered every flight. This entry does not teach recovery settings or methods.
+
+CAD AC-013 §14.1(f) (first-Sandbox BVLOS only; do not generalise); SRD Issue 2 §11.1.2(c). See [containment](#containment); [return-to-home](#return-to-home); [fail-safe mechanism](#fail-safe-mechanism); [C2 link](#c2-link).
 
 **[Geo-awareness (適飛空域辨識)]{#geo-awareness}**
 
@@ -743,13 +883,23 @@ It is not [geo-awareness](#geo-awareness). It is not [containment](#containment)
 
 CAD AC-013 §5.3, App. A §3.6; AC-017 §9.2(c) (Sandbox X flight-plan content). See [geo-awareness](#geo-awareness); [containment](#containment); Enclosed area.
 
-**Ground risk (地面風險)**
+**[Ground risk (地面風險)]{#ground-risk}**
 
-Risk to people, vehicles, vessels or structures on the ground from the SUA flight. CAD AC-013 §4.3(f), §5.2.
+**Ground risk** is not a Cap. 448G defined term. In CAD [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §4.3(f), official Chinese **地面風險**, it is one of the “two main risks associated with the operations,” paired with but distinct from [air risk](#air-risk), that the operator is to assess for severity and probability in a first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) safety risk assessment. Section 5.2 elaborates that ground risk, in that sandbox setting, as risk to “people and properties on the ground.” AC-013 must not be generalised to every flight.
 
-**Involved person (參與人員)**
+Ground risk is a kind of harm or exposure, not a risk-assessment method, not a [safety case](#safety-case) argument, and not a second congested-area short. This entry does not invent scores, distances, or a mitigation recipe, and it does not say that an empty-looking site is safe.
 
-Person who takes part in or is briefed on the SUA operation, understands the risks, and follows safety instructions. CAD AC-013 §2.5.1.
+CAD AC-013 §§4.3(f), 5.2 (first-Sandbox BVLOS only; do not generalise). See [Air risk](#air-risk); [safety case](#safety-case); [Specific Operations Risk Assessment (SORA)](#sora); Congested area; Uninvolved person.
+
+**[Involved person (參與人員)]{#involved-person}**
+
+**Involved person** is participation status, not a [remote-pilot](#remote-pilot), Operator (SUA), Responsible person, or [visual observer](#visual-observer) role. Cap. 448G does not define that headword. s.16(1)(e) uses the phrase “any person who is not involved in the flight operation” / 「沒有參與該次飛行操作的人」 as a distance requirement, without defining “involved person.”
+
+The formal definition opened here is in the Safety Requirements Document Issue 2 §7.6.3 and, in nearly the same words, [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §2.5.1: a person who takes part in or is well aware of the SUA operation, understands the risk, and is aware of the instructions and safety precautions. Official Chinese in those CAD texts: **參與人員**. The SRD states that definition “for the purpose of this provision” (the lateral-separation provision). AC-013 is first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) guidance only and must not be generalised to every flight. A briefing is one practical element in that guidance; this entry does not treat a briefing alone as creating legal consent or status for every flight.
+
+**Uninvolved person** / **非參與人員** is defined in those same texts only as any person other than an involved person. That residual contrast is already a live card and is not given a second definition here; no independent official definition with distinct substantive depth was found.
+
+SRD Issue 2 §7.6.3; Cap. 448G s.16(1)(e); CAD AC-013 §2.5.1 (first-Sandbox BVLOS only; do not generalise). See Uninvolved person; [remote pilot](#remote-pilot); [visual observer](#visual-observer); Operator (SUA); Responsible person; [Ground risk](#ground-risk).
 
 **MTOW**
 
@@ -803,11 +953,17 @@ CAD AC-013 §6.7, §14.1. See [C2 link](#c2-link); [flight termination](#flight-
 
 A structured argument, backed by evidence, that the hazards of a **defined operation** are understood and adequately controlled. It connects the aircraft, route, environment, people, procedures, and emergency responses to specific risks and mitigations.
 
+That paragraph is course wording. No official Hong Kong definition of “safety case” was found in the statute, Gazette, SRD, or CAD circulars opened for the evidence packet, and this entry does not invent one or supply official Chinese. The closest official phrase in first-sandbox BVLOS application guidance is “safety risk assessment” / 「安全風險評估」 in [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) Appendix B. That phrase is not relabelled here as “safety case.”
+
 A safety case for one trial route does not establish that a different route or commercial service is safe, nor does it prove zero risk or replace a required permission. Update it when the operating conditions change. See [SORA](#sora); [Week 7](week-07.qmd#the-safety-case-and-risk-cost).
 
 **[Specific Operations Risk Assessment (SORA) (特定運行風險評估)]{#sora}**
 
-**SORA** (特定運行風險評估) — a structured method to argue ground and air risk for advanced / BVLOS-style operations; AC-013 App. B names it. CAD AC-013_C App. B.
+**SORA** is named in first-sandbox BVLOS application guidance, not as a statute and not as a mandatory or exclusive method. In [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) Appendix B, the applicant shall identify risks specific to the proposed BVLOS operations and propose effective mitigating measures. The appendix first gives “an example of basic safety risk assessment” and says the list is not exhaustive. It then says that, subject to acceptance by the CAD, the applicant *may* adopt other risk assessment methodologies “such as” the Specific Operations Risk Assessment (SORA). Official Chinese spells out **特定運行風險評估（Specific Operations Risk Assessment）** and does not use the letters “SORA”; this entry does not invent an official Chinese short form.
+
+SORA is not [safety case](#safety-case), and it is not Cap. 448G. This entry does not teach SORA steps or classes, and it does not treat the method as a rule for every flight.
+
+CAD AC-013 Appendix B (first-sandbox BVLOS). See [safety case](#safety-case); [advanced operations](#advanced-operations); [BVLOS](#bvlos).
 
 **[SUA (小型無人機)]{#sua}**
 
@@ -815,13 +971,21 @@ A safety case for one trial route does not establish that a different route or c
 
 Start with the craft's weight and operation, then check the category, flying area, altitude, pilot requirements, and any required permission. A small camera drone and a heavier cargo SUA can both fall under this Order but face different requirements. Everyday “drone” is **not** a precise Cap. 448G synonym; UAS refers to the aircraft **and** its associated control system. Heavier / passenger concepts may sit outside the SUA ceiling. See [Category A1 / A2 / B / C](#sua-categories); [Key numbers](key-figures.qmd); [CAD's SUA overview](https://www.cad.gov.hk/english/sua_overview_categorisation.html).
 
-**Surveillance system (監察系統)**
+**[Surveillance system (監察系統)]{#surveillance-system}**
 
-Means (or alternative compliance) for the remote pilot to monitor the SUA and nearby traffic/obstacles during higher-risk BVLOS. CAD AC-013 §10.9.
+**Surveillance system** is not a Cap. 448G defined term. Official wording opened here exists only in CAD [AC-013](https://www.cad.gov.hk/documents/AC-013_E.pdf) §10.9, official Chinese **監察系統**, and only for first-[Regulatory Sandbox](#regulatory-sandbox) [BVLOS](#bvlos) operations “at areas where uninvolved people, vehicles, vessels or structures are likely to be present.” In that setting, the remote pilot must be able to monitor the SUA and its surrounding geographical environment via electronic means. “To enhance safety, a surveillance system (or other alternative means of compliance) with proven performance shall be in place.” This is a thin, conditional system label, not a general mandate for every flight, and AC-013 must not be generalised to every flight.
 
-**UAS**
+That labelled system, or alternative means, is not a [visual observer](#visual-observer) (a person) and is not a [Remote ID](#remote-id) broadcast. It is only thinly distinct from [detect and avoid](#detect-and-avoid): AC-013 §2.3 already defines detect-and-avoid as a capability, and §10.9 uses detect-and-avoid language among the system’s functions. The contrast supported here is only the scoped monitoring package versus that capability, not a claim that surveillance itself avoids conflict, and not a product or architecture recommendation. If a short cannot hold that contrast, the term remains too thin to narrate as a general concept.
 
-Unmanned aircraft system (aircraft + control station + links); used in OFCA licence titles and Mainland instruments; broader than Cap. 448G “SUA.”. OFCA UAS (Private) Licence; Mainland 国令761 / CCAR-92 usage.
+CAD AC-013 §10.9 (first-Sandbox BVLOS only; do not generalise). See [visual observer](#visual-observer); [Remote ID](#remote-id); [detect and avoid](#detect-and-avoid); [Air risk](#air-risk).
+
+**[UAS]{#uas}**
+
+**UAS** is a system term on official OFCA pages: Unmanned Aircraft System. Official Chinese harvested from those pages is **無人駕駛飛機系統（無人機系統）**, also written **無人駕駛飛機系統（「無人機系統」）（俗稱無人機）**. The OFCA **Unmanned Aircraft System (Private) Licence** / **無人駕駛飛機系統（專用）牌照**, created since 27 October 2025, is a radiocommunications licence for assigned channels in the 1.4 GHz (1430–1444 MHz) band. At present, that band is confined to projects under the LAE [Regulatory Sandbox](#regulatory-sandbox). That licence is not a Cap. 448G flying permission, and it is not a rule about every [SUA](#sua) flight.
+
+Cap. 448G’s legal class is **small unmanned aircraft** / **小型無人機**, with a 150 kg ceiling, and **unmanned aircraft** / **無人機** as the wider defined machine. No opened official instrument equates OFCA “UAS” with Cap. 448G “SUA.” Those vocabularies are kept distinct here. **UAV** was not found as an official defined Hong Kong form on the instruments opened; this entry does not invent an official Chinese or English UAV form, and it does not treat UAV as a second concept.
+
+OFCA UAS (Private) Licence page and UAS consumer page; Cap. 448G ss.2–3. See [SUA](#sua); [Small Unmanned Aircraft Order, Cap. 448G](#cap-448g).
 
 **UAV**
 
@@ -875,11 +1039,17 @@ Prohibited, Restricted or Danger Areas published in the Hong Kong Aeronautical I
 
 HKAIP special-use airspace types (禁區／限制區／危險區). Sandbox BVLOS routes must stay clear unless justified to CAD. CAD AC-013_C §5.1(b).
 
-**restricted flying zone (限制飛行區)**
+**[restricted flying zone (限制飛行區)]{#restricted-flying-zone}**
 
-CAD-designated area where SUA flight is restricted or needs permission; cite current CAD maps/notices, not press maps. CAD; official Chinese form 限制飛行區 in Cap. 448G s.2.
+A **restricted flying zone** is defined in Cap. 448G s.2 as an area designated under s.19(1), (2) or (3) whose designation is having effect. Official Chinese: **限制飛行區**. If any part of a SUA flight is within a restricted flying zone, the aircraft may only be operated in accordance with a permission granted under s.37, unless the flight is wholly within an enclosed area (s.18). The Director-General of Civil Aviation may designate a zone in the interests of aviation safety, the Commissioner of Police in the circumstances in s.19(2), and the Secretary for Security for security reasons. A notice published under s.19 is not subsidiary legislation. Cite current CAD maps and notices, not press maps.
 
-The 13 Nov 2026 GIA reminder of temporary RFZs for the Shenzhen APEC Leaders’ Meeting (in force 17–20 Nov) uses two maps that are **not** the same prohibition set: **Zone A** covers unmanned aircraft (and specified unpowered / tethered activities) in the northern New Territories; **Zone B** covers helicopters and light aircraft (except the Government Flying Service) over a territory-wide map. These are time-limited restrictions, not a Cap. 448G amending order and not part of the G.N. 7132 / 7133 standing series. See [Official status](tracker.qmd) and [Timeline](dates.qmd#date-2026-11-17-temp-rfz-apec).
+Standing or time-specified designations listed on CAD’s SUA publications page as of 6 November 2026 include G.N. 4991, G.N. 7132, G.N. 7133, G.N. 5133 and G.N. 5134. G.N. 5133 and 5134 are time-specified on listed dates, not all-day designations. G.N. 7132 is not the only restricted flying zone.
+
+A Cap. 448G restricted flying zone is not, without a sourced official equation, the same as an HKAIP prohibited, restricted or danger area. Those AIP designators were not retrieved in the evidence packet and are not invented here.
+
+The 13 November 2026 GIA reminder of temporary RFZs for the Shenzhen APEC Leaders’ Meeting (in force from 12.01am on 17 November to 11.59pm on 20 November 2026) uses two maps that are **not** the same prohibition set: **Zone A** covers unmanned aircraft (and specified unpowered / tethered activities) in the northern New Territories; **Zone B** covers helicopters and light aircraft (except the Government Flying Service) over a territory-wide map, and is not a territory-wide unmanned-aircraft ban. Those restrictions had ended by 21 November 2026. They were promulgated by AIP Supplement and on eSUA, were not listed on CAD’s standing SUA publications page, and are not a Cap. 448G amending order and not part of the standing G.N. series. See [Official status](tracker.qmd) and [Timeline](dates.qmd#date-2026-11-17-temp-rfz-apec).
+
+Cap. 448G ss.2, 18, 19; G.N. 4991, 7132, 7133, 5133, 5134 as listed on CAD sua_new; GIA, 13 November 2026 (temporary Zone A / Zone B only). See Enclosed area; [CAD](#cad).
 
 **Smart low-altitude traffic management (智能低空交通管理系統)**
 
